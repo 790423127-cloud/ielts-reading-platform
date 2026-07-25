@@ -29,6 +29,20 @@ export type SubmissionRequest = {
   elapsedSeconds: number;
 };
 
+export type BandEstimate = {
+  eligible: boolean;
+  rawScore: number;
+  outOf: number;
+  estimatedBand?: number;
+  displayBand?: string;
+  nextBand?: number;
+  nextBandMinimumScore?: number;
+  questionsToNextBand?: number;
+  isOfficialResult: false;
+  noticeZh?: string;
+  version?: string;
+};
+
 export type SubmittedQuestionReview = {
   questionId: string;
   correct: boolean;
@@ -43,5 +57,6 @@ export type SubmissionResult = {
   correctCount: number;
   totalQuestions: number;
   band: number | null;
+  bandEstimate?: BandEstimate;
   reviews: SubmittedQuestionReview[];
 };
