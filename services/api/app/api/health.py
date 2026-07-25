@@ -37,5 +37,10 @@ def health() -> HealthResponse:
             "questionBankMigrated": True,
             "questionBankHashGuard": True,
             "realTestParityCases": True,
+            "examWorkbench": True,
+            "serverScoredSubmission": True,
+            "fullMockTimer": True,
+            "localDraftRestore": True,
+            "sessionHistory": True,
         },
     )
