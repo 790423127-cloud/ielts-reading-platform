@@ -1,0 +1,13 @@
+{
+  "name": "ielts-reading-platform",
+  "private": true,
+  "packageManager": "pnpm@10.13.1",
+  "scripts": {
+    "dev:web": "pnpm --dir apps/web dev",
+    "build:web": "pnpm --dir apps/web build",
+    "typecheck:web": "pnpm --dir apps/web typecheck",
+    "test:web": "pnpm --dir apps/web test",
+    "dev:api": "uvicorn app.main:app --reload --app-dir services/api --port 8000",
+    "test:api": "pytest services/api/tests -q"
+  }
+}
