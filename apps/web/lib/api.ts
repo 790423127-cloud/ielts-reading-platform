@@ -95,7 +95,7 @@ export type ScoringResult = {
   accuracy: number;
   total_elapsed_seconds: number;
   exam_mode: string;
-  part_numbers: number[];
+  part_numbers?: number[];
   part_results: Array<{ part_number: number; title: string; score: number; total: number; accuracy: number }>;
   question_results: QuestionResult[];
   wrong_questions: QuestionResult[];
@@ -103,6 +103,10 @@ export type ScoringResult = {
   estimated_gt_reading_band?: number;
   band_estimate: BandEstimate;
   timed_out?: boolean;
+  skill_id?: string;
+  skill_label?: string;
+  source_question_refs?: string[];
+  source_policy?: string;
 };
 export type SessionEnvelope = {
   session_id: string;
@@ -131,6 +135,72 @@ export type SubmitSessionPayload = {
   exam_mode: "study" | "part_practice" | "mock_exam";
   part_numbers: number[];
   timed_out?: boolean;
+};
+
+export type WrongReviewItem = QuestionResult & {
+  source_session_id: string;
+  source_test_id: string;
+  attempted_at: string;
+  wrong_count: number;
+  correct_streak_after_wrong: number;
+  latest_result: "correct" | "wrong";
+  last_attempt_at: string;
+  method_course_id: string;
+  recommended_skill_id: string;
+  recommended_skill_label: string;
+  mastery_rule: string;
+};
+
+export type MethodCourse = {
+  id: string;
+  kind: "foundation" | "subtype";
+  subtype?: string;
+  title: string;
+  objective: string;
+  steps: string[];
+  traps: string[];
+  checklist: string[];
+};
+
+export type AbilitySkill = {
+  id: string;
+  label: string;
+  objective: string;
+  subtype_ids: string[];
+  source_policy: string;
+  available_questions: number;
+};
+export type AbilityQuestionItem = {
+  ref_id: string;
+  test_id: string;
+  test_title: string;
+  part_number: number;
+  original_question_id: string;
+  skill_id: string;
+  passage: {
+    part_number: number;
+    title: string;
+    article_title: string;
+    subtitle: string;
+    paragraphs: PassageParagraph[];
+  };
+  group: PublicQuestionGroup;
+};
+export type AbilitySet = {
+  id: string;
+  skill: Omit<AbilitySkill, "available_questions" | "source_policy">;
+  items: AbilityQuestionItem[];
+  total_available: number;
+  next_cursor: number;
+  source_policy: "verified_question_bank_only";
+};
+export type AbilitySubmitPayload = {
+  user_id?: string;
+  client_submission_id: string;
+  skill_id: string;
+  question_refs: string[];
+  answers: Record<string, string | string[]>;
+  elapsed_seconds: number;
 };
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000";
@@ -188,4 +258,36 @@ export async function fetchSession(sessionId: string, userId = "owner", signal?:
     `/api/v1/sessions/${encodeURIComponent(sessionId)}?user_id=${encodeURIComponent(userId)}`,
     { signal }
   );
+}
+
+export async function fetchWrongQuestions(userId = "owner", signal?: AbortSignal): Promise<WrongReviewItem[]> {
+  const data = await apiJson<{ items: WrongReviewItem[] }>(
+    `/api/v1/review/wrong-questions?user_id=${encodeURIComponent(userId)}&limit=500`,
+    { signal }
+  );
+  return data.items;
+}
+
+export async function fetchMethodCourses(signal?: AbortSignal): Promise<MethodCourse[]> {
+  const data = await apiJson<{ items: MethodCourse[] }>("/api/v1/methods", { signal });
+  return data.items;
+}
+
+export async function fetchAbilitySkills(signal?: AbortSignal): Promise<AbilitySkill[]> {
+  const data = await apiJson<{ items: AbilitySkill[] }>("/api/v1/ability/skills", { signal });
+  return data.items;
+}
+
+export async function generateAbilitySet(skillId: string, count = 8, cursor = 0): Promise<AbilitySet> {
+  return apiJson<AbilitySet>("/api/v1/ability/generate", {
+    method: "POST",
+    body: JSON.stringify({ skill_id: skillId, count, cursor })
+  });
+}
+
+export async function submitAbilitySet(payload: AbilitySubmitPayload): Promise<SessionEnvelope> {
+  return apiJson<SessionEnvelope>("/api/v1/ability/submit", {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
 }
