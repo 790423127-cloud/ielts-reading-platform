@@ -20,7 +20,21 @@ jobs:
         with:
           node-version: 22
       - run: pnpm install --no-frozen-lockfile
-      - run: pnpm typecheck:web
+      - name: Capture TypeScript diagnostics
+        id: typecheck
+        continue-on-error: true
+        run: pnpm typecheck:web 2>&1 | tee typecheck-diagnostic.log
+      - name: Upload TypeScript diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: typecheck-diagnostic
+          path: typecheck-diagnostic.log
+          if-no-files-found: error
+          retention-days: 1
+      - name: Fail on TypeScript errors
+        if: steps.typecheck.outcome == 'failure'
+        run: exit 1
       - run: pnpm test:web
       - run: pnpm build:web
 
