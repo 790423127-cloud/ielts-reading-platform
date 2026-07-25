@@ -83,7 +83,7 @@ export default function WrongReviewCenter() {
       {loading ? <div className="review-empty">正在读取练习记录…</div> : filtered.length ? (
         <div className="wrong-review-list">
           {filtered.map((item) => (
-            <article className="wrong-review-card" key={`${item.source_session_id}-${item.question_id}`}>
+            <article className="wrong-review-card" key={`${item.source_session_id}-${item.id}`}>
               <div className="wrong-review-head">
                 <div>
                   <span>Q{item.number} · {item.question_type}</span>
