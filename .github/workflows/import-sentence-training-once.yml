@@ -1,0 +1,57 @@
+name: import-sentence-training-once
+
+on:
+  push:
+    branches:
+      - agent/learning-plan-sentences
+    paths:
+      - .github/workflows/import-sentence-training-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    env:
+      ARTIFACT_URL: 'https://sdmntprnznorth.oaiusercontent.com/files/00000000-6d18-820b-a665-2cc64d187015/raw?se=2026-07-25T22:00:40Z&sp=r&sv=2026-02-06&sr=b&scid=8f00d585-0189-5e67-a71a-e887c1d7d779&skoid=d5627e4c-566b-4761-a954-54993b0ed17b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-07-25T08:00:13Z&ske=2026-07-27T08:00:13Z&sks=b&skv=2026-02-06&sig=VCY9UpV4%2BNMC4cBp22GOqnMiGDmEzXMzXI2krGAxX9Q%3D'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/learning-plan-sentences
+      - name: Download and import exact verified sentence-training bytes
+        run: |
+          curl -fL --retry 3 "$ARTIFACT_URL" -o /tmp/sentence-training-export.zip
+          rm -rf /tmp/sentence-training-export
+          mkdir -p /tmp/sentence-training-export
+          unzip -q /tmp/sentence-training-export.zip -d /tmp/sentence-training-export
+          rm -rf services/api/data/sentence-training
+          mkdir -p services/api/data/sentence-training
+          cp /tmp/sentence-training-export/index.json services/api/data/sentence-training/index.json
+          cp /tmp/sentence-training-export/migration_manifest.json services/api/data/sentence-training/migration_manifest.json
+          python - <<'PY'
+          from __future__ import annotations
+          import hashlib
+          import json
+          from pathlib import Path
+
+          root = Path('services/api/data/sentence-training')
+          raw = (root / 'index.json').read_bytes()
+          manifest = json.loads((root / 'migration_manifest.json').read_text('utf-8'))
+          data = json.loads(raw.decode('utf-8'))
+          assert manifest['file'] == 'index.json'
+          assert len(raw) == manifest['bytes']
+          assert hashlib.sha256(raw).hexdigest() == manifest['sha256']
+          assert data['version'] == 1
+          assert len(data['items']) == manifest['item_count']
+          assert all(item['status'] == 'verified' for item in data['items'])
+          print({'items': manifest['item_count'], 'sha256': manifest['sha256']})
+          PY
+      - name: Commit imported verified sentence bank
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add services/api/data/sentence-training
+          git commit -m "无损迁入审核长难句训练题库并记录哈希"
+          git push origin HEAD:agent/learning-plan-sentences
