@@ -1,0 +1,46 @@
+name: import-scoring-oracle-once
+
+on:
+  push:
+    branches:
+      - agent/import-46-question-bank
+    paths:
+      - .github/workflows/import-scoring-oracle-once.yml
+
+permissions:
+  contents: write
+
+jobs:
+  import:
+    if: github.actor != 'github-actions[bot]'
+    runs-on: ubuntu-latest
+    env:
+      ARTIFACT_URL: 'https://sdmntprnznorth.oaiusercontent.com/files/00000000-ca8c-820b-8b56-f0946888c503/raw?se=2026-07-25T20:56:15Z&sp=r&sv=2026-02-06&sr=b&scid=175d61c0-7005-5853-99d5-33e1633a44c2&skoid=d5627e4c-566b-4761-a954-54993b0ed17b&sktid=a48cca56-e6da-484e-a814-9c849652bcb3&skt=2026-07-25T08:09:24Z&ske=2026-07-27T08:09:24Z&sks=b&skv=2026-02-06&sig=eT7P02UXaC5XCbdGeTdtii8Phzp9dkkIaAj51ggO90w%3D'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: agent/import-46-question-bank
+      - name: Import legacy scoring reference
+        run: |
+          curl -fL --retry 3 "$ARTIFACT_URL" -o /tmp/question-bank-oracle.zip
+          mkdir -p /tmp/question-bank-oracle
+          unzip -q /tmp/question-bank-oracle.zip -d /tmp/question-bank-oracle
+          mkdir -p services/api/tests/fixtures
+          cp /tmp/question-bank-oracle/legacy_scoring_reference.json services/api/tests/fixtures/legacy_scoring_reference.json
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          path = Path('services/api/tests/fixtures/legacy_scoring_reference.json')
+          data = json.loads(path.read_text('utf-8'))
+          assert len(data['tests']) == 46
+          assert data['scenario_names'] == ['official', 'blank', 'mixed']
+          assert sum(len(item['scenarios']) for item in data['tests']) == 138
+          print({'tests': 46, 'scenarios': 138})
+          PY
+      - name: Commit scoring oracle
+        run: |
+          git config user.name github-actions[bot]
+          git config user.email 41898282+github-actions[bot]@users.noreply.github.com
+          git add services/api/tests/fixtures/legacy_scoring_reference.json
+          git commit -m "加入46套真实题旧系统评分基准"
+          git push origin HEAD:agent/import-46-question-bank
