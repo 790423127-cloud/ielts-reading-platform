@@ -5,8 +5,11 @@ import os
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
+from app.api.ability import router as ability_router
 from app.api.health import router as health_router
+from app.api.methods import router as methods_router
 from app.api.question_bank import router as question_bank_router
+from app.api.review import router as review_router
 from app.api.sessions import router as sessions_router
 from app.core.config import settings
 
@@ -36,6 +39,9 @@ def create_app() -> FastAPI:
     application.include_router(health_router, prefix="/api/v1")
     application.include_router(question_bank_router, prefix="/api/v1")
     application.include_router(sessions_router, prefix="/api/v1")
+    application.include_router(review_router, prefix="/api/v1")
+    application.include_router(methods_router, prefix="/api/v1")
+    application.include_router(ability_router, prefix="/api/v1")
     return application
 
 
