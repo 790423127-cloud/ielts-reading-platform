@@ -14,3 +14,8 @@ __pycache__/
 .DS_Store
 *.sqlite3
 *.db
+
+# Verified IELTS source materials stay in private storage and must never be
+# committed to this public application repository.
+services/api/data/question-bank/
+!services/api/data/question-bank/.gitkeep
