@@ -128,7 +128,6 @@ class SQLiteSessionRepository:
                 if row:
                     return self._from_row(row, replay=True)
                 raise
-
         return StoredSession(
             id=session_id,
             user_id=clean_user_id,
@@ -146,3 +145,14 @@ class SQLiteSessionRepository:
                 (user_id, session_id),
             ).fetchone()
         return self._from_row(row, replay=False) if row else None
+
+    def list_recent(self, *, user_id: str, limit: int = 20) -> list[StoredSession]:
+        clean_user_id = user_id.strip()
+        bounded_limit = max(1, min(int(limit), 100))
+        with self._connect() as connection:
+            rows = connection.execute(
+                "SELECT * FROM sessions WHERE user_id = ? "
+                "ORDER BY created_at DESC LIMIT ?",
+                (clean_user_id, bounded_limit),
+            ).fetchall()
+        return [self._from_row(row, replay=False) for row in rows]
