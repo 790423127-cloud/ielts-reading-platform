@@ -105,9 +105,7 @@ def submit(payload: AbilitySubmitRequest) -> SessionEnvelope:
             skill_id=payload.skill_id,
             question_refs=payload.question_refs,
         )
-    except KeyError as error:
-        raise HTTPException(status_code=404, detail="Ability skill not found") from error
-    except (ValueError, QuestionBankNotReadyError) as error:
+    except (KeyError, ValueError, QuestionBankNotReadyError) as error:
         raise HTTPException(
             status_code=400,
             detail={"code": "invalid_ability_set", "message": str(error)},
@@ -129,6 +127,9 @@ def submit(payload: AbilitySubmitRequest) -> SessionEnvelope:
         exam_mode="ability",
         total_elapsed_seconds=payload.elapsed_seconds,
     )
+    result["part_numbers"] = [
+        int(row.get("part_number") or 0) for row in result.get("part_results") or []
+    ]
     result["skill_id"] = payload.skill_id
     result["skill_label"] = SKILL_BY_ID[payload.skill_id].label
     result["source_question_refs"] = list(payload.question_refs)
