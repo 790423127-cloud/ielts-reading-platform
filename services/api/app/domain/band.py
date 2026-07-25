@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from typing import Any
 
-VERSION = "2.1.3-parity"
+VERSION = "2.1.3"
 SOURCE_NAME = "IELTS scoring in detail"
 SOURCE_URL = "https://ielts.org/take-a-test/your-results/ielts-scoring-in-detail"
 
