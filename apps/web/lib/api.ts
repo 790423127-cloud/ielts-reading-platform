@@ -95,7 +95,7 @@ export type ScoringResult = {
   accuracy: number;
   total_elapsed_seconds: number;
   exam_mode: string;
-  part_numbers?: number[];
+  part_numbers: number[];
   part_results: Array<{ part_number: number; title: string; score: number; total: number; accuracy: number }>;
   question_results: QuestionResult[];
   wrong_questions: QuestionResult[];
