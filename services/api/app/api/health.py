@@ -42,5 +42,11 @@ def health() -> HealthResponse:
             "fullMockTimer": True,
             "localDraftRestore": True,
             "sessionHistory": True,
+            "wrongQuestionReview": True,
+            "fixedMethodCourses": True,
+            "abilityTraining": True,
+            "verifiedQuestionOnly": True,
+            "methodCourseAI": False,
+            "voiceFeatures": False,
         },
     )

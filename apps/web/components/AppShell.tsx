@@ -8,6 +8,8 @@ const NAV_ITEMS = [
   { href: "/", label: "学习总览" },
   { href: "/practice", label: "题库与考试" },
   { href: "/review", label: "错题复盘" },
+  { href: "/methods", label: "做题方法" },
+  { href: "/ability", label: "能力训练" },
   { href: "/plan", label: "学习计划" },
   { href: "/sentences", label: "长难句" }
 ] as const;
@@ -31,7 +33,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
             );
           })}
         </nav>
-        <div className="migration-badge"><span />旧站保持可用<br />新版逐项对照迁移</div>
+        <div className="migration-badge"><span />46套题库已迁移<br />真实判分对照保持全绿</div>
       </aside>
       <main className="page-stage">{children}</main>
     </div>
