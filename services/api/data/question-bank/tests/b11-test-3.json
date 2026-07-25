@@ -1,0 +1,3094 @@
+{
+  "id": "b11-test-3",
+  "book": "剑雅11",
+  "book_number": 11,
+  "name": "Test 3",
+  "title": "剑雅11 Test 3",
+  "parts": [
+    {
+      "id": "2099",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Summer activities at London's Kew Gardens",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Climb up to the walkway among the trees, 18 metres above the ground, for a spectacular experience.Feel as tall as the trees and enjoy a bird's-eye view over the gardens.",
+          "translation": "爬上18米高的树间步道，体验壮观的场景。\n感觉自己像树一样高大，俯瞰花园的全景。\n爬上树间的步道，离地18米，获得壮观的体验。\n感觉像树一样高大，并享受俯瞰花园的鸟瞰视角。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The Nash Conservatory displays stunning images from leading wildlife photographer Heather Angel.Each photograph explores the wealth of biodiversity at Kew Gardens, from foxes to birds, tiny insects to towering trees.",
+          "translation": "纳什温室展出了著名野生动物摄影师希瑟·安吉尔的惊艳照片。\n每张照片都展现了邱园丰富的生物多样性，从狐狸到鸟类，从微小的昆虫到高耸的树木。\n纳什温室展出了著名野生动物摄影师希瑟·安吉尔令人叹为观止的摄影作品。\n每张照片都探索了邱园丰富的生物多样性，从狐狸到鸟类，从微小的昆虫到参天大树。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "A world of pollination comes to life in the Princess of Wales Conservatory. Find yourself in a tropical environment whilst walking through clouds of colourful butterflies as they fly around the Conservatory! Come face-to-face with gigantic sculptures of insects, birds and bats, which will help tell the fascinating stories of how they interact with plants.",
+          "translation": "在威尔士王妃温室中，传粉的世界变得生动起来。\n置身于热带环境中，穿行在温室里飞舞的五彩蝴蝶群中！\n与巨大的昆虫、鸟类和蝙蝠雕塑面对面，它们将讲述与植物互动的迷人故事。\n在威尔士王妃温室中，一个充满授粉的世界栩栩如生。\n置身于热带环境中，漫步于成群飞舞的彩色蝴蝶之中，它们环绕着温室翩跹！\n与巨大的昆虫、鸟类和蝙蝠雕塑面对面，这些雕塑将生动讲述它们与植物之间互动的迷人故事。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "An extraordinary sound installation created by Chris Watson.On the hour throughout the day, the Palm House is filled with the sound of the dawn and dusk choruses of birds that live in the Central and South American rainforests.",
+          "translation": "由克里斯·沃森创作的非凡声音装置。\n每天整点时分，棕榈屋中回荡着中美洲和南美洲雨林鸟类黎明和黄昏的合唱声。\n一个由克里斯·沃森创作的非凡声音装置。\n全天每到整点，棕榈屋内都会充满生活在中南美洲雨林中的鸟类在黎明和黄昏时的合唱声。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Come and see the fantastic outdoor exhibition of garden, wildlife and botanical photography. Walk amongst enlarged photographs and admire the wonderful garden photos - all taken by children aged 16 and under from all round the country.if you are in this age category and fancy yourself as a photographer, then you can enter for the next show!",
+          "translation": "来欣赏这场精彩的户外展览，展示花园、野生动物和植物摄影作品。\n穿行于放大的照片之间，欣赏这些精美的花园照片——均由来自全国各地的16岁及以下儿童拍摄。\n如果你属于这个年龄段并自认为是摄影师，那么你可以参加下一场展览！\n快来参观这场精彩绝伦的户外展览，展出内容包括花园、野生动植物及植物摄影作品。\n徜徉在放大的照片之间，欣赏这些美妙的园艺摄影作品——它们全部由来自全国各地的16岁及以下儿童拍摄。\n如果你属于这个年龄段，并且自认为是一名摄影师，那么你可以报名参加下一届展览！"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Young explorers can discover the new children's outdoor play area, shaped like a plant, in Kew's magical Conservation Area.As you journey through this interactive landscape, discover the functions of every part of a plant.Tunnel through giant roots, get lost among the leaves and hide amongst the large fungi, whilst solving puzzles along the way!",
+          "translation": "年幼的探险家可以在邱园神奇的保护区中发现新的儿童户外游乐区，其形状像一株植物。\n在这个互动景观中穿行时，探索植物每个部分的功能。\n穿过巨大的根系，迷失在叶片间，藏在大型真菌中，同时沿途解决谜题！\n年轻的探险家们可以在邱园迷人的保护区内发现一个全新的儿童户外游乐区，其形状宛如一株植物。\n当你穿梭于这个互动景观之中时，可以探索植物每个部分的功能。\n穿越巨大的根系，迷失在叶片之间，躲藏于大型真菌之中，同时沿途解决谜题！"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "What is biodiversity all about? Did you know that every breath we take and every move we make depends on plants? Take a guided tour to discover what biodiversity means and why it matters so much.",
+          "translation": "生物多样性到底是什么？\n你知道我们每一次呼吸和每一个行动都依赖于植物吗？\n参加导览之旅，了解生物多样性的含义及其为何如此重要。\n生物多样性究竟是什么？\n你是否知道，我们每一次呼吸和每一个动作都依赖于植物？\n参加一次导览游，去发现生物多样性的含义以及它为何如此重要。\n生物多样性到底指的是什么？\n你知道吗，我们每一次呼吸和每一个动作都依赖于植物？\n参加一次导览游，去探索生物多样性的含义以及它为何如此重要。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Visit our exciting and colourful exhibition of South American botanical paintings,which brings the continent's exotic and lush plants to life in works from two hundred years ago and from this century.",
+          "translation": "参观我们激动人心、色彩斑斓的南美洲植物画展，这些作品来自两百年前和本世纪，将南美洲异国风情且茂盛的植物栩栩如生地展现出来。\n参观我们激动人心且色彩缤纷的南美植物绘画展，该展览通过来自两百年前及本世纪的作品，将这片大陆上奇特而茂盛的植物栩栩如生地呈现在眼前。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "City Park and Ride",
+          "question_cue": {
+            "start": 7,
+            "end": 14
+          },
+          "translation": "城市停车换乘系统"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "We have six purpose-built Park and Ride sites serving the city, more than almost anywhere else in the UK.Established for over 40 years, they provide around 5,000 parking spaces for cars. The sites are located on the main routes into the city centre.More than 3,000,000 passengers a year take a bus from a Park and Ride site into the city, reducing congestion and helping to improve the air quality in the city centre.",
+          "translation": "我们拥有六个专门建造的停车换乘站服务该市，数量超过英国几乎任何其他地方。\n这些站点已运营超过40年，提供约5000个汽车停车位。\n这些站点位于通往市中心的主要路线上。\n每年有超过300万乘客从停车换乘站乘巴士进入市区，减少了拥堵，并有助于改善市中心空气质量。\n我们有六个专门建造的停车场换乘站点服务于该城市，其数量超过英国几乎任何其他地区。\n这些站点已建立超过40年，为汽车提供约5000个停车位。\n每年有超过300万乘客从停车场换乘站点乘坐公交车进入城市，这减少了拥堵，并有助于改善市中心的空气质量。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Parking at the sites is available only for those travelling from the site on a Park and Ride or other scheduled bus service, and is free.No overnight parking is permitted.Heavy goods vehicles are not permitted at the Park and Ride site at any time.",
+          "translation": "这些站点的停车位仅提供给从该站乘坐停车换乘巴士或其他常规巴士服务的乘客，且免费。\n不允许过夜停车。\n任何时间都不允许重型货车进入停车换乘站。\n这些停车场的停车位仅提供给从该地点乘坐停车换乘服务或其他定时巴士服务的旅客，并且是免费的。\n在任何时候，重型货车都不允许进入停车换乘场地。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "It’s simple to use. Just park your car and buy your bus ticket from the bus driver, with the correct money if possible. An individual adult daily return purchased prior to 12:30 hrs for use that day costs ￡2.40.If purchased after 12:30 hrs it costs ￡2.10.",
+          "translation": "使用起来很简单。\n只需停好车，然后从巴士司机那里购买车票，尽量备好零钱。\n个人成人当日往返票，在12:30之前购买费用为2.40英镑。\n如果在12:30之后购买，费用为2.10英镑。\n只需停好车，然后从公交车司机那里购买车票，最好备好零钱。\n如果在12:30之前购买当天的个人成人当日往返票，价格为2.40英镑。\n如果在12:30之后购买，则价格为2.10英镑。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Up to four children under 16 travel free with an adult or concessionary pass holder. The return fare for unaccompanied children under 16 is ￡1.10.",
+          "translation": "最多四名16岁以下儿童可与一名成人或优惠通行证持有者免费同行。\n无人陪伴的16岁以下儿童往返票价为1.10英镑。\n最多四名16岁以下儿童可随一名成人或优惠通行证持有者免费乘车。\n无成人陪同的16岁以下儿童的往返票价为1.10英镑。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Cycle and Ride for just ￡1.10 a day. Just park your cycle,motorcycle or scooter in the allocated space,and buy your ticket from the site office. You may be asked to provide evidence that you have travelled to the Park and Ride site by cycle, motorcycle or scooter.",
+          "translation": "自行车换乘服务每天仅需1.10英镑。\n只需将自行车、摩托车或踏板车停放在指定区域，并从站点办公室购买车票。\n你可能需要提供证据，证明你是骑自行车、摩托车或踏板车到达停车换乘站的。\n每天仅需1.10英镑即可骑行并乘坐公共交通工具。\n只需将您的自行车、摩托车或滑板车停放在指定的空间内，并从站点办公室购买车票。\n您可能会被要求提供您通过自行车、摩托车或滑板车前往停车换乘站点的证据。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Return tickets for concessionary bus pass holders cost ￡1 after 09:30 Monday to Friday and anytime at weekend or bank holidays (when open).At other times there is no reduction for holders of concessionary bus passes.",
+          "translation": "优惠巴士通行证持有者的往返票，周一至周五09:30后及周末或银行假日（如开放）任何时间费用为1英镑。\n在其他时间，优惠巴士通行证持有者不享受折扣。\n持优惠公交车票的乘客，在周一至周五上午9:30之后以及周末或银行假日（当天开放）的任何时间，往返票价为1英镑。\n在其他时间段，持优惠公交车票的乘客无法享受折扣。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15823",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 6\nThe text has eight sections, A-H.\nWhich sections contain the following information?\nWrite the correct letter, A-H, in boxes 1-6 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120567",
+              "number": 1,
+              "prompt": "learning what all the different sections of a plant do",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干中的“learning what all the different sections of a plant do”对应F段中“Young explorers can discover... the functions of every part of a plant”。其中“sections of a plant”与“every part of a plant”为同义表达，“learning”对应“discover”，且F段详细描述了通过互动景观了解植物各部分功能的体验，因此答案为F。",
+              "reason": "题干中的‘learning what all the different sections of a plant do’与F段‘discover the functions of every part of a plant’对应。",
+              "location_analysis": "F段提到‘discover the functions of every part of a ...",
+              "paraphrasing": "all the different sections of a plant do -> the functions of every part of a plant",
+              "keywords": "sections of a plant",
+              "evidence": [
+                "As you journey through this interactive landscape, discover the functions of every part of a plant."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120568",
+              "number": 2,
+              "prompt": "seeing art showing plants from a different part of the world",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "题干“seeing art showing plants from a different part of the world”对应H段“exhibition of South American botanical paintings”，其中“art”对应“paintings”，“different part of the world”具体化为“South American”，且该段明确提到展览呈现南美异域植物，因此答案为H。",
+              "reason": "题干中的‘seeing art showing plants from a different part of the world’与H段‘exhibition of South American botanical paintings’对应。",
+              "location_analysis": "H段描述南美植物绘画展，对应题干。",
+              "paraphrasing": "seeing art showing plants from a different part of the world -> exhibition of South American botanical paintings",
+              "keywords": "art, plants, different part of the world",
+              "evidence": [
+                "Visit our exciting and colourful exhibition of South American botanical paintings,which brings the continent's exotic and lush plants to life in works from two hundred years ago and from this century."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120569",
+              "number": 3,
+              "prompt": "the possibility of having your work exhibited",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干“the possibility of having your work exhibited”对应E段末句“if you are in this age category... you can enter for the next show!”，其中“your work”指16岁以下青少年拍摄的园艺摄影作品，“exhibited”对应“enter for the next show”，表明有机会参展，因此答案为E。",
+              "reason": "题干中的‘the possibility of having your work exhibited’与E段‘you can enter for the next show’对应。",
+              "location_analysis": "E段提到16岁以下儿童可参展下一届，对应题干。",
+              "paraphrasing": "the possibility of having your work exhibited -> if you are in this age category ... you can enter for the next show",
+              "keywords": "your work exhibited",
+              "evidence": [
+                "if you are in this age category and fancy yourself as a photographer, then you can enter for the next show!"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120570",
+              "number": 4,
+              "prompt": "learning about why human beings need plants",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干“learning about why human beings need plants”对应G段“Did you know that every breath we take and every move we make depends on plants?”，其中“human beings need plants”被具体阐释为人类呼吸与行动皆依赖植物，且该段以引导式提问引出生物多样性的重要性，因此答案为G。",
+              "reason": "题干中的‘learning about why human beings need plants’与G段‘every breath we take and every move we make depends on plants’对应。",
+              "location_analysis": "G段提出人类依赖植物，对应题干。",
+              "paraphrasing": "learning about why human beings need plants -> did you know that every breath we take and every move we make depends on plants?",
+              "keywords": "human beings need plants",
+              "evidence": [
+                "What is biodiversity all about? Did you know that every breath we take and every move we make depends on plants?"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120571",
+              "number": 5,
+              "prompt": "something that happens daily at the same times",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干“something that happens daily at the same times”对应D段“On the hour throughout the day, the Palm House is filled with the sound...”，其中“at the same times”即整点（on the hour），“daily”对应“throughout the day”，描述声音装置每日定时播放雨林鸟鸣，因此答案为D。",
+              "reason": "题干中的‘something that happens daily at the same times’与D段‘On the hour throughout the day’对应。",
+              "location_analysis": "D段提到整点播放声音，对应题干。",
+              "paraphrasing": "something that happens daily at the same times -> On the hour throughout the day",
+              "keywords": "daily, same times",
+              "evidence": [
+                "On the hour throughout the day, the Palm House is filled with the sound of the dawn and dusk choruses of birds that live in the Central and South American rainforests."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120572",
+              "number": 6,
+              "prompt": "learning about the relationship between various creatures, insects and plants",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“learning about the relationship between various creatures, insects and plants”对应C段“gigantic sculptures of insects, birds and bats... tell the fascinating stories of how they interact with plants”，其中“relationship”体现为“interact with plants”，且明确列出昆虫、鸟类和蝙蝠等生物，因此答案为C。",
+              "reason": "题干中的‘learning about the relationship between various creatures, insects and plants’与C段‘how they interact with plants’对应。",
+              "location_analysis": "C段描述昆虫、鸟类、蝙蝠与植物的互动，对应题干。",
+              "paraphrasing": "learning about the relationship between various creatures, insects and plants -> how they interact with plants",
+              "keywords": "relationship, creatures, insects, plants",
+              "evidence": [
+                "Come face-to-face with gigantic sculptures of insects, birds and bats, which will help tell the fascinating stories of how they interact with plants."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15825",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 7 - 14\nDo the following statements agree with the information given in Reading Passage 3?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120573",
+              "number": 7,
+              "prompt": "This was one of the first UK cities to introduce a Park and Ride scheme.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“这是英国最早引入Park and Ride的城市之一”，但原文仅说明“拥有六个站点，数量多于英国几乎所有其他地方”并“已运营40多年”，并未提及是否属于“首批”或“最早”，缺乏时间上的比较信息，因此答案为NOT GIVEN。",
+              "reason": "未提及是否是首批城市之一。",
+              "location_analysis": "原文说数量多于其他地方，但未提是否最早，信息不足。",
+              "paraphrasing": "one of the first UK cities -> more than almost anywhere else (not specified first)",
+              "keywords": "first UK cities, Park and Ride",
+              "evidence": [
+                "We have six purpose-built Park and Ride sites serving the city, more than almost anywhere else in the UK.",
+                "Established for over 40 years, they provide around 5,000 parking spaces for cars."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及该城市是否为率先引入Park and Ride scheme的英国城市之一，属于无中生有。",
+                "FALSE": "原文未提供任何信息表明该城市并非首批引入该计划的城市，无法判断真假。"
+              }
+            },
+            {
+              "id": "120574",
+              "number": 8,
+              "prompt": "The amount of congestion in the city centre has fallen.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干“市中心拥堵程度已下降”对应原文“reducing congestion and helping to improve the air quality in the city centre”，其中“reducing congestion”直接表明交通拥堵正在减少，与题干陈述一致，因此答案为TRUE。",
+              "reason": "文中‘reducing congestion’直接对应题干‘the amount of congestion ... has fallen’。",
+              "location_analysis": "明确说Park and Ride‘reducing congestion’，与题干一致。",
+              "paraphrasing": "the amount of congestion ... has fallen -> reducing congestion",
+              "keywords": "congestion, city centre, fallen",
+              "evidence": [
+                "More than 3,000,000 passengers a year take a bus from a Park and Ride site into the city, reducing congestion and helping to improve the air quality in the city centre."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确表明拥堵减少，与题干一致，因此该选项错误。",
+                "NOT GIVEN": "原文已明确提及拥堵减少，信息存在，并非未提及，因此该选项错误。"
+              }
+            },
+            {
+              "id": "120575",
+              "number": 9,
+              "prompt": "There is a special section of the car park for heavy goods vehicles.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“停车场设有重型货车专用区域”，但原文明确指出“Heavy goods vehicles are not permitted at the Park and Ride site at any time”，即完全禁止重型车辆进入，与题干所述存在专用区域相矛盾，因此答案为FALSE。",
+              "reason": "题干说‘a special section for heavy goods vehicles’，但原文说‘not permitted at any time’，矛盾。",
+              "location_analysis": "原文禁止重型车辆，与题干矛盾。",
+              "paraphrasing": "a special section of the car park -> Heavy goods vehicles are not permitted ... at any time",
+              "keywords": "heavy goods vehicles",
+              "evidence": [
+                "Heavy goods vehicles are not permitted at the Park and Ride site at any time."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文中提到了卡车的停车区域，但并未说明是重型货车的专用区域，与题干不符。",
+                "NOT GIVEN": "原文明确提到了相关信息，因此该选项不成立。"
+              }
+            },
+            {
+              "id": "120576",
+              "number": 10,
+              "prompt": "Bus drivers do not give change so you must have the correct money for a ticket.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“司机不找零，必须自备正确零钱”，但原文仅建议“with the correct money if possible”（如有可能请备好正确零钱），并未说明司机绝对不找零，题干将建议表述为强制规定，与原文不符，因此答案为FALSE。",
+              "reason": "原文‘with the correct money if possible’是建议，未说司机不找零，题干表述绝对化。",
+              "location_analysis": "原文建议准备正确零钱，但未说司机不找零，题干说‘do not give change’无依据。",
+              "paraphrasing": "Bus drivers do not give change -> buy your bus ticket from the bus driver, with the correct money if possible",
+              "keywords": "correct money",
+              "evidence": [
+                "Just park your car and buy your bus ticket from the bus driver, with the correct money if possible."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "选项与原文内容矛盾，原文并未说明司机不找零钱。",
+                "NOT GIVEN": "题干信息在原文中明确提及，并非未给出。"
+              }
+            },
+            {
+              "id": "120577",
+              "number": 11,
+              "prompt": "Ticket prices vary depending on the time of day.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干“票价因一天中不同时间而异”对应原文成人往返票“12:30前购买为￡2.40，之后为￡2.10”，明确显示票价随购票时间变化，此外优惠票也有时段限制，因此答案为TRUE。",
+              "reason": "原文显示不同时段票价不同，对应题干。",
+              "location_analysis": "原文明确票价因时间不同，与题干一致。",
+              "paraphrasing": "Ticket prices vary depending on the time of day -> If purchased after 12:30 hrs it costs ￡2.10",
+              "keywords": "Ticket prices, time of day",
+              "evidence": [
+                "An individual adult daily return purchased prior to 12:30 hrs for use that day costs ￡2.40.If purchased after 12:30 hrs it costs ￡2.10."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到票价随一天中的不同时间而变化，因此该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文直接给出了票价变化的明确信息，并非未提及，因此该选项不符合原文情况。"
+              }
+            },
+            {
+              "id": "120578",
+              "number": 12,
+              "prompt": "Children under 16 travelling alone are allowed free travel.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“16岁以下独自出行儿童可免费乘车”，但原文明确说明“The return fare for unaccompanied children under 16 is ￡1.10”，即需付费，与题干“free travel”直接矛盾，因此答案为FALSE。",
+              "reason": "原文规定无人陪伴儿童需付费，题干说‘free travel’，矛盾。",
+              "location_analysis": "原文说无人陪伴需付费1.10英镑，与题干矛盾。",
+              "paraphrasing": "Children under 16 travelling alone are allowed free travel -> The return fare for unaccompanied children under 16 is ￡1.10",
+              "keywords": "children under 16, travelling alone, free",
+              "evidence": [
+                "The return fare for unaccompanied children under 16 is ￡1.10."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，因为原文明确表示16岁以下独自旅行的儿童不享受免费旅行。",
+                "NOT GIVEN": "原文明确给出了相关信息（不允许免费），因此该选项属于有明确答案的情况，不是未提及。"
+              }
+            },
+            {
+              "id": "120579",
+              "number": 13,
+              "prompt": "The space for cycles, motorcycles and scooters is close to the site office.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“自行车、摩托车和踏板车停车位靠近站点办公室”，但原文仅说明“在指定区域停车，并从站点办公室购票”，未提及停车区与办公室之间的距离或位置关系，缺乏相关信息，因此答案为NOT GIVEN。",
+              "reason": "未提及距离远近。",
+              "location_analysis": "原文说在分配空间停车后去办公室买票，未提距离。",
+              "paraphrasing": "close to site office -> buy ticket from site office (no distance info)",
+              "keywords": "space, cycles, close to site office",
+              "evidence": [
+                "Just park your cycle,motorcycle or scooter in the allocated space,and buy your ticket from the site office."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及该空间靠近现场办公室，因此无法判断为真。",
+                "FALSE": "原文未提及相关信息，无法证明该说法错误，因此不能判断为假。"
+              }
+            },
+            {
+              "id": "120580",
+              "number": 14,
+              "prompt": "People with concessionary bus passes must pay the full fare to travel atcertain times.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干“持优惠公交卡者在某些时段必须支付全价”对应原文“At other times there is no reduction for holders of concessionary bus passes”，其中“no reduction”即无折扣，等同于支付全价，且明确限定时间为“周一至周五09:30前”，因此答案为TRUE。",
+              "reason": "原文‘no reduction’即在某些时段需付全价，对应题干。",
+              "location_analysis": "原文说明在某些时段无优惠，即需付全价，与题干一致。",
+              "paraphrasing": "must pay the full fare to travel at certain times -> At other times there is no reduction for holders of concessionary bus passes",
+              "keywords": "concessionary bus passes, full fare, certain times",
+              "evidence": [
+                "At other times there is no reduction for holders of concessionary bus passes."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确说明持优惠卡者需在某些时间付全价，与题干一致，因此FALSE错误。",
+                "NOT GIVEN": "原文明确给出了该信息，并非未提及，因此NOT GIVEN错误。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Summer activities at London's Kew Gardens",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "Climb up to the walkway among the trees, 18 metres above the ground, for a spectacular experience.",
+          "translation": "爬上18米高的树间步道，体验壮观的场景。"
+        },
+        {
+          "index": 3,
+          "sentence": "Feel as tall as the trees and enjoy a bird's-eye view over the gardens.",
+          "translation": "感觉自己像树一样高大，俯瞰花园的全景。"
+        },
+        {
+          "index": 5,
+          "sentence": "The Nash Conservatory displays stunning images from leading wildlife photographer Heather Angel.",
+          "translation": "纳什温室展出了著名野生动物摄影师希瑟·安吉尔的惊艳照片。"
+        },
+        {
+          "index": 6,
+          "sentence": "Each photograph explores the wealth of biodiversity at Kew Gardens, from foxes to birds, tiny insects to towering trees.",
+          "translation": "每张照片都展现了邱园丰富的生物多样性，从狐狸到鸟类，从微小的昆虫到高耸的树木。"
+        },
+        {
+          "index": 8,
+          "sentence": "A world of pollination comes to life in the Princess of Wales Conservatory.",
+          "translation": "在威尔士王妃温室中，传粉的世界变得生动起来。"
+        },
+        {
+          "index": 9,
+          "sentence": "Find yourself in a tropical environment whilst walking through clouds of colourful butterflies as they fly around the Conservatory!",
+          "translation": "置身于热带环境中，穿行在温室里飞舞的五彩蝴蝶群中！"
+        },
+        {
+          "index": 10,
+          "sentence": "Come face-to-face with gigantic sculptures of insects, birds and bats, which will help tell the fascinating stories of how they interact with plants.",
+          "translation": "与巨大的昆虫、鸟类和蝙蝠雕塑面对面，它们将讲述与植物互动的迷人故事。"
+        },
+        {
+          "index": 12,
+          "sentence": "An extraordinary sound installation created by Chris Watson.",
+          "translation": "由克里斯·沃森创作的非凡声音装置。"
+        },
+        {
+          "index": 13,
+          "sentence": "On the hour throughout the day, the Palm House is filled with the sound of the dawn and dusk choruses of birds that live in the Central and South American rainforests.",
+          "translation": "每天整点时分，棕榈屋中回荡着中美洲和南美洲雨林鸟类黎明和黄昏的合唱声。"
+        },
+        {
+          "index": 15,
+          "sentence": "Come and see the fantastic outdoor exhibition of garden, wildlife and botanical photography.",
+          "translation": "来欣赏这场精彩的户外展览，展示花园、野生动物和植物摄影作品。"
+        },
+        {
+          "index": 16,
+          "sentence": "Walk amongst enlarged photographs and admire the wonderful garden photos - all taken by children aged 16 and under from all round the country.",
+          "translation": "穿行于放大的照片之间，欣赏这些精美的花园照片——均由来自全国各地的16岁及以下儿童拍摄。"
+        },
+        {
+          "index": 17,
+          "sentence": "if you are in this age category and fancy yourself as a photographer, then you can enter for the next show!",
+          "translation": "如果你属于这个年龄段并自认为是摄影师，那么你可以参加下一场展览！"
+        },
+        {
+          "index": 19,
+          "sentence": "Young explorers can discover the new children's outdoor play area, shaped like a plant, in Kew's magical Conservation Area.",
+          "translation": "年幼的探险家可以在邱园神奇的保护区中发现新的儿童户外游乐区，其形状像一株植物。"
+        },
+        {
+          "index": 20,
+          "sentence": "As you journey through this interactive landscape, discover the functions of every part of a plant.",
+          "translation": "在这个互动景观中穿行时，探索植物每个部分的功能。"
+        },
+        {
+          "index": 21,
+          "sentence": "Tunnel through giant roots, get lost among the leaves and hide amongst the large fungi, whilst solving puzzles along the way!",
+          "translation": "穿过巨大的根系，迷失在叶片间，藏在大型真菌中，同时沿途解决谜题！"
+        },
+        {
+          "index": 23,
+          "sentence": "What is biodiversity all about?",
+          "translation": "生物多样性到底是什么？"
+        },
+        {
+          "index": 24,
+          "sentence": "Did you know that every breath we take and every move we make depends on plants?",
+          "translation": "你知道我们每一次呼吸和每一个行动都依赖于植物吗？"
+        },
+        {
+          "index": 25,
+          "sentence": "Take a guided tour to discover what biodiversity means and why it matters so much.",
+          "translation": "参加导览之旅，了解生物多样性的含义及其为何如此重要。"
+        },
+        {
+          "index": 27,
+          "sentence": "Visit our exciting and colourful exhibition of South American botanical paintings,which brings the continent's exotic and lush plants to life in works from two hundred years ago and from this century.",
+          "translation": "参观我们激动人心、色彩斑斓的南美洲植物画展，这些作品来自两百年前和本世纪，将南美洲异国风情且茂盛的植物栩栩如生地展现出来。"
+        },
+        {
+          "index": 28,
+          "sentence": "City Park and Ride",
+          "translation": "城市停车换乘系统"
+        },
+        {
+          "index": 29,
+          "sentence": "We have six purpose-built Park and Ride sites serving the city, more than almost anywhere else in the UK.",
+          "translation": "我们拥有六个专门建造的停车换乘站服务该市，数量超过英国几乎任何其他地方。"
+        },
+        {
+          "index": 30,
+          "sentence": "Established for over 40 years, they provide around 5,000 parking spaces for cars.",
+          "translation": "这些站点已运营超过40年，提供约5000个汽车停车位。"
+        },
+        {
+          "index": 31,
+          "sentence": "The sites are located on the main routes into the city centre.",
+          "translation": "这些站点位于通往市中心的主要路线上。"
+        },
+        {
+          "index": 32,
+          "sentence": "More than 3,000,000 passengers a year take a bus from a Park and Ride site into the city, reducing congestion and helping to improve the air quality in the city centre.",
+          "translation": "每年有超过300万乘客从停车换乘站乘巴士进入市区，减少了拥堵，并有助于改善市中心空气质量。"
+        },
+        {
+          "index": 33,
+          "sentence": "Parking at the sites is available only for those travelling from the site on a Park and Ride or other scheduled bus service, and is free.",
+          "translation": "这些站点的停车位仅提供给从该站乘坐停车换乘巴士或其他常规巴士服务的乘客，且免费。"
+        },
+        {
+          "index": 34,
+          "sentence": "No overnight parking is permitted.",
+          "translation": "不允许过夜停车。"
+        },
+        {
+          "index": 35,
+          "sentence": "Heavy goods vehicles are not permitted at the Park and Ride site at any time.",
+          "translation": "任何时间都不允许重型货车进入停车换乘站。"
+        },
+        {
+          "index": 36,
+          "sentence": "It’s simple to use.",
+          "translation": "使用起来很简单。"
+        },
+        {
+          "index": 37,
+          "sentence": "Just park your car and buy your bus ticket from the bus driver, with the correct money if possible.",
+          "translation": "只需停好车，然后从巴士司机那里购买车票，尽量备好零钱。"
+        },
+        {
+          "index": 38,
+          "sentence": "An individual adult daily return purchased prior to 12:30 hrs for use that day costs ￡2.40.",
+          "translation": "个人成人当日往返票，在12:30之前购买费用为2.40英镑。"
+        },
+        {
+          "index": 39,
+          "sentence": "If purchased after 12:30 hrs it costs ￡2.10.",
+          "translation": "如果在12:30之后购买，费用为2.10英镑。"
+        },
+        {
+          "index": 40,
+          "sentence": "Up to four children under 16 travel free with an adult or concessionary pass holder.",
+          "translation": "最多四名16岁以下儿童可与一名成人或优惠通行证持有者免费同行。"
+        },
+        {
+          "index": 41,
+          "sentence": "The return fare for unaccompanied children under 16 is ￡1.10.",
+          "translation": "无人陪伴的16岁以下儿童往返票价为1.10英镑。"
+        },
+        {
+          "index": 42,
+          "sentence": "Cycle and Ride for just ￡1.10 a day.",
+          "translation": "自行车换乘服务每天仅需1.10英镑。"
+        },
+        {
+          "index": 43,
+          "sentence": "Just park your cycle,motorcycle or scooter in the allocated space,and buy your ticket from the site office.",
+          "translation": "只需将自行车、摩托车或踏板车停放在指定区域，并从站点办公室购买车票。"
+        },
+        {
+          "index": 44,
+          "sentence": "You may be asked to provide evidence that you have travelled to the Park and Ride site by cycle, motorcycle or scooter.",
+          "translation": "你可能需要提供证据，证明你是骑自行车、摩托车或踏板车到达停车换乘站的。"
+        },
+        {
+          "index": 45,
+          "sentence": "Return tickets for concessionary bus pass holders cost ￡1 after 09:30 Monday to Friday and anytime at weekend or bank holidays (when open).",
+          "translation": "优惠巴士通行证持有者的往返票，周一至周五09:30后及周末或银行假日（如开放）任何时间费用为1英镑。"
+        },
+        {
+          "index": 46,
+          "sentence": "At other times there is no reduction for holders of concessionary bus passes.",
+          "translation": "在其他时间，优惠巴士通行证持有者不享受折扣。"
+        },
+        {
+          "index": 47,
+          "sentence": "Climb up to the walkway among the trees, 18 metres above the ground, for a spectacular experience.",
+          "translation": "爬上树间的步道，离地18米，获得壮观的体验。"
+        },
+        {
+          "index": 48,
+          "sentence": "Feel as tall as the trees and enjoy a bird's-eye view over the gardens.",
+          "translation": "感觉像树一样高大，并享受俯瞰花园的鸟瞰视角。"
+        },
+        {
+          "index": 50,
+          "sentence": "The Nash Conservatory displays stunning images from leading wildlife photographer Heather Angel.",
+          "translation": "纳什温室展出了著名野生动物摄影师希瑟·安吉尔令人叹为观止的摄影作品。"
+        },
+        {
+          "index": 51,
+          "sentence": "Each photograph explores the wealth of biodiversity at Kew Gardens, from foxes to birds, tiny insects to towering trees.",
+          "translation": "每张照片都探索了邱园丰富的生物多样性，从狐狸到鸟类，从微小的昆虫到参天大树。"
+        },
+        {
+          "index": 53,
+          "sentence": "A world of pollination comes to life in the Princess of Wales Conservatory.",
+          "translation": "在威尔士王妃温室中，一个充满授粉的世界栩栩如生。"
+        },
+        {
+          "index": 54,
+          "sentence": "Find yourself in a tropical environment whilst walking through clouds of colourful butterflies as they fly around the Conservatory!",
+          "translation": "置身于热带环境中，漫步于成群飞舞的彩色蝴蝶之中，它们环绕着温室翩跹！"
+        },
+        {
+          "index": 55,
+          "sentence": "Come face-to-face with gigantic sculptures of insects, birds and bats, which will help tell the fascinating stories of how they interact with plants.",
+          "translation": "与巨大的昆虫、鸟类和蝙蝠雕塑面对面，这些雕塑将生动讲述它们与植物之间互动的迷人故事。"
+        },
+        {
+          "index": 57,
+          "sentence": "An extraordinary sound installation created by Chris Watson.",
+          "translation": "一个由克里斯·沃森创作的非凡声音装置。"
+        },
+        {
+          "index": 58,
+          "sentence": "On the hour throughout the day, the Palm House is filled with the sound of the dawn and dusk choruses of birds that live in the Central and South American rainforests.",
+          "translation": "全天每到整点，棕榈屋内都会充满生活在中南美洲雨林中的鸟类在黎明和黄昏时的合唱声。"
+        },
+        {
+          "index": 60,
+          "sentence": "Come and see the fantastic outdoor exhibition of garden, wildlife and botanical photography.",
+          "translation": "快来参观这场精彩绝伦的户外展览，展出内容包括花园、野生动植物及植物摄影作品。"
+        },
+        {
+          "index": 61,
+          "sentence": "Walk amongst enlarged photographs and admire the wonderful garden photos - all taken by children aged 16 and under from all round the country.",
+          "translation": "徜徉在放大的照片之间，欣赏这些美妙的园艺摄影作品——它们全部由来自全国各地的16岁及以下儿童拍摄。"
+        },
+        {
+          "index": 62,
+          "sentence": "if you are in this age category and fancy yourself as a photographer, then you can enter for the next show!",
+          "translation": "如果你属于这个年龄段，并且自认为是一名摄影师，那么你可以报名参加下一届展览！"
+        },
+        {
+          "index": 64,
+          "sentence": "Young explorers can discover the new children's outdoor play area, shaped like a plant, in Kew's magical Conservation Area.",
+          "translation": "年轻的探险家们可以在邱园迷人的保护区内发现一个全新的儿童户外游乐区，其形状宛如一株植物。"
+        },
+        {
+          "index": 65,
+          "sentence": "As you journey through this interactive landscape, discover the functions of every part of a plant.",
+          "translation": "当你穿梭于这个互动景观之中时，可以探索植物每个部分的功能。"
+        },
+        {
+          "index": 66,
+          "sentence": "Tunnel through giant roots, get lost among the leaves and hide amongst the large fungi, whilst solving puzzles along the way!",
+          "translation": "穿越巨大的根系，迷失在叶片之间，躲藏于大型真菌之中，同时沿途解决谜题！"
+        },
+        {
+          "index": 68,
+          "sentence": "What is biodiversity all about?",
+          "translation": "生物多样性究竟是什么？"
+        },
+        {
+          "index": 69,
+          "sentence": "Did you know that every breath we take and every move we make depends on plants?",
+          "translation": "你是否知道，我们每一次呼吸和每一个动作都依赖于植物？"
+        },
+        {
+          "index": 70,
+          "sentence": "Take a guided tour to discover what biodiversity means and why it matters so much.",
+          "translation": "参加一次导览游，去发现生物多样性的含义以及它为何如此重要。"
+        },
+        {
+          "index": 71,
+          "sentence": "What is biodiversity all about?",
+          "translation": "生物多样性到底指的是什么？"
+        },
+        {
+          "index": 72,
+          "sentence": "Did you know that every breath we take and every move we make depends on plants?",
+          "translation": "你知道吗，我们每一次呼吸和每一个动作都依赖于植物？"
+        },
+        {
+          "index": 73,
+          "sentence": "Take a guided tour to discover what biodiversity means and why it matters so much.",
+          "translation": "参加一次导览游，去探索生物多样性的含义以及它为何如此重要。"
+        },
+        {
+          "index": 75,
+          "sentence": "Visit our exciting and colourful exhibition of South American botanical paintings,which brings the continent's exotic and lush plants to life in works from two hundred years ago and from this century.",
+          "translation": "参观我们激动人心且色彩缤纷的南美植物绘画展，该展览通过来自两百年前及本世纪的作品，将这片大陆上奇特而茂盛的植物栩栩如生地呈现在眼前。"
+        },
+        {
+          "index": 76,
+          "sentence": "City Park and Ride",
+          "translation": "城市停车换乘系统"
+        },
+        {
+          "index": 77,
+          "sentence": "We have six purpose-built Park and Ride sites serving the city, more than almost anywhere else in the UK.",
+          "translation": "我们有六个专门建造的停车场换乘站点服务于该城市，其数量超过英国几乎任何其他地区。"
+        },
+        {
+          "index": 78,
+          "sentence": "Established for over 40 years, they provide around 5,000 parking spaces for cars.",
+          "translation": "这些站点已建立超过40年，为汽车提供约5000个停车位。"
+        },
+        {
+          "index": 79,
+          "sentence": "The sites are located on the main routes into the city centre.",
+          "translation": "这些站点位于通往市中心的主要路线上。"
+        },
+        {
+          "index": 80,
+          "sentence": "More than 3,000,000 passengers a year take a bus from a Park and Ride site into the city, reducing congestion and helping to improve the air quality in the city centre.",
+          "translation": "每年有超过300万乘客从停车场换乘站点乘坐公交车进入城市，这减少了拥堵，并有助于改善市中心的空气质量。"
+        },
+        {
+          "index": 81,
+          "sentence": "Parking at the sites is available only for those travelling from the site on a Park and Ride or other scheduled bus service, and is free.",
+          "translation": "这些停车场的停车位仅提供给从该地点乘坐停车换乘服务或其他定时巴士服务的旅客，并且是免费的。"
+        },
+        {
+          "index": 82,
+          "sentence": "No overnight parking is permitted.",
+          "translation": "不允许过夜停车。"
+        },
+        {
+          "index": 83,
+          "sentence": "Heavy goods vehicles are not permitted at the Park and Ride site at any time.",
+          "translation": "在任何时候，重型货车都不允许进入停车换乘场地。"
+        },
+        {
+          "index": 84,
+          "sentence": "It’s simple to use.",
+          "translation": "使用起来很简单。"
+        },
+        {
+          "index": 85,
+          "sentence": "Just park your car and buy your bus ticket from the bus driver, with the correct money if possible.",
+          "translation": "只需停好车，然后从公交车司机那里购买车票，最好备好零钱。"
+        },
+        {
+          "index": 86,
+          "sentence": "An individual adult daily return purchased prior to 12:30 hrs for use that day costs ￡2.40.",
+          "translation": "如果在12:30之前购买当天的个人成人当日往返票，价格为2.40英镑。"
+        },
+        {
+          "index": 87,
+          "sentence": "If purchased after 12:30 hrs it costs ￡2.10.",
+          "translation": "如果在12:30之后购买，则价格为2.10英镑。"
+        },
+        {
+          "index": 88,
+          "sentence": "Up to four children under 16 travel free with an adult or concessionary pass holder.",
+          "translation": "最多四名16岁以下儿童可随一名成人或优惠通行证持有者免费乘车。"
+        },
+        {
+          "index": 89,
+          "sentence": "The return fare for unaccompanied children under 16 is ￡1.10.",
+          "translation": "无成人陪同的16岁以下儿童的往返票价为1.10英镑。"
+        },
+        {
+          "index": 90,
+          "sentence": "Cycle and Ride for just ￡1.10 a day.",
+          "translation": "每天仅需1.10英镑即可骑行并乘坐公共交通工具。"
+        },
+        {
+          "index": 91,
+          "sentence": "Just park your cycle,motorcycle or scooter in the allocated space,and buy your ticket from the site office.",
+          "translation": "只需将您的自行车、摩托车或滑板车停放在指定的空间内，并从站点办公室购买车票。"
+        },
+        {
+          "index": 92,
+          "sentence": "You may be asked to provide evidence that you have travelled to the Park and Ride site by cycle, motorcycle or scooter.",
+          "translation": "您可能会被要求提供您通过自行车、摩托车或滑板车前往停车换乘站点的证据。"
+        },
+        {
+          "index": 93,
+          "sentence": "Return tickets for concessionary bus pass holders cost ￡1 after 09:30 Monday to Friday and anytime at weekend or bank holidays (when open).",
+          "translation": "持优惠公交车票的乘客，在周一至周五上午9:30之后以及周末或银行假日（当天开放）的任何时间，往返票价为1英镑。"
+        },
+        {
+          "index": 94,
+          "sentence": "At other times there is no reduction for holders of concessionary bus passes.",
+          "translation": "在其他时间段，持优惠公交车票的乘客无法享受折扣。"
+        }
+      ]
+    },
+    {
+      "id": "2100",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "HOW TO ORGANISE A SUCCESSFUL BUSINESS CONFERENCE",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "To start with",
+          "translation": "首先"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Advance planning is the key to a hassle-free conference.The key players of a successful conference are the delegates, so identify the audience and then tailor the programme you are planning to their particular needs.",
+          "translation": "提前规划是会议顺利进行的关键。\n一场成功会议的核心参与者是与会代表，因此要明确目标听众，然后根据他们的具体需求来调整你所策划的议程。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Where and when",
+          "translation": "时间和地点"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The date and venue should then be chosen.These are often interdependent,and when choosing the date take into account the timing of similar regular events which may clash. Also consider holiday periods which may mean that people are away and so will not be able to attend.",
+          "translation": "随后应确定日期和场地。\n这两者往往相互依存，选择日期时需考虑可能冲突的其他类似常规活动的时间安排。\n同时还需考虑假期，因为假期可能意味着人们外出，从而无法参会。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "When choosing a venue, check how easy it is to reach by train and plane etc.and the availability of parking for those driving.Visit the venue personally: consider the size of the main lecture hall and whether it is big enough for the anticipated number of delegates,then look into the potential of having breakout areas for separating into a number of groups for discussions.Then check whether there is a suitable lounge area for the tea/coffee breaks and an exhibition space for display stands if required.",
+          "translation": "在选择场地时，检查其乘坐火车和飞机等的便捷程度，以及为驾车者提供的停车设施。\n亲自参观场地：考虑主礼堂的大小是否足以容纳预期的参会人数，然后研究是否有设置分组讨论区的可能性，以便将参会者分成若干小组进行讨论。\n然后检查是否有合适的休息区用于茶歇/咖啡休息，以及是否需要展览空间来放置展示架。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Who",
+          "translation": "谁来参加"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "The next stage is to choose the speakers and invite them, making sure you give them ample notice so they are more likely to be available.Ask only those people that you know speak well. Do not try and speak yourself in addition to organising the conference,as this will be too demanding.",
+          "translation": "下一阶段是选择演讲者并邀请他们，确保你提前充分通知他们，这样他们更有可能有空参加。\n只邀请那些你了解其演讲能力出色的人。\n不要在组织会议的同时还试图自己发言，因为这会要求过高。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Contacting people",
+          "translation": "联系参会人员"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Let people know the date and venue by an early mailshot.This allows them, if they are interested, to put the date into their diaries.At the same time, contact all the speakers again, confirming their particular topic, the audio-visual aids which will be available and finding out their accommodation requirements.Ask them to provide a written summary of their presentation for distribution to delegates at the conference.",
+          "translation": "通过早期邮件通知让人们知道日期和场地。\n这使他们如果感兴趣的话，能够将日期记入日程表中。\n同时，再次联系所有演讲者，确认他们的具体主题、可用的视听设备，并了解他们的住宿需求。\n要求他们提供演讲的书面摘要，以便在会议期间分发给与会代表。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Final arrangements",
+          "translation": "最终安排"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Approximately 4-5 weeks before the conference, confirm the provisional numbers with the venue.Contact them again about two weeks prior to the conference to confirm final numbers,decide on menus and finalise the arrangements.",
+          "translation": "在会议召开前大约四到五周，与场地确认初步人数。\n在会议开始前大约两周再次联系他们，确认最终人数、决定菜单并敲定所有安排。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Prepare delegate packs to include a name badge, delegate list and programme.The venue should provide pads of paper and pens. Then prepare questionnaires for all delegates to complete at the end of the conference.Their responses will enable you to gauge the success of the conference and start planning the next one!",
+          "translation": "准备参会者资料包，其中应包含姓名牌、参会者名单和会议议程。\n会议场地应提供便签纸和笔。\n然后准备问卷调查表，供所有参会者在会议结束时填写。\n他们的反馈将帮助你评估会议的成功程度，并开始规划下一次会议！"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "How to deal with the annual performance appraisal",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "如何处理年度绩效评估"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "The annual performance appraisal can help improve your productivity and provide a foundation for your work priorities.It is, however, critical to have the right attitude and approach.",
+          "translation": "年度绩效评估有助于提高你的工作效率，并为你的工作重点提供基础。\n然而，拥有正确的态度和方法至关重要。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Knowing what areas your superiors see as your weaknesses is the most direct way of increasing the likelihood of being considered for promotion, if that is what you are looking for.",
+          "translation": "了解你的上级认为你在哪些方面存在不足，是增加被考虑晋升可能性的最直接方式——如果这正是你所追求的目标。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Preparation",
+          "translation": "准备工作"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Send your boss a summary of your achievements.Reminding your boss of activities, special assignments you did, and projects you were in charge of helps him or her create a more accurate performance appraisal.Consider keeping notes of these on a regular basis to make it easier to provide the data when required.",
+          "translation": "向你的上司发送一份你的成就总结。\n提醒上司你参与过的活动、完成的特殊任务以及负责的项目，有助于他或她制定出更准确的绩效评估。\n考虑定期记录这些内容，以便在需要时更容易提供相关数据。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Create a list of questions you would like to discuss during your appraisal. This one-on-one time with your boss is an excellent opportunity to ask him or her about your role in the company,request any additional responsibilities you would like and clarify your priorities.But it is best to focus your attention around personal and professional improvements, rather than financial considerations, such as an increase in salary.",
+          "translation": "列出你希望在绩效评估中讨论的问题清单。\n与上司单独相处的这段时间是绝佳的机会，可以向其询问你在公司中的角色、主动要求承担额外的职责，并明确你的工作重点。\n但最好将注意力集中在个人和职业发展上，而非薪资增加等财务方面的考量。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "During the appraisal",
+          "translation": "在评估期间"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "Present a positive attitude as soon as you enter the appraisal room.This approach may lead to a more constructive discussion of review items.Avoid taking any negative assessments that are offered as a personal attack, but rather try to take them on board calmly, because if you put the failings right you will improve your performance.A realistic assessment of your strengths and weaknesses can be one of the most beneficial ways of helping you advance in the company.",
+          "translation": "一进入评估室，就展现出积极的态度。\n这种态度可能带来更具建设性的评审项目讨论。\n不要将任何负面评价视为人身攻击，而是冷静地接受它们，因为如果你纠正了这些不足，就能提升自身表现。\n对自身优劣势的现实评估，可能是帮助你在公司内取得进步的最有益方式之一。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "After the appraisal",
+          "translation": "评估结束后"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Create a list of personal goals based on your performance appraisal. Make the items detailed and measurable if possible.Send this list to your boss so he or she knows you took the appraisal seriously. Use this list to help achieve higher scores on your next performance appraisal.",
+          "translation": "根据你的绩效评估制定一份个人目标清单。\n如果可能的话，确保这些条目详细且可衡量。\n将这份清单发送给你的上司，以便他或她知道你认真对待了评估。\n利用这份清单帮助你在下一次绩效评估中获得更高的评分。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Six months after the appraisal, ask for a mid-term review with your boss to discuss your progress.This session should be more relaxed and informal than the official review. Ask for more feedback to help you improve. Checking in with your boss helps him or her remember your dedication as far as your job is concerned, and may help remove any criticisms before they become a review point on your next formal appraisal.",
+          "translation": "评估结束后\n评估结束六个月后，主动要求与老板进行一次中期回顾，以讨论你的进展。\n这次会议应比正式评估更加轻松和非正式。\n请求获得更多反馈以帮助你提升。\n与老板保持沟通有助于他/她记住你对工作的投入，并可能在批评成为下一次正式评估的考核点之前将其消除。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15834",
+          "type": 8,
+          "title": "ORGANISING A BUSINESS CONFERENCE",
+          "instructions": "Questions 15 - 20\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120581",
+              "number": 15,
+              "prompt": "- try to avoid scheduling the conference during _____ times or when other annual conferences occur",
+              "options": [],
+              "answer": "holiday",
+              "accepted_answers": [
+                "holiday"
+              ],
+              "analysis": "题干中的“avoid scheduling the conference during ___ times”对应原文中的“consider holiday periods which may mean that people are away and so will not be able to attend”，其中“holiday periods”被简化为“holiday”，符合题目要求填写一个单词，且语义完全匹配。",
+              "reason": "原文明确提到holiday periods导致人们无法出席，与题干avoid scheduling对应。",
+              "location_analysis": "根据原文'holiday periods'，应填入holiday。",
+              "paraphrasing": "avoid scheduling -> take into account/cannot attend; holiday periods -> holiday",
+              "keywords": "conference, holiday, annual conferences",
+              "evidence": [
+                "Also consider holiday periods which may mean that people are away and so will not be able to attend."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120582",
+              "number": 16,
+              "prompt": "- choose a place with a large hall and also _____ spaces for smaller meetings",
+              "options": [],
+              "answer": "breakout",
+              "accepted_answers": [
+                "breakout"
+              ],
+              "analysis": "题干中提到“choose a place with... spaces for smaller meetings”，而原文指出“look into the potential of having breakout areas for separating into a number of groups for discussions”，其中“breakout areas”正是用于小组讨论的空间，因此答案为“breakout”。",
+              "reason": "题干描述'for smaller meetings'与'for discussions'一致。",
+              "location_analysis": "原文'breakout areas'对应'group discussions'，即答案。",
+              "paraphrasing": "spaces for smaller meetings -> breakout areas for discussions",
+              "keywords": "breakout areas, smaller meetings",
+              "evidence": [
+                "then look into the potential of having breakout areas for separating into a number of groups for discussions."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120583",
+              "number": 17,
+              "prompt": "- give the speakers as much _____ as possible",
+              "options": [],
+              "answer": "notice",
+              "accepted_answers": [
+                "notice"
+              ],
+              "analysis": "题干要求填写“give the speakers as much ___ as possible”，原文中明确提到“making sure you give them ample notice so they are more likely to be available”，“ample notice”即指提前充分通知，因此答案为“notice”。",
+              "reason": "题干与原文一致。",
+              "location_analysis": "原文'ample notice'直接对应题干。",
+              "paraphrasing": "as much notice as possible -> ample notice",
+              "keywords": "speakers, notice",
+              "evidence": [
+                "The next stage is to choose the speakers and invite them, making sure you give them ample notice so they are more likely to be available."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120584",
+              "number": 18,
+              "prompt": "- confirm individual details with speakers, check if they will need accommodation and request a _____ of their presentation",
+              "options": [],
+              "answer": "summary",
+              "accepted_answers": [
+                "summary"
+              ],
+              "analysis": "题干中“request a ___ of their presentation”对应原文中的“Ask them to provide a written summary of their presentation for distribution to delegates”，“written summary”简化为“summary”，符合题目仅填一个词的要求。",
+              "reason": "题干与摘要相关。",
+              "location_analysis": "原文'provide a written summary'对应题干request。",
+              "paraphrasing": "request a summary -> provide a written summary",
+              "keywords": "speakers, summary",
+              "evidence": [
+                "Ask them to provide a written summary of their presentation for distribution to delegates at the conference."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120585",
+              "number": 19,
+              "prompt": "- make sure each person attending receives information about the conference and a _____ for identification",
+              "options": [],
+              "answer": "badge",
+              "accepted_answers": [
+                "badge"
+              ],
+              "analysis": "题干中“a ___ for identification”对应原文“Prepare delegate packs to include a name badge”，其中“name badge”用于参会者身份识别，因此答案为“badge”，准确对应题干的“identification”功能。",
+              "reason": "name badge用于识别身份。",
+              "location_analysis": "原文'name badge'对应题干'for identification'。",
+              "paraphrasing": "identification -> name badge",
+              "keywords": "identification, badge",
+              "evidence": [
+                "Prepare delegate packs to include a name badge, delegate list and programme."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120586",
+              "number": 20,
+              "prompt": "- use _____ to get opinions on the conference",
+              "options": [],
+              "answer": "questionnaires",
+              "accepted_answers": [
+                "questionnaires"
+              ],
+              "analysis": "题干中“use ___ to get opinions on the conference”对应原文“Then prepare questionnaires for all delegates to complete at the end of the conference. Their responses will enable you to gauge the success...”，说明问卷用于收集反馈意见，因此答案为“questionnaires”。",
+              "reason": "题干'opinions on the conference'暗示使用问卷。",
+              "location_analysis": "原文'questionnaires'用于收集意见。",
+              "paraphrasing": "get opinions -> complete questionnaires",
+              "keywords": "opinions, questionnaires",
+              "evidence": [
+                "Then prepare questionnaires for all delegates to complete at the end of the conference."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "First steps:\n- decide who the conference is for\n- ensure the programme fulfils delegates' requirements\nVenue and timing:\n- try to avoid scheduling the conference during $120581$ times or when other annual conferences occur\n- check accessibility by different modes of transport\n- choose a place with a large hall and also $120582$ spaces for smaller meetings\nSpeakers:\n- choose appropriate speakers\n- give the speakers as much $120583$ as possible\nCommunication:\n- send out a mailshot to potential delegates\n- confirm individual details with speakers, check if they will need accommodation and request a $120584$ of their presentation\nFinal tasks:\n- give the venue precise numbers of attendees\n- make sure each person attending receives information about the conference and a $120585$ for identification\n- use $120586$ to get opinions on the conference",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "First steps:\n- decide who the conference is for\n- ensure the programme fulfils delegates' requirements\nVenue and timing:\n- try to avoid scheduling the conference during $120581$ times or when other annual conferences occur\n- check accessibility by different modes of transport\n- choose a place with a large hall and also $120582$ spaces for smaller meetings\nSpeakers:\n- choose appropriate speakers\n- give the speakers as much $120583$ as possible\nCommunication:\n- send out a mailshot to potential delegates\n- confirm individual details with speakers, check if they will need accommodation and request a $120584$ of their presentation\nFinal tasks:\n- give the venue precise numbers of attendees\n- make sure each person attending receives information about the conference and a $120585$ for identification\n- use $120586$ to get opinions on the conference"
+        },
+        {
+          "id": "15836",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 21 - 27\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120587",
+              "number": 21,
+              "prompt": "By learning at an appraisal what areas of work need improving, staff can improve their chances of getting _____.",
+              "options": [],
+              "answer": "promotion",
+              "accepted_answers": [
+                "promotion"
+              ],
+              "analysis": "题干“improve their chances of getting ___”对应原文“increasing the likelihood of being considered for promotion”，其中“promotion”直接对应题干中的“getting ___”，语义一致，因此答案为“promotion”。",
+              "reason": "题干与提升直接相关。",
+              "location_analysis": "原文明确指出'improving performance'可增加提升机会。",
+              "paraphrasing": "getting promotion -> being considered for promotion",
+              "keywords": "appraisal, promotion",
+              "evidence": [
+                "Knowing what areas your superiors see as your weaknesses is the most direct way of increasing the likelihood of being considered for promotion, if that is what you are looking for."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120588",
+              "number": 22,
+              "prompt": "It is important to think of some _____ that can be used during the appraisal.",
+              "options": [],
+              "answer": "questions",
+              "accepted_answers": [
+                "questions"
+              ],
+              "analysis": "题干中“think of some ___ that can be used during the appraisal”对应原文“Create a list of questions you would like to discuss during your appraisal”，说明应提前准备问题用于面谈，因此答案为“questions”。",
+              "reason": "题干对应原文。",
+              "location_analysis": "原文建议'create a list of questions'用于讨论。",
+              "paraphrasing": "think of some questions -> create a list of questions",
+              "keywords": "questions, appraisal",
+              "evidence": [
+                "Create a list of questions you would like to discuss during your appraisal."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120589",
+              "number": 23,
+              "prompt": "The appraisal can be a good time to ask the boss for extra _____.",
+              "options": [],
+              "answer": "responsibilities",
+              "accepted_answers": [
+                "responsibilities"
+              ],
+              "analysis": "题干“ask the boss for extra ___”对应原文“request any additional responsibilities you would like”，其中“additional responsibilities”与“extra responsibilities”为同义替换，因此答案为“responsibilities”。",
+              "reason": "题干同义替换。",
+              "location_analysis": "原文'request any additional responsibilities'直接对应。",
+              "paraphrasing": "extra responsibilities -> additional responsibilities",
+              "keywords": "extra responsibilities",
+              "evidence": [
+                "request any additional responsibilities you would like and clarify your priorities."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120590",
+              "number": 24,
+              "prompt": "React _____ to any criticism.",
+              "options": [],
+              "answer": "calmly",
+              "accepted_answers": [
+                "calmly"
+              ],
+              "analysis": "题干“React ___ to any criticism”对应原文“try to take them on board calmly”，其中“calmly”修饰接受批评的态度，与题干中“react”的副词位置一致，因此答案为“calmly”。",
+              "reason": "副词calmly对应react calmly。",
+              "location_analysis": "原文建议'calmly'接受负面评价。",
+              "paraphrasing": "react calmly -> take them on board calmly",
+              "keywords": "react, calmly",
+              "evidence": [
+                "Avoid taking any negative assessments that are offered as a personal attack, but rather try to take them on board calmly, because if you put the failings right you will improve your performance."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120591",
+              "number": 25,
+              "prompt": "It is helpful to identify a number of individual _____ arising from the appraisal comments.",
+              "options": [],
+              "answer": "goals",
+              "accepted_answers": [
+                "goals"
+              ],
+              "analysis": "题干“identify a number of individual ___ arising from the appraisal comments”对应原文“Create a list of personal goals based on your performance appraisal”，其中“personal goals”与“individual goals”语义一致，因此答案为“goals”。",
+              "reason": "题干与目标相关。",
+              "location_analysis": "原文建议'create a list of personal goals'。",
+              "paraphrasing": "individual goals -> list of personal goals",
+              "keywords": "goals, appraisal",
+              "evidence": [
+                "Create a list of personal goals based on your performance appraisal."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120592",
+              "number": 26,
+              "prompt": "Staff can request a meeting half-way through the year to look at the _____ which has been achieved.",
+              "options": [],
+              "answer": "progress",
+              "accepted_answers": [
+                "progress"
+              ],
+              "analysis": "题干“look at the ___ which has been achieved”对应原文“ask for a mid-term review with your boss to discuss your progress”，其中“progress”指半年内所取得的进展，与题干“achieved”呼应，因此答案为“progress”。",
+              "reason": "题干词progress直接出现。",
+              "location_analysis": "原文提及'mid-term review'讨论'progress'。",
+              "paraphrasing": "progress achieved -> discuss your progress",
+              "keywords": "progress, mid-term review",
+              "evidence": [
+                "Six months after the appraisal, ask for a mid-term review with your boss to discuss your progress."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120593",
+              "number": 27,
+              "prompt": "If staff act on any appraisal comments, they will demonstrate their _____ to their work.",
+              "options": [],
+              "answer": "dedication",
+              "accepted_answers": [
+                "dedication"
+              ],
+              "analysis": "题干“demonstrate their ___ to their work”对应原文“Checking in with your boss helps him or her remember your dedication as far as your job is concerned”，其中“dedication”直接描述员工对工作的投入，因此答案为“dedication”。",
+              "reason": "题干与dedication相关。",
+              "location_analysis": "原文指出'checking in with boss'显示'dedication'。",
+              "paraphrasing": "dedication -> dedication",
+              "keywords": "dedication",
+              "evidence": [
+                "Checking in with your boss helps him or her remember your dedication as far as your job is concerned, and may help remove any criticisms before they become a review point on your next formal appraisal."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "By learning at an appraisal what areas of work need improving, staff can improve their chances of getting $120587$.\nIt is important to think of some $120588$ that can be used during the appraisal.\nThe appraisal can be a good time to ask the boss for extra $120589$.\nReact $120590$ to any criticism.\nIt is helpful to identify a number of individual $120591$ arising from the appraisal comments.\nStaff can request a meeting half-way through the year to look at the $120592$ which has been achieved.\nIf staff act on any appraisal comments, they will demonstrate their $120593$ to their work.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "By learning at an appraisal what areas of work need improving, staff can improve their chances of getting $120587$.\nIt is important to think of some $120588$ that can be used during the appraisal.\nThe appraisal can be a good time to ask the boss for extra $120589$.\nReact $120590$ to any criticism.\nIt is helpful to identify a number of individual $120591$ arising from the appraisal comments.\nStaff can request a meeting half-way through the year to look at the $120592$ which has been achieved.\nIf staff act on any appraisal comments, they will demonstrate their $120593$ to their work."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "HOW TO ORGANISE A SUCCESSFUL BUSINESS CONFERENCE",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "To start with",
+          "translation": "首先"
+        },
+        {
+          "index": 2,
+          "sentence": "Advance planning is the key to a hassle-free conference.",
+          "translation": "提前规划是会议顺利进行的关键。"
+        },
+        {
+          "index": 3,
+          "sentence": "The key players of a successful conference are the delegates, so identify the audience and then tailor the programme you are planning to their particular needs.",
+          "translation": "一场成功会议的核心参与者是与会代表，因此要明确目标听众，然后根据他们的具体需求来调整你所策划的议程。"
+        },
+        {
+          "index": 4,
+          "sentence": "Where and when",
+          "translation": "时间和地点"
+        },
+        {
+          "index": 5,
+          "sentence": "The date and venue should then be chosen.",
+          "translation": "随后应确定日期和场地。"
+        },
+        {
+          "index": 6,
+          "sentence": "These are often interdependent, and when choosing the date take into account the timing of similar regular events which may clash.",
+          "translation": "这两者往往相互依存，选择日期时需考虑可能冲突的其他类似常规活动的时间安排。"
+        },
+        {
+          "index": 7,
+          "sentence": "Also consider holiday periods which may mean that people are away and so will not be able to attend.",
+          "translation": "同时还需考虑假期，因为假期可能意味着人们外出，从而无法参会。"
+        },
+        {
+          "index": 8,
+          "sentence": "When choosing a venue, check how easy it is to reach by train and plane etc.and the availability of parking for those driving.",
+          "translation": "在选择场地时，检查其乘坐火车和飞机等的便捷程度，以及为驾车者提供的停车设施。"
+        },
+        {
+          "index": 9,
+          "sentence": "Visit the venue personally: consider the size of the main lecture hall and whether it is big enough for the anticipated number of delegates,then look into the potential of having breakout areas for separating into a number of groups for discussions.",
+          "translation": "亲自参观场地：考虑主礼堂的大小是否足以容纳预期的参会人数，然后研究是否有设置分组讨论区的可能性，以便将参会者分成若干小组进行讨论。"
+        },
+        {
+          "index": 10,
+          "sentence": "Then check whether there is a suitable lounge area for the tea/coffee breaks and an exhibition space for display stands if required.",
+          "translation": "然后检查是否有合适的休息区用于茶歇/咖啡休息，以及是否需要展览空间来放置展示架。"
+        },
+        {
+          "index": 11,
+          "sentence": "Who",
+          "translation": "谁来参加"
+        },
+        {
+          "index": 12,
+          "sentence": "The next stage is to choose the speakers and invite them, making sure you give them ample notice so they are more likely to be available.",
+          "translation": "下一阶段是选择演讲者并邀请他们，确保你提前充分通知他们，这样他们更有可能有空参加。"
+        },
+        {
+          "index": 13,
+          "sentence": "Ask only those people that you know speak well.",
+          "translation": "只邀请那些你了解其演讲能力出色的人。"
+        },
+        {
+          "index": 14,
+          "sentence": "Do not try and speak yourself in addition to organising the conference, as this will be too demanding.",
+          "translation": "不要在组织会议的同时还试图自己发言，因为这会要求过高。"
+        },
+        {
+          "index": 15,
+          "sentence": "Contacting people",
+          "translation": "联系参会人员"
+        },
+        {
+          "index": 16,
+          "sentence": "Let people know the date and venue by an early mailshot.",
+          "translation": "通过早期邮件通知让人们知道日期和场地。"
+        },
+        {
+          "index": 17,
+          "sentence": "This allows them, if they are interested, to put the date into their diaries.",
+          "translation": "这使他们如果感兴趣的话，能够将日期记入日程表中。"
+        },
+        {
+          "index": 18,
+          "sentence": "At the same time, contact all the speakers again, confirming their particular topic, the audio-visual aids which will be available and finding out their accommodation requirements.",
+          "translation": "同时，再次联系所有演讲者，确认他们的具体主题、可用的视听设备，并了解他们的住宿需求。"
+        },
+        {
+          "index": 19,
+          "sentence": "Ask them to provide a written summary of their presentation for distribution to delegates at the conference.",
+          "translation": "要求他们提供演讲的书面摘要，以便在会议期间分发给与会代表。"
+        },
+        {
+          "index": 20,
+          "sentence": "Final arrangements",
+          "translation": "最终安排"
+        },
+        {
+          "index": 21,
+          "sentence": "Approximately 4-5 weeks before the conference, confirm the provisional numbers with the venue.",
+          "translation": "在会议召开前大约四到五周，与场地确认初步人数。"
+        },
+        {
+          "index": 22,
+          "sentence": "Contact them again about two weeks prior to the conference to confirm final numbers, decide on menus and finalise the arrangements.",
+          "translation": "在会议开始前大约两周再次联系他们，确认最终人数、决定菜单并敲定所有安排。"
+        },
+        {
+          "index": 23,
+          "sentence": "Prepare delegate packs to include a name badge, delegate list and programme.",
+          "translation": "准备参会者资料包，其中应包含姓名牌、参会者名单和会议议程。"
+        },
+        {
+          "index": 24,
+          "sentence": "The venue should provide pads of paper and pens.",
+          "translation": "会议场地应提供便签纸和笔。"
+        },
+        {
+          "index": 25,
+          "sentence": "Then prepare questionnaires for all delegates to complete at the end of the conference.",
+          "translation": "然后准备问卷调查表，供所有参会者在会议结束时填写。"
+        },
+        {
+          "index": 26,
+          "sentence": "Their responses will enable you to gauge the success of the conference and start planning the next one!",
+          "translation": "他们的反馈将帮助你评估会议的成功程度，并开始规划下一次会议！"
+        },
+        {
+          "index": 27,
+          "sentence": "How to deal with the annual performance appraisal",
+          "translation": "如何处理年度绩效评估"
+        },
+        {
+          "index": 28,
+          "sentence": "The annual performance appraisal can help improve your productivity and provide a foundation for your work priorities.",
+          "translation": "年度绩效评估有助于提高你的工作效率，并为你的工作重点提供基础。"
+        },
+        {
+          "index": 29,
+          "sentence": "It is, however, critical to have the right attitude and approach.",
+          "translation": "然而，拥有正确的态度和方法至关重要。"
+        },
+        {
+          "index": 30,
+          "sentence": "Knowing what areas your superiors see as your weaknesses is the most direct way of increasing the likelihood of being considered for promotion, if that is what you are looking for.",
+          "translation": "了解你的上级认为你在哪些方面存在不足，是增加被考虑晋升可能性的最直接方式——如果这正是你所追求的目标。"
+        },
+        {
+          "index": 31,
+          "sentence": "Preparation",
+          "translation": "准备工作"
+        },
+        {
+          "index": 32,
+          "sentence": "Send your boss a summary of your achievements.",
+          "translation": "向你的上司发送一份你的成就总结。"
+        },
+        {
+          "index": 33,
+          "sentence": "Reminding your boss of activities, special assignments you did, and projects you were in charge of helps him or her create a more accurate performance appraisal.",
+          "translation": "提醒上司你参与过的活动、完成的特殊任务以及负责的项目，有助于他或她制定出更准确的绩效评估。"
+        },
+        {
+          "index": 34,
+          "sentence": "Consider keeping notes of these on a regular basis to make it easier to provide the data when required.",
+          "translation": "考虑定期记录这些内容，以便在需要时更容易提供相关数据。"
+        },
+        {
+          "index": 35,
+          "sentence": "Create a list of questions you would like to discuss during your appraisal.",
+          "translation": "列出你希望在绩效评估中讨论的问题清单。"
+        },
+        {
+          "index": 36,
+          "sentence": "This one-on-one time with your boss is an excellent opportunity to ask him or her about your role in the company, request any additional responsibilities you would like and clarify your priorities.",
+          "translation": "与上司单独相处的这段时间是绝佳的机会，可以向其询问你在公司中的角色、主动要求承担额外的职责，并明确你的工作重点。"
+        },
+        {
+          "index": 37,
+          "sentence": "But it is best to focus your attention around personal and professional improvements, rather than financial considerations, such as an increase in salary.",
+          "translation": "但最好将注意力集中在个人和职业发展上，而非薪资增加等财务方面的考量。"
+        },
+        {
+          "index": 38,
+          "sentence": "During the appraisal",
+          "translation": "在评估期间"
+        },
+        {
+          "index": 39,
+          "sentence": "Present a positive attitude as soon as you enter the appraisal room.",
+          "translation": "一进入评估室，就展现出积极的态度。"
+        },
+        {
+          "index": 40,
+          "sentence": "This approach may lead to a more constructive discussion of review items.",
+          "translation": "这种态度可能带来更具建设性的评审项目讨论。"
+        },
+        {
+          "index": 41,
+          "sentence": "Avoid taking any negative assessments that are offered as a personal attack, but rather try to take them on board calmly, because if you put the failings right you will improve your performance.",
+          "translation": "不要将任何负面评价视为人身攻击，而是冷静地接受它们，因为如果你纠正了这些不足，就能提升自身表现。"
+        },
+        {
+          "index": 42,
+          "sentence": "A realistic assessment of your strengths and weaknesses can be one of the most beneficial ways of helping you advance in the company.",
+          "translation": "对自身优劣势的现实评估，可能是帮助你在公司内取得进步的最有益方式之一。"
+        },
+        {
+          "index": 43,
+          "sentence": "After the appraisal",
+          "translation": "评估结束后"
+        },
+        {
+          "index": 44,
+          "sentence": "Create a list of personal goals based on your performance appraisal.",
+          "translation": "根据你的绩效评估制定一份个人目标清单。"
+        },
+        {
+          "index": 45,
+          "sentence": "Make the items detailed and measurable if possible.",
+          "translation": "如果可能的话，确保这些条目详细且可衡量。"
+        },
+        {
+          "index": 46,
+          "sentence": "Send this list to your boss so he or she knows you took the appraisal seriously.",
+          "translation": "将这份清单发送给你的上司，以便他或她知道你认真对待了评估。"
+        },
+        {
+          "index": 47,
+          "sentence": "Use this list to help achieve higher scores on your next performance appraisal.",
+          "translation": "利用这份清单帮助你在下一次绩效评估中获得更高的评分。"
+        },
+        {
+          "index": 48,
+          "sentence": "Six months after the appraisal, ask for a mid-term review with your boss to discuss your progress.",
+          "translation": "评估结束六个月后，主动要求与老板进行一次中期回顾，以讨论你的进展。"
+        },
+        {
+          "index": 49,
+          "sentence": "This session should be more relaxed and informal than the official review.",
+          "translation": "这次会议应比正式评估更加轻松和非正式。"
+        },
+        {
+          "index": 50,
+          "sentence": "Ask for more feedback to help you improve.",
+          "translation": "请求获得更多反馈以帮助你提升。"
+        },
+        {
+          "index": 51,
+          "sentence": "Checking in with your boss helps him or her remember your dedication as far as your job is concerned, and may help remove any criticisms before they become a review point on your next formal appraisal.",
+          "translation": "与老板保持沟通有助于他/她记住你对工作的投入，并可能在批评成为下一次正式评估的考核点之前将其消除。"
+        }
+      ]
+    },
+    {
+      "id": "2101",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Efforts to save a special bird - the spoon-billed sandpiper",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Last year an international team of ornithologists devised a bold plan to rescue one of the world's rarest birds. Gerrit Vyn reports.",
+          "translation": "去年，一个国际鸟类学家团队制定了一项大胆的计划，旨在拯救世界上最珍稀的鸟类之一。\nGerrit Vyn 报道。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "At first glance the spoon-billed sandpiper resembles other small migratory birds of the sandpiper family that breed across the Arctic.But it is the only one to have developed a flattened bill that flares out into a 'spoon' at the end, and that makes it special. If it becomes extinct, thousands of years of evolution will come to an end,which would be a real tragedy.",
+          "translation": "乍一看，勺嘴鹬与其他在北极繁殖的鹬科小型候鸟相似。\n但它是唯一进化出扁平喙且末端扩展成勺状的物种，这使其与众不同。\n如果它灭绝了，数千年的进化将就此终结，这将是真正的悲剧。\n乍一看，勺嘴鹬与在北极地区繁殖的其他小型鹬科候鸟相似。\n但它是唯一一种进化出扁平喙的鸟类，其喙末端向外展开形成‘勺子’状，这使其与众不同。\n如果它灭绝了，数千年的进化将就此终结，这将是一场真正的悲剧。\n乍一看，勺嘴鹬与其他在北极地区繁殖的鹬科小型迁徙鸟类相似。\n但它是唯一一种进化出扁平喙部、末端扩展成‘勺子’形状的鸟类，这使其与众不同。\n如果它灭绝，数千年的进化将就此终结，这将是一场真正的悲剧。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The bird's Russian name, kulik-lopaten, means 'shovel beak', which is an apt description of a remarkable structure.The bill is 19 mm long and 10 mm wide near the tip and the edges are lined with sharp serrations, called papillae.Theories have varied as to how the bill functions; one suggestion is that the sandpiper sweeps it through the water in a similar fashion to its larger namesake, the spoonbill.But Nigel Clark, a leading authority on the sandpiper,says the comparison is misleading.",
+          "translation": "这种鸟的俄语名称“kulik-lopaten”意为“铲子嘴”，这是对其非凡结构的恰当描述。\n鸟喙长19毫米，尖端附近宽10毫米，边缘排列着称为乳突的锋利锯齿。\n关于鸟喙的功能有多种理论；一种观点认为，这种鹬鸟像其体型更大的同名物种——琵鹭一样，在水中扫动鸟喙。\n但鹬鸟研究领域的权威专家奈杰尔·克拉克表示，这种比较具有误导性。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Until a few years ago, the spoon-billed sandpiper had never been fully documented, which added to its fascination.But an air of mystery is not helpful if you're a Critically Endangered species. So the organisation ‘Birds Russia’ decided to produce a photographic and audio record of this imperilled bird with the help of experts round the world. In May of last year, I joined the international expedition to one of the species' last breeding strongholds in North-East Russia.The primary aim of the two-and-a-half month expedition, however, was to collect eggs from wild sandpipers; those eggs would then be hatched in captivity nearby.Later, the chicks would be flown to the Wildfowl and Wetlands Trust (WWT) headquarters at Slimbridge in the UK, in order to establish a small, self-sustaining population there. These birds would provide a 'safety net , an insurance policy against the wild birds dying out.",
+          "translation": "直到几年前，勺嘴鹬从未被完整记录过，这增添了它的魅力。\n但如果你是一种极度濒危的物种，神秘气息并无助益。\n因此，俄罗斯鸟类组织决定在全球专家的帮助下，为这种濒危鸟类制作摄影和音频记录。\n去年五月，我加入了前往该物种位于俄罗斯东北部最后繁殖地之一的国际探险队。\n然而，这次为期两个半月的探险的主要目的是从野生勺嘴鹬中收集蛋；这些蛋随后将在附近的圈养环境中孵化。\n随后，雏鸟将被空运到英国斯利姆布里奇的野禽与湿地信托基金总部，以便在那里建立一个能自我维持的小型种群。\n这些鸟将提供一个“安全网”，作为防止野生鸟类灭绝的保障措施。\n直到几年前，勺嘴鹬从未被完整记录过，这更增添了它的魅力。\n但如果你是一种极度濒危的物种，保持神秘并无益处。\n因此，组织“俄罗斯鸟类”决定在世界各地专家的帮助下，制作这种濒危鸟类的照片和音频记录。\n去年五月，我加入了前往该物种在俄罗斯东北部最后一个繁殖据点的国际考察队。\n然而，这次为期两个半月的考察的主要目的是收集野生鹬类的蛋；这些蛋随后将在附近的人工环境中孵化。\n随后，雏鸟将被空运到英国斯利姆布里奇的野禽与湿地信托基金（WWT）总部，以在那里建立一个能够自我维持的小型种群。\n这些鸟将提供一个“安全网”，即一种防止野生鸟类灭绝的保险措施。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "You might wonder why birds like the spoon-billed sandpiper travel such great distances, about 8,000 km in total, from their wintering grounds on the tropical coasts of Bangladesh,Burma and Vietnam in South-East Asia to breed on the lowland, commonly called tundra, in North-East Russia, but from the birds' point of view it is worth it. Though they often arrive to find hostile, wintry weather while they are finding their mates and making their nests, there are relatively few predators there, and the abundance of insects that emerge during the brief but intense Arctic summer creates ideal conditions for raising their chicks.",
+          "translation": "你可能会好奇为什么像勺嘴鹬这样的鸟类要长途跋涉约8000公里，从东南亚的孟加拉国、缅甸和越南的热带海岸越冬地，飞往俄罗斯东北部通常被称为苔原的低地繁殖，但从鸟类的角度来看，这是值得的。\n你可能会感到好奇，为什么像勺嘴鹬这样的鸟类要从它们在东南亚孟加拉国、缅甸和越南热带海岸的越冬地，长途跋涉约8000公里，前往俄罗斯东北部通常被称为冻原的低地繁殖，但从鸟类的角度来看，这一切是值得的。\n尽管它们抵达时常常遭遇恶劣的冬季天气，在寻找伴侣和筑巢的过程中面临挑战，但那里天敌相对较少，而且在短暂而强烈的北极夏季涌现的大量昆虫，为养育幼鸟创造了理想的条件。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Two main factors are responsible for the sandpiper's recent rapid decline: the ongoing destruction of stopover habitat on its migration route and hunting on its wintering grounds.The development of new industrial cities is destroying former tidal areas, where sandpipers and other migratory birds used to rest and refuel. Subsistence hunting is certainly a hazard in some Asian countries, where hunters trap birds for food. Conservationists are targeting this problem with small-scale interventions.For example, hunters from 40 villages have been given alternative sources of income, such as cool boxes in which they can take fish to sell at markets, in return for a halt to the bird-netting.",
+          "translation": "导致这种鹬类近期数量迅速下降的两个主要因素是：其迁徙途中中途栖息地持续遭到破坏，以及在越冬地遭受捕猎。\n新兴工业城市的发展正在摧毁曾经是鹬类和其他候鸟休息和补充能量的潮汐地带。\n在一些亚洲国家，为了生存而进行的捕猎无疑是一种危害，那里的猎人捕捉鸟类作为食物。\n保护主义者正通过小规模的干预措施来解决这一问题。\n例如，来自40个村庄的猎人获得了替代性收入来源，如可以用来携带鱼到市场出售的冷藏箱，以此换取他们停止张网捕鸟。\n导致这种鹬类近期数量急剧下降的两个主要因素是：其迁徙路线上中途栖息地的持续破坏，以及在其越冬地的捕猎行为。\n新兴工业城市的发展正在破坏原有的潮汐区域，这些区域曾是鹬类及其他候鸟休息和补充能量的地方。\n在部分亚洲国家，为生计而进行的捕猎无疑构成威胁，那里的猎人会设陷阱捕捉鸟类作为食物。\n环保主义者正通过小规模干预措施来应对这一问题。\n例如，来自40个村庄的猎人已获得替代收入来源，比如用冷藏箱装鱼去市场售卖，以此换取他们停止张网捕鸟的行为。\n导致这种鹬鸟近期数量迅速减少的主要因素有两个：其迁徙途中中途栖息地的持续破坏，以及在其越冬地遭受的捕猎。\n新兴工业城市的发展正在破坏昔日的潮间带区域，而这些区域曾是鹬鸟及其他候鸟休息和补充能量的地方。\n在某些亚洲国家，为生存而进行的捕猎无疑是一种威胁，那里的猎人设网捕鸟作为食物。\n环保人士正通过小规模干预措施来解决这一问题。\n例如，来自40个村庄的猎人已获得替代性收入来源，比如可以用来装鱼到市场上出售的冷藏箱，以此换取他们停止捕鸟行为。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Once the expedition team had reached its destination, it was seven days before we spotted the first sandpiper. In the following days, more began to arrive and the males' song was heard, advertising their patches of territory to potential mates.As the sandpipers paired up, the song gave way to the quiet of egg-laying and incubation. In total nine nests were found.The first one was lost to a predator, along with the female attending it. This was a stark reminder of the vulnerability of a tiny population to natural events, such as storms or predation.",
+          "translation": "探险队到达目的地后，过了七天我们才发现了第一只鹬鸟。\n随后的日子里，更多的鹬鸟开始抵达，并能听到雄鸟的鸣唱，向潜在伴侣宣告它们的领地。\n随着鹬鸟成双结对，鸣唱声被产卵和孵蛋的宁静所取代。\n总共发现了九个巢。\n第一个巢被捕食者摧毁，连同守护它的雌鸟一起消失。\n这鲜明地提醒人们，小型种群极易受到风暴或捕食等自然事件的影响。\n探险队抵达目的地后，过了七天才发现第一只矶鹬。\n在接下来的日子里，更多的矶鹬开始到来，并听到雄鸟的鸣叫声，它们向潜在的配偶宣告自己的领地。\n随着矶鹬成对结合，鸣叫声逐渐被产卵和孵化的寂静所取代。\n总共发现了九个巢穴。\n第一个巢穴连同守护它的雌鸟一起被捕食者夺走。\n这鲜明地提醒人们，这一微小种群在面对风暴或捕食等自然事件时的脆弱性。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "The team then selected donor nests and transferred the eggs to specially prepared incubators. They collected 20 eggs in all, taking entire clutches each time - it was early in the breeding season, so the females were likely to lay replacements.Then 50 days after our arrival, the moment arrived: l witnessed my first wild spoon-billed sandpipers hatch. l had been lying inside a wind-battered hide for 36 hours when l saw the first tiny chicks emerge from the eggs.Having hidden a microphone near the nest, I could also just hear their first calls.Later, I watched them stumbling through the 15 cm-high jungle of grasses on comically oversized legs and feet. But my joy was tempered by concern. Difficulties on their migration route and in their wintering areas meant that other tiny creatures like these faced immense dangers.",
+          "translation": "随后，团队选定了供体巢穴，并将鸟蛋转移至特制的孵化器中。\n他们总共收集了20枚鸟蛋，每次都取走整窝蛋——当时正值繁殖季节初期，因此雌鸟很可能会再次产卵。\n在我们抵达后的第50天，那个时刻终于到来了：我亲眼目睹了第一只野生勺嘴鹬的孵化。\n我在被风吹得破旧的隐蔽棚里躺了36个小时，终于看到第一只幼鸟从蛋中破壳而出。\n由于在巢穴附近藏了一个麦克风，我还能依稀听到它们的第一声啼叫。\n后来，我注视着它们迈着滑稽的大长腿，在15厘米高的草丛中跌跌撞撞地穿行。\n然而，我的喜悦被忧虑所冲淡。\n它们在迁徙路线和越冬地所面临的困境意味着，其他像这样幼小的生物正面临着巨大的危险。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "The complex rescue plan does give some grounds for hope.Young chicks were flown to WWT Slimbridge last year and again this summer. A high-tech biosecure unit has been built for them there. It is divided in two,with the older birds in one section and this year's chicks in the other. To minimise the risk of infections, staff change into full-body overalls and rubber shoes and wash their hands before entering.Hygiene is crucial: even a single strand of human hair could harm the chicks by becoming twisted round their legs or bills.The rescue plan's final stage,once the captive flock has built up sufficiently, will be to fly eggs back to Russia,to release the chicks there. It's a gamble, but when the survival of a species this special is at stake, you have to try.",
+          "translation": "这个复杂的救援计划确实提供了一些希望的理由。\n幼鸟去年和今年夏天都被空运到了WWT斯利姆布里奇。\n那里为它们建造了一个高科技的生物安全设施。\n该设施分为两部分，年长的鸟在一个区域，今年的幼鸟在另一个区域。\n为了最大限度降低感染风险，工作人员在进入前会换上全身防护服和橡胶鞋，并洗手。\n卫生至关重要：即使是一根人的头发丝缠在幼鸟的腿或喙上，也可能伤害到它们。\n救援计划的最后阶段，一旦圈养鸟群数量足够，将把蛋空运回俄罗斯，在那里放归幼鸟。\n这是一场赌博，但当如此特别的物种的生存受到威胁时，你必须去尝试。\n这一复杂的救援计划确实为人们带来了一些希望。\n幼鸟已于去年和今年夏天被空运至英国辛布里奇的野生鸟类与湿地基金会总部。\n那里已为它们建造了一个高科技的生物安全设施。\n该设施被分为两部分，年龄较大的鸟在一个区域，今年的幼鸟在另一区域。\n为将感染风险降至最低，工作人员在进入前需换上全身工作服和胶鞋，并洗手消毒。\n卫生至关重要：即使是一根人类头发，也可能缠住幼鸟的腿或喙，从而对其造成伤害。\n救援计划的最后阶段是，一旦人工饲养的鸟群数量充足，便将鸟蛋空运回俄罗斯，在那里放归幼鸟。\n这虽是一场赌博，但当一个如此特殊的物种的生存岌岌可危时，你必须努力尝试。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15838",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 33\nThe text has six sections.\nChoose the correct heading for each section and move it into the gap.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Gaining public recognition"
+            },
+            {
+              "value": "B",
+              "label": "B. Reasons for continuing to make the long journey"
+            },
+            {
+              "value": "C",
+              "label": "C. A disappointment followed by desirable outcomes"
+            },
+            {
+              "value": "D",
+              "label": "D. The main stages of the plan"
+            },
+            {
+              "value": "E",
+              "label": "E. A growth in the number of natural predators"
+            },
+            {
+              "value": "F",
+              "label": "F. Increasing threats"
+            },
+            {
+              "value": "G",
+              "label": "G. A very unusual feature of these birds"
+            },
+            {
+              "value": "H",
+              "label": "H. Cautious optimism"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1158381",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gaining public recognition"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Reasons for continuing to make the long journey"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A disappointment followed by desirable outcomes"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The main stages of the plan"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A growth in the number of natural predators"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Increasing threats"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A very unusual feature of these birds"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Cautious optimism"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "段落A重点描述勺嘴鹬独特的勺状喙——这是其区别于其他鹬类的唯一特征，并称其为‘remarkable structure’和‘makes it special’。选项G‘这些鸟类一个非常不寻常的特征’正是对此内容的精准概括，其中‘very unusual feature’对应‘flattened bill that flares out into a spoon’。",
+              "reason": "只有G选项能概括段落核心内容。",
+              "location_analysis": "段落描述鸟喙独特形状，符合G项“非常独特的特征”。",
+              "paraphrasing": "very unusual feature -> developed a flattened bill that flares out into a 'spoon' at the end... makes it special",
+              "keywords": "spoon-billed sandpiper, special, flattened bill",
+              "evidence": [
+                "But it is the only one to have developed a flattened bill that flares out into a 'spoon' at the end, and that makes it special."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1158382",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gaining public recognition"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Reasons for continuing to make the long journey"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A disappointment followed by desirable outcomes"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The main stages of the plan"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A growth in the number of natural predators"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Increasing threats"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A very unusual feature of these birds"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Cautious optimism"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "段落B详细叙述了救援计划的多个阶段：组织国际考察队、在野外收集鸟蛋、就近人工孵化、将雏鸟运往英国建立可自我维持的种群。这些步骤构成一个完整的行动流程，与选项D‘计划的主要阶段’完全吻合，heading D准确概括了该段的程序性内容。",
+              "reason": "只有D项符合段落内容。",
+              "location_analysis": "段落详细描述了从野外收集鸟蛋到人工孵化转运的步骤，对应D项“计划的主要阶段”。",
+              "paraphrasing": "main stages of the plan -> collect eggs from wild sandpipers; hatched in captivity; flown to UK; establish population",
+              "keywords": "expedition, collect eggs, hatch in captivity",
+              "evidence": [
+                "The primary aim of the two-and-a-half month expedition, however, was to collect eggs from wild sandpipers; those eggs would then be hatched in captivity nearby.",
+                "Later, the chicks would be flown to the Wildfowl and Wetlands Trust (WWT) headquarters at Slimbridge in the UK, in order to establish a small, self-sustaining population there."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1158383",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gaining public recognition"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Reasons for continuing to make the long journey"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A disappointment followed by desirable outcomes"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The main stages of the plan"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A growth in the number of natural predators"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Increasing threats"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A very unusual feature of these birds"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Cautious optimism"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "段落B系统介绍了从野外取卵、人工孵化到跨国运输并建立保育种群的全过程，清晰呈现了救援行动的关键环节。选项B‘计划的主要阶段’恰当地总结了这一按时间顺序展开的操作流程，与段落内容高度一致。",
+              "reason": "B段详细说明救援计划的主要环节，对应heading B。",
+              "location_analysis": "选项B描述B段捕捉、孵化、运输、建群的主计划步骤。",
+              "paraphrasing": "",
+              "keywords": "plan, stages",
+              "evidence": [
+                "The primary aim of the two-and-a-half month expedition, however, was to collect eggs from wild sandpipers; those eggs would then be hatched in captivity nearby.",
+                "Later, the chicks would be flown to the Wildfowl and Wetlands Trust (WWT) headquarters at Slimbridge in the UK, in order to establish a small, self-sustaining population there."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1158384",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gaining public recognition"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Reasons for continuing to make the long journey"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A disappointment followed by desirable outcomes"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The main stages of the plan"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A growth in the number of natural predators"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Increasing threats"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A very unusual feature of these birds"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Cautious optimism"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "段落D指出勺嘴鹬数量急剧下降的两大原因：迁徙中途停歇地因工业城市发展遭破坏，以及越冬地的捕猎行为。这两点均属外部威胁，且呈加剧趋势。选项F‘日益增多的威胁’准确概括了该段主旨，其中‘increasing threats’对应‘ongoing destruction’和‘hunting’等具体风险。",
+              "reason": "只有F项概括威胁。",
+              "location_analysis": "段落列举了两个主要威胁：栖息地破坏和捕猎，对应F项“日益增多的威胁”。",
+              "paraphrasing": "Increasing threats -> Two main factors... rapid decline; destruction of stopover habitat; hunting on wintering grounds",
+              "keywords": "decline, destruction, hunting, threats",
+              "evidence": [
+                "Two main factors are responsible for the sandpiper's recent rapid decline: the ongoing destruction of stopover habitat on its migration route and hunting on its wintering grounds.",
+                "The development of new industrial cities is destroying former tidal areas, where sandpipers and other migratory birds used to rest and refuel."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1158385",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gaining public recognition"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Reasons for continuing to make the long journey"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A disappointment followed by desirable outcomes"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The main stages of the plan"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A growth in the number of natural predators"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Increasing threats"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A very unusual feature of these birds"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Cautious optimism"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "段落E先描述首个鸟巢被天敌摧毁的挫折（‘a stark reminder of vulnerability’），随后转述成功收集20枚蛋并见证雏鸟孵化的积极成果。这种‘先失望后成功’的情感与事件转折，与选项C‘一次失望之后迎来理想结果’完全对应。",
+              "reason": "只有C项符合先失落再成功的顺序。",
+              "location_analysis": "段落先提到第一个巢被毁的失望，随后成功收集并孵化幼鸟，对应C项。",
+              "paraphrasing": "disappointment followed by desirable outcomes -> first nest lost; but then collected 20 eggs; hatched successfully",
+              "keywords": "nests, first one lost, collected eggs, hatched",
+              "evidence": [
+                "The first one was lost to a predator, along with the female attending it.",
+                "Then 50 days after our arrival, the moment arrived: l witnessed my first wild spoon-billed sandpipers hatch."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "1158386",
+              "number": 33,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gaining public recognition"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Reasons for continuing to make the long journey"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A disappointment followed by desirable outcomes"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The main stages of the plan"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A growth in the number of natural predators"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Increasing threats"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A very unusual feature of these birds"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Cautious optimism"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "段落F开头承认救援计划‘是个赌博（a gamble）’，但随即强调‘当如此特殊的物种面临灭绝时，你必须尝试’，并提到‘确实带来了一些希望的理由（some grounds for hope）’。这种既承认风险又抱有希望的态度，正是选项H‘谨慎乐观’的典型体现。",
+              "reason": "只有H项符合谨慎但抱有希望的表述。",
+              "location_analysis": "段落提到复杂计划带来希望，但承认是赌博，体现谨慎乐观，对应H项。",
+              "paraphrasing": "Cautious optimism -> does give some grounds for hope; It's a gamble, but... you have to try",
+              "keywords": "grounds for hope, gamble, but you have to try",
+              "evidence": [
+                "The complex rescue plan does give some grounds for hope.",
+                "It's a gamble, but when the survival of a species this special is at stake, you have to try."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "15840",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 34 - 37\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120600",
+              "number": 34,
+              "prompt": "What was the main purpose of the international expedition?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "to add sandpiper eggs to an international frozen egg bank"
+                },
+                {
+                  "value": "B",
+                  "label": "to maintain a small group of sandpipers for future generations"
+                },
+                {
+                  "value": "C",
+                  "label": "to make an audiovisual record of the Russian sandpiper colony"
+                },
+                {
+                  "value": "D",
+                  "label": "to protect a colony of wild sandpipers through a breeding season"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问的是国际考察队的主要目的，原文明确指出‘主要目的是从野生鹬鸟中收集鸟蛋，随后在附近人工孵化，并将雏鸟送往英国WWT总部，以建立一个小型、可自我维持的种群’。这与选项B‘为后代维持一小群勺嘴鹬’完全对应，其中‘maintain a small group for future generations’是对‘establish a small, self-sustaining population’和‘insurance policy against extinction’的同义改写。",
+              "reason": "B项与目的直接对应。",
+              "location_analysis": "原文明确指出主要目的是建立可持续种群作为安全网，对应B项。",
+              "paraphrasing": "to maintain a small group -> establish a small, self-sustaining population; safety net / insurance policy",
+              "keywords": "primary aim, collect eggs, flown to UK, establish population",
+              "evidence": [
+                "Later, the chicks would be flown to the Wildfowl and Wetlands Trust (WWT) headquarters at Slimbridge in the UK, in order to establish a small, self-sustaining population there."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": {
+                "A": "该选项提到将鸟蛋存入冷冻蛋库，但原文未提及这一具体做法，属于无中生有。",
+                "C": "该选项强调制作视听记录，而原文中这只是辅助手段，并非主要目的。",
+                "D": "该选项指保护野生鸟群，但考察的主要目的是维持人工保育种群，而非保护野生群体。"
+              }
+            },
+            {
+              "id": "120601",
+              "number": 35,
+              "prompt": "What do we learn about the drop in the sandpiper population?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "The birds are increasingly being hunted on their way north to Russia."
+                },
+                {
+                  "value": "B",
+                  "label": "Scientists are managing to reduce deaths from netting considerably."
+                },
+                {
+                  "value": "C",
+                  "label": "Efforts are being made to protect some of their coastal habitat sites."
+                },
+                {
+                  "value": "D",
+                  "label": "Economic growth is one of the underlying causes of the decline."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问勺嘴鹬数量下降的原因，原文指出两大主因：迁徙途中停歇地的持续破坏和越冬地的捕猎。其中特别提到‘新工业城市的发展正在摧毁潮间带区域’，这属于经济发展对栖息地的侵占。因此选项D‘经济增长是种群下降的根本原因之一’准确概括了这一因果关系，‘economic growth’对应‘development of new industrial cities’。",
+              "reason": "D项准确概括了经济因素。",
+              "location_analysis": "原文指出新工业城市发展破坏栖息地是种群数量下降的根本原因，对应D项。",
+              "paraphrasing": "Economic growth -> development of new industrial cities destroying tidal areas",
+              "keywords": "two main factors, ongoing destruction, development of new industrial cities",
+              "evidence": [
+                "The development of new industrial cities is destroying former tidal areas, where sandpipers and other migratory birds used to rest and refuel."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及狩猎数量在增加，属于无中生有。",
+                "B": "原文未提到显著减少网捕导致的死亡，与原文信息矛盾或夸大。",
+                "C": "保护栖息地是应对措施，并非人口下降的原因，与题干要求不符。"
+              }
+            },
+            {
+              "id": "120602",
+              "number": 36,
+              "prompt": "Which feeling did the writer express when the sandpiper chicks hatched?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "relief that his long wait was over"
+                },
+                {
+                  "value": "B",
+                  "label": "surprise at the sound of their song"
+                },
+                {
+                  "value": "C",
+                  "label": "worry about birds of the same species"
+                },
+                {
+                  "value": "D",
+                  "label": "amazement that they could walk so soon"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问作者在看到雏鸟孵化时的感受，原文描述‘我的喜悦被担忧所冲淡（my joy was tempered by concern）’，并解释这种担忧源于迁徙路线和越冬地的困难使‘像这样的小生命面临巨大危险’。这表明作者担忧的是同种鸟类的整体生存状况，而非仅限于眼前个体，因此选项C‘对同种鸟类的担忧’准确反映了原文情感。",
+              "reason": "C项直接对应concern。",
+              "location_analysis": "作者看到幼鸟孵化时喜悦却担忧同类面临巨大危险，对应C项。",
+              "paraphrasing": "worry about birds of the same species -> concern; other tiny creatures like these faced immense dangers",
+              "keywords": "my joy was tempered by concern, difficulties, immense dangers",
+              "evidence": [
+                "But my joy was tempered by concern. Difficulties on their migration route and in their wintering areas meant that other tiny creatures like these faced immense dangers."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": {
+                "A": "文中未提及作者因等待结束而感到宽慰。",
+                "B": "文中没有提到作者对雏鸟叫声感到惊讶。",
+                "D": "文中未描述作者对雏鸟行走速度感到惊奇。"
+              }
+            },
+            {
+              "id": "120603",
+              "number": 37,
+              "prompt": "The writer describes the sandpipers' unit at WWT Slimbridge to emphasise",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "how much care is being devoted to their welfare."
+                },
+                {
+                  "value": "B",
+                  "label": "how much money is being spent on the project."
+                },
+                {
+                  "value": "C",
+                  "label": "his surprise at how fragile the young birds are."
+                },
+                {
+                  "value": "D",
+                  "label": "his confidence in the technology available."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问作者描述WWT Slimbridge饲养单元的意图，原文详细说明该单元为高规格生物安全设施，工作人员需穿戴全套防护服、洗手消毒，甚至强调‘一根人类头发都可能缠绕雏鸟腿或喙造成伤害’。这些细节旨在突出对雏鸟福利的极度重视和精心照料，因此选项A‘强调对其福祉投入了大量照护’最为贴切。",
+              "reason": "A项准确表达对福利的投入。",
+              "location_analysis": "作者通过描述高规格的防护与清洁措施强调对幼鸟的精心照顾，对应A项。",
+              "paraphrasing": "how much care -> unit is divided in two; staff change into overalls and wash hands; hygiene is crucial",
+              "keywords": "high-tech biosecure unit, staff change into full-body overalls, hygiene crucial",
+              "evidence": [
+                "To minimise the risk of infections, staff change into full-body overalls and rubber shoes and wash their hands before entering.",
+                "Hygiene is crucial: even a single strand of human hair could harm the chicks by becoming twisted round their legs or bills."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "B": "选项提及项目花费，但原文并未涉及金钱方面的信息，属于无中生有。",
+                "C": "选项强调作者对小鸟脆弱的惊讶，但原文重点在于描述对幼鸟的照顾，并非惊讶。",
+                "D": "选项提到作者对技术的信心，但原文并未讨论技术或作者对其的态度，属于无中生有。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15845",
+          "type": 4,
+          "title": "The life cycle of the spoon-billed sandpiper",
+          "instructions": "Questions 38 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120604",
+              "number": 38,
+              "prompt": "In early spring, spoon-billed sandpipers return to their breeding grounds in Russia in the area known as _____. Although the weather there is often very harsh to begin with, there are obvious advantages to the sandpipers. There is above all a plentiful supply of _____, and this makes it possible for the sandpiper chicks to develop well. The lack of _____ is another definite advantage. As a result, a good proportion of the chicks grow up to face the long flight to the South-East Asian coasts.",
+              "options": [],
+              "answer": "tundra",
+              "accepted_answers": [
+                "tundra"
+              ],
+              "analysis": "题干要求填写勺嘴鹬在俄罗斯的繁殖地名称，原文明确指出它们‘在俄罗斯东北部的低地繁殖，这片区域通常被称为tundra（苔原）’。因此答案‘tundra’直接来自原文，且与题干中的‘area known as’形成同义对应。",
+              "reason": "直接对应。",
+              "location_analysis": "原文指出繁殖地称为tundra。",
+              "paraphrasing": "area known as -> commonly called tundra",
+              "keywords": "breeding grounds, tundra",
+              "evidence": [
+                "to breed on the lowland, commonly called tundra, in North-East Russia"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120605",
+              "number": 39,
+              "prompt": "In early spring, spoon-billed sandpipers return to their breeding grounds in Russia in the area known as _____. Although the weather there is often very harsh to begin with, there are obvious advantages to the sandpipers. There is above all a plentiful supply of _____, and this makes it possible for the sandpiper chicks to develop well. The lack of _____ is another definite advantage. As a result, a good proportion of the chicks grow up to face the long flight to the South-East Asian coasts.",
+              "options": [],
+              "answer": "insects",
+              "accepted_answers": [
+                "insects"
+              ],
+              "analysis": "题干问繁殖地的优势之一是有充足的某种资源，原文提到‘北极短暂而强烈的夏季涌现出大量昆虫（the abundance of insects）’，为雏鸟成长创造了理想条件。因此答案‘insects’直接对应‘plentiful supply’，且为原文唯一提及的食物资源。",
+              "reason": "直接对应。",
+              "location_analysis": "原文提到昆虫丰富。",
+              "paraphrasing": "plentiful supply of -> abundance of insects",
+              "keywords": "plentiful supply, insects",
+              "evidence": [
+                "the abundance of insects that emerge during the brief but intense Arctic summer creates ideal conditions for raising their chicks."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120606",
+              "number": 40,
+              "prompt": "In early spring, spoon-billed sandpipers return to their breeding grounds in Russia in the area known as _____. Although the weather there is often very harsh to begin with, there are obvious advantages to the sandpipers. There is above all a plentiful supply of _____, and this makes it possible for the sandpiper chicks to develop well. The lack of _____ is another definite advantage. As a result, a good proportion of the chicks grow up to face the long flight to the South-East Asian coasts.",
+              "options": [],
+              "answer": "predators",
+              "accepted_answers": [
+                "predators"
+              ],
+              "analysis": "题干指出另一个优势是某种事物的缺乏，原文说明繁殖地‘天敌相对较少（relatively few predators）’，这减少了雏鸟被捕食的风险。因此答案‘predators’准确对应‘lack of’，且与上下文逻辑一致。",
+              "reason": "直接对应。",
+              "location_analysis": "原文提到天敌相对较少。",
+              "paraphrasing": "lack of -> relatively few",
+              "keywords": "lack of, predators",
+              "evidence": [
+                "there are relatively few predators there"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "In early spring, spoon-billed sandpipers return to their breeding grounds in Russia in the area known as $120604$. Although the weather there is often very harsh to begin with, there are obvious advantages to the sandpipers. There is above all a plentiful supply of $120605$, and this makes it possible for the sandpiper chicks to develop well. The lack of $120606$ is another definite advantage. As a result, a good proportion of the chicks grow up to face the long flight to the South-East Asian coasts.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "In early spring, spoon-billed sandpipers return to their breeding grounds in Russia in the area known as $120604$. Although the weather there is often very harsh to begin with, there are obvious advantages to the sandpipers. There is above all a plentiful supply of $120605$, and this makes it possible for the sandpiper chicks to develop well. The lack of $120606$ is another definite advantage. As a result, a good proportion of the chicks grow up to face the long flight to the South-East Asian coasts."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Efforts to save a special bird - the spoon-billed sandpiper",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Last year an international team of ornithologists devised a bold plan to rescue one of the world's rarest birds.",
+          "translation": "去年，一个国际鸟类学家团队制定了一项大胆的计划，旨在拯救世界上最珍稀的鸟类之一。"
+        },
+        {
+          "index": 2,
+          "sentence": "Gerrit Vyn reports.",
+          "translation": "Gerrit Vyn 报道。"
+        },
+        {
+          "index": 4,
+          "sentence": "At first glance the spoon-billed sandpiper resembles other small migratory birds of the sandpiper family that breed across the Arctic.",
+          "translation": "乍一看，勺嘴鹬与其他在北极繁殖的鹬科小型候鸟相似。"
+        },
+        {
+          "index": 5,
+          "sentence": "But it is the only one to have developed a flattened bill that flares out into a 'spoon' at the end, and that makes it special.",
+          "translation": "但它是唯一进化出扁平喙且末端扩展成勺状的物种，这使其与众不同。"
+        },
+        {
+          "index": 6,
+          "sentence": "If it becomes extinct, thousands of years of evolution will come to an end,which would be a real tragedy.",
+          "translation": "如果它灭绝了，数千年的进化将就此终结，这将是真正的悲剧。"
+        },
+        {
+          "index": 7,
+          "sentence": "At first glance the spoon-billed sandpiper resembles other small migratory birds of the sandpiper family that breed across the Arctic.",
+          "translation": "乍一看，勺嘴鹬与在北极地区繁殖的其他小型鹬科候鸟相似。"
+        },
+        {
+          "index": 8,
+          "sentence": "But it is the only one to have developed a flattened bill that flares out into a 'spoon' at the end, and that makes it special.",
+          "translation": "但它是唯一一种进化出扁平喙的鸟类，其喙末端向外展开形成‘勺子’状，这使其与众不同。"
+        },
+        {
+          "index": 9,
+          "sentence": "If it becomes extinct, thousands of years of evolution will come to an end, which would be a real tragedy.",
+          "translation": "如果它灭绝了，数千年的进化将就此终结，这将是一场真正的悲剧。"
+        },
+        {
+          "index": 10,
+          "sentence": "At first glance the spoon-billed sandpiper resembles other small migratory birds of the sandpiper family that breed across the Arctic.",
+          "translation": "乍一看，勺嘴鹬与其他在北极地区繁殖的鹬科小型迁徙鸟类相似。"
+        },
+        {
+          "index": 11,
+          "sentence": "But it is the only one to have developed a flattened bill that flares out into a 'spoon' at the end, and that makes it special.",
+          "translation": "但它是唯一一种进化出扁平喙部、末端扩展成‘勺子’形状的鸟类，这使其与众不同。"
+        },
+        {
+          "index": 12,
+          "sentence": "If it becomes extinct, thousands of years of evolution will come to an end, which would be a real tragedy.",
+          "translation": "如果它灭绝，数千年的进化将就此终结，这将是一场真正的悲剧。"
+        },
+        {
+          "index": 13,
+          "sentence": "The bird's Russian name, kulik-lopaten, means 'shovel beak', which is an apt description of a remarkable structure.",
+          "translation": "这种鸟的俄语名称“kulik-lopaten”意为“铲子嘴”，这是对其非凡结构的恰当描述。"
+        },
+        {
+          "index": 14,
+          "sentence": "The bill is 19 mm long and 10 mm wide near the tip and the edges are lined with sharp serrations, called papillae.",
+          "translation": "鸟喙长19毫米，尖端附近宽10毫米，边缘排列着称为乳突的锋利锯齿。"
+        },
+        {
+          "index": 15,
+          "sentence": "Theories have varied as to how the bill functions; one suggestion is that the sandpiper sweeps it through the water in a similar fashion to its larger namesake, the spoonbill.",
+          "translation": "关于鸟喙的功能有多种理论；一种观点认为，这种鹬鸟像其体型更大的同名物种——琵鹭一样，在水中扫动鸟喙。"
+        },
+        {
+          "index": 16,
+          "sentence": "But Nigel Clark, a leading authority on the sandpiper, says the comparison is misleading.",
+          "translation": "但鹬鸟研究领域的权威专家奈杰尔·克拉克表示，这种比较具有误导性。"
+        },
+        {
+          "index": 18,
+          "sentence": "Until a few years ago, the spoon-billed sandpiper had never been fully documented, which added to its fascination.",
+          "translation": "直到几年前，勺嘴鹬从未被完整记录过，这增添了它的魅力。"
+        },
+        {
+          "index": 19,
+          "sentence": "But an air of mystery is not helpful if you're a Critically Endangered species.",
+          "translation": "但如果你是一种极度濒危的物种，神秘气息并无助益。"
+        },
+        {
+          "index": 20,
+          "sentence": "So the organisation ‘Birds Russia’ decided to produce a photographic and audio record of this imperilled bird with the help of experts round the world.",
+          "translation": "因此，俄罗斯鸟类组织决定在全球专家的帮助下，为这种濒危鸟类制作摄影和音频记录。"
+        },
+        {
+          "index": 21,
+          "sentence": "In May of last year, I joined the international expedition to one of the species' last breeding strongholds in North-East Russia.",
+          "translation": "去年五月，我加入了前往该物种位于俄罗斯东北部最后繁殖地之一的国际探险队。"
+        },
+        {
+          "index": 22,
+          "sentence": "The primary aim of the two-and-a-half month expedition, however, was to collect eggs from wild sandpipers; those eggs would then be hatched in captivity nearby.",
+          "translation": "然而，这次为期两个半月的探险的主要目的是从野生勺嘴鹬中收集蛋；这些蛋随后将在附近的圈养环境中孵化。"
+        },
+        {
+          "index": 23,
+          "sentence": "Later, the chicks would be flown to the Wildfowl and Wetlands Trust (WWT) headquarters at Slimbridge in the UK, in order to establish a small, self-sustaining population there.",
+          "translation": "随后，雏鸟将被空运到英国斯利姆布里奇的野禽与湿地信托基金总部，以便在那里建立一个能自我维持的小型种群。"
+        },
+        {
+          "index": 24,
+          "sentence": "These birds would provide a 'safety net', an insurance policy against the wild birds dying out.",
+          "translation": "这些鸟将提供一个“安全网”，作为防止野生鸟类灭绝的保障措施。"
+        },
+        {
+          "index": 25,
+          "sentence": "29",
+          "translation": "29"
+        },
+        {
+          "index": 26,
+          "sentence": "Until a few years ago, the spoon-billed sandpiper had never been fully documented, which added to its fascination.",
+          "translation": "直到几年前，勺嘴鹬从未被完整记录过，这更增添了它的魅力。"
+        },
+        {
+          "index": 27,
+          "sentence": "But an air of mystery is not helpful if you're a Critically Endangered species.",
+          "translation": "但如果你是一种极度濒危的物种，保持神秘并无益处。"
+        },
+        {
+          "index": 28,
+          "sentence": "So the organisation ‘Birds Russia’ decided to produce a photographic and audio record of this imperilled bird with the help of experts round the world.",
+          "translation": "因此，组织“俄罗斯鸟类”决定在世界各地专家的帮助下，制作这种濒危鸟类的照片和音频记录。"
+        },
+        {
+          "index": 29,
+          "sentence": "In May of last year, I joined the international expedition to one of the species' last breeding strongholds in North-East Russia.",
+          "translation": "去年五月，我加入了前往该物种在俄罗斯东北部最后一个繁殖据点的国际考察队。"
+        },
+        {
+          "index": 30,
+          "sentence": "The primary aim of the two-and-a-half month expedition, however, was to collect eggs from wild sandpipers; those eggs would then be hatched in captivity nearby.",
+          "translation": "然而，这次为期两个半月的考察的主要目的是收集野生鹬类的蛋；这些蛋随后将在附近的人工环境中孵化。"
+        },
+        {
+          "index": 31,
+          "sentence": "Later, the chicks would be flown to the Wildfowl and Wetlands Trust (WWT) headquarters at Slimbridge in the UK, in order to establish a small, self-sustaining population there.",
+          "translation": "随后，雏鸟将被空运到英国斯利姆布里奇的野禽与湿地信托基金（WWT）总部，以在那里建立一个能够自我维持的小型种群。"
+        },
+        {
+          "index": 32,
+          "sentence": "These birds would provide a 'safety net , an insurance policy against the wild birds dying out.",
+          "translation": "这些鸟将提供一个“安全网”，即一种防止野生鸟类灭绝的保险措施。"
+        },
+        {
+          "index": 34,
+          "sentence": "You might wonder why birds like the spoon-billed sandpiper travel such great distances, about 8,000 km in total, from their wintering grounds on the tropical coasts of Bangladesh, Burma and Vietnam in South-East Asia to breed on the lowland, commonly called tundra, in North-East Russia, but from the birds' point of view it is worth it.",
+          "translation": "你可能会好奇为什么像勺嘴鹬这样的鸟类要长途跋涉约8000公里，从东南亚的孟加拉国、缅甸和越南的热带海岸越冬地，飞往俄罗斯东北部通常被称为苔原的低地繁殖，但从鸟类的角度来看，这是值得的。"
+        },
+        {
+          "index": 35,
+          "sentence": "30",
+          "translation": "30"
+        },
+        {
+          "index": 36,
+          "sentence": "You might wonder why birds like the spoon-billed sandpiper travel such great distances, about 8,000 km in total, from their wintering grounds on the tropical coasts of Bangladesh, Burma and Vietnam in South-East Asia to breed on the lowland, commonly called tundra, in North-East Russia, but from the birds' point of view it is worth it.",
+          "translation": "你可能会感到好奇，为什么像勺嘴鹬这样的鸟类要从它们在东南亚孟加拉国、缅甸和越南热带海岸的越冬地，长途跋涉约8000公里，前往俄罗斯东北部通常被称为冻原的低地繁殖，但从鸟类的角度来看，这一切是值得的。"
+        },
+        {
+          "index": 37,
+          "sentence": "Though they often arrive to find hostile, wintry weather while they are finding their mates and making their nests, there are relatively few predators there, and the abundance of insects that emerge during the brief but intense Arctic summer creates ideal conditions for raising their chicks.",
+          "translation": "尽管它们抵达时常常遭遇恶劣的冬季天气，在寻找伴侣和筑巢的过程中面临挑战，但那里天敌相对较少，而且在短暂而强烈的北极夏季涌现的大量昆虫，为养育幼鸟创造了理想的条件。"
+        },
+        {
+          "index": 39,
+          "sentence": "Two main factors are responsible for the sandpiper's recent rapid decline: the ongoing destruction of stopover habitat on its migration route and hunting on its wintering grounds.",
+          "translation": "导致这种鹬类近期数量迅速下降的两个主要因素是：其迁徙途中中途栖息地持续遭到破坏，以及在越冬地遭受捕猎。"
+        },
+        {
+          "index": 40,
+          "sentence": "The development of new industrial cities is destroying former tidal areas, where sandpipers and other migratory birds used to rest and refuel.",
+          "translation": "新兴工业城市的发展正在摧毁曾经是鹬类和其他候鸟休息和补充能量的潮汐地带。"
+        },
+        {
+          "index": 41,
+          "sentence": "Subsistence hunting is certainly a hazard in some Asian countries, where hunters trap birds for food.",
+          "translation": "在一些亚洲国家，为了生存而进行的捕猎无疑是一种危害，那里的猎人捕捉鸟类作为食物。"
+        },
+        {
+          "index": 42,
+          "sentence": "Conservationists are targeting this problem with small-scale interventions.",
+          "translation": "保护主义者正通过小规模的干预措施来解决这一问题。"
+        },
+        {
+          "index": 43,
+          "sentence": "For example, hunters from 40 villages have been given alternative sources of income, such as cool boxes in which they can take fish to sell at markets, in return for a halt to the bird-netting.",
+          "translation": "例如，来自40个村庄的猎人获得了替代性收入来源，如可以用来携带鱼到市场出售的冷藏箱，以此换取他们停止张网捕鸟。"
+        },
+        {
+          "index": 44,
+          "sentence": "Two main factors are responsible for the sandpiper's recent rapid decline: the ongoing destruction of stopover habitat on its migration route and hunting on its wintering grounds.",
+          "translation": "导致这种鹬类近期数量急剧下降的两个主要因素是：其迁徙路线上中途栖息地的持续破坏，以及在其越冬地的捕猎行为。"
+        },
+        {
+          "index": 45,
+          "sentence": "The development of new industrial cities is destroying former tidal areas, where sandpipers and other migratory birds used to rest and refuel.",
+          "translation": "新兴工业城市的发展正在破坏原有的潮汐区域，这些区域曾是鹬类及其他候鸟休息和补充能量的地方。"
+        },
+        {
+          "index": 46,
+          "sentence": "Subsistence hunting is certainly a hazard in some Asian countries, where hunters trap birds for food.",
+          "translation": "在部分亚洲国家，为生计而进行的捕猎无疑构成威胁，那里的猎人会设陷阱捕捉鸟类作为食物。"
+        },
+        {
+          "index": 47,
+          "sentence": "Conservationists are targeting this problem with small-scale interventions.",
+          "translation": "环保主义者正通过小规模干预措施来应对这一问题。"
+        },
+        {
+          "index": 48,
+          "sentence": "For example, hunters from 40 villages have been given alternative sources of income, such as cool boxes in which they can take fish to sell at markets, in return for a halt to the bird-netting.",
+          "translation": "例如，来自40个村庄的猎人已获得替代收入来源，比如用冷藏箱装鱼去市场售卖，以此换取他们停止张网捕鸟的行为。"
+        },
+        {
+          "index": 49,
+          "sentence": "Two main factors are responsible for the sandpiper's recent rapid decline: the ongoing destruction of stopover habitat on its migration route and hunting on its wintering grounds.",
+          "translation": "导致这种鹬鸟近期数量迅速减少的主要因素有两个：其迁徙途中中途栖息地的持续破坏，以及在其越冬地遭受的捕猎。"
+        },
+        {
+          "index": 50,
+          "sentence": "The development of new industrial cities is destroying former tidal areas, where sandpipers and other migratory birds used to rest and refuel.",
+          "translation": "新兴工业城市的发展正在破坏昔日的潮间带区域，而这些区域曾是鹬鸟及其他候鸟休息和补充能量的地方。"
+        },
+        {
+          "index": 51,
+          "sentence": "Subsistence hunting is certainly a hazard in some Asian countries, where hunters trap birds for food.",
+          "translation": "在某些亚洲国家，为生存而进行的捕猎无疑是一种威胁，那里的猎人设网捕鸟作为食物。"
+        },
+        {
+          "index": 52,
+          "sentence": "Conservationists are targeting this problem with small-scale interventions.",
+          "translation": "环保人士正通过小规模干预措施来解决这一问题。"
+        },
+        {
+          "index": 53,
+          "sentence": "For example, hunters from 40 villages have been given alternative sources of income, such as cool boxes in which they can take fish to sell at markets, in return for a halt to the bird-netting.",
+          "translation": "例如，来自40个村庄的猎人已获得替代性收入来源，比如可以用来装鱼到市场上出售的冷藏箱，以此换取他们停止捕鸟行为。"
+        },
+        {
+          "index": 55,
+          "sentence": "Once the expedition team had reached its destination, it was seven days before we spotted the first sandpiper.",
+          "translation": "探险队到达目的地后，过了七天我们才发现了第一只鹬鸟。"
+        },
+        {
+          "index": 56,
+          "sentence": "In the following days, more began to arrive and the males' song was heard, advertising their patches of territory to potential mates.",
+          "translation": "随后的日子里，更多的鹬鸟开始抵达，并能听到雄鸟的鸣唱，向潜在伴侣宣告它们的领地。"
+        },
+        {
+          "index": 57,
+          "sentence": "As the sandpipers paired up, the song gave way to the quiet of egg-laying and incubation.",
+          "translation": "随着鹬鸟成双结对，鸣唱声被产卵和孵蛋的宁静所取代。"
+        },
+        {
+          "index": 58,
+          "sentence": "In total nine nests were found.",
+          "translation": "总共发现了九个巢。"
+        },
+        {
+          "index": 59,
+          "sentence": "The first one was lost to a predator, along with the female attending it.",
+          "translation": "第一个巢被捕食者摧毁，连同守护它的雌鸟一起消失。"
+        },
+        {
+          "index": 60,
+          "sentence": "This was a stark reminder of the vulnerability of a tiny population to natural events, such as storms or predation.",
+          "translation": "这鲜明地提醒人们，小型种群极易受到风暴或捕食等自然事件的影响。"
+        },
+        {
+          "index": 61,
+          "sentence": "32",
+          "translation": "32"
+        },
+        {
+          "index": 62,
+          "sentence": "Once the expedition team had reached its destination, it was seven days before we spotted the first sandpiper.",
+          "translation": "探险队抵达目的地后，过了七天才发现第一只矶鹬。"
+        },
+        {
+          "index": 63,
+          "sentence": "In the following days, more began to arrive and the males' song was heard, advertising their patches of territory to potential mates.",
+          "translation": "在接下来的日子里，更多的矶鹬开始到来，并听到雄鸟的鸣叫声，它们向潜在的配偶宣告自己的领地。"
+        },
+        {
+          "index": 64,
+          "sentence": "As the sandpipers paired up, the song gave way to the quiet of egg-laying and incubation.",
+          "translation": "随着矶鹬成对结合，鸣叫声逐渐被产卵和孵化的寂静所取代。"
+        },
+        {
+          "index": 65,
+          "sentence": "In total nine nests were found.",
+          "translation": "总共发现了九个巢穴。"
+        },
+        {
+          "index": 66,
+          "sentence": "The first one was lost to a predator, along with the female attending it.",
+          "translation": "第一个巢穴连同守护它的雌鸟一起被捕食者夺走。"
+        },
+        {
+          "index": 67,
+          "sentence": "This was a stark reminder of the vulnerability of a tiny population to natural events, such as storms or predation.",
+          "translation": "这鲜明地提醒人们，这一微小种群在面对风暴或捕食等自然事件时的脆弱性。"
+        },
+        {
+          "index": 68,
+          "sentence": "The team then selected donor nests and transferred the eggs to specially prepared incubators.",
+          "translation": "随后，团队选定了供体巢穴，并将鸟蛋转移至特制的孵化器中。"
+        },
+        {
+          "index": 69,
+          "sentence": "They collected 20 eggs in all, taking entire clutches each time - it was early in the breeding season, so the females were likely to lay replacements.",
+          "translation": "他们总共收集了20枚鸟蛋，每次都取走整窝蛋——当时正值繁殖季节初期，因此雌鸟很可能会再次产卵。"
+        },
+        {
+          "index": 70,
+          "sentence": "Then 50 days after our arrival, the moment arrived: l witnessed my first wild spoon-billed sandpipers hatch.",
+          "translation": "在我们抵达后的第50天，那个时刻终于到来了：我亲眼目睹了第一只野生勺嘴鹬的孵化。"
+        },
+        {
+          "index": 71,
+          "sentence": "l had been lying inside a wind-battered hide for 36 hours when l saw the first tiny chicks emerge from the eggs.",
+          "translation": "我在被风吹得破旧的隐蔽棚里躺了36个小时，终于看到第一只幼鸟从蛋中破壳而出。"
+        },
+        {
+          "index": 72,
+          "sentence": "Having hidden a microphone near the nest, I could also just hear their first calls.",
+          "translation": "由于在巢穴附近藏了一个麦克风，我还能依稀听到它们的第一声啼叫。"
+        },
+        {
+          "index": 73,
+          "sentence": "Later, I watched them stumbling through the 15 cm-high jungle of grasses on comically oversized legs and feet.",
+          "translation": "后来，我注视着它们迈着滑稽的大长腿，在15厘米高的草丛中跌跌撞撞地穿行。"
+        },
+        {
+          "index": 74,
+          "sentence": "But my joy was tempered by concern.",
+          "translation": "然而，我的喜悦被忧虑所冲淡。"
+        },
+        {
+          "index": 75,
+          "sentence": "Difficulties on their migration route and in their wintering areas meant that other tiny creatures like these faced immense dangers.",
+          "translation": "它们在迁徙路线和越冬地所面临的困境意味着，其他像这样幼小的生物正面临着巨大的危险。"
+        },
+        {
+          "index": 77,
+          "sentence": "The complex rescue plan does give some grounds for hope.",
+          "translation": "这个复杂的救援计划确实提供了一些希望的理由。"
+        },
+        {
+          "index": 78,
+          "sentence": "Young chicks were flown to WWT Slimbridge last year and again this summer.",
+          "translation": "幼鸟去年和今年夏天都被空运到了WWT斯利姆布里奇。"
+        },
+        {
+          "index": 79,
+          "sentence": "A high-tech biosecure unit has been built for them there.",
+          "translation": "那里为它们建造了一个高科技的生物安全设施。"
+        },
+        {
+          "index": 80,
+          "sentence": "It is divided in two, with the older birds in one section and this year's chicks in the other.",
+          "translation": "该设施分为两部分，年长的鸟在一个区域，今年的幼鸟在另一个区域。"
+        },
+        {
+          "index": 81,
+          "sentence": "To minimise the risk of infections, staff change into full-body overalls and rubber shoes and wash their hands before entering.",
+          "translation": "为了最大限度降低感染风险，工作人员在进入前会换上全身防护服和橡胶鞋，并洗手。"
+        },
+        {
+          "index": 82,
+          "sentence": "Hygiene is crucial: even a single strand of human hair could harm the chicks by becoming twisted round their legs or bills.",
+          "translation": "卫生至关重要：即使是一根人的头发丝缠在幼鸟的腿或喙上，也可能伤害到它们。"
+        },
+        {
+          "index": 83,
+          "sentence": "The rescue plan's final stage, once the captive flock has built up sufficiently, will be to fly eggs back to Russia, to release the chicks there.",
+          "translation": "救援计划的最后阶段，一旦圈养鸟群数量足够，将把蛋空运回俄罗斯，在那里放归幼鸟。"
+        },
+        {
+          "index": 84,
+          "sentence": "It's a gamble, but when the survival of a species this special is at stake, you have to try.",
+          "translation": "这是一场赌博，但当如此特别的物种的生存受到威胁时，你必须去尝试。"
+        },
+        {
+          "index": 85,
+          "sentence": "33",
+          "translation": "33"
+        },
+        {
+          "index": 86,
+          "sentence": "The complex rescue plan does give some grounds for hope.",
+          "translation": "这一复杂的救援计划确实为人们带来了一些希望。"
+        },
+        {
+          "index": 87,
+          "sentence": "Young chicks were flown to WWT Slimbridge last year and again this summer.",
+          "translation": "幼鸟已于去年和今年夏天被空运至英国辛布里奇的野生鸟类与湿地基金会总部。"
+        },
+        {
+          "index": 88,
+          "sentence": "A high-tech biosecure unit has been built for them there.",
+          "translation": "那里已为它们建造了一个高科技的生物安全设施。"
+        },
+        {
+          "index": 89,
+          "sentence": "It is divided in two,with the older birds in one section and this year's chicks in the other.",
+          "translation": "该设施被分为两部分，年龄较大的鸟在一个区域，今年的幼鸟在另一区域。"
+        },
+        {
+          "index": 90,
+          "sentence": "To minimise the risk of infections, staff change into full-body overalls and rubber shoes and wash their hands before entering.",
+          "translation": "为将感染风险降至最低，工作人员在进入前需换上全身工作服和胶鞋，并洗手消毒。"
+        },
+        {
+          "index": 91,
+          "sentence": "Hygiene is crucial: even a single strand of human hair could harm the chicks by becoming twisted round their legs or bills.",
+          "translation": "卫生至关重要：即使是一根人类头发，也可能缠住幼鸟的腿或喙，从而对其造成伤害。"
+        },
+        {
+          "index": 92,
+          "sentence": "The rescue plan's final stage,once the captive flock has built up sufficiently, will be to fly eggs back to Russia,to release the chicks there.",
+          "translation": "救援计划的最后阶段是，一旦人工饲养的鸟群数量充足，便将鸟蛋空运回俄罗斯，在那里放归幼鸟。"
+        },
+        {
+          "index": 93,
+          "sentence": "It's a gamble, but when the survival of a species this special is at stake, you have to try.",
+          "translation": "这虽是一场赌博，但当一个如此特殊的物种的生存岌岌可危时，你必须努力尝试。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

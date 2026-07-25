@@ -1,0 +1,2233 @@
+{
+  "id": "b20-test-2",
+  "book": "剑雅20",
+  "book_number": 20,
+  "name": "Test 2",
+  "title": "剑雅20 Test 2",
+  "parts": [
+    {
+      "id": "2930",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Great cycling trails",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Why not take the bike and try one of these wonderful cycling routes next weekend?",
+          "translation": "何不骑上自行车，在下个周末尝试其中一条绝佳的骑行路线呢？"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A Bo'ness to Blackness Castle, Edinburgh",
+          "translation": "A 博内斯至布莱克尼斯城堡路线，爱丁堡"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "If you like cycling on flat ground and enjoy having interesting things to look at, this is one of the best trails in Scotland, Among its plus points, there are fantastic views of three of the bridges across the river Forth, Simply return by the same path or continue on to South Queensferry for a longer day out.",
+          "translation": "如果你喜欢在平坦的地面上骑行，并乐于欣赏有趣的景致，这是苏格兰最好的骑行路线之一。\n其优点之一是可以欣赏到横跨福斯河的三座桥梁的壮观景色。\n只需沿原路返回，或继续前往南昆斯费里，享受更长的户外时光。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B The Montgomery Canal cycle path, Wales",
+          "translation": "B 蒙哥马利运河自行车道，威尔士"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Dragonflies, swans, buzzards, fish and other creatures can be spotted as you cycle alongside the canal. The path is in good condition and broad enough for a family to ride safely, A day out cycling in the area can also include a visit to the nearby thirteenth-century Powis Castle and its beautiful gardens.",
+          "translation": "在运河边骑行时，你可以看到蜻蜓、天鹅、鵟、鱼和其他生物。\n这条道路状况良好，且足够宽阔，可以供一家人安全骑行；在该地区骑行一天，还可以顺道参观附近的十三世纪波伊斯城堡及其美丽的花园。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C A walking and cycling path in Birmingham, West Midlands",
+          "translation": "C 西米德兰兹郡伯明翰的一条步行与骑行路径"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "The busy city of Birmingham has several well-known bike trails, including a quiet route along the Bourn Brook to Woodgate Valley country park. One hump-backed bridge is best walked across, but the rest of the route is flat and suitable for a range of bikes. It's then 2km along the signposted path to Woodgate Valley, which is perfect for picnics, has a family-friendly visitor attraction especially known for its sheep, and offers a break from cycling.",
+          "translation": "繁忙的伯明翰市拥有几条著名的自行车道，其中包括一条沿着伯恩溪通往伍德盖特谷乡村公园的安静路线。\n一座拱形桥最好推车步行通过，但其余路段平坦，适合各种自行车骑行。\n然后沿着有路标的小径骑行2公里即可到达伍德盖特谷，那里非常适合野餐，设有一个以羊群闻名的家庭友好型景点，并能让您从骑行中得到休息。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D The Cycle Trail in the Forest of Dean, Gloucestershire",
+          "translation": "D 格洛斯特郡迪恩森林的自行车道"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "The path is on a former railway route from the time when the area was involved in coal mining. Cyclists can visit sites from this period on the way, but those just along for the views won't be disappointed. Stop for lunch at one of the numerous picnic spots along the way, The route is circular, fully marked and suitable for the whole family, including the dog.",
+          "translation": "这条路径位于一条昔日的铁路线上，源自该地区从事煤炭开采的时期。\n骑行者沿途可以参观这一时期的遗址，但仅为了风景而来的人也不会失望。\n在沿途众多野餐点之一停下来享用午餐，这条路线是环形的，标识清晰，适合全家出游，包括狗在内。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E The Wirral Trail, Liverpool",
+          "translation": "E 利物浦威勒尔小径"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "The trail is safe, flat and with plenty of cafés on the way. Take in the views of North Wales, have a rest on the beach at Caldy or Thurstaston, then cross the border into Cheshire and on towards Chester. Both West Kirby and Chester have regular direct trains back to Liverpool.",
+          "translation": "这条路线安全、平坦，沿途还有许多咖啡馆。\n欣赏北威尔士的景色，在卡尔迪或瑟斯塔斯顿的海滩上休息，然后跨越边界进入柴郡，继续向切斯特前进。\n西柯比和切斯特都有直达利物浦的定期火车。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "What steps to take to become a fashion designer",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "成为一名时装设计师需要采取哪些步骤"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "First, it's important to think about what types of fashion designers are in demand currently. There are so many womenswear designers, yet not as many menswear sportswear or accessories designers. Opportunities might be greater in those categories.",
+          "translation": "首先，思考当前哪些类型的时装设计师有需求是很重要的。\n女装设计师非常多，但男装、运动服或配饰设计师却没有那么多。\n这些类别中的机会可能更大。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "When applying for internships, think about what you'll bring to the company as well as what they can offer you: ls the company going to teach you skills that are relevant to your future career? What mix of skills can you bring to the company that is relevant to their needs? Try to find the company that's the right fit for you, and you are much more likely to be what the company is looking for as well.",
+          "translation": "在申请实习时，既要考虑你能为公司带来什么，也要考虑公司能为你提供什么：\n你能为公司带来哪些符合他们需求的技能组合？\n尽量找到适合你的公司，这样你也更有可能成为该公司寻找的人选。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Knocking on doors can lead to fantastic opportunities: Designers are very busy and overwhelmed with people applying to work with them, but they're far more impressed by people that try that little bit harder. For example, some graduates go overseas to New York or Milan to deliver a self-directed design project and CV to the designer of their choice. Of course that can lead to considerable expense, but it often results in success.",
+          "translation": "主动登门拜访可以带来绝佳的机会：设计师们非常忙碌，面对大量求职者应接不暇，但他们对于那些付出更多努力的人印象要深刻得多。\n例如，有些毕业生前往海外的纽约或米兰，向他们选定的设计师当面递交一份自主完成的设计项目和简历。\n当然，这可能会产生相当可观的费用，但通常能带来成功。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Make use of online fashion and business networking sites. Create your profile on each one, as you never know who might be looking. Apply to as many fashion hiring agencies as you can - there are more than 20 in the UK alone. Not all of them take on new graduates, but try them all anyway.",
+          "translation": "利用在线时尚和商业社交网站。\n在每个网站上创建个人资料，因为你永远不知道谁会看到它们。\n尽可能多地申请时尚招聘机构——仅在英国就有超过20家。\n并非所有机构都招聘应届毕业生，但无论如何还是都尝试一下。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Consider your training and fill in any gaps in it. Assistant designers and interns can make themselves more employable through investing time in obtaining, for example, computer-aided design (CAD) skills. Unfortunately, not all colleges and universities have CAD as an integral part of their courses. If this has affected you, you should study using online learning applications.",
+          "translation": "审视你的培训经历，并弥补其中的不足之处。\n助理设计师和实习生可以通过投入时间获取例如计算机辅助设计（CAD）技能，从而提升自己的就业竞争力。\n遗憾的是，并非所有学院和大学都将CAD作为课程的重要组成部分。\n如果这影响到了你，你应该利用在线学习应用程序进行学习。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Finally, talent is not enough _ you need to get out there and make sure everybody knows about your skills. Graduates should be aware that they need to be proactive and persistent. It's all down to developing new contacts and utilising the ones you already have.",
+          "translation": "最后，仅凭天赋是不够的——你需要走出去，确保每个人都知道你的技能。\n毕业生应该意识到他们需要积极主动并坚持不懈。\n这一切都归结于拓展新的人脉并利用你已有的关系。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21392",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 7\nLook at the five descriptions of cycle trails, A-E.\nFor which cycle trail are the following statements true?\nWrite the correct letter, A-E, in boxes 1-7 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131226",
+              "number": 1,
+              "prompt": "People who like finding out about industrial history may find this cycle trail interesting.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“industrial history”对应原文D段提到的“coal mining”，该段指出这条路径位于曾经用于煤炭运输的铁路线上，因此对工业历史感兴趣的人会对此路线感兴趣。关键词“former railway route”和“coal mining”直接体现了与工业历史的关联，故答案为D。",
+              "reason": "对应题干industrial history，原文有coal mining",
+              "location_analysis": "D段提到former railway route涉及coal mining，与工业历史相关。",
+              "paraphrasing": "industrial history -> coal mining",
+              "keywords": "industrial history, coal mining",
+              "evidence": [
+                "The path is on a former railway route from the time when the area was involved in coal mining."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131227",
+              "number": 2,
+              "prompt": "Cyclists might find it advisable to get off their bikes on this trail and go a short distance on foot.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出建议骑车者下车步行一小段路的路线。C段明确提到“One hump-backed bridge is best walked across”，即一座拱桥最好步行通过，这与题干中“get off their bikes...on foot”形成直接对应，因此答案为C。",
+              "reason": "原文明确建议步行过桥。",
+              "location_analysis": "C trail提到一座拱桥最好步行通过，建议下车。",
+              "paraphrasing": "advisable to get off bikes -> best walked across",
+              "keywords": "get off bikes, walk across",
+              "evidence": [
+                "One hump-backed bridge is best walked across"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131228",
+              "number": 3,
+              "prompt": "It is possible to buy something to eat when cycling along this trail.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干询问哪条路线可以购买食物。E段提到“The trail is safe, flat and with plenty of cafés on the way”，其中“cafés”表明沿途可购买食物，与题干“buy something to eat”构成同义替换，因此答案为E。",
+              "reason": "对应题干buy something to eat",
+              "location_analysis": "E段提到plenty of cafés on the way，可购买食物。",
+              "paraphrasing": "buy something to eat -> plenty of cafés",
+              "keywords": "buy something to eat, cafés",
+              "evidence": [
+                "The trail is safe, flat and with plenty of cafés on the way."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131229",
+              "number": 4,
+              "prompt": "People can stop on this trail and see some farm animals.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干提到“see some farm animals”，C段指出Woodgate Valley有“a family-friendly visitor attraction especially known for its sheep”，其中“sheep”属于农场动物，与题干信息完全对应，因此答案为C。",
+              "reason": "对应题干see some farm animals",
+              "location_analysis": "C段提到family-friendly visitor attraction especial...",
+              "paraphrasing": "farm animals -> sheep",
+              "keywords": "farm animals, sheep",
+              "evidence": [
+                "It's then 2km along the signposted path to Woodgate Valley, which is perfect for picnics, has a family-friendly visitor attraction especially known for its sheep, and offers a break from cycling."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131230",
+              "number": 5,
+              "prompt": "Cyclists can stop for a while on this trail and sit by the sea.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“sit by the sea”对应E段提到的“have a rest on the beach at Caldy or Thurstaston”，“beach”即海边，说明骑行者可在海边休息，符合题干描述，因此答案为E。",
+              "reason": "对应题干sit by the sea",
+              "location_analysis": "E段提到have a rest on the beach at Caldy，可坐在海边。",
+              "paraphrasing": "sit by the sea -> have a rest on the beach",
+              "keywords": "sit by the sea, beach",
+              "evidence": [
+                "Take in the views of North Wales, have a rest on the beach at Caldy or Thurstaston, then cross the border into Cheshire and on towards Chester."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131231",
+              "number": 6,
+              "prompt": "A very old building is close to this trail and is open to the public.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求找出附近有对公众开放的古老建筑的路线。B段提到“a visit to the nearby thirteenth-century Powis Castle”，其中“thirteenth-century”表明建筑历史悠久，“a visit”说明对公众开放，与题干完全匹配，故答案为B。",
+              "reason": "对应题干very old building open to public",
+              "location_analysis": "B段提到visit nearby thirteenth-century Powis Castl...",
+              "paraphrasing": "very old building -> thirteenth-century; open to the public -> a visit",
+              "keywords": "very old building, thirteenth-century, open to the public",
+              "evidence": [
+                "A day out cycling in the area can also include a visit to the nearby thirteenth-century Powis Castle and its beautiful gardens."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131232",
+              "number": 7,
+              "prompt": "Riders can extend the distance they cycle if they take this trail.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“extend the distance they cycle”对应A段末句“continue on to South Queensferry for a longer day out”，表明骑行者可延长行程，这与题干意思一致，因此答案为A。",
+              "reason": "对应题干extend the distance",
+              "location_analysis": "A段结尾说continue on to South Queensferry for a lon...",
+              "paraphrasing": "extend the distance -> continue on",
+              "keywords": "extend the distance, continue on",
+              "evidence": [
+                "Simply return by the same path or continue on to South Queensferry for a longer day out."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "21394",
+          "type": 8,
+          "title": "Design graduates - how to get work in the fashion industry",
+          "instructions": "Questions 8 - 14\nComplete the flow-chart below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 8-14 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131233",
+              "number": 8,
+              "prompt": "Consider whether to specialise in a less popular area, such as _____ rather than clothing.",
+              "options": [],
+              "answer": "accessories",
+              "accepted_answers": [
+                "accessories"
+              ],
+              "analysis": "题干要求填写一个比服装更冷门的设计领域。原文提到“There are so many womenswear designers, yet not as many menswear sportswear or accessories designers”，其中“accessories”作为较少人从事的类别，符合题干“rather than clothing”的语境，故答案为accessories。",
+              "reason": "题干less popular对应not as many，clothing对应womenswear",
+              "location_analysis": "原文提到menswear sportswear or accessories，题干说而非clo...",
+              "paraphrasing": "less popular area -> not as many; such as -> accessories",
+              "keywords": "less popular, accessories",
+              "evidence": [
+                "There are so many womenswear designers, yet not as many menswear sportswear or accessories designers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131234",
+              "number": 9,
+              "prompt": "Try to get an internship in a business where you will be a good _____.",
+              "options": [],
+              "answer": "fit",
+              "accepted_answers": [
+                "fit"
+              ],
+              "analysis": "题干中的“good fit”对应原文“find the company that's the right fit for you”，此处“right fit”指求职者与公司相互匹配，与题干“be a good fit”意义一致，因此答案为fit。",
+              "reason": "题干good fit对应right fit",
+              "location_analysis": "原文说find the company that's the right fit for yo...",
+              "paraphrasing": "good fit -> right fit",
+              "keywords": "good fit",
+              "evidence": [
+                "Try to find the company that's the right fit for you, and you are much more likely to be what the company is looking for as well."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131235",
+              "number": 10,
+              "prompt": "Having identified a business where you want to work, go and hand in the application personally, even if this involves significant _____.",
+              "options": [],
+              "answer": "expense",
+              "accepted_answers": [
+                "expense"
+              ],
+              "analysis": "题干中的“significant expense”对应原文“that can lead to considerable expense”，其中“considerable expense”与“significant expense”为同义表达，描述亲自递交申请可能产生的高额花费，故答案为expense。",
+              "reason": "题干significant expense对应considerable expense",
+              "location_analysis": "原文说lead to considerable expense，题干significant e...",
+              "paraphrasing": "significant expense -> considerable expense",
+              "keywords": "significant expense",
+              "evidence": [
+                "Of course that can lead to considerable expense, but it often results in success."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131236",
+              "number": 11,
+              "prompt": "To get your work seen, make sure you produce a _____ on various digital platforms and approach specialist _____ involved in recruiting fashion designers.",
+              "options": [],
+              "answer": "profile",
+              "accepted_answers": [
+                "profile"
+              ],
+              "analysis": "题干要求在数字平台上创建的内容，原文提到“Create your profile on each one”，其中“profile”指个人资料或简介，与题干“produce a profile on various digital platforms”完全对应，因此答案为profile。",
+              "reason": "题干produce a profile对应Create your profile",
+              "location_analysis": "原文说Create your profile on each one，题干produce a ...",
+              "paraphrasing": "produce a profile -> Create your profile",
+              "keywords": "profile, digital platforms",
+              "evidence": [
+                "Create your profile on each one, as you never know who might be looking."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131237",
+              "number": 12,
+              "prompt": "To get your work seen, make sure you produce a _____ on various digital platforms and approach specialist _____ involved in recruiting fashion designers.",
+              "options": [],
+              "answer": "agencies",
+              "accepted_answers": [
+                "agencies"
+              ],
+              "analysis": "题干中的“specialist agencies”对应原文“fashion hiring agencies”，文章建议毕业生向这些机构申请工作，且明确指出英国有20多家此类机构，因此“agencies”准确反映题干所指的专业招聘机构，答案为agencies。",
+              "reason": "题干specialist agencies对应fashion hiring agencies",
+              "location_analysis": "原文说Apply to as many fashion hiring agencies，题干s...",
+              "paraphrasing": "specialist agencies -> fashion hiring agencies",
+              "keywords": "specialist agencies",
+              "evidence": [
+                "Apply to as many fashion hiring agencies as you can - there are more than 20 in the UK alone."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131238",
+              "number": 13,
+              "prompt": "Review the _____ you have done and make sure it is as comprehensive as possible by gaining further expertise.",
+              "options": [],
+              "answer": "training",
+              "accepted_answers": [
+                "training"
+              ],
+              "analysis": "题干要求回顾并完善的内容，原文提到“Consider your training and fill in any gaps in it”，其中“training”指接受过的培训，与题干“Review the training you have done”形成直接对应，故答案为training。",
+              "reason": "题干Review training对应Consider training",
+              "location_analysis": "原文说Consider your training and fill in any gaps，...",
+              "paraphrasing": "training -> training; as comprehensive as possible -> fill in any gaps",
+              "keywords": "training, comprehensive, further expertise",
+              "evidence": [
+                "Consider your training and fill in any gaps in it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131239",
+              "number": 14,
+              "prompt": "Do not rely on your ability alone, and establish as many useful _____ as possible.",
+              "options": [],
+              "answer": "contacts",
+              "accepted_answers": [
+                "contacts"
+              ],
+              "analysis": "题干中的“useful contacts”对应原文“developing new contacts and utilising the ones you already have”，强调建立和利用人脉关系，与题干“establish as many useful contacts as possible”意思一致，因此答案为contacts。",
+              "reason": "题干establish contacts对应developing contacts",
+              "location_analysis": "原文说developing new contacts，题干establish useful c...",
+              "paraphrasing": "useful contacts -> new contacts",
+              "keywords": "useful contacts",
+              "evidence": [
+                "It's all down to developing new contacts and utilising the ones you already have."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Consider whether to specialise in a less popular area, such as $131233$ rather than clothing.\n↓\nTry to get an internship in a business where you will be a good $131234$.\n↓\nHaving identified a business where you want to work, go and hand in the application personally, even if this involves significant $131235$.\n↓\nTo get your work seen, make sure you produce a $131236$ on various digital platforms and approach specialist $131237$ involved in recruiting fashion designers.\n↓\nReview the $131238$ you have done and make sure it is as comprehensive as possible by gaining further expertise.\n↓\nDo not rely on your ability alone, and establish as many useful $131239$ as possible.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Consider whether to specialise in a less popular area, such as $131233$ rather than clothing.\n↓\nTry to get an internship in a business where you will be a good $131234$.\n↓\nHaving identified a business where you want to work, go and hand in the application personally, even if this involves significant $131235$.\n↓\nTo get your work seen, make sure you produce a $131236$ on various digital platforms and approach specialist $131237$ involved in recruiting fashion designers.\n↓\nReview the $131238$ you have done and make sure it is as comprehensive as possible by gaining further expertise.\n↓\nDo not rely on your ability alone, and establish as many useful $131239$ as possible."
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Great cycling trails",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Why not take the bike and try one of these wonderful cycling routes next weekend?",
+          "translation": "何不骑上自行车，在下个周末尝试其中一条绝佳的骑行路线呢？"
+        },
+        {
+          "index": 2,
+          "sentence": "A Bo'ness to Blackness Castle, Edinburgh",
+          "translation": "A 博内斯至布莱克尼斯城堡路线，爱丁堡"
+        },
+        {
+          "index": 3,
+          "sentence": "If you like cycling on flat ground and enjoy having interesting things to look at, this is one of the best trails in Scotland,",
+          "translation": "如果你喜欢在平坦的地面上骑行，并乐于欣赏有趣的景致，这是苏格兰最好的骑行路线之一。"
+        },
+        {
+          "index": 4,
+          "sentence": "Among its plus points, there are fantastic views of three of the bridges across the river Forth,",
+          "translation": "其优点之一是可以欣赏到横跨福斯河的三座桥梁的壮观景色。"
+        },
+        {
+          "index": 5,
+          "sentence": "Simply return by the same path or continue on to South Queensferry for a longer day out.",
+          "translation": "只需沿原路返回，或继续前往南昆斯费里，享受更长的户外时光。"
+        },
+        {
+          "index": 6,
+          "sentence": "B The Montgomery Canal cycle path, Wales",
+          "translation": "B 蒙哥马利运河自行车道，威尔士"
+        },
+        {
+          "index": 7,
+          "sentence": "Dragonflies, swans, buzzards, fish and other creatures can be spotted as you cycle alongside the canal.",
+          "translation": "在运河边骑行时，你可以看到蜻蜓、天鹅、鵟、鱼和其他生物。"
+        },
+        {
+          "index": 8,
+          "sentence": "The path is in good condition and broad enough for a family to ride safely, A day out cycling in the area can also include a visit to the nearby thirteenth-century Powis Castle and its beautiful gardens.",
+          "translation": "这条道路状况良好，且足够宽阔，可以供一家人安全骑行；在该地区骑行一天，还可以顺道参观附近的十三世纪波伊斯城堡及其美丽的花园。"
+        },
+        {
+          "index": 9,
+          "sentence": "C A walking and cycling path in Birmingham, West Midlands",
+          "translation": "C 西米德兰兹郡伯明翰的一条步行与骑行路径"
+        },
+        {
+          "index": 10,
+          "sentence": "The busy city of Birmingham has several well-known bike trails, including a quiet route along the Bourn Brook to Woodgate Valley country park.",
+          "translation": "繁忙的伯明翰市拥有几条著名的自行车道，其中包括一条沿着伯恩溪通往伍德盖特谷乡村公园的安静路线。"
+        },
+        {
+          "index": 11,
+          "sentence": "One hump-backed bridge is best walked across, but the rest of the route is flat and suitable for a range of bikes.",
+          "translation": "一座拱形桥最好推车步行通过，但其余路段平坦，适合各种自行车骑行。"
+        },
+        {
+          "index": 12,
+          "sentence": "It's then 2km along the signposted path to Woodgate Valley, which is perfect for picnics, has a family-friendly visitor attraction especially known for its sheep, and offers a break from cycling.",
+          "translation": "然后沿着有路标的小径骑行2公里即可到达伍德盖特谷，那里非常适合野餐，设有一个以羊群闻名的家庭友好型景点，并能让您从骑行中得到休息。"
+        },
+        {
+          "index": 13,
+          "sentence": "D The Cycle Trail in the Forest of Dean, Gloucestershire",
+          "translation": "D 格洛斯特郡迪恩森林的自行车道"
+        },
+        {
+          "index": 14,
+          "sentence": "The path is on a former railway route from the time when the area was involved in coal mining.",
+          "translation": "这条路径位于一条昔日的铁路线上，源自该地区从事煤炭开采的时期。"
+        },
+        {
+          "index": 15,
+          "sentence": "Cyclists can visit sites from this period on the way, but those just along for the views won't be disappointed.",
+          "translation": "骑行者沿途可以参观这一时期的遗址，但仅为了风景而来的人也不会失望。"
+        },
+        {
+          "index": 16,
+          "sentence": "Stop for lunch at one of the numerous picnic spots along the way, The route is circular, fully marked and suitable for the whole family, including the dog.",
+          "translation": "在沿途众多野餐点之一停下来享用午餐，这条路线是环形的，标识清晰，适合全家出游，包括狗在内。"
+        },
+        {
+          "index": 17,
+          "sentence": "E The Wirral Trail, Liverpool",
+          "translation": "E 利物浦威勒尔小径"
+        },
+        {
+          "index": 18,
+          "sentence": "The trail is safe, flat and with plenty of cafés on the way.",
+          "translation": "这条路线安全、平坦，沿途还有许多咖啡馆。"
+        },
+        {
+          "index": 19,
+          "sentence": "Take in the views of North Wales, have a rest on the beach at Caldy or Thurstaston, then cross the border into Cheshire and on towards Chester.",
+          "translation": "欣赏北威尔士的景色，在卡尔迪或瑟斯塔斯顿的海滩上休息，然后跨越边界进入柴郡，继续向切斯特前进。"
+        },
+        {
+          "index": 20,
+          "sentence": "Both West Kirby and Chester have regular direct trains back to Liverpool.",
+          "translation": "西柯比和切斯特都有直达利物浦的定期火车。"
+        },
+        {
+          "index": 21,
+          "sentence": "What steps to take to become a fashion designer",
+          "translation": "成为一名时装设计师需要采取哪些步骤"
+        },
+        {
+          "index": 22,
+          "sentence": "First, it's important to think about what types of fashion designers are in demand currently.",
+          "translation": "首先，思考当前哪些类型的时装设计师有需求是很重要的。"
+        },
+        {
+          "index": 23,
+          "sentence": "There are so many womenswear designers, yet not as many menswear sportswear or accessories designers.",
+          "translation": "女装设计师非常多，但男装、运动服或配饰设计师却没有那么多。"
+        },
+        {
+          "index": 24,
+          "sentence": "Opportunities might be greater in those categories.",
+          "translation": "这些类别中的机会可能更大。"
+        },
+        {
+          "index": 25,
+          "sentence": "When applying for internships, think about what you'll bring to the company as well as what they can offer you:",
+          "translation": "在申请实习时，既要考虑你能为公司带来什么，也要考虑公司能为你提供什么："
+        },
+        {
+          "index": 26,
+          "sentence": "Is the company going to teach you skills that are relevant to your future career?",
+          "translation": "这家公司是否会教你与你未来职业相关的技能？"
+        },
+        {
+          "index": 27,
+          "sentence": "What mix of skills can you bring to the company that is relevant to their needs?",
+          "translation": "你能为公司带来哪些符合他们需求的技能组合？"
+        },
+        {
+          "index": 28,
+          "sentence": "Try to find the company that's the right fit for you, and you are much more likely to be what the company is looking for as well.",
+          "translation": "尽量找到适合你的公司，这样你也更有可能成为该公司寻找的人选。"
+        },
+        {
+          "index": 29,
+          "sentence": "Knocking on doors can lead to fantastic opportunities: Designers are very busy and overwhelmed with people applying to work with them, but they're far more impressed by people that try that little bit harder.",
+          "translation": "主动登门拜访可以带来绝佳的机会：设计师们非常忙碌，面对大量求职者应接不暇，但他们对于那些付出更多努力的人印象要深刻得多。"
+        },
+        {
+          "index": 30,
+          "sentence": "For example, some graduates go overseas to New York or Milan to deliver a self-directed design project and CV to the designer of their choice.",
+          "translation": "例如，有些毕业生前往海外的纽约或米兰，向他们选定的设计师当面递交一份自主完成的设计项目和简历。"
+        },
+        {
+          "index": 31,
+          "sentence": "Of course that can lead to considerable expense, but it often results in success.",
+          "translation": "当然，这可能会产生相当可观的费用，但通常能带来成功。"
+        },
+        {
+          "index": 32,
+          "sentence": "Make use of online fashion and business networking sites.",
+          "translation": "利用在线时尚和商业社交网站。"
+        },
+        {
+          "index": 33,
+          "sentence": "Create your profile on each one, as you never know who might be looking.",
+          "translation": "在每个网站上创建个人资料，因为你永远不知道谁会看到它们。"
+        },
+        {
+          "index": 34,
+          "sentence": "Apply to as many fashion hiring agencies as you can - there are more than 20 in the UK alone.",
+          "translation": "尽可能多地申请时尚招聘机构——仅在英国就有超过20家。"
+        },
+        {
+          "index": 35,
+          "sentence": "Not all of them take on new graduates, but try them all anyway.",
+          "translation": "并非所有机构都招聘应届毕业生，但无论如何还是都尝试一下。"
+        },
+        {
+          "index": 36,
+          "sentence": "Consider your training and fill in any gaps in it.",
+          "translation": "审视你的培训经历，并弥补其中的不足之处。"
+        },
+        {
+          "index": 37,
+          "sentence": "Assistant designers and interns can make themselves more employable through investing time in obtaining, for example, computer-aided design (CAD) skills.",
+          "translation": "助理设计师和实习生可以通过投入时间获取例如计算机辅助设计（CAD）技能，从而提升自己的就业竞争力。"
+        },
+        {
+          "index": 38,
+          "sentence": "Unfortunately, not all colleges and universities have CAD as an integral part of their courses.",
+          "translation": "遗憾的是，并非所有学院和大学都将CAD作为课程的重要组成部分。"
+        },
+        {
+          "index": 39,
+          "sentence": "If this has affected you, you should study using online learning applications.",
+          "translation": "如果这影响到了你，你应该利用在线学习应用程序进行学习。"
+        },
+        {
+          "index": 40,
+          "sentence": "Finally, talent is not enough _ you need to get out there and make sure everybody knows about your skills.",
+          "translation": "最后，仅凭天赋是不够的——你需要走出去，确保每个人都知道你的技能。"
+        },
+        {
+          "index": 41,
+          "sentence": "Graduates should be aware that they need to be proactive and persistent.",
+          "translation": "毕业生应该意识到他们需要积极主动并坚持不懈。"
+        },
+        {
+          "index": 42,
+          "sentence": "It's all down to developing new contacts and utilising the ones you already have.",
+          "translation": "这一切都归结于拓展新的人脉并利用你已有的关系。"
+        }
+      ]
+    },
+    {
+      "id": "2932",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Types of training in business",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "The type of training provided in a business will depend on the resources available for training, the type of company, and the priority the company places on training.",
+          "translation": "企业提供的培训类型将取决于可用于培训的资源、公司类型以及公司对培训的重视程度。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Technical training is a type of training meant to teach the new employee the technological aspects of the job. For example, in a consulting business, technical training might be used so the consultant knows how to operate the system to input the number of hours that should be charged to a client. In a restaurant, the server might need to be trained on how to process customers' orders using a tablet.",
+          "translation": "技术培训旨在向新员工传授工作的技术层面知识。\n例如，在咨询公司中，技术培训可能用于让顾问了解如何操作系统以输入应向客户收取的工时数。\n在餐厅中，服务员可能需要接受培训，学习如何使用平板电脑处理顾客的订单。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "In production focussed businesses, quality training involves familiarizing employees with the means of preventing, detecting, and eliminating non-quality products. In a world where quality can set your business apart from competitors, this type of training provides employees with the knowledge to recognize products that are not up to quality standards and teaches them what action to take in this scenario. This type of training can result in cost savings in production as well as provide an edge in the marketing of the product.",
+          "translation": "在以生产为导向的企业中，质量培训涉及让员工熟悉预防、检测和消除不合格产品的方法。\n在一个质量能让你的企业脱颖而出的世界里，这种培训为员工提供了识别不符合质量标准的产品的知识，并教他们在这种情况下应采取何种行动。\n这种培训可以降低生产成本，同时为产品的营销提供优势。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Skills training includes proficiencies needed to actually perform the job. For example, an administrative assistant might be trained in how to answer the phone, while a salesperson might be trained in assessment of customer needs and on how to offer the customer the necessary information to make a buying decision. A cashier needs to know not only the technology to ring something up on the till, but what to do if something has been given the wrong price.",
+          "translation": "技能培训包括实际执行工作所需的能力。\n例如，行政助理可能接受接听电话的培训，而销售人员则可能接受评估客户需求以及如何向客户提供必要信息以做出购买决策的培训。\n收银员不仅需要知道用收银机录入商品的技术，还需要知道商品被标错价格时该如何处理。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "A fourth type of training is called 'soft skills' training. Soft skills refer to personality traits and personal habits that may influence relationships with other people. Executives say there is an increasing need for people who have not only the technical skills to do a job but also the necessary soft skills, such as being good at different types of communication, including listening to colleagues and customers. In a retail or restaurant environment, essential soft skills might include how to motivate others establish rapport and keep a conversation going. Skills such as these are used in every interaction with customers and are a key component of the customer experience.",
+          "translation": "第四种培训被称为‘软技能’培训。\n软技能指的是可能影响人际关系的个性特征和个人习惯。\n高管们表示，对于不仅具备工作所需的技术技能，还拥有必要软技能（例如擅长不同类型的沟通，包括倾听同事和客户）的人才的需求日益增长。\n在零售或餐厅环境中，关键的软技能可能包括如何激励他人、建立融洽关系以及保持对话进行。\n诸如此类的技能在每一次与客户的互动中都会用到，并且是客户体验的关键组成部分。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "The small business lifecycle",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "小型企业的生命周期"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "From the moment you make the decision to set up a business, you're in the ‘business Lifecycle’. This will see you progress from idea to startup, and if successful, through to the growth and maturity phases.",
+          "translation": "从你决定创办一家企业的那一刻起，你就进入了‘商业生命周期’。\n这将见证你从创意阶段推进到初创阶段，如果成功，还会经历成长和成熟阶段。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Stage 1 is lnitial Development. This is the very beginning of the business lifecycle. You've got your business idea and you're ready to take the plunge. But before you do this you should get as many opinions as possible from friends, family, colleagues, or any industry specialists you have access to, Ultimately, the success of your business will come down to your own abilities, the state of the market and, of course, the decisions you make about the source of finance for your startup.",
+          "translation": "第一阶段是初始开发阶段。\n这是商业生命周期的起点。\n你已经有了商业想法，准备冒险一试。\n但在你这样做之前，应该从朋友、家人、同事或你能接触到的任何行业专家那里尽可能多地获取意见。\n最终，你企业的成功将取决于你自身的能力、市场状况，当然，还有你关于初创资金来源所做的决策。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Once you're satisfied that your idea is ready to go, you move on to Stage 2, which is Startup. Many believe this is the riskiest stage of the entire lifecycle, since mistakes made then can have an impact many years later. Based on the feedback from your first customers, you have to be ready to adapt your product or service. It can even get to the point where you are making so many changes to it that you start to feel a bit confused about what you're doing. Don't worry-this feeling will soon disappear as your company develops.",
+          "translation": "一旦你确信自己的想法已准备就绪，就可以进入第二阶段，即初创阶段。\n许多人认为这是整个生命周期中风险最高的阶段，因为当时所犯的错误可能会在多年后产生影响。\n根据首批客户的反馈，你必须准备好调整你的产品或服务。\n甚至可能达到这样的程度：你对产品做了太多改动，以至于开始对自己所做的事情感到有些困惑。\n别担心——随着公司的发展，这种感觉很快就会消失。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Stage 3 is Establishment. You should now be seeing your profits improve slowly and steadily, but you may struggle to divide the time available to you between the growing demands of your business. Employing the right people is essential, so you need to take a major part in recruitment, It is your job now to start establishing order and cohesion as you mobilize your team according to clearly defined and communicated goals.",
+          "translation": "第三阶段是成立期。\n你现在应当看到利润在缓慢而稳定地增长，但你可能会难以将有限的时间分配在日益增长的业务需求之间。\n雇佣合适的人员至关重要，因此你需要在招聘中承担主要角色。\n现在你的职责是开始建立秩序和凝聚力，同时根据明确界定并传达的目标来调动你的团队。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "By Stage 4, Expansion, you may see rapid growth in profits and wish to move forward. However, you need to be aware of the risks of expanding too carelessly, and should keep an eye on how far expansion might affect the quality of what you provide to your existing customers.",
+          "translation": "到了第四阶段，即扩张阶段，你可能会看到利润快速增长，并希望向前迈进。\n然而，你需要意识到过于草率扩张的风险，并密切关注扩张在多大程度上可能影响你为现有客户提供的服务质量。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Stage 5 is Maturity, Here you may wish to further expand the business. Many companies in this situation bring in a new leader at this stage, to face the new challenges. Other entrepreneurs may decide that they should sell the company at this stage, and move on to a new project.",
+          "translation": "第五阶段是成熟期，此时你可能希望进一步拓展业务。\n许多处于这种情况的公司会在这一阶段引入一位新的领导者，以应对新的挑战。\n其他企业家可能决定在这一阶段出售公司，并转向新的项目。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21405",
+          "type": 13,
+          "title": "Types of tr aining in business",
+          "instructions": "Questions 15 - 21\nComplete the table below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 15-21 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": {
+            "title": "Types of training in business",
+            "content": [
+              [
+                "Type of training",
+                "Aim",
+                "Examples"
+              ],
+              [
+                "Technical",
+                "To teach technological aspects of the job",
+                "Consulting: keeping a record of the $131260$ worked\nRestaurants: dealing with computerised $131261$"
+              ],
+              [
+                "Quality",
+                "To avoid the production of non-quality items",
+                "Factory workers: identification of low-quality products and the appropriate action resulting in\nlower production costs and more effective $131262$"
+              ],
+              [
+                "Skills",
+                "To teach necessary proficiencies for the job",
+                "Administrative assistant: using the $131263$\nSales: evaluating the $131264$ of clients and providing assistance\nCashier: using a cash till and dealing with an incorrect $131265$"
+              ],
+              [
+                "Soft skills",
+                "To teach skills that affect human relationships",
+                "Skills in communication, e.g. $131266$\nRetail/restaurants: interacting effectively with customers"
+              ]
+            ],
+            "rows": [
+              [
+                "Type of training",
+                "Aim",
+                "Examples"
+              ],
+              [
+                "Technical",
+                "To teach technological aspects of the job",
+                "Consulting: keeping a record of the $131260$ worked\nRestaurants: dealing with computerised $131261$"
+              ],
+              [
+                "Quality",
+                "To avoid the production of non-quality items",
+                "Factory workers: identification of low-quality products and the appropriate action resulting in\nlower production costs and more effective $131262$"
+              ],
+              [
+                "Skills",
+                "To teach necessary proficiencies for the job",
+                "Administrative assistant: using the $131263$\nSales: evaluating the $131264$ of clients and providing assistance\nCashier: using a cash till and dealing with an incorrect $131265$"
+              ],
+              [
+                "Soft skills",
+                "To teach skills that affect human relationships",
+                "Skills in communication, e.g. $131266$\nRetail/restaurants: interacting effectively with customers"
+              ]
+            ]
+          },
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131260",
+              "number": 15,
+              "prompt": "Technical — Examples — Consulting: keeping a record of the _____ worked Restaurants: dealing with computerised _____",
+              "options": [],
+              "answer": "hours",
+              "accepted_answers": [
+                "hours"
+              ],
+              "analysis": "题干中的“keeping a record of the hours worked”对应原文中咨询行业的例子：“input the number of hours that should be charged to a client”。其中，“keeping a record of”与“input the number of”构成同义替换，而“hours”在原文中直接出现，因此答案为“hours”。",
+              "reason": "原文提及input number of hours，与题干record of hours对应。",
+              "location_analysis": "定位Technical training中Consulting例子，答案为hours。",
+              "paraphrasing": "keeping a record of -> input the number of; hours -> hours",
+              "keywords": "Consulting, keeping a record of, hours",
+              "evidence": [
+                "For example, in a consulting business, technical training might be used so the consultant knows how to operate the system to input the number of hours that should be charged to a client."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131261",
+              "number": 16,
+              "prompt": "Technical — Examples — Consulting: keeping a record of the _____ worked Restaurants: dealing with computerised _____",
+              "options": [],
+              "answer": "orders",
+              "accepted_answers": [
+                "orders"
+              ],
+              "analysis": "题干中“dealing with computerised orders”对应原文餐厅场景中的描述：“process customers' orders using a tablet”。“dealing with”与“process”意思相近，而“computerised orders”通过“using a tablet”间接体现，因此答案为“orders”。",
+              "reason": "原文process orders与题干dealing with computerised orders对应。",
+              "location_analysis": "定位Restaurant例子，答案为orders。",
+              "paraphrasing": "dealing with -> process; computerised orders -> orders using a tablet",
+              "keywords": "Restaurants, dealing with computerised, orders",
+              "evidence": [
+                "In a restaurant, the server might need to be trained on how to process customers' orders using a tablet."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131262",
+              "number": 17,
+              "prompt": "Quality — Examples — Factory workers: identification of low-quality products and the appropriate action resulting in lower production costs and more effective _____",
+              "options": [],
+              "answer": "marketing",
+              "accepted_answers": [
+                "marketing"
+              ],
+              "analysis": "题干要求填写质量培训带来的营销效果，原文提到该类培训“can result in cost savings in production as well as provide an edge in the marketing of the product”。“more effective marketing”与“an edge in the marketing”形成同义表达，因此答案是“marketing”。",
+              "reason": "原文edge in marketing与题干more effective marketing对应。",
+              "location_analysis": "定位Quality training效果，答案为marketing。",
+              "paraphrasing": "more effective -> an edge in; marketing -> marketing",
+              "keywords": "Quality training, cost savings, marketing",
+              "evidence": [
+                "This type of training can result in cost savings in production as well as provide an edge in the marketing of the product."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131263",
+              "number": 18,
+              "prompt": "Skills — Examples — Administrative assistant: using the _____ Sales: evaluating the _____ of clients and providing assistance Cashier: using a cash till and dealing with an incorrect _____",
+              "options": [],
+              "answer": "phone",
+              "accepted_answers": [
+                "phone"
+              ],
+              "analysis": "题干中“using the phone”对应原文行政助理的例子：“trained in how to answer the phone”。“using the”与“answer the”虽措辞不同，但都指向操作电话这一技能，且“phone”一词在原文中直接出现，因此答案为“phone”。",
+              "reason": "原文answer the phone与题干using the phone对应。",
+              "location_analysis": "定位Skills training中Administrative assistant例子，答案...",
+              "paraphrasing": "using the -> trained in how to answer the; phone -> phone",
+              "keywords": "Administrative assistant, using the, phone",
+              "evidence": [
+                "For example, an administrative assistant might be trained in how to answer the phone, while a salesperson might be trained in assessment of customer needs and on how to offer the customer the necessary information to make a buying decision."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131264",
+              "number": 19,
+              "prompt": "Skills — Examples — Administrative assistant: using the _____ Sales: evaluating the _____ of clients and providing assistance Cashier: using a cash till and dealing with an incorrect _____",
+              "options": [],
+              "answer": "needs",
+              "accepted_answers": [
+                "needs"
+              ],
+              "analysis": "题干中的“evaluating the needs of clients”对应原文销售员培训内容：“assessment of customer needs”。“evaluating”与“assessment”为同义替换，“needs”则完全一致，因此答案是“needs”。",
+              "reason": "原文assessment of customer needs与题干evaluating needs对应。",
+              "location_analysis": "定位Salesperson例子，答案为needs。",
+              "paraphrasing": "evaluating -> assessment; needs -> needs",
+              "keywords": "Sales, evaluating, clients, needs",
+              "evidence": [
+                "For example, an administrative assistant might be trained in how to answer the phone, while a salesperson might be trained in assessment of customer needs and on how to offer the customer the necessary information to make a buying decision."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131265",
+              "number": 20,
+              "prompt": "Skills — Examples — Administrative assistant: using the _____ Sales: evaluating the _____ of clients and providing assistance Cashier: using a cash till and dealing with an incorrect _____",
+              "options": [],
+              "answer": "price",
+              "accepted_answers": [
+                "price"
+              ],
+              "analysis": "题干中“dealing with an incorrect price”对应原文收银员需处理的情况：“what to do if something has been given the wrong price”。“incorrect”与“wrong”为同义词，且“price”在原文中直接出现，因此答案为“price”。",
+              "reason": "原文wrong price与题干incorrect price对应。",
+              "location_analysis": "定位Cashier例子，答案为price。",
+              "paraphrasing": "incorrect price -> wrong price; dealing with -> what to do",
+              "keywords": "Cashier, dealing with, incorrect, price",
+              "evidence": [
+                "A cashier needs to know not only the technology to ring something up on the till, but what to do if something has been given the wrong price."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131266",
+              "number": 21,
+              "prompt": "Soft skills — Examples — Skills in communication, e.g. _____ Retail/restaurants: interacting effectively with customers",
+              "options": [],
+              "answer": "listening",
+              "accepted_answers": [
+                "listening"
+              ],
+              "analysis": "题干要求填写沟通类软技能的一个例子，原文明确提到软技能包括“different types of communication, including listening to colleagues and customers”。“listening”作为communication的具体形式被直接列出，因此答案是“listening”。",
+              "reason": "原文listening to colleagues and customers与题干listening对应。",
+              "location_analysis": "定位Soft skills中communication例子，答案为listening。",
+              "paraphrasing": "communication -> communication; listening -> listening",
+              "keywords": "Soft skills, communication, listening",
+              "evidence": [
+                "Executives say there is an increasing need for people who have not only the technical skills to do a job but also the necessary soft skills, such as being good at different types of communication, including listening to colleagues and customers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 13,
+            "collect": "Type of training\nAim\nExamples\nTechnical\nTo teach technological aspects of the job\nConsulting: keeping a record of the $131260$ worked\nRestaurants: dealing with computerised $131261$\nQuality\nTo avoid the production of non-quality items\nFactory workers: identification of low-quality products and the appropriate action resulting in\nlower production costs and more effective $131262$\nSkills\nTo teach necessary proficiencies for the job\nAdministrative assistant: using the $131263$\nSales: evaluating the $131264$ of clients and providing assistance\nCashier: using a cash till and dealing with an incorrect $131265$\nSoft skills\nTo teach skills that affect human relationships\nSkills in communication, e.g. $131266$\nRetail/restaurants: interacting effectively with customers",
+            "table": {
+              "title": "",
+              "content": [
+                [
+                  "Type of training",
+                  "Aim",
+                  "Examples"
+                ],
+                [
+                  "Technical",
+                  "To teach technological aspects of the job",
+                  "Consulting: keeping a record of the $131260$ worked\nRestaurants: dealing with computerised $131261$"
+                ],
+                [
+                  "Quality",
+                  "To avoid the production of non-quality items",
+                  "Factory workers: identification of low-quality products and the appropriate action resulting in\nlower production costs and more effective $131262$"
+                ],
+                [
+                  "Skills",
+                  "To teach necessary proficiencies for the job",
+                  "Administrative assistant: using the $131263$\nSales: evaluating the $131264$ of clients and providing assistance\nCashier: using a cash till and dealing with an incorrect $131265$"
+                ],
+                [
+                  "Soft skills",
+                  "To teach skills that affect human relationships",
+                  "Skills in communication, e.g. $131266$\nRetail/restaurants: interacting effectively with customers"
+                ]
+              ]
+            },
+            "option_title": ""
+          },
+          "content_template": "Type of training\nAim\nExamples\nTechnical\nTo teach technological aspects of the job\nConsulting: keeping a record of the $131260$ worked\nRestaurants: dealing with computerised $131261$\nQuality\nTo avoid the production of non-quality items\nFactory workers: identification of low-quality products and the appropriate action resulting in\nlower production costs and more effective $131262$\nSkills\nTo teach necessary proficiencies for the job\nAdministrative assistant: using the $131263$\nSales: evaluating the $131264$ of clients and providing assistance\nCashier: using a cash till and dealing with an incorrect $131265$\nSoft skills\nTo teach skills that affect human relationships\nSkills in communication, e.g. $131266$\nRetail/restaurants: interacting effectively with customers"
+        },
+        {
+          "id": "21407",
+          "type": 8,
+          "title": "The small business lifecycle",
+          "instructions": "Questions 22 - 27\nComplete the flow-chart below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 22-27 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131267",
+              "number": 22,
+              "prompt": "Once you have your business idea, ask for different people's _____ about it.",
+              "options": [],
+              "answer": "opinions",
+              "accepted_answers": [
+                "opinions"
+              ],
+              "analysis": "题干中“ask for different people's opinions”对应原文第一阶段的建议：“get as many opinions as possible from friends, family, colleagues...”。“ask for”与“get”在此语境下意义相近，“opinions”一词也完全一致，因此答案为“opinions”。",
+              "reason": "原文get opinions与题干ask for opinions对应。",
+              "location_analysis": "定位Stage 1，答案为opinions。",
+              "paraphrasing": "ask for -> get; opinions -> opinions",
+              "keywords": "Initial Development, opinions, ask",
+              "evidence": [
+                "But before you do this you should get as many opinions as possible from friends, family, colleagues, or any industry specialists you have access to"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131268",
+              "number": 23,
+              "prompt": "Remember that _____ at this stage can affect the future success of the business.",
+              "options": [],
+              "answer": "mistakes",
+              "accepted_answers": [
+                "mistakes"
+              ],
+              "analysis": "题干中的“mistakes at this stage can affect the future success”对应原文第二阶段描述：“mistakes made then can have an impact many years later”。“mistakes”直接重复出现，“affect”与“have an impact”构成同义替换，因此答案是“mistakes”。",
+              "reason": "原文mistakes made then与题干mistakes at this stage对应。",
+              "location_analysis": "定位Stage 2，答案为mistakes。",
+              "paraphrasing": "mistakes at this stage -> mistakes made then; affect -> have an impact",
+              "keywords": "Startup, mistakes, affect",
+              "evidence": [
+                "Many believe this is the riskiest stage of the entire lifecycle, since mistakes made then can have an impact many years later."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131269",
+              "number": 24,
+              "prompt": "Don't worry if you are _____ by all the changes at this stage.",
+              "options": [],
+              "answer": "confused",
+              "accepted_answers": [
+                "confused"
+              ],
+              "analysis": "题干中“you are confused by all the changes”对应原文第二阶段末尾的描述：“you start to feel a bit confused about what you're doing”。“confused”一词在原文中直接出现，且上下文明确指因频繁修改产品而产生困惑，因此答案为“confused”。",
+              "reason": "原文feel a bit confused与题干are confused对应。",
+              "location_analysis": "定位Stage 2末尾，答案为confused。",
+              "paraphrasing": "confused -> confused; by all the changes -> making so many changes",
+              "keywords": "Startup, confused, changes",
+              "evidence": [
+                "It can even get to the point where you are making so many changes to it that you start to feel a bit confused about what you're doing."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131270",
+              "number": 25,
+              "prompt": "It's particularly important to be personally involved with _____ and to build up an effective team with clear goals.",
+              "options": [],
+              "answer": "recruitment",
+              "accepted_answers": [
+                "recruitment"
+              ],
+              "analysis": "题干中“personally involved with recruitment”对应原文第三阶段内容：“you need to take a major part in recruitment”。“personally involved”与“take a major part in”意思相近，且“recruitment”一词完全一致，因此答案是“recruitment”。",
+              "reason": "原文take a major part in recruitment与题干personally involved with recruitment对应。",
+              "location_analysis": "定位Stage 3，答案为recruitment。",
+              "paraphrasing": "personally involved -> take a major part in; recruitment -> recruitment",
+              "keywords": "Establishment, recruitment, personally involved",
+              "evidence": [
+                "Employing the right people is essential, so you need to take a major part in recruitment"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131271",
+              "number": 26,
+              "prompt": "Careful planning is necessary to ensure that _____ is not affected.",
+              "options": [],
+              "answer": "quality",
+              "accepted_answers": [
+                "quality"
+              ],
+              "analysis": "题干要求确保扩张不影响某一方面，原文第四阶段提到“keep an eye on how far expansion might affect the quality”。“quality is not affected”与“affect the quality”构成否定与肯定的逻辑对应，因此答案为“quality”。",
+              "reason": "原文affect the quality与题干quality is not affected对应。",
+              "location_analysis": "定位Stage 4，答案为quality。",
+              "paraphrasing": "quality not affected -> affect the quality",
+              "keywords": "Expansion, quality, affected",
+              "evidence": [
+                "However, you need to be aware of the risks of expanding too carelessly, and should keep an eye on how far expansion might affect the quality of what you provide to your existing customers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131272",
+              "number": 27,
+              "prompt": "To maintain growth rates, it may be necessary for the company to have a different _____",
+              "options": [],
+              "answer": "leader",
+              "accepted_answers": [
+                "leader"
+              ],
+              "analysis": "题干中“have a different leader”对应原文第五阶段描述：“bring in a new leader at this stage”。“different leader”与“a new leader”意思一致，均指更换管理层以应对新挑战，因此答案是“leader”。",
+              "reason": "原文a new leader与题干different leader对应。",
+              "location_analysis": "定位Stage 5，答案为leader。",
+              "paraphrasing": "different leader -> a new leader",
+              "keywords": "Maturity, different leader, bring in",
+              "evidence": [
+                "Many companies in this situation bring in a new leader at this stage, to face the new challenges."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Stage 1 Initial Development\nOnce you have your business idea, ask for different people's $131267$ about it.\nYou need to be clear about what you can do, whether your idea will find a market, and where the finance will come from.\n↓\nStage 2 Startup\nRemember that $131268$ at this stage can affect the future success of the business.\nListen to what your customers say and be prepared to adapt your original idea.\nDon't worry if you are $131269$ by all the changes at this stage.\n↓\nStage 3 Establishment\nYou should now be seeing a steady increase in profits.\nThe demands of this stage mean you must be good at managing your time.\nIt's particularly important to be personally involved with $131270$ and to build up an effective team with clear goals.\n↓\nStage 4 Expansion\nIt's important to expand but the risks involved must also be considered.\nCareful planning is necessary to ensure that $131271$ is not affected.\n↓\nStage 5 Maturity\nTo maintain growth rates, it may be necessary for the company to have a different $131272$\nAnother possibility is to sell the business.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Stage 1 Initial Development\nOnce you have your business idea, ask for different people's $131267$ about it.\nYou need to be clear about what you can do, whether your idea will find a market, and where the finance will come from.\n↓\nStage 2 Startup\nRemember that $131268$ at this stage can affect the future success of the business.\nListen to what your customers say and be prepared to adapt your original idea.\nDon't worry if you are $131269$ by all the changes at this stage.\n↓\nStage 3 Establishment\nYou should now be seeing a steady increase in profits.\nThe demands of this stage mean you must be good at managing your time.\nIt's particularly important to be personally involved with $131270$ and to build up an effective team with clear goals.\n↓\nStage 4 Expansion\nIt's important to expand but the risks involved must also be considered.\nCareful planning is necessary to ensure that $131271$ is not affected.\n↓\nStage 5 Maturity\nTo maintain growth rates, it may be necessary for the company to have a different $131272$\nAnother possibility is to sell the business."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Types of training in business",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "The type of training provided in a business will depend on the resources available for training, the type of company, and the priority the company places on training.",
+          "translation": "企业提供的培训类型将取决于可用于培训的资源、公司类型以及公司对培训的重视程度。"
+        },
+        {
+          "index": 2,
+          "sentence": "Technical training is a type of training meant to teach the new employee the technological aspects of the job.",
+          "translation": "技术培训旨在向新员工传授工作的技术层面知识。"
+        },
+        {
+          "index": 3,
+          "sentence": "For example, in a consulting business, technical training might be used so the consultant knows how to operate the system to input the number of hours that should be charged to a client.",
+          "translation": "例如，在咨询公司中，技术培训可能用于让顾问了解如何操作系统以输入应向客户收取的工时数。"
+        },
+        {
+          "index": 4,
+          "sentence": "In a restaurant, the server might need to be trained on how to process customers' orders using a tablet.",
+          "translation": "在餐厅中，服务员可能需要接受培训，学习如何使用平板电脑处理顾客的订单。"
+        },
+        {
+          "index": 5,
+          "sentence": "In production focussed businesses, quality training involves familiarizing employees with the means of preventing, detecting, and eliminating non-quality products.",
+          "translation": "在以生产为导向的企业中，质量培训涉及让员工熟悉预防、检测和消除不合格产品的方法。"
+        },
+        {
+          "index": 6,
+          "sentence": "In a world where quality can set your business apart from competitors, this type of training provides employees with the knowledge to recognize products that are not up to quality standards and teaches them what action to take in this scenario.",
+          "translation": "在一个质量能让你的企业脱颖而出的世界里，这种培训为员工提供了识别不符合质量标准的产品的知识，并教他们在这种情况下应采取何种行动。"
+        },
+        {
+          "index": 7,
+          "sentence": "This type of training can result in cost savings in production as well as provide an edge in the marketing of the product.",
+          "translation": "这种培训可以降低生产成本，同时为产品的营销提供优势。"
+        },
+        {
+          "index": 8,
+          "sentence": "Skills training includes proficiencies needed to actually perform the job.",
+          "translation": "技能培训包括实际执行工作所需的能力。"
+        },
+        {
+          "index": 9,
+          "sentence": "For example, an administrative assistant might be trained in how to answer the phone, while a salesperson might be trained in assessment of customer needs and on how to offer the customer the necessary information to make a buying decision.",
+          "translation": "例如，行政助理可能接受接听电话的培训，而销售人员则可能接受评估客户需求以及如何向客户提供必要信息以做出购买决策的培训。"
+        },
+        {
+          "index": 10,
+          "sentence": "A cashier needs to know not only the technology to ring something up on the till, but what to do if something has been given the wrong price.",
+          "translation": "收银员不仅需要知道用收银机录入商品的技术，还需要知道商品被标错价格时该如何处理。"
+        },
+        {
+          "index": 11,
+          "sentence": "A fourth type of training is called 'soft skills' training.",
+          "translation": "第四种培训被称为‘软技能’培训。"
+        },
+        {
+          "index": 12,
+          "sentence": "Soft skills refer to personality traits and personal habits that may influence relationships with other people.",
+          "translation": "软技能指的是可能影响人际关系的个性特征和个人习惯。"
+        },
+        {
+          "index": 13,
+          "sentence": "Executives say there is an increasing need for people who have not only the technical skills to do a job but also the necessary soft skills, such as being good at different types of communication, including listening to colleagues and customers.",
+          "translation": "高管们表示，对于不仅具备工作所需的技术技能，还拥有必要软技能（例如擅长不同类型的沟通，包括倾听同事和客户）的人才的需求日益增长。"
+        },
+        {
+          "index": 14,
+          "sentence": "In a retail or restaurant environment, essential soft skills might include how to motivate others establish rapport and keep a conversation going.",
+          "translation": "在零售或餐厅环境中，关键的软技能可能包括如何激励他人、建立融洽关系以及保持对话进行。"
+        },
+        {
+          "index": 15,
+          "sentence": "Skills such as these are used in every interaction with customers and are a key component of the customer experience.",
+          "translation": "诸如此类的技能在每一次与客户的互动中都会用到，并且是客户体验的关键组成部分。"
+        },
+        {
+          "index": 16,
+          "sentence": "The small business lifecycle",
+          "translation": "小型企业的生命周期"
+        },
+        {
+          "index": 17,
+          "sentence": "From the moment you make the decision to set up a business, you're in the ‘business Lifecycle’.",
+          "translation": "从你决定创办一家企业的那一刻起，你就进入了‘商业生命周期’。"
+        },
+        {
+          "index": 18,
+          "sentence": "This will see you progress from idea to startup, and if successful, through to the growth and maturity phases.",
+          "translation": "这将见证你从创意阶段推进到初创阶段，如果成功，还会经历成长和成熟阶段。"
+        },
+        {
+          "index": 19,
+          "sentence": "Stage 1 is lnitial Development.",
+          "translation": "第一阶段是初始开发阶段。"
+        },
+        {
+          "index": 20,
+          "sentence": "This is the very beginning of the business lifecycle.",
+          "translation": "这是商业生命周期的起点。"
+        },
+        {
+          "index": 21,
+          "sentence": "You've got your business idea and you're ready to take the plunge.",
+          "translation": "你已经有了商业想法，准备冒险一试。"
+        },
+        {
+          "index": 22,
+          "sentence": "But before you do this you should get as many opinions as possible from friends, family, colleagues, or any industry specialists you have access to,",
+          "translation": "但在你这样做之前，应该从朋友、家人、同事或你能接触到的任何行业专家那里尽可能多地获取意见。"
+        },
+        {
+          "index": 23,
+          "sentence": "Ultimately, the success of your business will come down to your own abilities, the state of the market and, of course, the decisions you make about the source of finance for your startup.",
+          "translation": "最终，你企业的成功将取决于你自身的能力、市场状况，当然，还有你关于初创资金来源所做的决策。"
+        },
+        {
+          "index": 24,
+          "sentence": "Once you're satisfied that your idea is ready to go, you move on to Stage 2, which is Startup.",
+          "translation": "一旦你确信自己的想法已准备就绪，就可以进入第二阶段，即初创阶段。"
+        },
+        {
+          "index": 25,
+          "sentence": "Many believe this is the riskiest stage of the entire lifecycle, since mistakes made then can have an impact many years later.",
+          "translation": "许多人认为这是整个生命周期中风险最高的阶段，因为当时所犯的错误可能会在多年后产生影响。"
+        },
+        {
+          "index": 26,
+          "sentence": "Based on the feedback from your first customers, you have to be ready to adapt your product or service.",
+          "translation": "根据首批客户的反馈，你必须准备好调整你的产品或服务。"
+        },
+        {
+          "index": 27,
+          "sentence": "It can even get to the point where you are making so many changes to it that you start to feel a bit confused about what you're doing.",
+          "translation": "甚至可能达到这样的程度：你对产品做了太多改动，以至于开始对自己所做的事情感到有些困惑。"
+        },
+        {
+          "index": 28,
+          "sentence": "Don't worry-this feeling will soon disappear as your company develops.",
+          "translation": "别担心——随着公司的发展，这种感觉很快就会消失。"
+        },
+        {
+          "index": 29,
+          "sentence": "Stage 3 is Establishment.",
+          "translation": "第三阶段是成立期。"
+        },
+        {
+          "index": 30,
+          "sentence": "You should now be seeing your profits improve slowly and steadily, but you may struggle to divide the time available to you between the growing demands of your business.",
+          "translation": "你现在应当看到利润在缓慢而稳定地增长，但你可能会难以将有限的时间分配在日益增长的业务需求之间。"
+        },
+        {
+          "index": 31,
+          "sentence": "Employing the right people is essential, so you need to take a major part in recruitment.",
+          "translation": "雇佣合适的人员至关重要，因此你需要在招聘中承担主要角色。"
+        },
+        {
+          "index": 32,
+          "sentence": "It is your job now to start establishing order and cohesion as you mobilize your team according to clearly defined and communicated goals.",
+          "translation": "现在你的职责是开始建立秩序和凝聚力，同时根据明确界定并传达的目标来调动你的团队。"
+        },
+        {
+          "index": 33,
+          "sentence": "By Stage 4, Expansion, you may see rapid growth in profits and wish to move forward.",
+          "translation": "到了第四阶段，即扩张阶段，你可能会看到利润快速增长，并希望向前迈进。"
+        },
+        {
+          "index": 34,
+          "sentence": "However, you need to be aware of the risks of expanding too carelessly, and should keep an eye on how far expansion might affect the quality of what you provide to your existing customers.",
+          "translation": "然而，你需要意识到过于草率扩张的风险，并密切关注扩张在多大程度上可能影响你为现有客户提供的服务质量。"
+        },
+        {
+          "index": 35,
+          "sentence": "Stage 5 is Maturity, Here you may wish to further expand the business.",
+          "translation": "第五阶段是成熟期，此时你可能希望进一步拓展业务。"
+        },
+        {
+          "index": 36,
+          "sentence": "Many companies in this situation bring in a new leader at this stage, to face the new challenges.",
+          "translation": "许多处于这种情况的公司会在这一阶段引入一位新的领导者，以应对新的挑战。"
+        },
+        {
+          "index": 37,
+          "sentence": "Other entrepreneurs may decide that they should sell the company at this stage, and move on to a new project.",
+          "translation": "其他企业家可能决定在这一阶段出售公司，并转向新的项目。"
+        }
+      ]
+    },
+    {
+      "id": "2934",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "The nursery that took all the children's toys away",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Do toys stifle children's creativity? One Munich nursery decided to find out. Sarah Jewell reports",
+          "translation": "玩具会扼杀孩子的创造力吗？\n慕尼黑的一家托儿所决定对此进行探究。\n莎拉·朱厄尔报道"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Children are ready consumers, particularly of toys. Their toy chests may be bursting but they are still desperate for the latest doll or train set. Depriving children of their toys seems unkind, yet a growing number of nurseries in Germany do just this. For three months of the year they put away their toys and all that is left to play with are the tables, chairs and a few blankets.",
+          "translation": "儿童是天生的消费者，尤其是在玩具方面。\n他们的玩具箱可能已经塞满，但他们仍然渴望拥有最新的洋娃娃或火车套装。\n剥夺孩子的玩具似乎不太友善，但德国越来越多的幼儿园正是这样做的。\n每年有三个月，他们会收起玩具，留给孩子们玩的只剩下桌子、椅子和几条毯子。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "The project is called Der Spielzeugfreie Kindergarten (the nursery without toys) and was founded by Rainer Strick and Elke Schubert, public health officers who worked with adults suffering from various forms of addiction. They were concerned about the addictive habits that start early in childhood and wanted to show that children can play happily and creatively when they are not being 'suffocated' by their toys.",
+          "translation": "该项目被称为“无玩具幼儿园”（Der Spielzeugfreie Kindergarten），由公共卫生官员雷纳·斯特里克和埃尔克·舒伯特创立，他们曾与患有各种成瘾症的成年人打交道。\n他们担忧童年早期就开始形成的成瘾习惯，并希望证明，当孩子们不被玩具“窒息”时，他们能够快乐且富有创造性地玩耍。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "One of the nurseries that has been following this project for the past two years is the Friedrich-Engels-Bogen nursery in Munich. Gisela Marti, a teacher there, says: ‘In these three months we offer the children space and time to get to know the mselves.’ The aim is to make the children 'self-confident, able to bear conflict and frustration, able to say \"yes\" as well as \"no\" and also aware of their weaknesses and strengths'. According to Gisela Marti, the children's day is deliberately unstructured as one of the basic beliefs of the project is that children spend too much time being rushed around from one activity to another and they end up with a 'reduced space for life'. The children are encouraged to do what they want, in their own way.",
+          "translation": "过去两年一直在实施这一项目的其中一所幼儿园是慕尼黑的弗里德里希·恩格斯弧线幼儿园。\n那里的老师吉塞拉·马尔蒂说：“在这三个月里，我们给孩子们提供空间和时间来了解他们自己。”\n目标是让孩子们变得“自信、能够承受冲突和挫折、既会说“是”也会说“不”，并且意识到自己的弱点和优势”。\n据吉塞拉·马尔蒂所说，孩子们的一天被故意安排得没有固定结构，因为该项目的基本信念之一就是孩子们花费太多时间被催促着从一个活动赶到另一个活动，最终导致他们“生活空间被压缩”。\n孩子们被鼓励按照自己的方式做他们想做的事情。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "A video taken of the children during the three-month toy-free period shows them on the first day staring at each other hesitantly and looking apprehensively around the big, empty classroom. One of the nursery teachers, Gudrun Huber, says: ‘We left them alone, even if they were bored, because sometimes things in life are boring and you have to learn to cope.’ On the second day the children are filmed playing with the chairs and blankets. They make a den by draping the blankets over the tables and weighing them down with shoes, and then they start running around the room, chatting and laughing excitedly, Gudrun Huber explains how this put them in an entirely different mood: ‘Once the children realised they could do what they liked and they were in control, they really went a bit mad - they got very boisterous and excited, climbing all over the furniture.’ Initially it was difficult for the staff, not just because it was unbearably noisy, but because, as Gudrun Huber says: ‘It was difficult to hold back and let the children be.’",
+          "translation": "一则记录孩子们在三个月无玩具期间的视频显示，第一天他们犹豫地相互凝视，并忧虑地环顾宽敞空荡的教室。\n一位幼儿园老师古德伦·胡贝尔说：“我们让他们独自待着，即使他们感到无聊，因为生活中有些事本就乏味，你必须学会应对。”\n第二天，孩子们被拍到用椅子和毯子玩耍。\n他们用毯子盖在桌子上并用鞋子压住，搭成一个窝，然后开始在房间里奔跑，兴奋地聊天大笑。古德伦·胡贝尔解释道，这让他们进入了一种完全不同的情绪：“一旦孩子们意识到他们可以做自己喜欢的事并掌握主动权，他们确实有点疯狂——变得非常喧闹和激动，到处攀爬家具。”\n起初这对员工来说很困难，不仅仅是因为无法忍受的吵闹，还因为正如古德伦·胡贝尔所说：“很难克制自己并让孩子们自由发挥。”"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Like Gudrun Huber, Gisela Marti found it hard to re-evaluate the rules she was used to: 'They weren't allowed to do anything really dangerous, but they were allowed to jump on the chairs and tables, and that is not something they would normally be allowed to do. As a teacher you do have to have confidence in the children.' But she adds: ‘Everyone has to work within their own boundaries and some teachers will allow more dangerous and active play than others.’",
+          "translation": "像古德伦·胡贝尔一样，吉塞拉·马蒂发现很难重新评估她习惯的规则：“他们不允许做任何真正危险的事，但可以跳上椅子和桌子，而这通常是不被允许的。”\n作为老师，你确实必须对孩子们有信心。”\n但她补充道：“每个人都必须在自己设定的范围内行事，有些老师会比其他人允许更危险和活跃的游戏。”"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Gisela Marti found that once the children settled down to the new regime, they invented games: ‘They loved acting and putting on a show, or pretending to be in a circus or on a train, but most importantly, all the time they were playing, they were learning to socialise.’",
+          "translation": "吉塞拉·马蒂发现，一旦孩子们适应了新的规则，他们便开始发明游戏：‘他们喜欢表演和演出，或者假装在马戏团或火车上，但最重要的是，他们在玩耍的过程中一直在学习社交。’"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Two weeks before the end of the project the teachers and children had a group discussion about which toys they would like brought back. The children were happy to get their toys back, but they were also aware that they had fun without them. As one little boy in Gudrun Huber's class said: ' like having no toys because then you can use your imagination instead.",
+          "translation": "在项目结束前的两周，老师和孩子们进行了一次小组讨论，讨论他们希望带回哪些玩具。\n孩子们很高兴能拿回玩具，但他们也意识到，没有玩具时他们同样玩得很开心。\n正如古德伦·胡贝尔班上一个小男孩所说：“我喜欢没有玩具，因为那样你就可以发挥想象力了。”"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "At the end of the project, Elke Schubert thought there were definite benefits. ‘We find that children on the project concentrate better when they work, integrate better into groups and communicate better than the children who didn't take part.’",
+          "translation": "在项目结束时，埃尔克·舒伯特认为有明确的好处。\n“我们发现，参与项目的儿童在工作时注意力更集中，更好地融入群体，并且比未参与项目的儿童沟通能力更强。”"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "The parents were also positive about how the 'time without toys' affected their children. Some parents have even copied the nursery's example. As one father said: 'Klaus used to get out all his toys and spread them all over the room and they got in such a mess that he wasn't playing properly with any of them. So we put all the toys away in the cellar and now we only get out what he actually wants to play with and he gets much less frustrated.'",
+          "translation": "家长们也对“无玩具时间”如何影响他们的孩子持积极态度。\n一些家长甚至效仿了这家幼儿园的做法。\n正如一位父亲所说：“克劳斯以前会把他所有的玩具都拿出来，摊得满屋子都是，弄得一团糟，以至于他哪个玩具都没好好玩。”\n所以，我们把所有玩具都收进了地下室，现在只拿出他真正想玩的玩具，他的挫败感也少多了。”"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Elsa Davies is Director of the National Playing Fields Association. She says: ‘The most natural and durable learning happens through play and often play which is freely chosen by the child. Teachers often underestimate the power of that learning.’",
+          "translation": "埃尔莎·戴维斯是国家运动场协会的主任。\n她表示：‘最自然且持久的学习是通过游戏发生的，而这种游戏往往是孩子自由选择的。\n教师常常低估了这种学习的力量。’"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21420",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 28 - 30\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 28-30 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131286",
+              "number": 28,
+              "prompt": "What does Gisela Marti criticise about nurseries in the third paragraph?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "the length of time children spend there"
+                },
+                {
+                  "value": "B",
+                  "label": "the number of arguments children have there"
+                },
+                {
+                  "value": "C",
+                  "label": "the lack of physical space for children's play there"
+                },
+                {
+                  "value": "D",
+                  "label": "the amount of organisation children are exposed to there"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问Gisela Marti对幼儿园的批评点。原文第四段提到，该项目的基本理念之一是‘孩子们花太多时间被匆忙地从一个活动赶到另一个活动’，导致‘生活空间被压缩’。这表明她批评的是幼儿园过度安排、组织过多，对应选项D中的‘the amount of organisation children are exposed to there’。其他选项在文中均无直接依据。",
+              "reason": "原文指出孩子被匆忙从一个活动带到另一个，对应选项D中的“organisation”过多。",
+              "location_analysis": "原文批评孩子被安排太多活动，故选D。",
+              "paraphrasing": "the amount of organisation -> deliberately unstructured, too much time being rushed around",
+              "keywords": "Gisela Marti, criticise, nurseries, third paragraph",
+              "evidence": [
+                "According to Gisela Marti, the children's day is deliberately unstructured as one of the basic beliefs of the project is that children spend too much time being rushed around from one activity to another and they end up with a 'reduced space for life'."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及儿童在幼儿园的时间长度，该选项无中生有。",
+                "B": "原文未讨论儿童在幼儿园争吵的数量，该选项内容未出现。",
+                "C": "原文未指出幼儿园缺乏儿童玩耍的物理空间，该选项属于无中生有。"
+              }
+            },
+            {
+              "id": "131287",
+              "number": 29,
+              "prompt": "When talking about danger, Gisela Marti suggests that teachers may have to",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "learn how to reduce it."
+                },
+                {
+                  "value": "B",
+                  "label": "adjust their response to it."
+                },
+                {
+                  "value": "C",
+                  "label": "explore what causes it."
+                },
+                {
+                  "value": "D",
+                  "label": "agree when to avoid it."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问及Gisela Marti关于危险的看法。原文第六段指出：‘每位教师都必须在自己的界限内工作，有些老师会允许更危险、更活跃的游戏。’这说明教师对危险的容忍度和应对方式因人而异，因此需要‘调整自己对危险的反应’，对应选项B。文中并未建议学习减少危险或探索原因，故排除其他选项。",
+              "reason": "原文表明不同老师对危险的反应不同，因此需要调整，故选B。",
+              "location_analysis": "原文指出每位老师有自己的界限，因此需要调整对危险的反应。",
+              "paraphrasing": "adjust their response -> each teacher has own boundaries, some allow more dangerous and active play",
+              "keywords": "danger, Gisela Marti, teachers",
+              "evidence": [
+                "Everyone has to work within their own boundaries and some teachers will allow more dangerous and active play than others."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及教师要学习减少危险，而是强调调整反应。",
+                "C": "原文未提及探究危险的原因，与题干要求不符。",
+                "D": "原文未提及教师同意何时避免危险，属于无中生有。"
+              }
+            },
+            {
+              "id": "131288",
+              "number": 30,
+              "prompt": "How did the children feel about getting their toys back?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "They were impatient to get them back."
+                },
+                {
+                  "value": "B",
+                  "label": "They had not expected to get them back."
+                },
+                {
+                  "value": "C",
+                  "label": "They had lost interest in getting them back."
+                },
+                {
+                  "value": "D",
+                  "label": "They had mixed feelings about getting them back."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问孩子们拿回玩具时的感受。原文第八段明确写道：‘孩子们很高兴拿回玩具，但他们也意识到没有玩具时玩得很开心。’这表明他们既有喜悦，也有对无玩具游戏价值的认可，情绪复杂，符合选项D‘mixed feelings’。其他选项如‘不耐烦’或‘失去兴趣’均与原文不符。",
+              "reason": "孩子同时有正面和保留的情绪，对应mixed feelings。",
+              "location_analysis": "原文显示孩子既高兴又意识到没有玩具也有趣，故选D。",
+              "paraphrasing": "mixed feelings -> happy to get toys back, but also aware they had fun without them",
+              "keywords": "children, getting toys back, feel",
+              "evidence": [
+                "The children were happy to get their toys back, but they were also aware that they had fun without them."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及孩子们急于拿回玩具，而是描述了混合情感。",
+                "B": "与原文中孩子们对拿回玩具的预期情况矛盾。",
+                "C": "原文中孩子们并非失去兴趣，而是情感复杂。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "21424",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 31 - 35\nLook at the following statements (Questions 31-35) and the list of people below.\nMatch each statement with the correct person, A-E.\nWrite the correct letter, A-E, in boxes 31-35 on your answer sheet.",
+          "option_title": "List of People",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Gisela Marti"
+            },
+            {
+              "value": "B",
+              "label": "B. Gudrun Huber"
+            },
+            {
+              "value": "C",
+              "label": "C. Elke Schubert"
+            },
+            {
+              "value": "D",
+              "label": "D. Klaus's father"
+            },
+            {
+              "value": "E",
+              "label": "E. Elsa Davies"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131485",
+              "number": 31,
+              "prompt": "Those children who are not part of the project have poorer social skills than those who are.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gisela Marti"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Gudrun Huber"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Elke Schubert"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Klaus's father"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Elsa Davies"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干陈述未参与项目的孩子社交能力较差。原文第九段中Elke Schubert指出：‘参与项目的孩子比未参与的孩子更能集中注意力、更好地融入群体、沟通能力更强。’这些都属于社交技能范畴，因此该陈述对应人物C（Elke Schubert）。",
+              "reason": "Elke Schubert指出参与项目的孩子在社交方面表现更好。",
+              "location_analysis": "原文对比参与项目孩子更好，故选C。",
+              "paraphrasing": "poorer social skills -> concentrate better, integrate better, communicate better",
+              "keywords": "children not part of project, poorer social skills",
+              "evidence": [
+                "We find that children on the project concentrate better when they work, integrate better into groups and communicate better than the children who didn't take part."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131486",
+              "number": 32,
+              "prompt": "A goal of the project is to enable children to express both agreement and disagreement.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gisela Marti"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Gudrun Huber"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Elke Schubert"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Klaus's father"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Elsa Davies"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干提到项目目标包括让孩子能表达同意与不同意。原文第四段引用Gisela Marti的话：‘目标是让孩子……能够说“是”也能够说“否”（able to say \"yes\" as well as \"no\"）。’这正是表达同意与不同意的能力，因此对应人物A（Gisela Marti）。",
+              "reason": "Gisela Marti表述的目标包括表达同意和不同意。",
+              "location_analysis": "原文直接提到能说“是”和“不”，故选A。",
+              "paraphrasing": "express both agreement and disagreement -> able to say \"yes\" as well as \"no\"",
+              "keywords": "goal, express agreement and disagreement, project",
+              "evidence": [
+                "The aim is to make the children 'self-confident, able to bear conflict and frustration, able to say \"yes\" as well as \"no\" and also aware of their weaknesses and strengths'."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131487",
+              "number": 33,
+              "prompt": "An excess of toys can lead to irritation in a child.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gisela Marti"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Gudrun Huber"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Elke Schubert"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Klaus's father"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Elsa Davies"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干指出过多玩具会导致孩子烦躁。原文第十段中Klaus的父亲描述：‘Klaus过去把所有玩具摊满房间，弄得一团糟，结果无法好好玩任何一件，现在只拿出他想玩的，他就没那么沮丧（less frustrated）了。’这说明玩具过多确实引发负面情绪，对应人物D（Klaus's father）。",
+              "reason": "Klaus的父亲描述玩具过多导致孩子沮丧。",
+              "location_analysis": "原文父亲说孩子因玩具太多而沮丧，故选D。",
+              "paraphrasing": "excess of toys -> spread them all over, got in such a mess, got much less frustrated",
+              "keywords": "excess toys, irritation, child",
+              "evidence": [
+                "Klaus used to get out all his toys and spread them all over the room and they got in such a mess that he wasn't playing properly with any of them. So we put all the toys away in the cellar and now we only get out what he actually wants to play with and he gets much less frustrated."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131488",
+              "number": 34,
+              "prompt": "People working in education may fail to appreciate the importance of children deciding themselves how to fill their time.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gisela Marti"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Gudrun Huber"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Elke Schubert"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Klaus's father"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Elsa Davies"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干认为教育工作者可能低估孩子自主安排时间的重要性。原文最后一段Elsa Davies指出：‘教师常常低估这种由孩子自由选择的玩耍所带来的学习力量。’这与题干中‘fail to appreciate the importance of children deciding themselves how to fill their time’完全对应，因此匹配人物E（Elsa Davies）。",
+              "reason": "Elsa Davies提到教师低估孩子自由选择玩耍的学习价值。",
+              "location_analysis": "原文指出教师低估自由玩耍学习的重要性，故选E。",
+              "paraphrasing": "fail to appreciate -> underestimate the power of that learning; freely chosen by the child",
+              "keywords": "educators, underestimate, children decide how to fill time",
+              "evidence": [
+                "Teachers often underestimate the power of that learning."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131489",
+              "number": 35,
+              "prompt": "At first, the employees at the nursery found it hard to allow the children to do whatever they wanted to do.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Gisela Marti"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Gudrun Huber"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Elke Schubert"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Klaus's father"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Elsa Davies"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干说员工起初难以让孩子自由行动。原文第五段引用Gudrun Huber的话：‘让他们独自待着很难，即使他们感到无聊……克制自己、让孩子自由（hold back and let the children be）是很困难的。’这直接对应题干描述，因此正确人物是B（Gudrun Huber）。",
+              "reason": "Gudrun Huber提到老师难以让儿童自主。",
+              "location_analysis": "原文指出老师难以放手让孩子自主活动，故选B。",
+              "paraphrasing": "hard to allow -> difficult to hold back and let the children be",
+              "keywords": "employees, hard to allow children do whatever they want",
+              "evidence": [
+                "It was difficult to hold back and let the children be."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of People"
+          }
+        },
+        {
+          "id": "21426",
+          "type": 4,
+          "title": "The 'nursery without toys' project",
+          "instructions": "Questions 36 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 36-40 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131294",
+              "number": 36,
+              "prompt": "On the first day of the project, a video shows that the children at the nursery did not know what to do in the _____ because it contained no toys.",
+              "options": [],
+              "answer": "classroom",
+              "accepted_answers": [
+                "classroom"
+              ],
+              "analysis": "题干要求填写孩子们第一天不知所措的地点。原文第五段提到：‘视频显示孩子们第一天犹豫地互相看着，并不安地环顾这个又大又空的教室（empty classroom）。’因此，空白处应填‘classroom’，准确对应原文描述的无玩具环境。",
+              "reason": "原文明确指出空教室，故选classroom。",
+              "location_analysis": "原文描述教室空空，孩子不知所措，故填classroom。",
+              "paraphrasing": "did not know what to do -> staring at each other hesitantly; big, empty classroom",
+              "keywords": "first day, video, children, did not know what to do, no toys",
+              "evidence": [
+                "A video taken of the children during the three-month toy-free period shows them on the first day staring at each other hesitantly and looking apprehensively around the big, empty classroom."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131295",
+              "number": 37,
+              "prompt": "The next day, they used tables, blankets and _____ to build a den. The excitement of doing this changed their mood and resulted in a lot of noise and activity.",
+              "options": [],
+              "answer": "shoes",
+              "accepted_answers": [
+                "shoes"
+              ],
+              "analysis": "题干要求填写孩子们用来搭建小屋的物品之一。原文第五段明确说明：‘他们用毯子盖在桌子上，并用鞋子（shoes）压住毯子来搭成一个小屋。’因此，除了桌子和毯子外，第三个物品是‘shoes’，完全符合‘ONE WORD ONLY’的要求。",
+              "reason": "原文提到用鞋压住毯子，对应shoes",
+              "location_analysis": "",
+              "paraphrasing": "build a den -> make a den; used tables, blankets and -> draping the blankets over the tables and weighing them down with shoes",
+              "keywords": "next day, tables, blankets, build a den",
+              "evidence": [
+                "On the second day the children are filmed playing with the chairs and blankets. They make a den by draping the blankets over the tables and weighing them down with shoes, and then they start running around the room, chatting and laughing excitedly"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131296",
+              "number": 38,
+              "prompt": "According to Gisela Marti, once they had adapted to the new approach, they began to make up _____ and do shows. They might have imagined they were in the _____, for example, or travelling on a train. All these activities taught them how to _____.",
+              "options": [],
+              "answer": "games",
+              "accepted_answers": [
+                "games"
+              ],
+              "analysis": "题干要求填写孩子们适应新方式后开始创造的内容。原文第七段提到：‘一旦孩子们适应了新规则，他们就发明了游戏（invented games），喜欢表演或假装在马戏团、火车上。’因此，此处应填‘games’，与‘make up’构成‘make up games’，语义和词汇均与原文一致。",
+              "reason": "原文invented games，games为原词",
+              "location_analysis": "孩子们适应新方式后创造了游戏，所缺词为games",
+              "paraphrasing": "adapted -> settled down; began to make up -> invented",
+              "keywords": "adapted, began to make up ... and do shows",
+              "evidence": [
+                "Gisela Marti found that once the children settled down to the new regime, they invented games: ‘They loved acting and putting on a show, or pretending to be in a circus or on a train, but most importantly, all the time they were playing, they were learning to socialise.’"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131297",
+              "number": 39,
+              "prompt": "According to Gisela Marti, once they had adapted to the new approach, they began to make up _____ and do shows. They might have imagined they were in the _____, for example, or travelling on a train. All these activities taught them how to _____.",
+              "options": [],
+              "answer": "circus",
+              "accepted_answers": [
+                "circus"
+              ],
+              "analysis": "题干要求填写孩子们想象自己所处的场所之一。原文第七段直接引用：‘他们喜欢假装在马戏团（circus）或火车上。’因此，空白处应填‘circus’，这是原文中明确出现的单词，且符合‘ONE WORD ONLY’的答题要求。",
+              "reason": "原文in a circus，circus为原词",
+              "location_analysis": "孩子们假装在马戏团或火车上，所需单词为circus",
+              "paraphrasing": "imagined they were in the -> pretending to be in a",
+              "keywords": "imagined they were in the ..., or travelling on a train",
+              "evidence": [
+                "Gisela Marti found that once the children settled down to the new regime, they invented games: ‘They loved acting and putting on a show, or pretending to be in a circus or on a train, but most importantly, all the time they were playing, they were learning to socialise.’"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131298",
+              "number": 40,
+              "prompt": "According to Gisela Marti, once they had adapted to the new approach, they began to make up _____ and do shows. They might have imagined they were in the _____, for example, or travelling on a train. All these activities taught them how to _____.",
+              "options": [],
+              "answer": "socialise",
+              "accepted_answers": [
+                "socialise"
+              ],
+              "analysis": "题干询问这些活动教会孩子们什么。原文第七段结尾强调：‘最重要的是，他们在玩耍时一直在学习如何社交（learning to socialise）。’因此，此处应填‘socialise’，准确反映活动的核心教育目标，且为原文原词。",
+              "reason": "原文learning to socialise，socialise为原词",
+              "location_analysis": "所有游戏教会孩子社交，所需单词为socialise",
+              "paraphrasing": "taught them how to -> learning to",
+              "keywords": "all these activities taught them how to ...",
+              "evidence": [
+                "Gisela Marti found that once the children settled down to the new regime, they invented games: ‘They loved acting and putting on a show, or pretending to be in a circus or on a train, but most importantly, all the time they were playing, they were learning to socialise.’"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "On the first day of the project, a video shows that the children at the nursery did not know what to do in the $131294$ because it contained no toys.\nThe next day, they used tables, blankets and $131295$ to build a den. The excitement of doing this changed their mood and resulted in a lot of noise and activity.\nAccording to Gisela Marti, once they had adapted to the new approach, they began to make up $131296$ and do shows. They might have imagined they were in the $131297$, for example, or travelling on a train. All these activities taught them how to $131298$.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "On the first day of the project, a video shows that the children at the nursery did not know what to do in the $131294$ because it contained no toys.\nThe next day, they used tables, blankets and $131295$ to build a den. The excitement of doing this changed their mood and resulted in a lot of noise and activity.\nAccording to Gisela Marti, once they had adapted to the new approach, they began to make up $131296$ and do shows. They might have imagined they were in the $131297$, for example, or travelling on a train. All these activities taught them how to $131298$."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "The nursery that took all the children's toys away",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Do toys stifle children's creativity?",
+          "translation": "玩具会扼杀孩子的创造力吗？"
+        },
+        {
+          "index": 2,
+          "sentence": "One Munich nursery decided to find out.",
+          "translation": "慕尼黑的一家托儿所决定对此进行探究。"
+        },
+        {
+          "index": 3,
+          "sentence": "Sarah Jewell reports",
+          "translation": "莎拉·朱厄尔报道"
+        },
+        {
+          "index": 4,
+          "sentence": "Children are ready consumers, particularly of toys.",
+          "translation": "儿童是天生的消费者，尤其是在玩具方面。"
+        },
+        {
+          "index": 5,
+          "sentence": "Their toy chests may be bursting but they are still desperate for the latest doll or train set.",
+          "translation": "他们的玩具箱可能已经塞满，但他们仍然渴望拥有最新的洋娃娃或火车套装。"
+        },
+        {
+          "index": 6,
+          "sentence": "Depriving children of their toys seems unkind, yet a growing number of nurseries in Germany do just this.",
+          "translation": "剥夺孩子的玩具似乎不太友善，但德国越来越多的幼儿园正是这样做的。"
+        },
+        {
+          "index": 7,
+          "sentence": "For three months of the year they put away their toys and all that is left to play with are the tables, chairs and a few blankets.",
+          "translation": "每年有三个月，他们会收起玩具，留给孩子们玩的只剩下桌子、椅子和几条毯子。"
+        },
+        {
+          "index": 8,
+          "sentence": "The project is called Der Spielzeugfreie Kindergarten (the nursery without toys) and was founded by Rainer Strick and Elke Schubert, public health officers who worked with adults suffering from various forms of addiction.",
+          "translation": "该项目被称为“无玩具幼儿园”（Der Spielzeugfreie Kindergarten），由公共卫生官员雷纳·斯特里克和埃尔克·舒伯特创立，他们曾与患有各种成瘾症的成年人打交道。"
+        },
+        {
+          "index": 9,
+          "sentence": "They were concerned about the addictive habits that start early in childhood and wanted to show that children can play happily and creatively when they are not being 'suffocated' by their toys.",
+          "translation": "他们担忧童年早期就开始形成的成瘾习惯，并希望证明，当孩子们不被玩具“窒息”时，他们能够快乐且富有创造性地玩耍。"
+        },
+        {
+          "index": 10,
+          "sentence": "One of the nurseries that has been following this project for the past two years is the Friedrich-Engels-Bogen nursery in Munich.",
+          "translation": "过去两年一直在实施这一项目的其中一所幼儿园是慕尼黑的弗里德里希·恩格斯弧线幼儿园。"
+        },
+        {
+          "index": 11,
+          "sentence": "Gisela Marti, a teacher there, says: ‘In these three months we offer the children space and time to get to know the mselves.’",
+          "translation": "那里的老师吉塞拉·马尔蒂说：“在这三个月里，我们给孩子们提供空间和时间来了解他们自己。”"
+        },
+        {
+          "index": 12,
+          "sentence": "The aim is to make the children 'self-confident, able to bear conflict and frustration, able to say \"yes\" as well as \"no\" and also aware of their weaknesses and strengths'.",
+          "translation": "目标是让孩子们变得“自信、能够承受冲突和挫折、既会说“是”也会说“不”，并且意识到自己的弱点和优势”。"
+        },
+        {
+          "index": 13,
+          "sentence": "According to Gisela Marti, the children's day is deliberately unstructured as one of the basic beliefs of the project is that children spend too much time being rushed around from one activity to another and they end up with a 'reduced space for life'.",
+          "translation": "据吉塞拉·马尔蒂所说，孩子们的一天被故意安排得没有固定结构，因为该项目的基本信念之一就是孩子们花费太多时间被催促着从一个活动赶到另一个活动，最终导致他们“生活空间被压缩”。"
+        },
+        {
+          "index": 14,
+          "sentence": "The children are encouraged to do what they want, in their own way.",
+          "translation": "孩子们被鼓励按照自己的方式做他们想做的事情。"
+        },
+        {
+          "index": 15,
+          "sentence": "A video taken of the children during the three-month toy-free period shows them on the first day staring at each other hesitantly and looking apprehensively around the big, empty classroom.",
+          "translation": "一则记录孩子们在三个月无玩具期间的视频显示，第一天他们犹豫地相互凝视，并忧虑地环顾宽敞空荡的教室。"
+        },
+        {
+          "index": 16,
+          "sentence": "One of the nursery teachers, Gudrun Huber, says: ‘We left them alone, even if they were bored, because sometimes things in life are boring and you have to learn to cope.’",
+          "translation": "一位幼儿园老师古德伦·胡贝尔说：“我们让他们独自待着，即使他们感到无聊，因为生活中有些事本就乏味，你必须学会应对。”"
+        },
+        {
+          "index": 17,
+          "sentence": "On the second day the children are filmed playing with the chairs and blankets.",
+          "translation": "第二天，孩子们被拍到用椅子和毯子玩耍。"
+        },
+        {
+          "index": 18,
+          "sentence": "They make a den by draping the blankets over the tables and weighing them down with shoes, and then they start running around the room, chatting and laughing excitedly, Gudrun Huber explains how this put them in an entirely different mood: ‘Once the children realised they could do what they liked and they were in control, they really went a bit mad - they got very boisterous and excited, climbing all over the furniture.’",
+          "translation": "他们用毯子盖在桌子上并用鞋子压住，搭成一个窝，然后开始在房间里奔跑，兴奋地聊天大笑。古德伦·胡贝尔解释道，这让他们进入了一种完全不同的情绪：“一旦孩子们意识到他们可以做自己喜欢的事并掌握主动权，他们确实有点疯狂——变得非常喧闹和激动，到处攀爬家具。”"
+        },
+        {
+          "index": 19,
+          "sentence": "Initially it was difficult for the staff, not just because it was unbearably noisy, but because, as Gudrun Huber says: ‘It was difficult to hold back and let the children be.’",
+          "translation": "起初这对员工来说很困难，不仅仅是因为无法忍受的吵闹，还因为正如古德伦·胡贝尔所说：“很难克制自己并让孩子们自由发挥。”"
+        },
+        {
+          "index": 20,
+          "sentence": "Like Gudrun Huber, Gisela Marti found it hard to re-evaluate the rules she was used to: 'They weren't allowed to do anything really dangerous, but they were allowed to jump on the chairs and tables, and that is not something they would normally be allowed to do.'",
+          "translation": "像古德伦·胡贝尔一样，吉塞拉·马蒂发现很难重新评估她习惯的规则：“他们不允许做任何真正危险的事，但可以跳上椅子和桌子，而这通常是不被允许的。”"
+        },
+        {
+          "index": 21,
+          "sentence": "As a teacher you do have to have confidence in the children.'",
+          "translation": "作为老师，你确实必须对孩子们有信心。”"
+        },
+        {
+          "index": 22,
+          "sentence": "But she adds: ‘Everyone has to work within their own boundaries and some teachers will allow more dangerous and active play than others.’",
+          "translation": "但她补充道：“每个人都必须在自己设定的范围内行事，有些老师会比其他人允许更危险和活跃的游戏。”"
+        },
+        {
+          "index": 23,
+          "sentence": "Gisela Marti found that once the children settled down to the new regime, they invented games: ‘They loved acting and putting on a show, or pretending to be in a circus or on a train, but most importantly, all the time they were playing, they were learning to socialise.’",
+          "translation": "吉塞拉·马蒂发现，一旦孩子们适应了新的规则，他们便开始发明游戏：‘他们喜欢表演和演出，或者假装在马戏团或火车上，但最重要的是，他们在玩耍的过程中一直在学习社交。’"
+        },
+        {
+          "index": 24,
+          "sentence": "Two weeks before the end of the project the teachers and children had a group discussion about which toys they would like brought back.",
+          "translation": "在项目结束前的两周，老师和孩子们进行了一次小组讨论，讨论他们希望带回哪些玩具。"
+        },
+        {
+          "index": 25,
+          "sentence": "The children were happy to get their toys back, but they were also aware that they had fun without them.",
+          "translation": "孩子们很高兴能拿回玩具，但他们也意识到，没有玩具时他们同样玩得很开心。"
+        },
+        {
+          "index": 26,
+          "sentence": "As one little boy in Gudrun Huber's class said: ' like having no toys because then you can use your imagination instead.",
+          "translation": "正如古德伦·胡贝尔班上一个小男孩所说：“我喜欢没有玩具，因为那样你就可以发挥想象力了。”"
+        },
+        {
+          "index": 27,
+          "sentence": "At the end of the project, Elke Schubert thought there were definite benefits.",
+          "translation": "在项目结束时，埃尔克·舒伯特认为有明确的好处。"
+        },
+        {
+          "index": 28,
+          "sentence": "“We find that children on the project concentrate better when they work, integrate better into groups and communicate better than the children who didn't take part.”",
+          "translation": "“我们发现，参与项目的儿童在工作时注意力更集中，更好地融入群体，并且比未参与项目的儿童沟通能力更强。”"
+        },
+        {
+          "index": 29,
+          "sentence": "The parents were also positive about how the 'time without toys' affected their children.",
+          "translation": "家长们也对“无玩具时间”如何影响他们的孩子持积极态度。"
+        },
+        {
+          "index": 30,
+          "sentence": "Some parents have even copied the nursery's example.",
+          "translation": "一些家长甚至效仿了这家幼儿园的做法。"
+        },
+        {
+          "index": 31,
+          "sentence": "As one father said: 'Klaus used to get out all his toys and spread them all over the room and they got in such a mess that he wasn't playing properly with any of them.",
+          "translation": "正如一位父亲所说：“克劳斯以前会把他所有的玩具都拿出来，摊得满屋子都是，弄得一团糟，以至于他哪个玩具都没好好玩。”"
+        },
+        {
+          "index": 32,
+          "sentence": "So we put all the toys away in the cellar and now we only get out what he actually wants to play with and he gets much less frustrated.'",
+          "translation": "所以，我们把所有玩具都收进了地下室，现在只拿出他真正想玩的玩具，他的挫败感也少多了。”"
+        },
+        {
+          "index": 33,
+          "sentence": "Elsa Davies is Director of the National Playing Fields Association.",
+          "translation": "埃尔莎·戴维斯是国家运动场协会的主任。"
+        },
+        {
+          "index": 34,
+          "sentence": "She says: ‘The most natural and durable learning happens through play and often play which is freely chosen by the child.",
+          "translation": "她表示：‘最自然且持久的学习是通过游戏发生的，而这种游戏往往是孩子自由选择的。"
+        },
+        {
+          "index": 35,
+          "sentence": "Teachers often underestimate the power of that learning.’",
+          "translation": "教师常常低估了这种学习的力量。’"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

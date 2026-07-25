@@ -1,0 +1,2161 @@
+{
+  "id": "b21-test-1",
+  "book": "剑雅21",
+  "book_number": 21,
+  "name": "Test 1",
+  "title": "剑雅21 Test 1",
+  "parts": [
+    {
+      "id": "211011",
+      "number": 1,
+      "title": "Section 1",
+      "article_title": "Castle Road Run",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "The organising committee of the annual Castle Road Run welcomes all entrants in the event. We hope the following details will provide you with all the necessary information to make your run as enjoyable as possible.",
+          "translation": "年度城堡路跑的组织委员会欢迎所有参赛者参加本次活动。\n我们希望以下详细信息能为您提供所有必要的信息，让您的跑步体验尽可能愉快。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Before race day you will receive a registration card containing your personal details, the race event entered and your T-shirt size. Competitors must bring this registration card with them when they collect their race number.",
+          "translation": "在比赛日前，您将收到一张注册卡，上面包含您的个人信息、所报名的比赛项目以及您的T恤尺码。\n参赛者在领取比赛号码时必须携带此注册卡。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "All runners, except those who have completed the four previous Castle Road Runs, will wear white T-shirts with red numbers on the back. Runners who are taking part in their fifth race will be identified with a green number instead of a red one.",
+          "translation": "所有跑步者，除了那些已完成前四届城堡路跑的选手外，都将穿着白色T恤，背面印有红色号码。\n参加第五次比赛的跑步者将以绿色号码代替红色号码进行识别。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Please take the time to complete the questionnaire included on the back of the registration card in order to assist us in improving upcoming Castle Road Runs. Entrants may change from the Full Run to the Half Run or vice versa, up until 28th October.",
+          "translation": "请花时间填写注册卡背面的问卷，以帮助我们改进未来的城堡路跑。\n参赛者可以在10月28日之前从全程跑改为半程跑，或反之亦然。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Please email details of the change to us. The $20 difference in entry fee will not be refunded for those changing from the Full Run to the Half Run, and it will be payable by those changing from the Half Run to the Full Run.",
+          "translation": "请将更改详情通过电子邮件发送给我们。\n从全程跑改为半程跑的参赛者，20美元的报名费差额将不予退还；而从半程跑改为全程跑的参赛者则需支付该差额。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Due to safety requirements, the Castle council has imposed a maximum number of entrants. Entries received after this number is reached will be fully refunded.",
+          "translation": "出于安全要求，城堡市议会已设定了参赛者人数上限。\n在达到此人数后收到的报名将全额退款。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "All competitors must collect their race pack prior to the start of the event from North Lake Hotel, 12 Skelton Street, any day between the hours of 10am and 7pm. Competitors who do not come from the Castle region, please get in touch with the Race Manager personally or by email to arrange for collection of your race number and race pack.",
+          "translation": "所有参赛者必须在比赛开始前，于上午10点至晚上7点之间的任何一天，从斯凯尔顿街12号的北湖酒店领取比赛包。\n非城堡地区的参赛者，请亲自或通过电子邮件与赛事经理联系，以安排领取您的比赛号码和比赛包。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Competitors may collect the race numbers and race packs of other competitors provided they bring the registration card for each competitor they wish to collect for.",
+          "translation": "参赛者可以代领其他参赛者的比赛号码和比赛包，前提是他们携带每位要代领的参赛者的注册卡。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Hatcliff Backpackers",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "哈特克利夫背包客旅舍"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Hatcliff Backpackers’ Hostel is only a short stroll from Cathedral Square and the city centre. Shops, buses, supermarkets and cinemas are not far away.",
+          "translation": "哈特克利夫背包客旅舍距离大教堂广场和市中心仅几步之遥。\n商店、公交车、超市和电影院都不远。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "In fact everything you'll want to see and do in the city is on our doorstep. All beds and bunks are fully made.",
+          "translation": "事实上，您想在城市里看和做的一切都近在咫尺。\n所有床铺和上下铺都铺好了床单。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Every room has free heating, modern furniture and air conditioning. All singles, twins, doubles and tourist flats have a TV and most have an ensuite bathroom and electric blankets.",
+          "translation": "每个房间都有免费暖气、现代家具和空调。\n所有单人间、双床间、双人间和旅游公寓都配有电视，大多数还带有独立浴室和电热毯。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "You can usually upgrade your accommodation from a single share to a single or double (for example) and pay the difference when you arrive. “Guest only’ areas are secured by combination locks.",
+          "translation": "您通常可以在抵达时将住宿从合住单人间升级为单人间或双人间（例如），并支付差价。\n“仅限住客”区域由密码锁保护。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Personal lockers can be hired for a maximum of three days, or you may use our safe for the overnight storage of valuables. Our two spacious modern kitchens are both fully equipped with everything from pots and pans through to microwaves and even toasted-sandwich makers.",
+          "translation": "个人储物柜最多可租用三天，或者您可以使用我们的保险箱过夜存放贵重物品。\n我们两间宽敞的现代化厨房都设备齐全，从锅碗瓢盆到微波炉，甚至还有烤三明治机。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Light meals are available from 11 am until 11 at night and you can get drinks and groceries 24 hours a day. Information is available on what to do and where to go in the Castle and surrounding regions.",
+          "translation": "从上午11点到晚上11点提供便餐，并且您可以24小时购买饮料和食品杂货。\n提供关于在城堡及周边地区可以做什么和去哪里的信息。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "We also have a launderette on site. Don’t forget to check out our notice board for cheap cars and travel deals.",
+          "translation": "我们还在店内设有自助洗衣房。\n别忘了查看我们的公告板，了解便宜的汽车和旅行优惠。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "You will be greeted at the airport arrival hall by a staff representative who will transport you to our door. We offer one free collection or drop-off per traveller and individuals can elect to use this either upon arrival or departure.",
+          "translation": "您将在机场到达大厅受到一名工作人员代表的迎接，他会将您送到我们的门口。\n我们为每位旅客提供一次免费接机或送机服务，个人可以选择在抵达或离开时使用。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "We can advise and reserve seats for you on all national backpacker transport, coach and rail services — and every adventure activity you would like to try. We require 24 hours’ notice to arrange your transport and book your accommodation.",
+          "translation": "我们可以为您提供建议并预订所有全国背包客交通、长途汽车和铁路服务的座位——以及您想尝试的每一项冒险活动。\n我们需要提前24小时通知来安排您的交通和预订住宿。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "375",
+          "type": 8,
+          "title": "Castle Road Run",
+          "instructions": "Questions 1-7\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the text for each answer.\nWrite your answers in boxes 1-7 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197556",
+              "number": 1,
+              "prompt": "What colour would the number worn by a competitor taking part in their fourth run be? _____",
+              "options": [],
+              "answer": "red",
+              "accepted_answers": [
+                "red"
+              ],
+              "analysis": "题干询问参加第四次比赛的选手号码颜色。原文指出“除已完成前四届 Castle Road Run 的选手外，所有跑者都将穿着背面印有红色号码的白色 T 恤”。由于参加第四次比赛的选手尚未完成四次，因此仍属于“红色号码”群体，故答案为 red。",
+              "reason": "原文明确说明除前四次完成者外均为红色号码，第四次选手未完成四次，故为红色。",
+              "location_analysis": "除已完成前四次者外，其余选手均穿白色T恤配红色号码。第四次选手未完成四次，故红色。",
+              "paraphrasing": "taking part in their fourth run -> except those who have completed the four previous Castle Road Runs",
+              "keywords": "fourth run, number colour",
+              "evidence": [
+                "All runners, except those who have completed the four previous Castle Road Runs, will wear white T-shirts with red numbers on the back."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197557",
+              "number": 2,
+              "prompt": "What can competitors do to help make future runs better? _____",
+              "options": [],
+              "answer": "complete the questionnaire",
+              "accepted_answers": [
+                "complete the questionnaire"
+              ],
+              "analysis": "题干问选手如何帮助改进未来的比赛。原文明确提到“请花时间填写注册卡背面的问卷，以协助我们改进未来的 Castle Road Run”。因此，正确答案是 complete the questionnaire，这是对原文信息的直接提取。",
+              "reason": "原文明确说明填写问卷可帮助改进比赛。",
+              "location_analysis": "原文要求填写问卷以帮助改进未来比赛，答案直接对应。",
+              "paraphrasing": "help make future runs better -> assist us in improving upcoming Castle Road Runs; what can competitors do -> complete the questionnaire",
+              "keywords": "improve future runs, questionnaire",
+              "evidence": [
+                "Please take the time to complete the questionnaire included on the back of the registration card in order to assist us in improving upcoming Castle Road Runs."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197558",
+              "number": 3,
+              "prompt": "What is the deadline for competitors to increase the length of their run? _____",
+              "options": [],
+              "answer": "28 October / 28th October",
+              "accepted_answers": [
+                "28 October / 28th October",
+                "28 October",
+                "28th October"
+              ],
+              "analysis": "题干要求找出增加跑步距离的截止日期。原文说明“参赛者可在 10 月 28 日之前将全程跑改为半程跑，或反之亦然”，其中“vice versa”包括从半程升级到全程，即增加长度。因此答案为 28 October 或 28th October。",
+              "reason": "原文明确截止日期为10月28日。",
+              "location_analysis": "原文允许在10月28日前更改跑程长度，包括增加长度。",
+              "paraphrasing": "increase the length of their run -> change from the Half Run to the Full Run; deadline -> up until 28th October",
+              "keywords": "deadline, increase length of run",
+              "evidence": [
+                "Entrants may change from the Full Run to the Half Run or vice versa, up until 28th October."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197559",
+              "number": 4,
+              "prompt": "How should competitors communicate a request to alter the length of their run? _____",
+              "options": [],
+              "answer": "email / by email",
+              "accepted_answers": [
+                "email / by email",
+                "email",
+                "by email"
+              ],
+              "analysis": "题干询问选手应如何沟通更改跑步项目的请求。原文直接指出“请通过电子邮件将更改详情发送给我们”，因此答案是 email 或 by email，这是对原文中沟通方式的准确转述。",
+              "reason": "原文直接说明通过邮件沟通更改。",
+              "location_analysis": "原文要求通过电子邮件沟通更改跑程的细节。",
+              "paraphrasing": "communicate a request to alter -> email details of the change",
+              "keywords": "communicate, request to alter length",
+              "evidence": [
+                "Please email details of the change to us."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197560",
+              "number": 5,
+              "prompt": "What is the reason given for restricting numbers? _____",
+              "options": [],
+              "answer": "safety / council safety / safety requirements / council safety requirements",
+              "accepted_answers": [
+                "safety / council safety / safety requirements / council safety requirements",
+                "safety",
+                "council safety",
+                "safety requirements",
+                "council safety requirements"
+              ],
+              "analysis": "题干问限制参赛人数的原因。原文明确说明“由于安全要求，Castle 市议会设定了参赛人数上限”，因此答案可为 safety、safety requirements 或 council safety requirements，这些表达均忠实反映原文中的因果逻辑。",
+              "reason": "原文首句即给出限制人数的原因。",
+              "location_analysis": "原文明确因安全要求限制参赛人数。",
+              "paraphrasing": "reason given for restricting numbers -> Due to safety requirements",
+              "keywords": "reason, restricting numbers",
+              "evidence": [
+                "Due to safety requirements, the Castle council has imposed a maximum number of entrants."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197561",
+              "number": 6,
+              "prompt": "What do runners need to get from North Lake Hotel before the race? _____",
+              "options": [],
+              "answer": "race pack / their race pack",
+              "accepted_answers": [
+                "race pack / their race pack",
+                "race pack",
+                "their race pack"
+              ],
+              "analysis": "题干问跑者赛前需从 North Lake Hotel 领取什么。原文指出“所有参赛者必须在比赛开始前从 North Lake Hotel 领取他们的 race pack”，因此答案是 race pack 或 their race pack，这是对原文信息的直接对应。",
+              "reason": "原文明确要求从该酒店领取race pack。",
+              "location_analysis": "原文要求在比赛前从North Lake Hotel领取比赛包。",
+              "paraphrasing": "get from North Lake Hotel -> collect their race pack; before the race -> prior to the start of the event",
+              "keywords": "North Lake Hotel, before race",
+              "evidence": [
+                "All competitors must collect their race pack prior to the start of the event from North Lake Hotel, 12 Skelton Street, any day between the hours of 10am and 7pm."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197562",
+              "number": 7,
+              "prompt": "Who do runners from outside the area need to contact? _____",
+              "options": [],
+              "answer": "Race Manager / the Race Manager",
+              "accepted_answers": [
+                "Race Manager / the Race Manager",
+                "Race Manager",
+                "the Race Manager"
+              ],
+              "analysis": "题干问非本地跑者需要联系谁。原文明确说明“非 Castle 地区的参赛者请亲自或通过电子邮件联系 Race Manager，以安排领取号码和比赛包”，因此答案为 Race Manager 或 the Race Manager，完全匹配原文内容。",
+              "reason": "原文指明外地选手需联系Race Manager。",
+              "location_analysis": "原文明确外地选手需联系Race Manager。",
+              "paraphrasing": "runners from outside the area -> Competitors who do not come from the Castle region; need to contact -> get in touch with the Race Manager",
+              "keywords": "outside area, contact",
+              "evidence": [
+                "Competitors who do not come from the Castle region, please get in touch with the Race Manager personally or by email to arrange for collection of your race number and race pack."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "1 What colour would the number worn by a competitor taking part in their fourth run be? $1197556$\n2 What can competitors do to help make future runs better? $1197557$\n3 What is the deadline for competitors to increase the length of their run? $1197558$\n4 How should competitors communicate a request to alter the length of their run? $1197559$\n5 What is the reason given for restricting numbers? $1197560$\n6 What do runners need to get from North Lake Hotel before the race? $1197561$\n7 Who do runners from outside the area need to contact? $1197562$",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "1 What colour would the number worn by a competitor taking part in their fourth run be? $1197556$\n2 What can competitors do to help make future runs better? $1197557$\n3 What is the deadline for competitors to increase the length of their run? $1197558$\n4 How should competitors communicate a request to alter the length of their run? $1197559$\n5 What is the reason given for restricting numbers? $1197560$\n6 What do runners need to get from North Lake Hotel before the race? $1197561$\n7 Who do runners from outside the area need to contact? $1197562$"
+        },
+        {
+          "id": "376",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 8-14\nDo the following statements agree with the information given in the text?\nIn boxes 8-14 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197563",
+              "number": 8,
+              "prompt": "The accommodation is conveniently located.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干称住宿位置便利，原文指出 Hatcliff Backpackers 距大教堂广场和市中心仅几步之遥，商店、公交、超市等均不远，且“城市中你想看和做的事都在门口”。这些描述充分支持“conveniently located”的说法，因此答案为 TRUE。",
+              "reason": "原文多处描述位置便利，与题干相符。",
+              "location_analysis": "原文明确位置便利，距离市中心步行可达。",
+              "paraphrasing": "conveniently located -> only a short stroll from Cathedral Square and the city centre; everything on our doorstep",
+              "keywords": "accommodation, conveniently located",
+              "evidence": [
+                "Hatcliff Backpackers’ Hostel is only a short stroll from Cathedral Square and the city centre. Shops, buses, supermarkets and cinemas are not far away. In fact everything you'll want to see and do in the city is on our doorstep."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到了住宿位置便利，与选项内容矛盾。",
+                "NOT GIVEN": "原文中明确提及了住宿位置便利的信息，并非未提及。"
+              }
+            },
+            {
+              "id": "1197564",
+              "number": 9,
+              "prompt": "Rooms at Hatcliff Backpackers have limited storage.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NG",
+              "accepted_answers": [
+                "NG",
+                "NOT GIVEN"
+              ],
+              "analysis": "题干称房间存储空间有限，但原文未提及房间内部是否有储物限制。虽然提到了可租用个人储物柜和使用保险箱，但并未说明房间本身的存储条件。因此，关于“rooms have limited storage”的信息在文中未给出，答案为 NOT GIVEN。",
+              "reason": "没有信息说明房间储物有限或无限。",
+              "location_analysis": "原文未提及房间储物空间是否有限。",
+              "paraphrasing": "",
+              "keywords": "rooms, limited storage",
+              "evidence": [],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文未提及房间存储空间有限，属于无中生有。",
+                "FALSE": "原文未提及房间存储空间是否有限，无法断定其为假。"
+              }
+            },
+            {
+              "id": "1197565",
+              "number": 10,
+              "prompt": "It is generally possible for guests to make changes to their reservation.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干说客人通常可以更改预订，原文提到“通常可以在抵达时从多人间升级为单人间或双人间，并支付差价”，这表明预订是可以调整的。因此，该陈述与原文一致，答案为 TRUE。",
+              "reason": "原文提及通常可以升级住宿，即允许更改预订。",
+              "location_analysis": "原文说明通常可以升级住宿，即改变预订。",
+              "paraphrasing": "make changes to reservation -> upgrade your accommodation from a single share to a single or double",
+              "keywords": "make changes to reservation",
+              "evidence": [
+                "You can usually upgrade your accommodation from a single share to a single or double (for example) and pay the difference when you arrive."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾，原文表明通常可以更改，而该选项否认了可能性。",
+                "NOT GIVEN": "原文明确提及客人可以更改，该选项声称未给出信息，实则有相关信息。"
+              }
+            },
+            {
+              "id": "1197566",
+              "number": 11,
+              "prompt": "Long-term storage for guests’ possessions is available.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干称提供长期寄存服务，但原文明确指出“个人储物柜最多可租用三天，或可使用保险箱过夜存放贵重物品”，两者均非长期存储。因此，题干与原文矛盾，答案为 FALSE。",
+              "reason": "原文表明存储时间短，无长期存储选项。",
+              "location_analysis": "原文限定储物柜最多3天，保险柜仅过夜，没有长期存储，故FALSE。",
+              "paraphrasing": "long-term storage -> maximum of three days, overnight storage",
+              "keywords": "long-term storage",
+              "evidence": [
+                "Personal lockers can be hired for a maximum of three days, or you may use our safe for the overnight storage of valuables."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文明确否定了长期寄存服务，因此该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文已明确说明长期寄存服务不可用，并非未提及，因此该选项不成立。"
+              }
+            },
+            {
+              "id": "1197567",
+              "number": 12,
+              "prompt": "Hatcliff Backpackers has a 24-hour reception desk.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NG",
+              "accepted_answers": [
+                "NG",
+                "NOT GIVEN"
+              ],
+              "analysis": "题干称旅馆设有 24 小时接待台，但原文只提到可 24 小时购买饮品和食品、厨房全天可用等，并未提及接待处是否全天开放。因此，关于“24-hour reception desk”的信息在文中未给出，答案为 NOT GIVEN。",
+              "reason": "没有信息说明是否有24小时前台。",
+              "location_analysis": "原文未提及前台服务时间。",
+              "paraphrasing": "",
+              "keywords": "24-hour reception desk",
+              "evidence": [],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文未提及该信息，无法确认其真实性。",
+                "FALSE": "原文未提供任何证据表明没有24小时接待服务。"
+              }
+            },
+            {
+              "id": "1197568",
+              "number": 13,
+              "prompt": "Guests are offered free transport both to and from the airport.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干称提供往返机场的免费接送，但原文明确说明“每位旅客可享一次免费接送，可选择在抵达或离境时使用”，即仅单程免费。因此，题干中“both to and from”与原文不符，答案为 FALSE。",
+              "reason": "原文明确仅单程免费，与双程矛盾。",
+              "location_analysis": "原文只提供单程免费接送，非双程，故FALSE。",
+              "paraphrasing": "both to and from -> either upon arrival or departure",
+              "keywords": "free transport, both to and from airport",
+              "evidence": [
+                "We offer one free collection or drop-off per traveller and individuals can elect to use this either upon arrival or departure."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文信息矛盾，原文没有提供免费交通或只提供单程。",
+                "NOT GIVEN": "题干明确提及交通信息，原文有相关内容，只是与题干相反，并非未提及。"
+              }
+            },
+            {
+              "id": "1197569",
+              "number": 14,
+              "prompt": "Hatcliff Backpackers offers guests assistance with their travel and leisure arrangements.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干称旅馆协助客人安排旅行和休闲活动，原文指出“我们可以为你预订全国背包客交通、长途汽车和铁路服务的座位，并预订你想尝试的任何冒险活动”。这直接对应“travel and leisure arrangements”，因此答案为 TRUE。",
+              "reason": "原文说明可帮助安排交通和冒险活动。",
+              "location_analysis": "原文明确提供旅行和休闲活动的建议与预订服务。",
+              "paraphrasing": "assistance -> advise and reserve; travel and leisure -> transport, coach, rail services, adventure activity",
+              "keywords": "assistance, travel and leisure arrangements",
+              "evidence": [
+                "We can advise and reserve seats for you on all national backpacker transport, coach and rail services — and every adventure activity you would like to try."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到该旅舍提供旅行和休闲安排协助，与选项内容矛盾。",
+                "NOT GIVEN": "原文有直接对应信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Castle Road Run",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "The organising committee of the annual Castle Road Run welcomes all entrants in the event.",
+          "translation": "年度城堡路跑的组织委员会欢迎所有参赛者参加本次活动。"
+        },
+        {
+          "index": 2,
+          "sentence": "We hope the following details will provide you with all the necessary information to make your run as enjoyable as possible.",
+          "translation": "我们希望以下详细信息能为您提供所有必要的信息，让您的跑步体验尽可能愉快。"
+        },
+        {
+          "index": 3,
+          "sentence": "Before race day you will receive a registration card containing your personal details, the race event entered and your T-shirt size.",
+          "translation": "在比赛日前，您将收到一张注册卡，上面包含您的个人信息、所报名的比赛项目以及您的T恤尺码。"
+        },
+        {
+          "index": 4,
+          "sentence": "Competitors must bring this registration card with them when they collect their race number.",
+          "translation": "参赛者在领取比赛号码时必须携带此注册卡。"
+        },
+        {
+          "index": 5,
+          "sentence": "All runners, except those who have completed the four previous Castle Road Runs, will wear white T-shirts with red numbers on the back.",
+          "translation": "所有跑步者，除了那些已完成前四届城堡路跑的选手外，都将穿着白色T恤，背面印有红色号码。"
+        },
+        {
+          "index": 6,
+          "sentence": "Runners who are taking part in their fifth race will be identified with a green number instead of a red one.",
+          "translation": "参加第五次比赛的跑步者将以绿色号码代替红色号码进行识别。"
+        },
+        {
+          "index": 7,
+          "sentence": "Please take the time to complete the questionnaire included on the back of the registration card in order to assist us in improving upcoming Castle Road Runs.",
+          "translation": "请花时间填写注册卡背面的问卷，以帮助我们改进未来的城堡路跑。"
+        },
+        {
+          "index": 8,
+          "sentence": "Entrants may change from the Full Run to the Half Run or vice versa, up until 28th October.",
+          "translation": "参赛者可以在10月28日之前从全程跑改为半程跑，或反之亦然。"
+        },
+        {
+          "index": 9,
+          "sentence": "Please email details of the change to us.",
+          "translation": "请将更改详情通过电子邮件发送给我们。"
+        },
+        {
+          "index": 10,
+          "sentence": "The $20 difference in entry fee will not be refunded for those changing from the Full Run to the Half Run, and it will be payable by those changing from the Half Run to the Full Run.",
+          "translation": "从全程跑改为半程跑的参赛者，20美元的报名费差额将不予退还；而从半程跑改为全程跑的参赛者则需支付该差额。"
+        },
+        {
+          "index": 11,
+          "sentence": "Due to safety requirements, the Castle council has imposed a maximum number of entrants.",
+          "translation": "出于安全要求，城堡市议会已设定了参赛者人数上限。"
+        },
+        {
+          "index": 12,
+          "sentence": "Entries received after this number is reached will be fully refunded.",
+          "translation": "在达到此人数后收到的报名将全额退款。"
+        },
+        {
+          "index": 13,
+          "sentence": "All competitors must collect their race pack prior to the start of the event from North Lake Hotel, 12 Skelton Street, any day between the hours of 10am and 7pm.",
+          "translation": "所有参赛者必须在比赛开始前，于上午10点至晚上7点之间的任何一天，从斯凯尔顿街12号的北湖酒店领取比赛包。"
+        },
+        {
+          "index": 14,
+          "sentence": "Competitors who do not come from the Castle region, please get in touch with the Race Manager personally or by email to arrange for collection of your race number and race pack.",
+          "translation": "非城堡地区的参赛者，请亲自或通过电子邮件与赛事经理联系，以安排领取您的比赛号码和比赛包。"
+        },
+        {
+          "index": 15,
+          "sentence": "Competitors may collect the race numbers and race packs of other competitors provided they bring the registration card for each competitor they wish to collect for.",
+          "translation": "参赛者可以代领其他参赛者的比赛号码和比赛包，前提是他们携带每位要代领的参赛者的注册卡。"
+        },
+        {
+          "index": 16,
+          "sentence": "Hatcliff Backpackers",
+          "translation": "哈特克利夫背包客旅舍"
+        },
+        {
+          "index": 17,
+          "sentence": "Hatcliff Backpackers’ Hostel is only a short stroll from Cathedral Square and the city centre.",
+          "translation": "哈特克利夫背包客旅舍距离大教堂广场和市中心仅几步之遥。"
+        },
+        {
+          "index": 18,
+          "sentence": "Shops, buses, supermarkets and cinemas are not far away.",
+          "translation": "商店、公交车、超市和电影院都不远。"
+        },
+        {
+          "index": 19,
+          "sentence": "In fact everything you'll want to see and do in the city is on our doorstep.",
+          "translation": "事实上，您想在城市里看和做的一切都近在咫尺。"
+        },
+        {
+          "index": 20,
+          "sentence": "All beds and bunks are fully made.",
+          "translation": "所有床铺和上下铺都铺好了床单。"
+        },
+        {
+          "index": 21,
+          "sentence": "Every room has free heating, modern furniture and air conditioning.",
+          "translation": "每个房间都有免费暖气、现代家具和空调。"
+        },
+        {
+          "index": 22,
+          "sentence": "All singles, twins, doubles and tourist flats have a TV and most have an ensuite bathroom and electric blankets.",
+          "translation": "所有单人间、双床间、双人间和旅游公寓都配有电视，大多数还带有独立浴室和电热毯。"
+        },
+        {
+          "index": 23,
+          "sentence": "You can usually upgrade your accommodation from a single share to a single or double (for example) and pay the difference when you arrive.",
+          "translation": "您通常可以在抵达时将住宿从合住单人间升级为单人间或双人间（例如），并支付差价。"
+        },
+        {
+          "index": 24,
+          "sentence": "“Guest only’ areas are secured by combination locks.",
+          "translation": "“仅限住客”区域由密码锁保护。"
+        },
+        {
+          "index": 25,
+          "sentence": "Personal lockers can be hired for a maximum of three days, or you may use our safe for the overnight storage of valuables.",
+          "translation": "个人储物柜最多可租用三天，或者您可以使用我们的保险箱过夜存放贵重物品。"
+        },
+        {
+          "index": 26,
+          "sentence": "Our two spacious modern kitchens are both fully equipped with everything from pots and pans through to microwaves and even toasted-sandwich makers.",
+          "translation": "我们两间宽敞的现代化厨房都设备齐全，从锅碗瓢盆到微波炉，甚至还有烤三明治机。"
+        },
+        {
+          "index": 27,
+          "sentence": "Light meals are available from 11 am until 11 at night and you can get drinks and groceries 24 hours a day.",
+          "translation": "从上午11点到晚上11点提供便餐，并且您可以24小时购买饮料和食品杂货。"
+        },
+        {
+          "index": 28,
+          "sentence": "Information is available on what to do and where to go in the Castle and surrounding regions.",
+          "translation": "提供关于在城堡及周边地区可以做什么和去哪里的信息。"
+        },
+        {
+          "index": 29,
+          "sentence": "We also have a launderette on site.",
+          "translation": "我们还在店内设有自助洗衣房。"
+        },
+        {
+          "index": 30,
+          "sentence": "Don’t forget to check out our notice board for cheap cars and travel deals.",
+          "translation": "别忘了查看我们的公告板，了解便宜的汽车和旅行优惠。"
+        },
+        {
+          "index": 31,
+          "sentence": "You will be greeted at the airport arrival hall by a staff representative who will transport you to our door.",
+          "translation": "您将在机场到达大厅受到一名工作人员代表的迎接，他会将您送到我们的门口。"
+        },
+        {
+          "index": 32,
+          "sentence": "We offer one free collection or drop-off per traveller and individuals can elect to use this either upon arrival or departure.",
+          "translation": "我们为每位旅客提供一次免费接机或送机服务，个人可以选择在抵达或离开时使用。"
+        },
+        {
+          "index": 33,
+          "sentence": "We can advise and reserve seats for you on all national backpacker transport, coach and rail services — and every adventure activity you would like to try.",
+          "translation": "我们可以为您提供建议并预订所有全国背包客交通、长途汽车和铁路服务的座位——以及您想尝试的每一项冒险活动。"
+        },
+        {
+          "index": 34,
+          "sentence": "We require 24 hours’ notice to arrange your transport and book your accommodation.",
+          "translation": "我们需要提前24小时通知来安排您的交通和预订住宿。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    },
+    {
+      "id": "211012",
+      "number": 2,
+      "title": "Section 2",
+      "article_title": "Job openings for sales clerks",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Teatime, a leading seller of tea in North America, has immediate openings for salespeople in its two new retail stores. No previous experience is required",
+          "translation": "Teatime是北美领先的茶叶销售商，现为其两家新零售店急聘销售人员。\n无需以往经验"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "We expect our sales clerks to maintain regular and consistent attendance. Clerks are also expected to be punctual for each shift. Note that a clean and neat appearance is required. Shift work may be necessary, depending on the location. If you are unable to work a combination of early mornings, evenings, weekends and holidays, please do not apply. Because of the nature of our business, employees whose time is flexible are wanted. Must be proficient in English. French and Spanish are an asset.",
+          "translation": "我们期望销售店员保持规律和稳定的出勤。\n店员还应准时到岗每个班次。\n请注意，要求着装整洁干净。\n根据地点不同，可能需要轮班工作。\n如果您无法在清晨、晚上、周末和节假日组合工作，请勿申请。\n由于业务性质，我们需要时间灵活的雇员。\n必须精通英语。\n会法语和西班牙语者优先。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "A good mindset at work is essential. There are so many tasks to do in a day that each should be approached with urgency in order to complete the work in a timely fashion. Being capable of juggling a variety of things simultaneously is a must. Working alongside co-workers on your shift without friction is important to the operation of the store, as is having a cheerful manner while you work. Clerks must be confident individuals who welcome coaching and see it as an opportunity to learn about how best to represent our product.",
+          "translation": "良好的工作心态至关重要。\n一天中有如此多的任务，每项任务都应紧迫处理，以便及时完成工作。\n能够同时处理多种事务是必备能力。\n在轮班期间与同事无摩擦地合作对店铺运营很重要，工作时保持愉快的态度也同样重要。\n店员必须是自信的人，欢迎指导，并将其视为学习如何最好地代表我们产品的机会。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Responsibilities and essential job functions include, but are not limited to, the following areas:",
+          "translation": "职责和基本工作职能包括但不限于以下方面："
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "· contributing to sales growth at your location: delivering personal and team sales goals by upselling and suggestive selling to customers based on what they need",
+          "translation": "· 促进所在门店的销售增长：通过根据客户需求进行追加销售和建议性销售，实现个人和团队销售目标"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "· being responsible for teaching customers about our teas as they sample them; providing clients with this positive educational journey has made our company a top retail leader in tea",
+          "translation": "· 负责在客户品尝时向他们介绍我们的茶叶；为客户提供这种积极的教育之旅，使我们的公司成为茶叶零售领域的顶级领导者"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "· maintaining, rotating, dating and organizing stock",
+          "translation": "· 维护、轮换、标注日期和整理库存"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "· advising your team leader of any shortages you notice in quantities of inventory as you work",
+          "translation": "· 在工作时，若发现库存数量短缺，告知团队负责人"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "· ensuring that beverage stations are kept clean according to government health standards, and that damaged and defective items are disposed of as per company best practices, which ensure safety of all partners on your shift",
+          "translation": "· 确保饮料站根据政府卫生标准保持清洁，并按照公司最佳实践处理损坏和有缺陷的物品，以确保轮班期间所有同事的安全"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "· always ensuring the policy set out by Teatime is followed when dealing with cash.",
+          "translation": "· 在处理现金时，始终确保遵循Teatime制定的政策。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Forklift operator course",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "叉车操作员课程"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "The Liftsure Training Academy offers a comprehensive course for individuals wishing to be certified as forklift operators. There are very few legal requirements to train for a job as a forklift operator.",
+          "translation": "Liftsure培训学院为希望获得叉车操作员认证的个人提供综合课程。\n培训成为叉车操作员的法律要求很少。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Those that do exist are for your safety and that of the people around you. The minimum age for operating the equipment is 17, with course completion possible at age 18.",
+          "translation": "那些确实存在的要求是为了您和周围人的安全。\n操作设备的最低年龄为17岁，课程完成可在18岁时进行。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Forklift operators are expected to be in good health, meaning that they cannot suffer from any condition that would interfere with the alert operation of the lift truck. Trainees should recognize that although the law makes no reference to this, screening by a future employer could involve a health test as part of the process of getting hired.",
+          "translation": "叉车操作员应身体健康，这意味着他们不能患有任何会影响叉车警觉操作的疾病。\n学员应认识到，尽管法律对此没有提及，但未来雇主的筛选可能包括健康测试，作为录用过程的一部分。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "We offer new lift operators a five-day course. The fact that our training is conducted so quickly in no way suggests that participants are released into the workforce before they're ready.",
+          "translation": "我们为新叉车操作员提供为期五天的课程。\n我们的培训进行得如此迅速，绝不意味着学员在尚未准备好之前就被投入工作岗位。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "In fact, our accelerated approach has been proven to boost knowledge retention in the workplace. So, what exactly will the course cover?",
+          "translation": "事实上，我们的加速方法已被证明能提高工作场所的知识留存率。\n那么，课程具体涵盖哪些内容呢？"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "To begin with, students will learn how the forklift's design is vital to its stability during operation. You will be given detailed instruction on the theory used for the various forklift models.",
+          "translation": "首先，学员将学习叉车的设计对其操作过程中的稳定性至关重要。\n你将获得关于各种叉车型号所用理论的详细指导。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Along with this, there will be an in-depth explanation of the parts that make up the vehicle. Afternoons will be spent in our academy warehouse onboard the trucks.",
+          "translation": "与此同时，还将深入讲解构成车辆的各个部件。\n下午将在我们学院的仓库内，在叉车上进行实操。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Driving the forklift itself may not be problematic; however, once a load of significant weight is added, operating the vehicle can be a challenge for new drivers. Instruction concentrates on this area since proper load transportation is paramount.",
+          "translation": "驾驶叉车本身可能并不困难；然而，一旦加上相当重量的负载，操作车辆对新驾驶员来说可能是个挑战。\n教学重点集中在这一领域，因为正确的负载运输至关重要。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "Class sizes are kept small to allow instructors to monitor driving and correct improper actions. Driving a forklift will also involve having a working knowledge of dangerous goods.",
+          "translation": "班级规模保持较小，以便教练能够监控驾驶并纠正不当操作。\n驾驶叉车还需要具备危险品的工作知识。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Classroom study will include how to recognize dangerous goods, their proper packaging, and the immediate action to be taken when a spill occurs with such a product. Students will also have time to work on strategies to use when driving in confined spaces and narrow aisles.",
+          "translation": "课堂学习将包括如何识别危险品、其正确包装，以及当此类产品发生泄漏时应立即采取的行动。\n学员还将有时间练习在狭窄空间和窄巷道中驾驶的策略。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "It should be noted that forklifts can be dangerous pieces of machinery. Therefore, we include a module emphasizing the need for an inspection by the operator before each shift.",
+          "translation": "应当注意，叉车可能是危险的机械。\n因此，我们包含一个模块，强调操作员在每次轮班前进行检查的必要性。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "It includes such things as tire pressure and signs of wear to key parts. This simple precaution is a proven way to lessen on-the-job accidents.",
+          "translation": "这包括轮胎气压和关键部件磨损迹象等事项。\n这一简单的预防措施已被证明是减少工伤事故的有效方法。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "On completion of the course, students will sit an exam and demonstrate the correct operation of a forklift.",
+          "translation": "课程结束后，学员将参加考试并演示叉车的正确操作。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "377",
+          "type": 8,
+          "title": "Sales clerk job",
+          "instructions": "Questions 15-20\nComplete the notes below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 15-20 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197570",
+              "number": 15,
+              "prompt": "Expectations of employees: — be on time and have a tidy _____",
+              "options": [],
+              "answer": "appearance",
+              "accepted_answers": [
+                "appearance"
+              ],
+              "analysis": "题干中的“tidy”对应原文中的“clean and neat”，两者均为描述外表整洁的同义表达。原文明确指出“a clean and neat appearance is required”，因此答案为“appearance”，准确反映了岗位对外表的要求。",
+              "reason": "直接对应条件",
+              "location_analysis": "题干tidy对应clean and neat，答案appearance。",
+              "paraphrasing": "tidy -> clean and neat",
+              "keywords": "tidy, appearance",
+              "evidence": [
+                "Note that a clean and neat appearance is required."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197571",
+              "number": 16,
+              "prompt": "must be _____ with work schedules",
+              "options": [],
+              "answer": "flexible",
+              "accepted_answers": [
+                "flexible"
+              ],
+              "analysis": "题干中“must be flexible with work schedules”对应原文“employees whose time is flexible are wanted”。虽然题干使用了“work schedules”，而原文用的是“time”，但两者在语境中均指工作时间安排的灵活性，因此答案为“flexible”。",
+              "reason": "直接对应",
+              "location_analysis": "题干with work schedules对应time is flexible，答案flexi...",
+              "paraphrasing": "with work schedules -> time is flexible",
+              "keywords": "work schedules, flexible",
+              "evidence": [
+                "Because of the nature of our business, employees whose time is flexible are wanted."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197572",
+              "number": 17,
+              "prompt": "perform duties with _____ to finish them quickly",
+              "options": [],
+              "answer": "urgency",
+              "accepted_answers": [
+                "urgency"
+              ],
+              "analysis": "题干要求填写员工完成任务时应有的态度，“to finish them quickly”对应原文中的“complete the work in a timely fashion”。原文明确指出“each should be approached with urgency”，因此答案“urgency”准确体现了高效完成工作的紧迫感。",
+              "reason": "直接对应",
+              "location_analysis": "题干to finish them quickly对应in a timely fashion，答...",
+              "paraphrasing": "finish quickly -> in a timely fashion",
+              "keywords": "finish quickly, urgency",
+              "evidence": [
+                "each should be approached with urgency in order to complete the work in a timely fashion."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197573",
+              "number": 18,
+              "prompt": "avoid _____ with other staff",
+              "options": [],
+              "answer": "friction",
+              "accepted_answers": [
+                "friction"
+              ],
+              "analysis": "题干中的“avoid friction with other staff”与原文“Working alongside co-workers on your shift without friction is important”直接对应。“friction”在文中指同事间冲突，题干用“avoid”替换了“without”，语义一致，故答案为“friction”。",
+              "reason": "直接对应",
+              "location_analysis": "题干avoid对应without，答案friction。",
+              "paraphrasing": "avoid -> without",
+              "keywords": "avoid, friction",
+              "evidence": [
+                "Working alongside co-workers on your shift without friction is important"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197574",
+              "number": 19,
+              "prompt": "meeting sales goals to achieve _____ at the store",
+              "options": [],
+              "answer": "growth",
+              "accepted_answers": [
+                "growth"
+              ],
+              "analysis": "题干中“meeting sales goals to achieve ___ at the store”对应原文“contributing to sales growth at your location: delivering personal and team sales goals”。此处“growth”是原文明确提到的目标结果，因此答案为“growth”。",
+              "reason": "直接对应",
+              "location_analysis": "题干achieving sales goals对应delivering sales goals...",
+              "paraphrasing": "meeting sales goals -> delivering personal and team sales goals",
+              "keywords": "meeting sales goals, growth",
+              "evidence": [
+                "contributing to sales growth at your location: delivering personal and team sales goals"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197575",
+              "number": 20,
+              "prompt": "explaining the tea world to customers — reporting _____ of supplies to management",
+              "options": [],
+              "answer": "shortages",
+              "accepted_answers": [
+                "shortages"
+              ],
+              "analysis": "题干“reporting ___ of supplies to management”对应原文“advising your team leader of any shortages you notice in quantities of inventory”。“shortages”指库存不足，与“supplies”形成合理搭配，且原文明确使用该词，故答案为“shortages”。",
+              "reason": "直接对应",
+              "location_analysis": "题干reporting对应advising，supplies对应inventory，答案sho...",
+              "paraphrasing": "reporting -> advising",
+              "keywords": "reporting, shortages",
+              "evidence": [
+                "advising your team leader of any shortages you notice in quantities of inventory"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Expectations of employees:\nbe on time and have a tidy $1197570$\nmust be $1197571$ with work schedules\nneed to have good English\n\nEmployee attitude:\nperform duties with $1197572$ to finish them quickly\navoid $1197573$ with other staff\n respond to coaching in a positive way \n\nJob duties include:\nmeeting sales goals to achieve $1197574$ at the store \nexplaining the tea world to customers\nreporting $1197575$ of supplies to management\nhandling money according to company policy",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Expectations of employees:\nbe on time and have a tidy $1197570$\nmust be $1197571$ with work schedules\nneed to have good English\n\nEmployee attitude:\nperform duties with $1197572$ to finish them quickly\navoid $1197573$ with other staff\n respond to coaching in a positive way \n\nJob duties include:\nmeeting sales goals to achieve $1197574$ at the store \nexplaining the tea world to customers\nreporting $1197575$ of supplies to management\nhandling money according to company policy"
+        },
+        {
+          "id": "378",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 21-27\nComplete the sentences below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 21-27 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197576",
+              "number": 21,
+              "prompt": "Legal requirements for training are to ensure the _____ of the driver and others.",
+              "options": [],
+              "answer": "safety",
+              "accepted_answers": [
+                "safety"
+              ],
+              "analysis": "题干“Legal requirements for training are to ensure the ___ of the driver and others”对应原文“Those that do exist are for your safety and that of the people around you”。“safety”是法律培训要求的核心目的，因此答案为“safety”。",
+              "reason": "直接对应",
+              "location_analysis": "题干Legal requirements对应Those that do exist，答案saf...",
+              "paraphrasing": "Legal requirements -> Those that do exist",
+              "keywords": "Legal requirements, safety",
+              "evidence": [
+                "Those that do exist are for your safety and that of the people around you."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197577",
+              "number": 22,
+              "prompt": "Training is fast-paced in order to improve the _____ of information.",
+              "options": [],
+              "answer": "retention",
+              "accepted_answers": [
+                "retention"
+              ],
+              "analysis": "题干“Training is fast-paced in order to improve the ___ of information”对应原文“our accelerated approach has been proven to boost knowledge retention”。“retention”指知识保留或记忆保持，与“improve the...of information”逻辑吻合，故答案为“retention”。",
+              "reason": "直接对应",
+              "location_analysis": "题干improve对应boost，答案retention。",
+              "paraphrasing": "fast-paced -> accelerated",
+              "keywords": "fast-paced, retention",
+              "evidence": [
+                "our accelerated approach has been proven to boost knowledge retention in the workplace."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197578",
+              "number": 23,
+              "prompt": "A thorough _____ of all the components of the forklift truck is provided.",
+              "options": [],
+              "answer": "explanation",
+              "accepted_answers": [
+                "explanation"
+              ],
+              "analysis": "题干“A thorough ___ of all the components of the forklift truck is provided”对应原文“there will be an in-depth explanation of the parts that make up the vehicle”。“explanation”与“thorough”搭配合理，且原文明确使用该词描述对叉车部件的讲解，因此答案为“explanation”。",
+              "reason": "直接对应",
+              "location_analysis": "题干thorough对应in-depth，components对应parts，答案explan...",
+              "paraphrasing": "thorough -> in-depth",
+              "keywords": "thorough, explanation",
+              "evidence": [
+                "there will be an in-depth explanation of the parts that make up the vehicle."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197579",
+              "number": 24,
+              "prompt": "Participants practise moving heavy items as this is often a _____.",
+              "options": [],
+              "answer": "challenge",
+              "accepted_answers": [
+                "challenge"
+              ],
+              "analysis": "题干“Participants practise moving heavy items as this is often a ___”对应原文“once a load of significant weight is added, operating the vehicle can be a challenge for new drivers”。“challenge”准确描述了搬运重物时的操作难点，故答案为“challenge”。",
+              "reason": "直接对应",
+              "location_analysis": "题干moving heavy items对应a load of significant wei...",
+              "paraphrasing": "heavy items -> a load of significant weight",
+              "keywords": "heavy items, challenge",
+              "evidence": [
+                "once a load of significant weight is added, operating the vehicle can be a challenge for new drivers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197580",
+              "number": 25,
+              "prompt": "Students learn how to respond to a _____ involving a harmful product.",
+              "options": [],
+              "answer": "spill",
+              "accepted_answers": [
+                "spill"
+              ],
+              "analysis": "题干“Students learn how to respond to a ___ involving a harmful product”对应原文“the immediate action to be taken when a spill occurs with such a product”。“spill”指有害物质泄漏事件，与“respond to”构成常见搭配，因此答案为“spill”。",
+              "reason": "直接对应",
+              "location_analysis": "题干respond to对应action to be taken，harmful produc...",
+              "paraphrasing": "respond to -> action to be taken",
+              "keywords": "respond to, spill",
+              "evidence": [
+                "the immediate action to be taken when a spill occurs with such a product."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197581",
+              "number": 26,
+              "prompt": "Students learn about _____ for operating forklifts in tight spaces.",
+              "options": [],
+              "answer": "strategies",
+              "accepted_answers": [
+                "strategies"
+              ],
+              "analysis": "题干“Students learn about ___ for operating forklifts in tight spaces”对应原文“Students will also have time to work on strategies to use when driving in confined spaces and narrow aisles”。“strategies”指应对狭窄空间驾驶的具体方法，与题干完全匹配，故答案为“strategies”。",
+              "reason": "直接对应",
+              "location_analysis": "题干tight spaces对应confined spaces and narrow aisl...",
+              "paraphrasing": "tight spaces -> confined spaces and narrow aisles",
+              "keywords": "tight spaces, strategies",
+              "evidence": [
+                "Students will also have time to work on strategies to use when driving in confined spaces and narrow aisles."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197582",
+              "number": 27,
+              "prompt": "The course stresses the importance of a regular vehicle _____.",
+              "options": [],
+              "answer": "inspection",
+              "accepted_answers": [
+                "inspection"
+              ],
+              "analysis": "题干“The course stresses the importance of a regular vehicle ___”对应原文“we include a module emphasizing the need for an inspection by the operator before each shift”。“inspection”指每次换班前对车辆的检查，符合“regular vehicle”的语境，因此答案为“inspection”。",
+              "reason": "直接对应",
+              "location_analysis": "题干stresses对应emphasizing，regular对应before each sh...",
+              "paraphrasing": "regular -> before each shift",
+              "keywords": "regular vehicle, inspection",
+              "evidence": [
+                "we include a module emphasizing the need for an inspection by the operator before each shift."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "21 Legal requirements for training are to ensure the $1197576$ of the driver and others.\n22 Training is fast-paced in order to improve the $1197577$ of information.\n23 A thorough $1197578$ of all the components of the forklift truck is provided.\n24 Participants practise moving heavy items as this is often a $1197579$.\n25 Students learn how to respond to a $1197580$ involving a harmful product.\n26 Students learn about $1197581$ for operating forklifts in tight spaces.\n27 The course stresses the importance of a regular vehicle $1197582$.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "21 Legal requirements for training are to ensure the $1197576$ of the driver and others.\n22 Training is fast-paced in order to improve the $1197577$ of information.\n23 A thorough $1197578$ of all the components of the forklift truck is provided.\n24 Participants practise moving heavy items as this is often a $1197579$.\n25 Students learn how to respond to a $1197580$ involving a harmful product.\n26 Students learn about $1197581$ for operating forklifts in tight spaces.\n27 The course stresses the importance of a regular vehicle $1197582$."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Job openings for sales clerks",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Teatime, a leading seller of tea in North America, has immediate openings for salespeople in its two new retail stores.",
+          "translation": "Teatime是北美领先的茶叶销售商，现为其两家新零售店急聘销售人员。"
+        },
+        {
+          "index": 2,
+          "sentence": "No previous experience is required",
+          "translation": "无需以往经验"
+        },
+        {
+          "index": 3,
+          "sentence": "We expect our sales clerks to maintain regular and consistent attendance.",
+          "translation": "我们期望销售店员保持规律和稳定的出勤。"
+        },
+        {
+          "index": 4,
+          "sentence": "Clerks are also expected to be punctual for each shift.",
+          "translation": "店员还应准时到岗每个班次。"
+        },
+        {
+          "index": 5,
+          "sentence": "Note that a clean and neat appearance is required.",
+          "translation": "请注意，要求着装整洁干净。"
+        },
+        {
+          "index": 6,
+          "sentence": "Shift work may be necessary, depending on the location.",
+          "translation": "根据地点不同，可能需要轮班工作。"
+        },
+        {
+          "index": 7,
+          "sentence": "If you are unable to work a combination of early mornings, evenings, weekends and holidays, please do not apply.",
+          "translation": "如果您无法在清晨、晚上、周末和节假日组合工作，请勿申请。"
+        },
+        {
+          "index": 8,
+          "sentence": "Because of the nature of our business, employees whose time is flexible are wanted.",
+          "translation": "由于业务性质，我们需要时间灵活的雇员。"
+        },
+        {
+          "index": 9,
+          "sentence": "Must be proficient in English.",
+          "translation": "必须精通英语。"
+        },
+        {
+          "index": 10,
+          "sentence": "French and Spanish are an asset.",
+          "translation": "会法语和西班牙语者优先。"
+        },
+        {
+          "index": 11,
+          "sentence": "A good mindset at work is essential.",
+          "translation": "良好的工作心态至关重要。"
+        },
+        {
+          "index": 12,
+          "sentence": "There are so many tasks to do in a day that each should be approached with urgency in order to complete the work in a timely fashion.",
+          "translation": "一天中有如此多的任务，每项任务都应紧迫处理，以便及时完成工作。"
+        },
+        {
+          "index": 13,
+          "sentence": "Being capable of juggling a variety of things simultaneously is a must.",
+          "translation": "能够同时处理多种事务是必备能力。"
+        },
+        {
+          "index": 14,
+          "sentence": "Working alongside co-workers on your shift without friction is important to the operation of the store, as is having a cheerful manner while you work.",
+          "translation": "在轮班期间与同事无摩擦地合作对店铺运营很重要，工作时保持愉快的态度也同样重要。"
+        },
+        {
+          "index": 15,
+          "sentence": "Clerks must be confident individuals who welcome coaching and see it as an opportunity to learn about how best to represent our product.",
+          "translation": "店员必须是自信的人，欢迎指导，并将其视为学习如何最好地代表我们产品的机会。"
+        },
+        {
+          "index": 16,
+          "sentence": "Responsibilities and essential job functions include, but are not limited to, the following areas:",
+          "translation": "职责和基本工作职能包括但不限于以下方面："
+        },
+        {
+          "index": 17,
+          "sentence": "· contributing to sales growth at your location: delivering personal and team sales goals by upselling and suggestive selling to customers based on what they need",
+          "translation": "· 促进所在门店的销售增长：通过根据客户需求进行追加销售和建议性销售，实现个人和团队销售目标"
+        },
+        {
+          "index": 18,
+          "sentence": "· being responsible for teaching customers about our teas as they sample them; providing clients with this positive educational journey has made our company a top retail leader in tea",
+          "translation": "· 负责在客户品尝时向他们介绍我们的茶叶；为客户提供这种积极的教育之旅，使我们的公司成为茶叶零售领域的顶级领导者"
+        },
+        {
+          "index": 19,
+          "sentence": "· maintaining, rotating, dating and organizing stock",
+          "translation": "· 维护、轮换、标注日期和整理库存"
+        },
+        {
+          "index": 20,
+          "sentence": "· advising your team leader of any shortages you notice in quantities of inventory as you work",
+          "translation": "· 在工作时，若发现库存数量短缺，告知团队负责人"
+        },
+        {
+          "index": 21,
+          "sentence": "· ensuring that beverage stations are kept clean according to government health standards, and that damaged and defective items are disposed of as per company best practices, which ensure safety of all partners on your shift",
+          "translation": "· 确保饮料站根据政府卫生标准保持清洁，并按照公司最佳实践处理损坏和有缺陷的物品，以确保轮班期间所有同事的安全"
+        },
+        {
+          "index": 22,
+          "sentence": "· always ensuring the policy set out by Teatime is followed when dealing with cash.",
+          "translation": "· 在处理现金时，始终确保遵循Teatime制定的政策。"
+        },
+        {
+          "index": 23,
+          "sentence": "Forklift operator course",
+          "translation": "叉车操作员课程"
+        },
+        {
+          "index": 24,
+          "sentence": "The Liftsure Training Academy offers a comprehensive course for individuals wishing to be certified as forklift operators.",
+          "translation": "Liftsure培训学院为希望获得叉车操作员认证的个人提供综合课程。"
+        },
+        {
+          "index": 25,
+          "sentence": "There are very few legal requirements to train for a job as a forklift operator.",
+          "translation": "培训成为叉车操作员的法律要求很少。"
+        },
+        {
+          "index": 26,
+          "sentence": "Those that do exist are for your safety and that of the people around you.",
+          "translation": "那些确实存在的要求是为了您和周围人的安全。"
+        },
+        {
+          "index": 27,
+          "sentence": "The minimum age for operating the equipment is 17, with course completion possible at age 18.",
+          "translation": "操作设备的最低年龄为17岁，课程完成可在18岁时进行。"
+        },
+        {
+          "index": 28,
+          "sentence": "Forklift operators are expected to be in good health, meaning that they cannot suffer from any condition that would interfere with the alert operation of the lift truck.",
+          "translation": "叉车操作员应身体健康，这意味着他们不能患有任何会影响叉车警觉操作的疾病。"
+        },
+        {
+          "index": 29,
+          "sentence": "Trainees should recognize that although the law makes no reference to this, screening by a future employer could involve a health test as part of the process of getting hired.",
+          "translation": "学员应认识到，尽管法律对此没有提及，但未来雇主的筛选可能包括健康测试，作为录用过程的一部分。"
+        },
+        {
+          "index": 30,
+          "sentence": "We offer new lift operators a five-day course.",
+          "translation": "我们为新叉车操作员提供为期五天的课程。"
+        },
+        {
+          "index": 31,
+          "sentence": "The fact that our training is conducted so quickly in no way suggests that participants are released into the workforce before they're ready.",
+          "translation": "我们的培训进行得如此迅速，绝不意味着学员在尚未准备好之前就被投入工作岗位。"
+        },
+        {
+          "index": 32,
+          "sentence": "In fact, our accelerated approach has been proven to boost knowledge retention in the workplace.",
+          "translation": "事实上，我们的加速方法已被证明能提高工作场所的知识留存率。"
+        },
+        {
+          "index": 33,
+          "sentence": "So, what exactly will the course cover?",
+          "translation": "那么，课程具体涵盖哪些内容呢？"
+        },
+        {
+          "index": 34,
+          "sentence": "To begin with, students will learn how the forklift's design is vital to its stability during operation.",
+          "translation": "首先，学员将学习叉车的设计对其操作过程中的稳定性至关重要。"
+        },
+        {
+          "index": 35,
+          "sentence": "You will be given detailed instruction on the theory used for the various forklift models.",
+          "translation": "你将获得关于各种叉车型号所用理论的详细指导。"
+        },
+        {
+          "index": 36,
+          "sentence": "Along with this, there will be an in-depth explanation of the parts that make up the vehicle.",
+          "translation": "与此同时，还将深入讲解构成车辆的各个部件。"
+        },
+        {
+          "index": 37,
+          "sentence": "Afternoons will be spent in our academy warehouse onboard the trucks.",
+          "translation": "下午将在我们学院的仓库内，在叉车上进行实操。"
+        },
+        {
+          "index": 38,
+          "sentence": "Driving the forklift itself may not be problematic; however, once a load of significant weight is added, operating the vehicle can be a challenge for new drivers.",
+          "translation": "驾驶叉车本身可能并不困难；然而，一旦加上相当重量的负载，操作车辆对新驾驶员来说可能是个挑战。"
+        },
+        {
+          "index": 39,
+          "sentence": "Instruction concentrates on this area since proper load transportation is paramount.",
+          "translation": "教学重点集中在这一领域，因为正确的负载运输至关重要。"
+        },
+        {
+          "index": 40,
+          "sentence": "Class sizes are kept small to allow instructors to monitor driving and correct improper actions.",
+          "translation": "班级规模保持较小，以便教练能够监控驾驶并纠正不当操作。"
+        },
+        {
+          "index": 41,
+          "sentence": "Driving a forklift will also involve having a working knowledge of dangerous goods.",
+          "translation": "驾驶叉车还需要具备危险品的工作知识。"
+        },
+        {
+          "index": 42,
+          "sentence": "Classroom study will include how to recognize dangerous goods, their proper packaging, and the immediate action to be taken when a spill occurs with such a product.",
+          "translation": "课堂学习将包括如何识别危险品、其正确包装，以及当此类产品发生泄漏时应立即采取的行动。"
+        },
+        {
+          "index": 43,
+          "sentence": "Students will also have time to work on strategies to use when driving in confined spaces and narrow aisles.",
+          "translation": "学员还将有时间练习在狭窄空间和窄巷道中驾驶的策略。"
+        },
+        {
+          "index": 44,
+          "sentence": "It should be noted that forklifts can be dangerous pieces of machinery.",
+          "translation": "应当注意，叉车可能是危险的机械。"
+        },
+        {
+          "index": 45,
+          "sentence": "Therefore, we include a module emphasizing the need for an inspection by the operator before each shift.",
+          "translation": "因此，我们包含一个模块，强调操作员在每次轮班前进行检查的必要性。"
+        },
+        {
+          "index": 46,
+          "sentence": "It includes such things as tire pressure and signs of wear to key parts.",
+          "translation": "这包括轮胎气压和关键部件磨损迹象等事项。"
+        },
+        {
+          "index": 47,
+          "sentence": "This simple precaution is a proven way to lessen on-the-job accidents.",
+          "translation": "这一简单的预防措施已被证明是减少工伤事故的有效方法。"
+        },
+        {
+          "index": 48,
+          "sentence": "On completion of the course, students will sit an exam and demonstrate the correct operation of a forklift.",
+          "translation": "课程结束后，学员将参加考试并演示叉车的正确操作。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    },
+    {
+      "id": "211013",
+      "number": 3,
+      "title": "Section 3",
+      "article_title": "The lure of diving",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Scuba diving (diving with Self-Contained Underwater Breathing Apparatus) is an activity that can be undertaken and enjoyed by practically anybody. However, you will enjoy it more if you are aware of your own limitations, learn to recognise them and stay within them. Diving can certainly offer fun and adventure, as long as you respect the safety rules and accept a degree of responsibility towards your diving buddies. Diving is not a solitary pursuit; it is safer and more enjoyable when shared with others. There is an element of risk inherent in diving as in other adventure sports, but this risk is reduced to acceptable limits by the observation of basic safety rules and the acceptance of the need for sound training.",
+          "translation": "水肺潜水（使用自给式水下呼吸器潜水）是一项几乎任何人都可以参与并享受的活动。\n然而，如果你了解自己的局限，学会识别它们并保持在限度之内，你会更享受这项活动。\n只要你尊重安全规则并对你的潜伴承担一定程度的责任，潜水无疑能带来乐趣和冒险。\n潜水不是一项独自进行的活动；与他人共享时更安全、更愉快。\n与其他探险运动一样，潜水本身存在一定的风险因素，但通过遵守基本安全规则和接受良好培训的必要性，这种风险可降低到可接受的限度。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Diving will make certain demands on the body, so it is important to maintain a good level of physical fitness. This does not mean athletic prowess or superhuman physical strength. The sort of fitness most useful to the diver is the ability to expend energy in a slow, controlled way, usually keeping some in reserve for emergencies. The fit diver will also suffer less from the effects of cold or extreme weather conditions.",
+          "translation": "潜水会对身体提出一定要求，因此保持良好的体能水平很重要。\n这并不意味着需要运动健将的才能或超人的体力。\n对潜水员最有用的体能是能够以缓慢、可控的方式消耗能量，通常要保留一些以备紧急情况之需。\n体能好的潜水员受寒冷或极端天气条件的影响也会较小。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "People dive for different reasons. For some, the opportunity to enjoy a contrast to their everyday life is sufficient attraction. The undersea world is quiet; it allows movement in three dimensions; it supports a totally different range of plant and animal life and it enables the diver to enter, for a brief period, another medium. Many people are amazed at the profusion of life and colour found in the seas, not just in tropical waters but also around temperate coasts. Colours will often be muted by the filtering effect of the water but can be instantly restored by using an underwater lamp. The range of life which the diver can study underwater extends from the microscopic to the largest mammals on earth. Diving is not restricted to coastal sites or the seas either — any appropriate body of water can be explored by the inquiring diver. Inland fresh water locations have a quite different nature, and often allow valuable experience to be gained closer to home before visiting the sea. Rivers can be rich in archaeological finds, and some unique discoveries have been made in old wells.",
+          "translation": "人们潜水的原因各不相同。\n对一些人来说，有机会享受与日常生活截然不同的体验就足够有吸引力了。\n海底世界是宁静的；它允许在三维空间中移动；它孕育着完全不同的动植物种类，并使潜水员能够短暂地进入另一种介质。\n许多人对海洋中丰富的生命和色彩感到惊叹，不仅是在热带水域，在温带海岸附近也是如此。\n颜色常常会因水的过滤作用而变得暗淡，但使用水下灯可以立即恢复。\n潜水员在水下可以研究的生命范围从微生物延伸到地球上最大的哺乳动物。\n潜水也不仅限于沿海地点或海洋——任何合适的水体都可以被好奇的潜水员探索。\n内陆淡水地点具有完全不同的性质，通常可以在前往海洋之前在离家较近的地方获得宝贵的经验。\n河流中可能富含考古发现，一些独特的发现是在古井中完成的。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "For other divers the fascination may be to search for evidence of past events in this least explored part of our planet. The remains of ancient civilisations have been discovered and brought to the surface by divers in many parts of the world, filling in gaps in our knowledge of the ancient world and opening up many new avenues of research. Shipwrecks hold a unique fascination for the exploring diver and also attract a variety of undersea life, making them perhaps the most enjoyable of dives.",
+          "translation": "对其他潜水员来说，魅力可能在于在我们这个星球上探索最少的区域寻找过去事件的证据。\n世界许多地方的潜水员已经发现并将古代文明的遗迹带到水面，填补了我们关于古代世界的知识空白，并开辟了许多新的研究途径。\n沉船对探索型潜水员具有独特的吸引力，也吸引了各种海底生物，使它们可能成为最令人愉快的潜水地点。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "For many of us, the need to take a break for a while and experience new things is very strong. Diving adds purpose to your travel and can bring wonder and adventure to a holiday.",
+          "translation": "对我们许多人来说，暂时休息一下并体验新事物的需求非常强烈。\n潜水为你的旅行增添了目的，并能为假期带来惊奇和冒险。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "However, there are some people for whom diving is more than just a pastime. The world’s increasing need to exploit the resources of the sea is involving more and more people in research under the surface in a wide range of occupations. Some will study the cycle of life and the part each organism plays within the system, while others play a role in extracting the energy and mineral resources that lie below the seabed.",
+          "translation": "然而，对有些人来说，潜水不仅仅是一种消遣。\n世界日益需要开发海洋资源，这使越来越多的人在各种职业中参与水下研究。\n有些人将研究生命循环以及每种生物在系统中所扮演的角色，而另一些人则在开采海底下的能源和矿产资源方面发挥作用。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Human beings have been diving since primitive man was forced to forage for food in the sea. In the past, discovery of valuables from shipwrecks provided the impetus for a number of experimental diving devices, culminating in two effective forms: the diving bell, in which divers could spend periods submerged; and the diving helmet, invented by Englishmen Charles and John Deane of Whitstable in 1829.",
+          "translation": "自从原始人被迫在海中觅食以来，人类就一直在潜水。\n过去，从沉船中发现贵重物品为许多实验性潜水装置提供了动力，最终形成了两种有效的形式：潜水钟，潜水员可以在其中停留一段时间；以及潜水头盔，由英国人查尔斯和约翰·迪恩于1829年在惠特斯特布尔发明。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The history of sport diving can be traced more directly to the invention of the first autonomous diving apparatus, which did not require lines and air hoses to the surface. This new concept was pioneered by William James, an Englishman who, in 1825, produced a workable design in which compressed air was carried in a circular iron reservoir around the diver’s waist. We have no record of James diving, so the credit for the first independent apparatus that was actually used must go to an American, Charles Condert, who built and used a horseshoe-shaped waist-mounted reservoir, which provided a continuous flow of air to a flexible helmet. Condert dived with this equipment many times in New York's East River.",
+          "translation": "运动潜水的历史可以更直接地追溯到第一个自主式潜水装置的发明，这种装置不需要通向水面的绳索和空气软管。\n这一新概念由英国人威廉·詹姆斯开创，他于1825年设计出一种可行的装置，将压缩空气装在围绕潜水员腰部的圆形铁制储气罐中。\n我们没有詹姆斯潜水的记录，因此第一套实际使用的独立装置的功劳必须归于美国人查尔斯·康德特，他制造并使用了一个马蹄形的腰部储气罐，该储气罐向一个柔性头盔持续供应空气。\n康德特曾多次在纽约东河使用这套设备潜水。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "The next breakthrough was made in 1865 by two Frenchmen, Benoit Rouquayrol and Auguste Denayrouze, whose lightweight design included a metal canister charged to a pressure of 40 bar. The air supply was now carried on the divers back.",
+          "translation": "下一个突破是在1865年由两位法国人贝努瓦·鲁凯罗尔和奥古斯特·德内鲁兹取得的，他们的轻量化设计包括一个充气至40巴压力的金属罐。\n空气供应现在由潜水员背在背上。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Their most important invention was the demand regulator, which enabled the diver to valve his air at the same pressure as the surrounding water. The apparatus was marketed for sponge and wreck diving. Another important pioneer was Commandant Yves Le Prieur of the French Navy, who was the first to consider amateur sport diving in the sea. He produced a lightweight, compressed-air apparatus with a regulator that was not quite fully automatic. He initially used the equipment with goggles and later with a full face mask. In 1935 he founded the first diving club to train with his apparatus in Paris.",
+          "translation": "他们最重要的发明是需求调节器，它使潜水员能够以与周围水压相同的压力调节空气。\n该装置被推销用于海绵采集和沉船潜水。\n另一位重要的先驱是法国海军的伊夫·勒普里厄尔指挥官，他是第一个考虑海上业余运动潜水的人。\n他制造了一种轻量化的压缩空气装置，其调节器并非完全自动。\n他最初使用护目镜配合该设备，后来改用全面罩。\n1935年，他在巴黎成立了第一个使用他的装置进行训练的潜水俱乐部。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "379",
+          "type": 8,
+          "title": "How to dive with the minimum of risk",
+          "instructions": "Questions 28-32\nComplete the notes below.\nChoose NO MORE THAN THREE WORDS from the text for each answer.\nWrite your answers in boxes 28-32 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197583",
+              "number": 28,
+              "prompt": "It is important to take some _____ for those diving with you.",
+              "options": [],
+              "answer": "responsibility / degree of responsibility",
+              "accepted_answers": [
+                "responsibility / degree of responsibility",
+                "responsibility",
+                "degree of responsibility"
+              ],
+              "analysis": "题干中的“take some ___ for those diving with you”对应原文第一段中的“accept a degree of responsibility towards your diving buddies”。此处“responsibility”或“degree of responsibility”直接表达了对潜伴应承担的责任，符合题干要求，因此答案为“responsibility”或“degree of responsibility”。",
+              "reason": "直接匹配 responsibility。",
+              "location_analysis": "对应原文：accept a degree of responsibility，故填respon...",
+              "paraphrasing": "take some ___ for those diving with you -> accept a degree of responsibility towards your diving buddies",
+              "keywords": "limitations, responsibility, diving buddies",
+              "evidence": [
+                "Diving can certainly offer fun and adventure, as long as you respect the safety rules and accept a degree of responsibility towards your diving buddies."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197584",
+              "number": 29,
+              "prompt": "Make sure you get proper training and keep to the _____.",
+              "options": [],
+              "answer": "safety rules / basic safety rules",
+              "accepted_answers": [
+                "safety rules / basic safety rules",
+                "safety rules",
+                "basic safety rules"
+              ],
+              "analysis": "题干中“keep to the ___”对应原文第一段提到的“observation of basic safety rules”，即遵守基本安全规则。该句还指出，通过遵守这些规则和接受良好训练，可以将潜水风险控制在可接受范围内，因此答案为“safety rules”或“basic safety rules”。",
+              "reason": "直接匹配 basic safety rules。",
+              "location_analysis": "对应原文：observation of basic safety rules，填safety ...",
+              "paraphrasing": "keep to the ___ -> observation of basic safety rules",
+              "keywords": "proper training, keep to the ___",
+              "evidence": [
+                "There is an element of risk inherent in diving as in other adventure sports, but this risk is reduced to acceptable limits by the observation of basic safety rules and the acceptance of the need for sound training."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197585",
+              "number": 30,
+              "prompt": "A diver must be _____ as diving can make great physical demands on you.",
+              "options": [],
+              "answer": "fit",
+              "accepted_answers": [
+                "fit"
+              ],
+              "analysis": "题干中“A diver must be ___”对应原文第二段首句“Diving will make certain demands on the body, so it is important to maintain a good level of physical fitness.”，其中“physical fitness”被简化为“fit”，符合“NO MORE THAN THREE WORDS”的要求，因此答案是“fit”。",
+              "reason": "同义转换：must be fit。",
+              "location_analysis": "对应原文：maintain a good level of physical fitness，...",
+              "paraphrasing": "must be ___ -> maintain a good level of physical fitness",
+              "keywords": "physical demands, must be ___",
+              "evidence": [
+                "Diving will make certain demands on the body, so it is important to maintain a good level of physical fitness."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197586",
+              "number": 31,
+              "prompt": "You need to know how to use your _____ most effectively.",
+              "options": [],
+              "answer": "energy",
+              "accepted_answers": [
+                "energy"
+              ],
+              "analysis": "题干中“use your ___ most effectively”对应原文第二段中“The sort of fitness most useful to the diver is the ability to expend energy in a slow, controlled way”，说明潜水者需有效控制能量消耗，因此答案为“energy”。",
+              "reason": "直接匹配 energy。",
+              "location_analysis": "对应原文：expend energy，故填energy。",
+              "paraphrasing": "use your ___ most effectively -> expend energy in a slow, controlled way",
+              "keywords": "use your ___ most effectively",
+              "evidence": [
+                "The sort of fitness most useful to the diver is the ability to expend energy in a slow, controlled way, usually keeping some in reserve for emergencies."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197587",
+              "number": 32,
+              "prompt": "You have to be able to withstand low temperatures and _____.",
+              "options": [],
+              "answer": "extreme weather / extreme weather conditions",
+              "accepted_answers": [
+                "extreme weather / extreme weather conditions",
+                "extreme weather",
+                "extreme weather conditions"
+              ],
+              "analysis": "题干中“withstand low temperatures and ___”对应原文第二段末句“The fit diver will also suffer less from the effects of cold or extreme weather conditions.”，其中“extreme weather conditions”或简写为“extreme weather”符合字数限制，因此答案为“extreme weather”或“extreme weather conditions”。",
+              "reason": "直接匹配 extreme weather conditions。",
+              "location_analysis": "对应原文：extreme weather conditions，故填extreme weather。",
+              "paraphrasing": "withstand low temperatures and ___ -> suffer less from the effects of cold or extreme weather conditions",
+              "keywords": "withstand low temperatures and ___",
+              "evidence": [
+                "The fit diver will also suffer less from the effects of cold or extreme weather conditions."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Make sure you know what your limitations are.\nIt is important to take some $1197583$ for those diving with you.\nMake sure you get proper training and keep to the $1197584$.\nA diver must be $1197585$ as diving can make great physical demands on you.\nYou need to know how to use your $1197586$ most effectively.\nYou have to be able to withstand low temperatures and $1197587$.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Make sure you know what your limitations are.\nIt is important to take some $1197583$ for those diving with you.\nMake sure you get proper training and keep to the $1197584$.\nA diver must be $1197585$ as diving can make great physical demands on you.\nYou need to know how to use your $1197586$ most effectively.\nYou have to be able to withstand low temperatures and $1197587$."
+        },
+        {
+          "id": "380",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 33-40\nDo the following statements agree with the information given in the text?\nIn boxes 33-40 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197588",
+              "number": 33,
+              "prompt": "Scuba diving is considered to be suitable for most people.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干陈述“Scuba diving is considered to be suitable for most people”与原文第一句“Scuba diving... can be undertaken and enjoyed by practically anybody”意思一致，“practically anybody”即指绝大多数人，因此答案为TRUE。",
+              "reason": "同义替换。",
+              "location_analysis": "原文明确说几乎任何人都可以潜水和享受，因此TRUE。",
+              "paraphrasing": "suitable for most people -> undertaken and enjoyed by practically anybody",
+              "keywords": "suitable for most people",
+              "evidence": [
+                "Scuba diving (diving with Self-Contained Underwater Breathing Apparatus) is an activity that can be undertaken and enjoyed by practically anybody."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确表示水肺潜水适合大多数人，与选项内容矛盾。",
+                "NOT GIVEN": "原文对水肺潜水是否适合大多数人有明确表述，并非未提及。"
+              }
+            },
+            {
+              "id": "1197589",
+              "number": 34,
+              "prompt": "Diving can be a good form of exercise.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NG",
+              "accepted_answers": [
+                "NG",
+                "NOT GIVEN"
+              ],
+              "analysis": "题干称“Diving can be a good form of exercise”，但原文虽提到潜水对身体有一定要求、强调体能状态，并未明确说潜水是一种锻炼方式或具有健身效果，因此文中无相关信息，答案为NOT GIVEN。",
+              "reason": "原文无相关信息。",
+              "location_analysis": "原文未提及潜水是一种好的锻炼形式。",
+              "paraphrasing": "",
+              "keywords": "diving, exercise",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及潜水是否是一种好的锻炼形式。",
+                "FALSE": "原文未对潜水作为锻炼形式的优劣做出判断。"
+              }
+            },
+            {
+              "id": "1197590",
+              "number": 35,
+              "prompt": "An underwater lamp can help you to take good pictures underwater.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NG",
+              "accepted_answers": [
+                "NG",
+                "NOT GIVEN"
+              ],
+              "analysis": "题干提到“An underwater lamp can help you to take good pictures underwater”，但原文仅说明水下灯能“restore”被水过滤掉的颜色（“Colours... can be instantly restored by using an underwater lamp”），并未提及拍照或摄影，因此信息未给出，答案为NOT GIVEN。",
+              "reason": "原文无相关信息。",
+              "location_analysis": "原文只提恢复颜色，未涉及拍照。",
+              "paraphrasing": "",
+              "keywords": "underwater lamp, take pictures",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及水下灯对拍照有帮助，属于无中生有。",
+                "FALSE": "原文未说明水下灯不能帮助拍照，无法判定为错误。"
+              }
+            },
+            {
+              "id": "1197591",
+              "number": 36,
+              "prompt": "Diving is more enjoyable if you have done research on the area beforehand.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NG",
+              "accepted_answers": [
+                "NG",
+                "NOT GIVEN"
+              ],
+              "analysis": "题干认为“Diving is more enjoyable if you have done research on the area beforehand”，但全文未讨论是否提前研究潜水区域会影响乐趣程度，虽然提到了不同地点（如河流、沉船）的特点，但未涉及事前准备与体验愉悦度的关系，因此答案为NOT GIVEN。",
+              "reason": "原文无相关信息。",
+              "location_analysis": "原文未提事先研究区域与乐趣的关系。",
+              "paraphrasing": "",
+              "keywords": "research on area, enjoyable",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及预先研究区域会使潜水更令人愉快，该选项无中生有。",
+                "FALSE": "原文没有提供任何信息来否定这一说法，因此不能判断为错误。"
+              }
+            },
+            {
+              "id": "1197592",
+              "number": 37,
+              "prompt": "There is a growing demand for people to work underwater.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干“ There is a growing demand for people to work underwater”对应原文第六段“The world’s increasing need to exploit the resources of the sea is involving more and more people in research under the surface...”，其中“increasing need”和“more and more people”表明对水下工作者的需求正在增长，因此答案为TRUE。",
+              "reason": "同义替换。",
+              "location_analysis": "原文提到越来越多的人从事水下研究，因此TRUE。",
+              "paraphrasing": "growing demand -> increasing need; work underwater -> research under the surface",
+              "keywords": "growing demand, work underwater",
+              "evidence": [
+                "The world’s increasing need to exploit the resources of the sea is involving more and more people in research under the surface in a wide range of occupations."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文可能提到对水下工作者的需求增加，而FALSE选项与原文信息矛盾。",
+                "NOT GIVEN": "题干信息在原文中有明确提及，因此NOT GIVEN选项不正确。"
+              }
+            },
+            {
+              "id": "1197593",
+              "number": 38,
+              "prompt": "Diving equipment was developed in response to a need to investigate causes of shipwrecks.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干称“Diving equipment was developed in response to a need to investigate causes of shipwrecks”，但原文第七段指出开发潜水设备的动因是“discovery of valuables from shipwrecks”（打捞沉船中的贵重物品），而非调查沉船原因，两者目的不符，因此答案为FALSE。",
+              "reason": "原因不同，故FALSE。",
+              "location_analysis": "原文说是为了寻宝而非调查原因，矛盾。",
+              "paraphrasing": "developed in response to need to investigate causes of shipwrecks -> discovery of valuables from shipwrecks provided impetus",
+              "keywords": "diving equipment, investigate causes of shipwrecks",
+              "evidence": [
+                "In the past, discovery of valuables from shipwrecks provided the impetus for a number of experimental diving devices, culminating in two effective forms: the diving bell, in which divers could spend periods submerged; and the diving helmet, invented by Englishmen Charles and John Deane of Whitstable in 1829."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "TRUE": "与原文内容矛盾，原文指出潜水设备的开发并非为了调查沉船原因。",
+                "NOT GIVEN": "原文中明确提到潜水设备的开发目的，因此并非未提及。"
+              }
+            },
+            {
+              "id": "1197594",
+              "number": 39,
+              "prompt": "People were initially very wary of using the new diving devices.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NG",
+              "accepted_answers": [
+                "NG",
+                "NOT GIVEN"
+              ],
+              "analysis": "题干“People were initially very wary of using the new diving devices”在文中无对应信息。原文介绍了不同时期潜水设备的发明和使用情况，但从未提及人们对其态度是谨慎、怀疑或欢迎，因此无法判断，答案为NOT GIVEN。",
+              "reason": "原文无相关信息。",
+              "location_analysis": "原文未提及人们对新设备的态度。",
+              "paraphrasing": "",
+              "keywords": "people, wary, new diving devices",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及人们对新潜水设备的初始态度，因此无法判断是否正确。",
+                "FALSE": "原文未提供相关信息来证明该说法是错误的，因此不能选FALSE。"
+              }
+            },
+            {
+              "id": "1197595",
+              "number": 40,
+              "prompt": "The way the air supply is carried has remained the same since 1825.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干声称“ The way the air supply is carried has remained the same since 1825”，但原文第八段提到1825年William James的设计是将压缩空气罐“around the diver’s waist”，而第九段指出1865年Rouquayrol和Denayrouze改为“carried on the diver’s back”，说明携带方式已改变，因此答案为FALSE。",
+              "reason": "位置发生变化。",
+              "location_analysis": "1825年空气罐系在腰上，1865年改到背上，因此FALSE。",
+              "paraphrasing": "remained the same -> changed (from waist to back)",
+              "keywords": "air supply, remained the same since 1825",
+              "evidence": [
+                "This new concept was pioneered by William James, an Englishman who, in 1825, produced a workable design in which compressed air was carried in a circular iron reservoir around the diver’s waist.",
+                "The next breakthrough was made in 1865 by two Frenchmen, Benoit Rouquayrol and Auguste Denayrouze, whose lightweight design included a metal canister charged to a pressure of 40 bar. The air supply was now carried on the divers back."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文矛盾，原文表明空气供应方式自1825年以来已发生变化。",
+                "NOT GIVEN": "原文明确提及相关信息，并非未给出。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "The lure of diving",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Scuba diving (diving with Self-Contained Underwater Breathing Apparatus) is an activity that can be undertaken and enjoyed by practically anybody.",
+          "translation": "水肺潜水（使用自给式水下呼吸器潜水）是一项几乎任何人都可以参与并享受的活动。"
+        },
+        {
+          "index": 2,
+          "sentence": "However, you will enjoy it more if you are aware of your own limitations, learn to recognise them and stay within them.",
+          "translation": "然而，如果你了解自己的局限，学会识别它们并保持在限度之内，你会更享受这项活动。"
+        },
+        {
+          "index": 3,
+          "sentence": "Diving can certainly offer fun and adventure, as long as you respect the safety rules and accept a degree of responsibility towards your diving buddies.",
+          "translation": "只要你尊重安全规则并对你的潜伴承担一定程度的责任，潜水无疑能带来乐趣和冒险。"
+        },
+        {
+          "index": 4,
+          "sentence": "Diving is not a solitary pursuit; it is safer and more enjoyable when shared with others.",
+          "translation": "潜水不是一项独自进行的活动；与他人共享时更安全、更愉快。"
+        },
+        {
+          "index": 5,
+          "sentence": "There is an element of risk inherent in diving as in other adventure sports, but this risk is reduced to acceptable limits by the observation of basic safety rules and the acceptance of the need for sound training.",
+          "translation": "与其他探险运动一样，潜水本身存在一定的风险因素，但通过遵守基本安全规则和接受良好培训的必要性，这种风险可降低到可接受的限度。"
+        },
+        {
+          "index": 6,
+          "sentence": "Diving will make certain demands on the body, so it is important to maintain a good level of physical fitness.",
+          "translation": "潜水会对身体提出一定要求，因此保持良好的体能水平很重要。"
+        },
+        {
+          "index": 7,
+          "sentence": "This does not mean athletic prowess or superhuman physical strength.",
+          "translation": "这并不意味着需要运动健将的才能或超人的体力。"
+        },
+        {
+          "index": 8,
+          "sentence": "The sort of fitness most useful to the diver is the ability to expend energy in a slow, controlled way, usually keeping some in reserve for emergencies.",
+          "translation": "对潜水员最有用的体能是能够以缓慢、可控的方式消耗能量，通常要保留一些以备紧急情况之需。"
+        },
+        {
+          "index": 9,
+          "sentence": "The fit diver will also suffer less from the effects of cold or extreme weather conditions.",
+          "translation": "体能好的潜水员受寒冷或极端天气条件的影响也会较小。"
+        },
+        {
+          "index": 10,
+          "sentence": "People dive for different reasons.",
+          "translation": "人们潜水的原因各不相同。"
+        },
+        {
+          "index": 11,
+          "sentence": "For some, the opportunity to enjoy a contrast to their everyday life is sufficient attraction.",
+          "translation": "对一些人来说，有机会享受与日常生活截然不同的体验就足够有吸引力了。"
+        },
+        {
+          "index": 12,
+          "sentence": "The undersea world is quiet; it allows movement in three dimensions; it supports a totally different range of plant and animal life and it enables the diver to enter, for a brief period, another medium.",
+          "translation": "海底世界是宁静的；它允许在三维空间中移动；它孕育着完全不同的动植物种类，并使潜水员能够短暂地进入另一种介质。"
+        },
+        {
+          "index": 13,
+          "sentence": "Many people are amazed at the profusion of life and colour found in the seas, not just in tropical waters but also around temperate coasts.",
+          "translation": "许多人对海洋中丰富的生命和色彩感到惊叹，不仅是在热带水域，在温带海岸附近也是如此。"
+        },
+        {
+          "index": 14,
+          "sentence": "Colours will often be muted by the filtering effect of the water but can be instantly restored by using an underwater lamp.",
+          "translation": "颜色常常会因水的过滤作用而变得暗淡，但使用水下灯可以立即恢复。"
+        },
+        {
+          "index": 15,
+          "sentence": "The range of life which the diver can study underwater extends from the microscopic to the largest mammals on earth.",
+          "translation": "潜水员在水下可以研究的生命范围从微生物延伸到地球上最大的哺乳动物。"
+        },
+        {
+          "index": 16,
+          "sentence": "Diving is not restricted to coastal sites or the seas either — any appropriate body of water can be explored by the inquiring diver.",
+          "translation": "潜水也不仅限于沿海地点或海洋——任何合适的水体都可以被好奇的潜水员探索。"
+        },
+        {
+          "index": 17,
+          "sentence": "Inland fresh water locations have a quite different nature, and often allow valuable experience to be gained closer to home before visiting the sea.",
+          "translation": "内陆淡水地点具有完全不同的性质，通常可以在前往海洋之前在离家较近的地方获得宝贵的经验。"
+        },
+        {
+          "index": 18,
+          "sentence": "Rivers can be rich in archaeological finds, and some unique discoveries have been made in old wells.",
+          "translation": "河流中可能富含考古发现，一些独特的发现是在古井中完成的。"
+        },
+        {
+          "index": 19,
+          "sentence": "For other divers the fascination may be to search for evidence of past events in this least explored part of our planet.",
+          "translation": "对其他潜水员来说，魅力可能在于在我们这个星球上探索最少的区域寻找过去事件的证据。"
+        },
+        {
+          "index": 20,
+          "sentence": "The remains of ancient civilisations have been discovered and brought to the surface by divers in many parts of the world, filling in gaps in our knowledge of the ancient world and opening up many new avenues of research.",
+          "translation": "世界许多地方的潜水员已经发现并将古代文明的遗迹带到水面，填补了我们关于古代世界的知识空白，并开辟了许多新的研究途径。"
+        },
+        {
+          "index": 21,
+          "sentence": "Shipwrecks hold a unique fascination for the exploring diver and also attract a variety of undersea life, making them perhaps the most enjoyable of dives.",
+          "translation": "沉船对探索型潜水员具有独特的吸引力，也吸引了各种海底生物，使它们可能成为最令人愉快的潜水地点。"
+        },
+        {
+          "index": 22,
+          "sentence": "For many of us, the need to take a break for a while and experience new things is very strong.",
+          "translation": "对我们许多人来说，暂时休息一下并体验新事物的需求非常强烈。"
+        },
+        {
+          "index": 23,
+          "sentence": "Diving adds purpose to your travel and can bring wonder and adventure to a holiday.",
+          "translation": "潜水为你的旅行增添了目的，并能为假期带来惊奇和冒险。"
+        },
+        {
+          "index": 24,
+          "sentence": "However, there are some people for whom diving is more than just a pastime.",
+          "translation": "然而，对有些人来说，潜水不仅仅是一种消遣。"
+        },
+        {
+          "index": 25,
+          "sentence": "The world’s increasing need to exploit the resources of the sea is involving more and more people in research under the surface in a wide range of occupations.",
+          "translation": "世界日益需要开发海洋资源，这使越来越多的人在各种职业中参与水下研究。"
+        },
+        {
+          "index": 26,
+          "sentence": "Some will study the cycle of life and the part each organism plays within the system, while others play a role in extracting the energy and mineral resources that lie below the seabed.",
+          "translation": "有些人将研究生命循环以及每种生物在系统中所扮演的角色，而另一些人则在开采海底下的能源和矿产资源方面发挥作用。"
+        },
+        {
+          "index": 27,
+          "sentence": "Human beings have been diving since primitive man was forced to forage for food in the sea.",
+          "translation": "自从原始人被迫在海中觅食以来，人类就一直在潜水。"
+        },
+        {
+          "index": 28,
+          "sentence": "In the past, discovery of valuables from shipwrecks provided the impetus for a number of experimental diving devices, culminating in two effective forms: the diving bell, in which divers could spend periods submerged; and the diving helmet, invented by Englishmen Charles and John Deane of Whitstable in 1829.",
+          "translation": "过去，从沉船中发现贵重物品为许多实验性潜水装置提供了动力，最终形成了两种有效的形式：潜水钟，潜水员可以在其中停留一段时间；以及潜水头盔，由英国人查尔斯和约翰·迪恩于1829年在惠特斯特布尔发明。"
+        },
+        {
+          "index": 29,
+          "sentence": "The history of sport diving can be traced more directly to the invention of the first autonomous diving apparatus, which did not require lines and air hoses to the surface.",
+          "translation": "运动潜水的历史可以更直接地追溯到第一个自主式潜水装置的发明，这种装置不需要通向水面的绳索和空气软管。"
+        },
+        {
+          "index": 30,
+          "sentence": "This new concept was pioneered by William James, an Englishman who, in 1825, produced a workable design in which compressed air was carried in a circular iron reservoir around the diver’s waist.",
+          "translation": "这一新概念由英国人威廉·詹姆斯开创，他于1825年设计出一种可行的装置，将压缩空气装在围绕潜水员腰部的圆形铁制储气罐中。"
+        },
+        {
+          "index": 31,
+          "sentence": "We have no record of James diving, so the credit for the first independent apparatus that was actually used must go to an American, Charles Condert, who built and used a horseshoe-shaped waist-mounted reservoir, which provided a continuous flow of air to a flexible helmet.",
+          "translation": "我们没有詹姆斯潜水的记录，因此第一套实际使用的独立装置的功劳必须归于美国人查尔斯·康德特，他制造并使用了一个马蹄形的腰部储气罐，该储气罐向一个柔性头盔持续供应空气。"
+        },
+        {
+          "index": 32,
+          "sentence": "Condert dived with this equipment many times in New York's East River.",
+          "translation": "康德特曾多次在纽约东河使用这套设备潜水。"
+        },
+        {
+          "index": 33,
+          "sentence": "The next breakthrough was made in 1865 by two Frenchmen, Benoit Rouquayrol and Auguste Denayrouze, whose lightweight design included a metal canister charged to a pressure of 40 bar.",
+          "translation": "下一个突破是在1865年由两位法国人贝努瓦·鲁凯罗尔和奥古斯特·德内鲁兹取得的，他们的轻量化设计包括一个充气至40巴压力的金属罐。"
+        },
+        {
+          "index": 34,
+          "sentence": "The air supply was now carried on the divers back.",
+          "translation": "空气供应现在由潜水员背在背上。"
+        },
+        {
+          "index": 35,
+          "sentence": "Their most important invention was the demand regulator, which enabled the diver to valve his air at the same pressure as the surrounding water.",
+          "translation": "他们最重要的发明是需求调节器，它使潜水员能够以与周围水压相同的压力调节空气。"
+        },
+        {
+          "index": 36,
+          "sentence": "The apparatus was marketed for sponge and wreck diving.",
+          "translation": "该装置被推销用于海绵采集和沉船潜水。"
+        },
+        {
+          "index": 37,
+          "sentence": "Another important pioneer was Commandant Yves Le Prieur of the French Navy, who was the first to consider amateur sport diving in the sea.",
+          "translation": "另一位重要的先驱是法国海军的伊夫·勒普里厄尔指挥官，他是第一个考虑海上业余运动潜水的人。"
+        },
+        {
+          "index": 38,
+          "sentence": "He produced a lightweight, compressed-air apparatus with a regulator that was not quite fully automatic.",
+          "translation": "他制造了一种轻量化的压缩空气装置，其调节器并非完全自动。"
+        },
+        {
+          "index": 39,
+          "sentence": "He initially used the equipment with goggles and later with a full face mask.",
+          "translation": "他最初使用护目镜配合该设备，后来改用全面罩。"
+        },
+        {
+          "index": 40,
+          "sentence": "In 1935 he founded the first diving club to train with his apparatus in Paris.",
+          "translation": "1935年，他在巴黎成立了第一个使用他的装置进行训练的潜水俱乐部。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    }
+  ],
+  "question_count": 40
+}

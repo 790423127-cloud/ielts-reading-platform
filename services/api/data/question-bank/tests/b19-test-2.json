@@ -1,0 +1,2419 @@
+{
+  "id": "b19-test-2",
+  "book": "剑雅19",
+  "book_number": 19,
+  "name": "Test 2",
+  "title": "剑雅19 Test 2",
+  "parts": [
+    {
+      "id": "2740",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Local campsites",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A Prettycoat Farm",
+          "translation": "A 普雷蒂科特农场"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "This well-known campsite in the wild near Browbourne is a winner with campers who are looking for time out from their fast-paced jobs in the capital. Despite its limited facilities,the site,with its large tent pitches,is an ideal base for exploring the area and driving to the rock museum,the craft workshops or Gaydon Castle.Just follow the signs.",
+          "translation": "这个位于布罗伯恩附近荒野的知名露营地深受那些希望在首都快节奏工作中抽身休息的露营者喜爱。\n尽管设施有限，但这个拥有宽敞帐篷营地的场地，是探索该地区、驾车前往岩石博物馆、手工艺作坊或盖登城堡的理想基地。\n只需按照指示牌前行即可。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B Newgammon Wild",
+          "translation": "B 纽加蒙荒野露营地"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "This campsite looks like it's going to be a winner.It only opened last year, but already the website has some very positive reviews from the handful of campers who know about it so far.It offers splendid views over some of the country's most attractive beaches,which can be accessed by steep,narrow cliff steps.You need a good level of fitness for these,and don't forget to leave some energy for the return trip at the end of the day.",
+          "translation": "这个营地看起来将大获成功。\n它去年才开放，但网站上已经有一些来自少数了解它的露营者的非常积极的评价。\n它提供了一些全国最迷人海滩的壮丽景色，这些海滩可以通过陡峭狭窄的悬崖阶梯到达。\n你需要有良好的体能来应对这些，并且别忘了留些体力以便在一天结束时返回。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C Oakerly Estate",
+          "translation": "C 奥克利庄园"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "You won't be disappointed when you reach Oakerly,despite the problems of getting there by car on such narrow roads.You'll see quite a lot of motorhomes when you hit the clifftop,but there's still plenty of room for tents on the spacious lawn that also offers a camp kitchen,restaurant and bar.Make sure you stay safe and pitch your tent within the white line around the cliff edge,though.",
+          "translation": "当你抵达奥克雷时，你不会感到失望，尽管开车通过这些狭窄的道路到达那里存在一些问题。\n当你到达悬崖顶端时，你会看到相当多的房车，但在宽敞的草坪上仍有充足的空间供帐篷使用，那里还设有营地厨房、餐厅和酒吧。\n不过，请确保你保持安全，并在悬崖边缘的白线内搭设帐篷。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D South Turnbull",
+          "translation": "D 南特恩布尔"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The emphasis at this site is on back-to-basics camping.It's advisable to come in a group as there are few facilities and you need to do all your own cooking. The area is rather exposed,and in periods of bad weather it can't be reached at all so check on the website before you go.",
+          "translation": "这个露营地的重点在于回归原始的露营方式。\n建议结伴而来，因为设施很少，你需要自己动手做饭。\n这个区域相当暴露，在恶劣天气期间根本无法到达，因此去之前请查看网站。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E Boxer Trepis",
+          "translation": "E Boxer Trepis"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "The 20-metre high rockfaces that surround this site are especially attractive to rock climbers,who come here to camp from hundreds of miles away so that they can attempt the climb-and not always with success,according to the website!It's not compulsory,of course,and there are plenty of other activities for campers to get involved in,such as birdwatching and bathing in the sea.",
+          "translation": "环绕该营地的20米高岩壁对攀岩者尤其有吸引力，他们从数百英里外赶来露营，以便尝试攀登——而根据网站信息，攀登并非总能成功！\n当然，这并不是强制性的，露营者还可以参与许多其他活动，例如观鸟和在海中沐浴。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Durridge Heights(DH)Newsletter",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "达里奇高地（DH）时事通讯"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Newsletter for people living in the seven-storey block of flats at Durridge Heights",
+          "translation": "面向居住在于里奇高地七层公寓楼居民的通讯稿"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Dear Residents",
+          "translation": "尊敬的居民们"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Water penetration",
+          "translation": "渗水问题"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "As a result of the recent heavy rains,water has seeped through the walls of some flats and reached a critical level.A decision has been taken to deal with this immediately.Scaffolding will be put up on the middle section of the southern wall,and the brickwork there will be sealed temporarily with a waterproof covering to prevent any further water getting in until the major",
+          "translation": "由于近期的强降雨，水已经渗入了一些公寓的墙壁，并达到了危急程度。\n已决定立即处理这一问题。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "building works take place next year.",
+          "translation": "建筑工程将于明年进行。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Fire safety",
+          "translation": "消防安全"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Following our fire safety inspection,the front doors of individual flats were upgraded or replaced in order to satisfy fire safety regulations.As advised in the previous Newsletter,the decoration of the hall side of the front doors will be incorporated into the Fire Safety Project and will be carried out in due course by the company PRQ Builders.",
+          "translation": "消防安全\n根据我们的消防安全检查结果，各公寓的前门已进行升级或更换，以符合消防安全规定。\n如前一期通讯所述，前门大厅一侧的装饰将纳入消防安全项目，并由PRQ建筑公司在适当时候实施。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Internal redecorations",
+          "translation": "内部重新装修"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "The corridor walls on the inside of the building are redecorated every three years on a rolling basis and are being done this year.Please look out for signs indicating where the paint is wet.If you have children,make sure they keep away from the walls.DH cannot be held responsible for any spoilt clothing.",
+          "translation": "大楼内部的走廊墙壁每三年滚动重新装修一次，今年正在进行此工作。\n请注意标记油漆未干的指示牌。\n如果您有孩子，请确保他们远离墙壁。\nDH 对任何被损坏的衣物概不负责。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Air fresheners",
+          "translation": "空气清新剂"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "We have received a small number of complaints about smells in the corridors.DH installed air fresheners some years ago.However,they were costly and the liquid in their spray stained the carpets.At present,we would prefer to ask residents to make sure smells cannot escape their front door and to seal rubbish bags when they put them in the corridor for collection and disposal by the caretaker.",
+          "translation": "空气清新剂\n我们收到了少量关于走廊气味的投诉。\nDH在几年前安装了空气清新剂。\n然而，这些清新剂价格昂贵，而且其喷雾液体弄脏了地毯。\n目前，我们更希望请居民确保气味不会从他们的前门逸出，并在将垃圾袋放在走廊以便管理员收集和处理时密封好垃圾袋。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Noise and DIY",
+          "translation": "噪音与自行装修"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "While most leaseholders observe the regulations on noise,we have received complaints from others about out-of-hours drilling.Please note that any work involving hammers or electrical tools can only take place between 9.00 am and 5.30 pm on weekdays and between 9.00 am and 12.30 pm on a Saturday.There can be no exceptions to this rule.If you are planning to undertake such work during these hours,it is still polite to inform your neighbours of this so that they can make any necessary arrangements.",
+          "translation": "虽然大多数租赁业主遵守噪音规定，但我们也收到了其他人关于非工作时间钻孔的投诉。\n请注意，任何涉及锤子或电动工具的工作只能在周一至周五上午9:00至下午5:30以及周六上午9:00至下午12:30进行。\n此规定没有例外。\n如果你计划在这些时段内进行此类工作，仍应礼貌地告知邻居，以便他们能做出必要的安排。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "19774",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 7\nLook at the five descriptions of campsites, A-E.\nFor which campsite are the following statements true?\nWrite the correct letter, A-E.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128869",
+              "number": 1,
+              "prompt": "The site is impossible to get to at certain times.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“impossible to get to at certain times”对应D段末句“in periods of bad weather it can't be reached at all”，明确指出在恶劣天气时该营地完全无法抵达，因此答案为D。",
+              "reason": "题干与D段最后一句直接对应",
+              "location_analysis": "D段明确说坏天气时无法到达，与题干吻合。",
+              "paraphrasing": "impossible to get to at certain times -> in periods of bad weather it can't be reached at all",
+              "keywords": "impossible to get to at certain times, bad weather, cannot be reached",
+              "evidence": [
+                "The area is rather exposed,and in periods of bad weather it can't be reached at all so check on the website before you go."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128870",
+              "number": 2,
+              "prompt": "It is in a convenient place for going by car to various tourist spots.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中“convenient place for going by car to various tourist spots”与A段中“an ideal base for exploring the area and driving to the rock museum, the craft workshops or Gaydon Castle”形成同义替换，说明A营地便于驾车前往多个景点，故答案为A。",
+              "reason": "题干描述与A段内容完全匹配",
+              "location_analysis": "A段提到开车去多个景点，与题干一致。",
+              "paraphrasing": "convenient place by car to various tourist spots -> an ideal base for exploring the area and driving to the rock museum, the craft workshops or Gaydon Castle",
+              "keywords": "convenient place, by car, tourist spots",
+              "evidence": [
+                "Despite its limited facilities,the site,with its large tent pitches,is an ideal base for exploring the area and driving to the rock museum,the craft workshops or Gaydon Castle."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128871",
+              "number": 3,
+              "prompt": "You should camp somewhere inside the marked zone.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求“camp somewhere inside the marked zone”，C段明确提醒露营者“pitch your tent within the white line around the cliff edge”，其中“white line”即为标记区域，因此答案为C。",
+              "reason": "题干与C段最后一句直接对应",
+              "location_analysis": "C段要求帐篷搭在白线内，即标记区内。",
+              "paraphrasing": "camp inside the marked zone -> pitch your tent within the white line around the cliff edge",
+              "keywords": "camp inside the marked zone, white line",
+              "evidence": [
+                "Make sure you stay safe and pitch your tent within the white line around the cliff edge,though."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128872",
+              "number": 4,
+              "prompt": "Campers who enjoy a particular physical challenge come here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中“enjoy a particular physical challenge”对应E段提到的“rock climbers...attempt the climb—and not always with success”，说明攀岩者专程前来挑战高20米的岩壁，属于特定体能挑战，故答案为E。",
+              "reason": "题干与E段第一句吻合",
+              "location_analysis": "E段提到攀岩者来此挑战，对应身体挑战。",
+              "paraphrasing": "physical challenge -> rock climbers ... attempt the climb",
+              "keywords": "physical challenge, rock climbers",
+              "evidence": [
+                "The 20-metre high rockfaces that surround this site are especially attractive to rock climbers,who come here to camp from hundreds of miles away so that they can attempt the climb-and not always with success,according to the website!"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128873",
+              "number": 5,
+              "prompt": "The difficult journey to the site is worth the effort.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“difficult journey...worth the effort”对应C段首句“You won’t be disappointed...despite the problems of getting there by car on such narrow roads”，表明尽管路途困难，但到达后体验值得，因此答案为C。",
+              "reason": "题干对应C段首句含义",
+              "location_analysis": "C段开头说不会失望，尽管路难走，与题干一致。",
+              "paraphrasing": "difficult journey -> problems of getting there by car on such narrow roads; worth the effort -> You won't be disappointed",
+              "keywords": "difficult journey, worth the effort, not disappointed, problems getting there",
+              "evidence": [
+                "You won't be disappointed when you reach Oakerly,despite the problems of getting there by car on such narrow roads."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128874",
+              "number": 6,
+              "prompt": "Few people have heard of this site.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干“few people have heard of this site”对应B段中“the handful of campers who know about it so far”，说明目前知道该营地的人极少，符合“鲜为人知”的描述，故答案为B。",
+              "reason": "原文提到只有少数人知道。",
+              "location_analysis": "B营只有少数露营者知道，即鲜为人知。",
+              "paraphrasing": "few people have heard of -> only a handful of campers know about it",
+              "keywords": "few people, heard of",
+              "evidence": [
+                "It only opened last year, but already the website has some very positive reviews from the handful of campers who know about it so far."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128875",
+              "number": 7,
+              "prompt": "Some physical effort is needed to enjoy nearby coastal areas.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中“physical effort is needed to enjoy nearby coastal areas”对应B段提到的海滩“accessed by steep, narrow cliff steps”且“You need a good level of fitness”，说明前往附近海岸需耗费体力，因此答案为B。",
+              "reason": "题干对应B段中关于海滩和体力的描述",
+              "location_analysis": "B段提到通过陡峭台阶到达海滩，需要良好体能。",
+              "paraphrasing": "physical effort needed to enjoy nearby coastal areas -> accessed by steep,narrow cliff steps. You need a good level of fitness",
+              "keywords": "physical effort, nearby coastal areas, steep cliff steps, level of fitness",
+              "evidence": [
+                "It offers splendid views over some of the country's most attractive beaches,which can be accessed by steep,narrow cliff steps.You need a good level of fitness for these,and don't forget to leave some energy for the return trip at the end of the day."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "19776",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in the text?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128876",
+              "number": 8,
+              "prompt": "The water penetration in some flats is being treated as an emergency.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称渗水问题被当作紧急情况处理，原文明确指出“water has seeped...reached a critical level”并“a decision has been taken to deal with this immediately”，说明已采取紧急措施，故答案为TRUE。",
+              "reason": "题干与原文内容直接对应",
+              "location_analysis": "原文说达到临界水平并立即处理，与TRUE一致。",
+              "paraphrasing": "treated as an emergency -> reached a critical level, decision has been taken to deal with this immediately",
+              "keywords": "water penetration, emergency, critical level, decided to deal with this immediately",
+              "evidence": [
+                "As a result of the recent heavy rains,water has seeped through the walls of some flats and reached a critical level.A decision has been taken to deal with this immediately."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文中明确提到的信息相矛盾。",
+                "NOT GIVEN": "原文中明确提到了相关内容，并非未提及。"
+              }
+            },
+            {
+              "id": "128877",
+              "number": 9,
+              "prompt": "The southern wall will undergo a permanent repair this year.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“southern wall will undergo a permanent repair this year”，但原文说明目前仅“sealed temporarily”且“major building works take place next year”，即永久修复在明年而非今年，因此答案为FALSE。",
+              "reason": "原文说明是临时处理，永久修复在明年",
+              "location_analysis": "原文说临时密封，重大工程明年，与题干“今年永久修”矛盾",
+              "paraphrasing": "permanent repair this year -> sealed temporarily; major building works next year",
+              "keywords": "southern wall, permanent repair, this year",
+              "evidence": [
+                "the brickwork there will be sealed temporarily with a waterproof covering to prevent any further water getting in until the major building works take place next year."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文指出修复是临时性的或并非今年进行。",
+                "NOT GIVEN": "原文明确给出了关于南墙修复时间或性质的信息，并非未提及。"
+              }
+            },
+            {
+              "id": "128878",
+              "number": 10,
+              "prompt": "Some people have failed to pay attention to 'wet paint' signs.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问是否有人忽视“wet paint”标志，但原文仅提醒“look out for signs indicating where the paint is wet”，并未提及有人无视或因此造成后果，信息未给出，故答案为NOT GIVEN。",
+              "reason": "原文没有提到有人忽视标志。",
+              "location_analysis": "原文只提到注意湿油漆标志，未提及有人忽视。",
+              "paraphrasing": "failed to pay attention -> 无对应信息",
+              "keywords": "wet paint signs, failed to pay attention",
+              "evidence": [
+                "Please look out for signs indicating where the paint is wet."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文并未提及有人未注意'wet paint'标志的情况，属于无中生有。",
+                "FALSE": "题干陈述与原文信息无关，不能判断为错误，因此FALSE不正确。"
+              }
+            },
+            {
+              "id": "128879",
+              "number": 11,
+              "prompt": "Air fresheners have caused some damage in the past.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称空气清新剂过去造成损害，原文明确说明“the liquid in their spray stained the carpets”，即喷雾液体弄脏了地毯，属于实际损害，因此答案为TRUE。",
+              "reason": "题干与原文内容直接对应",
+              "location_analysis": "原文说空气清新剂液体弄脏地毯，与TRUE一致。",
+              "paraphrasing": "caused some damage -> the liquid in their spray stained the carpets",
+              "keywords": "air fresheners, damage, stained the carpets",
+              "evidence": [
+                "However,they were costly and the liquid in their spray stained the carpets."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到空气清新剂在过去造成过损害，与选项矛盾。",
+                "NOT GIVEN": "原文明确给出了相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "128880",
+              "number": 12,
+              "prompt": "Residents are responsible for removing their own rubbish from the building.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称居民需自行清运垃圾，但原文指出居民只需“seal rubbish bags”并放置走廊，由“caretaker”负责收集和处理，说明清运非居民责任，故答案为FALSE。",
+              "reason": "题干与原文矛盾，居民仅封袋，非自行运走",
+              "location_analysis": "原文说清洁工收集处理垃圾，非居民负责，故FALSE。",
+              "paraphrasing": "residents responsible for removing rubbish -> ... seal rubbish bags when they put them in the corridor for collection and disposal by the caretaker",
+              "keywords": "residents responsible, removing their own rubbish",
+              "evidence": [
+                "At present,we would prefer to ask residents to make sure smells cannot escape their front door and to seal rubbish bags when they put them in the corridor for collection and disposal by the caretaker."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文中提到的内容矛盾，原文明确指出居民不负责清理自己的垃圾。",
+                "NOT GIVEN": "原文已明确说明居民不负责清理垃圾，并非未提及或无法判断。"
+              }
+            },
+            {
+              "id": "128881",
+              "number": 13,
+              "prompt": "Some residents have reported problems with noisy neighbours.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称有居民投诉邻居噪音问题，原文明确提到“we have received complaints from others about out-of-hours drilling”，即确实存在关于噪音扰民的投诉，因此答案为TRUE。",
+              "reason": "题干与原文内容直接对应",
+              "location_analysis": "原文提到收到关于非工作时间钻孔的投诉，与TRUE一致。",
+              "paraphrasing": "problems with noisy neighbours -> we have received complaints from others about out-of-hours drilling",
+              "keywords": "residents, reported problems, noisy neighbours, complaints about out-of-hours drilling",
+              "evidence": [
+                "While most leaseholders observe the regulations on noise,we have received complaints from others about out-of-hours drilling."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文信息矛盾，因为原文明确提到‘一些居民报告了吵闹邻居的问题’，而FALSE否定此信息。",
+                "NOT GIVEN": "该选项错误，因为题干信息在原文中已经明确给出，并非未提及或无法判断。"
+              }
+            },
+            {
+              "id": "128882",
+              "number": 14,
+              "prompt": "DIY can take place outside the stated hours if your neighbour agrees.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称若邻居同意即可在规定时间外进行DIY，但原文强调“There can be no exceptions to this rule”，即使提前告知邻居也仅是礼貌行为，并不改变规则限制，故答案为FALSE。",
+              "reason": "原文强调无例外。",
+              "location_analysis": "原文说规则无例外，即使告知邻居也不行。",
+              "paraphrasing": "can take place if neighbour agrees -> there can be no exceptions to this rule; still polite to inform neighbours",
+              "keywords": "DIY, outside stated hours, neighbour agrees",
+              "evidence": [
+                "There can be no exceptions to this rule."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文内容矛盾，原文明确否定该说法。",
+                "NOT GIVEN": "原文明确给出了否定信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Local campsites",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A Prettycoat Farm",
+          "translation": "A 普雷蒂科特农场"
+        },
+        {
+          "index": 2,
+          "sentence": "This well-known campsite in the wild near Browbourne is a winner with campers who are looking for time out from their fast-paced jobs in the capital.",
+          "translation": "这个位于布罗伯恩附近荒野的知名露营地深受那些希望在首都快节奏工作中抽身休息的露营者喜爱。"
+        },
+        {
+          "index": 3,
+          "sentence": "Despite its limited facilities,the site,with its large tent pitches,is an ideal base for exploring the area and driving to the rock museum,the craft workshops or Gaydon Castle.",
+          "translation": "尽管设施有限，但这个拥有宽敞帐篷营地的场地，是探索该地区、驾车前往岩石博物馆、手工艺作坊或盖登城堡的理想基地。"
+        },
+        {
+          "index": 4,
+          "sentence": "Just follow the signs.",
+          "translation": "只需按照指示牌前行即可。"
+        },
+        {
+          "index": 5,
+          "sentence": "B Newgammon Wild",
+          "translation": "B 纽加蒙荒野露营地"
+        },
+        {
+          "index": 6,
+          "sentence": "This campsite looks like it's going to be a winner.",
+          "translation": "这个营地看起来将大获成功。"
+        },
+        {
+          "index": 7,
+          "sentence": "It only opened last year, but already the website has some very positive reviews from the handful of campers who know about it so far.",
+          "translation": "它去年才开放，但网站上已经有一些来自少数了解它的露营者的非常积极的评价。"
+        },
+        {
+          "index": 8,
+          "sentence": "It offers splendid views over some of the country's most attractive beaches, which can be accessed by steep, narrow cliff steps.",
+          "translation": "它提供了一些全国最迷人海滩的壮丽景色，这些海滩可以通过陡峭狭窄的悬崖阶梯到达。"
+        },
+        {
+          "index": 9,
+          "sentence": "You need a good level of fitness for these, and don't forget to leave some energy for the return trip at the end of the day.",
+          "translation": "你需要有良好的体能来应对这些，并且别忘了留些体力以便在一天结束时返回。"
+        },
+        {
+          "index": 10,
+          "sentence": "C Oakerly Estate",
+          "translation": "C 奥克利庄园"
+        },
+        {
+          "index": 11,
+          "sentence": "You won't be disappointed when you reach Oakerly, despite the problems of getting there by car on such narrow roads.",
+          "translation": "当你抵达奥克雷时，你不会感到失望，尽管开车通过这些狭窄的道路到达那里存在一些问题。"
+        },
+        {
+          "index": 12,
+          "sentence": "You'll see quite a lot of motorhomes when you hit the clifftop, but there's still plenty of room for tents on the spacious lawn that also offers a camp kitchen, restaurant and bar.",
+          "translation": "当你到达悬崖顶端时，你会看到相当多的房车，但在宽敞的草坪上仍有充足的空间供帐篷使用，那里还设有营地厨房、餐厅和酒吧。"
+        },
+        {
+          "index": 13,
+          "sentence": "Make sure you stay safe and pitch your tent within the white line around the cliff edge, though.",
+          "translation": "不过，请确保你保持安全，并在悬崖边缘的白线内搭设帐篷。"
+        },
+        {
+          "index": 14,
+          "sentence": "D South Turnbull",
+          "translation": "D 南特恩布尔"
+        },
+        {
+          "index": 15,
+          "sentence": "The emphasis at this site is on back-to-basics camping.",
+          "translation": "这个露营地的重点在于回归原始的露营方式。"
+        },
+        {
+          "index": 16,
+          "sentence": "It's advisable to come in a group as there are few facilities and you need to do all your own cooking.",
+          "translation": "建议结伴而来，因为设施很少，你需要自己动手做饭。"
+        },
+        {
+          "index": 17,
+          "sentence": "The area is rather exposed, and in periods of bad weather it can't be reached at all so check on the website before you go.",
+          "translation": "这个区域相当暴露，在恶劣天气期间根本无法到达，因此去之前请查看网站。"
+        },
+        {
+          "index": 18,
+          "sentence": "E Boxer Trepis",
+          "translation": "E Boxer Trepis"
+        },
+        {
+          "index": 19,
+          "sentence": "The 20-metre high rockfaces that surround this site are especially attractive to rock climbers, who come here to camp from hundreds of miles away so that they can attempt the climb-and not always with success, according to the website!",
+          "translation": "环绕该营地的20米高岩壁对攀岩者尤其有吸引力，他们从数百英里外赶来露营，以便尝试攀登——而根据网站信息，攀登并非总能成功！"
+        },
+        {
+          "index": 20,
+          "sentence": "It's not compulsory, of course, and there are plenty of other activities for campers to get involved in, such as birdwatching and bathing in the sea.",
+          "translation": "当然，这并不是强制性的，露营者还可以参与许多其他活动，例如观鸟和在海中沐浴。"
+        },
+        {
+          "index": 21,
+          "sentence": "Durridge Heights(DH)Newsletter",
+          "translation": "达里奇高地（DH）时事通讯"
+        },
+        {
+          "index": 22,
+          "sentence": "Newsletter for people living in the seven-storey block of flats at Durridge Heights",
+          "translation": "面向居住在于里奇高地七层公寓楼居民的通讯稿"
+        },
+        {
+          "index": 23,
+          "sentence": "Dear Residents",
+          "translation": "尊敬的居民们"
+        },
+        {
+          "index": 24,
+          "sentence": "Water penetration",
+          "translation": "渗水问题"
+        },
+        {
+          "index": 25,
+          "sentence": "As a result of the recent heavy rains, water has seeped through the walls of some flats and reached a critical level.",
+          "translation": "由于近期的强降雨，水已经渗入了一些公寓的墙壁，并达到了危急程度。"
+        },
+        {
+          "index": 26,
+          "sentence": "A decision has been taken to deal with this immediately.",
+          "translation": "已决定立即处理这一问题。"
+        },
+        {
+          "index": 27,
+          "sentence": "Scaffolding will be put up on the middle section of the southern wall, and the brickwork there will be sealed temporarily with a waterproof covering to prevent any further water getting in until the major building works take place next year.",
+          "translation": "将在南墙中段搭建脚手架，并用防水覆盖层临时密封该处的砖墙，以防止在明年的主要建筑工程开始前有更多水渗入。"
+        },
+        {
+          "index": 28,
+          "sentence": "building works take place next year.",
+          "translation": "建筑工程将于明年进行。"
+        },
+        {
+          "index": 29,
+          "sentence": "Fire safety",
+          "translation": "消防安全"
+        },
+        {
+          "index": 30,
+          "sentence": "Following our fire safety inspection,the front doors of individual flats were upgraded or replaced in order to satisfy fire safety regulations.",
+          "translation": "根据我们的消防安全检查结果，各公寓的前门已进行升级或更换，以符合消防安全规定。"
+        },
+        {
+          "index": 31,
+          "sentence": "As advised in the previous Newsletter,the decoration of the hall side of the front doors will be incorporated into the Fire Safety Project and will be carried out in due course by the company PRQ Builders.",
+          "translation": "如前一期通讯所述，前门大厅一侧的装饰将纳入消防安全项目，并由PRQ建筑公司在适当时候实施。"
+        },
+        {
+          "index": 32,
+          "sentence": "Internal redecorations",
+          "translation": "内部重新装修"
+        },
+        {
+          "index": 33,
+          "sentence": "The corridor walls on the inside of the building are redecorated every three years on a rolling basis and are being done this year.",
+          "translation": "大楼内部的走廊墙壁每三年滚动重新装修一次，今年正在进行此工作。"
+        },
+        {
+          "index": 34,
+          "sentence": "Please look out for signs indicating where the paint is wet.",
+          "translation": "请注意标记油漆未干的指示牌。"
+        },
+        {
+          "index": 35,
+          "sentence": "If you have children, make sure they keep away from the walls.",
+          "translation": "如果您有孩子，请确保他们远离墙壁。"
+        },
+        {
+          "index": 36,
+          "sentence": "DH cannot be held responsible for any spoilt clothing.",
+          "translation": "DH 对任何被损坏的衣物概不负责。"
+        },
+        {
+          "index": 37,
+          "sentence": "Air fresheners",
+          "translation": "空气清新剂"
+        },
+        {
+          "index": 38,
+          "sentence": "We have received a small number of complaints about smells in the corridors.",
+          "translation": "我们收到了少量关于走廊气味的投诉。"
+        },
+        {
+          "index": 39,
+          "sentence": "DH installed air fresheners some years ago.",
+          "translation": "DH在几年前安装了空气清新剂。"
+        },
+        {
+          "index": 40,
+          "sentence": "However, they were costly and the liquid in their spray stained the carpets.",
+          "translation": "然而，这些清新剂价格昂贵，而且其喷雾液体弄脏了地毯。"
+        },
+        {
+          "index": 41,
+          "sentence": "At present, we would prefer to ask residents to make sure smells cannot escape their front door and to seal rubbish bags when they put them in the corridor for collection and disposal by the caretaker.",
+          "translation": "目前，我们更希望请居民确保气味不会从他们的前门逸出，并在将垃圾袋放在走廊以便管理员收集和处理时密封好垃圾袋。"
+        },
+        {
+          "index": 42,
+          "sentence": "Noise and DIY",
+          "translation": "噪音与自行装修"
+        },
+        {
+          "index": 43,
+          "sentence": "While most leaseholders observe the regulations on noise,we have received complaints from others about out-of-hours drilling.",
+          "translation": "虽然大多数租赁业主遵守噪音规定，但我们也收到了其他人关于非工作时间钻孔的投诉。"
+        },
+        {
+          "index": 44,
+          "sentence": "Please note that any work involving hammers or electrical tools can only take place between 9.00 am and 5.30 pm on weekdays and between 9.00 am and 12.30 pm on a Saturday.",
+          "translation": "请注意，任何涉及锤子或电动工具的工作只能在周一至周五上午9:00至下午5:30以及周六上午9:00至下午12:30进行。"
+        },
+        {
+          "index": 45,
+          "sentence": "There can be no exceptions to this rule.",
+          "translation": "此规定没有例外。"
+        },
+        {
+          "index": 46,
+          "sentence": "If you are planning to undertake such work during these hours,it is still polite to inform your neighbours of this so that they can make any necessary arrangements.",
+          "translation": "如果你计划在这些时段内进行此类工作，仍应礼貌地告知邻居，以便他们能做出必要的安排。"
+        }
+      ]
+    },
+    {
+      "id": "2742",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "A day in the life of a care worker",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Care workers in Britain provide elderly and disabled people with the opportunity to remain independent at home,rather than moving into a care home.For those interested in the work,here is what a typical day could be like for a trained care worker.",
+          "translation": "英国的护理工作者为老年人和残疾人提供在家中保持独立的机会，而不是搬进护理院。\n对于对这一工作感兴趣的人来说，以下是经过培训的护理工作者典型的一天可能是什么样的。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Care workers often start early,as the first client of the day may need help getting out of bed and putting on their clothes;they may suffer from a condition that prevents them from doing this easily.Providing these services helps clients to look and feel as good as possible when beginning their day.The care worker may then help to cook breakfast for the client,and this is often a good time to enjoy a conversation and catch up on how they are feeling.Many clients appreciate being able to chat to someone regularly, as some may have no family members or friends living nearby.Next,the care worker may take the opportunity to do some basic housework for the client.Housework is often something that elderly people or people with disabilities may not be able to do themselves.Even something as simple as hoovering the living room can make a huge difference to a client's day.Of course,there may be the breakfast dishes to do as well.",
+          "translation": "护理员通常很早开始工作，因为当天的第一位客户可能需要帮助起床和穿衣；他们可能患有某种疾病，导致他们无法轻松完成这些动作。\n提供这些服务有助于客户在开始新的一天时，看起来和感觉上尽可能良好。\n然后，护理员可能会帮助客户做早餐，这通常是享受交谈和了解他们近况的好时机。\n许多客户很感激能够定期与某人聊天，因为有些人可能没有家人或朋友住在附近。\n接下来，护理员可能会利用这个机会为客户做一些基本的家务。\n家务活往往是老年人或残疾人自己无法完成的事情。\n即使是像用吸尘器打扫客厅这样简单的事情，也能对客户的一天产生巨大影响。\n当然，可能还需要清洗早餐的餐具。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Later in the morning,the care worker may move on to another client in order to help them prepare their midday meal.Care workers try to ensure this is healthy because it is so important to keep clients fit and well.When that's finished,the care worker may help the client to carry out their shopping by going with them to the local supermarket.",
+          "translation": "上午晚些时候，护工可能前往另一位客户家中，协助他们准备午餐。\n护工们努力确保饮食健康，因为保持客户身体健康和精神良好至关重要。\n完成后，护工可能会陪同客户前往当地超市，帮助他们完成购物。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "During the afternoon,a care worker may help a third client with an outdoor activity, which could involve going for a short walk in the local area or taking the laundry to the launderette.Elderly people may not feel confident going far on their own,so having",
+          "translation": "在下午，护工可能会帮助第三位客户进行一项户外活动，这可能包括在附近短途散步或把衣物送到自助洗衣店。\n老年人可能对自己独自走远路缺乏信心，因此有"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "company can be a great help.",
+          "translation": "陪伴可以是一种极大的帮助。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "The care worker may participate in cooking dinner with their last client and,before going home,they may also get out their client's medication.This ensures the client remembers to take it before going to bed.",
+          "translation": "护工可能会与最后一位客户一起参与烹制晚餐，而且在回家之前，他们还可能会取出客户的药物。\n这确保了客户记得在睡前服药。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "How to find a good balance between your work and your personal life",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "如何在工作和个人生活之间找到良好的平衡"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "A good work-life balance is beneficial to everyone. But how can it be achieved?",
+          "translation": "良好的工作与生活平衡对每个人都有益。\n但如何才能实现这种平衡呢？"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "The first step is to take a serious look at the amount of time you are devoting to work and set about reducing it. The main benefit most people notice once they stop working too much is an improvement in their general health and well being.",
+          "translation": "第一步是认真审视你投入到工作上的时间，并着手减少它。\n一旦人们停止过度工作，大多数人注意到的主要益处是他们的整体健康和幸福感的提升。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Tips for a healthy work-life balance",
+          "translation": "实现健康工作与生活平衡的贴士"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "A recent study showed office workers spend approximately 1,700 hours a year in front of a computer. Ensure that your workstation is set up so you're as comfortable as possible and this will help to minimise the chance of any injuries.",
+          "translation": "一项近期研究显示，办公室职员每年在电脑前花费约1700个小时。\n确保你的工作站设置得尽可能舒适，这将有助于将受伤的可能性降至最低。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Whether it's making a hot drink, going for a walk or simply chatting with a colleague, regular breaks are vital. Your brain needs a break roughly every 90 minutes or concentration declines, leaving you with difficulty focusing and feeling sleepy.",
+          "translation": "无论是泡杯热饮、散散步，还是仅仅与同事聊聊天，定期的休息都至关重要。\n你的大脑大约每90分钟就需要休息一次，否则注意力会下降，导致你难以集中精神并感到困倦。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Setting goals for both your professional and personal life is great. Remember though, to make these realistic, because setting an unattainable goal is the quickest way to damage your confidence.",
+          "translation": "为你的职业和个人生活设定目标是很好的。\n但请记住，要让这些目标切实可行，因为设定一个无法实现的目标是损害自信的最快方式。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Activities such as sports and gymnastics are known to decrease tension and increase endurance, two important factors towards achieving a healthy work-life balance. They also boost your belief that you can do whatever you are faced with.",
+          "translation": "众所周知，体育和体操等活动能够减轻紧张感并增强耐力，这是实现健康工作与生活平衡的两个重要因素。\n它们还能增强你的信念，让你相信自己能够应对所面临的任何挑战。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Sometimes it's easier said than done, but if you're juggling numerous pieces of work on a daily basis, learning to prioritise is key. Try to break down your work into various categories,depending on how urgent and important each piece of work is. This will help you to plan your day and achieve more.",
+          "translation": "有时这说起来容易做起来难，但如果你每天都要同时处理大量工作，学会分清主次是关键。\n试着根据每项工作的紧急程度和重要性，将你的工作分解成不同的类别。\n这将帮助你规划一天的工作，并取得更多成就。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Ensure you have time to do the things that make you happy.If you've got nothing nice to look forward to and can only see a long line of work days ahead of you, this can easily become overwhelming and ultimately hinder your productivity.",
+          "translation": "确保你有时间去做那些让你快乐的事情。\n如果你没有什么值得期待的美好事物，只能看到眼前漫长的工作日，这很容易让你不堪重负，最终降低你的工作效率。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "It's there for a reason and there are no prizes for giving it up, so make sure you take your annual holiday entitlement. You don't have to be going on an exotic foreign trip-maybe you just fancy a rest day watching films or you want to take some time off to spend with a friend you don't see enough.",
+          "translation": "它存在是有原因的，而且放弃它没有任何回报，所以请确保你休完你的年假权利。\n你不必去一次异国旅行——也许你只是想要一个休息日看电影，或者你想抽出一些时间陪伴一个你很少见到的朋友。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Family,friends and favourite pets are the ultimate life enhancers. From evenings out to simply taking a walk in the sunshine, spending time with the ones you love is the best way to unwind fully and feel the effects of a good work-life balance.",
+          "translation": "家庭、朋友和心爱的宠物是生活的终极增色剂。\n从夜晚外出到只是在阳光下散步，与你所爱的人共度时光是彻底放松并体会到良好工作与生活平衡之益的最佳途径。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "19798",
+          "type": 8,
+          "title": "A day in the life of a care worker",
+          "instructions": "Questions 15 - 20\nComplete the follow chart below.\nChoose ONE WORD ONLYfrom the text in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128897",
+              "number": 15,
+              "prompt": "It's an early start for the first client. You may have to help the client get up and dressed if they have a _____ that makes this challenging.",
+              "options": [],
+              "answer": "condition",
+              "accepted_answers": [
+                "condition"
+              ],
+              "analysis": "题干中的“a $128897$ that makes this challenging”对应原文中的“a condition that prevents them from doing this easily”，其中“challenging”与“prevents...from doing this easily”构成同义改写，说明客户因某种状况而难以自理，因此答案为“condition”。",
+              "reason": "直接匹配condition及challenging的语境",
+              "location_analysis": "原文说a condition that prevents them from doing th...",
+              "paraphrasing": "has a condition that makes this challenging -> have a condition that prevents them from doing this easily",
+              "keywords": "condition, challenging",
+              "evidence": [
+                "they may suffer from a condition that prevents them from doing this easily."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128898",
+              "number": 16,
+              "prompt": "The next task may be cooking breakfast and it's nice to have some _____ at this time.",
+              "options": [],
+              "answer": "conversation",
+              "accepted_answers": [
+                "conversation"
+              ],
+              "analysis": "题干要求填写早餐时可以进行的活动，原文提到“this is often a good time to enjoy a conversation and catch up on how they are feeling”，其中“conversation”直接对应题干中的“have some $128898$”，因此答案为“conversation”。",
+              "reason": "答案直接对应conversation",
+              "location_analysis": "原文enjoy a conversation，说明此时可谈话，填conversation。",
+              "paraphrasing": "have some conversation -> enjoy a conversation",
+              "keywords": "conversation, chat",
+              "evidence": [
+                "this is often a good time to enjoy a conversation and catch up on how they are feeling."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128899",
+              "number": 17,
+              "prompt": "It may be a good idea to do some housework after this, such as _____ and washing up.",
+              "options": [],
+              "answer": "hoovering",
+              "accepted_answers": [
+                "hoovering"
+              ],
+              "analysis": "题干中“such as $128899$ and washing up”要求填写一项家务活动，原文明确举例“Even something as simple as hoovering the living room can make a huge difference”，“hoovering”与“washing up”并列作为housework的具体内容，因此答案为“hoovering”。",
+              "reason": "housework例子中包含hoovering",
+              "location_analysis": "原文举例housework时提到hoovering，直接匹配。",
+              "paraphrasing": "such as hoovering and washing up -> Even something as simple as hoovering the living room can make a huge difference",
+              "keywords": "hoovering, housework",
+              "evidence": [
+                "Even something as simple as hoovering the living room can make a huge difference to a client's day."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128900",
+              "number": 18,
+              "prompt": "You may then visit a second client and help them get a _____ lunch ready.",
+              "options": [],
+              "answer": "healthy",
+              "accepted_answers": [
+                "healthy"
+              ],
+              "analysis": "题干要求描述午餐的特点，原文指出“Care workers try to ensure this is healthy because it is so important to keep clients fit and well”，其中“this”指代“midday meal”即午餐，“healthy”直接修饰该餐食，因此答案为“healthy”。",
+              "reason": "healthy直接修饰lunch",
+              "location_analysis": "原文ensure this is healthy，this指midday meal即lunch...",
+              "paraphrasing": "a healthy lunch -> ensure this is healthy",
+              "keywords": "healthy, lunch",
+              "evidence": [
+                "Care workers try to ensure this is healthy because it is so important to keep clients fit and well."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128901",
+              "number": 19,
+              "prompt": "↓ — Lunch may be followed by some _____.",
+              "options": [],
+              "answer": "shopping",
+              "accepted_answers": [
+                "shopping"
+              ],
+              "analysis": "题干中“Lunch may be followed by some $128901$”对应原文“the care worker may help the client to carry out their shopping by going with them to the local supermarket”，说明午餐后进行的活动是购物，因此答案为“shopping”。",
+              "reason": "购物活动明确为shopping",
+              "location_analysis": "原文help the client to carry out their shopping，s...",
+              "paraphrasing": "followed by some shopping -> help the client to carry out their shopping",
+              "keywords": "shopping, supermarket",
+              "evidence": [
+                "the care worker may help the client to carry out their shopping by going with them to the local supermarket."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128902",
+              "number": 20,
+              "prompt": "Afterwards, a third client may need help with an activity that involves going out of their home, such as doing their _____.",
+              "options": [],
+              "answer": "laundry",
+              "accepted_answers": [
+                "laundry"
+              ],
+              "analysis": "题干要求填写一项需要外出完成的活动，原文提到“taking the laundry to the launderette”作为户外活动的例子，“laundry”直接对应题干中的“doing their $128902$”，因此答案为“laundry”。",
+              "reason": "户外活动例子包括laundry",
+              "location_analysis": "原文taking the laundry to the launderette，laundry...",
+              "paraphrasing": "doing their laundry -> taking the laundry to the launderette",
+              "keywords": "laundry, launderette",
+              "evidence": [
+                "taking the laundry to the launderette"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "It's an early start for the first client. You may have to help the client get up and dressed if they have a $128897$ that makes this challenging.\n↓\nThe next task may be cooking breakfast and it's nice to have some $128898$ at this time.\n↓\nIt may be a good idea to do some housework after this, such as $128899$ and washing up.\n↓\nYou may then visit a second client and help them get a $128900$ lunch ready.\n↓\nLunch may be followed by some $128901$.\n↓\nAfterwards, a third client may need help with an activity that involves going out of their home, such as doing their $128902$.\n↓\nYou may cook dinner with the final client of the day and also remind them about their medication.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "It's an early start for the first client. You may have to help the client get up and dressed if they have a $128897$ that makes this challenging.\n↓\nThe next task may be cooking breakfast and it's nice to have some $128898$ at this time.\n↓\nIt may be a good idea to do some housework after this, such as $128899$ and washing up.\n↓\nYou may then visit a second client and help them get a $128900$ lunch ready.\n↓\nLunch may be followed by some $128901$.\n↓\nAfterwards, a third client may need help with an activity that involves going out of their home, such as doing their $128902$.\n↓\nYou may cook dinner with the final client of the day and also remind them about their medication."
+        },
+        {
+          "id": "19800",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 21 - 27\nComplete the sentences below.\nChoose ONE WORD ONLY from the text in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128903",
+              "number": 21,
+              "prompt": "People who cut down the hours they work gain most from feeling better physically and experiencing an increased sense of _____",
+              "options": [],
+              "answer": "wellbeing",
+              "accepted_answers": [
+                "wellbeing"
+              ],
+              "analysis": "题干中的“increased sense of $128903$”对应原文“an improvement in their general health and well being”，其中“well being”被简化为“wellbeing”作为答案，表达工作时间减少后整体幸福感的提升，因此答案为“wellbeing”。",
+              "reason": "wellbeing对应well being",
+              "location_analysis": "原文improvement in general health and well being，...",
+              "paraphrasing": "sense of wellbeing -> improvement in their general health and well being",
+              "keywords": "wellbeing, health",
+              "evidence": [
+                "an improvement in their general health and well being"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128904",
+              "number": 22,
+              "prompt": "It is important that those who work at desks avoid _____ by checking their chair, work surface and screen are in the best position.",
+              "options": [],
+              "answer": "injuries",
+              "accepted_answers": [
+                "injuries"
+              ],
+              "analysis": "题干要求填写办公族应避免的问题，原文提到“minimise the chance of any injuries”通过合理设置工作站来实现，说明应避免的是“injuries”，因此答案为“injuries”。",
+              "reason": "injuries直接出现",
+              "location_analysis": "原文minimise chance of injuries，avoid injuries即避免...",
+              "paraphrasing": "avoid injuries -> minimise the chance of any injuries",
+              "keywords": "injuries, workstation",
+              "evidence": [
+                "Ensure that your workstation is set up so you're as comfortable as possible and this will help to minimise the chance of any injuries."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128905",
+              "number": 23,
+              "prompt": "Having targets to work towards is useful but they should be _____.",
+              "options": [],
+              "answer": "realistic",
+              "accepted_answers": [
+                "realistic"
+              ],
+              "analysis": "题干中“targets...should be $128905$”对应原文“Remember though, to make these realistic”，其中“these”指代前文的“goals”，强调目标应现实可行，因此答案为“realistic”。",
+              "reason": "realistic修饰目标",
+              "location_analysis": "原文make these realistic，these指goals，填realistic。",
+              "paraphrasing": "goals should be realistic -> make these realistic",
+              "keywords": "realistic, goals",
+              "evidence": [
+                "Remember though, to make these realistic, because setting an unattainable goal is the quickest way to damage your confidence."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128906",
+              "number": 24,
+              "prompt": "When there are many different tasks to do, the ability to _____ them is vital.",
+              "options": [],
+              "answer": "prioritise",
+              "accepted_answers": [
+                "prioritise"
+              ],
+              "analysis": "题干中的“ability to $128906$ them”对应原文“learning to prioritise is key”，在面对多项任务时，优先排序的能力至关重要，“prioritise”准确表达这一含义，因此答案为“prioritise”。",
+              "reason": "prioritise直接出现",
+              "location_analysis": "原文learning to prioritise is key，ability对应key，填p...",
+              "paraphrasing": "ability to prioritise them -> learning to prioritise is key",
+              "keywords": "prioritise, numerous tasks",
+              "evidence": [
+                "learning to prioritise is key"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128907",
+              "number": 25,
+              "prompt": "People who give up all treats in their personal time may find their _____ decreases.",
+              "options": [],
+              "answer": "productivity",
+              "accepted_answers": [
+                "productivity"
+              ],
+              "analysis": "题干指出放弃个人享受可能导致某方面下降，原文提到“this can easily become overwhelming and ultimately hinder your productivity”，说明缺乏期待会降低工作效率，因此答案为“productivity”。",
+              "reason": "productivity直接出现",
+              "location_analysis": "原文hinder your productivity，即降低生产力，填productivity。",
+              "paraphrasing": "productivity decreases -> hinder your productivity",
+              "keywords": "productivity, overwhelming",
+              "evidence": [
+                "this can easily become overwhelming and ultimately hinder your productivity."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128908",
+              "number": 26,
+              "prompt": "It is wise to use the full amount of _____ allowance every year.",
+              "options": [],
+              "answer": "holiday",
+              "accepted_answers": [
+                "holiday"
+              ],
+              "analysis": "题干中“full amount of $128908$ allowance”对应原文“annual holiday entitlement”，即每年应享有的假期额度，“holiday”作为核心词直接填入，因此答案为“holiday”。",
+              "reason": "holiday修饰allowance",
+              "location_analysis": "原文annual holiday entitlement，意即全年假期额度，填holiday。",
+              "paraphrasing": "full amount of holiday allowance -> annual holiday entitlement",
+              "keywords": "holiday, annual leave",
+              "evidence": [
+                "make sure you take your annual holiday entitlement"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128909",
+              "number": 27,
+              "prompt": "Making time to do things with close companions, relatives or _____ is a great way to relax.",
+              "options": [],
+              "answer": "pets",
+              "accepted_answers": [
+                "pets"
+              ],
+              "analysis": "题干列举放松方式的对象包括“close companions, relatives or $128909$”，原文提到“Family, friends and favourite pets are the ultimate life enhancers”，其中“pets”与“family”和“friends”并列，因此答案为“pets”。",
+              "reason": "直接对应",
+              "location_analysis": "题干‘pets’对应原文‘favourite pets’。",
+              "paraphrasing": "close companions -> family; relatives -> friends; pets -> favourite pets",
+              "keywords": "close companions, relatives, pets",
+              "evidence": [
+                "Family,friends and favourite pets are the ultimate life enhancers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "People who cut down the hours they work gain most from feeling better physically and experiencing an increased sense of $128903$\nIt is important that those who work at desks avoid $128904$ by checking their chair, work surface and screen are in the best position.\nHaving targets to work towards is useful but they should be $128905$.\nWhen there are many different tasks to do, the ability to $128906$ them is vital.\nPeople who give up all treats in their personal time may find their $128907$ decreases.\nIt is wise to use the full amount of $128908$ allowance every year.\nMaking time to do things with close companions, relatives or $128909$ is a great way to relax.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "People who cut down the hours they work gain most from feeling better physically and experiencing an increased sense of $128903$\nIt is important that those who work at desks avoid $128904$ by checking their chair, work surface and screen are in the best position.\nHaving targets to work towards is useful but they should be $128905$.\nWhen there are many different tasks to do, the ability to $128906$ them is vital.\nPeople who give up all treats in their personal time may find their $128907$ decreases.\nIt is wise to use the full amount of $128908$ allowance every year.\nMaking time to do things with close companions, relatives or $128909$ is a great way to relax."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "A day in the life of a care worker",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Care workers in Britain provide elderly and disabled people with the opportunity to remain independent at home, rather than moving into a care home.",
+          "translation": "英国的护理工作者为老年人和残疾人提供在家中保持独立的机会，而不是搬进护理院。"
+        },
+        {
+          "index": 2,
+          "sentence": "For those interested in the work, here is what a typical day could be like for a trained care worker.",
+          "translation": "对于对这一工作感兴趣的人来说，以下是经过培训的护理工作者典型的一天可能是什么样的。"
+        },
+        {
+          "index": 3,
+          "sentence": "Care workers often start early,as the first client of the day may need help getting out of bed and putting on their clothes;they may suffer from a condition that prevents them from doing this easily.",
+          "translation": "护理员通常很早开始工作，因为当天的第一位客户可能需要帮助起床和穿衣；他们可能患有某种疾病，导致他们无法轻松完成这些动作。"
+        },
+        {
+          "index": 4,
+          "sentence": "Providing these services helps clients to look and feel as good as possible when beginning their day.",
+          "translation": "提供这些服务有助于客户在开始新的一天时，看起来和感觉上尽可能良好。"
+        },
+        {
+          "index": 5,
+          "sentence": "The care worker may then help to cook breakfast for the client,and this is often a good time to enjoy a conversation and catch up on how they are feeling.",
+          "translation": "然后，护理员可能会帮助客户做早餐，这通常是享受交谈和了解他们近况的好时机。"
+        },
+        {
+          "index": 6,
+          "sentence": "Many clients appreciate being able to chat to someone regularly, as some may have no family members or friends living nearby.",
+          "translation": "许多客户很感激能够定期与某人聊天，因为有些人可能没有家人或朋友住在附近。"
+        },
+        {
+          "index": 7,
+          "sentence": "Next,the care worker may take the opportunity to do some basic housework for the client.",
+          "translation": "接下来，护理员可能会利用这个机会为客户做一些基本的家务。"
+        },
+        {
+          "index": 8,
+          "sentence": "Housework is often something that elderly people or people with disabilities may not be able to do themselves.",
+          "translation": "家务活往往是老年人或残疾人自己无法完成的事情。"
+        },
+        {
+          "index": 9,
+          "sentence": "Even something as simple as hoovering the living room can make a huge difference to a client's day.",
+          "translation": "即使是像用吸尘器打扫客厅这样简单的事情，也能对客户的一天产生巨大影响。"
+        },
+        {
+          "index": 10,
+          "sentence": "Of course,there may be the breakfast dishes to do as well.",
+          "translation": "当然，可能还需要清洗早餐的餐具。"
+        },
+        {
+          "index": 11,
+          "sentence": "Later in the morning,the care worker may move on to another client in order to help them prepare their midday meal.",
+          "translation": "上午晚些时候，护工可能前往另一位客户家中，协助他们准备午餐。"
+        },
+        {
+          "index": 12,
+          "sentence": "Care workers try to ensure this is healthy because it is so important to keep clients fit and well.",
+          "translation": "护工们努力确保饮食健康，因为保持客户身体健康和精神良好至关重要。"
+        },
+        {
+          "index": 13,
+          "sentence": "When that's finished,the care worker may help the client to carry out their shopping by going with them to the local supermarket.",
+          "translation": "完成后，护工可能会陪同客户前往当地超市，帮助他们完成购物。"
+        },
+        {
+          "index": 14,
+          "sentence": "During the afternoon,a care worker may help a third client with an outdoor activity, which could involve going for a short walk in the local area or taking the laundry to the launderette.",
+          "translation": "在下午，护工可能会帮助第三位客户进行一项户外活动，这可能包括在附近短途散步或把衣物送到自助洗衣店。"
+        },
+        {
+          "index": 15,
+          "sentence": "Elderly people may not feel confident going far on their own,so having",
+          "translation": "老年人可能对自己独自走远路缺乏信心，因此有"
+        },
+        {
+          "index": 16,
+          "sentence": "company can be a great help.",
+          "translation": "陪伴可以是一种极大的帮助。"
+        },
+        {
+          "index": 17,
+          "sentence": "The care worker may participate in cooking dinner with their last client and,before going home,they may also get out their client's medication.",
+          "translation": "护工可能会与最后一位客户一起参与烹制晚餐，而且在回家之前，他们还可能会取出客户的药物。"
+        },
+        {
+          "index": 18,
+          "sentence": "This ensures the client remembers to take it before going to bed.",
+          "translation": "这确保了客户记得在睡前服药。"
+        },
+        {
+          "index": 19,
+          "sentence": "How to find a good balance between your work and your personal life",
+          "translation": "如何在工作和个人生活之间找到良好的平衡"
+        },
+        {
+          "index": 20,
+          "sentence": "A good work-life balance is beneficial to everyone.",
+          "translation": "良好的工作与生活平衡对每个人都有益。"
+        },
+        {
+          "index": 21,
+          "sentence": "But how can it be achieved?",
+          "translation": "但如何才能实现这种平衡呢？"
+        },
+        {
+          "index": 22,
+          "sentence": "The first step is to take a serious look at the amount of time you are devoting to work and set about reducing it.",
+          "translation": "第一步是认真审视你投入到工作上的时间，并着手减少它。"
+        },
+        {
+          "index": 23,
+          "sentence": "The main benefit most people notice once they stop working too much is an improvement in their general health and well being.",
+          "translation": "一旦人们停止过度工作，大多数人注意到的主要益处是他们的整体健康和幸福感的提升。"
+        },
+        {
+          "index": 24,
+          "sentence": "Tips for a healthy work-life balance",
+          "translation": "实现健康工作与生活平衡的贴士"
+        },
+        {
+          "index": 25,
+          "sentence": "A recent study showed office workers spend approximately 1,700 hours a year in front of a computer.",
+          "translation": "一项近期研究显示，办公室职员每年在电脑前花费约1700个小时。"
+        },
+        {
+          "index": 26,
+          "sentence": "Ensure that your workstation is set up so you're as comfortable as possible and this will help to minimise the chance of any injuries.",
+          "translation": "确保你的工作站设置得尽可能舒适，这将有助于将受伤的可能性降至最低。"
+        },
+        {
+          "index": 27,
+          "sentence": "Whether it's making a hot drink, going for a walk or simply chatting with a colleague, regular breaks are vital.",
+          "translation": "无论是泡杯热饮、散散步，还是仅仅与同事聊聊天，定期的休息都至关重要。"
+        },
+        {
+          "index": 28,
+          "sentence": "Your brain needs a break roughly every 90 minutes or concentration declines, leaving you with difficulty focusing and feeling sleepy.",
+          "translation": "你的大脑大约每90分钟就需要休息一次，否则注意力会下降，导致你难以集中精神并感到困倦。"
+        },
+        {
+          "index": 29,
+          "sentence": "Setting goals for both your professional and personal life is great.",
+          "translation": "为你的职业和个人生活设定目标是很好的。"
+        },
+        {
+          "index": 30,
+          "sentence": "Remember though, to make these realistic, because setting an unattainable goal is the quickest way to damage your confidence.",
+          "translation": "但请记住，要让这些目标切实可行，因为设定一个无法实现的目标是损害自信的最快方式。"
+        },
+        {
+          "index": 31,
+          "sentence": "Activities such as sports and gymnastics are known to decrease tension and increase endurance, two important factors towards achieving a healthy work-life balance.",
+          "translation": "众所周知，体育和体操等活动能够减轻紧张感并增强耐力，这是实现健康工作与生活平衡的两个重要因素。"
+        },
+        {
+          "index": 32,
+          "sentence": "They also boost your belief that you can do whatever you are faced with.",
+          "translation": "它们还能增强你的信念，让你相信自己能够应对所面临的任何挑战。"
+        },
+        {
+          "index": 33,
+          "sentence": "Sometimes it's easier said than done, but if you're juggling numerous pieces of work on a daily basis, learning to prioritise is key.",
+          "translation": "有时这说起来容易做起来难，但如果你每天都要同时处理大量工作，学会分清主次是关键。"
+        },
+        {
+          "index": 34,
+          "sentence": "Try to break down your work into various categories, depending on how urgent and important each piece of work is.",
+          "translation": "试着根据每项工作的紧急程度和重要性，将你的工作分解成不同的类别。"
+        },
+        {
+          "index": 35,
+          "sentence": "This will help you to plan your day and achieve more.",
+          "translation": "这将帮助你规划一天的工作，并取得更多成就。"
+        },
+        {
+          "index": 36,
+          "sentence": "Ensure you have time to do the things that make you happy.",
+          "translation": "确保你有时间去做那些让你快乐的事情。"
+        },
+        {
+          "index": 37,
+          "sentence": "If you've got nothing nice to look forward to and can only see a long line of work days ahead of you, this can easily become overwhelming and ultimately hinder your productivity.",
+          "translation": "如果你没有什么值得期待的美好事物，只能看到眼前漫长的工作日，这很容易让你不堪重负，最终降低你的工作效率。"
+        },
+        {
+          "index": 38,
+          "sentence": "It's there for a reason and there are no prizes for giving it up, so make sure you take your annual holiday entitlement.",
+          "translation": "它存在是有原因的，而且放弃它没有任何回报，所以请确保你休完你的年假权利。"
+        },
+        {
+          "index": 39,
+          "sentence": "You don't have to be going on an exotic foreign trip-maybe you just fancy a rest day watching films or you want to take some time off to spend with a friend you don't see enough.",
+          "translation": "你不必去一次异国旅行——也许你只是想要一个休息日看电影，或者你想抽出一些时间陪伴一个你很少见到的朋友。"
+        },
+        {
+          "index": 40,
+          "sentence": "Family, friends and favourite pets are the ultimate life enhancers.",
+          "translation": "家庭、朋友和心爱的宠物是生活的终极增色剂。"
+        },
+        {
+          "index": 41,
+          "sentence": "From evenings out to simply taking a walk in the sunshine, spending time with the ones you love is the best way to unwind fully and feel the effects of a good work-life balance.",
+          "translation": "从夜晚外出到只是在阳光下散步，与你所爱的人共度时光是彻底放松并体会到良好工作与生活平衡之益的最佳途径。"
+        }
+      ]
+    },
+    {
+      "id": "2744",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "City's 'Henry'programme gives children choices while helping parents stay in the driving seat",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Leeds has become the first city in the UK to report a drop in childhood obesity after introducing a programme called 'Henry'to help parents set boundaries for their children and put them off sweets and junk food.Only a few cities in the world,notably Amsterdam,have managed to cut child obesity.As in Amsterdam,the decline in Leeds is most marked among families living in the most deprived areas,where the problem is worst and hardest to tackle.",
+          "translation": "利兹成为英国首个报告儿童肥胖率下降的城市，此前该市推出了一项名为‘亨利’的计划，旨在帮助父母为孩子设定界限，并让他们远离糖果和垃圾食品。\n世界上仅有少数城市，尤其是阿姆斯特丹，成功降低了儿童肥胖率。\n与阿姆斯特丹类似，利兹市儿童肥胖率的下降在生活在最贫困地区的家庭中最为显著，而这些地区的问题最为严重且最难解决。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "'The improvement in the most deprived children in Leeds is startling,'said Susan Jebb, a professor of diet and population health at Oxford University,whose team has analysed the city's data.Over four years,obesity has dropped from 11.5%to 10.5% and the trajectory is steadily downwards.Among the more affluent families,there was also a decline from 6.8%to 6%.Overall the drop was from 9.4%to 8.8%. The data comes from the national child measurement programme(NCMP),which requires all children to be weighed at the start and end of primary school.The biggest decline in obesity in Leeds is 6.4%in the reception class,at about the age of four.",
+          "translation": "“‘利兹最贫困儿童状况的改善令人震惊，”牛津大学饮食与人口健康教授苏珊·杰布说，她的团队分析了该城市的数据。\n在四年期间，肥胖率从11.5%下降到10.5%，且呈持续下降趋势。\n在较为富裕的家庭中，肥胖率也从6.8%下降到了6%。\n总体而言，肥胖率从9.4%下降到8.8%。\n这些数据来自国家儿童测量计划，该计划要求所有儿童在小学入学和毕业时测量体重。\n利兹肥胖率下降最大的群体是学前班儿童，年龄大约在四岁，下降幅度为6.4%。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "No such data has been reported elsewhere in the UK,where childhood obesity is a major concern.The measurement programme shares the progress made in each city with those considered comparable. For Leeds, the 15 closest 'neighbours'at the start of its study period in 2009 were Sheffield, Kirklees, Bristol,Newcastle upon Tyne, Coventry, Bolton, Wakefield, Derby, Bradford, Dudley, Medway, Liverpool, Swindon, County Durham and Warrington.The obesity rates there and across the country have not shifted.Susan Jebb added that the dropping rate in Leeds appeared to be a trend. This is four years,not one rogue data point,'she said at the European Congress on Obesity in Glasgow where she presented the research.",
+          "translation": "英国其他地区尚未报告此类数据，而儿童肥胖问题在那里是一个重大关切。\n该测量计划与被认为具有可比性的城市共享每个城市取得的进展。\n对于利兹，其在2009年研究期开始时的15个最接近的“邻居”包括谢菲尔德、柯克利斯、布里斯托尔、泰恩河畔纽卡斯尔、考文垂、博尔顿、韦克菲尔德、德比、布拉德福德、达德利、梅德韦、利物浦、斯温顿、达勒姆郡和沃灵顿。\n这些地区以及全国范围内的肥胖率并未发生变化。\n苏珊·杰布补充说，利兹的下降率似乎是一种趋势。\n她在格拉斯哥举行的欧洲肥胖大会上介绍这项研究时表示：“这是四年的数据，而不是一个异常的孤立数据点。”"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Jebb,a former government adviser,says they cannot be sure what has turned the tide in Leeds-but it could involve a programme called 'Henry'that the city introduced as the core of its obesity strategy in 2009, focusing particularly on the youngest children and poorest families. 'Henry' (Health,Exercise,Nutrition for the Really Young)supports parents in setting boundaries for their children and taking a positive stance on issues from healthy eating to bedtimes.",
+          "translation": "曾任政府顾问的杰布表示，他们无法确定是什么扭转了利兹的趋势——但这可能与一项名为“亨利”的计划有关，该市于2009年将其作为肥胖症战略的核心引入，特别关注最年幼的儿童和最贫困的家庭。\n“亨利”（面向幼儿的健康、运动与营养计划）支持父母为孩子设定界限，并在从健康饮食到就寝时间等问题上采取积极立场。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "'Henry's'chief executive,Kim Roberts,said the drop in obesity in Leeds was 'unprecedented...The indicators are that this isn't happening in other cities'. The programme encourages authoritative rather than authoritarian parenting,she said. 'Authoritarian parenting is when children are told what to eat and what to do,such as being banned from leaving the table until they have eaten their sprouts,'said Roberts.'Permissive parenting is asking children what they want to do.But 'Henry' encourages a third approach known as authoritative parenting,where parents make it clear they are in charge,but also respond to their children.'Instead of being asked what vegetable they want with dinner,children might be asked whether they would like carrots or broccoli.Instead of being told to go to bed,they are asked where they want to read their story beforehand.",
+          "translation": "“亨利”项目首席执行官金·罗伯茨表示，利兹肥胖率的下降是“前所未有的……种种迹象表明，其他城市并未出现这种情况”。\n她说，该项目鼓励权威型而非专制型育儿方式。\n“专制型育儿就是告诉孩子该吃什么、该做什么，比如禁止他们离开餐桌直到吃完豆芽，”罗伯茨说。“放任型育儿则是问孩子想做什么。\n但‘亨利’项目鼓励第三种方式，即权威型育儿，父母明确表明自己掌握主导权，同时也会回应孩子的需求。与其问孩子晚餐想吃什么蔬菜，不如问他们想要胡萝卜还是西兰花。\n与其命令孩子上床睡觉，不如问他们想在哪里先读故事。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Lisa,who joined a 'Henry'parenting course when her oldest daughter was two,is enthusiastic about her family's experience of the programme.She learned a lot about healthy eating,saved money by planning meals and lost two stone herself.'I think it",
+          "translation": "丽莎在她大女儿两岁时参加了“亨利”育儿课程，她对这项计划给她家庭带来的体验充满热情。\n她学到了很多关于健康饮食的知识，通过计划餐食节省了开支，并且自己减掉了两英石（约12.7公斤）。\n“我认为这"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "made me a better parent because of all the parenting skills stuff.I was able to share some of the ideas with my partner and as a result the kids became calmer and happier, which helped us feel less stressed too,'she said.",
+          "translation": "由于所有的育儿技能知识，这让我成为了一个更好的家长。\n她说：“我能够与我的伴侣分享一些想法，结果孩子们变得更加平静快乐，这也帮助我们感到压力更小。”"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Janice Burberry,the head of public health at Leeds city council,said the early years were a good time to intervene to support families.'Parents want to do the best for their children,'she said.'We wanted to focus on prevention because it's very,very",
+          "translation": "利兹市议会公共卫生负责人珍妮丝·伯贝里表示，早期是干预和支持家庭的好时机。\n“父母都想为孩子做到最好，”她说。\n“我们希望专注于预防，因为这非常非常"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "difficult when obesity has taken hold to tackle it.We understand that there is no magic bullet here.Parents are experts in their own lives,and they know what they can and can't achieve.The strategy of 'Henry'is about sitting alongside parents and thinking",
+          "translation": "当肥胖问题根深蒂固时，处理起来就非常困难。\n我们明白，这里没有捷径可走。\n父母是自己生活的专家，他们清楚自己能实现什么、不能实现什么。\n'Henry'计划的策略是与父母并肩而坐，共同思考"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "through what's right for them.",
+          "translation": "什么对他们来说是正确的。\n探讨什么对他们来说是合适的。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "The public health minister,Seema Kennedy,was enthusiastic.'There are some fantastic pockets of work happening in early years already,and while still in the early phases, it is encouraging to see what can be achieved locally through interventions like this,' she said.'I know how hard it can be for busy parents to make healthy choices for their families,so anything that can make it easier is a real lifeline.'",
+          "translation": "公共卫生部长西玛·肯尼迪对此充满热情。\n她说道：“早期教育领域已经涌现出一些出色的工作成果，尽管仍处于初步阶段，但看到通过此类干预措施在当地取得的成效令人鼓舞。”\n“我知道忙碌的父母为家庭做出健康选择有多困难，因此任何能让这一过程变得更简单的事情都是一条真正的生命线。”"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "19809",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 28 - 31\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128923",
+              "number": 28,
+              "prompt": "In the first paragraph, what does the writer say about Amsterdam?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Its 'Henry'programme was recommended to Leeds experts."
+                },
+                {
+                  "value": "B",
+                  "label": "It was the first world city to reduce obesity levels in children."
+                },
+                {
+                  "value": "C",
+                  "label": "It has experienced more severe childhood obesity levels than Leeds."
+                },
+                {
+                  "value": "D",
+                  "label": "Its pattern of success in cutting childhood obesity is like that of Leeds."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问作者在第一段中对阿姆斯特丹（Amsterdam）的说法。原文提到“Only a few cities in the world, notably Amsterdam, have managed to cut child obesity. As in Amsterdam, the decline in Leeds is most marked among families living in the most deprived areas”，说明阿姆斯特丹和利兹（Leeds）在减少儿童肥胖方面的模式相似，尤其是在最贫困家庭中效果最明显。因此，选项D“其减少儿童肥胖的成功模式与利兹类似”正确，而其他选项在文中均无依据。",
+              "reason": "原文明确提到Amsterdam也成功减少儿童肥胖，且模式与Leeds类似。",
+              "location_analysis": "原文说Amsterdam也减少了儿童肥胖，且模式与Leeds相似，故选D。",
+              "paraphrasing": "pattern of success -> as in Amsterdam; cutting childhood obesity -> managed to cut child obesity",
+              "keywords": "Amsterdam",
+              "evidence": [
+                "Leeds has become the first city in the UK to report a drop in childhood obesity after introducing a programme called 'Henry'to help parents set boundaries for their children and put them off sweets and junk food.Only a few cities in the world,notably Amsterdam,have managed to cut child obesity.As in Amsterdam,the decline in Leeds is most marked among families living in the most deprived areas,where the problem is worst and hardest to tackle."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及阿姆斯特丹的‘Henry’项目被推荐给利兹专家，属于无中生有。",
+                "B": "原文没有指出阿姆斯特丹是全球首个降低儿童肥胖率的城市，信息夸大或缺失。",
+                "C": "原文中阿姆斯特丹的儿童肥胖程度并未比利兹更严重，与原文信息矛盾。"
+              }
+            },
+            {
+              "id": "128924",
+              "number": 29,
+              "prompt": "How did Susan Jebb respond to the fall in childhood obesity among poorer children in Leeds?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "She said she had expected it."
+                },
+                {
+                  "value": "B",
+                  "label": "She said she was amazed by the figures."
+                },
+                {
+                  "value": "C",
+                  "label": "She wanted to review some of her team's data."
+                },
+                {
+                  "value": "D",
+                  "label": "She felt some results were more interesting than others."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问Susan Jebb对利兹贫困儿童肥胖率下降的反应。原文引用她的话：“The improvement in the most deprived children in Leeds is startling”，其中“startling”意为“令人震惊的、惊讶的”，这与选项B“She said she was amazed by the figures”（她说她对这些数据感到惊讶）形成直接对应。其他选项如“expected it”或“wanted to review data”在文中均未提及，因此B为正确答案。",
+              "reason": "startling意为惊人的，对应amazed by the figures。",
+              "location_analysis": "原文中Susan Jebb用'startling'形容贫困儿童肥胖率下降，表示惊讶，故选B。",
+              "paraphrasing": "amazed by -> startling",
+              "keywords": "Susan Jebb, poorest children, fall",
+              "evidence": [
+                "'The improvement in the most deprived children in Leeds is startling,'said Susan Jebb, a professor of diet and population health at Oxford University,whose team has analysed the city's data."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "与原文矛盾，原文表明她感到惊讶而非早有预料。",
+                "C": "无中生有，原文中她并未要求审核团队数据。",
+                "D": "张冠李戴，原文强调惊讶之情，而非比较哪些结果更有趣。"
+              }
+            },
+            {
+              "id": "128925",
+              "number": 30,
+              "prompt": "According to the writer, the NCMP data indicate that",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "children should be weighed more frequently."
+                },
+                {
+                  "value": "B",
+                  "label": "most primary school children need to lose weight."
+                },
+                {
+                  "value": "C",
+                  "label": "children from wealthy families have less weight to lose than others."
+                },
+                {
+                  "value": "D",
+                  "label": "the youngest children show the highest levels of weight loss."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求根据NCMP数据判断哪项陈述正确。原文指出：“The biggest decline in obesity in Leeds is 6.4% in the reception class, at about the age of four”，即约四岁的幼儿（reception class）肥胖率下降幅度最大，说明最年幼的儿童减重效果最显著。这与选项D“the youngest children show the highest levels of weight loss”完全对应。其他选项如“weighed more frequently”或“most need to lose weight”均未在文中出现。",
+              "reason": "NCMP数据显示最年幼儿童肥胖下降最明显。",
+              "location_analysis": "原文指出接受班（约4岁）的肥胖下降最大，即最年幼儿童体重减轻最多，故选D。",
+              "paraphrasing": "highest levels of weight loss -> biggest decline in obesity; youngest children -> reception class, about the age of four",
+              "keywords": "NCMP, data, youngest children",
+              "evidence": [
+                "The data comes from the national child measurement programme(NCMP),which requires all children to be weighed at the start and end of primary school.The biggest decline in obesity in Leeds is 6.4%in the reception class,at about the age of four."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及需要更频繁地称体重，属于无中生有。",
+                "B": "原文并未表明大多数小学生需要减肥，属于过度推断。",
+                "C": "原文未指出富裕家庭孩子减重更少，可能混淆了其他因素。"
+              }
+            },
+            {
+              "id": "128926",
+              "number": 31,
+              "prompt": "What links the 15 places listed in the third paragraph?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "They are not representative of the country overall."
+                },
+                {
+                  "value": "B",
+                  "label": "They all joined the 'Henry'programme at the same time."
+                },
+                {
+                  "value": "C",
+                  "label": "Their childhood obesity levels have remained the same since 2009."
+                },
+                {
+                  "value": "D",
+                  "label": "They are battling childhood obesity in a different way from Leeds."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问第三段列出的15个地方有何共同点。原文明确说明：“The obesity rates there and across the country have not shifted”，即自2009年以来，这些城市的儿童肥胖率没有发生变化。这与选项C“Their childhood obesity levels have remained the same since 2009”形成直接同义替换（“remained the same”对应“not shifted”）。其他选项如“joined Henry”或“different way”在文中均无依据。",
+              "reason": "原文说这些地方的肥胖率没有变化（not shifted），对应C。",
+              "location_analysis": "原文指出这15个城市的肥胖率没有变化，故选C。",
+              "paraphrasing": "remained the same -> not shifted",
+              "keywords": "15 places, third paragraph, linked",
+              "evidence": [
+                "The obesity rates there and across the country have not shifted.Susan Jebb added that the dropping rate in Leeds appeared to be a trend."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文并未提及这些地区是否具有全国代表性，属于无中生有。",
+                "B": "原文未说明这些地区加入项目的时间相同，属于无中生有。",
+                "D": "原文指出这些地区与利兹采用相同的方式，该选项信息矛盾。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "19814",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 32 - 35\nLook at the following statements (Questions 32-35) and the list of people below.\nMatch each statement with the correct person, A, B, C or D.\nWrite the correct letter, A, B, C or D, in boxes 32-35 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "List of People",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Susan Jebb"
+            },
+            {
+              "value": "B",
+              "label": "B. Kim Roberts"
+            },
+            {
+              "value": "C",
+              "label": "C. Janice Burberry"
+            },
+            {
+              "value": "D",
+              "label": "D. Seema Kennedy"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128927",
+              "number": 32,
+              "prompt": "The aim in Leeds was to take steps to stop weight gain among children before it became a real problem.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Susan Jebb"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Kim Roberts"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Janice Burberry"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Seema Kennedy"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干陈述“利兹的目标是在儿童体重问题变得严重前采取措施预防”，对应Janice Burberry的发言：“We wanted to focus on prevention because it's very, very difficult when obesity has taken hold to tackle it”。她强调早期干预和预防的重要性，这与题干中“stop weight gain before it became a real problem”完全吻合，因此正确答案是C（Janice Burberry）。",
+              "reason": "正确答案C，对应预防策略。",
+              "location_analysis": "Janice Burberry强调预防优先，对应C。",
+              "paraphrasing": "take steps to stop weight gain before it became a real problem -> We wanted to focus on prevention because it's very,very difficult when obesity has taken hold to tackle it.",
+              "keywords": "aim, Leeds, prevent, problem",
+              "evidence": [
+                "Janice Burberry,the head of public health at Leeds city council,said the early years were a good time to intervene to support families.",
+                "We wanted to focus on prevention because it's very,very difficult when obesity has taken hold to tackle it."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128928",
+              "number": 33,
+              "prompt": "Childhood obesity levels in Leeds have fallen consistently over a period of time.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Susan Jebb"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Kim Roberts"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Janice Burberry"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Seema Kennedy"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干说“利兹儿童肥胖率在一段时间内持续下降”，对应Susan Jebb的分析：“Over four years, obesity has dropped from 11.5% to 10.5% and the trajectory is steadily downwards”。其中“steadily downwards”表明下降趋势稳定且持续，这与题干中的“fallen consistently over a period of time”构成同义表达，因此正确答案是A（Susan Jebb）。",
+              "reason": "正确答案A，trajectory steadily downwards表示持续下降。",
+              "location_analysis": "Susan Jebb指出趋势持续下降，对应A。",
+              "paraphrasing": "fallen consistently over a period of time -> the trajectory is steadily downwards",
+              "keywords": "consistently, over time",
+              "evidence": [
+                "Over four years,obesity has dropped from 11.5%to 10.5% and the trajectory is steadily downwards."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128929",
+              "number": 34,
+              "prompt": "Something that simplifies the struggle to get children to eat well is very helpful to parents.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Susan Jebb"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Kim Roberts"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Janice Burberry"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Seema Kennedy"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干提到“简化让孩子吃得健康的困难对父母非常有帮助”，对应Seema Kennedy的发言：“I know how hard it can be for busy parents to make healthy choices… so anything that can make it easier is a real lifeline”。“make it easier”对应“simplifies the struggle”，“a real lifeline”则强调其帮助之大，与“very helpful”相符，因此正确答案是D（Seema Kennedy）。",
+              "reason": "make it easier对应simplifies the struggle, a real lifeline对应very helpful。",
+              "location_analysis": "Seema Kennedy说任何能让健康选择更容易的东西都是‘真正的生命线’，故选D。",
+              "paraphrasing": "simplifies the struggle -> anything that can make it easier; very helpful to parents -> a real lifeline",
+              "keywords": "Seema Kennedy, simplifies the struggle, helpful",
+              "evidence": [
+                "'I know how hard it can be for busy parents to make healthy choices for their families,so anything that can make it easier is a real lifeline.'"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128930",
+              "number": 35,
+              "prompt": "Parents in general are realistic about their potential to make changes to their children's lifestyle.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Susan Jebb"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Kim Roberts"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Janice Burberry"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Seema Kennedy"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干指出“父母普遍对自己改变孩子生活方式的能力持现实态度”，对应Janice Burberry所说：“Parents are experts in their own lives, and they know what they can and can't achieve”。这句话表明父母清楚自己的能力边界，即对改变持现实看法，与题干“realistic about their potential to make changes”完全对应，因此答案为C（Janice Burberry）。",
+              "reason": "正确答案C，对应Burberry的陈述。",
+              "location_analysis": "Janice Burberry表示父母了解自己的能力，对应C。",
+              "paraphrasing": "realistic about their potential to make changes -> they know what they can and can't achieve",
+              "keywords": "parents, realistic, potential, changes",
+              "evidence": [
+                "Parents are experts in their own lives,and they know what they can and can't achieve."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of People"
+          }
+        },
+        {
+          "id": "19816",
+          "type": 4,
+          "title": "The 'Henry' programm e",
+          "instructions": "Questions 36 - 39\nComplete the summary below.\nChoose ONE WORD ONLY from the text in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128931",
+              "number": 36,
+              "prompt": "'Henry' was used in Leeds from 2009 in the fight against childhood obesity. The programme focuses on situations such as mealtimes and bedtimes, and it encourages parents to set firm _____ during these periods.",
+              "options": [],
+              "answer": "boundaries",
+              "accepted_answers": [
+                "boundaries"
+              ],
+              "analysis": "题干要求填写父母在用餐和就寝时间应设定的“firm ___”。原文第二段末尾提到：“'Henry' supports parents in setting boundaries for their children and taking a positive stance on issues from healthy eating to bedtimes”，其中“setting boundaries”直接对应题干中的“set firm boundaries”，因此答案为“boundaries”。",
+              "reason": "正确答案boundaries直接出现在原文。",
+              "location_analysis": "原文明确指出帮助父母setting boundaries。",
+              "paraphrasing": "set firm -> setting boundaries",
+              "keywords": "set firm, mealtimes, bedtimes",
+              "evidence": [
+                "'Henry' (Health,Exercise,Nutrition for the Really Young)supports parents in setting boundaries for their children and taking a positive stance on issues from healthy eating to bedtimes."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128932",
+              "number": 37,
+              "prompt": "According to Kim Roberts, 'Henry'aims to help people become more _____ as parents. In this way, they do not instruct children to do things, nor give them total freedom of choice as in a _____ parenting style. Instead, they allow children to make some decisions for themselves. This might be a choice of vegetable at the dinner table or a decision about where a _____ should be enjoyed in the evening.",
+              "options": [],
+              "answer": "authoritative",
+              "accepted_answers": [
+                "authoritative"
+              ],
+              "analysis": "题干说“Henry旨在帮助父母变得更___”，根据Kim Roberts的解释：“The programme encourages authoritative rather than authoritarian parenting”以及“But 'Henry' encourages a third approach known as authoritative parenting”，可知该计划倡导的是“authoritative parenting”（权威型育儿），因此空格处应填“authoritative”，表示帮助父母成为更具权威性的家长。",
+              "reason": "原文明确指出‘Henry’鼓励权威型育儿。",
+              "location_analysis": "原文说明‘Henry’鼓励权威型育儿（authoritative parenting），题干需...",
+              "paraphrasing": "become more authoritative -> authoritative parenting",
+              "keywords": "more authoritative as parents",
+              "evidence": [
+                "The programme encourages authoritative rather than authoritarian parenting,she said.",
+                "But 'Henry' encourages a third approach known as authoritative parenting,where parents make it clear they are in charge,but also respond to their children."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128933",
+              "number": 38,
+              "prompt": "According to Kim Roberts, 'Henry'aims to help people become more _____ as parents. In this way, they do not instruct children to do things, nor give them total freedom of choice as in a _____ parenting style. Instead, they allow children to make some decisions for themselves. This might be a choice of vegetable at the dinner table or a decision about where a _____ should be enjoyed in the evening.",
+              "options": [],
+              "answer": "permissive",
+              "accepted_answers": [
+                "permissive"
+              ],
+              "analysis": "题干描述一种“给予孩子完全自由选择”的育儿方式，对应原文中对“permissive parenting”的定义：“Permissive parenting is asking children what they want to do”。这种风格与“authoritarian”（专制型）相对，而Henry提倡的是介于两者之间的“authoritative”风格。因此，此处应填“permissive”，指代放任型育儿方式。",
+              "reason": "正确答案permissive直接对应原文。",
+              "location_analysis": "原文对比permissive parenting为自由选择，答案permissive。",
+              "paraphrasing": "total freedom of choice -> Permissive parenting is asking children what they want to do",
+              "keywords": "total freedom, parenting style",
+              "evidence": [
+                "Permissive parenting is asking children what they want to do."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128934",
+              "number": 39,
+              "prompt": "According to Kim Roberts, 'Henry'aims to help people become more _____ as parents. In this way, they do not instruct children to do things, nor give them total freedom of choice as in a _____ parenting style. Instead, they allow children to make some decisions for themselves. This might be a choice of vegetable at the dinner table or a decision about where a _____ should be enjoyed in the evening.",
+              "options": [],
+              "answer": "story",
+              "accepted_answers": [
+                "story"
+              ],
+              "analysis": "题干提到孩子可以决定晚上在哪里享受一个“___”，原文相关句为：“Instead of being told to go to bed, they are asked where they want to read their story beforehand”。这里“read their story”对应题干中的“enjoy a story”，且空格前有不定冠词“a”，故应填单数名词“story”，符合“ONE WORD ONLY”的要求。",
+              "reason": "原文read their story对应题干enjoy a story。",
+              "location_analysis": "原文提到孩子被问想在哪里读故事，空格前是a，应为story。",
+              "paraphrasing": "where a story should be enjoyed -> where they want to read their story",
+              "keywords": "where a story should be enjoyed",
+              "evidence": [
+                "Instead of being told to go to bed,they are asked where they want to read their story beforehand."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "'Henry' was used in Leeds from 2009 in the fight against childhood obesity. The programme focuses on situations such as mealtimes and bedtimes, and it encourages parents to set firm $128931$ during these periods.\nAccording to Kim Roberts, 'Henry'aims to help people become more $128932$ as parents. In this way, they do not instruct children to do things, nor give them total freedom of choice as in a $128933$ parenting style. Instead, they allow children to make some decisions for themselves. This might be a choice of vegetable at the dinner table or a decision about where a $128934$ should be enjoyed in the evening.\nLisa, a parent who joined the programme, felt enthusiastic about her children's responses to it and the effect it had overall on her family.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "'Henry' was used in Leeds from 2009 in the fight against childhood obesity. The programme focuses on situations such as mealtimes and bedtimes, and it encourages parents to set firm $128931$ during these periods.\nAccording to Kim Roberts, 'Henry'aims to help people become more $128932$ as parents. In this way, they do not instruct children to do things, nor give them total freedom of choice as in a $128933$ parenting style. Instead, they allow children to make some decisions for themselves. This might be a choice of vegetable at the dinner table or a decision about where a $128934$ should be enjoyed in the evening.\nLisa, a parent who joined the programme, felt enthusiastic about her children's responses to it and the effect it had overall on her family."
+        },
+        {
+          "id": "19818",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 40 - 40\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128935",
+              "number": 40,
+              "prompt": "Which title is the most suitable for the text?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "look at what 'Henry'has achieved in Leeds"
+                },
+                {
+                  "value": "B",
+                  "label": "'Henry's the best,'according to Leeds children"
+                },
+                {
+                  "value": "C",
+                  "label": "Leeds parents discuss how 'Henry'has helped them"
+                },
+                {
+                  "value": "D",
+                  "label": "It's all about saying 'no',according to 'Henry"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干要求选择最适合全文的标题。文章开篇即指出利兹因引入“Henry”项目成为英国首个报告儿童肥胖率下降的城市，并通过多位专家和家长的引述详细说明该项目的内容、理念及成效。全文核心在于展示“Henry”在利兹取得的成果，而非仅聚焦家长感受或育儿技巧。因此，选项A“look at what 'Henry' has achieved in Leeds”最全面准确地概括了主旨。",
+              "reason": "A概括了主要内容和结果。",
+              "location_analysis": "全文介绍Henry在Leeds的成就,选A最全面。",
+              "paraphrasing": "look at what Henry has achieved -> Leeds has become the first city...introducing a programme called 'Henry'...drop in childhood obesity",
+              "keywords": "most suitable title, Henry, Leeds",
+              "evidence": [
+                "Leeds has become the first city in the UK to report a drop in childhood obesity after introducing a programme called 'Henry'"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "该选项只体现孩子们对Henry的看法，未概括文章核心内容（Henry在Leeds的成就）。",
+                "C": "该选项仅关注父母讨论Henry如何帮助他们，不能代表文章主要介绍的成就。",
+                "D": "该选项片面强调‘说不’，未能涵盖Henry在Leeds的多方面成就。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "City's 'Henry'programme gives children choices while helping parents stay in the driving seat",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Leeds has become the first city in the UK to report a drop in childhood obesity after introducing a programme called 'Henry' to help parents set boundaries for their children and put them off sweets and junk food.",
+          "translation": "利兹成为英国首个报告儿童肥胖率下降的城市，此前该市推出了一项名为‘亨利’的计划，旨在帮助父母为孩子设定界限，并让他们远离糖果和垃圾食品。"
+        },
+        {
+          "index": 2,
+          "sentence": "Only a few cities in the world, notably Amsterdam, have managed to cut child obesity.",
+          "translation": "世界上仅有少数城市，尤其是阿姆斯特丹，成功降低了儿童肥胖率。"
+        },
+        {
+          "index": 3,
+          "sentence": "As in Amsterdam, the decline in Leeds is most marked among families living in the most deprived areas, where the problem is worst and hardest to tackle.",
+          "translation": "与阿姆斯特丹类似，利兹市儿童肥胖率的下降在生活在最贫困地区的家庭中最为显著，而这些地区的问题最为严重且最难解决。"
+        },
+        {
+          "index": 4,
+          "sentence": "'The improvement in the most deprived children in Leeds is startling,' said Susan Jebb, a professor of diet and population health at Oxford University, whose team has analysed the city's data.",
+          "translation": "“‘利兹最贫困儿童状况的改善令人震惊，”牛津大学饮食与人口健康教授苏珊·杰布说，她的团队分析了该城市的数据。"
+        },
+        {
+          "index": 5,
+          "sentence": "Over four years, obesity has dropped from 11.5% to 10.5% and the trajectory is steadily downwards.",
+          "translation": "在四年期间，肥胖率从11.5%下降到10.5%，且呈持续下降趋势。"
+        },
+        {
+          "index": 6,
+          "sentence": "Among the more affluent families, there was also a decline from 6.8% to 6%.",
+          "translation": "在较为富裕的家庭中，肥胖率也从6.8%下降到了6%。"
+        },
+        {
+          "index": 7,
+          "sentence": "Overall the drop was from 9.4% to 8.8%.",
+          "translation": "总体而言，肥胖率从9.4%下降到8.8%。"
+        },
+        {
+          "index": 8,
+          "sentence": "The data comes from the national child measurement programme (NCMP), which requires all children to be weighed at the start and end of primary school.",
+          "translation": "这些数据来自国家儿童测量计划，该计划要求所有儿童在小学入学和毕业时测量体重。"
+        },
+        {
+          "index": 9,
+          "sentence": "The biggest decline in obesity in Leeds is 6.4% in the reception class, at about the age of four.",
+          "translation": "利兹肥胖率下降最大的群体是学前班儿童，年龄大约在四岁，下降幅度为6.4%。"
+        },
+        {
+          "index": 10,
+          "sentence": "No such data has been reported elsewhere in the UK, where childhood obesity is a major concern.",
+          "translation": "英国其他地区尚未报告此类数据，而儿童肥胖问题在那里是一个重大关切。"
+        },
+        {
+          "index": 11,
+          "sentence": "The measurement programme shares the progress made in each city with those considered comparable.",
+          "translation": "该测量计划与被认为具有可比性的城市共享每个城市取得的进展。"
+        },
+        {
+          "index": 12,
+          "sentence": "For Leeds, the 15 closest 'neighbours' at the start of its study period in 2009 were Sheffield, Kirklees, Bristol, Newcastle upon Tyne, Coventry, Bolton, Wakefield, Derby, Bradford, Dudley, Medway, Liverpool, Swindon, County Durham and Warrington.",
+          "translation": "对于利兹，其在2009年研究期开始时的15个最接近的“邻居”包括谢菲尔德、柯克利斯、布里斯托尔、泰恩河畔纽卡斯尔、考文垂、博尔顿、韦克菲尔德、德比、布拉德福德、达德利、梅德韦、利物浦、斯温顿、达勒姆郡和沃灵顿。"
+        },
+        {
+          "index": 13,
+          "sentence": "The obesity rates there and across the country have not shifted.",
+          "translation": "这些地区以及全国范围内的肥胖率并未发生变化。"
+        },
+        {
+          "index": 14,
+          "sentence": "Susan Jebb added that the dropping rate in Leeds appeared to be a trend.",
+          "translation": "苏珊·杰布补充说，利兹的下降率似乎是一种趋势。"
+        },
+        {
+          "index": 15,
+          "sentence": "This is four years, not one rogue data point, she said at the European Congress on Obesity in Glasgow where she presented the research.",
+          "translation": "她在格拉斯哥举行的欧洲肥胖大会上介绍这项研究时表示：“这是四年的数据，而不是一个异常的孤立数据点。”"
+        },
+        {
+          "index": 16,
+          "sentence": "Jebb,a former government adviser,says they cannot be sure what has turned the tide in Leeds-but it could involve a programme called 'Henry'that the city introduced as the core of its obesity strategy in 2009, focusing particularly on the youngest children and poorest families.",
+          "translation": "曾任政府顾问的杰布表示，他们无法确定是什么扭转了利兹的趋势——但这可能与一项名为“亨利”的计划有关，该市于2009年将其作为肥胖症战略的核心引入，特别关注最年幼的儿童和最贫困的家庭。"
+        },
+        {
+          "index": 17,
+          "sentence": "'Henry' (Health,Exercise,Nutrition for the Really Young)supports parents in setting boundaries for their children and taking a positive stance on issues from healthy eating to bedtimes.",
+          "translation": "“亨利”（面向幼儿的健康、运动与营养计划）支持父母为孩子设定界限，并在从健康饮食到就寝时间等问题上采取积极立场。"
+        },
+        {
+          "index": 18,
+          "sentence": "'Henry's'chief executive,Kim Roberts,said the drop in obesity in Leeds was 'unprecedented...The indicators are that this isn't happening in other cities'.",
+          "translation": "“亨利”项目首席执行官金·罗伯茨表示，利兹肥胖率的下降是“前所未有的……种种迹象表明，其他城市并未出现这种情况”。"
+        },
+        {
+          "index": 19,
+          "sentence": "The programme encourages authoritative rather than authoritarian parenting,she said.",
+          "translation": "她说，该项目鼓励权威型而非专制型育儿方式。"
+        },
+        {
+          "index": 20,
+          "sentence": "'Authoritarian parenting is when children are told what to eat and what to do,such as being banned from leaving the table until they have eaten their sprouts,'said Roberts.'Permissive parenting is asking children what they want to do.",
+          "translation": "“专制型育儿就是告诉孩子该吃什么、该做什么，比如禁止他们离开餐桌直到吃完豆芽，”罗伯茨说。“放任型育儿则是问孩子想做什么。"
+        },
+        {
+          "index": 21,
+          "sentence": "But 'Henry' encourages a third approach known as authoritative parenting,where parents make it clear they are in charge,but also respond to their children.'Instead of being asked what vegetable they want with dinner,children might be asked whether they would like carrots or broccoli.",
+          "translation": "但‘亨利’项目鼓励第三种方式，即权威型育儿，父母明确表明自己掌握主导权，同时也会回应孩子的需求。与其问孩子晚餐想吃什么蔬菜，不如问他们想要胡萝卜还是西兰花。"
+        },
+        {
+          "index": 22,
+          "sentence": "Instead of being told to go to bed,they are asked where they want to read their story beforehand.",
+          "translation": "与其命令孩子上床睡觉，不如问他们想在哪里先读故事。"
+        },
+        {
+          "index": 23,
+          "sentence": "Lisa, who joined a 'Henry' parenting course when her oldest daughter was two, is enthusiastic about her family's experience of the programme.",
+          "translation": "丽莎在她大女儿两岁时参加了“亨利”育儿课程，她对这项计划给她家庭带来的体验充满热情。"
+        },
+        {
+          "index": 24,
+          "sentence": "She learned a lot about healthy eating, saved money by planning meals and lost two stone herself.",
+          "translation": "她学到了很多关于健康饮食的知识，通过计划餐食节省了开支，并且自己减掉了两英石（约12.7公斤）。"
+        },
+        {
+          "index": 25,
+          "sentence": "'I think it",
+          "translation": "“我认为这"
+        },
+        {
+          "index": 26,
+          "sentence": "made me a better parent because of all the parenting skills stuff.",
+          "translation": "由于所有的育儿技能知识，这让我成为了一个更好的家长。"
+        },
+        {
+          "index": 27,
+          "sentence": "I was able to share some of the ideas with my partner and as a result the kids became calmer and happier, which helped us feel less stressed too,' she said.",
+          "translation": "她说：“我能够与我的伴侣分享一些想法，结果孩子们变得更加平静快乐，这也帮助我们感到压力更小。”"
+        },
+        {
+          "index": 28,
+          "sentence": "Janice Burberry,the head of public health at Leeds city council,said the early years were a good time to intervene to support families.",
+          "translation": "利兹市议会公共卫生负责人珍妮丝·伯贝里表示，早期是干预和支持家庭的好时机。"
+        },
+        {
+          "index": 29,
+          "sentence": "'Parents want to do the best for their children,'she said.",
+          "translation": "“父母都想为孩子做到最好，”她说。"
+        },
+        {
+          "index": 30,
+          "sentence": "'We wanted to focus on prevention because it's very,very",
+          "translation": "“我们希望专注于预防，因为这非常非常"
+        },
+        {
+          "index": 31,
+          "sentence": "difficult when obesity has taken hold to tackle it.",
+          "translation": "当肥胖问题根深蒂固时，处理起来就非常困难。"
+        },
+        {
+          "index": 32,
+          "sentence": "We understand that there is no magic bullet here.",
+          "translation": "我们明白，这里没有捷径可走。"
+        },
+        {
+          "index": 33,
+          "sentence": "Parents are experts in their own lives, and they know what they can and can't achieve.",
+          "translation": "父母是自己生活的专家，他们清楚自己能实现什么、不能实现什么。"
+        },
+        {
+          "index": 34,
+          "sentence": "The strategy of 'Henry' is about sitting alongside parents and thinking",
+          "translation": "'Henry'计划的策略是与父母并肩而坐，共同思考"
+        },
+        {
+          "index": 35,
+          "sentence": "through what's right for them.",
+          "translation": "什么对他们来说是正确的。"
+        },
+        {
+          "index": 36,
+          "sentence": "through what's right for them.",
+          "translation": "探讨什么对他们来说是合适的。"
+        },
+        {
+          "index": 37,
+          "sentence": "The public health minister,Seema Kennedy,was enthusiastic.",
+          "translation": "公共卫生部长西玛·肯尼迪对此充满热情。"
+        },
+        {
+          "index": 38,
+          "sentence": "'There are some fantastic pockets of work happening in early years already,and while still in the early phases, it is encouraging to see what can be achieved locally through interventions like this,' she said.",
+          "translation": "她说道：“早期教育领域已经涌现出一些出色的工作成果，尽管仍处于初步阶段，但看到通过此类干预措施在当地取得的成效令人鼓舞。”"
+        },
+        {
+          "index": 39,
+          "sentence": "'I know how hard it can be for busy parents to make healthy choices for their families,so anything that can make it easier is a real lifeline.'",
+          "translation": "“我知道忙碌的父母为家庭做出健康选择有多困难，因此任何能让这一过程变得更简单的事情都是一条真正的生命线。”"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

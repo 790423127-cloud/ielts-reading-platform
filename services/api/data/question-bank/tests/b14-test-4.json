@@ -1,0 +1,2643 @@
+{
+  "id": "b14-test-4",
+  "book": "剑雅14",
+  "book_number": 14,
+  "name": "Test 4",
+  "title": "剑雅14 Test 4",
+  "parts": [
+    {
+      "id": "2066",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "The best travel wallets",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Keep all your bank cards, documents, passports and ID in one of these convenient carriers, which have been selected by Becca Meier.",
+          "translation": "将您所有的银行卡、文件、护照和身份证件放入这些便捷的收纳包中的任意一款，这些产品均由贝卡·迈尔挑选。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A Kipling Travel Doc Travel Document Holder",
+          "translation": "A Kipling Travel Doc 旅行证件夹"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "This zip-around wallet comes in five different patterns and is made of nylon. It also has a space where users can put a pen, pockets for cards, an ID window and a pocket for change.",
+          "translation": "这款拉链钱包有五种不同图案，由尼龙制成。\n它还有一个可以放笔的空间、卡袋、身份证窗口以及一个零钱袋。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B Lifeventure Mini Travel Document Wallet",
+          "translation": "B 款 Lifeventure 迷你旅行证件包"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "This is a waterproof wallet, which uses anti-RFID (radio frequency identification)material so your financial details will be safe. It is black with smart sky-blue finishing touches and has a small internal compartment, a smartphone pocket and an external pocket. It can fit two passports.",
+          "translation": "这 是 一 款 防 水 钱 包 ， 使 用 了 抗 RFID（ 射 频 识 别 ） 材 料 ， 因 此 你 的 财 务 信 息 会 得 到 保 护 。\n它 是 黑 色 的 ， 带 有 精 致 的 天 蓝 色 饰 边 ， 并 配 有 一 个 小 内 部 隔 层 、 一 个 智 能 手 机 袋 和 一 个 外 部 口 袋 。\n它 可 以 放 下 两 本 护 照 。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C Cath Kidston Breton Stripe",
+          "translation": "C 凯斯·基德斯通布列塔尼条纹"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "A wallet so slim it could easily pass for a small notebook.The inside compartment labels identifying each separate section all have silver lettering on them. The wallet has a special coating which makes it easy to wipe anything like sand off.",
+          "translation": "一款极其纤薄的钱包，几乎可以轻易地被视为一个小笔记本。\n内部各隔层的标识标签上均印有银色字体，用于区分不同区域。\n这款钱包采用特殊涂层，便于擦拭掉沙粒等异物。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D Ted Baker Voyager's Travel Wallet",
+          "translation": "D Ted Baker旅行者旅行钱包"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "This wallet comes in smooth black leather, and is no bigger than a passport, but roomy enough for any insurance documents or flight tickets. A small navy-blue pen is supplied inside.",
+          "translation": "这款钱包采用光滑的黑色皮革制成，大小不超过一本护照，但空间足够容纳任何保险文件或机票。\n内部附带一支海军蓝色的小笔。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E Radley Abbey Travel Wallet",
+          "translation": "E. Radley Abbey旅行钱包"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "This plain travel wallet opens up to reveal pockets in various colours labelled 'cards', 'passport' and 'tickets' , as well as others left blank for extras. It comes in a handy drawstring bag.",
+          "translation": "这款朴素的旅行钱包打开后，会呈现出多个不同颜色的口袋，分别标有‘卡片’、‘护照’和‘机票’，此外还有一些空白口袋供存放额外物品。\n它配有一个方便的抽绳袋。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F Gotravel Organiser",
+          "translation": "F 高旅行组织者"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "The black wallet features seven slip-in card compartments, two small interior zip pockets and a load of other slip-in compartments. It can fit at least four passports.",
+          "translation": "这款黑色钱包具有七个插卡隔层、两个内部小拉链口袋以及大量其他插入式隔层。\n它可以容纳至少四本护照。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "G Gotravel Glo Travel Wallet",
+          "translation": "G款 Gotravel 格洛旅行钱包"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "This is a simple, very reasonably priced wallet. It is made of PVC plastic and will suit those who like a wallet that is easy to spot. It comes in a range of bright colours with a white holiday-related design on the front. It has five compartments that can fit a passport with other cards/tickets.",
+          "translation": "这是一款设计简约、价格非常合理的小钱夹。\n它由PVC塑料制成，适合那些喜欢易于辨识的钱夹的人。\n它有多种鲜艳的颜色可选，正面带有白色度假主题的设计图案。\n它有五个隔层，可以容纳一本护照以及其他卡片或票据。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "UK rail services - how do I claim for my delayed train?",
+          "question_cue": {
+            "start": 9,
+            "end": 14
+          },
+          "translation": "英国铁路服务——我该如何为列车晚点申请赔偿？"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Generally, if you have been delayed on a train journey, you may be able to claim compensation, but train companies all have different rules, so it can be confusing to work out what you're entitled to.The type of delay you can claim for depends on whether the train company runs a Delay Repay scheme or a less generous, older-style scheme.",
+          "translation": "一般来说，如果你在火车旅行中遇到了延误，你可能能够申请赔偿，但每家火车公司都有不同的规定，因此弄清楚你有权获得什么可能会让人感到困惑。\n你可以申请赔偿的延误类型取决于火车公司是实行“延误赔偿计划”还是一个不太慷慨的旧式计划。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Delay Repay is a train operator scheme to compensate passengers when trains are late, and the train company will pay out even if it was not responsible for the delay.The scheme varies between companies, but up to 2016 most paid 50 percent of the single ticket cost for 30 minutes' delay and 100 percent for an hour. On the London Underground, you get a full refund for 15-minute delays.",
+          "translation": "延迟赔偿计划是一项由列车运营商实施的方案，用于在列车晚点时补偿乘客，即使铁路公司对延误没有责任，也会进行赔付。\n该方案因公司而异，但截至2016年，大多数公司对延误30分钟支付单程票价的50%，延误一小时则支付100%。\n在伦敦地铁，如果延误15分钟，您将获得全额退款。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Companies that do not use Delay Repay and still use the older scheme will not usually pay compensation if the problem is considered to be out of their control. But it is still worth asking them for compensation, as some may pay out. You are unlikely to get compensation for a delay if any of the following occur:",
+          "translation": "不使用“延迟赔偿”方案而仍采用旧式方案的公司在问题被视为超出其控制范围时，通常不会支付赔偿。\n但仍值得向他们要求赔偿，因为有些公司可能会支付。\n如果出现以下任何一种情况，你不太可能因延误获得赔偿："
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "• Accidents involving people getting onto the line illegally",
+          "translation": "涉及人员非法进入铁轨的事故"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "• Gas leaks or fires in buildings next to the line which were not caused by a train company",
+          "translation": "• 线路旁边建筑物中并非由火车公司引起的气体泄漏或火灾"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "• Line closures at the request of the emergency services",
+          "translation": "• 应紧急服务部门要求而关闭线路"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "• Exceptionally severe weather conditions",
+          "translation": "• 极端恶劣的天气条件"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "• Strike action",
+          "translation": "• 罢工行动"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "National Rail Conditions of Travel state that you are entitled to compensation in the same form that you paid for the ticket. Some train companies are still paying using rail vouchers, which they are allowed to do if you do not ask for a cash refund.",
+          "translation": "英国国家铁路旅行条件规定，您有权获得与您购票支付形式相同的赔偿。\n一些铁路公司仍在以铁路代金券的形式支付赔偿，如果乘客不要求现金退款，他们是被允许这样做的。"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "Since 2016, rail passengers have acquired further rights for compensation through the Consumer Rights Act.This means that passengers could now be eligible for compensation due to: a severely overcrowded train with too few carriages available; a consistently late running service; and a service that is delayed for less than the time limit that applied under existing compensation schemes.",
+          "translation": "自2016年以来，铁路乘客通过《消费者权益法案》获得了进一步的赔偿权利。\n这意味着乘客现在可能因以下情况有资格获得赔偿：列车严重拥挤且可用车厢过少；服务持续晚点；以及延误时间低于现有赔偿方案规定的时间限制的服务。"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "However, in order to exercise their rights beyond the existing compensation schemes,for instance Delay Repay, and where the train operating company refuses to compensate despite letters threatening court action, passengers may need to bring their claims to a court of law.",
+          "translation": "然而，为了行使超出既有补偿方案（例如延误赔偿计划）的权利，并且在火车运营公司无视威胁采取法律行动的信件而拒绝赔偿的情况下，乘客可能需要将索赔提交至法院。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15555",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 8\nLook at the seven reviews of travel wallets, A-G.\nFor which travel wallet are the following statements true?\nWrite the correct letter, A-G, in boxes 1-8 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120127",
+              "number": 1,
+              "prompt": "This wallet will suit people who prefer natural materials.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“prefer natural materials”对应选项 D 中的“smooth black leather”，因为皮革属于天然材料。原文明确指出该钱包由光滑黑色皮革制成，符合偏好天然材质用户的需求，因此答案为 D。",
+              "reason": "题干'natural materials'对应D选项的'leather'。",
+              "location_analysis": "D选项描述为smooth black leather，天然材料，符合偏好。",
+              "paraphrasing": "prefer natural materials -> smooth black leather",
+              "keywords": "natural materials, wallet",
+              "evidence": [
+                "This wallet comes in smooth black leather, and is no bigger than a passport, but roomy enough for any insurance documents or flight tickets."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120128",
+              "number": 2,
+              "prompt": "Users of this wallet do not need to worry about taking it out in the rain.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中提到“do not need to worry about taking it out in the rain”，这与选项 B 中“waterproof wallet”直接对应。原文说明该钱包具有防水功能，能有效应对雨天使用场景，因此答案为 B。",
+              "reason": "题干'rain'对应B选项的'waterproof'。",
+              "location_analysis": "B选项明确是waterproof wallet，防雨。",
+              "paraphrasing": "not worry about rain -> waterproof",
+              "keywords": "rain, waterproof",
+              "evidence": [
+                "This is a waterproof wallet, which uses anti-RFID (radio frequency identification)material so your financial details will be safe."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120129",
+              "number": 3,
+              "prompt": "Parts of the inside of this wallet have categories printed on them in one colour.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出内部有单色印刷分类标签的钱包，选项 C 提到“The inside compartment labels... all have silver lettering on them”，其中“silver lettering”即为单一颜色（银色）的印刷标识，完全符合题意，因此答案为 C。",
+              "reason": "题干'categories printed in one colour'对应C选项'silver lettering'。",
+              "location_analysis": "C选项内部隔层标签有silver lettering，单一颜色。",
+              "paraphrasing": "categories printed in one colour -> silver lettering on compartment labels",
+              "keywords": "inside, categories, printed, one colour",
+              "evidence": [
+                "The inside compartment labels identifying each separate section all have silver lettering on them."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120130",
+              "number": 4,
+              "prompt": "This wallet would suit someone who needs to keep several passports together.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干中“keep several passports together”对应选项 F 中“It can fit at least four passports”。原文明确指出该钱包可容纳至少四本护照，满足同时存放多本护照的需求，因此答案为 F。",
+              "reason": "题干'several passports'对应F选项'fit at least four passports'。",
+              "location_analysis": "F选项可装至少四本护照，满足需求。",
+              "paraphrasing": "keep several passports together -> fit at least four passports",
+              "keywords": "keep several passports together",
+              "evidence": [
+                "It can fit at least four passports."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120131",
+              "number": 5,
+              "prompt": "Something is provided for writing.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中“Something is provided for writing”对应选项 D 中“A small navy-blue pen is supplied inside”。原文明确说明钱包内附一支笔，符合题干对书写工具的要求，因此答案为 D。",
+              "reason": "题干'provided for writing'对应D选项'pen is supplied'。",
+              "location_analysis": "D选项内附一支小海军蓝笔。",
+              "paraphrasing": "something for writing -> pen is supplied",
+              "keywords": "provided for writing, pen",
+              "evidence": [
+                "A small navy-blue pen is supplied inside."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120132",
+              "number": 6,
+              "prompt": "This will suit people who want to be able to find their document wallet easily intheir luggage.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干中“find their document wallet easily in their luggage”对应选项 G 中“easy to spot”和“bright colours”。原文指出该钱包采用鲜艳颜色设计，便于在行李中快速识别，因此答案为 G。",
+              "reason": "题干'easily find'对应G选项'easy to spot'和'bright colours'。",
+              "location_analysis": "G选项颜色鲜艳易发现，适合快速找到。",
+              "paraphrasing": "find easily -> easy to spot, bright colours",
+              "keywords": "find easily, luggage, bright colours",
+              "evidence": [
+                "It is made of PVC plastic and will suit those who like a wallet that is easy to spot. It comes in a range of bright colours with a white holiday-related design on the front."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120133",
+              "number": 7,
+              "prompt": "Something to keep this wallet in is provided.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中“Something to keep this wallet in is provided”对应选项 E 中“It comes in a handy drawstring bag”。原文明确说明该钱包配有抽绳收纳袋，用于存放钱包本身，因此答案为 E。",
+              "reason": "题干'keep this wallet in'对应E选项'drawstring bag'。",
+              "location_analysis": "E选项配备抽绳袋，用于存放钱包。",
+              "paraphrasing": "something to keep wallet in -> drawstring bag",
+              "keywords": "keep this wallet in, provided",
+              "evidence": [
+                "It comes in a handy drawstring bag."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120134",
+              "number": 8,
+              "prompt": "This wallet has been specially made to prevent people detecting the numbers onany bank cards, etc. inside it.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中“prevent people detecting the numbers on any bank cards”对应选项 B 中“anti-RFID material”。原文指出该钱包使用防射频识别材料以保护财务信息安全，防止他人非法读取卡片信息，因此答案为 B。",
+              "reason": "题干'prevent detecting numbers'对应B选项'anti-RFID material'。",
+              "location_analysis": "B选项使用anti-RFID材料保护财务信息，防止检测。",
+              "paraphrasing": "prevent detecting numbers -> anti-RFID material",
+              "keywords": "prevent detecting, bank cards, numbers",
+              "evidence": [
+                "This is a waterproof wallet, which uses anti-RFID (radio frequency identification)material so your financial details will be safe."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15557",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 9 - 14\nDo the following statements agree with the information given in Reading Passage 4?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120135",
+              "number": 9,
+              "prompt": "The system for claiming compensation varies from one company to another.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“system for claiming compensation varies from one company to another”对应原文中的“train companies all have different rules”。文章开头明确指出各铁路公司赔偿规则不同，导致乘客难以判断自己应得权益，因此该陈述正确，答案为 TRUE。",
+              "reason": "题干'varies from one company to another'对应'train companies all have different rules'。",
+              "location_analysis": "原文明确指出每家公司规则不同，故正确。",
+              "paraphrasing": "system varies -> train companies all have different rules",
+              "keywords": "system for claiming compensation, varies, company",
+              "evidence": [
+                "Generally, if you have been delayed on a train journey, you may be able to claim compensation, but train companies all have different rules, so it can be confusing to work out what you're entitled to."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项认为系统不因公司而异，与原文中明确说明有差异的信息矛盾。",
+                "NOT GIVEN": "原文已明确提及系统因公司而异，并非未提及，因此该选项错误。"
+              }
+            },
+            {
+              "id": "120136",
+              "number": 10,
+              "prompt": "Under Delay Repay, a train company will only provide compensation if it caused the delay.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“only provide compensation if it caused the delay”，但原文明确指出 Delay Repay 方案“will pay out even if it was not responsible for the delay”，即无论是否由公司造成延误都会赔偿，与题干矛盾，因此答案为 FALSE。",
+              "reason": "题干'only if it caused'与原文'pay out even if not responsible'矛盾。",
+              "location_analysis": "原文说明Delay Repay即使非公司责任也会赔偿，与题干矛盾。",
+              "paraphrasing": "only if caused the delay -> pay out even if not responsible",
+              "keywords": "Delay Repay, compensation, caused delay",
+              "evidence": [
+                "Delay Repay is a train operator scheme to compensate passengers when trains are late, and the train company will pay out even if it was not responsible for the delay."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "题干中的'only provide compensation if it caused the delay'与原文所述'Delay Repay'赔偿条件不...",
+                "NOT GIVEN": "原文明确提及了赔偿条件，并非未给出相关信息，因此该选项不正确。"
+              }
+            },
+            {
+              "id": "120137",
+              "number": 11,
+              "prompt": "Under Delay Repay, underground and other train companies give exactly the same amounts of money in compensation.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称地下铁与其他火车公司在 Delay Repay 下提供“exactly the same amounts of money”，但原文指出普通列车通常30分钟延误赔50%，而伦敦地铁15分钟延误即可获全额退款，赔偿标准明显不同，因此答案为 FALSE。",
+              "reason": "题干'exactly the same amounts'与原文不同比例和条件矛盾。",
+              "location_analysis": "原文显示延迟时间及赔偿比例不同，地下与火车公司赔偿不一。",
+              "paraphrasing": "same amounts of money -> different percentage",
+              "keywords": "underground, train companies, same amounts",
+              "evidence": [
+                "The scheme varies between companies, but up to 2016 most paid 50 percent of the single ticket cost for 30 minutes' delay and 100 percent for an hour. On the London Underground, you get a full refund for 15-minute delays."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文矛盾，因为原文中地铁和其他火车公司的赔偿金额不同。",
+                "NOT GIVEN": "原文明确提及了两者的赔偿金额不同，因此并非未提及。"
+              }
+            },
+            {
+              "id": "120138",
+              "number": 12,
+              "prompt": "An increasing number of train companies are willing to pay compensation for problems they are not responsible for.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干提到“an increasing number of train companies are willing to pay compensation for problems they are not responsible for”，但原文仅说明部分未采用 Delay Repay 的公司“may pay out”，并未提及数量是否增加或趋势变化，因此信息未给出，答案为 NOT GIVEN。",
+              "reason": "No mention of increasing willingness.",
+              "location_analysis": "No information about numbers increasing; only s...",
+              "paraphrasing": "increasing number of companies willing to pay for problems not responsible for -> no information",
+              "keywords": "increasing number, not responsible",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及火车公司愿意为不属于自己的问题支付赔偿。",
+                "FALSE": "原文没有提供证据否定这一说法，因此不能断定其为错误。"
+              }
+            },
+            {
+              "id": "120139",
+              "number": 13,
+              "prompt": "lt is doubtful whether companies using the older scheme will provide compensation if a delay is caused by a strike.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中“doubtful whether companies using the older scheme will provide compensation if a delay is caused by a strike”对应原文列出的不获赔情形之一“Strike action”，且旧制度下若问题超出公司控制范围通常不予赔偿，因此该说法成立，答案为 TRUE。",
+              "reason": "题干'doubtful'对应原文'unlikely'，且罢工在例外列表中。",
+              "location_analysis": "原文列出不获赔偿的情形包括罢工，旧制公司很可能不赔。",
+              "paraphrasing": "doubtful -> unlikely, strike -> strike action",
+              "keywords": "older scheme, compensation, strike",
+              "evidence": [
+                "Companies that do not use Delay Repay and still use the older scheme will not usually pay compensation if the problem is considered to be out of their control."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文意思矛盾，原文表明“是否提供补偿是值得怀疑的”，即存在不确定性，而非确定不提供。",
+                "NOT GIVEN": "该选项认为原文未提及相关信息，但实际上原文明确提到了对这一情况的怀疑态度。"
+              }
+            },
+            {
+              "id": "120140",
+              "number": 14,
+              "prompt": "Passengers may receive compensation in the form of a train voucher if they forget to request cash.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中“receive compensation in the form of a train voucher if they forget to request cash”对应原文“Some train companies are still paying using rail vouchers, which they are allowed to do if you do not ask for a cash refund”。文中明确说明如未主动要求现金退款，公司可用代金券支付，因此答案为 TRUE。",
+              "reason": "题干'forget to request cash'对应原文'do not ask for a cash refund'，且用voucher支付。",
+              "location_analysis": "原文说明若未要求现金退款，公司可用旅行券支付。",
+              "paraphrasing": "forget to request cash -> do not ask for a cash refund",
+              "keywords": "voucher, forget, request cash",
+              "evidence": [
+                "Some train companies are still paying using rail vouchers, which they are allowed to do if you do not ask for a cash refund."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文信息矛盾，原文确实说明乘客忘记要求现金时可获代金券补偿。",
+                "NOT GIVEN": "原文明确提及了该补偿方式，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "The best travel wallets",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Keep all your bank cards, documents, passports and ID in one of these convenient carriers, which have been selected by Becca Meier.",
+          "translation": "将您所有的银行卡、文件、护照和身份证件放入这些便捷的收纳包中的任意一款，这些产品均由贝卡·迈尔挑选。"
+        },
+        {
+          "index": 2,
+          "sentence": "A Kipling Travel Doc Travel Document Holder",
+          "translation": "A Kipling Travel Doc 旅行证件夹"
+        },
+        {
+          "index": 3,
+          "sentence": "This zip-around wallet comes in five different patterns and is made of nylon.",
+          "translation": "这款拉链钱包有五种不同图案，由尼龙制成。"
+        },
+        {
+          "index": 4,
+          "sentence": "It also has a space where users can put a pen, pockets for cards, an ID window and a pocket for change.",
+          "translation": "它还有一个可以放笔的空间、卡袋、身份证窗口以及一个零钱袋。"
+        },
+        {
+          "index": 5,
+          "sentence": "B Lifeventure Mini Travel Document Wallet",
+          "translation": "B 款 Lifeventure 迷你旅行证件包"
+        },
+        {
+          "index": 6,
+          "sentence": "This is a waterproof wallet, which uses anti-RFID (radio frequency identification) material so your financial details will be safe.",
+          "translation": "这 是 一 款 防 水 钱 包 ， 使 用 了 抗 RFID（ 射 频 识 别 ） 材 料 ， 因 此 你 的 财 务 信 息 会 得 到 保 护 。"
+        },
+        {
+          "index": 7,
+          "sentence": "It is black with smart sky-blue finishing touches and has a small internal compartment, a smartphone pocket and an external pocket.",
+          "translation": "它 是 黑 色 的 ， 带 有 精 致 的 天 蓝 色 饰 边 ， 并 配 有 一 个 小 内 部 隔 层 、 一 个 智 能 手 机 袋 和 一 个 外 部 口 袋 。"
+        },
+        {
+          "index": 8,
+          "sentence": "It can fit two passports.",
+          "translation": "它 可 以 放 下 两 本 护 照 。"
+        },
+        {
+          "index": 9,
+          "sentence": "C Cath Kidston Breton Stripe",
+          "translation": "C 凯斯·基德斯通布列塔尼条纹"
+        },
+        {
+          "index": 10,
+          "sentence": "A wallet so slim it could easily pass for a small notebook.",
+          "translation": "一款极其纤薄的钱包，几乎可以轻易地被视为一个小笔记本。"
+        },
+        {
+          "index": 11,
+          "sentence": "The inside compartment labels identifying each separate section all have silver lettering on them.",
+          "translation": "内部各隔层的标识标签上均印有银色字体，用于区分不同区域。"
+        },
+        {
+          "index": 12,
+          "sentence": "The wallet has a special coating which makes it easy to wipe anything like sand off.",
+          "translation": "这款钱包采用特殊涂层，便于擦拭掉沙粒等异物。"
+        },
+        {
+          "index": 13,
+          "sentence": "D Ted Baker Voyager's Travel Wallet",
+          "translation": "D Ted Baker旅行者旅行钱包"
+        },
+        {
+          "index": 14,
+          "sentence": "This wallet comes in smooth black leather, and is no bigger than a passport, but roomy enough for any insurance documents or flight tickets.",
+          "translation": "这款钱包采用光滑的黑色皮革制成，大小不超过一本护照，但空间足够容纳任何保险文件或机票。"
+        },
+        {
+          "index": 15,
+          "sentence": "A small navy-blue pen is supplied inside.",
+          "translation": "内部附带一支海军蓝色的小笔。"
+        },
+        {
+          "index": 16,
+          "sentence": "E Radley Abbey Travel Wallet",
+          "translation": "E. Radley Abbey旅行钱包"
+        },
+        {
+          "index": 17,
+          "sentence": "This plain travel wallet opens up to reveal pockets in various colours labelled 'cards', 'passport' and 'tickets' , as well as others left blank for extras.",
+          "translation": "这款朴素的旅行钱包打开后，会呈现出多个不同颜色的口袋，分别标有‘卡片’、‘护照’和‘机票’，此外还有一些空白口袋供存放额外物品。"
+        },
+        {
+          "index": 18,
+          "sentence": "It comes in a handy drawstring bag.",
+          "translation": "它配有一个方便的抽绳袋。"
+        },
+        {
+          "index": 19,
+          "sentence": "F Gotravel Organiser",
+          "translation": "F 高旅行组织者"
+        },
+        {
+          "index": 20,
+          "sentence": "The black wallet features seven slip-in card compartments, two small interior zip pockets and a load of other slip-in compartments.",
+          "translation": "这款黑色钱包具有七个插卡隔层、两个内部小拉链口袋以及大量其他插入式隔层。"
+        },
+        {
+          "index": 21,
+          "sentence": "It can fit at least four passports.",
+          "translation": "它可以容纳至少四本护照。"
+        },
+        {
+          "index": 22,
+          "sentence": "G Gotravel Glo Travel Wallet",
+          "translation": "G款 Gotravel 格洛旅行钱包"
+        },
+        {
+          "index": 23,
+          "sentence": "This is a simple, very reasonably priced wallet.",
+          "translation": "这是一款设计简约、价格非常合理的小钱夹。"
+        },
+        {
+          "index": 24,
+          "sentence": "It is made of PVC plastic and will suit those who like a wallet that is easy to spot.",
+          "translation": "它由PVC塑料制成，适合那些喜欢易于辨识的钱夹的人。"
+        },
+        {
+          "index": 25,
+          "sentence": "It comes in a range of bright colours with a white holiday-related design on the front.",
+          "translation": "它有多种鲜艳的颜色可选，正面带有白色度假主题的设计图案。"
+        },
+        {
+          "index": 26,
+          "sentence": "It has five compartments that can fit a passport with other cards/tickets.",
+          "translation": "它有五个隔层，可以容纳一本护照以及其他卡片或票据。"
+        },
+        {
+          "index": 27,
+          "sentence": "UK rail services - how do I claim for my delayed train?",
+          "translation": "英国铁路服务——我该如何为列车晚点申请赔偿？"
+        },
+        {
+          "index": 28,
+          "sentence": "Generally, if you have been delayed on a train journey, you may be able to claim compensation, but train companies all have different rules, so it can be confusing to work out what you're entitled to.",
+          "translation": "一般来说，如果你在火车旅行中遇到了延误，你可能能够申请赔偿，但每家火车公司都有不同的规定，因此弄清楚你有权获得什么可能会让人感到困惑。"
+        },
+        {
+          "index": 29,
+          "sentence": "The type of delay you can claim for depends on whether the train company runs a Delay Repay scheme or a less generous, older-style scheme.",
+          "translation": "你可以申请赔偿的延误类型取决于火车公司是实行“延误赔偿计划”还是一个不太慷慨的旧式计划。"
+        },
+        {
+          "index": 30,
+          "sentence": "Delay Repay is a train operator scheme to compensate passengers when trains are late, and the train company will pay out even if it was not responsible for the delay.",
+          "translation": "延迟赔偿计划是一项由列车运营商实施的方案，用于在列车晚点时补偿乘客，即使铁路公司对延误没有责任，也会进行赔付。"
+        },
+        {
+          "index": 31,
+          "sentence": "The scheme varies between companies, but up to 2016 most paid 50 percent of the single ticket cost for 30 minutes' delay and 100 percent for an hour.",
+          "translation": "该方案因公司而异，但截至2016年，大多数公司对延误30分钟支付单程票价的50%，延误一小时则支付100%。"
+        },
+        {
+          "index": 32,
+          "sentence": "On the London Underground, you get a full refund for 15-minute delays.",
+          "translation": "在伦敦地铁，如果延误15分钟，您将获得全额退款。"
+        },
+        {
+          "index": 33,
+          "sentence": "Companies that do not use Delay Repay and still use the older scheme will not usually pay compensation if the problem is considered to be out of their control.",
+          "translation": "不使用“延迟赔偿”方案而仍采用旧式方案的公司在问题被视为超出其控制范围时，通常不会支付赔偿。"
+        },
+        {
+          "index": 34,
+          "sentence": "But it is still worth asking them for compensation, as some may pay out.",
+          "translation": "但仍值得向他们要求赔偿，因为有些公司可能会支付。"
+        },
+        {
+          "index": 35,
+          "sentence": "You are unlikely to get compensation for a delay if any of the following occur:",
+          "translation": "如果出现以下任何一种情况，你不太可能因延误获得赔偿："
+        },
+        {
+          "index": 36,
+          "sentence": "Accidents involving people getting onto the line illegally",
+          "translation": "涉及人员非法进入铁轨的事故"
+        },
+        {
+          "index": 37,
+          "sentence": "• Gas leaks or fires in buildings next to the line which were not caused by a train company",
+          "translation": "• 线路旁边建筑物中并非由火车公司引起的气体泄漏或火灾"
+        },
+        {
+          "index": 38,
+          "sentence": "• Line closures at the request of the emergency services",
+          "translation": "• 应紧急服务部门要求而关闭线路"
+        },
+        {
+          "index": 39,
+          "sentence": "• Exceptionally severe weather conditions",
+          "translation": "• 极端恶劣的天气条件"
+        },
+        {
+          "index": 40,
+          "sentence": "• Strike action",
+          "translation": "• 罢工行动"
+        },
+        {
+          "index": 41,
+          "sentence": "National Rail Conditions of Travel state that you are entitled to compensation in the same form that you paid for the ticket.",
+          "translation": "英国国家铁路旅行条件规定，您有权获得与您购票支付形式相同的赔偿。"
+        },
+        {
+          "index": 42,
+          "sentence": "Some train companies are still paying using rail vouchers, which they are allowed to do if you do not ask for a cash refund.",
+          "translation": "一些铁路公司仍在以铁路代金券的形式支付赔偿，如果乘客不要求现金退款，他们是被允许这样做的。"
+        },
+        {
+          "index": 43,
+          "sentence": "Since 2016, rail passengers have acquired further rights for compensation through the Consumer Rights Act.",
+          "translation": "自2016年以来，铁路乘客通过《消费者权益法案》获得了进一步的赔偿权利。"
+        },
+        {
+          "index": 44,
+          "sentence": "This means that passengers could now be eligible for compensation due to: a severely overcrowded train with too few carriages available; a consistently late running service; and a service that is delayed for less than the time limit that applied under existing compensation schemes.",
+          "translation": "这意味着乘客现在可能因以下情况有资格获得赔偿：列车严重拥挤且可用车厢过少；服务持续晚点；以及延误时间低于现有赔偿方案规定的时间限制的服务。"
+        },
+        {
+          "index": 45,
+          "sentence": "However, in order to exercise their rights beyond the existing compensation schemes, for instance Delay Repay, and where the train operating company refuses to compensate despite letters threatening court action, passengers may need to bring their claims to a court of law.",
+          "translation": "然而，为了行使超出既有补偿方案（例如延误赔偿计划）的权利，并且在火车运营公司无视威胁采取法律行动的信件而拒绝赔偿的情况下，乘客可能需要将索赔提交至法院。"
+        }
+      ]
+    },
+    {
+      "id": "2067",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Vacancy for food preparation assistant",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Durrant House plc runs restaurants and cafés as concessions in airports,train stations and other busy environments around the country. We currently have a vacancy for a food preparation assistant in our restaurant at Locksley Stadium, serving football fans and concert-goers before, during and after events. In addition, we cater for private parties several times a week. If you have relevant experience and a passion for preparing food to a very high standard, we'll be delighted to hear from you. You must be able to multitask and to work in a fast-paced environment. It goes without saying that working as an effective and supportive member of a team is essential, so you need to be happy in this type of work.",
+          "translation": "Durrant House 股份有限公司在全国各地的机场、火车站及其他繁忙场所经营餐馆和咖啡馆作为特许经营业务。\n我们目前在洛克利体育场的餐厅有一个食品准备助理的职位空缺，为活动前、中、后的足球迷和音乐会观众提供服务。\n此外，我们每周多次为私人聚会提供餐饮服务。\n如果你有相关经验，并热衷于以高标准准备食物，我们将很高兴收到你的来信。\n你必须能够同时处理多项任务，并在快节奏的环境中工作。\n不言而喻，作为团队中高效且支持他人的成员至关重要，因此你需要对这种工作感到愉快。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "The role includes the usual responsibilities, such as treating hygiene as your number one priority, cleaning work areas, and doing whatever is required to provide food of excellent quality. The person appointed will carry out a range of tasks, including ensuring all raw food items are fresh, preparing vegetables to be cooked, making sure frozen food products are used in rotation, and throwing away any food products that are near or have passed their expiry date.He or she will be required to familiarise themselves with the storage system, so as to put food product supplies in the proper place and retrieve them in the right order. In particular, we are looking for someone with skill at baking, to play a large role in the production of pies and cakes.",
+          "translation": "该职位包括通常的职责，如将卫生视为首要任务，清洁工作区域，并尽一切必要努力提供优质食品。\n被任命的人员将执行一系列任务，包括确保所有生鲜食品新鲜、准备待烹饪的蔬菜、确保冷冻食品轮换使用，以及丢弃任何临近或已过保质期的食品。\n他或她需要熟悉储存系统，以便将食品供应品放置在正确位置，并按正确顺序取用。\n特别是，我们正在寻找具备烘焙技能的人，以便在馅饼和蛋糕的制作中发挥重要作用。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Given the nature of the venue, working hours vary from week to week, depending on the events being held, and will often involve starting early in the morning or finishing late at night. You can expect to work an average of around 18 hours a week, although this cannot be guaranteed. You will also have the opportunity to work in another of our sites for one or two days a week, or for longer periods, and will be paid for ten days of holidays a year. Training will be provided in food safety.",
+          "translation": "鉴于该场所的性质，工作时间每周都会有所不同，具体取决于所举办的活动，并且通常涉及清晨开始或深夜结束。\n您可以预期每周平均工作约18小时，尽管这一点无法得到保证。\n您还将有机会每周在我们的其他场地工作一两天或更长时间，并且每年将获得十天的带薪假期。\n将提供食品安全方面的培训。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "If this sounds like the job for you, please contact Jo Simmons at simmons.j@durrant-house.com.",
+          "translation": "如果这听起来像是适合您的工作，请通过 simmons.j@durrant-house.com 联系 Jo Simmons。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Setting up a business partnership in the UK",
+          "question_cue": {
+            "start": 20,
+            "end": 27
+          },
+          "translation": "在英国建立商业合伙关系"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Two or more people can go into business together by setting up either a limited company or a partnership. A partnership is the easier way to get started, and simply links two or more people together in a simple business structure. Unlike a limited company, a partnership doesn't have a separate legal status.The partners are usually self-employed individuals, although a limited company counts as a 'legal person' and can also be a partner.",
+          "translation": "两名或更多人可以共同创业，通过成立有限公司或合伙企业来实现。\n合伙企业是更容易启动的方式，只需将两人或更多人联结在一个简单的商业结构中。\n与有限公司不同，合伙企业没有独立的法律地位。\n合伙人通常是自雇人士，尽管有限公司被视为“法人”，也可以成为合伙人。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "In a partnership, you and your partner or partners personally share responsibility for your business.This means, among other things, that if your business cannot afford to pay its debts, you must pay them yourselves.Again, this is not the case with a limited company. Partners share the business's profits, and each partner pays tax on their share.",
+          "translation": "在合伙企业中，你和你的合伙人需共同承担个人责任以经营业务。\n这意味着，除其他事项外，如果你的企业无力偿还债务，你们必须自行承担还款责任。\n同样，这与有限责任公司的情况有所不同。\n合伙人共同分享企业利润，且每位合伙人需按其份额缴纳相应税款。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "When you set up a business partnership you need to choose a name.You can trade under your own names, for example, 'Smith and Jones', or you can choose another name for your business. You don't need to register your name. However, you should register your name as a trademark if you want to stop people from trading under your business name.",
+          "translation": "当你建立商业合伙关系时，你需要选择一个名称。\n你可以用自己的名字进行交易，例如‘史密斯和琼斯’，或者为你的企业选择另一个名称。\n你不需要注册你的名称。\n然而，如果你想阻止他人以你的企业名称进行交易，你应该将你的名称注册为商标。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Business partnership names must not include 'limited', 'Ltd', 'limited liability partnership',‘LLP', 'public limited company' or 'plc', be offensive, or be the same as an existing trademark. Your name also can't suggest a connection with government or local authorities, unless you get permission. There is no central database of partnership names in the UK, so to avoid using the same name as another business, it is advisable to search on the internet for the name you are considering.",
+          "translation": "商业合伙企业名称不得包含“limited”、“Ltd”、“limited liability partnership”、“LLP”、“public limited company”或“plc”，不得具有冒犯性，也不得与现有商标相同。\n你的名称也不得暗示与政府或地方当局有关联，除非你获得许可。\n英国没有合伙企业名称的中央数据库，因此为避免与另一家企业使用相同名称，建议在网上搜索你正在考虑的名称。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "You must include all the partners' names and the business name (if you have one) on official paperwork, for example invoices.",
+          "translation": "你必须在官方文件（例如发票）上包含所有合伙人的姓名以及企业名称（如果有的话）。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "You must choose a 'nominated partner' who is responsible for registering your partnership with HM Revenue and Customs (HMRC), the government department responsible for the collection of taxes. This person is responsible for managing the partnership's tax returns and keeping business records.Alternatively, you can appoint an agent to deal with HMRC on your behalf.",
+          "translation": "你必须指定一位‘指定合伙人’，负责将你的合伙企业在英国税务海关总署（HMRC，负责税收征管的政府部门）进行注册。\n此人负责管理合伙企业的纳税申报并保存业务记录。\n或者，你可以指定一名代理代为处理与HMRC的事务。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "All partners need to register with HMRC separately and send their own tax returns as individuals.",
+          "translation": "所有合伙人需要单独向英国税务海关总署注册，并以个人身份提交各自的纳税申报单。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "You must register by 5 October in your business's second tax year, or you could be charged a penalty.",
+          "translation": "你必须在该企业的第二个纳税年度的10月5日之前进行注册，否则可能会被处以罚款。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "You must also register for VAT if your VAT taxable turnover is more than ￡85,000. You can choose to register if it's below this, for example to reclaim VAT on business supplies.",
+          "translation": "如果您的增值税应税营业额超过85,000英镑，您还必须注册增值税。\n如果您的营业额低于此数额，您可以选择注册，例如为了对企业用品申请增值税退税。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15564",
+          "type": 8,
+          "title": "Vacancy for food preparation assistant",
+          "instructions": "Questions 15 - 19\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120141",
+              "number": 15,
+              "prompt": "Location of restaurant: in a _____",
+              "options": [],
+              "answer": "stadium",
+              "accepted_answers": [
+                "stadium"
+              ],
+              "analysis": "题干要求填写餐厅所在位置，原文第一段明确提到‘in our restaurant at Locksley Stadium’，其中‘Stadium’直接对应题干中的地点描述，因此答案为‘stadium’。",
+              "reason": "原文直接说明餐馆位于Locksley Stadium。",
+              "location_analysis": "填空对应Locksley Stadium中的stadium。",
+              "paraphrasing": "Location of restaurant -> in our restaurant at Locksley Stadium",
+              "keywords": "restaurant, Locksley Stadium",
+              "evidence": [
+                "We currently have a vacancy for a food preparation assistant in our restaurant at Locksley Stadium, serving football fans and concert-goers before, during and after events."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120142",
+              "number": 16,
+              "prompt": "• ability to multitask — • must enjoy working in a _____",
+              "options": [],
+              "answer": "team",
+              "accepted_answers": [
+                "team"
+              ],
+              "analysis": "题干中‘must enjoy working in a ___’对应原文第一段末尾的‘you need to be happy in this type of work’，而前文指出‘working as an effective and supportive member of a team is essential’，说明此处强调的是团队合作，因此答案为‘team’。",
+              "reason": "原文强调团队工作且需对此感到愉快。",
+              "location_analysis": "题干要求enjoy working in a team，原文对应happy in team w...",
+              "paraphrasing": "must enjoy working in a -> need to be happy in this type of work; working as an effective and supportive member of a team",
+              "keywords": "must enjoy, working in a, team",
+              "evidence": [
+                "It goes without saying that working as an effective and supportive member of a team is essential, so you need to be happy in this type of work."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120143",
+              "number": 17,
+              "prompt": "• maintaining high standards of _____ and quality",
+              "options": [],
+              "answer": "hygiene",
+              "accepted_answers": [
+                "hygiene"
+              ],
+              "analysis": "题干要求填写需维持高标准的内容之一，原文第二段开头明确指出‘treating hygiene as your number one priority’，并将hygiene与food quality并列，说明hygiene是核心职责之一，因此答案为‘hygiene’。",
+              "reason": "原文中hygiene被列为第一优先。",
+              "location_analysis": "填空要求维持高标准，原文对应hygiene作为首要任务。",
+              "paraphrasing": "maintaining high standards of -> treating hygiene as your number one priority",
+              "keywords": "maintaining, high standards, hygiene, quality",
+              "evidence": [
+                "The role includes the usual responsibilities, such as treating hygiene as your number one priority, cleaning work areas, and doing whatever is required to provide food of excellent quality."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120144",
+              "number": 18,
+              "prompt": "• learning the procedure for the _____ of food",
+              "options": [],
+              "answer": "storage",
+              "accepted_answers": [
+                "storage"
+              ],
+              "analysis": "题干中‘learning the procedure for the ___ of food’对应原文第二段中‘familiarise themselves with the storage system’，该句说明员工需掌握食物的存放系统和取用顺序，因此答案为‘storage’。",
+              "reason": "原文明确要求熟悉storage system。",
+              "location_analysis": "填空要求学习食物的存放程序，原文对应熟悉storage system。",
+              "paraphrasing": "learning the procedure for -> familiarise themselves with the storage system",
+              "keywords": "learning the procedure, storage, food",
+              "evidence": [
+                "He or she will be required to familiarise themselves with the storage system, so as to put food product supplies in the proper place and retrieve them in the right order."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120145",
+              "number": 19,
+              "prompt": "Conditions: — • working hours are not _____",
+              "options": [],
+              "answer": "guaranteed",
+              "accepted_answers": [
+                "guaranteed"
+              ],
+              "analysis": "题干指出工作时间‘are not ___’，原文第三段提到‘You can expect to work an average of around 18 hours a week, although this cannot be guaranteed’，其中‘cannot be guaranteed’直接对应题干中的否定结构，因此答案为‘guaranteed’。",
+              "reason": "原文明确说工作时间不能保证。",
+              "location_analysis": "填空说工作时间不固定，原文直接用cannot be guaranteed。",
+              "paraphrasing": "working hours are not -> cannot be guaranteed",
+              "keywords": "working hours, not, guaranteed",
+              "evidence": [
+                "You can expect to work an average of around 18 hours a week, although this cannot be guaranteed."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Location of restaurant: in a $120141$\nRequirements:\n• relevant experience\n• ability to multitask\n• must enjoy working in a $120142$\nResponsibilities include:\n• maintaining high standards of $120143$ and quality\n• checking the freshness of raw food\n• ensuring no food is used after its expiry date\n• learning the procedure for the $120144$ of food\n• doing a considerable amount of the baking\nConditions:\n• working hours are not $120145$\n• payment is made for holidays",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Location of restaurant: in a $120141$\nRequirements:\n• relevant experience\n• ability to multitask\n• must enjoy working in a $120142$\nResponsibilities include:\n• maintaining high standards of $120143$ and quality\n• checking the freshness of raw food\n• ensuring no food is used after its expiry date\n• learning the procedure for the $120144$ of food\n• doing a considerable amount of the baking\nConditions:\n• working hours are not $120145$\n• payment is made for holidays"
+        },
+        {
+          "id": "15566",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 20 - 27\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120146",
+              "number": 20,
+              "prompt": "A partnership is different from a limited company in not having its own _____ as a legal body.",
+              "options": [],
+              "answer": "status",
+              "accepted_answers": [
+                "status"
+              ],
+              "analysis": "题干指出合伙企业不同于有限公司之处在于没有独立的法律身份，原文第五段明确说明‘Unlike a limited company, a partnership doesn't have a separate legal status’，其中‘legal status’即为题干所指内容，因此答案为‘status’。",
+              "reason": "原文指出合伙没有独立法律地位。",
+              "location_analysis": "填空要求缺少的东西，原文对应legal status。",
+              "paraphrasing": "A partnership is different from a limited company in not having its own -> a partnership doesn't have a separate legal status",
+              "keywords": "partnership, different from, limited company, not having, own, legal, status",
+              "evidence": [
+                "Unlike a limited company, a partnership doesn't have a separate legal status."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120147",
+              "number": 21,
+              "prompt": "The partners are personally responsible for paying all the partnership's _____.",
+              "options": [],
+              "answer": "debts",
+              "accepted_answers": [
+                "debts"
+              ],
+              "analysis": "题干要求填写合伙人需个人承担的责任，原文第六段指出‘if your business cannot afford to pay its debts, you must pay them yourselves’，说明债务（debts）需由合伙人自行偿还，因此答案为‘debts’。",
+              "reason": "原文明确合伙人必须自己支付债务。",
+              "location_analysis": "填空要求个人负责偿还债务，原文对应debts。",
+              "paraphrasing": "personally responsible for paying all the partnership's -> if your business cannot afford to pay its debts, you must pay them yourselves",
+              "keywords": "personally responsible, paying, all, debts",
+              "evidence": [
+                "This means, among other things, that if your business cannot afford to pay its debts, you must pay them yourselves."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120148",
+              "number": 22,
+              "prompt": "The partnership's _____ are divided between the partners.",
+              "options": [],
+              "answer": "profits",
+              "accepted_answers": [
+                "profits"
+              ],
+              "analysis": "题干中‘The partnership's ___ are divided between the partners’对应原文第六段的‘Partners share the business's profits’，说明利润由合伙人共享，因此答案为‘profits’。",
+              "reason": "原文说明合伙人分享利润。",
+              "location_analysis": "填空要求被分享的东西，原文对应profits。",
+              "paraphrasing": "The partnership's ... are divided -> Partners share the business's profits",
+              "keywords": "partnership's, divided between, partners",
+              "evidence": [
+                "Partners share the business's profits, and each partner pays tax on their share."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120149",
+              "number": 23,
+              "prompt": "Registering the partnership's name prevents others from using that name when _____.",
+              "options": [],
+              "answer": "trading",
+              "accepted_answers": [
+                "trading"
+              ],
+              "analysis": "题干指出注册名称可防止他人在某种行为中使用该名称，原文第七段提到‘stop people from trading under your business name’，其中‘trading’即为他人使用名称进行商业活动的行为，因此答案为‘trading’。",
+              "reason": "原文说注册防止他人用你名字交易，trading是动作。",
+              "location_analysis": "填空要求动作，原文对应trading。",
+              "paraphrasing": "when ... prevents others from using that name -> register your name as a trademark if you want to stop people from trading under your business name",
+              "keywords": "Registering, name, prevents, others, using, when, trading",
+              "evidence": [
+                "However, you should register your name as a trademark if you want to stop people from trading under your business name."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120150",
+              "number": 24,
+              "prompt": "The best way to find out if a name is already in use is to use the _____.",
+              "options": [],
+              "answer": "internet",
+              "accepted_answers": [
+                "internet"
+              ],
+              "analysis": "题干询问确认名称是否已被使用的最佳方式，原文第八段建议‘search on the internet for the name you are considering’，说明应通过互联网查询，因此答案为‘internet’。",
+              "reason": "原文建议在网上搜索是否有重名。",
+              "location_analysis": "填空要求方式，原文对应internet。",
+              "paraphrasing": "the best way to find out if a name is already in use is to use the -> it is advisable to search on the internet for the name",
+              "keywords": "best way, find out, name, already in use, use, internet",
+              "evidence": [
+                "There is no central database of partnership names in the UK, so to avoid using the same name as another business, it is advisable to search on the internet for the name you are considering."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120151",
+              "number": 25,
+              "prompt": "The names of the partners and the partnership must appear on _____ and other documents.",
+              "options": [],
+              "answer": "invoices",
+              "accepted_answers": [
+                "invoices"
+              ],
+              "analysis": "题干要求填写必须包含合伙人及企业名称的文件类型，原文第九段举例说明‘on official paperwork, for example invoices’，其中invoices是官方文件的一种，因此答案为‘invoices’。",
+              "reason": "原文举例invoices为必须包含名称的文件。",
+              "location_analysis": "填空要求单据，原文对应invoices。",
+              "paraphrasing": "must appear on ... and other documents -> You must include all the partners' names and the business name (if you have one) on official paperwork, for example invoices",
+              "keywords": "names, partners, partnership, must appear, on, invoices, documents",
+              "evidence": [
+                "You must include all the partners' names and the business name (if you have one) on official paperwork, for example invoices."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120152",
+              "number": 26,
+              "prompt": "You must have a nominated partner, or someone to act as your _____ for all contact with HMRC.",
+              "options": [],
+              "answer": "agent",
+              "accepted_answers": [
+                "agent"
+              ],
+              "analysis": "题干中‘someone to act as your ___ for all contact with HMRC’对应原文第十段的‘appoint an agent to deal with HMRC on your behalf’，说明可指定代理人处理税务事务，因此答案为‘agent’。",
+              "reason": "原文可指定agent处理税务事宜。",
+              "location_analysis": "填空要求代理人，原文对应agent。",
+              "paraphrasing": "or someone to act as your -> you can appoint an agent to deal with HMRC on your behalf",
+              "keywords": "nominated partner, someone, act as, your, agent, all contact, HMRC",
+              "evidence": [
+                "Alternatively, you can appoint an agent to deal with HMRC on your behalf."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120153",
+              "number": 27,
+              "prompt": "You will have to pay a _____ if you miss the deadline for registering the partnership.",
+              "options": [],
+              "answer": "penalty",
+              "accepted_answers": [
+                "penalty"
+              ],
+              "analysis": "题干指出错过注册截止日期需支付某种费用，原文第十二段明确说明‘or you could be charged a penalty’，其中penalty即为逾期罚款，因此答案为‘penalty’。",
+              "reason": "原文明确超时会被罚款。",
+              "location_analysis": "填空要求逾期罚款，原文对应penalty。",
+              "paraphrasing": "You will have to pay a ... if you miss the deadline -> you could be charged a penalty",
+              "keywords": "pay, penalty, miss, deadline, registering, partnership",
+              "evidence": [
+                "You must register by 5 October in your business's second tax year, or you could be charged a penalty."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "A partnership is different from a limited company in not having its own $120146$ as a legal body.\nThe partners are personally responsible for paying all the partnership's $120147$.\nThe partnership's $120148$ are divided between the partners.\nRegistering the partnership's name prevents others from using that name when $120149$.\nThe best way to find out if a name is already in use is to use the $120150$.\nThe names of the partners and the partnership must appear on $120151$ and other documents.\nYou must have a nominated partner, or someone to act as your $120152$ for all contact with HMRC.\nYou will have to pay a $120153$ if you miss the deadline for registering the partnership.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "A partnership is different from a limited company in not having its own $120146$ as a legal body.\nThe partners are personally responsible for paying all the partnership's $120147$.\nThe partnership's $120148$ are divided between the partners.\nRegistering the partnership's name prevents others from using that name when $120149$.\nThe best way to find out if a name is already in use is to use the $120150$.\nThe names of the partners and the partnership must appear on $120151$ and other documents.\nYou must have a nominated partner, or someone to act as your $120152$ for all contact with HMRC.\nYou will have to pay a $120153$ if you miss the deadline for registering the partnership."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Vacancy for food preparation assistant",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Durrant House plc runs restaurants and cafés as concessions in airports, train stations and other busy environments around the country.",
+          "translation": "Durrant House 股份有限公司在全国各地的机场、火车站及其他繁忙场所经营餐馆和咖啡馆作为特许经营业务。"
+        },
+        {
+          "index": 2,
+          "sentence": "We currently have a vacancy for a food preparation assistant in our restaurant at Locksley Stadium, serving football fans and concert-goers before, during and after events.",
+          "translation": "我们目前在洛克利体育场的餐厅有一个食品准备助理的职位空缺，为活动前、中、后的足球迷和音乐会观众提供服务。"
+        },
+        {
+          "index": 3,
+          "sentence": "In addition, we cater for private parties several times a week.",
+          "translation": "此外，我们每周多次为私人聚会提供餐饮服务。"
+        },
+        {
+          "index": 4,
+          "sentence": "If you have relevant experience and a passion for preparing food to a very high standard, we'll be delighted to hear from you.",
+          "translation": "如果你有相关经验，并热衷于以高标准准备食物，我们将很高兴收到你的来信。"
+        },
+        {
+          "index": 5,
+          "sentence": "You must be able to multitask and to work in a fast-paced environment.",
+          "translation": "你必须能够同时处理多项任务，并在快节奏的环境中工作。"
+        },
+        {
+          "index": 6,
+          "sentence": "It goes without saying that working as an effective and supportive member of a team is essential, so you need to be happy in this type of work.",
+          "translation": "不言而喻，作为团队中高效且支持他人的成员至关重要，因此你需要对这种工作感到愉快。"
+        },
+        {
+          "index": 7,
+          "sentence": "The role includes the usual responsibilities, such as treating hygiene as your number one priority, cleaning work areas, and doing whatever is required to provide food of excellent quality.",
+          "translation": "该职位包括通常的职责，如将卫生视为首要任务，清洁工作区域，并尽一切必要努力提供优质食品。"
+        },
+        {
+          "index": 8,
+          "sentence": "The person appointed will carry out a range of tasks, including ensuring all raw food items are fresh, preparing vegetables to be cooked, making sure frozen food products are used in rotation, and throwing away any food products that are near or have passed their expiry date.",
+          "translation": "被任命的人员将执行一系列任务，包括确保所有生鲜食品新鲜、准备待烹饪的蔬菜、确保冷冻食品轮换使用，以及丢弃任何临近或已过保质期的食品。"
+        },
+        {
+          "index": 9,
+          "sentence": "He or she will be required to familiarise themselves with the storage system, so as to put food product supplies in the proper place and retrieve them in the right order.",
+          "translation": "他或她需要熟悉储存系统，以便将食品供应品放置在正确位置，并按正确顺序取用。"
+        },
+        {
+          "index": 10,
+          "sentence": "In particular, we are looking for someone with skill at baking, to play a large role in the production of pies and cakes.",
+          "translation": "特别是，我们正在寻找具备烘焙技能的人，以便在馅饼和蛋糕的制作中发挥重要作用。"
+        },
+        {
+          "index": 11,
+          "sentence": "Given the nature of the venue, working hours vary from week to week, depending on the events being held, and will often involve starting early in the morning or finishing late at night.",
+          "translation": "鉴于该场所的性质，工作时间每周都会有所不同，具体取决于所举办的活动，并且通常涉及清晨开始或深夜结束。"
+        },
+        {
+          "index": 12,
+          "sentence": "You can expect to work an average of around 18 hours a week, although this cannot be guaranteed.",
+          "translation": "您可以预期每周平均工作约18小时，尽管这一点无法得到保证。"
+        },
+        {
+          "index": 13,
+          "sentence": "You will also have the opportunity to work in another of our sites for one or two days a week, or for longer periods, and will be paid for ten days of holidays a year.",
+          "translation": "您还将有机会每周在我们的其他场地工作一两天或更长时间，并且每年将获得十天的带薪假期。"
+        },
+        {
+          "index": 14,
+          "sentence": "Training will be provided in food safety.",
+          "translation": "将提供食品安全方面的培训。"
+        },
+        {
+          "index": 15,
+          "sentence": "If this sounds like the job for you, please contact Jo Simmons at simmons.j@durrant-house.com.",
+          "translation": "如果这听起来像是适合您的工作，请通过 simmons.j@durrant-house.com 联系 Jo Simmons。"
+        },
+        {
+          "index": 16,
+          "sentence": "Setting up a business partnership in the UK",
+          "translation": "在英国建立商业合伙关系"
+        },
+        {
+          "index": 17,
+          "sentence": "Two or more people can go into business together by setting up either a limited company or a partnership.",
+          "translation": "两名或更多人可以共同创业，通过成立有限公司或合伙企业来实现。"
+        },
+        {
+          "index": 18,
+          "sentence": "A partnership is the easier way to get started, and simply links two or more people together in a simple business structure.",
+          "translation": "合伙企业是更容易启动的方式，只需将两人或更多人联结在一个简单的商业结构中。"
+        },
+        {
+          "index": 19,
+          "sentence": "Unlike a limited company, a partnership doesn't have a separate legal status.",
+          "translation": "与有限公司不同，合伙企业没有独立的法律地位。"
+        },
+        {
+          "index": 20,
+          "sentence": "The partners are usually self-employed individuals, although a limited company counts as a 'legal person' and can also be a partner.",
+          "translation": "合伙人通常是自雇人士，尽管有限公司被视为“法人”，也可以成为合伙人。"
+        },
+        {
+          "index": 21,
+          "sentence": "In a partnership, you and your partner or partners personally share responsibility for your business.",
+          "translation": "在合伙企业中，你和你的合伙人需共同承担个人责任以经营业务。"
+        },
+        {
+          "index": 22,
+          "sentence": "This means, among other things, that if your business cannot afford to pay its debts, you must pay them yourselves.",
+          "translation": "这意味着，除其他事项外，如果你的企业无力偿还债务，你们必须自行承担还款责任。"
+        },
+        {
+          "index": 23,
+          "sentence": "Again, this is not the case with a limited company.",
+          "translation": "同样，这与有限责任公司的情况有所不同。"
+        },
+        {
+          "index": 24,
+          "sentence": "Partners share the business's profits, and each partner pays tax on their share.",
+          "translation": "合伙人共同分享企业利润，且每位合伙人需按其份额缴纳相应税款。"
+        },
+        {
+          "index": 25,
+          "sentence": "When you set up a business partnership you need to choose a name.",
+          "translation": "当你建立商业合伙关系时，你需要选择一个名称。"
+        },
+        {
+          "index": 26,
+          "sentence": "You can trade under your own names, for example, 'Smith and Jones', or you can choose another name for your business.",
+          "translation": "你可以用自己的名字进行交易，例如‘史密斯和琼斯’，或者为你的企业选择另一个名称。"
+        },
+        {
+          "index": 27,
+          "sentence": "You don't need to register your name.",
+          "translation": "你不需要注册你的名称。"
+        },
+        {
+          "index": 28,
+          "sentence": "However, you should register your name as a trademark if you want to stop people from trading under your business name.",
+          "translation": "然而，如果你想阻止他人以你的企业名称进行交易，你应该将你的名称注册为商标。"
+        },
+        {
+          "index": 29,
+          "sentence": "Business partnership names must not include 'limited', 'Ltd', 'limited liability partnership',‘LLP', 'public limited company' or 'plc', be offensive, or be the same as an existing trademark.",
+          "translation": "商业合伙企业名称不得包含“limited”、“Ltd”、“limited liability partnership”、“LLP”、“public limited company”或“plc”，不得具有冒犯性，也不得与现有商标相同。"
+        },
+        {
+          "index": 30,
+          "sentence": "Your name also can't suggest a connection with government or local authorities, unless you get permission.",
+          "translation": "你的名称也不得暗示与政府或地方当局有关联，除非你获得许可。"
+        },
+        {
+          "index": 31,
+          "sentence": "There is no central database of partnership names in the UK, so to avoid using the same name as another business, it is advisable to search on the internet for the name you are considering.",
+          "translation": "英国没有合伙企业名称的中央数据库，因此为避免与另一家企业使用相同名称，建议在网上搜索你正在考虑的名称。"
+        },
+        {
+          "index": 32,
+          "sentence": "You must include all the partners' names and the business name (if you have one) on official paperwork, for example invoices.",
+          "translation": "你必须在官方文件（例如发票）上包含所有合伙人的姓名以及企业名称（如果有的话）。"
+        },
+        {
+          "index": 33,
+          "sentence": "You must choose a 'nominated partner' who is responsible for registering your partnership with HM Revenue and Customs (HMRC), the government department responsible for the collection of taxes.",
+          "translation": "你必须指定一位‘指定合伙人’，负责将你的合伙企业在英国税务海关总署（HMRC，负责税收征管的政府部门）进行注册。"
+        },
+        {
+          "index": 34,
+          "sentence": "This person is responsible for managing the partnership's tax returns and keeping business records.",
+          "translation": "此人负责管理合伙企业的纳税申报并保存业务记录。"
+        },
+        {
+          "index": 35,
+          "sentence": "Alternatively, you can appoint an agent to deal with HMRC on your behalf.",
+          "translation": "或者，你可以指定一名代理代为处理与HMRC的事务。"
+        },
+        {
+          "index": 36,
+          "sentence": "All partners need to register with HMRC separately and send their own tax returns as individuals.",
+          "translation": "所有合伙人需要单独向英国税务海关总署注册，并以个人身份提交各自的纳税申报单。"
+        },
+        {
+          "index": 37,
+          "sentence": "You must register by 5 October in your business's second tax year, or you could be charged a penalty.",
+          "translation": "你必须在该企业的第二个纳税年度的10月5日之前进行注册，否则可能会被处以罚款。"
+        },
+        {
+          "index": 38,
+          "sentence": "You must also register for VAT if your VAT taxable turnover is more than ￡85,000.",
+          "translation": "如果您的增值税应税营业额超过85,000英镑，您还必须注册增值税。"
+        },
+        {
+          "index": 39,
+          "sentence": "You can choose to register if it's below this, for example to reclaim VAT on business supplies.",
+          "translation": "如果您的营业额低于此数额，您可以选择注册，例如为了对企业用品申请增值税退税。"
+        }
+      ]
+    },
+    {
+      "id": "2068",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "THE ROLE OF THE SWISS POSTBUS",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Switzerland's postbuses are much more than just a means of public transportation.",
+          "translation": "瑞士的邮政巴士远不仅仅是一种公共交通工具。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "The Swiss PostBus Limited is the largest of the country's 78 coach companies. Administered by the Motor Services Department of the Post Office, it carries over 120 million passengers each year and is carefully integrated with other public transport services: trains, boats and mountain cableways. The Swiss transportation system resembles a tree, with the larger branches representing federal and private railways, the smaller branches being the coaches, and the twigs being the urban transit operators running trams, city buses,boats, chairlifts and so on.But the trunk that holds the tree together is the vast postbus network,without which the whole network would not function.",
+          "translation": "瑞士邮政巴士有限公司是该国78家长途汽车公司中最大的一家。\n由邮局机动车服务部门管理，它每年运送超过1.2亿名乘客，并与火车、轮船和山区缆车等其他公共交通服务精心整合。\n瑞士的交通系统就像一棵树，较大的树枝代表联邦和私营铁路，较小的树枝是长途汽车，而细枝则是运营有轨电车、城市公交车、轮船、缆椅等的城市交通运营商。\n但将这棵树连在一起的树干是庞大的邮政巴士网络，没有它，整个系统就无法运作。\n瑞士邮政巴士有限公司是该国78家长途客车公司中规模最大的。\n由邮政局的机动车服务部管理，它每年运送超过1.2亿名乘客，并与其他公共交通服务——火车、轮船和山区缆车——精心整合。\n瑞士的交通系统就像一棵树，较大的树枝代表联邦和私营铁路，较小的树枝代表长途客车，而细枝则代表运营有轨电车、城市公交车、轮船、缆车等城市交通运营商。\n但将这棵树维系在一起的树干是庞大的邮政巴士网络，没有它，整个网络将无法运作。\n瑞士邮政巴士有限公司是该国78家长途汽车公司中规模最大的。\n它由邮政局的机动车服务部门管理，每年运送超过1.2亿名乘客，并与火车、轮船和山地缆车等其他公共交通服务紧密整合。\n瑞士的交通系统就像一棵树，较大的枝干代表联邦铁路和私营铁路，较小的枝干代表长途汽车，而细枝则代表运营有轨电车、城市公交车、轮船、缆车等的城市交通运营商。\n但将整棵树维系在一起的树干是庞大的邮政巴士网络，没有它，整个交通系统就无法运转。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "There isn't an inhabited place in Switzerland that cannot be reached by some sort of public transport. Federal law and the Swiss Constitution stipulate that every village with a population greater than 40 is entitled to regular bus services. The frequency of these services is directly related to population density. Timetables are put together four years in advance, and seldom change. If a new route is to be introduced, the population of the area affected is invited to vote in a referendum.",
+          "translation": "在瑞士，没有一个人口居住地是无法通过某种公共交通工具到达的。\n联邦法律和瑞士宪法规定，每个居民超过40人的村庄都有权获得定期的巴士服务。\n这些服务的频率直接与人口密度相关。\n时间表提前四年制定，很少发生变化。\n如果要引入一条新路线，受影响的地区居民将被邀请在全民公投中投票。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "At times, postbuses are the main—sometimes the only - links between settlements. These coaches, often with a trailer in tow to increase their capacity, are a common sight in high-altitude regions, and their signature sound - part of Rossini's William Tell Overture, played by the drivers on three-tone post horns with electrical compressors at every road turn—is one of the most familiar Swiss sounds.",
+          "translation": "有时，邮政巴士是定居点之间的主要——有时甚至是唯一的——连接纽带。\n这些客车通常拖挂一辆拖车以增加运力，在高海拔地区是常见景象；其标志性声音——司机在每个道路转弯处通过电压缩机驱动的三音邮政喇叭演奏的罗西尼《威廉·退尔》序曲片段——是瑞士最耳熟能详的声音之一。\n有时，邮政巴士是居民点之间的主要——有时是唯一——连接方式。\n这些长途客车通常拖带挂车以增加运载能力，在高海拔地区十分常见，而其标志性的声音——司机在每一个道路转弯处使用配备电动压缩机的三音邮政喇叭演奏罗西尼的《威廉·退尔》序曲片段——是瑞士最熟悉的声音之一。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "The three-tone horns can still be used to ‘talk’ to post offices (and each other)from a distance. By altering the combination of the tones, a driver can announce 'departure of post', 'arrival of post','arrival of special post' , and so on- so much more romantic and often more reliable than radio or mobile phones.' This musical 'language' started in the mid-nineteenth century, when the coach drivers could also blow their horns a certain number of times on approaching the station to indicate the number of horses needing to be fed, giving the stationmaster time to prepare the fodder.",
+          "translation": "三音喇叭仍然可以被用来从远处与邮局（以及彼此之间）‘交谈’。\n通过改变音调的组合，司机可以宣告‘邮件出发’、‘邮件到达’、‘特殊邮件到达’等——这比无线电或手机浪漫得多，而且通常也更可靠。\n这种音乐般的‘语言’始于19世纪中期，当时马车夫在接近车站时也会吹响一定次数的喇叭，以指示需要喂食的马匹数量，从而给站长时间准备饲料。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "The postbus history goes back to 1849, when the Swiss postal service was made a monopoly. The role of today's modern yellow buses was, back then, played by horse-drawn carriages (or in winter by sleighs, in order to travel on snow), which were the same colour. By 1914, eight years after the first motor coaches were introduced , there were still 2,500 horses, 2,231 coaches (or carriages) and1,059 sleighs in service.",
+          "translation": "邮政巴士的历史可追溯至1849年，当时瑞士邮政服务被定为垄断行业。\n如今现代化黄色巴士的角色，在当时由相同颜色的马车（冬季则为便于在雪上行驶的雪橇）承担。\n到1914年，即首批机动客车引入八年后，仍有2500匹马、2231辆马车和1059辆雪橇在运营。\n邮政巴士的历史可以追溯到1849年，当时瑞士邮政服务被定为垄断行业。\n如今现代化黄色巴士的角色，在当时由同样颜色的马车（或在冬季为在雪中行驶而使用雪橇）扮演。\n到1914年，即第一辆机动客车引入八年后，仍有2500匹马、2231辆客车（或马车）和1059辆雪橇在使用中。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "After the First World War, Swiss Post bought a fleet of decommissioned military trucks which were converted into postbuses, but it was not until 1961 that the last horse-drawn coach was replaced with a motorised version.",
+          "translation": "第一次世界大战后，瑞士邮政购买了一批退役军用卡车，将其改装成邮政巴士，但直到1961年，最后一辆马拉马车才被机动化版本取代。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Today, the Swiss Post Office boasts one of the world's most advanced coach fleets, including",
+          "translation": "如今，瑞士邮政拥有世界上最先进的客车车队之一，包括"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "fuel-cell models and the world's first driverless bus. This was launched in 2015 in the town of Sion, the capital of the canton of Valais, one of the 26 cantons, or administrative regions, that make up the country.",
+          "translation": "包括燃料电池车型以及世界上首辆无人驾驶巴士。\n这辆巴士于2015年在瓦莱州的首府锡永镇投入使用，瓦莱州是构成该国的26个州（即行政区）之一。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Postbuses often go to places that other means of transport cannot reach. Most of the drivers therefore see themselves as educators and tour guides.Although it’s not in their jobs description, they're likely to point out the sights —waterfalls, gorges, and so on— and are always ready to pullover for a photo opportunity.",
+          "translation": "邮政巴士经常前往其他交通工具无法到达的地方。\n因此，大多数司机将自己视为教育者和导游。\n尽管这并不在他们的工作职责范围内，但他们往往会指出沿途的景点——如瀑布、峡谷等——并且随时准备靠边停车以提供拍照机会。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "I"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "Switzerland's longest postbus journey, and one of the highest, crosses four mountain passes an eight-hour trip undertaken by a single postbus. The route goes through several cantons; two languages (German and Italian); all four seasons—from burning sunshine to showers and heavy snowfalls; and countless places of interest. One of the passes, the Gotthard, is often described as the People's Road , probably because it connects the German-speaking canton of Uri with Italian-speaking Ticino. Like Switzerland itself, postbuses 'speak all four state languages:German, French,Italian and Romansh —and, by law, their automated intercom announcements are given in the language of whichever canton the bus is currently passing through.",
+          "translation": "瑞士最长的邮政巴士旅程，也是海拔最高的旅程之一，由一辆邮政巴士在八小时内穿越四个山口。\n这条路线穿越多个州；涉及两种语言（德语和意大利语）；经历所有四个季节——从烈日炎炎到阵雨和大雪；以及无数名胜景点。\n其中一条山口，哥达山口，常被称为人民之路，很可能是因为它连接了说德语的乌里州和说意大利语的提契诺州。\n和瑞士本身一样，邮政巴士使用所有四种官方语言：德语、法语、意大利语和罗曼什语——并且根据法律，其自动对讲公告以巴士当前行驶所在州的语言播报。\n瑞士最长的邮政巴士路线，同时也是海拔最高的路线之一，穿越四个山口，是一辆邮政巴士单独执行的八小时行程。\n这条路线穿越数个州；涵盖两种语言（德语和意大利语）；经历四季——从灼热的阳光到阵雨和大雪；并经过无数景点。\n其中一处山口——圣哥达山口，常被描述为“人民之路”，可能是因为它连接了讲德语的乌里州和讲意大利语的提契诺州。\n正如瑞士本身一样，邮政巴士“说”所有四种官方语言：德语、法语、意大利语和罗曼什语——而且根据法律，它们的自动车内广播会以巴士当前所经过的州的当地语言播报。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "J"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Irrespective of their previous driving experience,drivers undergo lots of training. During the first year, they have to drive postbuses under the supervision of a more experienced driver. Only after two years of safe driving in the valleys can they be pronounced ready for a mountain bus.",
+          "translation": "无论他们之前的驾驶经验如何，司机们都要接受大量培训。\n在第一年，他们必须在一位更有经验的司机的监督下驾驶邮政巴士。\n只有在山谷中安全驾驶两年后，他们才能被认定为准备好驾驶山地巴士。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "K"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "Some routes are not at all busy, with the bus often carrying just two or three passengers at a time. But for most people living in small mountain villages, the postbus is of the utmost importance. It not only carries the villagers to town and back, it takes village children to and from school, delivers mail, transports milk from the village farms down to the valley, collects rubbish from the village (Swiss laws do not allow dumping anywhere in the mountains),and brings building materials to households. It takes elderly villagers to shops and carries their shopping up the hill to their homes. More a friend than just a means of transportation, for the dwellers of mountain villages the postbus is an essential part of life.",
+          "translation": "有些线路完全算不上繁忙，公共汽车往往一次只搭载两三名乘客。\n但对于生活在山区小村庄的大多数人来说，邮政巴士至关重要。\n它不仅运送村民往返城镇，还接送村里的孩子上下学、投递邮件、将牛奶从村中农场运到山谷、清理村里的垃圾（瑞士法律不允许在山上的任何地方倾倒垃圾），并为住户运送建筑材料。\n它载着年长的村民去商店，并把他们的购物物品运上山送到家里。\n对于山村的居民来说，邮政巴士不仅仅是一种交通工具，更像是一位朋友，是生活中不可或缺的一部分。\n有些线路并不繁忙，公交车往往一次只载两三名乘客。\n但对于居住在小山村的大多数人来说，邮政巴士至关重要。\n它不仅将村民送往城镇并接回，还接送村里的孩子上下学、运送邮件、将村庄农场的牛奶运到山谷、收集村庄的垃圾（瑞士法律不允许在山区任何地方倾倒垃圾），并为住户运送建筑材料。\n它将年长的村民送到商店，并把他们的购物物品运上山送到家中。\n对于山村的居民来说，邮政巴士与其说是一种交通工具，不如说是一位朋友，它是生活中不可或缺的一部分。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15568",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 28 - 32\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120154",
+              "number": 28,
+              "prompt": "When comparing the Swiss transportation system to a tree, the writer emphasises",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "the size of the postbus system."
+                },
+                {
+                  "value": "B",
+                  "label": "how competitive the postbus system is."
+                },
+                {
+                  "value": "C",
+                  "label": "how important the postbus system is."
+                },
+                {
+                  "value": "D",
+                  "label": "the threat to the postbus system."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问作者将瑞士交通系统比作一棵树时强调的重点。原文段落A中明确指出，‘树干’即庞大的邮政巴士网络（postbus network）是维系整个交通系统的根本，‘没有它，整个网络就无法运作’。这种表述强烈突出了邮政巴士系统的重要性，而非其规模、竞争力或所受威胁。因此，选项C‘how important the postbus system is’准确反映了作者意图。",
+              "reason": "原文明确指出树干即postbus网络支撑全局，对应选项C的重要性。",
+              "location_analysis": "作者用树枝比喻系统各部分，强调主干——邮政巴士网络——至关重要，否则整个网络无法运作。",
+              "paraphrasing": "emphasises -> the trunk that holds the tree together; importance -> without which the whole network would not function",
+              "keywords": "tree, trunk, holds together",
+              "evidence": [
+                "But the trunk that holds the tree together is the vast postbus network,without which the whole network would not function."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文将交通系统比作树时强调的是邮政巴士的重要性，而非其规模大小。",
+                "B": "原文未提及邮政巴士系统的竞争力，属于无中生有。",
+                "D": "原文强调的是邮政巴士系统的重要性，未涉及任何威胁，选项与原文不符。"
+              }
+            },
+            {
+              "id": "120155",
+              "number": 29,
+              "prompt": "What is said about bus services in the second paragraph?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Villages have the chance to request more buses every four years."
+                },
+                {
+                  "value": "B",
+                  "label": "New routes are often introduced to reflect an increase in population."
+                },
+                {
+                  "value": "C",
+                  "label": "Bus timetables tend to change every four years."
+                },
+                {
+                  "value": "D",
+                  "label": "The number of buses that call at a village depends on how many people live there."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问第二段关于巴士服务的说法。原文段落B提到：‘服务的频率与人口密度直接相关’（The frequency of these services is directly related to population density）。这说明一个村庄能获得多少班次的巴士服务取决于当地居民数量，即选项D所述‘The number of buses that call at a village depends on how many people live there’。其他选项在文中均无依据。",
+              "reason": "原文直接匹配D选项。",
+              "location_analysis": "第二段明确服务频率与人口密度直接相关，与选项D一致。",
+              "paraphrasing": "the number of buses -> frequency of these services; depends on how many people live there -> directly related to population density",
+              "keywords": "population density, frequency of services",
+              "evidence": [
+                "The frequency of these services is directly related to population density."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及村庄每四年可申请增加巴士服务这一说法。",
+                "B": "原文未提到新路线通常因人口增长而引入。",
+                "C": "原文未说巴士时刻表往往每四年改变一次，可能混淆了其他信息。"
+              }
+            },
+            {
+              "id": "120156",
+              "number": 30,
+              "prompt": "According to the fourth paragraph, what were three-tone horns first used to indicate?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "how many coach horses required food"
+                },
+                {
+                  "value": "B",
+                  "label": "how long the bus would stay at the station"
+                },
+                {
+                  "value": "C",
+                  "label": "how many passengers wanted a meal"
+                },
+                {
+                  "value": "D",
+                  "label": "how soon the bus would arrive at the station"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问三音喇叭最初用途。原文段落D明确说明，这种‘音乐语言’始于19世纪中期，当时马车夫在接近车站时会按特定次数吹响喇叭，‘以指示需要喂食的马匹数量’（to indicate the number of horses needing to be fed）。这与选项A完全一致。其他选项如停留时间、乘客用餐或到站时间在文中均未提及。",
+              "reason": "原文直接对应A选项。",
+              "location_analysis": "第四段说明三音喇叭最初在19世纪中叶用于指示需要喂食的马匹数量。",
+              "paraphrasing": "first used to indicate -> started in the mid-nineteenth century, when the coach drivers could also blow their horns a certain number of times ... to indicate the number of horses needing to be fed",
+              "keywords": "first used, three-tone horns, indicate, number of horses",
+              "evidence": [
+                "This musical 'language' started in the mid-nineteenth century, when the coach drivers could also blow their horns a certain number of times on approaching the station to indicate the number of horses needing to be fed, giving the stationmaster time to prepare the fodder."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文未提及停车时长，该选项属于无中生有。",
+                "C": "原文未涉及乘客用餐需求，该选项内容与原文无关。",
+                "D": "原文未讨论车辆到达时间，该选项信息在原文中不存在。"
+              }
+            },
+            {
+              "id": "120157",
+              "number": 31,
+              "prompt": "What point does the writer make about the postbus drivers?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Many choose to give passengers information about the surroundings."
+                },
+                {
+                  "value": "B",
+                  "label": "Most are proud of driving buses to places without other forms of transport."
+                },
+                {
+                  "value": "C",
+                  "label": "They are required to inform passengers about the sights seen fromthe bus."
+                },
+                {
+                  "value": "D",
+                  "label": "They are not allowed to stop for passengers to take photographs."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问作者对邮政巴士司机的看法。原文段落H指出，尽管不在工作职责范围内，‘司机们很可能会指出沿途景点——瀑布、峡谷等’（they're likely to point out the sights），并愿意停车供乘客拍照。这表明他们是主动提供信息的，对应选项A‘Many choose to give passengers information about the surroundings’。选项C错误地声称这是‘要求’，而原文强调是自愿行为。",
+              "reason": "原文说明司机主动提供信息，对应A。",
+              "location_analysis": "H段指出司机虽无职责要求，但会主动指出景点，与A选项一致。",
+              "paraphrasing": "choose to give passengers information about the surroundings -> they're likely to point out the sights",
+              "keywords": "drivers, educators, tour guides, point out the sights",
+              "evidence": [
+                "Most of the drivers therefore see themselves as educators and tour guides.Although it’s not in their jobs description, they're likely to point out the sights —waterfalls, gorges, and so on— and are always ready to pullover for a photo opportunity."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文未提及大多数司机对驾驶巴士到无其他交通方式的地方感到自豪，属于无中生有。",
+                "C": "原文未要求司机必须向乘客介绍沿途景点，可能是自愿行为，属于范围错误。",
+                "D": "原文未明确禁止司机停车让乘客拍照，该选项信息与原文可能矛盾或未提及。"
+              }
+            },
+            {
+              "id": "120158",
+              "number": 32,
+              "prompt": "What is said about the buses' automated announcements?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "They are given in the language of the bus's starting point."
+                },
+                {
+                  "value": "B",
+                  "label": "The language they are given in depends on where the bus is at the time."
+                },
+                {
+                  "value": "C",
+                  "label": "They are always given in all the four languages of Switzerland."
+                },
+                {
+                  "value": "D",
+                  "label": "The language they are given in depends on the bus's destination."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问关于巴士自动广播的说法。原文段落I明确写道：‘根据法律，自动广播使用巴士当前所经州的语言’（given in the language of whichever canton the bus is currently passing through）。这直接对应选项B‘The language they are given in depends on where the bus is at the time’。其他选项关于起点、终点或四种语言同时播报的说法均与原文不符。",
+              "reason": "选项B 'The language ... depends on where the bus is at the time' 对应 'language of whichever canton the bus is currently passing through'",
+              "location_analysis": "原文明确公告语言取决于巴士当前经过的州。",
+              "paraphrasing": "language they are given in depends on where the bus is at the time -> given in the language of whichever canton the bus is currently passing through",
+              "keywords": "automated announcements, language, canton, passing through",
+              "evidence": [
+                "by law, their automated intercom announcements are given in the language of whichever canton the bus is currently passing through."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "选项无中生有，原文未提及广播语言与始发站有关。",
+                "C": "与原文矛盾，广播语言并非固定使用全部四种语言，而是根据当前位置变化。",
+                "D": "信息错误，广播语言取决于公交车当前位置，而非目的地。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15574",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 33 - 40\nDo the following statements agree with the information given in Reading Passage 4?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120159",
+              "number": 33,
+              "prompt": "Some postbuses after the First World War were originally army vehicles.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干陈述‘一战后的一些邮政巴士原本是军用车辆’。原文段落F明确提到：‘一战后，瑞士邮政购买了一批退役的军用卡车，并将其改装成邮政巴士’（bought a fleet of decommissioned military trucks which were converted into postbuses）。‘decommissioned military trucks’即退役军车，与题干中的‘originally army vehicles’完全对应，因此答案为TRUE。",
+              "reason": "原文直接支持TRUE。",
+              "location_analysis": "原文明确一战后将退役军用卡车改装成postbuses。",
+              "paraphrasing": "originally army vehicles -> decommissioned military trucks",
+              "keywords": "First World War, postbuses, originally army vehicles",
+              "evidence": [
+                "After the First World War, Swiss Post bought a fleet of decommissioned military trucks which were converted into postbuses"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "选项声称与原文矛盾，原文明确提及第一次世界大战后的一些邮政巴士最初是军用车辆。",
+                "NOT GIVEN": "原文中明确提及相关信息，并非未给出判断。"
+              }
+            },
+            {
+              "id": "120160",
+              "number": 34,
+              "prompt": "The number of driverless buses has increased steadily since 2015.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称‘自2015年以来无人驾驶巴士数量稳步增加’。原文段落G仅提到‘2015年在锡永推出了世界上第一辆无人驾驶巴士’（launched in 2015），但并未提及此后数量是否增加，更未说明是‘稳步增加’。由于文中缺乏关于后续发展或数量变化的任何信息，无法判断该陈述真假，故答案为NOT GIVEN。",
+              "reason": "原文未提及数量是否稳步增加，答案为NOT GIVEN。",
+              "location_analysis": "原文仅提及2015年推出第一辆无人驾驶巴士，未提后续数量变化。",
+              "paraphrasing": "increased steadily -> 无对应内容",
+              "keywords": "driverless buses, 2015, increased steadily",
+              "evidence": [
+                "This was launched in 2015 in the town of Sion"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文并未提及2015年以来无人驾驶公交车数量稳步增长的信息，该选项无中生有。",
+                "FALSE": "原文并未提供任何关于无人驾驶公交车数量是否增长的数据，因此无法判断其错误，该选项属于信息矛盾。"
+              }
+            },
+            {
+              "id": "120161",
+              "number": 35,
+              "prompt": "On the longest postbus route in Switzerland, passengers have to change buses.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称‘在最长的邮政巴士路线上，乘客必须换乘’。然而原文段落I明确指出，这条八小时的旅程‘由一辆邮政巴士完成’（undertaken by a single postbus）。‘single postbus’直接否定了换乘的可能性，因此题干与原文矛盾，答案为FALSE。",
+              "reason": "原文说由单辆巴士完成，无需换乘，故答案为FALSE。",
+              "location_analysis": "I段强调由一辆巴士完成八小时行程，无需换乘，与题目矛盾。",
+              "paraphrasing": "passengers have to change buses -> crossed by a single postbus; an eight-hour trip undertaken by a single postbus",
+              "keywords": "longest postbus route, change buses",
+              "evidence": [
+                "Switzerland's longest postbus journey, and one of the highest, crosses four mountain passes an eight-hour trip undertaken by a single postbus."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文明确信息矛盾，原文指出乘客无需换车。",
+                "NOT GIVEN": "原文已明确给出相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120162",
+              "number": 36,
+              "prompt": "The weather on the longest postbus route is likely to include extreme weather conditions.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干说‘最长路线上的天气可能包括极端天气条件’。原文段落I描述该路线经历‘四季——从烈日到阵雨和大雪’（from burning sunshine to showers and heavy snowfalls）。‘burning sunshine’和‘heavy snowfalls’属于明显的极端天气现象，因此题干与原文信息一致，答案为TRUE。",
+              "reason": "原文明确包含多种极端天气。",
+              "location_analysis": "第九段描述最长路线经历四季，从烈日到暴雨大雪，包含极端天气。",
+              "paraphrasing": "extreme weather conditions -> from burning sunshine to showers and heavy snowfalls",
+              "keywords": "weather, longest route, extreme",
+              "evidence": [
+                "The route goes through several cantons; two languages (German and Italian); all four seasons—from burning sunshine to showers and heavy snowfalls"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到该路线包含极端天气，与题干一致，因此该选项错误。",
+                "NOT GIVEN": "原文明确提及极端天气条件，题干信息有据可查，并非未提及。"
+              }
+            },
+            {
+              "id": "120163",
+              "number": 37,
+              "prompt": "There is a widely used nickname for part of the longest route used by postbuses.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称‘最长路线的部分路段有一个广为人知的昵称’。原文段落I提到，其中一座山口Gotthard‘常被称为人民之路’（often described as the People's Road）。‘People's Road’即为该路段的昵称，且‘often described’表明其被广泛使用，因此题干正确，答案为TRUE。",
+              "reason": "题目与原文一致，答案为TRUE。",
+              "location_analysis": "原文提到Gotthard山口常被称为“人民之路”，即绰号。",
+              "paraphrasing": "widely used nickname -> often described as the People's Road",
+              "keywords": "widely used nickname, part of the longest route, postbuses",
+              "evidence": [
+                "One of the passes, the Gotthard, is often described as the People's Road"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项声称没有广泛使用的昵称，与原文中明确提到有昵称的信息矛盾。",
+                "NOT GIVEN": "该选项表示原文未提及昵称的存在，但原文实际上给出了相关信息，因此不成立。"
+              }
+            },
+            {
+              "id": "120164",
+              "number": 38,
+              "prompt": "Bus drivers' training can be shortened if they have driven buses before joining PostBus.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干认为‘如果司机之前有驾驶经验，培训时间可以缩短’。但原文段落J开头就强调：‘无论他们之前的驾驶经验如何，司机都要接受大量培训’（Irrespective of their previous driving experience, drivers undergo lots of training）。‘Irrespective of’明确排除了经验对培训时长的影响，因此题干与原文矛盾，答案为FALSE。",
+              "reason": "原文未提及可缩短培训，信息矛盾，答案为FALSE。",
+              "location_analysis": "J段强调无论之前经验如何，均需大量培训且需两年安全驾驶后才能开山路，未提缩短期。",
+              "paraphrasing": "shortened -> Irrespective of their previous driving experience, drivers undergo lots of training; no mention of shortening",
+              "keywords": "drivers' training, shortened, previous driving experience",
+              "evidence": [
+                "Irrespective of their previous driving experience,drivers undergo lots of training."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文并无关于先前驾驶经验可缩短培训的说法，该选项属于无中生有。",
+                "NOT GIVEN": "原文明确否定了该观点，而非未提及，因此NOT GIVEN不正确。"
+              }
+            },
+            {
+              "id": "120165",
+              "number": 39,
+              "prompt": "ln some villages most passengers are school children.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称‘在一些村庄，大多数乘客是学童’。原文段落K确实提到巴士‘接送村里的孩子上下学’，但也同时运送村民、邮件、牛奶、垃圾和建材等。文中并未说明学童是否占‘大多数’乘客，也未提供任何比例数据，因此无法确认该说法，答案为NOT GIVEN。",
+              "reason": "原文未给出比例信息，答案为NOT GIVEN。",
+              "location_analysis": "原文仅提及校车功能，未说学生是大多数乘客。",
+              "paraphrasing": "most passengers are school children -> 无对应内容",
+              "keywords": "some villages, most passengers, school children",
+              "evidence": [
+                "It not only carries the villagers to town and back, it takes village children to and from school"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及村庄乘客构成，无法确认大多数是学童。",
+                "FALSE": "原文未提供信息证明该陈述错误，不能判断为假。"
+              }
+            },
+            {
+              "id": "120166",
+              "number": 40,
+              "prompt": "Buses carry only rubbish that can be recycled.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干声称‘巴士只运送可回收的垃圾’。原文段落K仅提到‘从村庄收集垃圾’（collects rubbish from the village），并解释这是因为‘瑞士法律不允许在山区随意倾倒’。但全文未提及垃圾类型，也未说明是否‘只’收可回收物。因此，关于回收的限定信息在文中缺失，答案为NOT GIVEN。",
+              "reason": "原文未涉及回收信息，答案为NOT GIVEN。",
+              "location_analysis": "原文只说收集垃圾，未提及是否只回收可循环物。",
+              "paraphrasing": "only rubbish that can be recycled -> 无对应内容",
+              "keywords": "buses carry, rubbish, recycled",
+              "evidence": [
+                "collects rubbish from the village (Swiss laws do not allow dumping anywhere in the mountains)"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及公交车只运载可回收垃圾，该选项无依据。",
+                "FALSE": "原文未提及公交车运载不可回收垃圾，无法判断其虚假。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "THE ROLE OF THE SWISS POSTBUS",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Switzerland's postbuses are much more than just a means of public transportation.",
+          "translation": "瑞士的邮政巴士远不仅仅是一种公共交通工具。"
+        },
+        {
+          "index": 3,
+          "sentence": "The Swiss PostBus Limited is the largest of the country's 78 coach companies.",
+          "translation": "瑞士邮政巴士有限公司是该国78家长途汽车公司中最大的一家。"
+        },
+        {
+          "index": 4,
+          "sentence": "Administered by the Motor Services Department of the Post Office, it carries over 120 million passengers each year and is carefully integrated with other public transport services: trains, boats and mountain cableways.",
+          "translation": "由邮局机动车服务部门管理，它每年运送超过1.2亿名乘客，并与火车、轮船和山区缆车等其他公共交通服务精心整合。"
+        },
+        {
+          "index": 5,
+          "sentence": "The Swiss transportation system resembles a tree, with the larger branches representing federal and private railways, the smaller branches being the coaches, and the twigs being the urban transit operators running trams, city buses, boats, chairlifts and so on.",
+          "translation": "瑞士的交通系统就像一棵树，较大的树枝代表联邦和私营铁路，较小的树枝是长途汽车，而细枝则是运营有轨电车、城市公交车、轮船、缆椅等的城市交通运营商。"
+        },
+        {
+          "index": 6,
+          "sentence": "But the trunk that holds the tree together is the vast postbus network, without which the whole network would not function.",
+          "translation": "但将这棵树连在一起的树干是庞大的邮政巴士网络，没有它，整个系统就无法运作。"
+        },
+        {
+          "index": 7,
+          "sentence": "The Swiss PostBus Limited is the largest of the country's 78 coach companies.",
+          "translation": "瑞士邮政巴士有限公司是该国78家长途客车公司中规模最大的。"
+        },
+        {
+          "index": 8,
+          "sentence": "Administered by the Motor Services Department of the Post Office, it carries over 120 million passengers each year and is carefully integrated with other public transport services: trains, boats and mountain cableways.",
+          "translation": "由邮政局的机动车服务部管理，它每年运送超过1.2亿名乘客，并与其他公共交通服务——火车、轮船和山区缆车——精心整合。"
+        },
+        {
+          "index": 9,
+          "sentence": "The Swiss transportation system resembles a tree, with the larger branches representing federal and private railways, the smaller branches being the coaches, and the twigs being the urban transit operators running trams, city buses, boats, chairlifts and so on.",
+          "translation": "瑞士的交通系统就像一棵树，较大的树枝代表联邦和私营铁路，较小的树枝代表长途客车，而细枝则代表运营有轨电车、城市公交车、轮船、缆车等城市交通运营商。"
+        },
+        {
+          "index": 10,
+          "sentence": "But the trunk that holds the tree together is the vast postbus network, without which the whole network would not function.",
+          "translation": "但将这棵树维系在一起的树干是庞大的邮政巴士网络，没有它，整个网络将无法运作。"
+        },
+        {
+          "index": 11,
+          "sentence": "There isn't an inhabited place in Switzerland that cannot be reached by some sort of public transport.",
+          "translation": "在瑞士，没有一个人口居住地是无法通过某种公共交通工具到达的。"
+        },
+        {
+          "index": 12,
+          "sentence": "Federal law and the Swiss Constitution stipulate that every village with a population greater than 40 is entitled to regular bus services.",
+          "translation": "联邦法律和瑞士宪法规定，每个居民超过40人的村庄都有权获得定期的巴士服务。"
+        },
+        {
+          "index": 13,
+          "sentence": "The frequency of these services is directly related to population density.",
+          "translation": "这些服务的频率直接与人口密度相关。"
+        },
+        {
+          "index": 14,
+          "sentence": "Timetables are put together four years in advance, and seldom change.",
+          "translation": "时间表提前四年制定，很少发生变化。"
+        },
+        {
+          "index": 15,
+          "sentence": "If a new route is to be introduced, the population of the area affected is invited to vote in a referendum.",
+          "translation": "如果要引入一条新路线，受影响的地区居民将被邀请在全民公投中投票。"
+        },
+        {
+          "index": 16,
+          "sentence": "At times, postbuses are the main—sometimes the only - links between settlements.",
+          "translation": "有时，邮政巴士是定居点之间的主要——有时甚至是唯一的——连接纽带。"
+        },
+        {
+          "index": 17,
+          "sentence": "These coaches, often with a trailer in tow to increase their capacity, are a common sight in high-altitude regions, and their signature sound - part of Rossini's William Tell Overture, played by the drivers on three-tone post horns with electrical compressors at every road turn—is one of the most familiar Swiss sounds.",
+          "translation": "这些客车通常拖挂一辆拖车以增加运力，在高海拔地区是常见景象；其标志性声音——司机在每个道路转弯处通过电压缩机驱动的三音邮政喇叭演奏的罗西尼《威廉·退尔》序曲片段——是瑞士最耳熟能详的声音之一。"
+        },
+        {
+          "index": 18,
+          "sentence": "At times, postbuses are the main—sometimes the only - links between settlements.",
+          "translation": "有时，邮政巴士是居民点之间的主要——有时是唯一——连接方式。"
+        },
+        {
+          "index": 19,
+          "sentence": "These coaches, often with a trailer in tow to increase their capacity, are a common sight in high-altitude regions, and their signature sound - part of Rossini's William Tell Overture, played by the drivers on three-tone post horns with electrical compressors at every road turn—is one of the most familiar Swiss sounds.",
+          "translation": "这些长途客车通常拖带挂车以增加运载能力，在高海拔地区十分常见，而其标志性的声音——司机在每一个道路转弯处使用配备电动压缩机的三音邮政喇叭演奏罗西尼的《威廉·退尔》序曲片段——是瑞士最熟悉的声音之一。"
+        },
+        {
+          "index": 21,
+          "sentence": "The three-tone horns can still be used to ‘talk’ to post offices (and each other)from a distance.",
+          "translation": "三音喇叭仍然可以被用来从远处与邮局（以及彼此之间）‘交谈’。"
+        },
+        {
+          "index": 22,
+          "sentence": "By altering the combination of the tones, a driver can announce 'departure of post', 'arrival of post','arrival of special post' , and so on- so much more romantic and often more reliable than radio or mobile phones.'",
+          "translation": "通过改变音调的组合，司机可以宣告‘邮件出发’、‘邮件到达’、‘特殊邮件到达’等——这比无线电或手机浪漫得多，而且通常也更可靠。"
+        },
+        {
+          "index": 23,
+          "sentence": "This musical 'language' started in the mid-nineteenth century, when the coach drivers could also blow their horns a certain number of times on approaching the station to indicate the number of horses needing to be fed, giving the stationmaster time to prepare the fodder.",
+          "translation": "这种音乐般的‘语言’始于19世纪中期，当时马车夫在接近车站时也会吹响一定次数的喇叭，以指示需要喂食的马匹数量，从而给站长时间准备饲料。"
+        },
+        {
+          "index": 24,
+          "sentence": "The postbus history goes back to 1849, when the Swiss postal service was made a monopoly.",
+          "translation": "邮政巴士的历史可追溯至1849年，当时瑞士邮政服务被定为垄断行业。"
+        },
+        {
+          "index": 25,
+          "sentence": "The role of today's modern yellow buses was, back then, played by horse-drawn carriages (or in winter by sleighs, in order to travel on snow), which were the same colour.",
+          "translation": "如今现代化黄色巴士的角色，在当时由相同颜色的马车（冬季则为便于在雪上行驶的雪橇）承担。"
+        },
+        {
+          "index": 26,
+          "sentence": "By 1914, eight years after the first motor coaches were introduced , there were still 2,500 horses, 2,231 coaches (or carriages) and1,059 sleighs in service.",
+          "translation": "到1914年，即首批机动客车引入八年后，仍有2500匹马、2231辆马车和1059辆雪橇在运营。"
+        },
+        {
+          "index": 27,
+          "sentence": "The postbus history goes back to 1849, when the Swiss postal service was made a monopoly.",
+          "translation": "邮政巴士的历史可以追溯到1849年，当时瑞士邮政服务被定为垄断行业。"
+        },
+        {
+          "index": 28,
+          "sentence": "The role of today's modern yellow buses was, back then, played by horse-drawn carriages (or in winter by sleighs, in order to travel on snow), which were the same colour.",
+          "translation": "如今现代化黄色巴士的角色，在当时由同样颜色的马车（或在冬季为在雪中行驶而使用雪橇）扮演。"
+        },
+        {
+          "index": 29,
+          "sentence": "By 1914, eight years after the first motor coaches were introduced , there were still 2,500 horses, 2,231 coaches (or carriages) and1,059 sleighs in service.",
+          "translation": "到1914年，即第一辆机动客车引入八年后，仍有2500匹马、2231辆客车（或马车）和1059辆雪橇在使用中。"
+        },
+        {
+          "index": 31,
+          "sentence": "After the First World War, Swiss Post bought a fleet of decommissioned military trucks which were converted into postbuses, but it was not until 1961 that the last horse-drawn coach was replaced with a motorised version.",
+          "translation": "第一次世界大战后，瑞士邮政购买了一批退役军用卡车，将其改装成邮政巴士，但直到1961年，最后一辆马拉马车才被机动化版本取代。"
+        },
+        {
+          "index": 33,
+          "sentence": "Today, the Swiss Post Office boasts one of the world's most advanced coach fleets, including",
+          "translation": "如今，瑞士邮政拥有世界上最先进的客车车队之一，包括"
+        },
+        {
+          "index": 34,
+          "sentence": "fuel-cell models and the world's first driverless bus.",
+          "translation": "包括燃料电池车型以及世界上首辆无人驾驶巴士。"
+        },
+        {
+          "index": 35,
+          "sentence": "This was launched in 2015 in the town of Sion, the capital of the canton of Valais, one of the 26 cantons, or administrative regions, that make up the country.",
+          "translation": "这辆巴士于2015年在瓦莱州的首府锡永镇投入使用，瓦莱州是构成该国的26个州（即行政区）之一。"
+        },
+        {
+          "index": 37,
+          "sentence": "Postbuses often go to places that other means of transport cannot reach.",
+          "translation": "邮政巴士经常前往其他交通工具无法到达的地方。"
+        },
+        {
+          "index": 38,
+          "sentence": "Most of the drivers therefore see themselves as educators and tour guides.",
+          "translation": "因此，大多数司机将自己视为教育者和导游。"
+        },
+        {
+          "index": 39,
+          "sentence": "Although it’s not in their jobs description, they're likely to point out the sights —waterfalls, gorges, and so on— and are always ready to pullover for a photo opportunity.",
+          "translation": "尽管这并不在他们的工作职责范围内，但他们往往会指出沿途的景点——如瀑布、峡谷等——并且随时准备靠边停车以提供拍照机会。"
+        },
+        {
+          "index": 40,
+          "sentence": "Switzerland's longest postbus journey, and one of the highest, crosses four mountain passes an eight-hour trip undertaken by a single postbus.",
+          "translation": "瑞士最长的邮政巴士旅程，也是海拔最高的旅程之一，由一辆邮政巴士在八小时内穿越四个山口。"
+        },
+        {
+          "index": 41,
+          "sentence": "The route goes through several cantons; two languages (German and Italian); all four seasons—from burning sunshine to showers and heavy snowfalls; and countless places of interest.",
+          "translation": "这条路线穿越多个州；涉及两种语言（德语和意大利语）；经历所有四个季节——从烈日炎炎到阵雨和大雪；以及无数名胜景点。"
+        },
+        {
+          "index": 42,
+          "sentence": "One of the passes, the Gotthard, is often described as the People's Road , probably because it connects the German-speaking canton of Uri with Italian-speaking Ticino.",
+          "translation": "其中一条山口，哥达山口，常被称为人民之路，很可能是因为它连接了说德语的乌里州和说意大利语的提契诺州。"
+        },
+        {
+          "index": 43,
+          "sentence": "Like Switzerland itself, postbuses 'speak all four state languages:German, French,Italian and Romansh —and, by law, their automated intercom announcements are given in the language of whichever canton the bus is currently passing through.",
+          "translation": "和瑞士本身一样，邮政巴士使用所有四种官方语言：德语、法语、意大利语和罗曼什语——并且根据法律，其自动对讲公告以巴士当前行驶所在州的语言播报。"
+        },
+        {
+          "index": 44,
+          "sentence": "Switzerland's longest postbus journey, and one of the highest, crosses four mountain passes an eight-hour trip undertaken by a single postbus.",
+          "translation": "瑞士最长的邮政巴士路线，同时也是海拔最高的路线之一，穿越四个山口，是一辆邮政巴士单独执行的八小时行程。"
+        },
+        {
+          "index": 45,
+          "sentence": "The route goes through several cantons; two languages (German and Italian); all four seasons—from burning sunshine to showers and heavy snowfalls; and countless places of interest.",
+          "translation": "这条路线穿越数个州；涵盖两种语言（德语和意大利语）；经历四季——从灼热的阳光到阵雨和大雪；并经过无数景点。"
+        },
+        {
+          "index": 46,
+          "sentence": "One of the passes, the Gotthard, is often described as the People's Road , probably because it connects the German-speaking canton of Uri with Italian-speaking Ticino.",
+          "translation": "其中一处山口——圣哥达山口，常被描述为“人民之路”，可能是因为它连接了讲德语的乌里州和讲意大利语的提契诺州。"
+        },
+        {
+          "index": 47,
+          "sentence": "Like Switzerland itself, postbuses 'speak all four state languages:German, French,Italian and Romansh —and, by law, their automated intercom announcements are given in the language of whichever canton the bus is currently passing through.",
+          "translation": "正如瑞士本身一样，邮政巴士“说”所有四种官方语言：德语、法语、意大利语和罗曼什语——而且根据法律，它们的自动车内广播会以巴士当前所经过的州的当地语言播报。"
+        },
+        {
+          "index": 48,
+          "sentence": "The Swiss PostBus Limited is the largest of the country's 78 coach companies.",
+          "translation": "瑞士邮政巴士有限公司是该国78家长途汽车公司中规模最大的。"
+        },
+        {
+          "index": 49,
+          "sentence": "Administered by the Motor Services Department of the Post Office, it carries over 120 million passengers each year and is carefully integrated with other public transport services: trains, boats and mountain cableways.",
+          "translation": "它由邮政局的机动车服务部门管理，每年运送超过1.2亿名乘客，并与火车、轮船和山地缆车等其他公共交通服务紧密整合。"
+        },
+        {
+          "index": 50,
+          "sentence": "The Swiss transportation system resembles a tree, with the larger branches representing federal and private railways, the smaller branches being the coaches, and the twigs being the urban transit operators running trams, city buses, boats, chairlifts and so on.",
+          "translation": "瑞士的交通系统就像一棵树，较大的枝干代表联邦铁路和私营铁路，较小的枝干代表长途汽车，而细枝则代表运营有轨电车、城市公交车、轮船、缆车等的城市交通运营商。"
+        },
+        {
+          "index": 51,
+          "sentence": "But the trunk that holds the tree together is the vast postbus network, without which the whole network would not function.",
+          "translation": "但将整棵树维系在一起的树干是庞大的邮政巴士网络，没有它，整个交通系统就无法运转。"
+        },
+        {
+          "index": 52,
+          "sentence": "Irrespective of their previous driving experience, drivers undergo lots of training.",
+          "translation": "无论他们之前的驾驶经验如何，司机们都要接受大量培训。"
+        },
+        {
+          "index": 53,
+          "sentence": "During the first year, they have to drive postbuses under the supervision of a more experienced driver.",
+          "translation": "在第一年，他们必须在一位更有经验的司机的监督下驾驶邮政巴士。"
+        },
+        {
+          "index": 54,
+          "sentence": "Only after two years of safe driving in the valleys can they be pronounced ready for a mountain bus.",
+          "translation": "只有在山谷中安全驾驶两年后，他们才能被认定为准备好驾驶山地巴士。"
+        },
+        {
+          "index": 55,
+          "sentence": "Some routes are not at all busy, with the bus often carrying just two or three passengers at a time.",
+          "translation": "有些线路完全算不上繁忙，公共汽车往往一次只搭载两三名乘客。"
+        },
+        {
+          "index": 56,
+          "sentence": "But for most people living in small mountain villages, the postbus is of the utmost importance.",
+          "translation": "但对于生活在山区小村庄的大多数人来说，邮政巴士至关重要。"
+        },
+        {
+          "index": 57,
+          "sentence": "It not only carries the villagers to town and back, it takes village children to and from school, delivers mail, transports milk from the village farms down to the valley, collects rubbish from the village (Swiss laws do not allow dumping anywhere in the mountains), and brings building materials to households.",
+          "translation": "它不仅运送村民往返城镇，还接送村里的孩子上下学、投递邮件、将牛奶从村中农场运到山谷、清理村里的垃圾（瑞士法律不允许在山上的任何地方倾倒垃圾），并为住户运送建筑材料。"
+        },
+        {
+          "index": 58,
+          "sentence": "It takes elderly villagers to shops and carries their shopping up the hill to their homes.",
+          "translation": "它载着年长的村民去商店，并把他们的购物物品运上山送到家里。"
+        },
+        {
+          "index": 59,
+          "sentence": "More a friend than just a means of transportation, for the dwellers of mountain villages the postbus is an essential part of life.",
+          "translation": "对于山村的居民来说，邮政巴士不仅仅是一种交通工具，更像是一位朋友，是生活中不可或缺的一部分。"
+        },
+        {
+          "index": 60,
+          "sentence": "Some routes are not at all busy, with the bus often carrying just two or three passengers at a time.",
+          "translation": "有些线路并不繁忙，公交车往往一次只载两三名乘客。"
+        },
+        {
+          "index": 61,
+          "sentence": "But for most people living in small mountain villages, the postbus is of the utmost importance.",
+          "translation": "但对于居住在小山村的大多数人来说，邮政巴士至关重要。"
+        },
+        {
+          "index": 62,
+          "sentence": "It not only carries the villagers to town and back, it takes village children to and from school, delivers mail, transports milk from the village farms down to the valley, collects rubbish from the village (Swiss laws do not allow dumping anywhere in the mountains), and brings building materials to households.",
+          "translation": "它不仅将村民送往城镇并接回，还接送村里的孩子上下学、运送邮件、将村庄农场的牛奶运到山谷、收集村庄的垃圾（瑞士法律不允许在山区任何地方倾倒垃圾），并为住户运送建筑材料。"
+        },
+        {
+          "index": 63,
+          "sentence": "It takes elderly villagers to shops and carries their shopping up the hill to their homes.",
+          "translation": "它将年长的村民送到商店，并把他们的购物物品运上山送到家中。"
+        },
+        {
+          "index": 64,
+          "sentence": "More a friend than just a means of transportation, for the dwellers of mountain villages the postbus is an essential part of life.",
+          "translation": "对于山村的居民来说，邮政巴士与其说是一种交通工具，不如说是一位朋友，它是生活中不可或缺的一部分。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

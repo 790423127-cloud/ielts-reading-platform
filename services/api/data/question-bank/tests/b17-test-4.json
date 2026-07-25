@@ -1,0 +1,2959 @@
+{
+  "id": "b17-test-4",
+  "book": "剑雅17",
+  "book_number": 17,
+  "name": "Test 4",
+  "title": "剑雅17 Test 4",
+  "parts": [
+    {
+      "id": "1895",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Outdoor activities for all the family",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A Perry Forest",
+          "translation": "A 佩里森林"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Our walks cater for all ages and all degrees of fitness, and are suitable for children as well as adults. Every Saturday and Sunday throughout the year our experts lead several walks. So whether you want a short stroll on level ground, or a more challenging walk to the top of Shepherds Hill, we have something for you.",
+          "translation": "我们的步行活动适合所有年龄段和不同健康程度的人群，既适合儿童也适合成人。\n全年每个周六和周日，我们的专家都会带领多次步行活动。\n因此，无论您想在平地上短距离散步，还是进行更具挑战性的步行前往牧羊人山山顶，我们都有适合您的选择。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B Pugsley Beach Nature Reserve",
+          "translation": "B 帕格斯利海滩自然保护区"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The reserve has plenty of wildlife, whatever the time of year, with its numerous species of birds, and plants that grow hardly anywhere else, but the autumn is when hundreds of grey seals arrive on the beach to have their young. The covered viewing area offers spectacular close-up views of all this,and hot drinks and snacks are available to help you keep warm.",
+          "translation": "带顶棚的观景区提供了所有这些景象的壮观近距离视野，并且提供热饮和小吃，帮助您保暖。\n该保护区全年都拥有丰富的野生动物资源，包括众多鸟类以及几乎在其他地方无法生长的植物，但秋季是数百只灰海豹来到海滩产崽的时候。\n有顶棚的观赏区提供了这一切的壮观近距离视野，并且提供热饮和小吃以帮助您保暖。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C Marston Hall"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "If you ever wonder what wildlife trusts do for the environment, come to Marston Hall, where our rangers will show you how they manage wildlife habitats, from providing feeding boxes for squirrels to creating ponds for frogs and many other creatures. They'll also take you on a short walk through the ancient pine forest in search of animal tracks and signs.",
+          "translation": "他们还会带您穿行于古老的松林，进行一段短途步行，寻找动物的踪迹和迹象。\n如果你曾好奇野生生物信托机构为环境做了什么，那就来马斯顿厅吧，我们的护林员将向你展示他们如何管理野生生物栖息地——从为松鼠提供喂食箱到为青蛙和许多其他生物建造池塘。\n他们还会带你短途穿越古老的松林，寻找动物的足迹和迹象。\n如果你曾好奇野生动物信托机构为环境做了哪些贡献，请来马斯顿庄园，我们的护林员将向你展示他们如何管理野生动物栖息地，从为松鼠提供喂食盒到为青蛙和许多其他生物建造池塘。\n他们还会带你短途穿越古老的松树林，寻找动物的足迹和迹象。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D Craven Discovery Centre",
+          "translation": "D 克雷文探索中心"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Here at the discovery centre, youngsters are introduced to the animals in our petting zoo, where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood.Meanwhile,the adults can take part in one of our woodland activities, such as learning basic woodworking skills.",
+          "translation": "然后他们会被带着穿行于林地中散步。\n与此同时，成年人可以参加我们的林地活动之一，例如学习基本的木工技能。\n在探索中心，孩子们被介绍到我们的宠物动物园，在那里他们可以抚摸或喂养绵羊、兔子、小马和其他动物居民。\n然后，他们被带去看穿越树林的散步。\n同时，成年人可以参加我们的森林活动之一，例如学习基本的木工技能。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E Shelford Family wild Outing",
+          "translation": "E 谢尔福德家庭野外郊游"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Go birdwatching or catch insects as daylight fades, then have a gentle jog along the River Wale by moonlight, and end by toasting marshmallows on a campfire. It's all part of a Family wild outing in Shelford, organised by the local wildlife trust. Ideal for both adults and children.",
+          "translation": "这都是谢尔福德家庭野外郊游的一部分，由当地野生动物信托机构组织。\n适合成人和儿童。\n在白天渐暗时观鸟或捕捉昆虫，然后在月光下沿着威尔河慢跑，最后在篝火上烤棉花糖作为结束。\n这一切都是当地野生动物信托基金会在谢尔福德组织的家庭野外郊游的一部分。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F Garston Park",
+          "translation": "F 加斯顿公园"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Come to Garston Park when the sun has set and explore the solar system. Ideal for children -and their parents - who are interested in astronomy. Our experts will help you to find your way among the stars, and then we gather in the visitor centre for refreshments. Please note that events are cancelled if the weather is cloudy.",
+          "translation": "对于对天文学感兴趣的儿童及其父母来说，这是一个理想的选择。\n我们的专家将帮助您在星空中找到方向，然后我们聚集在游客中心享用茶点。\n请注意，如果天气多云，活动将被取消。\n日落时分来到加斯顿公园，探索太阳系。\n适合对天文学感兴趣的孩子及其家长。\n我们的专家将帮助你在群星中辨别方向，随后我们会在游客中心集合享用茶点。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Hinchingbrooke School Sixth Form",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "欣钦布鲁克学校高中部"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Hinchingbrooke School consists of the lower school, for students aged 11 to 16, and the sixth form, for ages 16 to 18+. In the sixth form we provide a strong programme of guidance for students, whether they are planning on going to university, into training or straight into the workplace. We have a high rate of success with applications to universities, including growing success in recent years for medical school applicants.",
+          "translation": "在高中部，我们为学生提供强有力的指导计划，无论他们计划上大学、接受培训还是直接进入职场。\n我们在大学申请方面有很高的成功率，包括近年来医学院申请者越来越成功。\n欣钦布鲁克学校由面向11至16岁学生的低年级部和面向16至18岁以上学生的第六学级组成。\n在第六学级，我们为学生提供强有力的指导计划，无论他们计划上大学、接受培训还是直接进入职场。\n我们在大学申请方面成功率很高，包括近年来医学院申请者的成功率不断上升。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "While the majority of sixth-form students enter from the lower school, recent significant expansion of the sixth form is largely the result of an increase in applicants from other schools in the area. We pride ourselves on giving these external students a particularly warm welcome. We welcome your interest in joining our sixth form and look forward to offering you a place if you satisfy our minimum entry requirements.",
+          "translation": "我们以给予这些校外学生特别热情的欢迎而自豪。\n我们欢迎您对加入我们高中部的兴趣，并期待如果您满足我们的最低入学要求，为您提供一个名额。\n尽管大多数六年级学生来自本校低年级，但近期六年级的显著扩张主要归因于来自该地区其他学校的申请者增加。\n我们以给予这些外校学生特别热情的欢迎而自豪。\n我们欢迎您对加入我们六年级的兴趣，并期待如果您满足最低入学要求，为您提供一个名额。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "If you are an internal student, please apply through the MyChoice16 application system. This is also where external students need to view course information. If you are an external student whose current school does not use MyChoice16 for online applications, please see our website for an application form to the school. We hold an annual Open Evening in the autumn term when you can come and view our facilities and ask any questions you may have.",
+          "translation": "这也是校外学生需要查看课程信息的地方。\n如果你是校外学生且当前学校不使用MyChoice16进行在线申请，请访问我们的网站获取学校申请表格。\n我们在秋季学期举办年度开放之夜，届时您可以前来参观我们的设施并提出任何问题。\n如果你是本校学生，请通过MyChoice16申请系统进行申请。\n这也是外校学生需要查看课程信息的地方。\n如果你是一名外校学生，且当前学校未使用MyChoice16进行在线申请，请查阅我们的网站以获取学校的申请表。\n我们在秋季学期举办一年一度的开放之夜活动，届时你可以前来参观我们的设施并提出任何问题。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Care, guidance and support in the sixth form at Hinchingbrooke is something of which we are very proud, and each of our students is treated as an individual. You will be assigned a professional sixth-form tutor who will provide you with support and guidance, and will be responsible for helping you make sensible choices about your future career path.",
+          "translation": "您将被指派一名专业的高中部导师，他将为您提供支持和指导，并负责帮助您对未来职业道路做出明智的选择。\n在欣钦布鲁克学校的第六学级，关怀、指导和支持是我们引以为豪的事，每位学生都被当作独立的个体对待。\n你将被分配一位专业的第六学级导师，为你提供支持和指导，并负责帮助你为自己的未来职业道路做出明智的选择。\n在欣钦布鲁克学校的第六学级，我们所提供的关怀、指导和支持令我们倍感自豪，每位学生都得到个性化的对待。\n你将被指派一名专业的第六学级导师，他将为你提供支持和指导，并负责帮助你为自己的未来职业道路做出明智的选择。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement. You will also set targets for yourself, in agreement with your tutor and subject teachers,and your progress towards achieving these targets will be monitored in your tutor meetings.",
+          "translation": "您还将与导师和学科老师协商设定自己的目标，并且您在实现这些目标方面的进展将在导师会议中得到监督。\n您将每两周在固定时间与导师会面，讨论您的进步以及您或您的学科老师对您努力和成绩可能存在的任何担忧。\n您还将在与导师和学科老师达成一致的情况下为自己设定目标，\n您实现这些目标的进展将在导师会议中得到监督。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13848",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 7\nThe text has six advertisements, A-F.\nWhich advertisement mentions the following?\nWrite the correct letter, A-F, in boxes 1-7 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119809",
+              "number": 1,
+              "prompt": "running in the evening",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“running in the evening”对应广告E中“have a gentle jog along the River Wale by moonlight”，其中“jog”即慢跑，“by moonlight”表明是在夜晚进行，符合“evening”的时间设定，因此正确答案是E。",
+              "reason": "原文描述月光下慢跑，符合'evening'。",
+              "location_analysis": "题干'evening'对应原文'moonlight'，'running'对应'gentle j...",
+              "paraphrasing": "running in the evening -> gentle jog along the River Wale by moonlight",
+              "keywords": "evening, run",
+              "evidence": [
+                "Go birdwatching or catch insects as daylight fades, then have a gentle jog along the River Wale by moonlight, and end by toasting marshmallows on a campfire."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119810",
+              "number": 2,
+              "prompt": "seeing newborn animals",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求找出提及“seeing newborn animals”的广告，而广告B中提到“hundreds of grey seals arrive on the beach to have their young”，即灰海豹在海滩上产仔，这正是观察新生动物的情景，因此答案为B。",
+              "reason": "描述海豹产仔，即新生儿。",
+              "location_analysis": "题干'newborn animals'对应原文'have their young'。",
+              "paraphrasing": "seeing newborn animals -> grey seals arrive on the beach to have their young",
+              "keywords": "newborn, animals",
+              "evidence": [
+                "the autumn is when hundreds of grey seals arrive on the beach to have their young."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119811",
+              "number": 3,
+              "prompt": "parents and children doing different activities at the same time",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干描述的是“parents and children doing different activities at the same time”，广告D中明确指出孩子们在宠物动物园互动，同时（Meanwhile）成年人参加林地活动如木工课程，两者在同一时间段进行不同活动，完全符合题意，故答案为D。",
+              "reason": "同时段孩子和家长不同活动。",
+              "location_analysis": "孩子参加petting zoo，同时成人参与woodland activities。",
+              "paraphrasing": "parents and children doing different activities -> youngsters are introduced to the animals... Meanwhile, the adults can take part in one of our woodland activities",
+              "keywords": "parents, children, different activities, same time",
+              "evidence": [
+                "Here at the discovery centre, youngsters are introduced to the animals in our petting zoo, where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood.Meanwhile,the adults can take part in one of our woodland activities, such as learning basic woodworking skills."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119812",
+              "number": 4,
+              "prompt": "choosing from alternative routes",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“choosing from alternative routes”对应广告A中“whether you want a short stroll on level ground, or a more challenging walk to the top of Shepherds Hill”，表明游客可根据自身情况选择不同难度的路线，因此答案为A。",
+              "reason": "提供不同路线选择。",
+              "location_analysis": "'short stroll'或'challenging walk'表示可选路线。",
+              "paraphrasing": "choosing from alternative routes -> whether you want a short stroll on level ground, or a more challenging walk to the top of Shepherds Hill",
+              "keywords": "alternative, routes",
+              "evidence": [
+                "So whether you want a short stroll on level ground, or a more challenging walk to the top of Shepherds Hill, we have something for you."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119813",
+              "number": 5,
+              "prompt": "learning about how other people help animals",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出“learning about how other people help animals”的广告，广告C提到护林员（rangers）展示如何管理野生动物栖息地，例如为松鼠提供喂食箱、为青蛙建造池塘等，这正是了解他人如何帮助动物的内容，因此答案为C。",
+              "reason": "展示护林员如何管理栖息地、帮助动物。",
+              "location_analysis": "题干'other people'对应原文'their rangers'，'help anima...",
+              "paraphrasing": "learning about how other people help animals -> our rangers will show you how they manage wildlife habitats",
+              "keywords": "learning, how, other people, help, animals",
+              "evidence": [
+                "If you ever wonder what wildlife trusts do for the environment, come to Marston Hall, where our rangers will show you how they manage wildlife habitats, from providing feeding boxes for squirrels to creating ponds for frogs and many other creatures."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119814",
+              "number": 6,
+              "prompt": "an event occurring only at a certain time of the year",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“an event occurring only at a certain time of the year”对应广告B中“the autumn is when hundreds of grey seals arrive on the beach to have their young”，说明海豹产仔这一事件仅在秋季发生，具有季节限定性，因此答案为B。",
+              "reason": "事件仅发生在秋季。",
+              "location_analysis": "题干'only at a certain time'对应原文'the autumn'。",
+              "paraphrasing": "occurring only at a certain time of the year -> the autumn",
+              "keywords": "only, certain, time, year",
+              "evidence": [
+                "but the autumn is when hundreds of grey seals arrive on the beach to have their young."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119815",
+              "number": 7,
+              "prompt": "identifying where animals have been",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“identifying where animals have been”对应广告C中“search of animal tracks and signs”，即寻找动物留下的足迹和痕迹，这正是判断动物曾到过某处的方式，因此答案为C。",
+              "reason": "寻找动物足迹和标记即识别动物去过哪里。",
+              "location_analysis": "'animal tracks and signs'即动物经过留下的痕迹。",
+              "paraphrasing": "identifying where animals have been -> walk through the ancient pine forest in search of animal tracks and signs",
+              "keywords": "identifying, where, animals, been",
+              "evidence": [
+                "They'll also take you on a short walk through the ancient pine forest in search of animal tracks and signs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13853",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117293",
+              "number": 8,
+              "prompt": "Some sixth-form students intend to start work immediately after leaving school.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“Some sixth-form students intend to start work immediately after leaving school”对应原文中的“whether they are planning on going to university, into training or straight into the workplace”。其中“start work immediately”与“straight into the workplace”构成同义替换，说明确实有学生计划毕业后直接工作，因此答案为 TRUE。",
+              "reason": "原文提及'straight into the workplace'，即毕业后直接工作。",
+              "location_analysis": "题干'start work immediately'对应原文'straight into th...",
+              "paraphrasing": "start work immediately after leaving school -> straight into the workplace",
+              "keywords": "start, work, immediately",
+              "evidence": [
+                "In the sixth form we provide a strong programme of guidance for students, whether they are planning on going to university, into training or straight into the workplace."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文中明确提到的信息矛盾，原文指出有些六年级学生打算毕业后立即工作。",
+                "NOT GIVEN": "原文中明确提到了相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "117295",
+              "number": 9,
+              "prompt": "An increasing number of students are accepted at medical school.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中提到“An increasing number of students are accepted at medical school”，而原文明确指出“including growing success in recent years for medical school applicants”，其中“growing success”暗示被医学院录取的学生人数逐年增加，与题干表述一致，因此答案为 TRUE。",
+              "reason": "原文提到医学申请者成功率逐年增长。",
+              "location_analysis": "题干'increasing number'对应原文'growing success'。",
+              "paraphrasing": "An increasing number of students are accepted -> growing success in recent years for medical school applicants",
+              "keywords": "increasing, number, medical, school",
+              "evidence": [
+                "We have a high rate of success with applications to universities, including growing success in recent years for medical school applicants."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文中表示‘增加了’的信息直接矛盾。",
+                "NOT GIVEN": "原文明确提到了这一信息，并非未提及。"
+              }
+            },
+            {
+              "id": "117297",
+              "number": 10,
+              "prompt": "Most sixth-form students come from other schools.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“Most sixth-form students come from other schools”，但原文明确说明“While the majority of sixth-form students enter from the lower school”，即大多数学生来自本校初中部，而非其他学校，这与题干内容相矛盾，因此答案为 FALSE。",
+              "reason": "大多数来自本校lower school，并非其他学校。",
+              "location_analysis": "题干'most from other schools'与原文'majority ... fro...",
+              "paraphrasing": "most come from other schools -> While the majority of sixth-form students enter from the lower school",
+              "keywords": "most, sixth-form, come, other schools",
+              "evidence": [
+                "While the majority of sixth-form students enter from the lower school, recent significant expansion of the sixth form is largely the result of an increase in applicants from other schools in the area."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文表明大部分学生并非来自其他学校。",
+                "NOT GIVEN": "原文明确给出了相关事实，并非未提及。"
+              }
+            },
+            {
+              "id": "117299",
+              "number": 11,
+              "prompt": "External applicants have an interview before they can be accepted.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问外部申请者是否需面试才能被录取，但原文仅提及申请途径（如通过 MyChoice16 或官网表格）和开放晚间活动，并未说明是否需要面试。由于文中缺乏相关信息，无法判断该陈述真假，因此答案为 NOT GIVEN。",
+              "reason": "文中没有提到external applicant需要面试。",
+              "location_analysis": "原文未提及面试，故为NOT GIVEN。",
+              "paraphrasing": "",
+              "keywords": "external applicants, interview",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及外部申请者是否必须在面试后才能被接受，属于无中生有。",
+                "FALSE": "原文未提供任何关于外部申请者面试流程的信息，无法判断该说法错误。"
+              }
+            },
+            {
+              "id": "117301",
+              "number": 12,
+              "prompt": "Applications to the sixth form can only be made through the MyChoice16 website.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称“Applications to the sixth form can only be made through the MyChoice16 website”，但原文指出外部学生若所在学校不使用 MyChoice16，则可通过学校官网获取申请表提交申请。这表明申请方式并非仅限于 MyChoice16，因此题干说法错误，答案为 FALSE。",
+              "reason": "外部学生可通过网站申请，不限于MyChoice16。",
+              "location_analysis": "存在其他途径（网站申请表），并非仅MyChoice16。",
+              "paraphrasing": "only through MyChoice16 -> If you are an external student whose current school does not use MyChoice16 for online applications, please see our website for an application form to the school",
+              "keywords": "applications, only, MyChoice16",
+              "evidence": [
+                "If you are an internal student, please apply through the MyChoice16 application system.",
+                "If you are an external student whose current school does not use MyChoice16 for online applications, please see our website for an application form to the school."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文矛盾，因为申请六年级可通过多种途径，并非只能通过该网站。",
+                "NOT GIVEN": "原文明确提及了申请渠道，并非未给出相关信息。"
+              }
+            },
+            {
+              "id": "117304",
+              "number": 13,
+              "prompt": "External applicants can talk to current students at the Open Evening.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“External applicants can talk to current students at the Open Evening”，但原文仅提到开放晚间可参观设施并提问（“view our facilities and ask any questions you may have”），并未提及能与在校生交流。因缺少相关细节，无法确认该信息，故答案为 NOT GIVEN。",
+              "reason": "没有提到与在校学生交流。",
+              "location_analysis": "文中仅提到参观设施和提问，未提与在校学生交谈。",
+              "paraphrasing": "开放夜与在校学生交谈：文中未提及。",
+              "keywords": "external applicants, talk to current students, Open Evening",
+              "evidence": [
+                "We hold an annual Open Evening in the autumn term when you can come and view our facilities and ask any questions you may have."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及外部申请者能否在开放晚会上与学生交谈，无法判断是否为真。",
+                "FALSE": "原文未提供任何信息表明外部申请者不能与学生交谈，因此不能判定为假。"
+              }
+            },
+            {
+              "id": "117305",
+              "number": 14,
+              "prompt": "Students meet their tutor whenever one of them requests a meeting.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干说“Students meet their tutor whenever one of them requests a meeting”，但原文明确指出“meet with your tutor at a fixed time every fortnight”，即会面时间固定、定期进行，并非按需安排。因此题干描述与原文不符，答案为 FALSE。",
+              "reason": "固定每两周一次，并非按需会面。",
+              "location_analysis": "题干'whenever requested'与原文'fixed time every fort...",
+              "paraphrasing": "whenever one requests -> You will meet with your tutor at a fixed time every fortnight",
+              "keywords": "meet, tutor, whenever, one, requests",
+              "evidence": [
+                "You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文内容矛盾，原文表明导师会面并非由学生请求触发。",
+                "NOT GIVEN": "原文明确提供了相关信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Outdoor activities for all the family",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A Perry Forest",
+          "translation": "A 佩里森林"
+        },
+        {
+          "index": 2,
+          "sentence": "Our walks cater for all ages and all degrees of fitness, and are suitable for children as well as adults.",
+          "translation": "我们的步行活动适合所有年龄段和不同健康程度的人群，既适合儿童也适合成人。"
+        },
+        {
+          "index": 3,
+          "sentence": "Every Saturday and Sunday throughout the year our experts lead several walks.",
+          "translation": "全年每个周六和周日，我们的专家都会带领多次步行活动。"
+        },
+        {
+          "index": 4,
+          "sentence": "So whether you want a short stroll on level ground, or a more challenging walk to the top of Shepherds Hill, we have something for you.",
+          "translation": "因此，无论您想在平地上短距离散步，还是进行更具挑战性的步行前往牧羊人山山顶，我们都有适合您的选择。"
+        },
+        {
+          "index": 5,
+          "sentence": "B Pugsley Beach Nature Reserve",
+          "translation": "B 帕格斯利海滩自然保护区"
+        },
+        {
+          "index": 6,
+          "sentence": "后文：",
+          "translation": "下文："
+        },
+        {
+          "index": 7,
+          "sentence": "1. The reserve has plenty of wildlife, whatever the time of year, with its numerous species of birds, and plants that grow hardly anywhere else, but the autumn is when hundreds of grey seals arrive on the beach to have their young.",
+          "translation": "1. 无论一年中的哪个时节，保护区内都有丰富的野生动物，包括众多鸟类和几乎在其他地方无法生长的植物，但秋天是数百只灰海豹来到海滩产仔的季节。"
+        },
+        {
+          "index": 8,
+          "sentence": "The covered viewing area offers spectacular close-up views of all this, and hot drinks and snacks are available to help you keep warm.",
+          "translation": "带顶棚的观景区提供了所有这些景象的壮观近距离视野，并且提供热饮和小吃，帮助您保暖。"
+        },
+        {
+          "index": 9,
+          "sentence": "2. C Marston Hall",
+          "translation": "2. C 马斯顿大厅"
+        },
+        {
+          "index": 10,
+          "sentence": "3. If you ever wonder what wildlife trusts do for the environment, come to Marston Hall, where our rangers will show you how they manage wildlife habitats, from providing feeding boxes for squirrels to creating ponds for frogs and many other creatures.",
+          "translation": "3. 如果你曾好奇野生动物信托机构为环境做了什么，请到马斯顿大厅来，我们的护林员将向您展示他们如何管理野生动物栖息地，从为松鼠提供喂食箱到为青蛙和许多其他生物建造池塘。"
+        },
+        {
+          "index": 11,
+          "sentence": "They'll also take you on a short walk through the ancient pine forest in search of animal tracks and signs.",
+          "translation": "他们还会带您穿行于古老的松林，进行一段短途步行，寻找动物的踪迹和迹象。"
+        },
+        {
+          "index": 12,
+          "sentence": "4. D Craven Discovery Centre",
+          "translation": "4. D 克雷文探索中心"
+        },
+        {
+          "index": 13,
+          "sentence": "5. Here at the discovery centre, youngsters are introduced to the animals in our petting zoo, where they can stroke or feed the sheep, rabbits, ponies and other residents.",
+          "translation": "5. 在探索中心，年轻人将被介绍认识我们宠物动物园里的动物，在那里他们可以抚摸或喂养绵羊、兔子、小马和其他居民。"
+        },
+        {
+          "index": 14,
+          "sentence": "Then they're taken on a walk through the wood.",
+          "translation": "然后他们会被带着穿行于林地中散步。"
+        },
+        {
+          "index": 15,
+          "sentence": "Meanwhile, the adults can take part in one of our woodland activities, such as learning basic woodworking skills.",
+          "translation": "与此同时，成年人可以参加我们的林地活动之一，例如学习基本的木工技能。"
+        },
+        {
+          "index": 16,
+          "sentence": "6. E Shelford Family wild Outing",
+          "translation": "6. E 谢尔福德家庭野外郊游"
+        },
+        {
+          "index": 17,
+          "sentence": "7. Go birdwatching or catch insects as daylight fades, then have a gentle jog along the River Wale by moonlight, and end by toasting marshmallows on a campfire.",
+          "translation": "7. 在日光渐暗时去观鸟或捉昆虫，然后在月光下沿着威尔河慢跑，最后在篝火上烤棉花糖作为结束。"
+        },
+        {
+          "index": 18,
+          "sentence": "It's all part of a Family wild outing in Shelford, organised by the local wildlife trust.",
+          "translation": "这都是谢尔福德家庭野外郊游的一部分，由当地野生动物信托机构组织。"
+        },
+        {
+          "index": 19,
+          "sentence": "Ideal for both adults and children.",
+          "translation": "适合成人和儿童。"
+        },
+        {
+          "index": 20,
+          "sentence": "8. F Garston Park",
+          "translation": "8. F 加斯顿公园"
+        },
+        {
+          "index": 21,
+          "sentence": "9. Come to Garston Park when the sun has set and explore the solar system.",
+          "translation": "9. 日落时分来到加斯顿公园，探索太阳系。"
+        },
+        {
+          "index": 22,
+          "sentence": "Ideal for children - and their parents - who are interested in astronomy.",
+          "translation": "对于对天文学感兴趣的儿童及其父母来说，这是一个理想的选择。"
+        },
+        {
+          "index": 23,
+          "sentence": "Our experts will help you to find your way among the stars, and then we gather in the visitor centre for refreshments.",
+          "translation": "我们的专家将帮助您在星空中找到方向，然后我们聚集在游客中心享用茶点。"
+        },
+        {
+          "index": 24,
+          "sentence": "Please note that events are cancelled if the weather is cloudy.",
+          "translation": "请注意，如果天气多云，活动将被取消。"
+        },
+        {
+          "index": 25,
+          "sentence": "10. Hinchingbrooke School Sixth Form",
+          "translation": "10. 欣钦布鲁克学校高中部"
+        },
+        {
+          "index": 26,
+          "sentence": "11. A",
+          "translation": "11. A"
+        },
+        {
+          "index": 27,
+          "sentence": "12. Hinchingbrooke School consists of the lower school, for students aged 11 to 16, and the sixth form, for ages 16 to 18+.",
+          "translation": "12. 欣钦布鲁克学校由低年级部（面向11至16岁学生）和高中部（面向16至18岁以上学生）组成。"
+        },
+        {
+          "index": 28,
+          "sentence": "In the sixth form we provide a strong programme of guidance for students, whether they are planning on going to university, into training or straight into the workplace.",
+          "translation": "在高中部，我们为学生提供强有力的指导计划，无论他们计划上大学、接受培训还是直接进入职场。"
+        },
+        {
+          "index": 29,
+          "sentence": "We have a high rate of success with applications to universities, including growing success in recent years for medical school applicants.",
+          "translation": "我们在大学申请方面有很高的成功率，包括近年来医学院申请者越来越成功。"
+        },
+        {
+          "index": 30,
+          "sentence": "13. B",
+          "translation": "13. B"
+        },
+        {
+          "index": 31,
+          "sentence": "14. While the majority of sixth-form students enter from the lower school, recent significant expansion of the sixth form is largely the result of an increase in applicants from other schools in the area.",
+          "translation": "14. 虽然大多数高中部学生来自低年级部，但近期高中部的大幅扩招主要是由于来自本地区其他学校的申请者增加所致。"
+        },
+        {
+          "index": 32,
+          "sentence": "We pride ourselves on giving these external students a particularly warm welcome.",
+          "translation": "我们以给予这些校外学生特别热情的欢迎而自豪。"
+        },
+        {
+          "index": 33,
+          "sentence": "We welcome your interest in joining our sixth form and look forward to offering you a place if you satisfy our minimum entry requirements.",
+          "translation": "我们欢迎您对加入我们高中部的兴趣，并期待如果您满足我们的最低入学要求，为您提供一个名额。"
+        },
+        {
+          "index": 34,
+          "sentence": "15. C",
+          "translation": "15. C"
+        },
+        {
+          "index": 35,
+          "sentence": "16. If you are an internal student, please apply through the MyChoice16 application system.",
+          "translation": "16. 如果你是校内学生，请通过MyChoice16申请系统提交申请。"
+        },
+        {
+          "index": 36,
+          "sentence": "This is also where external students need to view course information.",
+          "translation": "这也是校外学生需要查看课程信息的地方。"
+        },
+        {
+          "index": 37,
+          "sentence": "If you are an external student whose current school does not use MyChoice16 for online applications, please see our website for an application form to the school.",
+          "translation": "如果你是校外学生且当前学校不使用MyChoice16进行在线申请，请访问我们的网站获取学校申请表格。"
+        },
+        {
+          "index": 38,
+          "sentence": "We hold an annual Open Evening in the autumn term when you can come and view our facilities and ask any questions you may have.",
+          "translation": "我们在秋季学期举办年度开放之夜，届时您可以前来参观我们的设施并提出任何问题。"
+        },
+        {
+          "index": 39,
+          "sentence": "17. D",
+          "translation": "17. D"
+        },
+        {
+          "index": 40,
+          "sentence": "18. Care, guidance and support in the sixth form at Hinchingbrooke is something of which we are very proud, and each of our students is treated as an individual.",
+          "translation": "18. 在欣钦布鲁克高中部，关怀、指导和支持是我们引以为傲的，每个学生都受到个别对待。"
+        },
+        {
+          "index": 41,
+          "sentence": "You will be assigned a professional sixth-form tutor who will provide you with support and guidance, and will be responsible for helping you make sensible choices about your future career path.",
+          "translation": "您将被指派一名专业的高中部导师，他将为您提供支持和指导，并负责帮助您对未来职业道路做出明智的选择。"
+        },
+        {
+          "index": 42,
+          "sentence": "19. E",
+          "translation": "19. E"
+        },
+        {
+          "index": 43,
+          "sentence": "20. You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement.",
+          "translation": "20. 您将每两周在固定时间与导师会面，讨论进展以及您或您的学科老师对您努力和成绩可能存在的任何顾虑。"
+        },
+        {
+          "index": 44,
+          "sentence": "You will also set targets for yourself, in agreement with your tutor and subject teachers, and your progress towards achieving these targets will be monitored in your tutor meetings.",
+          "translation": "您还将与导师和学科老师协商设定自己的目标，并且您在实现这些目标方面的进展将在导师会议中得到监督。"
+        },
+        {
+          "index": 45,
+          "sentence": "The reserve has plenty of wildlife, whatever the time of year, with its numerous species of birds, and plants that grow hardly anywhere else, but the autumn is when hundreds of grey seals arrive on the beach to have their young.",
+          "translation": "该保护区全年都拥有丰富的野生动物资源，包括众多鸟类以及几乎在其他地方无法生长的植物，但秋季是数百只灰海豹来到海滩产崽的时候。"
+        },
+        {
+          "index": 46,
+          "sentence": "The covered viewing area offers spectacular close-up views of all this,and hot drinks and snacks are available to help you keep warm.",
+          "translation": "有顶棚的观赏区提供了这一切的壮观近距离视野，并且提供热饮和小吃以帮助您保暖。"
+        },
+        {
+          "index": 47,
+          "sentence": "If you ever wonder what wildlife trusts do for the environment, come to Marston Hall, where our rangers will show you how they manage wildlife habitats, from providing feeding boxes for squirrels to creating ponds for frogs and many other creatures.",
+          "translation": "如果你曾好奇野生生物信托机构为环境做了什么，那就来马斯顿厅吧，我们的护林员将向你展示他们如何管理野生生物栖息地——从为松鼠提供喂食箱到为青蛙和许多其他生物建造池塘。"
+        },
+        {
+          "index": 48,
+          "sentence": "They'll also take you on a short walk through the ancient pine forest in search of animal tracks and signs.",
+          "translation": "他们还会带你短途穿越古老的松林，寻找动物的足迹和迹象。"
+        },
+        {
+          "index": 49,
+          "sentence": "If you ever wonder what wildlife trusts do for the environment, come to Marston Hall, where our rangers will show you how they manage wildlife habitats, from providing feeding boxes for squirrels to creating ponds for frogs and many other creatures.",
+          "translation": "如果你曾好奇野生动物信托机构为环境做了哪些贡献，请来马斯顿庄园，我们的护林员将向你展示他们如何管理野生动物栖息地，从为松鼠提供喂食盒到为青蛙和许多其他生物建造池塘。"
+        },
+        {
+          "index": 50,
+          "sentence": "They'll also take you on a short walk through the ancient pine forest in search of animal tracks and signs.",
+          "translation": "他们还会带你短途穿越古老的松树林，寻找动物的足迹和迹象。"
+        },
+        {
+          "index": 51,
+          "sentence": "D Craven Discovery Centre",
+          "translation": "D 克雷文探索中心"
+        },
+        {
+          "index": 52,
+          "sentence": "Here at the discovery centre, youngsters are introduced to the animals in our petting zoo, where they can stroke or feed the sheep, rabbits, ponies and other residents.",
+          "translation": "在探索中心，孩子们被介绍到我们的宠物动物园，在那里他们可以抚摸或喂养绵羊、兔子、小马和其他动物居民。"
+        },
+        {
+          "index": 53,
+          "sentence": "Then they're taken on a walk through the wood.",
+          "translation": "然后，他们被带去看穿越树林的散步。"
+        },
+        {
+          "index": 54,
+          "sentence": "Meanwhile, the adults can take part in one of our woodland activities, such as learning basic woodworking skills.",
+          "translation": "同时，成年人可以参加我们的森林活动之一，例如学习基本的木工技能。"
+        },
+        {
+          "index": 55,
+          "sentence": "E Shelford Family wild Outing",
+          "translation": "E 谢尔福德家庭野外郊游"
+        },
+        {
+          "index": 56,
+          "sentence": "Go birdwatching or catch insects as daylight fades, then have a gentle jog along the River Wale by moonlight, and end by toasting marshmallows on a campfire.",
+          "translation": "在白天渐暗时观鸟或捕捉昆虫，然后在月光下沿着威尔河慢跑，最后在篝火上烤棉花糖作为结束。"
+        },
+        {
+          "index": 57,
+          "sentence": "It's all part of a Family wild outing in Shelford, organised by the local wildlife trust.",
+          "translation": "这一切都是当地野生动物信托基金会在谢尔福德组织的家庭野外郊游的一部分。"
+        },
+        {
+          "index": 58,
+          "sentence": "Ideal for both adults and children.",
+          "translation": "适合成人和儿童。"
+        },
+        {
+          "index": 59,
+          "sentence": "F Garston Park",
+          "translation": "F 加斯顿公园"
+        },
+        {
+          "index": 60,
+          "sentence": "Come to Garston Park when the sun has set and explore the solar system.",
+          "translation": "日落时分来到加斯顿公园，探索太阳系。"
+        },
+        {
+          "index": 61,
+          "sentence": "Ideal for children -and their parents - who are interested in astronomy.",
+          "translation": "适合对天文学感兴趣的孩子及其家长。"
+        },
+        {
+          "index": 62,
+          "sentence": "Our experts will help you to find your way among the stars, and then we gather in the visitor centre for refreshments.",
+          "translation": "我们的专家将帮助你在群星中辨别方向，随后我们会在游客中心集合享用茶点。"
+        },
+        {
+          "index": 63,
+          "sentence": "Please note that events are cancelled if the weather is cloudy.",
+          "translation": "请注意，如果天气多云，活动将被取消。"
+        },
+        {
+          "index": 64,
+          "sentence": "Hinchingbrooke School Sixth Form",
+          "translation": "欣钦布鲁克学校高中部"
+        },
+        {
+          "index": 66,
+          "sentence": "Hinchingbrooke School consists of the lower school, for students aged 11 to 16, and the sixth form, for ages 16 to 18+.",
+          "translation": "欣钦布鲁克学校由面向11至16岁学生的低年级部和面向16至18岁以上学生的第六学级组成。"
+        },
+        {
+          "index": 67,
+          "sentence": "In the sixth form we provide a strong programme of guidance for students, whether they are planning on going to university, into training or straight into the workplace.",
+          "translation": "在第六学级，我们为学生提供强有力的指导计划，无论他们计划上大学、接受培训还是直接进入职场。"
+        },
+        {
+          "index": 68,
+          "sentence": "We have a high rate of success with applications to universities, including growing success in recent years for medical school applicants.",
+          "translation": "我们在大学申请方面成功率很高，包括近年来医学院申请者的成功率不断上升。"
+        },
+        {
+          "index": 70,
+          "sentence": "While the majority of sixth-form students enter from the lower school, recent significant expansion of the sixth form is largely the result of an increase in applicants from other schools in the area.",
+          "translation": "尽管大多数六年级学生来自本校低年级，但近期六年级的显著扩张主要归因于来自该地区其他学校的申请者增加。"
+        },
+        {
+          "index": 71,
+          "sentence": "We pride ourselves on giving these external students a particularly warm welcome.",
+          "translation": "我们以给予这些外校学生特别热情的欢迎而自豪。"
+        },
+        {
+          "index": 72,
+          "sentence": "We welcome your interest in joining our sixth form and look forward to offering you a place if you satisfy our minimum entry requirements.",
+          "translation": "我们欢迎您对加入我们六年级的兴趣，并期待如果您满足最低入学要求，为您提供一个名额。"
+        },
+        {
+          "index": 74,
+          "sentence": "If you are an internal student, please apply through the MyChoice16 application system.",
+          "translation": "如果你是本校学生，请通过MyChoice16申请系统进行申请。"
+        },
+        {
+          "index": 75,
+          "sentence": "This is also where external students need to view course information.",
+          "translation": "这也是外校学生需要查看课程信息的地方。"
+        },
+        {
+          "index": 76,
+          "sentence": "If you are an external student whose current school does not use MyChoice16 for online applications, please see our website for an application form to the school.",
+          "translation": "如果你是一名外校学生，且当前学校未使用MyChoice16进行在线申请，请查阅我们的网站以获取学校的申请表。"
+        },
+        {
+          "index": 77,
+          "sentence": "We hold an annual Open Evening in the autumn term when you can come and view our facilities and ask any questions you may have.",
+          "translation": "我们在秋季学期举办一年一度的开放之夜活动，届时你可以前来参观我们的设施并提出任何问题。"
+        },
+        {
+          "index": 78,
+          "sentence": "Care, guidance and support in the sixth form at Hinchingbrooke is something of which we are very proud, and each of our students is treated as an individual.",
+          "translation": "在欣钦布鲁克学校的第六学级，关怀、指导和支持是我们引以为豪的事，每位学生都被当作独立的个体对待。"
+        },
+        {
+          "index": 79,
+          "sentence": "You will be assigned a professional sixth-form tutor who will provide you with support and guidance, and will be responsible for helping you make sensible choices about your future career path.",
+          "translation": "你将被分配一位专业的第六学级导师，为你提供支持和指导，并负责帮助你为自己的未来职业道路做出明智的选择。"
+        },
+        {
+          "index": 80,
+          "sentence": "Care, guidance and support in the sixth form at Hinchingbrooke is something of which we are very proud, and each of our students is treated as an individual.",
+          "translation": "在欣钦布鲁克学校的第六学级，我们所提供的关怀、指导和支持令我们倍感自豪，每位学生都得到个性化的对待。"
+        },
+        {
+          "index": 81,
+          "sentence": "You will be assigned a professional sixth-form tutor who will provide you with support and guidance, and will be responsible for helping you make sensible choices about your future career path.",
+          "translation": "你将被指派一名专业的第六学级导师，他将为你提供支持和指导，并负责帮助你为自己的未来职业道路做出明智的选择。"
+        },
+        {
+          "index": 83,
+          "sentence": "You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement.",
+          "translation": "您将每两周在固定时间与导师会面，讨论您的进步以及您或您的学科老师对您努力和成绩可能存在的任何担忧。"
+        },
+        {
+          "index": 84,
+          "sentence": "You will also set targets for yourself, in agreement with your tutor and subject teachers,",
+          "translation": "您还将在与导师和学科老师达成一致的情况下为自己设定目标，"
+        },
+        {
+          "index": 85,
+          "sentence": "and your progress towards achieving these targets will be monitored in your tutor meetings.",
+          "translation": "您实现这些目标的进展将在导师会议中得到监督。"
+        }
+      ]
+    },
+    {
+      "id": "1896",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Tree cutters at work",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Tree surgeon Ivars Balodis describes the teamwork involved in cutting down a large tree",
+          "translation": "树木外科医生伊瓦尔斯·巴洛迪斯描述了砍伐一棵大树所涉及的团队协作\n树木外科医生伊瓦尔斯·巴洛迪斯描述了砍伐一棵大树所涉及的团队合作"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Today the tree-cutting team consists of myself, Gary and Mikael. We're going to cut down a tall tree that is inside the boundary of a busy timber yard. It's Saturday - not a working day for the yard - and it is far easier to remove a tree when no-one else is around.As supervisor, l first pop into our office to sort out the paperwork for the day, which includes the risk assessments.Then I look at the most up-to-date weather forecast as wind and rain make our job much more difficult. Luckily, we've picked a good day.",
+          "translation": "今天，砍树团队由我、加里和米卡埃尔组成。\n我们要砍倒一棵位于繁忙木材场边界内的高树。\n今天是星期六——木材场不工作——周围没人的时候，移除树木要容易得多。\n作为主管，我首先快速进入办公室整理当天的工作文件，包括风险评估。\n然后我查看最新的天气预报，因为风和雨会让我们的工作更加困难。\n幸运的是，我们选了一个好日子。\n今天砍树小组由我、加里和米凯尔组成。\n我们打算砍倒一棵位于繁忙木材厂边界内的高树。\n今天是星期六，不是木材厂的工作日，周围没人的时候移除树木要容易得多。\n作为主管，我首先快速进入办公室整理当天的文书工作，其中包括风险评估。\n然后我会查看最新的天气预报，因为风雨会大大增加我们工作的难度。\n幸运的是，我们选了个好天气。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Next, we load up the equipment - things like petrol-driven chainsaws of varying sizes,helmets and waterproofs, spades, rakes and other tools, etc. must all go on the truck before the three of us set off. On arrival at the site, we have a quick discussion on the procedure for the day.After that, one of us - today it's Gary - goes up the tree to quickly select his anchor point.This is the position from which he'll cut down the tree. It must be high enough to enable access throughout the tree's branches, but also have sufficient strength to support the climber. The first few big branches can be cut from the tree in large pieces and dropped into the yard, so we make good progress during the morning and start our wood pile there.",
+          "translation": "接下来，我们装载设备——像不同尺寸的汽油驱动链锯、头盔和防水服、铲子、耙子及其他工具等，必须在三人出发前全部装上卡车。\n到达现场后，我们快速讨论一下当天的流程。\n之后，我们中的一人——今天轮到加里——爬上树，迅速选定他的锚点。\n这个位置就是他将要砍伐这棵树的地方。\n它必须足够高，以便能够接触到树的整个枝干，但同时也要有足够的强度来支撑攀爬者。\n最初的几根大树枝可以被砍成大块丢入院内，因此我们在上午进展顺利，并在那里开始堆放木料。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Having removed the more accessible branches, we have lunch and then set up a simple system to reach the smaller upper branches. This involves placing a pulley in the tree and using thick rope to drag the branches down.When they're cut, these will fall further away- outside the boundary of the yard.On the other side of the perimeter fence is a wide grass verge and then a footpath, where l set up a number of signs to alert the public to our activities.Working alongside a road requires vigilance, so I monitor the movements of pedestrians,and as Gary starts work, I watch what he's doing, so l can ensure safety. Once the branches are on the ground, I throw them back over the fence to Mikael, who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.",
+          "translation": "在移除了更容易够到的树枝后，我们吃了午饭，然后建立了一个简单的系统来触及上方较小的树枝。\n这包括在树上放置一个滑轮，并用粗绳将树枝拖下来。\n当它们被砍下时，会落得更远——在院子边界之外。\n在围栏的另一侧是一片宽阔的草地边缘，然后是一条人行道，我在那里设置了多个标志，以提醒公众注意我们的活动。\n在道路旁工作需要保持警惕，因此我监视行人的动向，并且在加里开始工作时，我观察他的操作，以确保安全。\n一旦树枝落到地面，我就把它们扔回围栏另一侧给米凯尔，他负责将树枝锯碎并送入机器，将其切成称为木屑的非常小的碎片。\n在移除了更容易够到的树枝后，我们吃了午饭，然后设置了一个简单的系统来触及那些更小的上层树枝。\n这包括在树上放置一个滑轮，并使用粗绳将树枝拖下来。\n这些树枝被切割后，会落在更远的地方——院子边界之外。\n围栏的另一侧是一个宽阔的草地带和一条人行道，我在那里设置了一些标志，提醒公众注意我们的活动。\n在路边工作需要保持警惕，所以我监视着行人的动态，当加里开始工作时，我观察他的操作，以确保安全。\n一旦树枝落在地面上，我就把它们扔回栅栏那边给米凯尔，他负责切割树枝并将它们送入机器，切成叫做木屑的小碎片。\n在移除了较易触及的树枝后，我们吃了午饭，然后建立了一个简单的系统来够到更小的上层树枝。\n当它们被砍断时，这些树枝会掉落到更远的地方——院子边界之外。\n围墙的另一边是一片宽阔的草地带，然后是一条人行道，我在那里设置了一些标志，提醒公众注意我们的活动。\n在路边工作需要保持警惕，所以我监视行人的动向，当加里开始工作时，我观察他的行动，以确保安全。\n一旦树枝落在地上，我就把它们扔回栅栏那边给米凯尔，他把它们切碎，然后送入机器切成非常小的碎片，称为木屑。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Plumbing skills",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "管道技能"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Plumbers install and repair the equipment and pipes needed to carry water, gas and waste in homes and other buildings.",
+          "translation": "水管工负责安装和维修住宅及其他建筑物中用于输送水、燃气和废物的设备及管道。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "In a residential building, such as a block of flats, underfloor jobs that involve plumbing,mechanical and electrical systems are common. They may need to take place in a narrow space that is often only about 35 centimetres deep. In addition, the floors are typically covered with a wood product, engineered to resemble solid wood, that has very strict criteria as far as drilling and cutting are concerned.The plumber cannot just go in and cut holes and lay pipes.He must first think about what he is doing, read and understand the cutting chart that accompanies each of his tools and visualise how his work will impact on other tradespeople, before proceeding.",
+          "translation": "在住宅建筑中，例如公寓楼，涉及管道、机械和电气系统的地板下作业很常见。\n这些作业可能需要在通常只有约35厘米深的狭窄空间内进行。\n此外，地板通常覆盖着一种设计成类似实木的木制品，在钻孔和切割方面有非常严格的标准。\n水暖工不能直接进去钻孔并铺设管道。\n在开展工作之前，他必须首先思考自己在做什么，阅读并理解每件工具附带的切割图，并设想自己的工作将如何影响其他行业人员。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Commercial plumbers working on office buildings, hotels, restaurants, etc. have the same issues and co-ordination problems as residential plumbers, but often have to install equipment that is more sophisticated. This is because it forms part of integrated systems where mechanical work and plumbing work are combined.The equipment will have specific installation instructions, so it is critical that the plumber has the cognitive ability to understand these. In addition, often the structures are complex, and the floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel.",
+          "translation": "在办公楼、酒店、餐厅等地工作的商业水管工会遇到与住宅水管工相同的问题和协调难题，但通常需要安装更为复杂的设备。\n这是因为这些设备属于机械工程与水管工程相结合的集成系统的一部分。\n设备会有具体的安装说明，因此水管工具备理解这些说明的认知能力至关重要。\n此外，建筑结构通常很复杂，在钻孔前必须对地板和墙壁进行X光检查，以避免碰到钢筋等关键构件。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Service plumbers go in where others have been and often face situations where they must troubleshoot various possible causes of a plumbing problem. In order to do this effectively, they must have complete knowledge of, say, a customer's shower unit they are servicing, even if they did not install it! They must have the ability to translate the symptoms they can see, such as leaks and blockages, into the actual problem and then take the appropriate action to rectify the issue in a fast and cost-effective way. Often service plumbers encounter residential or commercial customers who are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue.Successful service plumbers not only need good mechanical skills, but they typically need very good people skills to provide the necessary support.",
+          "translation": "维修水管工常常进入他人先前作业过的场所，并经常面临需要排查各种可能原因的管道问题情境。\n为了高效完成这一工作，他们必须对正在维修的客户淋浴设备了如指掌，即使该设备并非由他们安装！\n他们必须具备将可见的迹象（如渗漏和堵塞）转化为实际问题的能力，并随后采取适当措施，以快速且经济有效的方式解决该问题。\n维修水管工经常遇到因管道问题而面临极大不便或运营严重中断的住宅或商业客户。\n成功的维修水管工不仅需要扎实的机械技能，通常还需要极佳的人际沟通技巧以提供必要的支持。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13872",
+          "type": 8,
+          "title": "Cutting down a big tree",
+          "instructions": "Questions 15 - 21\nComplete the flow-chart.\nWrite ONE WORD ONLY from the text in each gap.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117552",
+              "number": 15,
+              "prompt": "Chainsaws, clothing and all _____ are then loaded onto the lorry.",
+              "options": [],
+              "answer": "tools",
+              "accepted_answers": [
+                "tools"
+              ],
+              "analysis": "题干中“Chainsaws, clothing and all ___ are loaded onto the lorry”对应原文中的“load up the equipment - things like petrol-driven chainsaws... helmets and waterproofs, spades, rakes and other tools”，其中“other tools”概括了除已列出物品外的所有工具，因此答案为“tools”。",
+              "reason": "题干与原文对应装载内容。",
+              "location_analysis": "原文提及装载设备包括工具，故填tools。",
+              "paraphrasing": "Chainsaws, clothing and all tools -> load up the equipment ... other tools",
+              "keywords": "loaded onto the lorry, equipment, tools",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117553",
+              "number": 16,
+              "prompt": "The team talk briefly at the site about the overall _____ before the work begins.",
+              "options": [],
+              "answer": "procedure",
+              "accepted_answers": [
+                "procedure"
+              ],
+              "analysis": "题干中的“talk briefly about the overall ___”对应原文中的“have a quick discussion on the procedure for the day”，其中“procedure”指当天工作的整体流程或步骤，与题干中的“overall”相呼应，因此答案是“procedure”。",
+              "reason": "题干说‘team talk briefly about the overall ____’，原文quick discussion on the procedure。",
+              "location_analysis": "原文讨论procedure对应overall plan。",
+              "paraphrasing": "overall -> procedure",
+              "keywords": "talk briefly about the overall",
+              "evidence": [
+                "On arrival at the site, we have a quick discussion on the procedure for the day."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117554",
+              "number": 17,
+              "prompt": "The climber's anchor point must have the necessary height and _____ for the job.",
+              "options": [],
+              "answer": "strength",
+              "accepted_answers": [
+                "strength"
+              ],
+              "analysis": "题干要求填写锚点必须具备的“height and ___”，而原文明确指出锚点“must be high enough... but also have sufficient strength to support the climber”，其中“strength”指支撑力，与高度共同构成安全作业的必要条件，因此答案为“strength”。",
+              "reason": "题干require height and ____，原文high enough (height) 和 sufficient strength。",
+              "location_analysis": "原文明确anchor point需height和strength。",
+              "paraphrasing": "necessary height and ____ -> height and strength",
+              "keywords": "anchor point, height, strength",
+              "evidence": [
+                "It must be high enough to enable access throughout the tree's branches, but also have sufficient strength to support the climber."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117555",
+              "number": 18,
+              "prompt": "A pulley and some _____ assist in the removal of the top branches.",
+              "options": [],
+              "answer": "rope",
+              "accepted_answers": [
+                "rope"
+              ],
+              "analysis": "题干中“A pulley and some ___ assist in the removal”对应原文中的“placing a pulley in the tree and using thick rope to drag the branches down”，说明滑轮系统配合绳索（rope）用于拖拽上部树枝，因此答案是“rope”。",
+              "reason": "题干A pulley and some ____ assist，原文using thick rope。",
+              "location_analysis": "原文用thick rope配合pulley移除树枝。",
+              "paraphrasing": "some ____ -> rope",
+              "keywords": "pulley, rope, removal of top branches",
+              "evidence": [
+                "This involves placing a pulley in the tree and using thick rope to drag the branches down."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117556",
+              "number": 19,
+              "prompt": "At this point, signs are placed on the _____.",
+              "options": [],
+              "answer": "footpath",
+              "accepted_answers": [
+                "footpath"
+              ],
+              "analysis": "题干中“signs are placed on the ___”对应原文中的“on the other side of the perimeter fence is... a footpath, where I set up a number of signs”，说明警示标志设在人行道（footpath）上以提醒公众，因此答案为“footpath”。",
+              "reason": "直接对应。",
+              "location_analysis": "原文footpath处设signs，填footpath。",
+              "paraphrasing": "signs are placed on -> set up signs on",
+              "keywords": "signs, placed, on",
+              "evidence": [
+                "On the other side of the perimeter fence is a wide grass verge and then a footpath, where l set up a number of signs to alert the public to our activities."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117557",
+              "number": 20,
+              "prompt": "For safety, the actions of both the tree cutter and _____ must be regularly checked.",
+              "options": [],
+              "answer": "pedestrians",
+              "accepted_answers": [
+                "pedestrians"
+              ],
+              "analysis": "题干中“the actions of both the tree cutter and ___ must be regularly checked”对应原文中“I monitor the movements of pedestrians, and as Gary starts work, I watch what he's doing”，表明监控行为同时涵盖行人（pedestrians）和树上作业者，因此答案是“pedestrians”。",
+              "reason": "题干与原文同时监控行人和切割工对应。",
+              "location_analysis": "原文监控行人和切割工以确保安全，故填pedestrians。",
+              "paraphrasing": "the actions of both the tree cutter and pedestrians must be checked -> monitor the movements of pedestrians and watch what Gary (tree cutter) is doing",
+              "keywords": "safety, monitor, tree cutter, pedestrians",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117558",
+              "number": 21,
+              "prompt": "A special machine creates _____ out of some of the wood.",
+              "options": [],
+              "answer": "chippings",
+              "accepted_answers": [
+                "chippings"
+              ],
+              "analysis": "题干中“creates ___ out of some of the wood”对应原文中的“feeds the machine that dices them into very small pieces called wood chippings”，说明机器将木材切碎成木屑（chippings），因此答案为“chippings”。",
+              "reason": "题干creates ____ out of wood，原文machine produces wood chippings。",
+              "location_analysis": "原文明确machine产生wood chippings。",
+              "paraphrasing": "special machine creates ____ -> machine dices into wood chippings",
+              "keywords": "special machine creates",
+              "evidence": [
+                "Once the branches are on the ground, I throw them back over the fence to Mikael, who cuts them up and feeds the machine that dices them into very small pieces called wood chippings."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "The site supervisor checks the paperwork and the latest information on the weather first.\n↓\nChainsaws, clothing and all $117552$ are then loaded onto the lorry.\n↓\nThe team talk briefly at the site about the overall $117553$ before the work begins.\n↓\nThe climber's anchor point must have the necessary height and $117554$ for the job.\n↓\nThe first branches are cut and placed in a pile in the yard.\n↓\nA pulley and some $117555$ assist in the removal of the top branches.\n↓\nAt this point, signs are placed on the $117556$.\n↓\nFor safety, the actions of both the tree cutter and $117557$ must be regularly checked.\n↓\nA special machine creates $117558$ out of some of the wood.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The site supervisor checks the paperwork and the latest information on the weather first.\n↓\nChainsaws, clothing and all $117552$ are then loaded onto the lorry.\n↓\nThe team talk briefly at the site about the overall $117553$ before the work begins.\n↓\nThe climber's anchor point must have the necessary height and $117554$ for the job.\n↓\nThe first branches are cut and placed in a pile in the yard.\n↓\nA pulley and some $117555$ assist in the removal of the top branches.\n↓\nAt this point, signs are placed on the $117556$.\n↓\nFor safety, the actions of both the tree cutter and $117557$ must be regularly checked.\n↓\nA special machine creates $117558$ out of some of the wood."
+        },
+        {
+          "id": "13875",
+          "type": 13,
+          "title": "The work of plumbers",
+          "instructions": "Questions 22 - 27\nComplete the table.\nWrite NO MORE THAN TWO WORDS from the text in each gap.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": {
+            "title": "",
+            "content": [
+              [
+                "Type of plumber",
+                "Work-related issues",
+                "Skills/Actions needed"
+              ],
+              [
+                "Residential",
+                "· Working underfloor in a $117321$ area\n· Dealing with a wood product",
+                "· Plan carefully\n· Always use the appropriate $117322$ for each tool\n· Consider how different $117323$ will be affected"
+              ],
+              [
+                "Commercial",
+                "· Working with advanced equipment designed for integrated systems",
+                "· Fully comprehend instructions\n· Take images of structures to locate important materials like $117324$"
+              ],
+              [
+                "Service",
+                "· Diagnosing problems and their causes\n· Fully understanding something someone else installed, e.g., a shower unit \n · Providing quick, $117325$ solutions",
+                "· Deal well with people who have a lot of $117326$ or disruption as a result of their problems"
+              ]
+            ],
+            "rows": [
+              [
+                "Type of plumber",
+                "Work-related issues",
+                "Skills/Actions needed"
+              ],
+              [
+                "Residential",
+                "· Working underfloor in a $117321$ area\n· Dealing with a wood product",
+                "· Plan carefully\n· Always use the appropriate $117322$ for each tool\n· Consider how different $117323$ will be affected"
+              ],
+              [
+                "Commercial",
+                "· Working with advanced equipment designed for integrated systems",
+                "· Fully comprehend instructions\n· Take images of structures to locate important materials like $117324$"
+              ],
+              [
+                "Service",
+                "· Diagnosing problems and their causes\n· Fully understanding something someone else installed, e.g., a shower unit \n · Providing quick, $117325$ solutions",
+                "· Deal well with people who have a lot of $117326$ or disruption as a result of their problems"
+              ]
+            ]
+          },
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117321",
+              "number": 22,
+              "prompt": "Residential — Work-related issues — • Working underfloor in a _____ area • Dealing with a wood product",
+              "options": [],
+              "answer": "narrow",
+              "accepted_answers": [
+                "narrow"
+              ],
+              "analysis": "题干中的“underfloor in a ___ area”对应原文中的“in a narrow space”，其中“narrow”直接修饰工作空间的大小，且原文明确指出该空间通常只有约35厘米深，因此答案为“narrow”。",
+              "reason": "‘narrow’直接出现在原文。",
+              "location_analysis": "原文‘narrow space’，题目空格‘narrow’。",
+              "paraphrasing": "narrow area -> narrow space",
+              "keywords": "narrow, underfloor",
+              "evidence": [
+                "They may need to take place in a narrow space that is often only about 35 centimetres deep."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117322",
+              "number": 23,
+              "prompt": "Residential — Skills/Actions needed — • Plan carefully • Always use the appropriate _____ for each tool • Consider how different _____ will be affected",
+              "options": [],
+              "answer": "cutting chart",
+              "accepted_answers": [
+                "cutting chart"
+              ],
+              "analysis": "题干要求填写“use the appropriate ___ for each tool”，而原文提到“read and understand the cutting chart that accompanies each of his tools”，说明每种工具都配有对应的切割图表（cutting chart），因此答案是“cutting chart”。",
+              "reason": "题干use appropriate ____ for each tool，原文cutting chart accompanies each tool。",
+              "location_analysis": "原文要求read cutting chart before cutting。",
+              "paraphrasing": "appropriate ____ for each tool -> cutting chart",
+              "keywords": "appropriate ____ for each tool",
+              "evidence": [
+                "He must first think about what he is doing, read and understand the cutting chart that accompanies each of his tools and visualise how his work will impact on other tradespeople, before proceeding."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117323",
+              "number": 24,
+              "prompt": "Residential — Skills/Actions needed — • Plan carefully • Always use the appropriate _____ for each tool • Consider how different _____ will be affected",
+              "options": [],
+              "answer": "tradespeople",
+              "accepted_answers": [
+                "tradespeople"
+              ],
+              "analysis": "题干中“consider how different ___ will be affected”对应原文中的“visualise how his work will impact on other tradespeople”，其中“tradespeople”指其他工种的工作人员，符合题干语境，因此答案为“tradespeople”。",
+              "reason": "tradespeople 是受影响的对象。",
+              "location_analysis": "原文指出需考虑对其他 tradespeople 的影响。",
+              "paraphrasing": "consider how different... will be affected -> visualise how his work will impact on other tradespeople",
+              "keywords": "consider how different... will be affected",
+              "evidence": [
+                "He must first think about what he is doing, read and understand the cutting chart that accompanies each of his tools and visualise how his work will impact on other tradespeople, before proceeding."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117324",
+              "number": 25,
+              "prompt": "Commercial — Skills/Actions needed — • Fully comprehend instructions • Take images of structures to locate important materials like _____",
+              "options": [],
+              "answer": "steel / reinforcing steel",
+              "accepted_answers": [
+                "steel / reinforcing steel",
+                "steel",
+                "reinforcing steel"
+              ],
+              "analysis": "题干中的“locate important materials like ___”对应原文中的“avoid hitting key elements such as reinforcing steel”，虽然原文用的是“reinforcing steel”，但题目允许不超过两个词且只需填写核心名词，因此答案为“steel”。",
+              "reason": "题干locate materials like ____，原文reinforcing steel。",
+              "location_analysis": "原文说X-ray避免hitting reinforcing steel。",
+              "paraphrasing": "locate materials like ____ -> steel",
+              "keywords": "structures, X-ray, locate, steel",
+              "evidence": [
+                "In addition, often the structures are complex, and the floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117325",
+              "number": 26,
+              "prompt": "Service — Work-related issues — • Diagnosing problems and their causes • Fully understanding something someone else installed, e.g., a shower unit • Providing quick, _____ solutions",
+              "options": [],
+              "answer": "cost-effective",
+              "accepted_answers": [
+                "cost-effective"
+              ],
+              "analysis": "题干要求填写“quick, ___ solutions”，而原文提到“rectify the issue in a fast and cost-effective way”，其中“fast”对应“quick”，“cost-effective”则描述了解决方案的经济性，因此答案是“cost-effective”。",
+              "reason": "cost-effective 是解决方案的特征之一。",
+              "location_analysis": "题干中的'quick'对应'fast'，答案对应'cost-effective'。",
+              "paraphrasing": "quick,... solutions -> fast and cost-effective way",
+              "keywords": "quick,... solutions",
+              "evidence": [
+                "They must have the ability to translate the symptoms they can see, such as leaks and blockages, into the actual problem and then take the appropriate action to rectify the issue in a fast and cost-effective way."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117326",
+              "number": 27,
+              "prompt": "Service — Skills/Actions needed — • Deal well with people who have a lot of _____ or disruption as a result of their problems",
+              "options": [],
+              "answer": "inconvenience",
+              "accepted_answers": [
+                "inconvenience"
+              ],
+              "analysis": "题干中的“people who have a lot of ___ or disruption”对应原文中的“facing great inconvenience or have had their operations severely disrupted”，其中“inconvenience”与“disruption”并列，准确反映客户因管道问题所面临的困扰，因此答案为“inconvenience”。",
+              "reason": "题干have a lot of ____ or disruption，原文great inconvenience。",
+              "location_analysis": "原文说customers facing inconvenience或disruption。",
+              "paraphrasing": "a lot of ____ or disruption -> inconvenience",
+              "keywords": "people who have a lot of ____ or disruption",
+              "evidence": [
+                "Often service plumbers encounter residential or commercial customers who are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 13,
+            "collect": "Type of plumber\nWork-related issues\nSkillslActions needed\nResidential\n· Working underfloor in a $117321$ area\n·Dealing with a wood product\n·Plan carefully\n· Always use the appropriate $117322$ for each tool\n·Consider how different $117323$ willbe affected\nCommercial\n·Working with advanced equipment designed for integrated systems\nFully comprehend instructions\nTake images of structures to locate important materials like $117324$\nService\n·Diagnosing problems and their causes\n·Fully understanding something someone else installed, e.g., a shower unit\n·Providing quick, $117325$ solutions\n·Deal well with people who have a lot of $117326$ or disruption as a result of their problems",
+            "table": {
+              "title": "",
+              "content": [
+                [
+                  "Type of plumber",
+                  "Work-related issues",
+                  "Skills/Actions needed"
+                ],
+                [
+                  "Residential",
+                  "· Working underfloor in a $117321$ area\n· Dealing with a wood product",
+                  "· Plan carefully\n· Always use the appropriate $117322$ for each tool\n· Consider how different $117323$ will be affected"
+                ],
+                [
+                  "Commercial",
+                  "· Working with advanced equipment designed for integrated systems",
+                  "· Fully comprehend instructions\n· Take images of structures to locate important materials like $117324$"
+                ],
+                [
+                  "Service",
+                  "· Diagnosing problems and their causes\n· Fully understanding something someone else installed, e.g., a shower unit \n · Providing quick, $117325$ solutions",
+                  "· Deal well with people who have a lot of $117326$ or disruption as a result of their problems"
+                ]
+              ]
+            },
+            "option_title": ""
+          },
+          "content_template": "Type of plumber\nWork-related issues\nSkillslActions needed\nResidential\n· Working underfloor in a $117321$ area\n·Dealing with a wood product\n·Plan carefully\n· Always use the appropriate $117322$ for each tool\n·Consider how different $117323$ willbe affected\nCommercial\n·Working with advanced equipment designed for integrated systems\nFully comprehend instructions\nTake images of structures to locate important materials like $117324$\nService\n·Diagnosing problems and their causes\n·Fully understanding something someone else installed, e.g., a shower unit\n·Providing quick, $117325$ solutions\n·Deal well with people who have a lot of $117326$ or disruption as a result of their problems"
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Tree cutters at work",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Tree surgeon Ivars Balodis describes the teamwork involved in cutting down a large tree",
+          "translation": "树木外科医生伊瓦尔斯·巴洛迪斯描述了砍伐一棵大树所涉及的团队协作"
+        },
+        {
+          "index": 2,
+          "sentence": "Tree surgeon Ivars Balodis describes the teamwork involved in cutting down a large tree",
+          "translation": "树木外科医生伊瓦尔斯·巴洛迪斯描述了砍伐一棵大树所涉及的团队合作"
+        },
+        {
+          "index": 3,
+          "sentence": "Today the tree-cutting team consists of myself, Gary and Mikael.",
+          "translation": "今天，砍树团队由我、加里和米卡埃尔组成。"
+        },
+        {
+          "index": 4,
+          "sentence": "We're going to cut down a tall tree that is inside the boundary of a busy timber yard.",
+          "translation": "我们要砍倒一棵位于繁忙木材场边界内的高树。"
+        },
+        {
+          "index": 5,
+          "sentence": "It's Saturday - not a working day for the yard - and it is far easier to remove a tree when no-one else is around.",
+          "translation": "今天是星期六——木材场不工作——周围没人的时候，移除树木要容易得多。"
+        },
+        {
+          "index": 6,
+          "sentence": "As supervisor, l first pop into our office to sort out the paperwork for the day, which includes the risk assessments.",
+          "translation": "作为主管，我首先快速进入办公室整理当天的工作文件，包括风险评估。"
+        },
+        {
+          "index": 7,
+          "sentence": "Then I look at the most up-to-date weather forecast as wind and rain make our job much more difficult.",
+          "translation": "然后我查看最新的天气预报，因为风和雨会让我们的工作更加困难。"
+        },
+        {
+          "index": 8,
+          "sentence": "Luckily, we've picked a good day.",
+          "translation": "幸运的是，我们选了一个好日子。"
+        },
+        {
+          "index": 9,
+          "sentence": "Today the tree-cutting team consists of myself, Gary and Mikael.",
+          "translation": "今天砍树小组由我、加里和米凯尔组成。"
+        },
+        {
+          "index": 10,
+          "sentence": "We're going to cut down a tall tree that is inside the boundary of a busy timber yard.",
+          "translation": "我们打算砍倒一棵位于繁忙木材厂边界内的高树。"
+        },
+        {
+          "index": 11,
+          "sentence": "It's Saturday - not a working day for the yard - and it is far easier to remove a tree when no-one else is around.",
+          "translation": "今天是星期六，不是木材厂的工作日，周围没人的时候移除树木要容易得多。"
+        },
+        {
+          "index": 12,
+          "sentence": "As supervisor, l first pop into our office to sort out the paperwork for the day, which includes the risk assessments.",
+          "translation": "作为主管，我首先快速进入办公室整理当天的文书工作，其中包括风险评估。"
+        },
+        {
+          "index": 13,
+          "sentence": "Then I look at the most up-to-date weather forecast as wind and rain make our job much more difficult.",
+          "translation": "然后我会查看最新的天气预报，因为风雨会大大增加我们工作的难度。"
+        },
+        {
+          "index": 14,
+          "sentence": "Luckily, we've picked a good day.",
+          "translation": "幸运的是，我们选了个好天气。"
+        },
+        {
+          "index": 15,
+          "sentence": "Next, we load up the equipment - things like petrol-driven chainsaws of varying sizes, helmets and waterproofs, spades, rakes and other tools, etc. must all go on the truck before the three of us set off.",
+          "translation": "接下来，我们装载设备——像不同尺寸的汽油驱动链锯、头盔和防水服、铲子、耙子及其他工具等，必须在三人出发前全部装上卡车。"
+        },
+        {
+          "index": 16,
+          "sentence": "On arrival at the site, we have a quick discussion on the procedure for the day.",
+          "translation": "到达现场后，我们快速讨论一下当天的流程。"
+        },
+        {
+          "index": 17,
+          "sentence": "After that, one of us - today it's Gary - goes up the tree to quickly select his anchor point.",
+          "translation": "之后，我们中的一人——今天轮到加里——爬上树，迅速选定他的锚点。"
+        },
+        {
+          "index": 18,
+          "sentence": "This is the position from which he'll cut down the tree.",
+          "translation": "这个位置就是他将要砍伐这棵树的地方。"
+        },
+        {
+          "index": 19,
+          "sentence": "It must be high enough to enable access throughout the tree's branches, but also have sufficient strength to support the climber.",
+          "translation": "它必须足够高，以便能够接触到树的整个枝干，但同时也要有足够的强度来支撑攀爬者。"
+        },
+        {
+          "index": 20,
+          "sentence": "The first few big branches can be cut from the tree in large pieces and dropped into the yard, so we make good progress during the morning and start our wood pile there.",
+          "translation": "最初的几根大树枝可以被砍成大块丢入院内，因此我们在上午进展顺利，并在那里开始堆放木料。"
+        },
+        {
+          "index": 21,
+          "sentence": "Having removed the more accessible branches, we have lunch and then set up a simple system to reach the smaller upper branches.",
+          "translation": "在移除了更容易够到的树枝后，我们吃了午饭，然后建立了一个简单的系统来触及上方较小的树枝。"
+        },
+        {
+          "index": 22,
+          "sentence": "This involves placing a pulley in the tree and using thick rope to drag the branches down.",
+          "translation": "这包括在树上放置一个滑轮，并用粗绳将树枝拖下来。"
+        },
+        {
+          "index": 23,
+          "sentence": "When they're cut, these will fall further away- outside the boundary of the yard.",
+          "translation": "当它们被砍下时，会落得更远——在院子边界之外。"
+        },
+        {
+          "index": 24,
+          "sentence": "On the other side of the perimeter fence is a wide grass verge and then a footpath, where l set up a number of signs to alert the public to our activities.",
+          "translation": "在围栏的另一侧是一片宽阔的草地边缘，然后是一条人行道，我在那里设置了多个标志，以提醒公众注意我们的活动。"
+        },
+        {
+          "index": 25,
+          "sentence": "Working alongside a road requires vigilance, so I monitor the movements of pedestrians, and as Gary starts work, I watch what he's doing, so l can ensure safety.",
+          "translation": "在道路旁工作需要保持警惕，因此我监视行人的动向，并且在加里开始工作时，我观察他的操作，以确保安全。"
+        },
+        {
+          "index": 26,
+          "sentence": "Once the branches are on the ground, I throw them back over the fence to Mikael, who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.",
+          "translation": "一旦树枝落到地面，我就把它们扔回围栏另一侧给米凯尔，他负责将树枝锯碎并送入机器，将其切成称为木屑的非常小的碎片。"
+        },
+        {
+          "index": 27,
+          "sentence": "Having removed the more accessible branches, we have lunch and then set up a simple system to reach the smaller upper branches.",
+          "translation": "在移除了更容易够到的树枝后，我们吃了午饭，然后设置了一个简单的系统来触及那些更小的上层树枝。"
+        },
+        {
+          "index": 28,
+          "sentence": "This involves placing a pulley in the tree and using thick rope to drag the branches down.",
+          "translation": "这包括在树上放置一个滑轮，并使用粗绳将树枝拖下来。"
+        },
+        {
+          "index": 29,
+          "sentence": "When they're cut, these will fall further away- outside the boundary of the yard.",
+          "translation": "这些树枝被切割后，会落在更远的地方——院子边界之外。"
+        },
+        {
+          "index": 30,
+          "sentence": "On the other side of the perimeter fence is a wide grass verge and then a footpath, where l set up a number of signs to alert the public to our activities.",
+          "translation": "围栏的另一侧是一个宽阔的草地带和一条人行道，我在那里设置了一些标志，提醒公众注意我们的活动。"
+        },
+        {
+          "index": 31,
+          "sentence": "Working alongside a road requires vigilance, so I monitor the movements of pedestrians, and as Gary starts work, I watch what he's doing, so l can ensure safety.",
+          "translation": "在路边工作需要保持警惕，所以我监视着行人的动态，当加里开始工作时，我观察他的操作，以确保安全。"
+        },
+        {
+          "index": 32,
+          "sentence": "Once the branches are on the ground, I throw them back over the fence to Mikael, who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.",
+          "translation": "一旦树枝落在地面上，我就把它们扔回栅栏那边给米凯尔，他负责切割树枝并将它们送入机器，切成叫做木屑的小碎片。"
+        },
+        {
+          "index": 33,
+          "sentence": "Plumbing skills",
+          "translation": "管道技能"
+        },
+        {
+          "index": 34,
+          "sentence": "Plumbers install and repair the equipment and pipes needed to carry water, gas and waste in homes and other buildings.",
+          "translation": "水管工负责安装和维修住宅及其他建筑物中用于输送水、燃气和废物的设备及管道。"
+        },
+        {
+          "index": 36,
+          "sentence": "In a residential building, such as a block of flats, underfloor jobs that involve plumbing, mechanical and electrical systems are common.",
+          "translation": "在住宅建筑中，例如公寓楼，涉及管道、机械和电气系统的地板下作业很常见。"
+        },
+        {
+          "index": 37,
+          "sentence": "They may need to take place in a narrow space that is often only about 35 centimetres deep.",
+          "translation": "这些作业可能需要在通常只有约35厘米深的狭窄空间内进行。"
+        },
+        {
+          "index": 38,
+          "sentence": "In addition, the floors are typically covered with a wood product, engineered to resemble solid wood, that has very strict criteria as far as drilling and cutting are concerned.",
+          "translation": "此外，地板通常覆盖着一种设计成类似实木的木制品，在钻孔和切割方面有非常严格的标准。"
+        },
+        {
+          "index": 39,
+          "sentence": "The plumber cannot just go in and cut holes and lay pipes.",
+          "translation": "水暖工不能直接进去钻孔并铺设管道。"
+        },
+        {
+          "index": 40,
+          "sentence": "He must first think about what he is doing, read and understand the cutting chart that accompanies each of his tools and visualise how his work will impact on other tradespeople, before proceeding.",
+          "translation": "在开展工作之前，他必须首先思考自己在做什么，阅读并理解每件工具附带的切割图，并设想自己的工作将如何影响其他行业人员。"
+        },
+        {
+          "index": 42,
+          "sentence": "Commercial plumbers working on office buildings, hotels, restaurants, etc. have the same issues and co-ordination problems as residential plumbers, but often have to install equipment that is more sophisticated.",
+          "translation": "在办公楼、酒店、餐厅等地工作的商业水管工会遇到与住宅水管工相同的问题和协调难题，但通常需要安装更为复杂的设备。"
+        },
+        {
+          "index": 43,
+          "sentence": "This is because it forms part of integrated systems where mechanical work and plumbing work are combined.",
+          "translation": "这是因为这些设备属于机械工程与水管工程相结合的集成系统的一部分。"
+        },
+        {
+          "index": 44,
+          "sentence": "The equipment will have specific installation instructions, so it is critical that the plumber has the cognitive ability to understand these.",
+          "translation": "设备会有具体的安装说明，因此水管工具备理解这些说明的认知能力至关重要。"
+        },
+        {
+          "index": 45,
+          "sentence": "In addition, often the structures are complex, and the floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel.",
+          "translation": "此外，建筑结构通常很复杂，在钻孔前必须对地板和墙壁进行X光检查，以避免碰到钢筋等关键构件。"
+        },
+        {
+          "index": 46,
+          "sentence": "Having removed the more accessible branches, we have lunch and then set up a simple system to reach the smaller upper branches.",
+          "translation": "在移除了较易触及的树枝后，我们吃了午饭，然后建立了一个简单的系统来够到更小的上层树枝。"
+        },
+        {
+          "index": 47,
+          "sentence": "This involves placing a pulley in the tree and using thick rope to drag the branches down.",
+          "translation": "这包括在树上放置一个滑轮，并用粗绳将树枝拖下来。"
+        },
+        {
+          "index": 48,
+          "sentence": "When they're cut, these will fall further away- outside the boundary of the yard.",
+          "translation": "当它们被砍断时，这些树枝会掉落到更远的地方——院子边界之外。"
+        },
+        {
+          "index": 49,
+          "sentence": "On the other side of the perimeter fence is a wide grass verge and then a footpath, where l set up a number of signs to alert the public to our activities.",
+          "translation": "围墙的另一边是一片宽阔的草地带，然后是一条人行道，我在那里设置了一些标志，提醒公众注意我们的活动。"
+        },
+        {
+          "index": 50,
+          "sentence": "Working alongside a road requires vigilance, so I monitor the movements of pedestrians, and as Gary starts work, I watch what he's doing, so l can ensure safety.",
+          "translation": "在路边工作需要保持警惕，所以我监视行人的动向，当加里开始工作时，我观察他的行动，以确保安全。"
+        },
+        {
+          "index": 51,
+          "sentence": "Once the branches are on the ground, I throw them back over the fence to Mikael, who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.",
+          "translation": "一旦树枝落在地上，我就把它们扔回栅栏那边给米凯尔，他把它们切碎，然后送入机器切成非常小的碎片，称为木屑。"
+        },
+        {
+          "index": 52,
+          "sentence": "Service plumbers go in where others have been and often face situations where they must troubleshoot various possible causes of a plumbing problem.",
+          "translation": "维修水管工常常进入他人先前作业过的场所，并经常面临需要排查各种可能原因的管道问题情境。"
+        },
+        {
+          "index": 53,
+          "sentence": "In order to do this effectively, they must have complete knowledge of, say, a customer's shower unit they are servicing, even if they did not install it!",
+          "translation": "为了高效完成这一工作，他们必须对正在维修的客户淋浴设备了如指掌，即使该设备并非由他们安装！"
+        },
+        {
+          "index": 54,
+          "sentence": "They must have the ability to translate the symptoms they can see, such as leaks and blockages, into the actual problem and then take the appropriate action to rectify the issue in a fast and cost-effective way.",
+          "translation": "他们必须具备将可见的迹象（如渗漏和堵塞）转化为实际问题的能力，并随后采取适当措施，以快速且经济有效的方式解决该问题。"
+        },
+        {
+          "index": 55,
+          "sentence": "Often service plumbers encounter residential or commercial customers who are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue.",
+          "translation": "维修水管工经常遇到因管道问题而面临极大不便或运营严重中断的住宅或商业客户。"
+        },
+        {
+          "index": 56,
+          "sentence": "Successful service plumbers not only need good mechanical skills, but they typically need very good people skills to provide the necessary support.",
+          "translation": "成功的维修水管工不仅需要扎实的机械技能，通常还需要极佳的人际沟通技巧以提供必要的支持。"
+        }
+      ]
+    },
+    {
+      "id": "1897",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Why it is important to save species like the dormouse",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A scheme to save the dormouse, a tiny woodland mammal, from extinction could lead to the reintroduction of larger lost species such as the wolf and sea eagle to the UK",
+          "translation": "一项旨在拯救榛睡鼠（一种小型林地哺乳动物）免于灭绝的计划，可能会促使狼和海鹰等已消失的较大物种重新引入英国。\n一项旨在拯救冬眠鼠（一种小型林地哺乳动物）免于灭绝的计划，可能会导致狼和海鹰等大型已消失物种重新引入英国。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "More than 100 years after they were last recorded by naturalists in the Wensleydale valley in northern England, rare dormice have returned to a secret woodland location there. Twenty breeding pairs of rare hazel dormice were recently reintroduced as part of a national scheme to reverse the decline of one of Britain’s most threatened mammals. This reintroduction, led by the People's Trust for Endangered Species (PTES) and supported by a coalition of conservation groups, is the 22nd in the last 23 years. Dormice depend on well-managed woodlands and healthy, connected hedgerows for their survival. But changes in land use since the 1940s have been so drastic that the dormice that remain have limited living space and are increasingly isolated.",
+          "translation": "在博物学家最后一次于英格兰北部的温斯利代尔山谷记录到它们100多年后，珍稀的睡鼠已经回到了那里一个秘密的林地区域。\n作为一项国家计划的一部分，最近重新引入了20对珍稀的榛睡鼠繁殖对，旨在扭转英国最受威胁的哺乳动物之一的衰落趋势。\n这次重新引入由人民濒危物种信托基金主导，并得到保护组织联盟的支持，是过去23年中的第22次。\n睡鼠依赖管理良好的林地和健康且相连的树篱来生存。\n但自20世纪40年代以来的土地利用变化如此剧烈，以至于存留的睡鼠生存空间有限且日益孤立。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Ahead of the release, the PTES found a site of dense, good-quality woodland while the captive-bred dormice waited in quarantine. After examination by vets, the dormice were placed in their 'soft release' accommodation in pairs. This consisted of secure wooden boxes fitted to trees and surrounded by a metre-square cage.For 10 days, the dormice were checked and given food daily, then a small opening was made, allowing them the freedom to explore, while retaining the security of the cage. Everything was removed in October,when the animals started preparing to go into hibernation for the winter.",
+          "translation": "在放归之前，PTES找到了一块茂密、优质的林地，而人工繁殖的睡鼠正在隔离中等待。\n经过兽医检查后，睡鼠被成对安置在它们的“软放归”住所中。\n这些住所包括固定在树上的安全木箱，周围环绕着一平方米的笼子。\n在10天里，睡鼠每天接受检查并被喂食，随后开了一个小口，让它们能够自由探索，同时保留笼子的安全性。\n10月份，所有设施都被移除，此时这些动物开始准备进入冬眠以度过冬季。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "'The hope is that we have a free-living population in the wood, but we won’t know how they have fared until next year,' said Ian White of the PTES. Unsuitable habitat, captive-bred animals and incorrect management could all ruin the chances of success of such schemes. However, a distinctive factor of this release, White explained, is the intention of linking up with another released dormouse population three miles away by managing the land between.The goal is to create a wider landscape for dormice and that will make the population more robust.",
+          "translation": "PTES的伊恩·怀特表示：‘我们希望能在林间建立一个自由生活的种群，但直到明年我们才能知道它们的情况如何。’\n不适宜的栖息地、人工繁殖的动物以及错误的管理都可能破坏此类计划成功的机会。\n然而，怀特解释说，这次释放的一个独特之处在于，他们有意通过管理中间地带，与三英里外另一个已释放的睡鼠种群建立联系。\n目标是创造一个更广阔的睡鼠栖息环境，从而使该种群更加强健。\n“我们希望能在树林中建立一个自由生活的种群，但在明年之前，我们无法知道它们的情况如何。”\nPTES的伊恩·怀特说道。\n然而，怀特解释说，这次放归的一个独特之处在于，它们计划通过管理中间的土地，与三英里外另一个放归的睡鼠种群建立联系。\n其目标是为睡鼠创造一个更广阔的生存环境，这将会使种群更加健壮。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Woodlands were traditionally managed through regularly cutting back certain trees to ground level to stimulate growth and provide firewood or timber for local residents.This system was known as coppicing, and as an added bonus it happened to provide varied food and plenty of light for dormice. But the practice has been largely lost, with much remaining woodland sliced up by roads, railways and fields.England also had more than 50% of its hedgerows dug up between 1946 and 1993 as small fields were combined to make larger ones and farmland was sold for building projects.All this has had an adverse effect on dormouse populations.",
+          "translation": "传统上，林地的管理方式是通过定期将某些树木砍至地面，以刺激其生长并为当地居民提供薪柴或木材。\n这种系统被称为矮林作业，而额外的好处是它恰好为睡鼠提供了多样化的食物和充足的光照。\n但这一做法在很大程度上已不复存在，大部分剩余的林地也被道路、铁路和田野分割开来。\n在1946年至1993年间，随着小田地被合并成更大的地块，以及农田被出售用于建筑项目，英国超过50%的树篱也被挖掉了。\n所有这些都对睡鼠的种群数量产生了不利影响。\n传统上，人们通过定期将某些树木砍至地面来管理林地，以刺激生长并为当地居民提供柴火或木材。\n这一系统被称为萌生林作业法，而其额外的好处是恰好为榛睡鼠提供了多样化的食物和充足的光照。\n但这一做法已基本消失，且许多剩余的林地也被公路、铁路和田野分割开来。\n英国在1946年至1993年间还挖掉了超过50%的树篱，因为小片田地合并成大片田地，而农田也被出售用于建筑项目。\n所有这些都对榛睡鼠的数量产生了不利影响。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation,' said White. \"They are a fascinating species that is rare but you can still see.They promote good woodland management and what's good for dormice is good for a large range of species ...'",
+          "translation": "怀特表示：‘重新引入睡鼠非常重要，因为它们是让公众参与保护工作的理想物种。’\n‘它们是一种迷人且稀有的物种，但人们依然有机会目睹其踪迹。’\n‘它们促进了良好的林地管理，而对睡鼠有利的举措，也对大量其他物种有益……’\n怀特说：‘重新引入睡鼠非常重要，因为它们是一种能吸引人们参与保护的绝佳物种。’\n‘它们是一种迷人但稀有的物种，然而你依然有机会见到。’\n它们促进了良好的林地管理，而对睡鼠有益的事物也会对众多其他物种有益……’"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Helen Meech, the director of Rewilding Britain, an organisation campaigning to restore lost species and habitats to the British countryside, said that such reintroductions would increase people's familiarity with living with more wild animals once again. People's everyday wildlife experience is becoming limited to seeing grey squirrels and pigeons, she explained.'We are increasingly disconnected from nature. In 30 to 40 years’ time, we might get to the point where we can start to think about bringing back wolves, bison or moose, but lets start with species that will have a lighter impact for now.'",
+          "translation": "英国再野化组织（一个致力于恢复英国乡村消失物种和栖息地的组织）的负责人海伦·米奇表示，这种重新引入将增加人们与更多野生动物再次共存的熟悉感。\n她解释说，人们日常的野生动物体验正变得仅限于看到灰松鼠和鸽子。\n“我们正日益与自然脱节。\n在30到40年后，我们或许能到了开始考虑带回狼、野牛或驼鹿的阶段，但让我们先从目前影响较小的物种开始。’”\n“再野化英国”组织的负责人海伦·米奇表示，这样的重新引入将帮助人们重新熟悉与更多野生动物共存的生活。该组织致力于恢复英国乡村失去的物种和栖息地。\n她解释说，人们日常对野生动物的体验正变得局限于看到灰松鼠和鸽子。\n在未来的三四十年的时间里，我们或许能发展到开始考虑重新引入狼、野牛或驼鹿的阶段，但让我们现在先从影响较轻的物种开始。”"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Over centuries, Britain has lost many key species that are critical for healthy ecosystems. Here are some of the species conservationists have reintroduced or are proposing to reintroduce ...",
+          "translation": "几个世纪以来，英国已经失去了许多对健康生态系统至关重要的关键物种。\n以下是保护主义者已经重新引入或提议重新引入的一些物种……\n以下是一些保护主义者已经重新引入或提议重新引入的物种……"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "The lynx is believed to have disappeared from Britain about 1,000 years ago. Experts say it would help control the fast-growing population of red deer, allowing forests to regenerate and support greater biodiversity.The preference of the lynx, a shy animal, to stay in its woodland habitat would make a threat to livestock or humans unlikely.",
+          "translation": "据信，猞猁大约在1000年前从英国消失。\n专家表示，它将有助于控制赤鹿快速增长的数量，从而使森林得以再生并支持更大的生物多样性。\n作为害羞的动物，猞猁偏好留在林地栖息地，这使得它对牲畜或人类构成威胁的可能性很小。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "I"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "After an absence of 400 years, beavers are back in Britain. The Devon Beaver project cites improvements in biodiversity and water after the reintroduction of a pair near Okehampton in 2011. Scotland's first reintroduction, in Knapdale forest in 2009,was hailed an 'outstanding success' , but an unlicensed free-living population in the river Tay has caused problems.",
+          "translation": "在消失了400年之后，海狸重新回到了英国。\n德文海狸项目指出，在2011年于奥克汉普顿附近重新引入一对海狸后，生物多样性和水质得到了改善。\n苏格兰在2009年于纳普代尔森林进行的首次重新引入被誉为“杰出的成功”，但在泰河未经许可的自由种群却引发了一些问题。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "J"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Lost to Britain in the 1700s, the wolf is the most controversial species proposed for reintroduction given its potential to kill agricultural livestock. But they are critical to the restoration of ecosystems that have been overgrazed by deer. Despite their fearsome reputation, they present a low risk to people. Because of the space a wolf population would need, the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism.",
+          "translation": "狼于18世纪在英国灭绝，因其可能捕杀农业牲畜而成为最富争议的拟重新引入物种。\n但它们对于恢复被鹿过度啃食的生态系统至关重要。\n尽管名声可怖，它们对人类的风险很低。\n由于狼群需要生存空间，苏格兰高地显然是重新引入的适宜地点，并可带来数百万英镑的旅游收入。\n狼在18世纪于英国灭绝，由于其可能捕杀农业牲畜，因此成为被提议重新引入的最具争议的物种。\n但狼对于恢复被鹿过度啃食的生态系统至关重要。\n尽管狼名声可怖，但它们对人类构成的威胁很小。\n由于狼群需要广阔的生存空间，苏格兰高地显然是重新引入它们的理想之地，并且这可能会带来数百万英镑的旅游收入。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "K"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "The sea eagle, also known as the white-tailed eagle, was driven to extinction in Britain earlier this century. A reintroduction programme has seen it return to the Inner Hebrides island of Mull. Proposals to bring it back to the east of England failed following concerns from landowners about the threat to livestock. Successful schemes in Europe have offered compensation for this.",
+          "translation": "海鹰，也称白尾鹰，在本世纪早期在英国被逼至灭绝。\n一项重新引入计划已使它们重返内赫布里底群岛的马尔岛。\n由于土地所有者担心其对牲畜的威胁，将其带回英格兰东部的提议未能成功。\n欧洲的成功项目为此提供了补偿。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "L"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "Then there is the wild boar which disappeared in the 13th century because of hunting. They increase biodiversity and create space for trees and plants to grow, but can cause damage to crops and gardens. The species has been quietly re-establishing itself in the woodlands of Britain for several decades.",
+          "translation": "还有野猪，它们因狩猎而在13世纪消失。\n它们增加了生物多样性，并为树木和植物的生长创造了空间，但可能对庄稼和花园造成破坏。\n几十年来，这个物种一直在英国林地中悄然重新繁衍。\n还有野猪，这种动物因狩猎而在13世纪消失。\n它们能增加生物多样性，并为树木和植物的生长创造空间，但可能对庄稼和花园造成破坏。\n几十年来，这一物种一直在英国林地中悄然重新繁衍。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13882",
+          "type": 4,
+          "title": "The procedure for the dormouse reintroduction in Wensleydale",
+          "instructions": "Questions 28 - 31\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117333",
+              "number": 28,
+              "prompt": "lt was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then _____ gave them a thorough check. The team divided the animals into _____ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought _____ on a regular basis.",
+              "options": [],
+              "answer": "vets",
+              "accepted_answers": [
+                "vets"
+              ],
+              "analysis": "题干中的“gave them a thorough check”对应原文B段中的“After examination by vets”，其中“vets”（兽医）是执行检查的主体，因此答案为 vets。该词直接出现在原文中，且与题干语义完全匹配。",
+              "reason": "直接对应vets进行体检。",
+              "location_analysis": "题干询问检查者，原文说After examination by vets，答案vets。",
+              "paraphrasing": "gave them a thorough check -> After examination by vets",
+              "keywords": "dormice, vets, examination",
+              "evidence": [
+                "After examination by vets, the dormice were placed in their 'soft release' accommodation in pairs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117334",
+              "number": 29,
+              "prompt": "lt was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then _____ gave them a thorough check. The team divided the animals into _____ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought _____ on a regular basis.",
+              "options": [],
+              "answer": "pairs",
+              "accepted_answers": [
+                "pairs"
+              ],
+              "analysis": "题干要求填写动物被分成的形式，原文B段明确指出“the dormice were placed in their 'soft release' accommodation in pairs”，即以“pairs”（成对）方式安置，这与题干“divided the animals into...”形成同义对应，故答案为 pairs。",
+              "reason": "直接对应pairs。",
+              "location_analysis": "原文in pairs即题干分成pairs。",
+              "paraphrasing": "divided into -> in pairs",
+              "keywords": "divided into, pairs",
+              "evidence": [
+                "After examination by vets, the dormice were placed in their 'soft release' accommodation in pairs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117335",
+              "number": 30,
+              "prompt": "lt was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then _____ gave them a thorough check. The team divided the animals into _____ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought _____ on a regular basis.",
+              "options": [],
+              "answer": "food",
+              "accepted_answers": [
+                "food"
+              ],
+              "analysis": "题干中“brought...on a regular basis”对应原文B段“given food daily”，说明团队每天定期提供食物。虽然动词由“brought”变为“given”，但核心名词“food”在文中直接出现，且语境一致，因此答案为 food。",
+              "reason": "直接对应given food。",
+              "location_analysis": "原文given food daily对应题干brought food。",
+              "paraphrasing": "brought on a regular basis -> checked and given food daily",
+              "keywords": "brought, food",
+              "evidence": [
+                "For 10 days, the dormice were checked and given food daily, then a small opening was made, allowing them the freedom to explore, while retaining the security of the cage."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117336",
+              "number": 31,
+              "prompt": "Once the dormice got used to their new environment, a gap was cut in the netting so they could go out and return when they wanted. Then, before the animals were ready to start their annual _____ in the autumn, the team took their temporary homes away; they intend to return and review the success of the project next year.",
+              "options": [],
+              "answer": "hibernation",
+              "accepted_answers": [
+                "hibernation"
+              ],
+              "analysis": "题干提到“annual...in the autumn”，结合原文B段末句“when the animals started preparing to go into hibernation for the winter”，可知秋季开始的是冬眠行为。“hibernation”是唯一符合“annual”周期性且与季节对应的词，因此答案为 hibernation。",
+              "reason": "直接对应冬眠。",
+              "location_analysis": "原文B段提到准备冬眠，对应答案hibernation。",
+              "paraphrasing": "annual -> going into hibernation",
+              "keywords": "annual, in the autumn",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "lt was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then $117333$ gave them a thorough check. The team divided the animals into $117334$ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought $117335$ on a regular basis.\nOnce the dormice got used to their new environment, a gap was cut in the netting so they could go out and return when they wanted. Then, before the animals were ready to start their annual $117336$ in the autumn, the team took their temporary homes away; they intend to return and review the success of the project next year.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "lt was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then $117333$ gave them a thorough check. The team divided the animals into $117334$ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought $117335$ on a regular basis.\nOnce the dormice got used to their new environment, a gap was cut in the netting so they could go out and return when they wanted. Then, before the animals were ready to start their annual $117336$ in the autumn, the team took their temporary homes away; they intend to return and review the success of the project next year."
+        },
+        {
+          "id": "13885",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 32 - 36\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117342",
+              "number": 32,
+              "prompt": "lan White says that one aim of releasing 40 dormice in Wensleydale is to",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "allow the public to observe the animals in the future."
+                },
+                {
+                  "value": "B",
+                  "label": "test whether the area is sufficient for a large group."
+                },
+                {
+                  "value": "C",
+                  "label": "experiment with new methods of caring for them."
+                },
+                {
+                  "value": "D",
+                  "label": "get the group to mix with others that live nearby."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问Ian White释放睡鼠的一个目标，原文C段提到“the intention of linking up with another released dormouse population three miles away”，即希望新种群能与附近已有的种群连接。选项D“get the group to mix with others that live nearby”是对这一意图的准确转述，因此选D。",
+              "reason": "原文link up替换mix with others nearby。",
+              "location_analysis": "White说目标是连接附近种群，对应D选项。",
+              "paraphrasing": "get the group to mix with others that live nearby -> linking up with another released dormouse population three miles away",
+              "keywords": "linking up, another population",
+              "evidence": [
+                "However, a distinctive factor of this release, White explained, is the intention of linking up with another released dormouse population three miles away by managing the land between."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文并未提及允许公众未来观察这一目的，属于无中生有。",
+                "B": "原文未提及测试该区域是否足够容纳大群体，信息不匹配。",
+                "C": "原文未涉及试验新的照护方法，内容无关。"
+              }
+            },
+            {
+              "id": "117343",
+              "number": 33,
+              "prompt": "Coppicing is mentioned in the fourth paragraph as an example of",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "how changes in their natural habitat have affected dormouse numbers."
+                },
+                {
+                  "value": "B",
+                  "label": "what was often done in woodland in the past to help dormice survive."
+                },
+                {
+                  "value": "C",
+                  "label": "the relative importance of woodland and hedges in the countryside."
+                },
+                {
+                  "value": "D",
+                  "label": "the particular types of trees that grow best in the English climate."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问为何提及coppicing（轮作伐木），原文D段先说明该传统做法曾为睡鼠提供食物和光照，随后指出其消失及栖息地碎片化“has had an adverse effect on dormouse populations”。因此，coppicing作为例子，旨在说明栖息地变化如何影响睡鼠数量，对应选项A。",
+              "reason": "A选项概括coppicing的消失如何影响睡鼠。",
+              "location_analysis": "coppicing例子说明传统管理消失，栖息地变化影响睡鼠数量。",
+              "paraphrasing": "example of how changes in their natural habitat have affected dormouse numbers -> But the practice has been largely lost... All this has had an adverse effect on dormouse populations",
+              "keywords": "coppicing, changes in natural habitat",
+              "evidence": [
+                "But the practice has been largely lost, with much remaining woodland sliced up by roads, railways and fields.",
+                "All this has had an adverse effect on dormouse populations."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "B": "原文中coppicing是作为人类活动改变栖息地的例子，而非过去为帮助睡鼠生存的做法。",
+                "C": "该选项混淆了coppicing与林地和树篱相对重要性的关系，原文并未提及。",
+                "D": "coppicing与特定树种在英格兰气候下的生长无关，原文无此信息。"
+              }
+            },
+            {
+              "id": "117345",
+              "number": 34,
+              "prompt": "Why does lan White support the widespread reintroduction of dormice?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "They are animals that can easily be bred in captivity."
+                },
+                {
+                  "value": "B",
+                  "label": "The steps taken to help them will also benefit many other animals."
+                },
+                {
+                  "value": "C",
+                  "label": "The public will be more likely to go for walks in woods and fields."
+                },
+                {
+                  "value": "D",
+                  "label": "They are animals that should particularly attract younger children."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问Ian White支持广泛重引入睡鼠的原因，原文E段他明确表示“what's good for dormice is good for a large range of species”，即保护睡鼠的措施同时惠及众多其他物种。选项B“steps taken to help them will also benefit many other animals”正是此意的同义表达，故选B。",
+              "reason": "直接对应B选项。",
+              "location_analysis": "White说对睡鼠好对很多物种也好，对应B。",
+              "paraphrasing": "will also benefit many other animals -> what's good for dormice is good for a large range of species",
+              "keywords": "good for dormice, good for a large range of species",
+              "evidence": [
+                "They promote good woodland management and what's good for dormice is good for a large range of species ...'"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文并未强调睡鼠容易圈养繁殖，该选项无中生有。",
+                "C": "原文未提及重新引入睡鼠会使公众更愿意散步，属于无中生有。",
+                "D": "原文没有说睡鼠特别吸引儿童，该选项信息无关且无依据。"
+              }
+            },
+            {
+              "id": "117347",
+              "number": 35,
+              "prompt": "What does Helen Meech hope that the dormice project will lead to?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "an increase in the populations of the most common species"
+                },
+                {
+                  "value": "B",
+                  "label": "a public who are used to sharing their environment with wildlife"
+                },
+                {
+                  "value": "C",
+                  "label": "a general awareness of the need to reintroduce larger animals soon"
+                },
+                {
+                  "value": "D",
+                  "label": "a willingness to spend time improving natural landscapes in the UK"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问Helen Meech希望该项目带来什么，原文F段她指出重引入能“increase people's familiarity with living with more wild animals once again”，即让公众重新习惯与野生动物共处。选项B“a public who are used to sharing their environment with wildlife”准确概括了这一观点，因此选B。",
+              "reason": "题干hope对应原文would increase...familiarity with living with wild animals。",
+              "location_analysis": "选项B公众习惯与野生动物共处，对应原文familiarity with living with...",
+              "paraphrasing": "hope that ... lead to -> such reintroductions would increase people's familiarity with living with more wild animals",
+              "keywords": "hope, lead to",
+              "evidence": [
+                "Helen Meech, the director of Rewilding Britain, an organisation campaigning to restore lost species and habitats to the British countryside, said that such reintroductions would increase people's familiarity with living with more wild animals once again."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "该选项与项目目标不符，项目专注于濒危物种如榛睡鼠，而非最常见物种。",
+                "C": "原文未提及重新引入大型动物的内容，属于无中生有。",
+                "D": "该选项范围错误，项目旨在提高公众与野生动物共存的意识，而非改善自然景观。"
+              }
+            },
+            {
+              "id": "117349",
+              "number": 36,
+              "prompt": "What is suggested about wolves returning to the UK?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "The best solution would be to keep them in a secure wildlife park."
+                },
+                {
+                  "value": "B",
+                  "label": "They would definitely need to be kept far away from humans."
+                },
+                {
+                  "value": "C",
+                  "label": "There is only one area of the UK which would accept them."
+                },
+                {
+                  "value": "D",
+                  "label": "Their presence could revive some damaged environments."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问关于狼重返英国的暗示，原文J段指出狼“are critical to the restoration of ecosystems that have been overgrazed by deer”，即能修复因鹿过度啃食而退化的生态系统。选项D“revive some damaged environments”与此完全对应，故选D。",
+              "reason": "restoration of ecosystems对应revive damaged environments。",
+              "location_analysis": "狼可恢复过度放牧的生态系统，对应D。",
+              "paraphrasing": "revive some damaged environments -> critical to the restoration of ecosystems that have been overgrazed by deer",
+              "keywords": "wolves, restore ecosystems",
+              "evidence": [
+                "But they are critical to the restoration of ecosystems that have been overgrazed by deer."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及将狼关在野生动物园是最佳解决方案，该选项无中生有。",
+                "B": "与原文矛盾，原文可能指出狼可以与人类共存，而非必须远离。",
+                "C": "范围错误，原文暗示英国可能有多个区域接受狼群，而非仅一个。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13897",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 37 - 40\nLook at the following statements (Questions 37-40) and the list of animals below.\nMatch each statement with the correct animal, A-E.\nChoose the correct letter and move it into the gap.",
+          "option_title": "List of Animals",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. The lynx"
+            },
+            {
+              "value": "B",
+              "label": "B. The beaver"
+            },
+            {
+              "value": "C",
+              "label": "C. The wolf"
+            },
+            {
+              "value": "D",
+              "label": "D. The sea eagle"
+            },
+            {
+              "value": "E",
+              "label": "E. The wild boar"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117351",
+              "number": 37,
+              "prompt": "This species has already begun to settle in the UK without human assistance",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The lynx"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The beaver"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The wolf"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The sea eagle"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The wild boar"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干描述某物种“without human assistance”自行定居，原文L段提到野猪（wild boar）“has been quietly re-establishing itself in the woodlands of Britain for several decades”，其中“re-establishing itself”表明是自然回归而非人为引入，因此对应选项E。",
+              "reason": "原文re-establishing itself对应without human assistance。",
+              "location_analysis": "野猪自行重新定居，对应E。",
+              "paraphrasing": "begun to settle in the UK without human assistance -> quietly re-establishing itself in the woodlands of Britain",
+              "keywords": "wild boar, re-establishing itself",
+              "evidence": [
+                "The species has been quietly re-establishing itself in the woodlands of Britain for several decades."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117352",
+              "number": 38,
+              "prompt": "This species would be particularly suitable for reintroduction as it is unlikely to try to come into contact with people",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The lynx"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The beaver"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The wolf"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The sea eagle"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The wild boar"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干要求找出“unlikely to try to come into contact with people”的物种，原文H段描述猞猁（lynx）为“a shy animal”且“preference...to stay in its woodland habitat”，并明确说“would make a threat to livestock or humans unlikely”，完全符合题干描述，故对应选项A。",
+              "reason": "shy和stay in habitat对应unlikely to contact people。",
+              "location_analysis": "猞猁胆小，留在林地，避免接触人，对应A。",
+              "paraphrasing": "unlikely to try to come into contact with people -> shy animal, stay in woodland habitat",
+              "keywords": "lynx, shy, stay in woodland",
+              "evidence": [
+                "The preference of the lynx, a shy animal, to stay in its woodland habitat would make a threat to livestock or humans unlikely."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117353",
+              "number": 39,
+              "prompt": "lt is possible that reintroducing this species could bring considerable financial benefits to one area",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The lynx"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The beaver"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The wolf"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The sea eagle"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The wild boar"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干提到某物种重引入可能带来“considerable financial benefits”，原文J段指出狼在苏格兰高地重引入“could generate millions of pounds in tourism”，即带来可观旅游收入。选项C（wolf）与此信息直接对应，因此选C。",
+              "reason": "generate millions对应financial benefits。",
+              "location_analysis": "狼在苏格兰高地可带来旅游收入，对应C。",
+              "paraphrasing": "considerable financial benefits to one area -> generate millions of pounds in tourism",
+              "keywords": "wolves, Scottish Highlands, generate millions in tourism",
+              "evidence": [
+                "Because of the space a wolf population would need, the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117354",
+              "number": 40,
+              "prompt": "Some countries which have already reintroduced this species have systems to repay farmers if it kills any of their animals",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The lynx"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The beaver"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The wolf"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The sea eagle"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The wild boar"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问哪个物种在重引入后有补偿农民的机制，原文K段提到海雕（sea eagle）在欧洲的成功项目“have offered compensation for this”，指因捕食牲畜造成的损失给予赔偿。选项D（sea eagle）与该描述完全匹配，故选D。",
+              "reason": "compensation对应repay farmers。",
+              "location_analysis": "欧洲成功项目提供补偿，对应D。",
+              "paraphrasing": "repay farmers -> offered compensation",
+              "keywords": "sea eagle, compensation, livestock",
+              "evidence": [
+                "Successful schemes in Europe have offered compensation for this."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Animals"
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Why it is important to save species like the dormouse",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A scheme to save the dormouse, a tiny woodland mammal, from extinction could lead to the reintroduction of larger lost species such as the wolf and sea eagle to the UK",
+          "translation": "一项旨在拯救榛睡鼠（一种小型林地哺乳动物）免于灭绝的计划，可能会促使狼和海鹰等已消失的较大物种重新引入英国。"
+        },
+        {
+          "index": 3,
+          "sentence": "More than 100 years after they were last recorded by naturalists in the Wensleydale valley in northern England, rare dormice have returned to a secret woodland location there.",
+          "translation": "在博物学家最后一次于英格兰北部的温斯利代尔山谷记录到它们100多年后，珍稀的睡鼠已经回到了那里一个秘密的林地区域。"
+        },
+        {
+          "index": 4,
+          "sentence": "Twenty breeding pairs of rare hazel dormice were recently reintroduced as part of a national scheme to reverse the decline of one of Britain’s most threatened mammals.",
+          "translation": "作为一项国家计划的一部分，最近重新引入了20对珍稀的榛睡鼠繁殖对，旨在扭转英国最受威胁的哺乳动物之一的衰落趋势。"
+        },
+        {
+          "index": 5,
+          "sentence": "This reintroduction, led by the People's Trust for Endangered Species (PTES) and supported by a coalition of conservation groups, is the 22nd in the last 23 years.",
+          "translation": "这次重新引入由人民濒危物种信托基金主导，并得到保护组织联盟的支持，是过去23年中的第22次。"
+        },
+        {
+          "index": 6,
+          "sentence": "Dormice depend on well-managed woodlands and healthy, connected hedgerows for their survival.",
+          "translation": "睡鼠依赖管理良好的林地和健康且相连的树篱来生存。"
+        },
+        {
+          "index": 7,
+          "sentence": "But changes in land use since the 1940s have been so drastic that the dormice that remain have limited living space and are increasingly isolated.",
+          "translation": "但自20世纪40年代以来的土地利用变化如此剧烈，以至于存留的睡鼠生存空间有限且日益孤立。"
+        },
+        {
+          "index": 8,
+          "sentence": "A scheme to save the dormouse, a tiny woodland mammal, from extinction could lead to the reintroduction of larger lost species such as the wolf and sea eagle to the UK.",
+          "translation": "一项旨在拯救冬眠鼠（一种小型林地哺乳动物）免于灭绝的计划，可能会导致狼和海鹰等大型已消失物种重新引入英国。"
+        },
+        {
+          "index": 9,
+          "sentence": "Ahead of the release, the PTES found a site of dense, good-quality woodland while the captive-bred dormice waited in quarantine.",
+          "translation": "在放归之前，PTES找到了一块茂密、优质的林地，而人工繁殖的睡鼠正在隔离中等待。"
+        },
+        {
+          "index": 10,
+          "sentence": "After examination by vets, the dormice were placed in their 'soft release' accommodation in pairs.",
+          "translation": "经过兽医检查后，睡鼠被成对安置在它们的“软放归”住所中。"
+        },
+        {
+          "index": 11,
+          "sentence": "This consisted of secure wooden boxes fitted to trees and surrounded by a metre-square cage.",
+          "translation": "这些住所包括固定在树上的安全木箱，周围环绕着一平方米的笼子。"
+        },
+        {
+          "index": 12,
+          "sentence": "For 10 days, the dormice were checked and given food daily, then a small opening was made, allowing them the freedom to explore, while retaining the security of the cage.",
+          "translation": "在10天里，睡鼠每天接受检查并被喂食，随后开了一个小口，让它们能够自由探索，同时保留笼子的安全性。"
+        },
+        {
+          "index": 13,
+          "sentence": "Everything was removed in October, when the animals started preparing to go into hibernation for the winter.",
+          "translation": "10月份，所有设施都被移除，此时这些动物开始准备进入冬眠以度过冬季。"
+        },
+        {
+          "index": 14,
+          "sentence": "'The hope is that we have a free-living population in the wood, but we won’t know how they have fared until next year,' said Ian White of the PTES.",
+          "translation": "PTES的伊恩·怀特表示：‘我们希望能在林间建立一个自由生活的种群，但直到明年我们才能知道它们的情况如何。’"
+        },
+        {
+          "index": 15,
+          "sentence": "Unsuitable habitat, captive-bred animals and incorrect management could all ruin the chances of success of such schemes.",
+          "translation": "不适宜的栖息地、人工繁殖的动物以及错误的管理都可能破坏此类计划成功的机会。"
+        },
+        {
+          "index": 16,
+          "sentence": "However, a distinctive factor of this release, White explained, is the intention of linking up with another released dormouse population three miles away by managing the land between.",
+          "translation": "然而，怀特解释说，这次释放的一个独特之处在于，他们有意通过管理中间地带，与三英里外另一个已释放的睡鼠种群建立联系。"
+        },
+        {
+          "index": 17,
+          "sentence": "The goal is to create a wider landscape for dormice and that will make the population more robust.",
+          "translation": "目标是创造一个更广阔的睡鼠栖息环境，从而使该种群更加强健。"
+        },
+        {
+          "index": 18,
+          "sentence": "The hope is that we have a free-living population in the wood, but we won’t know how they have fared until next year,",
+          "translation": "“我们希望能在树林中建立一个自由生活的种群，但在明年之前，我们无法知道它们的情况如何。”"
+        },
+        {
+          "index": 19,
+          "sentence": "said Ian White of the PTES.",
+          "translation": "PTES的伊恩·怀特说道。"
+        },
+        {
+          "index": 20,
+          "sentence": "Unsuitable habitat, captive-bred animals and incorrect management could all ruin the chances of success of such schemes.",
+          "translation": "不适宜的栖息地、人工繁殖的动物以及错误的管理都可能破坏此类计划成功的机会。"
+        },
+        {
+          "index": 21,
+          "sentence": "However, a distinctive factor of this release, White explained, is the intention of linking up with another released dormouse population three miles away by managing the land between.",
+          "translation": "然而，怀特解释说，这次放归的一个独特之处在于，它们计划通过管理中间的土地，与三英里外另一个放归的睡鼠种群建立联系。"
+        },
+        {
+          "index": 22,
+          "sentence": "The goal is to create a wider landscape for dormice and that will make the population more robust.",
+          "translation": "其目标是为睡鼠创造一个更广阔的生存环境，这将会使种群更加健壮。"
+        },
+        {
+          "index": 23,
+          "sentence": "Woodlands were traditionally managed through regularly cutting back certain trees to ground level to stimulate growth and provide firewood or timber for local residents.",
+          "translation": "传统上，林地的管理方式是通过定期将某些树木砍至地面，以刺激其生长并为当地居民提供薪柴或木材。"
+        },
+        {
+          "index": 24,
+          "sentence": "This system was known as coppicing, and as an added bonus it happened to provide varied food and plenty of light for dormice.",
+          "translation": "这种系统被称为矮林作业，而额外的好处是它恰好为睡鼠提供了多样化的食物和充足的光照。"
+        },
+        {
+          "index": 25,
+          "sentence": "But the practice has been largely lost, with much remaining woodland sliced up by roads, railways and fields.",
+          "translation": "但这一做法在很大程度上已不复存在，大部分剩余的林地也被道路、铁路和田野分割开来。"
+        },
+        {
+          "index": 26,
+          "sentence": "England also had more than 50% of its hedgerows dug up between 1946 and 1993 as small fields were combined to make larger ones and farmland was sold for building projects.",
+          "translation": "在1946年至1993年间，随着小田地被合并成更大的地块，以及农田被出售用于建筑项目，英国超过50%的树篱也被挖掉了。"
+        },
+        {
+          "index": 27,
+          "sentence": "All this has had an adverse effect on dormouse populations.",
+          "translation": "所有这些都对睡鼠的种群数量产生了不利影响。"
+        },
+        {
+          "index": 28,
+          "sentence": "Woodlands were traditionally managed through regularly cutting back certain trees to ground level to stimulate growth and provide firewood or timber for local residents.",
+          "translation": "传统上，人们通过定期将某些树木砍至地面来管理林地，以刺激生长并为当地居民提供柴火或木材。"
+        },
+        {
+          "index": 29,
+          "sentence": "This system was known as coppicing, and as an added bonus it happened to provide varied food and plenty of light for dormice.",
+          "translation": "这一系统被称为萌生林作业法，而其额外的好处是恰好为榛睡鼠提供了多样化的食物和充足的光照。"
+        },
+        {
+          "index": 30,
+          "sentence": "But the practice has been largely lost, with much remaining woodland sliced up by roads, railways and fields.",
+          "translation": "但这一做法已基本消失，且许多剩余的林地也被公路、铁路和田野分割开来。"
+        },
+        {
+          "index": 31,
+          "sentence": "England also had more than 50% of its hedgerows dug up between 1946 and 1993 as small fields were combined to make larger ones and farmland was sold for building projects.",
+          "translation": "英国在1946年至1993年间还挖掉了超过50%的树篱，因为小片田地合并成大片田地，而农田也被出售用于建筑项目。"
+        },
+        {
+          "index": 32,
+          "sentence": "All this has had an adverse effect on dormouse populations.",
+          "translation": "所有这些都对榛睡鼠的数量产生了不利影响。"
+        },
+        {
+          "index": 33,
+          "sentence": "'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation,' said White.",
+          "translation": "怀特表示：‘重新引入睡鼠非常重要，因为它们是让公众参与保护工作的理想物种。’"
+        },
+        {
+          "index": 34,
+          "sentence": "\"They are a fascinating species that is rare but you can still see.",
+          "translation": "‘它们是一种迷人且稀有的物种，但人们依然有机会目睹其踪迹。’"
+        },
+        {
+          "index": 35,
+          "sentence": "They promote good woodland management and what's good for dormice is good for a large range of species ...'",
+          "translation": "‘它们促进了良好的林地管理，而对睡鼠有利的举措，也对大量其他物种有益……’"
+        },
+        {
+          "index": 36,
+          "sentence": "'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation,' said White.",
+          "translation": "怀特说：‘重新引入睡鼠非常重要，因为它们是一种能吸引人们参与保护的绝佳物种。’"
+        },
+        {
+          "index": 37,
+          "sentence": "\"They are a fascinating species that is rare but you can still see.\"",
+          "translation": "‘它们是一种迷人但稀有的物种，然而你依然有机会见到。’"
+        },
+        {
+          "index": 38,
+          "sentence": "They promote good woodland management and what's good for dormice is good for a large range of species ...'",
+          "translation": "它们促进了良好的林地管理，而对睡鼠有益的事物也会对众多其他物种有益……’"
+        },
+        {
+          "index": 39,
+          "sentence": "Helen Meech, the director of Rewilding Britain, an organisation campaigning to restore lost species and habitats to the British countryside, said that such reintroductions would increase people's familiarity with living with more wild animals once again.",
+          "translation": "英国再野化组织（一个致力于恢复英国乡村消失物种和栖息地的组织）的负责人海伦·米奇表示，这种重新引入将增加人们与更多野生动物再次共存的熟悉感。"
+        },
+        {
+          "index": 40,
+          "sentence": "People's everyday wildlife experience is becoming limited to seeing grey squirrels and pigeons, she explained.",
+          "translation": "她解释说，人们日常的野生动物体验正变得仅限于看到灰松鼠和鸽子。"
+        },
+        {
+          "index": 41,
+          "sentence": "'We are increasingly disconnected from nature.",
+          "translation": "“我们正日益与自然脱节。"
+        },
+        {
+          "index": 42,
+          "sentence": "In 30 to 40 years’ time, we might get to the point where we can start to think about bringing back wolves, bison or moose, but lets start with species that will have a lighter impact for now.'",
+          "translation": "在30到40年后，我们或许能到了开始考虑带回狼、野牛或驼鹿的阶段，但让我们先从目前影响较小的物种开始。’”"
+        },
+        {
+          "index": 43,
+          "sentence": "Helen Meech, the director of Rewilding Britain, an organisation campaigning to restore lost species and habitats to the British countryside, said that such reintroductions would increase people's familiarity with living with more wild animals once again.",
+          "translation": "“再野化英国”组织的负责人海伦·米奇表示，这样的重新引入将帮助人们重新熟悉与更多野生动物共存的生活。该组织致力于恢复英国乡村失去的物种和栖息地。"
+        },
+        {
+          "index": 44,
+          "sentence": "People's everyday wildlife experience is becoming limited to seeing grey squirrels and pigeons, she explained.",
+          "translation": "她解释说，人们日常对野生动物的体验正变得局限于看到灰松鼠和鸽子。"
+        },
+        {
+          "index": 45,
+          "sentence": "'We are increasingly disconnected from nature.",
+          "translation": "“我们正日益与自然脱节。"
+        },
+        {
+          "index": 46,
+          "sentence": "In 30 to 40 years’ time, we might get to the point where we can start to think about bringing back wolves, bison or moose, but lets start with species that will have a lighter impact for now.'",
+          "translation": "在未来的三四十年的时间里，我们或许能发展到开始考虑重新引入狼、野牛或驼鹿的阶段，但让我们现在先从影响较轻的物种开始。”"
+        },
+        {
+          "index": 47,
+          "sentence": "Over centuries, Britain has lost many key species that are critical for healthy ecosystems.",
+          "translation": "几个世纪以来，英国已经失去了许多对健康生态系统至关重要的关键物种。"
+        },
+        {
+          "index": 48,
+          "sentence": "Here are some of the species conservationists have reintroduced or are proposing to reintroduce ...",
+          "translation": "以下是保护主义者已经重新引入或提议重新引入的一些物种……"
+        },
+        {
+          "index": 49,
+          "sentence": "Over centuries, Britain has lost many key species that are critical for healthy ecosystems.",
+          "translation": "几个世纪以来，英国已经失去了许多对健康生态系统至关重要的关键物种。"
+        },
+        {
+          "index": 50,
+          "sentence": "Here are some of the species conservationists have reintroduced or are proposing to reintroduce ...",
+          "translation": "以下是一些保护主义者已经重新引入或提议重新引入的物种……"
+        },
+        {
+          "index": 52,
+          "sentence": "The lynx is believed to have disappeared from Britain about 1,000 years ago.",
+          "translation": "据信，猞猁大约在1000年前从英国消失。"
+        },
+        {
+          "index": 53,
+          "sentence": "Experts say it would help control the fast-growing population of red deer, allowing forests to regenerate and support greater biodiversity.",
+          "translation": "专家表示，它将有助于控制赤鹿快速增长的数量，从而使森林得以再生并支持更大的生物多样性。"
+        },
+        {
+          "index": 54,
+          "sentence": "The preference of the lynx, a shy animal, to stay in its woodland habitat would make a threat to livestock or humans unlikely.",
+          "translation": "作为害羞的动物，猞猁偏好留在林地栖息地，这使得它对牲畜或人类构成威胁的可能性很小。"
+        },
+        {
+          "index": 56,
+          "sentence": "After an absence of 400 years, beavers are back in Britain.",
+          "translation": "在消失了400年之后，海狸重新回到了英国。"
+        },
+        {
+          "index": 57,
+          "sentence": "The Devon Beaver project cites improvements in biodiversity and water after the reintroduction of a pair near Okehampton in 2011.",
+          "translation": "德文海狸项目指出，在2011年于奥克汉普顿附近重新引入一对海狸后，生物多样性和水质得到了改善。"
+        },
+        {
+          "index": 58,
+          "sentence": "Scotland's first reintroduction, in Knapdale forest in 2009, was hailed an 'outstanding success', but an unlicensed free-living population in the river Tay has caused problems.",
+          "translation": "苏格兰在2009年于纳普代尔森林进行的首次重新引入被誉为“杰出的成功”，但在泰河未经许可的自由种群却引发了一些问题。"
+        },
+        {
+          "index": 59,
+          "sentence": "Lost to Britain in the 1700s, the wolf is the most controversial species proposed for reintroduction given its potential to kill agricultural livestock.",
+          "translation": "狼于18世纪在英国灭绝，因其可能捕杀农业牲畜而成为最富争议的拟重新引入物种。"
+        },
+        {
+          "index": 60,
+          "sentence": "But they are critical to the restoration of ecosystems that have been overgrazed by deer.",
+          "translation": "但它们对于恢复被鹿过度啃食的生态系统至关重要。"
+        },
+        {
+          "index": 61,
+          "sentence": "Despite their fearsome reputation, they present a low risk to people.",
+          "translation": "尽管名声可怖，它们对人类的风险很低。"
+        },
+        {
+          "index": 62,
+          "sentence": "Because of the space a wolf population would need, the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism.",
+          "translation": "由于狼群需要生存空间，苏格兰高地显然是重新引入的适宜地点，并可带来数百万英镑的旅游收入。"
+        },
+        {
+          "index": 63,
+          "sentence": "Lost to Britain in the 1700s, the wolf is the most controversial species proposed for reintroduction given its potential to kill agricultural livestock.",
+          "translation": "狼在18世纪于英国灭绝，由于其可能捕杀农业牲畜，因此成为被提议重新引入的最具争议的物种。"
+        },
+        {
+          "index": 64,
+          "sentence": "But they are critical to the restoration of ecosystems that have been overgrazed by deer.",
+          "translation": "但狼对于恢复被鹿过度啃食的生态系统至关重要。"
+        },
+        {
+          "index": 65,
+          "sentence": "Despite their fearsome reputation, they present a low risk to people.",
+          "translation": "尽管狼名声可怖，但它们对人类构成的威胁很小。"
+        },
+        {
+          "index": 66,
+          "sentence": "Because of the space a wolf population would need, the Scottish Highlands would be an obvious place for their reintroduction and could generate millions of pounds in tourism.",
+          "translation": "由于狼群需要广阔的生存空间，苏格兰高地显然是重新引入它们的理想之地，并且这可能会带来数百万英镑的旅游收入。"
+        },
+        {
+          "index": 68,
+          "sentence": "The sea eagle, also known as the white-tailed eagle, was driven to extinction in Britain earlier this century.",
+          "translation": "海鹰，也称白尾鹰，在本世纪早期在英国被逼至灭绝。"
+        },
+        {
+          "index": 69,
+          "sentence": "A reintroduction programme has seen it return to the Inner Hebrides island of Mull.",
+          "translation": "一项重新引入计划已使它们重返内赫布里底群岛的马尔岛。"
+        },
+        {
+          "index": 70,
+          "sentence": "Proposals to bring it back to the east of England failed following concerns from landowners about the threat to livestock.",
+          "translation": "由于土地所有者担心其对牲畜的威胁，将其带回英格兰东部的提议未能成功。"
+        },
+        {
+          "index": 71,
+          "sentence": "Successful schemes in Europe have offered compensation for this.",
+          "translation": "欧洲的成功项目为此提供了补偿。"
+        },
+        {
+          "index": 72,
+          "sentence": "Then there is the wild boar which disappeared in the 13th century because of hunting.",
+          "translation": "还有野猪，它们因狩猎而在13世纪消失。"
+        },
+        {
+          "index": 73,
+          "sentence": "They increase biodiversity and create space for trees and plants to grow, but can cause damage to crops and gardens.",
+          "translation": "它们增加了生物多样性，并为树木和植物的生长创造了空间，但可能对庄稼和花园造成破坏。"
+        },
+        {
+          "index": 74,
+          "sentence": "The species has been quietly re-establishing itself in the woodlands of Britain for several decades.",
+          "translation": "几十年来，这个物种一直在英国林地中悄然重新繁衍。"
+        },
+        {
+          "index": 75,
+          "sentence": "Then there is the wild boar which disappeared in the 13th century because of hunting.",
+          "translation": "还有野猪，这种动物因狩猎而在13世纪消失。"
+        },
+        {
+          "index": 76,
+          "sentence": "They increase biodiversity and create space for trees and plants to grow, but can cause damage to crops and gardens.",
+          "translation": "它们能增加生物多样性，并为树木和植物的生长创造空间，但可能对庄稼和花园造成破坏。"
+        },
+        {
+          "index": 77,
+          "sentence": "The species has been quietly re-establishing itself in the woodlands of Britain for several decades.",
+          "translation": "几十年来，这一物种一直在英国林地中悄然重新繁衍。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

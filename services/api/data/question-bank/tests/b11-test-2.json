@@ -1,0 +1,3196 @@
+{
+  "id": "b11-test-2",
+  "book": "剑雅11",
+  "book_number": 11,
+  "name": "Test 2",
+  "title": "剑雅11 Test 2",
+  "parts": [
+    {
+      "id": "2096",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Sustainable School Travel Strategy",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Over the last 20 years, the number of children being driven to school in England has doubled. National data suggests that one in five cars on the road at 8.50 am is engaged in the school run.Children are subject to up to 3.9 times more pollution in a car that is standing in traffic than when walking or cycling to school.Reducing cars around schools makes them safer places, and walking and cycling are better for health and the environment. It has been noted by teachers that children engaging in active travel arrive at school more alert and ready to learn.",
+          "translation": "在过去的20年里，英格兰由家长开车送去上学的儿童数量翻了一番。\n全国数据显示，早上8点50分在路上行驶的汽车中，有五分之一正在执行接送学生的任务。\n与步行或骑自行车上学相比，孩子们在堵车的汽车中受到的污染程度高达3.9倍。\n减少学校周边的汽车数量能让学校更安全，而步行和骑自行车更有利于健康和环境。\n老师们注意到，选择主动出行方式上学的孩子到校时更加警觉，更愿意投入学习。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "The County Council has a strong commitment to supporting and promoting sustainable school travel. We collect data annually about how pupils get to school, and our report on the Sustainable School Travel Strategy sets out in detail what we have achieved so far and what we intend to do in the future. Different parts of the County Council are working together to address the actions identified in the strategy, and we are proud that we have been able to reduce the number of cars on the daily school run by an average of 1% in each of the last three years, which is equivalent to taking approximately 175 cars off the road annually, despite an increase in pupil numbers.",
+          "translation": "郡议会坚定致力于支持和推广可持续的学校出行方式。\n我们每年收集关于学生如何上学的数据，而我们的《可持续学校出行战略》报告详细阐述了迄今为止取得的成就以及未来计划采取的行动。\n郡议会的不同部门正协同合作，落实战略中确定的各项行动，我们感到自豪的是，尽管学生人数有所增加，但在过去三年中，每年日常接送学生的车辆数量平均减少了1%，这相当于每年减少约175辆车上路。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "All schools have a School Travel Plan, which sets out how the school and the Council can collaborate to help reduce travel to school by car and encourage the use of public transport.Contact your school to find out what they are doing as part of their School Travel Plan to help you get your child to school in a sustainable, safe way.",
+          "translation": "所有学校都制定了一份学校出行计划，该计划阐述了学校和地方议会如何合作，以帮助减少驾车上学的情况，并鼓励使用公共交通。\n请联系您孩子的学校，了解他们作为学校出行计划的一部分正在采取哪些措施，以帮助您以可持续且安全的方式送孩子上学。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Flu: the facts",
+          "question_cue": {
+            "start": 7,
+            "end": 14
+          },
+          "translation": "流感：事实"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Flu (influenza) is an acute viral respiratory infection. It spreads easily from person to person: at home, at school, at work, at the supermarket or on the train.",
+          "translation": "流感是一种急性病毒性呼吸道感染。\n它很容易在人与人之间传播：在家里、学校、工作场所、超市或火车上。\n流感（流行性感冒）是一种急性病毒性呼吸道感染。\n它在人与人之间很容易传播：无论是在家中、学校、工作场所、超市还是火车上。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "It gets passed on when someone who already has flu coughs or sneezes and is transmitted through the air by droplets, or it can be spread by hands infected by the virus.",
+          "translation": "当已感染流感的人咳嗽或打喷嚏时，病毒会通过空气中的飞沫传播，或者通过被病毒污染的手来扩散。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Symptoms can include fever, chills, headache, muscle pain, extreme fatigue, a dry cough, sore throat and stuffy nose.Most people will recover within a week but flu can cause severe illness or even death in people at high risk. It is estimated that18,500-24,800 deaths in England and Wales are attributable to influenza infections annually.",
+          "translation": "症状可能包括发烧、寒战、头痛、肌肉疼痛、极度疲劳、干咳、喉咙痛和鼻塞。\n大多数人会在一周内康复，但流感可能导致高风险人群患上严重疾病甚至死亡。\n据估计，英格兰和威尔士每年有18,500至24,800人的死亡可归因于流感感染。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Vaccination is the most effective way to prevent infection.Although anyone can catch flu, certain people are at greater risk from the implications of flu, as their bodies may not be able to fight the virus. If you are over 65 years old, or suffer from asthma, diabetes, or certain other conditions, you are considered at greater risk from flu and the implications can be serious. If you fall into one of these 'at-risk' groups, are pregnant or a carer, you are eligible for a free flu vaccination.",
+          "translation": "接种疫苗是预防感染最有效的方式。\n尽管任何人都可能感染流感，但某些人群因身体可能无法抵抗病毒，面临更高的流感并发症风险。\n如果你年过65岁，或患有哮喘、糖尿病或其他特定疾病，你将被视为流感高危人群，其后果可能十分严重。\n如果你属于这些‘高危’群体之一，或是孕妇或护理人员，则有资格免费接种流感疫苗。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "If you are not eligible for a free flu vaccination, you can still protect yourself and those around you from flu by getting a flu vaccination at a local pharmacy.",
+          "translation": "如果您没有资格获得免费流感疫苗，您仍然可以通过在本地药房接种流感疫苗来保护自己和周围的人免受流感侵袭。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "About seven to ten days after vaccination, your body makes antibodies that help to protect you against any similar viruses that may infect you. This protection lasts about a year.",
+          "translation": "接种疫苗大约七到十天后，你的身体会产生抗体，这些抗体有助于保护你免受任何可能感染的类似病毒的侵害。\n接种疫苗大约七到十天后，你的身体会产生抗体，这些抗体有助于保护你免受任何可能感染你的相似病毒的侵害。\n这种保护作用持续约一年。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "A flu vaccination contains inactivated, killed virus strains so it can't give you the flu.However, a flu vaccination can take up to two weeks to begin working, so it is possible to catch flu in this period.",
+          "translation": "流感疫苗含有灭活的病毒株，因此不会让你患上流感。\n然而，流感疫苗可能需要长达两周的时间才能开始发挥作用，因此在这段时间内仍有感染流感的可能性。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "A flu vaccination is designed to protect you against the most common and potent strains of flu circulating so there is a small chance you could catch a strain of flu not contained in the flu vaccine.",
+          "translation": "流感疫苗旨在保护你免受流行中最常见和最致命的流感病毒株的侵害，因此仍存在较小可能性你会感染疫苗未包含的流感病毒株。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "l"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "The influenza virus is constantly changing and vaccines are developed to protect against the predicted strains each year so it is important to get vaccinated against the latest strains.",
+          "translation": "流感病毒不断变异，而疫苗的开发旨在每年针对预测的毒株提供保护，因此接种最新毒株的疫苗至关重要。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Speak to your GP or nurse today to book your flu vaccination.",
+          "translation": "今天就和你的家庭医生或护士沟通，预约接种流感疫苗。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15802",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1 - 6\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120527",
+              "number": 1,
+              "prompt": "More children are injured when walking or cycling to school than when travellingby car.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问是否步行或骑车上学的儿童比乘车上学的儿童更容易受伤，但原文并未对这两种出行方式下的受伤情况进行任何比较。文章仅提到减少校门口车辆可使学校更安全，并指出乘车儿童在交通拥堵中接触的污染是步行或骑车儿童的3.9倍，但未涉及受伤风险。因此，该信息在文中未提及，答案为 NOT GIVEN。",
+              "reason": "原文没有提到步行或骑车受伤与乘车受伤的比较。",
+              "location_analysis": "原文未涉及受伤比较，无法判断。",
+              "paraphrasing": "no correspondence found",
+              "keywords": "injured, walking, cycling, car",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未比较不同出行方式下儿童受伤人数的多少，该选项无依据。",
+                "FALSE": "原文未提供任何证据表明步行/骑车受伤人数少于乘车，该选项无依据。"
+              }
+            },
+            {
+              "id": "120528",
+              "number": 2,
+              "prompt": "Children who are driven to school are more ready to learn than those who walkor cycle.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称被开车送上学的儿童比步行或骑车的儿童更准备好学习，这与原文内容相矛盾。原文明确指出：‘teachers have noted that children engaging in active travel arrive at school more alert and ready to learn’，其中‘active travel’指的就是步行或骑车。因此，题干陈述与原文事实相反，答案为 FALSE。",
+              "reason": "原文表明走路/骑车孩子更ready，与题干相反。",
+              "location_analysis": "原文说主动出行（走路/骑车）的孩子更警觉，题说被开车送的孩子更ready，矛盾。",
+              "paraphrasing": "children engaging in active travel -> children who walk or cycle; arrive at school more alert and ready to learn",
+              "keywords": "children, driven, school, more ready to learn, walk, cycle",
+              "evidence": [
+                "It has been noted by teachers that children engaging in active travel arrive at school more alert and ready to learn."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": {
+                "TRUE": "与原文中提到的信息矛盾，原文指出步行或骑车上学的孩子学习准备更充分。",
+                "NOT GIVEN": "原文明确比较了两种方式，并非未提及相关信息。"
+              }
+            },
+            {
+              "id": "120529",
+              "number": 3,
+              "prompt": "Every year the Council gathers information about travel to schools.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的‘Every year the Council gathers information about travel to schools’对应原文第二段中的‘We collect data annually about how pupils get to school’。‘annually’即‘every year’，‘collect data’即‘gathers information’，两者为同义表达。因此，该陈述与原文一致，答案为 TRUE。",
+              "reason": "原文直接对应。",
+              "location_analysis": "原文明确每年收集数据。",
+              "paraphrasing": "every year -> annually; gathers information -> collect data",
+              "keywords": "every year, Council, gathers, information, travel, schools",
+              "evidence": [
+                "We collect data annually about how pupils get to school"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾，原文明确说明委员会每年收集上学旅行信息。",
+                "NOT GIVEN": "原文中明确提到了这一信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120530",
+              "number": 4,
+              "prompt": "The Council is disappointed with the small reduction in the number of cars takingchildren to school.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称委员会对减少送学车辆数量的微小成效感到失望，但原文明确表示‘we are proud that we have been able to reduce the number of cars... by an average of 1%’。‘proud’表明积极态度，与‘disappointed’形成直接矛盾。因此，该陈述与原文不符，答案为 FALSE。",
+              "reason": "原文表明骄傲，与题干失望矛盾。",
+              "location_analysis": "原文用'proud'表达对减少的积极态度，而非失望。",
+              "paraphrasing": "disappointed -> proud",
+              "keywords": "Council, disappointed, small reduction, cars, children",
+              "evidence": [
+                "we are proud that we have been able to reduce the number of cars on the daily school run by an average of 1%"
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": {
+                "TRUE": "原文表明Council并非对减少感到失望，与题干矛盾。",
+                "NOT GIVEN": "原文明确提到了Council的态度，并非未提及。"
+              }
+            },
+            {
+              "id": "120531",
+              "number": 5,
+              "prompt": "The number of children in schools has risen in recent years.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干提到近年在校儿童人数有所增加，原文第二段末尾明确指出‘despite an increase in pupil numbers’，说明学生总数确实在上升。这一信息直接支持题干陈述，因此答案为 TRUE。",
+              "reason": "原文直接支持。",
+              "location_analysis": "原文明确学生人数增加。",
+              "paraphrasing": "risen -> increase; recent years -> last three years",
+              "keywords": "number, children, schools, risen, recent years",
+              "evidence": [
+                "despite an increase in pupil numbers"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "FALSE": "原文明确提及学生人数上升，该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文明确给出了学生人数上升的信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120532",
+              "number": 6,
+              "prompt": "Parents can get help with paying for their children to travel to school by public transport.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问家长是否能获得帮助以支付孩子乘坐公共交通上学的费用，但通读全文未发现任何关于经济援助、补贴或费用支持的内容。文章仅建议家长联系学校了解可持续出行方案，但未提及相关财政支持。因此，该信息在文中未提及，答案为 NOT GIVEN。",
+              "reason": "原文没有提到公共交通费用帮助。",
+              "location_analysis": "原文未提及支付帮助，无法判断。",
+              "paraphrasing": "no correspondence found",
+              "keywords": "parents, help, paying, public transport",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文中并未提及家长是否可以获得此类经济帮助，因此无法判断为正确。",
+                "FALSE": "原文并未明确否定家长可以获得此类帮助，因此无法判断为错误。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15809",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 7 - 14\nThe text has nine sections, A-I.\nWhich sections contain the following information?\nWrite the correct letter, A-H, in boxes 7-14 on your answer sheet.\nNB You may use any answer more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120533",
+              "number": 7,
+              "prompt": "examples of people who are likely to be particularly badly affected by flu",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求找出提及特别容易受流感严重影响人群的例子，D段明确列举了高风险群体：‘If you are over 65 years old, or suffer from asthma, diabetes, or certain other conditions...’。这些例子直接对应‘people who are likely to be particularly badly affected by flu’，因此答案为 D。",
+              "reason": "D段明确给出高风险人群例子。",
+              "location_analysis": "D段列举老年人、哮喘等高风险人群。",
+              "paraphrasing": "particularly badly affected -> at greater risk from the implications of flu",
+              "keywords": "examples, people, likely, particularly badly affected, flu",
+              "evidence": [
+                "If you are over 65 years old, or suffer from asthma, diabetes, or certain other conditions, you are considered at greater risk from flu"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120534",
+              "number": 8,
+              "prompt": "how to get a vaccination if you choose to pay for it",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干询问如何自费接种疫苗，E段指出：‘If you are not eligible for a free flu vaccination, you can still... get a flu vaccination at a local pharmacy.’ 这说明不符合免费条件者可前往药房付费接种，完全对应题干要求，因此答案为 E。",
+              "reason": "E段提到自费接种方式。",
+              "location_analysis": "E段说若不符合免费条件，可在药房付费接种。",
+              "paraphrasing": "pay for it -> not eligible for free, get at pharmacy",
+              "keywords": "get, vaccination, pay",
+              "evidence": [
+                "If you are not eligible for a free flu vaccination, you can still protect yourself and those around you from flu by getting a flu vaccination at a local pharmacy."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120535",
+              "number": 9,
+              "prompt": "why new vaccines become available",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "analysis": "题干问为何会有新疫苗推出，I段解释道：‘The influenza virus is constantly changing and vaccines are developed to protect against the predicted strains each year’。这说明因病毒不断变异，每年需研发针对预测毒株的新疫苗，直接回答了题干问题，因此答案为 I。",
+              "reason": "I段说明新疫苗因病毒变化而每年开发。",
+              "location_analysis": "I段解释因为病毒变化，需每年研发新疫苗。",
+              "paraphrasing": "new vaccines become available -> vaccines are developed to protect against the predicted strains each year",
+              "keywords": "why, new vaccines, become available",
+              "evidence": [
+                "The influenza virus is constantly changing and vaccines are developed to protect against the predicted strains each year"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120536",
+              "number": 10,
+              "prompt": "how long a vaccine remains effective",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干询问疫苗的有效时长，F段明确说明：‘This protection lasts about a year.’ 其中‘protection’指疫苗提供的免疫效果，与‘vaccine remains effective’为同义表达。因此，该信息出现在F段，答案为 F。",
+              "reason": "F段明确有效期。",
+              "location_analysis": "F段说保护期大约一年。",
+              "paraphrasing": "remains effective -> lasts; how long -> about a year",
+              "keywords": "how long, vaccine, remains effective",
+              "evidence": [
+                "This protection lasts about a year."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120537",
+              "number": 11,
+              "prompt": "reference to the possibility of catching a different type of flu from the ones in the vaccine",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "题干提到可能感染疫苗未涵盖的流感类型，H段指出：‘there is a small chance you could catch a strain of flu not contained in the flu vaccine.’ 这句话直接说明疫苗不包含所有毒株，存在感染其他类型流感的可能性，完全对应题干描述，因此答案为 H。",
+              "reason": "H段直接提到可能感染疫苗未覆盖的毒株。",
+              "location_analysis": "H段说疫苗不包含所有毒株，有感染其他株的可能性。",
+              "paraphrasing": "catching a different type of flu -> catch a strain of flu not contained in the flu vaccine",
+              "keywords": "possibility, catching, different type, flu, vaccine",
+              "evidence": [
+                "there is a small chance you could catch a strain of flu not contained in the flu vaccine."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120538",
+              "number": 12,
+              "prompt": "categories of people who do not have to pay for vaccination",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求找出哪些人群可免费接种疫苗，D段末尾明确列出：‘If you fall into one of these “at-risk” groups, are pregnant or a carer, you are eligible for a free flu vaccination.’ 这些类别（如老年人、慢性病患者、孕妇、照护者）即为无需付费的人群，因此答案为 D。",
+              "reason": "D段明确哪些人可免费接种。",
+              "location_analysis": "D段末尾列出可免费接种的群体。",
+              "paraphrasing": "do not have to pay -> free; categories -> at-risk groups, pregnant, carer",
+              "keywords": "categories, people, do not have to pay, vaccination",
+              "evidence": [
+                "If you fall into one of these 'at-risk' groups, are pregnant or a carer, you are eligible for a free flu vaccination."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120539",
+              "number": 13,
+              "prompt": "information about what a vaccine consists of",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干询问疫苗的成分，G段说明：‘A flu vaccination contains inactivated, killed virus strains so it can't give you the flu.’ 这句话清楚描述了疫苗由灭活病毒株组成，直接回答了‘what a vaccine consists of’的问题，因此答案为 G。",
+              "reason": "G段描述疫苗成分。",
+              "location_analysis": "G段说明疫苗含灭活病毒株。",
+              "paraphrasing": "consists of -> contains; inactivated, killed virus strains",
+              "keywords": "information, what a vaccine consists of",
+              "evidence": [
+                "A flu vaccination contains inactivated, killed virus strains so it can't give you the flu."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120540",
+              "number": 14,
+              "prompt": "signs that you might have flu",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出流感症状的描述，C段开头明确列出：‘Symptoms can include fever, chills, headache, muscle pain, extreme fatigue, a dry cough, sore throat and stuffy nose.’ 其中‘symptoms’即题干中的‘signs that you might have flu’，内容完全对应，因此答案为 C。",
+              "reason": "C段详细列出流感症状。",
+              "location_analysis": "C段列举流感症状。",
+              "paraphrasing": "signs -> symptoms",
+              "keywords": "signs, you might have flu",
+              "evidence": [
+                "Symptoms can include fever, chills, headache, muscle pain, extreme fatigue, a dry cough, sore throat and stuffy nose."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Sustainable School Travel Strategy",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Over the last 20 years, the number of children being driven to school in England has doubled.",
+          "translation": "在过去的20年里，英格兰由家长开车送去上学的儿童数量翻了一番。"
+        },
+        {
+          "index": 2,
+          "sentence": "National data suggests that one in five cars on the road at 8.50 am is engaged in the school run.",
+          "translation": "全国数据显示，早上8点50分在路上行驶的汽车中，有五分之一正在执行接送学生的任务。"
+        },
+        {
+          "index": 3,
+          "sentence": "Children are subject to up to 3.9 times more pollution in a car that is standing in traffic than when walking or cycling to school.",
+          "translation": "与步行或骑自行车上学相比，孩子们在堵车的汽车中受到的污染程度高达3.9倍。"
+        },
+        {
+          "index": 4,
+          "sentence": "Reducing cars around schools makes them safer places, and walking and cycling are better for health and the environment.",
+          "translation": "减少学校周边的汽车数量能让学校更安全，而步行和骑自行车更有利于健康和环境。"
+        },
+        {
+          "index": 5,
+          "sentence": "It has been noted by teachers that children engaging in active travel arrive at school more alert and ready to learn.",
+          "translation": "老师们注意到，选择主动出行方式上学的孩子到校时更加警觉，更愿意投入学习。"
+        },
+        {
+          "index": 6,
+          "sentence": "The County Council has a strong commitment to supporting and promoting sustainable school travel.",
+          "translation": "郡议会坚定致力于支持和推广可持续的学校出行方式。"
+        },
+        {
+          "index": 7,
+          "sentence": "We collect data annually about how pupils get to school, and our report on the Sustainable School Travel Strategy sets out in detail what we have achieved so far and what we intend to do in the future.",
+          "translation": "我们每年收集关于学生如何上学的数据，而我们的《可持续学校出行战略》报告详细阐述了迄今为止取得的成就以及未来计划采取的行动。"
+        },
+        {
+          "index": 8,
+          "sentence": "Different parts of the County Council are working together to address the actions identified in the strategy, and we are proud that we have been able to reduce the number of cars on the daily school run by an average of 1% in each of the last three years, which is equivalent to taking approximately 175 cars off the road annually, despite an increase in pupil numbers.",
+          "translation": "郡议会的不同部门正协同合作，落实战略中确定的各项行动，我们感到自豪的是，尽管学生人数有所增加，但在过去三年中，每年日常接送学生的车辆数量平均减少了1%，这相当于每年减少约175辆车上路。"
+        },
+        {
+          "index": 9,
+          "sentence": "All schools have a School Travel Plan, which sets out how the school and the Council can collaborate to help reduce travel to school by car and encourage the use of public transport.",
+          "translation": "所有学校都制定了一份学校出行计划，该计划阐述了学校和地方议会如何合作，以帮助减少驾车上学的情况，并鼓励使用公共交通。"
+        },
+        {
+          "index": 10,
+          "sentence": "Contact your school to find out what they are doing as part of their School Travel Plan to help you get your child to school in a sustainable, safe way.",
+          "translation": "请联系您孩子的学校，了解他们作为学校出行计划的一部分正在采取哪些措施，以帮助您以可持续且安全的方式送孩子上学。"
+        },
+        {
+          "index": 11,
+          "sentence": "Flu: the facts",
+          "translation": "流感：事实"
+        },
+        {
+          "index": 13,
+          "sentence": "Flu (influenza) is an acute viral respiratory infection.",
+          "translation": "流感是一种急性病毒性呼吸道感染。"
+        },
+        {
+          "index": 14,
+          "sentence": "It spreads easily from person to person: at home, at school, at work, at the supermarket or on the train.",
+          "translation": "它很容易在人与人之间传播：在家里、学校、工作场所、超市或火车上。"
+        },
+        {
+          "index": 15,
+          "sentence": "Flu (influenza) is an acute viral respiratory infection.",
+          "translation": "流感（流行性感冒）是一种急性病毒性呼吸道感染。"
+        },
+        {
+          "index": 16,
+          "sentence": "It spreads easily from person to person: at home, at school, at work, at the supermarket or on the train.",
+          "translation": "它在人与人之间很容易传播：无论是在家中、学校、工作场所、超市还是火车上。"
+        },
+        {
+          "index": 17,
+          "sentence": "It gets passed on when someone who already has flu coughs or sneezes and is transmitted through the air by droplets, or it can be spread by hands infected by the virus.",
+          "translation": "当已感染流感的人咳嗽或打喷嚏时，病毒会通过空气中的飞沫传播，或者通过被病毒污染的手来扩散。"
+        },
+        {
+          "index": 19,
+          "sentence": "Symptoms can include fever, chills, headache, muscle pain, extreme fatigue, a dry cough, sore throat and stuffy nose.",
+          "translation": "症状可能包括发烧、寒战、头痛、肌肉疼痛、极度疲劳、干咳、喉咙痛和鼻塞。"
+        },
+        {
+          "index": 20,
+          "sentence": "Most people will recover within a week but flu can cause severe illness or even death in people at high risk.",
+          "translation": "大多数人会在一周内康复，但流感可能导致高风险人群患上严重疾病甚至死亡。"
+        },
+        {
+          "index": 21,
+          "sentence": "It is estimated that18,500-24,800 deaths in England and Wales are attributable to influenza infections annually.",
+          "translation": "据估计，英格兰和威尔士每年有18,500至24,800人的死亡可归因于流感感染。"
+        },
+        {
+          "index": 23,
+          "sentence": "Vaccination is the most effective way to prevent infection.",
+          "translation": "接种疫苗是预防感染最有效的方式。"
+        },
+        {
+          "index": 24,
+          "sentence": "Although anyone can catch flu, certain people are at greater risk from the implications of flu, as their bodies may not be able to fight the virus.",
+          "translation": "尽管任何人都可能感染流感，但某些人群因身体可能无法抵抗病毒，面临更高的流感并发症风险。"
+        },
+        {
+          "index": 25,
+          "sentence": "If you are over 65 years old, or suffer from asthma, diabetes, or certain other conditions, you are considered at greater risk from flu and the implications can be serious.",
+          "translation": "如果你年过65岁，或患有哮喘、糖尿病或其他特定疾病，你将被视为流感高危人群，其后果可能十分严重。"
+        },
+        {
+          "index": 26,
+          "sentence": "If you fall into one of these 'at-risk' groups, are pregnant or a carer, you are eligible for a free flu vaccination.",
+          "translation": "如果你属于这些‘高危’群体之一，或是孕妇或护理人员，则有资格免费接种流感疫苗。"
+        },
+        {
+          "index": 28,
+          "sentence": "If you are not eligible for a free flu vaccination, you can still protect yourself and those around you from flu by getting a flu vaccination at a local pharmacy.",
+          "translation": "如果您没有资格获得免费流感疫苗，您仍然可以通过在本地药房接种流感疫苗来保护自己和周围的人免受流感侵袭。"
+        },
+        {
+          "index": 29,
+          "sentence": "About seven to ten days after vaccination, your body makes antibodies that help to protect you against any similar viruses that may infect you.",
+          "translation": "接种疫苗大约七到十天后，你的身体会产生抗体，这些抗体有助于保护你免受任何可能感染的类似病毒的侵害。"
+        },
+        {
+          "index": 30,
+          "sentence": "About seven to ten days after vaccination, your body makes antibodies that help to protect you against any similar viruses that may infect you.",
+          "translation": "接种疫苗大约七到十天后，你的身体会产生抗体，这些抗体有助于保护你免受任何可能感染你的相似病毒的侵害。"
+        },
+        {
+          "index": 31,
+          "sentence": "This protection lasts about a year.",
+          "translation": "这种保护作用持续约一年。"
+        },
+        {
+          "index": 33,
+          "sentence": "A flu vaccination contains inactivated, killed virus strains so it can't give you the flu.",
+          "translation": "流感疫苗含有灭活的病毒株，因此不会让你患上流感。"
+        },
+        {
+          "index": 34,
+          "sentence": "However, a flu vaccination can take up to two weeks to begin working, so it is possible to catch flu in this period.",
+          "translation": "然而，流感疫苗可能需要长达两周的时间才能开始发挥作用，因此在这段时间内仍有感染流感的可能性。"
+        },
+        {
+          "index": 36,
+          "sentence": "A flu vaccination is designed to protect you against the most common and potent strains of flu circulating so there is a small chance you could catch a strain of flu not contained in the flu vaccine.",
+          "translation": "流感疫苗旨在保护你免受流行中最常见和最致命的流感病毒株的侵害，因此仍存在较小可能性你会感染疫苗未包含的流感病毒株。"
+        },
+        {
+          "index": 38,
+          "sentence": "The influenza virus is constantly changing and vaccines are developed to protect against the predicted strains each year so it is important to get vaccinated against the latest strains.",
+          "translation": "流感病毒不断变异，而疫苗的开发旨在每年针对预测的毒株提供保护，因此接种最新毒株的疫苗至关重要。"
+        },
+        {
+          "index": 39,
+          "sentence": "Speak to your GP or nurse today to book your flu vaccination.",
+          "translation": "今天就和你的家庭医生或护士沟通，预约接种流感疫苗。"
+        }
+      ]
+    },
+    {
+      "id": "2097",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Tips for giving an effective business presentation",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Preparation",
+          "translation": "准备工作"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Get someone else to evaluate your performance and highlight your best skills. For example, go through your presentation in front of a colleague or relative.Think about who your audience is and what you want them to get out of the presentation. Think about content and style.",
+          "translation": "请他人评估你的表现并突出你最好的技能。\n例如，在同事或亲戚面前演练你的演示。\n思考你的听众是谁以及你希望他们从演示中获得什么。\n思考内容和风格。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Go into the presentation room and try out any moves you may have to make, e.g.getting up from your chair and moving to the podium.Errors in the first 20 seconds can be very disorientating.",
+          "translation": "进入演示房间，并尝试你可能需要做出的任何动作，例如从椅子上站起来并走到讲台前。\n前20秒内的错误可能会导致非常严重的混乱。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Familiarise yourself with the electronic equipment before the presentation and also have a backup plan in mind, should there be an unexpected problem like a power cut.",
+          "translation": "在演示前熟悉电子设备，同时心中有一个备用计划，以防出现类似断电的意外问题。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Dealing with presentation nervousness",
+          "translation": "应对演讲紧张情绪"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "A certain amount of nervousness is vital for a good presentation.The added adrenaline will keep your faculties sharp and give your presentation skills extra force. This can, however, result in tension in the upper chest.Concentrate on your breathing. Slow it right down and this will relax you. Strangely, having something to pick up and put down tends to help you do this.",
+          "translation": "一定程度的紧张对于一场成功的演示至关重要。\n额外的肾上腺素会让你的思维保持敏锐，并赋予你的演示技巧额外的力量。\n然而，这可能会导致上胸部出现紧张感。\n专注于你的呼吸。\n将呼吸放慢下来，这会使你放松。\n奇怪的是，手里有东西可以拿起又放下往往能帮助你做到这一点。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "It may seem an odd idea, but we seem to feel calmer when we engage in what's referred to as a displacement activity, like clicking a pen or fiddling with jewellery. A limited amount of this will not be too obvious and can make you feel more secure at the start.",
+          "translation": "这或许看似一个奇怪的想法，但当我们进行所谓的替代性活动（例如按动笔或摆弄首饰）时，似乎会感到更加平静。\n适度进行这种活动不会太明显，还能让你在开始时感到更安心。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Interacting with your audience",
+          "translation": "与听众互动"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Think of your presentation as a conversation with your audience.They may not actually say anything, but make them feel consulted, questioned, challenged, then they will stay awake and attentive.",
+          "translation": "将你的演示视为与观众的一次对话。\n他们可能实际上不会说任何话，但要让他们感到被咨询、被质疑、被挑战，这样他们就会保持清醒和专注。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Engage with your present audience, not the one you have prepared for. Keep looking for reactions to your ideas and respond to them. If your audience doesn't appear to be following you, find another way to get your ideas across. If you don 't interact, you might as well send a video recording of your presentation instead!",
+          "translation": "与你在场的观众互动，而不是你为之准备的那群人。\n持续寻找观众对你观点的反应，并据此做出回应。\n如果你的观众似乎没有跟上你的思路，那就另找方法传达你的观点。\n如果你不进行互动，倒不如直接发送你演讲的视频录像！"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Structuring effective presentations",
+          "translation": "构建有效的演示文稿结构"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Effective presentations are full of examples. These help your listeners to see more clearly what you mean. It's quicker and more colourful. Stick to the point using three or four main ideas. For any subsidiary information that you cannot present in 20 minutes, try another medium, such as handouts.",
+          "translation": "有效的演示充满实例。\n它们帮助听众更清楚地理解你的意思。\n这样更快捷，也更生动。\n围绕三到四个主要观点，紧扣主题。\n对于任何无法在20分钟内呈现的辅助信息，尝试改用其他媒介，比如讲义。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "End as if your presentation has gone well. Do this even if you feel you've presented badly. And anyway a good finish will get you some applause - and you deserve it!",
+          "translation": "结束时要表现得好像你的演讲进行得很顺利。\n即使你觉得自己讲得很糟糕，也要这样做。\n而且无论如何，一个出色的结尾会为你赢得一些掌声——而你值得拥有这些掌声！"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "How to get a job in journalism",
+          "question_cue": {
+            "start": 23,
+            "end": 27
+          },
+          "translation": "如何在新闻行业找到一份工作"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "You can get a good qualification in journalism, but what employers actually want is practical, rather than theoretical, knowledge. There's no substitute for creating real stories that have to be handed in by strict deadlines. So write for your school magazine, then maybe try your hand at editing.Once you've done that for a while, start requesting internships in newspapers in the area. These are generally short-term and unpaid, but they're definitely worthwhile, since, instead of providing you with money, they'll teach you the skills that every twenty-first century journalist has to have, like laying out articles, creating web pages, taking good digital pictures and so on.",
+          "translation": "你可以获得新闻学方面的优秀资质，但雇主真正想要的是实践知识，而非理论知识。\n没有什么能替代创作必须在严格截稿时间前提交的真实报道。\n因此，先为校刊撰稿，然后或许尝试一下编辑工作。\n这些实习通常短期且无薪，但绝对值得，因为它们不会给你金钱，而是会教给你每个21世纪记者必备的技能，比如编排文章、创建网页、拍摄高质量数码照片等等。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Most reporters keep a copy of every story they've had published, from secondary school onwards.They're called cuttings, and you need them to get a job - indeed a few impressive ones can be the deciding factor in whether you're appointed or not.So start creating a portfolio now that will show off your developing talent.",
+          "translation": "大多数记者都会保留自己从中学开始发表过的每一篇文章的副本。\n这些东西被称为剪报，而你需要它们来获得一份工作——实际上，几篇令人印象深刻的剪报可能成为你是否被录用的决定性因素。\n因此，现在就开始创建一个能展示你不断成长的才华的作品集吧。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "It seems obvious - research is an important part of an effective job hunt. But it's surprising how many would-be journalists do little or none. If you're thorough, it can help you decide whether the job you're thinking about applying for is right for you.And nothing impresses an editor more than an applicant who knows a lot about the paper.",
+          "translation": "这似乎是显而易见的——研究是有效求职的重要组成部分。\n但令人惊讶的是，许多准记者很少或根本不进行调查研究。\n如果你做事周全，这能帮助你判断你正在考虑申请的工作是否适合你。\n而且，没有什么比一位对报纸了解颇深的求职者更能给编辑留下深刻印象了。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "There are two more elements to an application - your covering letter and curriculum vitae. However, your CV is the thing that will attract an editor's attention first, so get it right. The key words are brevity, (no more than one page) accuracy (absolutely no spelling or typing errors) and clarity (it should be easy to follow).",
+          "translation": "申请材料中还有另外两个要素——你的求职信和个人简历。\n然而，你的简历是首先吸引编辑注意力的东西，所以务必把它做好。\n关键词是简洁（不超过一页）、准确（绝无拼写或打字错误）和清晰（应该易于理解）。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "In journalism, good writing skills are essential, so it's critical that the style of your letter is appropriate. And, make sure it conveys your love of journalism and your eagerness to do the work.",
+          "translation": "在新闻行业，良好的写作技能至关重要，因此确保你的信件风格得体十分关键。\n此外，务必让信件传达出你对新闻工作的热爱以及从事这份工作的热切渴望。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15811",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 22\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120541",
+              "number": 15,
+              "prompt": "Practising your presentation on a _____ or a family member is helpful.",
+              "options": [],
+              "answer": "colleague",
+              "accepted_answers": [
+                "colleague"
+              ],
+              "analysis": "题干中的“Practising your presentation on a ___ or a family member”对应原文中的“go through your presentation in front of a colleague or relative”。其中，“colleague”与题干中的空格完全匹配，且符合‘NO MORE THAN TWO WORDS’的要求，因此答案为“colleague”。",
+              "reason": "直接对应题干 a colleague or a family member",
+              "location_analysis": "题干要求找练习对象，原文首段提到同事或亲戚。",
+              "paraphrasing": "practising on a colleague or a family member -> go through your presentation in front of a colleague or relative",
+              "keywords": "colleague, family member",
+              "evidence": [
+                "For example, go through your presentation in front of a colleague or relative."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120542",
+              "number": 16,
+              "prompt": "Be prepared for a problem such as a _____.",
+              "options": [],
+              "answer": "power cut",
+              "accepted_answers": [
+                "power cut"
+              ],
+              "analysis": "题干提到“Be prepared for a problem such as a ___”，原文在设备准备部分明确指出“should there be an unexpected problem like a power cut”，其中“power cut”直接对应题干中的空格，且为原文原词，符合字数限制，因此答案是“power cut”。",
+              "reason": "直接提及power cut",
+              "location_analysis": "题干提到应对停电等突发问题，原文设备部分对应。",
+              "paraphrasing": "a problem such as a power cut -> should there be an unexpected problem like a power cut",
+              "keywords": "power cut, problem",
+              "evidence": [
+                "and also have a backup plan in mind, should there be an unexpected problem like a power cut."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120543",
+              "number": 17,
+              "prompt": "One way to overcome pre-presentation nerves is to make your _____ less rapid.",
+              "options": [],
+              "answer": "breathing",
+              "accepted_answers": [
+                "breathing"
+              ],
+              "analysis": "题干要求填写“make your ___ less rapid”以缓解紧张，原文建议“Concentrate on your breathing. Slow it right down and this will relax you”，其中“breathing”是被放慢的对象，与题干中“less rapid”形成同义替换，因此正确答案为“breathing”。",
+              "reason": "slow breathing对应less rapid",
+              "location_analysis": "题干要求放慢呼吸，原文指出慢呼吸可放松。",
+              "paraphrasing": "make your breathing less rapid -> Slow it right down",
+              "keywords": "breathing, less rapid",
+              "evidence": [
+                "Concentrate on your breathing. Slow it right down and this will relax you."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120544",
+              "number": 18,
+              "prompt": "It is acceptable to do something called a _____ at the start of the presentation to reassure you.",
+              "options": [],
+              "answer": "displacement activity",
+              "accepted_answers": [
+                "displacement activity"
+              ],
+              "analysis": "题干中的“something called a ___”指一种能让人安心的行为，原文明确使用术语“what's referred to as a displacement activity”，并举例如“clicking a pen”，因此“displacement activity”是原文直接提供的表达，完全符合题干要求。",
+              "reason": "直接出现displacement activity",
+              "location_analysis": "题干指某活动能缓解紧张，原文给出术语。",
+              "paraphrasing": "something called a displacement activity -> what's referred to as a displacement activity",
+              "keywords": "displacement activity",
+              "evidence": [
+                "but we seem to feel calmer when we engage in what's referred to as a displacement activity, like clicking a pen or fiddling with jewellery."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120545",
+              "number": 19,
+              "prompt": "Your presentation should be like a _____ with the people who have come to hear you.",
+              "options": [],
+              "answer": "conversation",
+              "accepted_answers": [
+                "conversation"
+              ],
+              "analysis": "题干要求将演讲比作与听众的某种互动形式，原文明确指出“Think of your presentation as a conversation with your audience”，其中“conversation”直接对应题干中的比喻结构“like a ___ with the people”，因此答案为“conversation”。",
+              "reason": "as a conversation直接对应",
+              "location_analysis": "题干强调与听众互动如对话，原文明确比喻。",
+              "paraphrasing": "like a conversation with audience -> Think of your presentation as a conversation with your audience",
+              "keywords": "conversation, audience",
+              "evidence": [
+                "Think of your presentation as a conversation with your audience."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120546",
+              "number": 20,
+              "prompt": "Check constantly for _____ to the points you are making.",
+              "options": [],
+              "answer": "reactions",
+              "accepted_answers": [
+                "reactions"
+              ],
+              "analysis": "题干中的“Check constantly for ___ to the points you are making”对应原文“Keep looking for reactions to your ideas and respond to them”，其中“reactions”是听众对演讲内容的反馈，与题干语义完全一致，因此答案是“reactions”。",
+              "reason": "reactions直接出现",
+              "location_analysis": "题干要求检查听众反应，原文建议观察反应。",
+              "paraphrasing": "check for reactions -> Keep looking for reactions",
+              "keywords": "reactions",
+              "evidence": [
+                "Keep looking for reactions to your ideas and respond to them."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120547",
+              "number": 21,
+              "prompt": "Make sure you use plenty of _____ to communicate your message effectively.",
+              "options": [],
+              "answer": "examples",
+              "accepted_answers": [
+                "examples"
+              ],
+              "analysis": "题干要求使用大量___来有效传达信息，原文指出“Effective presentations are full of examples”，其中“examples”用于帮助听众更清晰理解观点，与题干“plenty of ___ to communicate your message effectively”形成直接对应，故答案为“examples”。",
+              "reason": "full of examples对应plenty of examples",
+              "location_analysis": "题干要求用例子传递信息，原文强调例子重要性。",
+              "paraphrasing": "use plenty of examples -> Effective presentations are full of examples",
+              "keywords": "examples",
+              "evidence": [
+                "Effective presentations are full of examples."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120548",
+              "number": 22,
+              "prompt": "To keep the presentation short, use things like _____ to provide extra details.",
+              "options": [],
+              "answer": "handouts",
+              "accepted_answers": [
+                "handouts"
+              ],
+              "analysis": "题干提到用“things like ___”提供额外细节以缩短演讲时间，原文建议“For any subsidiary information... try another medium, such as handouts”，其中“handouts”作为补充材料的典型例子，完全符合题干语境和字数限制，因此答案是“handouts”。",
+              "reason": "handouts提供额外信息",
+              "location_analysis": "题干要求提供额外细节的媒介，原文指出可用讲义。",
+              "paraphrasing": "things like handouts -> try another medium, such as handouts",
+              "keywords": "handouts, extra details",
+              "evidence": [
+                "For any subsidiary information that you cannot present in 20 minutes, try another medium, such as handouts."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Practising your presentation on a $120541$ or a family member is helpful.\nBe prepared for a problem such as a $120542$.\nOne way to overcome pre-presentation nerves is to make your $120543$ less rapid.\nIt is acceptable to do something called a $120544$ at the start of the presentation to reassure you.\nYour presentation should be like a $120545$ with the people who have come to hear you.\nCheck constantly for $120546$ to the points you are making.\nMake sure you use plenty of $120547$ to communicate your message effectively.\nTo keep the presentation short, use things like $120548$ to provide extra details.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Practising your presentation on a $120541$ or a family member is helpful.\nBe prepared for a problem such as a $120542$.\nOne way to overcome pre-presentation nerves is to make your $120543$ less rapid.\nIt is acceptable to do something called a $120544$ at the start of the presentation to reassure you.\nYour presentation should be like a $120545$ with the people who have come to hear you.\nCheck constantly for $120546$ to the points you are making.\nMake sure you use plenty of $120547$ to communicate your message effectively.\nTo keep the presentation short, use things like $120548$ to provide extra details."
+        },
+        {
+          "id": "15813",
+          "type": 8,
+          "title": "Getting a job in journalism",
+          "instructions": "Questions 23 - 27\nComplete the flow-chart.\nWrite ONE WORD ONLY from the text in each gap.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120549",
+              "number": 23,
+              "prompt": "Apply for temporary _____ with local papers and acquire the extra _____ you'll need.",
+              "options": [],
+              "answer": "internships",
+              "accepted_answers": [
+                "internships"
+              ],
+              "analysis": "题干中的“temporary ___ with local papers”对应原文“start requesting internships in newspapers in the area. These are generally short-term and unpaid”，其中“short-term”与“temporary”为同义替换，“internships”为原文原词，因此答案为“internships”。",
+              "reason": "short-term对应temporary",
+              "location_analysis": "题干指临时实习，原文提到短期实习。",
+              "paraphrasing": "temporary internships with local papers -> start requesting internships in newspapers in the area. These are generally short-term and unpaid",
+              "keywords": "internships, temporary",
+              "evidence": [
+                "start requesting internships in newspapers in the area. These are generally short-term and unpaid, but they're definitely worthwhile"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120550",
+              "number": 24,
+              "prompt": "Apply for temporary _____ with local papers and acquire the extra _____ you'll need.",
+              "options": [],
+              "answer": "skills",
+              "accepted_answers": [
+                "skills"
+              ],
+              "analysis": "题干要求填写获取的“extra ___ you'll need”，原文指出实习“will teach you the skills that every twenty-first century journalist has to have”，其中“skills”直接对应所需能力，且为单字答案，符合题目要求，因此答案是“skills”。",
+              "reason": "skills直接对应",
+              "location_analysis": "题干要求获取额外技能，原文明确会教授技能。",
+              "paraphrasing": "acquire extra skills -> they'll teach you the skills",
+              "keywords": "skills",
+              "evidence": [
+                "they'll teach you the skills that every twenty-first century journalist has to have, like laying out articles, creating web pages, taking good digital pictures and so on."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120551",
+              "number": 25,
+              "prompt": "Build up a set of _____ in a portfolio, displaying how your writing ability has progressed over time.",
+              "options": [],
+              "answer": "cuttings",
+              "accepted_answers": [
+                "cuttings"
+              ],
+              "analysis": "题干要求建立“a set of ___ in a portfolio”，原文提到记者保存已发表文章的副本，“They're called cuttings, and you need them to get a job... start creating a portfolio”，其中“cuttings”是行业术语，指剪报，与题干完全对应，故答案为“cuttings”。",
+              "reason": "原文明确使用cuttings。",
+              "location_analysis": "题干要求建立cuttings集，原文提及cuttings和portfolio。",
+              "paraphrasing": "build up a set of -> start creating a portfolio that will show off; cuttings -> cuttings",
+              "keywords": "cuttings, portfolio",
+              "evidence": [
+                "Most reporters keep a copy of every story they've had published, from secondary school onwards.They're called cuttings, and you need them to get a job - indeed a few impressive ones can be the deciding factor in whether you're appointed or not.So start creating a portfolio now that will show off your developing talent."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120552",
+              "number": 26,
+              "prompt": "Take time to do detailed _____ first, before applying for a post with a paper.",
+              "options": [],
+              "answer": "research",
+              "accepted_answers": [
+                "research"
+              ],
+              "analysis": "题干中的“do detailed ___ first”对应原文“research is an important part of an effective job hunt... If you're thorough, it can help you decide”，其中“research”是求职前的关键步骤，与“detailed”搭配合理，且为单字答案，因此正确答案是“research”。",
+              "reason": "research直接对应",
+              "location_analysis": "题干要求先做详细调研，原文强调研究重要性。",
+              "paraphrasing": "take time to do detailed research -> research is an important part of an effective job hunt. But it's surprising how many would-be journalists do little or none. If you're thorough",
+              "keywords": "research, detailed",
+              "evidence": [
+                "research is an important part of an effective job hunt. But it's surprising how many would-be journalists do little or none. If you're thorough, it can help you decide whether the job you're thinking about applying for is right for you."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120553",
+              "number": 27,
+              "prompt": "Once you decide to apply, make sure your CV is short, makes sense and is without _____ of any kind.",
+              "options": [],
+              "answer": "errors",
+              "accepted_answers": [
+                "errors"
+              ],
+              "analysis": "题干要求CV“without ___ of any kind”，原文强调CV需“accuracy (absolutely no spelling or typing errors)”，其中“errors”概括了拼写和打字错误，符合“any kind”的表述，且为单字答案，因此答案是“errors”。",
+              "reason": "errors对应spelling or typing errors",
+              "location_analysis": "题干要求CV无错误，原文强调准确无拼写打字错误。",
+              "paraphrasing": "CV is without errors of any kind -> accuracy (absolutely no spelling or typing errors)",
+              "keywords": "errors, CV",
+              "evidence": [
+                "The key words are brevity, (no more than one page) accuracy (absolutely no spelling or typing errors) and clarity (it should be easy to follow)."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Gain relevant experience, e.g. writing articles to meet specific deadlines.\n↓\nApply for temporary $120549$ with local papers and acquire the extra $120550$ you'll need.\n↓\nBuild up a set of $120551$ in a portfolio, displaying how your writing ability has progressed over time.\n↓\nTake time to do detailed $120552$ first, before applying for a post with a paper.\n↓\nOnce you decide to apply, make sure your CV is short, makes sense and is without $120553$ of any kind.\n↓\nWrite your covering letter, paying particular attention to the style.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Gain relevant experience, e.g. writing articles to meet specific deadlines.\n↓\nApply for temporary $120549$ with local papers and acquire the extra $120550$ you'll need.\n↓\nBuild up a set of $120551$ in a portfolio, displaying how your writing ability has progressed over time.\n↓\nTake time to do detailed $120552$ first, before applying for a post with a paper.\n↓\nOnce you decide to apply, make sure your CV is short, makes sense and is without $120553$ of any kind.\n↓\nWrite your covering letter, paying particular attention to the style."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Tips for giving an effective business presentation",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Preparation",
+          "translation": "准备工作"
+        },
+        {
+          "index": 2,
+          "sentence": "Get someone else to evaluate your performance and highlight your best skills.",
+          "translation": "请他人评估你的表现并突出你最好的技能。"
+        },
+        {
+          "index": 3,
+          "sentence": "For example, go through your presentation in front of a colleague or relative.",
+          "translation": "例如，在同事或亲戚面前演练你的演示。"
+        },
+        {
+          "index": 4,
+          "sentence": "Think about who your audience is and what you want them to get out of the presentation.",
+          "translation": "思考你的听众是谁以及你希望他们从演示中获得什么。"
+        },
+        {
+          "index": 5,
+          "sentence": "Think about content and style.",
+          "translation": "思考内容和风格。"
+        },
+        {
+          "index": 6,
+          "sentence": "Go into the presentation room and try out any moves you may have to make, e.g. getting up from your chair and moving to the podium.",
+          "translation": "进入演示房间，并尝试你可能需要做出的任何动作，例如从椅子上站起来并走到讲台前。"
+        },
+        {
+          "index": 7,
+          "sentence": "Errors in the first 20 seconds can be very disorientating.",
+          "translation": "前20秒内的错误可能会导致非常严重的混乱。"
+        },
+        {
+          "index": 8,
+          "sentence": "Familiarise yourself with the electronic equipment before the presentation and also have a backup plan in mind, should there be an unexpected problem like a power cut.",
+          "translation": "在演示前熟悉电子设备，同时心中有一个备用计划，以防出现类似断电的意外问题。"
+        },
+        {
+          "index": 9,
+          "sentence": "Dealing with presentation nervousness",
+          "translation": "应对演讲紧张情绪"
+        },
+        {
+          "index": 10,
+          "sentence": "A certain amount of nervousness is vital for a good presentation.",
+          "translation": "一定程度的紧张对于一场成功的演示至关重要。"
+        },
+        {
+          "index": 11,
+          "sentence": "The added adrenaline will keep your faculties sharp and give your presentation skills extra force.",
+          "translation": "额外的肾上腺素会让你的思维保持敏锐，并赋予你的演示技巧额外的力量。"
+        },
+        {
+          "index": 12,
+          "sentence": "This can, however, result in tension in the upper chest.",
+          "translation": "然而，这可能会导致上胸部出现紧张感。"
+        },
+        {
+          "index": 13,
+          "sentence": "Concentrate on your breathing.",
+          "translation": "专注于你的呼吸。"
+        },
+        {
+          "index": 14,
+          "sentence": "Slow it right down and this will relax you.",
+          "translation": "将呼吸放慢下来，这会使你放松。"
+        },
+        {
+          "index": 15,
+          "sentence": "Strangely, having something to pick up and put down tends to help you do this.",
+          "translation": "奇怪的是，手里有东西可以拿起又放下往往能帮助你做到这一点。"
+        },
+        {
+          "index": 16,
+          "sentence": "It may seem an odd idea, but we seem to feel calmer when we engage in what's referred to as a displacement activity, like clicking a pen or fiddling with jewellery.",
+          "translation": "这或许看似一个奇怪的想法，但当我们进行所谓的替代性活动（例如按动笔或摆弄首饰）时，似乎会感到更加平静。"
+        },
+        {
+          "index": 17,
+          "sentence": "A limited amount of this will not be too obvious and can make you feel more secure at the start.",
+          "translation": "适度进行这种活动不会太明显，还能让你在开始时感到更安心。"
+        },
+        {
+          "index": 18,
+          "sentence": "Interacting with your audience",
+          "translation": "与听众互动"
+        },
+        {
+          "index": 19,
+          "sentence": "Think of your presentation as a conversation with your audience.",
+          "translation": "将你的演示视为与观众的一次对话。"
+        },
+        {
+          "index": 20,
+          "sentence": "They may not actually say anything, but make them feel consulted, questioned, challenged, then they will stay awake and attentive.",
+          "translation": "他们可能实际上不会说任何话，但要让他们感到被咨询、被质疑、被挑战，这样他们就会保持清醒和专注。"
+        },
+        {
+          "index": 21,
+          "sentence": "Engage with your present audience, not the one you have prepared for.",
+          "translation": "与你在场的观众互动，而不是你为之准备的那群人。"
+        },
+        {
+          "index": 22,
+          "sentence": "Keep looking for reactions to your ideas and respond to them.",
+          "translation": "持续寻找观众对你观点的反应，并据此做出回应。"
+        },
+        {
+          "index": 23,
+          "sentence": "If your audience doesn't appear to be following you, find another way to get your ideas across.",
+          "translation": "如果你的观众似乎没有跟上你的思路，那就另找方法传达你的观点。"
+        },
+        {
+          "index": 24,
+          "sentence": "If you don 't interact, you might as well send a video recording of your presentation instead!",
+          "translation": "如果你不进行互动，倒不如直接发送你演讲的视频录像！"
+        },
+        {
+          "index": 25,
+          "sentence": "Structuring effective presentations",
+          "translation": "构建有效的演示文稿结构"
+        },
+        {
+          "index": 26,
+          "sentence": "Effective presentations are full of examples.",
+          "translation": "有效的演示充满实例。"
+        },
+        {
+          "index": 27,
+          "sentence": "These help your listeners to see more clearly what you mean.",
+          "translation": "它们帮助听众更清楚地理解你的意思。"
+        },
+        {
+          "index": 28,
+          "sentence": "It's quicker and more colourful.",
+          "translation": "这样更快捷，也更生动。"
+        },
+        {
+          "index": 29,
+          "sentence": "Stick to the point using three or four main ideas.",
+          "translation": "围绕三到四个主要观点，紧扣主题。"
+        },
+        {
+          "index": 30,
+          "sentence": "For any subsidiary information that you cannot present in 20 minutes, try another medium, such as handouts.",
+          "translation": "对于任何无法在20分钟内呈现的辅助信息，尝试改用其他媒介，比如讲义。"
+        },
+        {
+          "index": 31,
+          "sentence": "End as if your presentation has gone well.",
+          "translation": "结束时要表现得好像你的演讲进行得很顺利。"
+        },
+        {
+          "index": 32,
+          "sentence": "Do this even if you feel you've presented badly.",
+          "translation": "即使你觉得自己讲得很糟糕，也要这样做。"
+        },
+        {
+          "index": 33,
+          "sentence": "And anyway a good finish will get you some applause - and you deserve it!",
+          "translation": "而且无论如何，一个出色的结尾会为你赢得一些掌声——而你值得拥有这些掌声！"
+        },
+        {
+          "index": 34,
+          "sentence": "How to get a job in journalism",
+          "translation": "如何在新闻行业找到一份工作"
+        },
+        {
+          "index": 35,
+          "sentence": "You can get a good qualification in journalism, but what employers actually want is practical, rather than theoretical, knowledge.",
+          "translation": "你可以获得新闻学方面的优秀资质，但雇主真正想要的是实践知识，而非理论知识。"
+        },
+        {
+          "index": 36,
+          "sentence": "There's no substitute for creating real stories that have to be handed in by strict deadlines.",
+          "translation": "没有什么能替代创作必须在严格截稿时间前提交的真实报道。"
+        },
+        {
+          "index": 37,
+          "sentence": "So write for your school magazine, then maybe try your hand at editing.",
+          "translation": "因此，先为校刊撰稿，然后或许尝试一下编辑工作。"
+        },
+        {
+          "index": 38,
+          "sentence": "These are generally short-term and unpaid, but they're definitely worthwhile, since, instead of providing you with money, they'll teach you the skills that every twenty-first century journalist has to have, like laying out articles, creating web pages, taking good digital pictures and so on.",
+          "translation": "这些实习通常短期且无薪，但绝对值得，因为它们不会给你金钱，而是会教给你每个21世纪记者必备的技能，比如编排文章、创建网页、拍摄高质量数码照片等等。"
+        },
+        {
+          "index": 39,
+          "sentence": "Most reporters keep a copy of every story they've had published, from secondary school onwards.",
+          "translation": "大多数记者都会保留自己从中学开始发表过的每一篇文章的副本。"
+        },
+        {
+          "index": 40,
+          "sentence": "They're called cuttings, and you need them to get a job - indeed a few impressive ones can be the deciding factor in whether you're appointed or not.",
+          "translation": "这些东西被称为剪报，而你需要它们来获得一份工作——实际上，几篇令人印象深刻的剪报可能成为你是否被录用的决定性因素。"
+        },
+        {
+          "index": 41,
+          "sentence": "So start creating a portfolio now that will show off your developing talent.",
+          "translation": "因此，现在就开始创建一个能展示你不断成长的才华的作品集吧。"
+        },
+        {
+          "index": 42,
+          "sentence": "It seems obvious - research is an important part of an effective job hunt.",
+          "translation": "这似乎是显而易见的——研究是有效求职的重要组成部分。"
+        },
+        {
+          "index": 43,
+          "sentence": "But it's surprising how many would-be journalists do little or none.",
+          "translation": "但令人惊讶的是，许多准记者很少或根本不进行调查研究。"
+        },
+        {
+          "index": 44,
+          "sentence": "If you're thorough, it can help you decide whether the job you're thinking about applying for is right for you.",
+          "translation": "如果你做事周全，这能帮助你判断你正在考虑申请的工作是否适合你。"
+        },
+        {
+          "index": 45,
+          "sentence": "And nothing impresses an editor more than an applicant who knows a lot about the paper.",
+          "translation": "而且，没有什么比一位对报纸了解颇深的求职者更能给编辑留下深刻印象了。"
+        },
+        {
+          "index": 46,
+          "sentence": "There are two more elements to an application - your covering letter and curriculum vitae.",
+          "translation": "申请材料中还有另外两个要素——你的求职信和个人简历。"
+        },
+        {
+          "index": 47,
+          "sentence": "However, your CV is the thing that will attract an editor's attention first, so get it right.",
+          "translation": "然而，你的简历是首先吸引编辑注意力的东西，所以务必把它做好。"
+        },
+        {
+          "index": 48,
+          "sentence": "The key words are brevity, (no more than one page) accuracy (absolutely no spelling or typing errors) and clarity (it should be easy to follow).",
+          "translation": "关键词是简洁（不超过一页）、准确（绝无拼写或打字错误）和清晰（应该易于理解）。"
+        },
+        {
+          "index": 49,
+          "sentence": "In journalism, good writing skills are essential, so it's critical that the style of your letter is appropriate.",
+          "translation": "在新闻行业，良好的写作技能至关重要，因此确保你的信件风格得体十分关键。"
+        },
+        {
+          "index": 50,
+          "sentence": "And, make sure it conveys your love of journalism and your eagerness to do the work.",
+          "translation": "此外，务必让信件传达出你对新闻工作的热爱以及从事这份工作的热切渴望。"
+        }
+      ]
+    },
+    {
+      "id": "2098",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "What is it like to run a large supermarket?",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Jill Insley finds out",
+          "translation": "吉尔·因斯利一探究竟"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "You can't beat really good service. I've been shopping in the Thamesmead branch of supermarket chain Morrisons, in south-east London, and I've experienced at first hand,the store's latest maxim for improving the shopping experience - help, offer,thank.This involves identifying customers who might need help, greeting them, asking what they need, providing it, thanking them and leaving them in peace. If they don't look like they want help, they'll be left alone. But if they're standing looking lost and perplexed,a member of staff will approach them.Staff are expected to be friendly to everyone.My checkout assistant has certainly said something to amuse the woman in front of me, she's smiling as she leaves.Adrian Perriss, manager of the branch, has discussed the approach with each of his 387 staff. He says it's about recognising that someone needs help, not being a nuisance to them. When he's in another store, he's irritated by someone saying, 'Can I help you?' when he's only just walked in to have a quick look at the products.",
+          "translation": "没有什么能比得上真正优质的服务。\n我一直在伦敦东南部莫里森超市连锁店的泰晤士米德分店购物，并亲身经历了该店改善购物体验的最新准则——帮助、提供、感谢。\n这包括识别可能需要帮助的顾客，向他们打招呼，询问他们的需求，提供帮助，感谢他们，然后让他们自在地购物。\n如果他们看起来不需要帮助，就不会被打扰。\n但如果他们站着看上去迷茫困惑，工作人员就会上前询问。\n员工应对所有人都保持友好。\n我的收银员确实说了些什么逗乐了我前面那位女士，她离开时面带微笑。\n该分店经理阿德里安·佩里斯已与他的387名员工逐一讨论了这种方法。\n他说，这关乎识别某人需要帮助，而不是给他们添麻烦。\n当他在其他商店时，他刚走进去想快速看看商品，就有人问‘需要帮忙吗？’，这让他感到恼火。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "How anyone can be friendly and enthusiastic when they start work at dawn beats me.The store opens at 7 am, Monday to Saturday, meaning that some staff, including Perriss, have to be here at 6 am to make sure it's clean, safe and stocked up for the morning rush. Sometimes he walks in at 6 am and thinks they're never going to be ready on time - but they always are.There's so much going on overnight - 20 people working on unloading three enormous trailers full of groceries.",
+          "translation": "我难以理解，人们如何在黎明时分开始工作时还能保持友好和热情。\n我真想不明白，有人怎么能在黎明时分开始工作时还保持友好和热情。\n我真不明白，怎么会有人在拂晓时分开始工作时还能如此友善热情。\n这家店周一至周六早上7点开门，这意味着包括佩里斯在内的一些员工必须在早上6点到岗，确保店面清洁、安全，并为早高峰备好货。\n有时他早上6点走进店里，会以为他们永远无法按时准备好——但他们总能做到。\n夜间有大量工作要做——20个人忙着卸下三辆装满杂货的大型拖车。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Perriss has worked in supermarkets since 1982, when he became a trolley boy on a weekly salary of 76. 'It was less money than my previous job, but I loved it. It was different and diverse. I was doing trolleys, portering, bread, cakes, dairy and general maintenance.' After a period in the produce department, looking after the fruit and vegetables, he was made produce manager, then assistant store manager, before reaching the top job in 1998. This involved intensive training and assessment through the company's future store manager programme, learning how to analyse and prioritise sales,wastage, recruitment and many other issues. Perriss' first stop as store manager was at a store which was closed soon afterwards - though he was not to blame.",
+          "translation": "Perriss自1982年起就在超市工作，当时他是一名手推车服务生，周薪为76英镑。\n“这比我之前的工作收入少，但我热爱它。”\n这份工作与众不同且多样化。\n我负责手推车、搬运、面包、蛋糕、乳制品和一般维护工作。”\n在农产品部门工作一段时间，负责水果和蔬菜后，他被晋升为农产品经理，随后成为助理店长，最终在1998年担任最高职位。\n这包括通过公司的未来店长项目接受密集培训和评估，学习如何分析并优先处理销售、损耗、招聘及许多其他问题。\nPerriss作为店长的第一站是一家不久后关闭的商店——尽管并非他的过错。\n佩里斯自1982年起就在超市工作，当时他是一名每周薪水76便士的推车工。\n'这份工作的薪水比我之前的工作少，但我很喜欢。\n我当时负责推车、搬运、面包、蛋糕、乳制品以及一般维护工作。'\n在生鲜部门工作一段时间，负责水果和蔬菜后，他被提拔为生鲜经理，随后成为助理店经理，最终在1998年达到了店经理的最高职位。\n这需要通过公司未来店经理项目进行密集的培训和评估，学习如何分析和优先处理销售、损耗、招聘以及许多其他问题。\n佩里斯作为店经理的第一站是一家不久后被关闭的店铺——尽管这并不是他的过错。\n佩里斯自1982年起就在超市工作，当时他是一名推车工，周薪为76英镑。\n“这份工作比我之前的工作收入少，但我很喜欢。\n它不同寻常且多样化。\n我负责推车、搬运、面包、蛋糕、乳制品以及一般性维护。”\n在生鲜部门工作了一段时间、负责水果和蔬菜后，他被任命为生鲜经理，随后担任助理店经理，最终于1998年晋升为店经理。\n这包括通过公司的未来店经理项目接受密集培训和评估，学习如何分析和优先处理销售、损耗、招聘以及许多其他问题。\n佩里斯作为店经理的第一站是一家不久后被关闭的店铺——尽管他并不应为此承担责任。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Despite the disappointing start, his career went from strength to strength and he was put in charge of launching new stores and heading up a 'concept' store, where the then new ideas of preparing and cooking pizzas in store, and having a proper florist, and fruit and vegetable 'markets' were trialled. All Morrisons' managers from the whole country spent three days there to see the new concept. 'That was hard work,' he says,\"long days, seven days a week, for about a year.\"",
+          "translation": "尽管开局令人失望，他的职业生涯却越来越成功，并被委以重任，负责开设新门店并领导一家“概念”店，在那里，当时的新理念——如在店内制作和烹饪披萨、设立专业花店以及果蔬“市场”——都得到了试行。\n尽管开局令人失望，他的职业生涯却蒸蒸日上，他被委以重任，负责开设新店并管理一家‘概念’店，当时的新理念，包括在店内准备和烹饪披萨、设立正规花店以及果蔬‘市场’，都在那里进行了试点。\n来自全国各地的所有莫里森超市经理都在那里花了三天时间参观这一新概念。\n‘那工作很辛苦，’他说，‘每天工作时间长，一周七天，持续了大约一年。’\n尽管开局令人失望，但他的职业生涯不断壮大，他被委以重任，负责开设新门店并领导一家“概念”店，在那里试行了当时的新理念，即在店内制作和烹饪披萨、设立正规花店以及水果蔬菜“市场”。\n全国所有莫里森超市的经理都在那里花了三天时间参观这一新理念。\n“那工作很辛苦，”他说，“每天工作时间很长，一周七天，持续了大约一年。”"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Although he oversees a store with a large turnover, there is a strongly practical aspect to Perriss's job.As we walk around, he chats to all the staff while checking the layout of their counters and the quality of the produce.He examines the baking potato shelf and rejects three, one that has split virtually in half and two that are beginning to go green. He then pulls out a lemon that looks fine to me. When I ask why, he picks up a second lemon and says:' Close your eyes and just feel and tell me which you would keep.' I do and realise that while one is firm and hard, the other is going a bit squashy.",
+          "translation": "尽管他管理着一家营业额庞大的商店，但佩里斯的工作中有一个非常实际的方面。\n当我们四处走动时，他与所有员工交谈，同时检查他们柜台的布局和商品的质量。\n他检查了烤土豆货架，挑出了三个有问题的，一个几乎裂成两半，另外两个开始发绿。\n然后他拿出一个在我看来很好的柠檬。\n当我问为什么时，他拿起第二个柠檬说：“闭上眼睛，用手摸一下，告诉我你会留哪个。”\n我照做了，并意识到一个结实而坚硬，而另一个则有点软了。\n尽管他管理着一家营业额巨大的超市，但他的工作具有很强的实践性。\n他检查了烤土豆货架，并挑出了三个不合格的土豆，一个几乎裂成两半，另外两个开始变绿。\n接着，他拿出一个在我看来完好的柠檬。\n当我问为什么时，他拿起另一个柠檬说：‘闭上眼睛，只需用手感受，告诉我你会留下哪一个。’\n我照做了，然后意识到一个柠檬坚实而硬，而另一个则有点软了。\n尽管他管理着一家营业额巨大的商店，但佩里斯的工作具有很强的实践性。\n当我们四处走动时，他与所有员工交谈，同时检查他们柜台的布局和产品的质量。\n他检查了烤土豆货架，挑出了三个不合格的：一个几乎裂成两半，另外两个开始变绿。\n然后他拿出一个在我看来完好的柠檬。\n当我问为什么时，他拿起另一个柠檬说：“闭上眼睛，只凭触感告诉我你会留下哪一个。”\n我照做了，并意识到一个柠檬坚实而硬，另一个却变得有点软了。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Despite eagle-eyed Perriss pulling out fruit and veg that most of us would buy without a second thought, the wastage each week is tiny: produce worth £4,200 is marked down for a quick sale, and only £400-worth is scrapped.This, he explains, is down to Morrisons' method of ordering, still done manually rather than by computer. Department heads know exactly how much they've sold that day and how much they're likely to sell the next, based on sales records and allowing for influences such as the weather.",
+          "translation": "尽管目光敏锐的佩里斯挑出了大多数人不假思索就会购买的水果和蔬菜，但每周的浪费量却很小：价值4200英镑的农产品被降价以快速出售，而只有价值400英镑的农产品被废弃。\n他解释说，这归功于莫里森公司的订购方式，这种方式仍然手工完成，而非通过计算机。\n部门主管基于销售记录并考虑天气等因素的影响，精确了解当天的销售额以及次日可能的销售量。\n尽管目光敏锐的佩里斯会挑出我们大多数人毫不犹豫就会购买的水果和蔬菜，但每周的浪费却很少：价值4200英镑的产品被降价促销，只有价值400英镑的产品被丢弃。\n他解释说，这归功于莫里森超市的订货方式——仍然由人工操作，而非通过电脑完成。\n部门主管根据销售记录，并考虑天气等影响因素，能准确知道当天的销售量以及第二天的可能销售量。\n尽管目光敏锐的佩里斯会挑出我们大多数人会毫不犹豫购买的水果和蔬菜，但每周的浪费量却很小：价值4200英镑的产品被降价促销，只有价值400英镑的产品被丢弃。\n他解释说，这归功于莫里森的订货方式，仍采用人工操作而非电脑。\n部门主管根据销售记录，并考虑到天气等影响因素，确切知道当天的销售额以及次日可能的销售量。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Perriss is in charge of 1,000 man-hours a week across the store. To help him, he has a key team of four, who each have direct responsibility for different departments. He is keen to hear what staff think.He recently held a 'talent' day, inviting employees interested in moving to a new job within the store to come and talk to him about why they thought they should be promoted, and discuss how to go about it. \"We had twenty-three people come through the door, people wanting to talk about progression,' he says.\"What do they need to do to become a supervisor? Twenty-three people will be better members of staff as a result of that talk.'",
+          "translation": "佩里斯负责整个超市每周1000个工时的管理。\n他有一个由四人组成的核心团队协助他，每个人直接负责不同的部门。\n他渴望听取员工的想法。\n他最近举办了一个“人才日”，邀请有兴趣在超市内部调换职位的员工来与他交谈，讨论他们认为自己应该升职的原因，并探讨如何实现这一目标。\n“有二十三个人走进来，这些人希望谈论职业发展，”他说，“他们需要做些什么才能成为主管？\n通过这次谈话，这二十三个人将成为更优秀的员工。”\n佩里斯负责整个门店每周1000个工时的管理。\n为协助他工作，他有一个由四人组成的核心团队，每个人直接负责不同的部门。\n他非常乐意听取员工的想法。\n他最近举办了一个“人才日”，邀请那些对店内换岗感兴趣的员工前来与他交谈，说明他们认为自己应该获得晋升的原因，并讨论该如何实现这一目标。\n他说：“有23个人前来参会，都是想要谈论职业发展的人。”\n“他们需要做什么才能成为主管？”\n通过这次谈话，这23个人将会成为更优秀的员工。”\n佩里斯负责整个商店每周1,000个工时的管理。\n为了协助他的工作，他有一个由四人组成的关键团队，每人分别直接负责不同的部门。\n他非常乐于倾听员工的意见。\n他最近举办了一次“人才日”活动，邀请有兴趣在店内调换新岗位的员工来与他交谈，说明他们为何认为自己应得到晋升，并讨论如何实现这一目标。\n“有二十三个人走进门，都是想谈论职业发展的人，”他说。\n“他们需要做些什么才能成为主管？\n这次谈话将使这二十三个人成为更优秀的员工。”"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "His favourite department is fish, which has a 4 m-long counter run by Debbie and Angela, who are busy having a discussion about how to cook a particular fish with a customer.But it is one of just 20 or so departments around the store and Perriss admits the pressure of making sure he knows what's happening on them all can be intense. 'You have to do so much and there could be something wrong with every single one, every day,' he says. You've got to minimise those things and shrink them into perspective.You've got to love the job.'And Perriss certainly does.",
+          "translation": "他最喜欢的部门是鱼类区，那里有一个由黛比和安吉拉负责的4米长的柜台，她们正忙着与一位顾客讨论如何烹饪某种特定的鱼。\n但这只是店里大约20个部门中的一个，佩里斯承认，要确保自己了解所有部门的情况，压力可能很大。\n“你必须做很多事情，而且每一天每个部门都可能出现问题，”他说。\n你必须尽量减少这些问题，并从全局角度看待它们。\n你必须热爱这份工作。”\n而佩里斯当然热爱这份工作。\n他最喜欢的部门是鱼类部，那里有一个4米长的柜台，由黛比和安吉拉负责，她们正忙着与一位顾客讨论如何烹饪某种特定的鱼。\n但这只是店内大约20个部门之一，佩里斯承认，确保了解所有这些部门的情况所带来的压力可能非常大。\n“你必须做很多事情，而且每个部门每天都可能有出错的地方，”他说。\n你必须将这些问题最小化，并把它们放在正确的位置上来看待。\n而佩里斯确实如此。\n他最喜欢的部门是鱼类区，那里有一个四米长的柜台，由黛比和安吉拉负责管理，她们正忙着与一位顾客讨论如何烹饪某种鱼。\n但这只是店里大约20个部门之一，佩里斯承认，确保自己了解所有部门情况所带来的压力可能非常巨大。\n他说：“你必须做很多事，而且每个部门每天都可能出现问题。”\n你必须尽量减少这些问题，并正确看待它们。\n他最喜欢的部门是海鲜部，那里有一个四米长的柜台，由黛比和安吉拉负责，她们正忙着与一位顾客讨论如何烹饪某种鱼。\n但这只是店里大约20个部门之一，佩里斯承认，确保了解所有部门动态的压力可能很大。\n“你必须做很多事情，而且每个部门每天都可能出问题，”他说。\n你必须尽量减少这些问题，并把它们放在整体视角中看待。\n你必须热爱这份工作。\n而佩里斯显然做到了。\n他最喜欢的部门是鱼类区，那里有一个4米长的柜台，由黛比和安吉拉负责，她们正忙着与一位顾客讨论如何烹饪某种鱼。\n但这只是店内大约20个部门之一，佩里斯承认，确保了解每个部门动态的压力可能非常大。\n“你必须做很多事情，而且每一个部门每天都可能出问题，”他说。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15815",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 35\nThe text has eight sections.\nChoose the correct heading for each section and move it into the gap.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Why Perriss chose a career in supermarkets"
+            },
+            {
+              "value": "B",
+              "label": "B. Preparing for customers to arrive"
+            },
+            {
+              "value": "C",
+              "label": "C. Helping staff to develop"
+            },
+            {
+              "value": "D",
+              "label": "D. Demonstrating a different way of organising a store"
+            },
+            {
+              "value": "E",
+              "label": "E. The benefit of accurate forecasting"
+            },
+            {
+              "value": "F",
+              "label": "F. Keeping everything running as smoothly as possible"
+            },
+            {
+              "value": "G",
+              "label": "G. Making sure the items on sale are good enough"
+            },
+            {
+              "value": "H",
+              "label": "H. Noticing when customers need assistance"
+            },
+            {
+              "value": "I",
+              "label": "I. How do staff feel about Perriss?"
+            },
+            {
+              "value": "J",
+              "label": "J. Perriss's early career"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1158151",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why Perriss chose a career in supermarkets"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Preparing for customers to arrive"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Helping staff to develop"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Demonstrating a different way of organising a store"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The benefit of accurate forecasting"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Keeping everything running as smoothly as possible"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Making sure the items on sale are good enough"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Noticing when customers need assistance"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How do staff feel about Perriss?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Perriss's early career"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "第28题对应段落A，该段核心描述员工如何识别需要帮助的顾客并提供协助，同时强调不打扰不愿被帮助者。这与选项H‘注意到顾客何时需要帮助（Noticing when customers need assistance）’完全吻合，因此答案为H。",
+              "reason": "段落A核心内容是帮助顾客，与heading H相符。",
+              "location_analysis": "A段首句和后续描述都聚焦于识别并帮助需要帮助的顾客。",
+              "paraphrasing": "Noticing when customers need assistance -> identifying customers who might need help",
+              "keywords": "customers, help, assistance",
+              "evidence": [
+                "This involves identifying customers who might need help, greeting them, asking what they need, providing it, thanking them and leaving them in peace."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1158152",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why Perriss chose a career in supermarkets"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Preparing for customers to arrive"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Helping staff to develop"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Demonstrating a different way of organising a store"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The benefit of accurate forecasting"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Keeping everything running as smoothly as possible"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Making sure the items on sale are good enough"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Noticing when customers need assistance"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How do staff feel about Perriss?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Perriss's early career"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "第29题对应段落B，该段详细说明清晨6点员工到岗进行清洁、补货等准备工作，以确保7点开门时一切就绪。这与选项B‘为顾客到来做准备（Preparing for customers to arrive）’内容一致，故答案为B。",
+              "reason": "B段主要讲早晨开店的准备工作，对应heading B。",
+              "location_analysis": "B段描述商店清晨开门前的准备工作。",
+              "paraphrasing": "Preparing for customers to arrive -> making sure it's clean, safe and stocked up for the morning rush",
+              "keywords": "store, opens, morning, staff",
+              "evidence": [
+                "Sometimes he walks in at 6 am and thinks they're never going to be ready on time - but they always are.",
+                "There's so much going on overnight - 20 people working on unloading three enormous trailers full of groceries."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1158153",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why Perriss chose a career in supermarkets"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Preparing for customers to arrive"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Helping staff to develop"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Demonstrating a different way of organising a store"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The benefit of accurate forecasting"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Keeping everything running as smoothly as possible"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Making sure the items on sale are good enough"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Noticing when customers need assistance"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How do staff feel about Perriss?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Perriss's early career"
+                }
+              ],
+              "answer": "J",
+              "accepted_answers": [
+                "J"
+              ],
+              "analysis": "第30题对应段落C，该段回顾Perriss自1982年从推车员做起的职业起点，并列举其早期在超市各部门的工作经历。这与选项J‘Perriss的早期职业生涯（Perriss's early career）’直接对应，因此答案为J。",
+              "reason": "C段详细描述Perriss早期职业发展，对应heading J。",
+              "location_analysis": "C段介绍Perriss从1982年进入超市的早期职业经历。",
+              "paraphrasing": "Perriss's early career -> He became a trolley boy",
+              "keywords": "1982, career, supermarket, trolley boy",
+              "evidence": [
+                "Perriss has worked in supermarkets since 1982, when he became a trolley boy on a weekly salary of 76."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1158154",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why Perriss chose a career in supermarkets"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Preparing for customers to arrive"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Helping staff to develop"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Demonstrating a different way of organising a store"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The benefit of accurate forecasting"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Keeping everything running as smoothly as possible"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Making sure the items on sale are good enough"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Noticing when customers need assistance"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How do staff feel about Perriss?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Perriss's early career"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "第31题对应段落D，该段讲述Perriss负责试点‘概念店’，尝试店内现做披萨、专业花店及果蔬市集等新布局方式。这体现了‘展示一种不同的店铺组织方式（Demonstrating a different way of organising a store）’，故答案为D。",
+              "reason": "D段核心是试验新的店铺组织方式，对应heading D。",
+              "location_analysis": "D段描述Perriss负责推出新概念店，试验不同的店铺组织方式。",
+              "paraphrasing": "Demonstrating a different way of organising a store -> new ideas of preparing and cooking pizzas in store, and having a proper florist, and fruit and vegetable 'markets' were trialled",
+              "keywords": "new concept, launching new stores, trialled",
+              "evidence": [
+                "Despite the disappointing start, his career went from strength to strength and he was put in charge of launching new stores and heading up a 'concept' store, where the then new ideas of preparing and cooking pizzas in store, and having a proper florist, and fruit and vegetable 'markets' were trialled."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1158155",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why Perriss chose a career in supermarkets"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Preparing for customers to arrive"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Helping staff to develop"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Demonstrating a different way of organising a store"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The benefit of accurate forecasting"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Keeping everything running as smoothly as possible"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Making sure the items on sale are good enough"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Noticing when customers need assistance"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How do staff feel about Perriss?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Perriss's early career"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "第32题对应段落E，该段描述Perriss巡视时检查商品质量，剔除开裂、发绿的土豆和变软的柠檬，确保出售商品达标。这与选项G‘确保在售商品足够好（Making sure the items on sale are good enough）’完全匹配，答案为G。",
+              "reason": "E段表现Perriss确保商品质量，符合heading G。",
+              "location_analysis": "E段Perriss检查商品质量，挑出不达标的蔬果。",
+              "paraphrasing": "Making sure the items on sale are good enough -> examines... and rejects three",
+              "keywords": "quality, produce, layout, rejects",
+              "evidence": [
+                "He examines the baking potato shelf and rejects three, one that has split virtually in half and two that are beginning to go green."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "1158156",
+              "number": 33,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why Perriss chose a career in supermarkets"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Preparing for customers to arrive"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Helping staff to develop"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Demonstrating a different way of organising a store"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The benefit of accurate forecasting"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Keeping everything running as smoothly as possible"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Making sure the items on sale are good enough"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Noticing when customers need assistance"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How do staff feel about Perriss?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Perriss's early career"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "第33题对应段落F，该段解释Morrisons通过人工订货、结合销售记录和天气等因素精准预测销量，从而将浪费降至极低水平。这体现了‘准确预测的好处（The benefit of accurate forecasting）’，因此答案为E。",
+              "reason": "F段强调基于记录的准确预测减少浪费，对应heading E。",
+              "location_analysis": "F段解释手工订货和准确预测减少浪费，体现精准预测的好处。",
+              "paraphrasing": "The benefit of accurate forecasting -> manually... based on sales records and allowing for influences such as the weather",
+              "keywords": "wastage, ordering, manual, forecasting",
+              "evidence": [
+                "This, he explains, is down to Morrisons' method of ordering, still done manually rather than by computer.",
+                "Department heads know exactly how much they've sold that day and how much they're likely to sell the next, based on sales records and allowing for influences such as the weather."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            },
+            {
+              "id": "1158157",
+              "number": 34,
+              "prompt": "Section G",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why Perriss chose a career in supermarkets"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Preparing for customers to arrive"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Helping staff to develop"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Demonstrating a different way of organising a store"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The benefit of accurate forecasting"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Keeping everything running as smoothly as possible"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Making sure the items on sale are good enough"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Noticing when customers need assistance"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How do staff feel about Perriss?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Perriss's early career"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "第34题对应段落G，该段介绍Perriss举办‘人才日’，鼓励员工探讨内部晋升路径，并指导他们如何实现职业发展。这与选项C‘帮助员工发展（Helping staff to develop）’完全一致，故答案为C。",
+              "reason": "G段聚焦帮助员工职业发展，对应heading C。",
+              "location_analysis": "G段举办talent day帮助员工讨论晋升，体现助力员工发展。",
+              "paraphrasing": "Helping staff to develop -> talent day, employees interested in moving to a new job",
+              "keywords": "staff, develop, talent day, progression, promoted",
+              "evidence": [
+                "He recently held a 'talent' day, inviting employees interested in moving to a new job within the store to come and talk to him about why they thought they should be promoted, and discuss how to go about it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "G"
+            },
+            {
+              "id": "1158158",
+              "number": 35,
+              "prompt": "Section H",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why Perriss chose a career in supermarkets"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Preparing for customers to arrive"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Helping staff to develop"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Demonstrating a different way of organising a store"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The benefit of accurate forecasting"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Keeping everything running as smoothly as possible"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Making sure the items on sale are good enough"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Noticing when customers need assistance"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How do staff feel about Perriss?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Perriss's early career"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "第35题对应段落F，该段强调通过基于历史数据和外部因素的手工订货系统，有效控制损耗，使运营高效顺畅。这与选项F‘让一切尽可能顺利运行（Keeping everything running as smoothly as possible）’相符，因此答案为F。",
+              "reason": "准确的预测减少浪费。",
+              "location_analysis": "F段讲按需订购、基于销售记录和天气做预测，体现准确预测的好处，与heading F吻合。",
+              "paraphrasing": "The benefit of accurate forecasting -> Department heads know exactly how much they've sold... how much they're likely to sell the next, based on sales records and allowing for influences such as the weather",
+              "keywords": "forecasting, benefit, accurate",
+              "evidence": [
+                "Department heads know exactly how much they've sold that day and how much they're likely to sell the next, based on sales records and allowing for influences such as the weather."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "H"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "15817",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 36 - 40\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120562",
+              "number": 36,
+              "prompt": "Perriss encourages staff to offer help to all customers.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称‘Perriss鼓励员工向所有顾客提供帮助’，但原文A段明确指出‘如果顾客看起来不需要帮助，他们会被置之不理（left alone）’，说明并非对所有顾客都主动提供帮助，而是有选择性地识别需求。因此题干与原文矛盾，答案为FALSE。",
+              "reason": "题干说鼓励帮助所有顾客，原文说顾客若不需要则不去打扰，矛盾。",
+              "location_analysis": "原文提到不主动帮助不想被帮助的顾客，并非鼓励帮助所有人。",
+              "paraphrasing": "encourages staff to offer help to all customers -> If they don't look like they want help, they'll be left alone",
+              "keywords": "offer help, all customers, left alone",
+              "evidence": [
+                "If they don't look like they want help, they'll be left alone."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文内容矛盾，原文指出Perriss并不鼓励帮助所有顾客，而是有针对性的。",
+                "NOT GIVEN": "原文明确提到了Perriss对员工帮助顾客的具体态度，并非未提及。"
+              }
+            },
+            {
+              "id": "120563",
+              "number": 37,
+              "prompt": "Perriss is sometimes worried that customers will arrive before the store is ready for them.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干提到‘Perriss有时担心顾客会在商店准备好之前到达’，原文B段中他坦言‘有时早上6点走进店里，觉得他们永远无法准时准备好——但他们总是能做到’，这表明他确实曾担忧准备不及，与题干一致，故答案为TRUE。",
+              "reason": "原文明确表达了对店铺未能及时准备好的担忧，与题干一致。",
+              "location_analysis": "原文反映Perriss担心早晨无法按时准备好迎接顾客。",
+              "paraphrasing": "worried that customers will arrive before the store is ready -> thinks they're never going to be ready on time - but they always are",
+              "keywords": "worried, customers, arrive, store, ready",
+              "evidence": [
+                "Sometimes he walks in at 6 am and thinks they're never going to be ready on time - but they always are."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文中提到的内容矛盾，原文明确表明Perriss有时会担心顾客提前到达。",
+                "NOT GIVEN": "原文明确提到了该信息，因此并非未提及。"
+              }
+            },
+            {
+              "id": "120564",
+              "number": 38,
+              "prompt": "When Perriss first became a store manager, he knew the store was going to close.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称‘Perriss刚当上店长时就知道这家店会关闭’，但原文C段仅说明‘他担任店长的第一家店不久后就关闭了——尽管他并无责任’，并未提及他事先是否知情。文中缺乏相关信息，因此答案为NOT GIVEN。",
+              "reason": "文中未提他事先知道商店会关闭，信息缺失。",
+              "location_analysis": "原文只说该店后来关闭，但未提及他事先是否知道。",
+              "paraphrasing": "When Perriss first became a store manager, he knew the store was going to close -> his first stop as store manager was at a store which was closed soon afterwards - though he was not to blame",
+              "keywords": "store, manager, close, knew",
+              "evidence": [
+                "Perriss' first stop as store manager was at a store which was closed soon afterwards - though he was not to blame."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及Perriss在成为经理时是否知道商店关闭，因此无法判断为真。",
+                "FALSE": "原文未提及相关信息，无法断定其知晓情况，因此不能判断为假。"
+              }
+            },
+            {
+              "id": "120565",
+              "number": 39,
+              "prompt": "On average, produce worth 4,200 is thrown away every week.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干说‘平均每周有4,200英镑的农产品被扔掉’，但原文F段明确区分：‘价值4,200英镑的农产品被降价促销，仅有400英镑被废弃（scrapped）’。题干混淆了‘降价销售’与‘丢弃’，与事实不符，故答案为FALSE。",
+              "reason": "题干说每周扔掉£4200的农产品，原文是降价出售£4200，扔掉£400，不符。",
+              "location_analysis": "原文废品价值£400，不是£4200；£4200是降价销售部分。",
+              "paraphrasing": "produce worth 4,200 is thrown away -> £400-worth is scrapped",
+              "keywords": "produce, 4,200, thrown away, scrapped",
+              "evidence": [
+                "produce worth £4,200 is marked down for a quick sale, and only £400-worth is scrapped."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文中给出的具体信息矛盾。",
+                "NOT GIVEN": "原文中提及了相关数字信息，并非未给出。"
+              }
+            },
+            {
+              "id": "120566",
+              "number": 40,
+              "prompt": "Perriss was surprised how many staff asked about promotion on the 'talent' day.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称‘Perriss对“人才日”上询问晋升的员工人数感到惊讶’，但原文G段只客观陈述‘有23人前来讨论职业发展’，并未提及他的情绪反应或是否感到意外。因此文中无此信息，答案为NOT GIVEN。",
+              "reason": "未提及他的情绪反应。",
+              "location_analysis": "原文只陈述了实到人数，但未透露是否惊讶，故为NG。",
+              "paraphrasing": "Perriss was surprised how many staff asked about promotion -> He says. \"We had twenty-three people come through the door...\"",
+              "keywords": "surprised, how many, staff, promotion, talent day",
+              "evidence": [
+                "We had twenty-three people come through the door, people wanting to talk about progression,"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及Perriss是否惊讶于员工询问晋升，因此无法判断该陈述为真。",
+                "FALSE": "原文没有提供任何信息证明这一说法是错误的，属于无中生有。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "What is it like to run a large supermarket?",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Jill Insley finds out",
+          "translation": "吉尔·因斯利一探究竟"
+        },
+        {
+          "index": 3,
+          "sentence": "Despite the disappointing start, his career went from strength to strength and he was put in charge of launching new stores and heading up a 'concept' store, where the then new ideas of preparing and cooking pizzas in store, and having a proper florist, and fruit and vegetable 'markets' were trialled.",
+          "translation": "尽管开局令人失望，他的职业生涯却越来越成功，并被委以重任，负责开设新门店并领导一家“概念”店，在那里，当时的新理念——如在店内制作和烹饪披萨、设立专业花店以及果蔬“市场”——都得到了试行。"
+        },
+        {
+          "index": 4,
+          "sentence": "His favourite department is fish, which has a 4 m-long counter run by Debbie and Angela, who are busy having a discussion about how to cook a particular fish with a customer.",
+          "translation": "他最喜欢的部门是鱼类区，那里有一个由黛比和安吉拉负责的4米长的柜台，她们正忙着与一位顾客讨论如何烹饪某种特定的鱼。"
+        },
+        {
+          "index": 5,
+          "sentence": "But it is one of just 20 or so departments around the store and Perriss admits the pressure of making sure he knows what's happening on them all can be intense.",
+          "translation": "但这只是店里大约20个部门中的一个，佩里斯承认，要确保自己了解所有部门的情况，压力可能很大。"
+        },
+        {
+          "index": 6,
+          "sentence": "'You have to do so much and there could be something wrong with every single one, every day,' he says.",
+          "translation": "“你必须做很多事情，而且每一天每个部门都可能出现问题，”他说。"
+        },
+        {
+          "index": 7,
+          "sentence": "You've got to minimise those things and shrink them into perspective.",
+          "translation": "你必须尽量减少这些问题，并从全局角度看待它们。"
+        },
+        {
+          "index": 8,
+          "sentence": "You've got to love the job.'",
+          "translation": "你必须热爱这份工作。”"
+        },
+        {
+          "index": 9,
+          "sentence": "And Perriss certainly does.",
+          "translation": "而佩里斯当然热爱这份工作。"
+        },
+        {
+          "index": 10,
+          "sentence": "You can't beat really good service.",
+          "translation": "没有什么能比得上真正优质的服务。"
+        },
+        {
+          "index": 11,
+          "sentence": "I've been shopping in the Thamesmead branch of supermarket chain Morrisons, in south-east London, and I've experienced at first hand, the store's latest maxim for improving the shopping experience - help, offer, thank.",
+          "translation": "我一直在伦敦东南部莫里森超市连锁店的泰晤士米德分店购物，并亲身经历了该店改善购物体验的最新准则——帮助、提供、感谢。"
+        },
+        {
+          "index": 12,
+          "sentence": "This involves identifying customers who might need help, greeting them, asking what they need, providing it, thanking them and leaving them in peace.",
+          "translation": "这包括识别可能需要帮助的顾客，向他们打招呼，询问他们的需求，提供帮助，感谢他们，然后让他们自在地购物。"
+        },
+        {
+          "index": 13,
+          "sentence": "If they don't look like they want help, they'll be left alone.",
+          "translation": "如果他们看起来不需要帮助，就不会被打扰。"
+        },
+        {
+          "index": 14,
+          "sentence": "But if they're standing looking lost and perplexed, a member of staff will approach them.",
+          "translation": "但如果他们站着看上去迷茫困惑，工作人员就会上前询问。"
+        },
+        {
+          "index": 15,
+          "sentence": "Staff are expected to be friendly to everyone.",
+          "translation": "员工应对所有人都保持友好。"
+        },
+        {
+          "index": 16,
+          "sentence": "My checkout assistant has certainly said something to amuse the woman in front of me, she's smiling as she leaves.",
+          "translation": "我的收银员确实说了些什么逗乐了我前面那位女士，她离开时面带微笑。"
+        },
+        {
+          "index": 17,
+          "sentence": "Adrian Perriss, manager of the branch, has discussed the approach with each of his 387 staff.",
+          "translation": "该分店经理阿德里安·佩里斯已与他的387名员工逐一讨论了这种方法。"
+        },
+        {
+          "index": 18,
+          "sentence": "He says it's about recognising that someone needs help, not being a nuisance to them.",
+          "translation": "他说，这关乎识别某人需要帮助，而不是给他们添麻烦。"
+        },
+        {
+          "index": 19,
+          "sentence": "When he's in another store, he's irritated by someone saying, 'Can I help you?' when he's only just walked in to have a quick look at the products.",
+          "translation": "当他在其他商店时，他刚走进去想快速看看商品，就有人问‘需要帮忙吗？’，这让他感到恼火。"
+        },
+        {
+          "index": 21,
+          "sentence": "How anyone can be friendly and enthusiastic when they start work at dawn beats me.",
+          "translation": "我难以理解，人们如何在黎明时分开始工作时还能保持友好和热情。"
+        },
+        {
+          "index": 22,
+          "sentence": "How anyone can be friendly and enthusiastic when they start work at dawn beats me.",
+          "translation": "我真想不明白，有人怎么能在黎明时分开始工作时还保持友好和热情。"
+        },
+        {
+          "index": 23,
+          "sentence": "How anyone can be friendly and enthusiastic when they start work at dawn beats me.",
+          "translation": "我真不明白，怎么会有人在拂晓时分开始工作时还能如此友善热情。"
+        },
+        {
+          "index": 24,
+          "sentence": "The store opens at 7 am, Monday to Saturday, meaning that some staff, including Perriss, have to be here at 6 am to make sure it's clean, safe and stocked up for the morning rush.",
+          "translation": "这家店周一至周六早上7点开门，这意味着包括佩里斯在内的一些员工必须在早上6点到岗，确保店面清洁、安全，并为早高峰备好货。"
+        },
+        {
+          "index": 25,
+          "sentence": "Sometimes he walks in at 6 am and thinks they're never going to be ready on time - but they always are.",
+          "translation": "有时他早上6点走进店里，会以为他们永远无法按时准备好——但他们总能做到。"
+        },
+        {
+          "index": 26,
+          "sentence": "There's so much going on overnight - 20 people working on unloading three enormous trailers full of groceries.",
+          "translation": "夜间有大量工作要做——20个人忙着卸下三辆装满杂货的大型拖车。"
+        },
+        {
+          "index": 28,
+          "sentence": "Perriss has worked in supermarkets since 1982, when he became a trolley boy on a weekly salary of 76.",
+          "translation": "Perriss自1982年起就在超市工作，当时他是一名手推车服务生，周薪为76英镑。"
+        },
+        {
+          "index": 29,
+          "sentence": "'It was less money than my previous job, but I loved it.",
+          "translation": "“这比我之前的工作收入少，但我热爱它。”"
+        },
+        {
+          "index": 30,
+          "sentence": "It was different and diverse.",
+          "translation": "这份工作与众不同且多样化。"
+        },
+        {
+          "index": 31,
+          "sentence": "I was doing trolleys, portering, bread, cakes, dairy and general maintenance.'",
+          "translation": "我负责手推车、搬运、面包、蛋糕、乳制品和一般维护工作。”"
+        },
+        {
+          "index": 32,
+          "sentence": "After a period in the produce department, looking after the fruit and vegetables, he was made produce manager, then assistant store manager, before reaching the top job in 1998.",
+          "translation": "在农产品部门工作一段时间，负责水果和蔬菜后，他被晋升为农产品经理，随后成为助理店长，最终在1998年担任最高职位。"
+        },
+        {
+          "index": 33,
+          "sentence": "This involved intensive training and assessment through the company's future store manager programme, learning how to analyse and prioritise sales, wastage, recruitment and many other issues.",
+          "translation": "这包括通过公司的未来店长项目接受密集培训和评估，学习如何分析并优先处理销售、损耗、招聘及许多其他问题。"
+        },
+        {
+          "index": 34,
+          "sentence": "Perriss' first stop as store manager was at a store which was closed soon afterwards - though he was not to blame.",
+          "translation": "Perriss作为店长的第一站是一家不久后关闭的商店——尽管并非他的过错。"
+        },
+        {
+          "index": 35,
+          "sentence": "Perriss has worked in supermarkets since 1982, when he became a trolley boy on a weekly salary of 76.",
+          "translation": "佩里斯自1982年起就在超市工作，当时他是一名每周薪水76便士的推车工。"
+        },
+        {
+          "index": 36,
+          "sentence": "'It was less money than my previous job, but I loved it.",
+          "translation": "'这份工作的薪水比我之前的工作少，但我很喜欢。"
+        },
+        {
+          "index": 37,
+          "sentence": "It was different and diverse.",
+          "translation": "这份工作与众不同且多样化。"
+        },
+        {
+          "index": 38,
+          "sentence": "I was doing trolleys, portering, bread, cakes, dairy and general maintenance.'",
+          "translation": "我当时负责推车、搬运、面包、蛋糕、乳制品以及一般维护工作。'"
+        },
+        {
+          "index": 39,
+          "sentence": "After a period in the produce department, looking after the fruit and vegetables, he was made produce manager, then assistant store manager, before reaching the top job in 1998.",
+          "translation": "在生鲜部门工作一段时间，负责水果和蔬菜后，他被提拔为生鲜经理，随后成为助理店经理，最终在1998年达到了店经理的最高职位。"
+        },
+        {
+          "index": 40,
+          "sentence": "This involved intensive training and assessment through the company's future store manager programme, learning how to analyse and prioritise sales, wastage, recruitment and many other issues.",
+          "translation": "这需要通过公司未来店经理项目进行密集的培训和评估，学习如何分析和优先处理销售、损耗、招聘以及许多其他问题。"
+        },
+        {
+          "index": 41,
+          "sentence": "Perriss' first stop as store manager was at a store which was closed soon afterwards - though he was not to blame.",
+          "translation": "佩里斯作为店经理的第一站是一家不久后被关闭的店铺——尽管这并不是他的过错。"
+        },
+        {
+          "index": 42,
+          "sentence": "Perriss has worked in supermarkets since 1982, when he became a trolley boy on a weekly salary of 76.",
+          "translation": "佩里斯自1982年起就在超市工作，当时他是一名推车工，周薪为76英镑。"
+        },
+        {
+          "index": 43,
+          "sentence": "'It was less money than my previous job, but I loved it.",
+          "translation": "“这份工作比我之前的工作收入少，但我很喜欢。"
+        },
+        {
+          "index": 44,
+          "sentence": "It was different and diverse.",
+          "translation": "它不同寻常且多样化。"
+        },
+        {
+          "index": 45,
+          "sentence": "I was doing trolleys, portering, bread, cakes, dairy and general maintenance.'",
+          "translation": "我负责推车、搬运、面包、蛋糕、乳制品以及一般性维护。”"
+        },
+        {
+          "index": 46,
+          "sentence": "After a period in the produce department, looking after the fruit and vegetables, he was made produce manager, then assistant store manager, before reaching the top job in 1998.",
+          "translation": "在生鲜部门工作了一段时间、负责水果和蔬菜后，他被任命为生鲜经理，随后担任助理店经理，最终于1998年晋升为店经理。"
+        },
+        {
+          "index": 47,
+          "sentence": "This involved intensive training and assessment through the company's future store manager programme, learning how to analyse and prioritise sales, wastage, recruitment and many other issues.",
+          "translation": "这包括通过公司的未来店经理项目接受密集培训和评估，学习如何分析和优先处理销售、损耗、招聘以及许多其他问题。"
+        },
+        {
+          "index": 48,
+          "sentence": "Perriss' first stop as store manager was at a store which was closed soon afterwards - though he was not to blame.",
+          "translation": "佩里斯作为店经理的第一站是一家不久后被关闭的店铺——尽管他并不应为此承担责任。"
+        },
+        {
+          "index": 50,
+          "sentence": "Despite the disappointing start, his career went from strength to strength and he was put in charge of launching new stores and heading up a 'concept' store, where the then new ideas of preparing and cooking pizzas in store, and having a proper florist, and fruit and vegetable 'markets' were trialled.",
+          "translation": "尽管开局令人失望，他的职业生涯却蒸蒸日上，他被委以重任，负责开设新店并管理一家‘概念’店，当时的新理念，包括在店内准备和烹饪披萨、设立正规花店以及果蔬‘市场’，都在那里进行了试点。"
+        },
+        {
+          "index": 51,
+          "sentence": "All Morrisons' managers from the whole country spent three days there to see the new concept.",
+          "translation": "来自全国各地的所有莫里森超市经理都在那里花了三天时间参观这一新概念。"
+        },
+        {
+          "index": 52,
+          "sentence": "'That was hard work,' he says, 'long days, seven days a week, for about a year.'",
+          "translation": "‘那工作很辛苦，’他说，‘每天工作时间长，一周七天，持续了大约一年。’"
+        },
+        {
+          "index": 53,
+          "sentence": "31",
+          "translation": "31"
+        },
+        {
+          "index": 54,
+          "sentence": "Despite the disappointing start, his career went from strength to strength and he was put in charge of launching new stores and heading up a 'concept' store, where the then new ideas of preparing and cooking pizzas in store, and having a proper florist, and fruit and vegetable 'markets' were trialled.",
+          "translation": "尽管开局令人失望，但他的职业生涯不断壮大，他被委以重任，负责开设新门店并领导一家“概念”店，在那里试行了当时的新理念，即在店内制作和烹饪披萨、设立正规花店以及水果蔬菜“市场”。"
+        },
+        {
+          "index": 55,
+          "sentence": "All Morrisons' managers from the whole country spent three days there to see the new concept.",
+          "translation": "全国所有莫里森超市的经理都在那里花了三天时间参观这一新理念。"
+        },
+        {
+          "index": 56,
+          "sentence": "'That was hard work,' he says,\"long days, seven days a week, for about a year.\"",
+          "translation": "“那工作很辛苦，”他说，“每天工作时间很长，一周七天，持续了大约一年。”"
+        },
+        {
+          "index": 58,
+          "sentence": "Although he oversees a store with a large turnover, there is a strongly practical aspect to Perriss's job.",
+          "translation": "尽管他管理着一家营业额庞大的商店，但佩里斯的工作中有一个非常实际的方面。"
+        },
+        {
+          "index": 59,
+          "sentence": "As we walk around, he chats to all the staff while checking the layout of their counters and the quality of the produce.",
+          "translation": "当我们四处走动时，他与所有员工交谈，同时检查他们柜台的布局和商品的质量。"
+        },
+        {
+          "index": 60,
+          "sentence": "He examines the baking potato shelf and rejects three, one that has split virtually in half and two that are beginning to go green.",
+          "translation": "他检查了烤土豆货架，挑出了三个有问题的，一个几乎裂成两半，另外两个开始发绿。"
+        },
+        {
+          "index": 61,
+          "sentence": "He then pulls out a lemon that looks fine to me.",
+          "translation": "然后他拿出一个在我看来很好的柠檬。"
+        },
+        {
+          "index": 62,
+          "sentence": "When I ask why, he picks up a second lemon and says: ' Close your eyes and just feel and tell me which you would keep.'",
+          "translation": "当我问为什么时，他拿起第二个柠檬说：“闭上眼睛，用手摸一下，告诉我你会留哪个。”"
+        },
+        {
+          "index": 63,
+          "sentence": "I do and realise that while one is firm and hard, the other is going a bit squashy.",
+          "translation": "我照做了，并意识到一个结实而坚硬，而另一个则有点软了。"
+        },
+        {
+          "index": 64,
+          "sentence": "Although he oversees a store with a large turnover, there is a strongly practical aspect to Perriss's job.",
+          "translation": "尽管他管理着一家营业额巨大的超市，但他的工作具有很强的实践性。"
+        },
+        {
+          "index": 65,
+          "sentence": "As we walk around, he chats to all the staff while checking the layout of their counters and the quality of the produce.",
+          "translation": "当我们四处走动时，他与所有员工交谈，同时检查他们柜台的布局和商品的质量。"
+        },
+        {
+          "index": 66,
+          "sentence": "He examines the baking potato shelf and rejects three, one that has split virtually in half and two that are beginning to go green.",
+          "translation": "他检查了烤土豆货架，并挑出了三个不合格的土豆，一个几乎裂成两半，另外两个开始变绿。"
+        },
+        {
+          "index": 67,
+          "sentence": "He then pulls out a lemon that looks fine to me.",
+          "translation": "接着，他拿出一个在我看来完好的柠檬。"
+        },
+        {
+          "index": 68,
+          "sentence": "When I ask why, he picks up a second lemon and says: 'Close your eyes and just feel and tell me which you would keep.'",
+          "translation": "当我问为什么时，他拿起另一个柠檬说：‘闭上眼睛，只需用手感受，告诉我你会留下哪一个。’"
+        },
+        {
+          "index": 69,
+          "sentence": "I do and realise that while one is firm and hard, the other is going a bit squashy.",
+          "translation": "我照做了，然后意识到一个柠檬坚实而硬，而另一个则有点软了。"
+        },
+        {
+          "index": 70,
+          "sentence": "Although he oversees a store with a large turnover, there is a strongly practical aspect to Perriss's job.",
+          "translation": "尽管他管理着一家营业额巨大的商店，但佩里斯的工作具有很强的实践性。"
+        },
+        {
+          "index": 71,
+          "sentence": "As we walk around, he chats to all the staff while checking the layout of their counters and the quality of the produce.",
+          "translation": "当我们四处走动时，他与所有员工交谈，同时检查他们柜台的布局和产品的质量。"
+        },
+        {
+          "index": 72,
+          "sentence": "He examines the baking potato shelf and rejects three, one that has split virtually in half and two that are beginning to go green.",
+          "translation": "他检查了烤土豆货架，挑出了三个不合格的：一个几乎裂成两半，另外两个开始变绿。"
+        },
+        {
+          "index": 73,
+          "sentence": "He then pulls out a lemon that looks fine to me.",
+          "translation": "然后他拿出一个在我看来完好的柠檬。"
+        },
+        {
+          "index": 74,
+          "sentence": "When I ask why, he picks up a second lemon and says:' Close your eyes and just feel and tell me which you would keep.'",
+          "translation": "当我问为什么时，他拿起另一个柠檬说：“闭上眼睛，只凭触感告诉我你会留下哪一个。”"
+        },
+        {
+          "index": 75,
+          "sentence": "I do and realise that while one is firm and hard, the other is going a bit squashy.",
+          "translation": "我照做了，并意识到一个柠檬坚实而硬，另一个却变得有点软了。"
+        },
+        {
+          "index": 77,
+          "sentence": "Despite eagle-eyed Perriss pulling out fruit and veg that most of us would buy without a second thought, the wastage each week is tiny: produce worth £4,200 is marked down for a quick sale, and only £400-worth is scrapped.",
+          "translation": "尽管目光敏锐的佩里斯挑出了大多数人不假思索就会购买的水果和蔬菜，但每周的浪费量却很小：价值4200英镑的农产品被降价以快速出售，而只有价值400英镑的农产品被废弃。"
+        },
+        {
+          "index": 78,
+          "sentence": "This, he explains, is down to Morrisons' method of ordering, still done manually rather than by computer.",
+          "translation": "他解释说，这归功于莫里森公司的订购方式，这种方式仍然手工完成，而非通过计算机。"
+        },
+        {
+          "index": 79,
+          "sentence": "Department heads know exactly how much they've sold that day and how much they're likely to sell the next, based on sales records and allowing for influences such as the weather.",
+          "translation": "部门主管基于销售记录并考虑天气等因素的影响，精确了解当天的销售额以及次日可能的销售量。"
+        },
+        {
+          "index": 80,
+          "sentence": "Despite eagle-eyed Perriss pulling out fruit and veg that most of us would buy without a second thought, the wastage each week is tiny: produce worth £4,200 is marked down for a quick sale, and only £400-worth is scrapped.",
+          "translation": "尽管目光敏锐的佩里斯会挑出我们大多数人毫不犹豫就会购买的水果和蔬菜，但每周的浪费却很少：价值4200英镑的产品被降价促销，只有价值400英镑的产品被丢弃。"
+        },
+        {
+          "index": 81,
+          "sentence": "This, he explains, is down to Morrisons' method of ordering, still done manually rather than by computer.",
+          "translation": "他解释说，这归功于莫里森超市的订货方式——仍然由人工操作，而非通过电脑完成。"
+        },
+        {
+          "index": 82,
+          "sentence": "Department heads know exactly how much they've sold that day and how much they're likely to sell the next, based on sales records and allowing for influences such as the weather.",
+          "translation": "部门主管根据销售记录，并考虑天气等影响因素，能准确知道当天的销售量以及第二天的可能销售量。"
+        },
+        {
+          "index": 83,
+          "sentence": "Despite eagle-eyed Perriss pulling out fruit and veg that most of us would buy without a second thought, the wastage each week is tiny: produce worth £4,200 is marked down for a quick sale, and only £400-worth is scrapped.",
+          "translation": "尽管目光敏锐的佩里斯会挑出我们大多数人会毫不犹豫购买的水果和蔬菜，但每周的浪费量却很小：价值4200英镑的产品被降价促销，只有价值400英镑的产品被丢弃。"
+        },
+        {
+          "index": 84,
+          "sentence": "This, he explains, is down to Morrisons' method of ordering, still done manually rather than by computer.",
+          "translation": "他解释说，这归功于莫里森的订货方式，仍采用人工操作而非电脑。"
+        },
+        {
+          "index": 85,
+          "sentence": "Department heads know exactly how much they've sold that day and how much they're likely to sell the next, based on sales records and allowing for influences such as the weather.",
+          "translation": "部门主管根据销售记录，并考虑到天气等影响因素，确切知道当天的销售额以及次日可能的销售量。"
+        },
+        {
+          "index": 87,
+          "sentence": "Perriss is in charge of 1,000 man-hours a week across the store.",
+          "translation": "佩里斯负责整个超市每周1000个工时的管理。"
+        },
+        {
+          "index": 88,
+          "sentence": "To help him, he has a key team of four, who each have direct responsibility for different departments.",
+          "translation": "他有一个由四人组成的核心团队协助他，每个人直接负责不同的部门。"
+        },
+        {
+          "index": 89,
+          "sentence": "He is keen to hear what staff think.",
+          "translation": "他渴望听取员工的想法。"
+        },
+        {
+          "index": 90,
+          "sentence": "He recently held a 'talent' day, inviting employees interested in moving to a new job within the store to come and talk to him about why they thought they should be promoted, and discuss how to go about it.",
+          "translation": "他最近举办了一个“人才日”，邀请有兴趣在超市内部调换职位的员工来与他交谈，讨论他们认为自己应该升职的原因，并探讨如何实现这一目标。"
+        },
+        {
+          "index": 91,
+          "sentence": "\"We had twenty-three people come through the door, people wanting to talk about progression,' he says.\"What do they need to do to become a supervisor?",
+          "translation": "“有二十三个人走进来，这些人希望谈论职业发展，”他说，“他们需要做些什么才能成为主管？"
+        },
+        {
+          "index": 92,
+          "sentence": "Twenty-three people will be better members of staff as a result of that talk.'",
+          "translation": "通过这次谈话，这二十三个人将成为更优秀的员工。”"
+        },
+        {
+          "index": 93,
+          "sentence": "Perriss is in charge of 1,000 man-hours a week across the store.",
+          "translation": "佩里斯负责整个门店每周1000个工时的管理。"
+        },
+        {
+          "index": 94,
+          "sentence": "To help him, he has a key team of four, who each have direct responsibility for different departments.",
+          "translation": "为协助他工作，他有一个由四人组成的核心团队，每个人直接负责不同的部门。"
+        },
+        {
+          "index": 95,
+          "sentence": "He is keen to hear what staff think.",
+          "translation": "他非常乐意听取员工的想法。"
+        },
+        {
+          "index": 96,
+          "sentence": "He recently held a 'talent' day, inviting employees interested in moving to a new job within the store to come and talk to him about why they thought they should be promoted, and discuss how to go about it.",
+          "translation": "他最近举办了一个“人才日”，邀请那些对店内换岗感兴趣的员工前来与他交谈，说明他们认为自己应该获得晋升的原因，并讨论该如何实现这一目标。"
+        },
+        {
+          "index": 97,
+          "sentence": "\"We had twenty-three people come through the door, people wanting to talk about progression,' he says.",
+          "translation": "他说：“有23个人前来参会，都是想要谈论职业发展的人。”"
+        },
+        {
+          "index": 98,
+          "sentence": "\"What do they need to do to become a supervisor?",
+          "translation": "“他们需要做什么才能成为主管？”"
+        },
+        {
+          "index": 99,
+          "sentence": "Twenty-three people will be better members of staff as a result of that talk.'",
+          "translation": "通过这次谈话，这23个人将会成为更优秀的员工。”"
+        },
+        {
+          "index": 100,
+          "sentence": "Perriss is in charge of 1,000 man-hours a week across the store.",
+          "translation": "佩里斯负责整个商店每周1,000个工时的管理。"
+        },
+        {
+          "index": 101,
+          "sentence": "To help him, he has a key team of four, who each have direct responsibility for different departments.",
+          "translation": "为了协助他的工作，他有一个由四人组成的关键团队，每人分别直接负责不同的部门。"
+        },
+        {
+          "index": 102,
+          "sentence": "He is keen to hear what staff think.",
+          "translation": "他非常乐于倾听员工的意见。"
+        },
+        {
+          "index": 103,
+          "sentence": "He recently held a 'talent' day, inviting employees interested in moving to a new job within the store to come and talk to him about why they thought they should be promoted, and discuss how to go about it.",
+          "translation": "他最近举办了一次“人才日”活动，邀请有兴趣在店内调换新岗位的员工来与他交谈，说明他们为何认为自己应得到晋升，并讨论如何实现这一目标。"
+        },
+        {
+          "index": 104,
+          "sentence": "\"We had twenty-three people come through the door, people wanting to talk about progression,' he says.",
+          "translation": "“有二十三个人走进门，都是想谈论职业发展的人，”他说。"
+        },
+        {
+          "index": 105,
+          "sentence": "\"What do they need to do to become a supervisor?",
+          "translation": "“他们需要做些什么才能成为主管？"
+        },
+        {
+          "index": 106,
+          "sentence": "Twenty-three people will be better members of staff as a result of that talk.'",
+          "translation": "这次谈话将使这二十三个人成为更优秀的员工。”"
+        },
+        {
+          "index": 108,
+          "sentence": "His favourite department is fish, which has a 4 m-long counter run by Debbie and Angela, who are busy having a discussion about how to cook a particular fish with a customer.",
+          "translation": "他最喜欢的部门是鱼类部，那里有一个4米长的柜台，由黛比和安吉拉负责，她们正忙着与一位顾客讨论如何烹饪某种特定的鱼。"
+        },
+        {
+          "index": 109,
+          "sentence": "But it is one of just 20 or so departments around the store and Perriss admits the pressure of making sure he knows what's happening on them all can be intense.",
+          "translation": "但这只是店内大约20个部门之一，佩里斯承认，确保了解所有这些部门的情况所带来的压力可能非常大。"
+        },
+        {
+          "index": 110,
+          "sentence": "'You have to do so much and there could be something wrong with every single one, every day,' he says.",
+          "translation": "“你必须做很多事情，而且每个部门每天都可能有出错的地方，”他说。"
+        },
+        {
+          "index": 111,
+          "sentence": "You've got to minimise those things and shrink them into perspective.",
+          "translation": "你必须将这些问题最小化，并把它们放在正确的位置上来看待。"
+        },
+        {
+          "index": 112,
+          "sentence": "You've got to love the job.'",
+          "translation": "你必须热爱这份工作。”"
+        },
+        {
+          "index": 113,
+          "sentence": "And Perriss certainly does.",
+          "translation": "而佩里斯确实如此。"
+        },
+        {
+          "index": 114,
+          "sentence": "His favourite department is fish, which has a 4 m-long counter run by Debbie and Angela, who are busy having a discussion about how to cook a particular fish with a customer.",
+          "translation": "他最喜欢的部门是鱼类区，那里有一个四米长的柜台，由黛比和安吉拉负责管理，她们正忙着与一位顾客讨论如何烹饪某种鱼。"
+        },
+        {
+          "index": 115,
+          "sentence": "But it is one of just 20 or so departments around the store and Perriss admits the pressure of making sure he knows what's happening on them all can be intense.",
+          "translation": "但这只是店里大约20个部门之一，佩里斯承认，确保自己了解所有部门情况所带来的压力可能非常巨大。"
+        },
+        {
+          "index": 116,
+          "sentence": "'You have to do so much and there could be something wrong with every single one, every day,' he says.",
+          "translation": "他说：“你必须做很多事，而且每个部门每天都可能出现问题。”"
+        },
+        {
+          "index": 117,
+          "sentence": "You've got to minimise those things and shrink them into perspective.",
+          "translation": "你必须尽量减少这些问题，并正确看待它们。"
+        },
+        {
+          "index": 118,
+          "sentence": "You've got to love the job.'",
+          "translation": "你必须热爱这份工作。”"
+        },
+        {
+          "index": 119,
+          "sentence": "And Perriss certainly does.",
+          "translation": "而佩里斯确实如此。"
+        },
+        {
+          "index": 120,
+          "sentence": "His favourite department is fish, which has a 4 m-long counter run by Debbie and Angela, who are busy having a discussion about how to cook a particular fish with a customer.",
+          "translation": "他最喜欢的部门是海鲜部，那里有一个四米长的柜台，由黛比和安吉拉负责，她们正忙着与一位顾客讨论如何烹饪某种鱼。"
+        },
+        {
+          "index": 121,
+          "sentence": "But it is one of just 20 or so departments around the store and Perriss admits the pressure of making sure he knows what's happening on them all can be intense.",
+          "translation": "但这只是店里大约20个部门之一，佩里斯承认，确保了解所有部门动态的压力可能很大。"
+        },
+        {
+          "index": 122,
+          "sentence": "'You have to do so much and there could be something wrong with every single one, every day,' he says.",
+          "translation": "“你必须做很多事情，而且每个部门每天都可能出问题，”他说。"
+        },
+        {
+          "index": 123,
+          "sentence": "You've got to minimise those things and shrink them into perspective.",
+          "translation": "你必须尽量减少这些问题，并把它们放在整体视角中看待。"
+        },
+        {
+          "index": 124,
+          "sentence": "You've got to love the job.",
+          "translation": "你必须热爱这份工作。"
+        },
+        {
+          "index": 125,
+          "sentence": "And Perriss certainly does.",
+          "translation": "而佩里斯显然做到了。"
+        },
+        {
+          "index": 126,
+          "sentence": "His favourite department is fish, which has a 4 m-long counter run by Debbie and Angela, who are busy having a discussion about how to cook a particular fish with a customer.",
+          "translation": "他最喜欢的部门是鱼类区，那里有一个4米长的柜台，由黛比和安吉拉负责，她们正忙着与一位顾客讨论如何烹饪某种鱼。"
+        },
+        {
+          "index": 127,
+          "sentence": "But it is one of just 20 or so departments around the store and Perriss admits the pressure of making sure he knows what's happening on them all can be intense.",
+          "translation": "但这只是店内大约20个部门之一，佩里斯承认，确保了解每个部门动态的压力可能非常大。"
+        },
+        {
+          "index": 128,
+          "sentence": "'You have to do so much and there could be something wrong with every single one, every day,' he says.",
+          "translation": "“你必须做很多事情，而且每一个部门每天都可能出问题，”他说。"
+        },
+        {
+          "index": 129,
+          "sentence": "You've got to minimise those things and shrink them into perspective.",
+          "translation": "你必须尽量减少这些问题，并正确看待它们。"
+        },
+        {
+          "index": 130,
+          "sentence": "You've got to love the job.'",
+          "translation": "你必须热爱这份工作。”"
+        },
+        {
+          "index": 131,
+          "sentence": "And Perriss certainly does.",
+          "translation": "而佩里斯确实如此。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

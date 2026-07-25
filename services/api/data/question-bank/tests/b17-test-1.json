@@ -1,0 +1,3122 @@
+{
+  "id": "b17-test-1",
+  "book": "剑雅17",
+  "book_number": 17,
+  "name": "Test 1",
+  "title": "剑雅17 Test 1",
+  "parts": [
+    {
+      "id": "1886",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Arriving in Singapore by plane",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Baggage claim",
+          "translation": "行李提取"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "You can refer to the flight information television screens on Level Two for the allocation of your baggage claim belt.Free trolleys are available near all baggage claim belts and our friendly porters are at your service on request. Should you require their assistance with carrying luggage, please ask at the Information Desk.You can proceed to the Lost and Found Counter for advice if you cannot find your baggage or would like to report damaged baggage.",
+          "translation": "行李提取\n您可以参考二层航班信息电视屏幕，了解您的行李提取传送带分配情况。\n所有行李提取传送带附近均提供免费手推车，友好的搬运工可根据您的需求提供服务。\n如果您需要他们协助搬运行李，请向问讯处咨询。\n如果您找不到行李或想报告行李损坏，可以前往失物招领柜台寻求建议。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Customs clearance",
+          "translation": "海关清关"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Please use the Green Channel for your baggage clearance if you do not have controlled or prohibited items to declare, or have not exceeded your Duty-Free Concession. Please use the Red Channel if you have items to declare or are in doubt.",
+          "translation": "如果您没有需申报的管制或禁止携带物品，或者未超过免税优惠限额，请使用绿色通道办理行李通关。\n如果您有物品需要申报或不确定，请使用红色通道。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Hotel reservations",
+          "translation": "酒店预订"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "You can make these at the Hotel Reservation Counter with a S$10.00 per reservation deposit, deductible from your hotel bill at the end of your stay. These counters do not handle the transit hotels. For these, go to the Reception Desk on Level Three.",
+          "translation": "您可以在酒店预订柜台办理这些手续，每次预订需支付10新元押金，该押金将在您住宿结束时从酒店账单中扣除。\n这些柜台不办理过境酒店业务。\n如需办理过境酒店，请前往三楼的接待台。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Singapore Airport",
+          "question_cue": {
+            "start": 6,
+            "end": 10
+          },
+          "translation": "新加坡机场"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Goods and Services Tax (GST) relief",
+          "translation": "商品及服务税（GST）减免"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "A 3% Goods and Services Tax (GST) is levied on the sale of all goods imported into Singapore. If you are a visitor, returning citizen or permanent resident of Singapore, you may be granted GST relief under certain conditions.",
+          "translation": "对进口到新加坡的所有商品的销售征收3%的商品及服务税。\n如果你是访客、回国公民或新加坡永久居民，在特定条件下可能获得商品及服务税减免。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Tax-free shopping",
+          "translation": "免税购物"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "As a tourist or visitor,you can apply for a refund at Customs of the 3% GST on goods purchased during your stay in Singapore, provided you:",
+          "translation": "作为游客或访客，您可以就逗留新加坡期间购买的商品向海关申请退还3%的商品及服务税，前提是您："
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "• shop at stores with the 'Tax Free Shopping' logo",
+          "translation": "免税购物\n在带有'免税购物'标志的商店购物"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "• spend a minimum amount of S$100 at any one shop, and at least S$300 in total",
+          "translation": "在任何一家商店消费至少100新元，并且总计消费至少300新元。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "• obtain a Global Refund Cheque from the place of purchase.",
+          "translation": "• 从购买处获取一张全球退税支票。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "When collecting your refund you have several choices - cash, bank cheque, or Changi Airport Shopping Voucher, which comes with an additional 10% in value.",
+          "translation": "在领取退税时，您有几种选择：现金、银行支票或樟宜机场购物券，该购物券额外赠送10%的价值。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Please note that a handling fee will be deducted from the GST amount for the refund service.",
+          "translation": "请注意，退税服务会从商品及服务税金额中扣除一笔手续费。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Singapore Guide",
+          "translation": "新加坡指南"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "A walk around the Orchard Road district",
+          "translation": "在乌节路区域散步"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "The route begins just opposite the Orchard MRT station at the Singapore Marriott Hotel. This eye-catching landmark has a distinctive Chinese-styled green roof and red pillars.",
+          "translation": "这条路线始于新加坡万豪酒店，正对着乌节地铁站。\n这座引人注目的地标拥有独特的中国风格绿色屋顶和红色柱子。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "In 1958 a former lace-pedlar, C.K. Tang, foresaw that the area could become a bustling shopping centre, since residents in the neighbouring Tanglin district had to pass en-route to work at the commercial centre,Raffles Place. So with roof tiles brought in from his hometown in the Swatow city of China,Tang built a department store on what was then a cheap, isolated plot of land.The plot faced a cemetery, which could be considered a bad omen.His foresight paid off. Today, Tangs is one of Singapore's most prominent and recognised home-grown department stores, proudly showcasing local fashion and household products.Even when the original building was torn down in 1982 to give way to the present superstore and skyscraper hotel, it retained its unique Chinese architecture.",
+          "translation": "1958年，曾是一名花边小贩的C.K. Tang预见到，由于附近东陵区的居民在前往商业中心莱佛士坊上班的途中必须经过此地，该区域可能会成为一个繁华的购物中心。\n于是，Tang从中国汕头老家运来屋顶瓦片，在一块当时廉价且偏僻的土地上建造了一家百货商店。\n这块土地对面是一片墓地，这可能会被视为不祥之兆。\n他的远见得到了回报。\n如今，Tangs是新加坡最著名且备受认可的本土百货商店之一，自豪地展示着当地时尚和家居产品。\n即使原建筑在1982年被拆除，以让位给现在的超级商店和摩天酒店，它仍然保留了独特的中国建筑风格。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "From the foyer at Tangs, turn left to Lucky Plaza.One of the oldest along Orchard Road, this mall is a perennial favourite with shoppers.Be amazed by the staggering array of cosmetics, jewellery, leather goods and hi-fi equipment. Prices, though, are not always fixed, so bring along a good set of bargaining skills.",
+          "translation": "从Tangs百货的门厅出发，向左转便是幸运广场。\n作为乌节路上最古老的商场之一，这家购物中心常年深受顾客喜爱。\n琳琅满目的化妆品、珠宝、皮具和高保真音响设备令人惊叹不已。\n然而，价格并非一成不变，因此请带上你娴熟的讨价还价技巧。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Coming out of Lucky Plaza, continue along Orchard Road and enter the Paragon Shopping Centre.Apart from a wide range of shops and restaurants, there is also a Singapore Airlines Service Centre to facilitate bookings and offer information to tourists.Also available are a number of computer terminals for self-booking. Check out the life-sized sculptures by a well-known sculptor, Sun Yu-li, outside the shopping centre.These were inspired by depictions of life in rock paintings dating back 20,000 years ago in Inner Mongolia.",
+          "translation": "走出幸运广场，沿着乌节路继续前行，进入百丽宫购物中心。\n除了各种商店和餐厅，这里还有一个新加坡航空服务中心，方便游客进行预订并提供信息。\n此外还设有多个电脑终端，供游客自行预订。\n不妨去看看购物中心外著名雕塑家孙玉丽创作的真人大小雕塑。\n这些雕塑的灵感源自中国内蒙古地区可追溯到两万年前的岩画中对生活的描绘。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13729",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 1 - 5\nWhich places would you go to in the following situations?\nMatch each statemcnt with the correct place, A-H.\nChoose the correct word and move it into the gap.",
+          "option_title": "List of Places",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Information Desk"
+            },
+            {
+              "value": "B",
+              "label": "B. Hotel Reservation Counter"
+            },
+            {
+              "value": "C",
+              "label": "C. Lost and Found Counter"
+            },
+            {
+              "value": "D",
+              "label": "D. Red Channel"
+            },
+            {
+              "value": "E",
+              "label": "E. Green Channel"
+            },
+            {
+              "value": "F",
+              "label": "F. Level Two"
+            },
+            {
+              "value": "G",
+              "label": "G. Reception Desk"
+            },
+            {
+              "value": "H",
+              "label": "H. Baggage Claim Belt"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117105",
+              "number": 1,
+              "prompt": "You find after your flight that your suitcase has split",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Information Desk"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Hotel Reservation Counter"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Lost and Found Counter"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Red Channel"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Green Channel"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Level Two"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Reception Desk"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Baggage Claim Belt"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中提到“suitcase has split”（行李箱破裂），对应原文中的“damaged baggage”（损坏的行李）。根据原文信息，“You can proceed to the Lost and Found Counter for advice if you... would like to report damaged baggage”，说明应前往失物招领处（Lost and Found Counter）处理，因此答案为 C。",
+              "reason": "直接对应 damaged baggage，且答案为 Lost and Found Counter (C)",
+              "location_analysis": "题干描述行李箱破裂，对应原文的 damaged baggage，需去 Lost and Fou...",
+              "paraphrasing": "suitcase has split -> damaged baggage",
+              "keywords": "suitcase has split, Lost and Found Counter",
+              "evidence": [
+                "You can proceed to the Lost and Found Counter for advice if you cannot find your baggage or would like to report damaged baggage."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117106",
+              "number": 2,
+              "prompt": "You want to reserve a room at a transit hotel",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Information Desk"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Hotel Reservation Counter"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Lost and Found Counter"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Red Channel"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Green Channel"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Level Two"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Reception Desk"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Baggage Claim Belt"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干询问如何预订过境酒店（transit hotel）房间，原文明确指出：“These counters do not handle the transit hotels. For these, go to the Reception Desk on Level Three.” 这表明过境酒店需前往接待台（Reception Desk）办理，因此答案为 G。",
+              "reason": "明确指出 transit hotels 去 Reception Desk (G)",
+              "location_analysis": "题干 transit hotel 对应原文 these counters do not han...",
+              "paraphrasing": "reserve a room at a transit hotel -> go to the Reception Desk on Level Three",
+              "keywords": "transit hotel, Reception Desk",
+              "evidence": [
+                "These counters do not handle the transit hotels. For these, go to the Reception Desk on Level Three."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117107",
+              "number": 3,
+              "prompt": "You are not sure if you have bought too much in the duty-free shop",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Information Desk"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Hotel Reservation Counter"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Lost and Found Counter"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Red Channel"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Green Channel"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Level Two"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Reception Desk"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Baggage Claim Belt"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干描述旅客不确定是否在免税店买得太多，对应原文中关于海关通道选择的说明：“Please use the Red Channel if you have items to declare or are in doubt.” 其中“are in doubt”与题干“not sure”形成同义替换，因此应选择红通道（Red Channel），答案为 D。",
+              "reason": "are in doubt 直接匹配题干 not sure，答案为 Red Channel (D)",
+              "location_analysis": "题干不确定是否买太多，对应原文 are in doubt，需走 Red Channel。",
+              "paraphrasing": "not sure if you have bought too much -> are in doubt; duty-free shop -> have items to declare",
+              "keywords": "not sure, bought too much, duty-free, Red Channel",
+              "evidence": [
+                "Please use the Red Channel if you have items to declare or are in doubt."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117108",
+              "number": 4,
+              "prompt": "You are not sure where to collect your luggage after your flight",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Information Desk"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Hotel Reservation Counter"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Lost and Found Counter"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Red Channel"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Green Channel"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Level Two"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Reception Desk"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Baggage Claim Belt"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干询问下飞机后不确定在哪里取行李，原文提到：“You can refer to the flight information television screens on Level Two for the allocation of your baggage claim belt.” 表明 Level Two 是查看行李提取带信息的地方，因此答案为 F。",
+              "reason": "询问行李提取信息，原文指出去 Level Two (F)",
+              "location_analysis": "题干想知行李提取处，原文说看 Level Two 屏幕，故答案为 Level Two。",
+              "paraphrasing": "not sure where to collect your luggage -> refer to the flight information television screens on Level Two for the allocation of your baggage claim belt",
+              "keywords": "not sure where to collect your luggage, Level Two",
+              "evidence": [
+                "You can refer to the flight information television screens on Level Two for the allocation of your baggage claim belt."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117109",
+              "number": 5,
+              "prompt": "You need someone to help you with your suitcases",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Information Desk"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Hotel Reservation Counter"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Lost and Found Counter"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Red Channel"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Green Channel"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Level Two"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Reception Desk"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Baggage Claim Belt"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干表示需要有人帮忙搬运行李，原文明确说明：“Should you require their assistance with carrying luggage, please ask at the Information Desk.” 这里的“assistance with carrying luggage”与题干“help you with your suitcases”意思一致，因此应前往信息台（Information Desk），答案为 A。",
+              "reason": "明确指向 Information Desk (A)",
+              "location_analysis": "题干需要帮忙提行李，原文说请到 Information Desk 询问。",
+              "paraphrasing": "need someone to help you with your suitcases -> require their assistance with carrying luggage, please ask at the Information Desk",
+              "keywords": "someone to help with suitcases, Information Desk",
+              "evidence": [
+                "Should you require their assistance with carrying luggage, please ask at the Information Desk."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Places"
+          }
+        },
+        {
+          "id": "13731",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 6 - 10\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117110",
+              "number": 6,
+              "prompt": "Everyone is obliged to pay 3% tax on goods they bring into Singapore.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称“每个人都必须缴纳3%的商品和服务税”，但原文指出：“If you are a visitor, returning citizen or permanent resident of Singapore, you may be granted GST relief under certain conditions.” 说明部分人群在特定条件下可获免税，因此该说法与原文矛盾，答案为 FALSE。",
+              "reason": "原文指出有豁免条件，并非Everyone obliged",
+              "location_analysis": "题干说每个人都必须交3%税，原文说某些条件下可减免，矛盾，答案为 FALSE。",
+              "paraphrasing": "everyone is obliged -> may be granted GST relief under certain conditions",
+              "keywords": "everyone, obliged, 3% tax",
+              "evidence": [
+                "If you are a visitor, returning citizen or permanent resident of Singapore, you may be granted GST relief under certain conditions."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文中并非所有人都需对所有带入货物支付3%的税。",
+                "NOT GIVEN": "原文中实际提到了相关税收规定，因此并非未提及。"
+              }
+            },
+            {
+              "id": "117111",
+              "number": 7,
+              "prompt": "You can only reclaim tax on purchases made in certain shops.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干说“只能在某些商店申请退税”，原文规定：“shop at stores with the 'Tax Free Shopping' logo”，即只有带有该标志的商店才符合退税条件。这与题干中的“certain shops”形成对应，因此答案为 TRUE。",
+              "reason": "only 对应条件限制，原文明确指定商店 logo",
+              "location_analysis": "题干说只能在某些商店退税，原文要求有 Tax Free Shopping 标志的商店，一致，T...",
+              "paraphrasing": "only reclaim tax -> shop at stores with the 'Tax Free Shopping' logo",
+              "keywords": "only reclaim tax, certain shops",
+              "evidence": [
+                "shop at stores with the 'Tax Free Shopping' logo"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文中的明确描述相矛盾。",
+                "NOT GIVEN": "该选项在原文中已明确提及，并非未给出信息。"
+              }
+            },
+            {
+              "id": "117112",
+              "number": 8,
+              "prompt": "lf you have spent a total of S$150 on your purchases, you can get a tax refund.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称总消费 S$150 即可退税，但原文明确要求：“spend a minimum amount of S$100 at any one shop, and at least S$300 in total”。由于 S$150 未达到 S$300 的总消费门槛，因此无法退税，答案为 FALSE。",
+              "reason": "总金额要求至少300，150不够",
+              "location_analysis": "题干总花150新元可退税，原文要求至少300新元，矛盾，FALSE。",
+              "paraphrasing": "S$150 -> spend a minimum amount of S$100 at any one shop, and at least S$300 in total",
+              "keywords": "S$150, tax refund",
+              "evidence": [
+                "spend a minimum amount of S$100 at any one shop, and at least S$300 in total"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "TRUE": "与原文提到的退税条件不符，例如可能要求消费总额达到更高级别或仅限特定商品。",
+                "NOT GIVEN": "原文明确提及退税条件，因此该信息不是未给出的。"
+              }
+            },
+            {
+              "id": "117113",
+              "number": 9,
+              "prompt": "You have to reclaim your tax within a certain amount of time.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干提到退税需在一定时间内完成，但通读全文关于退税的部分，并未提及任何时间限制或截止日期。因此，文中没有相关信息支持或否定该陈述，答案为 NOT GIVEN。",
+              "reason": "正确答案NOT GIVEN，原文未提及时间限制。",
+              "location_analysis": "原文未提及退税时间限制，题干信息文中没有。",
+              "paraphrasing": "无对应",
+              "keywords": "reclaim, within time",
+              "evidence": [],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文并未提及收回税款有时间限制，因此该选项无依据。",
+                "FALSE": "原文并未否定时间限制的存在，因此不能断言错误。"
+              }
+            },
+            {
+              "id": "117114",
+              "number": 10,
+              "prompt": "You will be charged a certain amount for administration when you get the tax back.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干指出退税时会被收取一定的管理费用，原文明确说明：“a handling fee will be deducted from the GST amount for the refund service.” 其中“handling fee”即为行政手续费，与题干“charged a certain amount for administration”意思一致，因此答案为 TRUE。",
+              "reason": "handling fee 对应 administration fee",
+              "location_analysis": "题干说退税时收取管理费，原文说会扣除手续费，一致，TRUE。",
+              "paraphrasing": "charged a certain amount for administration -> a handling fee will be deducted from the GST amount for the refund service",
+              "keywords": "charged, administration, tax back",
+              "evidence": [
+                "Please note that a handling fee will be deducted from the GST amount for the refund service."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾，原文明确说明会收取管理费用。",
+                "NOT GIVEN": "原文明确提及了收费信息，并非未提及或无法判断。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13737",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 11 - 14\nComplete the notes below.\nChoose NO MORE THAN THREE WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117115",
+              "number": 11,
+              "prompt": "The Singapore Marriott Hotel is described as an _____.",
+              "options": [],
+              "answer": "eye-catching landmark",
+              "accepted_answers": [
+                "eye-catching landmark"
+              ],
+              "analysis": "题干要求填写对新加坡万豪酒店的描述，原文直接写道：“This eye-catching landmark has a distinctive Chinese-styled green roof and red pillars.” 因此，该酒店被描述为“eye-catching landmark”，答案即为此短语。",
+              "reason": "原文描述该酒店为 eye-catching landmark",
+              "location_analysis": "原文直接说这家酒店是 eye-catching landmark，答案为 eye-catchi...",
+              "paraphrasing": "described as -> This eye-catching landmark",
+              "keywords": "Singapore Marriott Hotel, described as",
+              "evidence": [
+                "The route begins just opposite the Orchard MRT station at the Singapore Marriott Hotel. This eye-catching landmark has a distinctive Chinese-styled green roof and red pillars."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117116",
+              "number": 12,
+              "prompt": "The land that Tang bought was located opposite a _____.",
+              "options": [],
+              "answer": "cemetery",
+              "accepted_answers": [
+                "cemetery"
+              ],
+              "analysis": "题干问唐氏购买的土地对面是什么，原文提到：“The plot faced a cemetery, which could be considered a bad omen.” 其中“faced a cemetery”即表示土地正对墓地，因此答案为“cemetery”。",
+              "reason": "原文 The plot faced a cemetery",
+              "location_analysis": "题干说 Tang 买的土地对面是……，原文说这块地面对 cemetery，答案为 cemetery。",
+              "paraphrasing": "land located opposite -> The plot faced a cemetery",
+              "keywords": "land, Tang bought, opposite",
+              "evidence": [
+                "The plot faced a cemetery, which could be considered a bad omen."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117117",
+              "number": 13,
+              "prompt": "The _____ of the new Tang building is very similar to that of the original building.",
+              "options": [],
+              "answer": "architecture",
+              "accepted_answers": [
+                "architecture"
+              ],
+              "analysis": "题干指出新唐楼与原建筑非常相似，原文说明：“Even when the original building was torn down... it retained its unique Chinese architecture.” 表明新建筑保留了原有的中式建筑风格，因此答案为“architecture”。",
+              "reason": "原文 retained its unique Chinese architecture",
+              "location_analysis": "题干新楼与原楼非常相似，原文说保留了 unique Chinese architecture，...",
+              "paraphrasing": "very similar -> retained its unique Chinese architecture",
+              "keywords": "new Tang building, very similar to original",
+              "evidence": [
+                "Even when the original building was torn down in 1982 to give way to the present superstore and skyscraper hotel, it retained its unique Chinese architecture."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117118",
+              "number": 14,
+              "prompt": "Access to several _____ at the Singapore Airlines Service Centre means that you don't need to wait for assistance.",
+              "options": [],
+              "answer": "computer terminals",
+              "accepted_answers": [
+                "computer terminals"
+              ],
+              "analysis": "题干提到在新航服务中心无需等待即可操作，原文指出：“Also available are a number of computer terminals for self-booking.” 自助终端（computer terminals）允许旅客自行操作，避免排队等候，因此答案为“computer terminals”。",
+              "reason": "原文 computer terminals for self-booking 对应无需等待",
+              "location_analysis": "题干在服务中心可自行操作无需等待，原文说提供 computer terminals 自助预订，...",
+              "paraphrasing": "access to several ... means you don't need to wait -> a number of computer terminals for self-booking",
+              "keywords": "Singapore Airlines Service Centre, access to, don't need to wait",
+              "evidence": [
+                "Also available are a number of computer terminals for self-booking."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "The Singapore Marriott Hotel is described as an $117115$.\nThe land that Tang bought was located opposite a $117116$.\nThe $117117$ of the new Tang building is very similar to that of the original building.\nAccess to several $117118$ at the Singapore Airlines Service Centre means that you don't need to wait for assistance.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The Singapore Marriott Hotel is described as an $117115$.\nThe land that Tang bought was located opposite a $117116$.\nThe $117117$ of the new Tang building is very similar to that of the original building.\nAccess to several $117118$ at the Singapore Airlines Service Centre means that you don't need to wait for assistance."
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Arriving in Singapore by plane",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Baggage claim",
+          "translation": "行李提取"
+        },
+        {
+          "index": 2,
+          "sentence": "You can refer to the flight information television screens on Level Two for the allocation of your baggage claim belt.",
+          "translation": "您可以参考二层航班信息电视屏幕，了解您的行李提取传送带分配情况。"
+        },
+        {
+          "index": 3,
+          "sentence": "Free trolleys are available near all baggage claim belts and our friendly porters are at your service on request.",
+          "translation": "所有行李提取传送带附近均提供免费手推车，友好的搬运工可根据您的需求提供服务。"
+        },
+        {
+          "index": 4,
+          "sentence": "Should you require their assistance with carrying luggage, please ask at the Information Desk.",
+          "translation": "如果您需要他们协助搬运行李，请向问讯处咨询。"
+        },
+        {
+          "index": 5,
+          "sentence": "You can proceed to the Lost and Found Counter for advice if you cannot find your baggage or would like to report damaged baggage.",
+          "translation": "如果您找不到行李或想报告行李损坏，可以前往失物招领柜台寻求建议。"
+        },
+        {
+          "index": 6,
+          "sentence": "Customs clearance",
+          "translation": "海关清关"
+        },
+        {
+          "index": 7,
+          "sentence": "Please use the Green Channel for your baggage clearance if you do not have controlled or prohibited items to declare, or have not exceeded your Duty-Free Concession.",
+          "translation": "如果您没有需申报的管制或禁止携带物品，或者未超过免税优惠限额，请使用绿色通道办理行李通关。"
+        },
+        {
+          "index": 8,
+          "sentence": "Please use the Red Channel if you have items to declare or are in doubt.",
+          "translation": "如果您有物品需要申报或不确定，请使用红色通道。"
+        },
+        {
+          "index": 9,
+          "sentence": "Hotel reservations",
+          "translation": "酒店预订"
+        },
+        {
+          "index": 10,
+          "sentence": "You can make these at the Hotel Reservation Counter with a S$10.00 per reservation deposit, deductible from your hotel bill at the end of your stay.",
+          "translation": "您可以在酒店预订柜台办理这些手续，每次预订需支付10新元押金，该押金将在您住宿结束时从酒店账单中扣除。"
+        },
+        {
+          "index": 11,
+          "sentence": "These counters do not handle the transit hotels.",
+          "translation": "这些柜台不办理过境酒店业务。"
+        },
+        {
+          "index": 12,
+          "sentence": "For these, go to the Reception Desk on Level Three.",
+          "translation": "如需办理过境酒店，请前往三楼的接待台。"
+        },
+        {
+          "index": 13,
+          "sentence": "Singapore Airport",
+          "translation": "新加坡机场"
+        },
+        {
+          "index": 14,
+          "sentence": "Goods and Services Tax (GST) relief",
+          "translation": "商品及服务税（GST）减免"
+        },
+        {
+          "index": 15,
+          "sentence": "A 3% Goods and Services Tax (GST) is levied on the sale of all goods imported into Singapore.",
+          "translation": "对进口到新加坡的所有商品的销售征收3%的商品及服务税。"
+        },
+        {
+          "index": 16,
+          "sentence": "If you are a visitor, returning citizen or permanent resident of Singapore, you may be granted GST relief under certain conditions.",
+          "translation": "如果你是访客、回国公民或新加坡永久居民，在特定条件下可能获得商品及服务税减免。"
+        },
+        {
+          "index": 17,
+          "sentence": "Tax-free shopping",
+          "translation": "免税购物"
+        },
+        {
+          "index": 18,
+          "sentence": "As a tourist or visitor,you can apply for a refund at Customs of the 3% GST on goods purchased during your stay in Singapore, provided you:",
+          "translation": "作为游客或访客，您可以就逗留新加坡期间购买的商品向海关申请退还3%的商品及服务税，前提是您："
+        },
+        {
+          "index": 19,
+          "sentence": "shop at stores with the 'Tax Free Shopping' logo",
+          "translation": "在带有'免税购物'标志的商店购物"
+        },
+        {
+          "index": 20,
+          "sentence": "spend a minimum amount of S$100 at any one shop, and at least S$300 in total",
+          "translation": "在任何一家商店消费至少100新元，并且总计消费至少300新元。"
+        },
+        {
+          "index": 21,
+          "sentence": "• obtain a Global Refund Cheque from the place of purchase.",
+          "translation": "• 从购买处获取一张全球退税支票。"
+        },
+        {
+          "index": 22,
+          "sentence": "When collecting your refund you have several choices - cash, bank cheque, or Changi Airport Shopping Voucher, which comes with an additional 10% in value.",
+          "translation": "在领取退税时，您有几种选择：现金、银行支票或樟宜机场购物券，该购物券额外赠送10%的价值。"
+        },
+        {
+          "index": 23,
+          "sentence": "Please note that a handling fee will be deducted from the GST amount for the refund service.",
+          "translation": "请注意，退税服务会从商品及服务税金额中扣除一笔手续费。"
+        },
+        {
+          "index": 24,
+          "sentence": "Singapore Guide",
+          "translation": "新加坡指南"
+        },
+        {
+          "index": 25,
+          "sentence": "A walk around the Orchard Road district",
+          "translation": "在乌节路区域散步"
+        },
+        {
+          "index": 26,
+          "sentence": "The route begins just opposite the Orchard MRT station at the Singapore Marriott Hotel.",
+          "translation": "这条路线始于新加坡万豪酒店，正对着乌节地铁站。"
+        },
+        {
+          "index": 27,
+          "sentence": "This eye-catching landmark has a distinctive Chinese-styled green roof and red pillars.",
+          "translation": "这座引人注目的地标拥有独特的中国风格绿色屋顶和红色柱子。"
+        },
+        {
+          "index": 28,
+          "sentence": "In 1958 a former lace-pedlar, C.K. Tang, foresaw that the area could become a bustling shopping centre, since residents in the neighbouring Tanglin district had to pass en-route to work at the commercial centre,Raffles Place.",
+          "translation": "1958年，曾是一名花边小贩的C.K. Tang预见到，由于附近东陵区的居民在前往商业中心莱佛士坊上班的途中必须经过此地，该区域可能会成为一个繁华的购物中心。"
+        },
+        {
+          "index": 29,
+          "sentence": "So with roof tiles brought in from his hometown in the Swatow city of China,Tang built a department store on what was then a cheap, isolated plot of land.",
+          "translation": "于是，Tang从中国汕头老家运来屋顶瓦片，在一块当时廉价且偏僻的土地上建造了一家百货商店。"
+        },
+        {
+          "index": 30,
+          "sentence": "The plot faced a cemetery, which could be considered a bad omen.",
+          "translation": "这块土地对面是一片墓地，这可能会被视为不祥之兆。"
+        },
+        {
+          "index": 31,
+          "sentence": "His foresight paid off.",
+          "translation": "他的远见得到了回报。"
+        },
+        {
+          "index": 32,
+          "sentence": "Today, Tangs is one of Singapore's most prominent and recognised home-grown department stores, proudly showcasing local fashion and household products.",
+          "translation": "如今，Tangs是新加坡最著名且备受认可的本土百货商店之一，自豪地展示着当地时尚和家居产品。"
+        },
+        {
+          "index": 33,
+          "sentence": "Even when the original building was torn down in 1982 to give way to the present superstore and skyscraper hotel, it retained its unique Chinese architecture.",
+          "translation": "即使原建筑在1982年被拆除，以让位给现在的超级商店和摩天酒店，它仍然保留了独特的中国建筑风格。"
+        },
+        {
+          "index": 34,
+          "sentence": "From the foyer at Tangs, turn left to Lucky Plaza.",
+          "translation": "从Tangs百货的门厅出发，向左转便是幸运广场。"
+        },
+        {
+          "index": 35,
+          "sentence": "One of the oldest along Orchard Road, this mall is a perennial favourite with shoppers.",
+          "translation": "作为乌节路上最古老的商场之一，这家购物中心常年深受顾客喜爱。"
+        },
+        {
+          "index": 36,
+          "sentence": "Be amazed by the staggering array of cosmetics, jewellery, leather goods and hi-fi equipment.",
+          "translation": "琳琅满目的化妆品、珠宝、皮具和高保真音响设备令人惊叹不已。"
+        },
+        {
+          "index": 37,
+          "sentence": "Prices, though, are not always fixed, so bring along a good set of bargaining skills.",
+          "translation": "然而，价格并非一成不变，因此请带上你娴熟的讨价还价技巧。"
+        },
+        {
+          "index": 38,
+          "sentence": "Coming out of Lucky Plaza, continue along Orchard Road and enter the Paragon Shopping Centre.",
+          "translation": "走出幸运广场，沿着乌节路继续前行，进入百丽宫购物中心。"
+        },
+        {
+          "index": 39,
+          "sentence": "Apart from a wide range of shops and restaurants, there is also a Singapore Airlines Service Centre to facilitate bookings and offer information to tourists.",
+          "translation": "除了各种商店和餐厅，这里还有一个新加坡航空服务中心，方便游客进行预订并提供信息。"
+        },
+        {
+          "index": 40,
+          "sentence": "Also available are a number of computer terminals for self-booking.",
+          "translation": "此外还设有多个电脑终端，供游客自行预订。"
+        },
+        {
+          "index": 41,
+          "sentence": "Check out the life-sized sculptures by a well-known sculptor, Sun Yu-li, outside the shopping centre.",
+          "translation": "不妨去看看购物中心外著名雕塑家孙玉丽创作的真人大小雕塑。"
+        },
+        {
+          "index": 42,
+          "sentence": "These were inspired by depictions of life in rock paintings dating back 20,000 years ago in Inner Mongolia.",
+          "translation": "这些雕塑的灵感源自中国内蒙古地区可追溯到两万年前的岩画中对生活的描绘。"
+        }
+      ]
+    },
+    {
+      "id": "1887",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Writing a personal CV that will attract employers",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "You are unique. No one has the same behavioural make-up that you have. Likewise, everyone's career history is also unique.Why is it then that a great many CVs are mostly descriptions of past jobs or standard CV templates and give away very little about the individual behind the CV? It's almost as if the majority of job seekers are afraid to let their own personality shine through.",
+          "translation": "你是独一无二的。\n没有人拥有与你相同的行为构成。\n同样地，每个人的职业履历也是独特的。\n那么，为什么很多简历主要是对过往工作的描述或标准模板，却很少透露简历背后个人的特点呢？\n这几乎就像大多数求职者害怕让自己的个性展现出来一样。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Perhaps in a corporate world where everyone feels they have to have the same professional image - dress in dark, formal suits, for example - the same is subconsciously felt to be true for CV writing.But there's a difficulty here: you want your CV to stand out and yet at the same time are afraid of saying anything that might make you stand out? The problem with the above thinking is painfully clear.Your CV will be dull, and likely to be swiftly passed over by an employer. Surely it is much better to be brave? To define your personal brand, as marketers might say. This isn't about making unsupportable statements: it's about choosing words that describe the qualities that drive your success. In short, what makes you good at your job.",
+          "translation": "也许在这样一个企业界里，每个人都觉得自己必须拥有相同的职业形象——例如，穿着深色的正装——人们潜意识里也认为简历写作也应如此。\n但这里有一个难题：你希望你的简历脱颖而出，同时又害怕说出任何可能让你显得与众不同的话？\n上述思维的弊端显而易见，令人痛心。\n你的简历会变得枯燥乏味，很可能被雇主迅速略过。\n当然，勇敢一点不是更好吗？\n正如营销人员可能会说的，定义你的个人品牌。\n这不是要做出毫无根据的声明，而是选择描述那些驱动你成功的品质的词语。\n简而言之，就是什么让你擅长自己的工作。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Writing about oneself can sometimes be difficult. It involves the ability to see yourself from different people's viewpoints. Working with a professional CV writer is one way to achieve that and to present your character positively within a CV. Asking a colleague that you trust is also a good way to find out how others see your strengths.",
+          "translation": "描述自己有时可能会很困难。\n它涉及从不同人的视角审视自己的能力。\n与专业的简历撰写者合作是实现这一目标并在简历中积极展现个人特质的一种方式。\n向你信任的同事请教，也是了解他人如何看待你优势的好方法。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Try not to use classic recruitment cliches. Everyone says they have great 'communication' or 'organisational' skills. This gets ignored by recruiters. So, instead think carefully about who you are and what you bring and then try to describe yourself. In that way you give recruiters something original to engage with, something that grabs their attention.",
+          "translation": "尽量避免使用经典的招聘陈词滥调。\n每个人都说自己拥有出色的“沟通”或“组织”技能。\n这一点常常被招聘人员忽视。\n因此，相反地，要仔细思考你是谁以及你能带来什么，然后试着描述自己。\n这样一来，你就能给招聘人员提供一些原创的、能够吸引他们注意力的内容。\n尽量避免使用常见的招聘陈词滥调。\n每个人都说自己拥有出色的‘沟通’或‘组织’技能。\n这会被招聘人员忽略。\n因此，相反，要仔细思考你是谁以及你能带来什么，然后试着描述自己。\n这样，你就能给招聘人员提供一些原创的内容来吸引他们的注意力。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "The value of being organised at work",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "在工作中保持条理的价值"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Being organised is one of the most effective skills a business person can acquire because when we're organised, we think more clearly. We're in tune with our targets and know how to reach them.Here are my top tips to bring order to your business life:",
+          "translation": "有条理是商务人士能够掌握的最有效的技能之一，因为当我们有条理时，我们的思维更加清晰。\n我们与目标保持一致，并知道如何实现它们。\n以下是我为您的商务生活带来秩序的首要建议："
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Organise your workspace",
+          "translation": "整理你的工作空间"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Don’t underestimate time lost or stress caused from an inefficient working environment.To restore order:",
+          "translation": "不要低估低效工作环境所导致的时间浪费或压力。\n为了恢复秩序："
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "• Cut down documents and stationery to the bare essentials. Be ruthless and remove anything that doesn't directly serve a function in your day-to-day activity. One or two carefully selected photos to make your desk feel like home are fine, but avoid too many.",
+          "translation": "• 将文档和文具精简至最基本的需求。\n要坚决果断，移除任何在你日常活动中没有直接功能的物品。\n精心挑选一两张照片来让办公桌有家的感觉是可以的，但要避免过多。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "• Create locations where you will keep all your work materials to make retrieval easy. Do this logically based on where you tend to use the items; for example, store spare copy paper near the printer. Move outside your immediate reach anything you use infrequently.Always return items once you have used them so they'll be where you expect them next time.",
+          "translation": "创建存放所有工作资料的位置，以便于轻松取用。\n根据你通常使用物品的位置合理地进行分类；例如，将备用复印纸存放在打印机附近。\n将不常用的物品移出你伸手可及的范围。\n使用完物品后务必归还原位，以便下次使用时它们仍在预期位置。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "• Frustration ensues when you're searching for a client proposal, but it's buried among random papers.Eliminate desktop chaos by using trays, magazine files, or whatever you fancy and add clear labels such as 'In', 'Out', For Action', 'Current Projects’ or other relevant categories.",
+          "translation": "当你在寻找客户提案时，它却埋没在杂乱的纸张中，这会导致挫败感。\n使用托盘、杂志文件架或任何你喜欢的收纳工具，并添加清晰的标签，如“待办”、“已处理”、“待行动”、“当前项目”或其他相关类别，来消除桌面的混乱。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "• Be brutally honest about what you must keep. Studies suggest that 80% of what we file is never accessed again.Ask: do I know of a tax or legal requirement for retaining it? Why would this be important to me in future? Avoid 'miscellaneous' as a category- you won't remember what's in there.",
+          "translation": "• 对自己必须保留的东西要极其坦诚。\n研究表明，我们存档的文件中有80%从未再次查阅。\n问问自己：我是否知道保留它有税务或法律上的要求？\n它未来为何对我重要？\n避免使用“杂项”作为类别——你不会记得里面有什么。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Effective planning",
+          "translation": "有效的规划"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Plan your work; work your plan. Time spent planning saves untold hours in execution.Implementing regular planning strategies will sharpen your focus, thereby keeping you on track with your work.",
+          "translation": "规划你的工作；执行你的计划。\n花在规划上的时间能节省大量执行时间。\n实施定期规划策略将提升你的专注力，从而使你的工作保持在正轨上。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Start planning today for tomorrow. Near the close of each work day, implement a",
+          "translation": "从今天开始为明天做规划。\n在每个工作日临近结束时，执行一项"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "10- to 15-minute routine to wrap up loose ends and prioritise key tasks. A good plan for tomorrow allows you to clear your head and enjoy your evening.",
+          "translation": "一个好的明日计划能让你清空思绪，享受晚间时光。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Once a week, ring-fence a 60- to 90-minute appointment with yourself for larger scale planning.Use the time to do research or any of the thinking that normally takes a back seat.",
+          "translation": "每周一次，为自己预留60至90分钟的时间进行更大规模的规划。\n利用这段时间进行研究或进行那些通常被搁置的思考。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13740",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 20\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117119",
+              "number": 15,
+              "prompt": "Many job applicants do not dare to reveal in a cv what their real _____ is.",
+              "options": [],
+              "answer": "personality",
+              "accepted_answers": [
+                "personality"
+              ],
+              "analysis": "题干中的“real personality”对应原文A段中的“let their own personality shine through”，其中“reveal”与“let...shine through”构成同义替换，“real personality”则直接对应“their own personality”。因此，答案为personality。",
+              "reason": "题干询问求职者不敢在CV中展现的真实特质，原文直接对应personality。",
+              "location_analysis": "答案来自原文：求职者害怕让个性展现。real personality与their own pe...",
+              "paraphrasing": "reveal -> let...shine through; real personality -> their own personality",
+              "keywords": "real, personality",
+              "evidence": [
+                "It's almost as if the majority of job seekers are afraid to let their own personality shine through."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117120",
+              "number": 16,
+              "prompt": "lf applicants do not include what makes them distinctive, their CVs are likely to appear _____ to the reader.",
+              "options": [],
+              "answer": "dull",
+              "accepted_answers": [
+                "dull"
+              ],
+              "analysis": "题干中“appear dull”对应原文B段中的“Your CV will be dull”，而“do not include what makes them distinctive”与原文“does not stand out”意思一致。因此，dull是原文直接使用的词，准确反映缺乏个性的CV给人的印象。",
+              "reason": "题干指出缺乏区别性的CV会显得枯燥，dull为原文原词。",
+              "location_analysis": "答案来自原文：如果CV不突出，就会索然无味。dull直接对应题干意思。",
+              "paraphrasing": "not include what makes them distinctive -> does not stand out; likely to appear dull -> Your CV will be dull",
+              "keywords": "distinctive, dull",
+              "evidence": [
+                "Your CV will be dull, and likely to be swiftly passed over by an employer."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117121",
+              "number": 17,
+              "prompt": "Applicants need to find ways to define the _____ that make them do well in their work.",
+              "options": [],
+              "answer": "qualities",
+              "accepted_answers": [
+                "qualities"
+              ],
+              "analysis": "题干要求填写“使他们工作出色的特质”，原文B段提到“choosing words that describe the qualities that drive your success”，其中“qualities”即指驱动成功的个人特质，与题干“make them do well in their work”形成同义对应。",
+              "reason": "题干中'定义使自己工作出色的特质'与原文'describe the qualities that drive your success'一致。",
+              "location_analysis": "答案来自原文：选择描述驱动成功特质的词语。qualities即为题干所需。",
+              "paraphrasing": "find ways to define -> choosing words that describe; do well -> drive your success",
+              "keywords": "define, qualities",
+              "evidence": [
+                "This isn't about making unsupportable statements: it's about choosing words that describe the qualities that drive your success."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117122",
+              "number": 18,
+              "prompt": "lt can be helpful for applicants to try to base a consideration of themselves on the _____ of others.",
+              "options": [],
+              "answer": "viewpoints",
+              "accepted_answers": [
+                "viewpoints"
+              ],
+              "analysis": "题干中“基于他人的视角来审视自己”对应原文C段“see yourself from different people's viewpoints”，其中“consideration of themselves”被替换为“see yourself”，“others”对应“different people's”，viewpoints为原文原词，符合题干要求。",
+              "reason": "题干'基于他人的视角来审视自己'与原文'from different people's viewpoints'一致。",
+              "location_analysis": "答案来自原文：从不同人的视角审视自己。viewpoints即题干所需。",
+              "paraphrasing": "base a consideration of themselves on -> see yourself from; others -> different people's",
+              "keywords": "consideration, viewpoints",
+              "evidence": [
+                "It involves the ability to see yourself from different people's viewpoints."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117123",
+              "number": 19,
+              "prompt": "Requesting the input of a dependable _____ can help an applicant work out their own good points.",
+              "options": [],
+              "answer": "colleague",
+              "accepted_answers": [
+                "colleague"
+              ],
+              "analysis": "题干中的“dependable colleague”对应原文C段“Asking a colleague that you trust”，其中“dependable”与“trust”构成同义替换，“input”对应“asking”，“good points”对应“strengths”，因此colleague是准确答案。",
+              "reason": "题干'寻求可靠同事的输入'与原文'Asking a colleague that you trust'对应。",
+              "location_analysis": "答案来自原文：询问信任的同事可了解自身优势。colleague即为题干所需。",
+              "paraphrasing": "dependable -> trust; input -> asking; good points -> strengths",
+              "keywords": "dependable, colleague",
+              "evidence": [
+                "Asking a colleague that you trust is also a good way to find out how others see your strengths."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117124",
+              "number": 20,
+              "prompt": "lt is best to avoid the _____ used by many applicants when describing themselves in a CV",
+              "options": [],
+              "answer": "clichés",
+              "accepted_answers": [
+                "clichés"
+              ],
+              "analysis": "题干中“avoid the clichés used by many applicants”对应原文D段“Try not to use classic recruitment cliches”，其中“best to avoid”与“Try not to use”意思相近，“used by many applicants”对应“classic recruitment cliches”，clichés为原文原词。",
+              "reason": "题干'避免许多求职者使用的…'与原文'Try not to use classic recruitment cliches'一致。",
+              "location_analysis": "答案来自原文：避免招聘中的陈词滥调。clichés即题干所需。",
+              "paraphrasing": "best to avoid -> Try not to use; used by many applicants -> classic recruitment cliches",
+              "keywords": "avoid, clichés",
+              "evidence": [
+                "Try not to use classic recruitment cliches."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Many job applicants do not dare to reveal in a cv what their real $117119$ is.\nlf applicants do not include what makes them distinctive, their CVs are likely to appear $117120$ to the reader.\nApplicants need to find ways to define the $117121$ that make them do well in their work.\nlt can be helpful for applicants to try to base a consideration of themselves on the $117122$ of others.\nRequesting the input of a dependable $117123$ can help an applicant work out their own good points.\nlt is best to avoid the $117124$ used by many applicants when describing themselves in a CV",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Many job applicants do not dare to reveal in a cv what their real $117119$ is.\nlf applicants do not include what makes them distinctive, their CVs are likely to appear $117120$ to the reader.\nApplicants need to find ways to define the $117121$ that make them do well in their work.\nlt can be helpful for applicants to try to base a consideration of themselves on the $117122$ of others.\nRequesting the input of a dependable $117123$ can help an applicant work out their own good points.\nlt is best to avoid the $117124$ used by many applicants when describing themselves in a CV"
+        },
+        {
+          "id": "13742",
+          "type": 8,
+          "title": "How to become more organised at work",
+          "instructions": "Questions 21 - 27\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117125",
+              "number": 21,
+              "prompt": "• keeping the minimum amount of necessary _____ and paperwork",
+              "options": [],
+              "answer": "stationery",
+              "accepted_answers": [
+                "stationery"
+              ],
+              "analysis": "题干中“keeping the minimum amount of necessary stationery and paperwork”对应原文“Cut down documents and stationery to the bare essentials”，其中“minimum amount of necessary”与“bare essentials”形成同义替换，stationery为原文直接出现的词。",
+              "reason": "题干'保持最少量的必要文具和文件'与原文直接对应。",
+              "location_analysis": "答案来自原文：减少文件和文具至最基本。stationery为原文原词。",
+              "paraphrasing": "keeping the minimum amount of necessary -> Cut down documents and stationery to the bare essentials",
+              "keywords": "minimum amount, stationery",
+              "evidence": [
+                "Cut down documents and stationery to the bare essentials."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117126",
+              "number": 22,
+              "prompt": "• restricting the number of personal _____ on the work surface",
+              "options": [],
+              "answer": "photos",
+              "accepted_answers": [
+                "photos"
+              ],
+              "analysis": "题干中“restricting the number of personal photos”对应原文“One or two carefully selected photos...but avoid too many”，其中“personal photos”被简化为“photos”，“restricting the number”对应“avoid too many”，photos为原文明确提到的物品。",
+              "reason": "题干'限制桌面上个人照片的数量'与原文'one or two...photos...avoid too many'对应。",
+              "location_analysis": "答案来自原文：避免在桌面上放太多照片。photos为原文原词。",
+              "paraphrasing": "restricting the number of -> avoid too many; personal photos -> photos",
+              "keywords": "restricting, photos",
+              "evidence": [
+                "One or two carefully selected photos to make your desk feel like home are fine, but avoid too many."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117127",
+              "number": 23,
+              "prompt": "• deciding on sensible _____ for things that are needed regularly or hardly ever",
+              "options": [],
+              "answer": "locations",
+              "accepted_answers": [
+                "locations"
+              ],
+              "analysis": "题干中“deciding on sensible locations for things that are needed regularly or hardly ever”对应原文“Create locations where you will keep all your work materials”以及“Move outside your immediate reach anything you use infrequently”，locations为原文关键词，准确描述物品存放安排。",
+              "reason": "题干'为常用或罕用物品决定合理的位置'对应原文'Create locations'及区分使用频率。",
+              "location_analysis": "答案来自原文：为常用或罕用物品创建存放位置。locations为原文原词。",
+              "paraphrasing": "deciding on sensible locations for -> Create locations where... regularly or hardly ever -> based on where you tend to use the items; Move outside your immediate reach anything you use infrequently",
+              "keywords": "sensible, locations",
+              "evidence": [
+                "Create locations where you will keep all your work materials to make retrieval easy.",
+                "Move outside your immediate reach anything you use infrequently."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117128",
+              "number": 24,
+              "prompt": "• placing containers on the desk identified by _____ to organise on-going paperwork",
+              "options": [],
+              "answer": "labels",
+              "accepted_answers": [
+                "labels"
+              ],
+              "analysis": "题干中“containers on the desk identified by labels”对应原文“add clear labels such as 'In', 'Out', 'For Action'...”，其中“identified by”与“add clear labels”构成同义替换，labels为原文直接使用的词，用于分类文件容器。",
+              "reason": "原文明确“labels”。",
+              "location_analysis": "按标签组织文件。",
+              "paraphrasing": "identified by labels -> add clear labels",
+              "keywords": "containers, identified by",
+              "evidence": [
+                "add clear labels such as 'In', 'Out', For Action', 'Current Projects’ or other relevant categories."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117129",
+              "number": 25,
+              "prompt": "• storing documents if there is an official _____ to do so",
+              "options": [],
+              "answer": "requirement",
+              "accepted_answers": [
+                "requirement"
+              ],
+              "analysis": "题干中“official requirement”对应原文“tax or legal requirement for retaining it”，其中“official”涵盖“tax or legal”的含义，“requirement”为原文原词，表示只有在有正式规定时才需保留文件。",
+              "reason": "题干'存在官方要求时才存档'对应原文'tax or legal requirement'。",
+              "location_analysis": "答案来自原文：如果存在法律或税务要求才保留文件。requirement为原文原词。",
+              "paraphrasing": "if there is an official requirement to -> do I know of a tax or legal requirement",
+              "keywords": "official, requirement",
+              "evidence": [
+                "Ask: do I know of a tax or legal requirement for retaining it?"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117130",
+              "number": 26,
+              "prompt": "• in general, it will improve the employee's _____ on work",
+              "options": [],
+              "answer": "focus",
+              "accepted_answers": [
+                "focus"
+              ],
+              "analysis": "题干中“improve the employee's focus on work”对应原文“Implementing regular planning strategies will sharpen your focus”，其中“improve”与“sharpen”意思相近，“focus”为原文直接使用的关键词，准确反映规划对专注力的提升作用。",
+              "reason": "题干'规划提高员工对工作的专注'与原文'sharpen your focus'对应。",
+              "location_analysis": "答案来自原文：规划能提升专注力并保持工作正轨。focus为原文原词。",
+              "paraphrasing": "improve the employee's focus on work -> sharpen your focus, thereby keeping you on track with your work",
+              "keywords": "improve, focus",
+              "evidence": [
+                "Implementing regular planning strategies will sharpen your focus, thereby keeping you on track with your work."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117131",
+              "number": 27,
+              "prompt": "• thinking about the next day's work ensures important _____ are given due attention",
+              "options": [],
+              "answer": "tasks",
+              "accepted_answers": [
+                "tasks"
+              ],
+              "analysis": "题干中“important tasks are given due attention”对应原文“prioritise key tasks”，其中“important tasks”与“key tasks”同义，“given due attention”对应“prioritise”，tasks为原文原词，符合题目要求填写一个单词。",
+              "reason": "题干'确保重要任务得到重视'对应原文'prioritise key tasks'。",
+              "location_analysis": "答案来自原文：优先处理关键任务。tasks为原文原词。",
+              "paraphrasing": "important tasks are given due attention -> prioritise key tasks; tasks -> tasks",
+              "keywords": "tasks",
+              "evidence": [
+                "Near the close of each work day, implement a 10- to 15-minute routine to wrap up loose ends and prioritise key tasks."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Maintaining order in the work area involves\n• keeping the minimum amount of necessary $117125$ and paperwork\n• restricting the number of personal $117126$ on the work surface\n• deciding on sensible $117127$ for things that are needed regularly or hardly ever\n• placing containers on the desk identified by $117128$ to organise on-going paperwork\n• storing documents if there is an official $117129$ to do so\nPlanning ahead is important because\n• in general, it will improve the employee's $117130$ on work\n• thinking about the next day's work ensures important $117131$ are given due attention",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Maintaining order in the work area involves\n• keeping the minimum amount of necessary $117125$ and paperwork\n• restricting the number of personal $117126$ on the work surface\n• deciding on sensible $117127$ for things that are needed regularly or hardly ever\n• placing containers on the desk identified by $117128$ to organise on-going paperwork\n• storing documents if there is an official $117129$ to do so\nPlanning ahead is important because\n• in general, it will improve the employee's $117130$ on work\n• thinking about the next day's work ensures important $117131$ are given due attention"
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Writing a personal CV that will attract employers",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "You are unique.",
+          "translation": "你是独一无二的。"
+        },
+        {
+          "index": 3,
+          "sentence": "No one has the same behavioural make-up that you have.",
+          "translation": "没有人拥有与你相同的行为构成。"
+        },
+        {
+          "index": 4,
+          "sentence": "Likewise, everyone's career history is also unique.",
+          "translation": "同样地，每个人的职业履历也是独特的。"
+        },
+        {
+          "index": 5,
+          "sentence": "Why is it then that a great many CVs are mostly descriptions of past jobs or standard CV templates and give away very little about the individual behind the CV?",
+          "translation": "那么，为什么很多简历主要是对过往工作的描述或标准模板，却很少透露简历背后个人的特点呢？"
+        },
+        {
+          "index": 6,
+          "sentence": "It's almost as if the majority of job seekers are afraid to let their own personality shine through.",
+          "translation": "这几乎就像大多数求职者害怕让自己的个性展现出来一样。"
+        },
+        {
+          "index": 8,
+          "sentence": "Perhaps in a corporate world where everyone feels they have to have the same professional image - dress in dark, formal suits, for example - the same is subconsciously felt to be true for CV writing.",
+          "translation": "也许在这样一个企业界里，每个人都觉得自己必须拥有相同的职业形象——例如，穿着深色的正装——人们潜意识里也认为简历写作也应如此。"
+        },
+        {
+          "index": 9,
+          "sentence": "But there's a difficulty here: you want your CV to stand out and yet at the same time are afraid of saying anything that might make you stand out?",
+          "translation": "但这里有一个难题：你希望你的简历脱颖而出，同时又害怕说出任何可能让你显得与众不同的话？"
+        },
+        {
+          "index": 10,
+          "sentence": "The problem with the above thinking is painfully clear.",
+          "translation": "上述思维的弊端显而易见，令人痛心。"
+        },
+        {
+          "index": 11,
+          "sentence": "Your CV will be dull, and likely to be swiftly passed over by an employer.",
+          "translation": "你的简历会变得枯燥乏味，很可能被雇主迅速略过。"
+        },
+        {
+          "index": 12,
+          "sentence": "Surely it is much better to be brave?",
+          "translation": "当然，勇敢一点不是更好吗？"
+        },
+        {
+          "index": 13,
+          "sentence": "To define your personal brand, as marketers might say.",
+          "translation": "正如营销人员可能会说的，定义你的个人品牌。"
+        },
+        {
+          "index": 14,
+          "sentence": "This isn't about making unsupportable statements: it's about choosing words that describe the qualities that drive your success.",
+          "translation": "这不是要做出毫无根据的声明，而是选择描述那些驱动你成功的品质的词语。"
+        },
+        {
+          "index": 15,
+          "sentence": "In short, what makes you good at your job.",
+          "translation": "简而言之，就是什么让你擅长自己的工作。"
+        },
+        {
+          "index": 17,
+          "sentence": "Writing about oneself can sometimes be difficult.",
+          "translation": "描述自己有时可能会很困难。"
+        },
+        {
+          "index": 18,
+          "sentence": "It involves the ability to see yourself from different people's viewpoints.",
+          "translation": "它涉及从不同人的视角审视自己的能力。"
+        },
+        {
+          "index": 19,
+          "sentence": "Working with a professional CV writer is one way to achieve that and to present your character positively within a CV.",
+          "translation": "与专业的简历撰写者合作是实现这一目标并在简历中积极展现个人特质的一种方式。"
+        },
+        {
+          "index": 20,
+          "sentence": "Asking a colleague that you trust is also a good way to find out how others see your strengths.",
+          "translation": "向你信任的同事请教，也是了解他人如何看待你优势的好方法。"
+        },
+        {
+          "index": 21,
+          "sentence": "Try not to use classic recruitment cliches.",
+          "translation": "尽量避免使用经典的招聘陈词滥调。"
+        },
+        {
+          "index": 22,
+          "sentence": "Everyone says they have great 'communication' or 'organisational' skills.",
+          "translation": "每个人都说自己拥有出色的“沟通”或“组织”技能。"
+        },
+        {
+          "index": 23,
+          "sentence": "This gets ignored by recruiters.",
+          "translation": "这一点常常被招聘人员忽视。"
+        },
+        {
+          "index": 24,
+          "sentence": "So, instead think carefully about who you are and what you bring and then try to describe yourself.",
+          "translation": "因此，相反地，要仔细思考你是谁以及你能带来什么，然后试着描述自己。"
+        },
+        {
+          "index": 25,
+          "sentence": "In that way you give recruiters something original to engage with, something that grabs their attention.",
+          "translation": "这样一来，你就能给招聘人员提供一些原创的、能够吸引他们注意力的内容。"
+        },
+        {
+          "index": 26,
+          "sentence": "Try not to use classic recruitment cliches.",
+          "translation": "尽量避免使用常见的招聘陈词滥调。"
+        },
+        {
+          "index": 27,
+          "sentence": "Everyone says they have great 'communication' or 'organisational' skills.",
+          "translation": "每个人都说自己拥有出色的‘沟通’或‘组织’技能。"
+        },
+        {
+          "index": 28,
+          "sentence": "This gets ignored by recruiters.",
+          "translation": "这会被招聘人员忽略。"
+        },
+        {
+          "index": 29,
+          "sentence": "So, instead think carefully about who you are and what you bring and then try to describe yourself.",
+          "translation": "因此，相反，要仔细思考你是谁以及你能带来什么，然后试着描述自己。"
+        },
+        {
+          "index": 30,
+          "sentence": "In that way you give recruiters something original to engage with, something that grabs their attention.",
+          "translation": "这样，你就能给招聘人员提供一些原创的内容来吸引他们的注意力。"
+        },
+        {
+          "index": 31,
+          "sentence": "The value of being organised at work",
+          "translation": "在工作中保持条理的价值"
+        },
+        {
+          "index": 32,
+          "sentence": "Being organised is one of the most effective skills a business person can acquire because when we're organised, we think more clearly.",
+          "translation": "有条理是商务人士能够掌握的最有效的技能之一，因为当我们有条理时，我们的思维更加清晰。"
+        },
+        {
+          "index": 33,
+          "sentence": "We're in tune with our targets and know how to reach them.",
+          "translation": "我们与目标保持一致，并知道如何实现它们。"
+        },
+        {
+          "index": 34,
+          "sentence": "Here are my top tips to bring order to your business life:",
+          "translation": "以下是我为您的商务生活带来秩序的首要建议："
+        },
+        {
+          "index": 35,
+          "sentence": "Organise your workspace",
+          "translation": "整理你的工作空间"
+        },
+        {
+          "index": 36,
+          "sentence": "Don’t underestimate time lost or stress caused from an inefficient working environment.",
+          "translation": "不要低估低效工作环境所导致的时间浪费或压力。"
+        },
+        {
+          "index": 37,
+          "sentence": "To restore order:",
+          "translation": "为了恢复秩序："
+        },
+        {
+          "index": 38,
+          "sentence": "• Cut down documents and stationery to the bare essentials.",
+          "translation": "• 将文档和文具精简至最基本的需求。"
+        },
+        {
+          "index": 39,
+          "sentence": "Be ruthless and remove anything that doesn't directly serve a function in your day-to-day activity.",
+          "translation": "要坚决果断，移除任何在你日常活动中没有直接功能的物品。"
+        },
+        {
+          "index": 40,
+          "sentence": "One or two carefully selected photos to make your desk feel like home are fine, but avoid too many.",
+          "translation": "精心挑选一两张照片来让办公桌有家的感觉是可以的，但要避免过多。"
+        },
+        {
+          "index": 41,
+          "sentence": "Create locations where you will keep all your work materials to make retrieval easy.",
+          "translation": "创建存放所有工作资料的位置，以便于轻松取用。"
+        },
+        {
+          "index": 42,
+          "sentence": "Do this logically based on where you tend to use the items; for example, store spare copy paper near the printer.",
+          "translation": "根据你通常使用物品的位置合理地进行分类；例如，将备用复印纸存放在打印机附近。"
+        },
+        {
+          "index": 43,
+          "sentence": "Move outside your immediate reach anything you use infrequently.",
+          "translation": "将不常用的物品移出你伸手可及的范围。"
+        },
+        {
+          "index": 44,
+          "sentence": "Always return items once you have used them so they'll be where you expect them next time.",
+          "translation": "使用完物品后务必归还原位，以便下次使用时它们仍在预期位置。"
+        },
+        {
+          "index": 45,
+          "sentence": "• Frustration ensues when you're searching for a client proposal, but it's buried among random papers.",
+          "translation": "当你在寻找客户提案时，它却埋没在杂乱的纸张中，这会导致挫败感。"
+        },
+        {
+          "index": 46,
+          "sentence": "Eliminate desktop chaos by using trays, magazine files, or whatever you fancy and add clear labels such as 'In', 'Out', For Action', 'Current Projects’ or other relevant categories.",
+          "translation": "使用托盘、杂志文件架或任何你喜欢的收纳工具，并添加清晰的标签，如“待办”、“已处理”、“待行动”、“当前项目”或其他相关类别，来消除桌面的混乱。"
+        },
+        {
+          "index": 47,
+          "sentence": "• Be brutally honest about what you must keep.",
+          "translation": "• 对自己必须保留的东西要极其坦诚。"
+        },
+        {
+          "index": 48,
+          "sentence": "Studies suggest that 80% of what we file is never accessed again.",
+          "translation": "研究表明，我们存档的文件中有80%从未再次查阅。"
+        },
+        {
+          "index": 49,
+          "sentence": "Ask: do I know of a tax or legal requirement for retaining it?",
+          "translation": "问问自己：我是否知道保留它有税务或法律上的要求？"
+        },
+        {
+          "index": 50,
+          "sentence": "Why would this be important to me in future?",
+          "translation": "它未来为何对我重要？"
+        },
+        {
+          "index": 51,
+          "sentence": "Avoid 'miscellaneous' as a category- you won't remember what's in there.",
+          "translation": "避免使用“杂项”作为类别——你不会记得里面有什么。"
+        },
+        {
+          "index": 52,
+          "sentence": "Effective planning",
+          "translation": "有效的规划"
+        },
+        {
+          "index": 53,
+          "sentence": "Plan your work; work your plan.",
+          "translation": "规划你的工作；执行你的计划。"
+        },
+        {
+          "index": 54,
+          "sentence": "Time spent planning saves untold hours in execution.",
+          "translation": "花在规划上的时间能节省大量执行时间。"
+        },
+        {
+          "index": 55,
+          "sentence": "Implementing regular planning strategies will sharpen your focus, thereby keeping you on track with your work.",
+          "translation": "实施定期规划策略将提升你的专注力，从而使你的工作保持在正轨上。"
+        },
+        {
+          "index": 56,
+          "sentence": "Start planning today for tomorrow.",
+          "translation": "从今天开始为明天做规划。"
+        },
+        {
+          "index": 57,
+          "sentence": "Near the close of each work day, implement a",
+          "translation": "在每个工作日临近结束时，执行一项"
+        },
+        {
+          "index": 58,
+          "sentence": "Implement a 10- to 15-minute routine to wrap up loose ends and prioritise key tasks.",
+          "translation": "执行一个10到15分钟的常规流程，以处理未完成的事项并优先安排关键任务。"
+        },
+        {
+          "index": 59,
+          "sentence": "A good plan for tomorrow allows you to clear your head and enjoy your evening.",
+          "translation": "一个好的明日计划能让你清空思绪，享受晚间时光。"
+        },
+        {
+          "index": 60,
+          "sentence": "Once a week, ring-fence a 60- to 90-minute appointment with yourself for larger scale planning.",
+          "translation": "每周一次，为自己预留60至90分钟的时间进行更大规模的规划。"
+        },
+        {
+          "index": 61,
+          "sentence": "Use the time to do research or any of the thinking that normally takes a back seat.",
+          "translation": "利用这段时间进行研究或进行那些通常被搁置的思考。"
+        }
+      ]
+    },
+    {
+      "id": "1888",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "A significant development in mining safety",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Coal has been used as a source of fuel for over 5,000 years, but for most of that time it was probably gathered from places where it was exposed on the surface of the ground. It is possible that the Romans undertook some mining, but coal mines across Europe largely date from the 13th century.Thereafter coal production increased steadily and it gradually replaced charcoal and wood as a source of heat and energy.",
+          "translation": "煤炭作为燃料来源已被使用了5000多年，但在大部分时间里，它可能都是从地表裸露的地方采集的。\n罗马人可能进行过一些开采，但欧洲各地的煤矿大多始于13世纪。\n此后，煤炭产量稳步增长，并逐渐取代木炭和木材，成为热能和能源的来源。\n煤炭作为燃料来源已被使用了5000多年，但在大部分时间里，它很可能是在地表裸露的地方被采集的。\n罗马人可能进行过一些开采，但欧洲各地的煤矿大多起源于13世纪。\n此后，煤炭产量稳步增长，并逐渐取代木炭和木材成为热能和能源的来源。\n煤炭作为燃料来源已被使用了超过5000年，但在大部分时间里，它很可能只是从地表裸露的地方被捡拾而来。\n此后，煤炭产量稳步增长，并逐渐取代木炭和木材，成为热能与能源的来源。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Initially, coal mines were fairly shallow, but they quickly reached the point where artificial lighting was necessary.At first the lights used would have been no different from those used domestically candles and simple oil lamps.But as coal mines became deeper,miners encountered a new and terrible problem - firedamp. This was a natural gas, principally consisting of methane, that exploded on contact with a naked flame.The first known major firedamp explosion, which killed 99 people, took place in Belgium in 1514 and as new technology was used to mine at increasingly deep levels, the problem got worse.",
+          "translation": "最初，煤矿相当浅，但很快便达到了需要人工照明的程度。\n起初，所使用的灯光与家用的蜡烛和简易油灯并无不同。\n但随着煤矿深度的增加，矿工们遇到了一个可怕的新问题——沼氣（瓦斯）。\n这是一种天然气，主要由甲烷组成，接触明火就会爆炸。\n已知的第一次重大瓦斯爆炸发生在1514年的比利时，造成99人死亡，而随着新技术被用于越来越深的开采，问题变得更加严重。\n起初，煤矿相当浅，但它们很快就达到了需要人工照明的程度。\n最初使用的灯具与家用的蜡烛和简单油灯并无区别。\n但随着煤矿变得更深，矿工遇到了一个可怕的新问题——沼气。\n这是一种主要由甲烷组成的天然气，接触明火时会爆炸。\n已知首次重大沼气爆炸发生在1514年的比利时，造成99人死亡，随着新技术用于开采更深层的矿井，问题变得更加严重。\n最初，煤矿相当浅，但很快就达到了需要人工照明的程度。\n起初，所使用的灯具与家用的蜡烛和简易油灯并无区别。\n但随着煤矿变得更深，矿工们遇到了一个新的可怕问题——沼气。\n这是一种天然气，主要成分为甲烷，一接触到明火就会爆炸。\n已知首次重大沼气爆炸发生于1514年的比利时，造成99人死亡；随着新技术用于开采越来越深的煤层，这个问题变得更加严重。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "The simplest solution was to improve the ventilation of the mine. Many mines had only one shaft leading from the surface down to the working area below.Ventilation could be improved to some extent by dividing this into a downcast (bringing in fresh air) and an upcast (returning foul air and firedamp to the surface).",
+          "translation": "最简单的解决方法是改善矿井的通风条件。\n许多矿井只有一条从地面通向下方工作区的竖井。\n通过将这条竖井分为下行通风（引入新鲜空气）和上行通风（将污浊空气和瓦斯送回地面），可以在一定程度上改善通风。\n最简单的解决方案是改善矿井的通风。\n许多煤矿只有一条从地表通往下方工作区的竖井。\n通过将这条竖井分为下行通风（引入新鲜空气）和上行通风（将污浊空气和沼气送回地表），可以在一定程度上改善通风。\n许多矿井只有一条从地表通往地下工作区的竖井。\n通过将这条竖井分为下行通风（引入新鲜空气）和上行通风（将污浊空气和瓦斯送回地表），可以在一定程度上改善通风。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "But what was really needed was a safe lamp that could not ignite firedamp.The earliest forms of safety lighting sought to produce light without using a naked flame.One early method tried to utilise the fact that skins removed from decaying fish contain the element phosphorus, which emits light in the form of phosphorescence.Unfortunately, this phosphorus is highly toxic, flammable and can self-ignite-hardly desirable properties in a safety light.",
+          "translation": "但真正需要的是一种不会点燃瓦斯的安全灯。\n最早的安全照明形式力求在不使用明火的情况下产生光线。\n一种早期方法试图利用腐烂鱼皮中含有磷元素这一事实，磷会以磷光形式发光。\n不幸的是，这种磷具有剧毒、易燃且能自燃——在安全灯中这绝非理想特性。\n但真正需要的是不会点燃沼气的安全灯。\n最早形式的安全照明试图在不使用明火的情况下发光。\n一种早期方法尝试利用从腐烂鱼类中取出的皮含有磷元素这一事实，磷会以磷光形式发光。\n不幸的是，这种磷具有剧毒、易燃且可自燃——这些特性在安全灯中几乎不可取。\n但实际上真正需要的是一种不会引燃沼气的安全灯。\n最早形式的安全照明试图在不使用明火的情况下产生光线。\n一种早期方法尝试利用从腐烂鱼身上剥下的皮含有磷元素这一事实，磷能以磷光形式发光。\n不幸的是，这种磷具有剧毒、易燃且能自燃的特性——这绝非安全灯所期望的特性。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "An alternative was a device invented in about 1750, consisting of a flint which struck against a piece of iron when a handle was turned, creating a shower of sparks which lit up the surrounding area.These were believed to be too cool to ignite firedamp. This device had major drawbacks - extra manpower had to be used to operate it continuously, and it also required regular maintenance and replacement.But worst of all, it was not in fact safe, and numerous accidents were caused when the sparks ignited firedamp. Nonetheless, it was considered to be the least dangerous form of lighting at the time.",
+          "translation": "另一种方案是约1750年发明的一种装置，由一个打火石组成，当转动把手时，打火石撞击一块铁，产生一串火花照亮周围区域。\n人们认为这些火花温度太低，不会点燃瓦斯。\n该装置有重大缺陷——需要额外人力持续操作，还需要定期维护和更换。\n但最糟糕的是，它实际上并不安全，火花点燃瓦斯导致了无数事故。\n尽管如此，它仍被认为是当时最不危险的照明形式。\n另一种选择是约1750年发明的一种装置，由一个燧石组成，当手柄转动时，燧石击打一块铁片，产生火花雨照亮周围区域。\n人们认为这些火花温度太低，不足以点燃沼气。\n这种装置有重大缺陷——需要额外人力持续操作，并且还需要定期维护和更换。\n但最糟糕的是，它实际上并不安全，火花点燃沼气导致了大量事故。\n尽管如此，它在当时仍被认为是最不危险的照明形式。\n另一种替代方案是约1750年发明的一种装置，它由一个燧石组成，当转动把手时，燧石会撞击一块铁，产生一阵火花，照亮周围区域。\n这种装置有重大缺陷——必须使用额外的人力来持续操作它，并且还需要定期维护和更换。\n但最糟糕的是，它实际上并不安全，火花点燃瓦斯导致了大量事故。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "By about 1810 the problem was becoming acute, and in some cases there was no alternative to working in the dark.Some mines were being forced to stop production, with serious economic consequences for the mine owners and local communities.The general response, however, was to keep going and reluctantly accept the inevitable deaths from ignition of firedamp as a regrettable, but not especially remarkable, consequence of coal mining.",
+          "translation": "到约1810年，问题变得日益严峻，在某些情况下，除了在黑暗中工作别无选择。\n一些煤矿被迫停产，给矿主和当地社区带来了严重的经济后果。\n然而，普遍的应对方式是继续开采，并无奈地将瓦斯点燃导致的必然死亡视为煤矿开采中令人遗憾但并非特别值得注意的后果。\n到约1810年，问题变得严重，在某些情况下，除了在黑暗中工作别无选择。\n然而，普遍的反应是继续生产，并勉强接受因沼气点燃导致的不可避免的死亡，将其视为煤矿开采中令人遗憾但并不特别引人注目的后果。\n到大约1810年，这个问题变得严峻起来，在某些情况下别无选择，只能在黑暗中工作。\n然而，普遍的反应是继续生产，并勉强接受瓦斯点燃导致的不可避免的死亡，将其视为采煤中令人遗憾但并非特别引人注目的结果。\n到大约1810年，这个问题变得严重起来，在某些情况下，除了在黑暗中工作别无选择。\n然而，普遍的应对方式是继续运营，并勉强接受因瓦斯点燃导致的不可避免的死亡，将其视为煤炭开采中令人遗憾但并非特别引人注目的后果。\n一些矿场被迫停产，给矿主和当地社区带来了严重的经济后果。\n然而，普遍的反应是继续开采，勉强接受因瓦斯点燃而不可避免的死亡，将其视为煤矿开采中令人遗憾但并不特别引人注目的后果。\n到大约1810年，这个问题变得日益严峻，在某些情况下，除了在黑暗中工作别无选择。\n一些矿井被迫停产，这给矿主和当地社区带来了严重的经济后果。\n然而，普遍的应对方式是继续开采，并勉强接受因瓦斯点燃导致的不可避免的死亡，将其视为煤炭开采中令人遗憾但并非特别引人注目的后果。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "The miners themselves could do little - they were largely illiterate, and depended on the mine owners for a livelihood.However, the clerical, medical and legal professions were beginning to take notice.After 92 men and boys were killed in1812 by an explosion at Felling Colliery in northern England, several professional people took action and a society was set up to raise funds for the discovery of new methods of lighting and ventilating mines.The first report of the society stated, 'lt is to scientific men only that we must look up for assistance in providing a cheap and effectual remedy.'",
+          "translation": "矿工们自己无能为力——他们大多目不识丁，依靠矿主维持生计。\n然而，神职、医学和法律界开始注意到这一问题。\n1812年，英格兰北部的费林煤矿发生爆炸，造成92名男子和男孩死亡后，几位专业人士采取行动，成立了一个协会，为发现新的矿井照明和通风方法筹集资金。\n该协会的第一份报告指出：“我们只能依靠科学人士来提供廉价有效的补救措施。”\n矿工们自己几乎无能为力——他们大多不识字，且依赖矿主谋生。\n然而，神职、医学和法律界人士开始关注此事。\n1812年，英国北部的费林煤矿发生爆炸，造成92名男子和男孩死亡后，几位专业人士采取行动，成立了一个协会，为发现新的矿井照明和通风方法筹集资金。\n该协会的首份报告指出：“我们必须只向科学人士寻求帮助，以提供廉价而有效的解决方案。”\n矿工们自己能做的很有限——他们大多不识字，并依靠矿主维持生计。\n然而，神职人员、医学界和法律界开始关注这一问题。\n1812年，英格兰北部的费林煤矿发生爆炸，导致92名男子和男孩丧生，此后几位专业人士采取了行动，并成立了一个协会，旨在筹集资金以探索新的矿井照明和通风方法。\n该协会的第一份报告指出：‘我们必须仰赖科学界人士，才能寻求到一种既廉价又有效的解决方案。’"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "As the leading chemist of the day, and an expert on gases, Sir Humphrey Davy was a natural choice from whom to seek help,and he was approached by the society in 1815.The general belief nowadays is that he was the inventor of the first miners' safety lamp, in which the flame was enclosed by a mesh screen containing very small holes.Air could enter the lamp through the holes, but they were too small to allow the flame of the lamp to pass through them and ignite any firedamp present in the mine tunnels. Davy presented a paper describing the lamp in November1815, and it was trialled in January 1816.However, a few weeks prior to Davy's presentation, an engineer called George Stephenson had independently designed and demonstrated a lamp based on the same scientific principles. After much discussion and argument, he was eventually recognised as deserving equal credit for the discovery,but the time needed for this recognition to be given meant that the miners' safety lamp had already been called the 'Davy lamp' , and it is still called that today.",
+          "translation": "作为当时顶尖的化学家和气体专家，汉弗莱·戴维爵士自然是寻求帮助的对象，协会于1815年与他接洽。\n如今普遍认为他是第一盏矿工安全灯的发明者，该灯的火焰被一种带有极小孔的金属网罩包裹。\n空气可通过这些小孔进入灯内，但孔太小，无法让灯的火焰穿过并点燃矿井巷道中存在的任何瓦斯。\n戴维于1815年11月提交了一篇描述该灯的论文，并于1816年1月进行了试验。\n然而，在戴维提交论文前几周，一位名叫乔治·斯蒂芬森的工程师已独立设计并演示了一盏基于相同科学原理的灯。\n经过大量讨论和争论，他最终被认可与该发现享有同等功劳，但由于获得这一认可所需的时间，矿工安全灯已被命名为“戴维灯”，并沿用至今。\n作为当时顶尖的化学家和气体专家，汉弗莱·戴维爵士是寻求帮助的自然人选，协会于1815年向他求助。\n如今普遍认为他是第一盏矿工安全灯的发明者，该灯的火焰被一个带有极小孔的金属网罩封闭。\n空气可通过小孔进入灯内，但这些孔太小，无法让灯的火焰通过并点燃矿井巷道中存在的任何沼气。\n然而，在戴维提交论文的几周前，一位名叫乔治·史蒂芬森的工程师独立设计并展示了一款基于相同科学原理的灯。\n经过大量讨论和争论，他最终被承认应获得同等的发现荣誉，但由于获得这一认可所需的时间，矿工安全灯已被称为‘戴维灯’，至今仍沿用此名。\n作为当时顶尖的化学家和气体专家，汉弗莱·戴维爵士自然成为寻求帮助的不二人选，该协会于1815年与他联系。\n如今普遍认为他是第一盏矿工安全灯的发明者，这种灯的火焰被带有极小孔洞的网罩封闭。\n空气可以通过这些孔洞进入灯内，但孔洞太小，无法让灯的火焰穿透并点燃矿井巷道中存在的任何瓦斯。\n然而，在戴维提交论文的几周前，一位名叫乔治·史蒂芬森的工程师已独立设计并演示了一款基于相同科学原理的灯。\n经过大量讨论和争论，他最终被认可为这项发现应享有同等荣誉，但由于获得这一认可所需的时间，矿工安全灯已被命名为“戴维灯”，并且至今仍如此称呼。\n作为当时最杰出的化学家和气体专家，汉弗里·戴维爵士自然是寻求帮助的首选对象，1815年该协会与他取得了联系。\n现今普遍认为他是第一盏矿工安全灯的发明者，该灯的火焰被带有极小孔洞的金属网罩所封闭。\n空气可以通过这些小孔进入灯内，但孔洞太小，无法让灯的火焰穿过并点燃矿井巷道中存在的任何瓦斯。\n然而，在戴维提交论文的几周前，一位名叫乔治·斯蒂芬森的工程师已独立设计并展示了一盏基于相同科学原理的灯。\n经过大量讨论和争论，他最终被认可应获得与戴维同等的发现荣誉，但由于获得这一认可所需的时间，矿工安全灯已被命名为“戴维灯”，并且至今仍沿用此名。\n作为当时顶尖的化学家和气体专家，汉弗里·戴维爵士自然成为寻求帮助的首选对象，该协会于1815年与他取得了联系。\n如今普遍认为他是第一盏矿工安全灯的发明者，这种灯将火焰封闭在一个带有极小孔的网罩内。\n然而，在戴维提交论文前几周，一位名叫乔治·史蒂芬森的工程师已经独立设计并展示了一盏基于相同科学原理的灯。\n经过大量讨论和争论，他最终被认可应当获得与该项发现同等的荣誉，但获得这一认可所需的时间意味着矿工安全灯已经被命名为“戴维灯”，并且至今仍沿用这个名称。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "But in fact, the real inventor of the safety lamp was a man called Dr William Reid Clanny, who in 1813 had been awarded a silver medal by the Royal Society of Arts,Manufacturers and Commerce for his own version of a safety lamp. Clanny's first lamp did not fulfil the needs of the ordinary working miner as it was rather heavy and cumbersome.But rather than seeking to glory in his achievement, he recognised its deficiencies and continued to work to improve it, as well as sharing his knowledge with others.George Stephenson acknowledged a debt to Clanny's research, and Humphrey Davy visited him in 1815 shortly before completing the design for his own safety lamp but to this day Dr Clanny remains a forgotten hero.",
+          "translation": "但事实上，安全灯的真正发明者是一位名叫威廉·里德·克兰尼博士的人，他于1813年因其自己版本的安全灯获得了皇家艺术、制造和商业学会颁发的银奖。\n克兰尼的第一盏灯相当沉重笨拙，未能满足普通矿工的需求。\n但他并未追求成就带来的荣耀，而是认识到其缺陷，继续致力于改进，并与他人分享自己的知识。\n乔治·斯蒂芬森承认受益于克兰尼的研究，汉弗莱·戴维也在1815年完成自己安全灯设计前不久拜访了他，但至今克兰尼博士仍是一位被遗忘的英雄。\n但事实上，安全灯的真正发明者是一位名叫威廉·里德·克兰尼博士的人，他于1813年因其自己版本的安全灯获得了皇家艺术、制造业和商业学会颁发的银质奖章。\n克兰尼的第一盏灯因相当沉重和笨拙而未满足普通矿工的需求。\n但他并未陶醉于自己的成就，而是认识到其缺陷，继续努力改进，并与他人分享知识。\n乔治·史蒂芬森承认得益于克兰尼的研究，汉弗莱·戴维在1815年完成自己安全灯设计前不久拜访了他，但至今克兰尼博士仍是一位被遗忘的英雄。\n但事实上，安全灯的真正发明者是一位名叫威廉·里德·克兰尼博士的人，他在1813年因其自己设计的安全灯版本获得了皇家艺术、制造商和商业学会颁发的银质奖章。\n克兰尼的第一盏灯未能满足普通矿工的需求，因为它相当沉重且笨拙。\n但他并未寻求沉浸在成就的荣耀中，而是认识到其缺陷，并继续努力改进它，同时将自己的知识与他人分享。\n但事实上，安全灯的真正发明者是一位名叫威廉·里德·克兰尼博士的人，他于1813年因其自己设计的安全灯版本获得了皇家艺术、制造商和商业学会颁发的银质奖章。\n但他并未寻求荣誉，而是认识到其缺陷，继续努力改进，并与他人分享自己的知识。\n乔治·斯蒂芬森承认受惠于克兰尼的研究，汉弗莱·戴维也在1815年完成自己安全灯设计前不久拜访了他，但时至今日，克兰尼博士仍然是一位被遗忘的英雄。\n但实际上，安全灯的真正发明者是一位名叫威廉·里德·克兰尼博士的人，他于1813年因其自制的安全灯版本获得了皇家艺术、制造与商业学会颁发的银质奖章。\n克兰尼的第一盏灯相当沉重且笨拙，未能满足普通矿工的需求。\n但他并未追求以成就自居，而是认识到其缺陷，并继续努力改进，同时与他人分享自己的知识。\n乔治·斯蒂芬森承认受益于克兰尼的研究，汉弗莱·戴维也在1815年完成自己安全灯设计前不久拜访过他，但时至今日，克兰尼博士仍是一位被遗忘的英雄。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13745",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 32\nThe text has five sections.\nChoose the correct heading for each section and move it into the gap.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. A controversy over two versions of an invention"
+            },
+            {
+              "value": "B",
+              "label": "B. The need to mine deeper for good quality coal"
+            },
+            {
+              "value": "C",
+              "label": "C. Growing awareness of the need to improve conditions for miners"
+            },
+            {
+              "value": "D",
+              "label": "D. A new danger caused by developments in mining"
+            },
+            {
+              "value": "E",
+              "label": "E. The impact of poor air quality in mines on miners' health"
+            },
+            {
+              "value": "F",
+              "label": "F. Early attempts to provide lighting without flames"
+            },
+            {
+              "value": "G",
+              "label": "G. A demand by miners for new technology"
+            },
+            {
+              "value": "H",
+              "label": "H. A person whose work never received full recognition"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1137451",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A controversy over two versions of an invention"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The need to mine deeper for good quality coal"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Growing awareness of the need to improve conditions for miners"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A new danger caused by developments in mining"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The impact of poor air quality in mines on miners' health"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Early attempts to provide lighting without flames"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A demand by miners for new technology"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A person whose work never received full recognition"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "第28题对应Section A，该段描述煤矿加深后遇到firedamp这一新危险，并详述其爆炸性及后果，如“as new technology was used to mine at increasingly deep levels, the problem got worse”。这与Heading D“A new danger caused by developments in mining”完全吻合。",
+              "reason": "Section A 首句提出 deeper mines 导致 firedamp 问题，后文详述爆炸危险，符合 heading D。",
+              "location_analysis": "Section A描述煤矿加深后遇到 firedamp 爆炸的新危险，对应 heading D。",
+              "paraphrasing": "a new danger -> firedamp explosion; developments in mining -> deeper mines",
+              "keywords": "13th century, deeper, firedamp, explosion",
+              "evidence": [
+                "The first known major firedamp explosion, which killed 99 people, took place in Belgium in 1514 and as new technology was used to mine at increasingly deep levels, the problem got worse."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1137452",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A controversy over two versions of an invention"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The need to mine deeper for good quality coal"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Growing awareness of the need to improve conditions for miners"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A new danger caused by developments in mining"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The impact of poor air quality in mines on miners' health"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Early attempts to provide lighting without flames"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A demand by miners for new technology"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A person whose work never received full recognition"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "第29题对应Section B，该段介绍了早期无明火照明的尝试，包括利用鱼皮磷光和打火石产生火花的装置，均旨在“produce light without using a naked flame”。这与Heading F“Early attempts to provide lighting without flames”直接对应。",
+              "reason": "Section B discusses early attempts to create flame-free lighting.",
+              "location_analysis": "Section B describes early unsafe lighting attem...",
+              "paraphrasing": "lighting without flames -> safety lighting without naked flame",
+              "keywords": "safe lamp, phosphorus, flint",
+              "evidence": [
+                "The earliest forms of safety lighting sought to produce light without using a naked flame.",
+                "An alternative was a device invented in about 1750, consisting of a flint which struck against a piece of iron when a handle was turned, creating a shower of sparks which lit up the surrounding area."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1137453",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A controversy over two versions of an invention"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The need to mine deeper for good quality coal"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Growing awareness of the need to improve conditions for miners"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A new danger caused by developments in mining"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The impact of poor air quality in mines on miners' health"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Early attempts to provide lighting without flames"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A demand by miners for new technology"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A person whose work never received full recognition"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "第30题对应Section C，该段提到神职、医疗和法律界人士开始关注矿难，并成立协会筹款研发新照明与通风方法，反映出社会对矿工处境日益增长的关注。这与Heading C“Growing awareness of the need to improve conditions for miners”一致。",
+              "reason": "C 段描述专业人员行动与协会成立，体现意识提升，匹配 heading C。",
+              "location_analysis": "Section C 提到专业人员开始关注并成立协会筹款改善照明通风，反映意识提升，对应 hea...",
+              "paraphrasing": "growing awareness -> professional people took action; improve conditions -> society set up to raise funds for new methods",
+              "keywords": "clerical, medical, legal professions, society, raise funds",
+              "evidence": [
+                "However, the clerical, medical and legal professions were beginning to take notice."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1137454",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A controversy over two versions of an invention"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The need to mine deeper for good quality coal"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Growing awareness of the need to improve conditions for miners"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A new danger caused by developments in mining"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The impact of poor air quality in mines on miners' health"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Early attempts to provide lighting without flames"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A demand by miners for new technology"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A person whose work never received full recognition"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "第31题对应Section D，该段叙述Davy和Stephenson几乎同时独立发明了基于相同原理的安全灯，引发争议，最终Stephenson获得同等认可但灯仍被称为“Davy lamp”。这体现了Heading A“A controversy over two versions of an invention”的核心内容。",
+              "reason": "段落核心Davy与Stephenson对安全灯发明权的争议",
+              "location_analysis": "Davy和Stephenson分别提出安全灯，引发谁为先的争议，对应A",
+              "paraphrasing": "two versions -> 'Humphrey Davy... introduced a lamp' and 'George Stephenson had independently designed and demonstrated a lamp'; controversy -> 'after much discussion and argument, he was eventually recognised as deserving equal credit'",
+              "keywords": "controversy, two versions, invention",
+              "evidence": [
+                "However, a few weeks prior to Davy's presentation, an engineer called George Stephenson had independently designed and demonstrated a lamp based on the same scientific principles."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1137455",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A controversy over two versions of an invention"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The need to mine deeper for good quality coal"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Growing awareness of the need to improve conditions for miners"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A new danger caused by developments in mining"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The impact of poor air quality in mines on miners' health"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Early attempts to provide lighting without flames"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A demand by miners for new technology"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A person whose work never received full recognition"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "第32题对应Section E，该段强调Dr William Reid Clanny早在1813年就设计出安全灯并持续改进，还分享知识给他人，但“to this day Dr Clanny remains a forgotten hero”，说明其贡献未获充分认可，完全契合Heading H“A person whose work never received full recognition”。",
+              "reason": "Section E highlights Clanny's unrecognized contribution.",
+              "location_analysis": "Section E states Clanny is a forgotten hero, wh...",
+              "paraphrasing": "person whose work never received full recognition -> Dr William Reid Clanny remains a forgotten hero",
+              "keywords": "Clanny, forgotten hero, Dr William Reid Clanny",
+              "evidence": [
+                "But to this day Dr Clanny remains a forgotten hero."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "13747",
+          "type": 8,
+          "title": "The problem of providing artificial lighting in coal mines",
+          "instructions": "Questions 33 - 36\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117137",
+              "number": 33,
+              "prompt": "Coal mines in Europe only really developed from the 13th century. As they became deeper, the methods used for lighting them created a serious risk of _____ due to the presence of firedamp. One solution was to improve ventilation by separating the _____ into two parts.",
+              "options": [],
+              "answer": "explosion",
+              "accepted_answers": [
+                "explosion"
+              ],
+              "analysis": "题干中的“serious risk of ___ due to the presence of firedamp”对应原文中关于firedamp（主要成分为甲烷的气体）遇明火会爆炸的描述：“that exploded on contact with a naked flame”。因此，此处应填入“explosion”，表示因firedamp存在而有爆炸的严重风险。",
+              "reason": "firedamp引起爆炸，因此空格填explosion。",
+              "location_analysis": "原文说firedamp会爆炸，造成serious risk of explosion。",
+              "paraphrasing": "serious risk of ___ -> explosion",
+              "keywords": "firedamp, explosion, serious risk",
+              "evidence": [
+                "This was a natural gas, principally consisting of methane, that exploded on contact with a naked flame."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117138",
+              "number": 34,
+              "prompt": "Coal mines in Europe only really developed from the 13th century. As they became deeper, the methods used for lighting them created a serious risk of _____ due to the presence of firedamp. One solution was to improve ventilation by separating the _____ into two parts.",
+              "options": [],
+              "answer": "shaft",
+              "accepted_answers": [
+                "shaft"
+              ],
+              "analysis": "题干中提到“separating the ___ into two parts”以改善通风，原文B段明确指出：“Many mines had only one shaft... Ventilation could be improved... by dividing this into a downcast and an upcast”。这里的“this”指的就是“shaft”（矿井竖井），因此答案为“shaft”。",
+              "reason": "题干 'separating the ____ into two parts' 对应原文 dividing this (shaft)。",
+              "location_analysis": "原文说将 shaft 分为 downcast 和 upcast 改善通风，因此填 shaft。",
+              "paraphrasing": "separating the shaft -> dividing this into a downcast and an upcast",
+              "keywords": "ventilation, separating, two parts",
+              "evidence": [
+                "Ventilation could be improved to some extent by dividing this into a downcast (bringing in fresh air) and an upcast (returning foul air and firedamp to the surface)."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117139",
+              "number": 35,
+              "prompt": "However, better lighting was also needed. One suggestion was to use a chemical found in the skins of fish, but this was found to be unsafe. Another possibility was a device which created _____, as it was believed these would not ignite the gas. However, this required additional _____ as well as maintenance and replacement, and it was also unsafe.",
+              "options": [],
+              "answer": "sparks",
+              "accepted_answers": [
+                "sparks"
+              ],
+              "analysis": "题干要求填写设备所产生之物，原文B段描述了一种1750年左右发明的装置：“creating a shower of sparks which lit up the surrounding area”，并说明人们认为这些火花温度太低，不会引燃firedamp。因此，空格处应填“sparks”。",
+              "reason": "设备产生sparks，但被认为太冷不会点燃firedamp。",
+              "location_analysis": "原文描述flint设备产生sparks照明。",
+              "paraphrasing": "created ___ -> creating a shower of sparks",
+              "keywords": "device, flint, sparks",
+              "evidence": [
+                "An alternative was a device invented in about 1750, consisting of a flint which struck against a piece of iron when a handle was turned, creating a shower of sparks which lit up the surrounding area."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117140",
+              "number": 36,
+              "prompt": "However, better lighting was also needed. One suggestion was to use a chemical found in the skins of fish, but this was found to be unsafe. Another possibility was a device which created _____, as it was believed these would not ignite the gas. However, this required additional _____ as well as maintenance and replacement, and it was also unsafe.",
+              "options": [],
+              "answer": "manpower",
+              "accepted_answers": [
+                "manpower"
+              ],
+              "analysis": "题干中的“required additional ___”对应原文B段对火花装置缺点的描述：“extra manpower had to be used to operate it continuously”。此处“extra manpower”即指额外的人力，因此答案为“manpower”，符合题干“additional”的同义替换。",
+              "reason": "设备需额外manpower持续操作。",
+              "location_analysis": "原文说该设备需要额外人力持续操作。",
+              "paraphrasing": "additional ___ -> extra manpower",
+              "keywords": "required, extra, manpower",
+              "evidence": [
+                "This device had major drawbacks - extra manpower had to be used to operate it continuously, and it also required regular maintenance and replacement."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Coal mines in Europe only really developed from the 13th century. As they became deeper, the methods used for lighting them created a serious risk of $117137$ due to the presence of firedamp. One solution was to improve ventilation by separating the $117138$ into two parts.\nHowever, better lighting was also needed. One suggestion was to use a chemical found in the skins of fish, but this was found to be unsafe. Another possibility was a device which created $117139$, as it was believed these would not ignite the gas. However, this required additional $117140$ as well as maintenance and replacement, and it was also unsafe.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Coal mines in Europe only really developed from the 13th century. As they became deeper, the methods used for lighting them created a serious risk of $117137$ due to the presence of firedamp. One solution was to improve ventilation by separating the $117138$ into two parts.\nHowever, better lighting was also needed. One suggestion was to use a chemical found in the skins of fish, but this was found to be unsafe. Another possibility was a device which created $117139$, as it was believed these would not ignite the gas. However, this required additional $117140$ as well as maintenance and replacement, and it was also unsafe."
+        },
+        {
+          "id": "13749",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 37 - 40\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117141",
+              "number": 37,
+              "prompt": "What does the writer say about mine owners in 1810?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Most of them disregarded safety issues."
+                },
+                {
+                  "value": "B",
+                  "label": "They were criticised for conditions in the mines."
+                },
+                {
+                  "value": "C",
+                  "label": "Most of them used unfair pressure to keep mines open."
+                },
+                {
+                  "value": "D",
+                  "label": "They were unaware of how dangerous the mines were."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问1810年矿主的态度，原文C段提到当时普遍的做法是“keep going and reluctantly accept the inevitable deaths... as a regrettable, but not especially remarkable, consequence”，说明矿主明知危险却仍继续开采，接受伤亡为常态，体现出对安全问题的漠视，故选A。",
+              "reason": "矿主继续开采，接受死亡，说明忽视安全。",
+              "location_analysis": "原文说矿主继续生产，接受死亡为必然，体现忽视安全。A正确。",
+              "paraphrasing": "disregarded safety -> kept going and reluctantly accept the inevitable deaths",
+              "keywords": "mine owners, 1810, economic consequences",
+              "evidence": [
+                "The general response, however, was to keep going and reluctantly accept the inevitable deaths from ignition of firedamp as a regrettable, but not especially remarkable, consequence of coal mining."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文并未提及矿主因矿井条件受到批评，属于无中生有。",
+                "C": "选项描述的内容在原文中没有相关信息，属于无中生有。",
+                "D": "与原文矛盾，矿主是忽视安全问题而非不知情，知道危险但置之不理。"
+              }
+            },
+            {
+              "id": "117142",
+              "number": 38,
+              "prompt": "According to the writer, what was the significance of the explosion at Felling Colliery in 1812?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "lt led to increased legal protection for miners."
+                },
+                {
+                  "value": "B",
+                  "label": "lt led to a change in public attitudes to mining safety."
+                },
+                {
+                  "value": "C",
+                  "label": "lt demonstrated the lack of concern of certain groups towards the miners."
+                },
+                {
+                  "value": "D",
+                  "label": "lt started a movement to give miners proper training in safety procedures."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问1812年Felling矿难的意义，原文C段指出该事故促使“several professional people took action and a society was set up to raise funds for... new methods”，表明专业人士开始介入，公众对矿工安全的关注提升，因此B选项“改变了公众对采矿安全的态度”正确。",
+              "reason": "爆炸促使专业人士行动，公众态度转变。",
+              "location_analysis": "爆炸后专业人士成立协会寻求新方法，表明公众态度变化。B正确。",
+              "paraphrasing": "changed public attitudes -> several professional people took action and a society was set up",
+              "keywords": "Felling Colliery, 1812, professional people, society",
+              "evidence": [
+                "After 92 men and boys were killed in1812 by an explosion at Felling Colliery in northern England, several professional people took action and a society was set up to raise funds for the discovery of new methods of lighting and ventilating mines."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及该爆炸直接导致法律保护加强，属于无中生有。",
+                "C": "原文未提及爆炸显示某些群体不关心矿工，偏离主旨。",
+                "D": "原文未提及该爆炸启动了安全培训运动，信息不匹配。"
+              }
+            },
+            {
+              "id": "117143",
+              "number": 39,
+              "prompt": "The lamp presented by Davy was safer than previous methods of lighting because its flame",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "could not remain alight for a long time."
+                },
+                {
+                  "value": "B",
+                  "label": "did not get large enough to ignite the firedamp."
+                },
+                {
+                  "value": "C",
+                  "label": "did not have any contact with the air."
+                },
+                {
+                  "value": "D",
+                  "label": "could not pass beyond the mesh screen."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问Davy灯更安全的原因，原文D段解释其原理：“the flame was enclosed by a mesh screen... too small to allow the flame... to pass through them and ignite any firedamp”。这说明火焰无法穿过金属网，因此D选项“could not pass beyond the mesh screen”准确对应原文。",
+              "reason": "网眼阻止火焰通过点燃firedamp。",
+              "location_analysis": "原文说网眼太小，火焰无法通过。D选项正确。",
+              "paraphrasing": "could not pass beyond the mesh screen -> flame enclosed by a mesh screen... too small to allow the flame to pass through",
+              "keywords": "Davy lamp, mesh screen, flame, pass through",
+              "evidence": [
+                "Air could enter the lamp through the holes, but they were too small to allow the flame of the lamp to pass through them and ignite any firedamp present in the mine tunnels."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及该灯具有长时间保持点燃的特性，且与题干要求的安全原因无关。",
+                "B": "原文明确指出安全原理是金属网阻止火焰外溢，而非火焰大小；该选项与原文信息矛盾。",
+                "C": "火焰需要空气才能燃烧，该选项违背常识且原文无此描述，属于无中生有。"
+              }
+            },
+            {
+              "id": "117144",
+              "number": 40,
+              "prompt": "What does the writer say about Davy and Stephenson?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Davy refused to accept Stephenson's work as it had not been fully trialled."
+                },
+                {
+                  "value": "B",
+                  "label": "Davy insisted on the safety lamp being named after him rather than Stephenson."
+                },
+                {
+                  "value": "C",
+                  "label": "Stephenson claimed Davy's work was based on false principles."
+                },
+                {
+                  "value": "D",
+                  "label": "Stephenson produced a working example of a safety lamp before Davy."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问关于Davy和Stephenson的信息，原文D段明确写道：“a few weeks prior to Davy's presentation, George Stephenson had independently designed and demonstrated a lamp”，说明Stephenson在Davy之前就已展示了自己的安全灯，因此D选项正确。",
+              "reason": "Stephenson在Davy之前演示了安全灯。",
+              "location_analysis": "原文说Stephenson在先于Davy独立设计和演示了安全灯。D正确。",
+              "paraphrasing": "produced a working example before Davy -> had independently designed and demonstrated a lamp based on the same scientific principles",
+              "keywords": "Davy, Stephenson, independently designed and demonstrated",
+              "evidence": [
+                "However, a few weeks prior to Davy's presentation, an engineer called George Stephenson had independently designed and demonstrated a lamp based on the same scientific principles."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "与原文矛盾，Davy拒绝接受Stephenson的工作并非因为未充分试验，而是其他原因。",
+                "B": "无中生有，原文未提及Davy坚持以自己的名字命名安全灯。",
+                "C": "张冠李戴，Stephenson并未声称Davy的工作基于错误原理，而是相反。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "A significant development in mining safety",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "Coal has been used as a source of fuel for over 5,000 years, but for most of that time it was probably gathered from places where it was exposed on the surface of the ground.",
+          "translation": "煤炭作为燃料来源已被使用了5000多年，但在大部分时间里，它可能都是从地表裸露的地方采集的。"
+        },
+        {
+          "index": 3,
+          "sentence": "It is possible that the Romans undertook some mining, but coal mines across Europe largely date from the 13th century.",
+          "translation": "罗马人可能进行过一些开采，但欧洲各地的煤矿大多始于13世纪。"
+        },
+        {
+          "index": 4,
+          "sentence": "Thereafter coal production increased steadily and it gradually replaced charcoal and wood as a source of heat and energy.",
+          "translation": "此后，煤炭产量稳步增长，并逐渐取代木炭和木材，成为热能和能源的来源。"
+        },
+        {
+          "index": 5,
+          "sentence": "Initially, coal mines were fairly shallow, but they quickly reached the point where artificial lighting was necessary.",
+          "translation": "最初，煤矿相当浅，但很快便达到了需要人工照明的程度。"
+        },
+        {
+          "index": 6,
+          "sentence": "At first the lights used would have been no different from those used domestically candles and simple oil lamps.",
+          "translation": "起初，所使用的灯光与家用的蜡烛和简易油灯并无不同。"
+        },
+        {
+          "index": 7,
+          "sentence": "But as coal mines became deeper,miners encountered a new and terrible problem - firedamp.",
+          "translation": "但随着煤矿深度的增加，矿工们遇到了一个可怕的新问题——沼氣（瓦斯）。"
+        },
+        {
+          "index": 8,
+          "sentence": "This was a natural gas, principally consisting of methane, that exploded on contact with a naked flame.",
+          "translation": "这是一种天然气，主要由甲烷组成，接触明火就会爆炸。"
+        },
+        {
+          "index": 9,
+          "sentence": "The first known major firedamp explosion, which killed 99 people, took place in Belgium in 1514 and as new technology was used to mine at increasingly deep levels, the problem got worse.",
+          "translation": "已知的第一次重大瓦斯爆炸发生在1514年的比利时，造成99人死亡，而随着新技术被用于越来越深的开采，问题变得更加严重。"
+        },
+        {
+          "index": 10,
+          "sentence": "The simplest solution was to improve the ventilation of the mine.",
+          "translation": "最简单的解决方法是改善矿井的通风条件。"
+        },
+        {
+          "index": 11,
+          "sentence": "Many mines had only one shaft leading from the surface down to the working area below.",
+          "translation": "许多矿井只有一条从地面通向下方工作区的竖井。"
+        },
+        {
+          "index": 12,
+          "sentence": "Ventilation could be improved to some extent by dividing this into a downcast (bringing in fresh air) and an upcast (returning foul air and firedamp to the surface).",
+          "translation": "通过将这条竖井分为下行通风（引入新鲜空气）和上行通风（将污浊空气和瓦斯送回地面），可以在一定程度上改善通风。"
+        },
+        {
+          "index": 13,
+          "sentence": "But what was really needed was a safe lamp that could not ignite firedamp.",
+          "translation": "但真正需要的是一种不会点燃瓦斯的安全灯。"
+        },
+        {
+          "index": 14,
+          "sentence": "The earliest forms of safety lighting sought to produce light without using a naked flame.",
+          "translation": "最早的安全照明形式力求在不使用明火的情况下产生光线。"
+        },
+        {
+          "index": 15,
+          "sentence": "One early method tried to utilise the fact that skins removed from decaying fish contain the element phosphorus, which emits light in the form of phosphorescence.",
+          "translation": "一种早期方法试图利用腐烂鱼皮中含有磷元素这一事实，磷会以磷光形式发光。"
+        },
+        {
+          "index": 16,
+          "sentence": "Unfortunately, this phosphorus is highly toxic, flammable and can self-ignite-hardly desirable properties in a safety light.",
+          "translation": "不幸的是，这种磷具有剧毒、易燃且能自燃——在安全灯中这绝非理想特性。"
+        },
+        {
+          "index": 17,
+          "sentence": "An alternative was a device invented in about 1750, consisting of a flint which struck against a piece of iron when a handle was turned, creating a shower of sparks which lit up the surrounding area.",
+          "translation": "另一种方案是约1750年发明的一种装置，由一个打火石组成，当转动把手时，打火石撞击一块铁，产生一串火花照亮周围区域。"
+        },
+        {
+          "index": 18,
+          "sentence": "These were believed to be too cool to ignite firedamp.",
+          "translation": "人们认为这些火花温度太低，不会点燃瓦斯。"
+        },
+        {
+          "index": 19,
+          "sentence": "This device had major drawbacks - extra manpower had to be used to operate it continuously, and it also required regular maintenance and replacement.",
+          "translation": "该装置有重大缺陷——需要额外人力持续操作，还需要定期维护和更换。"
+        },
+        {
+          "index": 20,
+          "sentence": "But worst of all, it was not in fact safe, and numerous accidents were caused when the sparks ignited firedamp.",
+          "translation": "但最糟糕的是，它实际上并不安全，火花点燃瓦斯导致了无数事故。"
+        },
+        {
+          "index": 21,
+          "sentence": "Nonetheless, it was considered to be the least dangerous form of lighting at the time.",
+          "translation": "尽管如此，它仍被认为是当时最不危险的照明形式。"
+        },
+        {
+          "index": 22,
+          "sentence": "By about 1810 the problem was becoming acute, and in some cases there was no alternative to working in the dark.",
+          "translation": "到约1810年，问题变得日益严峻，在某些情况下，除了在黑暗中工作别无选择。"
+        },
+        {
+          "index": 23,
+          "sentence": "Some mines were being forced to stop production, with serious economic consequences for the mine owners and local communities.",
+          "translation": "一些煤矿被迫停产，给矿主和当地社区带来了严重的经济后果。"
+        },
+        {
+          "index": 24,
+          "sentence": "The general response, however, was to keep going and reluctantly accept the inevitable deaths from ignition of firedamp as a regrettable, but not especially remarkable, consequence of coal mining.",
+          "translation": "然而，普遍的应对方式是继续开采，并无奈地将瓦斯点燃导致的必然死亡视为煤矿开采中令人遗憾但并非特别值得注意的后果。"
+        },
+        {
+          "index": 25,
+          "sentence": "The miners themselves could do little - they were largely illiterate, and depended on the mine owners for a livelihood.",
+          "translation": "矿工们自己无能为力——他们大多目不识丁，依靠矿主维持生计。"
+        },
+        {
+          "index": 26,
+          "sentence": "However, the clerical, medical and legal professions were beginning to take notice.",
+          "translation": "然而，神职、医学和法律界开始注意到这一问题。"
+        },
+        {
+          "index": 27,
+          "sentence": "After 92 men and boys were killed in1812 by an explosion at Felling Colliery in northern England, several professional people took action and a society was set up to raise funds for the discovery of new methods of lighting and ventilating mines.",
+          "translation": "1812年，英格兰北部的费林煤矿发生爆炸，造成92名男子和男孩死亡后，几位专业人士采取行动，成立了一个协会，为发现新的矿井照明和通风方法筹集资金。"
+        },
+        {
+          "index": 28,
+          "sentence": "The first report of the society stated, 'lt is to scientific men only that we must look up for assistance in providing a cheap and effectual remedy.'",
+          "translation": "该协会的第一份报告指出：“我们只能依靠科学人士来提供廉价有效的补救措施。”"
+        },
+        {
+          "index": 29,
+          "sentence": "As the leading chemist of the day, and an expert on gases, Sir Humphrey Davy was a natural choice from whom to seek help,and he was approached by the society in 1815.",
+          "translation": "作为当时顶尖的化学家和气体专家，汉弗莱·戴维爵士自然是寻求帮助的对象，协会于1815年与他接洽。"
+        },
+        {
+          "index": 30,
+          "sentence": "The general belief nowadays is that he was the inventor of the first miners' safety lamp, in which the flame was enclosed by a mesh screen containing very small holes.",
+          "translation": "如今普遍认为他是第一盏矿工安全灯的发明者，该灯的火焰被一种带有极小孔的金属网罩包裹。"
+        },
+        {
+          "index": 31,
+          "sentence": "Air could enter the lamp through the holes, but they were too small to allow the flame of the lamp to pass through them and ignite any firedamp present in the mine tunnels.",
+          "translation": "空气可通过这些小孔进入灯内，但孔太小，无法让灯的火焰穿过并点燃矿井巷道中存在的任何瓦斯。"
+        },
+        {
+          "index": 32,
+          "sentence": "Davy presented a paper describing the lamp in November1815, and it was trialled in January 1816.",
+          "translation": "戴维于1815年11月提交了一篇描述该灯的论文，并于1816年1月进行了试验。"
+        },
+        {
+          "index": 33,
+          "sentence": "However, a few weeks prior to Davy's presentation, an engineer called George Stephenson had independently designed and demonstrated a lamp based on the same scientific principles.",
+          "translation": "然而，在戴维提交论文前几周，一位名叫乔治·斯蒂芬森的工程师已独立设计并演示了一盏基于相同科学原理的灯。"
+        },
+        {
+          "index": 34,
+          "sentence": "After much discussion and argument, he was eventually recognised as deserving equal credit for the discovery,but the time needed for this recognition to be given meant that the miners' safety lamp had already been called the 'Davy lamp' , and it is still called that today.",
+          "translation": "经过大量讨论和争论，他最终被认可与该发现享有同等功劳，但由于获得这一认可所需的时间，矿工安全灯已被命名为“戴维灯”，并沿用至今。"
+        },
+        {
+          "index": 35,
+          "sentence": "But in fact, the real inventor of the safety lamp was a man called Dr William Reid Clanny, who in 1813 had been awarded a silver medal by the Royal Society of Arts,Manufacturers and Commerce for his own version of a safety lamp.",
+          "translation": "但事实上，安全灯的真正发明者是一位名叫威廉·里德·克兰尼博士的人，他于1813年因其自己版本的安全灯获得了皇家艺术、制造和商业学会颁发的银奖。"
+        },
+        {
+          "index": 36,
+          "sentence": "Clanny's first lamp did not fulfil the needs of the ordinary working miner as it was rather heavy and cumbersome.",
+          "translation": "克兰尼的第一盏灯相当沉重笨拙，未能满足普通矿工的需求。"
+        },
+        {
+          "index": 37,
+          "sentence": "But rather than seeking to glory in his achievement, he recognised its deficiencies and continued to work to improve it, as well as sharing his knowledge with others.",
+          "translation": "但他并未追求成就带来的荣耀，而是认识到其缺陷，继续致力于改进，并与他人分享自己的知识。"
+        },
+        {
+          "index": 38,
+          "sentence": "George Stephenson acknowledged a debt to Clanny's research, and Humphrey Davy visited him in 1815 shortly before completing the design for his own safety lamp but to this day Dr Clanny remains a forgotten hero.",
+          "translation": "乔治·斯蒂芬森承认受益于克兰尼的研究，汉弗莱·戴维也在1815年完成自己安全灯设计前不久拜访了他，但至今克兰尼博士仍是一位被遗忘的英雄。"
+        },
+        {
+          "index": 39,
+          "sentence": "Coal has been used as a source of fuel for over 5,000 years, but for most of that time it was probably gathered from places where it was exposed on the surface of the ground.",
+          "translation": "煤炭作为燃料来源已被使用了5000多年，但在大部分时间里，它很可能是在地表裸露的地方被采集的。"
+        },
+        {
+          "index": 40,
+          "sentence": "It is possible that the Romans undertook some mining, but coal mines across Europe largely date from the 13th century.",
+          "translation": "罗马人可能进行过一些开采，但欧洲各地的煤矿大多起源于13世纪。"
+        },
+        {
+          "index": 41,
+          "sentence": "Thereafter coal production increased steadily and it gradually replaced charcoal and wood as a source of heat and energy.",
+          "translation": "此后，煤炭产量稳步增长，并逐渐取代木炭和木材成为热能和能源的来源。"
+        },
+        {
+          "index": 42,
+          "sentence": "Initially, coal mines were fairly shallow, but they quickly reached the point where artificial lighting was necessary.",
+          "translation": "起初，煤矿相当浅，但它们很快就达到了需要人工照明的程度。"
+        },
+        {
+          "index": 43,
+          "sentence": "At first the lights used would have been no different from those used domestically candles and simple oil lamps.",
+          "translation": "最初使用的灯具与家用的蜡烛和简单油灯并无区别。"
+        },
+        {
+          "index": 44,
+          "sentence": "But as coal mines became deeper,miners encountered a new and terrible problem - firedamp.",
+          "translation": "但随着煤矿变得更深，矿工遇到了一个可怕的新问题——沼气。"
+        },
+        {
+          "index": 45,
+          "sentence": "This was a natural gas, principally consisting of methane, that exploded on contact with a naked flame.",
+          "translation": "这是一种主要由甲烷组成的天然气，接触明火时会爆炸。"
+        },
+        {
+          "index": 46,
+          "sentence": "The first known major firedamp explosion, which killed 99 people, took place in Belgium in 1514 and as new technology was used to mine at increasingly deep levels, the problem got worse.",
+          "translation": "已知首次重大沼气爆炸发生在1514年的比利时，造成99人死亡，随着新技术用于开采更深层的矿井，问题变得更加严重。"
+        },
+        {
+          "index": 47,
+          "sentence": "The simplest solution was to improve the ventilation of the mine.",
+          "translation": "最简单的解决方案是改善矿井的通风。"
+        },
+        {
+          "index": 48,
+          "sentence": "Many mines had only one shaft leading from the surface down to the working area below.",
+          "translation": "许多煤矿只有一条从地表通往下方工作区的竖井。"
+        },
+        {
+          "index": 49,
+          "sentence": "Ventilation could be improved to some extent by dividing this into a downcast (bringing in fresh air) and an upcast (returning foul air and firedamp to the surface).",
+          "translation": "通过将这条竖井分为下行通风（引入新鲜空气）和上行通风（将污浊空气和沼气送回地表），可以在一定程度上改善通风。"
+        },
+        {
+          "index": 50,
+          "sentence": "But what was really needed was a safe lamp that could not ignite firedamp.",
+          "translation": "但真正需要的是不会点燃沼气的安全灯。"
+        },
+        {
+          "index": 51,
+          "sentence": "The earliest forms of safety lighting sought to produce light without using a naked flame.",
+          "translation": "最早形式的安全照明试图在不使用明火的情况下发光。"
+        },
+        {
+          "index": 52,
+          "sentence": "One early method tried to utilise the fact that skins removed from decaying fish contain the element phosphorus, which emits light in the form of phosphorescence.",
+          "translation": "一种早期方法尝试利用从腐烂鱼类中取出的皮含有磷元素这一事实，磷会以磷光形式发光。"
+        },
+        {
+          "index": 53,
+          "sentence": "Unfortunately, this phosphorus is highly toxic, flammable and can self-ignite-hardly desirable properties in a safety light.",
+          "translation": "不幸的是，这种磷具有剧毒、易燃且可自燃——这些特性在安全灯中几乎不可取。"
+        },
+        {
+          "index": 54,
+          "sentence": "An alternative was a device invented in about 1750, consisting of a flint which struck against a piece of iron when a handle was turned, creating a shower of sparks which lit up the surrounding area.",
+          "translation": "另一种选择是约1750年发明的一种装置，由一个燧石组成，当手柄转动时，燧石击打一块铁片，产生火花雨照亮周围区域。"
+        },
+        {
+          "index": 55,
+          "sentence": "These were believed to be too cool to ignite firedamp.",
+          "translation": "人们认为这些火花温度太低，不足以点燃沼气。"
+        },
+        {
+          "index": 56,
+          "sentence": "This device had major drawbacks - extra manpower had to be used to operate it continuously, and it also required regular maintenance and replacement.",
+          "translation": "这种装置有重大缺陷——需要额外人力持续操作，并且还需要定期维护和更换。"
+        },
+        {
+          "index": 57,
+          "sentence": "But worst of all, it was not in fact safe, and numerous accidents were caused when the sparks ignited firedamp.",
+          "translation": "但最糟糕的是，它实际上并不安全，火花点燃沼气导致了大量事故。"
+        },
+        {
+          "index": 58,
+          "sentence": "Nonetheless, it was considered to be the least dangerous form of lighting at the time.",
+          "translation": "尽管如此，它在当时仍被认为是最不危险的照明形式。"
+        },
+        {
+          "index": 59,
+          "sentence": "By about 1810 the problem was becoming acute, and in some cases there was no alternative to working in the dark.",
+          "translation": "到约1810年，问题变得严重，在某些情况下，除了在黑暗中工作别无选择。"
+        },
+        {
+          "index": 60,
+          "sentence": "Some mines were being forced to stop production, with serious economic consequences for the mine owners and local communities.",
+          "translation": "一些煤矿被迫停产，给矿主和当地社区带来了严重的经济后果。"
+        },
+        {
+          "index": 61,
+          "sentence": "The general response, however, was to keep going and reluctantly accept the inevitable deaths from ignition of firedamp as a regrettable, but not especially remarkable, consequence of coal mining.",
+          "translation": "然而，普遍的反应是继续生产，并勉强接受因沼气点燃导致的不可避免的死亡，将其视为煤矿开采中令人遗憾但并不特别引人注目的后果。"
+        },
+        {
+          "index": 62,
+          "sentence": "The miners themselves could do little - they were largely illiterate, and depended on the mine owners for a livelihood.",
+          "translation": "矿工们自己几乎无能为力——他们大多不识字，且依赖矿主谋生。"
+        },
+        {
+          "index": 63,
+          "sentence": "However, the clerical, medical and legal professions were beginning to take notice.",
+          "translation": "然而，神职、医学和法律界人士开始关注此事。"
+        },
+        {
+          "index": 64,
+          "sentence": "After 92 men and boys were killed in1812 by an explosion at Felling Colliery in northern England, several professional people took action and a society was set up to raise funds for the discovery of new methods of lighting and ventilating mines.",
+          "translation": "1812年，英国北部的费林煤矿发生爆炸，造成92名男子和男孩死亡后，几位专业人士采取行动，成立了一个协会，为发现新的矿井照明和通风方法筹集资金。"
+        },
+        {
+          "index": 65,
+          "sentence": "The first report of the society stated, 'lt is to scientific men only that we must look up for assistance in providing a cheap and effectual remedy.'",
+          "translation": "该协会的首份报告指出：“我们必须只向科学人士寻求帮助，以提供廉价而有效的解决方案。”"
+        },
+        {
+          "index": 66,
+          "sentence": "As the leading chemist of the day, and an expert on gases, Sir Humphrey Davy was a natural choice from whom to seek help,and he was approached by the society in 1815.",
+          "translation": "作为当时顶尖的化学家和气体专家，汉弗莱·戴维爵士是寻求帮助的自然人选，协会于1815年向他求助。"
+        },
+        {
+          "index": 67,
+          "sentence": "The general belief nowadays is that he was the inventor of the first miners' safety lamp, in which the flame was enclosed by a mesh screen containing very small holes.",
+          "translation": "如今普遍认为他是第一盏矿工安全灯的发明者，该灯的火焰被一个带有极小孔的金属网罩封闭。"
+        },
+        {
+          "index": 68,
+          "sentence": "Air could enter the lamp through the holes, but they were too small to allow the flame of the lamp to pass through them and ignite any firedamp present in the mine tunnels.",
+          "translation": "空气可通过小孔进入灯内，但这些孔太小，无法让灯的火焰通过并点燃矿井巷道中存在的任何沼气。"
+        },
+        {
+          "index": 69,
+          "sentence": "Davy presented a paper describing the lamp in November1815, and it was trialled in January 1816.",
+          "translation": "戴维于1815年11月提交了一篇描述该灯的论文，并于1816年1月进行了试验。"
+        },
+        {
+          "index": 70,
+          "sentence": "However, a few weeks prior to Davy's presentation, an engineer called George Stephenson had independently designed and demonstrated a lamp based on the same scientific principles.",
+          "translation": "然而，在戴维提交论文的几周前，一位名叫乔治·史蒂芬森的工程师独立设计并展示了一款基于相同科学原理的灯。"
+        },
+        {
+          "index": 71,
+          "sentence": "After much discussion and argument, he was eventually recognised as deserving equal credit for the discovery,but the time needed for this recognition to be given meant that the miners' safety lamp had already been called the 'Davy lamp' , and it is still called that today.",
+          "translation": "经过大量讨论和争论，他最终被承认应获得同等的发现荣誉，但由于获得这一认可所需的时间，矿工安全灯已被称为‘戴维灯’，至今仍沿用此名。"
+        },
+        {
+          "index": 72,
+          "sentence": "But in fact, the real inventor of the safety lamp was a man called Dr William Reid Clanny, who in 1813 had been awarded a silver medal by the Royal Society of Arts,Manufacturers and Commerce for his own version of a safety lamp.",
+          "translation": "但事实上，安全灯的真正发明者是一位名叫威廉·里德·克兰尼博士的人，他于1813年因其自己版本的安全灯获得了皇家艺术、制造业和商业学会颁发的银质奖章。"
+        },
+        {
+          "index": 73,
+          "sentence": "Clanny's first lamp did not fulfil the needs of the ordinary working miner as it was rather heavy and cumbersome.",
+          "translation": "克兰尼的第一盏灯因相当沉重和笨拙而未满足普通矿工的需求。"
+        },
+        {
+          "index": 74,
+          "sentence": "But rather than seeking to glory in his achievement, he recognised its deficiencies and continued to work to improve it, as well as sharing his knowledge with others.",
+          "translation": "但他并未陶醉于自己的成就，而是认识到其缺陷，继续努力改进，并与他人分享知识。"
+        },
+        {
+          "index": 75,
+          "sentence": "George Stephenson acknowledged a debt to Clanny's research, and Humphrey Davy visited him in 1815 shortly before completing the design for his own safety lamp but to this day Dr Clanny remains a forgotten hero.",
+          "translation": "乔治·史蒂芬森承认得益于克兰尼的研究，汉弗莱·戴维在1815年完成自己安全灯设计前不久拜访了他，但至今克兰尼博士仍是一位被遗忘的英雄。"
+        },
+        {
+          "index": 76,
+          "sentence": "Coal has been used as a source of fuel for over 5,000 years, but for most of that time it was probably gathered from places where it was exposed on the surface of the ground.",
+          "translation": "煤炭作为燃料来源已被使用了超过5000年，但在大部分时间里，它很可能只是从地表裸露的地方被捡拾而来。"
+        },
+        {
+          "index": 77,
+          "sentence": "It is possible that the Romans undertook some mining, but coal mines across Europe largely date from the 13th century.",
+          "translation": "罗马人可能进行过一些开采，但欧洲各地的煤矿大多起源于13世纪。"
+        },
+        {
+          "index": 78,
+          "sentence": "Thereafter coal production increased steadily and it gradually replaced charcoal and wood as a source of heat and energy.",
+          "translation": "此后，煤炭产量稳步增长，并逐渐取代木炭和木材，成为热能与能源的来源。"
+        },
+        {
+          "index": 79,
+          "sentence": "Initially, coal mines were fairly shallow, but they quickly reached the point where artificial lighting was necessary.",
+          "translation": "最初，煤矿相当浅，但很快就达到了需要人工照明的程度。"
+        },
+        {
+          "index": 80,
+          "sentence": "At first the lights used would have been no different from those used domestically candles and simple oil lamps.",
+          "translation": "起初，所使用的灯具与家用的蜡烛和简易油灯并无区别。"
+        },
+        {
+          "index": 81,
+          "sentence": "But as coal mines became deeper, miners encountered a new and terrible problem - firedamp.",
+          "translation": "但随着煤矿变得更深，矿工们遇到了一个新的可怕问题——沼气。"
+        },
+        {
+          "index": 82,
+          "sentence": "This was a natural gas, principally consisting of methane, that exploded on contact with a naked flame.",
+          "translation": "这是一种天然气，主要成分为甲烷，一接触到明火就会爆炸。"
+        },
+        {
+          "index": 83,
+          "sentence": "The first known major firedamp explosion, which killed 99 people, took place in Belgium in 1514 and as new technology was used to mine at increasingly deep levels, the problem got worse.",
+          "translation": "已知首次重大沼气爆炸发生于1514年的比利时，造成99人死亡；随着新技术用于开采越来越深的煤层，这个问题变得更加严重。"
+        },
+        {
+          "index": 85,
+          "sentence": "By about 1810 the problem was becoming acute, and in some cases there was no alternative to working in the dark.",
+          "translation": "到大约1810年，这个问题变得严峻起来，在某些情况下别无选择，只能在黑暗中工作。"
+        },
+        {
+          "index": 86,
+          "sentence": "Some mines were being forced to stop production, with serious economic consequences for the mine owners and local communities.",
+          "translation": "一些煤矿被迫停产，给矿主和当地社区带来了严重的经济后果。"
+        },
+        {
+          "index": 87,
+          "sentence": "The general response, however, was to keep going and reluctantly accept the inevitable deaths from ignition of firedamp as a regrettable, but not especially remarkable, consequence of coal mining.",
+          "translation": "然而，普遍的反应是继续生产，并勉强接受瓦斯点燃导致的不可避免的死亡，将其视为采煤中令人遗憾但并非特别引人注目的结果。"
+        },
+        {
+          "index": 88,
+          "sentence": "29",
+          "translation": "29"
+        },
+        {
+          "index": 89,
+          "sentence": "The simplest solution was to improve the ventilation of the mine.",
+          "translation": "最简单的解决方案是改善矿井的通风。"
+        },
+        {
+          "index": 90,
+          "sentence": "Many mines had only one shaft leading from the surface down to the working area below.",
+          "translation": "许多矿井只有一条从地表通往地下工作区的竖井。"
+        },
+        {
+          "index": 91,
+          "sentence": "Ventilation could be improved to some extent by dividing this into a downcast (bringing in fresh air) and an upcast (returning foul air and firedamp to the surface).",
+          "translation": "通过将这条竖井分为下行通风（引入新鲜空气）和上行通风（将污浊空气和瓦斯送回地表），可以在一定程度上改善通风。"
+        },
+        {
+          "index": 92,
+          "sentence": "But what was really needed was a safe lamp that could not ignite firedamp.",
+          "translation": "但实际上真正需要的是一种不会引燃沼气的安全灯。"
+        },
+        {
+          "index": 93,
+          "sentence": "The earliest forms of safety lighting sought to produce light without using a naked flame.",
+          "translation": "最早形式的安全照明试图在不使用明火的情况下产生光线。"
+        },
+        {
+          "index": 94,
+          "sentence": "One early method tried to utilise the fact that skins removed from decaying fish contain the element phosphorus, which emits light in the form of phosphorescence.",
+          "translation": "一种早期方法尝试利用从腐烂鱼身上剥下的皮含有磷元素这一事实，磷能以磷光形式发光。"
+        },
+        {
+          "index": 95,
+          "sentence": "Unfortunately, this phosphorus is highly toxic, flammable and can self-ignite-hardly desirable properties in a safety light.",
+          "translation": "不幸的是，这种磷具有剧毒、易燃且能自燃的特性——这绝非安全灯所期望的特性。"
+        },
+        {
+          "index": 96,
+          "sentence": "An alternative was a device invented in about 1750, consisting of a flint which struck against a piece of iron when a handle was turned, creating a shower of sparks which lit up the surrounding area.",
+          "translation": "另一种替代方案是约1750年发明的一种装置，它由一个燧石组成，当转动把手时，燧石会撞击一块铁，产生一阵火花，照亮周围区域。"
+        },
+        {
+          "index": 97,
+          "sentence": "These were believed to be too cool to ignite firedamp.",
+          "translation": "人们认为这些火花温度太低，不会点燃瓦斯。"
+        },
+        {
+          "index": 98,
+          "sentence": "This device had major drawbacks - extra manpower had to be used to operate it continuously, and it also required regular maintenance and replacement.",
+          "translation": "这种装置有重大缺陷——必须使用额外的人力来持续操作它，并且还需要定期维护和更换。"
+        },
+        {
+          "index": 99,
+          "sentence": "But worst of all, it was not in fact safe, and numerous accidents were caused when the sparks ignited firedamp.",
+          "translation": "但最糟糕的是，它实际上并不安全，火花点燃瓦斯导致了大量事故。"
+        },
+        {
+          "index": 100,
+          "sentence": "Nonetheless, it was considered to be the least dangerous form of lighting at the time.",
+          "translation": "尽管如此，它仍被认为是当时最不危险的照明形式。"
+        },
+        {
+          "index": 102,
+          "sentence": "By about 1810 the problem was becoming acute, and in some cases there was no alternative to working in the dark.",
+          "translation": "到大约1810年，这个问题变得严重起来，在某些情况下，除了在黑暗中工作别无选择。"
+        },
+        {
+          "index": 103,
+          "sentence": "Some mines were being forced to stop production, with serious economic consequences for the mine owners and local communities.",
+          "translation": "一些煤矿被迫停产，给矿主和当地社区带来了严重的经济后果。"
+        },
+        {
+          "index": 104,
+          "sentence": "The general response, however, was to keep going and reluctantly accept the inevitable deaths from ignition of firedamp as a regrettable, but not especially remarkable, consequence of coal mining.",
+          "translation": "然而，普遍的应对方式是继续运营，并勉强接受因瓦斯点燃导致的不可避免的死亡，将其视为煤炭开采中令人遗憾但并非特别引人注目的后果。"
+        },
+        {
+          "index": 105,
+          "sentence": "By about 1810 the problem was becoming acute, and in some cases there was no alternative to working in the dark.",
+          "translation": "到大约1810年，这个问题变得严重起来，在某些情况下，除了在黑暗中工作别无选择。"
+        },
+        {
+          "index": 106,
+          "sentence": "Some mines were being forced to stop production, with serious economic consequences for the mine owners and local communities.",
+          "translation": "一些矿场被迫停产，给矿主和当地社区带来了严重的经济后果。"
+        },
+        {
+          "index": 107,
+          "sentence": "The general response, however, was to keep going and reluctantly accept the inevitable deaths from ignition of firedamp as a regrettable, but not especially remarkable, consequence of coal mining.",
+          "translation": "然而，普遍的反应是继续开采，勉强接受因瓦斯点燃而不可避免的死亡，将其视为煤矿开采中令人遗憾但并不特别引人注目的后果。"
+        },
+        {
+          "index": 108,
+          "sentence": "By about 1810 the problem was becoming acute, and in some cases there was no alternative to working in the dark.",
+          "translation": "到大约1810年，这个问题变得日益严峻，在某些情况下，除了在黑暗中工作别无选择。"
+        },
+        {
+          "index": 109,
+          "sentence": "Some mines were being forced to stop production, with serious economic consequences for the mine owners and local communities.",
+          "translation": "一些矿井被迫停产，这给矿主和当地社区带来了严重的经济后果。"
+        },
+        {
+          "index": 110,
+          "sentence": "The general response, however, was to keep going and reluctantly accept the inevitable deaths from ignition of firedamp as a regrettable, but not especially remarkable, consequence of coal mining.",
+          "translation": "然而，普遍的应对方式是继续开采，并勉强接受因瓦斯点燃导致的不可避免的死亡，将其视为煤炭开采中令人遗憾但并非特别引人注目的后果。"
+        },
+        {
+          "index": 111,
+          "sentence": "The miners themselves could do little - they were largely illiterate, and depended on the mine owners for a livelihood.",
+          "translation": "矿工们自己能做的很有限——他们大多不识字，并依靠矿主维持生计。"
+        },
+        {
+          "index": 112,
+          "sentence": "However, the clerical, medical and legal professions were beginning to take notice.",
+          "translation": "然而，神职人员、医学界和法律界开始关注这一问题。"
+        },
+        {
+          "index": 113,
+          "sentence": "After 92 men and boys were killed in1812 by an explosion at Felling Colliery in northern England, several professional people took action and a society was set up to raise funds for the discovery of new methods of lighting and ventilating mines.",
+          "translation": "1812年，英格兰北部的费林煤矿发生爆炸，导致92名男子和男孩丧生，此后几位专业人士采取了行动，并成立了一个协会，旨在筹集资金以探索新的矿井照明和通风方法。"
+        },
+        {
+          "index": 114,
+          "sentence": "The first report of the society stated, 'lt is to scientific men only that we must look up for assistance in providing a cheap and effectual remedy.'",
+          "translation": "该协会的第一份报告指出：‘我们必须仰赖科学界人士，才能寻求到一种既廉价又有效的解决方案。’"
+        },
+        {
+          "index": 116,
+          "sentence": "As the leading chemist of the day, and an expert on gases, Sir Humphrey Davy was a natural choice from whom to seek help, and he was approached by the society in 1815.",
+          "translation": "作为当时顶尖的化学家和气体专家，汉弗莱·戴维爵士自然成为寻求帮助的不二人选，该协会于1815年与他联系。"
+        },
+        {
+          "index": 117,
+          "sentence": "The general belief nowadays is that he was the inventor of the first miners' safety lamp, in which the flame was enclosed by a mesh screen containing very small holes.",
+          "translation": "如今普遍认为他是第一盏矿工安全灯的发明者，这种灯的火焰被带有极小孔洞的网罩封闭。"
+        },
+        {
+          "index": 118,
+          "sentence": "Air could enter the lamp through the holes, but they were too small to allow the flame of the lamp to pass through them and ignite any firedamp present in the mine tunnels.",
+          "translation": "空气可以通过这些孔洞进入灯内，但孔洞太小，无法让灯的火焰穿透并点燃矿井巷道中存在的任何瓦斯。"
+        },
+        {
+          "index": 119,
+          "sentence": "Davy presented a paper describing the lamp in November 1815, and it was trialled in January 1816.",
+          "translation": "戴维于1815年11月提交了一篇描述这种灯的论文，并于1816年1月进行了试验。"
+        },
+        {
+          "index": 120,
+          "sentence": "However, a few weeks prior to Davy's presentation, an engineer called George Stephenson had independently designed and demonstrated a lamp based on the same scientific principles.",
+          "translation": "然而，在戴维提交论文的几周前，一位名叫乔治·史蒂芬森的工程师已独立设计并演示了一款基于相同科学原理的灯。"
+        },
+        {
+          "index": 121,
+          "sentence": "After much discussion and argument, he was eventually recognised as deserving equal credit for the discovery, but the time needed for this recognition to be given meant that the miners' safety lamp had already been called the 'Davy lamp', and it is still called that today.",
+          "translation": "经过大量讨论和争论，他最终被认可为这项发现应享有同等荣誉，但由于获得这一认可所需的时间，矿工安全灯已被命名为“戴维灯”，并且至今仍如此称呼。"
+        },
+        {
+          "index": 122,
+          "sentence": "As the leading chemist of the day, and an expert on gases, Sir Humphrey Davy was a natural choice from whom to seek help, and he was approached by the society in 1815.",
+          "translation": "作为当时最杰出的化学家和气体专家，汉弗里·戴维爵士自然是寻求帮助的首选对象，1815年该协会与他取得了联系。"
+        },
+        {
+          "index": 123,
+          "sentence": "The general belief nowadays is that he was the inventor of the first miners' safety lamp, in which the flame was enclosed by a mesh screen containing very small holes.",
+          "translation": "现今普遍认为他是第一盏矿工安全灯的发明者，该灯的火焰被带有极小孔洞的金属网罩所封闭。"
+        },
+        {
+          "index": 124,
+          "sentence": "Air could enter the lamp through the holes, but they were too small to allow the flame of the lamp to pass through them and ignite any firedamp present in the mine tunnels.",
+          "translation": "空气可以通过这些小孔进入灯内，但孔洞太小，无法让灯的火焰穿过并点燃矿井巷道中存在的任何瓦斯。"
+        },
+        {
+          "index": 125,
+          "sentence": "Davy presented a paper describing the lamp in November 1815, and it was trialled in January 1816.",
+          "translation": "戴维于1815年11月提交了一篇描述该灯的论文，并于1816年1月进行了试验。"
+        },
+        {
+          "index": 126,
+          "sentence": "However, a few weeks prior to Davy's presentation, an engineer called George Stephenson had independently designed and demonstrated a lamp based on the same scientific principles.",
+          "translation": "然而，在戴维提交论文的几周前，一位名叫乔治·斯蒂芬森的工程师已独立设计并展示了一盏基于相同科学原理的灯。"
+        },
+        {
+          "index": 127,
+          "sentence": "After much discussion and argument, he was eventually recognised as deserving equal credit for the discovery, but the time needed for this recognition to be given meant that the miners' safety lamp had already been called the 'Davy lamp', and it is still called that today.",
+          "translation": "经过大量讨论和争论，他最终被认可应获得与戴维同等的发现荣誉，但由于获得这一认可所需的时间，矿工安全灯已被命名为“戴维灯”，并且至今仍沿用此名。"
+        },
+        {
+          "index": 128,
+          "sentence": "As the leading chemist of the day, and an expert on gases, Sir Humphrey Davy was a natural choice from whom to seek help, and he was approached by the society in 1815.",
+          "translation": "作为当时顶尖的化学家和气体专家，汉弗里·戴维爵士自然成为寻求帮助的首选对象，该协会于1815年与他取得了联系。"
+        },
+        {
+          "index": 129,
+          "sentence": "The general belief nowadays is that he was the inventor of the first miners' safety lamp, in which the flame was enclosed by a mesh screen containing very small holes.",
+          "translation": "如今普遍认为他是第一盏矿工安全灯的发明者，这种灯将火焰封闭在一个带有极小孔的网罩内。"
+        },
+        {
+          "index": 130,
+          "sentence": "Air could enter the lamp through the holes, but they were too small to allow the flame of the lamp to pass through them and ignite any firedamp present in the mine tunnels.",
+          "translation": ""
+        },
+        {
+          "index": 131,
+          "sentence": "Davy presented a paper describing the lamp in November 1815, and it was trialled in January 1816.",
+          "translation": "戴维于1815年11月提交了一篇描述这种灯的论文，并于1816年1月进行了试验。"
+        },
+        {
+          "index": 132,
+          "sentence": "However, a few weeks prior to Davy's presentation, an engineer called George Stephenson had independently designed and demonstrated a lamp based on the same scientific principles.",
+          "translation": "然而，在戴维提交论文前几周，一位名叫乔治·史蒂芬森的工程师已经独立设计并展示了一盏基于相同科学原理的灯。"
+        },
+        {
+          "index": 133,
+          "sentence": "After much discussion and argument, he was eventually recognised as deserving equal credit for the discovery, but the time needed for this recognition to be given meant that the miners' safety lamp had already been called the 'Davy lamp', and it is still called that today.",
+          "translation": "经过大量讨论和争论，他最终被认可应当获得与该项发现同等的荣誉，但获得这一认可所需的时间意味着矿工安全灯已经被命名为“戴维灯”，并且至今仍沿用这个名称。"
+        },
+        {
+          "index": 135,
+          "sentence": "But in fact, the real inventor of the safety lamp was a man called Dr William Reid Clanny, who in 1813 had been awarded a silver medal by the Royal Society of Arts,Manufacturers and Commerce for his own version of a safety lamp.",
+          "translation": "但事实上，安全灯的真正发明者是一位名叫威廉·里德·克兰尼博士的人，他在1813年因其自己设计的安全灯版本获得了皇家艺术、制造商和商业学会颁发的银质奖章。"
+        },
+        {
+          "index": 136,
+          "sentence": "Clanny's first lamp did not fulfil the needs of the ordinary working miner as it was rather heavy and cumbersome.",
+          "translation": "克兰尼的第一盏灯未能满足普通矿工的需求，因为它相当沉重且笨拙。"
+        },
+        {
+          "index": 137,
+          "sentence": "But rather than seeking to glory in his achievement, he recognised its deficiencies and continued to work to improve it, as well as sharing his knowledge with others.",
+          "translation": "但他并未寻求沉浸在成就的荣耀中，而是认识到其缺陷，并继续努力改进它，同时将自己的知识与他人分享。"
+        },
+        {
+          "index": 138,
+          "sentence": "George Stephenson acknowledged a debt to Clanny's research, and Humphrey Davy visited him in 1815 shortly before completing the design for his own safety lamp but to this day Dr Clanny remains a forgotten hero.",
+          "translation": "乔治·斯蒂芬森承认受益于克兰尼的研究，汉弗莱·戴维也在1815年完成自己安全灯设计前不久拜访了他，但至今克兰尼博士仍是一位被遗忘的英雄。"
+        },
+        {
+          "index": 139,
+          "sentence": "But in fact, the real inventor of the safety lamp was a man called Dr William Reid Clanny, who in 1813 had been awarded a silver medal by the Royal Society of Arts, Manufacturers and Commerce for his own version of a safety lamp.",
+          "translation": "但事实上，安全灯的真正发明者是一位名叫威廉·里德·克兰尼博士的人，他于1813年因其自己设计的安全灯版本获得了皇家艺术、制造商和商业学会颁发的银质奖章。"
+        },
+        {
+          "index": 140,
+          "sentence": "Clanny's first lamp did not fulfil the needs of the ordinary working miner as it was rather heavy and cumbersome.",
+          "translation": "克兰尼的第一盏灯未能满足普通矿工的需求，因为它相当沉重且笨拙。"
+        },
+        {
+          "index": 141,
+          "sentence": "But rather than seeking to glory in his achievement, he recognised its deficiencies and continued to work to improve it, as well as sharing his knowledge with others.",
+          "translation": "但他并未寻求荣誉，而是认识到其缺陷，继续努力改进，并与他人分享自己的知识。"
+        },
+        {
+          "index": 142,
+          "sentence": "George Stephenson acknowledged a debt to Clanny's research, and Humphrey Davy visited him in 1815 shortly before completing the design for his own safety lamp but to this day Dr Clanny remains a forgotten hero.",
+          "translation": "乔治·斯蒂芬森承认受惠于克兰尼的研究，汉弗莱·戴维也在1815年完成自己安全灯设计前不久拜访了他，但时至今日，克兰尼博士仍然是一位被遗忘的英雄。"
+        },
+        {
+          "index": 143,
+          "sentence": "But in fact, the real inventor of the safety lamp was a man called Dr William Reid Clanny, who in 1813 had been awarded a silver medal by the Royal Society of Arts, Manufacturers and Commerce for his own version of a safety lamp.",
+          "translation": "但实际上，安全灯的真正发明者是一位名叫威廉·里德·克兰尼博士的人，他于1813年因其自制的安全灯版本获得了皇家艺术、制造与商业学会颁发的银质奖章。"
+        },
+        {
+          "index": 144,
+          "sentence": "Clanny's first lamp did not fulfil the needs of the ordinary working miner as it was rather heavy and cumbersome.",
+          "translation": "克兰尼的第一盏灯相当沉重且笨拙，未能满足普通矿工的需求。"
+        },
+        {
+          "index": 145,
+          "sentence": "But rather than seeking to glory in his achievement, he recognised its deficiencies and continued to work to improve it, as well as sharing his knowledge with others.",
+          "translation": "但他并未追求以成就自居，而是认识到其缺陷，并继续努力改进，同时与他人分享自己的知识。"
+        },
+        {
+          "index": 146,
+          "sentence": "George Stephenson acknowledged a debt to Clanny's research, and Humphrey Davy visited him in 1815 shortly before completing the design for his own safety lamp but to this day Dr Clanny remains a forgotten hero.",
+          "translation": "乔治·斯蒂芬森承认受益于克兰尼的研究，汉弗莱·戴维也在1815年完成自己安全灯设计前不久拜访过他，但时至今日，克兰尼博士仍是一位被遗忘的英雄。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

@@ -1,0 +1,3088 @@
+{
+  "id": "b11-test-4",
+  "book": "剑雅11",
+  "book_number": 11,
+  "name": "Test 4",
+  "title": "剑雅11 Test 4",
+  "parts": [
+    {
+      "id": "2102",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Visitor attractions in southern England",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A Blackthorn Castle",
+          "translation": "A 黑刺李城堡"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "This famous, historically accurate, reconstructed castle and village enables visitors to travel back in time.Explore the grounds and experience the atmosphere of an ancient lifestyle. In the fields you can see the type of sheep that the original inhabitants of the castle probably kept.Homemade snacks are on sale.",
+          "translation": "这座著名的、在历史上精确还原的、重建的城堡与村庄能让游客穿越时空。\n探索这片土地，体验古老生活方式的氛围。\n在田野里，你可以看到城堡原住民可能饲养的绵羊品种。\n现场出售自制小吃。\n这座著名且历史还原度极高的重建城堡与村庄，让游客得以穿越时空。\n探索这片土地，体验古老生活方式的气息。\n在田野中，你可以看到城堡原住民可能饲养的那种绵羊。\n现场有自制小吃出售。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B Withney Wetland Centre",
+          "translation": "B 威特尼湿地中心"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Visitors will enjoy a visit to Withney whatever the season. In winter, for example, they can watch from the centrally heated observatory as thousands of swans feed on the water.Trained wardens give informative talks or lead guided walks round the site.The visitors' centre may also be hired for private or corporate events.",
+          "translation": "无论什么季节，游客都能在威特尼享受一次愉快的参观。\n例如在冬季，他们可以从中央供暖的观察台观看成千上万只天鹅在水面上觅食。\n训练有素的管理员会进行内容丰富的讲解，或带领游客在场地内进行有导游的步行参观。\n游客中心也可租用于私人或企业活动。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C Headley Hall",
+          "translation": "C 黑德利庄园"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Headley Hall is a large seventeenth-century country house, preserved as it was when it was built. Take time to admire the various works of art displayed, and visit the huge kitchen complete with period equipment - demonstrations are given at weekends. In the park there is space for the younger visitors to run around, and picnic tables are available.",
+          "translation": "您可以花时间欣赏展出的各种艺术品，并参观配有时代设备的巨大厨房——周末会有现场演示。\n公园内有供年轻游客奔跑的空间，并且提供野餐桌。\n黑德利大厅是一座建于17世纪的大型乡间别墅，自建成以来一直保持着原貌。\n花些时间欣赏陈列的各种艺术作品，并参观配备有时代设备的大型厨房——周末会有示范表演。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D Lewis House",
+          "translation": "D 刘易斯故居"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Lewis House is the birthplace of Frank Lewis, a renowned painter of the eighteenth century. More of his works are on display here than anywhere else in the world. Visitors can see Lewis's studio and some of the articles he used on a daily basis.",
+          "translation": "刘易斯故居是18世纪著名画家弗兰克·刘易斯的出生地。\n这里展出的他的作品比世界上任何其他地方都多。\n游客可以参观刘易斯的工作室以及他日常使用的一些物品。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E Canford Wildlife Centre",
+          "translation": "E 坎福德野生动物中心"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "At Canford we have a new walk-through exhibit called Island Magic. Here visitors can observe many species from the tropical island of Madagascar and read about some of the urgent conservation projects that are taking place there to save endangered species from extinction.",
+          "translation": "在坎福德，我们有一个名为“岛屿魔法”的新步行式展览。\n在这里，游客可以观察来自热带岛屿马达加斯加的众多物种，并了解那里正在进行的一些紧急保护项目，这些项目旨在拯救濒危物种免于灭绝。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F Oakwell Museum",
+          "translation": "F 奥克韦尔博物馆"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "This is an ideal venue for families.They can visit the childhood gallery with its large playroom, and listen to stories told by actors dressed in the costumes of a hundred years ago. They can also enjoy the popular games and wooden animals of that period.",
+          "translation": "这是一个适合家庭出游的理想场所。\n他们可以参观设有大型游戏室的童年画廊，并聆听穿着百年前服饰的演员讲述故事。\n他们还可以欣赏到那个时期流行的游戏和木制动物。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Paragliding in Australia",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "澳大利亚滑翔伞运动"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "What is paragliding?",
+          "translation": "什么是滑翔伞运动？"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Paragliding is a kind of flying, but instead of the wing being made of metal, wood or plastic, it is made of nylon or polyester. The wing (known as a canopy) is attached to a harness by lines, not dissimilar to a parachute. The harness is where the pilots sit - and they report that it outperforms a parachute in terms of comfort.",
+          "translation": "滑翔伞是一种飞行方式，但它的翼面并非由金属、木材或塑料制成，而是由尼龙或聚酯纤维制成。\n翼面（称为伞翼）通过绳索连接到座带上，与降落伞颇为相似。\n座带是飞行员坐的位置——他们报告称，它在舒适度方面优于降落伞。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Is it safe?",
+          "translation": "这安全吗？"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Like sailing and deep-sea diving, paragliding is as safe as the person doing it.The big advantage is that it's probably the slowest form of aviation, so if you do crash you'll hit the ground quite gently!",
+          "translation": "像帆船运动和深海潜水一样，滑翔伞运动的安全性取决于操作者本身。\n其巨大优势在于它可能是最慢速的飞行形式，因此即便发生坠毁，你也会相当轻柔地撞击地面！"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Where do I learn?",
+          "translation": "问题：我在哪里可以学习？"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "There are lots of schools, mainly based inland by appropriate hills or mountains, and there are also schools on the coast near spectacular cliffs.These are very attractive, though the prospect of landing in the sea seems to dissuade beginners! All schools will show you within a couple of days how to inflate the canopy, launch and land.They use radio instruction, tandem flying practice and schoolroom theory sessions to help you get the most from paragliding. It takes about seven days to get your basic licence; then you're free to fly independently at sites across Australia.",
+          "translation": "有许多学校，主要位于内陆的合适山丘或山脉附近，也有一些学校坐落在壮观悬崖附近的海岸上。\n这些学校非常吸引人，尽管降落在海中的前景似乎会让初学者望而却步！\n所有学校都会在几天内教你如何给伞翼充气、起飞和降落。\n他们利用无线电指导、双人飞行练习和课堂理论课程，帮助你从滑翔伞运动中收获最多。\n大约需要七天时间才能获得基础执照；之后你就可以在澳大利亚各地的场地自由独立飞行。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "What do I need?",
+          "translation": "我需要什么？"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Pilots normally wear warm clothes, in case they get very high up, and a helmet in case they stumble on landing. In terms of gear, schools supply basic training, canopies, harnesses, etc. However, you'll probably want to buy your own more sophisticated equipment, which you'll be able to choose much better once you've tried some out on your course.",
+          "translation": "飞行员通常会穿着保暖衣物，以防飞至高空时受寒，并佩戴头盔以防降落时摔倒。\n至于装备，学校会提供基础培训、伞翼、背带系统等。\n然而，你可能会想购买自己更精良的装备，而在课程中试用过一些设备后，你将能更明智地进行选择。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Who can do it?",
+          "translation": "谁可以参与这项活动？"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "There's no upper age limit provided your instructor deems you capable, but the youngest anybody can paraglide is 14.Anybody with good eyesight and good balance is a potential paraglider pilot. It's a very relaxed sport as you're mostly sitting down.You'll probably experience pain in some muscles you didn't know you had whilst learning, but many of those will be due to the walk up the training hill to launch.Flying a paraglider is a great sport. We hope to see you in the air with us this season!",
+          "translation": "只要你的教练认为你能够胜任，就没有年龄上限，但滑翔伞运动的最低年龄是14岁。\n任何拥有良好视力和良好平衡感的人都有可能成为滑翔伞飞行员。\n这是一项非常轻松的运动，因为你大部分时间都是坐着的。\n在学习过程中，你可能会感到一些你从未意识到的肌肉疼痛，但其中很多疼痛是由于步行上山前往发射点所致。\n驾驶滑翔伞是一项很棒的运动。\n我们期待在这个季节看到你和我们一起翱翔天际！"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15847",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 7\nLook at the six visitor attractions in southern England, A-F.\nFor which visitor attraction are the following statements true?\nWrite the correct letter, A-F, in boxes 1-7 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120607",
+              "number": 1,
+              "prompt": "Visitors can look at animals from another part of the world.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“look at animals from another part of the world”对应原文中Canford Wildlife Centre的描述：“visitors can observe many species from the tropical island of Madagascar”。马达加斯加位于世界另一区域，因此该景点符合题意，答案为E。",
+              "reason": "原文明确提及 Madagascar 物种，匹配题干。",
+              "location_analysis": "Canford 介绍 Madagascar 物种，对应观看他洲动物。",
+              "paraphrasing": "animals from another part of the world -> many species from the tropical island of Madagascar",
+              "keywords": "animals from another part of the world, Madagascar",
+              "evidence": [
+                "Here visitors can observe many species from the tropical island of Madagascar and read about some of the urgent conservation projects that are taking place there to save endangered species from extinction."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120608",
+              "number": 2,
+              "prompt": "People can hold a business conference in this place.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“hold a business conference”对应Withney Wetland Centre段落中的“the visitors' centre may also be hired for private or corporate events”。“corporate events”即企业或商务活动，与题干意思一致，因此答案为B。",
+              "reason": "原文明确可租用于企业活动。",
+              "location_analysis": "Withney 中心可租用举办企业活动，即商务会议。",
+              "paraphrasing": "hold a business conference -> hired for private or corporate events",
+              "keywords": "business conference, hired for private or corporate events",
+              "evidence": [
+                "The visitors' centre may also be hired for private or corporate events."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120609",
+              "number": 3,
+              "prompt": "Visitors can find out what toys were used in the last century.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干中的“toys used in the last century”对应Oakwell Museum段落中提到的“popular games and wooden animals of that period”，而前文明确指出“actors dressed in the costumes of a hundred years ago”，说明这些玩具属于百年前，即上世纪，因此答案为F。",
+              "reason": "原文 games and wooden animals 指百年前玩具。",
+              "location_analysis": "Oakwell 展出百年前的玩具游戏，对应题干。",
+              "paraphrasing": "toys used in the last century -> games and wooden animals of that period (a hundred years ago)",
+              "keywords": "toys, last century, a hundred years ago",
+              "evidence": [
+                "They can also enjoy the popular games and wooden animals of that period."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120610",
+              "number": 4,
+              "prompt": "Activities are available all year round here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“activities are available all year round”对应Withney Wetland Centre段落开头的“Visitors will enjoy a visit to Withney whatever the season”，表明该景点四季皆宜、全年开放，因此答案为B。",
+              "reason": "原文 whatever the season 直接对应全年。",
+              "location_analysis": "Withney 任何季节都可游览，即全年开放。",
+              "paraphrasing": "Activities all year round -> enjoy a visit to Withney whatever the season",
+              "keywords": "all year round, whatever the season",
+              "evidence": [
+                "Visitors will enjoy a visit to Withney whatever the season."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120611",
+              "number": 5,
+              "prompt": "You can buy light meals here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“buy light meals”对应Blackthorn Castle段落末尾的“Homemade snacks are on sale”。“snacks”即轻食或简餐，与题干中的“light meals”为同义表达，因此答案为A。",
+              "reason": "原文明确销售零食。",
+              "location_analysis": "Blackthorn 出售自制小吃，即简餐。",
+              "paraphrasing": "light meals -> Homemade snacks",
+              "keywords": "light meals, Homemade snacks",
+              "evidence": [
+                "Homemade snacks are on sale."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120612",
+              "number": 6,
+              "prompt": "Visitors can see how food was prepared in the past.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中的“see how food was prepared in the past”对应Headley Hall段落中提到的“visit the huge kitchen complete with period equipment - demonstrations are given at weekends”。周末进行的厨房设备演示正是展示过去食物制备方式，因此答案为C。",
+              "reason": "原文厨房演示对应过去食品制备。",
+              "location_analysis": "Headley 周末演示旧时厨房设备，即过去备餐方式。",
+              "paraphrasing": "how food was prepared -> demonstrations (at weekends) in the kitchen with period equipment",
+              "keywords": "food prepared in the past, period equipment, demonstrations",
+              "evidence": [
+                "Take time to admire the various works of art displayed, and visit the huge kitchen complete with period equipment - demonstrations are given at weekends."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120613",
+              "number": 7,
+              "prompt": "You can visit modern imitations of old buildings here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“modern imitations of old buildings”对应Blackthorn Castle段落开头的“This famous, historically accurate, reconstructed castle and village”。“reconstructed”即现代重建，是对古建筑的模仿，因此答案为A。",
+              "reason": "原文 reconstructed 即现代重建模仿旧建筑。",
+              "location_analysis": "Blackthorn 是重建城堡，即现代仿古建筑。",
+              "paraphrasing": "modern imitations of old buildings -> reconstructed castle",
+              "keywords": "modern imitations of old buildings, reconstructed castle",
+              "evidence": [
+                "This famous, historically accurate, reconstructed castle and village enables visitors to travel back in time."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15849",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120614",
+              "number": 8,
+              "prompt": "A paraglider is more comfortable than a parachute.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“A paraglider is more comfortable than a parachute”对应原文中“The harness is where the pilots sit - and they report that it outperforms a parachute in terms of comfort”。“outperforms...in terms of comfort”明确表示滑翔伞在舒适度上优于降落伞，因此答案为TRUE。",
+              "reason": "原文直接对比 comfort。",
+              "location_analysis": "原文明确提及滑翔伞比降落伞更舒适，故 TRUE。",
+              "paraphrasing": "more comfortable -> outperforms a parachute in terms of comfort",
+              "keywords": "more comfortable than a parachute, outperforms, comfort",
+              "evidence": [
+                "The harness is where the pilots sit - and they report that it outperforms a parachute in terms of comfort."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "选项说假，但原文明确提到滑翔伞比降落伞更舒适。",
+                "NOT GIVEN": "原文提供了明确比较，并非未提及。"
+              }
+            },
+            {
+              "id": "120615",
+              "number": 9,
+              "prompt": "Most paragliding schools are situated by the sea.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“Most paragliding schools are situated by the sea”，但原文指出“There are lots of schools, mainly based inland by appropriate hills or mountains”，说明大多数学校位于内陆而非海边，与题干矛盾，因此答案为FALSE。",
+              "reason": "mainland inland 与 by the sea 矛盾。",
+              "location_analysis": "原文说多数学校在内陆，与题干‘大多数在海边’相反，故 FALSE。",
+              "paraphrasing": "most are situated by the sea -> mainly based inland",
+              "keywords": "most, by the sea, mainly inland",
+              "evidence": [
+                "There are lots of schools, mainly based inland by appropriate hills or mountains, and there are also schools on the coast near spectacular cliffs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文明确表明大多数滑翔伞学校并非位于海边。",
+                "NOT GIVEN": "原文明确给出了相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120616",
+              "number": 10,
+              "prompt": "Learners must pass a theory test in order to get their licence.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干提到“must pass a theory test to get their licence”，但原文仅说训练包括“schoolroom theory sessions”，并说明“It takes about seven days to get your basic licence”，并未提及必须通过理论考试才能获得执照，因此信息未给出，答案为NOT GIVEN。",
+              "reason": "原文未提及 setting a theory test 作为 license 的先决条件。",
+              "location_analysis": "原文提到schoolroom theory sessions和get basic licenc...",
+              "paraphrasing": "",
+              "keywords": "theory test, licence",
+              "evidence": [
+                "They use radio instruction, tandem flying practice and schoolroom theory sessions to help you get the most from paragliding.",
+                "It takes about seven days to get your basic licence; then you're free to fly independently at sites across Australia."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文并未提及必须通过理论考试才能获得驾照，属于无中生有。",
+                "FALSE": "原文未提供相关信息，无法判断该说法为错误。"
+              }
+            },
+            {
+              "id": "120617",
+              "number": 11,
+              "prompt": "Learners are able to paraglide unaccompanied after a week's course.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“paraglide unaccompanied after a week's course”对应原文“It takes about seven days to get your basic licence; then you're free to fly independently”。“fly independently”即无人陪同飞行，与题干意思一致，因此答案为TRUE。",
+              "reason": "原文直接匹配。",
+              "location_analysis": "原文说七天后可独立飞行，故 TRUE。",
+              "paraphrasing": "unaccompanied -> independently; after a week's course -> about seven days",
+              "keywords": "unaccompanied after a week's course, seven days, fly independently",
+              "evidence": [
+                "It takes about seven days to get your basic licence; then you're free to fly independently at sites across Australia."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确说明一周课程后可以独自滑翔，与该选项表述矛盾。",
+                "NOT GIVEN": "原文明确提到了该信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120618",
+              "number": 12,
+              "prompt": "lt is advisable to purchase some equipment before you do your training.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干建议“purchase some equipment before training”，但原文明确说“you'll probably want to buy your own...once you've tried some out on your course”，即建议先体验再购买，与题干建议相反，因此答案为FALSE。",
+              "reason": "原文明确课后购买。",
+              "location_analysis": "原文建议先体验再购买，与题干‘训练前购买’矛盾，故 FALSE。",
+              "paraphrasing": "purchase before -> after trying out",
+              "keywords": "purchase equipment before training, once you've tried some out on your course",
+              "evidence": [
+                "Schools supply basic training, canopies, harnesses, etc. However, you'll probably want to buy your own more sophisticated equipment, which you'll be able to choose much better once you've tried some out on your course."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文指出不需要提前购买设备。",
+                "NOT GIVEN": "原文已明确提及相关建议，并非未提及。"
+              }
+            },
+            {
+              "id": "120619",
+              "number": 13,
+              "prompt": "Fit people of any age can take up paragliding.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“Fit people of any age can take up paragliding”，但原文指出“the youngest anybody can paraglide is 14”，说明有最低年龄限制，并非“any age”，因此答案为FALSE。",
+              "reason": "最低年龄限制否定‘any age’。",
+              "location_analysis": "原文有最低年龄14岁，不是任何年龄，故 FALSE。",
+              "paraphrasing": "fit people of any age -> no upper age limit but minimum age 14",
+              "keywords": "any age, youngest 14, upper age limit",
+              "evidence": [
+                "There's no upper age limit provided your instructor deems you capable, but the youngest anybody can paraglide is 14."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文明确表示并非所有年龄的健康人都能参加滑翔伞运动。",
+                "NOT GIVEN": "原文已明确给出相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120620",
+              "number": 14,
+              "prompt": "The preliminary uphill walk may strain some of your muscles.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“preliminary uphill walk may strain some of your muscles”对应原文“You'll probably experience pain in some muscles...due to the walk up the training hill to launch”。“walk up the training hill”即初步上山行走，“pain in some muscles”说明肌肉可能酸痛，与题干一致，因此答案为TRUE。",
+              "reason": "原文直接匹配。",
+              "location_analysis": "原文明确指出上山行走导致肌肉酸痛，故 TRUE。",
+              "paraphrasing": "preliminary uphill walk -> walk up the training hill; strain some muscles -> pain in some muscles",
+              "keywords": "preliminary uphill walk, strain muscles, walk up the training hill, pain in some muscles",
+              "evidence": [
+                "You'll probably experience pain in some muscles you didn't know you had whilst learning, but many of those will be due to the walk up the training hill to launch."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文中明确提到了上坡步行可能造成肌肉拉伤，与选项内容矛盾。",
+                "NOT GIVEN": "原文中明确给出了相关信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Visitor attractions in southern England",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A Blackthorn Castle",
+          "translation": "A 黑刺李城堡"
+        },
+        {
+          "index": 2,
+          "sentence": "This famous, historically accurate, reconstructed castle and village enables visitors to travel back in time.",
+          "translation": "这座著名的、在历史上精确还原的、重建的城堡与村庄能让游客穿越时空。"
+        },
+        {
+          "index": 3,
+          "sentence": "Explore the grounds and experience the atmosphere of an ancient lifestyle.",
+          "translation": "探索这片土地，体验古老生活方式的氛围。"
+        },
+        {
+          "index": 4,
+          "sentence": "In the fields you can see the type of sheep that the original inhabitants of the castle probably kept.",
+          "translation": "在田野里，你可以看到城堡原住民可能饲养的绵羊品种。"
+        },
+        {
+          "index": 5,
+          "sentence": "Homemade snacks are on sale.",
+          "translation": "现场出售自制小吃。"
+        },
+        {
+          "index": 6,
+          "sentence": "This famous, historically accurate, reconstructed castle and village enables visitors to travel back in time.",
+          "translation": "这座著名且历史还原度极高的重建城堡与村庄，让游客得以穿越时空。"
+        },
+        {
+          "index": 7,
+          "sentence": "Explore the grounds and experience the atmosphere of an ancient lifestyle.",
+          "translation": "探索这片土地，体验古老生活方式的气息。"
+        },
+        {
+          "index": 8,
+          "sentence": "In the fields you can see the type of sheep that the original inhabitants of the castle probably kept.",
+          "translation": "在田野中，你可以看到城堡原住民可能饲养的那种绵羊。"
+        },
+        {
+          "index": 9,
+          "sentence": "Homemade snacks are on sale.",
+          "translation": "现场有自制小吃出售。"
+        },
+        {
+          "index": 10,
+          "sentence": "B Withney Wetland Centre",
+          "translation": "B 威特尼湿地中心"
+        },
+        {
+          "index": 11,
+          "sentence": "Visitors will enjoy a visit to Withney whatever the season.",
+          "translation": "无论什么季节，游客都能在威特尼享受一次愉快的参观。"
+        },
+        {
+          "index": 12,
+          "sentence": "In winter, for example, they can watch from the centrally heated observatory as thousands of swans feed on the water.",
+          "translation": "例如在冬季，他们可以从中央供暖的观察台观看成千上万只天鹅在水面上觅食。"
+        },
+        {
+          "index": 13,
+          "sentence": "Trained wardens give informative talks or lead guided walks round the site.",
+          "translation": "训练有素的管理员会进行内容丰富的讲解，或带领游客在场地内进行有导游的步行参观。"
+        },
+        {
+          "index": 14,
+          "sentence": "The visitors' centre may also be hired for private or corporate events.",
+          "translation": "游客中心也可租用于私人或企业活动。"
+        },
+        {
+          "index": 15,
+          "sentence": "C Headley Hall",
+          "translation": "C 黑德利庄园"
+        },
+        {
+          "index": 16,
+          "sentence": "1. Headley Hall is a large seventeenth-century country house, preserved as it was when it was built.",
+          "translation": "1. 黑德利庄园是一座建于17世纪的大型乡间别墅，其保存状态与建造时完全一致。"
+        },
+        {
+          "index": 17,
+          "sentence": "Take time to admire the various works of art displayed, and visit the huge kitchen complete with period equipment - demonstrations are given at weekends.",
+          "translation": "您可以花时间欣赏展出的各种艺术品，并参观配有时代设备的巨大厨房——周末会有现场演示。"
+        },
+        {
+          "index": 18,
+          "sentence": "In the park there is space for the younger visitors to run around, and picnic tables are available.",
+          "translation": "公园内有供年轻游客奔跑的空间，并且提供野餐桌。"
+        },
+        {
+          "index": 19,
+          "sentence": "Headley Hall is a large seventeenth-century country house, preserved as it was when it was built.",
+          "translation": "黑德利大厅是一座建于17世纪的大型乡间别墅，自建成以来一直保持着原貌。"
+        },
+        {
+          "index": 20,
+          "sentence": "Take time to admire the various works of art displayed, and visit the huge kitchen complete with period equipment - demonstrations are given at weekends.",
+          "translation": "花些时间欣赏陈列的各种艺术作品，并参观配备有时代设备的大型厨房——周末会有示范表演。"
+        },
+        {
+          "index": 21,
+          "sentence": "In the park there is space for the younger visitors to run around, and picnic tables are available.",
+          "translation": "公园内有供年轻游客奔跑的空间，并且提供野餐桌。"
+        },
+        {
+          "index": 22,
+          "sentence": "D Lewis House",
+          "translation": "D 刘易斯故居"
+        },
+        {
+          "index": 23,
+          "sentence": "Lewis House is the birthplace of Frank Lewis, a renowned painter of the eighteenth century.",
+          "translation": "刘易斯故居是18世纪著名画家弗兰克·刘易斯的出生地。"
+        },
+        {
+          "index": 24,
+          "sentence": "More of his works are on display here than anywhere else in the world.",
+          "translation": "这里展出的他的作品比世界上任何其他地方都多。"
+        },
+        {
+          "index": 25,
+          "sentence": "Visitors can see Lewis's studio and some of the articles he used on a daily basis.",
+          "translation": "游客可以参观刘易斯的工作室以及他日常使用的一些物品。"
+        },
+        {
+          "index": 26,
+          "sentence": "E Canford Wildlife Centre",
+          "translation": "E 坎福德野生动物中心"
+        },
+        {
+          "index": 27,
+          "sentence": "At Canford we have a new walk-through exhibit called Island Magic.",
+          "translation": "在坎福德，我们有一个名为“岛屿魔法”的新步行式展览。"
+        },
+        {
+          "index": 28,
+          "sentence": "Here visitors can observe many species from the tropical island of Madagascar and read about some of the urgent conservation projects that are taking place there to save endangered species from extinction.",
+          "translation": "在这里，游客可以观察来自热带岛屿马达加斯加的众多物种，并了解那里正在进行的一些紧急保护项目，这些项目旨在拯救濒危物种免于灭绝。"
+        },
+        {
+          "index": 29,
+          "sentence": "F Oakwell Museum",
+          "translation": "F 奥克韦尔博物馆"
+        },
+        {
+          "index": 30,
+          "sentence": "This is an ideal venue for families.",
+          "translation": "这是一个适合家庭出游的理想场所。"
+        },
+        {
+          "index": 31,
+          "sentence": "They can visit the childhood gallery with its large playroom, and listen to stories told by actors dressed in the costumes of a hundred years ago.",
+          "translation": "他们可以参观设有大型游戏室的童年画廊，并聆听穿着百年前服饰的演员讲述故事。"
+        },
+        {
+          "index": 32,
+          "sentence": "They can also enjoy the popular games and wooden animals of that period.",
+          "translation": "他们还可以欣赏到那个时期流行的游戏和木制动物。"
+        },
+        {
+          "index": 33,
+          "sentence": "Paragliding in Australia",
+          "translation": "澳大利亚滑翔伞运动"
+        },
+        {
+          "index": 34,
+          "sentence": "What is paragliding?",
+          "translation": "什么是滑翔伞运动？"
+        },
+        {
+          "index": 35,
+          "sentence": "Paragliding is a kind of flying, but instead of the wing being made of metal, wood or plastic, it is made of nylon or polyester.",
+          "translation": "滑翔伞是一种飞行方式，但它的翼面并非由金属、木材或塑料制成，而是由尼龙或聚酯纤维制成。"
+        },
+        {
+          "index": 36,
+          "sentence": "The wing (known as a canopy) is attached to a harness by lines, not dissimilar to a parachute.",
+          "translation": "翼面（称为伞翼）通过绳索连接到座带上，与降落伞颇为相似。"
+        },
+        {
+          "index": 37,
+          "sentence": "The harness is where the pilots sit - and they report that it outperforms a parachute in terms of comfort.",
+          "translation": "座带是飞行员坐的位置——他们报告称，它在舒适度方面优于降落伞。"
+        },
+        {
+          "index": 38,
+          "sentence": "Is it safe?",
+          "translation": "这安全吗？"
+        },
+        {
+          "index": 39,
+          "sentence": "Like sailing and deep-sea diving, paragliding is as safe as the person doing it.",
+          "translation": "像帆船运动和深海潜水一样，滑翔伞运动的安全性取决于操作者本身。"
+        },
+        {
+          "index": 40,
+          "sentence": "The big advantage is that it's probably the slowest form of aviation, so if you do crash you'll hit the ground quite gently!",
+          "translation": "其巨大优势在于它可能是最慢速的飞行形式，因此即便发生坠毁，你也会相当轻柔地撞击地面！"
+        },
+        {
+          "index": 41,
+          "sentence": "Where do I learn?",
+          "translation": "问题：我在哪里可以学习？"
+        },
+        {
+          "index": 42,
+          "sentence": "There are lots of schools, mainly based inland by appropriate hills or mountains, and there are also schools on the coast near spectacular cliffs.",
+          "translation": "有许多学校，主要位于内陆的合适山丘或山脉附近，也有一些学校坐落在壮观悬崖附近的海岸上。"
+        },
+        {
+          "index": 43,
+          "sentence": "These are very attractive, though the prospect of landing in the sea seems to dissuade beginners!",
+          "translation": "这些学校非常吸引人，尽管降落在海中的前景似乎会让初学者望而却步！"
+        },
+        {
+          "index": 44,
+          "sentence": "All schools will show you within a couple of days how to inflate the canopy, launch and land.",
+          "translation": "所有学校都会在几天内教你如何给伞翼充气、起飞和降落。"
+        },
+        {
+          "index": 45,
+          "sentence": "They use radio instruction, tandem flying practice and schoolroom theory sessions to help you get the most from paragliding.",
+          "translation": "他们利用无线电指导、双人飞行练习和课堂理论课程，帮助你从滑翔伞运动中收获最多。"
+        },
+        {
+          "index": 46,
+          "sentence": "It takes about seven days to get your basic licence; then you're free to fly independently at sites across Australia.",
+          "translation": "大约需要七天时间才能获得基础执照；之后你就可以在澳大利亚各地的场地自由独立飞行。"
+        },
+        {
+          "index": 47,
+          "sentence": "What do I need?",
+          "translation": "我需要什么？"
+        },
+        {
+          "index": 48,
+          "sentence": "Pilots normally wear warm clothes, in case they get very high up, and a helmet in case they stumble on landing.",
+          "translation": "飞行员通常会穿着保暖衣物，以防飞至高空时受寒，并佩戴头盔以防降落时摔倒。"
+        },
+        {
+          "index": 49,
+          "sentence": "In terms of gear, schools supply basic training, canopies, harnesses, etc.",
+          "translation": "至于装备，学校会提供基础培训、伞翼、背带系统等。"
+        },
+        {
+          "index": 50,
+          "sentence": "However, you'll probably want to buy your own more sophisticated equipment, which you'll be able to choose much better once you've tried some out on your course.",
+          "translation": "然而，你可能会想购买自己更精良的装备，而在课程中试用过一些设备后，你将能更明智地进行选择。"
+        },
+        {
+          "index": 51,
+          "sentence": "Who can do it?",
+          "translation": "谁可以参与这项活动？"
+        },
+        {
+          "index": 52,
+          "sentence": "There's no upper age limit provided your instructor deems you capable, but the youngest anybody can paraglide is 14.",
+          "translation": "只要你的教练认为你能够胜任，就没有年龄上限，但滑翔伞运动的最低年龄是14岁。"
+        },
+        {
+          "index": 53,
+          "sentence": "Anybody with good eyesight and good balance is a potential paraglider pilot.",
+          "translation": "任何拥有良好视力和良好平衡感的人都有可能成为滑翔伞飞行员。"
+        },
+        {
+          "index": 54,
+          "sentence": "It's a very relaxed sport as you're mostly sitting down.",
+          "translation": "这是一项非常轻松的运动，因为你大部分时间都是坐着的。"
+        },
+        {
+          "index": 55,
+          "sentence": "You'll probably experience pain in some muscles you didn't know you had whilst learning, but many of those will be due to the walk up the training hill to launch.",
+          "translation": "在学习过程中，你可能会感到一些你从未意识到的肌肉疼痛，但其中很多疼痛是由于步行上山前往发射点所致。"
+        },
+        {
+          "index": 56,
+          "sentence": "Flying a paraglider is a great sport.",
+          "translation": "驾驶滑翔伞是一项很棒的运动。"
+        },
+        {
+          "index": 57,
+          "sentence": "We hope to see you in the air with us this season!",
+          "translation": "我们期待在这个季节看到你和我们一起翱翔天际！"
+        }
+      ]
+    },
+    {
+      "id": "2103",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "How to prepare for an interview",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Why prepare?",
+          "translation": "为什么要准备？"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "There are three main reasons.",
+          "translation": "主要有三个原因。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "One: Although you can't guess every question you might be asked, if you are prepared you can tailor your answers to fit.",
+          "translation": "首先，尽管你无法猜测所有可能被问到的问题，但如果你有所准备，就可以调整自己的回答来适应具体情况。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Two: If you're well prepared, you will have more confidence and this will affect the way you come across.",
+          "translation": "第二：如果你准备充分，你会更有自信，而这会影响你给人留下的印象。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Three: Attitude matters. Prospective employers will choose a not-quite-perfect but willing candidate over a brilliant one who obviously isn't bothered.",
+          "translation": "第三：态度至关重要。\n未来的雇主会选择一位并非完美但态度积极的应聘者，而不是一位才华横溢却显然漠不关心的人。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "What to prepare?",
+          "translation": "该准备什么？"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Find out about the organisation",
+          "translation": "了解该组织的情况"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "• Visit the website and read any materials that you have been sent. If nothing has been sent,phone the company to ask for any reading matter they may have.",
+          "translation": "访问网站并阅读你已收到的任何材料。\n如果什么也没收到，就打电话给公司询问他们可能有的任何阅读资料。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "• Talk to anyone you know who works there already.",
+          "translation": "• 与你认识并已在该机构工作的人交谈。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Find out about the job",
+          "translation": "了解这份工作的内容"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "• Ask for a job description or specification. This will tell you the duties that go with the job.",
+          "translation": "• 索要一份职位描述或工作规范。\n这会告诉你这份工作所涉及的职责。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "• Talk to anyone you know who is familiar with the work you may be doing.",
+          "translation": "• 与你认识的、熟悉你可能从事的工作的人交谈。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Find out what the employer is looking for",
+          "translation": "了解雇主在寻找什么样的人才"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "• Make a list of the skills specified in the job advertisement.",
+          "translation": "• 列出工作广告中明确要求的技能。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "• Think of examples to back up claims that you have these skills.",
+          "translation": "• 想出实例来支持你拥有这些技能的说法。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "You can then answer most of the questions that will come up, such as 'Tell me more about how you work in a team'.",
+          "translation": "这样一来，你就能回答大部分可能出现的问题，比如‘请详细说说你在团队中是如何工作的’。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Add in a few 'lessons learned' - what you did and how you might have done it better. You can also outline any voluntary work you have done for a charity, or any experience of paid work in an unrelated sector.",
+          "translation": "加入一些‘经验教训’——你做了什么以及你可能如何做得更好。\n你还可以概述你为慈善机构所做的任何志愿工作，或者在任何不相关领域的有偿工作经历。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Preparing for other kinds of questions",
+          "translation": "准备其他类型的问题"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Interviewers are also looking for someone who is likely to stay with the organisation and progress within it. Prepare to answer questions about your ambitions for the future.",
+          "translation": "面试官也在寻找那些可能长期留在组织内并逐步晋升的人。\n准备好回答关于你未来抱负的问题。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "You may also be asked to account for gaps in your career history. if you have any.Be positive and accentuate the learning or experience you gained during these periods.",
+          "translation": "你也可能会被要求解释职业生涯中的空档期。\n如果有任何空档期，请保持积极态度，并强调你在这些时间段内获得的学识或经验。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Preparing your own questions",
+          "translation": "准备你自己的问题"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "• Do ask technical questions about software, systems and structures and how things are done.",
+          "translation": "• 一定要问关于软件、系统、结构以及工作方式的技术性问题。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "• Do ask about possibilities for training.",
+          "translation": "• 一定要询问培训的可能性。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "• Don't ask about salary unless you have been offered the job.",
+          "translation": "• 除非你已经拿到这份工作，否则不要询问薪资。"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "When you've prepared as much as this,you've got a good chance of success.",
+          "translation": "当你准备得如此充分时，你就有很大的成功机会。"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "Good luck!",
+          "translation": "祝你好运！"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "Setting up your own business",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "创办自己的企业"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "Here are some ideas about how you should start:",
+          "translation": "以下是一些关于如何开始的建议："
+        },
+        {
+          "label": "",
+          "index": 29,
+          "text": "Know your market",
+          "translation": "了解你的市场"
+        },
+        {
+          "label": "",
+          "index": 30,
+          "text": "So you know what you want to sell - the most important thing is that it should be something that people want to buy. Start by thinking about who your target customers are. Are they people who live locally? Are they a particular group of people?",
+          "translation": "因此，你知道自己想卖什么——最重要的是，它应该是人们想要购买的东西。\n首先，思考你的目标客户是谁。\n他们是居住在本地的人吗？\n他们是特定的一群人吗？"
+        },
+        {
+          "label": "",
+          "index": 31,
+          "text": "Now look at your competitors.What is different about what you will be doing and how will you persuade people to come to you instead of going to someone who is already established?",
+          "translation": "现在来看看你的竞争对手。\n你将要从事的工作有什么不同之处，以及你将如何说服人们选择你而非一个已经站稳脚跟的对手？"
+        },
+        {
+          "label": "",
+          "index": 32,
+          "text": "How will you reach the customers?",
+          "translation": "你将如何接触到客户？"
+        },
+        {
+          "label": "",
+          "index": 33,
+          "text": "Will you promote your product by phoning people, or visiting local traders, or advertising in magazines or online? will your delivery system be direct or through shops?",
+          "translation": "你会通过打电话给人们、拜访当地商家、在杂志或网络上做广告来推广你的产品吗？\n你的配送系统会是直接送货还是通过商店进行？"
+        },
+        {
+          "label": "",
+          "index": 34,
+          "text": "How will your business work?",
+          "translation": "你的业务将如何运作？"
+        },
+        {
+          "label": "",
+          "index": 35,
+          "text": "Now think about what your business needs to succeed. Do you need to look for premises or can you work from home? Do you need to invest in manufacturing equipment to start with?",
+          "translation": "现在思考一下你的企业需要什么才能成功。\n你是否需要寻找经营场所，还是可以在家工作？\n你一开始是否需要投资购买生产设备？"
+        },
+        {
+          "label": "",
+          "index": 36,
+          "text": "Is the business something that you can do on your own, or if you get more work will you be looking to recruit staff? If so, what skills would they need?",
+          "translation": "这项业务是你自己就能完成的，还是说如果工作量增加，你会考虑招聘员工？\n如果是这样，他们需要具备哪些技能？"
+        },
+        {
+          "label": "",
+          "index": 37,
+          "text": "Whether you're a sole operator or are looking to recruit a team, effective management is essential.The law regulates how companies are run and you need to set aside the time to see that this is done properly, in relation to issues like accounting, insurance and tax.",
+          "translation": "无论你是独自经营者，还是打算招募团队，有效的管理至关重要。\n法律规范了公司的运营方式，你需要留出时间确保在会计、保险和税务等问题上依法妥善执行。"
+        },
+        {
+          "label": "",
+          "index": 38,
+          "text": "The money!",
+          "translation": "资金呢！"
+        },
+        {
+          "label": "",
+          "index": 39,
+          "text": "As you are working out the prices for your products, you need to make sure you build in all your costs.Remember you will probably need help from an accountant at least once a year, so build that in too, and do a forecast of how much money you think will flow in and out of the business.",
+          "translation": "在计算产品价格时，你需要确保将所有成本都纳入其中。\n记住，你很可能至少需要每年请一次会计师帮忙，所以也要把这一点考虑进去，并预测你认为企业将有多少资金进出。"
+        },
+        {
+          "label": "",
+          "index": 40,
+          "text": "Look at what you expect to happen over the next three years - and work out what you need to do to break even, as well as the turnover that you hope to achieve to give you a profit. If you think you will need to find some funding to help get the business of the ground, how much will you need and who will you approach to get it?",
+          "translation": "审视你对未来三年内可能发生的情况的预期，并计算出为了实现收支平衡你需要做些什么，以及你希望达到的营业额，从而为你带来利润。\n如果你认为需要找到一些资金来帮助启动业务，那么你需要多少资金，以及你会向谁寻求获取这些资金？"
+        },
+        {
+          "label": "",
+          "index": 41,
+          "text": "Your business plan",
+          "translation": "你的商业计划"
+        },
+        {
+          "label": "",
+          "index": 42,
+          "text": "Now write it all up and call it a business plan.",
+          "translation": "现在把所有内容整理成文，并将其称为商业计划。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15857",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 21\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120621",
+              "number": 15,
+              "prompt": "By preparing for your interview, you will gain _____ which will help you present yourself well.",
+              "options": [],
+              "answer": "confidence",
+              "accepted_answers": [
+                "confidence"
+              ],
+              "analysis": "题干中的“gain... which will help you present yourself well”对应原文中的“If you're well prepared, you will have more confidence and this will affect the way you come across”。其中，“present yourself well”与“the way you come across”为同义表达，而空格处所填的“confidence”正是准备面试所带来的直接结果，因此答案为 confidence。",
+              "reason": "直接定位",
+              "location_analysis": "题干'gain...which will help you present yourself...",
+              "paraphrasing": "present yourself well -> the way you come across",
+              "keywords": "prepare, confidence, present yourself well",
+              "evidence": [
+                "If you're well prepared, you will have more confidence and this will affect the way you come across."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120622",
+              "number": 16,
+              "prompt": "Read through any documents you have received about the company and also go to their _____.",
+              "options": [],
+              "answer": "website",
+              "accepted_answers": [
+                "website"
+              ],
+              "analysis": "题干要求填写公司相关信息的获取渠道，对应原文“Visit the website and read any materials that you have been sent”。题干中“go to their...”与原文“Visit the website”形成直接对应，且“read through any documents”与“read any materials”意思一致，因此答案为 website。",
+              "reason": "直接定位",
+              "location_analysis": "题干'go to their website'与原文'Visit the website'直接对应。",
+              "paraphrasing": "read through any documents -> read any materials; go to their website -> Visit the website",
+              "keywords": "documents, company, website",
+              "evidence": [
+                "Visit the website and read any materials that you have been sent."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120623",
+              "number": 17,
+              "prompt": "Check the job description to find out what _____ are involved in the post you have applied for.",
+              "options": [],
+              "answer": "duties",
+              "accepted_answers": [
+                "duties"
+              ],
+              "analysis": "题干询问职位所涉及的内容，原文明确指出：“Ask for a job description or specification. This will tell you the duties that go with the job.” 其中，“duties”即为该职位所包含的工作职责，与题干“what... are involved in the post”完全对应，因此答案是 duties。",
+              "reason": "直接定位",
+              "location_analysis": "原文'This will tell you the duties that go with t...",
+              "paraphrasing": "check the job description -> Ask for a job description; find out what duties -> This will tell you the duties that go with the job.",
+              "keywords": "job description, duties",
+              "evidence": [
+                "Ask for a job description or specification. This will tell you the duties that go with the job."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120624",
+              "number": 18,
+              "prompt": "Interviewers may be interested to hear about any unpaid help you have given to a _____.",
+              "options": [],
+              "answer": "charity",
+              "accepted_answers": [
+                "charity"
+              ],
+              "analysis": "题干提到“any unpaid help you have given to a...”，对应原文“You can also outline any voluntary work you have done for a charity”。其中，“unpaid help”与“voluntary work”为同义替换，“given to a charity”与“for a charity”结构一致，因此答案为 charity。",
+              "reason": "直接定位",
+              "location_analysis": "原文'any voluntary work you have done for a chari...",
+              "paraphrasing": "any unpaid help -> any voluntary work; given to a charity -> for a charity",
+              "keywords": "unpaid help, charity",
+              "evidence": [
+                "You can also outline any voluntary work you have done for a charity, or any experience of paid work in an unrelated sector."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120625",
+              "number": 19,
+              "prompt": "Be ready to talk about your _____ for the development of your career.",
+              "options": [],
+              "answer": "ambitions",
+              "accepted_answers": [
+                "ambitions"
+              ],
+              "analysis": "题干要求填写与职业发展相关的个人规划，原文提到“Prepare to answer questions about your ambitions for the future”。其中，“ambitions for the future”与题干中“your... for the development of your career”意思相符，因此答案是 ambitions。",
+              "reason": "直接定位",
+              "location_analysis": "原文'Prepare to answer questions about your ambit...",
+              "paraphrasing": "talk about your ambitions -> Prepare to answer questions about your ambitions",
+              "keywords": "ambitions, career, development",
+              "evidence": [
+                "Prepare to answer questions about your ambitions for the future."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120626",
+              "number": 20,
+              "prompt": "Explain any _____ that there are in your work record and clarify how you used the time to improve your skills.",
+              "options": [],
+              "answer": "gaps",
+              "accepted_answers": [
+                "gaps"
+              ],
+              "analysis": "题干中的“explain any... that there are in your work record”对应原文“You may also be asked to account for gaps in your career history”。其中，“gaps”指工作经历中的空白期，“work record”与“career history”为同义表达，因此答案为 gaps。",
+              "reason": "直接定位",
+              "location_analysis": "原文'account for gaps in your career history'对应题干...",
+              "paraphrasing": "explain any gaps -> account for gaps; work record -> career history",
+              "keywords": "gaps, work record, explain",
+              "evidence": [
+                "You may also be asked to account for gaps in your career history."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120627",
+              "number": 21,
+              "prompt": "Questions about _____ should be delayed until a later stage.",
+              "options": [],
+              "answer": "salary",
+              "accepted_answers": [
+                "salary"
+              ],
+              "analysis": "题干指出关于某话题的问题应推迟到后期，原文明确说明“Don't ask about salary unless you have been offered the job”，即薪资问题应在获得录用后再提出。这与题干“should be delayed until a later stage”完全吻合，因此答案是 salary。",
+              "reason": "直接定位",
+              "location_analysis": "原文'Don't ask about salary unless you have been...",
+              "paraphrasing": "questions about salary -> Don't ask about salary; delayed until a later stage -> unless you have been offered the job",
+              "keywords": "questions, salary, delayed",
+              "evidence": [
+                "Don't ask about salary unless you have been offered the job."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "By preparing for your interview, you will gain $120621$ which will help you present yourself well.\nRead through any documents you have received about the company and also go to their $120622$.\nCheck the job description to find out what $120623$ are involved in the post you have applied for.\nInterviewers may be interested to hear about any unpaid help you have given to a $120624$.\nBe ready to talk about your $120625$ for the development of your career.\nExplain any $120626$ that there are in your work record and clarify how you used the time to improve your skills.\nQuestions about $120627$ should be delayed until a later stage.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "By preparing for your interview, you will gain $120621$ which will help you present yourself well.\nRead through any documents you have received about the company and also go to their $120622$.\nCheck the job description to find out what $120623$ are involved in the post you have applied for.\nInterviewers may be interested to hear about any unpaid help you have given to a $120624$.\nBe ready to talk about your $120625$ for the development of your career.\nExplain any $120626$ that there are in your work record and clarify how you used the time to improve your skills.\nQuestions about $120627$ should be delayed until a later stage."
+        },
+        {
+          "id": "15859",
+          "type": 8,
+          "title": "Step 1:",
+          "instructions": "Questions 22 - 27\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120628",
+              "number": 22,
+              "prompt": "Decide who you are going to sell to and compare yourself with the _____ you are going to have.",
+              "options": [],
+              "answer": "competitors",
+              "accepted_answers": [
+                "competitors"
+              ],
+              "analysis": "题干中的“compare yourself with the... you are going to have”对应原文“Now look at your competitors”。文中进一步解释要思考如何吸引顾客选择你而非已有的竞争者，说明空格处应填 competitors，与题干逻辑和词汇完全匹配。",
+              "reason": "直接定位",
+              "location_analysis": "原文'Now look at your competitors'对应题干'compare yo...",
+              "paraphrasing": "compare yourself with the competitors -> look at your competitors; you are going to have -> who is already established",
+              "keywords": "competitors, compare",
+              "evidence": [
+                "Now look at your competitors.What is different about what you will be doing and how will you persuade people to come to you instead of going to someone who is already established?"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120629",
+              "number": 23,
+              "prompt": "Consider how you will market your product and your method of _____.",
+              "options": [],
+              "answer": "delivery",
+              "accepted_answers": [
+                "delivery"
+              ],
+              "analysis": "题干询问产品推广及某种“method”的方式，原文提到“Will your delivery system be direct or through shops?”，其中“delivery system”即指产品的配送方式，与题干中“method of...”对应，因此答案为 delivery。",
+              "reason": "直接定位",
+              "location_analysis": "原文'Will your delivery system be direct or throu...",
+              "paraphrasing": "method of delivery -> delivery system",
+              "keywords": "delivery, method",
+              "evidence": [
+                "Will your delivery system be direct or through shops?"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120630",
+              "number": 24,
+              "prompt": "Decide if you will have to find _____ to work in, or buy equipment.",
+              "options": [],
+              "answer": "premises",
+              "accepted_answers": [
+                "premises"
+              ],
+              "analysis": "题干问是否需要寻找地方开展业务，原文写道“Do you need to look for premises or can you work from home?”，其中“premises”指营业场所，与题干“find... to work in”形成直接对应，因此答案是 premises。",
+              "reason": "直接定位",
+              "location_analysis": "原文'Do you need to look for premises'对应题干。",
+              "paraphrasing": "find premises to work in -> look for premises; or buy equipment -> or can you work from home? Do you need to invest in manufacturing equipment",
+              "keywords": "premises, work in",
+              "evidence": [
+                "Do you need to look for premises or can you work from home? Do you need to invest in manufacturing equipment to start with?"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120631",
+              "number": 25,
+              "prompt": "Make sure you deal with the accounts and other essentials in accordance with the _____.",
+              "options": [],
+              "answer": "law",
+              "accepted_answers": [
+                "law"
+              ],
+              "analysis": "题干要求填写需依照什么处理账务等事务，原文指出“The law regulates how companies are run... in relation to issues like accounting, insurance and tax”，说明企业运营必须依法进行，因此“in accordance with the law”对应原文，答案为 law。",
+              "reason": "直接定位",
+              "location_analysis": "原文'The law regulates how companies are run'对应题干。",
+              "paraphrasing": "in accordance with the law -> The law regulates; deal with the accounts and other essentials -> issues like accounting, insurance and tax",
+              "keywords": "law, accordance with",
+              "evidence": [
+                "The law regulates how companies are run and you need to set aside the time to see that this is done properly, in relation to issues like accounting, insurance and tax."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120632",
+              "number": 26,
+              "prompt": "Calculate all the _____ involved in your business when deciding how much to charge.",
+              "options": [],
+              "answer": "costs",
+              "accepted_answers": [
+                "costs"
+              ],
+              "analysis": "题干提到定价时需计算所有相关项目，原文明确说“As you are working out the prices for your products, you need to make sure you build in all your costs”，其中“costs”即为定价时必须包含的所有支出，与题干“all the... involved”对应，故答案为 costs。",
+              "reason": "直接定位",
+              "location_analysis": "原文'you need to make sure you build in all your ...",
+              "paraphrasing": "calculate all the costs involved -> make sure you build in all your costs; when deciding how much to charge -> working out the prices for your products",
+              "keywords": "costs, involved, charging",
+              "evidence": [
+                "As you are working out the prices for your products, you need to make sure you build in all your costs."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120633",
+              "number": 27,
+              "prompt": "Consider if you require any _____ to start your business, and where to find it.",
+              "options": [],
+              "answer": "funding",
+              "accepted_answers": [
+                "funding"
+              ],
+              "analysis": "题干询问创业初期是否需要某种支持，原文提到“If you think you will need to find some funding to help get the business off the ground...”，其中“funding”指启动资金，与题干“require any... to start your business”完全对应，因此答案是 funding。",
+              "reason": "直接定位",
+              "location_analysis": "原文'If you think you will need to find some fund...",
+              "paraphrasing": "require any funding to start your business -> need to find some funding to help get the business of the ground",
+              "keywords": "funding, start business",
+              "evidence": [
+                "If you think you will need to find some funding to help get the business of the ground, how much will you need and who will you approach to get it?"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Decide who you are going to sell to and compare yourself with the $120628$ you are going to have.\nStep 2:\nConsider how you will market your product and your method of $120629$.\nStep 3:\nDecide if you will have to find $120630$ to work in, or buy equipment.\nStep 4:\nThink whether you will need to take on staff as your business grows.\nStep 5:\nMake sure you deal with the accounts and other essentials in accordance with the $120631$.\nStep 6:\nCalculate all the $120632$ involved in your business when deciding how much to charge.\nStep 7:\nCalculate the turnover you are aiming for in order to make a profit in the first three years.\nStep 8:\nConsider if you require any $120633$ to start your business, and where to find it.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Decide who you are going to sell to and compare yourself with the $120628$ you are going to have.\nStep 2:\nConsider how you will market your product and your method of $120629$.\nStep 3:\nDecide if you will have to find $120630$ to work in, or buy equipment.\nStep 4:\nThink whether you will need to take on staff as your business grows.\nStep 5:\nMake sure you deal with the accounts and other essentials in accordance with the $120631$.\nStep 6:\nCalculate all the $120632$ involved in your business when deciding how much to charge.\nStep 7:\nCalculate the turnover you are aiming for in order to make a profit in the first three years.\nStep 8:\nConsider if you require any $120633$ to start your business, and where to find it."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "How to prepare for an interview",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Why prepare?",
+          "translation": "为什么要准备？"
+        },
+        {
+          "index": 2,
+          "sentence": "There are three main reasons.",
+          "translation": "主要有三个原因。"
+        },
+        {
+          "index": 3,
+          "sentence": "One: Although you can't guess every question you might be asked, if you are prepared you can tailor your answers to fit.",
+          "translation": "首先，尽管你无法猜测所有可能被问到的问题，但如果你有所准备，就可以调整自己的回答来适应具体情况。"
+        },
+        {
+          "index": 4,
+          "sentence": "Two: If you're well prepared, you will have more confidence and this will affect the way you come across.",
+          "translation": "第二：如果你准备充分，你会更有自信，而这会影响你给人留下的印象。"
+        },
+        {
+          "index": 5,
+          "sentence": "Three: Attitude matters.",
+          "translation": "第三：态度至关重要。"
+        },
+        {
+          "index": 6,
+          "sentence": "Prospective employers will choose a not-quite-perfect but willing candidate over a brilliant one who obviously isn't bothered.",
+          "translation": "未来的雇主会选择一位并非完美但态度积极的应聘者，而不是一位才华横溢却显然漠不关心的人。"
+        },
+        {
+          "index": 7,
+          "sentence": "What to prepare?",
+          "translation": "该准备什么？"
+        },
+        {
+          "index": 8,
+          "sentence": "Find out about the organisation",
+          "translation": "了解该组织的情况"
+        },
+        {
+          "index": 9,
+          "sentence": "Visit the website and read any materials that you have been sent.",
+          "translation": "访问网站并阅读你已收到的任何材料。"
+        },
+        {
+          "index": 10,
+          "sentence": "If nothing has been sent, phone the company to ask for any reading matter they may have.",
+          "translation": "如果什么也没收到，就打电话给公司询问他们可能有的任何阅读资料。"
+        },
+        {
+          "index": 11,
+          "sentence": "• Talk to anyone you know who works there already.",
+          "translation": "• 与你认识并已在该机构工作的人交谈。"
+        },
+        {
+          "index": 12,
+          "sentence": "Find out about the job",
+          "translation": "了解这份工作的内容"
+        },
+        {
+          "index": 13,
+          "sentence": "• Ask for a job description or specification.",
+          "translation": "• 索要一份职位描述或工作规范。"
+        },
+        {
+          "index": 14,
+          "sentence": "This will tell you the duties that go with the job.",
+          "translation": "这会告诉你这份工作所涉及的职责。"
+        },
+        {
+          "index": 15,
+          "sentence": "• Talk to anyone you know who is familiar with the work you may be doing.",
+          "translation": "• 与你认识的、熟悉你可能从事的工作的人交谈。"
+        },
+        {
+          "index": 16,
+          "sentence": "Find out what the employer is looking for",
+          "translation": "了解雇主在寻找什么样的人才"
+        },
+        {
+          "index": 17,
+          "sentence": "• Make a list of the skills specified in the job advertisement.",
+          "translation": "• 列出工作广告中明确要求的技能。"
+        },
+        {
+          "index": 18,
+          "sentence": "• Think of examples to back up claims that you have these skills.",
+          "translation": "• 想出实例来支持你拥有这些技能的说法。"
+        },
+        {
+          "index": 19,
+          "sentence": "You can then answer most of the questions that will come up, such as 'Tell me more about how you work in a team'.",
+          "translation": "这样一来，你就能回答大部分可能出现的问题，比如‘请详细说说你在团队中是如何工作的’。"
+        },
+        {
+          "index": 20,
+          "sentence": "Add in a few 'lessons learned' - what you did and how you might have done it better.",
+          "translation": "加入一些‘经验教训’——你做了什么以及你可能如何做得更好。"
+        },
+        {
+          "index": 21,
+          "sentence": "You can also outline any voluntary work you have done for a charity, or any experience of paid work in an unrelated sector.",
+          "translation": "你还可以概述你为慈善机构所做的任何志愿工作，或者在任何不相关领域的有偿工作经历。"
+        },
+        {
+          "index": 22,
+          "sentence": "Preparing for other kinds of questions",
+          "translation": "准备其他类型的问题"
+        },
+        {
+          "index": 23,
+          "sentence": "Interviewers are also looking for someone who is likely to stay with the organisation and progress within it.",
+          "translation": "面试官也在寻找那些可能长期留在组织内并逐步晋升的人。"
+        },
+        {
+          "index": 24,
+          "sentence": "Prepare to answer questions about your ambitions for the future.",
+          "translation": "准备好回答关于你未来抱负的问题。"
+        },
+        {
+          "index": 25,
+          "sentence": "You may also be asked to account for gaps in your career history.",
+          "translation": "你也可能会被要求解释职业生涯中的空档期。"
+        },
+        {
+          "index": 26,
+          "sentence": "if you have any.Be positive and accentuate the learning or experience you gained during these periods.",
+          "translation": "如果有任何空档期，请保持积极态度，并强调你在这些时间段内获得的学识或经验。"
+        },
+        {
+          "index": 27,
+          "sentence": "Preparing your own questions",
+          "translation": "准备你自己的问题"
+        },
+        {
+          "index": 28,
+          "sentence": "• Do ask technical questions about software, systems and structures and how things are done.",
+          "translation": "• 一定要问关于软件、系统、结构以及工作方式的技术性问题。"
+        },
+        {
+          "index": 29,
+          "sentence": "• Do ask about possibilities for training.",
+          "translation": "• 一定要询问培训的可能性。"
+        },
+        {
+          "index": 30,
+          "sentence": "• Don't ask about salary unless you have been offered the job.",
+          "translation": "• 除非你已经拿到这份工作，否则不要询问薪资。"
+        },
+        {
+          "index": 31,
+          "sentence": "When you've prepared as much as this, you've got a good chance of success.",
+          "translation": "当你准备得如此充分时，你就有很大的成功机会。"
+        },
+        {
+          "index": 32,
+          "sentence": "Good luck!",
+          "translation": "祝你好运！"
+        },
+        {
+          "index": 33,
+          "sentence": "Setting up your own business",
+          "translation": "创办自己的企业"
+        },
+        {
+          "index": 34,
+          "sentence": "Here are some ideas about how you should start:",
+          "translation": "以下是一些关于如何开始的建议："
+        },
+        {
+          "index": 35,
+          "sentence": "Know your market",
+          "translation": "了解你的市场"
+        },
+        {
+          "index": 36,
+          "sentence": "So you know what you want to sell - the most important thing is that it should be something that people want to buy.",
+          "translation": "因此，你知道自己想卖什么——最重要的是，它应该是人们想要购买的东西。"
+        },
+        {
+          "index": 37,
+          "sentence": "Start by thinking about who your target customers are.",
+          "translation": "首先，思考你的目标客户是谁。"
+        },
+        {
+          "index": 38,
+          "sentence": "Are they people who live locally?",
+          "translation": "他们是居住在本地的人吗？"
+        },
+        {
+          "index": 39,
+          "sentence": "Are they a particular group of people?",
+          "translation": "他们是特定的一群人吗？"
+        },
+        {
+          "index": 40,
+          "sentence": "Now look at your competitors.",
+          "translation": "现在来看看你的竞争对手。"
+        },
+        {
+          "index": 41,
+          "sentence": "What is different about what you will be doing and how will you persuade people to come to you instead of going to someone who is already established?",
+          "translation": "你将要从事的工作有什么不同之处，以及你将如何说服人们选择你而非一个已经站稳脚跟的对手？"
+        },
+        {
+          "index": 42,
+          "sentence": "How will you reach the customers?",
+          "translation": "你将如何接触到客户？"
+        },
+        {
+          "index": 43,
+          "sentence": "Will you promote your product by phoning people, or visiting local traders, or advertising in magazines or online?",
+          "translation": "你会通过打电话给人们、拜访当地商家、在杂志或网络上做广告来推广你的产品吗？"
+        },
+        {
+          "index": 44,
+          "sentence": "will your delivery system be direct or through shops?",
+          "translation": "你的配送系统会是直接送货还是通过商店进行？"
+        },
+        {
+          "index": 45,
+          "sentence": "How will your business work?",
+          "translation": "你的业务将如何运作？"
+        },
+        {
+          "index": 46,
+          "sentence": "Now think about what your business needs to succeed.",
+          "translation": "现在思考一下你的企业需要什么才能成功。"
+        },
+        {
+          "index": 47,
+          "sentence": "Do you need to look for premises or can you work from home?",
+          "translation": "你是否需要寻找经营场所，还是可以在家工作？"
+        },
+        {
+          "index": 48,
+          "sentence": "Do you need to invest in manufacturing equipment to start with?",
+          "translation": "你一开始是否需要投资购买生产设备？"
+        },
+        {
+          "index": 49,
+          "sentence": "Is the business something that you can do on your own, or if you get more work will you be looking to recruit staff?",
+          "translation": "这项业务是你自己就能完成的，还是说如果工作量增加，你会考虑招聘员工？"
+        },
+        {
+          "index": 50,
+          "sentence": "If so, what skills would they need?",
+          "translation": "如果是这样，他们需要具备哪些技能？"
+        },
+        {
+          "index": 51,
+          "sentence": "Whether you're a sole operator or are looking to recruit a team, effective management is essential.",
+          "translation": "无论你是独自经营者，还是打算招募团队，有效的管理至关重要。"
+        },
+        {
+          "index": 52,
+          "sentence": "The law regulates how companies are run and you need to set aside the time to see that this is done properly, in relation to issues like accounting, insurance and tax.",
+          "translation": "法律规范了公司的运营方式，你需要留出时间确保在会计、保险和税务等问题上依法妥善执行。"
+        },
+        {
+          "index": 53,
+          "sentence": "The money!",
+          "translation": "资金呢！"
+        },
+        {
+          "index": 54,
+          "sentence": "As you are working out the prices for your products, you need to make sure you build in all your costs.",
+          "translation": "在计算产品价格时，你需要确保将所有成本都纳入其中。"
+        },
+        {
+          "index": 55,
+          "sentence": "Remember you will probably need help from an accountant at least once a year, so build that in too, and do a forecast of how much money you think will flow in and out of the business.",
+          "translation": "记住，你很可能至少需要每年请一次会计师帮忙，所以也要把这一点考虑进去，并预测你认为企业将有多少资金进出。"
+        },
+        {
+          "index": 56,
+          "sentence": "Look at what you expect to happen over the next three years - and work out what you need to do to break even, as well as the turnover that you hope to achieve to give you a profit.",
+          "translation": "审视你对未来三年内可能发生的情况的预期，并计算出为了实现收支平衡你需要做些什么，以及你希望达到的营业额，从而为你带来利润。"
+        },
+        {
+          "index": 57,
+          "sentence": "If you think you will need to find some funding to help get the business of the ground, how much will you need and who will you approach to get it?",
+          "translation": "如果你认为需要找到一些资金来帮助启动业务，那么你需要多少资金，以及你会向谁寻求获取这些资金？"
+        },
+        {
+          "index": 58,
+          "sentence": "Your business plan",
+          "translation": "你的商业计划"
+        },
+        {
+          "index": 59,
+          "sentence": "Now write it all up and call it a business plan.",
+          "translation": "现在把所有内容整理成文，并将其称为商业计划。"
+        }
+      ]
+    },
+    {
+      "id": "2104",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Understanding hares",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "With its wild stare,swift speed and secretive nature, the UK's brown hare is the rabbit's mysterious cousin. Even in these days of agricultural intensification, the hare is still to be seen in open countryside, but its numbers are falling.",
+          "translation": "凭借其狂野的眼神、敏捷的速度和隐秘的天性，英国的棕兔是兔子神秘的表亲。\n即使在农业集约化的今天，野兔仍然可以在开阔的乡村看到，但它们的数量正在下降。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Like many herbivores, brown hares spend a relatively large amount of their time feeding.They prefer to do this in the dark, but when nights are short, their activities do spill into daylight hours. Wherever they live, hares appear to have a fondness for fields with a variety of vegetation, for example short as well as longer clumps of grasses.Studies have demonstrated that they benefit from uncultivated land and other unploughed areas on farms,such as field margins.Therefore, if farmers provided patches of woodland in areas of pasture as well as assorted crops in arable areas, there would be year-round shelter and food, and this could be the key to turning round the current decline in hare populations.",
+          "translation": "与许多食草动物一样，棕兔花费相对大量的时间觅食。\n它们更喜欢在黑暗中觅食，但当夜晚较短时，它们的活动会延伸到白天。\n无论生活在哪里，野兔似乎都喜欢植被多样的田野，例如既有短草也有较高的草丛。\n研究表明，它们受益于未开垦的土地和农场中其他未耕种的区域，比如田埂边。\n因此，如果农民在牧区提供小块林地，并在可耕地区种植多种作物，就会有全年的庇护所和食物，这可能是扭转当前野兔数量下降的关键。\n像许多食草动物一样，棕色野兔花费相对较多的时间进食。\n它们更喜欢在黑暗中进食，但当夜晚较短时，它们的行为确实会延续到白天。\n无论生活在哪里，野兔似乎偏爱植被多样的田地，例如既有短草也有较长草丛的草地。\n研究表明，它们受益于农场中的未耕地和其他未翻耕的区域，比如田边地带。\n因此，如果农民在牧场区域提供小块林地，并在可耕地种植多样作物，野兔将拥有全年的庇护所和食物，这可能是扭转当前野兔种群数量下降的关键。\n它们更喜欢在黑暗中进食，但当夜晚短暂的时候，它们的活动确实会延续到白天。\n无论生活在何处，野兔似乎都偏爱植被多样的田地，例如既有短草也有较长草丛的草地。\n研究表明，它们从农场中的未耕地和其他未耕作区域（例如田埂边缘）获益。\n因此，如果农民在牧场地区提供小块林地，并在可耕地地区提供多样化的作物，全年都会有遮蔽物和食物，这可能是扭转当前野兔数量下降的关键。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Brown hares have a number of physical adaptations that enable them to survive in open countryside.They have exceptionally large ears that move independently, so that a range of sounds can be pinpointed accurately.Positioned high up on their heads, the hares' large golden eyes give them 360°vision,making it hard to take a hare by surprise. Compared to mammals of a similar size, hares have a greatly enlarged heart and a higher volume of blood in their bodies, and this allows for superior speed and stamina. In addition, their legs are longer than those of a rabbit, enabling hares to run more like a dog and reach speeds of up to 70 kph.",
+          "translation": "棕色野兔拥有许多身体上的适应性特征，使它们能够在开阔乡村中生存。\n它们的耳朵异常大且能独立活动，因此可以精确定位各种声音。\n野兔的的金色大眼睛高高位于头部两侧，赋予它们360度的视野，使它们很难被偷袭。\n与类似大小的哺乳动物相比，野兔的心脏显著增大，体内血量更多，这使它们拥有卓越的速度和耐力。\n此外，它们的腿比兔子更长，使野兔能像狗一样奔跑，并达到高达每小时70公里的速度。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Brown hares have unusual lifestyles for their large size, breeding from a young age and producing many leverets (babies).There are about three litters of up to four leverets every year. Both males and females are able to breed at about seven months old, but they have to be quick because they seldom live for more than two years.The breeding season runs from January to October, and by late February most females are pregnant or giving birth to their first litter of the year. So it seems strange, therefore, that it is in March, when the breeding season is already underway, that hares seemingly go mad: boxing, dancing, running and fighting.This has given rise to the age-old reference to 'mad March hares'. In fact, boxing occurs throughout the breeding season, but people tend to see this behaviour more often in March.This is because in the succeeding months, dusk - the time when hares are most active - is later, when fewer people are about.Crops and vegetation are also taller, hiding the hares from view. Though it is often thought that they are males fighting over females, boxing hares are usually females fighting off males.Hares are mostly solitary, but a female fights off a series of males until she is ready to mate.This occurs several times through the breeding season because, as soon as the female has given birth, she will be ready to mate again.",
+          "translation": "棕色野兔因其体型较大而拥有不同寻常的生活方式，它们从幼年就开始繁殖，并产下许多幼兔。\n每年大约会有三窝幼兔，每窝最多四只。\n雄性和雌性野兔大约在七个月大时就能繁殖，但它们必须抓紧时间，因为它们的寿命很少超过两年。\n繁殖季节从一月持续到十月，到二月下旬，大多数雌兔已经怀孕或正在产下当年的第一窝幼兔。\n因此，奇怪的是，在三月这个繁殖季节已经开始的时候，野兔似乎变得疯狂起来：打斗、跳跃、奔跑和撕咬。\n这引发了古老的谚语“疯狂的三月野兔”。\n事实上，打斗行为在整个繁殖季节都会发生，但人们往往在三月更常看到这种行为。\n这是因为在接下来的月份里，黄昏——野兔最活跃的时间——来得更晚，此时外出的人更少。\n农作物和植被也长得更高，遮挡了野兔的身影。\n尽管人们通常认为打斗的是雄兔在争夺雌兔，但实际打斗的野兔通常是雌兔在击退雄兔。\n野兔大多独居，但雌兔会击退一连串的雄兔，直到她准备好交配。\n这种情况在繁殖季节会发生多次，因为雌兔一旦产下幼崽，她就会准备好再次交配。\n棕色野兔体型较大，却有着不同寻常的生活方式，它们从小就开始繁殖，并且产下许多幼兔。\n雄性和雌性野兔大约在七个月大时就能繁殖，但它们必须抓紧时间，因为很少能活过两年。\n繁殖季节从一月持续到十月，到二月底，大多数雌兔已经怀孕或正在产下当年的第一窝幼崽。\n因此，令人奇怪的是，在繁殖季节已经开始的三月，野兔却似乎发疯了：它们拳击、跳舞、奔跑和打斗。\n这就产生了那句古老的谚语“疯狂的三月野兔”。\n事实上，拳击行为贯穿整个繁殖季节，但人们往往在三月更频繁地看到这种行为。\n这是因为在接下来的几个月里，黄昏——野兔最活跃的时间——来得更晚，此时周围人更少。\n作物和植被也更高了，遮挡了野兔的视线。\n虽然人们常以为它们是雄性在争夺雌性，但拳击的野兔通常是雌性在击退雄性。\n野兔大多独居，但雌兔会击退一连串的雄性，直到自己准备好交配。\n这种情况在整个繁殖季节会发生多次，因为雌兔一旦产仔，就马上准备好再次交配。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "But how can females manage to do this while simultaneously feeding themselves and rearing their young? The reason is that hares have evolved such self-sufficient young. Unlike baby rabbits, leverets are born furry and mobile. They weigh about100 g at birth and are immediately left to their own devices by their mothers. A few days later, the members of the litter creep away to create their own individual resting places, known as 'forms'. Incredibly, their mother visits them only once every 24 hours and, even then, she only suckles them for a maximum of five minutes each. This lack of family contact may seem harsh to us, but it is a strategy that draws less attention from predators.At the tender age of two weeks, leverets start to feed themselves, while still drinking their mother's milk. They grow swiftly and are fully weaned at four weeks, reaching adult weight at about six months.",
+          "translation": "但是雌性野兔如何能够在同时喂养自己和抚养幼崽的情况下做到这一点呢？\n原因是野兔进化出了如此自给自足的幼崽。\n与幼兔不同，小野兔出生时就有毛发且能活动。\n它们出生时体重约100克，并立即被母亲弃之不顾，任其自生自灭。\n几天后，同窝的幼崽们悄悄离开，各自建造自己单独的休息场所，称为“巢穴”。\n令人难以置信的是，它们的母亲每24小时只探望它们一次，即使如此，每次哺乳时间最多也只有五分钟。\n这种缺乏家庭联系的方式对我们来说似乎很残酷，但这是一种减少吸引捕食者注意的策略。\n在仅仅两周大的时候，小野兔就开始自己觅食，同时仍喝母亲的奶。\n它们生长迅速，四周大时完全断奶，大约六个月时达到成年体重。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Research has shown that hares' milk is extremely rich and fatty, so a little goes a long way. In order to produce such nutritious milk, females need a high-quality, high-calorie diet. Hares are selective feeders at the best of times: unlike many herbivores, they can't sit around waiting to digest low-quality food - they need high-energy herbs and other leaves in order to sprint. This causes them problems when faced with the smallest alterations in food availability and abundance. So, as well as reductions in the diversity of farmland habitat, the decline in the range of food plants is injurious to hares.",
+          "translation": "研究表明，野兔的乳汁极其丰富且富含脂肪，因此少量就能提供充足能量。\n为了产出如此营养的乳汁，雌性野兔需要高质量、高热量的饮食。\n即使在最佳时期，野兔也是选择性觅食者：与许多草食动物不同，它们不能坐等消化低质量食物——它们需要高能量的草本植物和其他叶子来奔跑。\n这在面对食物可获得性和丰富度的微小变化时会给他们带来问题。\n因此，除了农田栖息地多样性的减少，食物植物范围的下降也对野兔有害。\n研究表明，野兔的乳汁极其浓郁且富含脂肪，因此少量即可维持很久。\n为了产出如此营养丰富的乳汁，雌性野兔需要高质量、高热量的饮食。\n即使在最佳时期，野兔也是选择性觅食者：与许多食草动物不同，它们不能坐等消化低质量食物——它们需要高能量的草本植物和其他叶子才能进行冲刺。\n这使它们在面对食物可得性和丰富程度的最微小变化时就会遇到问题。\n因此，除了农田栖息地多样性的减少，食物植物种类的减少也对野兔有害。\n研究表明，野兔的乳汁极其丰富且富含脂肪，因此少量就足以维持很长时间。\n即使在最好的情况下，野兔也是挑剔的觅食者：与许多食草动物不同，它们不能坐等消化低质量的食物——它们需要高能量的草本植物和其他叶子才能快速奔跑。\n当食物可获得性和丰富度发生最微小的变化时，这就会给它们带来问题。\n因此，除了农田栖息地多样性的减少之外，食用植物范围的缩小也对野兔有害。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "The rapid turnaround in the breeding cycle suggests that hares should, in principle,be able to increase their populations quickly to exploit new habitats.They certainly used to: studies show that hares evolved on the open plains and spread rapidly westward from the Black Sea after the last ice age (though they were probably introduced to Britain as a species to be hunted for the pot by the Romans). But today's hares are thwarted by the lack of rich farmland habitat. When the delicate herbs and other plants they rely on are ploughed up or poisoned by herbicides,these wonderful, agile runners disappear too, taking with them some of the wildness from our lives.",
+          "translation": "繁殖周期的快速周转表明，从理论上讲，野兔应该能够迅速增加其数量以利用新的栖息地。\n它们过去确实如此：研究表明，野兔在开阔的平原上进化，并在上次冰河时代后从黑海迅速向西扩散（尽管它们可能是由罗马人作为烹饪狩猎物种引入英国的）。\n但如今的野兔因缺乏富饶的农田栖息地而受挫。\n当它们赖以生存的娇嫩草本植物和其他植物被犁翻或遭除草剂毒害时，这些美妙而敏捷的奔跑者也会消失，同时带走我们生活中的一些野性。\n繁殖周期的快速更替表明，理论上野兔应该能够迅速增加其种群数量，以利用新的栖息地。\n繁殖周期的快速转变表明，从理论上讲，野兔应该能够迅速增加其种群数量以利用新的栖息地。\n它们过去确实如此：研究表明，野兔在开阔平原上演化，并在上一个冰河时代后从黑海迅速向西扩散（尽管它们可能是被罗马人作为狩猎食用的物种引入英国的）。\n但如今的野兔因缺乏肥沃的农田栖息地而受挫。\n当它们赖以生存的娇嫩草本植物和其他植物被犁翻或遭除草剂毒害时，这些出色而敏捷的奔跑者也会消失，同时带走我们生活中的一些野性。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15861",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 33\nThe text has six sections.\nChoose the correct heading for each section and move it into the gap.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. The need for population reduction"
+            },
+            {
+              "value": "B",
+              "label": "B. The problem with being a fussy eater"
+            },
+            {
+              "value": "C",
+              "label": "C. Reproductive patterns"
+            },
+            {
+              "value": "D",
+              "label": "D. The need for further research"
+            },
+            {
+              "value": "E",
+              "label": "E. A possible solution to falling numbers"
+            },
+            {
+              "value": "F",
+              "label": "F. The fastest runners"
+            },
+            {
+              "value": "G",
+              "label": "G. A rather lonely beginning"
+            },
+            {
+              "value": "H",
+              "label": "H. A comparison between past and present survival rates"
+            },
+            {
+              "value": "I",
+              "label": "I. Useful physical features"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1158611",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The need for population reduction"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The problem with being a fussy eater"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Reproductive patterns"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The need for further research"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A possible solution to falling numbers"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The fastest runners"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A rather lonely beginning"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A comparison between past and present survival rates"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Useful physical features"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "第28题对应A段，该段末尾提出若农民提供林地斑块和多样化作物，可为野兔提供全年食物与庇护，从而“turning round the current decline in hare populations”。这明确指向一个应对数量下降的解决方案，与标题E“A possible solution to falling numbers”完全吻合。",
+              "reason": "段落提出解决下降问题的方案，与标题E吻合。",
+              "location_analysis": "A段末句提出方案：提供林地与多样化作物可扭转数量下降，对应标题E“数量下降的可行解决办法”。",
+              "paraphrasing": "falling numbers -> current decline; solution -> the key to turning round",
+              "keywords": "falling numbers, solution",
+              "evidence": [
+                "Therefore, if farmers provided patches of woodland in areas of pasture as well as assorted crops in arable areas, there would be year-round shelter and food, and this could be the key to turning round the current decline in hare populations."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1158612",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The need for population reduction"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The problem with being a fussy eater"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Reproductive patterns"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The need for further research"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A possible solution to falling numbers"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The fastest runners"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A rather lonely beginning"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A comparison between past and present survival rates"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Useful physical features"
+                }
+              ],
+              "answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "analysis": "第29题对应B段，该段详细描述野兔的多项身体特征：独立转动的大耳朵、360度视野的眼睛、增大的心脏和长腿，这些都属于帮助其在开阔乡村生存的“physical adaptations”。标题I“Useful physical features”准确概括了这些内容。",
+              "reason": "段落列举多种身体适应特征，与标题I吻合。",
+              "location_analysis": "B段详细介绍野兔的耳朵、眼睛、心脏和腿等身体特征，对应标题I“有用的身体特征”。",
+              "paraphrasing": "useful physical features -> physical adaptations; ears, eyes, heart, legs",
+              "keywords": "ears, eyes, legs, heart",
+              "evidence": [
+                "Brown hares have a number of physical adaptations that enable them to survive in open countryside.",
+                "They have exceptionally large ears that move independently, so that a range of sounds can be pinpointed accurately."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1158613",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The need for population reduction"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The problem with being a fussy eater"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Reproductive patterns"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The need for further research"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A possible solution to falling numbers"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The fastest runners"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A rather lonely beginning"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A comparison between past and present survival rates"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Useful physical features"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "第30题对应C段，该段集中讨论野兔的繁殖特点：早熟、年产三胎、每胎最多四只、发情期行为（如boxing）等，核心围绕其繁殖周期与行为模式。标题C“Reproductive patterns”恰当地总结了这一主题。",
+              "reason": "段落核心内容是繁殖相关，与标题C一致。",
+              "location_analysis": "C段讨论繁殖年龄、产仔数、发情周期和交配行为，对应标题C“繁殖模式”。",
+              "paraphrasing": "reproductive patterns -> breeding from a young age, producing many leverets, litters, mating",
+              "keywords": "breeding, reproducing",
+              "evidence": [
+                "Brown hares have unusual lifestyles for their large size, breeding from a young age and producing many leverets (babies).",
+                "There are about three litters of up to four leverets every year."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1158614",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The need for population reduction"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The problem with being a fussy eater"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Reproductive patterns"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The need for further research"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A possible solution to falling numbers"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The fastest runners"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A rather lonely beginning"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A comparison between past and present survival rates"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Useful physical features"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "第31题对应D段，该段强调幼崽出生后即独立，几天内便各自建立“forms”，母亲每天仅喂奶一次，且每次不超过五分钟，突出其早期生活的孤独性。标题G“A rather lonely beginning”精准捕捉了这一核心信息。",
+              "reason": "段落强调幼崽早期的独立与孤独，与标题G吻合。",
+              "location_analysis": "D段描述幼崽出生即独立、独自生活、母亲极少探望，对应标题G“相当孤独的开始”。",
+              "paraphrasing": "lonely beginning -> left to their own devices, create their own resting places, visited only once every 24 hours",
+              "keywords": "leverets, mother, left alone, forms",
+              "evidence": [
+                "Unlike baby rabbits, leverets are born furry and mobile.",
+                "A few days later, the members of the litter creep away to create their own individual resting places, known as 'forms'."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1158615",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The need for population reduction"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The problem with being a fussy eater"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Reproductive patterns"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The need for further research"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A possible solution to falling numbers"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The fastest runners"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A rather lonely beginning"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A comparison between past and present survival rates"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Useful physical features"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "第32题对应E段，该段指出野兔是“selective feeders”，依赖高能量植物，且对食物供应的微小变化极为敏感，导致生存困难。这正体现了“fussy eater”（挑剔食者）所面临的问题，与标题B“The problem with being a fussy eater”完全对应。",
+              "reason": "段落聚焦野兔挑剔的饮食习惯及其带来的困境，与标题B吻合。",
+              "location_analysis": "E段指出野兔是挑剔的食者，对食物变化敏感，导致生存问题，对应标题B“挑剔食者的问题”。",
+              "paraphrasing": "fussy eater -> selective feeders; problem -> problems when faced with the smallest alterations in food availability and abundance",
+              "keywords": "diet, selective feeders, food availability",
+              "evidence": [
+                "Hares are selective feeders at the best of times: unlike many herbivores, they can't sit around waiting to digest low-quality food - they need high-energy herbs and other leaves in order to sprint.",
+                "This causes them problems when faced with the smallest alterations in food availability and abundance."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "1158616",
+              "number": 33,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The need for population reduction"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The problem with being a fussy eater"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Reproductive patterns"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The need for further research"
+                },
+                {
+                  "value": "E",
+                  "label": "E. A possible solution to falling numbers"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The fastest runners"
+                },
+                {
+                  "value": "G",
+                  "label": "G. A rather lonely beginning"
+                },
+                {
+                  "value": "H",
+                  "label": "H. A comparison between past and present survival rates"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Useful physical features"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "第33题对应F段，该段先描述野兔过去如何“spread rapidly westward”扩张，再转折指出“today's hares are thwarted by the lack of rich farmland habitat”，形成今昔对比。标题H“A comparison between past and present survival rates”准确反映了这一结构与主旨。",
+              "reason": "段落核心对比古今生存情况，与标题H吻合。",
+              "location_analysis": "F段对比过去野兔迅速扩散与现今因栖息地匮乏而受限，对应标题H“过去与现在生存率的对比”。",
+              "paraphrasing": "past survival rates -> used to: studies show... spread rapidly; present survival rates -> today's hares are thwarted by the lack of rich farmland habitat",
+              "keywords": "past, spread rapidly, today's hares are thwarted",
+              "evidence": [
+                "They certainly used to: studies show that hares evolved on the open plains and spread rapidly westward from the Black Sea after the last ice age (though they were probably introduced to Britain as a species to be hunted for the pot by the Romans).",
+                "But today's hares are thwarted by the lack of rich farmland habitat."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "15863",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 34 - 36\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120640",
+              "number": 34,
+              "prompt": "According to the writer, what is the ideal habitat for hares?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "open grassland which they can run across"
+                },
+                {
+                  "value": "B",
+                  "label": "densely wooded areas to breed in"
+                },
+                {
+                  "value": "C",
+                  "label": "areas which include a range of vegetation"
+                },
+                {
+                  "value": "D",
+                  "label": "land that has been farmed intensively for years"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问野兔的理想栖息地，原文A段明确指出“hares appear to have a fondness for fields with a variety of vegetation”，即野兔偏好多样植被的田野。选项C“areas which include a range of vegetation”正是对此的同义改写，其中“range of vegetation”对应原文“variety of vegetation”，因此答案为C。",
+              "reason": "原文直接说明野兔偏好多样植被的田野，对应选项C。",
+              "location_analysis": "A段指出野兔喜爱有不同植被的田野，与选项C“包含多种植被的区域”一致。",
+              "paraphrasing": "ideal habitat -> have a fondness for fields with a variety of vegetation; range of vegetation -> variety of vegetation",
+              "keywords": "ideal habitat, variety of vegetation",
+              "evidence": [
+                "Wherever they live, hares appear to have a fondness for fields with a variety of vegetation, for example short as well as longer clumps of grasses."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "只提及开阔草地，但野兔需要多样化的植被环境。",
+                "B": "强调密林区域，但野兔偏好开阔和半开阔地带。",
+                "D": "长时间集约化耕作的土地，不符合野兔对栖息地的要求。"
+              }
+            },
+            {
+              "id": "120641",
+              "number": 35,
+              "prompt": "When leverets are living alone they are not visited often by their mother because",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "this helps to protect them from being eaten by other animals."
+                },
+                {
+                  "value": "B",
+                  "label": "the 'forms' are so far apart."
+                },
+                {
+                  "value": "C",
+                  "label": "they are very energetic from a surprisingly early age."
+                },
+                {
+                  "value": "D",
+                  "label": "they know how to find their own food from birth."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问为何幼崽独居时母亲很少探望。D段提到“their mother visits them only once every 24 hours”，并解释这种行为“is a strategy that draws less attention from predators”，即为了减少被捕食者发现的风险。选项A“this helps to protect them from being eaten by other animals”准确转述了这一逻辑，因此正确。",
+              "reason": "策略目的是减少捕食者注意，与选项A“保护它们不被吃掉”吻合。",
+              "location_analysis": "D段解释母亲极少探望幼崽是一种避免吸引捕食者的策略，对应选项A。",
+              "paraphrasing": "protect them -> draws less attention from predators; not visited often -> visited only once every 24 hours",
+              "keywords": "not visited often, protect from predators",
+              "evidence": [
+                "This lack of family contact may seem harsh to us, but it is a strategy that draws less attention from predators."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文并未提及‘forms’相距很远，属于无中生有。",
+                "C": "选项描述的是幼兔的活力，与母亲不常拜访的原因无关，属于答非所问。",
+                "D": "原文说幼兔出生时不能独立觅食，选项与事实矛盾。"
+              }
+            },
+            {
+              "id": "120642",
+              "number": 36,
+              "prompt": "What does the writer suggest about the adult hares' diet?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "They need some plants with a high fat content."
+                },
+                {
+                  "value": "B",
+                  "label": "They need time to digest the plants that they eat."
+                },
+                {
+                  "value": "C",
+                  "label": "lt is difficult for them to adapt to changes in vegetation."
+                },
+                {
+                  "value": "D",
+                  "label": "lt is vital for them to have a' supply of one particular herb."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问成年野兔饮食的特点。E段指出野兔是“selective feeders”，且“causes them problems when faced with the smallest alterations in food availability and abundance”，说明它们难以适应食物供应的微小变化。选项C“lt is difficult for them to adapt to changes in vegetation”正是对此的合理概括，因此为正确答案。",
+              "reason": "原文直接指出食物变化给野兔带来问题，与选项C吻合。",
+              "location_analysis": "E段说明野兔对食物供应微小变化都难以应对，对应选项C“难以适应植被变化”。",
+              "paraphrasing": "difficult to adapt -> causes them problems when faced with the smallest alterations in food availability and abundance; changes in vegetation -> alterations in food availability and abundance",
+              "keywords": "diet, alterations, food availability",
+              "evidence": [
+                "This causes them problems when faced with the smallest alterations in food availability and abundance."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及成年野兔需要高脂肪含量的植物，属于无中生有。",
+                "B": "原文未强调需要时间消化植物，与题干要求不符。",
+                "D": "原文并未指出某种特定植物对它们至关重要，属于过度绝对化。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15867",
+          "type": 4,
+          "title": "Brown hares",
+          "instructions": "Questions 37 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120643",
+              "number": 37,
+              "prompt": "The brown hare is well known for its ability to run fast, at speeds of up to 70 kph, largely due to the length of its legs as well as the unusual size of its heart. An increased amount of blood also gives it the necessary _____ to continue running fast for some time. A running hare resembles the _____ more closely than its relative, the rabbit.",
+              "options": [],
+              "answer": "stamina",
+              "accepted_answers": [
+                "stamina"
+              ],
+              "analysis": "空格前提到野兔拥有更多血液，后文需填入由此带来的能力。B段明确说明“a higher volume of blood in their bodies, and this allows for superior speed and stamina”，其中“stamina”（耐力）直接对应空格所需内容，且与“continue running fast for some time”语义一致，故答案为stamina。",
+              "reason": "空格前的“blood”呼应原文，stamina为直接匹配词。",
+              "location_analysis": "原文提到心脏增大和血量增加带来速度和耐力，stamina符合。",
+              "paraphrasing": "necessary stamina -> this allows for superior speed and stamina",
+              "keywords": "stamina, heart, blood",
+              "evidence": [
+                "Compared to mammals of a similar size, hares have a greatly enlarged heart and a higher volume of blood in their bodies, and this allows for superior speed and stamina."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120644",
+              "number": 38,
+              "prompt": "The brown hare is well known for its ability to run fast, at speeds of up to 70 kph, largely due to the length of its legs as well as the unusual size of its heart. An increased amount of blood also gives it the necessary _____ to continue running fast for some time. A running hare resembles the _____ more closely than its relative, the rabbit.",
+              "options": [],
+              "answer": "dog",
+              "accepted_answers": [
+                "dog"
+              ],
+              "analysis": "空格要求填写野兔奔跑时更像哪种动物。B段指出“enabling hares to run more like a dog”，明确将野兔的奔跑方式与狗类比，而不同于兔子。因此，“dog”是原文直接提供的唯一匹配词，符合题目“ONE WORD ONLY”的要求。",
+              "reason": "原文直接比较，dog为唯一匹配词。",
+              "location_analysis": "原文说野兔跑起来更像狗，答案dog。",
+              "paraphrasing": "resembles the dog -> run more like a dog",
+              "keywords": "running, resembles, dog",
+              "evidence": [
+                "In addition, their legs are longer than those of a rabbit, enabling hares to run more like a dog and reach speeds of up to 70 kph."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120645",
+              "number": 39,
+              "prompt": "The hare has some other characteristics that help it to avoid capture. The first is its excellent all-round _____ This means that predators cannot easily creep up behind it. Another feature is its ability to position its massive _____ separately, to sense the slightest indication of danger.",
+              "options": [],
+              "answer": "vision",
+              "accepted_answers": [
+                "vision"
+              ],
+              "analysis": "空格前“excellent all-round”提示需填入感官能力。B段提到野兔“large golden eyes give them 360° vision”，即具备全方位视野，使捕食者难以从背后接近。因此，“vision”是原文中直接对应的关键词，准确回应题干对感知能力的描述。",
+              "reason": "原文直接给出vision。",
+              "location_analysis": "原文描述野兔有360度视野，对应vision。",
+              "paraphrasing": "excellent all-round... -> 360° vision",
+              "keywords": "all-round vision",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120646",
+              "number": 40,
+              "prompt": "The hare has some other characteristics that help it to avoid capture. The first is its excellent all-round _____ This means that predators cannot easily creep up behind it. Another feature is its ability to position its massive _____ separately, to sense the slightest indication of danger.",
+              "options": [],
+              "answer": "ears",
+              "accepted_answers": [
+                "ears"
+              ],
+              "analysis": "空格前提到“massive”和“position...separately”，B段对应句为“They have exceptionally large ears that move independently”，其中“large”对应“massive”，“move independently”对应“position...separately”，功能是精准定位声音以察觉危险。因此答案为ears。",
+              "reason": "“massive”对应“large”，“separately”对应“independently”，ears为答案。",
+              "location_analysis": "原文描述耳朵大且能独立移动，答案ears。",
+              "paraphrasing": "position its massive ears separately -> large ears that move independently",
+              "keywords": "ears, position separately",
+              "evidence": [
+                "They have exceptionally large ears that move independently, so that a range of sounds can be pinpointed accurately."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "The brown hare is well known for its ability to run fast, at speeds of up to 70 kph, largely due to the length of its legs as well as the unusual size of its heart. An increased amount of blood also gives it the necessary $120643$ to continue running fast for some time. A running hare resembles the $120644$ more closely than its relative, the rabbit.\nThe hare has some other characteristics that help it to avoid capture. The first is its excellent all-round $120645$ This means that predators cannot easily creep up behind it. Another feature is its ability to position its massive $120646$ separately, to sense the slightest indication of danger.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The brown hare is well known for its ability to run fast, at speeds of up to 70 kph, largely due to the length of its legs as well as the unusual size of its heart. An increased amount of blood also gives it the necessary $120643$ to continue running fast for some time. A running hare resembles the $120644$ more closely than its relative, the rabbit.\nThe hare has some other characteristics that help it to avoid capture. The first is its excellent all-round $120645$ This means that predators cannot easily creep up behind it. Another feature is its ability to position its massive $120646$ separately, to sense the slightest indication of danger."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Understanding hares",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "With its wild stare, swift speed and secretive nature, the UK's brown hare is the rabbit's mysterious cousin.",
+          "translation": "凭借其狂野的眼神、敏捷的速度和隐秘的天性，英国的棕兔是兔子神秘的表亲。"
+        },
+        {
+          "index": 2,
+          "sentence": "Even in these days of agricultural intensification, the hare is still to be seen in open countryside, but its numbers are falling.",
+          "translation": "即使在农业集约化的今天，野兔仍然可以在开阔的乡村看到，但它们的数量正在下降。"
+        },
+        {
+          "index": 4,
+          "sentence": "Like many herbivores, brown hares spend a relatively large amount of their time feeding.",
+          "translation": "与许多食草动物一样，棕兔花费相对大量的时间觅食。"
+        },
+        {
+          "index": 5,
+          "sentence": "They prefer to do this in the dark, but when nights are short, their activities do spill into daylight hours.",
+          "translation": "它们更喜欢在黑暗中觅食，但当夜晚较短时，它们的活动会延伸到白天。"
+        },
+        {
+          "index": 6,
+          "sentence": "Wherever they live, hares appear to have a fondness for fields with a variety of vegetation, for example short as well as longer clumps of grasses.",
+          "translation": "无论生活在哪里，野兔似乎都喜欢植被多样的田野，例如既有短草也有较高的草丛。"
+        },
+        {
+          "index": 7,
+          "sentence": "Studies have demonstrated that they benefit from uncultivated land and other unploughed areas on farms, such as field margins.",
+          "translation": "研究表明，它们受益于未开垦的土地和农场中其他未耕种的区域，比如田埂边。"
+        },
+        {
+          "index": 8,
+          "sentence": "Therefore, if farmers provided patches of woodland in areas of pasture as well as assorted crops in arable areas, there would be year-round shelter and food, and this could be the key to turning round the current decline in hare populations.",
+          "translation": "因此，如果农民在牧区提供小块林地，并在可耕地区种植多种作物，就会有全年的庇护所和食物，这可能是扭转当前野兔数量下降的关键。"
+        },
+        {
+          "index": 9,
+          "sentence": "Like many herbivores, brown hares spend a relatively large amount of their time feeding.",
+          "translation": "像许多食草动物一样，棕色野兔花费相对较多的时间进食。"
+        },
+        {
+          "index": 10,
+          "sentence": "They prefer to do this in the dark, but when nights are short, their activities do spill into daylight hours.",
+          "translation": "它们更喜欢在黑暗中进食，但当夜晚较短时，它们的行为确实会延续到白天。"
+        },
+        {
+          "index": 11,
+          "sentence": "Wherever they live, hares appear to have a fondness for fields with a variety of vegetation, for example short as well as longer clumps of grasses.",
+          "translation": "无论生活在哪里，野兔似乎偏爱植被多样的田地，例如既有短草也有较长草丛的草地。"
+        },
+        {
+          "index": 12,
+          "sentence": "Studies have demonstrated that they benefit from uncultivated land and other unploughed areas on farms, such as field margins.",
+          "translation": "研究表明，它们受益于农场中的未耕地和其他未翻耕的区域，比如田边地带。"
+        },
+        {
+          "index": 13,
+          "sentence": "Therefore, if farmers provided patches of woodland in areas of pasture as well as assorted crops in arable areas, there would be year-round shelter and food, and this could be the key to turning round the current decline in hare populations.",
+          "translation": "因此，如果农民在牧场区域提供小块林地，并在可耕地种植多样作物，野兔将拥有全年的庇护所和食物，这可能是扭转当前野兔种群数量下降的关键。"
+        },
+        {
+          "index": 14,
+          "sentence": "Like many herbivores, brown hares spend a relatively large amount of their time feeding.",
+          "translation": "像许多食草动物一样，棕色野兔花费相对较多的时间进食。"
+        },
+        {
+          "index": 15,
+          "sentence": "They prefer to do this in the dark, but when nights are short, their activities do spill into daylight hours.",
+          "translation": "它们更喜欢在黑暗中进食，但当夜晚短暂的时候，它们的活动确实会延续到白天。"
+        },
+        {
+          "index": 16,
+          "sentence": "Wherever they live, hares appear to have a fondness for fields with a variety of vegetation, for example short as well as longer clumps of grasses.",
+          "translation": "无论生活在何处，野兔似乎都偏爱植被多样的田地，例如既有短草也有较长草丛的草地。"
+        },
+        {
+          "index": 17,
+          "sentence": "Studies have demonstrated that they benefit from uncultivated land and other unploughed areas on farms, such as field margins.",
+          "translation": "研究表明，它们从农场中的未耕地和其他未耕作区域（例如田埂边缘）获益。"
+        },
+        {
+          "index": 18,
+          "sentence": "Therefore, if farmers provided patches of woodland in areas of pasture as well as assorted crops in arable areas, there would be year-round shelter and food, and this could be the key to turning round the current decline in hare populations.",
+          "translation": "因此，如果农民在牧场地区提供小块林地，并在可耕地地区提供多样化的作物，全年都会有遮蔽物和食物，这可能是扭转当前野兔数量下降的关键。"
+        },
+        {
+          "index": 20,
+          "sentence": "29",
+          "translation": "29"
+        },
+        {
+          "index": 21,
+          "sentence": "29",
+          "translation": "29"
+        },
+        {
+          "index": 22,
+          "sentence": "Brown hares have a number of physical adaptations that enable them to survive in open countryside.",
+          "translation": "棕色野兔拥有许多身体上的适应性特征，使它们能够在开阔乡村中生存。"
+        },
+        {
+          "index": 23,
+          "sentence": "They have exceptionally large ears that move independently, so that a range of sounds can be pinpointed accurately.",
+          "translation": "它们的耳朵异常大且能独立活动，因此可以精确定位各种声音。"
+        },
+        {
+          "index": 24,
+          "sentence": "Positioned high up on their heads, the hares' large golden eyes give them 360° vision, making it hard to take a hare by surprise.",
+          "translation": "野兔的的金色大眼睛高高位于头部两侧，赋予它们360度的视野，使它们很难被偷袭。"
+        },
+        {
+          "index": 25,
+          "sentence": "Compared to mammals of a similar size, hares have a greatly enlarged heart and a higher volume of blood in their bodies, and this allows for superior speed and stamina.",
+          "translation": "与类似大小的哺乳动物相比，野兔的心脏显著增大，体内血量更多，这使它们拥有卓越的速度和耐力。"
+        },
+        {
+          "index": 26,
+          "sentence": "In addition, their legs are longer than those of a rabbit, enabling hares to run more like a dog and reach speeds of up to 70 kph.",
+          "translation": "此外，它们的腿比兔子更长，使野兔能像狗一样奔跑，并达到高达每小时70公里的速度。"
+        },
+        {
+          "index": 28,
+          "sentence": "Brown hares have unusual lifestyles for their large size, breeding from a young age and producing many leverets (babies).",
+          "translation": "棕色野兔因其体型较大而拥有不同寻常的生活方式，它们从幼年就开始繁殖，并产下许多幼兔。"
+        },
+        {
+          "index": 29,
+          "sentence": "There are about three litters of up to four leverets every year.",
+          "translation": "每年大约会有三窝幼兔，每窝最多四只。"
+        },
+        {
+          "index": 30,
+          "sentence": "Both males and females are able to breed at about seven months old, but they have to be quick because they seldom live for more than two years.",
+          "translation": "雄性和雌性野兔大约在七个月大时就能繁殖，但它们必须抓紧时间，因为它们的寿命很少超过两年。"
+        },
+        {
+          "index": 31,
+          "sentence": "The breeding season runs from January to October, and by late February most females are pregnant or giving birth to their first litter of the year.",
+          "translation": "繁殖季节从一月持续到十月，到二月下旬，大多数雌兔已经怀孕或正在产下当年的第一窝幼兔。"
+        },
+        {
+          "index": 32,
+          "sentence": "So it seems strange, therefore, that it is in March, when the breeding season is already underway, that hares seemingly go mad: boxing, dancing, running and fighting.",
+          "translation": "因此，奇怪的是，在三月这个繁殖季节已经开始的时候，野兔似乎变得疯狂起来：打斗、跳跃、奔跑和撕咬。"
+        },
+        {
+          "index": 33,
+          "sentence": "This has given rise to the age-old reference to 'mad March hares'.",
+          "translation": "这引发了古老的谚语“疯狂的三月野兔”。"
+        },
+        {
+          "index": 34,
+          "sentence": "In fact, boxing occurs throughout the breeding season, but people tend to see this behaviour more often in March.",
+          "translation": "事实上，打斗行为在整个繁殖季节都会发生，但人们往往在三月更常看到这种行为。"
+        },
+        {
+          "index": 35,
+          "sentence": "This is because in the succeeding months, dusk - the time when hares are most active - is later, when fewer people are about.",
+          "translation": "这是因为在接下来的月份里，黄昏——野兔最活跃的时间——来得更晚，此时外出的人更少。"
+        },
+        {
+          "index": 36,
+          "sentence": "Crops and vegetation are also taller, hiding the hares from view.",
+          "translation": "农作物和植被也长得更高，遮挡了野兔的身影。"
+        },
+        {
+          "index": 37,
+          "sentence": "Though it is often thought that they are males fighting over females, boxing hares are usually females fighting off males.",
+          "translation": "尽管人们通常认为打斗的是雄兔在争夺雌兔，但实际打斗的野兔通常是雌兔在击退雄兔。"
+        },
+        {
+          "index": 38,
+          "sentence": "Hares are mostly solitary, but a female fights off a series of males until she is ready to mate.",
+          "translation": "野兔大多独居，但雌兔会击退一连串的雄兔，直到她准备好交配。"
+        },
+        {
+          "index": 39,
+          "sentence": "This occurs several times through the breeding season because, as soon as the female has given birth, she will be ready to mate again.",
+          "translation": "这种情况在繁殖季节会发生多次，因为雌兔一旦产下幼崽，她就会准备好再次交配。"
+        },
+        {
+          "index": 40,
+          "sentence": "30",
+          "translation": "30"
+        },
+        {
+          "index": 41,
+          "sentence": "Brown hares have unusual lifestyles for their large size, breeding from a young age and producing many leverets (babies).",
+          "translation": "棕色野兔体型较大，却有着不同寻常的生活方式，它们从小就开始繁殖，并且产下许多幼兔。"
+        },
+        {
+          "index": 42,
+          "sentence": "There are about three litters of up to four leverets every year.",
+          "translation": "每年大约会有三窝幼兔，每窝最多四只。"
+        },
+        {
+          "index": 43,
+          "sentence": "Both males and females are able to breed at about seven months old, but they have to be quick because they seldom live for more than two years.",
+          "translation": "雄性和雌性野兔大约在七个月大时就能繁殖，但它们必须抓紧时间，因为很少能活过两年。"
+        },
+        {
+          "index": 44,
+          "sentence": "The breeding season runs from January to October, and by late February most females are pregnant or giving birth to their first litter of the year.",
+          "translation": "繁殖季节从一月持续到十月，到二月底，大多数雌兔已经怀孕或正在产下当年的第一窝幼崽。"
+        },
+        {
+          "index": 45,
+          "sentence": "So it seems strange, therefore, that it is in March, when the breeding season is already underway, that hares seemingly go mad: boxing, dancing, running and fighting.",
+          "translation": "因此，令人奇怪的是，在繁殖季节已经开始的三月，野兔却似乎发疯了：它们拳击、跳舞、奔跑和打斗。"
+        },
+        {
+          "index": 46,
+          "sentence": "This has given rise to the age-old reference to 'mad March hares'.",
+          "translation": "这就产生了那句古老的谚语“疯狂的三月野兔”。"
+        },
+        {
+          "index": 47,
+          "sentence": "In fact, boxing occurs throughout the breeding season, but people tend to see this behaviour more often in March.",
+          "translation": "事实上，拳击行为贯穿整个繁殖季节，但人们往往在三月更频繁地看到这种行为。"
+        },
+        {
+          "index": 48,
+          "sentence": "This is because in the succeeding months, dusk - the time when hares are most active - is later, when fewer people are about.",
+          "translation": "这是因为在接下来的几个月里，黄昏——野兔最活跃的时间——来得更晚，此时周围人更少。"
+        },
+        {
+          "index": 49,
+          "sentence": "Crops and vegetation are also taller, hiding the hares from view.",
+          "translation": "作物和植被也更高了，遮挡了野兔的视线。"
+        },
+        {
+          "index": 50,
+          "sentence": "Though it is often thought that they are males fighting over females, boxing hares are usually females fighting off males.",
+          "translation": "虽然人们常以为它们是雄性在争夺雌性，但拳击的野兔通常是雌性在击退雄性。"
+        },
+        {
+          "index": 51,
+          "sentence": "Hares are mostly solitary, but a female fights off a series of males until she is ready to mate.",
+          "translation": "野兔大多独居，但雌兔会击退一连串的雄性，直到自己准备好交配。"
+        },
+        {
+          "index": 52,
+          "sentence": "This occurs several times through the breeding season because, as soon as the female has given birth, she will be ready to mate again.",
+          "translation": "这种情况在整个繁殖季节会发生多次，因为雌兔一旦产仔，就马上准备好再次交配。"
+        },
+        {
+          "index": 54,
+          "sentence": "31",
+          "translation": "31"
+        },
+        {
+          "index": 55,
+          "sentence": "31",
+          "translation": "31"
+        },
+        {
+          "index": 56,
+          "sentence": "But how can females manage to do this while simultaneously feeding themselves and rearing their young?",
+          "translation": "但是雌性野兔如何能够在同时喂养自己和抚养幼崽的情况下做到这一点呢？"
+        },
+        {
+          "index": 57,
+          "sentence": "The reason is that hares have evolved such self-sufficient young.",
+          "translation": "原因是野兔进化出了如此自给自足的幼崽。"
+        },
+        {
+          "index": 58,
+          "sentence": "Unlike baby rabbits, leverets are born furry and mobile.",
+          "translation": "与幼兔不同，小野兔出生时就有毛发且能活动。"
+        },
+        {
+          "index": 59,
+          "sentence": "They weigh about100 g at birth and are immediately left to their own devices by their mothers.",
+          "translation": "它们出生时体重约100克，并立即被母亲弃之不顾，任其自生自灭。"
+        },
+        {
+          "index": 60,
+          "sentence": "A few days later, the members of the litter creep away to create their own individual resting places, known as 'forms'.",
+          "translation": "几天后，同窝的幼崽们悄悄离开，各自建造自己单独的休息场所，称为“巢穴”。"
+        },
+        {
+          "index": 61,
+          "sentence": "Incredibly, their mother visits them only once every 24 hours and, even then, she only suckles them for a maximum of five minutes each.",
+          "translation": "令人难以置信的是，它们的母亲每24小时只探望它们一次，即使如此，每次哺乳时间最多也只有五分钟。"
+        },
+        {
+          "index": 62,
+          "sentence": "This lack of family contact may seem harsh to us, but it is a strategy that draws less attention from predators.",
+          "translation": "这种缺乏家庭联系的方式对我们来说似乎很残酷，但这是一种减少吸引捕食者注意的策略。"
+        },
+        {
+          "index": 63,
+          "sentence": "At the tender age of two weeks, leverets start to feed themselves, while still drinking their mother's milk.",
+          "translation": "在仅仅两周大的时候，小野兔就开始自己觅食，同时仍喝母亲的奶。"
+        },
+        {
+          "index": 64,
+          "sentence": "They grow swiftly and are fully weaned at four weeks, reaching adult weight at about six months.",
+          "translation": "它们生长迅速，四周大时完全断奶，大约六个月时达到成年体重。"
+        },
+        {
+          "index": 65,
+          "sentence": "Research has shown that hares' milk is extremely rich and fatty, so a little goes a long way.",
+          "translation": "研究表明，野兔的乳汁极其丰富且富含脂肪，因此少量就能提供充足能量。"
+        },
+        {
+          "index": 66,
+          "sentence": "In order to produce such nutritious milk, females need a high-quality, high-calorie diet.",
+          "translation": "为了产出如此营养的乳汁，雌性野兔需要高质量、高热量的饮食。"
+        },
+        {
+          "index": 67,
+          "sentence": "Hares are selective feeders at the best of times: unlike many herbivores, they can't sit around waiting to digest low-quality food - they need high-energy herbs and other leaves in order to sprint.",
+          "translation": "即使在最佳时期，野兔也是选择性觅食者：与许多草食动物不同，它们不能坐等消化低质量食物——它们需要高能量的草本植物和其他叶子来奔跑。"
+        },
+        {
+          "index": 68,
+          "sentence": "This causes them problems when faced with the smallest alterations in food availability and abundance.",
+          "translation": "这在面对食物可获得性和丰富度的微小变化时会给他们带来问题。"
+        },
+        {
+          "index": 69,
+          "sentence": "So, as well as reductions in the diversity of farmland habitat, the decline in the range of food plants is injurious to hares.",
+          "translation": "因此，除了农田栖息地多样性的减少，食物植物范围的下降也对野兔有害。"
+        },
+        {
+          "index": 70,
+          "sentence": "32",
+          "translation": "32"
+        },
+        {
+          "index": 71,
+          "sentence": "Research has shown that hares' milk is extremely rich and fatty, so a little goes a long way.",
+          "translation": "研究表明，野兔的乳汁极其浓郁且富含脂肪，因此少量即可维持很久。"
+        },
+        {
+          "index": 72,
+          "sentence": "In order to produce such nutritious milk, females need a high-quality, high-calorie diet.",
+          "translation": "为了产出如此营养丰富的乳汁，雌性野兔需要高质量、高热量的饮食。"
+        },
+        {
+          "index": 73,
+          "sentence": "Hares are selective feeders at the best of times: unlike many herbivores, they can't sit around waiting to digest low-quality food - they need high-energy herbs and other leaves in order to sprint.",
+          "translation": "即使在最佳时期，野兔也是选择性觅食者：与许多食草动物不同，它们不能坐等消化低质量食物——它们需要高能量的草本植物和其他叶子才能进行冲刺。"
+        },
+        {
+          "index": 74,
+          "sentence": "This causes them problems when faced with the smallest alterations in food availability and abundance.",
+          "translation": "这使它们在面对食物可得性和丰富程度的最微小变化时就会遇到问题。"
+        },
+        {
+          "index": 75,
+          "sentence": "So, as well as reductions in the diversity of farmland habitat, the decline in the range of food plants is injurious to hares.",
+          "translation": "因此，除了农田栖息地多样性的减少，食物植物种类的减少也对野兔有害。"
+        },
+        {
+          "index": 76,
+          "sentence": "Research has shown that hares' milk is extremely rich and fatty, so a little goes a long way.",
+          "translation": "研究表明，野兔的乳汁极其丰富且富含脂肪，因此少量就足以维持很长时间。"
+        },
+        {
+          "index": 77,
+          "sentence": "In order to produce such nutritious milk, females need a high-quality, high-calorie diet.",
+          "translation": "为了产出如此营养丰富的乳汁，雌性野兔需要高质量、高热量的饮食。"
+        },
+        {
+          "index": 78,
+          "sentence": "Hares are selective feeders at the best of times: unlike many herbivores, they can't sit around waiting to digest low-quality food - they need high-energy herbs and other leaves in order to sprint.",
+          "translation": "即使在最好的情况下，野兔也是挑剔的觅食者：与许多食草动物不同，它们不能坐等消化低质量的食物——它们需要高能量的草本植物和其他叶子才能快速奔跑。"
+        },
+        {
+          "index": 79,
+          "sentence": "This causes them problems when faced with the smallest alterations in food availability and abundance.",
+          "translation": "当食物可获得性和丰富度发生最微小的变化时，这就会给它们带来问题。"
+        },
+        {
+          "index": 80,
+          "sentence": "So, as well as reductions in the diversity of farmland habitat, the decline in the range of food plants is injurious to hares.",
+          "translation": "因此，除了农田栖息地多样性的减少之外，食用植物范围的缩小也对野兔有害。"
+        },
+        {
+          "index": 82,
+          "sentence": "The rapid turnaround in the breeding cycle suggests that hares should, in principle, be able to increase their populations quickly to exploit new habitats.",
+          "translation": "繁殖周期的快速周转表明，从理论上讲，野兔应该能够迅速增加其数量以利用新的栖息地。"
+        },
+        {
+          "index": 83,
+          "sentence": "They certainly used to: studies show that hares evolved on the open plains and spread rapidly westward from the Black Sea after the last ice age (though they were probably introduced to Britain as a species to be hunted for the pot by the Romans).",
+          "translation": "它们过去确实如此：研究表明，野兔在开阔的平原上进化，并在上次冰河时代后从黑海迅速向西扩散（尽管它们可能是由罗马人作为烹饪狩猎物种引入英国的）。"
+        },
+        {
+          "index": 84,
+          "sentence": "But today's hares are thwarted by the lack of rich farmland habitat.",
+          "translation": "但如今的野兔因缺乏富饶的农田栖息地而受挫。"
+        },
+        {
+          "index": 85,
+          "sentence": "When the delicate herbs and other plants they rely on are ploughed up or poisoned by herbicides, these wonderful, agile runners disappear too, taking with them some of the wildness from our lives.",
+          "translation": "当它们赖以生存的娇嫩草本植物和其他植物被犁翻或遭除草剂毒害时，这些美妙而敏捷的奔跑者也会消失，同时带走我们生活中的一些野性。"
+        },
+        {
+          "index": 86,
+          "sentence": "The rapid turnaround in the breeding cycle suggests that hares should, in principle, be able to increase their populations quickly to exploit new habitats.",
+          "translation": "繁殖周期的快速更替表明，理论上野兔应该能够迅速增加其种群数量，以利用新的栖息地。"
+        },
+        {
+          "index": 87,
+          "sentence": "The rapid turnaround in the breeding cycle suggests that hares should, in principle, be able to increase their populations quickly to exploit new habitats.",
+          "translation": "繁殖周期的快速转变表明，从理论上讲，野兔应该能够迅速增加其种群数量以利用新的栖息地。"
+        },
+        {
+          "index": 88,
+          "sentence": "They certainly used to: studies show that hares evolved on the open plains and spread rapidly westward from the Black Sea after the last ice age (though they were probably introduced to Britain as a species to be hunted for the pot by the Romans).",
+          "translation": "它们过去确实如此：研究表明，野兔在开阔平原上演化，并在上一个冰河时代后从黑海迅速向西扩散（尽管它们可能是被罗马人作为狩猎食用的物种引入英国的）。"
+        },
+        {
+          "index": 89,
+          "sentence": "But today's hares are thwarted by the lack of rich farmland habitat.",
+          "translation": "但如今的野兔因缺乏肥沃的农田栖息地而受挫。"
+        },
+        {
+          "index": 90,
+          "sentence": "When the delicate herbs and other plants they rely on are ploughed up or poisoned by herbicides, these wonderful, agile runners disappear too, taking with them some of the wildness from our lives.",
+          "translation": "当它们赖以生存的娇嫩草本植物和其他植物被犁翻或遭除草剂毒害时，这些出色而敏捷的奔跑者也会消失，同时带走我们生活中的一些野性。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

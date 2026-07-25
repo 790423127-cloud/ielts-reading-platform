@@ -1,0 +1,2646 @@
+{
+  "id": "b12-test-1",
+  "book": "剑雅12",
+  "book_number": 12,
+  "name": "Test 1",
+  "title": "剑雅12 Test 1",
+  "parts": [
+    {
+      "id": "2081",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "A Bath International Music Festival",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "From electronic to folk, jazz and classical, this festival is renowned for bringing world-class musicians to this historical city. Starting with a great night of free music, 'Party in the City this year is going to be no exception.",
+          "translation": "从电子音乐到民谣、爵士乐和古典音乐，这个节日以将世界级音乐家带到这座历史名城而闻名。\n从一场精彩的免费音乐之夜开始，今年的“城市派对”也不例外。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "B The Great Escape",
+          "translation": "B 大逃亡音乐节"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Often referred to as Europe's leading festival for new music, more than 300 bands will perform to around 10,000 people in 30-plus venues, meaning you're sure to see the next big thing in music.",
+          "translation": "该音乐节常被誉为欧洲领先的新音乐节，将有超过300支乐队在30多个场馆为约一万人演出，这意味着你一定会看到下一个音乐界的巨星。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "C Springwatch Festival",
+          "translation": "C 春季观察节"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "The much loved television series Springwatch celebrates the countryside as it does every year, with sheep herding, wood carving demonstrations, insect hunts and more activities, accompanied by live music and a great farmers' market, offering all sorts of mouth-watering produce.",
+          "translation": "深受喜爱的电视系列节目《春之守望》每年都会像往常一样颂扬乡村风光，活动包括牧羊、木雕演示、昆虫搜寻等，同时伴有现场音乐和大型农贸市场，提供各种令人垂涎的美食。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "D Wychwood Music Festival",
+          "translation": "D 威奇伍德音乐节"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Rightly nominated for the best family festival award every year since it began in 2005,this festival offers a combination of different music genres - many featuring artists from around the Wychwood area - and comedy, alongside a selection of outdoor cafés serving amazing world foods.",
+          "translation": "自2005年创办以来，该节每年都当之无愧地入围最佳家庭节奖，它融合了多种音乐风格（其中许多以来自威奇伍德地区的艺术家为特色）和喜剧元素，同时还设有一系列提供美味国际美食的户外咖啡馆。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "E Love Food Festival",
+          "translation": "E 爱美食节"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Bringing together a selection of the finest produce, this festival aims to educate visitors about how food should be produced and where it should come from, through sampling a range of tasty treats, cooked on site.",
+          "translation": "这个节日汇聚了精选的优质农产品，旨在通过现场烹饪品尝一系列美味佳肴，来教育游客食物应当如何生产以及来自何处。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "F The 3 Wishes Faery Festival",
+          "translation": "F 三愿望仙子节"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "The UK's most magical event, this is a three-day festival of folk art, live music and fashion shows set in the beautiful wild surroundings of Bodmin Moor. If you don't fancy taking a tent, some local residents usually offer to put visitors up.",
+          "translation": "这是英国最具魔力的活动，是一个为期三天的节日，包含民间艺术、现场音乐和时装秀，举办地点在博德明荒原美丽的自然环境中。\n如果你不想带帐篷，一些当地居民通常会提供住宿给游客。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "G Bath International Dance Festival",
+          "translation": "G 巴斯国际舞蹈节"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Featuring demonstrations from world champion dancers and stars from the TV series Strictly Come Dancing, the festival promises toe-tapping action, including a world-record attempt, where everyone is invited to join in.",
+          "translation": "该音乐节将呈现世界冠军舞者及电视系列剧《舞动奇迹》明星的表演，保证带来令人随节奏起舞的精彩活动，其中包括一项世界纪录挑战，并邀请所有人共同参与。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "BIG ROCK CLIMBING CENTRE",
+          "question_cue": {
+            "start": 9,
+            "end": 14
+          },
+          "translation": "大岩石攀岩中心"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Big Rock Climbing Centre is a modern, friendly, professionally run centre offering over 1,250 square metres of fantastic indoor climbing. We use trained and experienced instructors to give you the opportunity to learn and develop climbing skills, keep fit and have fun.Master our 11 m-high climbing walls, using a rope harness, for an unbeatable sense of achievement.Or experience the thrills of climbing without any harness in our special low-level arena, which has foam mats on the floor to cushion any fall safely.",
+          "translation": "大岩石攀岩中心\n大岩石攀岩中心是一个现代化、友好且专业运营的中心，提供超过1250平方米的极佳室内攀岩场地。\n我们使用训练有素且经验丰富的教练，为您提供学习和发展攀岩技能、保持健康和享受乐趣的机会。\n使用绳索安全带征服我们11米高的攀岩墙，获得无与伦比的成就感。\n或者在我们特殊的低层区域体验无安全带的攀岩刺激，该区域地面铺有泡沫垫，可安全缓冲任何坠落。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Who is Big Rock for?",
+          "translation": "大岩石攀岩中心面向哪些人群？"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Almost anyone can enjoy Big Rock. Previous climbing experience and specialist equipment are not required.You can come on your own or with friends and family.Come as a fun alternative to the gym or for a special day out with the kids. If you're visiting with friends or family but not climbing, or just fancy coming to look, please feel free to relax in our excellent café overlooking the climbing areas.",
+          "translation": "几乎任何人都可以享受大岩石的乐趣。\n不需要之前的攀爬经验和专业设备。\n你可以独自前来，或与朋友和家人一同前往。\n作为健身房的有趣替代品，或与孩子们共度特别的一天。\n如果你与朋友或家人来访但不攀爬，或只是想来看看，请随意在我们俯瞰攀爬区的优质咖啡馆里放松身心。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Mobile Climbing Wall",
+          "translation": "移动攀岩墙"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Available on a day hire basis at any location, the Big Rock Mobile Climbing Wall is the perfect way to enhance any show, festival or event. The mobile wall can be used indoors or outdoors and features four unique 7.3 m-high climbing faces designed to allow four people to climb simultaneously. Quick to set up and pack up, the Mobile Climbing Wall is staffed by qualified and experienced climbing instructors, providing the opportunity to climb the wall in a controlled and safe environment. When considering what to wear, we've found that trousers and t-shirts are ideal. We will, however, ask people to remove scarves. Most flat shoes are suitable as long as they're enclosed and support the foot.The mobile wall is very adaptable and can be operated in light rain and winds up to 50 kph.There are,however, particular measures that we take in such conditions.",
+          "translation": "移动攀岩墙\nBig Rock移动攀岩墙可按日租赁，在任何地点都能使用，是提升任何演出、节日或活动的完美方式。\n该移动墙可用于室内或室外，设有四个独特的7.3米高攀岩面，设计可让四人同时攀爬。\n移动攀岩墙安装和拆卸迅速，由合格且有经验的攀岩教练负责运营，提供在可控且安全的环境中攀爬的机会。\n关于着装，我们发现裤子和T恤是最理想的选择。\n然而，我们会要求人们取下围巾。\n大多数平底鞋都适合，只要它们是包脚且能支撑足部的。\n移动墙适应性很强，可在小雨和风速高达每小时50公里的条件下运行。\n不过，在这种情况下，我们会采取特定措施。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "What about hiring the Mobile Climbing Wall for my school or college?",
+          "translation": "移动攀岩墙\n租用移动攀岩墙给我的学校或学院怎么样？"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "As climbing is different from the usual team games practised at schools, we've found that some students who don't usually like participating in sports are willing to have a go on the mobile climbing wall.If you're concerned that some children may not want to take part because they feel nervous if they climb, then please be assured that our instructors will support them up to a level which they're comfortable with.They will still benefit greatly from the experience.",
+          "translation": "移动攀岩墙\n由于攀岩不同于学校常进行的团队运动，我们发现一些通常不喜欢参加体育活动的学生愿意尝试移动攀岩墙。\n如果您担心有些孩子可能因攀爬时感到紧张而不愿参加，请放心，我们的教练会支持他们达到自己感到舒适的程度。\n他们仍将从这次经历中受益匪浅。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15698",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 8\nLook at the seven advertisements for festivals in the UK, A-G.\nFor which festival are the following statements true?\nWrite the correct Jetter, A-G, in boxes 1-8 on your answer sheet.\nNB You may use any Jetter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120327",
+              "number": 1,
+              "prompt": "Visitors can help to make one particular event a success at this festival.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干中的“Visitors can help to make one particular event a success”对应原文G段中提到的“a world-record attempt, where everyone is invited to join in”。这表明游客可以通过参与世界纪录挑战来帮助该活动取得成功，因此答案为G。",
+              "reason": "题干 visitors help make event a success 对应原文 world-record attempt 及 invite to join in。",
+              "location_analysis": "G提到世界纪录尝试，邀请所有人参与，帮助其成功。",
+              "paraphrasing": "help to make one particular event a success -> everyone is invited to join in (world-record attempt)",
+              "keywords": "world-record attempt, everyone is invited to join in",
+              "evidence": [
+                "the festival promises toe-tapping action, including a world-record attempt, where everyone is invited to join in."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120328",
+              "number": 2,
+              "prompt": "People can listen to local musicians here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“listen to local musicians”对应D段中提到的“many featuring artists from around the Wychwood area”，即许多演出者来自当地Wychwood地区，属于本地音乐人，因此答案为D。",
+              "reason": "题干 listen to local musicians 对应原文 artists from around the Wychwood area。",
+              "location_analysis": "D提到 featuring artists from around the Wychwood ...",
+              "paraphrasing": "local musicians -> artists from around the Wychwood area",
+              "keywords": "local musicians",
+              "evidence": [
+                "this festival offers a combination of different music genres - many featuring artists from around the Wychwood area - and comedy, alongside a selection of outdoor cafés serving amazing world foods."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120329",
+              "number": 3,
+              "prompt": "At this festival, people can listen to music in lots of different places.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“listen to music in lots of different places”对应B段中提到的“more than 300 bands will perform... in 30-plus venues”，说明音乐会在三十多个不同场地举行，符合“很多不同地方”的描述，因此答案为B。",
+              "reason": "题干 listen to music in lots of different places 对应原文 30-plus venues。",
+              "location_analysis": "B提到在30多个场地演出，即很多不同场所。",
+              "paraphrasing": "lots of different places -> 30-plus venues",
+              "keywords": "30-plus venues",
+              "evidence": [
+                "more than 300 bands will perform to around 10,000 people in 30-plus venues, meaning you're sure to see the next big thing in music."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120330",
+              "number": 4,
+              "prompt": "lt is not necessary to pay for one of the events here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“not necessary to pay for one of the events”对应A段开头提到的“Starting with a great night of free music”，明确指出其中一场活动是免费的，因此答案为A。",
+              "reason": "A明确有免费音乐夜晚。",
+              "location_analysis": "A开头即‘free music’，与免费一致。",
+              "paraphrasing": "not necessary to pay -> free music",
+              "keywords": "not necessary to pay, free music",
+              "evidence": [
+                "Starting with a great night of free music, 'Party in the City this year is going to be no exception."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120331",
+              "number": 5,
+              "prompt": "lt is possible to stay overnight at this festival.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干中的“stay overnight”对应F段中提到的“some local residents usually offer to put visitors up”，即当地居民可提供住宿，意味着游客可以过夜，因此答案为F。",
+              "reason": "题干 stay overnight 对应原文 put visitors up（提供住宿）。",
+              "location_analysis": "F提到 local residents usually offer to put visito...",
+              "paraphrasing": "stay overnight -> put visitors up",
+              "keywords": "local residents usually offer to put visitors up",
+              "evidence": [
+                "If you don't fancy taking a tent, some local residents usually offer to put visitors up."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120332",
+              "number": 6,
+              "prompt": "Children will enjoy this festival.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“Children will enjoy this festival”对应D段开头提到的“Rightly nominated for the best family festival award every year since it began in 2005”，家庭节通常适合儿童，因此答案为D。",
+              "reason": "D 被评为最佳家庭节，适合儿童。",
+              "location_analysis": "题干'children will enjoy'对应原文'best family festival'。",
+              "paraphrasing": "Children -> family festival",
+              "keywords": "Children will enjoy",
+              "evidence": [
+                "Rightly nominated for the best family festival award every year since it began in 2005,this festival offers a combination of different music genres - many featuring artists from around the Wychwood area - and comedy, alongside a selection of outdoor cafés serving amazing world foods."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120333",
+              "number": 7,
+              "prompt": "Visitors can get advice here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“get advice”对应E段中提到的“aims to educate visitors about how food should be produced and where it should come from”，教育性质的内容等同于提供相关建议，因此答案为E。",
+              "reason": "题干 get advice 对应原文 educate visitors。",
+              "location_analysis": "E旨在 educate visitors about how food should be p...",
+              "paraphrasing": "get advice -> educate visitors about how food should be produced",
+              "keywords": "educate visitors about how food should be produced",
+              "evidence": [
+                "Bringing together a selection of the finest produce, this festival aims to educate visitors about how food should be produced and where it should come from, through sampling a range of tasty treats, cooked on site."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120334",
+              "number": 8,
+              "prompt": "People can watch craftspeople at work here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中的“watch craftspeople at work”对应C段中提到的“wood carving demonstrations”，即现场展示木雕工艺，属于观看手工艺人工作，因此答案为C。",
+              "reason": "题干 watch craftspeople at work 对应原文 wood carving demonstrations。",
+              "location_analysis": "C提到 wood carving demonstrations，即手工艺人现场展示。",
+              "paraphrasing": "craftspeople at work -> wood carving demonstrations",
+              "keywords": "wood carving demonstrations",
+              "evidence": [
+                "The much loved television series Springwatch celebrates the countryside as it does every year, with sheep herding, wood carving demonstrations, insect hunts and more activities, accompanied by live music and a great farmers' market, offering all sorts of mouth-watering produce."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15700",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 9 - 14\nDo the following statements agree with the information given in Reading Passage 1?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120335",
+              "number": 9,
+              "prompt": "When climbing at the Big Rock Centre, it is compulsory to be attached by a rope.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称攀岩时“必须使用绳索”，但原文提到“experience the thrills of climbing without any harness in our special low-level arena”，说明并非强制使用绳索，因此答案为FALSE。",
+              "reason": "原文允许多种方式，非强制。",
+              "location_analysis": "原文提供无安全带的低层攀爬，选项并非强制。",
+              "paraphrasing": "compulsory to be attached by a rope -> climb without any harness",
+              "keywords": "compulsory, be attached by a rope, without any harness",
+              "evidence": [
+                "Or experience the thrills of climbing without any harness in our special low-level arena, which has foam mats on the floor to cushion any fall safely."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，因为原文明确表示系绳并非强制要求。",
+                "NOT GIVEN": "原文已提及相关细节，并非未给出信息。"
+              }
+            },
+            {
+              "id": "120336",
+              "number": 10,
+              "prompt": "People who just want to watch the climbing can enter the Centre without paying.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问“仅观看是否需付费”，原文虽提到非攀爬者可“relax in our excellent café overlooking the climbing areas”，但未说明是否需要购票入场，信息未提及，因此答案为NOT GIVEN。",
+              "reason": "原文提及可观看但未说是否付费，信息不足，为 NOT GIVEN。",
+              "location_analysis": "原文提到可免费在咖啡馆观看，但未明确提及是否需付费入场。",
+              "paraphrasing": "people who just want to watch -> feel free to relax in our excellent café",
+              "keywords": "watch, without paying",
+              "evidence": [
+                "If you're visiting with friends or family but not climbing, or just fancy coming to look, please feel free to relax in our excellent café overlooking the climbing areas."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及观看攀岩是否可以免费进入，因此无法判断为真。",
+                "FALSE": "原文未提及观看攀岩是否可以免费进入，因此无法判断为假。"
+              }
+            },
+            {
+              "id": "120337",
+              "number": 11,
+              "prompt": "People can arrange to have a climbing session in their own garden if they wish.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“arrange to have a climbing session in their own garden”对应原文“Available on a day hire basis at any location”，“any location”包括私人花园，因此答案为TRUE。",
+              "reason": "题干 arrange in own garden 对应原文 any location，包括花园。",
+              "location_analysis": "任何地点包括私人花园，与题干一致。",
+              "paraphrasing": "in their own garden -> at any location",
+              "keywords": "in their own garden, any location",
+              "evidence": [
+                "Available on a day hire basis at any location, the Big Rock Mobile Climbing Wall is the perfect way to enhance any show, festival or event."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到可以在自家花园进行攀登活动，因此该选项与原文矛盾。",
+                "NOT GIVEN": "原文中已明确提及相关信息，并非未给出，因此该选项错误。"
+              }
+            },
+            {
+              "id": "120338",
+              "number": 12,
+              "prompt": "A certain item of clothing is forbidden for participants.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“A certain item of clothing is forbidden”对应原文“We will, however, ask people to remove scarves”，明确指出围巾是被禁止佩戴的衣物，因此答案为TRUE。",
+              "reason": "题干 forbidden clothing 对应原文 ask to remove scarves。",
+              "location_analysis": "原文明确要求移除围巾，属于服装禁令。",
+              "paraphrasing": "A certain item of clothing is forbidden -> ask people to remove scarves",
+              "keywords": "remove scarves",
+              "evidence": [
+                "We will, however, ask people to remove scarves."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到了禁止某衣物，该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文明确给出了禁止某衣物的信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120339",
+              "number": 13,
+              "prompt": "The Mobile Climbing Wall can only be used in dry, calm weather.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称移动攀岩墙“只能在干燥无风天气使用”，但原文明确说“can be operated in light rain and winds up to 50 kph”，说明可在小雨和强风中使用，因此答案为FALSE。",
+              "reason": "题干 dry calm weather 与原文 light rain and winds 矛盾。",
+              "location_analysis": "原文天气条件与题干矛盾。",
+              "paraphrasing": "only used in dry, calm weather -> can be operated in light rain and winds up to 50 kph",
+              "keywords": "light rain, winds up to 50 kph",
+              "evidence": [
+                "The mobile wall is very adaptable and can be operated in light rain and winds up to 50 kph."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文明确表示该攀岩墙可在其他天气条件下使用，与此选项矛盾。",
+                "NOT GIVEN": "原文已明确提及使用天气条件，并非未给出信息。"
+              }
+            },
+            {
+              "id": "120340",
+              "number": 14,
+              "prompt": "lt is inadvisable for children who are afraid of heights to use the Mobile ClimbingWall.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干认为“恐高儿童不宜使用移动攀岩墙”，但原文指出“our instructors will support them up to a level which they're comfortable with”，说明会根据孩子舒适度提供支持，并非不建议参与，因此答案为FALSE。",
+              "reason": "题干 inadvisable 与原文支持参与矛盾。",
+              "location_analysis": "原文鼓励恐高儿童参与，与题干不建议矛盾。",
+              "paraphrasing": "inadvisable for children afraid of heights -> instructors will support them up to a level which they're comfortable with",
+              "keywords": "children afraid of heights, instructors will support",
+              "evidence": [
+                "If you're concerned that some children may not want to take part because they feel nervous if they climb, then please be assured that our instructors will support them up to a level which they're comfortable with."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文信息矛盾，原文表明恐高儿童使用该设施并无不妥。",
+                "NOT GIVEN": "原文中明确提到了恐高儿童使用该设施的相关信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "A Bath International Music Festival",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "From electronic to folk, jazz and classical, this festival is renowned for bringing world-class musicians to this historical city.",
+          "translation": "从电子音乐到民谣、爵士乐和古典音乐，这个节日以将世界级音乐家带到这座历史名城而闻名。"
+        },
+        {
+          "index": 2,
+          "sentence": "Starting with a great night of free music, 'Party in the City' this year is going to be no exception.",
+          "translation": "从一场精彩的免费音乐之夜开始，今年的“城市派对”也不例外。"
+        },
+        {
+          "index": 3,
+          "sentence": "B The Great Escape",
+          "translation": "B 大逃亡音乐节"
+        },
+        {
+          "index": 4,
+          "sentence": "Often referred to as Europe's leading festival for new music, more than 300 bands will perform to around 10,000 people in 30-plus venues, meaning you're sure to see the next big thing in music.",
+          "translation": "该音乐节常被誉为欧洲领先的新音乐节，将有超过300支乐队在30多个场馆为约一万人演出，这意味着你一定会看到下一个音乐界的巨星。"
+        },
+        {
+          "index": 5,
+          "sentence": "C Springwatch Festival",
+          "translation": "C 春季观察节"
+        },
+        {
+          "index": 6,
+          "sentence": "The much loved television series Springwatch celebrates the countryside as it does every year, with sheep herding, wood carving demonstrations, insect hunts and more activities, accompanied by live music and a great farmers' market, offering all sorts of mouth-watering produce.",
+          "translation": "深受喜爱的电视系列节目《春之守望》每年都会像往常一样颂扬乡村风光，活动包括牧羊、木雕演示、昆虫搜寻等，同时伴有现场音乐和大型农贸市场，提供各种令人垂涎的美食。"
+        },
+        {
+          "index": 7,
+          "sentence": "D Wychwood Music Festival",
+          "translation": "D 威奇伍德音乐节"
+        },
+        {
+          "index": 8,
+          "sentence": "Rightly nominated for the best family festival award every year since it began in 2005, this festival offers a combination of different music genres - many featuring artists from around the Wychwood area - and comedy, alongside a selection of outdoor cafés serving amazing world foods.",
+          "translation": "自2005年创办以来，该节每年都当之无愧地入围最佳家庭节奖，它融合了多种音乐风格（其中许多以来自威奇伍德地区的艺术家为特色）和喜剧元素，同时还设有一系列提供美味国际美食的户外咖啡馆。"
+        },
+        {
+          "index": 9,
+          "sentence": "E Love Food Festival",
+          "translation": "E 爱美食节"
+        },
+        {
+          "index": 10,
+          "sentence": "Bringing together a selection of the finest produce, this festival aims to educate visitors about how food should be produced and where it should come from, through sampling a range of tasty treats, cooked on site.",
+          "translation": "这个节日汇聚了精选的优质农产品，旨在通过现场烹饪品尝一系列美味佳肴，来教育游客食物应当如何生产以及来自何处。"
+        },
+        {
+          "index": 11,
+          "sentence": "F The 3 Wishes Faery Festival",
+          "translation": "F 三愿望仙子节"
+        },
+        {
+          "index": 12,
+          "sentence": "The UK's most magical event, this is a three-day festival of folk art, live music and fashion shows set in the beautiful wild surroundings of Bodmin Moor.",
+          "translation": "这是英国最具魔力的活动，是一个为期三天的节日，包含民间艺术、现场音乐和时装秀，举办地点在博德明荒原美丽的自然环境中。"
+        },
+        {
+          "index": 13,
+          "sentence": "If you don't fancy taking a tent, some local residents usually offer to put visitors up.",
+          "translation": "如果你不想带帐篷，一些当地居民通常会提供住宿给游客。"
+        },
+        {
+          "index": 14,
+          "sentence": "G Bath International Dance Festival",
+          "translation": "G 巴斯国际舞蹈节"
+        },
+        {
+          "index": 15,
+          "sentence": "Featuring demonstrations from world champion dancers and stars from the TV series Strictly Come Dancing, the festival promises toe-tapping action, including a world-record attempt, where everyone is invited to join in.",
+          "translation": "该音乐节将呈现世界冠军舞者及电视系列剧《舞动奇迹》明星的表演，保证带来令人随节奏起舞的精彩活动，其中包括一项世界纪录挑战，并邀请所有人共同参与。"
+        },
+        {
+          "index": 16,
+          "sentence": "BIG ROCK CLIMBING CENTRE",
+          "translation": "大岩石攀岩中心"
+        },
+        {
+          "index": 17,
+          "sentence": "Big Rock Climbing Centre is a modern, friendly, professionally run centre offering over 1,250 square metres of fantastic indoor climbing.",
+          "translation": "大岩石攀岩中心是一个现代化、友好且专业运营的中心，提供超过1250平方米的极佳室内攀岩场地。"
+        },
+        {
+          "index": 18,
+          "sentence": "We use trained and experienced instructors to give you the opportunity to learn and develop climbing skills, keep fit and have fun.",
+          "translation": "我们使用训练有素且经验丰富的教练，为您提供学习和发展攀岩技能、保持健康和享受乐趣的机会。"
+        },
+        {
+          "index": 19,
+          "sentence": "Master our 11 m-high climbing walls, using a rope harness, for an unbeatable sense of achievement.",
+          "translation": "使用绳索安全带征服我们11米高的攀岩墙，获得无与伦比的成就感。"
+        },
+        {
+          "index": 20,
+          "sentence": "Or experience the thrills of climbing without any harness in our special low-level arena, which has foam mats on the floor to cushion any fall safely.",
+          "translation": "或者在我们特殊的低层区域体验无安全带的攀岩刺激，该区域地面铺有泡沫垫，可安全缓冲任何坠落。"
+        },
+        {
+          "index": 21,
+          "sentence": "Who is Big Rock for?",
+          "translation": "大岩石攀岩中心面向哪些人群？"
+        },
+        {
+          "index": 22,
+          "sentence": "Almost anyone can enjoy Big Rock.",
+          "translation": "几乎任何人都可以享受大岩石的乐趣。"
+        },
+        {
+          "index": 23,
+          "sentence": "Previous climbing experience and specialist equipment are not required.",
+          "translation": "不需要之前的攀爬经验和专业设备。"
+        },
+        {
+          "index": 24,
+          "sentence": "You can come on your own or with friends and family.",
+          "translation": "你可以独自前来，或与朋友和家人一同前往。"
+        },
+        {
+          "index": 25,
+          "sentence": "Come as a fun alternative to the gym or for a special day out with the kids.",
+          "translation": "作为健身房的有趣替代品，或与孩子们共度特别的一天。"
+        },
+        {
+          "index": 26,
+          "sentence": "If you're visiting with friends or family but not climbing, or just fancy coming to look, please feel free to relax in our excellent café overlooking the climbing areas.",
+          "translation": "如果你与朋友或家人来访但不攀爬，或只是想来看看，请随意在我们俯瞰攀爬区的优质咖啡馆里放松身心。"
+        },
+        {
+          "index": 27,
+          "sentence": "Mobile Climbing Wall",
+          "translation": "移动攀岩墙"
+        },
+        {
+          "index": 28,
+          "sentence": "Available on a day hire basis at any location, the Big Rock Mobile Climbing Wall is the perfect way to enhance any show, festival or event.",
+          "translation": "Big Rock移动攀岩墙可按日租赁，在任何地点都能使用，是提升任何演出、节日或活动的完美方式。"
+        },
+        {
+          "index": 29,
+          "sentence": "The mobile wall can be used indoors or outdoors and features four unique 7.3 m-high climbing faces designed to allow four people to climb simultaneously.",
+          "translation": "该移动墙可用于室内或室外，设有四个独特的7.3米高攀岩面，设计可让四人同时攀爬。"
+        },
+        {
+          "index": 30,
+          "sentence": "Quick to set up and pack up, the Mobile Climbing Wall is staffed by qualified and experienced climbing instructors, providing the opportunity to climb the wall in a controlled and safe environment.",
+          "translation": "移动攀岩墙安装和拆卸迅速，由合格且有经验的攀岩教练负责运营，提供在可控且安全的环境中攀爬的机会。"
+        },
+        {
+          "index": 31,
+          "sentence": "When considering what to wear, we've found that trousers and t-shirts are ideal.",
+          "translation": "关于着装，我们发现裤子和T恤是最理想的选择。"
+        },
+        {
+          "index": 32,
+          "sentence": "We will, however, ask people to remove scarves.",
+          "translation": "然而，我们会要求人们取下围巾。"
+        },
+        {
+          "index": 33,
+          "sentence": "Most flat shoes are suitable as long as they're enclosed and support the foot.",
+          "translation": "大多数平底鞋都适合，只要它们是包脚且能支撑足部的。"
+        },
+        {
+          "index": 34,
+          "sentence": "The mobile wall is very adaptable and can be operated in light rain and winds up to 50 kph.",
+          "translation": "移动墙适应性很强，可在小雨和风速高达每小时50公里的条件下运行。"
+        },
+        {
+          "index": 35,
+          "sentence": "There are, however, particular measures that we take in such conditions.",
+          "translation": "不过，在这种情况下，我们会采取特定措施。"
+        },
+        {
+          "index": 36,
+          "sentence": "What about hiring the Mobile Climbing Wall for my school or college?",
+          "translation": "租用移动攀岩墙给我的学校或学院怎么样？"
+        },
+        {
+          "index": 37,
+          "sentence": "As climbing is different from the usual team games practised at schools, we've found that some students who don't usually like participating in sports are willing to have a go on the mobile climbing wall.",
+          "translation": "由于攀岩不同于学校常进行的团队运动，我们发现一些通常不喜欢参加体育活动的学生愿意尝试移动攀岩墙。"
+        },
+        {
+          "index": 38,
+          "sentence": "If you're concerned that some children may not want to take part because they feel nervous if they climb, then please be assured that our instructors will support them up to a level which they're comfortable with.",
+          "translation": "如果您担心有些孩子可能因攀爬时感到紧张而不愿参加，请放心，我们的教练会支持他们达到自己感到舒适的程度。"
+        },
+        {
+          "index": 39,
+          "sentence": "They will still benefit greatly from the experience.",
+          "translation": "他们仍将从这次经历中受益匪浅。"
+        }
+      ]
+    },
+    {
+      "id": "2082",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Marketing advice for new businesses",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "If you're setting up your own business, here's some advice on getting customers.",
+          "translation": "如果你正在创办自己的企业，这里有一些关于获取客户的建议。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Know where your customers look",
+          "translation": "了解你的客户在哪里寻找信息"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Your customers aren't necessarily where you think they are.So if you're advertising where they're just not looking, it's wasted money.That's why it pays to do a bit of research. Every time someone contacts your company, ask them where they found out about you.And act on this information so you're advertising in the right places.",
+          "translation": "你的客户未必在你以为的地方。\n因此，如果你在他们根本不关注的地方做广告，那就是浪费钱。\n这就是为什么花点精力做调研是值得的。\n每当有人联系你的公司时，问问他们是从哪里了解到你的。\n并据此采取行动，确保你在正确的地方投放广告。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Always think like a customer",
+          "translation": "始终像客户一样思考"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "What makes your customers tick? Find out, and you're halfway to saying the right things in your advertising. So take the time to ask them. A simple phone or email survey of your own customers, politely asking why they use you, what they really like and what they don't, is invaluable.",
+          "translation": "是什么驱动着你的客户？\n弄清楚这一点，你的广告就能说对一半的话。\n因此，花时间去问问他们。\n简单地对你的客户进行电话或电子邮件调查，礼貌地询问他们为什么选择你、他们真正喜欢什么以及不喜欢什么，这一点是无价的。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Make sure customers know you're there",
+          "translation": "确保客户知道你在这里"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "If a customer can't see you, they can't buy from you. There are loads of opportunities to promote your business - print, press, direct mail, telemarketing, email and the internet —and using a mix of these increases your chances of being seen (and remembered).",
+          "translation": "如果顾客看不到你，他们就无法从你这里购买。\n推广业务的机会有很多——印刷品、新闻媒体、直邮、电话营销、电子邮件和互联网——而综合运用这些方式能提高你被看到（并被记住）的机会。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Ignore your customers and they'll go away",
+          "translation": "忽视你的客户，他们就会流失。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "It sounds obvious, but companies who talk to their customers have much better retention rates than those that don't, so it's worth staying in touch. Capture your customers' email addresses upfront. Follow up a transaction to check they're happy with the service and, if possible, send them updates that are helpful, informative and relevant.",
+          "translation": "这听起来显而易见，但与客户保持沟通的公司比不这样做的公司拥有更高的客户留存率，因此保持联系是值得的。\n尽早获取客户的电子邮件地址。\n在交易后跟进，确认他们对服务感到满意，并在可能的情况下，向他们发送有用、信息丰富且相关的最新动态。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Know what works (and what doesn't)",
+          "translation": "了解有效的方法（以及无效的方法）"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Do what the professionals do, and measure all your advertising.That'll tell you what you're doing right —and where there's room for improvement. You never know, it might just throw up some information that could change your business for the better.",
+          "translation": "效仿专业人士的做法，评估你所有的广告。\n这会告诉你哪些地方做得对，以及哪些地方还有改进的空间。\n说不定，它可能会提供一些信息，从而让你的业务变得更好。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Remember word-of-mouth: the best advertising there is",
+          "translation": "记住口碑：这是最好的广告形式"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "A recent survey found that consumers are 50% more likely to be influenced by word-of-mouth recommendations than by TV or radio ads. So your reputation is your greatest asset. If your current customers are impressed with your company, they'll be more inclined to recommend you to others. On the flip side, if they experience bad service they probably won't complain to you - but you can be sure they will to their friends.",
+          "translation": "一项最近的调查发现，消费者受口碑推荐影响的可能性比受电视或广播广告影响的可能性高出50%。\n因此，你的声誉是你最大的资产。\n如果你现有的客户对你的公司印象深刻，他们会更倾向于向他人推荐你。\n另一方面，如果他们遭遇糟糕的服务，他们可能不会向你投诉——但你可以肯定他们会向朋友抱怨。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Working Time Regulations for Mobile Workers",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "流动工人工作时间规定"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "These rules apply to drivers and crew of heavy goods vehicles or public service vehicles. The rules limit the amount of time that can be worked.",
+          "translation": "这些规定适用于重型货车或公共服务车辆的司机及乘务人员。\n该规定限制了可工作的时长。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Those defined in the Regulations as being self-employed are currently not covered by the Regulations.",
+          "translation": "目前，该法规不适用于被定义为自雇人士的个体。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "What are the limits?",
+          "translation": "限制条件有哪些？"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "• An average of 48 hours’ work per week.",
+          "translation": "• 每周平均工作时间为48小时。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "• In any single week up to 60 hours can be worked so long as the 48-hour average is maintained.",
+          "translation": "• 在任何单周内，只要保持48小时的平均工时，就可以工作最多60小时。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "• Night work is limited to 10 hours per night, unless there is a workforce agreement to work longer.",
+          "translation": "• 夜间工作限制为每晚10小时，除非有员工协议允许更长时间的工作。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "• Statutory annual leave and any sick leave and/or maternity/paternity leave counts as working time.",
+          "translation": "• 法定年假以及任何病假和/或产假/陪产假均计入工作时间。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "What counts as work?",
+          "translation": "什么算作工作时间？"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "In general, any activities performed in connection with the transport operation count as work, for example, driving, loading/unloading and those checks that are the responsibility of drivers, such as checking lights, brakes, etc. There are a number of periods of time that do not count as work, for example, travelling between home and your normal place of work, lunch or other breaks and periods of availability.",
+          "translation": "总的来说，任何与运输操作相关的活动都算作工作，例如驾驶、装卸以及由司机负责的检查，比如检查车灯、刹车等。\n有一些时间段不算作工作，例如在家与正常工作地点之间的通勤、午餐或其他休息时间，以及待命时段。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "Periods of availability are periods of time during which the mobile worker is not required to remain at their workstation but is required to be available for work, the foreseeable duration of which is known about in advance, for example:",
+          "translation": "待命时段是指流动工人不需要留在其工作岗位，但需要随时准备工作的时段，其可预见的持续时间是事先已知的，例如："
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "• Delays at a distribution centre.",
+          "translation": "• 在配送中心发生的延误。"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "• Reporting for work then being informed that no duties are to be undertaken for a specified period.",
+          "translation": "• 报到上班后被告知在一段特定时间内无需承担任何工作职责。"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "• Accompanying a vehicle being transported, for example by train.",
+          "translation": "• 陪同运输中的车辆，例如通过火车。"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "A period of availability can be taken at the workstation.Providing the worker has a reasonable amount of freedom (e.g. they can read and relax) for a known duration, this could satisfy the requirements of a period of availability.",
+          "translation": "一段待命时间可以在工作岗位上度过。\n只要工人在已知的时间段内拥有合理的自由度（例如他们可以阅读和放松），这就可以满足待命时间的要求。"
+        },
+        {
+          "label": "",
+          "index": 29,
+          "text": "Situations when a period of time should not be recorded as a period of availability:",
+          "translation": "不应将一段时间记录为可用时段的几种情况："
+        },
+        {
+          "label": "",
+          "index": 30,
+          "text": "• Hold-ups due to congestion, because the driver would be stopping and starting the vehicle.",
+          "translation": "• 因交通拥堵造成的延误，因为司机需要频繁停车和启动车辆。"
+        },
+        {
+          "label": "",
+          "index": 31,
+          "text": "• Frequently moving up within a queue (e.g. waiting within a queue to load or unload) every other minute.",
+          "translation": "• 每隔一分钟就在队列中频繁向前移动（例如，在排队等待装卸货物时）。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15707",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 20\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120341",
+              "number": 15,
+              "prompt": "Some _____ will help you to discover the most effective places to advertise.",
+              "options": [],
+              "answer": "research",
+              "accepted_answers": [
+                "research"
+              ],
+              "analysis": "题干中的“Some ___ will help you to discover the most effective places to advertise”对应原文中的“That's why it pays to do a bit of research”，其中“discover the most effective places”与“advertising in the right places”构成同义替换，“research”是原文明确提到的手段，因此答案为 research。",
+              "reason": "research 对应题干关键词。",
+              "location_analysis": "题干问什么能帮你找到最有效的广告位。原文说做点研究（research）就能在正确的地方打广告。",
+              "paraphrasing": "discover -> find out; most effective places -> right places",
+              "keywords": "discover, most effective places, advertise",
+              "evidence": [
+                "That's why it pays to do a bit of research."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120342",
+              "number": 16,
+              "prompt": "A _____ of your customers will show you how they feel about your company.",
+              "options": [],
+              "answer": "survey",
+              "accepted_answers": [
+                "survey"
+              ],
+              "analysis": "题干要求填入一种了解顾客对公司看法的方式。原文提到“A simple phone or email survey of your own customers... is invaluable”，其中“survey”直接对应题干中“show you how they feel about your company”的目的，因此答案为 survey。",
+              "reason": "survey 即为题干所需答案。",
+              "location_analysis": "题干说调查（survey）顾客可了解他们对公司的感受。原文指出通过电话或邮件调查（survey...",
+              "paraphrasing": "show how they feel -> ask what they really like and what they don't",
+              "keywords": "feel about your company",
+              "evidence": [
+                "A simple phone or email survey of your own customers, politely asking why they use you, what they really like and what they don't, is invaluable."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120343",
+              "number": 17,
+              "prompt": "A _____ of forms of advertising will make it more likely that potential customers will find out about you.",
+              "options": [],
+              "answer": "mix",
+              "accepted_answers": [
+                "mix"
+              ],
+              "analysis": "题干中的“a ___ of forms of advertising”对应原文中的“using a mix of these increases your chances of being seen”，其中“mix”指多种广告形式（如print, email, internet等）的组合使用，与题干“make it more likely that potential customers will find out about you”逻辑一致，因此答案为 mix。",
+              "reason": "mix 是原文原词。",
+              "location_analysis": "题干说多种广告形式组合（mix）能提高曝光率。原文提到使用多种方式的混合（mix）能增加被看见...",
+              "paraphrasing": "forms of advertising -> print, press, direct mail, etc.; more likely -> increases chances",
+              "keywords": "forms of advertising, more likely, find out",
+              "evidence": [
+                "There are loads of opportunities to promote your business - print, press, direct mail, telemarketing, email and the internet —and using a mix of these increases your chances of being seen (and remembered)."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120344",
+              "number": 18,
+              "prompt": "If you can, provide customers with useful _____ about your business.",
+              "options": [],
+              "answer": "updates",
+              "accepted_answers": [
+                "updates"
+              ],
+              "analysis": "题干要求提供“useful ___ about your business”，原文建议“send them updates that are helpful, informative and relevant”，其中“updates”即指有关业务的有用信息更新，与题干完全对应，因此答案为 updates。",
+              "reason": "updates 是原文原词。",
+              "location_analysis": "题干说尽可能提供有用的更新（updates）。原文建议发送有帮助、信息丰富的更新（updates）。",
+              "paraphrasing": "provide customers with useful -> send them updates that are helpful",
+              "keywords": "useful, about your business",
+              "evidence": [
+                "if possible, send them updates that are helpful, informative and relevant."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120345",
+              "number": 19,
+              "prompt": "Measuring the effects of your advertising can give you _____ that will improve your business.",
+              "options": [],
+              "answer": "information",
+              "accepted_answers": [
+                "information"
+              ],
+              "analysis": "题干问测量广告效果能带来什么以改进业务。原文指出“It might just throw up some information that could change your business for the better”，其中“information”直接对应题干中“give you ___ that will improve your business”，因此答案为 information。",
+              "reason": "information 对应题干。",
+              "location_analysis": "题干问测量广告效果能带来什么改进。原文说可能提供能改善业务的信息（information）。",
+              "paraphrasing": "measuring the effects -> measure all your advertising; improve your business -> change your business for the better",
+              "keywords": "measuring the effects, improve your business",
+              "evidence": [
+                "It might just throw up some information that could change your business for the better."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120346",
+              "number": 20,
+              "prompt": "Success in finding new customers largely depends on your _____.",
+              "options": [],
+              "answer": "reputation",
+              "accepted_answers": [
+                "reputation"
+              ],
+              "analysis": "题干说成功获客“depends on your ___”，原文强调“So your reputation is your greatest asset”，并说明口碑推荐比电视广告更有效，因此“reputation”是决定新客户获取的关键因素，与题干逻辑完全吻合，答案为 reputation。",
+              "reason": "reputation 是原文原词。",
+              "location_analysis": "题干说成功主要取决于声誉（reputation）。原文指出声誉是你最大的资产。",
+              "paraphrasing": "success in finding new customers largely depends on -> your reputation is your greatest asset",
+              "keywords": "success, finding new customers, depends on",
+              "evidence": [
+                "So your reputation is your greatest asset."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Some $120341$ will help you to discover the most effective places to advertise.\nA $120342$ of your customers will show you how they feel about your company.\nA $120343$ of forms of advertising will make it more likely that potential customers will find out about you.\nIf you can, provide customers with useful $120344$ about your business.\nMeasuring the effects of your advertising can give you $120345$ that will improve your business.\nSuccess in finding new customers largely depends on your $120346$.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Some $120341$ will help you to discover the most effective places to advertise.\nA $120342$ of your customers will show you how they feel about your company.\nA $120343$ of forms of advertising will make it more likely that potential customers will find out about you.\nIf you can, provide customers with useful $120344$ about your business.\nMeasuring the effects of your advertising can give you $120345$ that will improve your business.\nSuccess in finding new customers largely depends on your $120346$."
+        },
+        {
+          "id": "15709",
+          "type": 8,
+          "title": "Working Time Regulations for Mobile Workers",
+          "instructions": "Questions 21 - 27\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120347",
+              "number": 21,
+              "prompt": "These apply to people working on lorries, buses, etc. — They don't apply to _____ workers.",
+              "options": [],
+              "answer": "selfemployed",
+              "accepted_answers": [
+                "selfemployed"
+              ],
+              "analysis": "题干指出规定“don't apply to ___ workers”，原文明确说明“Those defined... as being self-employed are currently not covered by the Regulations”，其中“self-employed”即为不受法规约束的群体，因此答案为 selfemployed。",
+              "reason": "self-employed 是原文原词。",
+              "location_analysis": "题干说规定不适用于自雇（self-employed）工人。原文明确说自雇者（self-empl...",
+              "paraphrasing": "don't apply to -> are currently not covered by",
+              "keywords": "don't apply to, workers",
+              "evidence": [
+                "Those defined in the Regulations as being self-employed are currently not covered by the Regulations."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120348",
+              "number": 22,
+              "prompt": "Maximum working hours: 60 hours a week, provided the _____ is no more than 48 hours.",
+              "options": [],
+              "answer": "average",
+              "accepted_answers": [
+                "average"
+              ],
+              "analysis": "题干提到每周最多工作60小时，前提是“the ___ is no more than 48 hours”，原文对应句为“so long as the 48-hour average is maintained”，其中“average”指平均工时，与题干条件完全匹配，因此答案为 average。",
+              "reason": "average 是原文原词。",
+              "location_analysis": "题干说明每周最长60小时，但平均（average）不超过48小时。原文说只要保持48小时的平均...",
+              "paraphrasing": "no more than 48 hours -> the 48-hour average is maintained",
+              "keywords": "maximum working hours, 60 hours, no more than 48",
+              "evidence": [
+                "In any single week up to 60 hours can be worked so long as the 48-hour average is maintained."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120349",
+              "number": 23,
+              "prompt": "Night work can be more than 10 hours with the _____ of the workers.",
+              "options": [],
+              "answer": "agreement",
+              "accepted_answers": [
+                "agreement"
+              ],
+              "analysis": "题干说夜班超过10小时需“with the ___ of the workers”，原文提到“unless there is a workforce agreement to work longer”，其中“agreement”指员工或工会达成的协议，符合题干所指的“工人同意”，因此答案为 agreement。",
+              "reason": "agreement 是原文原词。",
+              "location_analysis": "题干说夜班超10小时需员工同意（agreement）。原文提到除非有劳动协议（agreement）。",
+              "paraphrasing": "with the ___ of the workers -> unless there is a workforce agreement to work longer",
+              "keywords": "night work, more than 10 hours",
+              "evidence": [
+                "Night work is limited to 10 hours per night, unless there is a workforce agreement to work longer."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120350",
+              "number": 24,
+              "prompt": "Work includes driving, loading and unloading, and carrying out various _____ of the vehicle.",
+              "options": [],
+              "answer": "checks",
+              "accepted_answers": [
+                "checks"
+              ],
+              "analysis": "题干中“carrying out various ___ of the vehicle”对应原文中的“those checks that are the responsibility of drivers, such as checking lights, brakes, etc.”，其中“checks”明确指车辆检查项目，因此答案为 checks。",
+              "reason": "checks 是原文原词。",
+              "location_analysis": "题干说工作包括车辆检查（checks）。原文列举了驾驶员负责的检查（checks）。",
+              "paraphrasing": "carrying out various ___ of the vehicle -> those checks that are the responsibility of drivers, such as checking lights, brakes, etc.",
+              "keywords": "work includes, loading and unloading, vehicle",
+              "evidence": [
+                "any activities performed in connection with the transport operation count as work, for example, driving, loading/unloading and those checks that are the responsibility of drivers, such as checking lights, brakes, etc."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120351",
+              "number": 25,
+              "prompt": "going on a _____ or other form of transport with a vehicle",
+              "options": [],
+              "answer": "train",
+              "accepted_answers": [
+                "train"
+              ],
+              "analysis": "题干问“going on a ___ or other form of transport with a vehicle”属于可用时间，原文举例“Accompanying a vehicle being transported, for example by train”，其中“train”是明确提到的交通方式，因此答案为 train。",
+              "reason": "train 是原文原词。",
+              "location_analysis": "题干说包括坐火车（train）或其他交通工具。原文举例提到通过火车（train）运输车辆。",
+              "paraphrasing": "going on a ___ -> accompanying a vehicle being transported, for example by train",
+              "keywords": "periods of availability, other form of transport",
+              "evidence": [
+                "Accompanying a vehicle being transported, for example by train."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120352",
+              "number": 26,
+              "prompt": "a period at the workstation when the driver has some _____ might count as",
+              "options": [],
+              "answer": "freedom",
+              "accepted_answers": [
+                "freedom"
+              ],
+              "analysis": "题干说在工位上若驾驶员有“some ___”可视为可用时间，原文指出“Providing the worker has a reasonable amount of freedom... this could satisfy the requirements”，其中“freedom”指可自由阅读或休息的状态，因此答案为 freedom。",
+              "reason": "freedom 是原文原词。",
+              "location_analysis": "题干说驾驶员在工位有一定自由（freedom）可能算可用时间。原文说驾驶员有合理自由（free...",
+              "paraphrasing": "driver has some ___ -> a reasonable amount of freedom",
+              "keywords": "at the workstation, period of availability",
+              "evidence": [
+                "Providing the worker has a reasonable amount of freedom (e.g. they can read and relax) for a known duration, this could satisfy the requirements of a period of availability."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120353",
+              "number": 27,
+              "prompt": "time spent stopping and starting the vehicle when _____ causes delays",
+              "options": [],
+              "answer": "congestion",
+              "accepted_answers": [
+                "congestion"
+              ],
+              "analysis": "题干指出因“___ causes delays”导致频繁启停的时间不算可用时间，原文明确说明“Hold-ups due to congestion, because the driver would be stopping and starting the vehicle”，其中“congestion”即交通拥堵，因此答案为 congestion。",
+              "reason": "congestion 是原文原词。",
+              "location_analysis": "题干说堵车（congestion）导致走走停停的时间不算。原文明确说因拥堵（congestio...",
+              "paraphrasing": "when ___ causes delays -> Hold-ups due to congestion",
+              "keywords": "time spent stopping and starting, causes delays",
+              "evidence": [
+                "Hold-ups due to congestion, because the driver would be stopping and starting the vehicle."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "These apply to people working on lorries, buses, etc.\nThey don't apply to $120347$ workers.\nMaximum working hours: 60 hours a week, provided the $120348$ is no more than 48 hours.\nNight work can be more than 10 hours with the $120349$ of the workers.\nWork includes driving, loading and unloading, and carrying out various $120350$ of the vehicle.\nPeriods of availability include:\ngoing on a $120351$ or other form of transport with a vehicle\na period at the workstation when the driver has some $120352$ might count as\na period of availability\nPeriods of availability exclude:\ntime spent stopping and starting the vehicle when $120353$ causes delays\nbeing in a queue, e.g. in order to load or unload",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "These apply to people working on lorries, buses, etc.\nThey don't apply to $120347$ workers.\nMaximum working hours: 60 hours a week, provided the $120348$ is no more than 48 hours.\nNight work can be more than 10 hours with the $120349$ of the workers.\nWork includes driving, loading and unloading, and carrying out various $120350$ of the vehicle.\nPeriods of availability include:\ngoing on a $120351$ or other form of transport with a vehicle\na period at the workstation when the driver has some $120352$ might count as\na period of availability\nPeriods of availability exclude:\ntime spent stopping and starting the vehicle when $120353$ causes delays\nbeing in a queue, e.g. in order to load or unload"
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Marketing advice for new businesses",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "If you're setting up your own business, here's some advice on getting customers.",
+          "translation": "如果你正在创办自己的企业，这里有一些关于获取客户的建议。"
+        },
+        {
+          "index": 2,
+          "sentence": "Know where your customers look",
+          "translation": "了解你的客户在哪里寻找信息"
+        },
+        {
+          "index": 3,
+          "sentence": "Your customers aren't necessarily where you think they are.",
+          "translation": "你的客户未必在你以为的地方。"
+        },
+        {
+          "index": 4,
+          "sentence": "So if you're advertising where they're just not looking, it's wasted money.",
+          "translation": "因此，如果你在他们根本不关注的地方做广告，那就是浪费钱。"
+        },
+        {
+          "index": 5,
+          "sentence": "That's why it pays to do a bit of research.",
+          "translation": "这就是为什么花点精力做调研是值得的。"
+        },
+        {
+          "index": 6,
+          "sentence": "Every time someone contacts your company, ask them where they found out about you.",
+          "translation": "每当有人联系你的公司时，问问他们是从哪里了解到你的。"
+        },
+        {
+          "index": 7,
+          "sentence": "And act on this information so you're advertising in the right places.",
+          "translation": "并据此采取行动，确保你在正确的地方投放广告。"
+        },
+        {
+          "index": 8,
+          "sentence": "Always think like a customer",
+          "translation": "始终像客户一样思考"
+        },
+        {
+          "index": 9,
+          "sentence": "What makes your customers tick?",
+          "translation": "是什么驱动着你的客户？"
+        },
+        {
+          "index": 10,
+          "sentence": "Find out, and you're halfway to saying the right things in your advertising.",
+          "translation": "弄清楚这一点，你的广告就能说对一半的话。"
+        },
+        {
+          "index": 11,
+          "sentence": "So take the time to ask them.",
+          "translation": "因此，花时间去问问他们。"
+        },
+        {
+          "index": 12,
+          "sentence": "A simple phone or email survey of your own customers, politely asking why they use you, what they really like and what they don't, is invaluable.",
+          "translation": "简单地对你的客户进行电话或电子邮件调查，礼貌地询问他们为什么选择你、他们真正喜欢什么以及不喜欢什么，这一点是无价的。"
+        },
+        {
+          "index": 13,
+          "sentence": "Make sure customers know you're there",
+          "translation": "确保客户知道你在这里"
+        },
+        {
+          "index": 14,
+          "sentence": "If a customer can't see you, they can't buy from you.",
+          "translation": "如果顾客看不到你，他们就无法从你这里购买。"
+        },
+        {
+          "index": 15,
+          "sentence": "There are loads of opportunities to promote your business - print, press, direct mail, telemarketing, email and the internet —and using a mix of these increases your chances of being seen (and remembered).",
+          "translation": "推广业务的机会有很多——印刷品、新闻媒体、直邮、电话营销、电子邮件和互联网——而综合运用这些方式能提高你被看到（并被记住）的机会。"
+        },
+        {
+          "index": 16,
+          "sentence": "Ignore your customers and they'll go away.",
+          "translation": "忽视你的客户，他们就会流失。"
+        },
+        {
+          "index": 17,
+          "sentence": "It sounds obvious, but companies who talk to their customers have much better retention rates than those that don't, so it's worth staying in touch.",
+          "translation": "这听起来显而易见，但与客户保持沟通的公司比不这样做的公司拥有更高的客户留存率，因此保持联系是值得的。"
+        },
+        {
+          "index": 18,
+          "sentence": "Capture your customers' email addresses upfront.",
+          "translation": "尽早获取客户的电子邮件地址。"
+        },
+        {
+          "index": 19,
+          "sentence": "Follow up a transaction to check they're happy with the service and, if possible, send them updates that are helpful, informative and relevant.",
+          "translation": "在交易后跟进，确认他们对服务感到满意，并在可能的情况下，向他们发送有用、信息丰富且相关的最新动态。"
+        },
+        {
+          "index": 20,
+          "sentence": "Know what works (and what doesn't)",
+          "translation": "了解有效的方法（以及无效的方法）"
+        },
+        {
+          "index": 21,
+          "sentence": "Do what the professionals do, and measure all your advertising.",
+          "translation": "效仿专业人士的做法，评估你所有的广告。"
+        },
+        {
+          "index": 22,
+          "sentence": "That'll tell you what you're doing right —and where there's room for improvement.",
+          "translation": "这会告诉你哪些地方做得对，以及哪些地方还有改进的空间。"
+        },
+        {
+          "index": 23,
+          "sentence": "You never know, it might just throw up some information that could change your business for the better.",
+          "translation": "说不定，它可能会提供一些信息，从而让你的业务变得更好。"
+        },
+        {
+          "index": 24,
+          "sentence": "Remember word-of-mouth: the best advertising there is",
+          "translation": "记住口碑：这是最好的广告形式"
+        },
+        {
+          "index": 25,
+          "sentence": "A recent survey found that consumers are 50% more likely to be influenced by word-of-mouth recommendations than by TV or radio ads.",
+          "translation": "一项最近的调查发现，消费者受口碑推荐影响的可能性比受电视或广播广告影响的可能性高出50%。"
+        },
+        {
+          "index": 26,
+          "sentence": "So your reputation is your greatest asset.",
+          "translation": "因此，你的声誉是你最大的资产。"
+        },
+        {
+          "index": 27,
+          "sentence": "If your current customers are impressed with your company, they'll be more inclined to recommend you to others.",
+          "translation": "如果你现有的客户对你的公司印象深刻，他们会更倾向于向他人推荐你。"
+        },
+        {
+          "index": 28,
+          "sentence": "On the flip side, if they experience bad service they probably won't complain to you - but you can be sure they will to their friends.",
+          "translation": "另一方面，如果他们遭遇糟糕的服务，他们可能不会向你投诉——但你可以肯定他们会向朋友抱怨。"
+        },
+        {
+          "index": 29,
+          "sentence": "Working Time Regulations for Mobile Workers",
+          "translation": "流动工人工作时间规定"
+        },
+        {
+          "index": 30,
+          "sentence": "These rules apply to drivers and crew of heavy goods vehicles or public service vehicles.",
+          "translation": "这些规定适用于重型货车或公共服务车辆的司机及乘务人员。"
+        },
+        {
+          "index": 31,
+          "sentence": "The rules limit the amount of time that can be worked.",
+          "translation": "该规定限制了可工作的时长。"
+        },
+        {
+          "index": 32,
+          "sentence": "Those defined in the Regulations as being self-employed are currently not covered by the Regulations.",
+          "translation": "目前，该法规不适用于被定义为自雇人士的个体。"
+        },
+        {
+          "index": 33,
+          "sentence": "What are the limits?",
+          "translation": "限制条件有哪些？"
+        },
+        {
+          "index": 34,
+          "sentence": "• An average of 48 hours’ work per week.",
+          "translation": "• 每周平均工作时间为48小时。"
+        },
+        {
+          "index": 35,
+          "sentence": "• In any single week up to 60 hours can be worked so long as the 48-hour average is maintained.",
+          "translation": "• 在任何单周内，只要保持48小时的平均工时，就可以工作最多60小时。"
+        },
+        {
+          "index": 36,
+          "sentence": "• Night work is limited to 10 hours per night, unless there is a workforce agreement to work longer.",
+          "translation": "• 夜间工作限制为每晚10小时，除非有员工协议允许更长时间的工作。"
+        },
+        {
+          "index": 37,
+          "sentence": "• Statutory annual leave and any sick leave and/or maternity/paternity leave counts as working time.",
+          "translation": "• 法定年假以及任何病假和/或产假/陪产假均计入工作时间。"
+        },
+        {
+          "index": 38,
+          "sentence": "What counts as work?",
+          "translation": "什么算作工作时间？"
+        },
+        {
+          "index": 39,
+          "sentence": "In general, any activities performed in connection with the transport operation count as work, for example, driving, loading/unloading and those checks that are the responsibility of drivers, such as checking lights, brakes, etc.",
+          "translation": "总的来说，任何与运输操作相关的活动都算作工作，例如驾驶、装卸以及由司机负责的检查，比如检查车灯、刹车等。"
+        },
+        {
+          "index": 40,
+          "sentence": "There are a number of periods of time that do not count as work, for example, travelling between home and your normal place of work, lunch or other breaks and periods of availability.",
+          "translation": "有一些时间段不算作工作，例如在家与正常工作地点之间的通勤、午餐或其他休息时间，以及待命时段。"
+        },
+        {
+          "index": 41,
+          "sentence": "Periods of availability are periods of time during which the mobile worker is not required to remain at their workstation but is required to be available for work, the foreseeable duration of which is known about in advance, for example:",
+          "translation": "待命时段是指流动工人不需要留在其工作岗位，但需要随时准备工作的时段，其可预见的持续时间是事先已知的，例如："
+        },
+        {
+          "index": 42,
+          "sentence": "• Delays at a distribution centre.",
+          "translation": "• 在配送中心发生的延误。"
+        },
+        {
+          "index": 43,
+          "sentence": "• Reporting for work then being informed that no duties are to be undertaken for a specified period.",
+          "translation": "• 报到上班后被告知在一段特定时间内无需承担任何工作职责。"
+        },
+        {
+          "index": 44,
+          "sentence": "• Accompanying a vehicle being transported, for example by train.",
+          "translation": "• 陪同运输中的车辆，例如通过火车。"
+        },
+        {
+          "index": 45,
+          "sentence": "A period of availability can be taken at the workstation.",
+          "translation": "一段待命时间可以在工作岗位上度过。"
+        },
+        {
+          "index": 46,
+          "sentence": "Providing the worker has a reasonable amount of freedom (e.g. they can read and relax) for a known duration, this could satisfy the requirements of a period of availability.",
+          "translation": "只要工人在已知的时间段内拥有合理的自由度（例如他们可以阅读和放松），这就可以满足待命时间的要求。"
+        },
+        {
+          "index": 47,
+          "sentence": "Situations when a period of time should not be recorded as a period of availability:",
+          "translation": "不应将一段时间记录为可用时段的几种情况："
+        },
+        {
+          "index": 48,
+          "sentence": "• Hold-ups due to congestion, because the driver would be stopping and starting the vehicle.",
+          "translation": "• 因交通拥堵造成的延误，因为司机需要频繁停车和启动车辆。"
+        },
+        {
+          "index": 49,
+          "sentence": "• Frequently moving up within a queue (e.g. waiting within a queue to load or unload) every other minute.",
+          "translation": "• 每隔一分钟就在队列中频繁向前移动（例如，在排队等待装卸货物时）。"
+        }
+      ]
+    },
+    {
+      "id": "2083",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "A brief history of automata",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "An automaton is a machine, usually made to resemble a person or animal, that operates on its own, once it has been started. Although few are constructed nowadays, they have a history stretching back well over two thousand years. Several myths show that the ancient Greeks were interested in the creation of automata. In one, Hephaestus, the god of all mechanical arts, was reputed to have made two female statues of pure gold which assisted him and accompanied him wherever he went. As well as giving automata a place in mythology, the Greeks almost certainly created some.These were probably activated by levers and powered by human action, although there are descriptions of steam and water being used as sources of power.Automata were sometimes intended as toys, or as tools for demonstrating basic scientific principles.",
+          "translation": "自动装置是一种机器，通常被制作成模仿人或动物的样子，一旦启动，就能自行运转。\n尽管如今很少有人制造它们，但它们的历史可以追溯到两千多年前。\n一些神话表明，古希腊人对自动装置的创造很感兴趣。\n在一个神话中，所有机械工艺之神赫菲斯托斯据说制作了两尊纯金女性雕像，它们协助他并无论他走到哪里都陪伴着他。\n除了在神话中赋予自动装置一席之地外，古希腊人几乎肯定也创造了一些自动装置。\n这些装置可能通过杠杆启动并由人力驱动，尽管也有描述提到蒸汽和水被用作动力源。\n自动装置有时被用作玩具，或者作为演示基本科学原理的工具。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Other ancient cultures, too, seem to have developed automata. In Egypt, Ctesibius experimented with air pressure and pneumatic principles. One of his creations was a singing blackbird powered by water. A Chinese text of the third century BC describes a life-size, human-shaped figure that could walk rapidly, move its head up and down, sing and wink its eye.",
+          "translation": "其他古代文化似乎也发展了自动机。\n在埃及，克特西比乌斯对气压和气动原理进行了实验。\n他的一个作品是一只用水力驱动的会唱歌的黑鹂。\n公元前三世纪的一部中文文献描述了一个真人大小的人形雕像，它能快速行走、上下移动头部、唱歌并眨眼。\n其他古代文明似乎也发展出了自动机。\n他的一个发明是一只由水力驱动的会唱歌的黑鹂。\n公元前三世纪的一部中国文献描述了一个真人大小的人形装置，它能快速行走、上下移动头部、唱歌并眨眼。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Much later, Arab engineers of the ninth and thirteenth centuries wrote detailed treatises on how to build programmable musical fountains, mechanical servants, and elaborate clocks. A ninth-century ruler in Baghdad had a silver and gold tree with metal birds that sang.The art of creating automata developed considerably during the fifteenth century, linked with improvements in clock making: the mechanisms of automata and clocks had a great deal in common. Some truly remarkable automata were produced at this time. Muller was reputed to have made an artificial eagle which flew to greet the Emperor on his entry into Nuremberg, Germany, in 1470, then returned to perch on top of a city gate and, by stretching its wings and bowing, saluted the emperor on his arrival. Leonardo da Vinci made a lion in honour of the king of France, which advanced towards him, stopped, opened its chest with a claw and pointed to the French coat of arms.",
+          "translation": "很久之后，9世纪和13世纪的阿拉伯工程师撰写了详细的论文，论述如何建造可编程的音乐喷泉、机械仆人和精致的钟表。\n一位9世纪巴格达的统治者拥有一棵金银制成的树，上面有会唱歌的金属鸟。\n随着钟表制造技术的改进，自动机制造艺术在15世纪得到了显著发展：自动机与钟表的机械装置有许多共同之处。\n这一时期制造出了一些真正非凡的自动机。\n据传，穆勒制造了一只人造鹰，它在1470年皇帝进入德国纽伦堡时飞过去迎接，然后返回栖息在城门顶上，通过伸展翅膀并鞠躬，在皇帝抵达时向其致敬。\n莱昂纳多·达·芬奇为向法国国王致敬制作了一头狮子，它走向国王，停下来，用爪子打开胸膛，并指向法国的盾形徽章。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Automata were normally very expensive toys for the very rich. They were made for royal or aristocratic patrons, to be viewed only by themselves and selected guests - who were expected to be impressed by their wealth. Automata were also created for public show, however, and many appeared on clock towers, such as the one in Bern, Switzerland, built in 1530.",
+          "translation": "自动机通常是专为极其富有的人准备的非常昂贵的玩具。\n它们是为王室或贵族赞助人而制造的，仅供他们本人和特定的宾客观看——这些宾客预计会为他们的财富所打动。\n然而，自动机也被用于公开表演，许多出现在钟楼上，例如建于1530年的瑞士伯尔尼钟楼上的自动机。\n自动机通常是为富人准备的价格极为昂贵的玩具。\n它们是为皇室或贵族赞助人制造的，仅供他们本人和特定宾客观赏——这些人应该会因赞助人的财富而感到印象深刻。\n然而，自动机也被制作出来用于公开表演，许多出现在钟楼上，例如瑞士伯尔尼于1530年建造的那座钟楼上的自动机。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "During the eighteenth century, some watchmakers made automata to contribute to the progress of medicine and the natural sciences, particularly to investigate the mechanical laws governing the structure and movement of living things. Many of their creations simulated almost perfectly the complex structure of human beings and animals. Maillardet made extensive use of gearing and cogs to produce automata of horses, worked by turning a handle. Vaucanson produced a duck made of gilded copper which ate, drank and quacked like a real duck. He also made a life-size female flute player.Air passes through the complex mechanism, causing the lips and fingers of the player to move naturally on the flute, opening and closing holes on it.This automaton had a repertoire of twelve tunes.",
+          "translation": "在18世纪，一些钟表匠制作自动机器以促进医学和自然科学的发展，特别是为了研究支配生物结构和运动的机械法则。\n他们的许多作品几乎完美地模拟了人类和动物的复杂结构。\n马亚尔代广泛利用齿轮和嵌齿制作了马匹自动机器，通过转动手柄来驱动。\n沃康松制作了一只镀金铜鸭，它能像真鸭子一样进食、饮水和嘎嘎叫。\n他还制作了一个真人大小的女性长笛演奏者。\n空气穿过复杂的机械装置，使演奏者的嘴唇和手指在长笛上自然移动，开合其上的孔眼。\n这个自动机器能演奏十二首曲目。\n在18世纪，一些钟表匠制造自动机以促进医学和自然科学的发展，特别是用于研究支配生物结构和运动的机械规律。\n马亚尔代大量使用齿轮和嵌齿来制造通过转动把手驱动的马形自动机。\n沃康松制造了一只镀金铜鸭，它能像真鸭子一样进食、饮水并发出嘎嘎叫声。\n空气通过复杂的机械装置，使演奏者的嘴唇和手指在长笛上自然移动，从而开合其上的音孔。\n这个自动机能够演奏十二首曲目。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "In another well-known piece,Merlin's silver swan made in 1773, the swan sits in a stream consisting of glass rods where small silver fish are swimming. When the clockwork is wound, a music box plays and the glass rods rotate, giving the impression of a flowing stream. The swan turns its head from side to side. It soon notices the fish and bends down to catch and eat one, then raises its head to the upright position.The mechanism still works.",
+          "translation": "在另一件著名的作品中，即1773年制造的梅林银天鹅，天鹅坐在一条由玻璃棒组成的小溪中，溪中有银色小鱼在游动。\n当发条装置上紧后，音乐盒开始演奏，玻璃棒旋转起来，营造出溪水流动的视觉效果。\n天鹅左右转动着它的头。\n它很快注意到鱼，便弯下腰捕捉并吃掉一条，然后抬起头恢复到竖直位置。\n这个机械装置至今仍能运作。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "One of the most skilled makers of automata was the Swiss watchmaker Jaquet-Droz.He produced three automata which, even today, are considered wonders of science and mechanical engineering.One of these,The Writer, simulates a boy sitting at a desk, dipping his pen into the ink and writing perfectly legibly.",
+          "translation": "最技艺精湛的自动机工匠之一是瑞士钟表匠雅凯-德罗。\n他制造了三台自动机，即便在今天，它们仍被视为科学和机械工程的奇迹。\n其中一台名为《作家》，模拟了一个男孩坐在书桌前，将笔浸入墨水并书写出完全清晰的文字。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Another stunning creation of the eighteenth century was the Mechanical Theatre in the grounds of Austria's Hellbrunn Palace, home of the Archbishop of Salzburg. Designed by the miner Rosenegger, and completed in 1752, this depicts the nobility's idea of a perfect society, with every class in its proper place. The figures inside a palace depict eighteenth-century court life, while industrious activity is carried on in and around this building.A total of 141 mobile and 52 immobile little figures demonstrate all manner of trades of the period:building workers bring materials to the foreman, who drinks; butchers slaughter an ox; a barber shaves a man.A dancing bear performs, guards march past the palace, a farmer pushes an old woman in a wheelbarrow over the road.The theatre shows great skill in clock making and water technology, consisting of hidden waterwheels, copper wiring and cogwheels.",
+          "translation": "十八世纪的另一项惊人创造是位于奥地利海尔布伦宫（萨尔茨堡大主教住所）庭园内的机械剧场。\n由矿工罗森埃格设计，并于1752年完工，该作品描绘了贵族心目中的理想社会，每个阶层都处于其应有的位置。\n宫殿内的人物展现了十八世纪的宫廷生活，而这座建筑内外则进行着勤劳的活动。\n共计141个可移动和52个不可移动的小人偶展示了那个时代各式各样的行业：建筑工人向正在喝酒的工头运送材料；屠夫宰杀一头公牛；理发师为一名男子刮脸。\n一只跳舞的熊在表演，卫兵列队走过宫殿，一名农夫推着手推车，车上坐着一位老妇人，穿过道路。\n该剧场展现了制钟和水力技术方面的精湛技艺，由隐藏的水轮、铜线和齿轮构成。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "I"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "During the nineteenth century, mass production techniques meant that automata could be made cheaply and easily, and they became toys for children rather than an expensive adult amusement. Between 1860 and 1910, small family businesses in Paris made thousands of clockwork automata and mechanical singing birds and exported them around the world. However, the twentieth century saw traditional forms of automata fall out of favour.",
+          "translation": "在19世纪，大规模生产技术意味着自动装置可以廉价且容易地制造出来，它们变成了儿童的玩具，而非昂贵的成人娱乐品。\n在1860年至1910年间，巴黎的小型家族企业制造了数千个发条自动装置和机械唱歌鸟，并将它们出口到世界各地。\n然而，20世纪见证了传统形式的自动装置失宠。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15711",
+          "type": 4,
+          "title": "Automata and the ancient Greeks",
+          "instructions": "Questions 28 - 30\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120354",
+              "number": 28,
+              "prompt": "The ancient Greeks had a number of _____ concerning automata. According to one, the god Hephaestus created two assistants made of gold. The Greeks probably also created real automata; it seems most likely that the mechanism which controlled them consisted of _____ which were worked by human operators. Some automata were designed to be _____ with an educational purpose.",
+              "options": [],
+              "answer": "myths",
+              "accepted_answers": [
+                "myths"
+              ],
+              "analysis": "题干中的“a number of ___ concerning automata”对应原文中的“Several myths show that the ancient Greeks were interested in the creation of automata”，其中“myths”直接说明古希腊人关于自动机的传说，因此答案为“myths”。",
+              "reason": "原文明确提到myths，与填空词一致。",
+              "location_analysis": "题干说希腊人有关于自动机的神话；原文第一句即对应。",
+              "paraphrasing": "had a number of concerning automata -> several myths show ... were interested in the creation of automata",
+              "keywords": "ancient Greeks, myths",
+              "evidence": [
+                "Several myths show that the ancient Greeks were interested in the creation of automata."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120355",
+              "number": 29,
+              "prompt": "The ancient Greeks had a number of _____ concerning automata. According to one, the god Hephaestus created two assistants made of gold. The Greeks probably also created real automata; it seems most likely that the mechanism which controlled them consisted of _____ which were worked by human operators. Some automata were designed to be _____ with an educational purpose.",
+              "options": [],
+              "answer": "levers",
+              "accepted_answers": [
+                "levers"
+              ],
+              "analysis": "题干要求填写控制自动机的机制组成部分，原文提到“These were probably activated by levers and powered by human action”，其中“levers”明确指出是由杠杆驱动，并由人力操作，与题干“consisted of ___ which were worked by human operators”完全对应，因此答案是“levers”。",
+              "reason": "原文levers即为控制机制。",
+              "location_analysis": "题干说机制由什么组成并由人类操作；原文levers符合。",
+              "paraphrasing": "consisted of -> were activated by; were worked by human operators -> powered by human action",
+              "keywords": "mechanism, levers",
+              "evidence": [
+                "These were probably activated by levers and powered by human action"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120356",
+              "number": 30,
+              "prompt": "The ancient Greeks had a number of _____ concerning automata. According to one, the god Hephaestus created two assistants made of gold. The Greeks probably also created real automata; it seems most likely that the mechanism which controlled them consisted of _____ which were worked by human operators. Some automata were designed to be _____ with an educational purpose.",
+              "options": [],
+              "answer": "tools",
+              "accepted_answers": [
+                "tools"
+              ],
+              "analysis": "题干中“designed to be ___ with an educational purpose”对应原文中的“Automata were sometimes intended as toys, or as tools for demonstrating basic scientific principles”，其中“tools”用于展示科学原理，具有教育目的，因此答案为“tools”。",
+              "reason": "原文tools对应题干educational purpose。",
+              "location_analysis": "题干说自动机被设计成具有教育目的的东西；原文tools符合。",
+              "paraphrasing": "designed to be -> intended as; with an educational purpose -> demonstrating basic scientific principles",
+              "keywords": "designed to be, educational purpose",
+              "evidence": [
+                "Automata were sometimes intended as toys, or as tools for demonstrating basic scientific principles."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "The ancient Greeks had a number of $120354$ concerning automata. According to one, the god Hephaestus created two assistants made of gold. The Greeks probably also created real automata; it seems most likely that the mechanism which controlled them consisted of $120355$ which were worked by human operators. Some automata were designed to be $120356$ with an educational purpose.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The ancient Greeks had a number of $120354$ concerning automata. According to one, the god Hephaestus created two assistants made of gold. The Greeks probably also created real automata; it seems most likely that the mechanism which controlled them consisted of $120355$ which were worked by human operators. Some automata were designed to be $120356$ with an educational purpose."
+        },
+        {
+          "id": "15713",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 31 - 35\nLook at the following descriptions (Questions 31-35) and the list of people below.\nMatch each statement with the correct person, A-G.\nChoose the correct letter and move it into the gap.",
+          "option_title": "List of People",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Ctesibius"
+            },
+            {
+              "value": "B",
+              "label": "B. Arab engineers"
+            },
+            {
+              "value": "C",
+              "label": "C. da Vinci"
+            },
+            {
+              "value": "D",
+              "label": "D. Maillardet"
+            },
+            {
+              "value": "E",
+              "label": "E. Vaucanson"
+            },
+            {
+              "value": "F",
+              "label": "F. Merlin"
+            },
+            {
+              "value": "G",
+              "label": "G. Jaquet-Droz"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120357",
+              "number": 31,
+              "prompt": "created an automaton that represented a bird in water, interacting with its surroundings",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Ctesibius"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Arab engineers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. da Vinci"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Maillardet"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Vaucanson"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Merlin"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Jaquet-Droz"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干描述的是“created an automaton that represented a bird in water, interacting with its surroundings”，原文段落F提到Merlin制作的银天鹅坐在由玻璃棒构成的溪流中，能转头、发现鱼并低头捕捉，生动展现了与环境互动的过程，因此匹配人物为F（Merlin）。",
+              "reason": "Merlin的银天鹅在水中与鱼互动。",
+              "location_analysis": "题干描述水中鸟与环境互动；Merlin's silver swan符合。",
+              "paraphrasing": "bird in water, interacting with its surroundings -> swan sits in a stream, turns its head, notices fish, bends down to catch and eat one",
+              "keywords": "bird in water, interacting",
+              "evidence": [
+                "In another well-known piece,Merlin's silver swan made in 1773",
+                "The swan turns its head from side to side. It soon notices the fish and bends down to catch and eat one"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120358",
+              "number": 32,
+              "prompt": "created an automaton that performed on a musical instrument",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Ctesibius"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Arab engineers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. da Vinci"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Maillardet"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Vaucanson"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Merlin"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Jaquet-Droz"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干要求找出“created an automaton that performed on a musical instrument”的人物，原文段落E提到Vaucanson制作了一位真人大小的女性长笛演奏者，其嘴唇和手指能自然地在长笛上移动并演奏十二首曲子，完全符合题意，因此答案为E（Vaucanson）。",
+              "reason": "Vaucanson创作了吹笛自动机。",
+              "location_analysis": "题干说自动机演奏乐器；Vaucanson的女性笛手符合。",
+              "paraphrasing": "performed on a musical instrument -> life-size female flute player; This automaton had a repertoire of twelve tunes",
+              "keywords": "performed on a musical instrument",
+              "evidence": [
+                "He also made a life-size female flute player."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120359",
+              "number": 33,
+              "prompt": "produced documents about how to create automata",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Ctesibius"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Arab engineers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. da Vinci"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Maillardet"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Vaucanson"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Merlin"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Jaquet-Droz"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“produced documents about how to create automata”对应原文段落C中“Arab engineers of the ninth and thirteenth centuries wrote detailed treatises on how to build programmable musical fountains, mechanical servants, and elaborate clocks”，其中“wrote detailed treatises”即指撰写了关于制造自动机的详细文献，因此答案为B（Arab engineers）。",
+              "reason": "Arab engineers写treatises对应produced documents。",
+              "location_analysis": "题干说制作了关于创造自动机的文件；Arab engineers写了详细论文。",
+              "paraphrasing": "produced documents about how to create automata -> wrote detailed treatises on how to build programmable musical fountains, mechanical servants, and elaborate clocks",
+              "keywords": "produced documents, how to create automata",
+              "evidence": [
+                "Much later, Arab engineers of the ninth and thirteenth centuries wrote detailed treatises on how to build programmable musical fountains, mechanical servants, and elaborate clocks."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120360",
+              "number": 34,
+              "prompt": "created automata which required a human being to operate the mechanism",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Ctesibius"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Arab engineers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. da Vinci"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Maillardet"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Vaucanson"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Merlin"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Jaquet-Droz"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求找出“created automata which required a human being to operate the mechanism”的人物，原文段落E提到Maillardet制作的马形自动机“worked by turning a handle”，即需要人转动把手来操作，符合“需人力操作机制”的描述，因此答案为D（Maillardet）。",
+              "reason": "Maillardet的马需要人转手柄操作。",
+              "location_analysis": "题干说需要人操作；Maillardet的马自动机由转动手柄驱动。",
+              "paraphrasing": "required a human being to operate the mechanism -> worked by turning a handle",
+              "keywords": "required a human being to operate",
+              "evidence": [
+                "Maillardet made extensive use of gearing and cogs to produce automata of horses, worked by turning a handle."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120361",
+              "number": 35,
+              "prompt": "used air and water power",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Ctesibius"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Arab engineers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. da Vinci"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Maillardet"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Vaucanson"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Merlin"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Jaquet-Droz"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“used air and water power”对应原文段落B中对Ctesibius的描述：“experimented with air pressure and pneumatic principles”以及“a singing blackbird powered by water”，明确说明他同时运用了空气压力和水力作为动力来源，因此答案为A（Ctesibius）。",
+              "reason": "Ctesibius使用空气和水力。",
+              "location_analysis": "题干说使用了空气和水力；Ctesibius用空气压力和气压原理，且作品以水为动力。",
+              "paraphrasing": "used air and water power -> experimented with air pressure and pneumatic principles; his creations ... powered by water",
+              "keywords": "used air and water power",
+              "evidence": [
+                "In Egypt, Ctesibius experimented with air pressure and pneumatic principles. One of his creations was a singing blackbird powered by water."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of People"
+          }
+        },
+        {
+          "id": "15715",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 36 - 40\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120362",
+              "number": 36,
+              "prompt": "The Mechanical Theatre shows court life inside a _____.",
+              "options": [],
+              "answer": "palace",
+              "accepted_answers": [
+                "palace"
+              ],
+              "analysis": "题干“shows court life inside a ___”对应原文段落H中的“The figures inside a palace depict eighteenth-century court life”，其中“palace”直接说明机械剧场展示的是宫殿内的宫廷生活，因此答案为“palace”。",
+              "reason": "原文inside a palace直接匹配。",
+              "location_analysis": "题干说机械剧场展示宫殿内的宫廷生活；原文palace对应。",
+              "paraphrasing": "shows court life inside a -> depicts... court life, while... a palace",
+              "keywords": "Mechanical Theatre, court life, inside",
+              "evidence": [
+                "The figures inside a palace depict eighteenth-century court life"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120363",
+              "number": 37,
+              "prompt": "In the Mechanical Theatre, building workers, butchers and a barber represent various _____ of the time.",
+              "options": [],
+              "answer": "trades",
+              "accepted_answers": [
+                "trades"
+              ],
+              "analysis": "题干中“building workers, butchers and a barber represent various ___ of the time”对应原文“A total of 141 mobile and 52 immobile little figures demonstrate all manner of trades of the period”，其中“trades”指当时的各种行业或职业，与题干中的“various”形成语义对应，因此答案是“trades”。",
+              "reason": "trades对应题干various。",
+              "location_analysis": "题干说这些人物代表各种行业；原文trades符合。",
+              "paraphrasing": "represent various of the time -> demonstrate all manner of trades of the period",
+              "keywords": "building workers, butchers, barber, various",
+              "evidence": [
+                "A total of 141 mobile and 52 immobile little figures demonstrate all manner of trades of the period"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120364",
+              "number": 38,
+              "prompt": "_____ provides the power that operates the Mechanical Theatre.",
+              "options": [],
+              "answer": "water",
+              "accepted_answers": [
+                "water"
+              ],
+              "analysis": "题干要求填写驱动机械剧场的动力来源，原文段落H末尾提到“The theatre shows great skill in clock making and water technology, consisting of hidden waterwheels...”，其中“waterwheels”表明水是主要动力源，因此答案为“water”。",
+              "reason": "waterwheels表明水为动力。",
+              "location_analysis": "题干说水提供动力；原文waterwheels暗示water为动力源。",
+              "paraphrasing": "provides the power that operates -> consisting of hidden waterwheels, copper wiring and cogwheels",
+              "keywords": "provides the power, operates",
+              "evidence": [
+                "The theatre shows great skill in clock making and water technology, consisting of hidden waterwheels, copper wiring and cogwheels."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120365",
+              "number": 39,
+              "prompt": "New _____ that developed in the nineteenth century reduced the cost of the production of automata.",
+              "options": [],
+              "answer": "techniques",
+              "accepted_answers": [
+                "techniques"
+              ],
+              "analysis": "题干中“New ___ that developed in the nineteenth century reduced the cost”对应原文段落I开头“During the nineteenth century, mass production techniques meant that automata could be made cheaply and easily”，其中“mass production techniques”即指十九世纪发展出的新技术，使自动机成本降低，因此答案为“techniques”。",
+              "reason": "techniques对应new development。",
+              "location_analysis": "题干说19世纪新方法降低成本；原文mass production techniques对应。",
+              "paraphrasing": "new that developed in the nineteenth century reduced the cost -> mass production techniques meant that automata could be made cheaply",
+              "keywords": "new, reduced the cost",
+              "evidence": [
+                "During the nineteenth century, mass production techniques meant that automata could be made cheaply and easily"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120366",
+              "number": 40,
+              "prompt": "During the nineteenth century, most automata were intended for use by _____.",
+              "options": [],
+              "answer": "children",
+              "accepted_answers": [
+                "children"
+              ],
+              "analysis": "题干“most automata were intended for use by ___”对应原文“they became toys for children rather than an expensive adult amusement”，明确指出十九世纪自动机的主要使用者是儿童，因此答案为“children”。",
+              "reason": "children直接对应题干。",
+              "location_analysis": "题干说19世纪自动机主要为谁使用；原文children符合。",
+              "paraphrasing": "intended for use by -> became toys for children rather than an expensive adult amusement",
+              "keywords": "intended for use by",
+              "evidence": [
+                "they became toys for children rather than an expensive adult amusement."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "The Mechanical Theatre shows court life inside a $120362$.\nIn the Mechanical Theatre, building workers, butchers and a barber represent various $120363$ of the time.\n$120364$ provides the power that operates the Mechanical Theatre.\nNew $120365$ that developed in the nineteenth century reduced the cost of the production of automata.\nDuring the nineteenth century, most automata were intended for use by $120366$.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The Mechanical Theatre shows court life inside a $120362$.\nIn the Mechanical Theatre, building workers, butchers and a barber represent various $120363$ of the time.\n$120364$ provides the power that operates the Mechanical Theatre.\nNew $120365$ that developed in the nineteenth century reduced the cost of the production of automata.\nDuring the nineteenth century, most automata were intended for use by $120366$."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "A brief history of automata",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "An automaton is a machine, usually made to resemble a person or animal, that operates on its own, once it has been started.",
+          "translation": "自动装置是一种机器，通常被制作成模仿人或动物的样子，一旦启动，就能自行运转。"
+        },
+        {
+          "index": 3,
+          "sentence": "Although few are constructed nowadays, they have a history stretching back well over two thousand years.",
+          "translation": "尽管如今很少有人制造它们，但它们的历史可以追溯到两千多年前。"
+        },
+        {
+          "index": 4,
+          "sentence": "Several myths show that the ancient Greeks were interested in the creation of automata.",
+          "translation": "一些神话表明，古希腊人对自动装置的创造很感兴趣。"
+        },
+        {
+          "index": 5,
+          "sentence": "In one, Hephaestus, the god of all mechanical arts, was reputed to have made two female statues of pure gold which assisted him and accompanied him wherever he went.",
+          "translation": "在一个神话中，所有机械工艺之神赫菲斯托斯据说制作了两尊纯金女性雕像，它们协助他并无论他走到哪里都陪伴着他。"
+        },
+        {
+          "index": 6,
+          "sentence": "As well as giving automata a place in mythology, the Greeks almost certainly created some.",
+          "translation": "除了在神话中赋予自动装置一席之地外，古希腊人几乎肯定也创造了一些自动装置。"
+        },
+        {
+          "index": 7,
+          "sentence": "These were probably activated by levers and powered by human action, although there are descriptions of steam and water being used as sources of power.",
+          "translation": "这些装置可能通过杠杆启动并由人力驱动，尽管也有描述提到蒸汽和水被用作动力源。"
+        },
+        {
+          "index": 8,
+          "sentence": "Automata were sometimes intended as toys, or as tools for demonstrating basic scientific principles.",
+          "translation": "自动装置有时被用作玩具，或者作为演示基本科学原理的工具。"
+        },
+        {
+          "index": 9,
+          "sentence": "Other ancient cultures, too, seem to have developed automata.",
+          "translation": "其他古代文化似乎也发展了自动机。"
+        },
+        {
+          "index": 10,
+          "sentence": "In Egypt, Ctesibius experimented with air pressure and pneumatic principles.",
+          "translation": "在埃及，克特西比乌斯对气压和气动原理进行了实验。"
+        },
+        {
+          "index": 11,
+          "sentence": "One of his creations was a singing blackbird powered by water.",
+          "translation": "他的一个作品是一只用水力驱动的会唱歌的黑鹂。"
+        },
+        {
+          "index": 12,
+          "sentence": "A Chinese text of the third century BC describes a life-size, human-shaped figure that could walk rapidly, move its head up and down, sing and wink its eye.",
+          "translation": "公元前三世纪的一部中文文献描述了一个真人大小的人形雕像，它能快速行走、上下移动头部、唱歌并眨眼。"
+        },
+        {
+          "index": 13,
+          "sentence": "Other ancient cultures, too, seem to have developed automata.",
+          "translation": "其他古代文明似乎也发展出了自动机。"
+        },
+        {
+          "index": 14,
+          "sentence": "In Egypt, Ctesibius experimented with air pressure and pneumatic principles.",
+          "translation": "在埃及，克特西比乌斯对气压和气动原理进行了实验。"
+        },
+        {
+          "index": 15,
+          "sentence": "One of his creations was a singing blackbird powered by water.",
+          "translation": "他的一个发明是一只由水力驱动的会唱歌的黑鹂。"
+        },
+        {
+          "index": 16,
+          "sentence": "A Chinese text of the third century BC describes a life-size, human-shaped figure that could walk rapidly, move its head up and down, sing and wink its eye.",
+          "translation": "公元前三世纪的一部中国文献描述了一个真人大小的人形装置，它能快速行走、上下移动头部、唱歌并眨眼。"
+        },
+        {
+          "index": 18,
+          "sentence": "Much later, Arab engineers of the ninth and thirteenth centuries wrote detailed treatises on how to build programmable musical fountains, mechanical servants, and elaborate clocks.",
+          "translation": "很久之后，9世纪和13世纪的阿拉伯工程师撰写了详细的论文，论述如何建造可编程的音乐喷泉、机械仆人和精致的钟表。"
+        },
+        {
+          "index": 19,
+          "sentence": "A ninth-century ruler in Baghdad had a silver and gold tree with metal birds that sang.",
+          "translation": "一位9世纪巴格达的统治者拥有一棵金银制成的树，上面有会唱歌的金属鸟。"
+        },
+        {
+          "index": 20,
+          "sentence": "The art of creating automata developed considerably during the fifteenth century, linked with improvements in clock making: the mechanisms of automata and clocks had a great deal in common.",
+          "translation": "随着钟表制造技术的改进，自动机制造艺术在15世纪得到了显著发展：自动机与钟表的机械装置有许多共同之处。"
+        },
+        {
+          "index": 21,
+          "sentence": "Some truly remarkable automata were produced at this time.",
+          "translation": "这一时期制造出了一些真正非凡的自动机。"
+        },
+        {
+          "index": 22,
+          "sentence": "Muller was reputed to have made an artificial eagle which flew to greet the Emperor on his entry into Nuremberg, Germany, in 1470, then returned to perch on top of a city gate and, by stretching its wings and bowing, saluted the emperor on his arrival.",
+          "translation": "据传，穆勒制造了一只人造鹰，它在1470年皇帝进入德国纽伦堡时飞过去迎接，然后返回栖息在城门顶上，通过伸展翅膀并鞠躬，在皇帝抵达时向其致敬。"
+        },
+        {
+          "index": 23,
+          "sentence": "Leonardo da Vinci made a lion in honour of the king of France, which advanced towards him, stopped, opened its chest with a claw and pointed to the French coat of arms.",
+          "translation": "莱昂纳多·达·芬奇为向法国国王致敬制作了一头狮子，它走向国王，停下来，用爪子打开胸膛，并指向法国的盾形徽章。"
+        },
+        {
+          "index": 24,
+          "sentence": "Automata were normally very expensive toys for the very rich.",
+          "translation": "自动机通常是专为极其富有的人准备的非常昂贵的玩具。"
+        },
+        {
+          "index": 25,
+          "sentence": "They were made for royal or aristocratic patrons, to be viewed only by themselves and selected guests - who were expected to be impressed by their wealth.",
+          "translation": "它们是为王室或贵族赞助人而制造的，仅供他们本人和特定的宾客观看——这些宾客预计会为他们的财富所打动。"
+        },
+        {
+          "index": 26,
+          "sentence": "Automata were also created for public show, however, and many appeared on clock towers, such as the one in Bern, Switzerland, built in 1530.",
+          "translation": "然而，自动机也被用于公开表演，许多出现在钟楼上，例如建于1530年的瑞士伯尔尼钟楼上的自动机。"
+        },
+        {
+          "index": 27,
+          "sentence": "Automata were normally very expensive toys for the very rich.",
+          "translation": "自动机通常是为富人准备的价格极为昂贵的玩具。"
+        },
+        {
+          "index": 28,
+          "sentence": "They were made for royal or aristocratic patrons, to be viewed only by themselves and selected guests - who were expected to be impressed by their wealth.",
+          "translation": "它们是为皇室或贵族赞助人制造的，仅供他们本人和特定宾客观赏——这些人应该会因赞助人的财富而感到印象深刻。"
+        },
+        {
+          "index": 29,
+          "sentence": "Automata were also created for public show, however, and many appeared on clock towers, such as the one in Bern, Switzerland, built in 1530.",
+          "translation": "然而，自动机也被制作出来用于公开表演，许多出现在钟楼上，例如瑞士伯尔尼于1530年建造的那座钟楼上的自动机。"
+        },
+        {
+          "index": 31,
+          "sentence": "During the eighteenth century, some watchmakers made automata to contribute to the progress of medicine and the natural sciences, particularly to investigate the mechanical laws governing the structure and movement of living things.",
+          "translation": "在18世纪，一些钟表匠制作自动机器以促进医学和自然科学的发展，特别是为了研究支配生物结构和运动的机械法则。"
+        },
+        {
+          "index": 32,
+          "sentence": "Many of their creations simulated almost perfectly the complex structure of human beings and animals.",
+          "translation": "他们的许多作品几乎完美地模拟了人类和动物的复杂结构。"
+        },
+        {
+          "index": 33,
+          "sentence": "Maillardet made extensive use of gearing and cogs to produce automata of horses, worked by turning a handle.",
+          "translation": "马亚尔代广泛利用齿轮和嵌齿制作了马匹自动机器，通过转动手柄来驱动。"
+        },
+        {
+          "index": 34,
+          "sentence": "Vaucanson produced a duck made of gilded copper which ate, drank and quacked like a real duck.",
+          "translation": "沃康松制作了一只镀金铜鸭，它能像真鸭子一样进食、饮水和嘎嘎叫。"
+        },
+        {
+          "index": 35,
+          "sentence": "He also made a life-size female flute player.",
+          "translation": "他还制作了一个真人大小的女性长笛演奏者。"
+        },
+        {
+          "index": 36,
+          "sentence": "Air passes through the complex mechanism, causing the lips and fingers of the player to move naturally on the flute, opening and closing holes on it.",
+          "translation": "空气穿过复杂的机械装置，使演奏者的嘴唇和手指在长笛上自然移动，开合其上的孔眼。"
+        },
+        {
+          "index": 37,
+          "sentence": "This automaton had a repertoire of twelve tunes.",
+          "translation": "这个自动机器能演奏十二首曲目。"
+        },
+        {
+          "index": 38,
+          "sentence": "During the eighteenth century, some watchmakers made automata to contribute to the progress of medicine and the natural sciences, particularly to investigate the mechanical laws governing the structure and movement of living things.",
+          "translation": "在18世纪，一些钟表匠制造自动机以促进医学和自然科学的发展，特别是用于研究支配生物结构和运动的机械规律。"
+        },
+        {
+          "index": 39,
+          "sentence": "Many of their creations simulated almost perfectly the complex structure of human beings and animals.",
+          "translation": "他们的许多作品几乎完美地模拟了人类和动物的复杂结构。"
+        },
+        {
+          "index": 40,
+          "sentence": "Maillardet made extensive use of gearing and cogs to produce automata of horses, worked by turning a handle.",
+          "translation": "马亚尔代大量使用齿轮和嵌齿来制造通过转动把手驱动的马形自动机。"
+        },
+        {
+          "index": 41,
+          "sentence": "Vaucanson produced a duck made of gilded copper which ate, drank and quacked like a real duck.",
+          "translation": "沃康松制造了一只镀金铜鸭，它能像真鸭子一样进食、饮水并发出嘎嘎叫声。"
+        },
+        {
+          "index": 42,
+          "sentence": "He also made a life-size female flute player.",
+          "translation": "他还制作了一个真人大小的女性长笛演奏者。"
+        },
+        {
+          "index": 43,
+          "sentence": "Air passes through the complex mechanism, causing the lips and fingers of the player to move naturally on the flute, opening and closing holes on it.",
+          "translation": "空气通过复杂的机械装置，使演奏者的嘴唇和手指在长笛上自然移动，从而开合其上的音孔。"
+        },
+        {
+          "index": 44,
+          "sentence": "This automaton had a repertoire of twelve tunes.",
+          "translation": "这个自动机能够演奏十二首曲目。"
+        },
+        {
+          "index": 46,
+          "sentence": "In another well-known piece,Merlin's silver swan made in 1773, the swan sits in a stream consisting of glass rods where small silver fish are swimming.",
+          "translation": "在另一件著名的作品中，即1773年制造的梅林银天鹅，天鹅坐在一条由玻璃棒组成的小溪中，溪中有银色小鱼在游动。"
+        },
+        {
+          "index": 47,
+          "sentence": "When the clockwork is wound, a music box plays and the glass rods rotate, giving the impression of a flowing stream.",
+          "translation": "当发条装置上紧后，音乐盒开始演奏，玻璃棒旋转起来，营造出溪水流动的视觉效果。"
+        },
+        {
+          "index": 48,
+          "sentence": "The swan turns its head from side to side.",
+          "translation": "天鹅左右转动着它的头。"
+        },
+        {
+          "index": 49,
+          "sentence": "It soon notices the fish and bends down to catch and eat one, then raises its head to the upright position.",
+          "translation": "它很快注意到鱼，便弯下腰捕捉并吃掉一条，然后抬起头恢复到竖直位置。"
+        },
+        {
+          "index": 50,
+          "sentence": "The mechanism still works.",
+          "translation": "这个机械装置至今仍能运作。"
+        },
+        {
+          "index": 52,
+          "sentence": "One of the most skilled makers of automata was the Swiss watchmaker Jaquet-Droz.",
+          "translation": "最技艺精湛的自动机工匠之一是瑞士钟表匠雅凯-德罗。"
+        },
+        {
+          "index": 53,
+          "sentence": "He produced three automata which, even today, are considered wonders of science and mechanical engineering.",
+          "translation": "他制造了三台自动机，即便在今天，它们仍被视为科学和机械工程的奇迹。"
+        },
+        {
+          "index": 54,
+          "sentence": "One of these, The Writer, simulates a boy sitting at a desk, dipping his pen into the ink and writing perfectly legibly.",
+          "translation": "其中一台名为《作家》，模拟了一个男孩坐在书桌前，将笔浸入墨水并书写出完全清晰的文字。"
+        },
+        {
+          "index": 56,
+          "sentence": "Another stunning creation of the eighteenth century was the Mechanical Theatre in the grounds of Austria's Hellbrunn Palace, home of the Archbishop of Salzburg.",
+          "translation": "十八世纪的另一项惊人创造是位于奥地利海尔布伦宫（萨尔茨堡大主教住所）庭园内的机械剧场。"
+        },
+        {
+          "index": 57,
+          "sentence": "Designed by the miner Rosenegger, and completed in 1752, this depicts the nobility's idea of a perfect society, with every class in its proper place.",
+          "translation": "由矿工罗森埃格设计，并于1752年完工，该作品描绘了贵族心目中的理想社会，每个阶层都处于其应有的位置。"
+        },
+        {
+          "index": 58,
+          "sentence": "The figures inside a palace depict eighteenth-century court life, while industrious activity is carried on in and around this building.",
+          "translation": "宫殿内的人物展现了十八世纪的宫廷生活，而这座建筑内外则进行着勤劳的活动。"
+        },
+        {
+          "index": 59,
+          "sentence": "A total of 141 mobile and 52 immobile little figures demonstrate all manner of trades of the period:building workers bring materials to the foreman, who drinks; butchers slaughter an ox; a barber shaves a man.",
+          "translation": "共计141个可移动和52个不可移动的小人偶展示了那个时代各式各样的行业：建筑工人向正在喝酒的工头运送材料；屠夫宰杀一头公牛；理发师为一名男子刮脸。"
+        },
+        {
+          "index": 60,
+          "sentence": "A dancing bear performs, guards march past the palace, a farmer pushes an old woman in a wheelbarrow over the road.",
+          "translation": "一只跳舞的熊在表演，卫兵列队走过宫殿，一名农夫推着手推车，车上坐着一位老妇人，穿过道路。"
+        },
+        {
+          "index": 61,
+          "sentence": "The theatre shows great skill in clock making and water technology, consisting of hidden waterwheels, copper wiring and cogwheels.",
+          "translation": "该剧场展现了制钟和水力技术方面的精湛技艺，由隐藏的水轮、铜线和齿轮构成。"
+        },
+        {
+          "index": 63,
+          "sentence": "During the nineteenth century, mass production techniques meant that automata could be made cheaply and easily, and they became toys for children rather than an expensive adult amusement.",
+          "translation": "在19世纪，大规模生产技术意味着自动装置可以廉价且容易地制造出来，它们变成了儿童的玩具，而非昂贵的成人娱乐品。"
+        },
+        {
+          "index": 64,
+          "sentence": "Between 1860 and 1910, small family businesses in Paris made thousands of clockwork automata and mechanical singing birds and exported them around the world.",
+          "translation": "在1860年至1910年间，巴黎的小型家族企业制造了数千个发条自动装置和机械唱歌鸟，并将它们出口到世界各地。"
+        },
+        {
+          "index": 65,
+          "sentence": "However, the twentieth century saw traditional forms of automata fall out of favour.",
+          "translation": "然而，20世纪见证了传统形式的自动装置失宠。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

@@ -1,0 +1,2526 @@
+{
+  "id": "b15-test-1",
+  "book": "剑雅15",
+  "book_number": 15,
+  "name": "Test 1",
+  "title": "剑雅15 Test 1",
+  "parts": [
+    {
+      "id": "2045",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Consumer advice",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "What to do if something you ordered hasn't arrived",
+          "translation": "如果您订购的商品尚未到达，该怎么办"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "If something you've ordered hasn't arrived, you should contact the seller to find out where it is. It's their legal responsibility to make sure the item is delivered to you. They should chase the delivery company and let you know what's happened to your item. If your item wasn't delivered to the location you agreed (e.g. if it was left with your neighbour without your consent), it's the seller's legal responsibility to sort out the issue.",
+          "translation": "如果你订购的物品尚未送达，你应该联系卖家以查明其下落。\n确保物品送达给你是他们的法律责任。\n他们应当催促快递公司，并告知你物品的情况。\n如果你的物品未送达你同意的地点（例如，未经你同意而被留在邻居处），卖家有法律责任来解决这个问题。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "If the item doesn't turn up, you're legally entitled to a replacement or refund. You can ask for your money back if you don't receive the item within 30 days of buying it. If the seller refuses, you should put your complaint in writing. If that doesn't work, you could contact their trade association - look on their website for this information, or contact them to ask.",
+          "translation": "如果商品未送达，您在法律上有权要求更换或退款。\n如果您在购买后30天内未收到商品，您可以要求退款。\n如果卖家拒绝，您应以书面形式提出投诉。\n如果这不起作用，您可以联系他们的行业协会——请在其网站上查找相关信息，或联系他们进行咨询。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "You might also be able to get your money back through your bank or payment provider —this depends on how you paid.",
+          "translation": "您或许还能通过您的银行或支付提供商拿回款项——这取决于您是如何支付的。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "• If you paid by debit card, contact your bank and say you want to use the ‘chargeback’ scheme. If the bank agrees, they can ask the seller's bank to refund the money to your account. Many bank staff don't know about the scheme, so you might need to speak to a supervisor or manager. You should do this within 120 days of when you paid.",
+          "translation": "• 如果您使用借记卡付款，请联系您的银行，并说明您想使用‘退款’机制。\n如果银行同意，他们可以要求卖家所在的银行将款项退还到您的账户。\n许多银行员工不了解这一机制，因此您可能需要与主管或经理沟通。\n您应在付款后的120天内进行此项操作。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "• If you paid by credit card and the item cost less than £100, you should contact your credit card company and say you want to use the 'chargeback' scheme. There's no time limit for when you need to do this. If the item cost more than £100 but less than £30,000, contact your credit card company and say that you want to make a ‘section 75' claim.",
+          "translation": "• 如果你使用信用卡付款且商品价格低于100英镑，你应该联系信用卡公司，并说明你想使用‘退款追回’计划。\n进行此操作没有时间限制。\n如果商品价格超过100英镑但低于30,000英镑，请联系你的信用卡公司，并说明你想提出‘第75条’索赔。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "• If you paid using PayPal, use PayPal's online resolution centre to report your dispute. You must do this within 180 days of paying.",
+          "translation": "• 如果您是通过PayPal支付的，请使用PayPal的在线纠纷解决中心来报告您的争议。\n您必须在付款后的180天内完成此操作。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Rice Cookers",
+          "question_cue": {
+            "start": 7,
+            "end": 14
+          },
+          "translation": "电饭煲"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "What's the best rice cooker for you?",
+          "translation": "最适合您的电饭煲是哪一款？"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "A Ezy Rice Cooker",
+          "translation": "A款 易煮电饭煲"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "This has a 1.8 litre pot and a stainless steel exterior. It has a separate glass lid, and the handle on the lid stays cool. It produces perfectly cooked white rice, but tends to spit when cooking brown rice.There are slight dirt traps around the rim of the lid, and neither the pot nor the lid is dishwasher safe.",
+          "translation": "这款电饭煲配有1.8升的锅体和不锈钢外壳。\n它有一个独立的玻璃盖子，盖子上的把手保持凉爽。\n它能煮出完美的白米饭，但在煮糙米时容易喷溅。\n盖子边缘有一些轻微的积垢区域，而且锅体和盖子都不适用于洗碗机。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "B Family Rice Cooker",
+          "translation": "B 家庭电饭煲"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "This has a plastic exterior and a flip-top lid.The lid locks when closed and becomes a secure handle to carry the cooker.The aluminium interior pot is quite difficult to clean, and it can't be put in a dishwasher. It's programmed to adjust the temperature once the rice is done so that it stops cooking but doesn't get cold.",
+          "translation": "这款电饭煲具有塑料外壳和翻盖式盖子。\n盖子关闭时会锁定，并变成一个牢固的提手，方便携带电饭煲。\n铝制内锅相当难以清洗，且不能放入洗碗机中。\n它被设置为在米饭煮好后自动调节温度，从而停止烹饪但不会变凉。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "C Mini Rice Cooker",
+          "translation": "C 迷你电饭煲"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "This has a flip-top lid and a 0.3 litre capacity.The interior pot is made of non-stick aluminium and is dishwasher safe.This rice cooker is ideal when cooking for one. However it does not have any handles at the side, and water sometimes overflows when cooking brown rice.",
+          "translation": "这款电饭煲配有翻盖式盖子，容量为0.3升。\n内锅由不粘铝制成，且可用洗碗机清洗。\n这款电饭煲非常适合一人份烹饪。\n然而，它两侧没有任何手柄，并且在煮糙米时有时会溢水。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "D VPN Rice Cooker",
+          "translation": "D VPN 电饭煲"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "This has a painted steel exterior with a handle on each side and a steel inner pot. It has a lift-off lid and comes with a booklet including a range of ideas for rice dishes. However, the keep-warm setting must be manually selected and the handles are tricky to grip.",
+          "translation": "这款电饭煲具有喷漆钢制外壳，两侧各有一个手柄，并配备一个钢制内锅。\n它有一个可拆卸的盖子，并附带一本小册子，其中包含一系列米饭菜肴的创意。\n然而，保温设置必须手动选择，而且手柄难以抓握。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "E S16 Rice cooker",
+          "translation": "E S16 电饭煲"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "This is simple to use, not spitting or boiling over even when cooking brown rice.The exterior stays cool when in use, so there's no danger of burning your hand.However, the lack of handles is a nuisance, and a recipe book would have been useful.",
+          "translation": "这款电饭煲操作简单，即使在煮糙米时也不会喷溅或溢出。\n使用过程中外部保持凉爽，因此没有烫伤手的危险。\n然而，缺少把手很麻烦，如果附赠一本食谱会更有用。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15302",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1 - 6\nDo the following statements agree with the information given in Reading Passage 1?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119842",
+              "number": 1,
+              "prompt": "You will receive a card telling you if an item has been left with a neighbour.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干提到‘你会收到一张卡片，告知物品已被留给邻居’，但原文仅说明‘如果未经你同意将物品留给邻居，卖家有法律责任解决问题’，并未提及是否会收到卡片通知。因此，文中没有相关信息，答案为 NOT GIVEN。",
+              "reason": "原文未提及收到卡片信息。",
+              "location_analysis": "原文说如果未经同意留给邻居，卖家负责，但没提到你会收到卡片。所以NG。",
+              "paraphrasing": "receive a card -> no mention; left with a neighbour -> left with your neighbour without your consent",
+              "keywords": "card, item, left, neighbour",
+              "evidence": [
+                "If your item wasn't delivered to the location you agreed (e.g. if it was left with your neighbour without your consent), it's the seller's legal responsibility to sort out the issue."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文并未明确提及你会收到卡片通知物品是否被留在邻居处，因此不能判断为正确。",
+                "FALSE": "原文并未说明你不会收到此类卡片，因此不能判断为错误。"
+              }
+            },
+            {
+              "id": "119843",
+              "number": 2,
+              "prompt": "lt may be quicker to get a refund than a replacement for a non-delivered item.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问‘退款是否比更换更快’，但原文只说明‘若物品未送达，你有权获得更换或退款’，并未对两者处理速度进行比较。由于缺乏关于处理时间的信息，答案为 NOT GIVEN。",
+              "reason": "原文未提及速度比较。",
+              "location_analysis": "原文说你有权获得替代品或退款，但未比较哪个更快。所以NG。",
+              "paraphrasing": "quicker -> no mention; refund -> your money back; replacement -> a replacement",
+              "keywords": "quicker, refund, replacement",
+              "evidence": [
+                "If the item doesn't turn up, you're legally entitled to a replacement or refund."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及退款与更换速度的比较，该选项无中生有。",
+                "FALSE": "原文未提及相关信息，无法判断该说法错误，因此不能选FALSE。"
+              }
+            },
+            {
+              "id": "119844",
+              "number": 3,
+              "prompt": "You are entitled to a refund if the item fails to arrive by a certain time.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的‘entitled to a refund if the item fails to arrive by a certain time’对应原文‘You can ask for your money back if you don't receive the item within 30 days of buying it’。30天即为‘certain time’的具体体现，且明确赋予退款权利，因此答案为 TRUE。",
+              "reason": "原文明确提到30天内未收到可要求退款",
+              "location_analysis": "原文说若30天内未收到，有权退款。",
+              "paraphrasing": "entitled to a refund -> legally entitled to a replacement or refund; fails to arrive by a certain time -> don't receive the item within 30 days",
+              "keywords": "entitled, refund, fails to arrive, certain time",
+              "evidence": [
+                "If the item doesn't turn up, you're legally entitled to a replacement or refund. You can ask for your money back if you don't receive the item within 30 days of buying it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文支持该陈述，选项与实际信息矛盾。",
+                "NOT GIVEN": "原文明确提到了这一权利，并非未提及。"
+              }
+            },
+            {
+              "id": "119845",
+              "number": 4,
+              "prompt": "There is a time limit when using the 'chargeback' scheme for a debit card payment.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的‘time limit when using the chargeback scheme for a debit card payment’对应原文‘You should do this within 120 days of when you paid’。这明确指出了借记卡使用chargeback的时间限制，因此答案为 TRUE。",
+              "reason": "原文有明确时间限制。",
+              "location_analysis": "原文明确借记卡chargeback需在付款后120天内申请。题干正确。",
+              "paraphrasing": "time limit -> within 120 days of when you paid",
+              "keywords": "time limit, chargeback, debit card",
+              "evidence": [
+                "You should do this within 120 days of when you paid."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文中明确提到有时间限制的信息矛盾。",
+                "NOT GIVEN": "原文明确提到了时间限制，并非未提及。"
+              }
+            },
+            {
+              "id": "119846",
+              "number": 5,
+              "prompt": "You can use the 'chargeback' scheme for a credit card payment of more than ￡100.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称‘可对超过£100的信用卡付款使用chargeback’，但原文明确区分：£100以下用chargeback，£100以上应使用‘section 75’索赔。因此，题干与原文矛盾，答案为 FALSE。",
+              "reason": "原文对金额有区分，>100应使用section 75而非chargeback。",
+              "location_analysis": "原文说信用卡chargeback用于<100英镑，>100则用section 75。题干说>1...",
+              "paraphrasing": "more than 100 -> cost less than 100; chargeback -> chargeback",
+              "keywords": "chargeback, credit card, more than 100",
+              "evidence": [
+                "If you paid by credit card and the item cost less than £100, you should contact your credit card company and say you want to use the 'chargeback' scheme."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文明确指出chargeback scheme不适用超过￡100的信用卡支付，因此与原文矛盾。",
+                "NOT GIVEN": "原文已明确提及该支付金额不可使用chargeback scheme，因此并非未提及。"
+              }
+            },
+            {
+              "id": "119847",
+              "number": 6,
+              "prompt": "PayPal's online resolution centre has a good reputation for efficiency.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干提到‘PayPal在线争议解决中心效率高、声誉好’，但原文仅说明‘使用PayPal的在线争议解决中心报告争议’，并未评价其效率或声誉。因此，文中无此信息，答案为 NOT GIVEN。",
+              "reason": "原文未提及声誉或效率信息。",
+              "location_analysis": "原文仅提到使用PayPal解决中心报告争议，未评价其声誉或效率。所以NG。",
+              "paraphrasing": "good reputation -> no mention; efficiency -> no mention",
+              "keywords": "PayPal, online resolution centre, reputation, efficiency",
+              "evidence": [
+                "If you paid using PayPal, use PayPal's online resolution centre to report your dispute."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及PayPal的在线解决中心的声誉，属于无中生有。",
+                "FALSE": "原文未提及声誉信息，无法判断其好坏，因此与原文矛盾不成立。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15309",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 7 - 14\nLook at the five reviews of rice cookers, A-E.\nFor which rice cooker are the following statements true?\nWrite the correct Jette A-E, in boxes 7-14 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119848",
+              "number": 7,
+              "prompt": "The handles at the side are hard to use.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的‘The handles at the side are hard to use’对应D款（VPN Rice Cooker）描述中的‘the handles are tricky to grip’。‘tricky to grip’即表示难以使用，且该款确实有两侧手柄，因此答案为 D。",
+              "reason": "原文明确提到手柄难握。",
+              "location_analysis": "原文D说手柄难抓握（tricky to grip），对应题干。",
+              "paraphrasing": "handles at the side -> a handle on each side; hard to use -> tricky to grip",
+              "keywords": "handles, side, hard to use, D",
+              "evidence": [
+                "However, the keep-warm setting must be manually selected and the handles are tricky to grip."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119849",
+              "number": 8,
+              "prompt": "lt cooks brown rice without making a mess.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干要求找出‘煮糙米不弄脏/不溢出’的型号，E款（S16 Rice Cooker）原文明确说明‘not spitting or boiling over even when cooking brown rice’，完全符合‘without making a mess’的描述，因此答案为 E。",
+              "reason": "E型号明确表示煮糙米不溅出或溢出",
+              "location_analysis": "题干cooks brown rice without mess对应S16型号中not spit...",
+              "paraphrasing": "without making a mess -> not spitting or boiling over",
+              "keywords": "cooks brown rice, without making a mess",
+              "evidence": [
+                "This is simple to use, not spitting or boiling over even when cooking brown rice."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119850",
+              "number": 9,
+              "prompt": "lt automatically switches setting to keep the rice warm when cooked.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的‘automatically switches setting to keep the rice warm’对应B款（Family Rice Cooker）中‘programmed to adjust the temperature once the rice is done so that it stops cooking but doesn't get cold’，说明其具备自动保温功能，因此答案为 B。",
+              "reason": "B型号有自动调温保持米饭不冷的程序",
+              "location_analysis": "题干自动切换保温对应B型号中programmed to adjust temperature使...",
+              "paraphrasing": "automatically switches setting to keep warm -> programmed to adjust the temperature once the rice is done so that it stops cooking but doesn't get cold",
+              "keywords": "automatically, switches setting, keep warm",
+              "evidence": [
+                "It's programmed to adjust the temperature once the rice is done so that it stops cooking but doesn't get cold."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119851",
+              "number": 10,
+              "prompt": "lt's difficult to get the removable top really clean.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的‘difficult to get the removable top really clean’对应A款（Ezy Rice Cooker）描述中的‘slight dirt traps around the rim of the lid’，表明锅盖边缘容易积垢、难以彻底清洁，因此答案为 A。",
+              "reason": "A型号锅盖边缘有污垢陷阱，难以彻底清洁",
+              "location_analysis": "题干盖难清洁对应A型号中lid边缘有污垢陷阱。",
+              "paraphrasing": "removable top -> lid; difficult to get clean -> slight dirt traps around the rim of the lid",
+              "keywords": "difficult, removable top, get really clean",
+              "evidence": [
+                "There are slight dirt traps around the rim of the lid, and neither the pot nor the lid is dishwasher safe."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119852",
+              "number": 11,
+              "prompt": "Aselection of recipes is provided with the cooker.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的‘a selection of recipes is provided’对应D款（VPN Rice Cooker）中‘comes with a booklet including a range of ideas for rice dishes’，‘booklet’即包含食谱内容，因此答案为 D。",
+              "reason": "D型号附带食谱小册子",
+              "location_analysis": "题干提供食谱对应D型号中附带包含多种米饭创意的小册子。",
+              "paraphrasing": "selection of recipes -> a booklet including a range of ideas for rice dishes",
+              "keywords": "selection of recipes, provided with cooker",
+              "evidence": [
+                "It has a lift-off lid and comes with a booklet including a range of ideas for rice dishes."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119853",
+              "number": 12,
+              "prompt": "lt has a handle at the top for carrying the cooker safely.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的‘handle at the top for carrying the cooker safely’对应B款（Family Rice Cooker）中‘The lid locks when closed and becomes a secure handle to carry the cooker’，说明其顶部盖子可作为安全提手，因此答案为 B。",
+              "reason": "B型号的盖子可锁定成为提手",
+              "location_analysis": "题干顶部手柄对应B型号中盖上锁定后成为安全提手。",
+              "paraphrasing": "handle at top for carrying -> lid locks when closed and becomes a secure handle to carry the cooker",
+              "keywords": "handle, top, carrying cooker safely",
+              "evidence": [
+                "The lid locks when closed and becomes a secure handle to carry the cooker."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119854",
+              "number": 13,
+              "prompt": "The outside of the cooker doesn't get too hot.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的‘outside of the cooker doesn't get too hot’对应E款（S16 Rice Cooker）中‘The exterior stays cool when in use, so there's no danger of burning your hand’，明确说明外部不烫，因此答案为 E。",
+              "reason": "E型号外部使用时保持冷却",
+              "location_analysis": "题干外部不烫对应E型号中exterior stays cool when in use。",
+              "paraphrasing": "outside doesn't get too hot -> exterior stays cool",
+              "keywords": "outside of cooker, doesn't get too hot",
+              "evidence": [
+                "The exterior stays cool when in use, so there's no danger of burning your hand."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119855",
+              "number": 14,
+              "prompt": "You can put the pot in the dishwasher.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中的‘You can put the pot in the dishwasher’对应C款（Mini Rice Cooker）中‘The interior pot is made of non-stick aluminium and is dishwasher safe’，直接说明内锅可用洗碗机清洗，因此答案为 C。",
+              "reason": "C型号内锅可用洗碗机清洗",
+              "location_analysis": "题干内锅可洗碗机清洗对应C型号中interior pot is dishwasher safe。",
+              "paraphrasing": "pot dishwasher safe -> interior pot is dishwasher safe",
+              "keywords": "put the pot in the dishwasher",
+              "evidence": [
+                "The interior pot is made of non-stick aluminium and is dishwasher safe."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Consumer advice",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "What to do if something you ordered hasn't arrived",
+          "translation": "如果您订购的商品尚未到达，该怎么办"
+        },
+        {
+          "index": 2,
+          "sentence": "If something you've ordered hasn't arrived, you should contact the seller to find out where it is.",
+          "translation": "如果你订购的物品尚未送达，你应该联系卖家以查明其下落。"
+        },
+        {
+          "index": 3,
+          "sentence": "It's their legal responsibility to make sure the item is delivered to you.",
+          "translation": "确保物品送达给你是他们的法律责任。"
+        },
+        {
+          "index": 4,
+          "sentence": "They should chase the delivery company and let you know what's happened to your item.",
+          "translation": "他们应当催促快递公司，并告知你物品的情况。"
+        },
+        {
+          "index": 5,
+          "sentence": "If your item wasn't delivered to the location you agreed (e.g. if it was left with your neighbour without your consent), it's the seller's legal responsibility to sort out the issue.",
+          "translation": "如果你的物品未送达你同意的地点（例如，未经你同意而被留在邻居处），卖家有法律责任来解决这个问题。"
+        },
+        {
+          "index": 6,
+          "sentence": "If the item doesn't turn up, you're legally entitled to a replacement or refund.",
+          "translation": "如果商品未送达，您在法律上有权要求更换或退款。"
+        },
+        {
+          "index": 7,
+          "sentence": "You can ask for your money back if you don't receive the item within 30 days of buying it.",
+          "translation": "如果您在购买后30天内未收到商品，您可以要求退款。"
+        },
+        {
+          "index": 8,
+          "sentence": "If the seller refuses, you should put your complaint in writing.",
+          "translation": "如果卖家拒绝，您应以书面形式提出投诉。"
+        },
+        {
+          "index": 9,
+          "sentence": "If that doesn't work, you could contact their trade association - look on their website for this information, or contact them to ask.",
+          "translation": "如果这不起作用，您可以联系他们的行业协会——请在其网站上查找相关信息，或联系他们进行咨询。"
+        },
+        {
+          "index": 10,
+          "sentence": "You might also be able to get your money back through your bank or payment provider —this depends on how you paid.",
+          "translation": "您或许还能通过您的银行或支付提供商拿回款项——这取决于您是如何支付的。"
+        },
+        {
+          "index": 11,
+          "sentence": "• If you paid by debit card, contact your bank and say you want to use the ‘chargeback’ scheme.",
+          "translation": "• 如果您使用借记卡付款，请联系您的银行，并说明您想使用‘退款’机制。"
+        },
+        {
+          "index": 12,
+          "sentence": "If the bank agrees, they can ask the seller's bank to refund the money to your account.",
+          "translation": "如果银行同意，他们可以要求卖家所在的银行将款项退还到您的账户。"
+        },
+        {
+          "index": 13,
+          "sentence": "Many bank staff don't know about the scheme, so you might need to speak to a supervisor or manager.",
+          "translation": "许多银行员工不了解这一机制，因此您可能需要与主管或经理沟通。"
+        },
+        {
+          "index": 14,
+          "sentence": "You should do this within 120 days of when you paid.",
+          "translation": "您应在付款后的120天内进行此项操作。"
+        },
+        {
+          "index": 15,
+          "sentence": "• If you paid by credit card and the item cost less than £100, you should contact your credit card company and say you want to use the 'chargeback' scheme.",
+          "translation": "• 如果你使用信用卡付款且商品价格低于100英镑，你应该联系信用卡公司，并说明你想使用‘退款追回’计划。"
+        },
+        {
+          "index": 16,
+          "sentence": "There's no time limit for when you need to do this.",
+          "translation": "进行此操作没有时间限制。"
+        },
+        {
+          "index": 17,
+          "sentence": "If the item cost more than £100 but less than £30,000, contact your credit card company and say that you want to make a ‘section 75' claim.",
+          "translation": "如果商品价格超过100英镑但低于30,000英镑，请联系你的信用卡公司，并说明你想提出‘第75条’索赔。"
+        },
+        {
+          "index": 18,
+          "sentence": "• If you paid using PayPal, use PayPal's online resolution centre to report your dispute.",
+          "translation": "• 如果您是通过PayPal支付的，请使用PayPal的在线纠纷解决中心来报告您的争议。"
+        },
+        {
+          "index": 19,
+          "sentence": "You must do this within 180 days of paying.",
+          "translation": "您必须在付款后的180天内完成此操作。"
+        },
+        {
+          "index": 20,
+          "sentence": "Rice Cookers",
+          "translation": "电饭煲"
+        },
+        {
+          "index": 21,
+          "sentence": "What's the best rice cooker for you?",
+          "translation": "最适合您的电饭煲是哪一款？"
+        },
+        {
+          "index": 22,
+          "sentence": "A Ezy Rice Cooker",
+          "translation": "A款 易煮电饭煲"
+        },
+        {
+          "index": 23,
+          "sentence": "This has a 1.8 litre pot and a stainless steel exterior.",
+          "translation": "这款电饭煲配有1.8升的锅体和不锈钢外壳。"
+        },
+        {
+          "index": 24,
+          "sentence": "It has a separate glass lid, and the handle on the lid stays cool.",
+          "translation": "它有一个独立的玻璃盖子，盖子上的把手保持凉爽。"
+        },
+        {
+          "index": 25,
+          "sentence": "It produces perfectly cooked white rice, but tends to spit when cooking brown rice.",
+          "translation": "它能煮出完美的白米饭，但在煮糙米时容易喷溅。"
+        },
+        {
+          "index": 26,
+          "sentence": "There are slight dirt traps around the rim of the lid, and neither the pot nor the lid is dishwasher safe.",
+          "translation": "盖子边缘有一些轻微的积垢区域，而且锅体和盖子都不适用于洗碗机。"
+        },
+        {
+          "index": 27,
+          "sentence": "B Family Rice Cooker",
+          "translation": "B 家庭电饭煲"
+        },
+        {
+          "index": 28,
+          "sentence": "This has a plastic exterior and a flip-top lid.",
+          "translation": "这款电饭煲具有塑料外壳和翻盖式盖子。"
+        },
+        {
+          "index": 29,
+          "sentence": "The lid locks when closed and becomes a secure handle to carry the cooker.",
+          "translation": "盖子关闭时会锁定，并变成一个牢固的提手，方便携带电饭煲。"
+        },
+        {
+          "index": 30,
+          "sentence": "The aluminium interior pot is quite difficult to clean, and it can't be put in a dishwasher.",
+          "translation": "铝制内锅相当难以清洗，且不能放入洗碗机中。"
+        },
+        {
+          "index": 31,
+          "sentence": "It's programmed to adjust the temperature once the rice is done so that it stops cooking but doesn't get cold.",
+          "translation": "它被设置为在米饭煮好后自动调节温度，从而停止烹饪但不会变凉。"
+        },
+        {
+          "index": 32,
+          "sentence": "C Mini Rice Cooker",
+          "translation": "C 迷你电饭煲"
+        },
+        {
+          "index": 33,
+          "sentence": "This has a flip-top lid and a 0.3 litre capacity.",
+          "translation": "这款电饭煲配有翻盖式盖子，容量为0.3升。"
+        },
+        {
+          "index": 34,
+          "sentence": "The interior pot is made of non-stick aluminium and is dishwasher safe.",
+          "translation": "内锅由不粘铝制成，且可用洗碗机清洗。"
+        },
+        {
+          "index": 35,
+          "sentence": "This rice cooker is ideal when cooking for one.",
+          "translation": "这款电饭煲非常适合一人份烹饪。"
+        },
+        {
+          "index": 36,
+          "sentence": "However it does not have any handles at the side, and water sometimes overflows when cooking brown rice.",
+          "translation": "然而，它两侧没有任何手柄，并且在煮糙米时有时会溢水。"
+        },
+        {
+          "index": 37,
+          "sentence": "D VPN Rice Cooker",
+          "translation": "D VPN 电饭煲"
+        },
+        {
+          "index": 38,
+          "sentence": "This has a painted steel exterior with a handle on each side and a steel inner pot.",
+          "translation": "这款电饭煲具有喷漆钢制外壳，两侧各有一个手柄，并配备一个钢制内锅。"
+        },
+        {
+          "index": 39,
+          "sentence": "It has a lift-off lid and comes with a booklet including a range of ideas for rice dishes.",
+          "translation": "它有一个可拆卸的盖子，并附带一本小册子，其中包含一系列米饭菜肴的创意。"
+        },
+        {
+          "index": 40,
+          "sentence": "However, the keep-warm setting must be manually selected and the handles are tricky to grip.",
+          "translation": "然而，保温设置必须手动选择，而且手柄难以抓握。"
+        },
+        {
+          "index": 41,
+          "sentence": "E S16 Rice cooker",
+          "translation": "E S16 电饭煲"
+        },
+        {
+          "index": 42,
+          "sentence": "This is simple to use, not spitting or boiling over even when cooking brown rice.",
+          "translation": "这款电饭煲操作简单，即使在煮糙米时也不会喷溅或溢出。"
+        },
+        {
+          "index": 43,
+          "sentence": "The exterior stays cool when in use, so there's no danger of burning your hand.",
+          "translation": "使用过程中外部保持凉爽，因此没有烫伤手的危险。"
+        },
+        {
+          "index": 44,
+          "sentence": "However, the lack of handles is a nuisance, and a recipe book would have been useful.",
+          "translation": "然而，缺少把手很麻烦，如果附赠一本食谱会更有用。"
+        }
+      ]
+    },
+    {
+      "id": "2046",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Safety when working on roofs",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A fall from height is the most serious hazard associated with roof work. Preventing falls from roofs is a priority for WorkSafe New Zealand. Investigations by WorkSafe into falls that occur while working at height show that more than 50 percent of falls are from under three metres, and most of these are from ladders and roofs. The cost of these falls is estimated to be $24 million a year - to say nothing of the human costs that result from these falls. More injuries happen on residential building sites than any other workplace in the construction sector.",
+          "translation": "高空坠落是与屋顶作业相关的最严重危险。\n防止屋顶坠落是新西兰工作安全局的优先事项。\n工作安全局对高空作业时发生的坠落事故的调查显示，超过50%的坠落发生在三米以下的高度，而且其中大部分来自梯子和屋顶。\n这些坠落事故造成的经济损失估计为每年2400万美元，更不用说这些坠落带来的人力成本了。\n住宅建筑工地发生的伤害比建筑行业任何其他工作场所都要多。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "In order to prevent such injuries, a hazard assessment should be carried out for all work on roofs to assess potential dangers. It is essential that the hazards are identified before the work starts, and that the necessary equipment, appropriate precautions and systems of work are provided and implemented. Hazard identification should be repeated periodically or when there is a change in conditions, for example, the weather or numbers of staff onsite.",
+          "translation": "为了防止此类伤害，应对所有屋顶作业进行危险评估，以评估潜在风险。\n在作业开始前识别危险，并提供和实施必要的设备、适当的预防措施及工作系统至关重要。\n危险识别应定期重复进行，或在条件发生变化时进行，例如天气或现场工作人员数量发生变化时。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "The first thing to be considered is whether it is possible to eliminate this hazard completely, so that workers are not exposed to the danger of falling. This can sometimes be done at the design, construction planning, and tendering stage. If the possibility of a fall cannot be eliminated, some form of edge protection should be used to prevent workers from falling. It may be possible to use the existing scaffolding as edge protection. If this is not practicable, then temporary work platforms should be used. In cases where such protection is not possible, then steps should be taken to minimise the likelihood of any harm resulting. This means considering the use of safety nets and other similar systems to make it less likely that injury will be caused if a fall does occur.",
+          "translation": "首先需要考虑的是，是否有可能完全消除这一危险，从而使工人免于坠落的风险。\n有时可以在设计、施工规划和招标阶段实现这一点。\n如果无法消除坠落的可能性，则应使用某种形式的边缘防护措施来防止工人坠落。\n或许可以利用现有的脚手架作为边缘防护。\n如果这不可行，则应使用临时工作平台。\n在无法实施此类防护的情况下，应采取措施将可能造成的伤害风险降至最低。\n这意味着考虑使用安全网和其他类似系统，以减少万一发生坠落时造成伤害的可能性。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Ladders should only be employed for short-duration maintenance work such as touching up paint. People using ladders should be trained and instructed in the selection and safe use of ladders. There should be inspection of all ladders on a regular basis to ensure they are safe to use.",
+          "translation": "梯子仅应用于短期的维护工作，例如修补油漆。\n使用梯子的人员应接受关于梯子选择和安全使用的培训与指导。\n应定期检查所有梯子，以确保它们的使用安全。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Maternity Allowance for working women",
+          "question_cue": {
+            "start": 23,
+            "end": 27
+          },
+          "translation": "职业女性的生育津贴"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "You can claim Maternity Allowance once you've been pregnant for 26 weeks. Payments start 11 weeks before the date on which your baby is due.",
+          "translation": "一旦怀孕满26周，你就可以申请生育津贴。\n补贴将在预产期前11周开始发放。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "The amount you can get depends on your eligibility. You could get either:",
+          "translation": "您能获得的金额取决于您的资格。\n您可能获得以下两种之一："
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "• £140.98 a week or 90% of your average weekly earnings (whichever is less) for 39 weeks",
+          "translation": "• 每周140.98英镑，或您平均周收入的90%（以较低者为准），持续39周"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "• £27 a week for 14 weeks",
+          "translation": "• 每周27英镑，持续14周"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Maternity Allowance for 39 weeks",
+          "translation": "39周的产假津贴"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "You might get Maternity Allowance for 39 weeks if one of the following applies:",
+          "translation": "39周的产假津贴\n如果满足以下任一条件，您可能有资格获得为期39周的产假津贴："
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "• you're employed",
+          "translation": "• 你是受雇员工"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "• you're self-employed and pay Class 2 National Insurance (including voluntary National Insurance)",
+          "translation": "• 你是自雇人士，并缴纳了第2类国民保险（包括自愿性国民保险）"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "• you've recently stopped working",
+          "translation": "• 您最近已停止工作"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "You may still qualify even if you've recently stopped working. It doesn’t matter if you had different jobs, or periods when you were unemployed.",
+          "translation": "• 您最近已停止工作\n即使你最近停止了工作，你可能仍然有资格获得生育津贴。\n你是否有过不同的工作经历或失业时期，这并不影响你的资格。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "Maternity Allowance for 14 weeks",
+          "translation": "14 周的产假津贴"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "You might get Maternity Allowance for 14 weeks if for at least 26 weeks in the 66 weeks before your baby is due:",
+          "translation": "14 周的产假津贴\n如果您在预产期前66周内至少工作了26周，您可能有权领取14周的产假津贴："
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "• you were married or in a civil partnership",
+          "translation": "• 您当时已婚或处于民事伴侣关系中"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "• you were not employed or self-employed",
+          "translation": "• 你当时既无受雇工作也未从事自雇职业"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "• you took part in the business of your self-employed spouse or civil partner",
+          "translation": "• 您参与了自雇配偶或民事伴侣的业务"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "How to claim",
+          "translation": "如何申请"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "You'll need an MA1 claim form, available online. You can print this and fill it in, or fill it in online. You also need to provide a payslip or a Certificate of Small Earnings Exemption as proof of your income, and proof of the baby's due date, such as a doctor's letter.",
+          "translation": "你需要一份MA1申请表格，该表格可在线上获取。\n你可以打印出来填写，或者在线填写。\n你还需要提供工资单或小额收入豁免证明作为收入证明，以及预产期证明，例如医生的信件。"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "You should get a decision on your claim within 24 working days.",
+          "translation": "您应在24个工作日内收到关于您申请的裁定结果。"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "You should report any changes to your circumstances, for example, if you go back to work, to your local Jobcentre Plus as they can affect how much allowance you get.",
+          "translation": "你应该向当地的就业中心Plus报告任何情况的变化，例如，如果你重返工作岗位，因为这些变化会影响你获得的津贴金额。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15311",
+          "type": 8,
+          "title": "Safety when working on roofs",
+          "instructions": "Questions 15 - 22\nComplete the notes below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119856",
+              "number": 15,
+              "prompt": "• over half of falls are from less than _____",
+              "options": [],
+              "answer": "3 metres",
+              "accepted_answers": [
+                "3 metres"
+              ],
+              "analysis": "题干中的“less than”对应原文中的“under”，而“over half of falls”对应“more than 50 percent of falls”。原文明确指出超过一半的坠落事故发生在三米以下的高度，因此答案为“3 metres”。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "根据原文“more than 50 percent of falls are from und...",
+              "paraphrasing": "over half -> more than 50 percent; less than -> from under",
+              "keywords": "over half of falls, less than",
+              "evidence": [
+                "Investigations by WorkSafe into falls that occur while working at height show that more than 50 percent of falls are from under three metres, and most of these are from ladders and roofs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119857",
+              "number": 16,
+              "prompt": "• the majority of falls occur on _____",
+              "options": [],
+              "answer": "residential building sites",
+              "accepted_answers": [
+                "residential building sites"
+              ],
+              "analysis": "题干中的“the majority of falls occur on”与原文中的“More injuries happen on... than any other workplace”构成同义替换。原文明确说明住宅建筑工地是建筑行业中发生伤害最多的场所，因此答案为“residential building sites”。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "原文“More injuries happen on residential building...",
+              "paraphrasing": "majority -> more; occur on -> happen on",
+              "keywords": "majority of falls occur",
+              "evidence": [
+                "More injuries happen on residential building sites than any other workplace in the construction sector."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119858",
+              "number": 17,
+              "prompt": "• _____ the hazard at the planning stage before the work begins if possible",
+              "options": [],
+              "answer": "eliminate",
+              "accepted_answers": [
+                "eliminate"
+              ],
+              "analysis": "题干要求填写在规划阶段应采取的首要措施。原文提到“whether it is possible to eliminate this hazard completely... at the design, construction planning, and tendering stage”，其中“eliminate this hazard”直接对应题干中“the hazard”，因此答案为“eliminate”。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "原文“eliminate this hazard completely... at the d...",
+              "paraphrasing": "planning stage -> design, construction planning, and tendering stage; before the work begins -> before",
+              "keywords": "planning stage, before the work begins",
+              "evidence": [
+                "The first thing to be considered is whether it is possible to eliminate this hazard completely, so that workers are not exposed to the danger of falling. This can sometimes be done at the design, construction planning, and tendering stage."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119859",
+              "number": 18,
+              "prompt": "• prevent a fall by using edge protection, e.g. scaffolding or _____",
+              "options": [],
+              "answer": "platforms",
+              "accepted_answers": [
+                "platforms"
+              ],
+              "analysis": "题干中“edge protection, e.g. scaffolding or”提示需填写另一种边缘防护方式。原文指出若脚手架不可行，“then temporary work platforms should be used”，因此“platforms”是符合语境和字数限制的正确答案。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "原文“some form of edge protection... If this is n...",
+              "paraphrasing": "prevent a fall by using edge protection -> use edge protection to prevent workers from falling; scaffolding or -> scaffolding or",
+              "keywords": "edge protection, e.g. scaffolding or",
+              "evidence": [
+                "If the possibility of a fall cannot be eliminated, some form of edge protection should be used to prevent workers from falling. It may be possible to use the existing scaffolding as edge protection. If this is not practicable, then temporary work platforms should be used."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119860",
+              "number": 19,
+              "prompt": "• reduce the likelihood of injury, e.g. by using _____",
+              "options": [],
+              "answer": "safety nets",
+              "accepted_answers": [
+                "safety nets"
+              ],
+              "analysis": "题干中“reduce the likelihood of injury”对应原文中的“minimise the likelihood of any harm resulting”，而原文紧接着提到“considering the use of safety nets and other similar systems”，因此答案为“safety nets”。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "原文“considering the use of safety nets and other...",
+              "paraphrasing": "reduce the likelihood of injury -> minimise the likelihood of any harm resulting; by using -> considering the use of",
+              "keywords": "reduce the likelihood of injury, using",
+              "evidence": [
+                "In cases where such protection is not possible, then steps should be taken to minimise the likelihood of any harm resulting. This means considering the use of safety nets and other similar systems to make it less likely that injury will be caused if a fall does occur."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119861",
+              "number": 20,
+              "prompt": "• these should only be used for _____ which does not take a long time",
+              "options": [],
+              "answer": "work",
+              "accepted_answers": [
+                "work"
+              ],
+              "analysis": "题干中“which does not take a long time”对应原文中的“short-duration maintenance work”，而原文开头即说明“Ladders should only be employed for short-duration maintenance work”，因此答案为“work”。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "原文“Ladders should only be employed for short-du...",
+              "paraphrasing": "only be used for -> should only be employed for; which does not take a long time -> short-duration",
+              "keywords": "only be used for, which does not take a long time",
+              "evidence": [
+                "Ladders should only be employed for short-duration maintenance work such as touching up paint."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119862",
+              "number": 21,
+              "prompt": "• training should be provided in their _____ and use",
+              "options": [],
+              "answer": "selection",
+              "accepted_answers": [
+                "selection"
+              ],
+              "analysis": "题干中“training should be provided in their... and use”对应原文中的“trained and instructed in the selection and safe use of ladders”，其中“selection”与“use”并列，因此答案为“selection”。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "原文“trained and instructed in the selection and...",
+              "paraphrasing": "training should be provided in their -> people using ladders should be trained and instructed in; and use -> and safe use of ladders",
+              "keywords": "training should be provided in their, and use",
+              "evidence": [
+                "People using ladders should be trained and instructed in the selection and safe use of ladders."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119863",
+              "number": 22,
+              "prompt": "• regular _____ of ladders is required",
+              "options": [],
+              "answer": "inspection",
+              "accepted_answers": [
+                "inspection"
+              ],
+              "analysis": "题干中“regular... of ladders”对应原文中的“inspection of all ladders on a regular basis”，说明需要定期检查梯子以确保安全，因此答案为“inspection”。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "原文“inspection of all ladders on a regular basis...",
+              "paraphrasing": "regular -> on a regular basis; of ladders -> of all ladders",
+              "keywords": "regular, of ladders",
+              "evidence": [
+                "There should be inspection of all ladders on a regular basis to ensure they are safe to use."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Investigations show that\n• over half of falls are from less than $119856$\n• most falls are from ladders and roofs\n• falls cost $24 million per year\n• the majority of falls occur on $119857$\nHazard identification should be carried out\n• before the work starts\n• when conditions such as the weather or worker numbers change\nControls\n• $119858$ the hazard at the planning stage before the work begins if possible\n• prevent a fall by using edge protection, e.g. scaffolding or $119859$\n• reduce the likelihood of injury, e.g. by using $119860$\nLadders\n• these should only be used for $119861$ which does not take a long time\n• training should be provided in their $119862$ and use\n• regular $119863$ of ladders is required",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Investigations show that\n• over half of falls are from less than $119856$\n• most falls are from ladders and roofs\n• falls cost $24 million per year\n• the majority of falls occur on $119857$\nHazard identification should be carried out\n• before the work starts\n• when conditions such as the weather or worker numbers change\nControls\n• $119858$ the hazard at the planning stage before the work begins if possible\n• prevent a fall by using edge protection, e.g. scaffolding or $119859$\n• reduce the likelihood of injury, e.g. by using $119860$\nLadders\n• these should only be used for $119861$ which does not take a long time\n• training should be provided in their $119862$ and use\n• regular $119863$ of ladders is required"
+        },
+        {
+          "id": "15313",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 23 - 27\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119864",
+              "number": 23,
+              "prompt": "The maximum amount of money a woman can get each week is £_____.",
+              "options": [],
+              "answer": "140.98",
+              "accepted_answers": [
+                "140.98"
+              ],
+              "analysis": "题干询问每周最高可领取金额，原文明确列出“￡140.98 a week or 90% of your average weekly earnings (whichever is less)”，因此最大金额为“140.98”。",
+              "reason": "定位准确，最大金额为140.98。",
+              "location_analysis": "原文“You could get either: • ￡140.98 a week or 90...",
+              "paraphrasing": "maximum amount -> the amount you can get; each week -> a week",
+              "keywords": "maximum amount, each week, £",
+              "evidence": [
+                "The amount you can get depends on your eligibility. You could get either: • ￡140.98 a week or 90% of your average weekly earnings (whichever is less) for 39 weeks"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119865",
+              "number": 24,
+              "prompt": "Being _____ for a time does not necessarily mean that a woman will not be eligible for Maternity Allowance.",
+              "options": [],
+              "answer": "unemployed",
+              "accepted_answers": [
+                "unemployed"
+              ],
+              "analysis": "题干中“Being... for a time does not necessarily mean... not eligible”对应原文中的“It doesn’t matter if you had different jobs, or periods when you were unemployed”，说明失业一段时间并不影响资格，因此答案为“unemployed”。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "原文“It doesn’t matter if you had different jobs,...",
+              "paraphrasing": "does not necessarily mean that a woman will not be eligible -> you may still qualify even if you've recently",
+              "keywords": "being, for a time does not necessarily mean that a woman will not be eligible",
+              "evidence": [
+                "You may still qualify even if you've recently stopped working. It doesn’t matter if you had different jobs, or periods when you were unemployed."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119866",
+              "number": 25,
+              "prompt": "In order to claim, a woman must send a _____ or a Small Earnings Exemption Certificate as evidence of her income.",
+              "options": [],
+              "answer": "payslip",
+              "accepted_answers": [
+                "payslip"
+              ],
+              "analysis": "题干中“send a... or a Small Earnings Exemption Certificate as evidence of her income”对应原文中的“provide a payslip or a Certificate of Small Earnings Exemption as proof of your income”，因此答案为“payslip”。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "原文“provide a payslip or a Certificate of Small...",
+              "paraphrasing": "must send -> need to provide; or a Small Earnings Exemption Certificate -> or a Certificate of Small Earnings Exemption",
+              "keywords": "must send, or a Small Earnings Exemption Certificate",
+              "evidence": [
+                "You also need to provide a payslip or a Certificate of Small Earnings Exemption as proof of your income, and proof of the baby's due date, such as a doctor's letter."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119867",
+              "number": 26,
+              "prompt": "In order to claim, a woman may need to provide a _____ as evidence of the due date.",
+              "options": [],
+              "answer": "doctor's letter",
+              "accepted_answers": [
+                "doctor's letter"
+              ],
+              "analysis": "题干要求提供证明预产期的文件，原文提到“proof of the baby's due date, such as a doctor's letter”，因此答案为“doctor's letter”。",
+              "reason": "定位准确，原文直接对应。",
+              "location_analysis": "原文“proof of the baby's due date, such as a doct...",
+              "paraphrasing": "provide a -> provide; as evidence of the due date -> proof of the baby's due date, such as a",
+              "keywords": "provide a, as evidence of the due date",
+              "evidence": [
+                "You also need to provide a payslip or a Certificate of Small Earnings Exemption as proof of your income, and proof of the baby's due date, such as a doctor's letter."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119868",
+              "number": 27,
+              "prompt": "Payment may be affected by differences in someone's _____, such as a return to work, and the local Jobcentre Plus must be informed.",
+              "options": [],
+              "answer": "circumstances",
+              "accepted_answers": [
+                "circumstances"
+              ],
+              "analysis": "题干中“differences in someone's... such as a return to work”对应原文中的“any changes to your circumstances, for example, if you go back to work”，说明需报告个人情况的变化，因此答案为“circumstances”。",
+              "reason": "题干differences对应changes，such as a return to work举例，所以填circumstances。",
+              "location_analysis": "原文any changes to your circumstances对应情况变化。",
+              "paraphrasing": "",
+              "keywords": "differences in someone's ____, such as a return to work, and the local Jobcentre Plus must be informed",
+              "evidence": [
+                "You should report any changes to your circumstances, for example, if you go back to work, to your local jobcentre Plus as they can affect how much allowance you get."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "The maximum amount of money a woman can get each week is £$119864$.\nBeing $119865$ for a time does not necessarily mean that a woman will not be eligible for Maternity Allowance.\nIn order to claim, a woman must send a $119866$ or a Small Earnings Exemption Certificate as evidence of her income.\nIn order to claim, a woman may need to provide a $119867$ as evidence of the due date.\nPayment may be affected by differences in someone's $119868$, such as a return to work, and the local Jobcentre Plus must be informed.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The maximum amount of money a woman can get each week is £$119864$.\nBeing $119865$ for a time does not necessarily mean that a woman will not be eligible for Maternity Allowance.\nIn order to claim, a woman must send a $119866$ or a Small Earnings Exemption Certificate as evidence of her income.\nIn order to claim, a woman may need to provide a $119867$ as evidence of the due date.\nPayment may be affected by differences in someone's $119868$, such as a return to work, and the local Jobcentre Plus must be informed."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Safety when working on roofs",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "A fall from height is the most serious hazard associated with roof work.",
+          "translation": "高空坠落是与屋顶作业相关的最严重危险。"
+        },
+        {
+          "index": 3,
+          "sentence": "Preventing falls from roofs is a priority for WorkSafe New Zealand.",
+          "translation": "防止屋顶坠落是新西兰工作安全局的优先事项。"
+        },
+        {
+          "index": 4,
+          "sentence": "Investigations by WorkSafe into falls that occur while working at height show that more than 50 percent of falls are from under three metres, and most of these are from ladders and roofs.",
+          "translation": "工作安全局对高空作业时发生的坠落事故的调查显示，超过50%的坠落发生在三米以下的高度，而且其中大部分来自梯子和屋顶。"
+        },
+        {
+          "index": 5,
+          "sentence": "The cost of these falls is estimated to be $24 million a year - to say nothing of the human costs that result from these falls.",
+          "translation": "这些坠落事故造成的经济损失估计为每年2400万美元，更不用说这些坠落带来的人力成本了。"
+        },
+        {
+          "index": 6,
+          "sentence": "More injuries happen on residential building sites than any other workplace in the construction sector.",
+          "translation": "住宅建筑工地发生的伤害比建筑行业任何其他工作场所都要多。"
+        },
+        {
+          "index": 8,
+          "sentence": "In order to prevent such injuries, a hazard assessment should be carried out for all work on roofs to assess potential dangers.",
+          "translation": "为了防止此类伤害，应对所有屋顶作业进行危险评估，以评估潜在风险。"
+        },
+        {
+          "index": 9,
+          "sentence": "It is essential that the hazards are identified before the work starts, and that the necessary equipment, appropriate precautions and systems of work are provided and implemented.",
+          "translation": "在作业开始前识别危险，并提供和实施必要的设备、适当的预防措施及工作系统至关重要。"
+        },
+        {
+          "index": 10,
+          "sentence": "Hazard identification should be repeated periodically or when there is a change in conditions, for example, the weather or numbers of staff onsite.",
+          "translation": "危险识别应定期重复进行，或在条件发生变化时进行，例如天气或现场工作人员数量发生变化时。"
+        },
+        {
+          "index": 12,
+          "sentence": "The first thing to be considered is whether it is possible to eliminate this hazard completely, so that workers are not exposed to the danger of falling.",
+          "translation": "首先需要考虑的是，是否有可能完全消除这一危险，从而使工人免于坠落的风险。"
+        },
+        {
+          "index": 13,
+          "sentence": "This can sometimes be done at the design, construction planning, and tendering stage.",
+          "translation": "有时可以在设计、施工规划和招标阶段实现这一点。"
+        },
+        {
+          "index": 14,
+          "sentence": "If the possibility of a fall cannot be eliminated, some form of edge protection should be used to prevent workers from falling.",
+          "translation": "如果无法消除坠落的可能性，则应使用某种形式的边缘防护措施来防止工人坠落。"
+        },
+        {
+          "index": 15,
+          "sentence": "It may be possible to use the existing scaffolding as edge protection.",
+          "translation": "或许可以利用现有的脚手架作为边缘防护。"
+        },
+        {
+          "index": 16,
+          "sentence": "If this is not practicable, then temporary work platforms should be used.",
+          "translation": "如果这不可行，则应使用临时工作平台。"
+        },
+        {
+          "index": 17,
+          "sentence": "In cases where such protection is not possible, then steps should be taken to minimise the likelihood of any harm resulting.",
+          "translation": "在无法实施此类防护的情况下，应采取措施将可能造成的伤害风险降至最低。"
+        },
+        {
+          "index": 18,
+          "sentence": "This means considering the use of safety nets and other similar systems to make it less likely that injury will be caused if a fall does occur.",
+          "translation": "这意味着考虑使用安全网和其他类似系统，以减少万一发生坠落时造成伤害的可能性。"
+        },
+        {
+          "index": 20,
+          "sentence": "Ladders should only be employed for short-duration maintenance work such as touching up paint.",
+          "translation": "梯子仅应用于短期的维护工作，例如修补油漆。"
+        },
+        {
+          "index": 21,
+          "sentence": "People using ladders should be trained and instructed in the selection and safe use of ladders.",
+          "translation": "使用梯子的人员应接受关于梯子选择和安全使用的培训与指导。"
+        },
+        {
+          "index": 22,
+          "sentence": "There should be inspection of all ladders on a regular basis to ensure they are safe to use.",
+          "translation": "应定期检查所有梯子，以确保它们的使用安全。"
+        },
+        {
+          "index": 23,
+          "sentence": "Maternity Allowance for working women",
+          "translation": "职业女性的生育津贴"
+        },
+        {
+          "index": 24,
+          "sentence": "You can claim Maternity Allowance once you've been pregnant for 26 weeks.",
+          "translation": "一旦怀孕满26周，你就可以申请生育津贴。"
+        },
+        {
+          "index": 25,
+          "sentence": "Payments start 11 weeks before the date on which your baby is due.",
+          "translation": "补贴将在预产期前11周开始发放。"
+        },
+        {
+          "index": 26,
+          "sentence": "The amount you can get depends on your eligibility.",
+          "translation": "您能获得的金额取决于您的资格。"
+        },
+        {
+          "index": 27,
+          "sentence": "You could get either:",
+          "translation": "您可能获得以下两种之一："
+        },
+        {
+          "index": 28,
+          "sentence": "• ￡140.98 a week or 90% of your average weekly earnings (whichever is less) for 39 weeks",
+          "translation": "• 每周140.98英镑，或您平均周收入的90%（以较低者为准），持续39周"
+        },
+        {
+          "index": 29,
+          "sentence": "• ￡27 a week for 14 weeks",
+          "translation": "• 每周27英镑，持续14周"
+        },
+        {
+          "index": 30,
+          "sentence": "Maternity Allowance for 39 weeks",
+          "translation": "39周的产假津贴"
+        },
+        {
+          "index": 31,
+          "sentence": "You might get Maternity Allowance for 39 weeks if one of the following applies:",
+          "translation": "如果满足以下任一条件，您可能有资格获得为期39周的产假津贴："
+        },
+        {
+          "index": 32,
+          "sentence": "• you're employed",
+          "translation": "• 你是受雇员工"
+        },
+        {
+          "index": 33,
+          "sentence": "• you're self-employed and pay Class 2 National Insurance (including voluntary National Insurance)",
+          "translation": "• 你是自雇人士，并缴纳了第2类国民保险（包括自愿性国民保险）"
+        },
+        {
+          "index": 34,
+          "sentence": "• you've recently stopped working",
+          "translation": "• 您最近已停止工作"
+        },
+        {
+          "index": 35,
+          "sentence": "You may still qualify even if you've recently stopped working.",
+          "translation": "即使你最近停止了工作，你可能仍然有资格获得生育津贴。"
+        },
+        {
+          "index": 36,
+          "sentence": "It doesn’t matter if you had different jobs, or periods when you were unemployed.",
+          "translation": "你是否有过不同的工作经历或失业时期，这并不影响你的资格。"
+        },
+        {
+          "index": 37,
+          "sentence": "Maternity Allowance for 14 weeks",
+          "translation": "14 周的产假津贴"
+        },
+        {
+          "index": 38,
+          "sentence": "You might get Maternity Allowance for 14 weeks if for at least 26 weeks in the 66 weeks before your baby is due:",
+          "translation": "如果您在预产期前66周内至少工作了26周，您可能有权领取14周的产假津贴："
+        },
+        {
+          "index": 39,
+          "sentence": "• you were married or in a civil partnership",
+          "translation": "• 您当时已婚或处于民事伴侣关系中"
+        },
+        {
+          "index": 40,
+          "sentence": "• you were not employed or self-employed",
+          "translation": "• 你当时既无受雇工作也未从事自雇职业"
+        },
+        {
+          "index": 41,
+          "sentence": "• you took part in the business of your self-employed spouse or civil partner",
+          "translation": "• 您参与了自雇配偶或民事伴侣的业务"
+        },
+        {
+          "index": 42,
+          "sentence": "How to claim",
+          "translation": "如何申请"
+        },
+        {
+          "index": 43,
+          "sentence": "You'll need an MA1 claim form, available online.",
+          "translation": "你需要一份MA1申请表格，该表格可在线上获取。"
+        },
+        {
+          "index": 44,
+          "sentence": "You can print this and fill it in, or fill it in online.",
+          "translation": "你可以打印出来填写，或者在线填写。"
+        },
+        {
+          "index": 45,
+          "sentence": "You also need to provide a payslip or a Certificate of Small Earnings Exemption as proof of your income, and proof of the baby's due date, such as a doctor's letter.",
+          "translation": "你还需要提供工资单或小额收入豁免证明作为收入证明，以及预产期证明，例如医生的信件。"
+        },
+        {
+          "index": 46,
+          "sentence": "You should get a decision on your claim within 24 working days.",
+          "translation": "您应在24个工作日内收到关于您申请的裁定结果。"
+        },
+        {
+          "index": 47,
+          "sentence": "You should report any changes to your circumstances, for example, if you go back to work, to your local jobcentre Plus as they can affect how much allowance you get.",
+          "translation": "你应该向当地的就业中心Plus报告任何情况的变化，例如，如果你重返工作岗位，因为这些变化会影响你获得的津贴金额。"
+        }
+      ]
+    },
+    {
+      "id": "2047",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "The California Gold Rush of 1849",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "The discovery of gold in the Sacramento Valley sparked the Gold Rush, arguably one of the most significant events to shape American history in the 19th century",
+          "translation": "萨克拉门托山谷的黄金发现引发了淘金热，这可以说是19世纪塑造美国历史的最重要事件之一。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "On January 24, 1848,James Wilson Marshall, a carpenter, found small flakes of gold in the American River near Coloma, California.At the time, Marshall was working to build a water-powered sawmill for businessman John Sutter. As it happens, just days after Marshall's discovery, the Treaty of Guadalupe Hidalgo was signed, ending the Mexican-American War and transferring California, with its mineral deposits, into the ownership of the United States.At the time, the population of the territory consisted of 6,500 Californios (people of Spanish or Mexican descent); 700 foreigners (primarily Americans); and 150,000 Native Americans.",
+          "translation": "1848年1月24日，木匠詹姆斯·威尔逊·马歇尔在加利福尼亚州科洛马附近的亚美利加河中发现了细小的金片。\n当时，马歇尔正在为商人约翰·萨特建造一座水动力锯木厂。\n凑巧的是，就在马歇尔发现金子几天后，《瓜达卢佩-伊达尔戈条约》签署，结束了美墨战争，并将加利福尼亚及其矿产所有权转让给了美国。\n当时，该地区的人口包括6500名加利福尼亚人（西班牙或墨西哥裔）、700名外国人（主要是美国人）以及15万美洲原住民。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Though Marshall and Sutter tried to keep news of the discovery quiet, word got out, and by mid-March 1848 at least one newspaper was reporting that large quantities of gold were being found.Though the initial reaction in San Francisco was disbelief, storekeeper Sam Brannan set off a frenzy when he paraded through town displaying a small bottle containing gold from Sutter's Creek. By mid-June, some three-quarters of the male population of San Francisco had left town for the gold mines, and the number of miners in the area reached 4,000 by August.",
+          "translation": "尽管马歇尔和萨特试图对发现的新闻保密，但消息还是传了出去，到1848年3月中旬，至少有一家报纸报道称发现了大量黄金。\n尽管旧金山最初的反应是怀疑，但店主萨姆·布兰南在镇上巡游时展示了一小瓶来自萨特溪的黄金，引发了一场狂热。\n到6月中旬，旧金山大约四分之三的男性人口已离城前往金矿，到8月，该地区的矿工人数达到了4000人。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "As news spread of the fortunes being made in California, the first migrants to arrive were those from lands accessible by boat, such as Oregon, the Sandwich Islands (now Hawaii), Mexico, Chile, Peru and even China. Only later would the news reach the East Coast, where press reports were initially skeptical. Throughout 1849, thousands of people around the United States (mostly men) borrowed money, mortgaged their property or spent their life savings to make the arduous journey to California. In pursuit of the kind of wealth they had never dreamed of, they left their families and local areas; in turn, their wives had no option but to shoulder different responsibilities such as running farms or businesses, and many made a real success of them.",
+          "translation": "随着加利福尼亚发财消息的传播，首批抵达的移民来自可通过船只到达的地区，例如俄勒冈、桑威奇群岛（即现在的夏威夷）、墨西哥、智利、秘鲁，甚至中国。\n这一消息直到后来才传到东海岸，当地的新闻报道最初持怀疑态度。\n在整个1849年，美国各地成千上万的人（主要是男性）借钱、抵押财产或花光毕生积蓄，踏上了前往加利福尼亚的艰苦旅程。\n为了追求他们从未梦想过的财富，他们离开了家人和家乡；相应地，他们的妻子别无选择，只能承担不同的责任，例如经营农场或生意，许多人还取得了真正的成功。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "By the end of the year, the non-native population of California was estimated at 100,000 (as compared with 20,000 at the end of 1848 and around 800 in March 1848). To accommodate the needs of the' 49ers, as the gold miners were known, towns had sprung up all over the region, complete with shops and other businesses seeking to make their own Gold Rush fortune.The overcrowded chaos of the mining camps and towns grew ever more lawless. San Francisco, for its part, developed a bustling economy and became the central metropolis of the new frontier.",
+          "translation": "到年底时，加利福尼亚的非本土人口估计达到10万人（相比之下，1848年底为2万人，1848年3月约为800人）。\n为了满足这些被称为“49人”的淘金者的需求，整个地区涌现出许多城镇，配有商店和其他商业机构，它们也旨在从淘金热中牟取自己的财富。\n拥挤不堪的采矿营地和城镇中的混乱局面变得越来越无法无天。\n而旧金山则发展出繁荣的经济，成为这片新边疆的中心大都市。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "How did all these would-be miners search for gold? Panning was the oldest way.",
+          "translation": "所有这些潜在的矿工是如何寻找黄金的呢？\n淘金是最古老的方法。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "The basic procedure was to place some gold-bearing materials, such as river gravel, into a shallow pan, add some water, and then carefully swirl the mixture around so the water and light material spilled over the side. if all went well, the heavier gold nuggets or gold dust would settle to the bottom of the pan.Gold panning was slow even for the most skillful miner.On a good day, one miner could wash about 50 pans in the usual 12-hour workday.",
+          "translation": "基本操作是将一些含金物质，例如河里的砾石，放入一个浅盘中，加入一些水，然后小心地旋转混合物，使得水和轻质材料从边缘溢出。\n如果一切顺利，较重的金块或金粉就会沉到盘底。\n即使对于最有经验的矿工来说，淘金过程也很缓慢。\n在产量高的日子里，一名矿工在通常的12小时工作日内大约可以淘洗50盘。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Another way was to use what was called a 'rocker' . Isaac Humphrey is said to have introduced it to the California gold fields. It was simply a rectangular wooden box, set at a downward angle and mounted on a rocking mechanism.The dirt and rock was dumped into the top, followed by a bucket of water. The box was rocked by hand to agitate the mixture. The big rocks were caught in a sieve at the top, the waste exited the lower end with the water, and the heavy gold fell to the bottom of the box.",
+          "translation": "另一种方法是使用所谓的“摇槽”。\n据说艾萨克·汉弗莱将其引入了加利福尼亚金矿区。\n它只是一个长方形的木箱，以向下的角度放置，并安装在一个摇动装置上。\n泥土和岩石被倒入箱子顶部，接着倒入一桶水。\n用手摇动箱子以搅动混合物。\n大石块被顶部的筛子截住，废料从下端随水流出，而较重的金子则落入箱底。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "The rocker had advantages and disadvantages.The advantages were that it was easily transportable; it did not require a constant source of water; and, most importantly, a miner could process more dirt and rock than with a pan.The primary disadvantage was that the rocker had difficulty in trapping the smallest particles of gold, commonly known as 'flour'. Some miners added small amounts of mercury to the bottom of the rocker. Due to its chemical composition, it had a facility to trap fine gold. Periodically, the miners would remove and heat it. As it vaporized, it would leave gold behind.",
+          "translation": "摇动式淘金槽既有优点也有缺点。\n其优点在于易于运输；不需要持续的水源；而且最重要的是，矿工用它处理的泥沙和岩石量比用淘金盘更多。\n其主要缺点在于难以捕获最细小的金粒，即俗称的“金粉”。\n一些矿工在摇动式淘金槽底部添加少量水银。\n由于其化学成分，水银能够有效地捕获细小的金子。\n矿工们会定期将其取出并加热。\n当水银蒸发后，便会留下金子。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "After 1850, the surface gold in California had largely disappeared, even as miners continued to reach the gold fields. Mining had always been difficult and dangerous labor, and striking it rich required good luck as much as skill and hard work. Moreover, the average daily pay for an independent miner had by then dropped sharply from what it had been in 1848.As gold became more and more difficult to reach, the growing industrialization of mining drove more and more miners from independence into wage labor. The new technique of hydraulic mining, developed in 1853, brought enormous profits, but destroyed much of the region's landscape.",
+          "translation": "1850年之后，加利福尼亚的表层黄金基本上已经消失，尽管矿工们仍在持续抵达金矿区。\n采矿一直是一项艰难且危险的工作，而发家致富不仅需要技能和勤奋，也同样需要好运。\n此外，独立矿工的平均日薪到那时已从1848年的水平急剧下降。\n随着黄金越来越难以获取，采矿业的日益工业化使得越来越多的矿工从独立作业转为雇佣劳动。\n1853年发展起来的水力采矿新技术带来了巨额利润，但却破坏了该地区的大部分自然景观。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Though gold mining continued throughout the 1850s, it had reached its peak by 1852, when gold worth some $81 million was pulled from the ground.After that year, the total take declined gradually, leveling off to around $45 million per year by 1857. Settlement in California continued, however, and by the end of the decade the state's population was 380,000.",
+          "translation": "尽管整个19世纪50年代淘金活动都在持续，但其在1852年达到顶峰，当年从地下采出的黄金价值约8100万美元。\n在那一年之后，总产量逐渐下降，到1857年稳定在每年约4500万美元。\n然而，加利福尼亚的定居活动仍在继续，到19世纪50年代末，该州人口已达到38万。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15315",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 28 - 31\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119870",
+              "number": 28,
+              "prompt": "The writer suggests that Marshall's discovery came at a good time for the US because",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "the Mexican-American War was ending so there were men needing work."
+                },
+                {
+                  "value": "B",
+                  "label": "his expertise in water power would be useful in gold mining."
+                },
+                {
+                  "value": "C",
+                  "label": "the population of California had already begun to increase rapidly."
+                },
+                {
+                  "value": "D",
+                  "label": "the region was about to come under the control of the US."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问马歇尔的发现为何对美国来说时机恰当。原文段落A提到，就在马歇尔发现黄金几天后，《瓜达卢佩-伊达尔戈条约》签署，加州及其矿产正式归属美国。这说明黄金发现恰在美国即将获得该地区控制权之际，因此选项D“the region was about to come under the control of the US”正确，与原文中‘transferring California... into the ownership of the United States’形成同义对应。",
+              "reason": "选项D对应原文transferring California... into the ownership of the US。",
+              "location_analysis": "发现后几天美国获得加州领土，故选D。",
+              "paraphrasing": "came at a good time -> just days after Marshall's discovery, the Treaty was signed; transferring into ownership of the US -> come under the control of the US",
+              "keywords": "good time, US, Treaty of Guadalupe Hidalgo",
+              "evidence": [
+                "As it happens, just days after Marshall's discovery, the Treaty of Guadalupe Hidalgo was signed, ending the Mexican-American War and transferring California, with its mineral deposits, into the ownership of the United States."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "选项提到美墨战争结束导致劳动力充足，但原文未提及此因果关系，属于无中生有。",
+                "B": "选项强调其水动力专业知识在金矿中的用途，但题干问的是发现时机好的原因，属于答非所问。",
+                "C": "选项说人口已快速增加，但原文表明发现时人口尚未大量涌入，属于因果颠倒。"
+              }
+            },
+            {
+              "id": "119871",
+              "number": 29,
+              "prompt": "What was the reaction in 1848 to the news of the discovery of gold?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "The press played a large part in convincing the public of the riches available."
+                },
+                {
+                  "value": "B",
+                  "label": "Many men in San Francisco left immediately to check it out for themselves."
+                },
+                {
+                  "value": "C",
+                  "label": "People needed to see physical evidence before they took it seriously."
+                },
+                {
+                  "value": "D",
+                  "label": "Men in other mines in the Us were among the first to respond to it."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问1848年人们对黄金发现的反应。原文段落B指出，旧金山最初反应是“disbelief”（不相信），直到商人Sam Brannan拿着装有黄金的小瓶在街上展示，才引发狂热。这表明人们需要看到实物证据才认真对待，因此选项C“People needed to see physical evidence before they took it seriously”正确，与原文中‘displaying a small bottle containing gold’直接对应。",
+              "reason": "选项C对应看到实物（小瓶金子）后才相信。",
+              "location_analysis": "人们由不信转为疯狂是在看到实物金瓶后，故选C。",
+              "paraphrasing": "people needed to see physical evidence -> Brannan paraded through town displaying a small bottle containing gold",
+              "keywords": "reaction, 1848, disbelief, physical evidence",
+              "evidence": [
+                "Though the initial reaction in San Francisco was disbelief, storekeeper Sam Brannan set off a frenzy when he paraded through town displaying a small bottle containing gold from Sutter's Creek."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "选项提及报纸的作用，但原文并未强调报纸在1848年消息传播中的关键作用。",
+                "B": "选项说旧金山的人立即离开去查看，但原文是很多人后来才离开，并非立刻。",
+                "D": "选项说美国其他矿场的人最先反应，但原文最先反应的是当地居民而非其他矿场的人。"
+              }
+            },
+            {
+              "id": "119872",
+              "number": 30,
+              "prompt": "What was the result of thousands of people moving to California?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "San Francisco could not cope with the influx of people from aroundthe world."
+                },
+                {
+                  "value": "B",
+                  "label": "Many miners got more money than they could ever have earned at home."
+                },
+                {
+                  "value": "C",
+                  "label": "Some of those who stayed behind had to take on unexpected roles."
+                },
+                {
+                  "value": "D",
+                  "label": "New towns were established which became good places to live."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问大量人口迁往加州的结果。原文段落C提到，男性离开家乡去淘金，留下妻子们“had no option but to shoulder different responsibilities such as running farms or businesses”，即承担原本不属于她们的职责。这与选项C“Some of those who stayed behind had to take on unexpected roles”完全吻合，因此为正确答案。",
+              "reason": "选项C对应留下的妻子承担意外角色。",
+              "location_analysis": "男性离开后，妻子承担新职责，故选C。",
+              "paraphrasing": "stayed behind had to take on unexpected roles -> their wives had no option but to shoulder different responsibilities such as running farms or businesses",
+              "keywords": "result, leaving families, wives took on responsibilities",
+              "evidence": [
+                "In pursuit of the kind of wealth they had never dreamed of, they left their families and local areas; in turn, their wives had no option but to shoulder different responsibilities such as running farms or businesses, and many made a real success of them."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "该选项在原文中无对应信息，属于无中生有。",
+                "B": "原文未提及矿工收入高于家乡，属于无中生有。",
+                "D": "选项内容与题干要求的结果不符，题干问的是人口迁移的结果，而非城镇宜居性。"
+              }
+            },
+            {
+              "id": "121454",
+              "number": 31,
+              "prompt": "What does the writer say about using pans and rockers to find gold?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Both methods required the addition of mercury."
+                },
+                {
+                  "value": "B",
+                  "label": "A rocker needed more than one miner to operate it."
+                },
+                {
+                  "value": "C",
+                  "label": "Pans were the best system for novice miners to use."
+                },
+                {
+                  "value": "D",
+                  "label": "Miners had to find a way round a design fault in one system."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问作者对使用pan和rocker的看法。原文段落E指出rocker的主要缺点是“had difficulty in trapping the smallest particles of gold”，即设计缺陷；随后提到矿工通过添加汞来解决此问题。这说明矿工“had to find a way round a design fault”，与选项D完全一致，而其他选项均未被支持，故答案为D。",
+              "reason": "选项D对应罗列缺陷并加汞弥补。",
+              "location_analysis": "rocker缺陷是难捕细金，后加汞解决，故选D。",
+              "paraphrasing": "design fault -> rocker had difficulty trapping smallest particles; find a way round -> added mercury to trap fine gold",
+              "keywords": "rocker, design fault, flour, mercury",
+              "evidence": [
+                "The primary disadvantage was that the rocker had difficulty in trapping the smallest particles of gold, commonly known as 'flour'.",
+                "Some miners added small amounts of mercury to the bottom of the rocker."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文可能只提到一种方法需要水银，而另一种不需要，该选项扩大了范围。",
+                "B": "原文可能指出摇床可由单人操作，该选项与原文信息矛盾。",
+                "C": "原文可能认为其他方法更适合新手，该选项与原文观点不符。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15320",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 32 - 36\nThe text on pages 24 and 25 has seven sections, A-G.\nWhich section contains the following information?\nWrite the correct Jette A-G, in boxes 32-36 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119873",
+              "number": 32,
+              "prompt": "a reference to ways of making money in California other than mining for gold",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出提及除淘金外其他赚钱方式的段落。段落C提到，为满足‘49ers’的需求，“towns had sprung up... complete with shops and other businesses seeking to make their own Gold Rush fortune”，说明有人通过开店等非采矿方式获利，这与题干“ways of making money... other than mining for gold”对应，故答案为C。",
+              "reason": "正确段落C提到了非采矿的赚钱方式。",
+              "location_analysis": "C段提到新城镇和商店等非采矿的赚钱方式。",
+              "paraphrasing": "ways of making money other than mining -> shops and other businesses seeking to make their own Gold Rush fortune",
+              "keywords": "towns had sprung up, shops and other businesses, seeking to make their own Gold Rush fortune",
+              "evidence": [
+                "To accommodate the needs of the' 49ers, as the gold miners were known, towns had sprung up all over the region, complete with shops and other businesses seeking to make their own Gold Rush fortune."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119874",
+              "number": 33,
+              "prompt": "a suggestion that the gold that was found did not often compensate for the hardwork undertaken",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干要求找出暗示所获黄金常不足以回报辛劳的段落。段落F指出采矿“difficult and dangerous”，且“striking it rich required good luck as much as skill”，同时“average daily pay... dropped sharply”。这些信息共同表明付出未必有相应回报，与题干“gold... did not often compensate for the hard work”一致，因此选F。",
+              "reason": "F段强调艰辛与收入下滑。",
+              "location_analysis": "黄金难赚且收入下降，表明付出难获回报，故选F。",
+              "paraphrasing": "gold did not compensate -> striking it rich required good luck as much as skill and hard work, average daily pay dropped sharply",
+              "keywords": "gold did not compensate for hard work, difficult and dangerous labor",
+              "evidence": [
+                "Mining had always been difficult and dangerous labor, and striking it rich required good luck as much as skill and hard work.",
+                "Moreover, the average daily pay for an independent miner had by then dropped sharply from what it had been in 1848."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119875",
+              "number": 34,
+              "prompt": "a mention of an individual who convinced many of the existence of gold in California",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求找出提到某人说服大众相信加州有黄金的段落。段落B明确描述商店主Sam Brannan“paraded through town displaying a small bottle containing gold”，从而“set off a frenzy”，使人们确信黄金存在。这与题干“an individual who convinced many of the existence of gold”完全匹配，故答案为B。",
+              "reason": "B段描述Brannan的行为使人们确信金子存在。",
+              "location_analysis": "Brannan通过展示金瓶引发淘金热，故选B。",
+              "paraphrasing": "individual convincing many -> Sam Brannan set off a frenzy when he paraded through town displaying a bottle of gold",
+              "keywords": "individual, convinced many, Sam Brannan, displaying bottle",
+              "evidence": [
+                "storekeeper Sam Brannan set off a frenzy when he paraded through town displaying a small bottle containing gold from Sutter's Creek."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119876",
+              "number": 35,
+              "prompt": "details of the pre-Gold Rush population of California",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干要求找出提及淘金热前加州人口构成的段落。段落A明确列出当时人口包括“6,500 Californios; 700 foreigners; and 150,000 Native Americans”，这正是淘金热爆发前的数据，与题干“details of the pre-Gold Rush population”直接对应，因此答案为A。",
+              "reason": "原文明确提供淘金热前人口数据。",
+              "location_analysis": "A段直接列出了淘金热前的人口构成，故选A。",
+              "paraphrasing": "details of pre-Gold Rush population -> At the time, the population of the territory consisted of 6,500 Californios; 700 foreigners; and 150,000 Native Americans",
+              "keywords": "pre-Gold Rush population, 6,500 Californios, 700 foreigners, 150,000 Native Americans",
+              "evidence": [
+                "At the time, the population of the territory consisted of 6,500 Californios (people of Spanish or Mexican descent); 700 foreigners (primarily Americans); and 150,000 Native Americans."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119877",
+              "number": 36,
+              "prompt": "a contrast between shrinking revenue and increasing population",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干要求找出对比收入下降与人口增长的段落。段落G指出，1852年后黄金产量“declined gradually, leveling off to around $45 million per year”，但“settlement... continued”且“population was 380,000”到1850年代末。这形成了收入减少与人口持续增加的鲜明对比，与题干“shrinking revenue and increasing population”完全吻合，故答案为G。",
+              "reason": "G段对比收入下降与人口持续增长。",
+              "location_analysis": "收入逐渐下降而人口持续增长，对比明显，故选G。",
+              "paraphrasing": "shrinking revenue -> total take declined gradually; increasing population -> state's population was 380,000",
+              "keywords": "shrinking revenue, increasing population, total take declined gradually, population 380,000",
+              "evidence": [
+                "After that year, the total take declined gradually, leveling off to around $45 million per year by 1857.",
+                "Settlement in California continued, however, and by the end of the decade the state's population was 380,000."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15322",
+          "type": 4,
+          "title": "Basic techniques for extracting gold",
+          "instructions": "Questions 37 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119878",
+              "number": 37,
+              "prompt": "The most basic method used by many miners began with digging some _____ out of river and hoping it might contain gold. Small amounts were put in a pan with water. The pan was spun round, causing the liquid and less heavy contents of the pan to come out. Gold dust, which weighed more, remained in the pan or, if the miners were very lucky, there might even be some _____ too. It was, however, a very laborious method.",
+              "options": [],
+              "answer": "gravel",
+              "accepted_answers": [
+                "gravel"
+              ],
+              "analysis": "题干要求填写淘金者从河中挖出的材料。原文段落D提到“place some gold-bearing materials, such as river gravel, into a shallow pan”，说明放入盘中的材料是river gravel（河砾石）。因此，第37题应填“gravel”，与题干中“digging some... out of river”形成动作与对象的对应关系。",
+              "reason": "第一空填入’gravel‘，对应原文river gravel。",
+              "location_analysis": "原文提到将river gravel放入盘中，故填gravel。",
+              "paraphrasing": "digging -> place; gravel -> river gravel",
+              "keywords": "digging, gravel, out of river",
+              "evidence": [
+                "The basic procedure was to place some gold-bearing materials, such as river gravel, into a shallow pan, add some water, and then carefully swirl the mixture around so the water and light material spilled over the side."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119879",
+              "number": 38,
+              "prompt": "The most basic method used by many miners began with digging some _____ out of river and hoping it might contain gold. Small amounts were put in a pan with water. The pan was spun round, causing the liquid and less heavy contents of the pan to come out. Gold dust, which weighed more, remained in the pan or, if the miners were very lucky, there might even be some _____ too. It was, however, a very laborious method.",
+              "options": [],
+              "answer": "nuggets",
+              "accepted_answers": [
+                "nuggets"
+              ],
+              "analysis": "题干要求填写比金粉更幸运才能获得的黄金形态。原文段落D指出“the heavier gold nuggets or gold dust would settle to the bottom”，其中gold dust（金粉）较常见，而gold nuggets（金块）则更大、更稀有。因此第38题填“nuggets”，对应题干中“if the miners were very lucky, there might even be some... too”的语境。",
+              "reason": "对应’gold nuggets‘，与dust并列。",
+              "location_analysis": "原文提到较重的金块或金粉沉底，故填nuggets。",
+              "paraphrasing": "gold dust -> gold dust; nuggets -> gold nuggets",
+              "keywords": "gold nuggets, gold dust, heavier",
+              "evidence": [
+                "if all went well, the heavier gold nuggets or gold dust would settle to the bottom of the pan."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119880",
+              "number": 39,
+              "prompt": "The rocker was also used. A miner would put some earth and rock into the higher end, together with some water. He would then shake the rocker. Larger stones stuck in the _____, while gold dropped to the bottom. Unfortunately, the rocker was not designed to catch what was called flour. However，a process was introduced involving _____ to ensure no gold was washed out in the water.",
+              "options": [],
+              "answer": "sieve",
+              "accepted_answers": [
+                "sieve"
+              ],
+              "analysis": "题干要求填写rocker中拦住大石块的部件。原文段落E说明“the big rocks were caught in a sieve at the top”，即顶部的筛子（sieve）用于拦截大石。因此第39题填“sieve”，与题干中“larger stones stuck in the...”形成直接对应，准确反映设备结构。",
+              "reason": "对应’sieve‘，是rocke的一部分。",
+              "location_analysis": "原文大石块被顶部筛子拦住，故填sieve。",
+              "paraphrasing": "larger stones -> big rocks; stuck in the sieve -> caught in a sieve at the top",
+              "keywords": "larger stones, stuck, sieve",
+              "evidence": [
+                "The big rocks were caught in a sieve at the top, the waste exited the lower end with the water, and the heavy gold fell to the bottom of the box."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119881",
+              "number": 40,
+              "prompt": "The rocker was also used. A miner would put some earth and rock into the higher end, together with some water. He would then shake the rocker. Larger stones stuck in the _____, while gold dropped to the bottom. Unfortunately, the rocker was not designed to catch what was called flour. However，a process was introduced involving _____ to ensure no gold was washed out in the water.",
+              "options": [],
+              "answer": "mercury",
+              "accepted_answers": [
+                "mercury"
+              ],
+              "analysis": "题干要求填写用于防止细金流失的物质。原文段落E提到rocker难以捕捉“flour”（细金粉），于是“some miners added small amounts of mercury”，因为汞能“trap fine gold”。因此第40题填“mercury”，对应题干中“a process was introduced involving... to ensure no gold was washed out”的描述。",
+              "reason": "对应原文’mercury‘，用于解决rocke的缺陷。",
+              "location_analysis": "添加汞以捕获细金粉，故填mercury。",
+              "paraphrasing": "process involving mercury -> added small amounts of mercury to the bottom of the rocker",
+              "keywords": "mercury, trap fine gold",
+              "evidence": [
+                "Some miners added small amounts of mercury to the bottom of the rocker."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "The most basic method used by many miners began with digging some $119878$ out of river and hoping it might contain gold. Small amounts were put in a pan with water. The pan was spun round, causing the liquid and less heavy contents of the pan to come out. Gold dust, which weighed more, remained in the pan or, if the miners were very lucky, there might even be some $119879$ too. It was, however, a very laborious method.\nThe rocker was also used. A miner would put some earth and rock into the higher end, together with some water. He would then shake the rocker. Larger stones stuck in the $119880$, while gold dropped to the bottom. Unfortunately, the rocker was not designed to catch what was called flour. However，a process was introduced involving $119881$ to ensure no gold was washed out in the water.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The most basic method used by many miners began with digging some $119878$ out of river and hoping it might contain gold. Small amounts were put in a pan with water. The pan was spun round, causing the liquid and less heavy contents of the pan to come out. Gold dust, which weighed more, remained in the pan or, if the miners were very lucky, there might even be some $119879$ too. It was, however, a very laborious method.\nThe rocker was also used. A miner would put some earth and rock into the higher end, together with some water. He would then shake the rocker. Larger stones stuck in the $119880$, while gold dropped to the bottom. Unfortunately, the rocker was not designed to catch what was called flour. However，a process was introduced involving $119881$ to ensure no gold was washed out in the water."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "The California Gold Rush of 1849",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "The discovery of gold in the Sacramento Valley sparked the Gold Rush, arguably one of the most significant events to shape American history in the 19th century",
+          "translation": "萨克拉门托山谷的黄金发现引发了淘金热，这可以说是19世纪塑造美国历史的最重要事件之一。"
+        },
+        {
+          "index": 3,
+          "sentence": "On January 24, 1848, James Wilson Marshall, a carpenter, found small flakes of gold in the American River near Coloma, California.",
+          "translation": "1848年1月24日，木匠詹姆斯·威尔逊·马歇尔在加利福尼亚州科洛马附近的亚美利加河中发现了细小的金片。"
+        },
+        {
+          "index": 4,
+          "sentence": "At the time, Marshall was working to build a water-powered sawmill for businessman John Sutter.",
+          "translation": "当时，马歇尔正在为商人约翰·萨特建造一座水动力锯木厂。"
+        },
+        {
+          "index": 5,
+          "sentence": "As it happens, just days after Marshall's discovery, the Treaty of Guadalupe Hidalgo was signed, ending the Mexican-American War and transferring California, with its mineral deposits, into the ownership of the United States.",
+          "translation": "凑巧的是，就在马歇尔发现金子几天后，《瓜达卢佩-伊达尔戈条约》签署，结束了美墨战争，并将加利福尼亚及其矿产所有权转让给了美国。"
+        },
+        {
+          "index": 6,
+          "sentence": "At the time, the population of the territory consisted of 6,500 Californios (people of Spanish or Mexican descent); 700 foreigners (primarily Americans); and 150,000 Native Americans.",
+          "translation": "当时，该地区的人口包括6500名加利福尼亚人（西班牙或墨西哥裔）、700名外国人（主要是美国人）以及15万美洲原住民。"
+        },
+        {
+          "index": 8,
+          "sentence": "Though Marshall and Sutter tried to keep news of the discovery quiet, word got out, and by mid-March 1848 at least one newspaper was reporting that large quantities of gold were being found.",
+          "translation": "尽管马歇尔和萨特试图对发现的新闻保密，但消息还是传了出去，到1848年3月中旬，至少有一家报纸报道称发现了大量黄金。"
+        },
+        {
+          "index": 9,
+          "sentence": "Though the initial reaction in San Francisco was disbelief, storekeeper Sam Brannan set off a frenzy when he paraded through town displaying a small bottle containing gold from Sutter's Creek.",
+          "translation": "尽管旧金山最初的反应是怀疑，但店主萨姆·布兰南在镇上巡游时展示了一小瓶来自萨特溪的黄金，引发了一场狂热。"
+        },
+        {
+          "index": 10,
+          "sentence": "By mid-June, some three-quarters of the male population of San Francisco had left town for the gold mines, and the number of miners in the area reached 4,000 by August.",
+          "translation": "到6月中旬，旧金山大约四分之三的男性人口已离城前往金矿，到8月，该地区的矿工人数达到了4000人。"
+        },
+        {
+          "index": 12,
+          "sentence": "As news spread of the fortunes being made in California, the first migrants to arrive were those from lands accessible by boat, such as Oregon, the Sandwich Islands (now Hawaii), Mexico, Chile, Peru and even China.",
+          "translation": "随着加利福尼亚发财消息的传播，首批抵达的移民来自可通过船只到达的地区，例如俄勒冈、桑威奇群岛（即现在的夏威夷）、墨西哥、智利、秘鲁，甚至中国。"
+        },
+        {
+          "index": 13,
+          "sentence": "Only later would the news reach the East Coast, where press reports were initially skeptical.",
+          "translation": "这一消息直到后来才传到东海岸，当地的新闻报道最初持怀疑态度。"
+        },
+        {
+          "index": 14,
+          "sentence": "Throughout 1849, thousands of people around the United States (mostly men) borrowed money, mortgaged their property or spent their life savings to make the arduous journey to California.",
+          "translation": "在整个1849年，美国各地成千上万的人（主要是男性）借钱、抵押财产或花光毕生积蓄，踏上了前往加利福尼亚的艰苦旅程。"
+        },
+        {
+          "index": 15,
+          "sentence": "In pursuit of the kind of wealth they had never dreamed of, they left their families and local areas; in turn, their wives had no option but to shoulder different responsibilities such as running farms or businesses, and many made a real success of them.",
+          "translation": "为了追求他们从未梦想过的财富，他们离开了家人和家乡；相应地，他们的妻子别无选择，只能承担不同的责任，例如经营农场或生意，许多人还取得了真正的成功。"
+        },
+        {
+          "index": 16,
+          "sentence": "By the end of the year, the non-native population of California was estimated at 100,000 (as compared with 20,000 at the end of 1848 and around 800 in March 1848).",
+          "translation": "到年底时，加利福尼亚的非本土人口估计达到10万人（相比之下，1848年底为2万人，1848年3月约为800人）。"
+        },
+        {
+          "index": 17,
+          "sentence": "To accommodate the needs of the' 49ers, as the gold miners were known, towns had sprung up all over the region, complete with shops and other businesses seeking to make their own Gold Rush fortune.",
+          "translation": "为了满足这些被称为“49人”的淘金者的需求，整个地区涌现出许多城镇，配有商店和其他商业机构，它们也旨在从淘金热中牟取自己的财富。"
+        },
+        {
+          "index": 18,
+          "sentence": "The overcrowded chaos of the mining camps and towns grew ever more lawless.",
+          "translation": "拥挤不堪的采矿营地和城镇中的混乱局面变得越来越无法无天。"
+        },
+        {
+          "index": 19,
+          "sentence": "San Francisco, for its part, developed a bustling economy and became the central metropolis of the new frontier.",
+          "translation": "而旧金山则发展出繁荣的经济，成为这片新边疆的中心大都市。"
+        },
+        {
+          "index": 21,
+          "sentence": "How did all these would-be miners search for gold?",
+          "translation": "所有这些潜在的矿工是如何寻找黄金的呢？"
+        },
+        {
+          "index": 22,
+          "sentence": "Panning was the oldest way.",
+          "translation": "淘金是最古老的方法。"
+        },
+        {
+          "index": 23,
+          "sentence": "The basic procedure was to place some gold-bearing materials, such as river gravel, into a shallow pan, add some water, and then carefully swirl the mixture around so the water and light material spilled over the side.",
+          "translation": "基本操作是将一些含金物质，例如河里的砾石，放入一个浅盘中，加入一些水，然后小心地旋转混合物，使得水和轻质材料从边缘溢出。"
+        },
+        {
+          "index": 24,
+          "sentence": "if all went well, the heavier gold nuggets or gold dust would settle to the bottom of the pan.",
+          "translation": "如果一切顺利，较重的金块或金粉就会沉到盘底。"
+        },
+        {
+          "index": 25,
+          "sentence": "Gold panning was slow even for the most skillful miner.",
+          "translation": "即使对于最有经验的矿工来说，淘金过程也很缓慢。"
+        },
+        {
+          "index": 26,
+          "sentence": "On a good day, one miner could wash about 50 pans in the usual 12-hour workday.",
+          "translation": "在产量高的日子里，一名矿工在通常的12小时工作日内大约可以淘洗50盘。"
+        },
+        {
+          "index": 28,
+          "sentence": "Another way was to use what was called a 'rocker' .",
+          "translation": "另一种方法是使用所谓的“摇槽”。"
+        },
+        {
+          "index": 29,
+          "sentence": "Isaac Humphrey is said to have introduced it to the California gold fields.",
+          "translation": "据说艾萨克·汉弗莱将其引入了加利福尼亚金矿区。"
+        },
+        {
+          "index": 30,
+          "sentence": "It was simply a rectangular wooden box, set at a downward angle and mounted on a rocking mechanism.",
+          "translation": "它只是一个长方形的木箱，以向下的角度放置，并安装在一个摇动装置上。"
+        },
+        {
+          "index": 31,
+          "sentence": "The dirt and rock was dumped into the top, followed by a bucket of water.",
+          "translation": "泥土和岩石被倒入箱子顶部，接着倒入一桶水。"
+        },
+        {
+          "index": 32,
+          "sentence": "The box was rocked by hand to agitate the mixture.",
+          "translation": "用手摇动箱子以搅动混合物。"
+        },
+        {
+          "index": 33,
+          "sentence": "The big rocks were caught in a sieve at the top, the waste exited the lower end with the water, and the heavy gold fell to the bottom of the box.",
+          "translation": "大石块被顶部的筛子截住，废料从下端随水流出，而较重的金子则落入箱底。"
+        },
+        {
+          "index": 34,
+          "sentence": "The rocker had advantages and disadvantages.",
+          "translation": "摇动式淘金槽既有优点也有缺点。"
+        },
+        {
+          "index": 35,
+          "sentence": "The advantages were that it was easily transportable; it did not require a constant source of water; and, most importantly, a miner could process more dirt and rock than with a pan.",
+          "translation": "其优点在于易于运输；不需要持续的水源；而且最重要的是，矿工用它处理的泥沙和岩石量比用淘金盘更多。"
+        },
+        {
+          "index": 36,
+          "sentence": "The primary disadvantage was that the rocker had difficulty in trapping the smallest particles of gold, commonly known as 'flour'.",
+          "translation": "其主要缺点在于难以捕获最细小的金粒，即俗称的“金粉”。"
+        },
+        {
+          "index": 37,
+          "sentence": "Some miners added small amounts of mercury to the bottom of the rocker.",
+          "translation": "一些矿工在摇动式淘金槽底部添加少量水银。"
+        },
+        {
+          "index": 38,
+          "sentence": "Due to its chemical composition, it had a facility to trap fine gold.",
+          "translation": "由于其化学成分，水银能够有效地捕获细小的金子。"
+        },
+        {
+          "index": 39,
+          "sentence": "Periodically, the miners would remove and heat it.",
+          "translation": "矿工们会定期将其取出并加热。"
+        },
+        {
+          "index": 40,
+          "sentence": "As it vaporized, it would leave gold behind.",
+          "translation": "当水银蒸发后，便会留下金子。"
+        },
+        {
+          "index": 42,
+          "sentence": "After 1850, the surface gold in California had largely disappeared, even as miners continued to reach the gold fields.",
+          "translation": "1850年之后，加利福尼亚的表层黄金基本上已经消失，尽管矿工们仍在持续抵达金矿区。"
+        },
+        {
+          "index": 43,
+          "sentence": "Mining had always been difficult and dangerous labor, and striking it rich required good luck as much as skill and hard work.",
+          "translation": "采矿一直是一项艰难且危险的工作，而发家致富不仅需要技能和勤奋，也同样需要好运。"
+        },
+        {
+          "index": 44,
+          "sentence": "Moreover, the average daily pay for an independent miner had by then dropped sharply from what it had been in 1848.",
+          "translation": "此外，独立矿工的平均日薪到那时已从1848年的水平急剧下降。"
+        },
+        {
+          "index": 45,
+          "sentence": "As gold became more and more difficult to reach, the growing industrialization of mining drove more and more miners from independence into wage labor.",
+          "translation": "随着黄金越来越难以获取，采矿业的日益工业化使得越来越多的矿工从独立作业转为雇佣劳动。"
+        },
+        {
+          "index": 46,
+          "sentence": "The new technique of hydraulic mining, developed in 1853, brought enormous profits, but destroyed much of the region's landscape.",
+          "translation": "1853年发展起来的水力采矿新技术带来了巨额利润，但却破坏了该地区的大部分自然景观。"
+        },
+        {
+          "index": 48,
+          "sentence": "Though gold mining continued throughout the 1850s, it had reached its peak by 1852, when gold worth some $81 million was pulled from the ground.",
+          "translation": "尽管整个19世纪50年代淘金活动都在持续，但其在1852年达到顶峰，当年从地下采出的黄金价值约8100万美元。"
+        },
+        {
+          "index": 49,
+          "sentence": "After that year, the total take declined gradually, leveling off to around $45 million per year by 1857.",
+          "translation": "在那一年之后，总产量逐渐下降，到1857年稳定在每年约4500万美元。"
+        },
+        {
+          "index": 50,
+          "sentence": "Settlement in California continued, however, and by the end of the decade the state's population was 380,000.",
+          "translation": "然而，加利福尼亚的定居活动仍在继续，到19世纪50年代末，该州人口已达到38万。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

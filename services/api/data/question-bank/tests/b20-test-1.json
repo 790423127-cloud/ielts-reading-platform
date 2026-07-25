@@ -1,0 +1,2352 @@
+{
+  "id": "b20-test-1",
+  "book": "剑雅20",
+  "book_number": 20,
+  "name": "Test 1",
+  "title": "剑雅20 Test 1",
+  "parts": [
+    {
+      "id": "2924",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Top campsites to visit",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A Woodside Park",
+          "translation": "A 伍德赛德公园"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "This campsite, which opens in the summer months only, is in the middle of a country park. The site is next to a large lake and there's woodland nearby to explore. If you don't fancy sleeping in a tent, you can book a pod. These are all heated and furnished with beds. Facilities on site include hot showers and a small shop.",
+          "translation": "这个营地仅在夏季开放，位于一个乡村公园的中心。\n该营地紧邻一个大湖，附近还有林地可供探索。\n如果你不想睡在帐篷里，可以预订一个小木屋。\n这些小木屋都配有暖气和床铺。\n现场设施包括热水淋浴和一家小商店。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B Treetops Farm",
+          "translation": "B 树梢农场"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "This campsite, which is on a working farm, is open all year. The site itself is a car-free zone and you'll need to park near the farmhouse and carry your belongings and tent to the camping area. The facilities are simple but the washrooms, which are closed daily for an hour from midday for cleaning, have free hot water for showers.",
+          "translation": "这个营地坐落于一个经营性农场中，全年开放。\n营地本身是一个无车区，你需要将车停在农舍附近，然后携带个人物品和帐篷步行至露营区域。\n设施虽然简单，但洗手间每天中午会关闭一小时进行清洁，并提供免费热水淋浴。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C The Downs",
+          "translation": "C 唐斯营地"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "This campsite, which is open from April to November but closed during the coldest months, is surrounded by beautiful countryside that's perfect for cycling and walking. Facilities on site include a laundry room as well as showers and a small shop. There's a pub that serves hot food each evening in the nearby village, which is only a ten-minute drive away.",
+          "translation": "这个露营地从四月到十一月开放，但在最冷的月份关闭，周围环绕着美丽的乡村，非常适合骑自行车和徒步旅行。\n现场设施包括洗衣房、淋浴间以及一个小商店。\n附近的村庄有一家每晚提供热食的酒吧，距离露营地只有十分钟车程。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D Bluewater Bay",
+          "translation": "D 蓝水湾"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "This perfectly flat grass campsite, which is open in the summer months only, is only a few minutes' walk from the beach. There's a shower room on site and also a farm shop (which is open until 8 pm), where you can buy anything you need for a BBQ. If you haven't got a tent, the site offers pre-pitched ones that can be rented by the day.",
+          "translation": "这个非常平坦的草地露营地仅在夏季开放，距离海滩只有几分钟的步行路程。\n现场设有淋浴间和一家农场商店（营业至晚上8点），你可以在这里购买到烧烤所需的一切。\n如果你没有帐篷，该营地提供已搭好的帐篷，可按日租赁。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E Dean Park",
+          "translation": "E 迪恩公园"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "This large campsite, which is open all year, offers a range of facilities. As well as several shower rooms and a café serving cooked meals daily, there's an indoor pool and games room, For anyone keen on countryside walks there are miles of footpaths in the nearby national park.",
+          "translation": "这个大型露营地全年开放，提供一系列设施。\n除了几间淋浴室和一家每天供应熟食的咖啡馆，还有一个室内游泳池和游戏室。\n对于热衷于乡村散步的人来说，附近的国家公园内有数英里长的小径。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F Rock Harbour",
+          "translation": "F 罗克港营地"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "This small, family-owned campsite has space for 50 tents and is only open in the summer. It's just a five-minute walk to the sea so is perfect for anyone looking for a beach holiday. There's a small shop on site and there's always someone in the campsite office from 9 am-9 pm if you need assistance or have a problem.",
+          "translation": "这个由家族经营的小型露营地可容纳50顶帐篷，且仅在夏季开放。\n步行到海边仅需五分钟，因此非常适合任何想要享受海滩假期的人。\n现场有一个小商店，并且从上午9点到晚上9点，营地办公室始终有人值班，以便您需要帮助或遇到问题时提供支持。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Cycling in Plymouth",
+          "question_cue": {
+            "start": 6,
+            "end": 14
+          },
+          "translation": "在普利茅斯骑自行车"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Cycling in the city is relatively stress free. As well as providing a growing number of cycle paths that are traffic free, local government has also added dedicated cycle lanes to many routes. A journey in the city by bike is generally quicker than the same journey by car—especially at peak times, and you can travel door to door, which saves additional time, A further benefit of cycling is that it's cheaper than running a car—even if you include the cost of an occasional taxi. it's also good for you: you'll need to cycle for a recommended minimum of twenty minutes a day if you want to improve your overall fitness.",
+          "translation": "在这座城市骑自行车相对轻松无压力。\n除了提供越来越多无交通的自行车道外，当地政府还在许多路线上增加了专用的自行车道。\n在城里骑自行车通常比开车更快——尤其是在高峰时段，而且你可以门到门出行，这节省了额外时间。\n骑自行车的另一个好处是它比开车更便宜——即使你偶尔乘坐出租车的费用也算在内。\n这对你的健康也有好处：如果你想改善整体健康状况，建议每天至少骑自行车二十分钟。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "If you've only recently decided to take up cycling, summer is a good time to start. However, the weather is rarely so bad in Plymouth that it will stop you cycling. To get started, you can hire a bike - various apps are available where you are charged by the hour. If you want to buy a bike, you should think first about the size you'll need and what you plan to use it for—commuting, shopping or recreation. When selecting your bike, it's helpful to remember that ones with lighter frames and good gears make cycling easier, but are more expensive.",
+          "translation": "如果你最近才决定开始骑自行车，夏天是一个很好的开始时机。\n然而，在普利茅斯，天气很少会恶劣到阻止你骑自行车。\n刚开始，你可以租一辆自行车——有各种应用程序可用，按小时收费。\n如果你想买一辆自行车，你应该首先考虑你需要的尺寸以及你打算用它做什么——通勤、购物还是休闲。\n在选择自行车时，记住那些车架更轻、变速系统良好的自行车可以让骑行更轻松，但价格也更贵，这会有帮助。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Although most train companies allow bikes on their trains, there are peak-time restrictions. Therefore, if you want to take a bike on a local train at peak times, you will need one that folds up, Even outside peak times, most trains have limited space for bikes of any kind so a reservation in advance of your journey is essential.",
+          "translation": "尽管大多数火车公司允许自行车带上火车，但在高峰时段有限制。\n因此，如果你想在高峰时段带自行车上当地火车，就需要一辆可折叠的自行车；即使在非高峰时段，大多数火车对自行车的空间也有限，因此提前预订行程是必要的。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "If you plan to maintain your bike, you'll also need to buy certain equipment: a pump, a spare inner tube, and tyre levers for mending punctures. If you get a puncture, see if you can find out the cause, such as a piece of broken glass, and remove it. If you need to replace an inner tube, its size is usually shown on the tyre.",
+          "translation": "如果你打算保养自行车，还需要购买特定装备：一个打气筒、一条备用内胎以及用于修补刺孔的轮胎撬棒。\n如果你遇到刺孔，看看能否找出原因，例如一块碎玻璃，并将其清除。\n如果你需要更换内胎，其尺寸通常标注在轮胎上。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21332",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 5\nReading Passage 1 has eight paragraphs, A-F.\nFor which campsite are the following statements true?\nWrite the correct letter, A-F, in boxes 1-5 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131146",
+              "number": 1,
+              "prompt": "You can pay to hire a tent at this campsite.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“pay to hire a tent”对应原文D段中的“pre-pitched ones that can be rented by the day”，其中“hire”与“rented”为同义替换，“tent”对应“pre-pitched ones”。因此，D选项正确，表明该营地提供付费租赁帐篷的服务。",
+              "reason": "D答案与题干完全对应：rent a tent与hire a tent同义。",
+              "location_analysis": "题干意为‘可付费租帐篷’，D处提供pre-pitched tents按日租。",
+              "paraphrasing": "pay to hire a tent -> pre-pitched tents that can be rented",
+              "keywords": "hire a tent, pre-pitched tents",
+              "evidence": [
+                "If you haven't got a tent, the site offers pre-pitched ones that can be rented by the day."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131147",
+              "number": 2,
+              "prompt": "There is a short period each day when you cannot use the showers.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求找出“每天有一小段时间不能使用淋浴”的营地。B段提到“washrooms, which are closed daily for an hour from midday for cleaning”，即每天中午关闭一小时清洁，这与题干中“short period each day”和“cannot use the showers”完全对应，因此答案为B。",
+              "reason": "关闭时间与题干‘short period’完全吻合。",
+              "location_analysis": "题干为‘每天短时间无法用淋浴’，B处washrooms每天中午关闭1小时打扫。",
+              "paraphrasing": "a short period each day -> daily for an hour from midday; cannot use the showers -> washrooms are closed",
+              "keywords": "short period, cannot use showers",
+              "evidence": [
+                "the washrooms, which are closed daily for an hour from midday for cleaning, have free hot water for showers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131148",
+              "number": 3,
+              "prompt": "There is a place on site where you can wash clothes.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问是否有地方可以洗衣服。C段明确提到“Facilities on site include a laundry room as well as showers and a small shop”，其中“laundry room”即为洗衣房，直接对应题干中的“place on site where you can wash clothes”，因此答案是C。",
+              "reason": "laundry room即为洗衣场所。",
+              "location_analysis": "题干意为‘可洗衣服’，C处明确提到laundry room。",
+              "paraphrasing": "place to wash clothes -> laundry room",
+              "keywords": "wash clothes, laundry room",
+              "evidence": [
+                "Facilities on site include a laundry room as well as showers and a small shop."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131149",
+              "number": 4,
+              "prompt": "A member of staff is available all day to help visitors.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干要求找出“全天有工作人员可协助游客”的营地。F段指出“There's always someone in the campsite office from 9 am-9 pm if you need assistance or have a problem”，虽然并非24小时，但“9 am-9 pm”覆盖了白天主要时段，符合题干中“all day”的合理理解，因此答案为F。",
+              "reason": "9am-9pm覆盖白天，与all day对应。",
+              "location_analysis": "题干为‘全天有工作人员帮助’，F处office有人9am-9pm。",
+              "paraphrasing": "member of staff available all day -> someone in the campsite office from 9 am-9 pm",
+              "keywords": "staff available all day, help",
+              "evidence": [
+                "There's always someone in the campsite office from 9 am-9 pm if you need assistance or have a problem."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131150",
+              "number": 5,
+              "prompt": "Visitors to this campsite can go swimming in the winter.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干询问冬季是否可以游泳。E段提到该营地“open all year”且设有“indoor pool”，室内泳池在全年开放的营地中自然可在冬季使用，因此“visitors can go swimming in the winter”成立，答案为E。",
+              "reason": "室内泳池 + 全年开放 = 冬季可用。",
+              "location_analysis": "E段全年开放且设有室内泳池，冬季也可游泳。",
+              "paraphrasing": "winter -> open all year; swimming -> indoor pool",
+              "keywords": "swimming, winter",
+              "evidence": [
+                "This large campsite, which is open all year, offers a range of facilities. As well as several shower rooms and a café serving cooked meals daily, there's an indoor pool and games room,"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "21334",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 6 - 14\nDo the following statements agree with the information given in Reading Passage 18?\nIn boxes 6-14 on your answer sheet, write TRUE if the statement agrees with the information FALSE if the statement contradicts the information NOT GIVEN if there is no information on this",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131151",
+              "number": 6,
+              "prompt": "The number of traffic-free cycle paths in the city is increasing.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干陈述“无车自行车道数量正在增加”，原文第一段提到“providing a growing number of cycle paths that are traffic free”，其中“growing number”与“increasing”为同义表达，说明城市正在增加无车骑行路径，因此答案为TRUE。",
+              "reason": "growing number对应increasing。",
+              "location_analysis": "题干为‘无车自行车道数量增加’，原文‘a growing number’与increasing一致。",
+              "paraphrasing": "number is increasing -> providing a growing number",
+              "keywords": "traffic-free cycle paths, increasing",
+              "evidence": [
+                "As well as providing a growing number of cycle paths that are traffic free, local government has also added dedicated cycle lanes to many routes."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "选项与原文中明确提到的数量增加信息矛盾。",
+                "NOT GIVEN": "原文未提及城市中无机动车自行车道的数量变化趋势。"
+              }
+            },
+            {
+              "id": "131152",
+              "number": 7,
+              "prompt": "You are likely to reach your destination faster if you drive in the city than if you cycle.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“开车比骑车更快到达目的地”，但原文明确指出“A journey in the city by bike is generally quicker than the same journey by car—especially at peak times”，说明骑车通常更快，与题干矛盾，因此答案为FALSE。",
+              "reason": "原文说骑车更快，题干说开车更快，矛盾。",
+              "location_analysis": "原文表示骑行比汽车更快，题干相反为FALSE。",
+              "paraphrasing": "reach destination faster if drive -> quicker by bike than by car",
+              "keywords": "faster, drive, cycle",
+              "evidence": [
+                "A journey in the city by bike is generally quicker than the same journey by car—especially at peak times"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文指出骑车更快或两者速度相当。",
+                "NOT GIVEN": "原文明确否定了题干说法，并非未提及。"
+              }
+            },
+            {
+              "id": "131153",
+              "number": 8,
+              "prompt": "There are numerous days in the winter when the weather prevents you cycling.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“冬季有很多天因天气无法骑车”，但原文第二段提到“The weather is rarely so bad in Plymouth that it will stop you cycling”，其中“rarely”表示极少发生，与“numerous days”相矛盾，因此答案为FALSE。",
+              "reason": "rarely表示极少，与numerous days相反。",
+              "location_analysis": "题干说‘冬季很多天无法骑车’，原文说‘坏天气很少阻止骑车’，矛盾。",
+              "paraphrasing": "numerous days in the winter when weather prevents -> the weather is rarely so bad that it will stop you cycling",
+              "keywords": "numerous days, weather prevents cycling",
+              "evidence": [
+                "However, the weather is rarely so bad in Plymouth that it will stop you cycling."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文表明冬季天气并不阻止骑车。",
+                "NOT GIVEN": "原文未提及冬季天气阻止骑车的天数多少，无法判断。"
+              }
+            },
+            {
+              "id": "131154",
+              "number": 9,
+              "prompt": "Using a bike app to hire a bike is very popular.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“使用app租自行车非常流行”，但原文仅提到“various apps are available where you are charged by the hour”，说明存在此类app，但未提及使用是否“very popular”，缺乏关于流行程度的信息，因此答案为NOT GIVEN。",
+              "reason": "原文无‘popular’相关信息。",
+              "location_analysis": "题干称‘用app租车很流行’，原文只说有app，未提流行程度。",
+              "paraphrasing": "hire a bike -> various apps are available; very popular -> 原文未提",
+              "keywords": "bike app, hire a bike, very popular",
+              "evidence": [
+                "To get started, you can hire a bike - various apps are available where you are charged by the hour."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及使用自行车应用程序租车是否流行，该信息无中生有。",
+                "FALSE": "原文未提供证据表明其不流行，不能判断为错误。"
+              }
+            },
+            {
+              "id": "131155",
+              "number": 10,
+              "prompt": "You will have to pay a higher price to buy a bike that is light.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干说“轻便自行车价格更高”，原文第二段指出“ones with lighter frames and good gears make cycling easier, but are more expensive”，其中“lighter frames”对应“light bike”，“more expensive”对应“higher price”，信息一致，因此答案为TRUE。",
+              "reason": "lighter对应light，more expensive对应higher price。",
+              "location_analysis": "题干意为‘轻的自行车价格更高’，原文说‘lighter frames...more expen...",
+              "paraphrasing": "pay a higher price for a light bike -> lighter frames...but are more expensive",
+              "keywords": "higher price, light bike",
+              "evidence": [
+                "When selecting your bike, it's helpful to remember that ones with lighter frames and good gears make cycling easier, but are more expensive."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文信息矛盾，原文通常表明轻的自行车更贵。",
+                "NOT GIVEN": "原文中明确提及了价格与重量的关系，并非未给出信息。"
+              }
+            },
+            {
+              "id": "131156",
+              "number": 11,
+              "prompt": "Only folding bikes can be taken on local trains at any time.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干包含两个部分：一是“只有折叠车可随时上本地火车”，二是“需至少提前一周预订”。原文第三段说明高峰时段必须使用折叠车，且“even outside peak times...a reservation in advance...is essential”，但未说明“only folding bikes”可随时上车，也未提“至少一周”，因此整体判断为TRUE（根据题目设定，此处以官方答案为准，解析侧重前半句逻辑）。",
+              "reason": "折页车可随时上（因高峰需折叠，但任何时候均可），但‘至少提前一周预约’未提。",
+              "location_analysis": "题干说‘仅折叠车可随时上火车’，原文高峰需折叠车；提到‘need to book a week...",
+              "paraphrasing": "Only folding bikes can be taken on local trains at any time -> if you want to take a bike on a local train at peak times, you will need one that folds up",
+              "keywords": "folding bikes, local trains, any time",
+              "evidence": [
+                "Even outside peak times, most trains have limited space for bikes of any kind so a reservation in advance of your journey is essential."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾，原文明确指出只有折叠自行车可随时带上火车。",
+                "NOT GIVEN": "原文明确给出了此信息，并非未提及。"
+              }
+            },
+            {
+              "id": "131157",
+              "number": 12,
+              "prompt": "You need to book to take a bike on a train at least a week before you travel.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干第12题（隐含内容）涉及“预订火车票需至少提前一周”，但原文仅说“a reservation in advance of your journey is essential”，并未说明具体提前多久，如“at least a week”，因此关于时间长度的信息未给出，答案为NOT GIVEN。",
+              "reason": "未提及具体提前多久，NOT GIVEN。",
+              "location_analysis": "原文提到需提前预订(reservation in advance)，但未指定至少一周。",
+              "paraphrasing": "",
+              "keywords": "book at least a week before",
+              "evidence": [
+                "Even outside peak times, most trains have limited space for bikes of any kind so a reservation in advance of your journey is essential."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文中并无相关信息支持该选项的内容。",
+                "FALSE": "原文中没有明确否定该选项的内容，无法判断其错误。"
+              }
+            },
+            {
+              "id": "131158",
+              "number": 13,
+              "prompt": "If you are repairing a puncture, you will need a piece of equipment called a tyre lever.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干询问修理爆胎是否需要“tyre lever”，原文最后一段明确列出维修所需工具：“a pump, a spare inner tube, and tyre levers for mending punctures”，其中“tyre levers”直接对应题干中的“a piece of equipment called a tyre lever”，因此答案为TRUE。",
+              "reason": "tyre levers for mending punctures与题干吻合。",
+              "location_analysis": "题干说修胎需要tyre lever，原文列出tyre levers作为工具。",
+              "paraphrasing": "a piece of equipment called a tyre lever -> tyre levers",
+              "keywords": "repairing a puncture, tyre lever",
+              "evidence": [
+                "If you plan to maintain your bike, you'll also need to buy certain equipment: a pump, a spare inner tube, and tyre levers for mending punctures."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到修理穿刺需要轮胎撬棒，与题干一致，因此该选项错误。",
+                "NOT GIVEN": "原文明确给出了修理穿刺所需设备的信息，并非未提及，因此该选项错误。"
+              }
+            },
+            {
+              "id": "131159",
+              "number": 14,
+              "prompt": "Broken glass is the most common cause of tyre punctures.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“碎玻璃是最常见的爆胎原因”，但原文仅举例“If you get a puncture, see if you can find out the cause, such as a piece of broken glass”，使用“such as”表示举例，并未说明其为“most common cause”，未涉及频率比较，因此答案为NOT GIVEN。",
+              "reason": "原文未比较各种原因频率。",
+              "location_analysis": "题干称‘碎玻璃是最常见原因’，原文仅举例‘such as broken glass’，未说mo...",
+              "paraphrasing": "most common cause -> 原文未提及频率",
+              "keywords": "broken glass, most common cause of punctures",
+              "evidence": [
+                "If you get a puncture, see if you can find out the cause, such as a piece of broken glass, and remove it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文并未提及碎玻璃是轮胎刺破的最常见原因，该选项属于无中生有。",
+                "FALSE": "原文没有信息表明碎玻璃不是最常见原因，该选项与原文信息矛盾。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Top campsites to visit",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A Woodside Park",
+          "translation": "A 伍德赛德公园"
+        },
+        {
+          "index": 2,
+          "sentence": "This campsite, which opens in the summer months only, is in the middle of a country park.",
+          "translation": "这个营地仅在夏季开放，位于一个乡村公园的中心。"
+        },
+        {
+          "index": 3,
+          "sentence": "The site is next to a large lake and there's woodland nearby to explore.",
+          "translation": "该营地紧邻一个大湖，附近还有林地可供探索。"
+        },
+        {
+          "index": 4,
+          "sentence": "If you don't fancy sleeping in a tent, you can book a pod.",
+          "translation": "如果你不想睡在帐篷里，可以预订一个小木屋。"
+        },
+        {
+          "index": 5,
+          "sentence": "These are all heated and furnished with beds.",
+          "translation": "这些小木屋都配有暖气和床铺。"
+        },
+        {
+          "index": 6,
+          "sentence": "Facilities on site include hot showers and a small shop.",
+          "translation": "现场设施包括热水淋浴和一家小商店。"
+        },
+        {
+          "index": 7,
+          "sentence": "B Treetops Farm",
+          "translation": "B 树梢农场"
+        },
+        {
+          "index": 8,
+          "sentence": "This campsite, which is on a working farm, is open all year.",
+          "translation": "这个营地坐落于一个经营性农场中，全年开放。"
+        },
+        {
+          "index": 9,
+          "sentence": "The site itself is a car-free zone and you'll need to park near the farmhouse and carry your belongings and tent to the camping area.",
+          "translation": "营地本身是一个无车区，你需要将车停在农舍附近，然后携带个人物品和帐篷步行至露营区域。"
+        },
+        {
+          "index": 10,
+          "sentence": "The facilities are simple but the washrooms, which are closed daily for an hour from midday for cleaning, have free hot water for showers.",
+          "translation": "设施虽然简单，但洗手间每天中午会关闭一小时进行清洁，并提供免费热水淋浴。"
+        },
+        {
+          "index": 11,
+          "sentence": "C The Downs",
+          "translation": "C 唐斯营地"
+        },
+        {
+          "index": 12,
+          "sentence": "This campsite, which is open from April to November but closed during the coldest months, is surrounded by beautiful countryside that's perfect for cycling and walking.",
+          "translation": "这个露营地从四月到十一月开放，但在最冷的月份关闭，周围环绕着美丽的乡村，非常适合骑自行车和徒步旅行。"
+        },
+        {
+          "index": 13,
+          "sentence": "Facilities on site include a laundry room as well as showers and a small shop.",
+          "translation": "现场设施包括洗衣房、淋浴间以及一个小商店。"
+        },
+        {
+          "index": 14,
+          "sentence": "There's a pub that serves hot food each evening in the nearby village, which is only a ten-minute drive away.",
+          "translation": "附近的村庄有一家每晚提供热食的酒吧，距离露营地只有十分钟车程。"
+        },
+        {
+          "index": 15,
+          "sentence": "D Bluewater Bay",
+          "translation": "D 蓝水湾"
+        },
+        {
+          "index": 16,
+          "sentence": "This perfectly flat grass campsite, which is open in the summer months only, is only a few minutes' walk from the beach.",
+          "translation": "这个非常平坦的草地露营地仅在夏季开放，距离海滩只有几分钟的步行路程。"
+        },
+        {
+          "index": 17,
+          "sentence": "There's a shower room on site and also a farm shop (which is open until 8 pm), where you can buy anything you need for a BBQ.",
+          "translation": "现场设有淋浴间和一家农场商店（营业至晚上8点），你可以在这里购买到烧烤所需的一切。"
+        },
+        {
+          "index": 18,
+          "sentence": "If you haven't got a tent, the site offers pre-pitched ones that can be rented by the day.",
+          "translation": "如果你没有帐篷，该营地提供已搭好的帐篷，可按日租赁。"
+        },
+        {
+          "index": 19,
+          "sentence": "E Dean Park",
+          "translation": "E 迪恩公园"
+        },
+        {
+          "index": 20,
+          "sentence": "This large campsite, which is open all year, offers a range of facilities.",
+          "translation": "这个大型露营地全年开放，提供一系列设施。"
+        },
+        {
+          "index": 21,
+          "sentence": "As well as several shower rooms and a café serving cooked meals daily, there's an indoor pool and games room,",
+          "translation": "除了几间淋浴室和一家每天供应熟食的咖啡馆，还有一个室内游泳池和游戏室。"
+        },
+        {
+          "index": 22,
+          "sentence": "For anyone keen on countryside walks there are miles of footpaths in the nearby national park.",
+          "translation": "对于热衷于乡村散步的人来说，附近的国家公园内有数英里长的小径。"
+        },
+        {
+          "index": 23,
+          "sentence": "F Rock Harbour",
+          "translation": "F 罗克港营地"
+        },
+        {
+          "index": 24,
+          "sentence": "This small, family-owned campsite has space for 50 tents and is only open in the summer.",
+          "translation": "这个由家族经营的小型露营地可容纳50顶帐篷，且仅在夏季开放。"
+        },
+        {
+          "index": 25,
+          "sentence": "It's just a five-minute walk to the sea so is perfect for anyone looking for a beach holiday.",
+          "translation": "步行到海边仅需五分钟，因此非常适合任何想要享受海滩假期的人。"
+        },
+        {
+          "index": 26,
+          "sentence": "There's a small shop on site and there's always someone in the campsite office from 9 am-9 pm if you need assistance or have a problem.",
+          "translation": "现场有一个小商店，并且从上午9点到晚上9点，营地办公室始终有人值班，以便您需要帮助或遇到问题时提供支持。"
+        },
+        {
+          "index": 27,
+          "sentence": "Cycling in Plymouth",
+          "translation": "在普利茅斯骑自行车"
+        },
+        {
+          "index": 28,
+          "sentence": "Cycling in the city is relatively stress free.",
+          "translation": "在这座城市骑自行车相对轻松无压力。"
+        },
+        {
+          "index": 29,
+          "sentence": "As well as providing a growing number of cycle paths that are traffic free, local government has also added dedicated cycle lanes to many routes.",
+          "translation": "除了提供越来越多无交通的自行车道外，当地政府还在许多路线上增加了专用的自行车道。"
+        },
+        {
+          "index": 30,
+          "sentence": "A journey in the city by bike is generally quicker than the same journey by car—especially at peak times, and you can travel door to door, which saves additional time,",
+          "translation": "在城里骑自行车通常比开车更快——尤其是在高峰时段，而且你可以门到门出行，这节省了额外时间。"
+        },
+        {
+          "index": 31,
+          "sentence": "A further benefit of cycling is that it's cheaper than running a car—even if you include the cost of an occasional taxi.",
+          "translation": "骑自行车的另一个好处是它比开车更便宜——即使你偶尔乘坐出租车的费用也算在内。"
+        },
+        {
+          "index": 32,
+          "sentence": "it's also good for you: you'll need to cycle for a recommended minimum of twenty minutes a day if you want to improve your overall fitness.",
+          "translation": "这对你的健康也有好处：如果你想改善整体健康状况，建议每天至少骑自行车二十分钟。"
+        },
+        {
+          "index": 33,
+          "sentence": "If you've only recently decided to take up cycling, summer is a good time to start.",
+          "translation": "如果你最近才决定开始骑自行车，夏天是一个很好的开始时机。"
+        },
+        {
+          "index": 34,
+          "sentence": "However, the weather is rarely so bad in Plymouth that it will stop you cycling.",
+          "translation": "然而，在普利茅斯，天气很少会恶劣到阻止你骑自行车。"
+        },
+        {
+          "index": 35,
+          "sentence": "To get started, you can hire a bike - various apps are available where you are charged by the hour.",
+          "translation": "刚开始，你可以租一辆自行车——有各种应用程序可用，按小时收费。"
+        },
+        {
+          "index": 36,
+          "sentence": "If you want to buy a bike, you should think first about the size you'll need and what you plan to use it for—commuting, shopping or recreation.",
+          "translation": "如果你想买一辆自行车，你应该首先考虑你需要的尺寸以及你打算用它做什么——通勤、购物还是休闲。"
+        },
+        {
+          "index": 37,
+          "sentence": "When selecting your bike, it's helpful to remember that ones with lighter frames and good gears make cycling easier, but are more expensive.",
+          "translation": "在选择自行车时，记住那些车架更轻、变速系统良好的自行车可以让骑行更轻松，但价格也更贵，这会有帮助。"
+        },
+        {
+          "index": 38,
+          "sentence": "Although most train companies allow bikes on their trains, there are peak-time restrictions.",
+          "translation": "尽管大多数火车公司允许自行车带上火车，但在高峰时段有限制。"
+        },
+        {
+          "index": 39,
+          "sentence": "Therefore, if you want to take a bike on a local train at peak times, you will need one that folds up, Even outside peak times, most trains have limited space for bikes of any kind so a reservation in advance of your journey is essential.",
+          "translation": "因此，如果你想在高峰时段带自行车上当地火车，就需要一辆可折叠的自行车；即使在非高峰时段，大多数火车对自行车的空间也有限，因此提前预订行程是必要的。"
+        },
+        {
+          "index": 40,
+          "sentence": "If you plan to maintain your bike, you'll also need to buy certain equipment: a pump, a spare inner tube, and tyre levers for mending punctures.",
+          "translation": "如果你打算保养自行车，还需要购买特定装备：一个打气筒、一条备用内胎以及用于修补刺孔的轮胎撬棒。"
+        },
+        {
+          "index": 41,
+          "sentence": "If you get a puncture, see if you can find out the cause, such as a piece of broken glass, and remove it.",
+          "translation": "如果你遇到刺孔，看看能否找出原因，例如一块碎玻璃，并将其清除。"
+        },
+        {
+          "index": 42,
+          "sentence": "If you need to replace an inner tube, its size is usually shown on the tyre.",
+          "translation": "如果你需要更换内胎，其尺寸通常标注在轮胎上。"
+        }
+      ]
+    },
+    {
+      "id": "2926",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Learning to conduct difficult conversations in the workplace",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Many of us struggle to say what we need to at work. Whether it's asking for a pay rise or confronting a co-worker over unsatisfactory behaviour, these conversations can be difficult to have without appearing offensive.",
+          "translation": "我们中的许多人都很难在工作中说出自己需要说的话。\n无论是要求加薪，还是因同事行为令人不满而与其对抗，这些对话都很难在不显得冒犯的情况下进行。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "There are several reasons why we don't raise difficult topics at work. Perhaps we've learned not to rock the boat, we fear being responsible for conflict, or we think that nothing will change even if we do pluck up the courage to speak out. So we stay quiet.",
+          "translation": "我们在工作中不提出棘手话题有多种原因。\n或许我们学会了不惹事生非，害怕承担冲突的责任，或者认为即使鼓起勇气说出来，情况也不会改变。\n因此我们保持沉默。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Here are some tips on how to tackle your next difficult conversation:",
+          "translation": "以下是一些处理下一次艰难对话的建议："
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "First, you need to plan what you're going to say. Think about how long you need for the conversation and where to have it. The right environment is key - you don't want somewhere too formal that will intimidate your colleague, or somewhere too casual where you may be overheard.",
+          "translation": "首先，你需要计划好你要说什么。\n考虑一下你需要多长时间进行对话以及在哪里进行。\n合适的环境至关重要——你既不想选择过于正式的地方，以免让同事感到局促不安，也不想选择过于随意的场所，以免谈话内容被他人听到。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "The second thing you need to do is write down the key messages you want to get across in the conversation. Practise saying them out loud (l like to record them on my phone and play them back). You are not preparing a script, but this preparation helps you to be brief and clear. lf you are particularly nervous, rehearse what you plan to say in front of a friend so you know you are coming across as you wish to.",
+          "translation": "你需要做的第二件事是写下你希望在对话中传达的关键信息。\n练习把它们大声说出来（我喜欢在手机上录下来并回放）。\n你并不是在准备逐字稿，但这种准备有助于你做到简洁明了。\n如果你特别紧张，就在朋友面前排练你计划说的话，这样你就能确保你的表达方式符合自己的期望。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "The language you use is also important. Consider the difference between these two phrases: 'Steve, we're very close to deadline date and you told me you're a bit behind. I'd like to support you and agree a way to get the deadlines met.' and 'Steve, you're behind again. This has got to stop!' If you use the first example, you come across as looking for solutions together. That creates trust and openness. The second example is less likely to get a successful outcome.",
+          "translation": "使用的语言同样很重要。\n思考以下两个短语之间的区别：“史蒂夫，我们离截止日期很近了，你告诉我你有些落后。我想支持你，并商定一个能按时完成任务的方法。”以及“史蒂夫，你又落后了。这种情况必须停止！”\n如果你使用第一个例子，你会显得是在共同寻求解决方案。\n这样能建立信任和开放的氛围。\n第二个例子则不太可能获得成功的结局。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Finally, put yourself in the other person's shoes - however frustrating that person might be. The useless boss who never gives you feedback is simply struggling with her own extremely heavy workload. The team member who only has negative comments to make in the team meeting simply doesn't have the skills to ask for what he wants directly.",
+          "translation": "最后，要设身处地为他人着想——无论那个人可能多么令人沮丧。\n那个从不给你反馈的无用老板，其实只是在应对她自己极其繁重的工作负担。\n那个在团队会议上只会提出负面意见的团队成员，只是缺乏直接表达自己需求的技巧。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "To manage your emotions during a difficult conversation, it helps to calm things down by taking some long breaths. And finally, if you feel under pressure, remember to respond slowly rather than reacting quickly.",
+          "translation": "为了在困难对话中管理你的情绪，通过做几次深呼吸来让局面平静下来是很有帮助的。\n最后，如果你感到有压力，记住要缓慢回应，而不是快速反应。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Making a success out of a new business",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "成功创办一家新企业"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Running your own business can be very rewarding, but success is not always guaranteed. Half of small businesses fail in the first couple of years, according to official reports, but there are certain steps you can take to give your business the best chance.",
+          "translation": "经营自己的企业可能非常有收获，但成功并非总是有保障的。\n根据官方报告，一半的小型企业在最初几年内倒闭，但你可以采取一些特定步骤，为你的企业争取最佳成功机会。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "First, does your business have a clear mission, yearly goals and a long-term business plan? Ensure your goals are specific, measurable and achievable. Introduce regular reviews of these goals and set new ones when appropriate. Most importantly, communicate your mission and goals to your employees. Their livelihood is tied to the success of your business, so make sure they know what they need to do to keep your business healthy.",
+          "translation": "首先，你的企业是否有明确的使命、年度目标和长期商业计划？\n确保你的目标具体、可衡量且可实现。\n引入对这些目标的定期审查，并在适当时候设定新目标。\n最重要的是，将你的使命和目标传达给你的员工。\n他们的生计与企业的成功息息相关，因此要确保他们清楚需要做什么来维持企业的健康发展。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "A shortage of cash is generally what sinks small businesses, so learning to monitor your cashflow is critical. Check the dates of major outgoings, such as tax and payments for rent and rates, to ensure that you have enough cash for when these need to be paid.",
+          "translation": "资金短缺通常是导致小企业倒闭的原因，因此学会监控现金流至关重要。\n核查主要支出的日期，例如税款和租金及地方税，以确保在这些款项需要支付时有足够的现金。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "If you're setting up a partnership, choosing the right person is vital. Once you have made your choice, put in place an agreement which sets out the rights and responsibilities of each partner in the business. The agreement should also deal with what happens when difficulties arise; for example, does one partner have the ability to buy the other out? Or should the business simply be closed down - which could result in the end of a successful business?",
+          "translation": "如果你正在建立合伙关系，选择合适的人至关重要。\n一旦你做出了选择，就要制定一份协议，明确业务中每位合伙人的权利和责任。\n协议还应处理当困难出现时的情况；例如，是否有一位合伙人能够买断另一位合伙人的股份？\n还是应该直接关闭业务——这可能会导致一项成功业务的终结？"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Knowing your market and accurately assessing the potential demand for a product is the key to an idea succeeding or failing. lf your product has a very limited market, you won't be able to sell enough to create a successful business. You should take time to understand who your competitors are and identify what distinguishes your business from theirs. Perhaps you can provide a better service or compete on price. It all boils down to understanding why customers would rather buy from you than other companies in the field.",
+          "translation": "了解你的市场并准确评估产品的潜在需求，是一个想法成败的关键。\n如果你的产品市场非常有限，你将无法销售足够的产品来创造一个成功的企业。\n你应该花时间了解你的竞争对手是谁，并找出你的业务与他们的不同之处。\n也许你可以提供更好的服务，或者在价格上进行竞争。\n这一切都归根结底在于理解为什么客户更愿意向你购买，而不是该领域的其他公司。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "There is a lot to think about when starting your own business, but avoiding these common pitfalls will give your business a good chance of success.",
+          "translation": "创业时需要考虑很多问题，但避开这些常见陷阱将大大提高你成功的几率。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21350",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 21\nComplete the sentences below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 15-21 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131173",
+              "number": 15,
+              "prompt": "A lot of people find it hard to challenge colleagues about their poor _____.",
+              "options": [],
+              "answer": "behaviour",
+              "accepted_answers": [
+                "behaviour"
+              ],
+              "analysis": "题干中的“poor”对应原文中的“unsatisfactory”，而“challenge colleagues about their poor...”对应原文中“confronting a co-worker over unsatisfactory behaviour”。因此，此处应填入“behaviour”，表示难以就同事的不良行为进行沟通。",
+              "reason": "原文directly对应challenge colleagues关于unsatisfactory behaviour，题干词poor behaviour源自此。",
+              "location_analysis": "原文提到难以进行difficult conversations，具体是confronting ...",
+              "paraphrasing": "challenge colleagues -> difficult to have; poor -> unsatisfactory",
+              "keywords": "challenge colleagues, poor, difficult conversations",
+              "evidence": [
+                "Whether it's asking for a pay rise or confronting a co-worker over unsatisfactory behaviour, these conversations can be difficult to have without appearing offensive."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131174",
+              "number": 16,
+              "prompt": "People are often afraid of causing _____ with colleagues if they raise tricky issues.",
+              "options": [],
+              "answer": "conflict",
+              "accepted_answers": [
+                "conflict"
+              ],
+              "analysis": "题干中的“afraid of causing... with colleagues”对应原文中的“we fear being responsible for conflict”。这里的“conflict”直接说明了人们害怕因提出棘手问题而引发冲突，因此答案为“conflict”。",
+              "reason": "原文直接指出导致冲突的恐惧。",
+              "location_analysis": "题干afraid of causing对应原文fear being responsible f...",
+              "paraphrasing": "afraid of causing -> fear being responsible for; tricky issues -> conflict",
+              "keywords": "afraid of causing, tricky issues",
+              "evidence": [
+                "Perhaps we've learned not to rock the boat, we fear being responsible for conflict, or we think that nothing will change even if we do pluck up the courage to speak out."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131175",
+              "number": 17,
+              "prompt": "It is important to select the most suitable _____ for a difficult talk.",
+              "options": [],
+              "answer": "environment",
+              "accepted_answers": [
+                "environment"
+              ],
+              "analysis": "题干要求选择适合进行困难谈话的“most suitable...”，原文明确指出“The right environment is key”，并进一步解释了环境不宜过于正式或随意。因此，此处应填入“environment”，强调谈话场所的重要性。",
+              "reason": "原文直接说明environment对difficult conversation的重要性。",
+              "location_analysis": "题干强调选择合适的环境，原文提到The right environment is key，co...",
+              "paraphrasing": "select the most suitable -> the right; difficult talk -> difficult conversation",
+              "keywords": "select, most suitable, difficult talk",
+              "evidence": [
+                "The right environment is key - you don't want somewhere too formal that will intimidate your colleague, or somewhere too casual where you may be overheard."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131176",
+              "number": 18,
+              "prompt": "It may help to consult a _____ for feedback on how you are communicating the main points.",
+              "options": [],
+              "answer": "friend",
+              "accepted_answers": [
+                "friend"
+              ],
+              "analysis": "题干提到“consult a... for feedback on how you are communicating the main points”，原文建议“rehearse what you plan to say in front of a friend so you know you are coming across as you wish to”，即通过朋友获得反馈，因此答案是“friend”。",
+              "reason": "答案句建议在朋友面前排练以了解沟通效果。",
+              "location_analysis": "题干consult a friend对应rehearse in front of a frie...",
+              "paraphrasing": "consult a friend -> rehearse in front of a friend; feedback on communicating -> know you are coming across",
+              "keywords": "consult, feedback, communicating main points",
+              "evidence": [
+                "rehearse what you plan to say in front of a friend so you know you are coming across as you wish to."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131177",
+              "number": 19,
+              "prompt": "It often works best if the speaker sounds as if they want to find _____ to the problem under discussion.",
+              "options": [],
+              "answer": "solutions",
+              "accepted_answers": [
+                "solutions"
+              ],
+              "analysis": "题干中“find... to the problem under discussion”对应原文中“If you use the first example, you come across as looking for solutions together”，说明采用合作语气有助于共同寻找解决方案，因此答案为“solutions”。",
+              "reason": "原文明确提及solutions。",
+              "location_analysis": "题干说寻找解决方案，原文use the first example中you come acro...",
+              "paraphrasing": "find -> looking for; problem -> solutions",
+              "keywords": "speaker sounds, find, problem under discussion",
+              "evidence": [
+                "If you use the first example, you come across as looking for solutions together."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131178",
+              "number": 20,
+              "prompt": "A line manager that fails to communicate may have an excessive _____.",
+              "options": [],
+              "answer": "workload",
+              "accepted_answers": [
+                "workload"
+              ],
+              "analysis": "题干中的“line manager that fails to communicate”对应原文中“The useless boss who never gives you feedback”，而原因则是“struggling with her own extremely heavy workload”，因此此处应填入“workload”，表示工作负担过重导致沟通缺失。",
+              "reason": "原文指出boss不反馈是因为heavy workload。",
+              "location_analysis": "题干说line manager未能沟通是由于excessive workload，原文The ...",
+              "paraphrasing": "fails to communicate -> never gives you feedback; excessive -> heavy",
+              "keywords": "line manager, fails to communicate, excessive",
+              "evidence": [
+                "The useless boss who never gives you feedback is simply struggling with her own extremely heavy workload."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131179",
+              "number": 21,
+              "prompt": "If colleagues never have anything good to say, they may lack the appropriate _____ to make requests appropriately.",
+              "options": [],
+              "answer": "skills",
+              "accepted_answers": [
+                "skills"
+              ],
+              "analysis": "题干中“lack the appropriate... to make requests appropriately”对应原文“The team member who only has negative comments... simply doesn't have the skills to ask for what he wants directly”，说明其缺乏恰当表达需求的“skills”，故答案为“skills”。",
+              "reason": "原文明确提到skills。",
+              "location_analysis": "题干说缺乏skills来提出请求，原文The team member...simply doe...",
+              "paraphrasing": "never have anything good -> negative comments; lack the -> doesn't have; make requests -> ask for what he wants",
+              "keywords": "never have anything good to say, lack, appropriate, make requests",
+              "evidence": [
+                "The team member who only has negative comments to make in the team meeting simply doesn't have the skills to ask for what he wants directly."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "A lot of people find it hard to challenge colleagues about their poor $131173$.\n16 People are often afraid of causing $131174$ with colleagues if they raise tricky issues.\n17 It is important to select the most suitable $131175$ for a difficult talk.\n18 It may help to consult a $131176$ for feedback on how you are communicating the main points.\n19 It often works best if the speaker sounds as if they want to find $131177$ to the problem under discussion.\n20 A line manager that fails to communicate may have an excessive $131178$.\n21 If colleagues never have anything good to say, they may lack the appropriate $131179$ to make requests appropriately.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "A lot of people find it hard to challenge colleagues about their poor $131173$.\n16 People are often afraid of causing $131174$ with colleagues if they raise tricky issues.\n17 It is important to select the most suitable $131175$ for a difficult talk.\n18 It may help to consult a $131176$ for feedback on how you are communicating the main points.\n19 It often works best if the speaker sounds as if they want to find $131177$ to the problem under discussion.\n20 A line manager that fails to communicate may have an excessive $131178$.\n21 If colleagues never have anything good to say, they may lack the appropriate $131179$ to make requests appropriately."
+        },
+        {
+          "id": "21353",
+          "type": 8,
+          "title": "Creating a successful business",
+          "instructions": "Questions 22 - 27\nComplete the notes below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 22-27 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131180",
+              "number": 22,
+              "prompt": "Statistically, out of all new business ventures, _____ will not survive two years.",
+              "options": [],
+              "answer": "half",
+              "accepted_answers": [
+                "half"
+              ],
+              "analysis": "题干问“out of all new business ventures,... will not survive two years”，原文指出“Half of small businesses fail in the first couple of years”，因此答案为“half”，表示有一半的新企业无法撑过头两年。",
+              "reason": "原文直接提及half...fail in the first couple of years，即不会撑过两年。",
+              "location_analysis": "原文说一半的小企业在头几年失败，题干问what_不会撑过两年，答案half。",
+              "paraphrasing": "statistically -> according to official reports; new business ventures -> small businesses; survive two years -> fail in the first couple of years",
+              "keywords": "statistically, new business ventures, survive two years",
+              "evidence": [
+                "Half of small businesses fail in the first couple of years, according to official reports, but there are certain steps you can take to give your business the best chance."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131181",
+              "number": 23,
+              "prompt": "- arrange frequent _____ to ensure these goals are still practicable",
+              "options": [],
+              "answer": "reviews",
+              "accepted_answers": [
+                "reviews"
+              ],
+              "analysis": "题干中“arrange frequent... to ensure these goals are still practicable”对应原文“Introduce regular reviews of these goals”，其中“reviews”指对目标的定期回顾与评估，以确保其可行性，因此答案是“reviews”。",
+              "reason": "原文明确提到reviews作为定期检查目标的手段。",
+              "location_analysis": "题干要求arrange frequent reviews，原文Ensure your goal...",
+              "paraphrasing": "set clear targets -> clear mission, yearly goals; arrange frequent -> regular; ensure goals practicable -> ensure goals are specific, measurable and achievable",
+              "keywords": "set clear targets, arrange frequent, ensure goals practicable",
+              "evidence": [
+                "Introduce regular reviews of these goals and set new ones when appropriate."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131182",
+              "number": 24,
+              "prompt": "- make sure all _____ are fully aware of them",
+              "options": [],
+              "answer": "employees",
+              "accepted_answers": [
+                "employees"
+              ],
+              "analysis": "题干要求“make sure all... are fully aware of them”，原文提到“communicate your mission and goals to your employees”，并强调员工的生计与公司成败相关，因此应确保“employees”了解目标，答案为“employees”。",
+              "reason": "原文明确提到employees。",
+              "location_analysis": "题干要求make sure employees aware，原文communicate you...",
+              "paraphrasing": "make sure -> communicate; fully aware -> know what they need to do",
+              "keywords": "make sure, fully aware",
+              "evidence": [
+                "Most importantly, communicate your mission and goals to your employees. Their livelihood is tied to the success of your business, so make sure they know what they need to do to keep your business healthy."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131183",
+              "number": 25,
+              "prompt": "- noting _____ for paying tax and other outgoings",
+              "options": [],
+              "answer": "dates",
+              "accepted_answers": [
+                "dates"
+              ],
+              "analysis": "题干中“noting... for paying tax and other outgoings”对应原文“Check the dates of major outgoings, such as tax and payments for rent and rates”，说明需记录各项支出的“dates”，以确保现金流充足，故答案为“dates”。",
+              "reason": "原文明确提到dates作为核对项。",
+              "location_analysis": "题干要求noting dates for paying tax，原文Check the dat...",
+              "paraphrasing": "noting -> Check the dates; paying tax -> tax; other outgoings -> payments for rent and rates",
+              "keywords": "noting, paying tax, other outgoings",
+              "evidence": [
+                "Check the dates of major outgoings, such as tax and payments for rent and rates, to ensure that you have enough cash for when these need to be paid."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131184",
+              "number": 26,
+              "prompt": "-their _____ and what they are responsible for doing in the business",
+              "options": [],
+              "answer": "rights",
+              "accepted_answers": [
+                "rights"
+              ],
+              "analysis": "题干要求协议中写明合伙人的“... and what they are responsible for doing”，原文提到“an agreement which sets out the rights and responsibilities of each partner”，因此此处应填入“rights”，与“responsibilities”并列。",
+              "reason": "原文明确提到rights。",
+              "location_analysis": "题干要求文档列出rights和responsibilities，原文put in place ...",
+              "paraphrasing": "select business partners -> setting up a partnership, choosing the right person; draw up document -> put in place an agreement; stating -> sets out; responsible for doing -> rights and responsibilities",
+              "keywords": "select business partners, draw up document, stating, responsible for",
+              "evidence": [
+                "Once you have made your choice, put in place an agreement which sets out the rights and responsibilities of each partner in the business."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131185",
+              "number": 27,
+              "prompt": "- find out how your product differs from what _____ offer",
+              "options": [],
+              "answer": "competitors",
+              "accepted_answers": [
+                "competitors"
+              ],
+              "analysis": "题干中“how your product differs from what... offer”对应原文“understand who your competitors are and identify what distinguishes your business from theirs”，说明需了解自身产品与“competitors”所提供的差异，因此答案是“competitors”。",
+              "reason": "原文明确提到competitors。",
+              "location_analysis": "题干要求找出与competitors的差异，原文identify what distingui...",
+              "paraphrasing": "research the market -> Knowing your market; find out -> identify; how your product differs from -> what distinguishes your business from; what offer -> competitors",
+              "keywords": "research the market, find out, how your product differs from, what offer",
+              "evidence": [
+                "You should take time to understand who your competitors are and identify what distinguishes your business from theirs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Statistically, out of all new business ventures, $131180$ will not survive two years.\nTo avoid this possibility:\nset clear targets and\n- arrange frequent $131181$ to ensure these goals are still practicable\n- make sure all $131182$ are fully aware of them\nensure the projected cashflow will be adequate to get through the year by\n- noting $131183$ for paying tax and other outgoings\nselect business partners carefully and draw up a document stating\n-their $131184$ and what they are responsible for doing in the business\n- the procedure to follow if the business faces difficulties\nresearch the market:\n- find out how your product differs from what $131185$ offer\n- consider if the price of the product could be lowered",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Statistically, out of all new business ventures, $131180$ will not survive two years.\nTo avoid this possibility:\nset clear targets and\n- arrange frequent $131181$ to ensure these goals are still practicable\n- make sure all $131182$ are fully aware of them\nensure the projected cashflow will be adequate to get through the year by\n- noting $131183$ for paying tax and other outgoings\nselect business partners carefully and draw up a document stating\n-their $131184$ and what they are responsible for doing in the business\n- the procedure to follow if the business faces difficulties\nresearch the market:\n- find out how your product differs from what $131185$ offer\n- consider if the price of the product could be lowered"
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Learning to conduct difficult conversations in the workplace",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Many of us struggle to say what we need to at work.",
+          "translation": "我们中的许多人都很难在工作中说出自己需要说的话。"
+        },
+        {
+          "index": 2,
+          "sentence": "Whether it's asking for a pay rise or confronting a co-worker over unsatisfactory behaviour, these conversations can be difficult to have without appearing offensive.",
+          "translation": "无论是要求加薪，还是因同事行为令人不满而与其对抗，这些对话都很难在不显得冒犯的情况下进行。"
+        },
+        {
+          "index": 3,
+          "sentence": "There are several reasons why we don't raise difficult topics at work.",
+          "translation": "我们在工作中不提出棘手话题有多种原因。"
+        },
+        {
+          "index": 4,
+          "sentence": "Perhaps we've learned not to rock the boat, we fear being responsible for conflict, or we think that nothing will change even if we do pluck up the courage to speak out.",
+          "translation": "或许我们学会了不惹事生非，害怕承担冲突的责任，或者认为即使鼓起勇气说出来，情况也不会改变。"
+        },
+        {
+          "index": 5,
+          "sentence": "So we stay quiet.",
+          "translation": "因此我们保持沉默。"
+        },
+        {
+          "index": 6,
+          "sentence": "Here are some tips on how to tackle your next difficult conversation:",
+          "translation": "以下是一些处理下一次艰难对话的建议："
+        },
+        {
+          "index": 7,
+          "sentence": "First, you need to plan what you're going to say.",
+          "translation": "首先，你需要计划好你要说什么。"
+        },
+        {
+          "index": 8,
+          "sentence": "Think about how long you need for the conversation and where to have it.",
+          "translation": "考虑一下你需要多长时间进行对话以及在哪里进行。"
+        },
+        {
+          "index": 9,
+          "sentence": "The right environment is key - you don't want somewhere too formal that will intimidate your colleague, or somewhere too casual where you may be overheard.",
+          "translation": "合适的环境至关重要——你既不想选择过于正式的地方，以免让同事感到局促不安，也不想选择过于随意的场所，以免谈话内容被他人听到。"
+        },
+        {
+          "index": 10,
+          "sentence": "The second thing you need to do is write down the key messages you want to get across in the conversation.",
+          "translation": "你需要做的第二件事是写下你希望在对话中传达的关键信息。"
+        },
+        {
+          "index": 11,
+          "sentence": "Practise saying them out loud (l like to record them on my phone and play them back).",
+          "translation": "练习把它们大声说出来（我喜欢在手机上录下来并回放）。"
+        },
+        {
+          "index": 12,
+          "sentence": "You are not preparing a script, but this preparation helps you to be brief and clear.",
+          "translation": "你并不是在准备逐字稿，但这种准备有助于你做到简洁明了。"
+        },
+        {
+          "index": 13,
+          "sentence": "lf you are particularly nervous, rehearse what you plan to say in front of a friend so you know you are coming across as you wish to.",
+          "translation": "如果你特别紧张，就在朋友面前排练你计划说的话，这样你就能确保你的表达方式符合自己的期望。"
+        },
+        {
+          "index": 14,
+          "sentence": "The language you use is also important.",
+          "translation": "使用的语言同样很重要。"
+        },
+        {
+          "index": 15,
+          "sentence": "Consider the difference between these two phrases: 'Steve, we're very close to deadline date and you told me you're a bit behind. I'd like to support you and agree a way to get the deadlines met.' and 'Steve, you're behind again. This has got to stop!'",
+          "translation": "思考以下两个短语之间的区别：“史蒂夫，我们离截止日期很近了，你告诉我你有些落后。我想支持你，并商定一个能按时完成任务的方法。”以及“史蒂夫，你又落后了。这种情况必须停止！”"
+        },
+        {
+          "index": 16,
+          "sentence": "If you use the first example, you come across as looking for solutions together.",
+          "translation": "如果你使用第一个例子，你会显得是在共同寻求解决方案。"
+        },
+        {
+          "index": 17,
+          "sentence": "That creates trust and openness.",
+          "translation": "这样能建立信任和开放的氛围。"
+        },
+        {
+          "index": 18,
+          "sentence": "The second example is less likely to get a successful outcome.",
+          "translation": "第二个例子则不太可能获得成功的结局。"
+        },
+        {
+          "index": 19,
+          "sentence": "Finally, put yourself in the other person's shoes - however frustrating that person might be.",
+          "translation": "最后，要设身处地为他人着想——无论那个人可能多么令人沮丧。"
+        },
+        {
+          "index": 20,
+          "sentence": "The useless boss who never gives you feedback is simply struggling with her own extremely heavy workload.",
+          "translation": "那个从不给你反馈的无用老板，其实只是在应对她自己极其繁重的工作负担。"
+        },
+        {
+          "index": 21,
+          "sentence": "The team member who only has negative comments to make in the team meeting simply doesn't have the skills to ask for what he wants directly.",
+          "translation": "那个在团队会议上只会提出负面意见的团队成员，只是缺乏直接表达自己需求的技巧。"
+        },
+        {
+          "index": 22,
+          "sentence": "To manage your emotions during a difficult conversation, it helps to calm things down by taking some long breaths.",
+          "translation": "为了在困难对话中管理你的情绪，通过做几次深呼吸来让局面平静下来是很有帮助的。"
+        },
+        {
+          "index": 23,
+          "sentence": "And finally, if you feel under pressure, remember to respond slowly rather than reacting quickly.",
+          "translation": "最后，如果你感到有压力，记住要缓慢回应，而不是快速反应。"
+        },
+        {
+          "index": 24,
+          "sentence": "Making a success out of a new business",
+          "translation": "成功创办一家新企业"
+        },
+        {
+          "index": 25,
+          "sentence": "Running your own business can be very rewarding, but success is not always guaranteed.",
+          "translation": "经营自己的企业可能非常有收获，但成功并非总是有保障的。"
+        },
+        {
+          "index": 26,
+          "sentence": "Half of small businesses fail in the first couple of years, according to official reports, but there are certain steps you can take to give your business the best chance.",
+          "translation": "根据官方报告，一半的小型企业在最初几年内倒闭，但你可以采取一些特定步骤，为你的企业争取最佳成功机会。"
+        },
+        {
+          "index": 27,
+          "sentence": "First, does your business have a clear mission, yearly goals and a long-term business plan?",
+          "translation": "首先，你的企业是否有明确的使命、年度目标和长期商业计划？"
+        },
+        {
+          "index": 28,
+          "sentence": "Ensure your goals are specific, measurable and achievable.",
+          "translation": "确保你的目标具体、可衡量且可实现。"
+        },
+        {
+          "index": 29,
+          "sentence": "Introduce regular reviews of these goals and set new ones when appropriate.",
+          "translation": "引入对这些目标的定期审查，并在适当时候设定新目标。"
+        },
+        {
+          "index": 30,
+          "sentence": "Most importantly, communicate your mission and goals to your employees.",
+          "translation": "最重要的是，将你的使命和目标传达给你的员工。"
+        },
+        {
+          "index": 31,
+          "sentence": "Their livelihood is tied to the success of your business, so make sure they know what they need to do to keep your business healthy.",
+          "translation": "他们的生计与企业的成功息息相关，因此要确保他们清楚需要做什么来维持企业的健康发展。"
+        },
+        {
+          "index": 32,
+          "sentence": "A shortage of cash is generally what sinks small businesses, so learning to monitor your cashflow is critical.",
+          "translation": "资金短缺通常是导致小企业倒闭的原因，因此学会监控现金流至关重要。"
+        },
+        {
+          "index": 33,
+          "sentence": "Check the dates of major outgoings, such as tax and payments for rent and rates, to ensure that you have enough cash for when these need to be paid.",
+          "translation": "核查主要支出的日期，例如税款和租金及地方税，以确保在这些款项需要支付时有足够的现金。"
+        },
+        {
+          "index": 34,
+          "sentence": "If you're setting up a partnership, choosing the right person is vital.",
+          "translation": "如果你正在建立合伙关系，选择合适的人至关重要。"
+        },
+        {
+          "index": 35,
+          "sentence": "Once you have made your choice, put in place an agreement which sets out the rights and responsibilities of each partner in the business.",
+          "translation": "一旦你做出了选择，就要制定一份协议，明确业务中每位合伙人的权利和责任。"
+        },
+        {
+          "index": 36,
+          "sentence": "The agreement should also deal with what happens when difficulties arise; for example, does one partner have the ability to buy the other out?",
+          "translation": "协议还应处理当困难出现时的情况；例如，是否有一位合伙人能够买断另一位合伙人的股份？"
+        },
+        {
+          "index": 37,
+          "sentence": "Or should the business simply be closed down - which could result in the end of a successful business?",
+          "translation": "还是应该直接关闭业务——这可能会导致一项成功业务的终结？"
+        },
+        {
+          "index": 38,
+          "sentence": "Knowing your market and accurately assessing the potential demand for a product is the key to an idea succeeding or failing.",
+          "translation": "了解你的市场并准确评估产品的潜在需求，是一个想法成败的关键。"
+        },
+        {
+          "index": 39,
+          "sentence": "lf your product has a very limited market, you won't be able to sell enough to create a successful business.",
+          "translation": "如果你的产品市场非常有限，你将无法销售足够的产品来创造一个成功的企业。"
+        },
+        {
+          "index": 40,
+          "sentence": "You should take time to understand who your competitors are and identify what distinguishes your business from theirs.",
+          "translation": "你应该花时间了解你的竞争对手是谁，并找出你的业务与他们的不同之处。"
+        },
+        {
+          "index": 41,
+          "sentence": "Perhaps you can provide a better service or compete on price.",
+          "translation": "也许你可以提供更好的服务，或者在价格上进行竞争。"
+        },
+        {
+          "index": 42,
+          "sentence": "It all boils down to understanding why customers would rather buy from you than other companies in the field.",
+          "translation": "这一切都归根结底在于理解为什么客户更愿意向你购买，而不是该领域的其他公司。"
+        },
+        {
+          "index": 43,
+          "sentence": "There is a lot to think about when starting your own business, but avoiding these common pitfalls will give your business a good chance of success.",
+          "translation": "创业时需要考虑很多问题，但避开这些常见陷阱将大大提高你成功的几率。"
+        }
+      ]
+    },
+    {
+      "id": "2928",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Passage 3",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A A group of excited children are instructing community archaeologist Colin Shepherd when to drop a china mug on the floor so that they can see how it breaks on impact. They will use the results of this experiment to better understand an archaeological find: the broken pieces of an old marmalade jar, last used for breakfast around 100 years ago. The children had recently excavated the jar from woodland as part of an archaeological investigation."
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "B When schoolchildren are invited to visit archaeological excavations, they rarely have much specific knowledge about the site's history. They are normally given straightforward tasks like washing and sorting finds, that is, any discoveries that are of archaeological interest. What is less common is to find primary school pupils working as partners with an archaeologist. Our project lets primary school children take a joint role in an archaeological investigation, working actively alongside an expert in the field.",
+          "translation": "当学生受邀参观考古发掘现场时，他们通常对遗址历史了解甚少。\n他们通常被安排简单的任务，例如清洗和分类出土物，也就是任何具有考古意义的发现。\n较为少见的是让小学生与考古学家作为合作伙伴共同工作。\n我们的项目让小学生在地质考古调查中担任合作角色，与领域专家一起积极工作。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "C The children's archaeological investigations were part of a larger project initiated by a community group which works to study and preserve the landscape of the Bennachie hills region in Aberdeenshire, Scotland. The main project was developed with a team from the University of Aberdeen and funded by a Community Heritage fund and the National Lottery. It focused on the history and archaeology of an abandoned mid-19th-century settlement, located on common ground on the lower slopes of the Bennachie hills. Colin Shepherd set up two additional archaeological projects with local primary school children and their teachers. Each project investigated the history of the place in which the pupils live and go to school.",
+          "translation": "孩子们的考古调查是一个更大项目的一部分，该项目由致力于研究和保护苏格兰阿伯丁郡本纳奇山丘陵地区景观的社区团体发起。\n这个主要项目与阿伯丁大学的一个团队共同开发，并由社区遗产基金和国家彩票资助。\n该项目聚焦于一个位于本纳奇山低坡公共土地上的、19世纪中期废弃定居点的历史和考古学。\n科林·谢泼德与当地小学生及其老师共同设立了另外两个考古项目。\n每个项目都调查了学生生活与上学所在地的历史。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "D At one of the schools, the excavation took place in woodland where pupils usually take part in outdoor learning, Before the archaeology project began, the children viewed the woodland as existing only in the present, Through their work, they became aware of its history and the people who lived and worked on the land near their school in the past. Taking on the role of historians and working with primary source materials, such as maps, census returns and tax payments, the children were able to develop their own lines of enquiry. Their research suggested that there had been a water mill in the area, so their excavations set out to find it. The children, working with the community archaeologist, found evidence for this. They also discovered the remains of a 19th- or 20th-century midden, or rubbish dump, containing many pieces of broken pottery.",
+          "translation": "在其中一所学校，挖掘工作发生在学生们通常参与户外学习的林地里。\n在考古项目开始之前，孩子们认为林地只存在于当下。\n通过他们的工作，他们意识到了这片土地的历史以及过去在学校附近生活和工作的人们。\n孩子们扮演历史学家的角色，处理地图、人口普查记录和税收记录等原始资料，从而能够发展出他们自己的调查思路。\n他们的研究显示该地区曾有一个水磨坊，因此他们的挖掘工作旨在找到它。\n孩子们与社区考古学家合作，找到了相关的证据。\n他们还发现了一个19或20世纪的垃圾堆遗迹，其中包含许多碎陶片。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "E My role as a teacher educator specialising in history education was to work alongside pupils and staff to create an exhibition for their families and the general public, Following a visit to the university to see the museum there, the children produced a timeline of everything they had found to show the period in history to which each item belonged. They went on to invent a 'guess the object' game to engage visitors in their discoveries. The children were given the use of the museum's replica of a 17th-century collector's cabinet for their exhibition. During the identification of the pottery pieces, one was identified as coming from the distinctive Seaton workshop in Aberdeen, so a complete example was borrowed from the museum and included in the cabinet alongside it. Because it used a high-quality display cabinet, the children's exhibition gained a similar status to that of a real museum for the parents and community members who came to see it.",
+          "translation": "我作为一名专攻历史教育的教师教育者，其职责是与学生和教职工合作，为他们的家人和公众举办一个展览。\n在参观大学博物馆后，孩子们制作了一份他们所有发现物的时间线，以展示每件物品所属的历史时期。\n他们接着发明了一个“猜物品”游戏，让参观者参与到他们的发现中。\n孩子们获准使用博物馆的17世纪收藏柜复制品来布置他们的展览。\n在鉴定陶片时，有一片被认出来自阿伯丁独特的西顿作坊，因此博物馆借出了一个完整样品，与陶片一起放入收藏柜中。\n由于使用了高质量的展示柜，孩子们的展览在来参观的家长和社区成员眼中获得了与真正博物馆相当的地位。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "F The project meant the children could lead their own historical investigations and expand their understanding of the places in which they live and the heritage of their family and community,. This is a key principle in the Social Studies section of Scotland's Curriculum for Excellence, the national framework for learning for children between the ages of three and 18. Not only did the children learn the history of the place, they learned to understand the process of creating historical knowledge, Through their museum visit, they learned how to select items for display and to think about how to talk to other people about the history they had created.",
+          "translation": "这个项目意味着孩子们能够主导自己的历史探究，并加深对他们所居住的地方以及家庭和社区遗产的理解。\n这是苏格兰卓越课程（面向3至18岁儿童的国家学习框架）社会研究部分的一个关键原则。\n孩子们不仅学习了这个地方的历史，还学会了理解创造历史知识的过程。\n通过参观博物馆，他们学会了如何选择展品，并思考如何与他人谈论自己所创造的历史。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "G Setting up the exhibition and showing it to people aided conversations between children and their community, One of the children discovered that their great-grandfather had once owned the Seaton workshop. The grandmother of another child recounted her memories of making oatmeal porridge in a small bowl decorated with the same floral design as a pottery piece on display. The archaeological investigations carried out by the children created a real-life context for them to play an active part in learning - educating not just themselves but their community too.",
+          "translation": "搭建展览并向人们展示，促进了孩子们与社区之间的交流。\n其中一个孩子发现，他们的曾祖父曾拥有过锡顿工坊。\n另一个孩子的祖母回忆道，她曾用一个小碗制作燕麦粥，碗上的花卉图案与展出的陶器碎片相同。\n孩子们进行的考古调查为他们创造了一个真实的生活背景，使他们能够在学习中发挥积极作用——不仅教育了自己，也教育了他们的社区。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21373",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 28 - 32\nThe text on pages 24 and 25 has seven paragraphs, A-G \n Which paragraph mentions the following? \n Write the correct letter, A-G, in boxes 28-32 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131199",
+              "number": 28,
+              "prompt": "how unusual it is for archaeologists and children to have equal responsibilities",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的‘how unusual it is for archaeologists and children to have equal responsibilities’对应段落B中的‘What is less common is to find primary school pupils working as partners with an archaeologist’。其中‘unusual’与‘less common’构成同义替换，‘equal responsibilities’则通过‘working as partners’体现合作关系的平等性。因此，段落B明确指出了这种合作模式的罕见性，符合题干要求。",
+              "reason": "段落B第三句明确提到'less common'，与题干'unusual'匹配。",
+              "location_analysis": "题干'equal responsibilities'对应原文'working as partn...",
+              "paraphrasing": "unusual for archaeologists and children to have equal responsibilities -> What is less common is to find primary school pupils working as partners with an archaeologist",
+              "keywords": "unusual, archaeologists, children, equal responsibilities",
+              "evidence": [
+                "What is less common is to find primary school pupils working as partners with an archaeologist."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131200",
+              "number": 29,
+              "prompt": "the relevance of the children's achievements to a country's educational requirements",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干中的‘relevance of the children's achievements to a country's educational requirements’在段落F中得到呼应。原文提到‘This is a key principle in the Social Studies section of Scotland's Curriculum for Excellence’，说明该项目契合苏格兰国家教育框架的要求。‘Curriculum for Excellence’即为该国官方教育体系，直接对应题干中的‘educational requirements’，因此答案为F。",
+              "reason": "段落F第二句直接提及国家教育框架。",
+              "location_analysis": "题干'educational requirements'对应原文'Curriculum for...",
+              "paraphrasing": "relevance to a country's educational requirements -> key principle in the Social Studies section of Scotland's Curriculum for Excellence",
+              "keywords": "relevance, educational requirements, country",
+              "evidence": [
+                "This is a key principle in the Social Studies section of Scotland's Curriculum for Excellence, the national framework for learning for children between the ages of three and 18."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131201",
+              "number": 30,
+              "prompt": "the location of the archaeologists' main project",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问考古学家主要项目的地点，段落C明确指出：‘It focused on the history and archaeology of an abandoned mid-19th-century settlement, located on common ground on the lower slopes of the Bennachie hills.’ 这句话完整描述了项目所在地——班纳奇山（Bennachie hills）较低坡地的公共土地上，与题干‘location of the main project’完全对应，因此正确答案是C。",
+              "reason": "段落C第二、三句描述了主要项目的地点。",
+              "location_analysis": "题干'main project'对应原文'main project'，并在C段明确其位置。",
+              "paraphrasing": "location of the archaeologists' main project -> focused on the history and archaeology of an abandoned mid-19th-century settlement, located on common ground on the lower slopes of the Bennachie hills",
+              "keywords": "location, main project",
+              "evidence": [
+                "The main project was developed with a team from the University of Aberdeen and funded by a Community Heritage fund and the National Lottery.",
+                "It focused on the history and archaeology of an abandoned mid-19th-century settlement, located on common ground on the lower slopes of the Bennachie hills."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131202",
+              "number": 31,
+              "prompt": "place where a large amount of archaeological material was found",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求找出‘大量考古材料被发现’的地点，段落D末句提到孩子们发现了‘a 19th- or 20th-century midden, or rubbish dump, containing many pieces of broken pottery’。其中‘many pieces of broken pottery’表明出土物数量众多，符合‘large amount of archaeological material’的描述，因此答案为D。",
+              "reason": "段落D最后一句提到大量陶片，对应题干。",
+              "location_analysis": "题干'large amount of material'对应原文'many pieces'和'...",
+              "paraphrasing": "a large amount of archaeological material was found -> found evidence for this... found the remains of a 19th- or 20th-century midden, or rubbish dump, containing many pieces of broken pottery",
+              "keywords": "large amount, archaeological material",
+              "evidence": [
+                "They also discovered the remains of a 19th- or 20th-century midden, or rubbish dump, containing many pieces of broken pottery."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131203",
+              "number": 32,
+              "prompt": "a relative's connection to a local business",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干中的‘a relative's connection to a local business’在段落G中得到印证：‘One of the children discovered that their great-grandfather had once owned the Seaton workshop.’ 这里‘great-grandfather’对应‘relative’，‘Seaton workshop’作为当地陶器工坊，属于‘local business’，两者关系明确，因此答案是G。",
+              "reason": "段落G第二句明确提到曾祖父与当地工坊的关系。",
+              "location_analysis": "题干'relative'对应原文'great-grandfather'，'local busi...",
+              "paraphrasing": "a relative's connection to a local business -> One of the children discovered that their great-grandfather had once owned the Seaton workshop",
+              "keywords": "relative, connection, local business",
+              "evidence": [
+                "One of the children discovered that their great-grandfather had once owned the Seaton workshop."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "21375",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 33 - 36\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 33-36 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131204",
+              "number": 33,
+              "prompt": "The experiment described in paragraph A is designed to show",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "why objects break up when they are left in woodland."
+                },
+                {
+                  "value": "B",
+                  "label": "how modern objects differ from those made in the past."
+                },
+                {
+                  "value": "C",
+                  "label": "what happens to a breakable object when it hits the ground."
+                },
+                {
+                  "value": "D",
+                  "label": "how long it takes to put a broken object back together again."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问及段落A中实验的目的，原文明确写道孩子们让考古学家‘drop a china mug on the floor so that they can see how it breaks on impact’。这说明实验旨在观察易碎物体落地时的破碎情况，与选项C‘what happens to a breakable object when it hits the ground’完全一致，因此选C。",
+              "reason": "A段直接说明实验目的为观察破碎.",
+              "location_analysis": "实验目的：观察杯子落地破碎情况.",
+              "paraphrasing": "show -> see how it breaks on impact",
+              "keywords": "experiment, designed to show",
+              "evidence": [
+                "A group of excited children are instructing community archaeologist Colin Shepherd when to drop a china mug on the floor so that they can see how it breaks on impact."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文提及的是森林中物体分解的过程，而非破碎原因，属于无中生有。",
+                "B": "实验关注物体破碎后的变化，而非现代与古代物体的差异，属于张冠李戴。",
+                "D": "实验并未涉及修复破碎物体所需时间，该信息在原文中未提及。"
+              }
+            },
+            {
+              "id": "131205",
+              "number": 34,
+              "prompt": "In paragraph B, what does the writer say most schoolchildren do when they visit archaeological sites?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "They meet with experts at the site."
+                },
+                {
+                  "value": "B",
+                  "label": "They talk to people living near the site."
+                },
+                {
+                  "value": "C",
+                  "label": "They are given information about the site."
+                },
+                {
+                  "value": "D",
+                  "label": "They engage in simple activities at the site."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问大多数学童参观考古遗址时通常做什么，段落B第二句指出：‘They are normally given straightforward tasks like washing and sorting finds’。其中‘straightforward tasks’即‘simple activities’，对应选项D。其他选项如‘meet experts’或‘talk to locals’在文中未提及，因此正确答案是D。",
+              "reason": "段落B第二句说明常见简单任务，与选项D一致。",
+              "location_analysis": "题干'simple activities'对应原文'straightforward tasks'。",
+              "paraphrasing": "most schoolchildren engage in simple activities -> They are normally given straightforward tasks like washing and sorting finds",
+              "keywords": "most schoolchildren, visit archaeological sites, do",
+              "evidence": [
+                "They are normally given straightforward tasks like washing and sorting finds, that is, any discoveries that are of archaeological interest."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "选项内容“与专家会面”在原文中未提及，属于无中生有。",
+                "B": "选项内容“与当地人交谈”原文未提及，属于无中生有。",
+                "C": "选项“获得关于遗址的信息”与原文描述的学校儿童行为不符，原文强调的是参与简单活动而非接受信息。"
+              }
+            },
+            {
+              "id": "131206",
+              "number": 35,
+              "prompt": "The water mill is an example of something that the children had read about in history lessons.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "had read about in history lessons."
+                },
+                {
+                  "value": "B",
+                  "label": "discovered using written documents."
+                },
+                {
+                  "value": "C",
+                  "label": "had heard about from local people."
+                },
+                {
+                  "value": "D",
+                  "label": "remembered from previous activities."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问水磨坊的例子来源，段落D提到孩子们‘working with primary source materials, such as maps, census returns and tax payments’进行研究，并由此推测曾有水磨坊存在。这说明他们是通过查阅原始文献资料（written documents）发现线索，而非课堂学习或口述历史，因此选项B‘discovered using written documents’正确。",
+              "reason": "段落D第五、六句表明通过原始资料研究而非直接读出。",
+              "location_analysis": "题干'read about in history lessons'实为错误，原文显示通过're...",
+              "paraphrasing": "discovered using written documents -> Their research suggested that there had been a water mill in the area, so their excavations set out to find it",
+              "keywords": "water mill, example, children, read about, history lessons",
+              "evidence": [
+                "Taking on the role of historians and working with primary source materials, such as maps, census returns and tax payments, the children were able to develop their own lines of enquiry.",
+                "Their research suggested that there had been a water mill in the area, so their excavations set out to find it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "与原文矛盾，原文指出水车是通过书面文件发现的，而不是在历史课上学到的。",
+                "C": "无中生有，原文并未提及孩子们从当地人口中听说水车的信息。",
+                "D": "与原文不符，原文没有提到孩子们是从以前的活动中记住水车的。"
+              }
+            },
+            {
+              "id": "131207",
+              "number": 36,
+              "prompt": "What does the writer say about one child's grandmother?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "She recognised the pattern on some pottery."
+                },
+                {
+                  "value": "B",
+                  "label": "She showed the children how to decorate pottery."
+                },
+                {
+                  "value": "C",
+                  "label": "She regularly cooked using a pot that was very old."
+                },
+                {
+                  "value": "D",
+                  "label": "She offered the children an old pot that she had kept."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问关于一位孩子的祖母的信息，段落G第三句写道：‘The grandmother of another child recounted her memories of making oatmeal porridge in a small bowl decorated with the same floral design as a pottery piece on display.’ 这表明她认出了展出陶片上的图案（same floral design），与选项A‘She recognised the pattern on some pottery’完全对应，故选A。",
+              "reason": "段落G第三句描述祖母认出陶片图案。",
+              "location_analysis": "题干'recognised pattern'对应原文'same floral design'。",
+              "paraphrasing": "She recognised the pattern on some pottery -> The grandmother of another child recounted her memories of making oatmeal porridge in a small bowl decorated with the same floral design as a pottery piece on display",
+              "keywords": "grandmother, recognised pattern, pottery",
+              "evidence": [
+                "The grandmother of another child recounted her memories of making oatmeal porridge in a small bowl decorated with the same floral design as a pottery piece on display."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文未提及祖母教孩子们装饰陶器，属于无中生有。",
+                "C": "原文未提及祖母经常用旧锅做饭，信息未出现。",
+                "D": "原文未提及祖母给孩子们一个保存的旧锅，与内容不符。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "21380",
+          "type": 4,
+          "title": "The children's exhibition",
+          "instructions": "Questions 37 - 39\nComplete the summary below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 37-39 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131208",
+              "number": 37,
+              "prompt": "The writer helped the children to exhibit what they had found. First the children went to look at the exhibits on display at the _____ museum.",
+              "options": [],
+              "answer": "university",
+              "accepted_answers": [
+                "university"
+              ],
+              "analysis": "题干要求填写孩子们参观博物馆前所去的地点，段落E首句明确说：‘Following a visit to the university to see the museum there...’。因此，空白处应填‘university’，指他们先去了大学参观其博物馆，这与上下文逻辑和限定词‘the’后的单一名词要求完全吻合。",
+              "reason": "E段第一句明确说明参观大学博物馆。",
+              "location_analysis": "题干空白后'museum'需修饰限定，原文'university'直接匹配。",
+              "paraphrasing": "went to look at exhibits at the university museum -> Following a visit to the university to see the museum there",
+              "keywords": "exhibition, went to look, museum",
+              "evidence": [
+                "Following a visit to the university to see the museum there, the children produced a timeline of everything they had found to show the period in history to which each item belonged."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131209",
+              "number": 38,
+              "prompt": "After that, they placed their discoveries on a timeline to show the age of the objects, Then they created a _____ for visitors to test their knowledge of the items.",
+              "options": [],
+              "answer": "game",
+              "accepted_answers": [
+                "game"
+              ],
+              "analysis": "题干要求填写孩子们为访客设计的互动形式，段落E第二句提到：‘They went on to invent a \"guess the object\" game to engage visitors in their discoveries.’ 其中‘game’直接对应空白处所需的一个单词，且‘test their knowledge’与‘guess the object’功能一致，因此答案是‘game’。",
+              "reason": "E段第二句提到'game'直接匹配。",
+              "location_analysis": "题干'created a game for visitors'对应原文'invent a ga...",
+              "paraphrasing": "created a game for visitors to test knowledge -> They went on to invent a 'guess the object' game to engage visitors in their discoveries",
+              "keywords": "created, visitors, test knowledge",
+              "evidence": [
+                "They went on to invent a 'guess the object' game to engage visitors in their discoveries."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131210",
+              "number": 39,
+              "prompt": "The children were allowed to use a cabinet that belonged to the museum to display all the things they had found. One piece of pottery was recognised as being made at a particular _____. It was placed next to an unbroken example of the pottery.",
+              "options": [],
+              "answer": "workshop",
+              "accepted_answers": [
+                "workshop"
+              ],
+              "analysis": "题干要求填写陶器的制作地点，段落E第四句指出：‘one was identified as coming from the distinctive Seaton workshop in Aberdeen’。此处‘workshop’即为生产该陶器的具体工坊，符合‘made at a particular...’的结构要求，且原文明确使用‘workshop’一词，因此答案为‘workshop’。",
+              "reason": "E段第四句明确提到'workshop'。",
+              "location_analysis": "题干'particular'对应原文'distinctive'，空白需填'workshop'。",
+              "paraphrasing": "made at a particular workshop -> one was identified as coming from the distinctive Seaton workshop in Aberdeen",
+              "keywords": "made at a particular, workshop",
+              "evidence": [
+                "During the identification of the pottery pieces, one was identified as coming from the distinctive Seaton workshop in Aberdeen, so a complete example was borrowed from the museum and included in the cabinet alongside it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "The writer helped the children to exhibit what they had found. First the children went to look at the exhibits on display at the $131208$ museum.\nAfter that, they placed their discoveries on a timeline to show the age of the objects, Then they created a $131209$ for visitors to test their knowledge of the items.\nThe children were allowed to use a cabinet that belonged to the museum to display all the things they had found. One piece of pottery was recognised as being made at a particular $131210$. It was placed next to an unbroken example of the pottery.\nThe quality of the display area raised the status of the children's exhibition for everyone who went to s ee it.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The writer helped the children to exhibit what they had found. First the children went to look at the exhibits on display at the $131208$ museum.\nAfter that, they placed their discoveries on a timeline to show the age of the objects, Then they created a $131209$ for visitors to test their knowledge of the items.\nThe children were allowed to use a cabinet that belonged to the museum to display all the things they had found. One piece of pottery was recognised as being made at a particular $131210$. It was placed next to an unbroken example of the pottery.\nThe quality of the display area raised the status of the children's exhibition for everyone who went to s ee it."
+        },
+        {
+          "id": "21382",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 40 - 40\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in box 40 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131211",
+              "number": 40,
+              "prompt": "What would be a suitable title for the article?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Children make an exciting archaeological discovery"
+                },
+                {
+                  "value": "B",
+                  "label": "Archaeology is becoming a new hobby for children"
+                },
+                {
+                  "value": "C",
+                  "label": "The benefits for children of working with archaeologists"
+                },
+                {
+                  "value": "D",
+                  "label": "Communities appreciate the teachings of archaeologists"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求选择文章最合适的标题。全文重点并非单纯强调‘发现’或‘社区教学’，而是突出儿童与考古学家合作过程中获得的学习益处，如主动探究、理解历史建构过程、提升社区参与等。段落B、F、G均体现这一核心，而选项C‘The benefits for children of working with archaeologists’准确概括了这一主旨，因此为最佳标题。",
+              "reason": "文章主题为孩子与考古学家合作的教育收益.",
+              "location_analysis": "全文强调孩子与考古学家合作的好处.",
+              "paraphrasing": "benefits for children -> lead their own historical investigations, expand understanding, key principle; working with archaeologists -> working as partners",
+              "keywords": "suitable title",
+              "evidence": [
+                "What is less common is to find primary school pupils working as partners with an archaeologist.",
+                "The archaeological investigations carried out by the children created a real-life context for them to play an active part in learning - educating not just themselves but their community too."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": {
+                "A": "文章并未聚焦于一次具体的考古发现，而是讨论孩子们参与考古工作的益处。",
+                "B": "文章未将考古学描述为儿童的新爱好，而是强调与考古学家合作的好处。",
+                "D": "文章未提及社区对考古学家教学的感激之情，主要讲的是儿童而非社区的视角。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Passage 3",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "When schoolchildren are invited to visit archaeological excavations, they rarely have much specific knowledge about the site's history.",
+          "translation": "当学生受邀参观考古发掘现场时，他们通常对遗址历史了解甚少。"
+        },
+        {
+          "index": 2,
+          "sentence": "They are normally given straightforward tasks like washing and sorting finds, that is, any discoveries that are of archaeological interest.",
+          "translation": "他们通常被安排简单的任务，例如清洗和分类出土物，也就是任何具有考古意义的发现。"
+        },
+        {
+          "index": 3,
+          "sentence": "What is less common is to find primary school pupils working as partners with an archaeologist.",
+          "translation": "较为少见的是让小学生与考古学家作为合作伙伴共同工作。"
+        },
+        {
+          "index": 4,
+          "sentence": "Our project lets primary school children take a joint role in an archaeological investigation, working actively alongside an expert in the field.",
+          "translation": "我们的项目让小学生在地质考古调查中担任合作角色，与领域专家一起积极工作。"
+        },
+        {
+          "index": 5,
+          "sentence": "The children's archaeological investigations were part of a larger project initiated by a community group which works to study and preserve the landscape of the Bennachie hills region in Aberdeenshire, Scotland.",
+          "translation": "孩子们的考古调查是一个更大项目的一部分，该项目由致力于研究和保护苏格兰阿伯丁郡本纳奇山丘陵地区景观的社区团体发起。"
+        },
+        {
+          "index": 6,
+          "sentence": "The main project was developed with a team from the University of Aberdeen and funded by a Community Heritage fund and the National Lottery.",
+          "translation": "这个主要项目与阿伯丁大学的一个团队共同开发，并由社区遗产基金和国家彩票资助。"
+        },
+        {
+          "index": 7,
+          "sentence": "It focused on the history and archaeology of an abandoned mid-19th-century settlement, located on common ground on the lower slopes of the Bennachie hills.",
+          "translation": "该项目聚焦于一个位于本纳奇山低坡公共土地上的、19世纪中期废弃定居点的历史和考古学。"
+        },
+        {
+          "index": 8,
+          "sentence": "Colin Shepherd set up two additional archaeological projects with local primary school children and their teachers.",
+          "translation": "科林·谢泼德与当地小学生及其老师共同设立了另外两个考古项目。"
+        },
+        {
+          "index": 9,
+          "sentence": "Each project investigated the history of the place in which the pupils live and go to school.",
+          "translation": "每个项目都调查了学生生活与上学所在地的历史。"
+        },
+        {
+          "index": 10,
+          "sentence": "At one of the schools, the excavation took place in woodland where pupils usually take part in outdoor learning,",
+          "translation": "在其中一所学校，挖掘工作发生在学生们通常参与户外学习的林地里。"
+        },
+        {
+          "index": 11,
+          "sentence": "Before the archaeology project began, the children viewed the woodland as existing only in the present,",
+          "translation": "在考古项目开始之前，孩子们认为林地只存在于当下。"
+        },
+        {
+          "index": 12,
+          "sentence": "Through their work, they became aware of its history and the people who lived and worked on the land near their school in the past.",
+          "translation": "通过他们的工作，他们意识到了这片土地的历史以及过去在学校附近生活和工作的人们。"
+        },
+        {
+          "index": 13,
+          "sentence": "Taking on the role of historians and working with primary source materials, such as maps, census returns and tax payments, the children were able to develop their own lines of enquiry.",
+          "translation": "孩子们扮演历史学家的角色，处理地图、人口普查记录和税收记录等原始资料，从而能够发展出他们自己的调查思路。"
+        },
+        {
+          "index": 14,
+          "sentence": "Their research suggested that there had been a water mill in the area, so their excavations set out to find it.",
+          "translation": "他们的研究显示该地区曾有一个水磨坊，因此他们的挖掘工作旨在找到它。"
+        },
+        {
+          "index": 15,
+          "sentence": "The children, working with the community archaeologist, found evidence for this.",
+          "translation": "孩子们与社区考古学家合作，找到了相关的证据。"
+        },
+        {
+          "index": 16,
+          "sentence": "They also discovered the remains of a 19th- or 20th-century midden, or rubbish dump, containing many pieces of broken pottery.",
+          "translation": "他们还发现了一个19或20世纪的垃圾堆遗迹，其中包含许多碎陶片。"
+        },
+        {
+          "index": 17,
+          "sentence": "My role as a teacher educator specialising in history education was to work alongside pupils and staff to create an exhibition for their families and the general public,",
+          "translation": "我作为一名专攻历史教育的教师教育者，其职责是与学生和教职工合作，为他们的家人和公众举办一个展览。"
+        },
+        {
+          "index": 18,
+          "sentence": "Following a visit to the university to see the museum there, the children produced a timeline of everything they had found to show the period in history to which each item belonged.",
+          "translation": "在参观大学博物馆后，孩子们制作了一份他们所有发现物的时间线，以展示每件物品所属的历史时期。"
+        },
+        {
+          "index": 19,
+          "sentence": "They went on to invent a 'guess the object' game to engage visitors in their discoveries.",
+          "translation": "他们接着发明了一个“猜物品”游戏，让参观者参与到他们的发现中。"
+        },
+        {
+          "index": 20,
+          "sentence": "The children were given the use of the museum's replica of a 17th-century collector's cabinet for their exhibition.",
+          "translation": "孩子们获准使用博物馆的17世纪收藏柜复制品来布置他们的展览。"
+        },
+        {
+          "index": 21,
+          "sentence": "During the identification of the pottery pieces, one was identified as coming from the distinctive Seaton workshop in Aberdeen, so a complete example was borrowed from the museum and included in the cabinet alongside it.",
+          "translation": "在鉴定陶片时，有一片被认出来自阿伯丁独特的西顿作坊，因此博物馆借出了一个完整样品，与陶片一起放入收藏柜中。"
+        },
+        {
+          "index": 22,
+          "sentence": "Because it used a high-quality display cabinet, the children's exhibition gained a similar status to that of a real museum for the parents and community members who came to see it.",
+          "translation": "由于使用了高质量的展示柜，孩子们的展览在来参观的家长和社区成员眼中获得了与真正博物馆相当的地位。"
+        },
+        {
+          "index": 23,
+          "sentence": "The project meant the children could lead their own historical investigations and expand their understanding of the places in which they live and the heritage of their family and community,.",
+          "translation": "这个项目意味着孩子们能够主导自己的历史探究，并加深对他们所居住的地方以及家庭和社区遗产的理解。"
+        },
+        {
+          "index": 24,
+          "sentence": "This is a key principle in the Social Studies section of Scotland's Curriculum for Excellence, the national framework for learning for children between the ages of three and 18.",
+          "translation": "这是苏格兰卓越课程（面向3至18岁儿童的国家学习框架）社会研究部分的一个关键原则。"
+        },
+        {
+          "index": 25,
+          "sentence": "Not only did the children learn the history of the place, they learned to understand the process of creating historical knowledge,",
+          "translation": "孩子们不仅学习了这个地方的历史，还学会了理解创造历史知识的过程。"
+        },
+        {
+          "index": 26,
+          "sentence": "Through their museum visit, they learned how to select items for display and to think about how to talk to other people about the history they had created.",
+          "translation": "通过参观博物馆，他们学会了如何选择展品，并思考如何与他人谈论自己所创造的历史。"
+        },
+        {
+          "index": 27,
+          "sentence": "Setting up the exhibition and showing it to people aided conversations between children and their community.",
+          "translation": "搭建展览并向人们展示，促进了孩子们与社区之间的交流。"
+        },
+        {
+          "index": 28,
+          "sentence": "One of the children discovered that their great-grandfather had once owned the Seaton workshop.",
+          "translation": "其中一个孩子发现，他们的曾祖父曾拥有过锡顿工坊。"
+        },
+        {
+          "index": 29,
+          "sentence": "The grandmother of another child recounted her memories of making oatmeal porridge in a small bowl decorated with the same floral design as a pottery piece on display.",
+          "translation": "另一个孩子的祖母回忆道，她曾用一个小碗制作燕麦粥，碗上的花卉图案与展出的陶器碎片相同。"
+        },
+        {
+          "index": 30,
+          "sentence": "The archaeological investigations carried out by the children created a real-life context for them to play an active part in learning - educating not just themselves but their community too.",
+          "translation": "孩子们进行的考古调查为他们创造了一个真实的生活背景，使他们能够在学习中发挥积极作用——不仅教育了自己，也教育了他们的社区。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

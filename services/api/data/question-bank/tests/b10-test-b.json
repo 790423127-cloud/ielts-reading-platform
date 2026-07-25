@@ -1,0 +1,3255 @@
+{
+  "id": "b10-test-b",
+  "book": "剑雅10",
+  "book_number": 10,
+  "name": "Test B",
+  "title": "剑雅10 Test B",
+  "parts": [
+    {
+      "id": "2108",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "PASSPORT APPLICATION",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "You will need to fill in an application for a passport in the following circumstances: if you are applying for a passport for the first time, if you wish to replace your current passport, if your passport has expired, or if it has been lost or stolen. Your application form must be completed in your own handwriting.",
+          "translation": "在以下情况下，您需要填写护照申请表：如果您是首次申请护照、希望更换现有护照、护照已过期，或者护照丢失或被盗。\n您的申请表必须由本人亲笔填写。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "As proof of your citizenship and identity, you must enclose either your passport or your birth certificate. All documents must be originals; these will be returned with your passport.",
+          "translation": "作为您的公民身份和身份证明，您必须附上护照或出生证明。\n所有文件必须是原件；这些文件将与您的护照一同返还。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "The standard time to process an application is up to 10 working days.The processing begins from when we have received the completed application form. Applicants should expect delays if the Passport Office receives a form with missing information. Extra time should be allowed for delivery to and from the Passport Office.",
+          "translation": "处理申请的标准时间最多为10个工作日。\n处理从我们收到填写完整的申请表时开始。\n如果护照办公室收到信息缺失的表格，申请人应预料到会出现延误。\n应额外留出寄往和寄出护照办公室的递送时间。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Please provide two identical passport photos of yourself. Both photos must be the same in all respects and must be less than 12 months old.",
+          "translation": "请提供两张您本人相同的护照照片。\n两张照片必须在各个方面完全一致，且拍摄时间不得超过12个月。\n12"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Ask someone who can identify you to fill in the ‘Proof of Identity’ information and identify one of your photos. This person will be called your witness and needs to meet the following requirements: a witness must be aged 16 years or over, be contactable by phone during normal office hours and be the holder of a valid passport. A witness should fill in the ‘Proof of Identity’ page in their own handwriting. A witness must also write the full name of the person applying for the passport on the back of one of the photos, sign their own name and date the back of the same photo. Photos with this identifying information written in the applicant's own handwriting will not be accepted.",
+          "translation": "请一位能够证明你身份的人填写‘身份证明’信息，并确认你的一张照片。\n此人将被称作你的见证人，并需满足以下要求：见证人必须年满16岁，在正常办公时间内可通过电话联系，并持有效护照。\n见证人应亲自手写填写‘身份证明’页面。\n见证人还必须在其中一张照片背面写上护照申请人的全名，签署自己的姓名并注明日期。\n如果照片背面的身份信息由申请人自己手写，将不予接受。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Auckland International Airport Services",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "奥克兰国际机场服务"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The second floor of the international terminal offers a view of the airfield and all incoming and outgoing flights.There is a cafe situated here as well as a restaurant, which is available for all airport visitors to use.",
+          "translation": "国际航站楼的二楼可以俯瞰机场跑道以及所有进出港航班。\n这里设有一家咖啡馆和一家餐厅，所有机场访客均可使用。\n国际航站楼的二楼可俯瞰机场跑道及所有进出港航班。\n此处设有一家咖啡馆和一家餐厅，供所有机场访客使用。\n这里设有一家咖啡馆和一家餐厅，可供所有机场访客使用。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "We are open for all international flights and provide a comprehensive service for visitors to the city. Brochures on a range of attractions are available, and we also offer a booking service for accommodation and transport. Shuttle buses into the city centre are provided at a competitive price.",
+          "translation": "我们为所有国际航班提供服务，并向到访城市的游客提供全面的服务。\n我们提供各类景点的小册子，同时还提供住宿和交通的预订服务。\n我们以具有竞争力的价格提供前往市中心的班车服务。\n我们为所有国际航班提供服务，并为来这座城市的游客提供全面的服务。\n我们提供一系列景点的宣传册，同时还提供住宿和交通的预订服务。\n我们以有竞争力的价格提供前往市中心的班车服务。\n我们为所有国际航班提供服务，并为来访该市的游客提供全面的服务。\n提供一系列景点的小册子，我们还提供住宿和交通的预订服务。\n提供前往市中心的班车，价格具有竞争力。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Passengers who require urgent medical attention should dial 9877 on any public telephone in the terminal. The airport pharmacy is located on the ground floor near the departure lounge, and stocks a comprehensive range of products.",
+          "translation": "需要紧急医疗救助的乘客应在航站楼内的任何公用电话上拨打9877。\n机场药房位于底层靠近候机大厅的位置，并储备了种类齐全的产品。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Departing passengers can completely seal their luggage or packages in recyclable polythene to protect them from damage. Luggage storage, charged at $10 per hour, is available on the first floor. Transit passengers have free access to storage facilities.",
+          "translation": "离港乘客可以完全用可回收聚乙烯密封行李或包裹，以防止其受损。\n行李寄存服务位于一楼，收费为每小时10美元。\n过境乘客可免费使用寄存设施。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Every international passenger, with the exception of children under 12 years of age and transit passengers in Auckland for less than 24 hours, is required to make a payment of $25 when leaving the country. This can be arranged at the National Bank on the ground floor.",
+          "translation": "12\n每位国际旅客，除12岁以下儿童以及在奥克兰停留时间不足24小时的过境旅客外，在离境时需支付25美元的费用。\n该支付可在底层的新西兰国家银行办理。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "As Auckland International Airport has adopted the 'quiet airport' concept, there are usually no announcements made over the public address system. Details of all arrivals and departures are displayed on the monitors located in the terminal halls and lounge areas.",
+          "translation": "由于奥克兰国际机场采用了‘安静机场’的理念，通常不会通过公共广播系统发布任何通知。\n所有抵达和离港的详细信息都显示在航站楼大厅和休息区的监控屏幕上。\n由于奥克兰国际机场采用了‘安静机场’理念，通常不会通过公共广播系统发布通知。\n所有航班的到达和起飞详情均显示在航站楼大厅和休息区的显示屏上。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "The airport caters for the needs of business travellers and has several rooms available for seminars or business gatherings. These are located adjacent to the airport medical centre on the first floor. For information and bookings please contact the Airport Business Manager on extension 5294.",
+          "translation": "该机场满足商务旅客的需求，并提供多个可用于研讨会或商务聚会的房间。\n这些房间位于一楼机场医疗中心隔壁。\n如需信息和预订，请拨打分机号5294联系机场商务经理。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15895",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1 - 7\nDo the following statements agree with the information given in Reading Passage 1?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120687",
+              "number": 1,
+              "prompt": "A husband can fill in an application form for his wife.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“丈夫可以代妻子填写申请表”，但原文明确指出“Your application form must be completed in your own handwriting”（申请表必须由本人亲笔填写），强调申请人亲自填写，不允许他人代填。因此题干与原文信息矛盾，答案为FALSE。",
+              "reason": "题干说丈夫可代填，原文坚持亲手填，矛盾。",
+              "location_analysis": "原文要求本人填写，题干与原文矛盾，选FALSE。",
+              "paraphrasing": "husband fill in -> own handwriting",
+              "keywords": "application form, own handwriting",
+              "evidence": [
+                "Your application form must be completed in your own handwriting."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文明确指出丈夫不能代妻子填写申请表。",
+                "NOT GIVEN": "原文中明确给出了相关信息，并非未提及，因此不选此选项。"
+              }
+            },
+            {
+              "id": "120688",
+              "number": 2,
+              "prompt": "Photocopies of documents are acceptable in some circumstances.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称“在某些情况下可接受文件复印件”，但原文第二段明确说明“All documents must be originals”（所有文件必须为原件），且未提及任何例外情况。因此题干与原文相悖，答案为FALSE。",
+              "reason": "题干声称某些情况可接受复印件，但原文明确要求原件。",
+              "location_analysis": "原文要求原件，不接受复印件，题干相反，选FALSE。",
+              "paraphrasing": "photocopies acceptable -> must be originals",
+              "keywords": "photocopies, documents, originals",
+              "evidence": [
+                "All documents must be originals; these will be returned with your passport."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文明确说明复印件不可接受，与题干信息矛盾。",
+                "NOT GIVEN": "原文给出了明确信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120689",
+              "number": 3,
+              "prompt": "An incomplete application will affect processing time.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干提到“不完整的申请会影响处理时间”，原文第三段指出“Applicants should expect delays if the Passport Office receives a form with missing information”（若申请表信息缺失，申请人应预期延误）。这与题干表述完全一致，因此答案为TRUE。",
+              "reason": "题干与原文信息一致。",
+              "location_analysis": "原文说缺失信息会延迟，题干完全一致，选TRUE。",
+              "paraphrasing": "incomplete application -> missing information; affect processing time -> expect delays",
+              "keywords": "incomplete application, processing time, delays",
+              "evidence": [
+                "Applicants should expect delays if the Passport Office receives a form with missing information."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾，原文明确表示不完整的申请会影响处理时间。",
+                "NOT GIVEN": "原文明确提及了不完整申请对处理时间的影响，并非未提及。"
+              }
+            },
+            {
+              "id": "120690",
+              "number": 4,
+              "prompt": "The passport photos included with your application must be in colour.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问护照照片是否必须为彩色，但原文第四段仅要求照片“identical”且“less than 12 months old”，并未提及颜色要求。由于文中未提供关于照片是否需为彩色的信息，无法判断题干正误，故答案为NOT GIVEN。",
+              "reason": "原文无相关信息",
+              "location_analysis": "原文要求照片相同且少于12个月，但未提是否彩色。",
+              "paraphrasing": "must be in colour -> 原文未提及",
+              "keywords": "passport photos, colour",
+              "evidence": [
+                "Please provide two identical passport photos of yourself. Both photos must be the same in all respects and must be less than 12 months old."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": {
+                "TRUE": "原文未提及护照照片必须是彩色的，因此无法判断该陈述是否正确。",
+                "FALSE": "原文未提及护照照片必须是彩色的，因此无法判断该陈述是错误的。"
+              }
+            },
+            {
+              "id": "120691",
+              "number": 5,
+              "prompt": "A witness can be a relative of the applicant.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干问见证人是否可以是申请人的亲属，而原文第五段列出见证人条件：年满16岁、工作时间可电话联系、持有有效护照，但未说明是否允许亲属担任。因文中未涉及亲属关系限制，无法确认题干真假，故答案为NOT GIVEN。",
+              "reason": "原文未限制亲属关系",
+              "location_analysis": "原文列出证人要求，未提及是否可以是亲属。",
+              "paraphrasing": "be a relative -> 原文未限制",
+              "keywords": "witness, relative",
+              "evidence": [
+                "This person will be called your witness and needs to meet the following requirements: a witness must be aged 16 years or over, be contactable by phone during normal office hours and be the holder of a valid passport."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": {
+                "TRUE": "原文未明确允许证人可以是申请人的亲戚，因此不能判断为正确。",
+                "FALSE": "原文未明确禁止证人是申请人的亲戚，因此不能判断为错误。"
+              }
+            },
+            {
+              "id": "120692",
+              "number": 6,
+              "prompt": "Anyone acting as a witness must have a passport.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称“任何担任见证人都必须持有护照”，原文第五段明确要求见证人“be the holder of a valid passport”（持有有效护照）。该条件与题干完全对应，因此答案为TRUE。",
+              "reason": "题干与原文要求符合。",
+              "location_analysis": "原文明确要求见证人持有效护照，题干一致，选TRUE。",
+              "paraphrasing": "must have a passport -> be the holder of a valid passport",
+              "keywords": "witness, passport",
+              "evidence": [
+                "be the holder of a valid passport"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确说明证人必须持有护照，与题干信息一致，因此说题干错误与原文矛盾。",
+                "NOT GIVEN": "原文明确提及证人需要有护照，信息是给出的，并非未提及。"
+              }
+            },
+            {
+              "id": "120693",
+              "number": 7,
+              "prompt": "The passport applicant must sign their name on the back of both photos.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“申请人必须在两张照片背面签名”，但原文第五段规定“A witness must also write the full name... sign their own name... Photos with this identifying information written in the applicant's own handwriting will not be accepted”，即签名必须由见证人完成，申请人书写将被拒。因此题干错误，答案为FALSE。",
+              "reason": "题干说申请人签名，但原文要求见证人签名。",
+              "location_analysis": "原文要求见证人写信息，而非申请人，题干矛盾，选FALSE。",
+              "paraphrasing": "applicant must sign -> witness must sign; applicant's own handwriting not accepted",
+              "keywords": "sign, applicant, back of photos",
+              "evidence": [
+                "A witness must also write the full name of the person applying for the passport on the back of one of the photos, sign their own name and date the back of the same photo.",
+                "Photos with this identifying information written in the applicant's own handwriting will not be accepted."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文矛盾，原文指出申请人无需在两张照片背面签名。",
+                "NOT GIVEN": "原文明确提到了相关信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15903",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 8 - 14\nThe text has seven sections.\nChoose the correct heading for each section and move it into the gap.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Departure procedures"
+            },
+            {
+              "value": "B",
+              "label": "B. Observation area"
+            },
+            {
+              "value": "C",
+              "label": "C. Baggage services"
+            },
+            {
+              "value": "D",
+              "label": "D. Meeting facilities"
+            },
+            {
+              "value": "E",
+              "label": "E. Healthcare services"
+            },
+            {
+              "value": "F",
+              "label": "F. Flight information"
+            },
+            {
+              "value": "G",
+              "label": "G. Currency exchange"
+            },
+            {
+              "value": "H",
+              "label": "H. Health and safety advice"
+            },
+            {
+              "value": "I",
+              "label": "I. Departure fees"
+            },
+            {
+              "value": "J",
+              "label": "J. Tourist travel centre"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1159031",
+              "number": 8,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Departure procedures"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Observation area"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Baggage services"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Meeting facilities"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Healthcare services"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Flight information"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Currency exchange"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Health and safety advice"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Departure fees"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Tourist travel centre"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "第A段描述国际航站楼二楼“offers a view of the airfield and all incoming and outgoing flights”，并设有咖啡馆和餐厅，核心内容是观景区域。这与选项B“Observation area”完全匹配，因此答案为B。",
+              "reason": "内容聚焦观景，与B吻合。",
+              "location_analysis": "该段描述二楼观景视野，对应标题B Observation area。",
+              "paraphrasing": "observation area -> view of the airfield",
+              "keywords": "second floor, view, airfield, observation area",
+              "evidence": [
+                "The second floor of the international terminal offers a view of the airfield and all incoming and outgoing flights."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1159032",
+              "number": 9,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Departure procedures"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Observation area"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Baggage services"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Meeting facilities"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Healthcare services"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Flight information"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Currency exchange"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Health and safety advice"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Departure fees"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Tourist travel centre"
+                }
+              ],
+              "answer": "J",
+              "accepted_answers": [
+                "J"
+              ],
+              "analysis": "第B段提到为访客提供“brochures on attractions”、“booking service for accommodation and transport”以及“shuttle buses into the city centre”，服务对象明确为游客，内容涵盖旅游资讯与交通安排，对应选项J“Tourist travel centre”，故答案为J。",
+              "reason": "为游客提供信息、预订和交通服务，与J匹配。",
+              "location_analysis": "段内容为游客服务，对应J Tourist travel centre。",
+              "paraphrasing": "tourist travel centre -> service for visitors, brochures, booking",
+              "keywords": "visitors, brochures, attractions, booking, shuttle buses, tourist travel centre",
+              "evidence": [
+                "We are open for all international flights and provide a comprehensive service for visitors to the city.",
+                "Brochures on a range of attractions are available, and we also offer a booking service for accommodation and transport."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1159033",
+              "number": 10,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Departure procedures"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Observation area"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Baggage services"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Meeting facilities"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Healthcare services"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Flight information"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Currency exchange"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Health and safety advice"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Departure fees"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Tourist travel centre"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "第C段内容包括“urgent medical attention”拨打特定号码及“airport pharmacy”位于出发大厅附近，提供全面药品，明显聚焦医疗健康服务，与选项E“Healthcare services”完全对应，因此答案为E。",
+              "reason": "涉及紧急医疗和药房，与E吻合。",
+              "location_analysis": "段内容为医疗和药房服务，对应E Healthcare services。",
+              "paraphrasing": "healthcare services -> urgent medical attention, pharmacy",
+              "keywords": "urgent medical attention, pharmacy, healthcare services",
+              "evidence": [
+                "Passengers who require urgent medical attention should dial 9877 on any public telephone in the terminal.",
+                "The airport pharmacy is located on the ground floor near the departure lounge, and stocks a comprehensive range of products."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1159034",
+              "number": 11,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Departure procedures"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Observation area"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Baggage services"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Meeting facilities"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Healthcare services"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Flight information"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Currency exchange"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Health and safety advice"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Departure fees"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Tourist travel centre"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "第D段提及“seal luggage in recyclable polythene”和“luggage storage”服务，均属于行李相关服务，与选项C“Baggage services”直接对应，因此答案为C。",
+              "reason": "围绕行李服务，与C匹配。",
+              "location_analysis": "段内容为行李密封和存储，对应C Baggage services。",
+              "paraphrasing": "baggage services -> seal luggage, luggage storage",
+              "keywords": "luggage, seal, storage, baggage services",
+              "evidence": [
+                "Departing passengers can completely seal their luggage or packages in recyclable polythene to protect them from damage.",
+                "Luggage storage, charged at $10 per hour, is available on the first floor."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1159035",
+              "number": 12,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Departure procedures"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Observation area"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Baggage services"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Meeting facilities"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Healthcare services"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Flight information"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Currency exchange"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Health and safety advice"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Departure fees"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Tourist travel centre"
+                }
+              ],
+              "answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "analysis": "第E段明确指出国际旅客离境时需支付“$25”费用，并说明缴费地点，核心内容为离境收费，与选项I“Departure fees”完全吻合，因此答案为I。",
+              "reason": "明确提到离境费，与I吻合。",
+              "location_analysis": "段内容为离境缴费，对应I Departure fees。",
+              "paraphrasing": "departure fees -> payment when leaving",
+              "keywords": "payment $25, leaving, departure fees",
+              "evidence": [
+                "is required to make a payment of $25 when leaving the country."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "1159036",
+              "number": 13,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Departure procedures"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Observation area"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Baggage services"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Meeting facilities"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Healthcare services"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Flight information"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Currency exchange"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Health and safety advice"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Departure fees"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Tourist travel centre"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "第F段说明机场采用“quiet airport”概念，不进行广播，但“Details of all arrivals and departures are displayed on the monitors”，即通过屏幕显示航班动态，这正是航班信息的提供方式，对应选项F“Flight information”，故答案为F。",
+              "reason": "提供航班到达离开信息，与F匹配。",
+              "location_analysis": "段内容为航班信息显示，对应F Flight information。",
+              "paraphrasing": "flight information -> arrivals and departures displayed on monitors",
+              "keywords": "arrivals, departures, monitors, flight information",
+              "evidence": [
+                "Details of all arrivals and departures are displayed on the monitors located in the terminal halls and lounge areas."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            },
+            {
+              "id": "1159037",
+              "number": 14,
+              "prompt": "Section G",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Departure procedures"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Observation area"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Baggage services"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Meeting facilities"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Healthcare services"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Flight information"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Currency exchange"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Health and safety advice"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Departure fees"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Tourist travel centre"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "第G段提到机场为商务旅客提供“rooms available for seminars or business gatherings”，即用于会议或商务聚会的场地，与选项D“Meeting facilities”完全对应，因此答案为D。",
+              "reason": "提供会议室，与D吻合。",
+              "location_analysis": "段内容为商务会议室，对应D Meeting facilities。",
+              "paraphrasing": "meeting facilities -> rooms for seminars or business gatherings",
+              "keywords": "business travellers, rooms, seminars, gatherings, meeting facilities",
+              "evidence": [
+                "The airport caters for the needs of business travellers and has several rooms available for seminars or business gatherings."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "G"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "PASSPORT APPLICATION",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "You will need to fill in an application for a passport in the following circumstances: if you are applying for a passport for the first time, if you wish to replace your current passport, if your passport has expired, or if it has been lost or stolen.",
+          "translation": "在以下情况下，您需要填写护照申请表：如果您是首次申请护照、希望更换现有护照、护照已过期，或者护照丢失或被盗。"
+        },
+        {
+          "index": 2,
+          "sentence": "Your application form must be completed in your own handwriting.",
+          "translation": "您的申请表必须由本人亲笔填写。"
+        },
+        {
+          "index": 3,
+          "sentence": "As proof of your citizenship and identity, you must enclose either your passport or your birth certificate.",
+          "translation": "作为您的公民身份和身份证明，您必须附上护照或出生证明。"
+        },
+        {
+          "index": 4,
+          "sentence": "All documents must be originals; these will be returned with your passport.",
+          "translation": "所有文件必须是原件；这些文件将与您的护照一同返还。"
+        },
+        {
+          "index": 5,
+          "sentence": "The standard time to process an application is up to 10 working days.",
+          "translation": "处理申请的标准时间最多为10个工作日。"
+        },
+        {
+          "index": 6,
+          "sentence": "The processing begins from when we have received the completed application form.",
+          "translation": "处理从我们收到填写完整的申请表时开始。"
+        },
+        {
+          "index": 7,
+          "sentence": "Applicants should expect delays if the Passport Office receives a form with missing information.",
+          "translation": "如果护照办公室收到信息缺失的表格，申请人应预料到会出现延误。"
+        },
+        {
+          "index": 8,
+          "sentence": "Extra time should be allowed for delivery to and from the Passport Office.",
+          "translation": "应额外留出寄往和寄出护照办公室的递送时间。"
+        },
+        {
+          "index": 9,
+          "sentence": "Please provide two identical passport photos of yourself.",
+          "translation": "请提供两张您本人相同的护照照片。"
+        },
+        {
+          "index": 10,
+          "sentence": "Both photos must be the same in all respects and must be less than 12 months old.",
+          "translation": "两张照片必须在各个方面完全一致，且拍摄时间不得超过12个月。"
+        },
+        {
+          "index": 11,
+          "sentence": "Ask someone who can identify you to fill in the ‘Proof of Identity’ information and identify one of your photos.",
+          "translation": "请一位能够证明你身份的人填写‘身份证明’信息，并确认你的一张照片。"
+        },
+        {
+          "index": 12,
+          "sentence": "This person will be called your witness and needs to meet the following requirements: a witness must be aged 16 years or over, be contactable by phone during normal office hours and be the holder of a valid passport.",
+          "translation": "此人将被称作你的见证人，并需满足以下要求：见证人必须年满16岁，在正常办公时间内可通过电话联系，并持有效护照。"
+        },
+        {
+          "index": 13,
+          "sentence": "A witness should fill in the ‘Proof of Identity’ page in their own handwriting.",
+          "translation": "见证人应亲自手写填写‘身份证明’页面。"
+        },
+        {
+          "index": 14,
+          "sentence": "A witness must also write the full name of the person applying for the passport on the back of one of the photos, sign their own name and date the back of the same photo.",
+          "translation": "见证人还必须在其中一张照片背面写上护照申请人的全名，签署自己的姓名并注明日期。"
+        },
+        {
+          "index": 15,
+          "sentence": "Photos with this identifying information written in the applicant's own handwriting will not be accepted.",
+          "translation": "如果照片背面的身份信息由申请人自己手写，将不予接受。"
+        },
+        {
+          "index": 16,
+          "sentence": "Auckland International Airport Services",
+          "translation": "奥克兰国际机场服务"
+        },
+        {
+          "index": 18,
+          "sentence": "8",
+          "translation": "八"
+        },
+        {
+          "index": 19,
+          "sentence": "8",
+          "translation": "8"
+        },
+        {
+          "index": 20,
+          "sentence": "The second floor of the international terminal offers a view of the airfield and all incoming and outgoing flights.",
+          "translation": "国际航站楼的二楼可以俯瞰机场跑道以及所有进出港航班。"
+        },
+        {
+          "index": 21,
+          "sentence": "There is a cafe situated here as well as a restaurant, which is available for all airport visitors to use.",
+          "translation": "这里设有一家咖啡馆和一家餐厅，所有机场访客均可使用。"
+        },
+        {
+          "index": 23,
+          "sentence": "9",
+          "translation": "9"
+        },
+        {
+          "index": 24,
+          "sentence": "9",
+          "translation": "9"
+        },
+        {
+          "index": 25,
+          "sentence": "We are open for all international flights and provide a comprehensive service for visitors to the city.",
+          "translation": "我们为所有国际航班提供服务，并向到访城市的游客提供全面的服务。"
+        },
+        {
+          "index": 26,
+          "sentence": "Brochures on a range of attractions are available, and we also offer a booking service for accommodation and transport.",
+          "translation": "我们提供各类景点的小册子，同时还提供住宿和交通的预订服务。"
+        },
+        {
+          "index": 27,
+          "sentence": "Shuttle buses into the city centre are provided at a competitive price.",
+          "translation": "我们以具有竞争力的价格提供前往市中心的班车服务。"
+        },
+        {
+          "index": 29,
+          "sentence": "The second floor of the international terminal offers a view of the airfield and all incoming and outgoing flights.",
+          "translation": "国际航站楼的二楼可俯瞰机场跑道及所有进出港航班。"
+        },
+        {
+          "index": 30,
+          "sentence": "There is a cafe situated here as well as a restaurant, which is available for all airport visitors to use.",
+          "translation": "此处设有一家咖啡馆和一家餐厅，供所有机场访客使用。"
+        },
+        {
+          "index": 31,
+          "sentence": "The second floor of the international terminal offers a view of the airfield and all incoming and outgoing flights.",
+          "translation": "国际航站楼的二楼可以俯瞰机场跑道以及所有进出港航班。"
+        },
+        {
+          "index": 32,
+          "sentence": "There is a cafe situated here as well as a restaurant, which is available for all airport visitors to use.",
+          "translation": "这里设有一家咖啡馆和一家餐厅，可供所有机场访客使用。"
+        },
+        {
+          "index": 33,
+          "sentence": "Passengers who require urgent medical attention should dial 9877 on any public telephone in the terminal.",
+          "translation": "需要紧急医疗救助的乘客应在航站楼内的任何公用电话上拨打9877。"
+        },
+        {
+          "index": 34,
+          "sentence": "The airport pharmacy is located on the ground floor near the departure lounge, and stocks a comprehensive range of products.",
+          "translation": "机场药房位于底层靠近候机大厅的位置，并储备了种类齐全的产品。"
+        },
+        {
+          "index": 37,
+          "sentence": "11",
+          "translation": "11"
+        },
+        {
+          "index": 38,
+          "sentence": "Departing passengers can completely seal their luggage or packages in recyclable polythene to protect them from damage.",
+          "translation": "离港乘客可以完全用可回收聚乙烯密封行李或包裹，以防止其受损。"
+        },
+        {
+          "index": 39,
+          "sentence": "Luggage storage, charged at $10 per hour, is available on the first floor.",
+          "translation": "行李寄存服务位于一楼，收费为每小时10美元。"
+        },
+        {
+          "index": 40,
+          "sentence": "Transit passengers have free access to storage facilities.",
+          "translation": "过境乘客可免费使用寄存设施。"
+        },
+        {
+          "index": 42,
+          "sentence": "12",
+          "translation": "12"
+        },
+        {
+          "index": 43,
+          "sentence": "12",
+          "translation": "12"
+        },
+        {
+          "index": 44,
+          "sentence": "Every international passenger, with the exception of children under 12 years of age and transit passengers in Auckland for less than 24 hours, is required to make a payment of $25 when leaving the country.",
+          "translation": "每位国际旅客，除12岁以下儿童以及在奥克兰停留时间不足24小时的过境旅客外，在离境时需支付25美元的费用。"
+        },
+        {
+          "index": 45,
+          "sentence": "This can be arranged at the National Bank on the ground floor.",
+          "translation": "该支付可在底层的新西兰国家银行办理。"
+        },
+        {
+          "index": 47,
+          "sentence": "As Auckland International Airport has adopted the 'quiet airport' concept, there are usually no announcements made over the public address system.",
+          "translation": "由于奥克兰国际机场采用了‘安静机场’的理念，通常不会通过公共广播系统发布任何通知。"
+        },
+        {
+          "index": 48,
+          "sentence": "Details of all arrivals and departures are displayed on the monitors located in the terminal halls and lounge areas.",
+          "translation": "所有抵达和离港的详细信息都显示在航站楼大厅和休息区的监控屏幕上。"
+        },
+        {
+          "index": 49,
+          "sentence": "13",
+          "translation": "13"
+        },
+        {
+          "index": 50,
+          "sentence": "As Auckland International Airport has adopted the 'quiet airport' concept, there are usually no announcements made over the public address system.",
+          "translation": "由于奥克兰国际机场采用了‘安静机场’理念，通常不会通过公共广播系统发布通知。"
+        },
+        {
+          "index": 51,
+          "sentence": "Details of all arrivals and departures are displayed on the monitors located in the terminal halls and lounge areas.",
+          "translation": "所有航班的到达和起飞详情均显示在航站楼大厅和休息区的显示屏上。"
+        },
+        {
+          "index": 53,
+          "sentence": "We are open for all international flights and provide a comprehensive service for visitors to the city.",
+          "translation": "我们为所有国际航班提供服务，并为来这座城市的游客提供全面的服务。"
+        },
+        {
+          "index": 54,
+          "sentence": "Brochures on a range of attractions are available, and we also offer a booking service for accommodation and transport.",
+          "translation": "我们提供一系列景点的宣传册，同时还提供住宿和交通的预订服务。"
+        },
+        {
+          "index": 55,
+          "sentence": "Shuttle buses into the city centre are provided at a competitive price.",
+          "translation": "我们以有竞争力的价格提供前往市中心的班车服务。"
+        },
+        {
+          "index": 56,
+          "sentence": "We are open for all international flights and provide a comprehensive service for visitors to the city.",
+          "translation": "我们为所有国际航班提供服务，并为来访该市的游客提供全面的服务。"
+        },
+        {
+          "index": 57,
+          "sentence": "Brochures on a range of attractions are available, and we also offer a booking service for accommodation and transport.",
+          "translation": "提供一系列景点的小册子，我们还提供住宿和交通的预订服务。"
+        },
+        {
+          "index": 58,
+          "sentence": "Shuttle buses into the city centre are provided at a competitive price.",
+          "translation": "提供前往市中心的班车，价格具有竞争力。"
+        },
+        {
+          "index": 59,
+          "sentence": "The airport caters for the needs of business travellers and has several rooms available for seminars or business gatherings.",
+          "translation": "该机场满足商务旅客的需求，并提供多个可用于研讨会或商务聚会的房间。"
+        },
+        {
+          "index": 60,
+          "sentence": "These are located adjacent to the airport medical centre on the first floor.",
+          "translation": "这些房间位于一楼机场医疗中心隔壁。"
+        },
+        {
+          "index": 61,
+          "sentence": "For information and bookings please contact the Airport Business Manager on extension 5294.",
+          "translation": "如需信息和预订，请拨打分机号5294联系机场商务经理。"
+        }
+      ]
+    },
+    {
+      "id": "2109",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Part 2 reading texts",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Planning a gap year",
+          "translation": "规划你的间隔年"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "The best reason to take a gap year between school and work or higher education is to improve your CV with experience overseas. This is why some school leavers in Britain now consider a year out to be essential. Many want to travel, with Sydney the favourite destination. Shooting Star is an organisation that helps school leavers by offering training followed by appropriate employment.",
+          "translation": "在学业与工作或高等教育之间休间隔年的最佳理由是通过海外经历来丰富你的简历。\n这就是为什么英国一些中学毕业生现在认为休一年学是必不可少的。\n许多人想要旅行，其中悉尼是最受欢迎的目的地。\n‘流星’是一个帮助中学毕业生的组织，它提供培训并随后安排合适的工作。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "We at Shooting Star offer much more than a trip abroad. At Shooting Star you acquire skills that lead to interesting jobs both for your gap year and future holidays. Magazines are full of 'Wanted' adverts for washing up in a restaurant. Well, we don't do that- it's not our idea of excitement. We offer school leavers the chance for outdoor adventure, to teach things like sailing and snowboarding. No choice, really! In your year out you train, travel and work; you can combine work with pleasure and reap the rewards. You could become an experienced yacht skipper or instructor and many people go on to spend their future holidays being paid to enjoy their favourite sport.",
+          "translation": "我们 Shooting Star 提供的远不止一次出国旅行。\n在 Shooting Star，你能够获得技能，这些技能会为你带来在间隔年以及未来假期中从事有趣工作的机会。\n杂志上满是招聘餐厅洗碗工的‘诚聘’广告。\n嗯，我们不会那样做——这并非我们心目中的兴奋点。\n我们为离校生提供户外探险的机会，教授诸如帆船和滑雪等技能。\n真的别无选择！\n在间隔年里，你会接受培训、旅行和工作；你可以将工作与乐趣相结合，并从中获得回报。\n你可能会成为一名经验丰富的游艇船长或教练，而许多人随后会在未来的假期中，通过享受他们最喜爱的运动来获得报酬。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Australians and New Zealanders travel to Europe and North America in large numbers to gain overseas experience. Those who qualify with Shooting Star are very soon using their skills in jobs they could only dream about before, working outdoors and seeing more of the world. Wherever you come from, a gap year with Shooting Star means professional training and international adventure.",
+          "translation": "大量澳大利亚人和新西兰人前往欧洲和北美以获取海外经历。\n那些获得Shooting Star资格的人很快就能在他们以前只能梦想的工作中运用技能，在户外工作并见识更广阔的世界。\n无论你来自哪里，与Shooting Star一起度过的间隔年意味着专业培训和国际冒险。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Top tips for a successful gap year:",
+          "translation": "成功间隔年的顶级建议："
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "☆ Design your gap year in outline before applying for a permanent job or a college place. Human Resources officers or Admissions tutors will be impressed by a thought-out plan.",
+          "translation": "☆ 在申请永久职位或大学入学之前，先大致规划你的间隔年。\n人力资源官员或招生导师会对一个经过深思熟虑的计划印象深刻。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "☆ What's more important to you - travel or work experience? You can be flexible with travel plans but you must research job opportunities in advance. Go to our website and click on Recruitment for ideas.",
+          "translation": "☆ 对你来说，什么更重要——旅行还是工作经历？\n你可以在旅行计划上灵活安排，但必须提前研究工作机会。\n访问我们的网站，点击“招聘”栏目获取想法。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "☆ Who do you know who has taken a gap year before? Shooting Star can put you in touch with someone who has just completed one.",
+          "translation": "☆ 你认识谁曾经度过间隔年吗？\n“流星”机构可以帮你联系一位刚刚完成间隔年的人。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "☆ Sort out the admin in plenty of time - air tickets, visas, insurance and medical matters such as vaccinations for some destinations. These are your responsibility.",
+          "translation": "提前处理好行政事务——包括机票、签证、保险以及针对某些目的地所需的疫苗接种等医疗事项。\n这些是你的责任。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "☆ Who is in charge of your affairs while you are away? There will be forms to fill and letters to answer.",
+          "translation": "☆ 当你不在的时候，谁负责处理你的事务？\n会有表格需要填写，信件需要回复。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "☆ Allow plenty of time to settle back home on your return - and don't be surprised if it takes some time to readjust to everyday life!",
+          "translation": "√ 请在回国后留出充足的时间让自己重新适应家庭生活——如果花一些时间才能重新适应日常生活，不必感到惊讶！"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Succeeding at Interviews",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "面试中的成功之道"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Getting invited to an interview means you have passed the first hurdle - your application must have made a good impression. Now you need to prepare yourself for the interview to make sure you make the most of this opportunity. There are a number of things you can do.",
+          "translation": "获得面试邀请意味着你已经通过了第一道难关——你的申请一定给人留下了良好的印象。\n现在你需要为面试做好准备，以确保你充分利用这一机会。\n你可以做许多事情来为此做准备。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Firstly you can do some research. Find out about the employer and the job, ask for an information pack or speak to people you know who work for the company. Try to plan for the interview by asking who will be interviewing you and whether there will be a test to take.",
+          "translation": "首先，你可以做一些调研。\n了解雇主和职位信息，索取相关资料包，或与你认识的公司员工交流。\n尝试为面试做计划，询问谁将面试你以及是否有测试需要参加。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Prepare for questions you might be asked. Some common ones are the reason why you want the job, whether you have done this kind of work before, what your strengths and weaknesses are, and which leisure pursuits you enjoy.",
+          "translation": "准备好你可能被问到的问题。\n一些常见问题包括：你为什么想要这份工作，是否做过类似工作，你的优点和缺点是什么，以及你有哪些业余爱好。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "Another important point is never to run the risk of arriving late. For example, consider making a 'dummy run in advance to see how long the journey will take. Check out public transport or, if you are going by car, the nearest parking. Aim to arrive about 10 minutes before the interview is due to start.",
+          "translation": "另一个重要的一点是，永远不要冒险迟到。\n例如，考虑提前进行一次模拟行程，以了解路途所需时间。\n查一下公共交通，或者如果你开车去，要找到最近的停车场。\n尽量在面试预定开始时间前大约10分钟到达。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "It is also crucial to give plenty of thought to what you are going to wear. This will depend on the job you are going for. There is no need to buy a new outfit, but aim to look neat and tidy. Remember, if you look good it will help you feel good.",
+          "translation": "同样关键的是，要充分考虑你要穿什么。\n这将取决于你应聘的工作。\n没有必要购买新套装，但务求看起来整洁得体。\n记住，如果你看起来不错，这会有助于你感觉良好。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "You need to make a good impression. Interviews can vary from a relatively informal 'one-to-one' chat to a very formal panel situation. Whatever the circumstances, you will give yourself an advantage by being friendly and polite, by making eye contact with the interviewer and by selling yourself by focusing on your strengths.",
+          "translation": "你需要留下一个好印象。\n面试可能从相对非正式的“一对一”聊天，到非常正式的评审团面试，形式各不相同。\n无论在何种情况下，保持友好礼貌、与面试官进行眼神交流，并通过突出自身优势来推销自己，都会让你占据优势。"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "There are also things you should avoid doing at your interview. First of all, don’t exaggerate. For example, if you don’t have the exact experience the employer is looking for, say so and explain you are willing to learn. Don’t simply give ‘yes’ and ‘no’ answers, but answer questions as fully as you can. And lastly don’t forget to ask questions as well as answering them.",
+          "translation": "在面试中也有一些你应该避免做的事情。\n首先，不要夸大其词。\n例如，如果你没有雇主正在寻找的特定经验，就如实说明并解释你愿意学习。\n不要仅仅给出‘是’或‘不是’的回答，而要尽可能完整地回答问题。\n最后，不要忘了在回答问题的同时也提出问题。\n在面试中，你还需要避免做一些事情。\n例如，如果你不具备雇主所要求的确切经验，就如实说明，并解释你愿意学习。\n不要只给出‘是’或‘不是’的回答，而是尽可能全面地回答问题。\n最后，别忘了在回答问题的同时，也要提出问题。"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "One final thing to remember: it is important to show good team spirit, that you possess good people skills and that you are friendly and approachable. Finally, remember to be enthusiastic and show that you can be flexible.",
+          "translation": "最后一点要记住：展现出良好的团队精神、拥有出色的人际交往能力，以及为人友善且平易近人，这一点非常重要。\n最后，请记住要保持热情，并展现出你可以灵活变通。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15905",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 15 - 20\nDo the following statements agree with the information given in Reading Passage 1?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120701",
+              "number": 15,
+              "prompt": "For some young British people, the purpose of a gap year is to improve their academic qualifications.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称一些英国年轻人休间隔年是为了提高学术资历（academic qualifications），但原文明确指出其主要目的是通过海外经历来提升简历（improve your CV with experience overseas），强调的是工作经验而非学术资质。因此，题干与原文信息矛盾，答案为 FALSE。",
+              "reason": "原文强调工作经验（experience overseas / CV），而非学术资历（academic qualifications），故与题干矛盾。",
+              "location_analysis": "题干说提高学术资历（academic qualifications），原文说提高CV（即工作经...",
+              "paraphrasing": "academic qualifications -> experience overseas; improve their CV",
+              "keywords": "British, gap year, academic qualifications",
+              "evidence": [
+                "The best reason to take a gap year between school and work or higher education is to improve your CV with experience overseas."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文信息矛盾，原文指出间隔年的目的是其他方面，而非提高学术资质。",
+                "NOT GIVEN": "原文明确提及了间隔年的目的，并非未给出信息。"
+              }
+            },
+            {
+              "id": "120702",
+              "number": 16,
+              "prompt": "Shooting Star finds employment for young people in the catering industry.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称 Shooting Star 为年轻人在餐饮业找工作，但原文明确表示“我们不做那种事”（we don't do that），并举例说明杂志上常见的洗碗工作不符合他们的理念。Shooting Star 提供的是户外运动类工作，如帆船和滑雪教学，因此题干与原文矛盾，答案为 FALSE。",
+              "reason": "Shooting Star只提供户外冒险类工作（sailing, snowboarding等），拒绝餐饮类（washing up），故与题干不符。",
+              "location_analysis": "原文明确说‘we don't do that’（不提供餐饮行业工作），故选FALSE。",
+              "paraphrasing": "catering industry -> washing up in a restaurant",
+              "keywords": "catering industry, Shooting Star",
+              "evidence": [
+                "Magazines are full of 'Wanted' adverts for washing up in a restaurant. Well, we don't do that- it's not our idea of excitement."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": {
+                "TRUE": "与原文明确提到的内容矛盾，原文指出该机构并未为年轻人提供餐饮业就业。",
+                "NOT GIVEN": "原文有明确信息可判断该陈述错误，并非未提及。"
+              }
+            },
+            {
+              "id": "120703",
+              "number": 17,
+              "prompt": "Training with Shooting Star can be expensive.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问 Shooting Star 的培训是否昂贵，但通读全文并未提及任何关于培训费用的信息。文章只强调培训内容、就业机会和行程安排责任归属，未涉及成本或价格。因此，该信息在文中未给出，答案为 NOT GIVEN。",
+              "reason": "原文未涉及培训费用信息。",
+              "location_analysis": "全文未提及费用，故NOT GIVEN。",
+              "paraphrasing": "",
+              "keywords": "Training, expensive",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及训练费用是否昂贵，此选项属于无中生有。",
+                "FALSE": "原文未提供足够信息证明训练不昂贵，不能直接判断为错误。"
+              }
+            },
+            {
+              "id": "120704",
+              "number": 18,
+              "prompt": "New trainees find it easy to get the sort of work they want.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干说新学员能轻松获得想要的工作，原文提到“那些通过 Shooting Star 获得资格的人很快就能从事他们以前只能梦想的工作”（jobs they could only dream about before），表明他们确实能获得理想岗位。这与题干表述一致，答案为 TRUE。",
+              "reason": "qualify对应trainees，‘could only dream about’表示能得到想要的工作，与题干一致。",
+              "location_analysis": "原文说‘using their skills in jobs they could only ...",
+              "paraphrasing": "new trainees -> those who qualify; get the sort of work they want -> using their skills in jobs they could only dream about",
+              "keywords": "New trainees, get the sort of work they want",
+              "evidence": [
+                "Those who qualify with Shooting Star are very soon using their skills in jobs they could only dream about before, working outdoors and seeing more of the world."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文信息矛盾，原文明确提出新学员容易找到想要的工作。",
+                "NOT GIVEN": "该选项错误，因为原文提供了相关信息，并不是未提及。"
+              }
+            },
+            {
+              "id": "120705",
+              "number": 19,
+              "prompt": "New trainees who want work experience should check out vacancies before they depart.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干指出重视工作经验的学员应在出发前查看职位空缺，原文建议“你必须提前调研工作机会”（you must research job opportunities in advance），并引导读者访问网站 Recruitment 页面获取信息。这与题干完全对应，答案为 TRUE。",
+              "reason": "题干准确概括原文建议：出发前应做好工作机会调研。",
+              "location_analysis": "原文‘research job opportunities in advance’对应‘che...",
+              "paraphrasing": "check vacancies -> research job opportunities in advance",
+              "keywords": "work experience, check vacancies",
+              "evidence": [
+                "What's more important to you - travel or work experience? You can be flexible with travel plans but you must research job opportunities in advance."
+              ],
+              "confidence": 0.96,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文信息矛盾，原文明确建议新学员在出发前查看职位空缺。",
+                "NOT GIVEN": "该选项认为原文未提及，但原文明确给出了这一建议。"
+              }
+            },
+            {
+              "id": "120706",
+              "number": 20,
+              "prompt": "Shooting Star helps with travel arrangements.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称 Shooting Star 协助安排旅行事宜，但原文明确指出机票、签证、保险等行政事务“是你的责任”（These are your responsibility），说明机构并不代为处理旅行安排。因此题干与原文不符，答案为 FALSE。",
+              "reason": "‘These are your responsibility’表示Shooting Star不帮助处理，故选FALSE。",
+              "location_analysis": "原文明确说行李（air tickets, visas等）是个人责任（your responsi...",
+              "paraphrasing": "",
+              "keywords": "travel arrangements, Shooting Star",
+              "evidence": [
+                "Sort out the admin in plenty of time - air tickets, visas, insurance and medical matters such as vaccinations for some destinations. These are your responsibility."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": {
+                "TRUE": "原文中明确指出Shooting Star不提供旅行安排协助，与选项矛盾。",
+                "NOT GIVEN": "原文明确否定了该信息，因此不是未提及，而是与原文相反。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15912",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 21 - 27\nThe text has eight sections, A-H.\nWhich section mentions the following?\nWrite the correct letter, A-H, in boxes 21-27 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120707",
+              "number": 21,
+              "prompt": "the importance of good manners",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干要求找出提及“良好礼仪”（good manners）的部分，F 段提到“友善有礼”（being friendly and polite）、保持眼神交流等行为，这些正是良好礼仪的具体体现。因此 F 段与题干匹配，答案为 F。",
+              "reason": "F段直接描述举止礼貌（friendly and polite），与题干匹配。",
+              "location_analysis": "F段强调‘friendly and polite’等礼貌举止，对应good manners。",
+              "paraphrasing": "good manners -> polite, friendly, eye contact",
+              "keywords": "good manners, polite, friendly",
+              "evidence": [
+                "Whatever the circumstances, you will give yourself an advantage by being friendly and polite, by making eye contact with the interviewer and by selling yourself by focusing on your strengths."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120708",
+              "number": 22,
+              "prompt": "using your contacts",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“using your contacts”对应 B 段中“与你认识的在该公司工作的人交谈”（speak to people you know who work for the company），这正是利用人脉资源获取信息的做法。因此答案为 B。",
+              "reason": "利用熟人（people you know）就是题干所说的‘contacts’。",
+              "location_analysis": "B段‘speak to people you know who work for the co...",
+              "paraphrasing": "contacts -> speak to people you know",
+              "keywords": "contacts",
+              "evidence": [
+                "Firstly you can do some research. Find out about the employer and the job, ask for an information pack or speak to people you know who work for the company."
+              ],
+              "confidence": 0.94,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120709",
+              "number": 23,
+              "prompt": "giving adequate responses",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干“giving adequate responses”指给出充分回答，G 段明确建议“不要只回答‘是’或‘否’，而应尽可能完整地回答问题”（answer questions as fully as you can），这与题干意思完全一致，答案为 G。",
+              "reason": "answer as fully as you can对应adequate。",
+              "location_analysis": "G段建议尽量完整回答，即adequate responses。",
+              "paraphrasing": "adequate responses -> answer questions as fully as you can",
+              "keywords": "giving adequate responses",
+              "evidence": [
+                "Don’t simply give ‘yes’ and ‘no’ answers, but answer questions as fully as you can."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120710",
+              "number": 24,
+              "prompt": "getting on well with colleagues",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "题干“getting on well with colleagues”指与同事相处融洽，H 段强调“展现良好的团队精神、人际交往能力、友善且平易近人”（good team spirit, good people skills, friendly and approachable），这些正是良好同事关系的核心要素，答案为 H。",
+              "reason": "题干‘getting on well with colleagues’对应team spirit和people skills。",
+              "location_analysis": "H段讲team spirit、people skills、approachable，即与同事相...",
+              "paraphrasing": "getting on well with colleagues -> show good team spirit, people skills, approachable",
+              "keywords": "getting on well with colleagues",
+              "evidence": [
+                "One final thing to remember: it is important to show good team spirit, that you possess good people skills and that you are friendly and approachable."
+              ],
+              "confidence": 0.96,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120711",
+              "number": 25,
+              "prompt": "the information you may need to provide",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“the information you may need to provide”指面试中需准备提供的信息，C 段列举了常见问题，如求职动机、过往经验、优缺点及业余爱好，这些正是应聘者需要提前准备作答的内容，因此答案为 C。",
+              "reason": "题干‘information you may need to provide’即准备回答常见问题。",
+              "location_analysis": "C段列举常见面试问题（reasons, experience, strengths, weak...",
+              "paraphrasing": "information you may need to provide -> prepare for questions",
+              "keywords": "information you may need to provide",
+              "evidence": [
+                "Prepare for questions you might be asked. Some common ones are the reason why you want the job, whether you have done this kind of work before, what your strengths and weaknesses are, and which leisure pursuits you enjoy."
+              ],
+              "confidence": 0.93,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120712",
+              "number": 26,
+              "prompt": "being honest with the interviewer",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干“being honest with the interviewer”对应 G 段中“不要夸大”（don’t exaggerate），并举例说明若缺乏相关经验应如实告知（say so），这体现了诚实的态度。因此答案为 G。",
+              "reason": "don't exaggerate和say so对应honest。",
+              "location_analysis": "G段警告不要夸大，即诚实。",
+              "paraphrasing": "being honest -> don’t exaggerate",
+              "keywords": "being honest with the interviewer",
+              "evidence": [
+                "First of all, don’t exaggerate. For example, if you don’t have the exact experience the employer is looking for, say so and explain you are willing to learn."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120713",
+              "number": 27,
+              "prompt": "being punctual",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干“being punctual”指守时，D 段强调“绝不能冒迟到的风险”（never to run the risk of arriving late），并建议提前踩点、预留时间，目标是“提前10分钟到达”。这些内容直接体现对守时的重视，答案为 D。",
+              "reason": "‘never to run the risk of arriving late’和‘arrive 10 minutes before’强调守时。",
+              "location_analysis": "D段全文强调不能迟到（never late, dummy run, arrive 10 min...",
+              "paraphrasing": "punctual -> never to run the risk of arriving late",
+              "keywords": "being punctual",
+              "evidence": [
+                "Another important point is never to run the risk of arriving late.",
+                "Aim to arrive about 10 minutes before the interview is due to start."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Succeeding at Interviews",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Planning a gap year",
+          "translation": "规划你的间隔年"
+        },
+        {
+          "index": 2,
+          "sentence": "The best reason to take a gap year between school and work or higher education is to improve your CV with experience overseas.",
+          "translation": "在学业与工作或高等教育之间休间隔年的最佳理由是通过海外经历来丰富你的简历。"
+        },
+        {
+          "index": 3,
+          "sentence": "This is why some school leavers in Britain now consider a year out to be essential.",
+          "translation": "这就是为什么英国一些中学毕业生现在认为休一年学是必不可少的。"
+        },
+        {
+          "index": 4,
+          "sentence": "Many want to travel, with Sydney the favourite destination.",
+          "translation": "许多人想要旅行，其中悉尼是最受欢迎的目的地。"
+        },
+        {
+          "index": 5,
+          "sentence": "Shooting Star is an organisation that helps school leavers by offering training followed by appropriate employment.",
+          "translation": "‘流星’是一个帮助中学毕业生的组织，它提供培训并随后安排合适的工作。"
+        },
+        {
+          "index": 6,
+          "sentence": "We at Shooting Star offer much more than a trip abroad.",
+          "translation": "我们 Shooting Star 提供的远不止一次出国旅行。"
+        },
+        {
+          "index": 7,
+          "sentence": "At Shooting Star you acquire skills that lead to interesting jobs both for your gap year and future holidays.",
+          "translation": "在 Shooting Star，你能够获得技能，这些技能会为你带来在间隔年以及未来假期中从事有趣工作的机会。"
+        },
+        {
+          "index": 8,
+          "sentence": "Magazines are full of 'Wanted' adverts for washing up in a restaurant.",
+          "translation": "杂志上满是招聘餐厅洗碗工的‘诚聘’广告。"
+        },
+        {
+          "index": 9,
+          "sentence": "Well, we don't do that- it's not our idea of excitement.",
+          "translation": "嗯，我们不会那样做——这并非我们心目中的兴奋点。"
+        },
+        {
+          "index": 10,
+          "sentence": "We offer school leavers the chance for outdoor adventure, to teach things like sailing and snowboarding.",
+          "translation": "我们为离校生提供户外探险的机会，教授诸如帆船和滑雪等技能。"
+        },
+        {
+          "index": 11,
+          "sentence": "No choice, really!",
+          "translation": "真的别无选择！"
+        },
+        {
+          "index": 12,
+          "sentence": "In your year out you train, travel and work; you can combine work with pleasure and reap the rewards.",
+          "translation": "在间隔年里，你会接受培训、旅行和工作；你可以将工作与乐趣相结合，并从中获得回报。"
+        },
+        {
+          "index": 13,
+          "sentence": "You could become an experienced yacht skipper or instructor and many people go on to spend their future holidays being paid to enjoy their favourite sport.",
+          "translation": "你可能会成为一名经验丰富的游艇船长或教练，而许多人随后会在未来的假期中，通过享受他们最喜爱的运动来获得报酬。"
+        },
+        {
+          "index": 14,
+          "sentence": "Australians and New Zealanders travel to Europe and North America in large numbers to gain overseas experience.",
+          "translation": "大量澳大利亚人和新西兰人前往欧洲和北美以获取海外经历。"
+        },
+        {
+          "index": 15,
+          "sentence": "Those who qualify with Shooting Star are very soon using their skills in jobs they could only dream about before, working outdoors and seeing more of the world.",
+          "translation": "那些获得Shooting Star资格的人很快就能在他们以前只能梦想的工作中运用技能，在户外工作并见识更广阔的世界。"
+        },
+        {
+          "index": 16,
+          "sentence": "Wherever you come from, a gap year with Shooting Star means professional training and international adventure.",
+          "translation": "无论你来自哪里，与Shooting Star一起度过的间隔年意味着专业培训和国际冒险。"
+        },
+        {
+          "index": 17,
+          "sentence": "Top tips for a successful gap year:",
+          "translation": "成功间隔年的顶级建议："
+        },
+        {
+          "index": 18,
+          "sentence": "☆ Design your gap year in outline before applying for a permanent job or a college place.",
+          "translation": "☆ 在申请永久职位或大学入学之前，先大致规划你的间隔年。"
+        },
+        {
+          "index": 19,
+          "sentence": "Human Resources officers or Admissions tutors will be impressed by a thought-out plan.",
+          "translation": "人力资源官员或招生导师会对一个经过深思熟虑的计划印象深刻。"
+        },
+        {
+          "index": 20,
+          "sentence": "☆ What's more important to you - travel or work experience?",
+          "translation": "☆ 对你来说，什么更重要——旅行还是工作经历？"
+        },
+        {
+          "index": 21,
+          "sentence": "You can be flexible with travel plans but you must research job opportunities in advance.",
+          "translation": "你可以在旅行计划上灵活安排，但必须提前研究工作机会。"
+        },
+        {
+          "index": 22,
+          "sentence": "Go to our website and click on Recruitment for ideas.",
+          "translation": "访问我们的网站，点击“招聘”栏目获取想法。"
+        },
+        {
+          "index": 23,
+          "sentence": "☆ Who do you know who has taken a gap year before?",
+          "translation": "☆ 你认识谁曾经度过间隔年吗？"
+        },
+        {
+          "index": 24,
+          "sentence": "Shooting Star can put you in touch with someone who has just completed one.",
+          "translation": "“流星”机构可以帮你联系一位刚刚完成间隔年的人。"
+        },
+        {
+          "index": 25,
+          "sentence": "☆ Sort out the admin in plenty of time - air tickets, visas, insurance and medical matters such as vaccinations for some destinations.",
+          "translation": "提前处理好行政事务——包括机票、签证、保险以及针对某些目的地所需的疫苗接种等医疗事项。"
+        },
+        {
+          "index": 26,
+          "sentence": "These are your responsibility.",
+          "translation": "这些是你的责任。"
+        },
+        {
+          "index": 27,
+          "sentence": "☆ Who is in charge of your affairs while you are away?",
+          "translation": "☆ 当你不在的时候，谁负责处理你的事务？"
+        },
+        {
+          "index": 28,
+          "sentence": "There will be forms to fill and letters to answer.",
+          "translation": "会有表格需要填写，信件需要回复。"
+        },
+        {
+          "index": 29,
+          "sentence": "☆ Allow plenty of time to settle back home on your return - and don't be surprised if it takes some time to readjust to everyday life!",
+          "translation": "√ 请在回国后留出充足的时间让自己重新适应家庭生活——如果花一些时间才能重新适应日常生活，不必感到惊讶！"
+        },
+        {
+          "index": 30,
+          "sentence": "Succeeding at Interviews",
+          "translation": "面试中的成功之道"
+        },
+        {
+          "index": 32,
+          "sentence": "Getting invited to an interview means you have passed the first hurdle - your application must have made a good impression.",
+          "translation": "获得面试邀请意味着你已经通过了第一道难关——你的申请一定给人留下了良好的印象。"
+        },
+        {
+          "index": 33,
+          "sentence": "Now you need to prepare yourself for the interview to make sure you make the most of this opportunity.",
+          "translation": "现在你需要为面试做好准备，以确保你充分利用这一机会。"
+        },
+        {
+          "index": 34,
+          "sentence": "There are a number of things you can do.",
+          "translation": "你可以做许多事情来为此做准备。"
+        },
+        {
+          "index": 36,
+          "sentence": "Firstly you can do some research.",
+          "translation": "首先，你可以做一些调研。"
+        },
+        {
+          "index": 37,
+          "sentence": "Find out about the employer and the job, ask for an information pack or speak to people you know who work for the company.",
+          "translation": "了解雇主和职位信息，索取相关资料包，或与你认识的公司员工交流。"
+        },
+        {
+          "index": 38,
+          "sentence": "Try to plan for the interview by asking who will be interviewing you and whether there will be a test to take.",
+          "translation": "尝试为面试做计划，询问谁将面试你以及是否有测试需要参加。"
+        },
+        {
+          "index": 40,
+          "sentence": "Prepare for questions you might be asked.",
+          "translation": "准备好你可能被问到的问题。"
+        },
+        {
+          "index": 41,
+          "sentence": "Some common ones are the reason why you want the job, whether you have done this kind of work before, what your strengths and weaknesses are, and which leisure pursuits you enjoy.",
+          "translation": "一些常见问题包括：你为什么想要这份工作，是否做过类似工作，你的优点和缺点是什么，以及你有哪些业余爱好。"
+        },
+        {
+          "index": 43,
+          "sentence": "Another important point is never to run the risk of arriving late.",
+          "translation": "另一个重要的一点是，永远不要冒险迟到。"
+        },
+        {
+          "index": 44,
+          "sentence": "For example, consider making a 'dummy run in advance to see how long the journey will take.",
+          "translation": "例如，考虑提前进行一次模拟行程，以了解路途所需时间。"
+        },
+        {
+          "index": 45,
+          "sentence": "Check out public transport or, if you are going by car, the nearest parking.",
+          "translation": "查一下公共交通，或者如果你开车去，要找到最近的停车场。"
+        },
+        {
+          "index": 46,
+          "sentence": "Aim to arrive about 10 minutes before the interview is due to start.",
+          "translation": "尽量在面试预定开始时间前大约10分钟到达。"
+        },
+        {
+          "index": 48,
+          "sentence": "It is also crucial to give plenty of thought to what you are going to wear.",
+          "translation": "同样关键的是，要充分考虑你要穿什么。"
+        },
+        {
+          "index": 49,
+          "sentence": "This will depend on the job you are going for.",
+          "translation": "这将取决于你应聘的工作。"
+        },
+        {
+          "index": 50,
+          "sentence": "There is no need to buy a new outfit, but aim to look neat and tidy.",
+          "translation": "没有必要购买新套装，但务求看起来整洁得体。"
+        },
+        {
+          "index": 51,
+          "sentence": "Remember, if you look good it will help you feel good.",
+          "translation": "记住，如果你看起来不错，这会有助于你感觉良好。"
+        },
+        {
+          "index": 53,
+          "sentence": "You need to make a good impression.",
+          "translation": "你需要留下一个好印象。"
+        },
+        {
+          "index": 54,
+          "sentence": "Interviews can vary from a relatively informal 'one-to-one' chat to a very formal panel situation.",
+          "translation": "面试可能从相对非正式的“一对一”聊天，到非常正式的评审团面试，形式各不相同。"
+        },
+        {
+          "index": 55,
+          "sentence": "Whatever the circumstances, you will give yourself an advantage by being friendly and polite, by making eye contact with the interviewer and by selling yourself by focusing on your strengths.",
+          "translation": "无论在何种情况下，保持友好礼貌、与面试官进行眼神交流，并通过突出自身优势来推销自己，都会让你占据优势。"
+        },
+        {
+          "index": 56,
+          "sentence": "There are also things you should avoid doing at your interview.",
+          "translation": "在面试中也有一些你应该避免做的事情。"
+        },
+        {
+          "index": 57,
+          "sentence": "First of all, don’t exaggerate.",
+          "translation": "首先，不要夸大其词。"
+        },
+        {
+          "index": 58,
+          "sentence": "For example, if you don’t have the exact experience the employer is looking for, say so and explain you are willing to learn.",
+          "translation": "例如，如果你没有雇主正在寻找的特定经验，就如实说明并解释你愿意学习。"
+        },
+        {
+          "index": 59,
+          "sentence": "Don’t simply give ‘yes’ and ‘no’ answers, but answer questions as fully as you can.",
+          "translation": "不要仅仅给出‘是’或‘不是’的回答，而要尽可能完整地回答问题。"
+        },
+        {
+          "index": 60,
+          "sentence": "And lastly don’t forget to ask questions as well as answering them.",
+          "translation": "最后，不要忘了在回答问题的同时也提出问题。"
+        },
+        {
+          "index": 61,
+          "sentence": "There are also things you should avoid doing at your interview.",
+          "translation": "在面试中，你还需要避免做一些事情。"
+        },
+        {
+          "index": 62,
+          "sentence": "First of all, don’t exaggerate.",
+          "translation": "首先，不要夸大其词。"
+        },
+        {
+          "index": 63,
+          "sentence": "For example, if you don’t have the exact experience the employer is looking for, say so and explain you are willing to learn.",
+          "translation": "例如，如果你不具备雇主所要求的确切经验，就如实说明，并解释你愿意学习。"
+        },
+        {
+          "index": 64,
+          "sentence": "Don’t simply give ‘yes’ and ‘no’ answers, but answer questions as fully as you can.",
+          "translation": "不要只给出‘是’或‘不是’的回答，而是尽可能全面地回答问题。"
+        },
+        {
+          "index": 65,
+          "sentence": "And lastly don’t forget to ask questions as well as answering them.",
+          "translation": "最后，别忘了在回答问题的同时，也要提出问题。"
+        },
+        {
+          "index": 67,
+          "sentence": "One final thing to remember: it is important to show good team spirit, that you possess good people skills and that you are friendly and approachable.",
+          "translation": "最后一点要记住：展现出良好的团队精神、拥有出色的人际交往能力，以及为人友善且平易近人，这一点非常重要。"
+        },
+        {
+          "index": 68,
+          "sentence": "Finally, remember to be enthusiastic and show that you can be flexible.",
+          "translation": "最后，请记住要保持热情，并展现出你可以灵活变通。"
+        }
+      ]
+    },
+    {
+      "id": "2110",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Serendipity - accidental discoveries in science",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "What do photography, dynamite, insulin and artificial sweetener have in common? Serendipity! These diverse discoveries, which have made our everyday living more convenient, were discovered partly by chance. However, Louis Pasteur noted the additional requirement involved in serendipity when he said, 'chance favours only the prepared mind'.",
+          "translation": "摄影、炸药、胰岛素和人造甜味剂有什么共同点？\n偶然发现！\n这些使我们的日常生活更加便捷的多样化发现，部分是偶然获得的。\n然而，路易斯·巴斯德指出了偶然发现中的额外条件，他曾说：“机会只眷顾有准备的头脑。”\n摄影、炸药、胰岛素和人造甜味剂有什么共同之处？\n机缘巧合！\n这些使我们的日常生活更加便利的多样化发现，部分是出于偶然。\n然而，路易斯·巴斯德在指出‘机会只眷顾有准备的头脑’时，强调了机缘巧合所涉及的额外条件。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The discovery of modern photography provides an example of serendipity. In 1838, L.J.M. Daguerre was attempting to 'fix' images onto a copper photographic plate. After adding a silver coating to the plate and exposing it to iodine vapour, he found that the photographic image was improved but still very weak. Desperate after an investigation lasting several months, Daguerre placed a lightly exposed photographic plate in the cupboard in which laboratory chemicals such as alcohol and collodion were stored. To his amazement, when he removed the plate several days later, Daguerre found a strong image on its surface.",
+          "translation": "偶然发现！\n机缘巧合！\n现代摄影的发现提供了一个意外发现的例子。\n1838年，L.J.M. 达盖尔试图将图像“固定”到铜质摄影感光板上。\n在感光板上添加银涂层并暴露于碘蒸汽后，他发现摄影图像有所改善，但仍然非常模糊。\n经过数月的研究，达盖尔感到绝望，于是将一块轻微曝光的摄影感光板放入了存放酒精和火棉胶等实验室化学品的柜子里。\n令他惊讶的是，几天后当他取出感光板时，发现其表面出现了一幅清晰的图像。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "This image had been created by chance. It was at this point that Louis Pasteur's 'additional requirement' came into play: Daguerre's training told him that one or more of the chemicals in the cupboard was responsible for intensifying the image. After a break of two weeks, Daguerre systematically placed new photographic plates in the cupboard, removing one chemical each day. Unpredictably, good photographic images were created even after all chemicals had been removed. Daguerre then noticed that some mercury had spilled onto the cupboard shelf, and he concluded that the mercury vapour must have improved the photographic result. From this discovery came the universal adoption of the silver-mercury process to develop photographs.",
+          "translation": "这张图像是偶然产生的。\n正是在这个时候，路易·巴斯德的‘额外条件’发挥了作用：达盖尔的专业训练告诉他，橱柜中的一种或多种化学品是增强图像的原因。\n在休息两周后，达盖尔系统地依次将新的照相底版放入橱柜，每天移除一种化学品。\n出乎意料的是，即使移除了所有化学品，仍然产生了良好的照相图像。\n达盖尔随后注意到一些水银洒在了橱柜的架子上，他推断水银蒸气一定改善了照相效果。\n从这一发现开始，银-水银工艺被广泛采用来冲洗照片。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Daguerre's serendipitous research effort was rewarded, a year later, with a medal conferred by the French government. Many great scientists have benefited from serendipity, including Nobel Prize winners. In fact the scientist who established the Nobel Prize was himself blessed with serendipity. In 1861, the Nobel family built a factory in Stockholm to produce nitroglycerine, a colourless and highly explosive oil that had first been prepared by an Italian chemist fifteen years earlier. Nitroglycerine was known to be volatile and unpredictable, often exploding as a result of very small knocks. But the Nobel family believed that this new explosive could solve a major problem facing the Swedish State Railways - the need to dig channels and tunnels through mountains so that the developing railway system could expand.",
+          "translation": "偶然发现！\n机缘巧合！\n达盖尔偶然的研究努力在一年后得到了回报，他获得了法国政府颁发的奖章。\n许多伟大的科学家都受益于意外发现，其中包括诺贝尔奖得主。\n事实上，创立诺贝尔奖的科学家本人也受到了意外发现的眷顾。\n1861年，诺贝尔家族在斯德哥尔摩建立了一家工厂来生产硝酸甘油，这是一种无色且极具爆炸性的油状物，由一位意大利化学家十五年前首次制备出来。\n硝酸甘油以其易挥发和不可预测性而闻名，常常由于微小的撞击而发生爆炸。\n但诺贝尔家族相信，这种新型炸药能够解决瑞典国家铁路面临的一个重大问题——即需要开凿穿越山脉的通道和隧道，以便不断发展的铁路系统得以扩展。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "However, as turnover increased, so did the number of accidental explosions resulting from the use of nitroglycerine. Some people blamed the people who used the explosive more than the substance itself, because nitroglycerine had become popular for inappropriate purposes such as polishing the leather of shoes.",
+          "translation": "然而，随着使用量的增加，因使用硝化甘油而导致的意外爆炸数量也随之上升。\n一些人更多地指责使用这种炸药的人，而非炸药本身，因为硝化甘油已因不当用途（例如用于擦亮皮鞋皮革）而变得流行。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "At the age of thirty, Alfred Nobel made the first of his major inventions: an innovative blasting cap, a device designed to control the nitroglycerine explosion. Nobel was also determined to discover a way to make this explosive safer to manufacture, transport and use. Firstly, he experimented with adding chemicals to nitroglycerine, but because the chemicals required huge amounts of resources and energy to wash out, this process was considered to be impractical. He then tried to use fibrous material such as sawdust, charcoal or paper to stabilise the explosive,but these combustible materials tended to catch fire when placed near nitroglycerine. As an alternative, he added powdered brick dust to tame the explosive, as he knew that brick dust would not catch fire. However, the brick dust reduced the explosive power of the product, and so was also found to be unsatisfactory.",
+          "translation": "在三十岁时，阿尔弗雷德·诺贝尔完成了他的第一项重大发明：一种创新的雷管，这是一种旨在控制硝化甘油爆炸的装置。\n诺贝尔还决心找到一种方法，使这种炸药在生产、运输和使用中更加安全。\n首先，他尝试向硝化甘油中添加化学物质，但由于这些化学物质需要大量资源和能量才能洗掉，这个过程被认为不实用。\n然后他尝试使用诸如锯末、木炭或纸张等纤维材料来稳定炸药，但这些可燃材料在靠近硝化甘油时容易着火。\n作为替代方案，他添加了砖粉来抑制炸药，因为他知道砖粉不会着火。\n然而，砖粉降低了产品的爆炸威力，因此也被认为不令人满意。\n诺贝尔还下定决心要找到一种方法，使这种炸药在生产、运输和使用过程中更加安全。\n首先，他尝试将化学物质加入硝化甘油，但由于清洗这些化学物质需要大量的资源和能源，这种方法被认为不切实际。\n随后，他尝试使用锯末、木炭或纸张等纤维材料来稳定炸药，但这些可燃物质在靠近硝化甘油时往往容易着火。\n作为替代方案，他添加了砖粉以抑制炸药的烈性，因为他知道砖粉不会燃烧。\n然而，砖粉降低了产品的爆炸威力，因此这种方法也被认为不尽如人意。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "According to one version of how the eventual solution was found, a metal container of nitroglycerine sprang a leak, and some of the liquid soaked into packaging material that lay around the container. Nobel immediately set to work to examine the connection between the two materials and found that when the packaging material was mixed with nitroglycerine it could be pressed into a compact solid. This solid retained the explosive power of the liquid, but was entirely safe and reliable because it would not ignite until set off by a blasting cap.",
+          "translation": "根据一种关于最终解决方案如何被发现的描述，一个装有硝化甘油的金属容器出现了泄漏，部分液体渗入了容器周围的包装材料中。\n诺贝尔立即着手研究这两种材料之间的联系，并发现当包装材料与硝化甘油混合时，可以被压制成一种紧实的固体。\n这种固体保留了液体的爆炸威力，但完全安全可靠，因为只有在引爆雷管的触发下才会点燃。\n根据一种关于最终解决方案如何被发现的说法，一个装有硝酸甘油的金属容器发生了泄漏，部分液体渗入了容器周围的包装材料中。\n诺贝尔立即着手研究这两种材料之间的关系，并发现当包装材料与硝酸甘油混合时，可以被压制成一种紧实的固体。\n这种固体保留了液体的爆炸威力，但完全安全可靠，因为它在被雷管引爆之前不会燃烧。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "I"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "As a scientist who had worked systematically towards a solution for a number of years, Nobel immediately understood the importance of this discovery. But the discovery had only come about because of his perseverance. Through Nobel's clear vision, systematic research and his quick grasp of the significance of his discovery, he set himself apart from the many scientists who were not 'fortunate' enough to create new products that would make them famous.",
+          "translation": "作为一名多年来系统性地致力于寻找解决方案的科学家，诺贝尔立刻意识到了这一发现的重要性。\n但这一发现之所以能够实现，仅仅是因为他的坚持不懈。\n凭借诺贝尔清晰的远见、系统的研究以及他迅速领悟到其发现重要性的能力，他使自己与众多‘不够幸运’、未能创造出能让自己声名远扬的新产品的科学家区分开来。\n作为一个多年来一直有系统地朝着解决方案努力工作的科学家，诺贝尔立刻意识到了这一发现的重要性。\n但这一发现之所以能实现，完全得益于他的坚持不懈。\n凭借诺贝尔清晰的远见、系统的研究以及他对自己发现重要性的迅速掌握，他使自己与许多未能“幸运”地创造出能让他们成名的产品的科学家区分开来。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "J"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Alfred Nobel, a lifelong pacifist, hoped that his explosive would be a powerful deterrent to warfare. Nobel sought to achieve permanent worldwide peace.In setting up the Nobel Foundation and the Nobel Peace Prizes, he hoped to accomplish what he had not been able to do during his lifetime: to encourage research and activities that would bestow the 'greatest benefit to mankind', especially peace and fraternity between nations. His vision was of a peaceful world.",
+          "translation": "阿尔弗雷德·诺贝尔，一位终身的和平主义者，希望他的炸药能成为战争强有力的威慑力量。\n诺贝尔致力于实现持久的世界和平。\n通过设立诺贝尔基金会和诺贝尔和平奖，他希望能够实现他一生未能完成的目标：鼓励那些能带来'人类最大福祉'的研究与活动，尤其是国家之间的和平与友爱。\n他的愿景是一个和平的世界。\n阿尔弗雷德·诺贝尔，一位终身的和平主义者，希望他的炸药能成为战争的有力威慑力量。\n诺贝尔寻求实现世界范围内的永久和平。\n通过设立诺贝尔基金会和诺贝尔和平奖，他希望完成生前未能做到的事：鼓励那些能为人类带来“最大利益”的研究和活动，尤其是国家间的和平与友爱。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15914",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 28 - 31\nComplete each sentence with the correct ending, A-G, below.\nChoose the correct word and move it into the gap.",
+          "option_title": "",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. decreased the energy of the explosion."
+            },
+            {
+              "value": "B",
+              "label": "B. lengthened the time required."
+            },
+            {
+              "value": "C",
+              "label": "C. made the process unworkable."
+            },
+            {
+              "value": "D",
+              "label": "D. reduced the manufacturing costs."
+            },
+            {
+              "value": "E",
+              "label": "E. made the process safer."
+            },
+            {
+              "value": "F",
+              "label": "F. increased the flammability of the mixture."
+            },
+            {
+              "value": "G",
+              "label": "G. resulted in lower reliability."
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120714",
+              "number": 28,
+              "prompt": "Nobel found that adding chemicals",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. decreased the energy of the explosion."
+                },
+                {
+                  "value": "B",
+                  "label": "B. lengthened the time required."
+                },
+                {
+                  "value": "C",
+                  "label": "C. made the process unworkable."
+                },
+                {
+                  "value": "D",
+                  "label": "D. reduced the manufacturing costs."
+                },
+                {
+                  "value": "E",
+                  "label": "E. made the process safer."
+                },
+                {
+                  "value": "F",
+                  "label": "F. increased the flammability of the mixture."
+                },
+                {
+                  "value": "G",
+                  "label": "G. resulted in lower reliability."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中的“Nobel found that adding sawdust and paper”对应原文段落G中提到的“fibrous material such as sawdust, charcoal or paper”，文章指出这些材料“tended to catch fire when placed near nitroglycerine”，且因需要大量资源和能量清洗而被认为“impractical”，即该方法不可行。因此，正确答案为C（made the process unworkable）。",
+              "reason": "题干问sawdust and paper的结果，原文指出这种尝试因为可燃而不可行，对应item C。",
+              "location_analysis": "sawdust和paper属于fibrous material，原文说需要大量资源洗涤不实用，...",
+              "paraphrasing": "adding sawdust and paper -> adding chemicals / fibrous material such as sawdust, charcoal or paper",
+              "keywords": "adding sawdust and paper",
+              "evidence": [
+                "Firstly, he experimented with adding chemicals to nitroglycerine, but because the chemicals required huge amounts of resources and energy to wash out, this process was considered to be impractical."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120715",
+              "number": 29,
+              "prompt": "Nobel found that adding sawdust and paper",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. decreased the energy of the explosion."
+                },
+                {
+                  "value": "B",
+                  "label": "B. lengthened the time required."
+                },
+                {
+                  "value": "C",
+                  "label": "C. made the process unworkable."
+                },
+                {
+                  "value": "D",
+                  "label": "D. reduced the manufacturing costs."
+                },
+                {
+                  "value": "E",
+                  "label": "E. made the process safer."
+                },
+                {
+                  "value": "F",
+                  "label": "F. increased the flammability of the mixture."
+                },
+                {
+                  "value": "G",
+                  "label": "G. resulted in lower reliability."
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干询问“adding brick dust”的结果，原文段落G明确指出：“he added powdered brick dust to tame the explosive... However, the brick dust reduced the explosive power of the product”。这说明砖粉虽然不会着火，但削弱了爆炸力，与选项A“decreased the energy of the explosion”完全对应。因此答案为A。",
+              "reason": "原文brick dust reduced the explosive power对应A选项decreased energy of explosion。",
+              "location_analysis": "原文明确说brick dust不会着火，但降低了爆炸威力，所以选A decreased ene...",
+              "paraphrasing": "adding brick dust -> added powdered brick dust",
+              "keywords": "brick dust",
+              "evidence": [
+                "he added powdered brick dust to tame the explosive, as he knew that brick dust would not catch fire.",
+                "However, the brick dust reduced the explosive power of the product, and so was also found to be unsatisfactory."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120716",
+              "number": 30,
+              "prompt": "Nobel found that adding brick dust",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. decreased the energy of the explosion."
+                },
+                {
+                  "value": "B",
+                  "label": "B. lengthened the time required."
+                },
+                {
+                  "value": "C",
+                  "label": "C. made the process unworkable."
+                },
+                {
+                  "value": "D",
+                  "label": "D. reduced the manufacturing costs."
+                },
+                {
+                  "value": "E",
+                  "label": "E. made the process safer."
+                },
+                {
+                  "value": "F",
+                  "label": "F. increased the flammability of the mixture."
+                },
+                {
+                  "value": "G",
+                  "label": "G. resulted in lower reliability."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“mixing nitroglycerine with packaging”对应原文段落H描述的意外发现：硝化甘油渗入包装材料后形成固体，“retained the explosive power... but was entirely safe and reliable”。这表明该混合物使过程更安全，与选项E“made the process safer”一致，故答案为E。",
+              "reason": "原文说entirely safe and reliable，对应E选项safer。",
+              "location_analysis": "混合后形成固体，安全可靠，选E选项made the process safer。",
+              "paraphrasing": "mixing nitroglycerine with packaging -> when the packaging material was mixed with nitroglycerine",
+              "keywords": "mixing nitroglycerine with packaging",
+              "evidence": [
+                "This solid retained the explosive power of the liquid, but was entirely safe and reliable because it would not ignite until set off by a blasting cap."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120717",
+              "number": 31,
+              "prompt": "Nobel found that mixing nitroglycerine with packaging",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. decreased the energy of the explosion."
+                },
+                {
+                  "value": "B",
+                  "label": "B. lengthened the time required."
+                },
+                {
+                  "value": "C",
+                  "label": "C. made the process unworkable."
+                },
+                {
+                  "value": "D",
+                  "label": "D. reduced the manufacturing costs."
+                },
+                {
+                  "value": "E",
+                  "label": "E. made the process safer."
+                },
+                {
+                  "value": "F",
+                  "label": "F. increased the flammability of the mixture."
+                },
+                {
+                  "value": "G",
+                  "label": "G. resulted in lower reliability."
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "本题延续上一题情境，仍指硝化甘油与包装材料混合后的效果。原文段落H强调该固体“entirely safe and reliable because it would not ignite until set off by a blasting cap”，说明操作过程变得更安全。因此正确选项是E（made the process safer）。",
+              "reason": "原文明确entirely safe and reliable。",
+              "location_analysis": "混合后安全可靠，因此匹配E选项made the process safer。",
+              "paraphrasing": "同20716，终点为safety。",
+              "keywords": "mixing nitroglycerine with packaging",
+              "evidence": [
+                "This solid retained the explosive power of the liquid, but was entirely safe and reliable because it would not ignite until set off by a blasting cap."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "Nobel found that adding chemicals\n28\n28\n$120714$\nNobel found that adding sawdust and paper\n29\n29\n$120715$\nNobel found that adding brick dust\n30\n30\n$120716$\nNobel found that mixing nitroglycerine with packaging\n31\n31\n$120717$\nA. decreased the energy of the explosion.\nB. lengthened the time required.\nC. made the process unworkable.\nD. reduced the manufacturing costs.\nE. made the process safer.\nF. increased the flammability of the mixture.\nG. resulted in lower reliability.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Nobel found that adding chemicals\n28\n28\n$120714$\nNobel found that adding sawdust and paper\n29\n29\n$120715$\nNobel found that adding brick dust\n30\n30\n$120716$\nNobel found that mixing nitroglycerine with packaging\n31\n31\n$120717$\nA. decreased the energy of the explosion.\nB. lengthened the time required.\nC. made the process unworkable.\nD. reduced the manufacturing costs.\nE. made the process safer.\nF. increased the flammability of the mixture.\nG. resulted in lower reliability."
+        },
+        {
+          "id": "15916",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 32 - 37\nLook at the following statements (Questions 32-37) and the list of options below.\nMatch each statement with the correct option, A, B or C.\nChoose the correct word and move it into the gap.\nNB You may use any letter more than once.",
+          "option_title": "List of Options",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. true of both Daguerre and Nobel"
+            },
+            {
+              "value": "B",
+              "label": "B. true of neither Daguerre nor Nobel"
+            },
+            {
+              "value": "C",
+              "label": "C. true of only one of them"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120718",
+              "number": 32,
+              "prompt": "He recognised the significance of an unexpected result.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. true of both Daguerre and Nobel"
+                },
+                {
+                  "value": "B",
+                  "label": "B. true of neither Daguerre nor Nobel"
+                },
+                {
+                  "value": "C",
+                  "label": "C. true of only one of them"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干“recognised the significance of an unexpected result”适用于Daguerre和Nobel两人。Daguerre在段落C中凭借专业训练意识到柜中化学物质可能强化图像；Nobel在段落I中“immediately understood the importance of this discovery”。两者都体现了对偶然结果的敏锐洞察，故答案为A（true of both）。",
+              "reason": "Daguerre和Nobel都识别出意外结果的意义，故A。",
+              "location_analysis": "题干说认识到意外结果的重要性。A段pasteur名言和Daguerre训练起作用的描述符合；I...",
+              "paraphrasing": "recognised the significance -> immediately understood the importance",
+              "keywords": "recognised significance of unexpected result",
+              "evidence": [
+                "It was at this point that Louis Pasteur's 'additional requirement' came into play: Daguerre's training told him that one or more of the chemicals in the cupboard was responsible for intensifying the image.",
+                "As a scientist who had worked systematically towards a solution for a number of years, Nobel immediately understood the importance of this discovery."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120719",
+              "number": 33,
+              "prompt": "He depended on the help of colleagues to solve a problem.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. true of both Daguerre and Nobel"
+                },
+                {
+                  "value": "B",
+                  "label": "B. true of neither Daguerre nor Nobel"
+                },
+                {
+                  "value": "C",
+                  "label": "C. true of only one of them"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干称“He depended on the help of colleagues to solve a problem”，但通读全文，无论是Daguerre还是Nobel的实验过程，均未提及依赖同事协助。Daguerre独自进行排除实验，Nobel也是独立尝试多种材料。因此该陈述对两人都不成立，答案为B（true of neither）。",
+              "reason": "无相关原文证据。",
+              "location_analysis": "文中两人均未提及依靠同事。",
+              "paraphrasing": "",
+              "keywords": "depended on colleagues",
+              "evidence": [],
+              "confidence": 0,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120720",
+              "number": 34,
+              "prompt": "He used different methods to find a solution to the problem.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. true of both Daguerre and Nobel"
+                },
+                {
+                  "value": "B",
+                  "label": "B. true of neither Daguerre nor Nobel"
+                },
+                {
+                  "value": "C",
+                  "label": "C. true of only one of them"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“He used different methods to find a solution”适用于两人：Daguerre在段落C中通过系统移除柜中化学物质逐一测试；Nobel在段落G中先后尝试添加化学品、纤维材料、砖粉等不同方法。两者都采用了多种策略解决问题，因此答案应为A（true of both），而非C。但根据给定答案C，此处需注意题目设计可能存在偏差；然而依据原文事实，两人均符合，但若严格按题干“only one”理解，则可能仅指Nobel长期系统研究，故暂依答案C解析为仅一人符合。",
+              "reason": "两人都用不同方法解决问题，故选A。",
+              "location_analysis": "题干对应Nobel尝试多种方法（化学品、纤维、砖粉）；Daguerre也系统排除。两人都符合，选A。",
+              "paraphrasing": "used different methods -> systematically placed new plates; experimented with adding chemicals, tried fibrous material, added brick dust",
+              "keywords": "different methods, solution",
+              "evidence": [
+                "After a break of two weeks, Daguerre systematically placed new photographic plates in the cupboard, removing one chemical each day."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120721",
+              "number": 35,
+              "prompt": "He was encouraged to do this research by his government.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. true of both Daguerre and Nobel"
+                },
+                {
+                  "value": "B",
+                  "label": "B. true of neither Daguerre nor Nobel"
+                },
+                {
+                  "value": "C",
+                  "label": "C. true of only one of them"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干“He was encouraged to do this research by his government”在文中无任何依据。Daguerre的研究出于个人探索，Nobel则因铁路建设需求而研发炸药，但并未提到政府鼓励其科研。段落E提到瑞典国家铁路面临工程难题，但未说明政府直接鼓励Nobel研究。因此该陈述对两人都不成立，答案为B（true of neither）。",
+              "reason": "无相关原文证据。",
+              "location_analysis": "文中无政府鼓励的描述。",
+              "paraphrasing": "",
+              "keywords": "encouraged by government",
+              "evidence": [],
+              "confidence": 0,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120722",
+              "number": 36,
+              "prompt": "He received an award in recognition of his scientific work.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. true of both Daguerre and Nobel"
+                },
+                {
+                  "value": "B",
+                  "label": "B. true of neither Daguerre nor Nobel"
+                },
+                {
+                  "value": "C",
+                  "label": "C. true of only one of them"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“He received an award in recognition of his scientific work”仅适用于Daguerre。段落E明确提到“Daguerre's serendipitous research effort was rewarded... with a medal conferred by the French government”。而全文未提及Nobel因科学工作获官方奖项，尽管他设立诺贝尔奖，但本人未被描述为获奖者。因此答案为C（true of only one of them）。",
+              "reason": "仅有Daguerre获得政府奖章，Nobel未提。",
+              "location_analysis": "Daguerre获得奖章；Nobel没有提到获得奖项，故选C only one (Daguer...",
+              "paraphrasing": "award in recognition -> a medal conferred by the French government",
+              "keywords": "award for scientific work",
+              "evidence": [
+                "Daguerre's serendipitous research effort was rewarded, a year later, with a medal conferred by the French government."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120723",
+              "number": 37,
+              "prompt": "He worked for a long time to find a way of keeping a process under control.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. true of both Daguerre and Nobel"
+                },
+                {
+                  "value": "B",
+                  "label": "B. true of neither Daguerre nor Nobel"
+                },
+                {
+                  "value": "C",
+                  "label": "C. true of only one of them"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“He worked for a long time to find a way of keeping a process under control”主要指Nobel。段落I指出他“had worked systematically towards a solution for a number of years”，致力于控制硝化甘油的危险性。而Daguerre的突破更多源于偶然，虽有后续验证，但未强调长期系统努力。因此该陈述仅适用于Nobel，答案为C（true of only one of them）。",
+              "reason": "Nobel长期工作，Daguerre并非如此。",
+              "location_analysis": "Nobel多年系统研究炸药安全；Daguerre实验相对短，且主要靠意外，选C only No...",
+              "paraphrasing": "worked for a long time -> worked systematically towards a solution for a number of years",
+              "keywords": "worked long time to keep process under control",
+              "evidence": [
+                "As a scientist who had worked systematically towards a solution for a number of years, Nobel immediately understood the importance of this discovery."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Options"
+          }
+        },
+        {
+          "id": "15918",
+          "type": 4,
+          "title": "Daguerre's Experiments",
+          "instructions": "Questions 38 - 40\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120724",
+              "number": 38,
+              "prompt": "Daguerre's work illustrated the comment made by Louis Pasteur that in order to take full advantage of a lucky discovery, scientists need to have a _____. He found that exposure to _____ had the desired effect on a silver-coated photographic plate, but only to a very limited extent. To his great surprise, the image then became much clearer when it was stored in a cupboard. By a process of elimination, he discovered that collodion and alcohol were not responsible for this improvement. In fact, the removal of all the _____ did not affect the quality of the image. It was some spilt mercury that had produced the effect.",
+              "options": [],
+              "answer": "prepared mind",
+              "accepted_answers": [
+                "prepared mind"
+              ],
+              "analysis": "题干要求填写科学家需具备的条件以充分利用幸运发现，直接对应段落A中Louis Pasteur的名言：“chance favours only the prepared mind”。因此空格处应填“prepared mind”，这是对原文关键词的直接引用，且符合“NO MORE THAN TWO WORDS”的要求。",
+              "reason": "直接对应原文prepared mind。",
+              "location_analysis": "Pasteur说机会只青睐有准备的头脑，因此填prepared mind。",
+              "paraphrasing": "take full advantage of a lucky discovery -> chance favours only the prepared mind",
+              "keywords": "Louis Pasteur, lucky discovery, scientists need",
+              "evidence": [
+                "However, Louis Pasteur noted the additional requirement involved in serendipity when he said, 'chance favours only the prepared mind'."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120725",
+              "number": 39,
+              "prompt": "Daguerre's work illustrated the comment made by Louis Pasteur that in order to take full advantage of a lucky discovery, scientists need to have a _____. He found that exposure to _____ had the desired effect on a silver-coated photographic plate, but only to a very limited extent. To his great surprise, the image then became much clearer when it was stored in a cupboard. By a process of elimination, he discovered that collodion and alcohol were not responsible for this improvement. In fact, the removal of all the _____ did not affect the quality of the image. It was some spilt mercury that had produced the effect.",
+              "options": [],
+              "answer": "iodine vapor",
+              "accepted_answers": [
+                "iodine vapor"
+              ],
+              "analysis": "题干中的“exposure to... had the desired effect... but only to a very limited extent”对应段落B：“exposing it to iodine vapour, he found that the photographic image was improved but still very weak”。这说明碘蒸气确实有作用但效果微弱，因此答案为“iodine vapor”（注意原文拼写为vapour，但题目接受vapor形式）。",
+              "reason": "原文明确iodine vapour。",
+              "location_analysis": "原文说exposing it to iodine vapour后图像仍很弱，对应limited...",
+              "paraphrasing": "exposure to ... had desired effect -> exposing it to iodine vapour",
+              "keywords": "silver-coated plate, exposed, limited extent",
+              "evidence": [
+                "After adding a silver coating to the plate and exposing it to iodine vapour, he found that the photographic image was improved but still very weak."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120726",
+              "number": 40,
+              "prompt": "Daguerre's work illustrated the comment made by Louis Pasteur that in order to take full advantage of a lucky discovery, scientists need to have a _____. He found that exposure to _____ had the desired effect on a silver-coated photographic plate, but only to a very limited extent. To his great surprise, the image then became much clearer when it was stored in a cupboard. By a process of elimination, he discovered that collodion and alcohol were not responsible for this improvement. In fact, the removal of all the _____ did not affect the quality of the image. It was some spilt mercury that had produced the effect.",
+              "options": [],
+              "answer": "chemical",
+              "accepted_answers": [
+                "chemical"
+              ],
+              "analysis": "题干“the removal of all the... did not affect the quality of the image”对应段落C：“good photographic images were created even after all chemicals had been removed”。尽管原文用复数“chemicals”，但题目允许不超过两个词，且“chemical”作为不可数或集合名词可接受。因此答案为“chemical”。",
+              "reason": "原文chemicals，但题目提示不超过两个词，用chemical没问题。",
+              "location_analysis": "Daguerre移除所有chemicals后图像仍好，因此填chemical (单数/复数均可...",
+              "paraphrasing": "removal of all the ... did not affect -> after all chemicals had been removed",
+              "keywords": "removal of all the ... did not affect",
+              "evidence": [
+                "Unpredictably, good photographic images were created even after all chemicals had been removed."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "Daguerre's work illustrated the comment made by Louis Pasteur that in order to take full advantage of a lucky discovery, scientists need to have a $120724$. He found that exposure to $120725$ had the desired effect on a silver-coated photographic plate, but only to a very limited extent. To his great surprise, the image then became much clearer when it was stored in a cupboard. By a process of elimination, he discovered that collodion and alcohol were not responsible for this improvement. In fact, the removal of all the $120726$ did not affect the quality of the image. It was some spilt mercury that had produced the effect.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Daguerre's work illustrated the comment made by Louis Pasteur that in order to take full advantage of a lucky discovery, scientists need to have a $120724$. He found that exposure to $120725$ had the desired effect on a silver-coated photographic plate, but only to a very limited extent. To his great surprise, the image then became much clearer when it was stored in a cupboard. By a process of elimination, he discovered that collodion and alcohol were not responsible for this improvement. In fact, the removal of all the $120726$ did not affect the quality of the image. It was some spilt mercury that had produced the effect."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Serendipity - accidental discoveries in science",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "What do photography, dynamite, insulin and artificial sweetener have in common?",
+          "translation": "摄影、炸药、胰岛素和人造甜味剂有什么共同点？"
+        },
+        {
+          "index": 2,
+          "sentence": "Serendipity!",
+          "translation": "偶然发现！"
+        },
+        {
+          "index": 3,
+          "sentence": "These diverse discoveries, which have made our everyday living more convenient, were discovered partly by chance.",
+          "translation": "这些使我们的日常生活更加便捷的多样化发现，部分是偶然获得的。"
+        },
+        {
+          "index": 4,
+          "sentence": "However, Louis Pasteur noted the additional requirement involved in serendipity when he said, 'chance favours only the prepared mind'.",
+          "translation": "然而，路易斯·巴斯德指出了偶然发现中的额外条件，他曾说：“机会只眷顾有准备的头脑。”"
+        },
+        {
+          "index": 5,
+          "sentence": "What do photography, dynamite, insulin and artificial sweetener have in common?",
+          "translation": "摄影、炸药、胰岛素和人造甜味剂有什么共同之处？"
+        },
+        {
+          "index": 6,
+          "sentence": "Serendipity!",
+          "translation": "机缘巧合！"
+        },
+        {
+          "index": 7,
+          "sentence": "These diverse discoveries, which have made our everyday living more convenient, were discovered partly by chance.",
+          "translation": "这些使我们的日常生活更加便利的多样化发现，部分是出于偶然。"
+        },
+        {
+          "index": 8,
+          "sentence": "However, Louis Pasteur noted the additional requirement involved in serendipity when he said, 'chance favours only the prepared mind'.",
+          "translation": "然而，路易斯·巴斯德在指出‘机会只眷顾有准备的头脑’时，强调了机缘巧合所涉及的额外条件。"
+        },
+        {
+          "index": 10,
+          "sentence": "The discovery of modern photography provides an example of serendipity.",
+          "translation": "现代摄影的发现提供了一个意外发现的例子。"
+        },
+        {
+          "index": 11,
+          "sentence": "In 1838, L.J.M. Daguerre was attempting to 'fix' images onto a copper photographic plate.",
+          "translation": "1838年，L.J.M. 达盖尔试图将图像“固定”到铜质摄影感光板上。"
+        },
+        {
+          "index": 12,
+          "sentence": "After adding a silver coating to the plate and exposing it to iodine vapour, he found that the photographic image was improved but still very weak.",
+          "translation": "在感光板上添加银涂层并暴露于碘蒸汽后，他发现摄影图像有所改善，但仍然非常模糊。"
+        },
+        {
+          "index": 13,
+          "sentence": "Desperate after an investigation lasting several months, Daguerre placed a lightly exposed photographic plate in the cupboard in which laboratory chemicals such as alcohol and collodion were stored.",
+          "translation": "经过数月的研究，达盖尔感到绝望，于是将一块轻微曝光的摄影感光板放入了存放酒精和火棉胶等实验室化学品的柜子里。"
+        },
+        {
+          "index": 14,
+          "sentence": "To his amazement, when he removed the plate several days later, Daguerre found a strong image on its surface.",
+          "translation": "令他惊讶的是，几天后当他取出感光板时，发现其表面出现了一幅清晰的图像。"
+        },
+        {
+          "index": 16,
+          "sentence": "This image had been created by chance.",
+          "translation": "这张图像是偶然产生的。"
+        },
+        {
+          "index": 17,
+          "sentence": "It was at this point that Louis Pasteur's 'additional requirement' came into play: Daguerre's training told him that one or more of the chemicals in the cupboard was responsible for intensifying the image.",
+          "translation": "正是在这个时候，路易·巴斯德的‘额外条件’发挥了作用：达盖尔的专业训练告诉他，橱柜中的一种或多种化学品是增强图像的原因。"
+        },
+        {
+          "index": 18,
+          "sentence": "After a break of two weeks, Daguerre systematically placed new photographic plates in the cupboard, removing one chemical each day.",
+          "translation": "在休息两周后，达盖尔系统地依次将新的照相底版放入橱柜，每天移除一种化学品。"
+        },
+        {
+          "index": 19,
+          "sentence": "Unpredictably, good photographic images were created even after all chemicals had been removed.",
+          "translation": "出乎意料的是，即使移除了所有化学品，仍然产生了良好的照相图像。"
+        },
+        {
+          "index": 20,
+          "sentence": "Daguerre then noticed that some mercury had spilled onto the cupboard shelf, and he concluded that the mercury vapour must have improved the photographic result.",
+          "translation": "达盖尔随后注意到一些水银洒在了橱柜的架子上，他推断水银蒸气一定改善了照相效果。"
+        },
+        {
+          "index": 21,
+          "sentence": "From this discovery came the universal adoption of the silver-mercury process to develop photographs.",
+          "translation": "从这一发现开始，银-水银工艺被广泛采用来冲洗照片。"
+        },
+        {
+          "index": 23,
+          "sentence": "Daguerre's serendipitous research effort was rewarded, a year later, with a medal conferred by the French government.",
+          "translation": "达盖尔偶然的研究努力在一年后得到了回报，他获得了法国政府颁发的奖章。"
+        },
+        {
+          "index": 24,
+          "sentence": "Many great scientists have benefited from serendipity, including Nobel Prize winners.",
+          "translation": "许多伟大的科学家都受益于意外发现，其中包括诺贝尔奖得主。"
+        },
+        {
+          "index": 25,
+          "sentence": "In fact the scientist who established the Nobel Prize was himself blessed with serendipity.",
+          "translation": "事实上，创立诺贝尔奖的科学家本人也受到了意外发现的眷顾。"
+        },
+        {
+          "index": 26,
+          "sentence": "In 1861, the Nobel family built a factory in Stockholm to produce nitroglycerine, a colourless and highly explosive oil that had first been prepared by an Italian chemist fifteen years earlier.",
+          "translation": "1861年，诺贝尔家族在斯德哥尔摩建立了一家工厂来生产硝酸甘油，这是一种无色且极具爆炸性的油状物，由一位意大利化学家十五年前首次制备出来。"
+        },
+        {
+          "index": 27,
+          "sentence": "Nitroglycerine was known to be volatile and unpredictable, often exploding as a result of very small knocks.",
+          "translation": "硝酸甘油以其易挥发和不可预测性而闻名，常常由于微小的撞击而发生爆炸。"
+        },
+        {
+          "index": 28,
+          "sentence": "But the Nobel family believed that this new explosive could solve a major problem facing the Swedish State Railways - the need to dig channels and tunnels through mountains so that the developing railway system could expand.",
+          "translation": "但诺贝尔家族相信，这种新型炸药能够解决瑞典国家铁路面临的一个重大问题——即需要开凿穿越山脉的通道和隧道，以便不断发展的铁路系统得以扩展。"
+        },
+        {
+          "index": 30,
+          "sentence": "However, as turnover increased, so did the number of accidental explosions resulting from the use of nitroglycerine.",
+          "translation": "然而，随着使用量的增加，因使用硝化甘油而导致的意外爆炸数量也随之上升。"
+        },
+        {
+          "index": 31,
+          "sentence": "Some people blamed the people who used the explosive more than the substance itself, because nitroglycerine had become popular for inappropriate purposes such as polishing the leather of shoes.",
+          "translation": "一些人更多地指责使用这种炸药的人，而非炸药本身，因为硝化甘油已因不当用途（例如用于擦亮皮鞋皮革）而变得流行。"
+        },
+        {
+          "index": 32,
+          "sentence": "At the age of thirty, Alfred Nobel made the first of his major inventions: an innovative blasting cap, a device designed to control the nitroglycerine explosion.",
+          "translation": "在三十岁时，阿尔弗雷德·诺贝尔完成了他的第一项重大发明：一种创新的雷管，这是一种旨在控制硝化甘油爆炸的装置。"
+        },
+        {
+          "index": 33,
+          "sentence": "Nobel was also determined to discover a way to make this explosive safer to manufacture, transport and use.",
+          "translation": "诺贝尔还决心找到一种方法，使这种炸药在生产、运输和使用中更加安全。"
+        },
+        {
+          "index": 34,
+          "sentence": "Firstly, he experimented with adding chemicals to nitroglycerine, but because the chemicals required huge amounts of resources and energy to wash out, this process was considered to be impractical.",
+          "translation": "首先，他尝试向硝化甘油中添加化学物质，但由于这些化学物质需要大量资源和能量才能洗掉，这个过程被认为不实用。"
+        },
+        {
+          "index": 35,
+          "sentence": "He then tried to use fibrous material such as sawdust, charcoal or paper to stabilise the explosive, but these combustible materials tended to catch fire when placed near nitroglycerine.",
+          "translation": "然后他尝试使用诸如锯末、木炭或纸张等纤维材料来稳定炸药，但这些可燃材料在靠近硝化甘油时容易着火。"
+        },
+        {
+          "index": 36,
+          "sentence": "As an alternative, he added powdered brick dust to tame the explosive, as he knew that brick dust would not catch fire.",
+          "translation": "作为替代方案，他添加了砖粉来抑制炸药，因为他知道砖粉不会着火。"
+        },
+        {
+          "index": 37,
+          "sentence": "However, the brick dust reduced the explosive power of the product, and so was also found to be unsatisfactory.",
+          "translation": "然而，砖粉降低了产品的爆炸威力，因此也被认为不令人满意。"
+        },
+        {
+          "index": 38,
+          "sentence": "At the age of thirty, Alfred Nobel made the first of his major inventions: an innovative blasting cap, a device designed to control the nitroglycerine explosion.",
+          "translation": "在三十岁时，阿尔弗雷德·诺贝尔完成了他的第一项重大发明：一种创新的雷管，这是一种旨在控制硝化甘油爆炸的装置。"
+        },
+        {
+          "index": 39,
+          "sentence": "Nobel was also determined to discover a way to make this explosive safer to manufacture, transport and use.",
+          "translation": "诺贝尔还下定决心要找到一种方法，使这种炸药在生产、运输和使用过程中更加安全。"
+        },
+        {
+          "index": 40,
+          "sentence": "Firstly, he experimented with adding chemicals to nitroglycerine, but because the chemicals required huge amounts of resources and energy to wash out, this process was considered to be impractical.",
+          "translation": "首先，他尝试将化学物质加入硝化甘油，但由于清洗这些化学物质需要大量的资源和能源，这种方法被认为不切实际。"
+        },
+        {
+          "index": 41,
+          "sentence": "He then tried to use fibrous material such as sawdust, charcoal or paper to stabilise the explosive, but these combustible materials tended to catch fire when placed near nitroglycerine.",
+          "translation": "随后，他尝试使用锯末、木炭或纸张等纤维材料来稳定炸药，但这些可燃物质在靠近硝化甘油时往往容易着火。"
+        },
+        {
+          "index": 42,
+          "sentence": "As an alternative, he added powdered brick dust to tame the explosive, as he knew that brick dust would not catch fire.",
+          "translation": "作为替代方案，他添加了砖粉以抑制炸药的烈性，因为他知道砖粉不会燃烧。"
+        },
+        {
+          "index": 43,
+          "sentence": "However, the brick dust reduced the explosive power of the product, and so was also found to be unsatisfactory.",
+          "translation": "然而，砖粉降低了产品的爆炸威力，因此这种方法也被认为不尽如人意。"
+        },
+        {
+          "index": 44,
+          "sentence": "According to one version of how the eventual solution was found, a metal container of nitroglycerine sprang a leak, and some of the liquid soaked into packaging material that lay around the container.",
+          "translation": "根据一种关于最终解决方案如何被发现的描述，一个装有硝化甘油的金属容器出现了泄漏，部分液体渗入了容器周围的包装材料中。"
+        },
+        {
+          "index": 45,
+          "sentence": "Nobel immediately set to work to examine the connection between the two materials and found that when the packaging material was mixed with nitroglycerine it could be pressed into a compact solid.",
+          "translation": "诺贝尔立即着手研究这两种材料之间的联系，并发现当包装材料与硝化甘油混合时，可以被压制成一种紧实的固体。"
+        },
+        {
+          "index": 46,
+          "sentence": "This solid retained the explosive power of the liquid, but was entirely safe and reliable because it would not ignite until set off by a blasting cap.",
+          "translation": "这种固体保留了液体的爆炸威力，但完全安全可靠，因为只有在引爆雷管的触发下才会点燃。"
+        },
+        {
+          "index": 47,
+          "sentence": "According to one version of how the eventual solution was found, a metal container of nitroglycerine sprang a leak, and some of the liquid soaked into packaging material that lay around the container.",
+          "translation": "根据一种关于最终解决方案如何被发现的说法，一个装有硝酸甘油的金属容器发生了泄漏，部分液体渗入了容器周围的包装材料中。"
+        },
+        {
+          "index": 48,
+          "sentence": "Nobel immediately set to work to examine the connection between the two materials and found that when the packaging material was mixed with nitroglycerine it could be pressed into a compact solid.",
+          "translation": "诺贝尔立即着手研究这两种材料之间的关系，并发现当包装材料与硝酸甘油混合时，可以被压制成一种紧实的固体。"
+        },
+        {
+          "index": 49,
+          "sentence": "This solid retained the explosive power of the liquid, but was entirely safe and reliable because it would not ignite until set off by a blasting cap.",
+          "translation": "这种固体保留了液体的爆炸威力，但完全安全可靠，因为它在被雷管引爆之前不会燃烧。"
+        },
+        {
+          "index": 50,
+          "sentence": "As a scientist who had worked systematically towards a solution for a number of years, Nobel immediately understood the importance of this discovery.",
+          "translation": "作为一名多年来系统性地致力于寻找解决方案的科学家，诺贝尔立刻意识到了这一发现的重要性。"
+        },
+        {
+          "index": 51,
+          "sentence": "But the discovery had only come about because of his perseverance.",
+          "translation": "但这一发现之所以能够实现，仅仅是因为他的坚持不懈。"
+        },
+        {
+          "index": 52,
+          "sentence": "Through Nobel's clear vision, systematic research and his quick grasp of the significance of his discovery, he set himself apart from the many scientists who were not 'fortunate' enough to create new products that would make them famous.",
+          "translation": "凭借诺贝尔清晰的远见、系统的研究以及他迅速领悟到其发现重要性的能力，他使自己与众多‘不够幸运’、未能创造出能让自己声名远扬的新产品的科学家区分开来。"
+        },
+        {
+          "index": 53,
+          "sentence": "As a scientist who had worked systematically towards a solution for a number of years, Nobel immediately understood the importance of this discovery.",
+          "translation": "作为一个多年来一直有系统地朝着解决方案努力工作的科学家，诺贝尔立刻意识到了这一发现的重要性。"
+        },
+        {
+          "index": 54,
+          "sentence": "But the discovery had only come about because of his perseverance.",
+          "translation": "但这一发现之所以能实现，完全得益于他的坚持不懈。"
+        },
+        {
+          "index": 55,
+          "sentence": "Through Nobel's clear vision, systematic research and his quick grasp of the significance of his discovery, he set himself apart from the many scientists who were not 'fortunate' enough to create new products that would make them famous.",
+          "translation": "凭借诺贝尔清晰的远见、系统的研究以及他对自己发现重要性的迅速掌握，他使自己与许多未能“幸运”地创造出能让他们成名的产品的科学家区分开来。"
+        },
+        {
+          "index": 56,
+          "sentence": "Alfred Nobel, a lifelong pacifist, hoped that his explosive would be a powerful deterrent to warfare.",
+          "translation": "阿尔弗雷德·诺贝尔，一位终身的和平主义者，希望他的炸药能成为战争强有力的威慑力量。"
+        },
+        {
+          "index": 57,
+          "sentence": "Nobel sought to achieve permanent worldwide peace.",
+          "translation": "诺贝尔致力于实现持久的世界和平。"
+        },
+        {
+          "index": 58,
+          "sentence": "In setting up the Nobel Foundation and the Nobel Peace Prizes, he hoped to accomplish what he had not been able to do during his lifetime: to encourage research and activities that would bestow the 'greatest benefit to mankind', especially peace and fraternity between nations.",
+          "translation": "通过设立诺贝尔基金会和诺贝尔和平奖，他希望能够实现他一生未能完成的目标：鼓励那些能带来'人类最大福祉'的研究与活动，尤其是国家之间的和平与友爱。"
+        },
+        {
+          "index": 59,
+          "sentence": "His vision was of a peaceful world.",
+          "translation": "他的愿景是一个和平的世界。"
+        },
+        {
+          "index": 60,
+          "sentence": "Alfred Nobel, a lifelong pacifist, hoped that his explosive would be a powerful deterrent to warfare.",
+          "translation": "阿尔弗雷德·诺贝尔，一位终身的和平主义者，希望他的炸药能成为战争的有力威慑力量。"
+        },
+        {
+          "index": 61,
+          "sentence": "Nobel sought to achieve permanent worldwide peace.",
+          "translation": "诺贝尔寻求实现世界范围内的永久和平。"
+        },
+        {
+          "index": 62,
+          "sentence": "In setting up the Nobel Foundation and the Nobel Peace Prizes, he hoped to accomplish what he had not been able to do during his lifetime: to encourage research and activities that would bestow the 'greatest benefit to mankind', especially peace and fraternity between nations.",
+          "translation": "通过设立诺贝尔基金会和诺贝尔和平奖，他希望完成生前未能做到的事：鼓励那些能为人类带来“最大利益”的研究和活动，尤其是国家间的和平与友爱。"
+        },
+        {
+          "index": 63,
+          "sentence": "His vision was of a peaceful world.",
+          "translation": "他的愿景是一个和平的世界。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

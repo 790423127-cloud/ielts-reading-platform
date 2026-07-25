@@ -1,0 +1,2467 @@
+{
+  "id": "b17-test-2",
+  "book": "剑雅17",
+  "book_number": 17,
+  "name": "Test 2",
+  "title": "剑雅17 Test 2",
+  "parts": [
+    {
+      "id": "1889",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Want to rent a property?",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Here is a brief description of some rental property agencies to choose from",
+          "translation": "以下是一些可供选择的租赁房产机构的简要介绍。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A Aynho Properties",
+          "translation": "A 艾恩霍物业公司"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "with over 50 years experience, we offer a comprehensive sales and lettings service.Our firm has been based in Shipton Street since its foundation and so we have a thorough knowledge of the surrounding neighbourhood.Our staff make every effort to match clients’ needs to an appropriate property, whether you are looking to rent an apartment, a bungalow or a house.",
+          "translation": "凭借超过50年的经验，我们提供全面的销售和租赁服务。\n自成立以来，我们公司一直位于希普顿街，因此我们对周边社区有着深入的了解。\n我们的员工尽一切努力将客户的需求与合适的房产匹配，无论你是想租公寓、平房还是独栋房屋。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B Danesdale Agency",
+          "translation": "B 丹斯代尔中介"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "As soon as you walk in our door, we will make every effort to find the right flat for you to rent. Everything we do is based on good practice - you supply written references and pay the rent on time, and in return we'll visit the property every four months to ensure it is maintained and that any necessary repairs are done.",
+          "translation": "一旦您踏入我们的门口，我们将竭尽全力为您找到合适的公寓出租。\n我们所做的一切都基于良好实践——您提供书面推荐信并按时支付租金，作为回报，我们每四个月会探访房产一次，以确保其得到维护并完成任何必要的维修。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C Jakesford Properties",
+          "translation": "C 杰克斯福德房产公司"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "As a family-run business with over 20 years' experience in the property market,we pride ourselves on treating every client with kindness and consideration.The landlords on our books have been selected with great care so that you can be sure they will look after your interests. Thousands of customers from allover the world have written to us to express their appreciation for the service we have offered them.",
+          "translation": "作为一家在房产市场拥有超过20年经验的家族企业，\n我们以友善和体贴地对待每一位客户而自豪。\n我们名册上的房东都经过精心挑选，因此您可以确保他们会维护您的利益。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D Kasama Letting",
+          "translation": "D 卡萨马租赁公司"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "our highly experienced team works hard to provide peace of mind for both tenants and landlords.James Kettering, our customer liaison officer, is always at the end of the phone to answer any queries you may have. We also have an administration officer, who deals with contracts, rents and personal queries.",
+          "translation": "我们经验丰富的团队努力为租户和房东双方提供安心服务。\n我们的客户联络官James Kettering随时接听电话，解答您可能提出的任何疑问。\n我们还有一位行政官员，负责处理合同、租金和个人咨询。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E Leftfield Letting",
+          "translation": "E 莱菲尔德租赁公司"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "While the main objective of some letting agents is to get as much money as possible for their properties, we aim to secure a fair deal for tenants and a trouble-free service for landlords. We use modern marketing techniques that include price comparisons for similar properties with other agencies in the area so that you can make a fully informed decision.",
+          "translation": "尽管一些租赁中介的主要目标是尽可能从房产中获取更多收益，但我们致力于为租客争取公平的交易，并为房东提供无忧的服务。\n我们采用现代营销技巧，包括与地区内其他中介进行同类房产的价格比较，以便您能做出充分知情的决定。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Cycle lights",
+          "question_cue": {
+            "start": 6,
+            "end": 14
+          },
+          "translation": "自行车灯"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "What are the legal requirements?",
+          "translation": "法律要求有哪些？\n法律要求是什么？"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "You must have approved front and rear lights that are lit, clean and working properly when cycling between sunset and sunrise. It's no defence to say that it was past sunset but not yet dark.The legal lighting obligations for cyclists are determined by sunset and sunrise times - not the 'hours of darkness', which start 30 minutes after the former,end 30 minutes before the latter and dictate when motorists must switch from sidelights to headlights.",
+          "translation": "在日落至日出期间骑自行车时，你必须拥有经批准的前后灯，这些灯需亮着、干净且正常工作。\n以“已过日落但天还未黑”为由并不能作为辩解。\n自行车骑手的法定照明义务由日落和日出时间决定，而非“黑暗时段”——后者从日落30分钟后开始，到日出30分钟前结束，并规定机动车驾驶员必须何时从侧灯切换至前照灯。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Cycling UK's guide to cycling regulations explains the Road Vehicles Lighting Regulations in detail, but in summary you need a white light at the front and a red light at the rear, visible from the front and rear respectively and fixed to your bike. A light obscured by a saddlebag isn't legal and neither is a torch on your head, though there's nothing to stop you using a head-torch as an additional light.",
+          "translation": "英国自行车协会的骑行法规指南详细解释了《道路车辆照明条例》，但简而言之，你需要在自行车前部安装一个白色灯，后部安装一个红色灯，这些灯应分别从前后可见，并固定在自行车上。\n被鞍包遮挡的灯是不合法的，戴在头上的手电筒也不合法，不过这并不妨碍你使用头灯作为附加照明。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "The regulations also now allow flashing lights, provided they flash between 60 and 240 times per minute.The legal requirements for reflectors include a red rear reflector and four amber pedal reflectors, one at the front and rear of each pedal.Common sense might suggest that a reflective heel strip or ankle band could replace an amber pedal reflector, but unfortunately, these do not meet the legal requirements.This is an annoying problem for riders who use bikes where the feet are attached to the pedals and cannot slip. These pedals are not designed with enough space to accommodate reflectors and make this an area of legislation in need of change.",
+          "translation": "现行法规也允许使用闪烁灯，前提是其闪烁频率在每分钟60至240次之间。\n对于反光装置的法律要求包括：一个红色后反光器和四个琥珀色踏板反光器，每个踏板的前后各一个。\n常识可能认为反光鞋跟条或脚踝带可以替代琥珀色踏板反光器，但不幸的是，这些并不符合法律规定。\n这对于那些使用脚部固定在踏板上且无法滑脱的自行车的骑行者来说是个令人烦恼的问题。\n这些踏板的设计没有为安装反光器留出足够空间，从而使这一立法领域亟待修订。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Unlike with other vehicles, lights are not a legal requirement for cyclists when there is seriously reduced visibility during the daytime, although we wouldn't recommend cycling through dense fog without lighting up.",
+          "translation": "与其他车辆不同，在白天能见度严重降低的情况下，法律并不要求骑自行车的人必须开灯，尽管我们不建议在没有照明的情况下穿越浓雾骑行。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13755",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 5\nLook at the five descriptions of rental property agencies, A-E.\nFor which agency are the following statements true?\nWrite the correct letter, A-E, in boxes 1-5 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119793",
+              "number": 1,
+              "prompt": "The agency expects customers to provide letters of recommendation.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求找出“expects customers to provide letters of recommendation”的机构。原文B段（Danesdale Agency）提到“you supply written references”，其中“written references”即指书面推荐信，与题干中的“letters of recommendation”为同义表达，因此答案为B。",
+              "reason": "display_answer为B，段落B中提到written references。",
+              "location_analysis": "Danesdale Agency要求客户提供书面推荐信，与题干匹配。",
+              "paraphrasing": "letters of recommendation -> written references",
+              "keywords": "recommendation, references",
+              "evidence": [
+                "you supply written references and pay the rent on time"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119794",
+              "number": 2,
+              "prompt": "The agency provides certain information on properties held by its competitors.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干询问哪家机构提供“information on properties held by its competitors”。原文E段（Leftfield Letting）指出其使用“modern marketing techniques that include price comparisons for similar properties with other agencies in the area”，即与其他中介的房源进行价格对比，这正是关于竞争对手房产信息的提供，因此答案为E。",
+              "reason": "display_answer为E。",
+              "location_analysis": "Leftfield Letting提供与其他机构的价格比较，即竞争对手信息。",
+              "paraphrasing": "information on competitors' properties -> price comparisons for similar properties with other agencies",
+              "keywords": "competitors, information",
+              "evidence": [
+                "We use modern marketing techniques that include price comparisons for similar properties with other agencies in the area so that you can make a fully informed decision."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119795",
+              "number": 3,
+              "prompt": "The agency began business in its present location.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问哪家机构“began business in its present location”。原文A段（Aynho Properties）说明“Our firm has been based in Shipton Street since its foundation”，即自成立以来一直位于现址，表明其开业地点即为当前地址，因此答案为A。",
+              "reason": "display_answer为A。",
+              "location_analysis": "Aynho Properties自成立起就设在Shipton Street，即原址。",
+              "paraphrasing": "began business in its present location -> based in Shipton Street since its foundation",
+              "keywords": "began, present location",
+              "evidence": [
+                "Our firm has been based in Shipton Street since its foundation"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119796",
+              "number": 4,
+              "prompt": "Employees have specific roles at the agency.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问哪家机构“employees have specific roles”。原文D段（Kasama Letting）提到设有“customer liaison officer”负责解答疑问，以及“administration officer”处理合同和租金等事务，明确划分了员工职责，因此答案为D。",
+              "reason": "display_answer为D。",
+              "location_analysis": "Kasama Letting提到客户联络官和行政官，即员工有具体职责。",
+              "paraphrasing": "employees have specific roles -> customer liaison officer, administration officer",
+              "keywords": "specific roles, employees",
+              "evidence": [
+                "James Kettering, our customer liaison officer, is always at the end of the phone to answer any queries you may have. We also have an administration officer, who deals with contracts, rents and personal queries."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119797",
+              "number": 5,
+              "prompt": "The agency carefully chooses the property owners that it works with.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出“carefully chooses the property owners”的机构。原文C段（Jakesford Properties）指出“The landlords on our books have been selected with great care”，其中“landlords”即物业所有者，“selected with great care”对应题干中的“carefully chooses”，因此答案为C。",
+              "reason": "display_answer为C。",
+              "location_analysis": "Jakesford Properties精心挑选房东，即物业所有者。",
+              "paraphrasing": "carefully chooses property owners -> landlords on our books have been selected with great care",
+              "keywords": "carefully chooses, property owners",
+              "evidence": [
+                "The landlords on our books have been selected with great care so that you can be sure they will look after your interests."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13757",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 6 - 14\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117150",
+              "number": 6,
+              "prompt": "lt is illegal to cycle after sunset without bike lights.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“illegal to cycle after sunset without bike lights”对应原文A段的“You must have approved front and rear lights that are lit, clean and working properly when cycling between sunset and sunrise”。文中明确指出在日落至日出之间骑行必须使用合规车灯，否则即属违法，因此该陈述与原文一致，答案为TRUE。",
+              "reason": "题干与原文一致，答案TRUE。",
+              "location_analysis": "原文规定日落后须使用车灯，否则违法。",
+              "paraphrasing": "illegal to cycle after sunset without lights -> must have approved front and rear lights ... when cycling between sunset and sunrise",
+              "keywords": "illegal, after sunset, bike lights",
+              "evidence": [
+                "You must have approved front and rear lights that are lit, clean and working properly when cycling between sunset and sunrise."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾，原文明确表示日落之后无车灯骑车是违法的。",
+                "NOT GIVEN": "原文中明确提到了这一信息，并非未提及。"
+              }
+            },
+            {
+              "id": "117151",
+              "number": 7,
+              "prompt": "Front and rear lights can be attached to the rider.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称车灯可以“attached to the rider”，但原文B段明确指出车灯必须“fixed to your bike”，并特别说明“a torch on your head”不符合法律规定。这表明车灯不能安装在骑行者身上，而必须固定在自行车上，因此题干与原文矛盾，答案为FALSE。",
+              "reason": "题干说可以附着在骑行者身上，原文说固定在自行车上，矛盾。",
+              "location_analysis": "车灯必须固定在自行车上，而非骑行者身上。题干与原文矛盾。",
+              "paraphrasing": "attached to the rider -> fixed to your bike",
+              "keywords": "attached to rider, lights",
+              "evidence": [
+                "you need a white light at the front and a red light at the rear, visible from the front and rear respectively and fixed to your bike."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文明确指出灯不能固定在骑行者身上。",
+                "NOT GIVEN": "原文明确提及了与题干相关的内容，并非未提及。"
+              }
+            },
+            {
+              "id": "117152",
+              "number": 8,
+              "prompt": "A torch worn on a cyclist's head must be white.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问头戴式手电筒是否“must be white”，但原文B段仅提到“a torch on your head”不合法作为主光源，并未对其颜色作出任何规定，也未说明白色是强制要求。因此文中缺乏相关信息支持或否定该陈述，答案为NOT GIVEN。",
+              "reason": "原文未说明头灯颜色。",
+              "location_analysis": "原文未提及头灯颜色要求，无法判断。",
+              "paraphrasing": "torch worn on head must be white -> 原文未提颜色要求",
+              "keywords": "torch, head, white",
+              "evidence": [
+                "a torch on your head, though there's nothing to stop you using a head-torch as an additional light"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未明确说明自行车手头戴式车灯必须为白色。",
+                "FALSE": "原文没有证据否定头戴式车灯必须为白色。"
+              }
+            },
+            {
+              "id": "117153",
+              "number": 9,
+              "prompt": "There are some legal restrictions on flashing lights.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“legal restrictions on flashing lights”对应原文C段“The regulations also now allow flashing lights, provided they flash between 60 and 240 times per minute”。这表明闪光灯虽被允许，但有明确的频率限制，属于法律上的约束条件，因此该陈述正确，答案为TRUE。",
+              "reason": "题干与原文一致。",
+              "location_analysis": "闪光灯有法定频率限制，即存在法律限制。",
+              "paraphrasing": "some legal restrictions -> allowed provided they flash between 60 and 240 times per minute",
+              "keywords": "legal restrictions, flashing lights",
+              "evidence": [
+                "The regulations also now allow flashing lights, provided they flash between 60 and 240 times per minute."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到了存在一些法律限制，因此该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文明确提到了存在一些法律限制，因此该选项错误认为原文未提及相关法律限制。"
+              }
+            },
+            {
+              "id": "117154",
+              "number": 10,
+              "prompt": "Reflectors are most commonly available in packs of four.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称反光片“most commonly available in packs of four”，但原文C段仅说明法律要求配备“four amber pedal reflectors”，并未提及这些反光片如何包装或销售。文中没有关于市场销售形式的信息，因此无法判断该说法是否成立，答案为NOT GIVEN。",
+              "reason": "display_answer为NOT GIVEN，原文未提及反光片的包装销售信息。",
+              "location_analysis": "题干说反光片最常见四片装。原文只说需要四个踏板反光片，未提包装售卖。",
+              "paraphrasing": "reflectors available in packs of four -> ... four amber pedal reflectors, one at the front and rear of each pedal.",
+              "keywords": "reflectors, packs of four",
+              "evidence": [
+                "The legal requirements for reflectors include a red rear reflector and four amber pedal reflectors, one at the front and rear of each pedal."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及反射器通常以四个一包出售，属于无中生有。",
+                "FALSE": "原文没有给出任何关于反射器包装数量的信息，不能判断为错误。"
+              }
+            },
+            {
+              "id": "117155",
+              "number": 11,
+              "prompt": "Reflective heel strips are allowed instead of pedal reflectors.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“reflective heel strips are allowed instead of pedal reflectors”，但原文C段明确指出“a reflective heel strip or ankle band could replace an amber pedal reflector, but unfortunately, these do not meet the legal requirements”。这说明反光鞋跟带不符合法规，不能替代踏板反光片，因此该陈述错误，答案为FALSE。",
+              "reason": "题干与原文矛盾。",
+              "location_analysis": "原文明确说反光鞋跟带不符合法律规定，不能替代。",
+              "paraphrasing": "allowed instead of -> do not meet the legal requirements",
+              "keywords": "reflective heel strips, instead of, pedal reflectors",
+              "evidence": [
+                "Common sense might suggest that a reflective heel strip or ankle band could replace an amber pedal reflector, but unfortunately, these do not meet the legal requirements."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文明确不允许反光后跟条替代踏板反射器，因此与原文矛盾。",
+                "NOT GIVEN": "原文有明确信息表明不允许替代，并非未提及。"
+              }
+            },
+            {
+              "id": "117156",
+              "number": 12,
+              "prompt": "The law concerning the design of pedals is unsatisfactory.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“law concerning the design of pedals is unsatisfactory”对应原文C段“These pedals are not designed with enough space to accommodate reflectors and make this an area of legislation in need of change”。作者明确指出相关法规存在问题、需要修改，表明对现行法律不满，因此该陈述正确，答案为TRUE。",
+              "reason": "题干与原文一致。",
+              "location_analysis": "原文指出踏板设计相关法规需修改，即不满意。",
+              "paraphrasing": "law unsatisfactory -> area of legislation in need of change",
+              "keywords": "law, design of pedals, unsatisfactory",
+              "evidence": [
+                "These pedals are not designed with enough space to accommodate reflectors and make this an area of legislation in need of change."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文明确指出该法律令人不满的信息矛盾。",
+                "NOT GIVEN": "原文明确提及了该法律令人不满，并非未给出信息。"
+              }
+            },
+            {
+              "id": "117157",
+              "number": 13,
+              "prompt": "Cycling during the daytime is safer than cycling at night.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干声称“cycling during the daytime is safer than at night”，但全文未对白天与夜间骑行的安全性进行任何比较。尽管D段提到白天浓雾中不强制使用车灯，但这并不涉及安全程度的判断。因此文中无相关信息支持该说法，答案为NOT GIVEN。",
+              "reason": "原文未提及安全性比较。",
+              "location_analysis": "原文未比较白天和夜晚骑行的安全性，故NOT GIVEN。",
+              "paraphrasing": "无对应",
+              "keywords": "daytime, safer than night",
+              "evidence": [
+                "Unlike with other vehicles, lights are not a legal requirement for cyclists when there is seriously reduced visibility during the daytime, although we wouldn't recommend cycling through dense fog without lighting up."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文并未对白天与夜间骑行的安全性进行比较，因此无法判断该说法正确。",
+                "FALSE": "原文并未提及该说法错误或存在相反比较，因此无法判断该说法错误。"
+              }
+            },
+            {
+              "id": "117158",
+              "number": 14,
+              "prompt": "lt is against the law to cycle in daytime fog without lights.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“against the law to cycle in daytime fog without lights”，但原文D段明确指出“lights are not a legal requirement for cyclists when there is seriously reduced visibility during the daytime”。这说明即使在白天能见度低的情况下，不使用车灯也不违法，因此题干与原文矛盾，答案为FALSE。",
+              "reason": "题干说违法，原文说不要求，矛盾。",
+              "location_analysis": "原文说白天能见度低时车灯非法定要求，即不违法。",
+              "paraphrasing": "against the law -> not a legal requirement",
+              "keywords": "daytime fog, lights, against the law",
+              "evidence": [
+                "lights are not a legal requirement for cyclists when there is seriously reduced visibility during the daytime"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文中明确提到在白天有雾时骑车没有灯并不违法，与选项矛盾。",
+                "NOT GIVEN": "原文中明确给出了相关信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Want to rent a property?",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Here is a brief description of some rental property agencies to choose from",
+          "translation": "以下是一些可供选择的租赁房产机构的简要介绍。"
+        },
+        {
+          "index": 2,
+          "sentence": "A Aynho Properties",
+          "translation": "A 艾恩霍物业公司"
+        },
+        {
+          "index": 3,
+          "sentence": "with over 50 years experience, we offer a comprehensive sales and lettings service.",
+          "translation": "凭借超过50年的经验，我们提供全面的销售和租赁服务。"
+        },
+        {
+          "index": 4,
+          "sentence": "Our firm has been based in Shipton Street since its foundation and so we have a thorough knowledge of the surrounding neighbourhood.",
+          "translation": "自成立以来，我们公司一直位于希普顿街，因此我们对周边社区有着深入的了解。"
+        },
+        {
+          "index": 5,
+          "sentence": "Our staff make every effort to match clients’ needs to an appropriate property, whether you are looking to rent an apartment, a bungalow or a house.",
+          "translation": "我们的员工尽一切努力将客户的需求与合适的房产匹配，无论你是想租公寓、平房还是独栋房屋。"
+        },
+        {
+          "index": 6,
+          "sentence": "B Danesdale Agency",
+          "translation": "B 丹斯代尔中介"
+        },
+        {
+          "index": 7,
+          "sentence": "As soon as you walk in our door, we will make every effort to find the right flat for you to rent.",
+          "translation": "一旦您踏入我们的门口，我们将竭尽全力为您找到合适的公寓出租。"
+        },
+        {
+          "index": 8,
+          "sentence": "Everything we do is based on good practice - you supply written references and pay the rent on time, and in return we'll visit the property every four months to ensure it is maintained and that any necessary repairs are done.",
+          "translation": "我们所做的一切都基于良好实践——您提供书面推荐信并按时支付租金，作为回报，我们每四个月会探访房产一次，以确保其得到维护并完成任何必要的维修。"
+        },
+        {
+          "index": 9,
+          "sentence": "C Jakesford Properties",
+          "translation": "C 杰克斯福德房产公司"
+        },
+        {
+          "index": 10,
+          "sentence": "As a family-run business with over 20 years' experience in the property market,",
+          "translation": "作为一家在房产市场拥有超过20年经验的家族企业，"
+        },
+        {
+          "index": 11,
+          "sentence": "we pride ourselves on treating every client with kindness and consideration.",
+          "translation": "我们以友善和体贴地对待每一位客户而自豪。"
+        },
+        {
+          "index": 12,
+          "sentence": "The landlords on our books have been selected with great care so that you can be sure they will look after your interests.",
+          "translation": "我们名册上的房东都经过精心挑选，因此您可以确保他们会维护您的利益。"
+        },
+        {
+          "index": 13,
+          "sentence": "Thousands of customers from all over the world have written to us to express their appreciation for the service we have offered them.",
+          "translation": "来自世界各地的数千名客户已写信给我们，表达对我们所提供服务的感激之情。"
+        },
+        {
+          "index": 14,
+          "sentence": "D Kasama Letting",
+          "translation": "D 卡萨马租赁公司"
+        },
+        {
+          "index": 15,
+          "sentence": "our highly experienced team works hard to provide peace of mind for both tenants and landlords.",
+          "translation": "我们经验丰富的团队努力为租户和房东双方提供安心服务。"
+        },
+        {
+          "index": 16,
+          "sentence": "James Kettering, our customer liaison officer, is always at the end of the phone to answer any queries you may have.",
+          "translation": "我们的客户联络官James Kettering随时接听电话，解答您可能提出的任何疑问。"
+        },
+        {
+          "index": 17,
+          "sentence": "We also have an administration officer, who deals with contracts, rents and personal queries.",
+          "translation": "我们还有一位行政官员，负责处理合同、租金和个人咨询。"
+        },
+        {
+          "index": 18,
+          "sentence": "E Leftfield Letting",
+          "translation": "E 莱菲尔德租赁公司"
+        },
+        {
+          "index": 19,
+          "sentence": "While the main objective of some letting agents is to get as much money as possible for their properties, we aim to secure a fair deal for tenants and a trouble-free service for landlords.",
+          "translation": "尽管一些租赁中介的主要目标是尽可能从房产中获取更多收益，但我们致力于为租客争取公平的交易，并为房东提供无忧的服务。"
+        },
+        {
+          "index": 20,
+          "sentence": "We use modern marketing techniques that include price comparisons for similar properties with other agencies in the area so that you can make a fully informed decision.",
+          "translation": "我们采用现代营销技巧，包括与地区内其他中介进行同类房产的价格比较，以便您能做出充分知情的决定。"
+        },
+        {
+          "index": 21,
+          "sentence": "Cycle lights",
+          "translation": "自行车灯"
+        },
+        {
+          "index": 22,
+          "sentence": "What are the legal requirements?",
+          "translation": "法律要求有哪些？"
+        },
+        {
+          "index": 23,
+          "sentence": "Want to rent a property?",
+          "translation": "想要租赁一处房产吗？"
+        },
+        {
+          "index": 24,
+          "sentence": "You must have approved front and rear lights that are lit, clean and working properly when cycling between sunset and sunrise.",
+          "translation": "在日落至日出期间骑自行车时，你必须拥有经批准的前后灯，这些灯需亮着、干净且正常工作。"
+        },
+        {
+          "index": 25,
+          "sentence": "It's no defence to say that it was past sunset but not yet dark.",
+          "translation": "以“已过日落但天还未黑”为由并不能作为辩解。"
+        },
+        {
+          "index": 26,
+          "sentence": "The legal lighting obligations for cyclists are determined by sunset and sunrise times - not the 'hours of darkness', which start 30 minutes after the former, end 30 minutes before the latter and dictate when motorists must switch from sidelights to headlights.",
+          "translation": "自行车骑手的法定照明义务由日落和日出时间决定，而非“黑暗时段”——后者从日落30分钟后开始，到日出30分钟前结束，并规定机动车驾驶员必须何时从侧灯切换至前照灯。"
+        },
+        {
+          "index": 28,
+          "sentence": "Cycling UK's guide to cycling regulations explains the Road Vehicles Lighting Regulations in detail, but in summary you need a white light at the front and a red light at the rear, visible from the front and rear respectively and fixed to your bike.",
+          "translation": "英国自行车协会的骑行法规指南详细解释了《道路车辆照明条例》，但简而言之，你需要在自行车前部安装一个白色灯，后部安装一个红色灯，这些灯应分别从前后可见，并固定在自行车上。"
+        },
+        {
+          "index": 29,
+          "sentence": "A light obscured by a saddlebag isn't legal and neither is a torch on your head, though there's nothing to stop you using a head-torch as an additional light.",
+          "translation": "被鞍包遮挡的灯是不合法的，戴在头上的手电筒也不合法，不过这并不妨碍你使用头灯作为附加照明。"
+        },
+        {
+          "index": 30,
+          "sentence": "Cycle lights",
+          "translation": "自行车灯"
+        },
+        {
+          "index": 31,
+          "sentence": "What are the legal requirements?",
+          "translation": "法律要求是什么？"
+        },
+        {
+          "index": 32,
+          "sentence": "The regulations also now allow flashing lights, provided they flash between 60 and 240 times per minute.",
+          "translation": "现行法规也允许使用闪烁灯，前提是其闪烁频率在每分钟60至240次之间。"
+        },
+        {
+          "index": 33,
+          "sentence": "The legal requirements for reflectors include a red rear reflector and four amber pedal reflectors, one at the front and rear of each pedal.",
+          "translation": "对于反光装置的法律要求包括：一个红色后反光器和四个琥珀色踏板反光器，每个踏板的前后各一个。"
+        },
+        {
+          "index": 34,
+          "sentence": "Common sense might suggest that a reflective heel strip or ankle band could replace an amber pedal reflector, but unfortunately, these do not meet the legal requirements.",
+          "translation": "常识可能认为反光鞋跟条或脚踝带可以替代琥珀色踏板反光器，但不幸的是，这些并不符合法律规定。"
+        },
+        {
+          "index": 35,
+          "sentence": "This is an annoying problem for riders who use bikes where the feet are attached to the pedals and cannot slip.",
+          "translation": "这对于那些使用脚部固定在踏板上且无法滑脱的自行车的骑行者来说是个令人烦恼的问题。"
+        },
+        {
+          "index": 36,
+          "sentence": "These pedals are not designed with enough space to accommodate reflectors and make this an area of legislation in need of change.",
+          "translation": "这些踏板的设计没有为安装反光器留出足够空间，从而使这一立法领域亟待修订。"
+        },
+        {
+          "index": 38,
+          "sentence": "Unlike with other vehicles, lights are not a legal requirement for cyclists when there is seriously reduced visibility during the daytime, although we wouldn't recommend cycling through dense fog without lighting up.",
+          "translation": "与其他车辆不同，在白天能见度严重降低的情况下，法律并不要求骑自行车的人必须开灯，尽管我们不建议在没有照明的情况下穿越浓雾骑行。"
+        }
+      ]
+    },
+    {
+      "id": "1890",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Maintaining a safe environment for employees working on computers",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Under health and safety law, you must ensure that the working environment meets certain minimum requirements",
+          "translation": "根据健康与安全法律，你必须确保工作环境满足某些最低要求。\n工作环境"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Workstation furniture",
+          "translation": "工作站家具"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "The work desk or work surface should be big enough to allow the user to arrange the screen, keyboard and documents, etc. in a flexible way. It should be stable and positioned so that it's comfortable when an employee uses a document holder, but also big enough to let the user work comfortably and to alter their position.",
+          "translation": "办公桌或工作台应足够宽敞，以便使用者能够灵活地布置屏幕、键盘和文件等物品。\n它应保持稳定且摆放得当，使员工在使用文件架时感到舒适，同时也应足够大，以便使用者能舒适地工作并能调整自己的姿势。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The working environment",
+          "translation": "工作环境"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "You need to assess noise levels. The equipment shouldn't be so noisy that it distracts the user. If you can't use quieter equipment, consider soundproofing or moving the equipment.You could use partitions between noisy equipment and the rest of the workstation as an alternative.",
+          "translation": "你需要评估噪音水平。\n设备不应过于嘈杂以免分散用户的注意力。\n如果你无法使用更安静的设备，可以考虑隔音或移动设备。\n作为一种替代方案，你可以在嘈杂设备与工作站其他区域之间使用隔断。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Lighting is also an important consideration. Surrounding windows must have curtains or blinds which users can adjust to prevent reflected glare. If needed, provide users with lighting appropriate to their tasks and particular workstation.Users should have control over their lighting to prevent reflected glare.",
+          "translation": "照明也是一个重要的考虑因素。\n周围的窗户必须配备用户可调节的窗帘或百叶窗，以防止反射眩光。\n如有需要，应为用户提供适合其工作任务和特定工作站的照明。\n用户应能控制自己的照明，以防止反射眩光。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Temperature-wise, the equipment should not give out so much heat that the user becomes uncomfortable, so monitor this. It's also important that you maintain ventilation,and you control humidity so that it is at a level which keeps the user comfortable.",
+          "translation": "在温度方面，设备不应散发出过多热量导致使用者感到不适，因此需对此加以监控。\n保持通风以及控制湿度至令使用者舒适的水平也同样重要。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Task design and rest breaks",
+          "translation": "任务设计与休息间隔"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Good design of the task can be as important as the right choice of furniture and equipment. Whenever possible you should design jobs so that employees have a mix of activities and some control over which tasks they perform and when. You should match staffing levels to workload so that individuals are neither overworked nor underworked and give employees some say in the way work is carried out and the planning that goes into it.",
+          "translation": "任务的良好设计与正确选择家具和设备同样重要。\n只要有可能，你就应该设计工作，使员工能够进行多样化的活动，并对他们执行哪些任务以及何时执行拥有一定的控制权。\n你应该使人员配置水平与工作量相匹配，以确保员工既不过度劳累也不过于清闲，并让员工在工作的执行方式和相关规划中有一定的发言权。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "An employee's need for rest breaks will vary depending on the type of work they are doing and how intensely they are working. As a general rule, however, short, frequent breaks are better than longer, less frequent ones.A 5-10-minute break after 50-60 minutes' work is better than a 15-20-minute break after two hours.The employee should, at times, have a choice over when to take breaks and they should be encouraged to do non-work activities during their break, ideally away from the workstation.",
+          "translation": "员工对休息间隔的需求会因所从事工作的类型和工作强度而有所不同。\n然而，一般来说，短暂而频繁的休息优于较长但不频繁的休息。\n工作50-60分钟后休息5-10分钟，优于工作两小时后休息15-20分钟。\n员工有时应有权选择何时休息，并应鼓励他们在休息期间进行非工作活动，最好远离工作台。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Using portable ladders",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "使用便携式梯子"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Workers use portable ladders for a variety of jobs outside, such as first- and second-floor window cleaning and building repairs",
+          "translation": "工人在户外使用便携式梯子从事多种工作，例如一楼和二楼的窗户清洁以及建筑维修。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Employers need to oversee all ladders that are owned by their company. Detailed visual inspections should be carried out on a regular basis, and they should have an up-to-date record of these. Before starting a job, employers are also responsible for ensuring any ladder is the right length to meet the needs of the task; reaching out from the very top of a ladder is highly dangerous.Once you get a ladder, you, as user of the ladder, should conduct a pre-use check each working day. Conducting pre-use checks should have been part of your training and should be done in accordance with the manufacturer's guidelines. When doing a check, it is important to focus on the steps and make sure they are not loose as this could cause an accident. Similarly, a cracked joint in the ladder could cause it to fail.",
+          "translation": "雇主需要监管公司拥有的所有梯子。\n应定期进行详细的目视检查，并保持对这些检查的最新记录。\n在开始工作前，雇主还有责任确保任何梯子的长度符合任务需求；从梯子最顶端伸手够物是极其危险的。\n拿到梯子后，作为使用者，你应该在每个工作日进行使用前检查。\n进行使用前检查本应是培训的一部分，并且应按照制造商的指导说明进行。\n进行检查时，重点应放在梯级上，确保它们不松动，因为这可能导致事故。\n同样，梯子上的裂缝接头可能导致梯子失效。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Almost all falls from ladders happen because the ladder moves unexpectedly. The key factor in preventing falls from ladders is to ensure your ladder is stable whilst being used.First, make sure that you choose level ground on which to set up your ladder.There are specially designed tools you can use to ensure this - don't just use a piece of wood.Second, check the ground surface is dirt-free and solid, so the feet can grip and the ladder doesn't sink.",
+          "translation": "几乎所有的梯子坠落事故都是由于梯子意外移动而发生的。\n预防梯子坠落的关键因素是确保梯子在使用过程中保持稳定。\n首先，确保你选择平整的地面来放置梯子。\n有专门设计的工具可以用来确保这一点——不要仅仅使用一块木头。\n其次，检查地面是否无污垢且坚实，这样梯脚能够抓牢，梯子不会下陷。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Before you go up your ladder, look at the surrounding environment. Make sure the ladder cannot be struck by vehicles. If necessary, safeguard the area by placing red and white cones around it. Ensure it will not be pushed over by other hazards such as opening doors. Doors and windows may need to be secured where possible.",
+          "translation": "在爬上梯子之前，请先观察周围环境。\n确保梯子不会受到车辆的撞击。\n如有必要，通过在周围放置红白锥形路障来保护该区域。\n确保它不会被其他危险因素（如开门）推倒。\n在可能的情况下，可能需要将门窗固定好。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Finally, think about the hazards to the general public and make sure they cannot walk underneath it or get too near to it. A 'danger' sign at the base is often the best way of doing this.",
+          "translation": "最后，要考虑对公众造成的危险，确保他们无法从梯子下方走过或过于靠近梯子。\n在梯子底部放置‘危险’标志通常是做到这一点的最佳方式。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "To secure the ladder, tie it to a suitable point, such as a window or railing, making sure both sides are attached.Where this is not practical, secure it to the wall near the base of the ladder with ties; avoid using blocks to wedge the ladder in place as they can easily move.",
+          "translation": "为了固定梯子，应将其系在合适的位置，例如窗户或栏杆上，并确保两侧都已绑好。\n如果这种方法不可行，则用绳索将梯子固定在靠近基部的墙壁上；避免使用木块楔入梯子来固定位置，因为它们很容易移动。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13770",
+          "type": 8,
+          "title": "Furniture",
+          "instructions": "Questions 15 - 20\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117159",
+              "number": 15,
+              "prompt": "·the easy use of a holder for documents — ·change in the user's _____",
+              "options": [],
+              "answer": "position",
+              "accepted_answers": [
+                "position"
+              ],
+              "analysis": "题干中的“change in the user's”对应原文中的“alter their position”，意为使用者应能灵活调整坐姿或工作姿势。原文提到工作台面应足够大，以便用户舒适地改变位置，因此答案为“position”。",
+              "reason": "题干change in the user's对应原文alter their position。",
+              "location_analysis": "原文说桌面要足够大让使用者能舒服地改变姿势，所以填position。",
+              "paraphrasing": "change in the user's -> alter their position",
+              "keywords": "change, user's",
+              "evidence": [
+                "It should be stable and positioned so that it's comfortable when an employee uses a document holder, but also big enough to let the user work comfortably and to alter their position."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117160",
+              "number": 16,
+              "prompt": "·move, soundproof, or separate noisy equipment using _____",
+              "options": [],
+              "answer": "partitions",
+              "accepted_answers": [
+                "partitions"
+              ],
+              "analysis": "题干中“separate noisy equipment using”对应原文“use partitions between noisy equipment and the rest of the workstation”，说明可用隔板将噪音设备与其他工作站区域分隔开，因此答案是“partitions”。",
+              "reason": "题干separate noisy equipment using对应原文use partitions between noisy equipment。",
+              "location_analysis": "原文建议使用隔板分隔噪音设备，故填partitions。",
+              "paraphrasing": "separate noisy equipment using -> use partitions between noisy equipment and the rest of the workstation",
+              "keywords": "noisy equipment, separate, partitions",
+              "evidence": [
+                "You could use partitions between noisy equipment and the rest of the workstation as an alternative."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117161",
+              "number": 17,
+              "prompt": "·reduce glare from nearby _____ e.g., using adjustable blinds",
+              "options": [],
+              "answer": "windows",
+              "accepted_answers": [
+                "windows"
+              ],
+              "analysis": "题干中“reduce glare from nearby”对应原文“Surrounding windows must have curtains or blinds... to prevent reflected glare”，指出窗户是产生眩光的来源，需用百叶窗等调节，因此答案为“windows”。",
+              "reason": "题干reduce glare from nearby对应原文prevent reflected glare from surrounding windows。",
+              "location_analysis": "原文提到窗户要有窗帘以减少眩光，所以填windows。",
+              "paraphrasing": "glare from nearby -> reflected glare from surrounding windows",
+              "keywords": "glare, nearby, windows",
+              "evidence": [
+                "Surrounding windows must have curtains or blinds which users can adjust to prevent reflected glare."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117162",
+              "number": 18,
+              "prompt": "·ensure a comfortable temperature — - check _____ from equipment",
+              "options": [],
+              "answer": "heat",
+              "accepted_answers": [
+                "heat"
+              ],
+              "analysis": "题干中“check ___ from equipment”对应原文“the equipment should not give out so much heat that the user becomes uncomfortable, so monitor this”，说明需要监控设备散发的热量，因此答案是“heat”。",
+              "reason": "题干check ___ from equipment对应原文monitor heat from equipment。",
+              "location_analysis": "原文指出设备不应散发热量导致不适，所以填heat。",
+              "paraphrasing": "check ___ from equipment -> the equipment should not give out so much heat that the user becomes uncomfortable",
+              "keywords": "temperature, check, heat",
+              "evidence": [
+                "Temperature-wise, the equipment should not give out so much heat that the user becomes uncomfortable, so monitor this."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117163",
+              "number": 19,
+              "prompt": "·a fair workload — ·An input into task achievement and _____",
+              "options": [],
+              "answer": "planning",
+              "accepted_answers": [
+                "planning"
+              ],
+              "analysis": "题干中“input into task achievement and”对应原文“give employees some say in the way work is carried out and the planning that goes into it”，表明员工应对工作任务的执行方式和规划有发言权，因此答案为“planning”。",
+              "reason": "题干input into task achievement and对应原文some say in the way work is carried out and the planning。",
+              "location_analysis": "原文提到员工对工作方式和规划要有发言权，故填planning。",
+              "paraphrasing": "input into task achievement and ___ -> give employees some say in the way work is carried out and the planning that goes into it",
+              "keywords": "input, task achievement, planning",
+              "evidence": [
+                "You should match staffing levels to workload so that individuals are neither overworked nor underworked and give employees some say in the way work is carried out and the planning that goes into it."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117164",
+              "number": 20,
+              "prompt": "·regular, short breaks, at times of their own _____",
+              "options": [],
+              "answer": "choice",
+              "accepted_answers": [
+                "choice"
+              ],
+              "analysis": "题干中“at times of their own”对应原文“have a choice over when to take breaks”，强调员工应能自主决定休息时间，因此答案是“choice”。",
+              "reason": "题干at times of their own对应原文have a choice over when to take breaks。",
+              "location_analysis": "原文说员工应该可以选择休息时间，所以填choice。",
+              "paraphrasing": "at times of their own ___ -> have a choice over when to take breaks",
+              "keywords": "regular, short breaks, own choice",
+              "evidence": [
+                "The employee should, at times, have a choice over when to take breaks and they should be encouraged to do non-work activities during their break, ideally away from the workstation."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Desk size should facilitate.\n·the flexible arrangement of computer items\n·the easy use of a holder for documents\n·change in the user's $117159$\nEnvironment\nEmployers should\n·move, soundproof, or separate noisy equipment using $117160$\n·reduce glare from nearby $117161$ e.g., using adjustable blinds\n·provide suitable lighting\n·ensure a comfortable temperature\n- check $117162$ from equipment\n-check air flow and quality in working area\nTasks and breaks\nEmployees should have\n·a variety of tasks to choose from\n·a fair workload\n·An input into task achievement and $117163$\n·regular, short breaks, at times of their own $117164$\n·breaks not located at their workstation",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Desk size should facilitate.\n·the flexible arrangement of computer items\n·the easy use of a holder for documents\n·change in the user's $117159$\nEnvironment\nEmployers should\n·move, soundproof, or separate noisy equipment using $117160$\n·reduce glare from nearby $117161$ e.g., using adjustable blinds\n·provide suitable lighting\n·ensure a comfortable temperature\n- check $117162$ from equipment\n-check air flow and quality in working area\nTasks and breaks\nEmployees should have\n·a variety of tasks to choose from\n·a fair workload\n·An input into task achievement and $117163$\n·regular, short breaks, at times of their own $117164$\n·breaks not located at their workstation"
+        },
+        {
+          "id": "13774",
+          "type": 8,
+          "title": "Safe ladder use",
+          "instructions": "Questions 21 - 27\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117171",
+              "number": 21,
+              "prompt": "Employers should keep a _____ of ladder safety inspections.",
+              "options": [],
+              "answer": "record",
+              "accepted_answers": [
+                "record"
+              ],
+              "analysis": "题干中“keep a ___ of ladder safety inspections”对应原文“they should have an up-to-date record of these”，说明雇主需保存最新的梯子安全检查记录，因此答案为“record”。",
+              "reason": "题干keep a ___对应原文have an up-to-date record。",
+              "location_analysis": "原文要求雇主保存最新的检查记录，故填record。",
+              "paraphrasing": "keep a ___ of ladder safety inspections -> have an up-to-date record of these",
+              "keywords": "keep, record, ladder safety inspections",
+              "evidence": [
+                "Detailed visual inspections should be carried out on a regular basis, and they should have an up-to-date record of these."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117172",
+              "number": 22,
+              "prompt": "Employers should check the _____ of a ladder is suitable for the job.",
+              "options": [],
+              "answer": "length",
+              "accepted_answers": [
+                "length"
+              ],
+              "analysis": "题干中“check the ___ of a ladder is suitable for the job”对应原文“ensuring any ladder is the right length to meet the needs of the task”，指出梯子长度必须适合任务需求，因此答案是“length”。",
+              "reason": "题干check the ___对应原文ensuring any ladder is the right length。",
+              "location_analysis": "原文强调梯子长度要合适，所以填length。",
+              "paraphrasing": "check the ___ of a ladder is suitable -> ensuring any ladder is the right length to meet the needs of the task",
+              "keywords": "check, length, ladder",
+              "evidence": [
+                "Before starting a job, employers are also responsible for ensuring any ladder is the right length to meet the needs of the task; reaching out from the very top of a ladder is highly dangerous."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117173",
+              "number": 23,
+              "prompt": "The _____ and joints of the ladder need particularly close inspection.",
+              "options": [],
+              "answer": "steps",
+              "accepted_answers": [
+                "steps"
+              ],
+              "analysis": "题干中“The ___ and joints of the ladder need particularly close inspection”对应原文“focus on the steps and make sure they are not loose... a cracked joint”，说明踏板（steps）和接头都需要仔细检查，因此答案为“steps”。",
+              "reason": "题干___ and joints对应原文steps and (joints)。",
+              "location_analysis": "原文强调检查踏板和接头，故填steps。",
+              "paraphrasing": "The ___ and joints need close inspection -> focus on the steps and make sure they are not loose ... a cracked joint",
+              "keywords": "steps, joints, close inspection",
+              "evidence": [
+                "When doing a check, it is important to focus on the steps and make sure they are not loose as this could cause an accident. Similarly, a cracked joint in the ladder could cause it to fail."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117174",
+              "number": 24,
+              "prompt": "Make sure the _____ of the ladder are resting on a clean, hard surface.",
+              "options": [],
+              "answer": "feet",
+              "accepted_answers": [
+                "feet"
+              ],
+              "analysis": "题干中“the ___ of the ladder are resting on a clean, hard surface”对应原文“so the feet can grip and the ladder doesn't sink”，指出梯脚（feet）需稳固地放置在坚实干净的地面上，因此答案是“feet”。",
+              "reason": "题干the ___ of the ladder对应原文the feet。",
+              "location_analysis": "原文提到梯脚要放在干净坚硬的地面，故填feet。",
+              "paraphrasing": "the ___ of the ladder are resting on a clean, hard surface -> the feet can grip and the ladder doesn't sink",
+              "keywords": "feet, clean, hard surface",
+              "evidence": [
+                "Second, check the ground surface is dirt-free and solid, so the feet can grip and the ladder doesn't sink."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117175",
+              "number": 25,
+              "prompt": "Protect the ladder from vehicles by using _____.",
+              "options": [],
+              "answer": "cones",
+              "accepted_answers": [
+                "cones"
+              ],
+              "analysis": "题干中“Protect the ladder from vehicles by using”对应原文“safeguard the area by placing red and white cones around it”，说明使用锥形桶（cones）可防止车辆撞到梯子，因此答案为“cones”。",
+              "reason": "题干using ___对应原文placing red and white cones。",
+              "location_analysis": "原文建议用锥形桶保护梯子免受车辆碰撞，故填cones。",
+              "paraphrasing": "protect from vehicles by using ___ -> safeguard the area by placing red and white cones around it",
+              "keywords": "protect, vehicles, cones",
+              "evidence": [
+                "Make sure the ladder cannot be struck by vehicles. If necessary, safeguard the area by placing red and white cones around it."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117176",
+              "number": 26,
+              "prompt": "Use _____ to keep people away from the ladder.",
+              "options": [],
+              "answer": "sign",
+              "accepted_answers": [
+                "sign"
+              ],
+              "analysis": "题干中“Use ___ to keep people away from the ladder”对应原文“A 'danger' sign at the base is often the best way of doing this”，指出使用警示标志（sign）可阻止公众靠近梯子，因此答案是“sign”。",
+              "reason": "题干use ___对应原文a 'danger' sign。",
+              "location_analysis": "原文建议用危险标志防止公众靠近，所以填sign。",
+              "paraphrasing": "use ___ to keep people away -> a 'danger' sign at the base",
+              "keywords": "keep people away, sign",
+              "evidence": [
+                "A 'danger' sign at the base is often the best way of doing this."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117177",
+              "number": 27,
+              "prompt": "Keep the ladder in place using ties, rather than _____.",
+              "options": [],
+              "answer": "blocks",
+              "accepted_answers": [
+                "blocks"
+              ],
+              "analysis": "题干中“Keep the ladder in place using ties, rather than”对应原文“avoid using blocks to wedge the ladder in place as they can easily move”，说明不应使用木块（blocks）固定梯子，因此答案为“blocks”。",
+              "reason": "题干rather than ___对应原文avoid using blocks。",
+              "location_analysis": "原文说不要用木块垫梯子，故填blocks。",
+              "paraphrasing": "keep in place using ties, rather than ___ -> avoid using blocks to wedge the ladder in place",
+              "keywords": "ties, rather than, blocks",
+              "evidence": [
+                "Where this is not practical, secure it to the wall near the base of the ladder with ties; avoid using blocks to wedge the ladder in place as they can easily move."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Employers should keep a $117171$ of ladder safety inspections.\nEmployers should check the $117172$ of a ladder is suitable for the job.\nThe $117173$ and joints of the ladder need particularly close inspection.\nMake sure the $117174$ of the ladder are resting on a clean, hard surface.\nProtect the ladder from vehicles by using $117175$.\nUse $117176$ to keep people away from the ladder.\nKeep the ladder in place using ties, rather than $117177$.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Employers should keep a $117171$ of ladder safety inspections.\nEmployers should check the $117172$ of a ladder is suitable for the job.\nThe $117173$ and joints of the ladder need particularly close inspection.\nMake sure the $117174$ of the ladder are resting on a clean, hard surface.\nProtect the ladder from vehicles by using $117175$.\nUse $117176$ to keep people away from the ladder.\nKeep the ladder in place using ties, rather than $117177$."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Maintaining a safe environment for employees working on computers",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Under health and safety law, you must ensure that the working environment meets certain minimum requirements",
+          "translation": "根据健康与安全法律，你必须确保工作环境满足某些最低要求。"
+        },
+        {
+          "index": 2,
+          "sentence": "Workstation furniture",
+          "translation": "工作站家具"
+        },
+        {
+          "index": 3,
+          "sentence": "The work desk or work surface should be big enough to allow the user to arrange the screen, keyboard and documents, etc. in a flexible way.",
+          "translation": "办公桌或工作台应足够宽敞，以便使用者能够灵活地布置屏幕、键盘和文件等物品。"
+        },
+        {
+          "index": 4,
+          "sentence": "It should be stable and positioned so that it's comfortable when an employee uses a document holder, but also big enough to let the user work comfortably and to alter their position.",
+          "translation": "它应保持稳定且摆放得当，使员工在使用文件架时感到舒适，同时也应足够大，以便使用者能舒适地工作并能调整自己的姿势。"
+        },
+        {
+          "index": 5,
+          "sentence": "The working environment",
+          "translation": "工作环境"
+        },
+        {
+          "index": 6,
+          "sentence": "You need to assess noise levels.",
+          "translation": "你需要评估噪音水平。"
+        },
+        {
+          "index": 7,
+          "sentence": "The equipment shouldn't be so noisy that it distracts the user.",
+          "translation": "设备不应过于嘈杂以免分散用户的注意力。"
+        },
+        {
+          "index": 8,
+          "sentence": "If you can't use quieter equipment, consider soundproofing or moving the equipment.",
+          "translation": "如果你无法使用更安静的设备，可以考虑隔音或移动设备。"
+        },
+        {
+          "index": 9,
+          "sentence": "You could use partitions between noisy equipment and the rest of the workstation as an alternative.",
+          "translation": "作为一种替代方案，你可以在嘈杂设备与工作站其他区域之间使用隔断。"
+        },
+        {
+          "index": 10,
+          "sentence": "Lighting is also an important consideration.",
+          "translation": "照明也是一个重要的考虑因素。"
+        },
+        {
+          "index": 11,
+          "sentence": "Surrounding windows must have curtains or blinds which users can adjust to prevent reflected glare.",
+          "translation": "周围的窗户必须配备用户可调节的窗帘或百叶窗，以防止反射眩光。"
+        },
+        {
+          "index": 12,
+          "sentence": "If needed, provide users with lighting appropriate to their tasks and particular workstation.",
+          "translation": "如有需要，应为用户提供适合其工作任务和特定工作站的照明。"
+        },
+        {
+          "index": 13,
+          "sentence": "Users should have control over their lighting to prevent reflected glare.",
+          "translation": "用户应能控制自己的照明，以防止反射眩光。"
+        },
+        {
+          "index": 14,
+          "sentence": "Temperature-wise, the equipment should not give out so much heat that the user becomes uncomfortable, so monitor this.",
+          "translation": "在温度方面，设备不应散发出过多热量导致使用者感到不适，因此需对此加以监控。"
+        },
+        {
+          "index": 15,
+          "sentence": "It's also important that you maintain ventilation, and you control humidity so that it is at a level which keeps the user comfortable.",
+          "translation": "保持通风以及控制湿度至令使用者舒适的水平也同样重要。"
+        },
+        {
+          "index": 16,
+          "sentence": "Task design and rest breaks",
+          "translation": "任务设计与休息间隔"
+        },
+        {
+          "index": 17,
+          "sentence": "Good design of the task can be as important as the right choice of furniture and equipment.",
+          "translation": "任务的良好设计与正确选择家具和设备同样重要。"
+        },
+        {
+          "index": 18,
+          "sentence": "Whenever possible you should design jobs so that employees have a mix of activities and some control over which tasks they perform and when.",
+          "translation": "只要有可能，你就应该设计工作，使员工能够进行多样化的活动，并对他们执行哪些任务以及何时执行拥有一定的控制权。"
+        },
+        {
+          "index": 19,
+          "sentence": "You should match staffing levels to workload so that individuals are neither overworked nor underworked and give employees some say in the way work is carried out and the planning that goes into it.",
+          "translation": "你应该使人员配置水平与工作量相匹配，以确保员工既不过度劳累也不过于清闲，并让员工在工作的执行方式和相关规划中有一定的发言权。"
+        },
+        {
+          "index": 20,
+          "sentence": "An employee's need for rest breaks will vary depending on the type of work they are doing and how intensely they are working.",
+          "translation": "员工对休息间隔的需求会因所从事工作的类型和工作强度而有所不同。"
+        },
+        {
+          "index": 21,
+          "sentence": "As a general rule, however, short, frequent breaks are better than longer, less frequent ones.",
+          "translation": "然而，一般来说，短暂而频繁的休息优于较长但不频繁的休息。"
+        },
+        {
+          "index": 22,
+          "sentence": "A 5-10-minute break after 50-60 minutes' work is better than a 15-20-minute break after two hours.",
+          "translation": "工作50-60分钟后休息5-10分钟，优于工作两小时后休息15-20分钟。"
+        },
+        {
+          "index": 23,
+          "sentence": "The employee should, at times, have a choice over when to take breaks and they should be encouraged to do non-work activities during their break, ideally away from the workstation.",
+          "translation": "员工有时应有权选择何时休息，并应鼓励他们在休息期间进行非工作活动，最好远离工作台。"
+        },
+        {
+          "index": 24,
+          "sentence": "Using portable ladders",
+          "translation": "使用便携式梯子"
+        },
+        {
+          "index": 25,
+          "sentence": "Workers use portable ladders for a variety of jobs outside, such as first- and second-floor window cleaning and building repairs",
+          "translation": "工人在户外使用便携式梯子从事多种工作，例如一楼和二楼的窗户清洁以及建筑维修。"
+        },
+        {
+          "index": 27,
+          "sentence": "Employers need to oversee all ladders that are owned by their company.",
+          "translation": "雇主需要监管公司拥有的所有梯子。"
+        },
+        {
+          "index": 28,
+          "sentence": "Detailed visual inspections should be carried out on a regular basis, and they should have an up-to-date record of these.",
+          "translation": "应定期进行详细的目视检查，并保持对这些检查的最新记录。"
+        },
+        {
+          "index": 29,
+          "sentence": "Before starting a job, employers are also responsible for ensuring any ladder is the right length to meet the needs of the task; reaching out from the very top of a ladder is highly dangerous.",
+          "translation": "在开始工作前，雇主还有责任确保任何梯子的长度符合任务需求；从梯子最顶端伸手够物是极其危险的。"
+        },
+        {
+          "index": 30,
+          "sentence": "Once you get a ladder, you, as user of the ladder, should conduct a pre-use check each working day.",
+          "translation": "拿到梯子后，作为使用者，你应该在每个工作日进行使用前检查。"
+        },
+        {
+          "index": 31,
+          "sentence": "Conducting pre-use checks should have been part of your training and should be done in accordance with the manufacturer's guidelines.",
+          "translation": "进行使用前检查本应是培训的一部分，并且应按照制造商的指导说明进行。"
+        },
+        {
+          "index": 32,
+          "sentence": "When doing a check, it is important to focus on the steps and make sure they are not loose as this could cause an accident.",
+          "translation": "进行检查时，重点应放在梯级上，确保它们不松动，因为这可能导致事故。"
+        },
+        {
+          "index": 33,
+          "sentence": "Similarly, a cracked joint in the ladder could cause it to fail.",
+          "translation": "同样，梯子上的裂缝接头可能导致梯子失效。"
+        },
+        {
+          "index": 35,
+          "sentence": "Almost all falls from ladders happen because the ladder moves unexpectedly.",
+          "translation": "几乎所有的梯子坠落事故都是由于梯子意外移动而发生的。"
+        },
+        {
+          "index": 36,
+          "sentence": "The key factor in preventing falls from ladders is to ensure your ladder is stable whilst being used.",
+          "translation": "预防梯子坠落的关键因素是确保梯子在使用过程中保持稳定。"
+        },
+        {
+          "index": 37,
+          "sentence": "First, make sure that you choose level ground on which to set up your ladder.",
+          "translation": "首先，确保你选择平整的地面来放置梯子。"
+        },
+        {
+          "index": 38,
+          "sentence": "There are specially designed tools you can use to ensure this - don't just use a piece of wood.",
+          "translation": "有专门设计的工具可以用来确保这一点——不要仅仅使用一块木头。"
+        },
+        {
+          "index": 39,
+          "sentence": "Second, check the ground surface is dirt-free and solid, so the feet can grip and the ladder doesn't sink.",
+          "translation": "其次，检查地面是否无污垢且坚实，这样梯脚能够抓牢，梯子不会下陷。"
+        },
+        {
+          "index": 41,
+          "sentence": "Before you go up your ladder, look at the surrounding environment.",
+          "translation": "在爬上梯子之前，请先观察周围环境。"
+        },
+        {
+          "index": 42,
+          "sentence": "Make sure the ladder cannot be struck by vehicles.",
+          "translation": "确保梯子不会受到车辆的撞击。"
+        },
+        {
+          "index": 43,
+          "sentence": "If necessary, safeguard the area by placing red and white cones around it.",
+          "translation": "如有必要，通过在周围放置红白锥形路障来保护该区域。"
+        },
+        {
+          "index": 44,
+          "sentence": "Ensure it will not be pushed over by other hazards such as opening doors.",
+          "translation": "确保它不会被其他危险因素（如开门）推倒。"
+        },
+        {
+          "index": 45,
+          "sentence": "Doors and windows may need to be secured where possible.",
+          "translation": "在可能的情况下，可能需要将门窗固定好。"
+        },
+        {
+          "index": 46,
+          "sentence": "Finally, think about the hazards to the general public and make sure they cannot walk underneath it or get too near to it.",
+          "translation": "最后，要考虑对公众造成的危险，确保他们无法从梯子下方走过或过于靠近梯子。"
+        },
+        {
+          "index": 47,
+          "sentence": "A 'danger' sign at the base is often the best way of doing this.",
+          "translation": "在梯子底部放置‘危险’标志通常是做到这一点的最佳方式。"
+        },
+        {
+          "index": 49,
+          "sentence": "To secure the ladder, tie it to a suitable point, such as a window or railing, making sure both sides are attached.",
+          "translation": "为了固定梯子，应将其系在合适的位置，例如窗户或栏杆上，并确保两侧都已绑好。"
+        },
+        {
+          "index": 50,
+          "sentence": "Where this is not practical, secure it to the wall near the base of the ladder with ties; avoid using blocks to wedge the ladder in place as they can easily move.",
+          "translation": "如果这种方法不可行，则用绳索将梯子固定在靠近基部的墙壁上；避免使用木块楔入梯子来固定位置，因为它们很容易移动。"
+        }
+      ]
+    },
+    {
+      "id": "1891",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "The story of the Fosbury Flop",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "On October 20,1968,a 21-year-old university student from the USA called Dick Fosbury completely transformed the sport of high jumping with a gold-medal and Olympic-record jump of 2.24 meters at the Mexico City games. Fosbury accomplished this fabulous feat by sailing over the crossbar head first and backward! As colorfully described that day by the Los Angeles Times,\"Fosbury goes over the bar like a guy being pushed out of a 30-story window.\"",
+          "translation": "1968年10月20日，一位来自美国的21岁大学生，名叫迪克·福斯伯里，在墨西哥城奥运会上以2.24米的金牌成绩和奥运纪录彻底改变了跳高运动。\n福斯伯里通过头先向后飞跃横杆的方式完成了这一惊人壮举。\n正如《洛杉矶时报》那天生动描述的：“福斯伯里越过横杆的样子，就像一个人被从30层楼的窗户推出去一样。”"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "At first, when asked about how this unorthodox manoeuvre originated, Fosbury would joke with sportswriters, informing some that, because of his university background in physics and engineering, he had initially designed the Flop on paper, and telling others that he had accidentally discovered this technique when he once tripped and fell backward on his take-off. However, in later interviews, Fosbury revealed that the technique actually unfolded over many years and involved countless trials and errors. \" It was simply a natural technique that evolved,\" he said.\" I never thought about how to change it, and I'm sure my coach was going crazy because it kept evolving. l didn't know anyone else in the world would be able to use it.\"",
+          "translation": "起初，当被问及这种非正统动作是如何起源时，福斯伯里会与体育记者开玩笑，告诉一些人，由于他大学主修物理和工程学，他最初在纸上设计了背越式，而告诉另一些人，他是在一次起跳时绊倒并向后摔倒时偶然发现了这项技术。\n然而，在后来的采访中，福斯伯里透露，这项技术实际上是经过多年发展而成的，并涉及无数次的尝试和错误。\n“这只是一项自然演变的技术，”他说，“我从未想过如何改变它，而且我确信我的教练快要疯了，因为它不断演变。我不知道世界上还有其他人能够使用它。”"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Fosbury explained that when he first learned to high jump at the age of 10 or 11, he tried jumping with the \"scissors\" style.He said, \" l used that style until l went into high school, where my coach explained that l was never going to get anywhere with that technique. He started me with the 'belly roll' technique.",
+          "translation": "福斯贝里解释说，在他10岁或11岁第一次学习跳高时，他曾尝试用“剪式”跳法。\n他说：“我一直使用那种风格，直到进入高中，我的教练解释说，用那种技术我永远不会有任何进展。\n他让我开始学习‘腹滚式’技术。”"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "However, l was really lousy with that style. l expressed my frustration to coach and he said that if l really wanted,l could still use the 'scissors.",
+          "translation": "然而，我运用那种姿势时表现非常糟糕。\n我向教练表达了沮丧之情，他说如果我真心愿意，我仍然可以使用‘剪刀式’跳法。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "So, in his next competition,Fosbury went back to the \"scissors\" style.He explained: \"As the bar was raised each time, l began to lift my hips up and my shoulders went back in reaction to that.At the end of the competition, I had improved my best by 15 cm to 1 m 78 and even placed third! The next two years in high school with my curved approach, l began to lead with my shoulder and eventually was going over head first like today's Floppers.\"",
+          "translation": "所以，在接下来的比赛中，福斯伯里重新使用了“剪刀式”跳法。\n他解释说：“每次横杆升高时，我开始抬起臀部，肩膀随之向后仰。\n比赛结束时，我的最佳成绩提高了15厘米，达到1米78，甚至获得了第三名！”\n在接下来的两年高中生涯中，我采用曲线助跑，开始用肩膀引领，最终像今天的背越式跳高者一样头朝下越过横杆。”"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "In this way, the Flop evolved, not from design, but from a trial-and-error process which combined repeated effort with the biomechanics of Fosbury's gangling1 m 93 physique.Sports Illustrated writer Richard Hoffer wrote: \"It was on-site engineering, his body and mind working together, making reflexive adjustments with only one goal, getting over the bar.\" Hoffer explained that although Fosbury's arms and legs seemed to be all over the place, those movements that served to get him a centimeter higher were retained, while the others were gradually eliminated as the technique evolved.",
+          "translation": "就这样，背越式跳高并非源自设计，而是通过反复尝试与错误的过程演变而来，这一过程结合了福斯伯里瘦长身材（身高1米93）的生物力学特性。\n《体育画报》撰稿人理查德·霍弗写道：“这是现场工程，他的身心协同工作，进行反射性调整，目标只有一个——越过横杆。”\n霍弗解释道，尽管福斯伯里的手臂和腿显得杂乱无章，但那些能让他再高一厘米的动作被保留了下来，而其他动作则随着技术的演变逐渐被淘汰。\n就这样，背越式跳高逐渐演变而来，并非出于设计，而是一个反复尝试的过程，将反复的努力与福斯伯里瘦长身材（身高1米93）的生物力学特性结合在一起。\n《体育画报》的作者理查德·霍弗写道：“这是一场现场工程，他的身体和心智协同工作，做出本能调整，目标只有一个——过杆。”\n霍弗解释说，尽管福斯伯里的手臂和腿似乎显得杂乱无章，但那些能让他再高一厘米的动作被保留下来，而其他动作则随着技术的演变逐渐被淘汰。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "What did Fosbury think of the seeming awkwardness of his Flop?\" l believe that the Flop was a natural style,\" he said,\"And l was just the first to find it. I can say that because the Canadian jumper Debbie Brill was a few years younger than l was and also developed the same technique, only a few years after me and without ever having seen me.\"",
+          "translation": "福斯贝里如何看待他那看似笨拙的背越式跳高？\n\"我认为背越式是一种自然的动作，\"他说，\"我只是第一个发现它的人。\n我可以这么说，因为加拿大跳高选手黛比·布里尔比我年轻几岁，也在几年后独立发展出了同样的技术，而且从未看过我的动作。\""
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "A striking coincidence? Yes, indeed.But, perhaps not as striking as the fact that a high school student called Bruce Quande was photographed on May 24,1963 flopping backward over the crossbar.This was the same month that Fosbury recalls having flopped for the first time in the competition when he was at high school!",
+          "translation": "一个惊人的巧合吗？\n确实是的。\n但也许更令人惊讶的是，一名叫布鲁斯·匡德的高中生在1963年5月24日被拍到向后越过横杆。\n这正是福斯伯里回忆自己在高中比赛中第一次使用背越式跳高的同一个月！"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "But completing the Flop successfully was only half the battle; the return to earth still had to be negotiated.Few would even consider such an experiment knowing they'd have to land on their necks. When Fosbury was jumping in high school, he had to land in pits which were filled with wood chips, sawdust, or sand. On one occasion, Fosbury hit his head on the wooden border of the pit. Another time he landed totally out of the pit, flat on his back, knocking the wind out of him.The next year, Fosbury's high school became the first in the region to install foam rubber in its high jump pit, thereby cushioning the jumper's fall and encouraging the use of the potentially dangerous Flop.The Fosbury Flop and cushioned landing areas thus appear to have co-evolved.",
+          "translation": "但是，成功完成背越式跳高只是成功了一半；返回地面这一环节仍需解决。\n很少有人会考虑进行这样的尝试，因为他们知道自己将不得不以颈部着地。\n当福斯伯里在高中练习跳高时，他不得不落在装满木屑、锯末或沙子的坑里。\n有一次，福斯伯里的头撞在了坑的木制边框上。\n还有一次，他完全落在了坑外，背部平摔在地上，摔得他喘不过气来。\n第二年，福斯伯里的高中成为该地区第一所在跳高坑中安装泡沫橡胶的学校，从而缓冲了跳高者的下落，并鼓励采用这种具有潜在危险的背越式跳法。\n因此，福斯伯里背越式和缓冲落地区域似乎是共同演化的。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Fosbury explains how he came to name the Flop.\"I'm very proud that l received the naming rights.But the term by which the style is known did not appear overnight.To tell the truth, the first time that I was interviewed and asked 'What do you call this?' l used my engineering analytical side and l referred to it as a 'back layout.'It was not interesting, and the journalist didn't even write it down.l noted this.The next time that l was interviewed, that's when l said: \"Well, at home in my town they call it the Fosbury Flop' - and everyone wrote it down.l was the first one to call it that, but it came from a caption on a newspaper photo that said: 'Fosbury flops over bar.' The context was that our town was on a river,very popular for fishing, an hour from the Pacific Ocean.And when you land a fish on the bank, it's flopping.That's the action, and so it's a good description by a journalist, and l remembered it.\"",
+          "translation": "福斯贝里解释了他如何为“背越式跳高”命名。\n“我非常自豪我获得了命名权。\n但这种姿势所采用的术语并非一夜之间出现的。\n说实话，第一次接受采访被问到‘你怎么称呼这个？’时，我运用了自己工程分析的一面，称之为‘背式’。\n这并不有趣，记者甚至没有记下来。\n我注意到了这一点。\n第二次接受采访时，我说：‘嗯，在我家乡小镇，他们称之为“福斯贝里背越式”’——然后每个人都记了下来。\n我是第一个这么称呼它的人，但这源自一张报纸照片下的说明文字：‘福斯贝里背越横杆。’\n背景是，我们小镇位于一条河边，很适合钓鱼，距离太平洋一小时车程。\n当你把鱼甩到岸上时，它会扑腾。\n那就是这种动作，所以这真是记者一个好描述，而我记住了它。”"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13780",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 28 - 32\nThe text has seven sections.\nChoose the correct heading for each section and move it into the gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119798",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求匹配“建议Fosbury改变跳法”的段落。C段提到教练认为他用“scissors”风格“永远不会有所成就”，于是让他改练“belly roll”技术，这正是一次明确的改进建议。因此，段落C最符合题干描述。",
+              "reason": "C段教练指导Fosbury放弃scissors改用belly roll，即为建议改变跳跃方式。",
+              "location_analysis": "C段教练建议改用belly roll，对应题干a suggestion that Fosbur...",
+              "paraphrasing": "suggestion -> coach explained; change way of jumping -> use belly roll",
+              "keywords": "suggestion, change way of jumping",
+              "evidence": [
+                "He started me with the 'belly roll' technique."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "119799",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干寻找“Fosbury因获得某机会而感到荣幸”的段落。G段开头他说：“我很自豪获得了命名权（naming rights）。”这表明他视此为一种荣誉，与题干中“opportunity that made him feel honoured”完全对应，故选G。",
+              "reason": "G段Fosbury因获得Flop命名权而自豪，符合题干。",
+              "location_analysis": "G段Fosbury提到获得命名权感到骄傲，对应题干opportunity that made ...",
+              "paraphrasing": "opportunity -> naming rights; honoured -> proud",
+              "keywords": "opportunity, honoured",
+              "evidence": [
+                "I'm very proud that l received the naming rights."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "119800",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干要求找出体现Fosbury极具影响力的段落。A段首句即指出他在1968年奥运会上“彻底改变了（completely transformed）跳高这项运动”，并以破纪录成绩夺冠，充分说明其影响力之大，因此段落A为正确答案。",
+              "reason": "A段首句说明Fosbury完全改变了跳高，符合题干。",
+              "location_analysis": "A段描述Fosbury完全改变了跳高运动，体现其影响力。",
+              "paraphrasing": "influential -> completely transformed",
+              "keywords": "influential high jumper",
+              "evidence": [
+                "a 21-year-old university student from the USA called Dick Fosbury completely transformed the sport of high jumping"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "119801",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求匹配“Fosbury对Flop起源给出矛盾解释”的段落。B段提到他对一些记者说是在纸上设计的，对另一些则说是摔倒后偶然发现，这些说法明显冲突。虽然后来他澄清是自然演化，但题干聚焦于早期“conflicting explanations”，故答案为B。",
+              "reason": "B段有多个矛盾说法",
+              "location_analysis": "Fosbury对不同记者给出矛盾的解释。",
+              "paraphrasing": "conflicting explanations -> would joke with sportswriters, informing some that... telling others that...",
+              "keywords": "conflicting explanations, idea, began",
+              "evidence": [
+                "Fosbury would joke with sportswriters, informing some that, because of his university background in physics and engineering, he had initially designed the Flop on paper, and telling others that he had accidentally discovered this technique when he once tripped and fell backward on his take-off."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "119802",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出Fosbury对自身表现不满的段落。C段中他坦言使用“belly roll”时“真的很差劲（really lousy）”，并向教练表达了沮丧（frustration），这清楚表明他对当时的表现不满意，因此段落C正确。",
+              "reason": "C段明确表示对belly roll表现不满意，符合题干。",
+              "location_analysis": "C段Fosbury对belly roll技巧表现不满，并表达沮丧，对应dissatisfied...",
+              "paraphrasing": "dissatisfied -> l was really lousy; expressed frustration",
+              "keywords": "dissatisfied with his performance",
+              "evidence": [
+                "However, l was really lousy with that style. l expressed my frustration to coach"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13784",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 33 - 36\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117195",
+              "number": 33,
+              "prompt": "When interviewed about his development of the Fosbury Flop, Dick Fosbury",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "always insisted that he had carefully designed it on scientific principles."
+                },
+                {
+                  "value": "B",
+                  "label": "said he wanted to develop a technique that only he could use."
+                },
+                {
+                  "value": "C",
+                  "label": "claimed it was inspired by an injury he suffered while making a jump."
+                },
+                {
+                  "value": "D",
+                  "label": "stated that it had been done gradually without any overall plan."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问Fosbury在采访中如何描述自己发展Fosbury Flop的过程。原文B段提到，他最初开玩笑说是在纸上设计的，或因摔倒偶然发现，但后来澄清这是一种“自然演化而来”的技术（“It was simply a natural technique that evolved”），并非有整体计划。这与选项D“stated that it had been done gradually without any overall plan”完全对应，因此答案为D。",
+              "reason": "B段指出技术是自然演化而非事先规划，与D选项一致。",
+              "location_analysis": "B段Fosbury承认Flop是自然演化而来，并非有计划设计，对应选项D。",
+              "paraphrasing": "without any overall plan -> simply a natural technique that evolved",
+              "keywords": "development, interviewed",
+              "evidence": [
+                "It was simply a natural technique that evolved"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "与原文矛盾，原文表明他并非基于科学原理精心设计，而是通过实践摸索。",
+                "B": "无中生有，原文未提及他想要发展仅自己能用的技术。",
+                "C": "信息错误，原文未说灵感来自受伤，而是其他因素。"
+              }
+            },
+            {
+              "id": "117197",
+              "number": 34,
+              "prompt": "Fosbury achieved a sudden improvement in the height he could jump when he",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "started to adapt the 'scissors' technique."
+                },
+                {
+                  "value": "B",
+                  "label": "became much more determined to win competitions."
+                },
+                {
+                  "value": "C",
+                  "label": "decided to abandon the 'scissors' technique."
+                },
+                {
+                  "value": "D",
+                  "label": "found a new way of using the 'belly roll'style."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问Fosbury何时突然提高了跳跃高度。C段指出，当他回到“scissors”跳法并在比赛中随着横杆升高而“开始抬起臀部、肩膀后仰”时，成绩一下子提升了15厘米，达到1.78米。这说明他是通过调整并适应原有的“scissors”技巧实现突破的，而非改用其他技术，因此正确选项是A。",
+              "reason": "通过调整scissors技巧，Fosbury成绩大幅提升。",
+              "location_analysis": "C段Fosbury回归scissors并自行调整，成绩提高15厘米，对应选项A。",
+              "paraphrasing": "adapted 'scissors' technique -> he began to lift my hips up and my shoulders went back; improved my best by 15 cm",
+              "keywords": "sudden improvement, height",
+              "evidence": [
+                "At the end of the competition, I had improved my best by 15 cm to 1 m 78"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文未提及决心是成绩突增的原因，属于无中生有。",
+                "C": "原文说的是他改进剪刀式技巧，并非放弃，信息矛盾。",
+                "D": "原文中他采用改进的剪刀式而非腹滚式，张冠李戴。"
+              }
+            },
+            {
+              "id": "117200",
+              "number": 35,
+              "prompt": "When describing the way that Fosbury's jump evolved，Richard Hoffer stressed that",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Fosbury's height slowed down his progress."
+                },
+                {
+                  "value": "B",
+                  "label": "the process was more controlled than it appeared."
+                },
+                {
+                  "value": "C",
+                  "label": "Fosbury was not really aware of his own technique."
+                },
+                {
+                  "value": "D",
+                  "label": "the process included specialist input from engineers."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求理解Richard Hoffer对Fosbury跳法演化的看法。D段引用Hoffer的话：“他的身体和大脑协同工作，做出反射性调整……那些能让他再高一厘米的动作被保留，其余则逐渐淘汰。”这表明该过程看似随意实则具有内在控制和筛选机制，与选项B“the process was more controlled than it appeared”相符。",
+              "reason": "Hoffer指出动作经过选择和保留，说明过程有控制而非随意。",
+              "location_analysis": "D段Hoffer强调Fosbury的跳法看似杂乱实则保留有效动作、淘汰无效动作，体现控制性，对应B。",
+              "paraphrasing": "more controlled than it appeared -> his body and mind working together, making reflexive adjustments; movements that served to get him a centimeter higher were retained, while others were gradually eliminated",
+              "keywords": "Richard Hoffer, evolved",
+              "evidence": [
+                "It was on-site engineering, his body and mind working together, making reflexive adjustments with only one goal, getting over the bar.",
+                "those movements that served to get him a centimeter higher were retained, while the others were gradually eliminated as the technique evolved."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及身高影响进展，属无中生有。",
+                "C": "与原文中Fosbury清楚自身技巧的描述相矛盾。",
+                "D": "原文未涉及工程师的专业指导，属无中生有。"
+              }
+            },
+            {
+              "id": "117201",
+              "number": 36,
+              "prompt": "Fosbury defended his idea that his style of jumping was 'natural' by pointing out that",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "it was achievable by younger jumpers."
+                },
+                {
+                  "value": "B",
+                  "label": "it was copied successfully by other athletes."
+                },
+                {
+                  "value": "C",
+                  "label": "it was achievable without any special training."
+                },
+                {
+                  "value": "D",
+                  "label": "it was independently discovered by other athletes."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问Fosbury如何证明其跳法是“自然的”。E段中他提到加拿大选手Debbie Brill在未见过他的情况下，几年后也独立发展出相同技术，以此说明这种跳法并非他独创，而是自然可被他人发现的。这直接对应选项D“it was independently discovered by other athletes”，故为正确答案。",
+              "reason": "别人独立发明相同技术证明其自然性，对应选项D。",
+              "location_analysis": "E段Fosbury指出加拿大选手Debbie Brill独立发明同种技术，证明其natural...",
+              "paraphrasing": "independently discovered -> developed the same technique...without ever having seen me",
+              "keywords": "natural, independently discovered",
+              "evidence": [
+                "the Canadian jumper Debbie Brill was a few years younger than l was and also developed the same technique, only a few years after me and without ever having seen me."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "该选项在原文中无依据，Fosbury并未提及年轻运动员能够实现此跳法。",
+                "B": "与原文矛盾，Fosbury并未提到其他运动员成功复制了他的技术。",
+                "C": "该选项过于绝对，原文未说明无需专门训练即可实现。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13794",
+          "type": 4,
+          "title": "How the Fosbury Flop got its name",
+          "instructions": "Questions 37 - 40\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117203",
+              "number": 37,
+              "prompt": "When first interviewed, Fosbury called his jumping style a _____, but he realised that this had not made an impression on the _____. In his next interview, he used a name taken from the description given to a newspaper photo - and this was the name that everyone noted. He says the name was appropriate because his town is near a _____ and a _____ does a similar type of 'flopping' movement when brought to land.",
+              "options": [],
+              "answer": "back layout",
+              "accepted_answers": [
+                "back layout"
+              ],
+              "analysis": "题干要求填写Fosbury首次受访时对自己跳法的称呼。G段明确写道：“第一次被问‘你叫这个什么？’时，我用工程分析思维称它为‘back layout’。”因此，根据原文直接提取，“back layout”即为第37题的答案。",
+              "reason": "原词back layout直接对应题干。",
+              "location_analysis": "G段Fosbury首次受访时称此动作为back layout。",
+              "paraphrasing": "called -> referred to it as",
+              "keywords": "first interviewed, called, back layout",
+              "evidence": [
+                "the first time that I was interviewed and asked 'What do you call this?' l used my engineering analytical side and l referred to it as a 'back layout.'"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117204",
+              "number": 38,
+              "prompt": "When first interviewed, Fosbury called his jumping style a _____, but he realised that this had not made an impression on the _____. In his next interview, he used a name taken from the description given to a newspaper photo - and this was the name that everyone noted. He says the name was appropriate because his town is near a _____ and a _____ does a similar type of 'flopping' movement when brought to land.",
+              "options": [],
+              "answer": "journalist",
+              "accepted_answers": [
+                "journalist"
+              ],
+              "analysis": "题干指出Fosbury意识到之前的名称未给人留下印象。G段提到他称其为“back layout”后，“记者甚至没把它写下来”，说明该名称未能引起记者注意。因此，此处应填“journalist”，对应原文中未记录该术语的对象。",
+              "reason": "journalist未写下，说明未留下印象。",
+              "location_analysis": "G段记者未记录back layout，对应题干had not made an impression。",
+              "paraphrasing": "had not made an impression -> didn't even write it down",
+              "keywords": "impression on the",
+              "evidence": [
+                "It was not interesting, and the journalist didn't even write it down."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117205",
+              "number": 39,
+              "prompt": "When first interviewed, Fosbury called his jumping style a _____, but he realised that this had not made an impression on the _____. In his next interview, he used a name taken from the description given to a newspaper photo - and this was the name that everyone noted. He says the name was appropriate because his town is near a _____ and a _____ does a similar type of 'flopping' movement when brought to land.",
+              "options": [],
+              "answer": "river",
+              "accepted_answers": [
+                "river"
+              ],
+              "analysis": "题干要求填写Fosbury家乡附近的地理特征。G段说明：“我们镇就在一条河边（on a river）”，且靠近太平洋，常有人钓鱼。因此，“river”是符合题意且直接出自原文的两词以内答案。",
+              "reason": "原词river直接匹配。",
+              "location_analysis": "G段Fosbury家乡位于河边，对应题干near a river。",
+              "paraphrasing": "near a -> on a river",
+              "keywords": "near a",
+              "evidence": [
+                "our town was on a river"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117206",
+              "number": 40,
+              "prompt": "When first interviewed, Fosbury called his jumping style a _____, but he realised that this had not made an impression on the _____. In his next interview, he used a name taken from the description given to a newspaper photo - and this was the name that everyone noted. He says the name was appropriate because his town is near a _____ and a _____ does a similar type of 'flopping' movement when brought to land.",
+              "options": [],
+              "answer": "fish",
+              "accepted_answers": [
+                "fish"
+              ],
+              "analysis": "题干问哪种生物上岸时会做类似“flopping”的动作。G段解释命名来源时说：“当你把鱼钓到岸上，它会扑腾（flopping）。”此处“fish”与“flopping movement when brought to land”完全对应，因此答案为“fish”。",
+              "reason": "fish的flopping动作与Flop命名相关。",
+              "location_analysis": "G段用鱼被钓上时扑腾（flopping）比喻Fosbury的动作。",
+              "paraphrasing": "does a similar type of flopping -> it's flopping",
+              "keywords": "flopping movement, brought to land",
+              "evidence": [
+                "when you land a fish on the bank, it's flopping."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "When first interviewed, Fosbury called his jumping style a $117203$, but he realised that this had not made an impression on the $117204$. In his next interview, he used a name taken from the description given to a newspaper photo - and this was the name that everyone noted. He says the name was appropriate because his town is near a $117205$ and a $117206$ does a similar type of 'flopping' movement when brought to land.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "When first interviewed, Fosbury called his jumping style a $117203$, but he realised that this had not made an impression on the $117204$. In his next interview, he used a name taken from the description given to a newspaper photo - and this was the name that everyone noted. He says the name was appropriate because his town is near a $117205$ and a $117206$ does a similar type of 'flopping' movement when brought to land."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "The story of the Fosbury Flop",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "On October 20,1968,a 21-year-old university student from the USA called Dick Fosbury completely transformed the sport of high jumping with a gold-medal and Olympic-record jump of 2.24 meters at the Mexico City games.",
+          "translation": "1968年10月20日，一位来自美国的21岁大学生，名叫迪克·福斯伯里，在墨西哥城奥运会上以2.24米的金牌成绩和奥运纪录彻底改变了跳高运动。"
+        },
+        {
+          "index": 3,
+          "sentence": "Fosbury accomplished this fabulous feat by sailing over the crossbar head first and backward!",
+          "translation": "福斯伯里通过头先向后飞跃横杆的方式完成了这一惊人壮举。"
+        },
+        {
+          "index": 4,
+          "sentence": "As colorfully described that day by the Los Angeles Times,\"Fosbury goes over the bar like a guy being pushed out of a 30-story window.\"",
+          "translation": "正如《洛杉矶时报》那天生动描述的：“福斯伯里越过横杆的样子，就像一个人被从30层楼的窗户推出去一样。”"
+        },
+        {
+          "index": 6,
+          "sentence": "At first, when asked about how this unorthodox manoeuvre originated, Fosbury would joke with sportswriters, informing some that, because of his university background in physics and engineering, he had initially designed the Flop on paper, and telling others that he had accidentally discovered this technique when he once tripped and fell backward on his take-off.",
+          "translation": "起初，当被问及这种非正统动作是如何起源时，福斯伯里会与体育记者开玩笑，告诉一些人，由于他大学主修物理和工程学，他最初在纸上设计了背越式，而告诉另一些人，他是在一次起跳时绊倒并向后摔倒时偶然发现了这项技术。"
+        },
+        {
+          "index": 7,
+          "sentence": "However, in later interviews, Fosbury revealed that the technique actually unfolded over many years and involved countless trials and errors.",
+          "translation": "然而，在后来的采访中，福斯伯里透露，这项技术实际上是经过多年发展而成的，并涉及无数次的尝试和错误。"
+        },
+        {
+          "index": 8,
+          "sentence": "\" It was simply a natural technique that evolved,\" he said.\" I never thought about how to change it, and I'm sure my coach was going crazy because it kept evolving. l didn't know anyone else in the world would be able to use it.\"",
+          "translation": "“这只是一项自然演变的技术，”他说，“我从未想过如何改变它，而且我确信我的教练快要疯了，因为它不断演变。我不知道世界上还有其他人能够使用它。”"
+        },
+        {
+          "index": 10,
+          "sentence": "Fosbury explained that when he first learned to high jump at the age of 10 or 11, he tried jumping with the \"scissors\" style.",
+          "translation": "福斯贝里解释说，在他10岁或11岁第一次学习跳高时，他曾尝试用“剪式”跳法。"
+        },
+        {
+          "index": 11,
+          "sentence": "He said, \" l used that style until l went into high school, where my coach explained that l was never going to get anywhere with that technique.",
+          "translation": "他说：“我一直使用那种风格，直到进入高中，我的教练解释说，用那种技术我永远不会有任何进展。"
+        },
+        {
+          "index": 12,
+          "sentence": "He started me with the 'belly roll' technique.",
+          "translation": "他让我开始学习‘腹滚式’技术。”"
+        },
+        {
+          "index": 13,
+          "sentence": "However, l was really lousy with that style.",
+          "translation": "然而，我运用那种姿势时表现非常糟糕。"
+        },
+        {
+          "index": 14,
+          "sentence": "l expressed my frustration to coach and he said that if l really wanted,l could still use the 'scissors.",
+          "translation": "我向教练表达了沮丧之情，他说如果我真心愿意，我仍然可以使用‘剪刀式’跳法。"
+        },
+        {
+          "index": 15,
+          "sentence": "So, in his next competition,Fosbury went back to the \"scissors\" style.",
+          "translation": "所以，在接下来的比赛中，福斯伯里重新使用了“剪刀式”跳法。"
+        },
+        {
+          "index": 16,
+          "sentence": "He explained: \"As the bar was raised each time, l began to lift my hips up and my shoulders went back in reaction to that.",
+          "translation": "他解释说：“每次横杆升高时，我开始抬起臀部，肩膀随之向后仰。"
+        },
+        {
+          "index": 17,
+          "sentence": "At the end of the competition, I had improved my best by 15 cm to 1 m 78 and even placed third!",
+          "translation": "比赛结束时，我的最佳成绩提高了15厘米，达到1米78，甚至获得了第三名！”"
+        },
+        {
+          "index": 18,
+          "sentence": "The next two years in high school with my curved approach, l began to lead with my shoulder and eventually was going over head first like today's Floppers.\"",
+          "translation": "在接下来的两年高中生涯中，我采用曲线助跑，开始用肩膀引领，最终像今天的背越式跳高者一样头朝下越过横杆。”"
+        },
+        {
+          "index": 19,
+          "sentence": "In this way, the Flop evolved, not from design, but from a trial-and-error process which combined repeated effort with the biomechanics of Fosbury's gangling1 m 93 physique.",
+          "translation": "就这样，背越式跳高并非源自设计，而是通过反复尝试与错误的过程演变而来，这一过程结合了福斯伯里瘦长身材（身高1米93）的生物力学特性。"
+        },
+        {
+          "index": 20,
+          "sentence": "Sports Illustrated writer Richard Hoffer wrote: \"It was on-site engineering, his body and mind working together, making reflexive adjustments with only one goal, getting over the bar.\"",
+          "translation": "《体育画报》撰稿人理查德·霍弗写道：“这是现场工程，他的身心协同工作，进行反射性调整，目标只有一个——越过横杆。”"
+        },
+        {
+          "index": 21,
+          "sentence": "Hoffer explained that although Fosbury's arms and legs seemed to be all over the place, those movements that served to get him a centimeter higher were retained, while the others were gradually eliminated as the technique evolved.",
+          "translation": "霍弗解释道，尽管福斯伯里的手臂和腿显得杂乱无章，但那些能让他再高一厘米的动作被保留了下来，而其他动作则随着技术的演变逐渐被淘汰。"
+        },
+        {
+          "index": 22,
+          "sentence": "In this way, the Flop evolved, not from design, but from a trial-and-error process which combined repeated effort with the biomechanics of Fosbury's gangling1 m 93 physique.",
+          "translation": "就这样，背越式跳高逐渐演变而来，并非出于设计，而是一个反复尝试的过程，将反复的努力与福斯伯里瘦长身材（身高1米93）的生物力学特性结合在一起。"
+        },
+        {
+          "index": 23,
+          "sentence": "Sports Illustrated writer Richard Hoffer wrote: \"It was on-site engineering, his body and mind working together, making reflexive adjustments with only one goal, getting over the bar.\"",
+          "translation": "《体育画报》的作者理查德·霍弗写道：“这是一场现场工程，他的身体和心智协同工作，做出本能调整，目标只有一个——过杆。”"
+        },
+        {
+          "index": 24,
+          "sentence": "Hoffer explained that although Fosbury's arms and legs seemed to be all over the place, those movements that served to get him a centimeter higher were retained, while the others were gradually eliminated as the technique evolved.",
+          "translation": "霍弗解释说，尽管福斯伯里的手臂和腿似乎显得杂乱无章，但那些能让他再高一厘米的动作被保留下来，而其他动作则随着技术的演变逐渐被淘汰。"
+        },
+        {
+          "index": 26,
+          "sentence": "What did Fosbury think of the seeming awkwardness of his Flop?",
+          "translation": "福斯贝里如何看待他那看似笨拙的背越式跳高？"
+        },
+        {
+          "index": 27,
+          "sentence": "\" l believe that the Flop was a natural style,\" he said,\"And l was just the first to find it.",
+          "translation": "\"我认为背越式是一种自然的动作，\"他说，\"我只是第一个发现它的人。"
+        },
+        {
+          "index": 28,
+          "sentence": "I can say that because the Canadian jumper Debbie Brill was a few years younger than l was and also developed the same technique, only a few years after me and without ever having seen me.\"",
+          "translation": "我可以这么说，因为加拿大跳高选手黛比·布里尔比我年轻几岁，也在几年后独立发展出了同样的技术，而且从未看过我的动作。\""
+        },
+        {
+          "index": 29,
+          "sentence": "A striking coincidence?",
+          "translation": "一个惊人的巧合吗？"
+        },
+        {
+          "index": 30,
+          "sentence": "Yes, indeed.",
+          "translation": "确实是的。"
+        },
+        {
+          "index": 31,
+          "sentence": "But, perhaps not as striking as the fact that a high school student called Bruce Quande was photographed on May 24,1963 flopping backward over the crossbar.",
+          "translation": "但也许更令人惊讶的是，一名叫布鲁斯·匡德的高中生在1963年5月24日被拍到向后越过横杆。"
+        },
+        {
+          "index": 32,
+          "sentence": "This was the same month that Fosbury recalls having flopped for the first time in the competition when he was at high school!",
+          "translation": "这正是福斯伯里回忆自己在高中比赛中第一次使用背越式跳高的同一个月！"
+        },
+        {
+          "index": 34,
+          "sentence": "But completing the Flop successfully was only half the battle; the return to earth still had to be negotiated.",
+          "translation": "但是，成功完成背越式跳高只是成功了一半；返回地面这一环节仍需解决。"
+        },
+        {
+          "index": 35,
+          "sentence": "Few would even consider such an experiment knowing they'd have to land on their necks.",
+          "translation": "很少有人会考虑进行这样的尝试，因为他们知道自己将不得不以颈部着地。"
+        },
+        {
+          "index": 36,
+          "sentence": "When Fosbury was jumping in high school, he had to land in pits which were filled with wood chips, sawdust, or sand.",
+          "translation": "当福斯伯里在高中练习跳高时，他不得不落在装满木屑、锯末或沙子的坑里。"
+        },
+        {
+          "index": 37,
+          "sentence": "On one occasion, Fosbury hit his head on the wooden border of the pit.",
+          "translation": "有一次，福斯伯里的头撞在了坑的木制边框上。"
+        },
+        {
+          "index": 38,
+          "sentence": "Another time he landed totally out of the pit, flat on his back, knocking the wind out of him.",
+          "translation": "还有一次，他完全落在了坑外，背部平摔在地上，摔得他喘不过气来。"
+        },
+        {
+          "index": 39,
+          "sentence": "The next year, Fosbury's high school became the first in the region to install foam rubber in its high jump pit, thereby cushioning the jumper's fall and encouraging the use of the potentially dangerous Flop.",
+          "translation": "第二年，福斯伯里的高中成为该地区第一所在跳高坑中安装泡沫橡胶的学校，从而缓冲了跳高者的下落，并鼓励采用这种具有潜在危险的背越式跳法。"
+        },
+        {
+          "index": 40,
+          "sentence": "The Fosbury Flop and cushioned landing areas thus appear to have co-evolved.",
+          "translation": "因此，福斯伯里背越式和缓冲落地区域似乎是共同演化的。"
+        },
+        {
+          "index": 42,
+          "sentence": "Fosbury explains how he came to name the Flop.",
+          "translation": "福斯贝里解释了他如何为“背越式跳高”命名。"
+        },
+        {
+          "index": 43,
+          "sentence": "\"I'm very proud that l received the naming rights.",
+          "translation": "“我非常自豪我获得了命名权。"
+        },
+        {
+          "index": 44,
+          "sentence": "But the term by which the style is known did not appear overnight.",
+          "translation": "但这种姿势所采用的术语并非一夜之间出现的。"
+        },
+        {
+          "index": 45,
+          "sentence": "To tell the truth, the first time that I was interviewed and asked 'What do you call this?' l used my engineering analytical side and l referred to it as a 'back layout.'",
+          "translation": "说实话，第一次接受采访被问到‘你怎么称呼这个？’时，我运用了自己工程分析的一面，称之为‘背式’。"
+        },
+        {
+          "index": 46,
+          "sentence": "It was not interesting, and the journalist didn't even write it down.",
+          "translation": "这并不有趣，记者甚至没有记下来。"
+        },
+        {
+          "index": 47,
+          "sentence": "l noted this.",
+          "translation": "我注意到了这一点。"
+        },
+        {
+          "index": 48,
+          "sentence": "The next time that l was interviewed, that's when l said: \"Well, at home in my town they call it the Fosbury Flop' - and everyone wrote it down.",
+          "translation": "第二次接受采访时，我说：‘嗯，在我家乡小镇，他们称之为“福斯贝里背越式”’——然后每个人都记了下来。"
+        },
+        {
+          "index": 49,
+          "sentence": "l was the first one to call it that, but it came from a caption on a newspaper photo that said: 'Fosbury flops over bar.'",
+          "translation": "我是第一个这么称呼它的人，但这源自一张报纸照片下的说明文字：‘福斯贝里背越横杆。’"
+        },
+        {
+          "index": 50,
+          "sentence": "The context was that our town was on a river,very popular for fishing, an hour from the Pacific Ocean.",
+          "translation": "背景是，我们小镇位于一条河边，很适合钓鱼，距离太平洋一小时车程。"
+        },
+        {
+          "index": 51,
+          "sentence": "And when you land a fish on the bank, it's flopping.",
+          "translation": "当你把鱼甩到岸上时，它会扑腾。"
+        },
+        {
+          "index": 52,
+          "sentence": "That's the action, and so it's a good description by a journalist, and l remembered it.\"",
+          "translation": "那就是这种动作，所以这真是记者一个好描述，而我记住了它。”"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

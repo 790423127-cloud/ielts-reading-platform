@@ -1,0 +1,2927 @@
+{
+  "id": "b19-test-1",
+  "book": "剑雅19",
+  "book_number": 19,
+  "name": "Test 1",
+  "title": "剑雅19 Test 1",
+  "parts": [
+    {
+      "id": "2734",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Gobridge Tramlink -Frequently Asked Questions (FAQs)",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Here are some of the frequently asked questions about the tram service in Gobridge town",
+          "translation": "以下是一些关于戈布里奇镇有轨电车服务的常见问题"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "When do the trams run?",
+          "translation": "电车什么时候运行？"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Gobridge Tramlink operates a network of trams that run throughout the year and provide links to main services, stations and the airport. Timetables are reviewed in October and March, and may alter slightly so check before you travel. Our first tram from the city centre leaves from Marvin Square at 6.30 am,half an hour after the first",
+          "translation": "时刻表在10月和3月会进行审核，并可能略有调整，因此出行前请确认。\n我们从市中心发出的首班电车于早上6点30分从马文广场出发，比首班\n戈布里奇有轨电车系统运营着一整年运行的电车网络，连接主要服务设施、火车站和机场。\n时刻表在十月和三月会进行审查，并可能略有调整，因此出行前请核实。\n从市中心出发的首班电车于早上6:30从马文广场开出，比第一班城市公交服务晚半小时。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "city bus service.",
+          "translation": "城市公交服务。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Can I get a tram from the airport?",
+          "translation": "我可以从机场乘坐有轨电车吗？"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Trams from the airport to the city centre start running at 6.15 am and leave every fifteen minutes until 7.30 pm when the evening schedule takes over. Trams then run to the main railway station at 35-minute intervals and end at 11.35 pm.If your flight arrives later than this, the number 207 airport bus runs every hour through the night.",
+          "translation": "之后电车每隔35分钟一班开往主要火车站，末班车时间为晚上11点35分。\n如果你的航班晚于这个时间到达，207路机场巴士整夜每小时一班。\n从机场开往市中心的电车从早上6点15分开始运行，每15分钟一班，一直持续到晚上7点30分，届时晚间时刻表开始执行。\n然后，电车以每35分钟一班的间隔开往主要火车站，并在晚上11点35分结束运行。\n如果你的航班抵达时间晚于这个时间，207路机场巴士整夜每小时一班。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "What do I do if I don't have a ticket?",
+          "translation": "如果我没有车票该怎么办？"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Tickets are not sold by anyone on the tram.Ticket vending machines are located at all tram shelters. Check your route and make sure you buy the correct price ticket. If the vending machine does not work,you should push the red button on the machine and speak into the microphone. A member of staff will either fix the machine straight away or contact the tram inspector onboard your tram.He or she cannot sell you a ticket, but you will not be obliged to pay the f8 on-board fine for not having one.",
+          "translation": "所有电车候车亭都设有售票机。\n请核对你的路线，确保购买正确票价的票。\n如果自动售票机出现故障，你应该按下机器上的红色按钮，对着麦克风说话。\n工作人员会立即修理机器，或者联系你所在电车的检票员。\n他或她无法向你出售车票，但你不必因无票而支付8英镑的车内罚款。\n电车上不设任何售票人员。\n所有电车候车亭均设有自动售票机。\n请确认您的路线并确保购买价格正确的车票。\n如果自动售票机出现故障，您应按下机器上的红色按钮并对麦克风说话。\n工作人员将立即修理机器，或联系您所乘电车上的检票员。\n该工作人员无法向您出售车票，但您无需因无票而支付车上的 f8 罚款。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Can I take my bike on the tram?",
+          "translation": "我可以把自行车带上电车吗？"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Each tram is licensed to carry a maximum of two bicycles, though drivers may refuse to allow cyclists to get on if the tram is crowded.Bicycles may only be taken on the trams during off-peak travel periods:up to 7.30 am,between 10 am and 2.30 pm and after 7 pm. Festivals and other large events may also mean that bicycles are prohibited as",
+          "translation": "自行车只能在非高峰时段带上电车：早上7点30分之前、上午10点至下午2点30分之间以及晚上7点之后。\n节日和其他大型活动也可能导致自行车被禁止，因为\n每辆有轨电车被许可最多携带两辆自行车，不过如果电车拥挤，司机可能会拒绝让骑行者上车。\n自行车只能在非高峰出行时段带上电车：上午7点30分之前、上午10点至下午2点30分之间以及晚上7点之后。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "trams carry extra passengers at these times. Once on board,riders should remain with their bicycles throughout the journey and ensure they do not obstruct the entrance,exit or any other area of public access.",
+          "translation": "上车后，骑车人应在整个旅程中留在自行车旁，并确保自行车不阻塞入口、出口或任何其他公共通道区域。\n在这些时段，电车会搭载额外的乘客。\n一旦上车，骑行者应在整个旅程中与自行车待在一起，并确保不阻塞入口、出口或任何其他公共通道区域。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Adorable knitwear",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "可爱的针织衫"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Online customer reviews",
+          "translation": "在线客户评价"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "A Mary-Anne",
+          "translation": "A 玛丽-安"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "I spent a while thinking about buying this sweater because of the price,but I'm glad I finally did.It's a long sweater but that's good as I'm quite tall.I normally find that the sleeves are too short when I try on a top,but not with this one.I tend to take medium but went for large,which was a wise decision as there is plenty of room for a T-shirt underneath when I wear it with jeans.",
+          "translation": "我花了一些时间考虑是否要买这件毛衣，因为它的价格，但我很高兴最终还是买了。\n这是一件长款毛衣，但这很好，因为我个子很高。\n我通常试穿上衣时会发现袖子太短，但这件不会。\n我通常穿中号，但选了加大号，这是一个明智的决定，因为当我搭配牛仔裤穿时，里面还有充足的空间穿一件T恤。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "B Davina",
+          "translation": "B 戴维娜"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "These sweaters are an ideal weight for office wear.The purple one is pretty, though I expected a lighter shade from the picture.I wear a US size 12 UK 16, and the medium is big enough to fit over a shirt with room to spare. It has long sleeves that I love to roll up at the wrist.I'm now trying to resist the temptation to buy it in grey too.",
+          "translation": "这些毛衣的重量非常适合在办公室穿着。\n紫色的那件很漂亮，尽管我根据图片预期的是更浅的色调。\n我穿美国尺码12号、英国尺码16号，而中号大到足以套在衬衫外面，还有余量。\n它有长袖，我喜欢在手腕处卷起来。\n我现在正努力抵制再买一件灰色款的诱惑。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "C Naga",
+          "translation": "C 娜迦"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "This knitted sweater looks great in the pictures.I ordered the olive green with stripes and,although I wasn't sure it was going to look right on me, I was pleasantly surprised when I put it on.It's very soft and I love the long past-the-wrist sleeves too.I opted for the medium,but it was too tight so I exchanged it.",
+          "translation": "这款针织毛衣在图片中看起来很棒。\n我订购了带条纹的橄榄绿色，尽管我不确定它穿在我身上是否合适，但穿上后我惊喜地发现效果很好。\n它非常柔软，我也很喜欢那长过手腕的袖子。\n我选了中号，但太紧了，所以我换了它。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "D Libby",
+          "translation": "D 莉比"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "This is the third of your sweaters that I've bought over the past two years.It's true to size and perfect for the winter months,though I should add that its loose knit means it's best to avoid playing with cats or young dogs when you're wearing it as they could pull threads in the body or sleeves.",
+          "translation": "这是我在过去两年里买的你的第三件毛衣。\n它尺码准确，非常适合冬季穿着，不过我应该补充一点，它的宽松编织意味着当你穿着它时最好避免与猫或幼犬玩耍，因为它们可能会拉扯衣身或袖子的线头。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "E Laura",
+          "translation": "E 劳拉"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "I couldn't decide which colour to get so I bought the deep blue and the charcoal grey,with every intention of sending one of them back.That didn't happen,of course! I would say both colours match the online pictures.I bought size small, and the length is perfect for me,despite the unnecessarily long sleeves! These sweaters are lovely to wear with jeans but also stylish enough to wear to work.",
+          "translation": "我无法决定选哪种颜色，于是买了深蓝色和炭灰色，原本打算退回其中一件。\n当然，那并没有发生！\n我得说这两种颜色都与网上的图片相符。\n我买了小号，长度对我来说很完美，尽管袖子长得没有必要！\n这些毛衣搭配牛仔裤穿很好看，但也足够时尚，可以穿去上班。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "19718",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1 - 7\nDo the following statements agree with the information given in Reading Passage 1?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128782",
+              "number": 1,
+              "prompt": "The city buses start operating later than the trams.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“城市公交车比电车开始运营得晚”，但原文明确指出“从市中心发出的首班电车在早上6:30，比首班城市公交晚半小时”，说明公交车实际上更早发车。因此，题干与原文信息矛盾，答案为FALSE。",
+              "reason": "原文明确电车在公交车之后半小时发车。",
+              "location_analysis": "电车比公交车早半小时，故说法矛盾。",
+              "paraphrasing": "start operating later -> first tram ... half an hour after the first city bus service",
+              "keywords": "city buses, start operating, later than trams",
+              "evidence": [
+                "Our first tram from the city centre leaves from Marvin Square at 6.30 am,half an hour after the first city bus service."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文可能表明公交车开始运营早于或等于电车，与题干矛盾。",
+                "NOT GIVEN": "原文明确比较了公交车和电车的开始运营时间，并非未提及。"
+              }
+            },
+            {
+              "id": "128783",
+              "number": 2,
+              "prompt": "You can get a tram from the airport to the city centre up to midnight.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干说“从机场到市中心的电车可运行至午夜”，但原文提到“晚间时刻表下，电车最晚一班在晚上11:35结束”，并未运行到午夜（即12点）。因此该说法与原文不符，答案为FALSE。",
+              "reason": "结束时间早于午夜。",
+              "location_analysis": "电车11:35pm结束，未到午夜，不符。",
+              "paraphrasing": "up to midnight -> end at 11.35 pm",
+              "keywords": "airport to city centre, up to midnight",
+              "evidence": [
+                "Trams then run to the main railway station at 35-minute intervals and end at 11.35 pm."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文明确电车服务时间并非至午夜，该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文明确给出了相关时间信息，该选项错误地认为信息未提及。"
+              }
+            },
+            {
+              "id": "128784",
+              "number": 3,
+              "prompt": "The 207 bus service stops at the main railway station.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问“207路公交车是否停靠主火车站”，但原文仅说明“若航班晚于11:35抵达，207路机场巴士整夜每小时一班”，并未提及该巴士是否停靠主火车站。因此文中无相关信息，答案为NOT GIVEN。",
+              "reason": "原文未说明公交车路线站点。",
+              "location_analysis": "未提及207路是否停靠火车站。",
+              "paraphrasing": "207 airport bus -> number 207 airport bus",
+              "keywords": "207 bus, main railway station",
+              "evidence": [
+                "If your flight arrives later than this, the number 207 airport bus runs every hour through the night."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及207路公交车是否在主要火车站停靠，因此无法判断为真。",
+                "FALSE": "原文未提及207路公交车不在主要火车站停靠，因此无法判断为假。"
+              }
+            },
+            {
+              "id": "128785",
+              "number": 4,
+              "prompt": "The cost of a tram ticket varies depending on your journey.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称“电车票价根据行程不同而变化”，原文中提到“请确认您的路线并购买正确价格的车票”，暗示不同路线对应不同票价。因此该说法与原文一致，答案为TRUE。",
+              "reason": "指示按路线购买正确票价。",
+              "location_analysis": "不同路线对应不同票价。",
+              "paraphrasing": "cost varies -> buy the correct price ticket",
+              "keywords": "cost, ticket varies, journey",
+              "evidence": [
+                "Check your route and make sure you buy the correct price ticket."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确说明票价因旅程而异，因此该选项与实际信息矛盾。",
+                "NOT GIVEN": "原文明确给出了票价与旅程的关系，并非未提及。"
+              }
+            },
+            {
+              "id": "128786",
+              "number": 5,
+              "prompt": "Bicycles are allowed on the trams between 7.30 am and 10 am.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“自行车可在早上7:30至10点之间带上电车”，但原文规定允许携带自行车的非高峰时段为“早上7:30前、上午10点至下午2:30之间，以及晚上7点后”，7:30–10:00这一时间段并不包含在内。因此说法错误，答案为FALSE。",
+              "reason": "7:30-10不在允许时段内。",
+              "location_analysis": "7:30-10期间不允许，与原文off-peak时段矛盾。",
+              "paraphrasing": "allowed between 7.30-10 -> allowed up to 7.30 am, between 10 am and 2.30 pm",
+              "keywords": "bicycles allowed, between 7.30 am and 10 am",
+              "evidence": [
+                "Bicycles may only be taken on the trams during off-peak travel periods:up to 7.30 am,between 10 am and 2.30 pm and after 7 pm."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文表明此时段不允许自行车上电车。",
+                "NOT GIVEN": "原文明确提及了自行车在此时段能否上电车，并非未提及。"
+              }
+            },
+            {
+              "id": "128787",
+              "number": 6,
+              "prompt": "Additional trams run during the Gobridge festival period.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“节日期间会增开额外电车”，但原文只提到“节庆或大型活动期间，因乘客增多，可能禁止携带自行车”，并未提及是否会增加电车班次。因此文中无此信息，答案为NOT GIVEN。",
+              "reason": "未说明增加班次。",
+              "location_analysis": "提及可能禁止自行车，未提增开列车。",
+              "paraphrasing": "additional trams -> extra passengers, prohibited",
+              "keywords": "additional trams, festival",
+              "evidence": [
+                "Festivals and other large events may also mean that bicycles are prohibited as trams carry extra passengers at these times."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及Gobridge节日期间有额外电车运行，因此该选项无依据。",
+                "FALSE": "原文未提供相关信息，无法判断是否没有额外电车，因此该选项无根据。"
+              }
+            },
+            {
+              "id": "128788",
+              "number": 7,
+              "prompt": "Cyclists may be asked to leave the tram if they block the exit.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“如果骑车者挡住出口，可能会被要求下车”，但原文仅说明“司机可在电车拥挤时拒绝骑车者上车”，并未提到已上车者因阻塞通道而被要求离开。因此文中无此信息，答案为NOT GIVEN。",
+              "reason": "未提及因阻塞出口而被要求下车。",
+              "location_analysis": "提到拒绝上车，但不是要求已上车者离开。",
+              "paraphrasing": "asked to leave -> drivers may refuse to allow cyclists to get on",
+              "keywords": "cyclists, asked to leave, block exit",
+              "evidence": [
+                "Each tram is licensed to carry a maximum of two bicycles, though drivers may refuse to allow cyclists to get on if the tram is crowded."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及骑行者堵塞出口会被要求离开电车，属于无中生有。",
+                "FALSE": "原文未明确否定这一说法，无法判断其真假，因此不能选FALSE。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "19726",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 8 - 14\nLook at the five online customer reviews of sweaters, A-E.\nFor which review are the following statements true?\nChoose the correct letter, A-E.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Mary-Anne"
+            },
+            {
+              "value": "B",
+              "label": "B. Davina"
+            },
+            {
+              "value": "C",
+              "label": "C. Naga"
+            },
+            {
+              "value": "D",
+              "label": "D. Libby"
+            },
+            {
+              "value": "E",
+              "label": "E. Laura"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128789",
+              "number": 8,
+              "prompt": "The colour of the sweater did not match the website image.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Mary-Anne"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Davina"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Naga"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Libby"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Laura"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问哪位顾客“花了些时间才决定购买”，Review B（Davina）提到“紫色毛衣很漂亮，但图片颜色比我预期的浅”，说明她对颜色有疑虑；但真正符合“花时间决定”的是Review A（Mary-Anne），她明确说“因为价格犹豫了一阵子才买”。然而根据中央句提示，此处应指颜色不符，对应B。结合题干描述“颜色与网站图片不符”，B中“expected a lighter shade from the picture”表明颜色不匹配，故答案为B。",
+              "reason": "与图片颜色有差异。",
+              "location_analysis": "Davina说颜色比图片暗。",
+              "paraphrasing": "colour did not match -> expected a lighter shade from the picture",
+              "keywords": "colour, did not match, website image",
+              "evidence": [
+                "The purple one is pretty, though I expected a lighter shade from the picture."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128790",
+              "number": 9,
+              "prompt": "The customer took some time to decide on the purchase.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Mary-Anne"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Davina"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Naga"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Libby"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Laura"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问哪位顾客“花了一些时间才决定购买”，Review A（Mary-Anne）开头就说“I spent a while thinking about buying this sweater because of the price”，明确表示因价格犹豫了一段时间，最终才购买。因此答案为A。",
+              "reason": "因价格犹豫。",
+              "location_analysis": "Mary-Anne考虑了一段时间才买。",
+              "paraphrasing": "took time to decide -> spent a while thinking about buying",
+              "keywords": "took time to decide, purchase",
+              "evidence": [
+                "I spent a while thinking about buying this sweater because of the price,but I'm glad I finally did."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128791",
+              "number": 10,
+              "prompt": "The customer initially bought the wrong size.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Mary-Anne"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Davina"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Naga"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Libby"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Laura"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问哪位顾客“最初买错了尺码”，Review C（Naga）提到“I opted for the medium, but it was too tight so I exchanged it”，说明她先买了M码，发现太紧后换货，符合“最初买错尺码”的描述，因此答案为C。",
+              "reason": "最初选错码。",
+              "location_analysis": "Naga先买M码，太紧换货。",
+              "paraphrasing": "initially bought wrong size -> opted for the medium,but it was too tight so I exchanged it",
+              "keywords": "initially, wrong size",
+              "evidence": [
+                "I opted for the medium,but it was too tight so I exchanged it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128792",
+              "number": 11,
+              "prompt": "The customer changed her mind about returning a sweater.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Mary-Anne"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Davina"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Naga"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Libby"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Laura"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干问哪位顾客“改变了退货的主意”，Review E（Laura）写道“I bought the deep blue and the charcoal grey, with every intention of sending one of them back. That didn't happen, of course!”，明确表示原本打算退一件，但最后没退，符合题意，因此答案为E。",
+              "reason": "改变退货主意。",
+              "location_analysis": "Laura原本要退一件，但没退。",
+              "paraphrasing": "changed mind about returning -> with every intention of sending one of them back.That didn't happen",
+              "keywords": "changed mind, returning a sweater",
+              "evidence": [
+                "I bought the deep blue and the charcoal grey,with every intention of sending one of them back.That didn't happen,of course!"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128793",
+              "number": 12,
+              "prompt": "The customer bought a bigger size than she usually does.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Mary-Anne"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Davina"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Naga"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Libby"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Laura"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问哪位顾客“买了比平时更大的尺码”，Review A（Mary-Anne）说“I tend to take medium but went for large”，表明她通常穿M码，这次选了L码，符合“买了更大尺码”的描述，因此答案为A。",
+              "reason": "比平时买大一号。",
+              "location_analysis": "Mary-Anne通常M码，买了L码。",
+              "paraphrasing": "bought bigger size -> I tend to take medium but went for large",
+              "keywords": "bought bigger size than usual",
+              "evidence": [
+                "I tend to take medium but went for large,which was a wise decision as there is plenty of room for a T-shirt underneath when I wear it with jeans."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128794",
+              "number": 13,
+              "prompt": "The sweater can be worn for smart or casual occasions.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Mary-Anne"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Davina"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Naga"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Libby"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Laura"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干问哪位顾客认为“毛衣既适合休闲也适合正式场合”，Review E（Laura）提到“These sweaters are lovely to wear with jeans but also stylish enough to wear to work”，其中“配牛仔裤”代表休闲，“上班穿”代表正式场合，完全对应题干，因此答案为E。",
+              "reason": "兼顾休闲和正式场合。",
+              "location_analysis": "Laura认为可穿上班（正式）或配牛仔裤（休闲）。",
+              "paraphrasing": "smart or casual -> lovely to wear with jeans but also stylish enough to wear to work",
+              "keywords": "sweater can be worn for smart or casual occasions",
+              "evidence": [
+                "These sweaters are lovely to wear with jeans but also stylish enough to wear to work."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128795",
+              "number": 14,
+              "prompt": "The customer was worried that the sweater wouldn't suit her.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Mary-Anne"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Davina"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Naga"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Libby"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Laura"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问哪位顾客“担心毛衣不适合自己”，Review C（Naga）写道“although I wasn't sure it was going to look right on me, I was pleasantly surprised when I put it on”，明确表达了对是否适合自己外貌的担忧，因此答案为C。",
+              "reason": "担心不适合。",
+              "location_analysis": "Naga不确定是否适合自己。",
+              "paraphrasing": "worried it wouldn't suit -> wasn't sure it was going to look right on me",
+              "keywords": "worried, wouldn't suit her",
+              "evidence": [
+                "I ordered the olive green with stripes and,although I wasn't sure it was going to look right on me, I was pleasantly surprised when I put it on."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "The colour of the sweater did not match the website image.\n8\n8\n$128789$\nThe customer took some time to decide on the purchase.\n9\n9\n$128790$\nThe customer initially bought the wrong size.\n10\n10\n$128791$\nThe customer changed her mind about returning a sweater.\n11\n11\n$128792$\nThe customer bought a bigger size than she usually does.\n12\n12\n$128793$\nThe sweater can be worn for smart or casual occasions.\n13\n13\n$128794$\nThe customer was worried that the sweater wouldn't suit her.\n14\n14\n$128795$\nA. Mary-Anne\nB. Davina\nC. Naga\nD. Libby\nE. Laura",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The colour of the sweater did not match the website image.\n8\n8\n$128789$\nThe customer took some time to decide on the purchase.\n9\n9\n$128790$\nThe customer initially bought the wrong size.\n10\n10\n$128791$\nThe customer changed her mind about returning a sweater.\n11\n11\n$128792$\nThe customer bought a bigger size than she usually does.\n12\n12\n$128793$\nThe sweater can be worn for smart or casual occasions.\n13\n13\n$128794$\nThe customer was worried that the sweater wouldn't suit her.\n14\n14\n$128795$\nA. Mary-Anne\nB. Davina\nC. Naga\nD. Libby\nE. Laura"
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Gobridge Tramlink -Frequently Asked Questions (FAQs)",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "(FAQs)",
+          "translation": "（常见问题解答）"
+        },
+        {
+          "index": 2,
+          "sentence": "1. Here are some of the frequently asked questions about the tram service in Gobridge town",
+          "translation": "1. 以下是关于戈布里奇镇电车服务的一些常见问题。"
+        },
+        {
+          "index": 3,
+          "sentence": "2. When do the trams run?",
+          "translation": "2. 电车何时运行？"
+        },
+        {
+          "index": 4,
+          "sentence": "3. Gobridge Tramlink operates a network of trams that run throughout the year and provide links to main services, stations and the airport.",
+          "translation": "3. 戈布里奇电车线路运营着一个全年运行的电车网络，连接主要服务设施、车站和机场。"
+        },
+        {
+          "index": 5,
+          "sentence": "Timetables are reviewed in October and March, and may alter slightly so check before you travel.",
+          "translation": "时刻表在10月和3月会进行审核，并可能略有调整，因此出行前请确认。"
+        },
+        {
+          "index": 6,
+          "sentence": "Our first tram from the city centre leaves from Marvin Square at 6.30 am,half an hour after the first",
+          "translation": "我们从市中心发出的首班电车于早上6点30分从马文广场出发，比首班"
+        },
+        {
+          "index": 7,
+          "sentence": "4. city bus service.",
+          "translation": "4. 城市公交车服务晚半小时。"
+        },
+        {
+          "index": 8,
+          "sentence": "5. Can I get a tram from the airport?",
+          "translation": "5. 我能从机场乘坐电车吗？"
+        },
+        {
+          "index": 9,
+          "sentence": "6. Trams from the airport to the city centre start running at 6.15 am and leave every fifteen minutes until 7.30 pm when the evening schedule takes over.",
+          "translation": "6. 从机场到市中心的电车于早上6点15分开始运行，每15分钟一班，直到晚上7点30分转为晚间时刻表。"
+        },
+        {
+          "index": 10,
+          "sentence": "Trams then run to the main railway station at 35-minute intervals and end at 11.35 pm.",
+          "translation": "之后电车每隔35分钟一班开往主要火车站，末班车时间为晚上11点35分。"
+        },
+        {
+          "index": 11,
+          "sentence": "If your flight arrives later than this, the number 207 airport bus runs every hour through the night.",
+          "translation": "如果你的航班晚于这个时间到达，207路机场巴士整夜每小时一班。"
+        },
+        {
+          "index": 12,
+          "sentence": "7. What do I do if I don't have a ticket?",
+          "translation": "7. 如果我没有车票该怎么办？"
+        },
+        {
+          "index": 13,
+          "sentence": "8. Tickets are not sold by anyone on the tram.",
+          "translation": "8. 电车上不设售票人员。"
+        },
+        {
+          "index": 14,
+          "sentence": "Ticket vending machines are located at all tram shelters.",
+          "translation": "所有电车候车亭都设有售票机。"
+        },
+        {
+          "index": 15,
+          "sentence": "Check your route and make sure you buy the correct price ticket.",
+          "translation": "请核对你的路线，确保购买正确票价的票。"
+        },
+        {
+          "index": 16,
+          "sentence": "If the vending machine does not work,you should push the red button on the machine and speak into the microphone.",
+          "translation": "如果自动售票机出现故障，你应该按下机器上的红色按钮，对着麦克风说话。"
+        },
+        {
+          "index": 17,
+          "sentence": "A member of staff will either fix the machine straight away or contact the tram inspector onboard your tram.",
+          "translation": "工作人员会立即修理机器，或者联系你所在电车的检票员。"
+        },
+        {
+          "index": 18,
+          "sentence": "He or she cannot sell you a ticket, but you will not be obliged to pay the f8 on-board fine for not having one.",
+          "translation": "他或她无法向你出售车票，但你不必因无票而支付8英镑的车内罚款。"
+        },
+        {
+          "index": 19,
+          "sentence": "9. Can I take my bike on the tram?",
+          "translation": "9. 我能带自行车上电车吗？"
+        },
+        {
+          "index": 20,
+          "sentence": "10. Each tram is licensed to carry a maximum of two bicycles, though drivers may refuse to allow cyclists to get on if the tram is crowded.",
+          "translation": "10. 每辆电车获准最多承载两辆自行车，但如果电车拥挤，司机可能会拒绝让骑车人上车。"
+        },
+        {
+          "index": 21,
+          "sentence": "Bicycles may only be taken on the trams during off-peak travel periods:up to 7.30 am,between 10 am and 2.30 pm and after 7 pm.",
+          "translation": "自行车只能在非高峰时段带上电车：早上7点30分之前、上午10点至下午2点30分之间以及晚上7点之后。"
+        },
+        {
+          "index": 22,
+          "sentence": "Festivals and other large events may also mean that bicycles are prohibited as",
+          "translation": "节日和其他大型活动也可能导致自行车被禁止，因为"
+        },
+        {
+          "index": 23,
+          "sentence": "11. trams carry extra passengers at these times.",
+          "translation": "11. 在此期间电车会搭载额外乘客。"
+        },
+        {
+          "index": 24,
+          "sentence": "Once on board,riders should remain with their bicycles throughout the journey and ensure they do not obstruct the entrance,exit or any other area of public access.",
+          "translation": "上车后，骑车人应在整个旅程中留在自行车旁，并确保自行车不阻塞入口、出口或任何其他公共通道区域。"
+        },
+        {
+          "index": 25,
+          "sentence": "Here are some of the frequently asked questions about the tram service in Gobridge town",
+          "translation": "以下是一些关于戈布里奇镇有轨电车服务的常见问题"
+        },
+        {
+          "index": 26,
+          "sentence": "When do the trams run?",
+          "translation": "电车什么时候运行？"
+        },
+        {
+          "index": 27,
+          "sentence": "Gobridge Tramlink operates a network of trams that run throughout the year and provide links to main services, stations and the airport.",
+          "translation": "戈布里奇有轨电车系统运营着一整年运行的电车网络，连接主要服务设施、火车站和机场。"
+        },
+        {
+          "index": 28,
+          "sentence": "Timetables are reviewed in October and March, and may alter slightly so check before you travel.",
+          "translation": "时刻表在十月和三月会进行审查，并可能略有调整，因此出行前请核实。"
+        },
+        {
+          "index": 29,
+          "sentence": "Our first tram from the city centre leaves from Marvin Square at 6.30 am,half an hour after the first",
+          "translation": "从市中心出发的首班电车于早上6:30从马文广场开出，比第一班城市公交服务晚半小时。"
+        },
+        {
+          "index": 30,
+          "sentence": "city bus service.",
+          "translation": "城市公交服务。"
+        },
+        {
+          "index": 31,
+          "sentence": "Can I get a tram from the airport?",
+          "translation": "我可以从机场乘坐有轨电车吗？"
+        },
+        {
+          "index": 32,
+          "sentence": "Trams from the airport to the city centre start running at 6.15 am and leave every fifteen minutes until 7.30 pm when the evening schedule takes over.",
+          "translation": "从机场开往市中心的电车从早上6点15分开始运行，每15分钟一班，一直持续到晚上7点30分，届时晚间时刻表开始执行。"
+        },
+        {
+          "index": 33,
+          "sentence": "Trams then run to the main railway station at 35-minute intervals and end at 11.35 pm.",
+          "translation": "然后，电车以每35分钟一班的间隔开往主要火车站，并在晚上11点35分结束运行。"
+        },
+        {
+          "index": 34,
+          "sentence": "If your flight arrives later than this, the number 207 airport bus runs every hour through the night.",
+          "translation": "如果你的航班抵达时间晚于这个时间，207路机场巴士整夜每小时一班。"
+        },
+        {
+          "index": 35,
+          "sentence": "What do I do if I don't have a ticket?",
+          "translation": "如果我没有车票该怎么办？"
+        },
+        {
+          "index": 36,
+          "sentence": "Tickets are not sold by anyone on the tram.",
+          "translation": "电车上不设任何售票人员。"
+        },
+        {
+          "index": 37,
+          "sentence": "Ticket vending machines are located at all tram shelters.",
+          "translation": "所有电车候车亭均设有自动售票机。"
+        },
+        {
+          "index": 38,
+          "sentence": "Check your route and make sure you buy the correct price ticket.",
+          "translation": "请确认您的路线并确保购买价格正确的车票。"
+        },
+        {
+          "index": 39,
+          "sentence": "If the vending machine does not work, you should push the red button on the machine and speak into the microphone.",
+          "translation": "如果自动售票机出现故障，您应按下机器上的红色按钮并对麦克风说话。"
+        },
+        {
+          "index": 40,
+          "sentence": "A member of staff will either fix the machine straight away or contact the tram inspector onboard your tram.",
+          "translation": "工作人员将立即修理机器，或联系您所乘电车上的检票员。"
+        },
+        {
+          "index": 41,
+          "sentence": "He or she cannot sell you a ticket, but you will not be obliged to pay the f8 on-board fine for not having one.",
+          "translation": "该工作人员无法向您出售车票，但您无需因无票而支付车上的 f8 罚款。"
+        },
+        {
+          "index": 42,
+          "sentence": "Can I take my bike on the tram?",
+          "translation": "我可以把自行车带上电车吗？"
+        },
+        {
+          "index": 43,
+          "sentence": "Each tram is licensed to carry a maximum of two bicycles, though drivers may refuse to allow cyclists to get on if the tram is crowded.",
+          "translation": "每辆有轨电车被许可最多携带两辆自行车，不过如果电车拥挤，司机可能会拒绝让骑行者上车。"
+        },
+        {
+          "index": 44,
+          "sentence": "Bicycles may only be taken on the trams during off-peak travel periods: up to 7.30 am, between 10 am and 2.30 pm and after 7 pm.",
+          "translation": "自行车只能在非高峰出行时段带上电车：上午7点30分之前、上午10点至下午2点30分之间以及晚上7点之后。"
+        },
+        {
+          "index": 45,
+          "sentence": "Festivals and other large events may also mean that bicycles are prohibited as trams carry extra passengers at these times.",
+          "translation": "节日和其他大型活动期间，由于电车在这些时段会搭载额外的乘客，自行车也可能被禁止携带。"
+        },
+        {
+          "index": 46,
+          "sentence": "trams carry extra passengers at these times.",
+          "translation": "在这些时段，电车会搭载额外的乘客。"
+        },
+        {
+          "index": 47,
+          "sentence": "Once on board,riders should remain with their bicycles throughout the journey and ensure they do not obstruct the entrance,exit or any other area of public access.",
+          "translation": "一旦上车，骑行者应在整个旅程中与自行车待在一起，并确保不阻塞入口、出口或任何其他公共通道区域。"
+        },
+        {
+          "index": 48,
+          "sentence": "Adorable knitwear",
+          "translation": "可爱的针织衫"
+        },
+        {
+          "index": 49,
+          "sentence": "Online customer reviews",
+          "translation": "在线客户评价"
+        },
+        {
+          "index": 50,
+          "sentence": "A Mary-Anne",
+          "translation": "A 玛丽-安"
+        },
+        {
+          "index": 51,
+          "sentence": "I spent a while thinking about buying this sweater because of the price,but I'm glad I finally did.",
+          "translation": "我花了一些时间考虑是否要买这件毛衣，因为它的价格，但我很高兴最终还是买了。"
+        },
+        {
+          "index": 52,
+          "sentence": "It's a long sweater but that's good as I'm quite tall.",
+          "translation": "这是一件长款毛衣，但这很好，因为我个子很高。"
+        },
+        {
+          "index": 53,
+          "sentence": "I normally find that the sleeves are too short when I try on a top,but not with this one.",
+          "translation": "我通常试穿上衣时会发现袖子太短，但这件不会。"
+        },
+        {
+          "index": 54,
+          "sentence": "I tend to take medium but went for large,which was a wise decision as there is plenty of room for a T-shirt underneath when I wear it with jeans.",
+          "translation": "我通常穿中号，但选了加大号，这是一个明智的决定，因为当我搭配牛仔裤穿时，里面还有充足的空间穿一件T恤。"
+        },
+        {
+          "index": 55,
+          "sentence": "B Davina",
+          "translation": "B 戴维娜"
+        },
+        {
+          "index": 56,
+          "sentence": "These sweaters are an ideal weight for office wear.",
+          "translation": "这些毛衣的重量非常适合在办公室穿着。"
+        },
+        {
+          "index": 57,
+          "sentence": "The purple one is pretty, though I expected a lighter shade from the picture.",
+          "translation": "紫色的那件很漂亮，尽管我根据图片预期的是更浅的色调。"
+        },
+        {
+          "index": 58,
+          "sentence": "I wear a US size 12 UK 16, and the medium is big enough to fit over a shirt with room to spare.",
+          "translation": "我穿美国尺码12号、英国尺码16号，而中号大到足以套在衬衫外面，还有余量。"
+        },
+        {
+          "index": 59,
+          "sentence": "It has long sleeves that I love to roll up at the wrist.",
+          "translation": "它有长袖，我喜欢在手腕处卷起来。"
+        },
+        {
+          "index": 60,
+          "sentence": "I'm now trying to resist the temptation to buy it in grey too.",
+          "translation": "我现在正努力抵制再买一件灰色款的诱惑。"
+        },
+        {
+          "index": 61,
+          "sentence": "C Naga",
+          "translation": "C 娜迦"
+        },
+        {
+          "index": 62,
+          "sentence": "This knitted sweater looks great in the pictures.",
+          "translation": "这款针织毛衣在图片中看起来很棒。"
+        },
+        {
+          "index": 63,
+          "sentence": "I ordered the olive green with stripes and, although I wasn't sure it was going to look right on me, I was pleasantly surprised when I put it on.",
+          "translation": "我订购了带条纹的橄榄绿色，尽管我不确定它穿在我身上是否合适，但穿上后我惊喜地发现效果很好。"
+        },
+        {
+          "index": 64,
+          "sentence": "It's very soft and I love the long past-the-wrist sleeves too.",
+          "translation": "它非常柔软，我也很喜欢那长过手腕的袖子。"
+        },
+        {
+          "index": 65,
+          "sentence": "I opted for the medium, but it was too tight so I exchanged it.",
+          "translation": "我选了中号，但太紧了，所以我换了它。"
+        },
+        {
+          "index": 66,
+          "sentence": "D Libby",
+          "translation": "D 莉比"
+        },
+        {
+          "index": 67,
+          "sentence": "This is the third of your sweaters that I've bought over the past two years.",
+          "translation": "这是我在过去两年里买的你的第三件毛衣。"
+        },
+        {
+          "index": 68,
+          "sentence": "It's true to size and perfect for the winter months, though I should add that its loose knit means it's best to avoid playing with cats or young dogs when you're wearing it as they could pull threads in the body or sleeves.",
+          "translation": "它尺码准确，非常适合冬季穿着，不过我应该补充一点，它的宽松编织意味着当你穿着它时最好避免与猫或幼犬玩耍，因为它们可能会拉扯衣身或袖子的线头。"
+        },
+        {
+          "index": 69,
+          "sentence": "E Laura",
+          "translation": "E 劳拉"
+        },
+        {
+          "index": 70,
+          "sentence": "I couldn't decide which colour to get so I bought the deep blue and the charcoal grey,with every intention of sending one of them back.",
+          "translation": "我无法决定选哪种颜色，于是买了深蓝色和炭灰色，原本打算退回其中一件。"
+        },
+        {
+          "index": 71,
+          "sentence": "That didn't happen,of course!",
+          "translation": "当然，那并没有发生！"
+        },
+        {
+          "index": 72,
+          "sentence": "I would say both colours match the online pictures.",
+          "translation": "我得说这两种颜色都与网上的图片相符。"
+        },
+        {
+          "index": 73,
+          "sentence": "I bought size small, and the length is perfect for me,despite the unnecessarily long sleeves!",
+          "translation": "我买了小号，长度对我来说很完美，尽管袖子长得没有必要！"
+        },
+        {
+          "index": 74,
+          "sentence": "These sweaters are lovely to wear with jeans but also stylish enough to wear to work.",
+          "translation": "这些毛衣搭配牛仔裤穿很好看，但也足够时尚，可以穿去上班。"
+        }
+      ]
+    },
+    {
+      "id": "2736",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "How to become a great leader",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Stepping into a new management role can be unnerving.Here's how to inspire your team:",
+          "translation": "踏入新的管理岗位可能会令人不安。\n以下是如何激励你的团队的方法："
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Set the tone of your leadership style from the outset.Be confident,self-assured and respectful with everyone you meet.Speak as you want to be spoken to,and remember to listen.The first few weeks is when people develop their perceptions of you,so work hard to earn their trust.This will be key to effective change and progress.",
+          "translation": "从一开始就设定好你的领导风格基调。\n对你遇到的每一个人都要保持自信、沉着和尊重。\n以你希望被对待的方式说话，并牢记倾听。\n最初几周是人们对你的印象形成期，因此要努力赢得他们的信任。\n这对于有效的变革与进步至关重要。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Part of a leader's brief is to set bold goals.They could take years to achieve,but they need to be specific enough that everyone in the organisation understands them,buys into them and is willing to work together to achieve them.",
+          "translation": "领导者的职责之一是设定大胆的目标。\n这些目标可能需要多年才能实现，但它们必须足够具体，以便组织中的每个人都能理解、认同并愿意共同努力去达成。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Don't do everything yourself.Great leaders surround themselves with talented individuals and they should trust them to make things happen.If things need changing, tell people and involve them in making the changes by participating in the design of",
+          "translation": "不要凡事亲力亲为。\n优秀的领导者身边聚集着有才华的人才，并且他们应当信任这些人去推动事情完成。\n如果事情需要改变，要告知他人，并让他们通过参与设计来共同做出改变"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "a new strategy.If the team is too cautious to embrace change,give them one more chance but be clearer about what you want.",
+          "translation": "一个新策略。\n如果团队过于谨慎而不愿接受变化，再给他们一次机会，但对你想要的东西要表达得更清楚。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Stamp out the 'them and us'culture.In many organisations,employees feel distant from senior management.The message must be plain:we all work together,but leaders need to work hard to ensure this filters through to everyone in the organisation.",
+          "translation": "消除'他们和我们'的对立文化。\n在许多组织中，员工感觉与高层管理疏远。\n信息必须明确：我们所有人共同合作，但领导者需要努力确保这一点传达到组织中的每一个人。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Allow time for innovation.It's important to give staff time to come up with new ideas and solutions that will fix new problems.However,be clear that a decision is expected; set a time limit and stick to it.",
+          "translation": "为创新留出时间。\n给予员工时间提出能够解决新问题的新想法和解决方案，这一点很重要。\n然而，要明确期望做出决定；设定一个时间限制并严格遵守。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "It is likely that the formula that makes the business you are managing successful will have been created many years ago-but it's important to remember how the business started.Honour those early pioneers and instil a sense of pride across the organisation.",
+          "translation": "很可能使你正在管理的企业取得成功的模式是多年前就已形成的——但重要的是要记住企业是如何起步的。\n尊重那些早期的先驱者，并在整个组织中灌输一种自豪感。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Leaders need to accept that some risk may be required if the situation calls for it. Playing it safe is never a good business rule,and leaders must make sure their business stays ahead by being prepared to act quickly.",
+          "translation": "领导者需要接受，如果情况需要，可能必须承担一定的风险。\n稳扎稳打从来都不是一条好的商业准则，领导者必须确保其企业通过准备迅速行动来保持领先地位。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Show you are passionate and enthusiastic.People spend a large part of their lives working for an organisation,and having a leader who is genuinely thrilled about its future is hugely inspiring.",
+          "translation": "展现你的热情与积极。\n人们一生中很大一部分时间都在为某个组织工作，而拥有一位对其未来真正充满期待的领导者，会带来巨大的鼓舞。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Resigning from a job in a professional manner",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "以专业的方式辞职"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "When you take the decision to resign and move on to another job,you might really want to dance your way out of the door,or get your own back by criticising your boss to the whole office.But you need to resist these temptations because in future you might find you're working with your ex-line manager or other colleagues in a different company.",
+          "translation": "当你决定辞职并转而从事另一份工作时，你可能会很想兴高采烈地走出大门，或者通过在整个办公室批评你的老板来报复他。\n但你需要抵制这些诱惑，因为将来你可能会发现自己在另一家公司与你的前直属经理或其他同事共事。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Letting your manager know",
+          "translation": "让你的经理知晓"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Show courtesy by telling your boss first.Request a meeting to say that you're leaving, following up soon after with an official letter.Before the meeting with your boss,write a list of ongoing tasks along with status updates and suggestions concerning completion. Use the meeting to clarify any other points,such as your notice period and leaving date,and how you will inform others (colleagues or external clients,contacts and suppliers).Ask about a reference too;your employer may only supply the most basic type but your line manager might also give you a more personal one.Making sure you get a good one can make subsequent job hunting less stressful.",
+          "translation": "以礼貌为先，首先告知你的上司。\n请求安排一次会议说明你要离职，并随后尽快提交正式的信函。\n在与老板会面之前，列出一份正在进行的任务清单，附上进度更新以及关于完成工作的建议。\n利用会议澄清其他要点，比如你的通知期和离职日期，以及你将如何告知他人（同事或外部客户、联系人和供应商）。\n也询问一下推荐信；你的雇主可能只提供最基本的类型，但你的直属主管或许能给你一份更具个人特色的推荐信。\n确保获得一份好的推荐信可以让后续的求职过程减轻压力。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Preparation",
+          "translation": "准备工作"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Work out how you can ensure a smooth transition and minimise disruption to your employer.There may be a range of things you can do to hand over professionally,such as completing projects,working out the priorities with your line manager,and leaving clear documentation for the successor in your post concerning processes or software.",
+          "translation": "思考如何确保平稳过渡，并尽量减少对雇主的干扰。\n你可能需要做一系列事情来专业地交接工作，例如完成项目、与直属上级确定优先事项，以及为接任者留下关于流程或软件的清晰文件。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Your letter of resignation",
+          "translation": "你的辞职信"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Keep your letter short.You don't need to give lots of explanations or justification for why you're leaving.Don't be tempted to address the failings of the company or your boss, either.Instead,thanking your employer for the job and mentioning what you appreciated about it is a graceful touch.Here's an idea of what to include:",
+          "translation": "保持信函简短。\n你无需为离开的原因提供大量解释或理由。\n也不要试图指出公司或上司的不足之处。\n相反，感谢雇主给予的工作机会并提及你所珍视的方面是一种得体的做法。\n以下是一份内容建议："
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "● First paragraph-the basics",
+          "translation": "第一段——基本信息"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "Inform the employer that you wish to resign and confirm the agreed final date at work.",
+          "translation": "告知雇主你希望辞职，并确认双方商定的最后工作日。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "● Second paragraph-thank your employer",
+          "translation": "● 第二段——感谢你的雇主"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Mention any particular career-building projects you worked on or opportunities to develop skills and contribute to the employer's goals and successes.You can also mention your appreciation at being able to work in a great team.",
+          "translation": "提及你参与的任何特别有助于职业发展的项目，或是提升技能、为雇主的目与成功做出贡献的机会。\n你也可以表达对能在优秀团队中工作的感激之情。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "● Third paragraph-handover",
+          "translation": "● 第三段——工作交接"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "State your willingness to finish existing projects and hand over your work smoothly.",
+          "translation": "表明你愿意完成现有项目并顺利移交工作。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "19743",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 21\nComplete the sentences below.\nChoose ONE WORD ONLY from the text in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128817",
+              "number": 15,
+              "prompt": "Initially, a leader needs to focus on gaining the _____ of the staff.",
+              "options": [],
+              "answer": "trust",
+              "accepted_answers": [
+                "trust"
+              ],
+              "analysis": "题干中的“gaining the trust of the staff”对应原文第二段中的“work hard to earn their trust”，其中“staff”与原文中的“people”指代一致，“focus on gaining”与“work hard to earn”构成同义替换。因此，答案为“trust”。",
+              "reason": "题干表意与原文一致。",
+              "location_analysis": "原文说'earn their trust'，对应题干'gaining the trust'。",
+              "paraphrasing": "focus on gaining -> work hard to earn; staff -> people",
+              "keywords": "leader, gain, trust, staff",
+              "evidence": [
+                "The first few weeks is when people develop their perceptions of you,so work hard to earn their trust."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128818",
+              "number": 16,
+              "prompt": "A leader should decide on _____ that their staff are happy to fulfil.",
+              "options": [],
+              "answer": "goals",
+              "accepted_answers": [
+                "goals"
+              ],
+              "analysis": "题干要求填入领导者应设定的、员工愿意完成的内容。原文第三段提到“set bold goals”并指出目标需“specific enough that everyone...is willing to work together to achieve them”，其中“goals”与题干中的“fulfil”逻辑一致，故答案为“goals”。",
+              "reason": "题干定位清晰。",
+              "location_analysis": "原文说'set bold goals'且'everyone...willing...to ac...",
+              "paraphrasing": "decide on -> set; staff -> everyone in the organisation; happy to fulfil -> willing to work together to achieve",
+              "keywords": "decide on, goals, staff, fulfil",
+              "evidence": [
+                "Part of a leader's brief is to set bold goals."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128819",
+              "number": 17,
+              "prompt": "Leaders should involve their staff in the process of producing a different _____",
+              "options": [],
+              "answer": "strategy",
+              "accepted_answers": [
+                "strategy"
+              ],
+              "analysis": "题干中“producing a different strategy”对应原文第四段“involve them in making the changes by participating in the design of a new strategy”，其中“strategy”为原文原词，“producing a different”与“design of a new”意义相符，因此答案是“strategy”。",
+              "reason": "匹配准确。",
+              "location_analysis": "原文'involve them in making the changes by partic...",
+              "paraphrasing": "involve -> involve them; producing a different -> designing a new",
+              "keywords": "involve, staff, producing, different, strategy",
+              "evidence": [
+                "If things need changing, tell people and involve them in making the changes by participating in the design of a new strategy."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128820",
+              "number": 18,
+              "prompt": "If tricky issues arise, leaders should give staff the space to find _____ to them.",
+              "options": [],
+              "answer": "solutions",
+              "accepted_answers": [
+                "solutions"
+              ],
+              "analysis": "题干中的“tricky issues”对应原文第六段的“new problems”，而“find solutions to them”与原文“come up with new ideas and solutions that will fix new problems”完全匹配，因此答案为“solutions”。",
+              "reason": "直接匹配。",
+              "location_analysis": "原文'give staff time to come up with new ideas an...",
+              "paraphrasing": "tricky issues -> new problems; space to find -> time to come up with",
+              "keywords": "tricky issues, space, find, solutions",
+              "evidence": [
+                "Allow time for innovation.It's important to give staff time to come up with new ideas and solutions that will fix new problems."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128821",
+              "number": 19,
+              "prompt": "Leaders need to encourage their staff to feel _____ in the past achievements of the company.",
+              "options": [],
+              "answer": "pride",
+              "accepted_answers": [
+                "pride"
+              ],
+              "analysis": "题干要求填入员工应对公司过往成就所抱持的情感。原文第七段提到“instil a sense of pride across the organisation”，并与“Honour those early pioneers”呼应，说明应培养对早期成就的自豪感，因此答案是“pride”。",
+              "reason": "直击要点。",
+              "location_analysis": "原文'Honour those early pioneers and instil a sen...",
+              "paraphrasing": "encourage -> instil; staff -> organisation; past achievements of the company -> how the business started, early pioneers",
+              "keywords": "encourage, staff, feel, pride, past achievements",
+              "evidence": [
+                "Honour those early pioneers and instil a sense of pride across the organisation."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128822",
+              "number": 20,
+              "prompt": "It is important for leaders to agree to a certain degree of _____ when necessary.",
+              "options": [],
+              "answer": "risk",
+              "accepted_answers": [
+                "risk"
+              ],
+              "analysis": "题干中“agree to a certain degree of risk”对应原文第八段“accept that some risk may be required if the situation calls for it”，其中“agree to”与“accept”、“when necessary”与“if the situation calls for it”构成同义替换，故答案为“risk”。",
+              "reason": "同义转换。",
+              "location_analysis": "原文'accept that some risk may be required if the...",
+              "paraphrasing": "agree to -> accept; when necessary -> if the situation calls for it",
+              "keywords": "leaders, agree, certain degree of, risk",
+              "evidence": [
+                "Leaders need to accept that some risk may be required if the situation calls for it."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128823",
+              "number": 21,
+              "prompt": "If leaders find the _____ of the company exciting, their staff will be more motivated to work hard.",
+              "options": [],
+              "answer": "future",
+              "accepted_answers": [
+                "future"
+              ],
+              "analysis": "题干中“find the future of the company exciting”对应原文第九段“having a leader who is genuinely thrilled about its future is hugely inspiring”，其中“future”为关键词，且上下文强调领导者对未来充满热情能激励员工，因此答案是“future”。",
+              "reason": "直接匹配。",
+              "location_analysis": "原文'having a leader who is genuinely thrilled ab...",
+              "paraphrasing": "find the future exciting -> genuinely thrilled about its future; staff will be more motivated -> hugely inspiring",
+              "keywords": "leaders, find, exciting, staff, motivated",
+              "evidence": [
+                "Show you are passionate and enthusiastic.People spend a large part of their lives working for an organisation,and having a leader who is genuinely thrilled about its future is hugely inspiring."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Initially, a leader needs to focus on gaining the $128817$ of the staff.\nA leader should decide on $128818$ that their staff are happy to fulfil.\nLeaders should involve their staff in the process of producing a different $128819$\nIf tricky issues arise, leaders should give staff the space to find $128820$ to them.\nLeaders need to encourage their staff to feel $128821$ in the past achievements of the company.\nIt is important for leaders to agree to a certain degree of $128822$ when necessary.\nIf leaders find the $128823$ of the company exciting, their staff will be more motivated to work hard.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Initially, a leader needs to focus on gaining the $128817$ of the staff.\nA leader should decide on $128818$ that their staff are happy to fulfil.\nLeaders should involve their staff in the process of producing a different $128819$\nIf tricky issues arise, leaders should give staff the space to find $128820$ to them.\nLeaders need to encourage their staff to feel $128821$ in the past achievements of the company.\nIt is important for leaders to agree to a certain degree of $128822$ when necessary.\nIf leaders find the $128823$ of the company exciting, their staff will be more motivated to work hard."
+        },
+        {
+          "id": "19745",
+          "type": 8,
+          "title": "The best way to resign",
+          "instructions": "Questions 22 - 27\nComplete the sentences below.\nChoose ONE WORD ONLY from the text in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128824",
+              "number": 22,
+              "prompt": "Avoid all _____ to resign in an angry way. Instead follow this procedure:",
+              "options": [],
+              "answer": "temptations",
+              "accepted_answers": [
+                "temptations"
+              ],
+              "analysis": "题干中“avoid all temptations to resign in an angry way”对应原文第十二段“But you need to resist these temptations”，其中“temptations”指代前文提到的“dance your way out”或“criticising your boss”，因此答案为“temptations”。",
+              "reason": "同义替换。",
+              "location_analysis": "原文'But you need to resist these temptations'对应题干。",
+              "paraphrasing": "avoid -> resist; resign in an angry way -> get your own back by criticising",
+              "keywords": "avoid, temptations, resign, angry",
+              "evidence": [
+                "But you need to resist these temptations because in future you might find you're working with your ex-line manager or other colleagues in a different company."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128825",
+              "number": 23,
+              "prompt": "● mention any projects which are underway and give ideas for their _____",
+              "options": [],
+              "answer": "completion",
+              "accepted_answers": [
+                "completion"
+              ],
+              "analysis": "题干中“give ideas for their completion”对应原文第十三段“suggestions concerning completion”，且前文提到“ongoing tasks”即题干中的“projects which are underway”，因此答案是“completion”。",
+              "reason": "原词复现。",
+              "location_analysis": "原文'write a list of ongoing tasks along with sta...",
+              "paraphrasing": "mention -> write a list; projects which are underway -> ongoing tasks; give ideas for their completion -> suggestions concerning completion",
+              "keywords": "projects, underway, ideas, completion",
+              "evidence": [
+                "Before the meeting with your boss,write a list of ongoing tasks along with status updates and suggestions concerning completion."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128826",
+              "number": 24,
+              "prompt": "● request information on the type of _____ you will receive.",
+              "options": [],
+              "answer": "reference",
+              "accepted_answers": [
+                "reference"
+              ],
+              "analysis": "题干中“request information on the type of reference”对应原文第十三段“Ask about a reference too”，其中“reference”为原文直接出现的词，且上下文讨论离职时获取推荐信的事宜，因此答案为“reference”。",
+              "reason": "直接匹配。",
+              "location_analysis": "原文'Ask about a reference too'对应题干。",
+              "paraphrasing": "request information on -> ask about; the type of reference you will receive -> a reference",
+              "keywords": "request, information, type, reference",
+              "evidence": [
+                "Ask about a reference too;your employer may only supply the most basic type but your line manager might also give you a more personal one."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128827",
+              "number": 25,
+              "prompt": "● Work to cause as little _____ as possible to the organisation.",
+              "options": [],
+              "answer": "disruption",
+              "accepted_answers": [
+                "disruption"
+              ],
+              "analysis": "题干中“cause as little disruption as possible”对应原文第十四段“minimise disruption to your employer”，其中“disruption”为原文原词，语义完全一致，因此答案是“disruption”。",
+              "reason": "原词复现。",
+              "location_analysis": "原文'minimise disruption to your employer'对应题干。",
+              "paraphrasing": "work to cause as little disruption as possible -> minimise disruption",
+              "keywords": "work, cause, little, disruption",
+              "evidence": [
+                "Work out how you can ensure a smooth transition and minimise disruption to your employer."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128828",
+              "number": 26,
+              "prompt": "● avoid mentioning any _____ in the organisation.",
+              "options": [],
+              "answer": "failings",
+              "accepted_answers": [
+                "failings"
+              ],
+              "analysis": "题干中“avoid mentioning any failings in the organisation”对应原文第十五段“Don't be tempted to address the failings of the company or your boss”，其中“failings”为原文直接使用的词，因此答案为“failings”。",
+              "reason": "原词复现。",
+              "location_analysis": "原文'Don't be tempted to address the failings of ...",
+              "paraphrasing": "avoid mentioning -> don't be tempted to address; failings in the organisation -> failings of the company or your boss",
+              "keywords": "avoid, mentioning, failings, organisation",
+              "evidence": [
+                "Don't be tempted to address the failings of the company or your boss, either."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128829",
+              "number": 27,
+              "prompt": "● show appreciation for aspects of the job, e.g., the chance to improve your _____",
+              "options": [],
+              "answer": "skills",
+              "accepted_answers": [
+                "skills"
+              ],
+              "analysis": "题干中“show appreciation for...the chance to improve your skills”对应原文第十六段“opportunities to develop skills”，其中“skills”为原文关键词，“improve”与“develop”构成同义替换，因此答案是“skills”。",
+              "reason": "匹配准确。",
+              "location_analysis": "原文'thanking...mention...opportunities to develo...",
+              "paraphrasing": "improve your skills -> develop skills",
+              "keywords": "show appreciation, improvement, skills",
+              "evidence": [
+                "Mention any particular career-building projects you worked on or opportunities to develop skills and contribute to the employer's goals and successes."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Avoid all $128824$ to resign in an angry way. Instead follow this procedure:\nArrange a meeting with the boss to:\n● mention any projects which are underway and give ideas for their $128825$\n● discuss how much notice you need to give before you go.\n● request information on the type of $128826$ you will receive.\nSteps you can take before you leave:\n● Work to cause as little $128827$ as possible to the organisation.\n● Make sure your successor has adequate guidance on the organisation's systems.\nIn the resignation letter:\n● avoid mentioning any $128828$ in the organisation.\n● show appreciation for aspects of the job, e.g., the chance to improve your $128829$\n● indicate your wish to leave everything in good order.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Avoid all $128824$ to resign in an angry way. Instead follow this procedure:\nArrange a meeting with the boss to:\n● mention any projects which are underway and give ideas for their $128825$\n● discuss how much notice you need to give before you go.\n● request information on the type of $128826$ you will receive.\nSteps you can take before you leave:\n● Work to cause as little $128827$ as possible to the organisation.\n● Make sure your successor has adequate guidance on the organisation's systems.\nIn the resignation letter:\n● avoid mentioning any $128828$ in the organisation.\n● show appreciation for aspects of the job, e.g., the chance to improve your $128829$\n● indicate your wish to leave everything in good order."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "How to become a great leader",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Stepping into a new management role can be unnerving.",
+          "translation": "踏入新的管理岗位可能会令人不安。"
+        },
+        {
+          "index": 2,
+          "sentence": "Here's how to inspire your team:",
+          "translation": "以下是如何激励你的团队的方法："
+        },
+        {
+          "index": 3,
+          "sentence": "Set the tone of your leadership style from the outset.",
+          "translation": "从一开始就设定好你的领导风格基调。"
+        },
+        {
+          "index": 4,
+          "sentence": "Be confident, self-assured and respectful with everyone you meet.",
+          "translation": "对你遇到的每一个人都要保持自信、沉着和尊重。"
+        },
+        {
+          "index": 5,
+          "sentence": "Speak as you want to be spoken to, and remember to listen.",
+          "translation": "以你希望被对待的方式说话，并牢记倾听。"
+        },
+        {
+          "index": 6,
+          "sentence": "The first few weeks is when people develop their perceptions of you, so work hard to earn their trust.",
+          "translation": "最初几周是人们对你的印象形成期，因此要努力赢得他们的信任。"
+        },
+        {
+          "index": 7,
+          "sentence": "This will be key to effective change and progress.",
+          "translation": "这对于有效的变革与进步至关重要。"
+        },
+        {
+          "index": 8,
+          "sentence": "Part of a leader's brief is to set bold goals.",
+          "translation": "领导者的职责之一是设定大胆的目标。"
+        },
+        {
+          "index": 9,
+          "sentence": "They could take years to achieve, but they need to be specific enough that everyone in the organisation understands them, buys into them and is willing to work together to achieve them.",
+          "translation": "这些目标可能需要多年才能实现，但它们必须足够具体，以便组织中的每个人都能理解、认同并愿意共同努力去达成。"
+        },
+        {
+          "index": 10,
+          "sentence": "Don't do everything yourself.",
+          "translation": "不要凡事亲力亲为。"
+        },
+        {
+          "index": 11,
+          "sentence": "Great leaders surround themselves with talented individuals and they should trust them to make things happen.",
+          "translation": "优秀的领导者身边聚集着有才华的人才，并且他们应当信任这些人去推动事情完成。"
+        },
+        {
+          "index": 12,
+          "sentence": "If things need changing, tell people and involve them in making the changes by participating in the design of",
+          "translation": "如果事情需要改变，要告知他人，并让他们通过参与设计来共同做出改变"
+        },
+        {
+          "index": 13,
+          "sentence": "a new strategy.",
+          "translation": "一个新策略。"
+        },
+        {
+          "index": 14,
+          "sentence": "If the team is too cautious to embrace change, give them one more chance but be clearer about what you want.",
+          "translation": "如果团队过于谨慎而不愿接受变化，再给他们一次机会，但对你想要的东西要表达得更清楚。"
+        },
+        {
+          "index": 15,
+          "sentence": "Stamp out the 'them and us' culture.",
+          "translation": "消除'他们和我们'的对立文化。"
+        },
+        {
+          "index": 16,
+          "sentence": "In many organisations, employees feel distant from senior management.",
+          "translation": "在许多组织中，员工感觉与高层管理疏远。"
+        },
+        {
+          "index": 17,
+          "sentence": "The message must be plain: we all work together, but leaders need to work hard to ensure this filters through to everyone in the organisation.",
+          "translation": "信息必须明确：我们所有人共同合作，但领导者需要努力确保这一点传达到组织中的每一个人。"
+        },
+        {
+          "index": 18,
+          "sentence": "Allow time for innovation.",
+          "translation": "为创新留出时间。"
+        },
+        {
+          "index": 19,
+          "sentence": "It's important to give staff time to come up with new ideas and solutions that will fix new problems.",
+          "translation": "给予员工时间提出能够解决新问题的新想法和解决方案，这一点很重要。"
+        },
+        {
+          "index": 20,
+          "sentence": "However, be clear that a decision is expected; set a time limit and stick to it.",
+          "translation": "然而，要明确期望做出决定；设定一个时间限制并严格遵守。"
+        },
+        {
+          "index": 21,
+          "sentence": "It is likely that the formula that makes the business you are managing successful will have been created many years ago-but it's important to remember how the business started.",
+          "translation": "很可能使你正在管理的企业取得成功的模式是多年前就已形成的——但重要的是要记住企业是如何起步的。"
+        },
+        {
+          "index": 22,
+          "sentence": "Honour those early pioneers and instil a sense of pride across the organisation.",
+          "translation": "尊重那些早期的先驱者，并在整个组织中灌输一种自豪感。"
+        },
+        {
+          "index": 23,
+          "sentence": "Leaders need to accept that some risk may be required if the situation calls for it.",
+          "translation": "领导者需要接受，如果情况需要，可能必须承担一定的风险。"
+        },
+        {
+          "index": 24,
+          "sentence": "Playing it safe is never a good business rule,and leaders must make sure their business stays ahead by being prepared to act quickly.",
+          "translation": "稳扎稳打从来都不是一条好的商业准则，领导者必须确保其企业通过准备迅速行动来保持领先地位。"
+        },
+        {
+          "index": 25,
+          "sentence": "Show you are passionate and enthusiastic.",
+          "translation": "展现你的热情与积极。"
+        },
+        {
+          "index": 26,
+          "sentence": "People spend a large part of their lives working for an organisation, and having a leader who is genuinely thrilled about its future is hugely inspiring.",
+          "translation": "人们一生中很大一部分时间都在为某个组织工作，而拥有一位对其未来真正充满期待的领导者，会带来巨大的鼓舞。"
+        },
+        {
+          "index": 27,
+          "sentence": "Resigning from a job in a professional manner",
+          "translation": "以专业的方式辞职"
+        },
+        {
+          "index": 28,
+          "sentence": "When you take the decision to resign and move on to another job, you might really want to dance your way out of the door, or get your own back by criticising your boss to the whole office.",
+          "translation": "当你决定辞职并转而从事另一份工作时，你可能会很想兴高采烈地走出大门，或者通过在整个办公室批评你的老板来报复他。"
+        },
+        {
+          "index": 29,
+          "sentence": "But you need to resist these temptations because in future you might find you're working with your ex-line manager or other colleagues in a different company.",
+          "translation": "但你需要抵制这些诱惑，因为将来你可能会发现自己在另一家公司与你的前直属经理或其他同事共事。"
+        },
+        {
+          "index": 30,
+          "sentence": "Letting your manager know",
+          "translation": "让你的经理知晓"
+        },
+        {
+          "index": 31,
+          "sentence": "Show courtesy by telling your boss first.",
+          "translation": "以礼貌为先，首先告知你的上司。"
+        },
+        {
+          "index": 32,
+          "sentence": "Request a meeting to say that you're leaving, following up soon after with an official letter.",
+          "translation": "请求安排一次会议说明你要离职，并随后尽快提交正式的信函。"
+        },
+        {
+          "index": 33,
+          "sentence": "Before the meeting with your boss, write a list of ongoing tasks along with status updates and suggestions concerning completion.",
+          "translation": "在与老板会面之前，列出一份正在进行的任务清单，附上进度更新以及关于完成工作的建议。"
+        },
+        {
+          "index": 34,
+          "sentence": "Use the meeting to clarify any other points, such as your notice period and leaving date, and how you will inform others (colleagues or external clients, contacts and suppliers).",
+          "translation": "利用会议澄清其他要点，比如你的通知期和离职日期，以及你将如何告知他人（同事或外部客户、联系人和供应商）。"
+        },
+        {
+          "index": 35,
+          "sentence": "Ask about a reference too; your employer may only supply the most basic type but your line manager might also give you a more personal one.",
+          "translation": "也询问一下推荐信；你的雇主可能只提供最基本的类型，但你的直属主管或许能给你一份更具个人特色的推荐信。"
+        },
+        {
+          "index": 36,
+          "sentence": "Making sure you get a good one can make subsequent job hunting less stressful.",
+          "translation": "确保获得一份好的推荐信可以让后续的求职过程减轻压力。"
+        },
+        {
+          "index": 37,
+          "sentence": "Preparation",
+          "translation": "准备工作"
+        },
+        {
+          "index": 38,
+          "sentence": "Work out how you can ensure a smooth transition and minimise disruption to your employer.",
+          "translation": "思考如何确保平稳过渡，并尽量减少对雇主的干扰。"
+        },
+        {
+          "index": 39,
+          "sentence": "There may be a range of things you can do to hand over professionally,such as completing projects,working out the priorities with your line manager,and leaving clear documentation for the successor in your post concerning processes or software.",
+          "translation": "你可能需要做一系列事情来专业地交接工作，例如完成项目、与直属上级确定优先事项，以及为接任者留下关于流程或软件的清晰文件。"
+        },
+        {
+          "index": 40,
+          "sentence": "Your letter of resignation",
+          "translation": "你的辞职信"
+        },
+        {
+          "index": 41,
+          "sentence": "Keep your letter short.",
+          "translation": "保持信函简短。"
+        },
+        {
+          "index": 42,
+          "sentence": "You don't need to give lots of explanations or justification for why you're leaving.",
+          "translation": "你无需为离开的原因提供大量解释或理由。"
+        },
+        {
+          "index": 43,
+          "sentence": "Don't be tempted to address the failings of the company or your boss, either.",
+          "translation": "也不要试图指出公司或上司的不足之处。"
+        },
+        {
+          "index": 44,
+          "sentence": "Instead, thanking your employer for the job and mentioning what you appreciated about it is a graceful touch.",
+          "translation": "相反，感谢雇主给予的工作机会并提及你所珍视的方面是一种得体的做法。"
+        },
+        {
+          "index": 45,
+          "sentence": "Here's an idea of what to include:",
+          "translation": "以下是一份内容建议："
+        },
+        {
+          "index": 46,
+          "sentence": "First paragraph-the basics",
+          "translation": "第一段——基本信息"
+        },
+        {
+          "index": 47,
+          "sentence": "Inform the employer that you wish to resign and confirm the agreed final date at work.",
+          "translation": "告知雇主你希望辞职，并确认双方商定的最后工作日。"
+        },
+        {
+          "index": 48,
+          "sentence": "● Second paragraph-thank your employer",
+          "translation": "● 第二段——感谢你的雇主"
+        },
+        {
+          "index": 49,
+          "sentence": "Mention any particular career-building projects you worked on or opportunities to develop skills and contribute to the employer's goals and successes.",
+          "translation": "提及你参与的任何特别有助于职业发展的项目，或是提升技能、为雇主的目与成功做出贡献的机会。"
+        },
+        {
+          "index": 50,
+          "sentence": "You can also mention your appreciation at being able to work in a great team.",
+          "translation": "你也可以表达对能在优秀团队中工作的感激之情。"
+        },
+        {
+          "index": 51,
+          "sentence": "● Third paragraph-handover",
+          "translation": "● 第三段——工作交接"
+        },
+        {
+          "index": 52,
+          "sentence": "State your willingness to finish existing projects and hand over your work smoothly.",
+          "translation": "表明你愿意完成现有项目并顺利移交工作。"
+        }
+      ]
+    },
+    {
+      "id": "2738",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Emojis",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Language always changes,of course.This is one of the few constants about it.But it's arguably changing at a faster rate now than at any previous moment in its history.And emojis-the set of picture characters that people use to punctuate their online correspondence-are at the forefront of this frenzy for change.",
+          "translation": "语言当然总是在变化。\n这是语言为数不多的恒定特征之一。\n但可以说，语言现在正以历史上任何时期都更快的速度改变着。\n而表情符号——人们用来点缀在线通信的一组图像字符——正处在这场变革狂潮的最前沿。\n这是关于语言为数不多的恒定特征之一。\n但可以说，它现在正以历史上任何时期都更快的速度在变化。\n而表情符号——人们用来点缀在线通信的一组图片字符——正处在这场变革狂潮的前沿。\n语言当然总在变化。\n这是语言为数不多的恒定特质之一。\n但可以说，语言如今的变化速度比历史上任何时期都要快。\n而表情符号——人们在网络通信中用来点缀文字的一组图形字符——正处在这场变革狂潮的前沿。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "As a form of global communication,emojis only began their growth in 2011.Four years later,it was estimated that they were being used by over 90 per cent of the online population.In excess of six billion were being sent every day.Their prevalence in the culture was such that Oxford Dictionaries recently chose one as their word of the year.'Words of the Year' are those judged to be reflective of the ethos,mood,or preoccupations of that particular year'.They're very much of their time.And often,once that time has passed,they fade from people's consciousness almost as quickly as they arose.",
+          "translation": "作为一种全球交流形式，表情符号仅在2011年才开始其发展。\n四年后，据估计超过90%的在线人口正在使用它们。\n每天发送的表情符号超过60亿个。\n它们在文化中的普及程度如此之高，以至于牛津词典最近将其中一个选为年度词汇。\n“年度词汇”指的是那些被认为反映了特定年份的精神、情绪或关注焦点的词汇。\n它们非常具有时代特征。\n而且，通常一旦那个时代过去，它们从人们意识中消失的速度几乎与其兴起时一样快。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "There's a good chance,then,that the emoji chosen by Oxford Dictionaries-the 'face with tears of joy'-will also appear to be dated in a few years.But the reasons for this offer a fascinating insight into the way that society is evolving.The little yellow circle with dots for eyes acts as a surprisingly good lens through which to view the history of human communication,and to predict its future.",
+          "translation": "因此，牛津词典选出的表情符号——“笑哭脸”——很可能在几年后也会显得过时。\n但其中的原因为我们提供了一个有趣的视角，来洞察社会演变的方式。\n这个带有圆点眼睛的黄色小圆圈，竟成为了一个极佳的透镜，透过它我们可以审视人类交流的历史，并预测其未来。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "There are two main reasons why language changes.One is to do with the way that language mirrors the changes in how we relate to each other.As an expression of identity,language is adapted by different groups and different generations to reflect",
+          "translation": "语言变化主要有两个原因。\n其一与语言反映我们彼此关系变化的方式有关。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "their own sense of self.It also needs to constantly assimilate fresh concepts as these evolve. Words are being created for these reasons all the time.But what's interesting about emojis is that they've contributed to this ever-expanding storehouse in a different way.At this point in our history,the gaps in our vocabulary are being filled not simply by new words,but by an absolutely new system of expression.",
+          "translation": "它们自身的自我认同感。\n它还需要随着新概念的发展不断吸收它们。\n出于这些原因，新词一直在被创造出来。\n但表情符号的有趣之处在于，它们以一种不同的方式为这个不断扩展的语料库做出了贡献。\n在我们历史的这一时刻，词汇中的空白不仅仅由新词填补，而是由一种全新的表达体系来填补。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "The second major reason that language changes is down to technology-specifically,the ways in which the technologies we use have an effect on the process of communication itself. Both hardware and new technologies result in us subtly changing the way we interact with each other and also altering the shape of the language we use.",
+          "translation": "语言变化的第二个主要原因在于技术，具体来说，便是我们使用的技术对交流过程本身产生影响的方式。\n语言变化的第二个主要原因是技术——具体而言，就是我们使用的技术对交流过程本身产生影响的方式。\n硬件和新技术都促使我们微妙地改变彼此互动的方式，同时也改变了我们所用语言的形态。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Emojis have evolved as a solution to the needs of mobile communication.In particular,they compensate for the way that computer-mediated messaging on smartphones can sometimes tend towards the emotionally empty.Whereas face to-face,or even voice-to-voice,conversations can express emotional closeness through facial expression or tone of voice,this is easy to miss when messages are rendered in a few short words on a small screen.Emojis are a means of restoring this emotional framing to an interaction-punctuating your message with a smile.",
+          "translation": "表情符号已演变为满足移动通信需求的解决方案。\n具体来说，它们弥补了智能手机上通过计算机中介的信息传递有时可能趋于情感空洞的缺陷。\n尽管面对面甚至语音对话可以通过面部表情或语调表达情感亲近，但当信息在小屏幕上以简短词语呈现时，这种情感很容易被忽略。\n表情符号是一种在互动中恢复这种情感框架的方式——用微笑来点缀你的信息。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "But unlike almost any other type of language system,emojis have something akin to a built-in obsolescence.Just as smartphones and their operating systems have a frequent refresh rate,emojis also get routine enhancements.The emojis you have on your phone now will undergo subtle redesigns over the course of time,and extra characters will be added.Because of this,their usefulness is artificially limited.",
+          "translation": "但与几乎任何其他类型的语言系统不同，表情符号具有某种类似内置过时性的特征。\n正如智能手机及其操作系统频繁更新换代一样，表情符号也定期得到增强。\n你现在手机上的表情符号会随着时间的推移经历细微的重新设计，并且还会添加额外的字符。\n正因如此，它们的实用性被人为地限制了。\n但与几乎所有其他类型的语言系统不同，表情符号具有某种内在的过时性。\n正如智能手机及其操作系统频繁更新换代一样，表情符号也会定期得到改进。\n你现在手机上的表情符号会随着时间的推移经历细微的重新设计，并且还会增加额外的字符。\n因此，它们的有用性被人为地限制了。\n但与几乎任何其他类型的语言系统不同，表情符号具备一种类似于内在过时的特性。\n正如智能手机及其操作系统拥有频繁的更新换代频率，表情符号也会例行改进。\n你手机当前拥有的表情符号会随时间推移经历细微的重新设计，并且额外的字符将被添加。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "In the context of communication systems,this is something that's never previously been the case.Twenty years ago,people might have bought a new landline phone when they were tired of the design of their old phone or if they wanted to get one with whatever latest innovation was going around-an inbuilt answering machine, say.But they didn't have to upgrade the language they were using as well.",
+          "translation": "在通信系统的背景下，这种情况前所未有。\n二十年前，当人们厌倦了旧电话的设计，或者想要拥有一款搭载当下最新创新（例如内置应答机）的电话时，他们可能会购买一部新的固定电话。\n但他们不必同时升级所使用的语言。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Emojis,on the other hand,are a case study of how technology and the human capacity for communication are working together-of how the onward march of technology exists at the intersection of consumerism,innovation and design.Moreover,the fact that they're at the front line of a relentless wave of technologically driven change in communications practices encourages-if not necessitates -a great amount of creativity in the way they're used.",
+          "translation": "另一方面，表情符号则是一个案例研究，展示了科技与人类沟通能力如何协同作用——也展示了技术的持续进步如何存在于消费主义、创新与设计的交汇点上。\n此外，它们处于由技术驱动的沟通实践变革的无情浪潮的前沿这一事实，鼓励——甚至可以说是迫使——人们在它们的使用方式上投入大量的创造力。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Finally,there's the way they've become implicated in almost all aspects of modern society,from politics and marketing to art and entertainment.Emojis are the subject of musicals and Hollywood films.They're the inspiration for fashion design,art and architecture.They're a staple in advertising and commerce.Understanding why they've become so popular,and how they work,can not only explain something about the nature of language;it can also help us to understand our relationship with technology,society and ourselves.",
+          "translation": "最后，它们已渗透到现代社会的几乎方方面面，从政治、市场营销到艺术和娱乐。\n表情符号已成为音乐剧和好莱坞电影的主题。\n它们为时装设计、艺术和建筑提供了灵感。\n它们在广告和商业中已成为主要元素。\n理解它们为何如此流行以及如何运作，不仅能够解释语言本质的某些方面，还能帮助我们理解自身与技术、社会以及自我的关系。\n最后，它们已经涉及现代社会的几乎所有方面，从政治和市场营销到艺术和娱乐。\n它们是时装设计、艺术和建筑的灵感来源。\n它们在广告和商业中占据重要地位。\n理解它们为何如此流行以及如何运作，不仅能解释语言的某些本质，还能帮助我们理解自己与技术、社会及自我的关系。\n最后，表情符号已渗透到现代社会的几乎所有方面，从政治和市场营销到艺术和娱乐。\n表情符号成为音乐剧和好莱坞电影的主题。\n理解它们为何变得如此受欢迎以及如何运作，不仅能解释语言的某些本质，还能帮助我们理解我们与技术、社会及自身的关系。\n最后，它们几乎渗透到了现代社会的方方面面，从政治和市场营销到艺术与娱乐。\n它们也是时装设计、艺术和建筑的灵感来源。\n它们在广告和商业中已成为标配。\n理解它们为何变得如此流行以及它们如何运作，不仅能够解释语言的本质，还能帮助我们理解我们与技术、社会以及自身的关系。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "19755",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 32\nThe text on pages 25 and 26 has five sections, A-E.\nChoose the correct heading for each section.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Why emojis may have a short life"
+            },
+            {
+              "value": "B",
+              "label": "B. Ways in which new emojis are designed and made available"
+            },
+            {
+              "value": "C",
+              "label": "C. How words and emojis both fulfil new needs in our society"
+            },
+            {
+              "value": "D",
+              "label": "D. How emojis are regarded in different ways by different cultures"
+            },
+            {
+              "value": "E",
+              "label": "E. The use of emojis in different fields and what this means for us"
+            },
+            {
+              "value": "F",
+              "label": "F. The rapid spread of a new way of interacting"
+            },
+            {
+              "value": "G",
+              "label": "G. How and where emojis were first invented"
+            },
+            {
+              "value": "H",
+              "label": "H. The value of emojis for making feelings clear"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197551",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why emojis may have a short life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Ways in which new emojis are designed and made available"
+                },
+                {
+                  "value": "C",
+                  "label": "C. How words and emojis both fulfil new needs in our society"
+                },
+                {
+                  "value": "D",
+                  "label": "D. How emojis are regarded in different ways by different cultures"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The use of emojis in different fields and what this means for us"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The rapid spread of a new way of interacting"
+                },
+                {
+                  "value": "G",
+                  "label": "G. How and where emojis were first invented"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The value of emojis for making feelings clear"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "段落A重点描述了表情符号自2011年以来的迅猛普及：超过90%的网络用户使用，每天发送超60亿个，并被牛津词典选为年度词汇。这些信息突出其作为一种新型互动方式的快速传播，与标题F“The rapid spread of a new way of interacting”完全对应。",
+              "reason": "段落核心描述表情符号的快速普及和广泛应用。",
+              "location_analysis": "Section A讲述表情符号迅速普及，覆盖率超90%，日均发送60亿，符合F。",
+              "paraphrasing": "rapid spread -> over 90% of online population, 6 billion sent daily; new way of interacting -> emojis punctuate online correspondence",
+              "keywords": "rapid spread, new way of interacting, emojis, 90%, 6 billion",
+              "evidence": [
+                "In excess of six billion were being sent every day."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1197552",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why emojis may have a short life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Ways in which new emojis are designed and made available"
+                },
+                {
+                  "value": "C",
+                  "label": "C. How words and emojis both fulfil new needs in our society"
+                },
+                {
+                  "value": "D",
+                  "label": "D. How emojis are regarded in different ways by different cultures"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The use of emojis in different fields and what this means for us"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The rapid spread of a new way of interacting"
+                },
+                {
+                  "value": "G",
+                  "label": "G. How and where emojis were first invented"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The value of emojis for making feelings clear"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "段落B指出语言变化反映人际关系和社会需求的变化，而表情符号则以一种全新系统填补了传统词汇无法满足的表达空白。这正体现了“words and emojis both fulfil new needs in our society”，因此对应标题C。",
+              "reason": "B段说明语言和颜文字都满足社会新需求，与heading C吻合。",
+              "location_analysis": "B段论述语言变化反映社会需求，颜文字也填补新表达需求，对应heading C。",
+              "paraphrasing": "new needs -> mirrors changes in how we relate; new system of expression -> assimilates fresh concepts",
+              "keywords": "Section B, language changes, mirrors changes, relationships, assimilate fresh concepts",
+              "evidence": [
+                "One is to do with the way that language mirrors the changes in how we relate to each other.",
+                "But what's interesting about emojis is that they've contributed to this ever-expanding storehouse in a different way."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1197553",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why emojis may have a short life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Ways in which new emojis are designed and made available"
+                },
+                {
+                  "value": "C",
+                  "label": "C. How words and emojis both fulfil new needs in our society"
+                },
+                {
+                  "value": "D",
+                  "label": "D. How emojis are regarded in different ways by different cultures"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The use of emojis in different fields and what this means for us"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The rapid spread of a new way of interacting"
+                },
+                {
+                  "value": "G",
+                  "label": "G. How and where emojis were first invented"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The value of emojis for making feelings clear"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "段落C强调表情符号在数字通信中弥补情感表达缺失的作用，如通过笑脸等符号恢复“emotional framing”，使简短文字更具情感色彩。这直接呼应标题H“The value of emojis for making feelings clear”。",
+              "reason": "C段核心是颜文字的情感价值，与heading H匹配。",
+              "location_analysis": "C段强调颜文字补偿线上交流缺失的情感表达，对应heading H。",
+              "paraphrasing": "value for making feelings clear -> restore emotional framing, punctuate with a smile",
+              "keywords": "Section C, technology, compensate, emotional closeness, facial expression",
+              "evidence": [
+                "Emojis are a means of restoring this emotional framing to an interaction-punctuating your message with a smile."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1197554",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why emojis may have a short life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Ways in which new emojis are designed and made available"
+                },
+                {
+                  "value": "C",
+                  "label": "C. How words and emojis both fulfil new needs in our society"
+                },
+                {
+                  "value": "D",
+                  "label": "D. How emojis are regarded in different ways by different cultures"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The use of emojis in different fields and what this means for us"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The rapid spread of a new way of interacting"
+                },
+                {
+                  "value": "G",
+                  "label": "G. How and where emojis were first invented"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The value of emojis for making feelings clear"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "段落D指出表情符号具有“built-in obsolescence”，会因技术更新而频繁改版，导致其“usefulness is artificially limited”，说明其生命周期较短，因此对应标题A“Why emojis may have a short life”。",
+              "reason": "说明emoji寿命短的原因。",
+              "location_analysis": "D段指出emoji内置过时性，对应标题A。",
+              "paraphrasing": "short life -> built-in obsolescence, usefulness artificially limited",
+              "keywords": "built-in obsolescence, usefulness artificially limited",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1197555",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why emojis may have a short life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Ways in which new emojis are designed and made available"
+                },
+                {
+                  "value": "C",
+                  "label": "C. How words and emojis both fulfil new needs in our society"
+                },
+                {
+                  "value": "D",
+                  "label": "D. How emojis are regarded in different ways by different cultures"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The use of emojis in different fields and what this means for us"
+                },
+                {
+                  "value": "F",
+                  "label": "F. The rapid spread of a new way of interacting"
+                },
+                {
+                  "value": "G",
+                  "label": "G. How and where emojis were first invented"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The value of emojis for making feelings clear"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "段落E列举表情符号在政治、营销、艺术、娱乐等多个领域的广泛应用，并指出理解其流行有助于我们认识自身与科技、社会的关系，这与标题E“The use of emojis in different fields and what this means for us”完全吻合。",
+              "reason": "涵盖不同领域及启示。",
+              "location_analysis": "E段讲emoji在各领域的应用及意义，对应标题E。",
+              "paraphrasing": "different fields -> politics, marketing, art, entertainment; what this means -> understand technology, society, ourselves",
+              "keywords": "implicated in all aspects, understand relationship",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "19757",
+          "type": 8,
+          "title": "The importance of the 'face with tears of joy'",
+          "instructions": "Questions 33 - 37\nChoose ONE WORD ONLY from the text in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128848",
+              "number": 33,
+              "prompt": "It is probable that before long, an emoji such as the 'face with tears of joy'will seem _____. This is of interest as it tells us about developments in _____, providing an effective way to focus on both the _____ and the future of human communication.",
+              "options": [],
+              "answer": "dated",
+              "accepted_answers": [
+                "dated"
+              ],
+              "analysis": "题干中的“seem”对应原文中的“appear to be”，而空格处需填入一个形容词描述‘face with tears of joy’在未来给人的感觉。原文明确指出该表情符号“will also appear to be dated in a few years”，因此答案为“dated”，表示过时的，符合语境与词性要求。",
+              "reason": "答案词dated直接出现。",
+              "location_analysis": "原文表示该emoji几年后会显得过时。",
+              "paraphrasing": "seem dated -> appear to be dated",
+              "keywords": "face with tears of joy, dated",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128849",
+              "number": 34,
+              "prompt": "It is probable that before long, an emoji such as the 'face with tears of joy'will seem _____. This is of interest as it tells us about developments in _____, providing an effective way to focus on both the _____ and the future of human communication.",
+              "options": [],
+              "answer": "society",
+              "accepted_answers": [
+                "society"
+              ],
+              "analysis": "题干中“developments in ___”对应原文中的“the way that society is evolving”。文章提到表情符号的流行反映了社会的演变方式，因此空格应填入“society”，准确传达出表情符号作为观察社会发展窗口的作用。",
+              "reason": "题干与原文意思一致。",
+              "location_analysis": "原文‘society is evolving’对应题干‘developments in soc...",
+              "paraphrasing": "tells us about developments in society -> offers a fascinating insight into the way that society is evolving",
+              "keywords": "developments in, society",
+              "evidence": [
+                "But the reasons for this offer a fascinating insight into the way that society is evolving."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128850",
+              "number": 35,
+              "prompt": "It is probable that before long, an emoji such as the 'face with tears of joy'will seem _____. This is of interest as it tells us about developments in _____, providing an effective way to focus on both the _____ and the future of human communication.",
+              "options": [],
+              "answer": "history",
+              "accepted_answers": [
+                "history"
+              ],
+              "analysis": "题干要求填入与“future”并列的名词，构成“focus on both the ___ and the future of human communication”。原文中提到表情符号是“a surprisingly good lens through which to view the history of human communication, and to predict its future”，因此答案为“history”，与上下文逻辑完全一致。",
+              "reason": "答案词history在此句。",
+              "location_analysis": "emoji是观察历史和预测未来的透镜。",
+              "paraphrasing": "focus on both the history and the future -> view the history... and predict its future",
+              "keywords": "lens, view, predict",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128851",
+              "number": 36,
+              "prompt": "Changes in language reflect changes in people's relationships. They reflect the ways in which the _____ of groups and generations changes over time, and they allow new _____ to be included. However, emojis are interesting as they are a system that expresses these ideas in a completely new way.",
+              "options": [],
+              "answer": "identity",
+              "accepted_answers": [
+                "identity"
+              ],
+              "analysis": "题干中“the ___ of groups and generations changes over time”对应原文“language is adapted by different groups and different generations to reflect their own sense of self”，而前一句明确指出“language mirrors the changes in how we relate to each other. As an expression of identity…”，因此答案为“identity”，准确体现语言作为身份表达的功能。",
+              "reason": "答案词identity明确出现。",
+              "location_analysis": "语言作为身份表达，随群体和世代变化。",
+              "paraphrasing": "the identity of groups and generations -> expression of identity, different groups and generations",
+              "keywords": "expression of identity",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128852",
+              "number": 37,
+              "prompt": "Changes in language reflect changes in people's relationships. They reflect the ways in which the _____ of groups and generations changes over time, and they allow new _____ to be included. However, emojis are interesting as they are a system that expresses these ideas in a completely new way.",
+              "options": [],
+              "answer": "concepts",
+              "accepted_answers": [
+                "concepts"
+              ],
+              "analysis": "题干中“allow new ___ to be included”对应原文“It also needs to constantly assimilate fresh concepts as these evolve”。其中“fresh concepts”即指新概念，与题干中的“new ___”形成同义替换，因此答案为“concepts”，符合语法和语义要求。",
+              "reason": "题干与原文同义转换。",
+              "location_analysis": "原文‘assimilate fresh concepts’对应题干‘allow new con...",
+              "paraphrasing": "new concepts -> fresh concepts; included -> assimilate",
+              "keywords": "new concepts, included",
+              "evidence": [
+                "It also needs to constantly assimilate fresh concepts as these evolve."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "It is probable that before long, an emoji such as the 'face with tears of joy'will seem $128848$. This is of interest as it tells us about developments in $128849$, providing an effective way to focus on both the $128850$ and the future of human communication.\nChanges in language reflect changes in people's relationships. They reflect the ways in which the $128851$ of groups and generations changes over time, and they allow new $128852$ to be included. However, emojis are interesting as they are a system that expresses these ideas in a completely new way.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "It is probable that before long, an emoji such as the 'face with tears of joy'will seem $128848$. This is of interest as it tells us about developments in $128849$, providing an effective way to focus on both the $128850$ and the future of human communication.\nChanges in language reflect changes in people's relationships. They reflect the ways in which the $128851$ of groups and generations changes over time, and they allow new $128852$ to be included. However, emojis are interesting as they are a system that expresses these ideas in a completely new way."
+        },
+        {
+          "id": "19759",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 38 - 40\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128853",
+              "number": 38,
+              "prompt": "What does the writer say about 'Words of the Year'?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "They include increasing numbers of emojis."
+                },
+                {
+                  "value": "B",
+                  "label": "They are soon forgotten by the public."
+                },
+                {
+                  "value": "C",
+                  "label": "They are required to have social significance."
+                },
+                {
+                  "value": "D",
+                  "label": "They are invented by the writers of dictionaries."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问作者对“Words of the Year”的看法。原文提到这些词汇“often, once that time has passed, they fade from people's consciousness almost as quickly as they arose”，说明它们很快被公众遗忘，因此正确选项是B。",
+              "reason": "直接对应选项B。",
+              "location_analysis": "年度词汇很快被公众遗忘。",
+              "paraphrasing": "soon forgotten by the public -> fade from people's consciousness almost as quickly as they arose",
+              "keywords": "Words of the Year, fade from consciousness",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及表情符号数量增加，属于无中生有。",
+                "C": "原文中并未要求年度词汇具有社会意义，此信息与原文不符。",
+                "D": "年度词汇并非由词典编者发明，而是基于使用频率等数据选出，属于张冠李戴。"
+              }
+            },
+            {
+              "id": "128854",
+              "number": 39,
+              "prompt": "The writer says that the usefulness of emojis is limited because",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "they are constantly being changed."
+                },
+                {
+                  "value": "B",
+                  "label": "they may not be correctly interpreted."
+                },
+                {
+                  "value": "C",
+                  "label": "they are difficult for some people to update."
+                },
+                {
+                  "value": "D",
+                  "label": "they are linked to specific operating systems."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问表情符号效用受限的原因。原文段落D指出“emojis have something akin to a built-in obsolescence”且“undergo subtle redesigns over time”，并强调其“usefulness is artificially limited”，这说明其不断更新变化导致实用性受限，因此答案为A。",
+              "reason": "原因在于不断变化。",
+              "location_analysis": "不断更新导致效用受限。",
+              "paraphrasing": "constantly being changed -> frequent refresh rate, routine enhancements",
+              "keywords": "usefulness artificially limited, routine enhancements",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文未提及误解是主要限制，属于无中生有。",
+                "C": "原文未提及更新困难，属于无中生有。",
+                "D": "原文可能提及跨平台问题，但题干问的是不断变化导致的限制，而非操作系统关联。"
+              }
+            },
+            {
+              "id": "128855",
+              "number": 40,
+              "prompt": "What would be the best subtitle for this text?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Will emojis take over from words one day?"
+                },
+                {
+                  "value": "B",
+                  "label": "How can emojis be made more meaningful?"
+                },
+                {
+                  "value": "C",
+                  "label": "Are emojis used too much in our society today?"
+                },
+                {
+                  "value": "D",
+                  "label": "What do emojis tell us about the world we live in?"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求选择最佳副标题。全文通过分析表情符号的兴起、功能、局限及其在社会各领域的渗透，最终落脚于“help us to understand our relationship with technology, society and ourselves”，这与选项D“What do emojis tell us about the world we live in?”高度契合，因此选D。",
+              "reason": "总结全文主题。",
+              "location_analysis": "全文强调emoji揭示我们与世界的关系。",
+              "paraphrasing": "tell us about the world we live in -> understand our relationship with technology, society and ourselves",
+              "keywords": "understand relationship with technology, society, ourselves",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "该选项讨论表情符号是否会取代文字，但原文并未涉及此话题，属于无中生有。",
+                "B": "该选项探讨如何让表情符号更有意义，但原文未提及改进方法，属于无中生有。",
+                "C": "该选项询问表情符号是否使用过多，但原文未讨论过度使用问题，属于无中生有。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Emojis",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "Language always changes,of course.",
+          "translation": "语言当然总是在变化。"
+        },
+        {
+          "index": 3,
+          "sentence": "This is one of the few constants about it.",
+          "translation": "这是语言为数不多的恒定特征之一。"
+        },
+        {
+          "index": 4,
+          "sentence": "But it's arguably changing at a faster rate now than at any previous moment in its history.",
+          "translation": "但可以说，语言现在正以历史上任何时期都更快的速度改变着。"
+        },
+        {
+          "index": 5,
+          "sentence": "And emojis-the set of picture characters that people use to punctuate their online correspondence-are at the forefront of this frenzy for change.",
+          "translation": "而表情符号——人们用来点缀在线通信的一组图像字符——正处在这场变革狂潮的最前沿。"
+        },
+        {
+          "index": 6,
+          "sentence": "Language always changes, of course.",
+          "translation": "语言当然总是在变化。"
+        },
+        {
+          "index": 7,
+          "sentence": "This is one of the few constants about it.",
+          "translation": "这是关于语言为数不多的恒定特征之一。"
+        },
+        {
+          "index": 8,
+          "sentence": "But it's arguably changing at a faster rate now than at any previous moment in its history.",
+          "translation": "但可以说，它现在正以历史上任何时期都更快的速度在变化。"
+        },
+        {
+          "index": 9,
+          "sentence": "And emojis—the set of picture characters that people use to punctuate their online correspondence—are at the forefront of this frenzy for change.",
+          "translation": "而表情符号——人们用来点缀在线通信的一组图片字符——正处在这场变革狂潮的前沿。"
+        },
+        {
+          "index": 10,
+          "sentence": "Language always changes,of course.",
+          "translation": "语言当然总在变化。"
+        },
+        {
+          "index": 11,
+          "sentence": "This is one of the few constants about it.",
+          "translation": "这是语言为数不多的恒定特质之一。"
+        },
+        {
+          "index": 12,
+          "sentence": "But it's arguably changing at a faster rate now than at any previous moment in its history.",
+          "translation": "但可以说，语言如今的变化速度比历史上任何时期都要快。"
+        },
+        {
+          "index": 13,
+          "sentence": "And emojis-the set of picture characters that people use to punctuate their online correspondence-are at the forefront of this frenzy for change.",
+          "translation": "而表情符号——人们在网络通信中用来点缀文字的一组图形字符——正处在这场变革狂潮的前沿。"
+        },
+        {
+          "index": 14,
+          "sentence": "As a form of global communication,emojis only began their growth in 2011.",
+          "translation": "作为一种全球交流形式，表情符号仅在2011年才开始其发展。"
+        },
+        {
+          "index": 15,
+          "sentence": "Four years later,it was estimated that they were being used by over 90 per cent of the online population.",
+          "translation": "四年后，据估计超过90%的在线人口正在使用它们。"
+        },
+        {
+          "index": 16,
+          "sentence": "In excess of six billion were being sent every day.",
+          "translation": "每天发送的表情符号超过60亿个。"
+        },
+        {
+          "index": 17,
+          "sentence": "Their prevalence in the culture was such that Oxford Dictionaries recently chose one as their word of the year.",
+          "translation": "它们在文化中的普及程度如此之高，以至于牛津词典最近将其中一个选为年度词汇。"
+        },
+        {
+          "index": 18,
+          "sentence": "'Words of the Year' are those judged to be reflective of the ethos,mood,or preoccupations of that particular year'.",
+          "translation": "“年度词汇”指的是那些被认为反映了特定年份的精神、情绪或关注焦点的词汇。"
+        },
+        {
+          "index": 19,
+          "sentence": "They're very much of their time.",
+          "translation": "它们非常具有时代特征。"
+        },
+        {
+          "index": 20,
+          "sentence": "And often,once that time has passed,they fade from people's consciousness almost as quickly as they arose.",
+          "translation": "而且，通常一旦那个时代过去，它们从人们意识中消失的速度几乎与其兴起时一样快。"
+        },
+        {
+          "index": 21,
+          "sentence": "There's a good chance, then, that the emoji chosen by Oxford Dictionaries-the 'face with tears of joy'-will also appear to be dated in a few years.",
+          "translation": "因此，牛津词典选出的表情符号——“笑哭脸”——很可能在几年后也会显得过时。"
+        },
+        {
+          "index": 22,
+          "sentence": "But the reasons for this offer a fascinating insight into the way that society is evolving.",
+          "translation": "但其中的原因为我们提供了一个有趣的视角，来洞察社会演变的方式。"
+        },
+        {
+          "index": 23,
+          "sentence": "The little yellow circle with dots for eyes acts as a surprisingly good lens through which to view the history of human communication, and to predict its future.",
+          "translation": "这个带有圆点眼睛的黄色小圆圈，竟成为了一个极佳的透镜，透过它我们可以审视人类交流的历史，并预测其未来。"
+        },
+        {
+          "index": 25,
+          "sentence": "There are two main reasons why language changes.",
+          "translation": "语言变化主要有两个原因。"
+        },
+        {
+          "index": 26,
+          "sentence": "29",
+          "translation": "29"
+        },
+        {
+          "index": 27,
+          "sentence": "There are two main reasons why language changes.",
+          "translation": "语言变化主要有两个原因。"
+        },
+        {
+          "index": 28,
+          "sentence": "One is to do with the way that language mirrors the changes in how we relate to each other.",
+          "translation": "其一与语言反映我们彼此关系变化的方式有关。"
+        },
+        {
+          "index": 29,
+          "sentence": "As an expression of identity, language is adapted by different groups and different generations to reflect their own sense of self.",
+          "translation": "作为身份的表达，语言被不同群体和不同世代加以调整，以反映他们自身的自我认知。"
+        },
+        {
+          "index": 30,
+          "sentence": "their own sense of self.",
+          "translation": "它们自身的自我认同感。"
+        },
+        {
+          "index": 31,
+          "sentence": "It also needs to constantly assimilate fresh concepts as these evolve.",
+          "translation": "它还需要随着新概念的发展不断吸收它们。"
+        },
+        {
+          "index": 32,
+          "sentence": "Words are being created for these reasons all the time.",
+          "translation": "出于这些原因，新词一直在被创造出来。"
+        },
+        {
+          "index": 33,
+          "sentence": "But what's interesting about emojis is that they've contributed to this ever-expanding storehouse in a different way.",
+          "translation": "但表情符号的有趣之处在于，它们以一种不同的方式为这个不断扩展的语料库做出了贡献。"
+        },
+        {
+          "index": 34,
+          "sentence": "At this point in our history,the gaps in our vocabulary are being filled not simply by new words,but by an absolutely new system of expression.",
+          "translation": "在我们历史的这一时刻，词汇中的空白不仅仅由新词填补，而是由一种全新的表达体系来填补。"
+        },
+        {
+          "index": 36,
+          "sentence": "The second major reason that language changes is down to technology-specifically,the ways in which the technologies we use have an effect on the process of communication itself.",
+          "translation": "语言变化的第二个主要原因在于技术，具体来说，便是我们使用的技术对交流过程本身产生影响的方式。"
+        },
+        {
+          "index": 37,
+          "sentence": "30",
+          "translation": "30"
+        },
+        {
+          "index": 38,
+          "sentence": "The second major reason that language changes is down to technology-specifically,the ways in which the technologies we use have an effect on the process of communication itself.",
+          "translation": "语言变化的第二个主要原因是技术——具体而言，就是我们使用的技术对交流过程本身产生影响的方式。"
+        },
+        {
+          "index": 39,
+          "sentence": "Both hardware and new technologies result in us subtly changing the way we interact with each other and also altering the shape of the language we use.",
+          "translation": "硬件和新技术都促使我们微妙地改变彼此互动的方式，同时也改变了我们所用语言的形态。"
+        },
+        {
+          "index": 40,
+          "sentence": "Emojis have evolved as a solution to the needs of mobile communication.",
+          "translation": "表情符号已演变为满足移动通信需求的解决方案。"
+        },
+        {
+          "index": 41,
+          "sentence": "In particular,they compensate for the way that computer-mediated messaging on smartphones can sometimes tend towards the emotionally empty.",
+          "translation": "具体来说，它们弥补了智能手机上通过计算机中介的信息传递有时可能趋于情感空洞的缺陷。"
+        },
+        {
+          "index": 42,
+          "sentence": "Whereas face to-face,or even voice-to-voice,conversations can express emotional closeness through facial expression or tone of voice,this is easy to miss when messages are rendered in a few short words on a small screen.",
+          "translation": "尽管面对面甚至语音对话可以通过面部表情或语调表达情感亲近，但当信息在小屏幕上以简短词语呈现时，这种情感很容易被忽略。"
+        },
+        {
+          "index": 43,
+          "sentence": "Emojis are a means of restoring this emotional framing to an interaction-punctuating your message with a smile.",
+          "translation": "表情符号是一种在互动中恢复这种情感框架的方式——用微笑来点缀你的信息。"
+        },
+        {
+          "index": 44,
+          "sentence": "But unlike almost any other type of language system,emojis have something akin to a built-in obsolescence.",
+          "translation": "但与几乎任何其他类型的语言系统不同，表情符号具有某种类似内置过时性的特征。"
+        },
+        {
+          "index": 45,
+          "sentence": "Just as smartphones and their operating systems have a frequent refresh rate,emojis also get routine enhancements.",
+          "translation": "正如智能手机及其操作系统频繁更新换代一样，表情符号也定期得到增强。"
+        },
+        {
+          "index": 46,
+          "sentence": "The emojis you have on your phone now will undergo subtle redesigns over the course of time,and extra characters will be added.",
+          "translation": "你现在手机上的表情符号会随着时间的推移经历细微的重新设计，并且还会添加额外的字符。"
+        },
+        {
+          "index": 47,
+          "sentence": "Because of this,their usefulness is artificially limited.",
+          "translation": "正因如此，它们的实用性被人为地限制了。"
+        },
+        {
+          "index": 48,
+          "sentence": "But unlike almost any other type of language system, emojis have something akin to a built-in obsolescence.",
+          "translation": "但与几乎所有其他类型的语言系统不同，表情符号具有某种内在的过时性。"
+        },
+        {
+          "index": 49,
+          "sentence": "Just as smartphones and their operating systems have a frequent refresh rate, emojis also get routine enhancements.",
+          "translation": "正如智能手机及其操作系统频繁更新换代一样，表情符号也会定期得到改进。"
+        },
+        {
+          "index": 50,
+          "sentence": "The emojis you have on your phone now will undergo subtle redesigns over the course of time, and extra characters will be added.",
+          "translation": "你现在手机上的表情符号会随着时间的推移经历细微的重新设计，并且还会增加额外的字符。"
+        },
+        {
+          "index": 51,
+          "sentence": "Because of this, their usefulness is artificially limited.",
+          "translation": "因此，它们的有用性被人为地限制了。"
+        },
+        {
+          "index": 52,
+          "sentence": "31",
+          "translation": "31"
+        },
+        {
+          "index": 53,
+          "sentence": "But unlike almost any other type of language system,emojis have something akin to a built-in obsolescence.",
+          "translation": "但与几乎任何其他类型的语言系统不同，表情符号具备一种类似于内在过时的特性。"
+        },
+        {
+          "index": 54,
+          "sentence": "Just as smartphones and their operating systems have a frequent refresh rate,emojis also get routine enhancements.",
+          "translation": "正如智能手机及其操作系统拥有频繁的更新换代频率，表情符号也会例行改进。"
+        },
+        {
+          "index": 55,
+          "sentence": "The emojis you have on your phone now will undergo subtle redesigns over the course of time,and extra characters will be added.",
+          "translation": "你手机当前拥有的表情符号会随时间推移经历细微的重新设计，并且额外的字符将被添加。"
+        },
+        {
+          "index": 56,
+          "sentence": "Because of this,their usefulness is artificially limited.",
+          "translation": "正因如此，它们的实用性被人为地限制了。"
+        },
+        {
+          "index": 57,
+          "sentence": "In the context of communication systems,this is something that's never previously been the case.",
+          "translation": "在通信系统的背景下，这种情况前所未有。"
+        },
+        {
+          "index": 58,
+          "sentence": "Twenty years ago,people might have bought a new landline phone when they were tired of the design of their old phone or if they wanted to get one with whatever latest innovation was going around-an inbuilt answering machine, say.",
+          "translation": "二十年前，当人们厌倦了旧电话的设计，或者想要拥有一款搭载当下最新创新（例如内置应答机）的电话时，他们可能会购买一部新的固定电话。"
+        },
+        {
+          "index": 59,
+          "sentence": "But they didn't have to upgrade the language they were using as well.",
+          "translation": "但他们不必同时升级所使用的语言。"
+        },
+        {
+          "index": 60,
+          "sentence": "Emojis, on the other hand, are a case study of how technology and the human capacity for communication are working together—of how the onward march of technology exists at the intersection of consumerism, innovation and design.",
+          "translation": "另一方面，表情符号则是一个案例研究，展示了科技与人类沟通能力如何协同作用——也展示了技术的持续进步如何存在于消费主义、创新与设计的交汇点上。"
+        },
+        {
+          "index": 61,
+          "sentence": "Moreover, the fact that they're at the front line of a relentless wave of technologically driven change in communications practices encourages—if not necessitates—a great amount of creativity in the way they're used.",
+          "translation": "此外，它们处于由技术驱动的沟通实践变革的无情浪潮的前沿这一事实，鼓励——甚至可以说是迫使——人们在它们的使用方式上投入大量的创造力。"
+        },
+        {
+          "index": 62,
+          "sentence": "Finally,there's the way they've become implicated in almost all aspects of modern society,from politics and marketing to art and entertainment.",
+          "translation": "最后，它们已渗透到现代社会的几乎方方面面，从政治、市场营销到艺术和娱乐。"
+        },
+        {
+          "index": 63,
+          "sentence": "Emojis are the subject of musicals and Hollywood films.",
+          "translation": "表情符号已成为音乐剧和好莱坞电影的主题。"
+        },
+        {
+          "index": 64,
+          "sentence": "They're the inspiration for fashion design,art and architecture.",
+          "translation": "它们为时装设计、艺术和建筑提供了灵感。"
+        },
+        {
+          "index": 65,
+          "sentence": "They're a staple in advertising and commerce.",
+          "translation": "它们在广告和商业中已成为主要元素。"
+        },
+        {
+          "index": 66,
+          "sentence": "Understanding why they've become so popular,and how they work,can not only explain something about the nature of language;it can also help us to understand our relationship with technology,society and ourselves.",
+          "translation": "理解它们为何如此流行以及如何运作，不仅能够解释语言本质的某些方面，还能帮助我们理解自身与技术、社会以及自我的关系。"
+        },
+        {
+          "index": 67,
+          "sentence": "Finally,there's the way they've become implicated in almost all aspects of modern society,from politics and marketing to art and entertainment.",
+          "translation": "最后，它们已经涉及现代社会的几乎所有方面，从政治和市场营销到艺术和娱乐。"
+        },
+        {
+          "index": 68,
+          "sentence": "Emojis are the subject of musicals and Hollywood films.",
+          "translation": "表情符号已成为音乐剧和好莱坞电影的主题。"
+        },
+        {
+          "index": 69,
+          "sentence": "They're the inspiration for fashion design,art and architecture.",
+          "translation": "它们是时装设计、艺术和建筑的灵感来源。"
+        },
+        {
+          "index": 70,
+          "sentence": "They're a staple in advertising and commerce.",
+          "translation": "它们在广告和商业中占据重要地位。"
+        },
+        {
+          "index": 71,
+          "sentence": "Understanding why they've become so popular,and how they work,can not only explain something about the nature of language;it can also help us to understand our relationship with technology,society and ourselves.",
+          "translation": "理解它们为何如此流行以及如何运作，不仅能解释语言的某些本质，还能帮助我们理解自己与技术、社会及自我的关系。"
+        },
+        {
+          "index": 72,
+          "sentence": "Finally,there's the way they've become implicated in almost all aspects of modern society,from politics and marketing to art and entertainment.",
+          "translation": "最后，表情符号已渗透到现代社会的几乎所有方面，从政治和市场营销到艺术和娱乐。"
+        },
+        {
+          "index": 73,
+          "sentence": "Emojis are the subject of musicals and Hollywood films.",
+          "translation": "表情符号成为音乐剧和好莱坞电影的主题。"
+        },
+        {
+          "index": 74,
+          "sentence": "They're the inspiration for fashion design,art and architecture.",
+          "translation": "它们是时装设计、艺术和建筑的灵感来源。"
+        },
+        {
+          "index": 75,
+          "sentence": "They're a staple in advertising and commerce.",
+          "translation": "它们在广告和商业中占据重要地位。"
+        },
+        {
+          "index": 76,
+          "sentence": "Understanding why they've become so popular,and how they work,can not only explain something about the nature of language;it can also help us to understand our relationship with technology,society and ourselves.",
+          "translation": "理解它们为何变得如此受欢迎以及如何运作，不仅能解释语言的某些本质，还能帮助我们理解我们与技术、社会及自身的关系。"
+        },
+        {
+          "index": 77,
+          "sentence": "Finally,there's the way they've become implicated in almost all aspects of modern society,from politics and marketing to art and entertainment.",
+          "translation": "最后，它们几乎渗透到了现代社会的方方面面，从政治和市场营销到艺术与娱乐。"
+        },
+        {
+          "index": 78,
+          "sentence": "Emojis are the subject of musicals and Hollywood films.",
+          "translation": "表情符号已成为音乐剧和好莱坞电影的主题。"
+        },
+        {
+          "index": 79,
+          "sentence": "They're the inspiration for fashion design,art and architecture.",
+          "translation": "它们也是时装设计、艺术和建筑的灵感来源。"
+        },
+        {
+          "index": 80,
+          "sentence": "They're a staple in advertising and commerce.",
+          "translation": "它们在广告和商业中已成为标配。"
+        },
+        {
+          "index": 81,
+          "sentence": "Understanding why they've become so popular,and how they work,can not only explain something about the nature of language;it can also help us to understand our relationship with technology,society and ourselves.",
+          "translation": "理解它们为何变得如此流行以及它们如何运作，不仅能够解释语言的本质，还能帮助我们理解我们与技术、社会以及自身的关系。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}
