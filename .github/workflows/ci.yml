@@ -20,23 +20,23 @@ jobs:
         with:
           node-version: 22
       - run: pnpm install --no-frozen-lockfile
-      - name: Capture TypeScript diagnostics
-        id: typecheck
+      - run: pnpm typecheck:web
+      - run: pnpm test:web
+      - name: Capture Next.js build diagnostics
+        id: build
         continue-on-error: true
-        run: pnpm typecheck:web 2>&1 | tee typecheck-diagnostic.log
-      - name: Upload TypeScript diagnostics
+        run: pnpm build:web 2>&1 | tee build-diagnostic.log
+      - name: Upload Next.js build diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: typecheck-diagnostic
-          path: typecheck-diagnostic.log
+          name: build-diagnostic
+          path: build-diagnostic.log
           if-no-files-found: error
           retention-days: 1
-      - name: Fail on TypeScript errors
-        if: steps.typecheck.outcome == 'failure'
+      - name: Fail on build errors
+        if: steps.build.outcome == 'failure'
         run: exit 1
-      - run: pnpm test:web
-      - run: pnpm build:web
 
   api:
     runs-on: ubuntu-latest
