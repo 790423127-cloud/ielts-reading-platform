@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "ielts-reading-api"
+version = "0.1.0"
+description = "Business API for the IELTS Reading Platform"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi>=0.115,<1",
+  "uvicorn>=0.30,<1",
+  "pydantic>=2.9,<3",
+  "libsql>=0.1,<1"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.3,<9", "httpx>=0.27,<1"]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
