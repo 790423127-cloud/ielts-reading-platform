@@ -33,7 +33,9 @@ def health() -> HealthResponse:
             "deterministicScoringCore": True,
             "gtBandParity": True,
             "idempotentUserSessions": True,
-            "scoringParity": False,
-            "questionBankMigrated": False,
+            "scoringParity": True,
+            "questionBankMigrated": True,
+            "questionBankHashGuard": True,
+            "realTestParityCases": True,
         },
     )
