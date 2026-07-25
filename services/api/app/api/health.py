@@ -30,7 +30,10 @@ def health() -> HealthResponse:
             "nextAppRouter": True,
             "sharedContracts": True,
             "legacyHashRouter": False,
+            "deterministicScoringCore": True,
+            "gtBandParity": True,
+            "idempotentUserSessions": True,
             "scoringParity": False,
-            "sessionParity": False,
+            "questionBankMigrated": False,
         },
     )
