@@ -30,6 +30,20 @@ class SubmissionRequest(BaseModel):
     elapsed_seconds: int = Field(ge=0)
 
 
+class BandEstimate(BaseModel):
+    eligible: bool
+    raw_score: int = Field(ge=0)
+    out_of: int = Field(ge=1)
+    estimated_band: float | None = None
+    display_band: str | None = None
+    next_band: float | None = None
+    next_band_minimum_score: int | None = None
+    questions_to_next_band: int | None = None
+    is_official_result: bool = False
+    notice_zh: str | None = None
+    version: str | None = None
+
+
 class SubmittedQuestionReview(BaseModel):
     question_id: str
     correct: bool
@@ -44,4 +58,5 @@ class SubmissionResult(BaseModel):
     correct_count: int = Field(ge=0)
     total_questions: int = Field(ge=1)
     band: float | None
+    band_estimate: BandEstimate | None = None
     reviews: list[SubmittedQuestionReview]
