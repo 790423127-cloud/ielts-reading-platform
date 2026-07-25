@@ -1,9 +1,13 @@
 from __future__ import annotations
 
+import os
+
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.health import router as health_router
 from app.api.question_bank import router as question_bank_router
+from app.api.sessions import router as sessions_router
 from app.core.config import settings
 
 
@@ -14,8 +18,24 @@ def create_app() -> FastAPI:
         docs_url="/api/docs",
         openapi_url="/api/openapi.json",
     )
+    origins = [
+        origin.strip()
+        for origin in os.getenv(
+            "WEB_ORIGINS",
+            "http://127.0.0.1:3000,http://localhost:3000",
+        ).split(",")
+        if origin.strip()
+    ]
+    application.add_middleware(
+        CORSMiddleware,
+        allow_origins=origins,
+        allow_credentials=False,
+        allow_methods=["GET", "POST", "OPTIONS"],
+        allow_headers=["Content-Type"],
+    )
     application.include_router(health_router, prefix="/api/v1")
     application.include_router(question_bank_router, prefix="/api/v1")
+    application.include_router(sessions_router, prefix="/api/v1")
     return application
 
 
