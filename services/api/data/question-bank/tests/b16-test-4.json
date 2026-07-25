@@ -1,0 +1,2771 @@
+{
+  "id": "b16-test-4",
+  "book": "剑雅16",
+  "book_number": 16,
+  "name": "Test 4",
+  "title": "剑雅16 Test 4",
+  "parts": [
+    {
+      "id": "1921",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "The best hiking boots",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Whether you're climbing a mountain or walking in the country, be sure to buy the right boots, writes Sian Lewis",
+          "translation": "无论你是在登山还是在乡村徒步，一定要买合适的靴子，Sian Lewis写道。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A Hanwag Tatra Boots",
+          "translation": "A 汉瓦格塔特拉靴"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "These boots are expensive but will give you a lifetime of wear. They are a wide fit and offer excellent ankle support.They passed our waterproof test when worn on long, rainy walks, although they are a bit heavy.",
+          "translation": "这些靴子价格昂贵，但能让你穿一辈子。\n它们鞋型宽松，提供出色的脚踝支撑。\n尽管有点重，但在长时间的雨中行走穿着时，它们通过了我们的防水测试。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B Scarpa Peak Gore-tex Boots",
+          "translation": "B 斯卡帕巅峰Gore-tex靴子"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "These are good all-round boots that have kept our feet dry in heavy rain, snow and mud.They are warm and comfortable to wear straight out of the box and continue to be so even after many kilometres. A great choice for all seasons.",
+          "translation": "这是一款优秀的多功能靴子，能在暴雨、积雪和泥泞环境中保持双脚干燥。\n它们开箱即穿即感温暖舒适，即使在行走数公里后依然如此。\n这是一款适合四季使用的绝佳选择。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C Keen Terradora Ethos",
+          "translation": "C 基恩·泰拉多拉·伊索斯"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "These are meant for spring and summer walks and for putting in your backpack for treks in hot climates.They will never weigh you down.Their soles grip well and despite not being waterproof, they are quick-drying when they get wet.",
+          "translation": "这些靴子专为春夏季徒步设计，也适合放入背包中用于炎热气候下的长途跋涉。\n它们绝不会成为你的负担。\n它们的鞋底抓地力强，并且尽管不防水，但受湿后能快速干燥。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D Danner Jag",
+          "translation": "D 丹纳Jag"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Danner's retro boots are one of the heavier ones we reviewed.They take a week or two for your feet to get used to them, but we found them waterproof even in heavy rain.These are boots for the style conscious, but still suitable for demanding walks.",
+          "translation": "丹纳的复古靴是我们评测过的最重的靴子之一。\n你的双脚需要一两周的时间来适应它们，但我们发现即使在暴雨中它们也是防水的。\n这些靴子专为注重时尚的人设计，但仍然适合要求苛刻的徒步旅行。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E Merrell Siren Sport Q2 Mid Boots",
+          "translation": "E Merrell Siren Sport Q2 中帮靴"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "We've worn these boots in freezing cold conditions and our feet felt comfortable. Remember to pull the laces firmly when you put these boots on as they are rather wide around the ankles.",
+          "translation": "我们在严寒的条件下穿过这双靴子，双脚感觉非常舒适。\n穿上这双靴子时，记得要紧拉鞋带，因为它们的脚踝部位相当宽松。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F Teva Arrowood Mid WP",
+          "translation": "F款：Teva Arrowood Mid WP徒步靴"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "The soft leather might not be tough enough for extreme environments, but these boots get top marks for comfort.They're waterproof, but we found this wore off after about 20 wet walks. You can, however, get round this problem by using a protective spray on them.",
+          "translation": "软皮革可能不足以应对极端环境，但这些靴子在舒适度方面获得了最高评价。\n它们具有防水功能，但我们发现在大约20次潮湿行走后，这种功能就减弱了。\n不过，你可以通过在靴子上使用防护喷雾来避免这个问题。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "G Regatta Clydebank Mid Boots",
+          "translation": "G 款：Regatta Clydebank 中帮靴"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "These boots are reasonably priced and they performed well in heavy rain. They don't grip the ground as well as some other boots and aren't very warm in cold winter weather so we'd say they're best for country walks in spring and summer.",
+          "translation": "这些靴子价格合理，并且在暴雨中表现良好。\n它们不如其他靴子那样抓地力强，而且在寒冷的冬季天气中不够保暖，因此我们认为它们最适合春夏季节的乡村徒步。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Beekeeping Workshop at Elm Farm",
+          "question_cue": {
+            "start": 9,
+            "end": 14
+          },
+          "translation": "榆树农场的养蜂工作坊"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "If you've ever wanted to keep bees and have your own delicious honey, there's no better time to begin!",
+          "translation": "如果你曾经想要养蜜蜂并拥有自己美味蜂蜜，那么现在就是开始的最佳时机！"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "Whether you're keen to learn everything you need to know to get you started, or simply extremely interested in the idea of keeping bees, this one-day interactive workshop will teach you the fascinating secrets of the honeybee and how to care for and keep bees.",
+          "translation": "无论你是渴望学习所有入门所需的知识，还是仅仅对养蜂这一想法极其感兴趣，这个为期一天的互动工作坊都会教你关于蜜蜂的迷人奥秘，以及如何照料和饲养蜜蜂。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Our day begins here on the farm, getting to know about the honeybee,specifically the kind we keep here, and their fascinating history. You will find out about and try for yourself the equipment beekeepers use to care for their bees and discover the many different types of hives bee colonies live in and their different uses.You 'll learn about the life cycle of a colony, disease prevention and caring for bees and of course how to harvest honey for your personal use or for sale.",
+          "translation": "我们的一天从农场开始，了解蜜蜂，特别是我们这里饲养的品种，以及它们引人入胜的历史。\n你将了解并亲自尝试养蜂人用来照料蜜蜂的设备，并发现蜂群所居住的各种不同类型的蜂箱及其不同用途。\n你将学习蜂群的生命周期、疾病预防和蜜蜂护理，当然还有如何收获蜂蜜供个人使用或出售。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "Then it's time to try on your bee suit and meet our bees. We'll teach you how to open the hive, recognise the different bees in it (including how to spot the queen!) and explain what they're doing in different parts of the hive.",
+          "translation": "接着，是时候穿上你的养蜂服，去见一见我们的蜜蜂了。\n我们将教你如何打开蜂箱，识别其中不同类型的蜜蜂（包括如何找到蜂王！），并解释它们在蜂箱不同区域的活动。"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "What's included in the price?",
+          "translation": "这个价格包含了哪些内容？"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "We'll provide everything you need, including unlimited organic tea or coffee, lunch cooked in our outdoor,wood-fired oven and beekeeping suits for the day.Just bring a pair of thick boots with you.You'll leave with plenty of notes and resources, including a packet of bee-friendly wildflower seeds and, courtesy of BJ Sherriff, the leading supplier of beekeeping clothing, an exclusive 25% discount for anything in their online store.",
+          "translation": "我们将提供您所需的一切，包括无限量的有机茶或咖啡、在我们户外柴火烤炉中烹制的午餐以及当天使用的养蜂防护服。\n只需随身携带一双厚靴子即可。\n您将带走大量的笔记和资料，包括一包益蜂野花种子，以及由养蜂服装领先供应商BJ Sherriff提供的其在线商店所有商品独家25%折扣优惠。"
+        },
+        {
+          "label": "",
+          "index": 29,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 30,
+          "text": "We like to run our workshops fairly and honestly. Your booking secures a very limited place, so is non-refundable - if you can't make it, you can send a friend or colleague instead though. If at the end of any of our workshops, you don't believe that it has helped you to achieve what it set out to, we will gladly provide a full refund.",
+          "translation": "我们喜欢公平、诚实地举办我们的研讨会。\n您的预订确保了非常有限的名额，因此不可退款——不过，如果您无法参加，可以请朋友或同事代替您参加。\n如果在我们的任何研讨会结束时，您认为它没有帮助您达到预期目标，我们将乐意提供全额退款。\n我们喜欢公平诚实地举办我们的工作坊。\n您的预订确保了一个非常有限的名额，因此不可退款——但如果您无法参加，可以派朋友或同事代替。\n如果在任何工作坊结束后，您认为它未能帮助您达到预期目标，我们将乐意提供全额退款。"
+        },
+        {
+          "label": "",
+          "index": 31,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 32,
+          "text": "Places are strictly limited so please do book early to avoid disappointment.",
+          "translation": "名额非常有限，所以请尽早预订，以免失望。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "14077",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 8\nLook at the seven reviews of hiking boots, A-G.\nFor which hiking boots are the following statements true?\nWrite the correct letter, A-G, in boxes 1-8 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119834",
+              "number": 1,
+              "prompt": "These boots are a good choice for people who want to look smart when they are walking.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问哪款靴子适合“走路时想看起来体面/时尚”的人。原文D段描述Danner Jag靴子是“为注重风格的人设计的（boots for the style conscious）”，虽适合高强度徒步，但强调外观。这与“look smart”形成同义替换，因此答案为D。",
+              "reason": "题目描述完全对应原文 style conscious。",
+              "location_analysis": "原文说boots for the style conscious，对应题干打扮好看。",
+              "paraphrasing": "look smart -> style conscious",
+              "keywords": "look smart, style conscious",
+              "evidence": [
+                "These are boots for the style conscious, but still suitable for demanding walks."
+              ],
+              "confidence": 0,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119835",
+              "number": 2,
+              "prompt": "People do not need to spend time getting their feet accustomed to these boots.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问哪款靴子“不需要花时间让脚适应”。原文B段提到Scarpa Peak Gore-tex Boots“一穿就舒适（comfortable straight out of the box）”，且长时间行走后依然如此，说明无需磨合期，与题干完全对应，因此答案为B。",
+              "reason": "straight out of the box即无需适应。",
+              "location_analysis": "原文comfortable straight out of the box表示不需要适应期。",
+              "paraphrasing": "do not need time getting accustomed -> comfortable to wear straight out of the box",
+              "keywords": "get accustomed, comfortable straight out of the box",
+              "evidence": [
+                "They are warm and comfortable to wear straight out of the box and continue to be so even after many kilometres."
+              ],
+              "confidence": 0,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119836",
+              "number": 3,
+              "prompt": "These boots should last for many years.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问哪款靴子“应能穿很多年”。原文A段描述Hanwag Tatra Boots“虽贵但能穿一辈子（a lifetime of wear）”，直接对应“last for many years”的含义，因此答案为A。",
+              "reason": "lifetime of wear直接匹配。",
+              "location_analysis": "原文a lifetime of wear对应题干should last for many ye...",
+              "paraphrasing": "last for many years -> a lifetime of wear",
+              "keywords": "last for many years, lifetime of wear",
+              "evidence": [
+                "These boots are expensive but will give you a lifetime of wear."
+              ],
+              "confidence": 0,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119837",
+              "number": 4,
+              "prompt": "People find these boots useful when travelling as they are not heavy.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干称某款靴子“因不重而在旅行中有用”。原文C段描述Keen Terradora Ethos“永远不会让你感到沉重（never weigh you down）”，并建议用于背包客在炎热气候下的徒步，说明其轻便适合旅行，因此答案为C。",
+              "reason": "never weigh you down同意替换not heavy。",
+              "location_analysis": "原文never weigh you down对应useful和not heavy。",
+              "paraphrasing": "not heavy -> never weigh you down",
+              "keywords": "not heavy, never weigh you down",
+              "evidence": [
+                "They will never weigh you down."
+              ],
+              "confidence": 0,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119838",
+              "number": 5,
+              "prompt": "One feature of these boots does not continue to be effective for very long.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干指出某款靴子“某项功能无法长期有效”。原文F段提到Teva Arrowood Mid WP“防水性能在约20次湿走后失效（wore off after about 20 wet walks）”，说明防水这一功能不能持久，与题干描述一致，因此答案为F。",
+              "reason": "wore off直接匹配不持续。",
+              "location_analysis": "waterproof wore off after 20 walks对应功能不持久。",
+              "paraphrasing": "does not continue -> wore off",
+              "keywords": "does not continue to be effective, wore off",
+              "evidence": [
+                "They're waterproof, but we found this wore off after about 20 wet walks."
+              ],
+              "confidence": 0,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119839",
+              "number": 6,
+              "prompt": "These boots do not keep the rain out.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干称某款靴子“不防雨”。原文C段明确说明Keen Terradora Ethos“尽管不防水（despite not being waterproof）”，但干得快。这直接对应“do not keep the rain out”，因此答案为C。",
+              "reason": "not waterproof直接匹配。",
+              "location_analysis": "原文despite not being waterproof对应题干不防雨。",
+              "paraphrasing": "do not keep rain out -> not waterproof",
+              "keywords": "do not keep the rain out, not waterproof",
+              "evidence": [
+                "Their soles grip well and despite not being waterproof, they are quick-drying when they get wet."
+              ],
+              "confidence": 0,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119840",
+              "number": 7,
+              "prompt": "lt is important to make sure these boots are done up tightly before starting a walk.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干说某款靴子“出发前必须系紧”。原文E段提醒Merrell Siren Sport Q2 Mid Boots“穿时要用力系紧鞋带（pull the laces firmly）”，因为脚踝处较宽。这与“done up tightly”形成同义表达，因此答案为E。",
+              "reason": "pull the laces firmly匹配。",
+              "location_analysis": "pull laces firmly before walk对应需要系紧。",
+              "paraphrasing": "done up tightly -> pull the laces firmly",
+              "keywords": "done up tightly, pull the laces firmly",
+              "evidence": [
+                "Remember to pull the laces firmly when you put these boots on as they are rather wide around the ankles."
+              ],
+              "confidence": 0,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119841",
+              "number": 8,
+              "prompt": "These boots should suit people who don't want to spend a lot.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干问哪款靴子适合“不想花太多钱的人”。原文G段称Regatta Clydebank Mid Boots“价格合理（reasonably priced）”，直接对应“don’t want to spend a lot”的含义，因此答案为G。",
+              "reason": "reasonably priced直接匹配。",
+              "location_analysis": "reasonably priced对应不想花太多钱。",
+              "paraphrasing": "don't want to spend a lot -> reasonably priced",
+              "keywords": "don't want to spend a lot, reasonably priced",
+              "evidence": [
+                "These boots are reasonably priced and they performed well in heavy rain."
+              ],
+              "confidence": 0,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "14080",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 9 - 14\nDo the following statements agree with the information given in Reading Passage 4?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117686",
+              "number": 9,
+              "prompt": "The workshop is only suitable for people who already keep their own bees.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称该工作坊“仅适合已经养蜂的人”，但原文明确指出，无论你是“想学习一切入门所需知识”还是“仅仅对养蜂感兴趣”，都可以参加。这说明工作坊面向的是初学者或有兴趣者，而非已有经验的养蜂人，因此题干与原文矛盾，答案为FALSE。",
+              "reason": "题干说仅适合已有蜂者，但原文针对新手，矛盾。",
+              "location_analysis": "原文说workshop适合想开始的人，而非已有蜂者。",
+              "paraphrasing": "only suitable for people who already keep bees → keen to learn everything you need to know to get you started",
+              "keywords": "only suitable, already keep bees",
+              "evidence": [
+                "Whether you're keen to learn everything you need to know to get you started, or simply extremely interested in the idea of keeping bees, this one-day interactive workshop will teach you the fascinating secrets of the honeybee and how to care for and keep bees."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文表明该工作坊也适合其他人。",
+                "NOT GIVEN": "原文明确提及了工作坊的适用对象，因此该信息并非未提及。"
+              }
+            },
+            {
+              "id": "117688",
+              "number": 10,
+              "prompt": "Participants will meet people who are involved in selling honey to the public.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干提到“参与者会见到向公众销售蜂蜜的人”，但通读全文，尤其是关于工作坊内容的部分（如C、D、F段），并未提及任何与蜂蜜销售相关人员的参与或互动。虽然提到了可学习如何采蜜用于“个人使用或出售”，但未说明会接触销售人员，因此信息未给出，答案为NOT GIVEN。",
+              "reason": "原文没有提到 participants meet people involved in selling honey。",
+              "location_analysis": "原文未提及参与者会见到卖蜂蜜的人。",
+              "paraphrasing": "",
+              "keywords": "meet people, selling honey",
+              "evidence": [],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文并未提及参与者会见到参与向公众销售蜂蜜的人，该信息无中生有。",
+                "FALSE": "原文缺乏相关信息，无法证明该说法错误，因此不能判为FALSE。"
+              }
+            },
+            {
+              "id": "117691",
+              "number": 11,
+              "prompt": "Vegetarian refreshments are available if requested in advance.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问是否可提前申请素食茶点，但原文仅说明提供“无限量有机茶或咖啡”和“户外柴火炉烹制的午餐”，并未说明餐食是否为素食，也未提及可根据要求调整饮食。因此，关于素食茶点是否可提前安排的信息在文中未出现，答案为NOT GIVEN。",
+              "reason": "display_answer为NOT GIVEN",
+              "location_analysis": "原文只提“organic tea or coffee, lunch cooked in out...",
+              "paraphrasing": "",
+              "keywords": "vegetarian refreshments",
+              "evidence": [
+                "We'll provide everything you need, including unlimited organic tea or coffee, lunch cooked in our outdoor,wood-fired oven and beekeeping suits for the day."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文并未提及可提供素食茶点，因此TRUE选项无中生有。",
+                "FALSE": "原文没有相关信息，不能判断为错误，因此FALSE选项不成立。"
+              }
+            },
+            {
+              "id": "117692",
+              "number": 12,
+              "prompt": "Participants will need to pay extra to hire appropriate clothes for the workshop.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“参与者需额外付费租用合适衣物”，但原文F段明确表示“我们会提供你所需的一切，包括……当天的养蜂服”，说明服装已包含在费用中，无需额外支付。因此题干与原文矛盾，答案为FALSE。",
+              "reason": "beekeeping suits包含在price中，题干说pay extra矛盾。",
+              "location_analysis": "原文提供所有东西，包括beekeeping suits，无需额外付费。",
+              "paraphrasing": "pay extra -> we'll provide everything",
+              "keywords": "need to pay extra, beekeeping suits for the day",
+              "evidence": [
+                "We'll provide everything you need, including unlimited organic tea or coffee, lunch cooked in our outdoor,wood-fired oven and beekeeping suits for the day."
+              ],
+              "confidence": 0,
+              "wrong_reasons": {
+                "TRUE": "题干内容与原文信息矛盾，原文表明衣服无需额外付费。",
+                "NOT GIVEN": "原文中明确提及了工作坊衣服的费用情况，并非未提及。"
+              }
+            },
+            {
+              "id": "117695",
+              "number": 13,
+              "prompt": "Protective footwear will be required during the workshop.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“protective footwear”对应原文F段“Just bring a pair of thick boots with you”。厚实的靴子在此语境下即为防护性鞋履，用于保护双脚免受蜜蜂蜇伤或其他农场风险，因此该陈述与原文一致，答案为TRUE。",
+              "reason": "thick boots即防护 footwear。",
+              "location_analysis": "原文要求thick boots，即protective footwear。",
+              "paraphrasing": "protective footwear -> thick boots",
+              "keywords": "protective footwear, thick boots",
+              "evidence": [
+                "Just bring a pair of thick boots with you."
+              ],
+              "confidence": 0,
+              "wrong_reasons": {
+                "FALSE": "该选项说题干信息错误，但原文明确要求穿防护鞋，与原文矛盾。",
+                "NOT GIVEN": "该选项认为原文未提及，但原文实际提到了需要防护鞋，信息不匹配。"
+              }
+            },
+            {
+              "id": "117696",
+              "number": 14,
+              "prompt": "lf someone has to cancel before the workshop, the fee will be repaid.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“若有人在工作坊前取消，费用将退还”，但原文G段明确说明“预订不可退款（non-refundable）”，尽管可由他人代替参加。这直接否定了退费的可能性，因此题干与原文矛盾，答案为FALSE。",
+              "reason": "non-refundable明确不退费。",
+              "location_analysis": "原文说non-refundable，即取消不退费，与fee repaid矛盾。",
+              "paraphrasing": "fee repaid -> non-refundable",
+              "keywords": "cancel, fee will be repaid, non-refundable",
+              "evidence": [
+                "Your booking secures a very limited place, so is non-refundable - if you can't make it, you can send a friend or colleague instead though."
+              ],
+              "confidence": 0,
+              "wrong_reasons": {
+                "TRUE": "选项与原文信息矛盾，原文明确表示费用不予退还。",
+                "NOT GIVEN": "原文已明确提及取消政策，并非未提及相关信息。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "The best hiking boots",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Whether you're climbing a mountain or walking in the country, be sure to buy the right boots, writes Sian Lewis",
+          "translation": "无论你是在登山还是在乡村徒步，一定要买合适的靴子，Sian Lewis写道。"
+        },
+        {
+          "index": 2,
+          "sentence": "A Hanwag Tatra Boots",
+          "translation": "A 汉瓦格塔特拉靴"
+        },
+        {
+          "index": 3,
+          "sentence": "These boots are expensive but will give you a lifetime of wear.",
+          "translation": "这些靴子价格昂贵，但能让你穿一辈子。"
+        },
+        {
+          "index": 4,
+          "sentence": "They are a wide fit and offer excellent ankle support.",
+          "translation": "它们鞋型宽松，提供出色的脚踝支撑。"
+        },
+        {
+          "index": 5,
+          "sentence": "They passed our waterproof test when worn on long, rainy walks, although they are a bit heavy.",
+          "translation": "尽管有点重，但在长时间的雨中行走穿着时，它们通过了我们的防水测试。"
+        },
+        {
+          "index": 6,
+          "sentence": "B Scarpa Peak Gore-tex Boots",
+          "translation": "B 斯卡帕巅峰Gore-tex靴子"
+        },
+        {
+          "index": 7,
+          "sentence": "These are good all-round boots that have kept our feet dry in heavy rain, snow and mud.",
+          "translation": "这是一款优秀的多功能靴子，能在暴雨、积雪和泥泞环境中保持双脚干燥。"
+        },
+        {
+          "index": 8,
+          "sentence": "They are warm and comfortable to wear straight out of the box and continue to be so even after many kilometres.",
+          "translation": "它们开箱即穿即感温暖舒适，即使在行走数公里后依然如此。"
+        },
+        {
+          "index": 9,
+          "sentence": "A great choice for all seasons.",
+          "translation": "这是一款适合四季使用的绝佳选择。"
+        },
+        {
+          "index": 10,
+          "sentence": "C Keen Terradora Ethos",
+          "translation": "C 基恩·泰拉多拉·伊索斯"
+        },
+        {
+          "index": 11,
+          "sentence": "These are meant for spring and summer walks and for putting in your backpack for treks in hot climates.",
+          "translation": "这些靴子专为春夏季徒步设计，也适合放入背包中用于炎热气候下的长途跋涉。"
+        },
+        {
+          "index": 12,
+          "sentence": "They will never weigh you down.",
+          "translation": "它们绝不会成为你的负担。"
+        },
+        {
+          "index": 13,
+          "sentence": "Their soles grip well and despite not being waterproof, they are quick-drying when they get wet.",
+          "translation": "它们的鞋底抓地力强，并且尽管不防水，但受湿后能快速干燥。"
+        },
+        {
+          "index": 14,
+          "sentence": "D Danner Jag",
+          "translation": "D 丹纳Jag"
+        },
+        {
+          "index": 15,
+          "sentence": "Danner's retro boots are one of the heavier ones we reviewed.",
+          "translation": "丹纳的复古靴是我们评测过的最重的靴子之一。"
+        },
+        {
+          "index": 16,
+          "sentence": "They take a week or two for your feet to get used to them, but we found them waterproof even in heavy rain.",
+          "translation": "你的双脚需要一两周的时间来适应它们，但我们发现即使在暴雨中它们也是防水的。"
+        },
+        {
+          "index": 17,
+          "sentence": "These are boots for the style conscious, but still suitable for demanding walks.",
+          "translation": "这些靴子专为注重时尚的人设计，但仍然适合要求苛刻的徒步旅行。"
+        },
+        {
+          "index": 18,
+          "sentence": "E Merrell Siren Sport Q2 Mid Boots",
+          "translation": "E Merrell Siren Sport Q2 中帮靴"
+        },
+        {
+          "index": 19,
+          "sentence": "We've worn these boots in freezing cold conditions and our feet felt comfortable.",
+          "translation": "我们在严寒的条件下穿过这双靴子，双脚感觉非常舒适。"
+        },
+        {
+          "index": 20,
+          "sentence": "Remember to pull the laces firmly when you put these boots on as they are rather wide around the ankles.",
+          "translation": "穿上这双靴子时，记得要紧拉鞋带，因为它们的脚踝部位相当宽松。"
+        },
+        {
+          "index": 21,
+          "sentence": "F Teva Arrowood Mid WP",
+          "translation": "F款：Teva Arrowood Mid WP徒步靴"
+        },
+        {
+          "index": 22,
+          "sentence": "The soft leather might not be tough enough for extreme environments, but these boots get top marks for comfort.",
+          "translation": "软皮革可能不足以应对极端环境，但这些靴子在舒适度方面获得了最高评价。"
+        },
+        {
+          "index": 23,
+          "sentence": "They're waterproof, but we found this wore off after about 20 wet walks.",
+          "translation": "它们具有防水功能，但我们发现在大约20次潮湿行走后，这种功能就减弱了。"
+        },
+        {
+          "index": 24,
+          "sentence": "You can, however, get round this problem by using a protective spray on them.",
+          "translation": "不过，你可以通过在靴子上使用防护喷雾来避免这个问题。"
+        },
+        {
+          "index": 25,
+          "sentence": "G Regatta Clydebank Mid Boots",
+          "translation": "G 款：Regatta Clydebank 中帮靴"
+        },
+        {
+          "index": 26,
+          "sentence": "These boots are reasonably priced and they performed well in heavy rain.",
+          "translation": "这些靴子价格合理，并且在暴雨中表现良好。"
+        },
+        {
+          "index": 27,
+          "sentence": "They don't grip the ground as well as some other boots and aren't very warm in cold winter weather so we'd say they're best for country walks in spring and summer.",
+          "translation": "它们不如其他靴子那样抓地力强，而且在寒冷的冬季天气中不够保暖，因此我们认为它们最适合春夏季节的乡村徒步。"
+        },
+        {
+          "index": 28,
+          "sentence": "Beekeeping Workshop at Elm Farm",
+          "translation": "榆树农场的养蜂工作坊"
+        },
+        {
+          "index": 30,
+          "sentence": "If you've ever wanted to keep bees and have your own delicious honey, there's no better time to begin!",
+          "translation": "如果你曾经想要养蜜蜂并拥有自己美味蜂蜜，那么现在就是开始的最佳时机！"
+        },
+        {
+          "index": 32,
+          "sentence": "Whether you're keen to learn everything you need to know to get you started, or simply extremely interested in the idea of keeping bees, this one-day interactive workshop will teach you the fascinating secrets of the honeybee and how to care for and keep bees.",
+          "translation": "无论你是渴望学习所有入门所需的知识，还是仅仅对养蜂这一想法极其感兴趣，这个为期一天的互动工作坊都会教你关于蜜蜂的迷人奥秘，以及如何照料和饲养蜜蜂。"
+        },
+        {
+          "index": 34,
+          "sentence": "Our day begins here on the farm, getting to know about the honeybee, specifically the kind we keep here, and their fascinating history.",
+          "translation": "我们的一天从农场开始，了解蜜蜂，特别是我们这里饲养的品种，以及它们引人入胜的历史。"
+        },
+        {
+          "index": 35,
+          "sentence": "You will find out about and try for yourself the equipment beekeepers use to care for their bees and discover the many different types of hives bee colonies live in and their different uses.",
+          "translation": "你将了解并亲自尝试养蜂人用来照料蜜蜂的设备，并发现蜂群所居住的各种不同类型的蜂箱及其不同用途。"
+        },
+        {
+          "index": 36,
+          "sentence": "You'll learn about the life cycle of a colony, disease prevention and caring for bees and of course how to harvest honey for your personal use or for sale.",
+          "translation": "你将学习蜂群的生命周期、疾病预防和蜜蜂护理，当然还有如何收获蜂蜜供个人使用或出售。"
+        },
+        {
+          "index": 38,
+          "sentence": "Then it's time to try on your bee suit and meet our bees.",
+          "translation": "接着，是时候穿上你的养蜂服，去见一见我们的蜜蜂了。"
+        },
+        {
+          "index": 39,
+          "sentence": "We'll teach you how to open the hive, recognise the different bees in it (including how to spot the queen!) and explain what they're doing in different parts of the hive.",
+          "translation": "我们将教你如何打开蜂箱，识别其中不同类型的蜜蜂（包括如何找到蜂王！），并解释它们在蜂箱不同区域的活动。"
+        },
+        {
+          "index": 41,
+          "sentence": "What's included in the price?",
+          "translation": "这个价格包含了哪些内容？"
+        },
+        {
+          "index": 43,
+          "sentence": "We'll provide everything you need, including unlimited organic tea or coffee, lunch cooked in our outdoor,wood-fired oven and beekeeping suits for the day.",
+          "translation": "我们将提供您所需的一切，包括无限量的有机茶或咖啡、在我们户外柴火烤炉中烹制的午餐以及当天使用的养蜂防护服。"
+        },
+        {
+          "index": 44,
+          "sentence": "Just bring a pair of thick boots with you.",
+          "translation": "只需随身携带一双厚靴子即可。"
+        },
+        {
+          "index": 45,
+          "sentence": "You'll leave with plenty of notes and resources, including a packet of bee-friendly wildflower seeds and, courtesy of BJ Sherriff, the leading supplier of beekeeping clothing, an exclusive 25% discount for anything in their online store.",
+          "translation": "您将带走大量的笔记和资料，包括一包益蜂野花种子，以及由养蜂服装领先供应商BJ Sherriff提供的其在线商店所有商品独家25%折扣优惠。"
+        },
+        {
+          "index": 46,
+          "sentence": "We like to run our workshops fairly and honestly.",
+          "translation": "我们喜欢公平、诚实地举办我们的研讨会。"
+        },
+        {
+          "index": 47,
+          "sentence": "Your booking secures a very limited place, so is non-refundable - if you can't make it, you can send a friend or colleague instead though.",
+          "translation": "您的预订确保了非常有限的名额，因此不可退款——不过，如果您无法参加，可以请朋友或同事代替您参加。"
+        },
+        {
+          "index": 48,
+          "sentence": "If at the end of any of our workshops, you don't believe that it has helped you to achieve what it set out to, we will gladly provide a full refund.",
+          "translation": "如果在我们的任何研讨会结束时，您认为它没有帮助您达到预期目标，我们将乐意提供全额退款。"
+        },
+        {
+          "index": 49,
+          "sentence": "We like to run our workshops fairly and honestly.",
+          "translation": "我们喜欢公平诚实地举办我们的工作坊。"
+        },
+        {
+          "index": 50,
+          "sentence": "Your booking secures a very limited place, so is non-refundable - if you can't make it, you can send a friend or colleague instead though.",
+          "translation": "您的预订确保了一个非常有限的名额，因此不可退款——但如果您无法参加，可以派朋友或同事代替。"
+        },
+        {
+          "index": 51,
+          "sentence": "If at the end of any of our workshops, you don't believe that it has helped you to achieve what it set out to, we will gladly provide a full refund.",
+          "translation": "如果在任何工作坊结束后，您认为它未能帮助您达到预期目标，我们将乐意提供全额退款。"
+        },
+        {
+          "index": 53,
+          "sentence": "Places are strictly limited so please do book early to avoid disappointment.",
+          "translation": "名额非常有限，所以请尽早预订，以免失望。"
+        }
+      ]
+    },
+    {
+      "id": "1922",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Should you pay someone to write your CV?",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "In my view, the belief that the individual is the best person to write their own CV is not always true.Although many people can write their own CVs, and do it well, others struggle with a variety of problems initially, such as not knowing how to structure a CV or how to highlight their most relevant strengths.",
+          "translation": "在我看来，认为个人是撰写自己简历的最佳人选这一观点并不总是正确的。\n尽管许多人能够自己撰写简历并且做得很好，但其他人在最初阶段会面临各种问题，例如不知道如何组织简历结构或如何突出自己最相关的优势。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Through in-depth consultation, a professional CV writer can help identify exactly what is necessary for a particular role, cut out unnecessary or irrelevant details, and pinpoint what makes the individual stand out. This level of objectivity is one of the major benefits of working with a professional writer. It's often difficult to stand back from your own career history to assess what's relevant or not, or to choose the most appropriate qualities.",
+          "translation": "通过深入的咨询，专业的简历撰写者能够帮助确定某一特定职位所需的内容，剔除不必要或不相关的细节，并找出个人脱颖而出的关键点。\n通过深入的咨询，专业的简历撰写者能够帮助准确识别特定职位所需的关键要素，剔除不必要或不相关的细节，并明确突出个人的独特优势。\n这种客观性是聘请专业撰写者的主要好处之一。\n通常很难从自己的职业经历中抽身出来，评估哪些内容相关或不相关，或者选择出最合适的特质。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "If you do choose to work with a professional CV writer, here are some tips:",
+          "translation": "如果你确实选择与专业简历撰写人合作，以下是一些建议：\n如果你确实选择与专业的简历撰写人合作，以下是一些建议："
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Ask for a CV writer who has experience in your sector. HR professionals and recruiters with relevant experience can also have valuable insights into what companies are looking for.",
+          "translation": "寻找一位在你所在行业有经验的简历撰写人。\n具有相关经验的人力资源专业人士和招聘人员也能对公司的需求提供宝贵的见解。\n要求一位在你所在行业有经验的简历撰写者。\n具有相关经验的人力资源专业人士和招聘人员也能为公司所寻找的人才提供宝贵的见解。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Look for someone who's prepared to take the time to find out your core qualities, who can choose exactly the right words for maximum impact and who understands what and where to edit.Ask to see samples of their work or use personal recommendations before you choose a CV writing service.",
+          "translation": "寻找一位愿意花时间了解你核心特质的人，他能够精准选择恰当的措辞以产生最大影响力，并懂得编辑什么以及在哪里进行编辑。\n在选择简历撰写服务之前，要求查看他们的作品样本，或者使用个人推荐。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "You'll probably need to answer an in-depth email questionnaire or be interviewed before any writing actually starts. The more you can give your CV writer to work with, the better,so the promise of a quick turnaround time isn't always going to result in the best possible CV. Take the time to think about and jot down your career aims,your past successes,and the value you bring, before you start the whole process. Your CV will probably be used as a springboard for questions at interview, so you need to make sure you feel happy with the way it's being written and with the choice of words.Being involved in the writing process means your CV sounds authentic.",
+          "translation": "在实际开始撰写之前，你可能需要回答一份深入的电子邮件问卷或接受面试。\n你提供给简历撰写者的素材越多越好，因此快速交付的承诺并不总能带来最佳的简历。\n在开始整个过程之前，花时间思考并记下你的职业目标、过去的成就以及你带来的价值。\n你的简历很可能被用作面试提问的跳板，因此你需要确保对其撰写方式和措辞感到满意。\n参与撰写过程意味着你的简历听起来真实可信。\n在实际开始写作之前，你很可能需要回答一份详细的电子邮件问卷或接受面试。\n你能提供给简历撰写人的信息越多越好，因此快速完成的承诺并不总能带来最佳简历。\n在开始整个过程之前，花时间思考并记下你的职业目标、过往成就以及你所带来的价值。\n你的简历很可能被用作面试中提问的跳板，所以你需要确保对其写作方式和措辞感到满意。\n参与写作过程意味着你的简历听上去真实可信。\n在实际开始撰写之前，您可能需要回答一份详细的电子邮件问卷或接受面试。\n您能提供给简历撰写者的信息越多越好，因此快速周转的承诺并不总是能带来最佳简历。\n在开始整个过程之前，花时间思考并记下您的职业目标、过去的成功以及您带来的价值。\n您的简历可能会被用作面试提问的跳板，因此您需要确保对撰写方式和措辞感到满意。\n参与撰写过程意味着您的简历听起来真实可信。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Starting a new job",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "开始一份新工作"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "First impressions really do last, so it's important you perform well on your first day in the new job.Here are our top tips that will help you sail through your first day with ease.",
+          "translation": "第一印象确实会持久，因此在新工作的第一天表现出色至关重要。\n以下是我们的一些重要建议，它们将帮助你轻松度过第一天。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "A new job is a great opportunity to hit the reset button. If you got into the habit of skipping breakfast at your last job, fit it in now or experiment with getting a workout in before going to the office.Having a routine you like and sticking to it definitely impacts on your overall happiness.",
+          "translation": "一份新工作是按下重置按钮的绝佳机会。\n如果你在上份工作中养成了不吃早餐的习惯，那么现在请将其纳入日程，或者尝试在去办公室之前进行锻炼。\n拥有一个你喜欢的例行习惯并坚持下去，确实会对你的整体幸福感产生影响。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "You've probably already been into the office for an interview, so you'll have some idea of what the dress code is. While you definitely want to feel comfortable, it's best to play it safe, leaning towards a smarter and more polished look on your first day.",
+          "translation": "你可能已经为了面试去过办公室，所以你会对着装要求有所了解。\n尽管你当然希望感到舒适，但最好还是稳妥行事，在第一天倾向于更干练、更精致的形象。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "You don't want to be late, but getting to the office way too early can also potentially upset not only your schedule but other people's too.A good rule of thumb is to try and arrive 15 minutes ahead of the agreed start time.",
+          "translation": "你不想迟到，但过早到达办公室也可能打乱不仅是你自己的计划，还有他人的安排。\n一个实用的经验法则是尽量在约定的开始时间前15分钟到达。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Accepting an invite to lunch with your boss and co-workers will allow you to get to know the people you'll be working with on a more personal level. It will also help you get a handle on personalities and work styles.To ensure the lunch goes well, have a few conversation starters in mind. That way, if the talk dries up, you can get it going again.",
+          "translation": "接受老板和同事的午餐邀请，将让你在更私人的层面了解你将与之共事的人。\n这也会帮助你了解他们的性格和工作风格。\n为了确保午餐顺利进行，事先想好几个话题开场白。\n这样一来，如果谈话陷入冷场，你可以重新带动对话。\n接受老板和同事的午餐邀请将使你能够在更私人的层面上了解将来要共事的人。\n这也会帮助你掌握他们的个性和工作风格。\n为了确保午餐进行顺利，提前准备几个开场话题。\n这样一来，如果谈话陷入冷场，你就能重新开启对话。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "One of the big outcomes of going through a job search is you learn loads about yourself. In particular, you learn what you want and don't want, and what skills you bring to the table. With this new-found understanding, take some time over the initial period to think about what goals you have for your new role. In identifying these early on, you'll be one step closer to positioning yourself for success.",
+          "translation": "求职过程的一个重要结果是你对自己有了很多了解。\n特别是，你学会了什么是你想要的、什么是不想要的，以及你能带来哪些技能。\n凭借这种新获得的认知，在初期花些时间思考你对新职位有什么目标。\n尽早明确这些目标，你会离为自己定位成功更近一步。"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "It's important that you approach your new job with an open mind, and that you're ready to soak it all in. Be patient with yourself as you figure out how you fit in, and make sure you understand the way things are done before rushing into giving suggestions on improvements.",
+          "translation": "重要的是，你应以开放的心态迎接新工作，并准备好全身心投入其中。\n在摸索如何融入团队时，对自己要有耐心，并且在急于提出改进建议之前，务必先了解工作方式。\n以开放的心态对待你的新工作，并准备好吸收一切，这一点很重要。\n在弄清楚自己如何融入的过程中，对自己保持耐心，并且确保在急于提出改进建议之前，先理解事情是如何运作的。"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 29,
+          "text": "Remember they hired you for a reason, so smile, relax a little and enjoy the first day of your next big thing.",
+          "translation": "记住，他们雇用你是有原因的，所以要微笑，放松一点，享受你下一份重要工作的第一天。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "14097",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 20\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117698",
+              "number": 15,
+              "prompt": "Some jobseekers have difficulty with their CV because they have not learnt which qualities they should _____.",
+              "options": [],
+              "answer": "highlight",
+              "accepted_answers": [
+                "highlight"
+              ],
+              "analysis": "题干中的“have difficulty with their CV because they have not learnt which qualities they should”对应原文A段提到的“others struggle with...not knowing how to...highlight their most relevant strengths”。其中，“not learnt which qualities”与“not knowing how to highlight their most relevant strengths”构成同义替换，因此答案为“highlight”。",
+              "reason": "题干对应原文A段struggle with problems，包括not knowing how to highlight strengths，提取highlight。",
+              "location_analysis": "原文指出有些人struggle with not knowing how to highlig...",
+              "paraphrasing": "have difficulty with -> struggle with; not learnt which qualities -> not knowing how to highlight their most relevant strengths",
+              "keywords": "jobseekers, difficulty, qualities, highlight",
+              "evidence": [
+                "Although many people can write their own CVs, and do it well, others struggle with a variety of problems initially, such as not knowing how to structure a CV or how to highlight their most relevant strengths."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117699",
+              "number": 16,
+              "prompt": "Professional CV writers know which _____ are best left out of the CV.",
+              "options": [],
+              "answer": "details",
+              "accepted_answers": [
+                "details"
+              ],
+              "analysis": "题干询问专业CV撰写者知道哪些内容最好从CV中省略。原文B段指出，专业写手能“cut out unnecessary or irrelevant details”，即删去不必要或无关的细节。“details”正是被省略的内容，与题干“best left out”完全对应，因此答案是“details”。",
+              "reason": "原文B段cut out unnecessary or irrelevant details，details即被删除的内容。",
+              "location_analysis": "原文说professional CV writer可以cut out unnecessary...",
+              "paraphrasing": "best left out -> cut out unnecessary or irrelevant; qualities -> details",
+              "keywords": "professional CV writers, left out, best",
+              "evidence": [
+                "Through in-depth consultation, a professional CV writer can help identify exactly what is necessary for a particular role, cut out unnecessary or irrelevant details, and pinpoint what makes the individual stand out."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117700",
+              "number": 17,
+              "prompt": "CV writers with knowledge of a particular field of work often provide useful _____ about the skills firms expect from job applicants.",
+              "options": [],
+              "answer": "insights",
+              "accepted_answers": [
+                "insights"
+              ],
+              "analysis": "题干提到“CV writers with knowledge of a particular field...provide useful...about the skills firms expect”，对应原文D段“HR professionals and recruiters with relevant experience can also have valuable insights into what companies are looking for”。“insights”指对雇主需求的深入理解，与题干“useful insights”一致，故答案为“insights”。",
+              "reason": "原文D段valuable insights对应题目provide useful insights。",
+              "location_analysis": "原文D段写：experience in your sector + have valuable...",
+              "paraphrasing": "knowledge of a particular field of work -> experienced in your sector; provide useful insights -> have valuable insights",
+              "keywords": "CV writers, knowledge, particular field, useful, insights",
+              "evidence": [
+                "HR professionals and recruiters with relevant experience can also have valuable insights into what companies are looking for."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117701",
+              "number": 18,
+              "prompt": "It is advisable to request _____ of what a professional CV writer has previously produced.",
+              "options": [],
+              "answer": "samples",
+              "accepted_answers": [
+                "samples"
+              ],
+              "analysis": "题干建议“request...of what a professional CV writer has previously produced”，原文E段明确建议“Ask to see samples of their work”，其中“samples”即指过往作品范例，与题干“previously produced”形成直接对应，因此答案是“samples”。",
+              "reason": "原文E段直接建议 ask to see samples，对应题干request samples。",
+              "location_analysis": "原文E段Ask to see samples of their work。答案samples。",
+              "paraphrasing": "request -> ask to see; previously produced -> samples of their work",
+              "keywords": "request, samples, previously produced",
+              "evidence": [
+                "Ask to see samples of their work or use personal recommendations before you choose a CV writing service."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117702",
+              "number": 19,
+              "prompt": "Professional CV writers often ask jobseekers to work through a _____ as a first step.",
+              "options": [],
+              "answer": "questionnaire",
+              "accepted_answers": [
+                "questionnaire"
+              ],
+              "analysis": "题干指出专业写手常要求求职者先完成某项任务，原文F段提到“You'll probably need to answer an in-depth email questionnaire...before any writing actually starts”，说明问卷是写作前的第一步。“questionnaire”与题干“work through a...as a first step”完全匹配，故答案为“questionnaire”。",
+              "reason": "原文F段明确工作之前需回答questionnaire。",
+              "location_analysis": "原文F段说you'll need to answer an in-depth email qu...",
+              "paraphrasing": "ask jobseekers to work through -> you'll need to answer; as a first step -> before any writing actually starts",
+              "keywords": "work through, questionnaire, first step",
+              "evidence": [
+                "You'll probably need to answer an in-depth email questionnaire or be interviewed before any writing actually starts."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117703",
+              "number": 20,
+              "prompt": "If the jobseeker assists the professional writer, the tone of the CV will be _____.",
+              "options": [],
+              "answer": "authentic",
+              "accepted_answers": [
+                "authentic"
+              ],
+              "analysis": "题干说若求职者协助写手，CV的语气会如何，原文F段明确指出“Being involved in the writing process means your CV sounds authentic”。“authentic”意为真实自然，与题干“tone of the CV will be”形成逻辑对应，因此答案是“authentic”。",
+              "reason": "原文F段直接说明参与写作让CV听起来authentic。",
+              "location_analysis": "原文F段Being involved in the writing process means...",
+              "paraphrasing": "assists -> involved in writing process; tone will be -> sounds",
+              "keywords": "jobseeker assists, tone, authentic",
+              "evidence": [
+                "Being involved in the writing process means your CV sounds authentic."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Some jobseekers have difficulty with their CV because they have not learnt which qualities they should $117698$.\nProfessional CV writers know which $117699$ are best left out of the CV.\nCV writers with knowledge of a particular field of work often provide useful $117700$ about the skills firms expect from job applicants.\nIt is advisable to request $117701$ of what a professional CV writer has previously produced.\nProfessional CV writers often ask jobseekers to work through a $117702$ as a first step.\nIf the jobseeker assists the professional writer, the tone of the CV will be $117703$.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Some jobseekers have difficulty with their CV because they have not learnt which qualities they should $117698$.\nProfessional CV writers know which $117699$ are best left out of the CV.\nCV writers with knowledge of a particular field of work often provide useful $117700$ about the skills firms expect from job applicants.\nIt is advisable to request $117701$ of what a professional CV writer has previously produced.\nProfessional CV writers often ask jobseekers to work through a $117702$ as a first step.\nIf the jobseeker assists the professional writer, the tone of the CV will be $117703$."
+        },
+        {
+          "id": "14101",
+          "type": 8,
+          "title": "How best to tackle a new job",
+          "instructions": "Questions 21 - 27\nComplete the notes below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117710",
+              "number": 21,
+              "prompt": "一 try out a different morning _____ that will create",
+              "options": [],
+              "answer": "routine",
+              "accepted_answers": [
+                "routine"
+              ],
+              "analysis": "题干提到“try out a different morning...that will create a sense of well-being”，原文B段指出“Having a routine you like...definitely impacts on your overall happiness”。“routine”指日常习惯，与“morning...create well-being”对应，故答案为“routine”。",
+              "reason": "原文B段说routine影响幸福感，对应题干create a sense of well-being。",
+              "location_analysis": "原文B段experiment with getting a workout...Having ...",
+              "paraphrasing": "try out a different morning -> experiment with getting a workout; well-being -> overall happiness",
+              "keywords": "before arriving, morning, routine, well-being",
+              "evidence": [
+                "Having a routine you like and sticking to it definitely impacts on your overall happiness."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117711",
+              "number": 22,
+              "prompt": "一 make sure your chosen outfit conforms to the company's _____",
+              "options": [],
+              "answer": "dress code",
+              "accepted_answers": [
+                "dress code"
+              ],
+              "analysis": "题干要求确保着装符合公司的某种规范，原文C段提到“You'll have some idea of what the dress code is”，其中“dress code”即着装要求，与题干“chosen outfit conforms to the company's...”直接对应，因此答案是“dress code”。",
+              "reason": "原文C段明确dress code。",
+              "location_analysis": "原文C段you'll have some idea of what the dress cod...",
+              "paraphrasing": "outfit conforms to -> dress code",
+              "keywords": "outfit, conforms, dress code",
+              "evidence": [
+                "You've probably already been into the office for an interview, so you'll have some idea of what the dress code is."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117712",
+              "number": 23,
+              "prompt": "一 it will provide information on their _____ and the way they operate.",
+              "options": [],
+              "answer": "personalities",
+              "accepted_answers": [
+                "personalities"
+              ],
+              "analysis": "题干指出与同事共进午餐可了解他们的某些特征及工作方式，原文E段明确说“It will also help you get a handle on personalities and work styles”。“personalities”与题干“information on their...and the way they operate”中的前半部分完全对应，故答案为“personalities”。",
+              "reason": "原文E段指出午餐可了解personalities and work styles。",
+              "location_analysis": "原文E段lunch...get to know...get a handle on perso...",
+              "paraphrasing": "provide information on -> get a handle on; way they operate -> work styles",
+              "keywords": "eat with colleagues, midday, lunch, personalities",
+              "evidence": [
+                "It will also help you get a handle on personalities and work styles."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117713",
+              "number": 24,
+              "prompt": "一 it may be wise to prepare some _____ to help the interaction flow.",
+              "options": [],
+              "answer": "conversation starters",
+              "accepted_answers": [
+                "conversation starters"
+              ],
+              "analysis": "题干建议准备一些东西以促进交流，原文E段建议“have a few conversation starters in mind. That way, if the talk dries up, you can get it going again”。“conversation starters”即开启对话的话题，与题干“help the interaction flow”逻辑一致，因此答案是“conversation starters”。",
+              "reason": "原文E段建议准备conversation starters。",
+              "location_analysis": "原文E段have a few conversation starters...get it g...",
+              "paraphrasing": "prepare some -> have a few; help the interaction flow -> if the talk dries up, get it going again",
+              "keywords": "prepare, conversation starters, interaction flow",
+              "evidence": [
+                "To ensure the lunch goes well, have a few conversation starters in mind."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117714",
+              "number": 25,
+              "prompt": "• work out some _____ and how to go about fulfilling them.",
+              "options": [],
+              "answer": "goals",
+              "accepted_answers": [
+                "goals"
+              ],
+              "analysis": "题干提到在最初几周要确定一些目标及其实现方式，原文F段建议“take some time over the initial period to think about what goals you have for your new role”。“goals”与题干“work out some...and how to go about fulfilling them”完全对应，故答案为“goals”。",
+              "reason": "原文F段要求think about goals。",
+              "location_analysis": "原文F段take some time...think about what goals you...",
+              "paraphrasing": "work out some -> think about what goals; how to fulfill them -> positioning yourself for success",
+              "keywords": "first few weeks, work out, goals",
+              "evidence": [
+                "With this new-found understanding, take some time over the initial period to think about what goals you have for your new role."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117715",
+              "number": 26,
+              "prompt": "• try to keep a completely _____ as you settle into the post.",
+              "options": [],
+              "answer": "open mind",
+              "accepted_answers": [
+                "open mind"
+              ],
+              "analysis": "题干要求在适应新岗位时保持某种态度，原文G段强调“It's important that you approach your new job with an open mind”。“open mind”与题干“keep a completely...as you settle into the post”形成直接对应，因此答案是“open mind”。",
+              "reason": "原文G段directly says 'with an open mind'。",
+              "location_analysis": "原文G段approach your new job with an open mind。答案o...",
+              "paraphrasing": "keep a completely -> approach with an open mind; settle in -> figure out how you fit in",
+              "keywords": "keep, completely, open mind, settle in",
+              "evidence": [
+                "It's important that you approach your new job with an open mind, and that you're ready to soak it all in."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117716",
+              "number": 27,
+              "prompt": "• avoid making proposals for _____ too soon.",
+              "options": [],
+              "answer": "improvements",
+              "accepted_answers": [
+                "improvements"
+              ],
+              "analysis": "题干建议不要过早提出某些提议，原文G段指出“make sure you understand the way things are done before rushing into giving suggestions on improvements”。“improvements”即改进建议，与题干“avoid making proposals for...too soon”完全吻合，故答案为“improvements”。",
+              "reason": "原文G段建议不要急于提出improvements。",
+              "location_analysis": "原文G段make sure you understand...before rushing i...",
+              "paraphrasing": "avoid making proposals for -> understand before rushing into giving suggestions on",
+              "keywords": "avoid, proposals, improvements, too soon",
+              "evidence": [
+                "Be patient with yourself as you figure out how you fit in, and make sure you understand the way things are done before rushing into giving suggestions on improvements."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "The first day\n• Before arriving at work\n一 try out a different morning $117710$ that will create\na sense of well-being.\n一 make sure your chosen outfit conforms to the company's $117711$\n• If you eat with colleagues at midday:\n一 it will provide information on their $117712$ and the way they operate.\n一 it may be wise to prepare some $117713$ to help the interaction flow.\nDuring the first few weeks\n• work out some $117714$ and how to go about fulfilling them.\n• try to keep a completely $117715$ as you settle into the post.\n• avoid making proposals for $117716$ too soon.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The first day\n• Before arriving at work\n一 try out a different morning $117710$ that will create\na sense of well-being.\n一 make sure your chosen outfit conforms to the company's $117711$\n• If you eat with colleagues at midday:\n一 it will provide information on their $117712$ and the way they operate.\n一 it may be wise to prepare some $117713$ to help the interaction flow.\nDuring the first few weeks\n• work out some $117714$ and how to go about fulfilling them.\n• try to keep a completely $117715$ as you settle into the post.\n• avoid making proposals for $117716$ too soon."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Should you pay someone to write your CV?",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "In my view, the belief that the individual is the best person to write their own CV is not always true.",
+          "translation": "在我看来，认为个人是撰写自己简历的最佳人选这一观点并不总是正确的。"
+        },
+        {
+          "index": 3,
+          "sentence": "Although many people can write their own CVs, and do it well, others struggle with a variety of problems initially, such as not knowing how to structure a CV or how to highlight their most relevant strengths.",
+          "translation": "尽管许多人能够自己撰写简历并且做得很好，但其他人在最初阶段会面临各种问题，例如不知道如何组织简历结构或如何突出自己最相关的优势。"
+        },
+        {
+          "index": 4,
+          "sentence": "Through in-depth consultation, a professional CV writer can help identify exactly what is necessary for a particular role, cut out unnecessary or irrelevant details, and pinpoint what makes the individual stand out.",
+          "translation": "通过深入的咨询，专业的简历撰写者能够帮助确定某一特定职位所需的内容，剔除不必要或不相关的细节，并找出个人脱颖而出的关键点。"
+        },
+        {
+          "index": 5,
+          "sentence": "Through in-depth consultation, a professional CV writer can help identify exactly what is necessary for a particular role, cut out unnecessary or irrelevant details, and pinpoint what makes the individual stand out.",
+          "translation": "通过深入的咨询，专业的简历撰写者能够帮助准确识别特定职位所需的关键要素，剔除不必要或不相关的细节，并明确突出个人的独特优势。"
+        },
+        {
+          "index": 6,
+          "sentence": "This level of objectivity is one of the major benefits of working with a professional writer.",
+          "translation": "这种客观性是聘请专业撰写者的主要好处之一。"
+        },
+        {
+          "index": 7,
+          "sentence": "It's often difficult to stand back from your own career history to assess what's relevant or not, or to choose the most appropriate qualities.",
+          "translation": "通常很难从自己的职业经历中抽身出来，评估哪些内容相关或不相关，或者选择出最合适的特质。"
+        },
+        {
+          "index": 9,
+          "sentence": "If you do choose to work with a professional CV writer, here are some tips:",
+          "translation": "如果你确实选择与专业简历撰写人合作，以下是一些建议："
+        },
+        {
+          "index": 11,
+          "sentence": "Ask for a CV writer who has experience in your sector.",
+          "translation": "寻找一位在你所在行业有经验的简历撰写人。"
+        },
+        {
+          "index": 12,
+          "sentence": "HR professionals and recruiters with relevant experience can also have valuable insights into what companies are looking for.",
+          "translation": "具有相关经验的人力资源专业人士和招聘人员也能对公司的需求提供宝贵的见解。"
+        },
+        {
+          "index": 14,
+          "sentence": "Look for someone who's prepared to take the time to find out your core qualities, who can choose exactly the right words for maximum impact and who understands what and where to edit.",
+          "translation": "寻找一位愿意花时间了解你核心特质的人，他能够精准选择恰当的措辞以产生最大影响力，并懂得编辑什么以及在哪里进行编辑。"
+        },
+        {
+          "index": 15,
+          "sentence": "Ask to see samples of their work or use personal recommendations before you choose a CV writing service.",
+          "translation": "在选择简历撰写服务之前，要求查看他们的作品样本，或者使用个人推荐。"
+        },
+        {
+          "index": 16,
+          "sentence": "You'll probably need to answer an in-depth email questionnaire or be interviewed before any writing actually starts.",
+          "translation": "在实际开始撰写之前，你可能需要回答一份深入的电子邮件问卷或接受面试。"
+        },
+        {
+          "index": 17,
+          "sentence": "The more you can give your CV writer to work with, the better,so the promise of a quick turnaround time isn't always going to result in the best possible CV.",
+          "translation": "你提供给简历撰写者的素材越多越好，因此快速交付的承诺并不总能带来最佳的简历。"
+        },
+        {
+          "index": 18,
+          "sentence": "Take the time to think about and jot down your career aims,your past successes,and the value you bring, before you start the whole process.",
+          "translation": "在开始整个过程之前，花时间思考并记下你的职业目标、过去的成就以及你带来的价值。"
+        },
+        {
+          "index": 19,
+          "sentence": "Your CV will probably be used as a springboard for questions at interview, so you need to make sure you feel happy with the way it's being written and with the choice of words.",
+          "translation": "你的简历很可能被用作面试提问的跳板，因此你需要确保对其撰写方式和措辞感到满意。"
+        },
+        {
+          "index": 20,
+          "sentence": "Being involved in the writing process means your CV sounds authentic.",
+          "translation": "参与撰写过程意味着你的简历听起来真实可信。"
+        },
+        {
+          "index": 21,
+          "sentence": "You'll probably need to answer an in-depth email questionnaire or be interviewed before any writing actually starts.",
+          "translation": "在实际开始写作之前，你很可能需要回答一份详细的电子邮件问卷或接受面试。"
+        },
+        {
+          "index": 22,
+          "sentence": "The more you can give your CV writer to work with, the better, so the promise of a quick turnaround time isn't always going to result in the best possible CV.",
+          "translation": "你能提供给简历撰写人的信息越多越好，因此快速完成的承诺并不总能带来最佳简历。"
+        },
+        {
+          "index": 23,
+          "sentence": "Take the time to think about and jot down your career aims, your past successes, and the value you bring, before you start the whole process.",
+          "translation": "在开始整个过程之前，花时间思考并记下你的职业目标、过往成就以及你所带来的价值。"
+        },
+        {
+          "index": 24,
+          "sentence": "Your CV will probably be used as a springboard for questions at interview, so you need to make sure you feel happy with the way it's being written and with the choice of words.",
+          "translation": "你的简历很可能被用作面试中提问的跳板，所以你需要确保对其写作方式和措辞感到满意。"
+        },
+        {
+          "index": 25,
+          "sentence": "Being involved in the writing process means your CV sounds authentic.",
+          "translation": "参与写作过程意味着你的简历听上去真实可信。"
+        },
+        {
+          "index": 26,
+          "sentence": "Starting a new job",
+          "translation": "开始一份新工作"
+        },
+        {
+          "index": 28,
+          "sentence": "First impressions really do last, so it's important you perform well on your first day in the new job.",
+          "translation": "第一印象确实会持久，因此在新工作的第一天表现出色至关重要。"
+        },
+        {
+          "index": 29,
+          "sentence": "Here are our top tips that will help you sail through your first day with ease.",
+          "translation": "以下是我们的一些重要建议，它们将帮助你轻松度过第一天。"
+        },
+        {
+          "index": 31,
+          "sentence": "A new job is a great opportunity to hit the reset button.",
+          "translation": "一份新工作是按下重置按钮的绝佳机会。"
+        },
+        {
+          "index": 32,
+          "sentence": "If you got into the habit of skipping breakfast at your last job, fit it in now or experiment with getting a workout in before going to the office.",
+          "translation": "如果你在上份工作中养成了不吃早餐的习惯，那么现在请将其纳入日程，或者尝试在去办公室之前进行锻炼。"
+        },
+        {
+          "index": 33,
+          "sentence": "Having a routine you like and sticking to it definitely impacts on your overall happiness.",
+          "translation": "拥有一个你喜欢的例行习惯并坚持下去，确实会对你的整体幸福感产生影响。"
+        },
+        {
+          "index": 34,
+          "sentence": "If you do choose to work with a professional CV writer, here are some tips:",
+          "translation": "如果你确实选择与专业的简历撰写人合作，以下是一些建议："
+        },
+        {
+          "index": 35,
+          "sentence": "You've probably already been into the office for an interview, so you'll have some idea of what the dress code is.",
+          "translation": "你可能已经为了面试去过办公室，所以你会对着装要求有所了解。"
+        },
+        {
+          "index": 36,
+          "sentence": "While you definitely want to feel comfortable, it's best to play it safe, leaning towards a smarter and more polished look on your first day.",
+          "translation": "尽管你当然希望感到舒适，但最好还是稳妥行事，在第一天倾向于更干练、更精致的形象。"
+        },
+        {
+          "index": 37,
+          "sentence": "Ask for a CV writer who has experience in your sector.",
+          "translation": "要求一位在你所在行业有经验的简历撰写者。"
+        },
+        {
+          "index": 38,
+          "sentence": "HR professionals and recruiters with relevant experience can also have valuable insights into what companies are looking for.",
+          "translation": "具有相关经验的人力资源专业人士和招聘人员也能为公司所寻找的人才提供宝贵的见解。"
+        },
+        {
+          "index": 39,
+          "sentence": "You don't want to be late, but getting to the office way too early can also potentially upset not only your schedule but other people's too.",
+          "translation": "你不想迟到，但过早到达办公室也可能打乱不仅是你自己的计划，还有他人的安排。"
+        },
+        {
+          "index": 40,
+          "sentence": "A good rule of thumb is to try and arrive 15 minutes ahead of the agreed start time.",
+          "translation": "一个实用的经验法则是尽量在约定的开始时间前15分钟到达。"
+        },
+        {
+          "index": 41,
+          "sentence": "Accepting an invite to lunch with your boss and co-workers will allow you to get to know the people you'll be working with on a more personal level.",
+          "translation": "接受老板和同事的午餐邀请，将让你在更私人的层面了解你将与之共事的人。"
+        },
+        {
+          "index": 42,
+          "sentence": "It will also help you get a handle on personalities and work styles.",
+          "translation": "这也会帮助你了解他们的性格和工作风格。"
+        },
+        {
+          "index": 43,
+          "sentence": "To ensure the lunch goes well, have a few conversation starters in mind.",
+          "translation": "为了确保午餐顺利进行，事先想好几个话题开场白。"
+        },
+        {
+          "index": 44,
+          "sentence": "That way, if the talk dries up, you can get it going again.",
+          "translation": "这样一来，如果谈话陷入冷场，你可以重新带动对话。"
+        },
+        {
+          "index": 45,
+          "sentence": "Accepting an invite to lunch with your boss and co-workers will allow you to get to know the people you'll be working with on a more personal level.",
+          "translation": "接受老板和同事的午餐邀请将使你能够在更私人的层面上了解将来要共事的人。"
+        },
+        {
+          "index": 46,
+          "sentence": "It will also help you get a handle on personalities and work styles.",
+          "translation": "这也会帮助你掌握他们的个性和工作风格。"
+        },
+        {
+          "index": 47,
+          "sentence": "To ensure the lunch goes well, have a few conversation starters in mind.",
+          "translation": "为了确保午餐进行顺利，提前准备几个开场话题。"
+        },
+        {
+          "index": 48,
+          "sentence": "That way, if the talk dries up, you can get it going again.",
+          "translation": "这样一来，如果谈话陷入冷场，你就能重新开启对话。"
+        },
+        {
+          "index": 49,
+          "sentence": "You'll probably need to answer an in-depth email questionnaire or be interviewed before any writing actually starts.",
+          "translation": "在实际开始撰写之前，您可能需要回答一份详细的电子邮件问卷或接受面试。"
+        },
+        {
+          "index": 50,
+          "sentence": "The more you can give your CV writer to work with, the better, so the promise of a quick turnaround time isn't always going to result in the best possible CV.",
+          "translation": "您能提供给简历撰写者的信息越多越好，因此快速周转的承诺并不总是能带来最佳简历。"
+        },
+        {
+          "index": 51,
+          "sentence": "Take the time to think about and jot down your career aims, your past successes, and the value you bring, before you start the whole process.",
+          "translation": "在开始整个过程之前，花时间思考并记下您的职业目标、过去的成功以及您带来的价值。"
+        },
+        {
+          "index": 52,
+          "sentence": "Your CV will probably be used as a springboard for questions at interview, so you need to make sure you feel happy with the way it's being written and with the choice of words.",
+          "translation": "您的简历可能会被用作面试提问的跳板，因此您需要确保对撰写方式和措辞感到满意。"
+        },
+        {
+          "index": 53,
+          "sentence": "Being involved in the writing process means your CV sounds authentic.",
+          "translation": "参与撰写过程意味着您的简历听起来真实可信。"
+        },
+        {
+          "index": 54,
+          "sentence": "One of the big outcomes of going through a job search is you learn loads about yourself.",
+          "translation": "求职过程的一个重要结果是你对自己有了很多了解。"
+        },
+        {
+          "index": 55,
+          "sentence": "In particular, you learn what you want and don't want, and what skills you bring to the table.",
+          "translation": "特别是，你学会了什么是你想要的、什么是不想要的，以及你能带来哪些技能。"
+        },
+        {
+          "index": 56,
+          "sentence": "With this new-found understanding, take some time over the initial period to think about what goals you have for your new role.",
+          "translation": "凭借这种新获得的认知，在初期花些时间思考你对新职位有什么目标。"
+        },
+        {
+          "index": 57,
+          "sentence": "In identifying these early on, you'll be one step closer to positioning yourself for success.",
+          "translation": "尽早明确这些目标，你会离为自己定位成功更近一步。"
+        },
+        {
+          "index": 58,
+          "sentence": "It's important that you approach your new job with an open mind, and that you're ready to soak it all in.",
+          "translation": "重要的是，你应以开放的心态迎接新工作，并准备好全身心投入其中。"
+        },
+        {
+          "index": 59,
+          "sentence": "Be patient with yourself as you figure out how you fit in, and make sure you understand the way things are done before rushing into giving suggestions on improvements.",
+          "translation": "在摸索如何融入团队时，对自己要有耐心，并且在急于提出改进建议之前，务必先了解工作方式。"
+        },
+        {
+          "index": 60,
+          "sentence": "It's important that you approach your new job with an open mind, and that you're ready to soak it all in.",
+          "translation": "以开放的心态对待你的新工作，并准备好吸收一切，这一点很重要。"
+        },
+        {
+          "index": 61,
+          "sentence": "Be patient with yourself as you figure out how you fit in, and make sure you understand the way things are done before rushing into giving suggestions on improvements.",
+          "translation": "在弄清楚自己如何融入的过程中，对自己保持耐心，并且确保在急于提出改进建议之前，先理解事情是如何运作的。"
+        },
+        {
+          "index": 63,
+          "sentence": "Remember they hired you for a reason, so smile, relax a little and enjoy the first day of your next big thing.",
+          "translation": "记住，他们雇用你是有原因的，所以要微笑，放松一点，享受你下一份重要工作的第一天。"
+        }
+      ]
+    },
+    {
+      "id": "1923",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "History of women’s football in Britain",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Women's football in Britain has deeper roots than might be expected.In one town in 18th-century Scotland, single women played an annual match against their married counterparts,though the motives behind the contest were not purely sporting. Some accounts say that the games were watched by a crowd of single men,who hoped to pick out a potential bride based on her footballing ability.",
+          "translation": "英国女子足球的历史根基比人们预想的更为深厚。\n在18世纪苏格兰的一个小镇上，单身女性每年都会与已婚女性进行一场比赛，尽管这场竞赛背后的动机并非纯粹出于体育目的。\n一些记载称，这些比赛吸引了一群单身男性围观，他们希望根据女性的足球能力挑选出潜在的配偶。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "By the late 19th century, with the men's game spreading across Britain like wildfire, women also began to take up association football. Early pioneers included Nettie J Honeyball,who founded the British Ladies’ Football Club(BLFC) in 1895. Honeyball was an alias: like many of the middle- and upper-class women who played in the late 19th century, she was not keen to publicise her involvement with a contact sport played on muddy fields. We know more about Lady Florence Dixie, who was appointed president of the BLFC in 1895 and who was an ardent believer in equality between the sexes.",
+          "translation": "到19世纪末，随着男子足球运动在英国如野火般蔓延开来，女性也开始参与英式足球。\n早期的先驱包括内蒂·J·哈尼鲍尔，她于1895年创立了英国女子足球俱乐部(BLFC)。\n哈尼鲍尔是一个化名：与许多在19世纪末从事这项运动的中上层阶级女性一样，她不愿公开自己参与这项在泥泞场地上进行的身体对抗运动。\n我们对弗洛伦斯·迪克西夫人了解更多，她于1895年被任命为BLFC的主席，并且是一位两性平等的坚定信仰者。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "The BLFC arranged games between teams representing the north and the south of England,where money would be raised for those in need. These initially attracted healthy numbers of supporters although early newspaper reports were not particularly generous, with one reporter suggesting 'when the novelty has worn off, I do not think women's football will attract the crowds '. And crowds did drop off as the growing popularity of the men's game came to dominate public interest.In a country where women were not yet allowed to vote, it would take extraordinary circumstances for their efforts on the football pitch to attract widespread attention.",
+          "translation": "BLFC安排了代表英格兰北部和南部的队伍之间的比赛，所筹集的资金将用于帮助有需要的人。\n这些比赛最初吸引了不少支持者，尽管早期的报纸报道并不十分慷慨，一位记者指出：“当新鲜感消退后，我认为女子足球不会吸引观众。”\n确实，随着男子比赛日益流行并主导公众兴趣，观众人数下降了。\n在一个女性尚未获得投票权的国家，她们在足球场上的努力需要非凡的条件才能引起广泛关注。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Those circumstances arose in 1914 with the outbreak of the First World War. With many men leaving their jobs to join the army, women started to work in factories and just as men had done before them, they began to play informal games of football during their lunch breaks. After some initial uncertainty, their superiors came to see these games as a means to boost morale and thus increase productivity.Teams soon formed and friendly matches were arranged.",
+          "translation": "这些情况在1914年随着第一次世界大战的爆发而出现。\n由于许多男性离开工作岗位参军，女性开始进入工厂工作，并且像之前的男性一样，她们开始在午休期间踢非正式的足球比赛。\n在最初的一些不确定之后，她们的上级逐渐将这些比赛视为提升士气、从而增加生产力的手段。\n很快，球队组建起来，并安排了友谊赛。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "In the town of Preston in the north of England, the female workers at a manufacturing company called Dick, Kerr & Co showed a particular aptitude for the game. Watching from a window above the yard where they played, office worker Alfred Frankland spotted their talent and he set about forming a team.Under Frankland's management, they soon drew significant crowds to see their games. Known as Dick, Kerr's Ladies,they beat rival factory Arundel Coulthard 4-0 on Christmas Day 1917, with 10,000 watching at Preston stadium.",
+          "translation": "在英格兰北部的普雷斯顿镇，一家名为迪克·克尔公司（Dick, Kerr & Co）的制造企业的女工们展现出了对这项运动的非凡天赋。\n办公室职员阿尔弗雷德·弗兰克兰从她们踢球的院子楼上窗户观察到了她们的才能，并着手组建了一支球队。\n在弗兰克兰的管理下，她们很快就吸引了大量观众前来观看比赛。\n这支被称为“迪克·克尔女子队”的球队在1917年圣诞节当天以4比0击败了对手工厂阿伦德尔·库尔特哈德队，有10,000人在普雷斯顿体育场观看了比赛。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "After the war ended in 1918 the Dick, Kerr's side and other women's teams continued to draw large crowds.In 1920 there were around 150women's sides in England and Dick, Kerr's Ladies packed 53,000 into Everton's Goodison Park stadium. The same year,the team found their one true genius: Lily Parr. Parr grew up playing football with her brothers, and began her career with her town's ladies' team at the age of 14. When they played against the Dick, Kerr's side, she caught Frankland's eye and was offered a job at the factory - as well as a spot on the team. Close to six-feet tall and with jet-black hair, she had a ferocious appetite and a fierce left foot. She is credited with 43 goals during her first season playing for Dick, Kerr's Ladies and around 1,000 in total.",
+          "translation": "1918年战争结束后，迪克·科尔女子队以及其他女子球队依然吸引了大量观众。\n同年，这支球队发现了一位真正的天才：莉莉·帕尔。\n帕尔从小与兄弟们一起踢足球，14岁时便在家乡的女子队开始了职业生涯。\n当她们与迪克·科尔女子队比赛时，她引起了弗兰克兰的注意，不仅获得了一份工厂的工作，还得到了球队的一个位置。\n她身高接近六英尺，有着乌黑的头发，胃口极大，左脚射门极具威力。\n她在代表迪克·科尔女子队的第一个赛季就攻入了43个进球，而职业生涯总进球数约为1000个。\n1918年战争结束后，迪克·克尔队以及其他女子球队继续吸引大量观众。\n1920年，英格兰约有150支女子足球队，迪克·克尔女子队在埃弗顿的古迪逊公园球场吸引了53,000名观众。\n同年，该队发现了一位真正的天才：莉莉·帕尔。\n帕尔从小和兄弟们一起踢足球，并在14岁时开始了她在镇上女子队的职业生涯。\n当她们与迪克·克尔队比赛时，她引起了弗兰克兰的注意，并被提供了一份在工厂的工作——以及球队中的一个位置。\n她身高近六英尺，拥有一头乌黑的头发，食欲旺盛，左脚射门凶猛。\n她在为迪克·克尔女子队效力的第一个赛季就打入了43个进球，而总进球数约为1000个。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "By 1921 Dick, Kerr's Ladies were regularly attracting crowds in the tens of thousands.But the year ended in catastrophe for the women's game. The Football Association (FA)- officially the governing body for the sport as a whole, but really only concerned with men’s competitions - had always taken a poor view of female participation. Women's football was tolerated during the war, but in the years that followed,driven by the fear that the women's game could affect Football League attendances, the FA sought to assert itself.",
+          "translation": "到1921年，迪克·克尔女子队经常吸引数万观众。\n但这一年以女子足球的灾难告终。\n英国足球协会——名义上是这项运动的官方管理机构，但实际上只关心男子比赛——一直对女性参与持否定态度。\n战争期间女子足球被容忍，但在随后的几年里，由于担心女子比赛可能影响足球联赛的上座率，英足总试图维护其权威。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Its solution was decisive and brutal. On 5 December 1921, the FA banned its members from allowing women's football to be played at its grounds, saying that football was 'quite unsuitable for females'. The FA also forbade its members from acting as referees at women's games.To all intents and purposes, women's football in England was outlawed.",
+          "translation": "其解决方式果断而残酷。\n1921年12月5日，英足总禁止其成员允许在其场地上进行女子足球比赛，称足球‘非常不适合女性’。\n英足总还禁止其成员在女子比赛中担任裁判。\n实际上，英格兰的女子足球被宣布为非法。\n其解决方案果断而残酷。\n1921年12月5日，英格兰足球协会禁止其成员允许在其场地上进行女子足球比赛，并称足球‘极不适合女性’。\n足球协会还禁止其成员在女子比赛中担任裁判。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "I"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "The FA also suggested that an excessive proportion of the gate receipts were absorbed in expenses and an inadequate percentage devoted to charity. No such obligation to donate profits existed for men's clubs and no proof of financial mismanagement was presented,but there was little the women's clubs could do in response.",
+          "translation": "英足总还指出，门票收入中过高的比例被用于开支，而用于慈善的比例不足。\n男子俱乐部并没有这种捐赠利润的义务，也没有任何财务不当管理的证据被提出，\n但女子俱乐部对此几乎无能为力。\n英足总还指出，门票收入中过大部分被用于开支，而用于慈善的比例不足。\n男子俱乐部并无此类捐赠利润的义务，也无人提出财务管理不善的证据，但女子俱乐部对此几乎无能为力。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "J"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "There was outrage from players, with the captain of Plymouth Ladies remarking that the FA was ‘a hundred years behind the times' and calling its decision 'purely sex prejudice' .",
+          "translation": "球员们感到愤慨，普利茅斯女子队的队长评论称，英足总‘落后时代一百年’，并将其决定称为‘纯粹的性别偏见’。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "K"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "It was not until 1966 that serious efforts to revive the women's game began, but progress remained painfully slow. It took pressure from the Union of European Football Associations (UEFA), to finally force the FA to end restrictions on women's football in 1971.By this time, half a century of progress had been lost.",
+          "translation": "直到1966年，重振女子足球运动的认真努力才开始，但进展仍然极其缓慢。\n在欧洲足球协会联盟（UEFA）的压力下，英格兰足球总会（FA）才最终于1971年解除了对女子足球的限制。\n到那时，半个世纪的进步已付诸东流。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "14107",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 28 - 31\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117724",
+              "number": 28,
+              "prompt": "In the first paragraph, the writer says that in 18th-century Scotland",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "only unmarried women were allowed to play football."
+                },
+                {
+                  "value": "B",
+                  "label": "women's football was more common than men's football."
+                },
+                {
+                  "value": "C",
+                  "label": "women were sometimes forbidden to watch football matches."
+                },
+                {
+                  "value": "D",
+                  "label": "skill at football might be considered when choosing a wife."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问18世纪苏格兰的情况，原文段落A提到‘单身男子观看比赛，希望根据女性的足球能力挑选潜在新娘’。这与选项D‘选择妻子时可能会考虑足球技能’构成同义改写，其中‘pick out a potential bride based on her footballing ability’直接对应‘skill at football might be considered when choosing a wife’，因此答案为D。",
+              "reason": "原文明确提到单身汉根据足球能力挑选新娘，符合D选项。",
+              "location_analysis": "选项D对应原文中男子根据足球能力挑选新娘，故选D。",
+              "paraphrasing": "skill at football might be considered when choosing a wife -> pick out a potential bride based on her footballing ability",
+              "keywords": "18th-century Scotland, single men, pick out a potential bride",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文并未提及只有未婚女性才能踢足球，属于无中生有。",
+                "B": "文中并未比较男女足球的普及程度，且暗示女子足球较少见。",
+                "C": "原文未明确禁止女性观看比赛，与信息不符。"
+              }
+            },
+            {
+              "id": "117726",
+              "number": 29,
+              "prompt": "The writer says that Nettie J Honeyball was unwilling to",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "take an active part in team sports."
+                },
+                {
+                  "value": "B",
+                  "label": "mix with people she considered lower class."
+                },
+                {
+                  "value": "C",
+                  "label": "let the public know of her involvement in football."
+                },
+                {
+                  "value": "D",
+                  "label": "take a leadership role in the British Ladies' Football Club."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问Nettie J Honeyball不愿做什么，原文段落B指出‘Honeyball是化名，因为她和其他上层阶级女性一样，不愿公开自己参与在泥泞场地进行的对抗性运动’。这说明她不想让公众知道她参与足球，与选项C‘let the public know of her involvement in football’完全对应，因此正确答案是C。",
+              "reason": "选项C与原文明确对应。",
+              "location_analysis": "原文指出Honeyball是化名，不愿公开参与足球运动，即C选项。",
+              "paraphrasing": "let the public know → publicise her involvement",
+              "keywords": "Nettie J Honeyball, unwilling, public",
+              "evidence": [
+                "Honeyball was an alias: like many of the middle- and upper-class women who played in the late 19th century, she was not keen to publicise her involvement with a contact sport played on muddy fields."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文并未提及她对团队运动的态度，属于无中生有。",
+                "B": "与原文中她愿意与不同阶层接触的信息矛盾。",
+                "D": "原文提到她担任了领导角色，与题干要求相反。"
+              }
+            },
+            {
+              "id": "117728",
+              "number": 30,
+              "prompt": "The writer suggests that in Britain, between 1895 and 1914,",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "society was not yet ready for women's football."
+                },
+                {
+                  "value": "B",
+                  "label": "there were false reports of the decline of women's football."
+                },
+                {
+                  "value": "C",
+                  "label": "the media felt that women's football should not be allowed."
+                },
+                {
+                  "value": "D",
+                  "label": "women's football mainly attracted people because it was unusual."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问1895至1914年间英国社会对女足的态度。原文段落C提到‘在一个女性尚未获得投票权的国家，只有在特殊情况下，女足才能引起广泛关注’，暗示当时社会尚未准备好接受女足。这与选项A‘society was not yet ready for women's football’逻辑一致，因此答案为A。",
+              "reason": "原文暗示社会条件不成熟，对应A选项。",
+              "location_analysis": "原文指出女性无法投票，需要特殊情况才能引起广泛关注，即社会尚未准备好。",
+              "paraphrasing": "not ready → extraordinary circumstances needed",
+              "keywords": "1895, 1914, society not ready",
+              "evidence": [
+                "In a country where women were not yet allowed to vote, it would take extraordinary circumstances for their efforts on the football pitch to attract widespread attention."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "B": "原文可能未提及女子足球衰落存在虚假报道，属于无中生有。",
+                "C": "原文可能未表明媒体认为不应允许女子足球，属于信息过度推断。",
+                "D": "原文可能未强调女子足球因其不寻常而吸引人，属于范围错误或无依据。"
+              }
+            },
+            {
+              "id": "117730",
+              "number": 31,
+              "prompt": "After the First World War broke out in 1914, factory managers",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "were initially unwilling to employ women."
+                },
+                {
+                  "value": "B",
+                  "label": "played in matches against female employees."
+                },
+                {
+                  "value": "C",
+                  "label": "callowed extra time for their employees to play football."
+                },
+                {
+                  "value": "D",
+                  "label": "decided that women's football might have positive effects."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问一战爆发后工厂管理者的态度。原文段落D指出，尽管最初有所犹豫，但管理者后来认为女工踢球‘能提升士气，从而提高生产效率’。这表明他们认为女足有积极影响，与选项D‘decided that women's football might have positive effects’形成同义替换，因此答案为D。",
+              "reason": "选项D与原文描述一致。",
+              "location_analysis": "原文说上司认为女工足球比赛能提升士气和生产力，即积极影响。",
+              "paraphrasing": "positive effects → boost morale and increase productivity",
+              "keywords": "First World War, factory managers, positive effects",
+              "evidence": [
+                "After some initial uncertainty, their superiors came to see these games as a means to boost morale and thus increase productivity."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及一战爆发后工厂经理起初不愿雇佣女性，属无中生有。",
+                "B": "原文未提到经理与女员工比赛踢足球，属无中生有。",
+                "C": "原文未提及经理允许员工额外时间踢足球，与原文信息不符。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "14117",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 32 - 37\nLook at the following statements (Questions 32-37) and the list of football organisations below.\nMatch each statement with the correct organisation, A, B, C or D.\nChoose the correct word and move it into the gap.\nNB You may use any letter more than once.",
+          "option_title": "Multiple Choice (one answer)",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. the British Ladies, Football Club (BLFC)"
+            },
+            {
+              "value": "B",
+              "label": "B. the Dick, Kerr's Ladies team"
+            },
+            {
+              "value": "C",
+              "label": "C. the Football Association (FA)"
+            },
+            {
+              "value": "D",
+              "label": "D. the Union of European Football Associations (UEFA)"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117738",
+              "number": 32,
+              "prompt": "It felt threatened by the rise of women's football",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. the British Ladies, Football Club (BLFC)"
+                },
+                {
+                  "value": "B",
+                  "label": "B. the Dick, Kerr's Ladies team"
+                },
+                {
+                  "value": "C",
+                  "label": "C. the Football Association (FA)"
+                },
+                {
+                  "value": "D",
+                  "label": "D. the Union of European Football Associations (UEFA)"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求匹配‘感到女足兴起构成威胁’的组织。原文段落G提到英足总（FA）‘出于担心女足会影响男足联赛上座率，试图加强控制’，这正说明FA感到被威胁。因此该描述对应选项C（the Football Association），答案为C。",
+              "reason": "原文描述FA恐惧女足影响，匹配C。",
+              "location_analysis": "FA担心女足影响男足联赛上座率，即感到威胁。",
+              "paraphrasing": "felt threatened → fear that could affect attendances",
+              "keywords": "felt threatened, Football Association",
+              "evidence": [
+                "driven by the fear that the women's game could affect Football League attendances, the FA sought to assert itself."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117739",
+              "number": 33,
+              "prompt": "It was established by a male office worker",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. the British Ladies, Football Club (BLFC)"
+                },
+                {
+                  "value": "B",
+                  "label": "B. the Dick, Kerr's Ladies team"
+                },
+                {
+                  "value": "C",
+                  "label": "C. the Football Association (FA)"
+                },
+                {
+                  "value": "D",
+                  "label": "D. the Union of European Football Associations (UEFA)"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干描述‘由一名男性办公室职员创立’的组织。原文段落E提到办公室职员Alfred Frankland在窗边观察到女工踢球有天赋后，‘着手组建了一支球队’，即Dick, Kerr's Ladies队。因此该描述对应选项B，答案为B。",
+              "reason": "选项B对应此描述。",
+              "location_analysis": "Frankland是办公室职员，组织了Dick, Kerr's Ladies队。",
+              "paraphrasing": "established by → set about forming",
+              "keywords": "established, male office worker, Dick Kerr",
+              "evidence": [
+                "Watching from a window above the yard where they played, office worker Alfred Frankland spotted their talent and he set about forming a team."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117740",
+              "number": 34,
+              "prompt": "It donated money from football matches to good causes",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. the British Ladies, Football Club (BLFC)"
+                },
+                {
+                  "value": "B",
+                  "label": "B. the Dick, Kerr's Ladies team"
+                },
+                {
+                  "value": "C",
+                  "label": "C. the Football Association (FA)"
+                },
+                {
+                  "value": "D",
+                  "label": "D. the Union of European Football Associations (UEFA)"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干要求找出‘将比赛收入捐赠给公益事业’的组织。原文段落C指出BLFC安排南北对抗赛，‘为有需要的人筹款（money would be raised for those in need）’，这与‘donated money from football matches to good causes’意思一致，因此对应选项A（the British Ladies' Football Club），答案为A。",
+              "reason": "原文说明BLFC通过比赛为需要者筹款，符合“捐赠给慈善”。",
+              "location_analysis": "BLFC安排比赛为有需要的人筹款，即慈善捐赠，选A。",
+              "paraphrasing": "donated money from football matches to good causes -> money would be raised for those in need",
+              "keywords": "donated money, good causes, BLFC",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117741",
+              "number": 35,
+              "prompt": "It called for the ending of the ban on women's football in Britain",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. the British Ladies, Football Club (BLFC)"
+                },
+                {
+                  "value": "B",
+                  "label": "B. the Dick, Kerr's Ladies team"
+                },
+                {
+                  "value": "C",
+                  "label": "C. the Football Association (FA)"
+                },
+                {
+                  "value": "D",
+                  "label": "D. the Union of European Football Associations (UEFA)"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干描述‘呼吁结束英国女足禁令’的组织。原文段落K明确提到‘欧足联（UEFA）施加压力，最终迫使英足总在1971年解除对女足的限制’，这相当于呼吁或推动结束禁令。因此该描述对应选项D（UEFA），答案为D。",
+              "reason": "选项D与原文一致。",
+              "location_analysis": "UEFA施压迫使FA解除对女足的限制。",
+              "paraphrasing": "called for ending ban → pressure to force FA to end restrictions",
+              "keywords": "UEFA, end ban, women's football",
+              "evidence": [
+                "It took pressure from the Union of European Football Associations (UEFA), to finally force the FA to end restrictions on women's football in 1971."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117742",
+              "number": 36,
+              "prompt": "It was accused of being old-fashioned",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. the British Ladies, Football Club (BLFC)"
+                },
+                {
+                  "value": "B",
+                  "label": "B. the Dick, Kerr's Ladies team"
+                },
+                {
+                  "value": "C",
+                  "label": "C. the Football Association (FA)"
+                },
+                {
+                  "value": "D",
+                  "label": "D. the Union of European Football Associations (UEFA)"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出‘被指责思想守旧’的组织。原文段落J引用普利茅斯女足队长的话，称英足总（FA）‘落后时代一百年’并指责其决定是‘纯粹的性别偏见’。‘a hundred years behind the times’即指思想陈旧、守旧，因此对应选项C（the Football Association），答案为C。",
+              "reason": "正确匹配组织C。",
+              "location_analysis": "普利茅斯女足队长批评FA落后于时代，对应C。",
+              "paraphrasing": "old-fashioned -> a hundred years behind the times",
+              "keywords": "accused of being old-fashioned",
+              "evidence": [
+                "There was outrage from players, with the captain of Plymouth Ladies remarking that the FA was ‘a hundred years behind the times' and calling its decision 'purely sex prejudice' ."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117743",
+              "number": 37,
+              "prompt": "It was led by a believer in women's rights",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. the British Ladies, Football Club (BLFC)"
+                },
+                {
+                  "value": "B",
+                  "label": "B. the Dick, Kerr's Ladies team"
+                },
+                {
+                  "value": "C",
+                  "label": "C. the Football Association (FA)"
+                },
+                {
+                  "value": "D",
+                  "label": "D. the Union of European Football Associations (UEFA)"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干描述‘由一位相信女性权利的人领导’的组织。原文段落B提到Lady Florence Dixie于1895年被任命为BLFC主席，且‘坚信性别平等（ardent believer in equality between the sexes）’，这与‘believer in women's rights’含义一致。因此该描述对应选项A（the British Ladies' Football Club），答案为A。",
+              "reason": "选项A匹配。",
+              "location_analysis": "Dixie是BLFC主席，坚信性别平等。",
+              "paraphrasing": "believer in women's rights → ardent believer in equality between the sexes",
+              "keywords": "led by, believer in women's rights, BLFC",
+              "evidence": [
+                "We know more about Lady Florence Dixie, who was appointed president of the BLFC in 1895 and who was an ardent believer in equality between the sexes."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "Multiple Choice (one answer)"
+          }
+        },
+        {
+          "id": "14121",
+          "type": 4,
+          "title": "A catastrophic year for women's football",
+          "instructions": "Questions 38 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117744",
+              "number": 38,
+              "prompt": "At the end of 1921, women's football teams were forbidden to use the _____ of the Football Association, and were not allowed to have Football Association members as _____ The FA said that women's clubs did not give enough to charity, and that there had been mismanagement of funds. Female workers accused the FA of _____ against women, but the ban continued until 1971.",
+              "options": [],
+              "answer": "grounds",
+              "accepted_answers": [
+                "grounds"
+              ],
+              "analysis": "题干要求填写一个词，说明1921年底女足被禁止使用英足总的什么。原文段落H明确写道：‘英足总禁止其成员允许女足在其grounds上比赛’。因此空格处应填‘grounds’，与题干‘forbidden to use the ... of the Football Association’完全对应。",
+              "reason": "答案grounds来自原文。",
+              "location_analysis": "FA禁止女足使用其场地。",
+              "paraphrasing": "forbidden to use → banned its members from allowing",
+              "keywords": "forbidden to use, grounds, FA",
+              "evidence": [
+                "the FA banned its members from allowing women's football to be played at its grounds"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117745",
+              "number": 39,
+              "prompt": "At the end of 1921, women's football teams were forbidden to use the _____ of the Football Association, and were not allowed to have Football Association members as _____ The FA said that women's clubs did not give enough to charity, and that there had been mismanagement of funds. Female workers accused the FA of _____ against women, but the ban continued until 1971.",
+              "options": [],
+              "answer": "referees",
+              "accepted_answers": [
+                "referees"
+              ],
+              "analysis": "题干要求填写女足不被允许拥有的人员类型。原文段落H提到：‘英足总还禁止其成员担任女足比赛的referees’。因此空格处应填‘referees’，与题干‘not allowed to have Football Association members as ...’形成直接对应。",
+              "reason": "答案referees直接提取。",
+              "location_analysis": "FA禁止其成员担任女足裁判。",
+              "paraphrasing": "not allowed → forbade its members from acting as",
+              "keywords": "not allowed, referees",
+              "evidence": [
+                "The FA also forbade its members from acting as referees at women's games."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117746",
+              "number": 40,
+              "prompt": "At the end of 1921, women's football teams were forbidden to use the _____ of the Football Association, and were not allowed to have Football Association members as _____ The FA said that women's clubs did not give enough to charity, and that there had been mismanagement of funds. Female workers accused the FA of _____ against women, but the ban continued until 1971.",
+              "options": [],
+              "answer": "prejudice",
+              "accepted_answers": [
+                "prejudice"
+              ],
+              "analysis": "题干要求填写女性球员对英足总的指控。原文段落J中，普利茅斯女足队长称英足总的决定是‘purely sex prejudice’（纯粹的性别偏见）。因此空格处应填‘prejudice’，与题干‘accused the FA of ... against women’逻辑和词汇完全吻合。",
+              "reason": "答案prejudice来自原文。",
+              "location_analysis": "队员指责FA存在性别偏见。",
+              "paraphrasing": "accused of → remarking that...purely sex prejudice",
+              "keywords": "accused, prejudice, FA",
+              "evidence": [
+                "calling its decision 'purely sex prejudice'"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "At the end of 1921, women's football teams were forbidden to use the $117744$ of the Football Association, and were not allowed to have Football Association members as $117745$ The FA said that women's clubs did not give enough to charity, and that there had been mismanagement of funds. Female workers accused the FA of $117746$ against women, but the ban continued until 1971.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "At the end of 1921, women's football teams were forbidden to use the $117744$ of the Football Association, and were not allowed to have Football Association members as $117745$ The FA said that women's clubs did not give enough to charity, and that there had been mismanagement of funds. Female workers accused the FA of $117746$ against women, but the ban continued until 1971."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "History of women’s football in Britain",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "Women's football in Britain has deeper roots than might be expected.",
+          "translation": "英国女子足球的历史根基比人们预想的更为深厚。"
+        },
+        {
+          "index": 3,
+          "sentence": "In one town in 18th-century Scotland, single women played an annual match against their married counterparts, though the motives behind the contest were not purely sporting.",
+          "translation": "在18世纪苏格兰的一个小镇上，单身女性每年都会与已婚女性进行一场比赛，尽管这场竞赛背后的动机并非纯粹出于体育目的。"
+        },
+        {
+          "index": 4,
+          "sentence": "Some accounts say that the games were watched by a crowd of single men, who hoped to pick out a potential bride based on her footballing ability.",
+          "translation": "一些记载称，这些比赛吸引了一群单身男性围观，他们希望根据女性的足球能力挑选出潜在的配偶。"
+        },
+        {
+          "index": 6,
+          "sentence": "By the late 19th century, with the men's game spreading across Britain like wildfire, women also began to take up association football.",
+          "translation": "到19世纪末，随着男子足球运动在英国如野火般蔓延开来，女性也开始参与英式足球。"
+        },
+        {
+          "index": 7,
+          "sentence": "Early pioneers included Nettie J Honeyball, who founded the British Ladies’ Football Club (BLFC) in 1895.",
+          "translation": "早期的先驱包括内蒂·J·哈尼鲍尔，她于1895年创立了英国女子足球俱乐部(BLFC)。"
+        },
+        {
+          "index": 8,
+          "sentence": "Honeyball was an alias: like many of the middle- and upper-class women who played in the late 19th century, she was not keen to publicise her involvement with a contact sport played on muddy fields.",
+          "translation": "哈尼鲍尔是一个化名：与许多在19世纪末从事这项运动的中上层阶级女性一样，她不愿公开自己参与这项在泥泞场地上进行的身体对抗运动。"
+        },
+        {
+          "index": 9,
+          "sentence": "We know more about Lady Florence Dixie, who was appointed president of the BLFC in 1895 and who was an ardent believer in equality between the sexes.",
+          "translation": "我们对弗洛伦斯·迪克西夫人了解更多，她于1895年被任命为BLFC的主席，并且是一位两性平等的坚定信仰者。"
+        },
+        {
+          "index": 11,
+          "sentence": "The BLFC arranged games between teams representing the north and the south of England, where money would be raised for those in need.",
+          "translation": "BLFC安排了代表英格兰北部和南部的队伍之间的比赛，所筹集的资金将用于帮助有需要的人。"
+        },
+        {
+          "index": 12,
+          "sentence": "These initially attracted healthy numbers of supporters although early newspaper reports were not particularly generous, with one reporter suggesting 'when the novelty has worn off, I do not think women's football will attract the crowds'.",
+          "translation": "这些比赛最初吸引了不少支持者，尽管早期的报纸报道并不十分慷慨，一位记者指出：“当新鲜感消退后，我认为女子足球不会吸引观众。”"
+        },
+        {
+          "index": 13,
+          "sentence": "And crowds did drop off as the growing popularity of the men's game came to dominate public interest.",
+          "translation": "确实，随着男子比赛日益流行并主导公众兴趣，观众人数下降了。"
+        },
+        {
+          "index": 14,
+          "sentence": "In a country where women were not yet allowed to vote, it would take extraordinary circumstances for their efforts on the football pitch to attract widespread attention.",
+          "translation": "在一个女性尚未获得投票权的国家，她们在足球场上的努力需要非凡的条件才能引起广泛关注。"
+        },
+        {
+          "index": 16,
+          "sentence": "Those circumstances arose in 1914 with the outbreak of the First World War.",
+          "translation": "这些情况在1914年随着第一次世界大战的爆发而出现。"
+        },
+        {
+          "index": 17,
+          "sentence": "With many men leaving their jobs to join the army, women started to work in factories and just as men had done before them, they began to play informal games of football during their lunch breaks.",
+          "translation": "由于许多男性离开工作岗位参军，女性开始进入工厂工作，并且像之前的男性一样，她们开始在午休期间踢非正式的足球比赛。"
+        },
+        {
+          "index": 18,
+          "sentence": "After some initial uncertainty, their superiors came to see these games as a means to boost morale and thus increase productivity.",
+          "translation": "在最初的一些不确定之后，她们的上级逐渐将这些比赛视为提升士气、从而增加生产力的手段。"
+        },
+        {
+          "index": 19,
+          "sentence": "Teams soon formed and friendly matches were arranged.",
+          "translation": "很快，球队组建起来，并安排了友谊赛。"
+        },
+        {
+          "index": 21,
+          "sentence": "In the town of Preston in the north of England, the female workers at a manufacturing company called Dick, Kerr & Co showed a particular aptitude for the game.",
+          "translation": "在英格兰北部的普雷斯顿镇，一家名为迪克·克尔公司（Dick, Kerr & Co）的制造企业的女工们展现出了对这项运动的非凡天赋。"
+        },
+        {
+          "index": 22,
+          "sentence": "Watching from a window above the yard where they played, office worker Alfred Frankland spotted their talent and he set about forming a team.",
+          "translation": "办公室职员阿尔弗雷德·弗兰克兰从她们踢球的院子楼上窗户观察到了她们的才能，并着手组建了一支球队。"
+        },
+        {
+          "index": 23,
+          "sentence": "Under Frankland's management, they soon drew significant crowds to see their games.",
+          "translation": "在弗兰克兰的管理下，她们很快就吸引了大量观众前来观看比赛。"
+        },
+        {
+          "index": 24,
+          "sentence": "Known as Dick, Kerr's Ladies, they beat rival factory Arundel Coulthard 4-0 on Christmas Day 1917, with 10,000 watching at Preston stadium.",
+          "translation": "这支被称为“迪克·克尔女子队”的球队在1917年圣诞节当天以4比0击败了对手工厂阿伦德尔·库尔特哈德队，有10,000人在普雷斯顿体育场观看了比赛。"
+        },
+        {
+          "index": 25,
+          "sentence": "After the war ended in 1918 the Dick, Kerr's side and other women's teams continued to draw large crowds.",
+          "translation": "1918年战争结束后，迪克·科尔女子队以及其他女子球队依然吸引了大量观众。"
+        },
+        {
+          "index": 26,
+          "sentence": "In 1920 there were around 150 women's sides in England and Dick, Kerr's Ladies packed 53,000 into Everton's Goodison Park stadium.",
+          "translation": "1920年，英格兰大约有150支女子球队，迪克·科尔女子队更是让埃弗顿的古迪逊公园球场涌入了53000名观众。"
+        },
+        {
+          "index": 27,
+          "sentence": "The same year, the team found their one true genius: Lily Parr.",
+          "translation": "同年，这支球队发现了一位真正的天才：莉莉·帕尔。"
+        },
+        {
+          "index": 28,
+          "sentence": "Parr grew up playing football with her brothers, and began her career with her town's ladies' team at the age of 14.",
+          "translation": "帕尔从小与兄弟们一起踢足球，14岁时便在家乡的女子队开始了职业生涯。"
+        },
+        {
+          "index": 29,
+          "sentence": "When they played against the Dick, Kerr's side, she caught Frankland's eye and was offered a job at the factory - as well as a spot on the team.",
+          "translation": "当她们与迪克·科尔女子队比赛时，她引起了弗兰克兰的注意，不仅获得了一份工厂的工作，还得到了球队的一个位置。"
+        },
+        {
+          "index": 30,
+          "sentence": "Close to six-feet tall and with jet-black hair, she had a ferocious appetite and a fierce left foot.",
+          "translation": "她身高接近六英尺，有着乌黑的头发，胃口极大，左脚射门极具威力。"
+        },
+        {
+          "index": 31,
+          "sentence": "She is credited with 43 goals during her first season playing for Dick, Kerr's Ladies and around 1,000 in total.",
+          "translation": "她在代表迪克·科尔女子队的第一个赛季就攻入了43个进球，而职业生涯总进球数约为1000个。"
+        },
+        {
+          "index": 32,
+          "sentence": "After the war ended in 1918 the Dick, Kerr's side and other women's teams continued to draw large crowds.",
+          "translation": "1918年战争结束后，迪克·克尔队以及其他女子球队继续吸引大量观众。"
+        },
+        {
+          "index": 33,
+          "sentence": "In 1920 there were around 150women's sides in England and Dick, Kerr's Ladies packed 53,000 into Everton's Goodison Park stadium.",
+          "translation": "1920年，英格兰约有150支女子足球队，迪克·克尔女子队在埃弗顿的古迪逊公园球场吸引了53,000名观众。"
+        },
+        {
+          "index": 34,
+          "sentence": "The same year,the team found their one true genius: Lily Parr.",
+          "translation": "同年，该队发现了一位真正的天才：莉莉·帕尔。"
+        },
+        {
+          "index": 35,
+          "sentence": "Parr grew up playing football with her brothers, and began her career with her town's ladies' team at the age of 14.",
+          "translation": "帕尔从小和兄弟们一起踢足球，并在14岁时开始了她在镇上女子队的职业生涯。"
+        },
+        {
+          "index": 36,
+          "sentence": "When they played against the Dick, Kerr's side, she caught Frankland's eye and was offered a job at the factory - as well as a spot on the team.",
+          "translation": "当她们与迪克·克尔队比赛时，她引起了弗兰克兰的注意，并被提供了一份在工厂的工作——以及球队中的一个位置。"
+        },
+        {
+          "index": 37,
+          "sentence": "Close to six-feet tall and with jet-black hair, she had a ferocious appetite and a fierce left foot.",
+          "translation": "她身高近六英尺，拥有一头乌黑的头发，食欲旺盛，左脚射门凶猛。"
+        },
+        {
+          "index": 38,
+          "sentence": "She is credited with 43 goals during her first season playing for Dick, Kerr's Ladies and around 1,000 in total.",
+          "translation": "她在为迪克·克尔女子队效力的第一个赛季就打入了43个进球，而总进球数约为1000个。"
+        },
+        {
+          "index": 40,
+          "sentence": "By 1921 Dick, Kerr's Ladies were regularly attracting crowds in the tens of thousands.",
+          "translation": "到1921年，迪克·克尔女子队经常吸引数万观众。"
+        },
+        {
+          "index": 41,
+          "sentence": "But the year ended in catastrophe for the women's game.",
+          "translation": "但这一年以女子足球的灾难告终。"
+        },
+        {
+          "index": 42,
+          "sentence": "The Football Association (FA)- officially the governing body for the sport as a whole, but really only concerned with men’s competitions - had always taken a poor view of female participation.",
+          "translation": "英国足球协会——名义上是这项运动的官方管理机构，但实际上只关心男子比赛——一直对女性参与持否定态度。"
+        },
+        {
+          "index": 43,
+          "sentence": "Women's football was tolerated during the war, but in the years that followed,driven by the fear that the women's game could affect Football League attendances, the FA sought to assert itself.",
+          "translation": "战争期间女子足球被容忍，但在随后的几年里，由于担心女子比赛可能影响足球联赛的上座率，英足总试图维护其权威。"
+        },
+        {
+          "index": 44,
+          "sentence": "Its solution was decisive and brutal.",
+          "translation": "其解决方式果断而残酷。"
+        },
+        {
+          "index": 45,
+          "sentence": "On 5 December 1921, the FA banned its members from allowing women's football to be played at its grounds, saying that football was 'quite unsuitable for females'.",
+          "translation": "1921年12月5日，英足总禁止其成员允许在其场地上进行女子足球比赛，称足球‘非常不适合女性’。"
+        },
+        {
+          "index": 46,
+          "sentence": "The FA also forbade its members from acting as referees at women's games.",
+          "translation": "英足总还禁止其成员在女子比赛中担任裁判。"
+        },
+        {
+          "index": 47,
+          "sentence": "To all intents and purposes, women's football in England was outlawed.",
+          "translation": "实际上，英格兰的女子足球被宣布为非法。"
+        },
+        {
+          "index": 48,
+          "sentence": "Its solution was decisive and brutal.",
+          "translation": "其解决方案果断而残酷。"
+        },
+        {
+          "index": 49,
+          "sentence": "On 5 December 1921, the FA banned its members from allowing women's football to be played at its grounds, saying that football was 'quite unsuitable for females'.",
+          "translation": "1921年12月5日，英格兰足球协会禁止其成员允许在其场地上进行女子足球比赛，并称足球‘极不适合女性’。"
+        },
+        {
+          "index": 50,
+          "sentence": "The FA also forbade its members from acting as referees at women's games.",
+          "translation": "足球协会还禁止其成员在女子比赛中担任裁判。"
+        },
+        {
+          "index": 51,
+          "sentence": "To all intents and purposes, women's football in England was outlawed.",
+          "translation": "实际上，英格兰的女子足球被宣布为非法。"
+        },
+        {
+          "index": 53,
+          "sentence": "The FA also suggested that an excessive proportion of the gate receipts were absorbed in expenses and an inadequate percentage devoted to charity.",
+          "translation": "英足总还指出，门票收入中过高的比例被用于开支，而用于慈善的比例不足。"
+        },
+        {
+          "index": 54,
+          "sentence": "No such obligation to donate profits existed for men's clubs and no proof of financial mismanagement was presented,",
+          "translation": "男子俱乐部并没有这种捐赠利润的义务，也没有任何财务不当管理的证据被提出，"
+        },
+        {
+          "index": 55,
+          "sentence": "but there was little the women's clubs could do in response.",
+          "translation": "但女子俱乐部对此几乎无能为力。"
+        },
+        {
+          "index": 56,
+          "sentence": "The FA also suggested that an excessive proportion of the gate receipts were absorbed in expenses and an inadequate percentage devoted to charity.",
+          "translation": "英足总还指出，门票收入中过大部分被用于开支，而用于慈善的比例不足。"
+        },
+        {
+          "index": 57,
+          "sentence": "No such obligation to donate profits existed for men's clubs and no proof of financial mismanagement was presented, but there was little the women's clubs could do in response.",
+          "translation": "男子俱乐部并无此类捐赠利润的义务，也无人提出财务管理不善的证据，但女子俱乐部对此几乎无能为力。"
+        },
+        {
+          "index": 59,
+          "sentence": "There was outrage from players, with the captain of Plymouth Ladies remarking that the FA was ‘a hundred years behind the times' and calling its decision 'purely sex prejudice' .",
+          "translation": "球员们感到愤慨，普利茅斯女子队的队长评论称，英足总‘落后时代一百年’，并将其决定称为‘纯粹的性别偏见’。"
+        },
+        {
+          "index": 61,
+          "sentence": "It was not until 1966 that serious efforts to revive the women's game began, but progress remained painfully slow.",
+          "translation": "直到1966年，重振女子足球运动的认真努力才开始，但进展仍然极其缓慢。"
+        },
+        {
+          "index": 62,
+          "sentence": "It took pressure from the Union of European Football Associations (UEFA), to finally force the FA to end restrictions on women's football in 1971.",
+          "translation": "在欧洲足球协会联盟（UEFA）的压力下，英格兰足球总会（FA）才最终于1971年解除了对女子足球的限制。"
+        },
+        {
+          "index": 63,
+          "sentence": "By this time, half a century of progress had been lost.",
+          "translation": "到那时，半个世纪的进步已付诸东流。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

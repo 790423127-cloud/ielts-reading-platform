@@ -1,0 +1,2975 @@
+{
+  "id": "b15-test-3",
+  "book": "剑雅15",
+  "book_number": 15,
+  "name": "Test 3",
+  "title": "剑雅15 Test 3",
+  "parts": [
+    {
+      "id": "2051",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Young Fashion Designer UK competition",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Young Fashion Designer UK is an exciting national competition which aims to showcase and promote the exceptional work achieved by students studying courses in textile design, product design and fashion throughout the UK.",
+          "translation": "英国青年时装设计师大赛是一项激动人心的全国性竞赛，旨在展示和推广在英国各地学习纺织品设计、产品设计和时装课程的学生所取得的杰出作品。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "The competition is designed for students to enter the coursework they are currently working on rather than specifically producing different pieces of work. If you would like to add to your coursework, that is for you and your teacher to decide.",
+          "translation": "该比赛旨在让学生提交他们目前正在进行的课程作业，而不是专门制作不同的作品。\n如果您想对课程作业进行补充，这由您和您的老师自行决定。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "You can apply independently or through your school/college.To enter please ensure you follow these steps:",
+          "translation": "你可以独立申请，或者通过你的学校/学院申请。\n若要参赛，请确保遵循以下步骤："
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "1) Provide three A3 colour copies from your design folder.",
+          "translation": "1) 从你的设计文件夹中提供三份A3彩色复印件。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "You must include:",
+          "translation": "你必须包含："
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "- initial ideas about the clothing",
+          "translation": "- 关于服装的初步构思"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "- a close-up photograph of the front and back view of the finished clothing.",
+          "translation": "- 成品服装正面和背面视角的特写照片。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "2) Please label each sheet clearly with your name and school (on the back).",
+          "translation": "2) 请在每个页面的背面清晰标注你的姓名和学校。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "3) Print off a copy of your registration form and attach it to your work.",
+          "translation": "3) 打印一份你的注册表格副本，并将其附在你的作品上。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "4) Post your entry to the Young Fashion Designer Centre.",
+          "translation": "4) 将参赛作品邮寄至青年时装设计师中心。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Once the entry deadline has passed, the judges will select the shortlist of students who will be invited to the Finals. You will be notified if you are shortlisted.You will need to bring originals of the work that you entered.Each finalist will have their own stand consisting of a table and tabletop cardboard display panels. Feel free to add as much creativity to your stand as possible. Some students bring tablets/laptops with slideshows or further images of work but it should be emphasised that these may not necessarily improve your chances of success.",
+          "translation": "一旦参赛截止日期过去，评委将选出受邀参加决赛的入围学生名单。\n如果你被列入候选名单，你会收到通知。\n你需要带上你提交作品的原始件。\n每位决赛选手将拥有自己的展位，包括一张桌子和桌面纸板展示板。\n请尽情为你的展位增添尽可能多的创意。\n一些学生会带平板电脑或笔记本电脑来播放幻灯片或展示更多作品图片，但需要强调的是，这些不一定能提高你成功的机会。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "The judges will assess your work and will ask various questions about it.They will look through any supporting information and the work you have on display before coming together as a judging panel to decide on the winners. You are welcome to ask the judges questions. In fact, you should make the most of having experts on hand!",
+          "translation": "评委将评估你的作品，并会就其提出各种问题。\n他们会在组成评审团共同决定获奖者之前，仔细查看任何辅助信息以及你展示的作品。\n欢迎你向评委提问。\n事实上，你应该充分利用有专家在场的机会！"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "There are 1st, 2nd and 3rd prize winners for each category. The judges can also decide to award special prizes if the work merits this. The 1st, 2nd and 3rd place winners will receive a glass trophy and prize from a kind donor.",
+          "translation": "每个类别都有一、二、三等奖的获奖者。\n如果作品值得，评委也可以决定颁发特别奖。\n一、二、三等奖的获奖者将获得一座玻璃奖杯和来自一位慷慨捐赠者的奖品。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Which keyboard should you buy?",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "你应该购买哪款键盘？"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "It's worth remembering that a bad keyboard can significantly affect your entire computing experience.So make sure you pick the right keyboard for your needs.",
+          "translation": "值得记住的是，一个糟糕的键盘可能会显著影响你的整体计算体验。\n因此，确保你根据自身需求选择合适的键盘。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "A Logitech K120",
+          "translation": "一款罗技K120键盘"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Logitech's K120 offers a number of extra features. It's spill-resistant, draining small amounts of liquid if you have an accident. It isn't particularly eye-catching, but it feels very solid. For the price, it's a tempting choice.",
+          "translation": "罗技K120提供了许多额外功能。\n它具有防泼溅特性，如果不小心洒上少量液体，可以将其排出。\n它并非特别引人注目，但手感非常扎实。\n就其价格而言，这是一个诱人的选择。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "B Cherry MX 3.0 Keyboard",
+          "translation": "B 樱桃MX 3.0键盘"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "The Cherry MX 3.0 looks simple and neat, thanks to its compact build.It's solid,durable and you don't need to push keys all the way down to activate them. It's also rather loud though, which can take some getting used to.",
+          "translation": "Cherry MX 3.0键盘因其紧凑的设计而显得简洁利落。\n它坚固耐用，而且你无需将按键完全按下即可触发。\n然而，它的声音也相当响亮，这可能需要一些时间来适应。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "C Logitech K780",
+          "translation": "C 罗技 K780"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "The K780 is a compact, pleasantly modern-looking keyboard. There's an integrated stand for smartphones and tablets too. It's quiet to type on, and the circular keys are easy to familiarise yourself with, well-spaced and large enough to hit accurately. For this price though, the lack of backlighting is disappointing.",
+          "translation": "K780是一款紧凑且外观现代宜人的键盘。\n它还配有一个集成的支架，用于放置智能手机和平板电脑。\n打字时很安静，圆形按键易于熟悉，间距合理且足够大，便于准确敲击。\n不过，就这个价格而言，缺少背光功能令人失望。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "D Microsoft Sculpt Ergonomic",
+          "translation": "D 微软 Sculpt 人体工学键盘"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "The Sculpt's curved, strange-looking build serves a purpose. It provides wrist support and lifts your forearms into a relaxed position so you don't hurt yourself from typing for lengthy periods. It feels weird, but it seems to do the trick.",
+          "translation": "Sculpt键盘的弯曲、外形奇特的构造是有其用途的。\n它提供手腕支撑，并将前臂抬高至放松的位置，这样你就不会因长时间打字而受伤。\n感觉有些奇怪，但似乎能起到作用。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "E Microsoft Universal Bluetooth Keyboard",
+          "translation": "E 微软通用蓝牙键盘"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "Microsoft's Bluetooth keyboard has one very handy feature - you can fold it in half and carry it around in your jacket pocket or bag, and it feels rather like a large wallet. It has generously sized keys, though the two-piece space bar takes some getting used to.Another useful feature is that you can get up to three months' use from a single charge.",
+          "translation": "微软的蓝牙键盘有一个非常便捷的功能——你可以将它对折，放在夹克口袋或包里携带，感觉就像一个大钱包。\n它的按键尺寸宽大，不过分体式的空格键需要一些时间来适应。\n另一个有用的功能是，单次充电后可以使用长达三个月。"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "F Corsair Strafe RGB Keyboard",
+          "translation": "F 海盗船惩戒者 RGB 键盘"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "Corsair's keyboard is expensive, flashy and extremely impressive.All of its keys are programmable, there's eye-catching backlighting and the buttons are textured for improved grip.All this is because it's designed for gamers.However, it's also silent, meaning it is suitable for everyday office work too.",
+          "translation": "海盗船的键盘价格昂贵、炫目且极为出色。\n其所有按键均可编程，拥有引人注目的背光，且按键带有纹理以增强抓握感。\n这一切都是因为它专为游戏玩家设计。\n不过，它也很安静，这意味着它也适用于日常办公。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15346",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1 - 7\nDo the following statements agree with the information given in Reading Passage 3?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119922",
+              "number": 1,
+              "prompt": "Participants are required to create a new item of clothing for the Young Fashion Designer UK competition.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干中的“Participants are required to create a new item of clothing”与原文信息矛盾。原文明确指出“The competition is designed for students to enter the coursework they are currently working on rather than specifically producing different pieces of work”，说明参赛者应提交当前课程作业，而非专门创作新作品，因此答案为FALSE。",
+              "reason": "题干要求create a new item，原文明确说明是enter current coursework rather than producing different pieces。",
+              "location_analysis": "原文指出是提交现有课程作业，而非创作新作品，故题干与原文矛盾。",
+              "paraphrasing": "new item of clothing -> currently working on; required -> designed for students to enter the coursework they are currently working on rather than producing different pieces",
+              "keywords": "Participants, required, create, new item of clothing, competition",
+              "evidence": [
+                "The competition is designed for students to enter the coursework they are currently working on rather than specifically producing different pieces of work."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文信息矛盾，原文指出参与者无需创造新衣物。",
+                "NOT GIVEN": "原文明确提及了参与者是否需要创造新衣物，并非未提及。"
+              }
+            },
+            {
+              "id": "119923",
+              "number": 2,
+              "prompt": "Participants must send information about the thoughts that led to the item they are entering for the competition.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中提到“Participants must send information about the thoughts that led to the item”，对应原文要求提交的材料包括“initial ideas about the clothing”。这里的“initial ideas”即指设计思路或促成作品的想法，与题干表述一致，因此答案为TRUE。",
+              "reason": "原文明确要求提交initial ideas about the clothing，对应题干中的'thoughts that led to the item'。",
+              "location_analysis": "题干要求发送设计思路，原文列出的提交材料中包含'initial ideas about the...",
+              "paraphrasing": "information about the thoughts that led to the item -> initial ideas about the clothing",
+              "keywords": "initial ideas, information, thoughts that led to the item",
+              "evidence": [
+                "initial ideas about the clothing"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确要求参赛者需提交产生参赛作品的思路信息，与该选项表述矛盾。",
+                "NOT GIVEN": "题干信息在原文中有明确对应，并非未提及。"
+              }
+            },
+            {
+              "id": "119924",
+              "number": 3,
+              "prompt": "The shortlist will consist of a fixed number of finalists.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问“shortlist will consist of a fixed number of finalists”，但原文仅说明“the judges will select the shortlist of students who will be invited to the Finals”，并未提及入选人数是否固定。由于文中缺乏相关信息，无法判断该陈述真假，因此答案为NOT GIVEN。",
+              "reason": "原文未提及人数固定",
+              "location_analysis": "原文只说选出shortlist，未提及固定人数。",
+              "paraphrasing": "shortlist -> shortlist; fixed number -> not mentioned",
+              "keywords": "shortlist, fixed number",
+              "evidence": [
+                "Once the entry deadline has passed, the judges will select the shortlist of students who will be invited to the Finals."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及候选名单是否有固定人数，该选项属于无中生有。",
+                "FALSE": "原文未提供信息证明短名单人数不固定，该选项与事实不符。"
+              }
+            },
+            {
+              "id": "119925",
+              "number": 4,
+              "prompt": "Finalists can choose how to present their work to the judges on their stand.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称“Finalists can choose how to present their work”，原文提到“Each finalist will have their own stand... Feel free to add as much creativity to your stand as possible”，表明选手可自由发挥创意布置展台，即自主决定展示方式，与题干一致，因此答案为TRUE。",
+              "reason": "原文允许自由发挥创意，可推出finalists能自主决定如何展示作品。",
+              "location_analysis": "原文鼓励使用创造力布置展台，暗示可自行选择呈现方式，信息一致。",
+              "paraphrasing": "choose how to present their work -> feel free to add as much creativity to your stand as possible",
+              "keywords": "Finalists, choose, present their work, stand",
+              "evidence": [
+                "Each finalist will have their own stand consisting of a table and tabletop cardboard display panels. Feel free to add as much creativity to your stand as possible."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾，原文明确表示决赛选手可以自主选择展示方式。",
+                "NOT GIVEN": "原文中明确给出了相关信息，因此并非未提及。"
+              }
+            },
+            {
+              "id": "119926",
+              "number": 5,
+              "prompt": "lt is strongly recommended that finalists support their entry with additional photographs.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干说“it is strongly recommended that finalists support their entry with additional photographs”，但原文指出“Some students bring tablets/laptops with slideshows or further images... but it should be emphasised that these may not necessarily improve your chances of success”，说明额外照片并非强烈推荐，甚至可能无效，因此答案为FALSE。",
+              "reason": "原文明确说additional images可能不会提升成功率，故并非强烈推荐。",
+              "location_analysis": "原文指出带照片不一定增加成功机会，故不推荐，与题干矛盾。",
+              "paraphrasing": "strongly recommended -> it should be emphasised that these may not necessarily improve your chances of success",
+              "keywords": "strongly recommended, additional photographs, support their entry",
+              "evidence": [
+                "Some students bring tablets/laptops with slideshows or further images of work but it should be emphasised that these may not necessarily improve your chances of success."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文信息矛盾，原文中并未推荐或要求参赛者提供额外照片。",
+                "NOT GIVEN": "原文中明确提到了关于附加照片的要求，并非未提及。"
+              }
+            },
+            {
+              "id": "119927",
+              "number": 6,
+              "prompt": "Questions that the students ask the judges may count towards the final decisions.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问“Questions that the students ask the judges may count towards the final decisions”，原文虽鼓励学生提问（“You are welcome to ask the judges questions”），但未说明这些问题是否会影响评委的最终决定。由于文中未提供相关信息，答案为NOT GIVEN。",
+              "reason": "原文未说明提问对结果有影响",
+              "location_analysis": "原文允许学生提问，但未提及是否计入最终评判。",
+              "paraphrasing": "questions -> ask the judges questions; count towards final decisions -> not mentioned",
+              "keywords": "questions, count towards final decisions",
+              "evidence": [
+                "You are welcome to ask the judges questions. In fact, you should make the most of having experts on hand!"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及学生提问是否影响最终决定，因此没有依据判断为正确。",
+                "FALSE": "原文未提及学生提问是否影响最终决定，因此不能断定该说法是错误的。"
+              }
+            },
+            {
+              "id": "119928",
+              "number": 7,
+              "prompt": "Extra prizes may be awarded depending on the standard of the entries submitted.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干提到“Extra prizes may be awarded depending on the standard of the entries”，原文明确说明“The judges can also decide to award special prizes if the work merits this”，即若作品质量足够高，可获特别奖，这与题干意思完全一致，因此答案为TRUE。",
+              "reason": "原文说明评委可根据作品质量决定是否颁发特别奖。",
+              "location_analysis": "原文说明若作品优秀，评委可颁发特别奖，与题干一致。",
+              "paraphrasing": "depending on the standard of entries -> if the work merits this",
+              "keywords": "extra prizes, awarded, standard of entries",
+              "evidence": [
+                "The judges can also decide to award special prizes if the work merits this."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾，因为原文明确表示可能根据标准颁发额外奖品。",
+                "NOT GIVEN": "原文明确提及了根据标准颁发额外奖品的信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15354",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 8 - 14\nLook at the six reviews of computer keyboards, A-F.\nFor which keyboard are the following statements true?\nWrite the correct letter, A-F, in boxes 8-14 on your answer sheet.\nNB You may use any Jetter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119929",
+              "number": 8,
+              "prompt": "This keyboard may not suit users who prefer the keys to be almost silent.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干指出“This keyboard may not suit users who prefer the keys to be almost silent”，对应B选项（Cherry MX 3.0 Keyboard）描述中“It's also rather loud though, which can take some getting used to”，说明该键盘声音较大，不适合偏好静音的用户，因此答案为B。",
+              "reason": "题干说不适合喜静音者，原文说B键盘声音大。",
+              "location_analysis": "B键盘描述为'loud'，即不静音，与不喜嘈杂的用户矛盾。",
+              "paraphrasing": "keys almost silent -> rather loud",
+              "keywords": "keys, silent, B, Cherry MX 3.0",
+              "evidence": [
+                "It's also rather loud though, which can take some getting used to."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119930",
+              "number": 9,
+              "prompt": "This keyboard is easily portable because it can be made to fit into a small space.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中“easily portable because it can be made to fit into a small space”对应E选项（Microsoft Universal Bluetooth Keyboard）的描述：“you can fold it in half and carry it around in your jacket pocket or bag”，折叠后便于携带，符合便携且节省空间的特点，因此答案为E。",
+              "reason": "原文提到可折叠携带，就是便携的含义。",
+              "location_analysis": "E键盘可折叠放进夹克或包中，便于携带，符合题干。",
+              "paraphrasing": "easily portable -> fold it in half; fit into a small space -> carry it around in your jacket pocket or bag",
+              "keywords": "easily portable, fit into a small space, E, Microsoft Universal Bluetooth Keyboard",
+              "evidence": [
+                "Microsoft's Bluetooth keyboard has one very handy feature - you can fold it in half and carry it around in your jacket pocket or bag, and it feels rather like a large wallet."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119931",
+              "number": 10,
+              "prompt": "This keyboard includes a special place to put small devices.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干提到“This keyboard includes a special place to put small devices”，C选项（Logitech K780）明确说明“There's an integrated stand for smartphones and tablets too”，其中智能手机和平板属于小型电子设备，集成支架即为“special place”，因此答案为C。",
+              "reason": "原文明确提到整合支架可放手机/平板，即小设备。",
+              "location_analysis": "C键盘有集成支架用于放置手机和平板，对应题干。",
+              "paraphrasing": "special place to put small devices -> integrated stand for smartphones and tablets",
+              "keywords": "special place, small devices, C, Logitech K780",
+              "evidence": [
+                "There's an integrated stand for smartphones and tablets too."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119932",
+              "number": 11,
+              "prompt": "This keyboard is designed to prevent injury to those who spend a lot of time on the computer.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干称“This keyboard is designed to prevent injury to those who spend a lot of time on the computer”，D选项（Microsoft Sculpt Ergonomic）描述其“provides wrist support and lifts your forearms into a relaxed position so you don't hurt yourself from typing for lengthy periods”，直接对应防伤设计目的，因此答案为D。",
+              "reason": "原文说明此键盘可防止长时间打字受伤，符合题干。",
+              "location_analysis": "D键盘设计提供手腕支撑，防止长时间打字伤害。",
+              "paraphrasing": "prevent injury -> don't hurt yourself from typing for lengthy periods",
+              "keywords": "prevent injury, spend a lot of time on computer, D, Microsoft Sculpt Ergonomic",
+              "evidence": [
+                "It provides wrist support and lifts your forearms into a relaxed position so you don't hurt yourself from typing for lengthy periods."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119933",
+              "number": 12,
+              "prompt": "This keyboard offers good value for money.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中“This keyboard offers good value for money”对应A选项（Logitech K120）的评价：“For the price, it's a tempting choice”，表明在价格合理的前提下性能可靠，具有性价比，因此答案为A。",
+              "reason": "价格吸引人意味着物有所值。",
+              "location_analysis": "A键盘评价为'For the price, it's a tempting choice'，即...",
+              "paraphrasing": "good value for money -> For the price, it's a tempting choice",
+              "keywords": "good value for money, A, Logitech K120",
+              "evidence": [
+                "For the price, it's a tempting choice."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119934",
+              "number": 13,
+              "prompt": "This keyboard is primarily aimed at people who use their computer for entertainment.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干说“This keyboard is primarily aimed at people who use their computer for entertainment”，F选项（Corsair Strafe RGB Keyboard）明确指出“All this is because it's designed for gamers”，而游戏属于娱乐用途，因此该键盘主要面向娱乐用户，答案为F。",
+              "reason": "游戏玩家对应娱乐用途。",
+              "location_analysis": "F键盘专为游戏玩家设计，即娱乐用途。",
+              "paraphrasing": "use computer for entertainment -> designed for gamers",
+              "keywords": "primarily aimed at, people who use computer for entertainment, F, Corsair Strafe RGB Keyboard",
+              "evidence": [
+                "All this is because it's designed for gamers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119935",
+              "number": 14,
+              "prompt": "lt shouldn't take long for users to get used to the shape of the keys on this keyboard.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中“It shouldn't take long for users to get used to the shape of the keys”对应C选项（Logitech K780）描述：“the circular keys are easy to familiarise yourself with”，说明圆形按键易于适应，与题干表达一致，因此答案为C。",
+              "reason": "原文说圆形键易熟悉，意味着用户可快速适应。",
+              "location_analysis": "C键盘描述圆形键容易熟悉，即适应快。",
+              "paraphrasing": "get used to the shape of keys -> easy to familiarise yourself with",
+              "keywords": "get used to, shape of keys, C, Logitech K780",
+              "evidence": [
+                "the circular keys are easy to familiarise yourself with, well-spaced and large enough to hit accurately."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Which keyboard should you buy?",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Young Fashion Designer UK is an exciting national competition which aims to showcase and promote the exceptional work achieved by students studying courses in textile design, product design and fashion throughout the UK.",
+          "translation": "英国青年时装设计师大赛是一项激动人心的全国性竞赛，旨在展示和推广在英国各地学习纺织品设计、产品设计和时装课程的学生所取得的杰出作品。"
+        },
+        {
+          "index": 2,
+          "sentence": "The competition is designed for students to enter the coursework they are currently working on rather than specifically producing different pieces of work.",
+          "translation": "该比赛旨在让学生提交他们目前正在进行的课程作业，而不是专门制作不同的作品。"
+        },
+        {
+          "index": 3,
+          "sentence": "If you would like to add to your coursework, that is for you and your teacher to decide.",
+          "translation": "如果您想对课程作业进行补充，这由您和您的老师自行决定。"
+        },
+        {
+          "index": 4,
+          "sentence": "You can apply independently or through your school/college.",
+          "translation": "你可以独立申请，或者通过你的学校/学院申请。"
+        },
+        {
+          "index": 5,
+          "sentence": "To enter please ensure you follow these steps:",
+          "translation": "若要参赛，请确保遵循以下步骤："
+        },
+        {
+          "index": 6,
+          "sentence": "1) Provide three A3 colour copies from your design folder.",
+          "translation": "1) 从你的设计文件夹中提供三份A3彩色复印件。"
+        },
+        {
+          "index": 7,
+          "sentence": "You must include:",
+          "translation": "你必须包含："
+        },
+        {
+          "index": 8,
+          "sentence": "- initial ideas about the clothing",
+          "translation": "- 关于服装的初步构思"
+        },
+        {
+          "index": 9,
+          "sentence": "- a close-up photograph of the front and back view of the finished clothing.",
+          "translation": "- 成品服装正面和背面视角的特写照片。"
+        },
+        {
+          "index": 10,
+          "sentence": "2) Please label each sheet clearly with your name and school (on the back).",
+          "translation": "2) 请在每个页面的背面清晰标注你的姓名和学校。"
+        },
+        {
+          "index": 11,
+          "sentence": "3) Print off a copy of your registration form and attach it to your work.",
+          "translation": "3) 打印一份你的注册表格副本，并将其附在你的作品上。"
+        },
+        {
+          "index": 12,
+          "sentence": "4) Post your entry to the Young Fashion Designer Centre.",
+          "translation": "4) 将参赛作品邮寄至青年时装设计师中心。"
+        },
+        {
+          "index": 13,
+          "sentence": "Once the entry deadline has passed, the judges will select the shortlist of students who will be invited to the Finals.",
+          "translation": "一旦参赛截止日期过去，评委将选出受邀参加决赛的入围学生名单。"
+        },
+        {
+          "index": 14,
+          "sentence": "You will be notified if you are shortlisted.",
+          "translation": "如果你被列入候选名单，你会收到通知。"
+        },
+        {
+          "index": 15,
+          "sentence": "You will need to bring originals of the work that you entered.",
+          "translation": "你需要带上你提交作品的原始件。"
+        },
+        {
+          "index": 16,
+          "sentence": "Each finalist will have their own stand consisting of a table and tabletop cardboard display panels.",
+          "translation": "每位决赛选手将拥有自己的展位，包括一张桌子和桌面纸板展示板。"
+        },
+        {
+          "index": 17,
+          "sentence": "Feel free to add as much creativity to your stand as possible.",
+          "translation": "请尽情为你的展位增添尽可能多的创意。"
+        },
+        {
+          "index": 18,
+          "sentence": "Some students bring tablets/laptops with slideshows or further images of work but it should be emphasised that these may not necessarily improve your chances of success.",
+          "translation": "一些学生会带平板电脑或笔记本电脑来播放幻灯片或展示更多作品图片，但需要强调的是，这些不一定能提高你成功的机会。"
+        },
+        {
+          "index": 19,
+          "sentence": "The judges will assess your work and will ask various questions about it.",
+          "translation": "评委将评估你的作品，并会就其提出各种问题。"
+        },
+        {
+          "index": 20,
+          "sentence": "They will look through any supporting information and the work you have on display before coming together as a judging panel to decide on the winners.",
+          "translation": "他们会在组成评审团共同决定获奖者之前，仔细查看任何辅助信息以及你展示的作品。"
+        },
+        {
+          "index": 21,
+          "sentence": "You are welcome to ask the judges questions.",
+          "translation": "欢迎你向评委提问。"
+        },
+        {
+          "index": 22,
+          "sentence": "In fact, you should make the most of having experts on hand!",
+          "translation": "事实上，你应该充分利用有专家在场的机会！"
+        },
+        {
+          "index": 23,
+          "sentence": "There are 1st, 2nd and 3rd prize winners for each category.",
+          "translation": "每个类别都有一、二、三等奖的获奖者。"
+        },
+        {
+          "index": 24,
+          "sentence": "The judges can also decide to award special prizes if the work merits this.",
+          "translation": "如果作品值得，评委也可以决定颁发特别奖。"
+        },
+        {
+          "index": 25,
+          "sentence": "The 1st, 2nd and 3rd place winners will receive a glass trophy and prize from a kind donor.",
+          "translation": "一、二、三等奖的获奖者将获得一座玻璃奖杯和来自一位慷慨捐赠者的奖品。"
+        },
+        {
+          "index": 26,
+          "sentence": "Which keyboard should you buy?",
+          "translation": "你应该购买哪款键盘？"
+        },
+        {
+          "index": 27,
+          "sentence": "It's worth remembering that a bad keyboard can significantly affect your entire computing experience.",
+          "translation": "值得记住的是，一个糟糕的键盘可能会显著影响你的整体计算体验。"
+        },
+        {
+          "index": 28,
+          "sentence": "So make sure you pick the right keyboard for your needs.",
+          "translation": "因此，确保你根据自身需求选择合适的键盘。"
+        },
+        {
+          "index": 29,
+          "sentence": "A Logitech K120",
+          "translation": "一款罗技K120键盘"
+        },
+        {
+          "index": 30,
+          "sentence": "Logitech's K120 offers a number of extra features.",
+          "translation": "罗技K120提供了许多额外功能。"
+        },
+        {
+          "index": 31,
+          "sentence": "It's spill-resistant, draining small amounts of liquid if you have an accident.",
+          "translation": "它具有防泼溅特性，如果不小心洒上少量液体，可以将其排出。"
+        },
+        {
+          "index": 32,
+          "sentence": "It isn't particularly eye-catching, but it feels very solid.",
+          "translation": "它并非特别引人注目，但手感非常扎实。"
+        },
+        {
+          "index": 33,
+          "sentence": "For the price, it's a tempting choice.",
+          "translation": "就其价格而言，这是一个诱人的选择。"
+        },
+        {
+          "index": 34,
+          "sentence": "B Cherry MX 3.0 Keyboard",
+          "translation": "B 樱桃MX 3.0键盘"
+        },
+        {
+          "index": 35,
+          "sentence": "The Cherry MX 3.0 looks simple and neat, thanks to its compact build.",
+          "translation": "Cherry MX 3.0键盘因其紧凑的设计而显得简洁利落。"
+        },
+        {
+          "index": 36,
+          "sentence": "It's solid, durable and you don't need to push keys all the way down to activate them.",
+          "translation": "它坚固耐用，而且你无需将按键完全按下即可触发。"
+        },
+        {
+          "index": 37,
+          "sentence": "It's also rather loud though, which can take some getting used to.",
+          "translation": "然而，它的声音也相当响亮，这可能需要一些时间来适应。"
+        },
+        {
+          "index": 38,
+          "sentence": "C Logitech K780",
+          "translation": "C 罗技 K780"
+        },
+        {
+          "index": 39,
+          "sentence": "The K780 is a compact, pleasantly modern-looking keyboard.",
+          "translation": "K780是一款紧凑且外观现代宜人的键盘。"
+        },
+        {
+          "index": 40,
+          "sentence": "There's an integrated stand for smartphones and tablets too.",
+          "translation": "它还配有一个集成的支架，用于放置智能手机和平板电脑。"
+        },
+        {
+          "index": 41,
+          "sentence": "It's quiet to type on, and the circular keys are easy to familiarise yourself with, well-spaced and large enough to hit accurately.",
+          "translation": "打字时很安静，圆形按键易于熟悉，间距合理且足够大，便于准确敲击。"
+        },
+        {
+          "index": 42,
+          "sentence": "For this price though, the lack of backlighting is disappointing.",
+          "translation": "不过，就这个价格而言，缺少背光功能令人失望。"
+        },
+        {
+          "index": 43,
+          "sentence": "D Microsoft Sculpt Ergonomic",
+          "translation": "D 微软 Sculpt 人体工学键盘"
+        },
+        {
+          "index": 44,
+          "sentence": "The Sculpt's curved, strange-looking build serves a purpose.",
+          "translation": "Sculpt键盘的弯曲、外形奇特的构造是有其用途的。"
+        },
+        {
+          "index": 45,
+          "sentence": "It provides wrist support and lifts your forearms into a relaxed position so you don't hurt yourself from typing for lengthy periods.",
+          "translation": "它提供手腕支撑，并将前臂抬高至放松的位置，这样你就不会因长时间打字而受伤。"
+        },
+        {
+          "index": 46,
+          "sentence": "It feels weird, but it seems to do the trick.",
+          "translation": "感觉有些奇怪，但似乎能起到作用。"
+        },
+        {
+          "index": 47,
+          "sentence": "E Microsoft Universal Bluetooth Keyboard",
+          "translation": "E 微软通用蓝牙键盘"
+        },
+        {
+          "index": 48,
+          "sentence": "Microsoft's Bluetooth keyboard has one very handy feature - you can fold it in half and carry it around in your jacket pocket or bag, and it feels rather like a large wallet.",
+          "translation": "微软的蓝牙键盘有一个非常便捷的功能——你可以将它对折，放在夹克口袋或包里携带，感觉就像一个大钱包。"
+        },
+        {
+          "index": 49,
+          "sentence": "It has generously sized keys, though the two-piece space bar takes some getting used to.",
+          "translation": "它的按键尺寸宽大，不过分体式的空格键需要一些时间来适应。"
+        },
+        {
+          "index": 50,
+          "sentence": "Another useful feature is that you can get up to three months' use from a single charge.",
+          "translation": "另一个有用的功能是，单次充电后可以使用长达三个月。"
+        },
+        {
+          "index": 51,
+          "sentence": "F Corsair Strafe RGB Keyboard",
+          "translation": "F 海盗船惩戒者 RGB 键盘"
+        },
+        {
+          "index": 52,
+          "sentence": "Corsair's keyboard is expensive, flashy and extremely impressive.",
+          "translation": "海盗船的键盘价格昂贵、炫目且极为出色。"
+        },
+        {
+          "index": 53,
+          "sentence": "All of its keys are programmable, there's eye-catching backlighting and the buttons are textured for improved grip.",
+          "translation": "其所有按键均可编程，拥有引人注目的背光，且按键带有纹理以增强抓握感。"
+        },
+        {
+          "index": 54,
+          "sentence": "All this is because it's designed for gamers.",
+          "translation": "这一切都是因为它专为游戏玩家设计。"
+        },
+        {
+          "index": 55,
+          "sentence": "However, it's also silent, meaning it is suitable for everyday office work too.",
+          "translation": "不过，它也很安静，这意味着它也适用于日常办公。"
+        }
+      ]
+    },
+    {
+      "id": "2052",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Part 2 reading texts",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Recent research shows that many job-seekers believe their ideal position would be in a large company. However, working for a small or medium-sized business has many advantages that are too easily overlooked. Here are just a few of them.",
+          "translation": "最近的研究表明，许多求职者认为他们理想的职位会在一个大公司。\n然而，在中小型企业工作有许多容易被忽视的优势。\n以下只是其中的一些。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Working in a small organisation with a small workforce means it's likely to be easy to become part of it. It won't be long before you're familiar with the staff and the departments that you need to deal with. This can provide a feeling of comfort that takes much longer to develop in a large company. Departments are likely to be small and have close connections with each other,which helps to make internal communication work well -everyone knows what's going on. You'll also gain a better understanding of how your own role fits into the company as a whole.",
+          "translation": "在员工人数较少的小型组织工作意味着你很容易融入其中。\n不久之后，你就会熟悉需要打交道的同事和部门。\n这能带来一种舒适感，而在大公司里，这种感受需要更长时间才能培养起来。\n部门可能规模较小且彼此联系紧密，这有助于内部沟通顺畅进行——每个人都知道正在发生什么。\n你还将更好地理解自己的角色如何融入整个公司。\n在员工人数较少的小型组织中工作，意味着你很容易融入其中。\n不用多久，你就会熟悉需要打交道的同事和部门。\n这能带来一种舒适感，而在大公司里，这种舒适感需要更长的时间才能培养起来。\n部门通常规模较小且相互之间联系紧密，这有助于内部沟通顺畅进行——每个人都知道正在发生什么。\n你还会更清楚地理解自己的角色如何融入整个公司。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "In a small business you're likely to have considerable variety in your workload, including opportunities to work in different areas of the company, which will allow you to identify abilities that you didn't know you had.An introduction to new activities could even lead to a change of career. This variety in your work will help to make it stimulating, so you have a good reason for getting out of bed in the morning.",
+          "translation": "在小公司里，你的工作量很可能会相当多样化，包括有机会在公司不同领域工作，这将使你能够发现自己以前不知道的能力。\n接触新活动甚至可能带来职业上的转变。\n工作中的这种多样性将使其充满激励性，从而让你有充分的理由每天早晨起床。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "There will be plenty of opportunities to show initiative, and you'll also learn to function well as part of a team.Because it's much harder to overlook someone within a small workforce than a large one,your efforts are more likely to attract the attention of those higher up.You'll have plenty of opportunity to show what you can do, and to have your potential noticed.The result is very likely to be that promotion comes to you faster.",
+          "translation": "将会有大量机会展示主动性，同时你也会学会如何在团队中高效协作。\n因为在小型团队中忽视某个人远比在大公司中困难得多，你的努力更有可能引起上级的注意。\n你将有充足的机会展示自己的能力，并让你的潜力得到关注。\n结果很可能是你会更快获得晋升机会。\n你将会有很多机会展现主动性，同时还能学会如何在团队中高效运作。\n因为在小型团队中忽视某人比在大型组织中难得多，你的努力更容易引起上级的注意。\n你将有充足的机会展示自己的能力，并让自身的潜力得到关注。\n结果很可能是晋升会更快地降临到你身上。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Small businesses are usually flexible, something that is rarely true of large organisations. This means that if they're well managed, they can adapt to make the most of changes in the wider economy, which in turn can help you. Don't dismiss them as a place to work because of the myths about them.Small firms can be ideal places for developing your career.",
+          "translation": "小型企业通常非常灵活，而这一点在大型组织中则很少见。\n这意味着如果管理得当，它们能够适应并充分利用更广泛经济环境中的变化，而这反过来也能帮助你。\n不要因为关于它们的种种传言而将它们视为不值得工作的场所。\n小型公司可能是发展你职业生涯的理想之地。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Starting a new job",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "开始一份新工作"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Make sure you know when and where you are expected to report on your first day. If the route from home is unfamiliar to you, make a practice run first: the normal first activity in a new job is a meeting with your boss, and it would be embarrassing to be late. Dress formally until you're sure of the dress code.",
+          "translation": "确保你清楚自己第一天上班应在何时何地报到。\n如果从家出发的路线你不熟悉，先进行一次预演：新工作的第一个常规活动通常是和老板会面，迟到会很尴尬。\n在确定着装要求之前，穿着正式服装。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "You should expect to have an induction programme planned for you: a security pass; visits to whatever parts of the organisation you need to understand to do your job properly; meetings with anyone who could affect your success in the role; and someone to show you where everything is and tell you all the real rules of the culture - the ones that are never written down but which everyone is meant to follow.",
+          "translation": "你应该期望有一个为你规划好的入职培训计划：一张安全通行证；参观你需要了解的任何部门，以便正确完成工作；与任何可能影响你在这个职位上取得成功的人会面；以及有人带你熟悉一切位置，并告诉你所有真正的文化规则——那些从未写下来但每个人都应该遵守的规则。\n你应该期待得到一个为你规划的入职培训计划：包括一张安全通行证；参观你需要了解以顺利开展工作的所有部门；与可能影响你职位成功的任何人会面；以及有人带你熟悉各处位置并告诉你所有真正的文化规则——那些从未写下但每个人都应遵守的规则。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "It can be a shock to join a new organisation. When you are a newcomer, feeling uncertain and perhaps a little confused, there can be a strong temptation to talk about your old job and organisation as a way of reminding yourself and telling others that you really know what you are doing, because you did it in your previous role. Unfortunately, this will suggest that you have a high opinion of yourself, and that you think your old place was better. It has enormous power to annoy, so don't do it.",
+          "translation": "加入一个新组织可能会带来冲击。\n作为一个新人，你会感到不确定，甚至有些困惑，这时可能有一种强烈的冲动去谈论你以前的工作和组织，以此提醒自己并告诉别人你确实知道自己在做什么，因为你以前做过这个职位。\n不幸的是，这会让别人觉得你自视甚高，并认为你以前的工作单位更好。\n这很容易令人反感，所以不要这样做。\n加入一个新机构可能会让人感到震惊。\n当你是一名新员工，感到不确定、甚至有些困惑时，很容易产生强烈的冲动，想要谈论自己以前的工作和机构，以此提醒自己并告诉别人你确实知道自己在做什么，因为你在之前的职位上做过这些。\n不幸的是，这会让人觉得你自我评价过高，并且认为你之前的工作地方更好。\n这种行为极易惹恼他人，所以千万不要这样做。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "All employers have a core product or service paid for by customers which justifies their existence. If you are not part of this core activity, remember that your role is to provide a service to the people who are part of it. Understanding their concerns and passions is essential for understanding why your own role exists, and for knowing how to work alongside these colleagues. This is why you must see this product or service in action.",
+          "translation": "所有雇主都有一个由客户付费的核心产品或服务，这证明了它们存在的合理性。\n如果你不属于这一核心活动的一部分，请记住你的职责是为参与其中的人提供服务。\n理解他们的顾虑和热情对于领悟自身职位存在的原因以及学会如何与这些同事共事至关重要。\n这就是为什么你必须亲眼见证这一产品或服务的实际运作。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "When I worked for a television company, all of us, whatever our job, were strongly encouraged to visit a studio and see how programmes were made. This was wise. Make sure you do the equivalent for whatever is the core activity of your new employer.",
+          "translation": "当我在一家电视公司工作时，我们所有人，无论职位如何，都被大力鼓励去参观演播室，看看节目是如何制作的。\n这是明智之举。\n确保你针对新雇主的任何核心活动都做同样的事情。\n当我曾在一家电视公司工作时，无论我们担任什么职位，都被强烈鼓励参观演播室，了解节目是如何制作的。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Don't try to do the job too soon.This may seem strange because, after all, you have been appointed to get on and do the job. But in your first few weeks your task is to learn what the job really is, rather than immediately starting to do what you assume it is.",
+          "translation": "不要急于立刻投入工作。\n这也许看起来很奇怪，因为毕竟你是被指派来着手完成这份工作的。\n但在最初的几周里，你的任务是了解这份工作的真实内容，而不是立即开始做你自认为的工作。\n不要过早尝试执行工作任务。\n这看起来可能有些奇怪，因为毕竟你被任命是为了接手并完成这份工作。\n但在最初的几周内，你的任务是了解这份工作的实质内容，而不是立即开始做你自认为的工作。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "Starting a new job is one of life's major transitions.Treat it with the attention it deserves and you will find that all your work in preparing and then going through the selection process has paid off magnificently.",
+          "translation": "开始一份新工作\n开始一份新工作是人生中重大的转折点之一。\n以应有的重视来对待它，你会发现之前在准备并经历选拔过程中付出的所有努力都得到了极为丰厚的回报。\n开始一份新工作是人生中重要的转变之一。\n以应有的重视对待它，你会发现你在准备和经历选拔过程中的所有努力都得到了丰厚的回报。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15356",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 20\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119936",
+              "number": 15,
+              "prompt": "In a small business it is easy to become _____ with colleagues and other departments.",
+              "options": [],
+              "answer": "familiar",
+              "accepted_answers": [
+                "familiar"
+              ],
+              "analysis": "题干中的“become familiar with colleagues and other departments”对应原文B段的“it's likely to be easy to become part of it”，其中“become familiar”与“become part of it”构成同义替换，且后文提到“You'll quickly know the staff and departments”，进一步支持答案为“familiar”。",
+              "reason": "原文明确指出成为组织的一部分很容易。",
+              "location_analysis": "题干 become familiar 对应原文 become part of it，答案为 f...",
+              "paraphrasing": "become familiar -> become part of it; it is easy -> it's likely to be easy",
+              "keywords": "small business, become, colleagues",
+              "evidence": [
+                "Working in a small organisation with a small workforce means it's likely to be easy to become part of it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119937",
+              "number": 16,
+              "prompt": "You may find you have _____ you were not aware of.",
+              "options": [],
+              "answer": "abilities",
+              "accepted_answers": [
+                "abilities"
+              ],
+              "analysis": "题干中“you may find you have abilities you were not aware of”对应C段中的“identify abilities that you didn't know you had”，其中“not aware of”与“didn't know you had”意思一致，因此答案为“abilities”，直接取自原文。",
+              "reason": "原文提到可以发现自己不知道的能力。",
+              "location_analysis": "题干 you may have abilities 对应 identify abilities...",
+              "paraphrasing": "you may have abilities -> identify abilities; not aware of -> didn't know you had",
+              "keywords": "abilities, not aware of",
+              "evidence": [
+                "In a small business you're likely to have considerable variety in your workload, including opportunities to work in different areas of the company, which will allow you to identify abilities that you didn't know you had."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119938",
+              "number": 17,
+              "prompt": "Finding that your work is _____ will make you enjoy doing it.",
+              "options": [],
+              "answer": "stimulating",
+              "accepted_answers": [
+                "stimulating"
+              ],
+              "analysis": "题干“Finding that your work is stimulating will make you enjoy doing it”对应C段末句“This variety in your work will help to make it stimulating, so you have a good reason for getting out of bed”，其中“stimulating”直接描述工作的性质，且与“enjoy doing it”逻辑一致，故答案为“stimulating”。",
+              "reason": "原文明确指出工作的多样性使其 stimulating。",
+              "location_analysis": "题干 that your work is stimulating 对应 variety...m...",
+              "paraphrasing": "work is stimulating -> variety in work makes it stimulating; enjoy doing it -> good reason for getting out of bed",
+              "keywords": "work, stimulating, enjoy",
+              "evidence": [
+                "This variety in your work will help to make it stimulating, so you have a good reason for getting out of bed in the morning."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119939",
+              "number": 18,
+              "prompt": "Other people are likely to realise that you have _____",
+              "options": [],
+              "answer": "potential",
+              "accepted_answers": [
+                "potential"
+              ],
+              "analysis": "题干“Other people are likely to realise that you have potential”对应D段中的“to have your potential noticed”，其中“realise that you have potential”与“have your potential noticed”表达相同含义，说明他人会注意到你的潜力，因此答案是“potential”。",
+              "reason": "原文明确提到你的潜力会被注意到。",
+              "location_analysis": "题干 realise...potential 对应 have your potential n...",
+              "paraphrasing": "realise that you have potential -> have your potential noticed",
+              "keywords": "other people, realise, potential",
+              "evidence": [
+                "You'll have plenty of opportunity to show what you can do, and to have your potential noticed."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119940",
+              "number": 19,
+              "prompt": "Opportunities for _____ will come sooner than in a larger business.",
+              "options": [],
+              "answer": "promotion",
+              "accepted_answers": [
+                "promotion"
+              ],
+              "analysis": "题干“Opportunities for promotion will come sooner than in a larger business”对应D段结尾“The result is very likely to be that promotion comes to you faster”，其中“sooner”与“faster”构成同义替换，明确指出在小公司升职更快，因此答案为“promotion”。",
+              "reason": "原文指出升职更快。",
+              "location_analysis": "题干 opportunities for promotion...sooner 对应 prom...",
+              "paraphrasing": "opportunities for promotion come sooner -> promotion comes to you faster",
+              "keywords": "opportunities, promotion, sooner",
+              "evidence": [
+                "The result is very likely to be that promotion comes to you faster."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119941",
+              "number": 20,
+              "prompt": "You can benefit from a small company being more _____ than a large one.",
+              "options": [],
+              "answer": "flexible",
+              "accepted_answers": [
+                "flexible"
+              ],
+              "analysis": "题干“You can benefit from a small company being more flexible than a large one”对应E段首句“Small businesses are usually flexible, something that is rarely true of large organisations”，其中“more flexible than a large one”与原文形成直接对应，因此答案是“flexible”。",
+              "reason": "首句明确描述小型企业灵活。",
+              "location_analysis": "题干 a small company being more flexible 对应 Small...",
+              "paraphrasing": "company being more flexible -> Small businesses are usually flexible; than a large one -> rarely true of large organisations",
+              "keywords": "company, flexible, large",
+              "evidence": [
+                "Small businesses are usually flexible, something that is rarely true of large organisations."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "In a small business it is easy to become $119936$ with colleagues and other departments.\nYou may find you have $119937$ you were not aware of.\nFinding that your work is $119938$ will make you enjoy doing it.\nOther people are likely to realise that you have $119939$\nOpportunities for $119940$ will come sooner than in a larger business.\nYou can benefit from a small company being more $119941$ than a large one.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "In a small business it is easy to become $119936$ with colleagues and other departments.\nYou may find you have $119937$ you were not aware of.\nFinding that your work is $119938$ will make you enjoy doing it.\nOther people are likely to realise that you have $119939$\nOpportunities for $119940$ will come sooner than in a larger business.\nYou can benefit from a small company being more $119941$ than a large one."
+        },
+        {
+          "id": "15358",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 21 - 27\nThe text has seven paragraphs, A-G.\nWhich paragraph mentions the following?\nWrite the correct letter, A-G, in boxes 21-27 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119942",
+              "number": 21,
+              "prompt": "the emotions that new employees are likely to experience at first",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出提及“new employees are likely to experience emotions at first”的段落。C段开头提到“It can be a shock to join a new organisation”，并描述了“feeling uncertain and perhaps a little confused”，准确对应新员工初期的情绪体验，因此答案为C。",
+              "reason": "题干描述与C段内容吻合。",
+              "location_analysis": "C段描述新员工震惊、不确定、困惑等情绪，对应选项C。",
+              "paraphrasing": "emotions new employees experience → It can be a shock; feeling uncertain and confused",
+              "keywords": "emotions, new employees, at first",
+              "evidence": [
+                "It can be a shock to join a new organisation."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119943",
+              "number": 22,
+              "prompt": "a warning to be patient at first",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干“a warning to be patient at first”对应F段内容。该段开头即警告“Don't try to do the job too soon”，并解释最初几周的任务是了解工作而非立即执行，这正是对耐心的提醒，因此正确答案是F。",
+              "reason": "题干与F段内容直接匹配。",
+              "location_analysis": "F段开头警告不要急于做工作，应先学习，对应选项F。",
+              "paraphrasing": "warning to be patient at first → Don't try to do the job too soon; your task is to learn",
+              "keywords": "warning, be patient, at first",
+              "evidence": [
+                "Don't try to do the job too soon.",
+                "But in your first few weeks your task is to learn what the job really is, rather than immediately starting to do what you assume it is."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119944",
+              "number": 23,
+              "prompt": "how colleagues might react to certain behaviour",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“how colleagues might react to certain behaviour”指向C段。该段指出谈论前雇主的行为“has enormous power to annoy”，明确说明同事对此类行为的负面反应，因此答案为C。",
+              "reason": "段落C描述谈论旧工作的行为会惹恼同事。",
+              "location_analysis": "题干 colleagues...react 对应 annoy，行为是谈论旧工作，答案为段落 C。",
+              "paraphrasing": "how colleagues might react -> It has enormous power to annoy; certain behaviour -> talking about old job",
+              "keywords": "colleagues, react, behaviour",
+              "evidence": [
+                "Unfortunately, this will suggest that you have a high opinion of yourself, and that you think your old place was better. It has enormous power to annoy, so don't do it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119945",
+              "number": 24,
+              "prompt": "travelling to your new workplace before you start working there",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干“travelling to your new workplace before you start working there”对应A段中“If the route from home is unfamiliar to you, make a practice run first”，其中“make a practice run”即提前试走路线，完全匹配题干描述，故答案为A。",
+              "reason": "段落A建议提前练习路线。",
+              "location_analysis": "题干 travelling before starting 对应 make a practic...",
+              "paraphrasing": "travelling to...before you start working there -> make a practice run first",
+              "keywords": "travelling, new workplace, before starting",
+              "evidence": [
+                "If the route from home is unfamiliar to you, make a practice run first: the normal first activity in a new job is a meeting with your boss, and it would be embarrassing to be late."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119946",
+              "number": 25,
+              "prompt": "an example of observing an activity carried out within an organisation",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干“an example of observing an activity carried out within an organisation”对应E段。该段以电视公司为例，说明员工被鼓励“visit a studio and see how programmes were made”，这正是观察组织内部核心活动的具体例子，因此答案是E。",
+              "reason": "段落E以电视台为例说明观察核心活动。",
+              "location_analysis": "题干 example...observing 对应 When I worked...visit...",
+              "paraphrasing": "example of observing an activity -> When I worked for a television company... encouraged to visit a studio",
+              "keywords": "example, observing, activity, organisation",
+              "evidence": [
+                "When I worked for a television company, all of us, whatever our job, were strongly encouraged to visit a studio and see how programmes were made."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119947",
+              "number": 26,
+              "prompt": "some things that the organisation should arrange for when you begin",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干“some things that the organisation should arrange for when you begin”对应B段。该段详细列出入职时应安排的内容，如“security pass”、“visits”、“meetings”等，属于典型的入职引导计划，因此答案为B。",
+              "reason": "段落B详细列举了入职时公司应安排的各项内容。",
+              "location_analysis": "题干 organisation should arrange 对应 have an induc...",
+              "paraphrasing": "organisation should arrange -> You should expect to have an induction programme planned for you; when you begin -> are listed items like security pass, visits, meetings",
+              "keywords": "things, organisation, arrange, when begin",
+              "evidence": [
+                "You should expect to have an induction programme planned for you: a security pass; visits to whatever parts of the organisation you need to understand to do your job properly; meetings with anyone who could affect your success in the role; and someone to show you where everything is and tell you all the real rules of the culture - the ones that are never written down but which everyone is meant to follow."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119948",
+              "number": 27,
+              "prompt": "a division of jobs within an organisation into two categories",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干“a division of jobs within an organisation into two categories”对应D段。该段将工作分为“core activity”和“provide a service to the people who are part of it”两类，明确体现岗位的二元划分，因此答案是D。",
+              "reason": "段落D将工作分为核心活动和支持服务两类。",
+              "location_analysis": "题干 division...two categories 对应 core activity 和...",
+              "paraphrasing": "division of jobs into two categories -> core product or service ... If you are not part of this core activity, remember that your role is to provide a service to the people who are part of it",
+              "keywords": "division, jobs, two categories",
+              "evidence": [
+                "All employers have a core product or service paid for by customers which justifies their existence. If you are not part of this core activity, remember that your role is to provide a service to the people who are part of it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Starting a new job",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "Recent research shows that many job-seekers believe their ideal position would be in a large company.",
+          "translation": "最近的研究表明，许多求职者认为他们理想的职位会在一个大公司。"
+        },
+        {
+          "index": 3,
+          "sentence": "However, working for a small or medium-sized business has many advantages that are too easily overlooked.",
+          "translation": "然而，在中小型企业工作有许多容易被忽视的优势。"
+        },
+        {
+          "index": 4,
+          "sentence": "Here are just a few of them.",
+          "translation": "以下只是其中的一些。"
+        },
+        {
+          "index": 5,
+          "sentence": "You should expect to have an induction programme planned for you: a security pass; visits to whatever parts of the organisation you need to understand to do your job properly; meetings with anyone who could affect your success in the role; and someone to show you where everything is and tell you all the real rules of the culture - the ones that are never written down but which everyone is meant to follow.",
+          "translation": "你应该期望有一个为你规划好的入职培训计划：一张安全通行证；参观你需要了解的任何部门，以便正确完成工作；与任何可能影响你在这个职位上取得成功的人会面；以及有人带你熟悉一切位置，并告诉你所有真正的文化规则——那些从未写下来但每个人都应该遵守的规则。"
+        },
+        {
+          "index": 6,
+          "sentence": "Working in a small organisation with a small workforce means it's likely to be easy to become part of it.",
+          "translation": "在员工人数较少的小型组织工作意味着你很容易融入其中。"
+        },
+        {
+          "index": 7,
+          "sentence": "It won't be long before you're familiar with the staff and the departments that you need to deal with.",
+          "translation": "不久之后，你就会熟悉需要打交道的同事和部门。"
+        },
+        {
+          "index": 8,
+          "sentence": "This can provide a feeling of comfort that takes much longer to develop in a large company.",
+          "translation": "这能带来一种舒适感，而在大公司里，这种感受需要更长时间才能培养起来。"
+        },
+        {
+          "index": 9,
+          "sentence": "Departments are likely to be small and have close connections with each other,which helps to make internal communication work well -everyone knows what's going on.",
+          "translation": "部门可能规模较小且彼此联系紧密，这有助于内部沟通顺畅进行——每个人都知道正在发生什么。"
+        },
+        {
+          "index": 10,
+          "sentence": "You'll also gain a better understanding of how your own role fits into the company as a whole.",
+          "translation": "你还将更好地理解自己的角色如何融入整个公司。"
+        },
+        {
+          "index": 11,
+          "sentence": "It can be a shock to join a new organisation.",
+          "translation": "加入一个新组织可能会带来冲击。"
+        },
+        {
+          "index": 12,
+          "sentence": "When you are a newcomer, feeling uncertain and perhaps a little confused, there can be a strong temptation to talk about your old job and organisation as a way of reminding yourself and telling others that you really know what you are doing, because you did it in your previous role.",
+          "translation": "作为一个新人，你会感到不确定，甚至有些困惑，这时可能有一种强烈的冲动去谈论你以前的工作和组织，以此提醒自己并告诉别人你确实知道自己在做什么，因为你以前做过这个职位。"
+        },
+        {
+          "index": 13,
+          "sentence": "Unfortunately, this will suggest that you have a high opinion of yourself, and that you think your old place was better.",
+          "translation": "不幸的是，这会让别人觉得你自视甚高，并认为你以前的工作单位更好。"
+        },
+        {
+          "index": 14,
+          "sentence": "It has enormous power to annoy, so don't do it.",
+          "translation": "这很容易令人反感，所以不要这样做。"
+        },
+        {
+          "index": 15,
+          "sentence": "In a small business you're likely to have considerable variety in your workload, including opportunities to work in different areas of the company, which will allow you to identify abilities that you didn't know you had.",
+          "translation": "在小公司里，你的工作量很可能会相当多样化，包括有机会在公司不同领域工作，这将使你能够发现自己以前不知道的能力。"
+        },
+        {
+          "index": 16,
+          "sentence": "An introduction to new activities could even lead to a change of career.",
+          "translation": "接触新活动甚至可能带来职业上的转变。"
+        },
+        {
+          "index": 17,
+          "sentence": "This variety in your work will help to make it stimulating, so you have a good reason for getting out of bed in the morning.",
+          "translation": "工作中的这种多样性将使其充满激励性，从而让你有充分的理由每天早晨起床。"
+        },
+        {
+          "index": 18,
+          "sentence": "There will be plenty of opportunities to show initiative, and you'll also learn to function well as part of a team.",
+          "translation": "将会有大量机会展示主动性，同时你也会学会如何在团队中高效协作。"
+        },
+        {
+          "index": 19,
+          "sentence": "Because it's much harder to overlook someone within a small workforce than a large one,your efforts are more likely to attract the attention of those higher up.",
+          "translation": "因为在小型团队中忽视某个人远比在大公司中困难得多，你的努力更有可能引起上级的注意。"
+        },
+        {
+          "index": 20,
+          "sentence": "You'll have plenty of opportunity to show what you can do, and to have your potential noticed.",
+          "translation": "你将有充足的机会展示自己的能力，并让你的潜力得到关注。"
+        },
+        {
+          "index": 21,
+          "sentence": "The result is very likely to be that promotion comes to you faster.",
+          "translation": "结果很可能是你会更快获得晋升机会。"
+        },
+        {
+          "index": 22,
+          "sentence": "There will be plenty of opportunities to show initiative, and you'll also learn to function well as part of a team.",
+          "translation": "你将会有很多机会展现主动性，同时还能学会如何在团队中高效运作。"
+        },
+        {
+          "index": 23,
+          "sentence": "Because it's much harder to overlook someone within a small workforce than a large one, your efforts are more likely to attract the attention of those higher up.",
+          "translation": "因为在小型团队中忽视某人比在大型组织中难得多，你的努力更容易引起上级的注意。"
+        },
+        {
+          "index": 24,
+          "sentence": "You'll have plenty of opportunity to show what you can do, and to have your potential noticed.",
+          "translation": "你将有充足的机会展示自己的能力，并让自身的潜力得到关注。"
+        },
+        {
+          "index": 25,
+          "sentence": "The result is very likely to be that promotion comes to you faster.",
+          "translation": "结果很可能是晋升会更快地降临到你身上。"
+        },
+        {
+          "index": 26,
+          "sentence": "When I worked for a television company, all of us, whatever our job, were strongly encouraged to visit a studio and see how programmes were made.",
+          "translation": "当我在一家电视公司工作时，我们所有人，无论职位如何，都被大力鼓励去参观演播室，看看节目是如何制作的。"
+        },
+        {
+          "index": 27,
+          "sentence": "This was wise.",
+          "translation": "这是明智之举。"
+        },
+        {
+          "index": 28,
+          "sentence": "Make sure you do the equivalent for whatever is the core activity of your new employer.",
+          "translation": "确保你针对新雇主的任何核心活动都做同样的事情。"
+        },
+        {
+          "index": 29,
+          "sentence": "Small businesses are usually flexible, something that is rarely true of large organisations.",
+          "translation": "小型企业通常非常灵活，而这一点在大型组织中则很少见。"
+        },
+        {
+          "index": 30,
+          "sentence": "This means that if they're well managed, they can adapt to make the most of changes in the wider economy, which in turn can help you.",
+          "translation": "这意味着如果管理得当，它们能够适应并充分利用更广泛经济环境中的变化，而这反过来也能帮助你。"
+        },
+        {
+          "index": 31,
+          "sentence": "Don't dismiss them as a place to work because of the myths about them.",
+          "translation": "不要因为关于它们的种种传言而将它们视为不值得工作的场所。"
+        },
+        {
+          "index": 32,
+          "sentence": "Small firms can be ideal places for developing your career.",
+          "translation": "小型公司可能是发展你职业生涯的理想之地。"
+        },
+        {
+          "index": 33,
+          "sentence": "Starting a new job",
+          "translation": "开始一份新工作"
+        },
+        {
+          "index": 35,
+          "sentence": "Make sure you know when and where you are expected to report on your first day.",
+          "translation": "确保你清楚自己第一天上班应在何时何地报到。"
+        },
+        {
+          "index": 36,
+          "sentence": "If the route from home is unfamiliar to you, make a practice run first: the normal first activity in a new job is a meeting with your boss, and it would be embarrassing to be late.",
+          "translation": "如果从家出发的路线你不熟悉，先进行一次预演：新工作的第一个常规活动通常是和老板会面，迟到会很尴尬。"
+        },
+        {
+          "index": 37,
+          "sentence": "Dress formally until you're sure of the dress code.",
+          "translation": "在确定着装要求之前，穿着正式服装。"
+        },
+        {
+          "index": 39,
+          "sentence": "Working in a small organisation with a small workforce means it's likely to be easy to become part of it.",
+          "translation": "在员工人数较少的小型组织中工作，意味着你很容易融入其中。"
+        },
+        {
+          "index": 40,
+          "sentence": "It won't be long before you're familiar with the staff and the departments that you need to deal with.",
+          "translation": "不用多久，你就会熟悉需要打交道的同事和部门。"
+        },
+        {
+          "index": 41,
+          "sentence": "This can provide a feeling of comfort that takes much longer to develop in a large company.",
+          "translation": "这能带来一种舒适感，而在大公司里，这种舒适感需要更长的时间才能培养起来。"
+        },
+        {
+          "index": 42,
+          "sentence": "Departments are likely to be small and have close connections with each other,which helps to make internal communication work well -everyone knows what's going on.",
+          "translation": "部门通常规模较小且相互之间联系紧密，这有助于内部沟通顺畅进行——每个人都知道正在发生什么。"
+        },
+        {
+          "index": 43,
+          "sentence": "You'll also gain a better understanding of how your own role fits into the company as a whole.",
+          "translation": "你还会更清楚地理解自己的角色如何融入整个公司。"
+        },
+        {
+          "index": 44,
+          "sentence": "You should expect to have an induction programme planned for you: a security pass; visits to whatever parts of the organisation you need to understand to do your job properly; meetings with anyone who could affect your success in the role; and someone to show you where everything is and tell you all the real rules of the culture - the ones that are never written down but which everyone is meant to follow.",
+          "translation": "你应该期待得到一个为你规划的入职培训计划：包括一张安全通行证；参观你需要了解以顺利开展工作的所有部门；与可能影响你职位成功的任何人会面；以及有人带你熟悉各处位置并告诉你所有真正的文化规则——那些从未写下但每个人都应遵守的规则。"
+        },
+        {
+          "index": 46,
+          "sentence": "It can be a shock to join a new organisation.",
+          "translation": "加入一个新机构可能会让人感到震惊。"
+        },
+        {
+          "index": 47,
+          "sentence": "When you are a newcomer, feeling uncertain and perhaps a little confused, there can be a strong temptation to talk about your old job and organisation as a way of reminding yourself and telling others that you really know what you are doing, because you did it in your previous role.",
+          "translation": "当你是一名新员工，感到不确定、甚至有些困惑时，很容易产生强烈的冲动，想要谈论自己以前的工作和机构，以此提醒自己并告诉别人你确实知道自己在做什么，因为你在之前的职位上做过这些。"
+        },
+        {
+          "index": 48,
+          "sentence": "Unfortunately, this will suggest that you have a high opinion of yourself, and that you think your old place was better.",
+          "translation": "不幸的是，这会让人觉得你自我评价过高，并且认为你之前的工作地方更好。"
+        },
+        {
+          "index": 49,
+          "sentence": "It has enormous power to annoy, so don't do it.",
+          "translation": "这种行为极易惹恼他人，所以千万不要这样做。"
+        },
+        {
+          "index": 51,
+          "sentence": "All employers have a core product or service paid for by customers which justifies their existence.",
+          "translation": "所有雇主都有一个由客户付费的核心产品或服务，这证明了它们存在的合理性。"
+        },
+        {
+          "index": 52,
+          "sentence": "If you are not part of this core activity, remember that your role is to provide a service to the people who are part of it.",
+          "translation": "如果你不属于这一核心活动的一部分，请记住你的职责是为参与其中的人提供服务。"
+        },
+        {
+          "index": 53,
+          "sentence": "Understanding their concerns and passions is essential for understanding why your own role exists, and for knowing how to work alongside these colleagues.",
+          "translation": "理解他们的顾虑和热情对于领悟自身职位存在的原因以及学会如何与这些同事共事至关重要。"
+        },
+        {
+          "index": 54,
+          "sentence": "This is why you must see this product or service in action.",
+          "translation": "这就是为什么你必须亲眼见证这一产品或服务的实际运作。"
+        },
+        {
+          "index": 56,
+          "sentence": "When I worked for a television company, all of us, whatever our job, were strongly encouraged to visit a studio and see how programmes were made.",
+          "translation": "当我曾在一家电视公司工作时，无论我们担任什么职位，都被强烈鼓励参观演播室，了解节目是如何制作的。"
+        },
+        {
+          "index": 57,
+          "sentence": "This was wise.",
+          "translation": "这是明智之举。"
+        },
+        {
+          "index": 58,
+          "sentence": "Make sure you do the equivalent for whatever is the core activity of your new employer.",
+          "translation": "确保你针对新雇主的任何核心活动都做同样的事情。"
+        },
+        {
+          "index": 59,
+          "sentence": "Don't try to do the job too soon.",
+          "translation": "不要急于立刻投入工作。"
+        },
+        {
+          "index": 60,
+          "sentence": "This may seem strange because, after all, you have been appointed to get on and do the job.",
+          "translation": "这也许看起来很奇怪，因为毕竟你是被指派来着手完成这份工作的。"
+        },
+        {
+          "index": 61,
+          "sentence": "But in your first few weeks your task is to learn what the job really is, rather than immediately starting to do what you assume it is.",
+          "translation": "但在最初的几周里，你的任务是了解这份工作的真实内容，而不是立即开始做你自认为的工作。"
+        },
+        {
+          "index": 62,
+          "sentence": "Don't try to do the job too soon.",
+          "translation": "不要过早尝试执行工作任务。"
+        },
+        {
+          "index": 63,
+          "sentence": "This may seem strange because, after all, you have been appointed to get on and do the job.",
+          "translation": "这看起来可能有些奇怪，因为毕竟你被任命是为了接手并完成这份工作。"
+        },
+        {
+          "index": 64,
+          "sentence": "But in your first few weeks your task is to learn what the job really is, rather than immediately starting to do what you assume it is.",
+          "translation": "但在最初的几周内，你的任务是了解这份工作的实质内容，而不是立即开始做你自认为的工作。"
+        },
+        {
+          "index": 65,
+          "sentence": "Starting a new job is one of life's major transitions.",
+          "translation": "开始一份新工作是人生中重大的转折点之一。"
+        },
+        {
+          "index": 66,
+          "sentence": "Treat it with the attention it deserves and you will find that all your work in preparing and then going through the selection process has paid off magnificently.",
+          "translation": "以应有的重视来对待它，你会发现之前在准备并经历选拔过程中付出的所有努力都得到了极为丰厚的回报。"
+        },
+        {
+          "index": 67,
+          "sentence": "Starting a new job is one of life's major transitions.",
+          "translation": "开始一份新工作是人生中重要的转变之一。"
+        },
+        {
+          "index": 68,
+          "sentence": "Treat it with the attention it deserves and you will find that all your work in preparing and then going through the selection process has paid off magnificently.",
+          "translation": "以应有的重视对待它，你会发现你在准备和经历选拔过程中的所有努力都得到了丰厚的回报。"
+        }
+      ]
+    },
+    {
+      "id": "2053",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "How animals keep fit",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "No one would dream of running a marathon without first making a serious effort to train for it. But no matter how well they have stuck to their training regime, contestants will find that running non-stop for 42 kilometres is going to hurt.",
+          "translation": "没有人会梦想着不先认真努力训练就去跑马拉松。\n但无论参赛者如何严格遵循他们的训练计划，他们都会发现连续跑42公里将会非常痛苦。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Now consider the barnacle goose.Every year this bird carries out a 3000-kilometremigration.So how do the birds prepare for this? Do they spend months gradually building up fitness? That's not really the barnacle goose's style.Instead, says environmental physiologist Lewis Halsey,\"They just basically sit on the water and eat a lot.'",
+          "translation": "现在来看一下白颊黑雁。\n那么这些鸟是如何为此准备的呢？\n它们是否会花费数月时间逐渐锻炼体能？\n这并非白颊黑雁的风格。\n相反，环境生理学家刘易斯·哈尔西表示：“它们基本上只是待在水面上，吃大量的食物。”\n现在考虑一下白颊黑雁。\n那么，这些鸟是如何为此做准备的？\n它们是否会花费数月时间逐渐增强体能？\n相反，环境生理学家刘易斯·哈尔西说：“它们基本上只是待在水面上，大量进食。”"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Until recently, nobody had really asked whether exercise is as tightly connected to fitness in the rest of the animal kingdom as it is for us.The question is tied up in a broader assumption: that animals maintain fitness because of the exercise they get finding food and escaping predators.",
+          "translation": "直到最近，还没有人真正探究过：在动物界中，运动是否与我们人类一样，与体质健康紧密相连。\n这个问题涉及一个更广泛的假设：动物之所以能保持健康体质，是因为它们在觅食和躲避捕食者的过程中得到了锻炼。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Halsey points out that this may not necessarily be the case.Take the house cat. Most domestic cats spend much of the day lounging around, apparently doing nothing, rather than hunting for food. But over short distances, even the laziest can move incredibly fast when they want to. Similarly, black and brown bears manage to come out of several months' hibernation with their muscle mass intact - without having to lift so much as a paw during this time.",
+          "translation": "哈尔西指出，这未必是事实。\n以家猫为例。\n大多数家猫一天中大部分时间都在闲逛，显然无所事事，而不是捕猎食物。\n但在短距离内，即使是最懒的猫也能在想要时移动得极快。\n同样，黑熊和棕熊在长达数月的冬眠后，肌肉量仍能保持完好——在这段时间内它们甚至无需抬一下爪子。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Barnacle geese go one better. In the process of sitting around, they don't just maintain their fitness. They also develop stronger hearts and bigger flight muscles, enabling them to fly for thousands of kilometres in a migration that may last as little as two days.",
+          "translation": "藤壶鹅更胜一筹。\n在无所事事的过程中，它们不仅维持了健康。\n它们还发展出更强壮的心脏和更大的飞行肌肉，使其能在可能仅持续两天的迁徙中飞行数千公里。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "So, if exercise isn't necessarily the key to physical strength, then what is? One clue comes from a broader view of the meaning of physical fitness. Biologically speaking, all it means is that the body has undergone changes that make it stronger and more efficient. In animals such as bears these changes appear to be triggered by cues such as falling temperatures or insufficient food. In the months of hibernation, these factors seem to prompt the release of muscle-protecting compounds which are then carried to the bears' muscles in their blood and prevent muscle loss.",
+          "translation": "那么，如果锻炼不一定是体力的关键，那什么才是呢？\n一个线索来自于对身体素质含义的更广泛理解。\n从生物学角度来说，这仅仅意味着身体经历了变化，使其更强壮、更高效。\n在像熊这样的动物中，这些变化似乎是由气温下降或食物不足等信号触发的。\n在几个月的冬眠期间，这些因素似乎促使肌肉保护化合物的释放，随后通过血液输送到熊的肌肉中，从而防止肌肉流失。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Barnacle geese,Halsey suggests, may be responding to an environmental change such as temperature, which helps their bodies somehow ' know' that a big physical challenge is looming.In other bird species, that cue may be something different.Chris Guglielmo, a physiological ecologist, has studied the effect of subjecting migratory songbirds known as yellow-rumped warblers to changing hours of daylight.\"We don' t need to take little songbirds and train them up to do a 6- or 10-hour flight,' he says. If they are subjected to the right daylight cycle,'we can take them out of the cage and put them in the wind tunnel, and they fly for 10 hours.'",
+          "translation": "哈西认为，白颊黑雁可能正在对诸如温度之类的环境变化做出反应，这以某种方式帮助它们的身体‘知道’一个巨大的体能挑战即将来临。\n在其他鸟类物种中，这种信号可能有所不同。\n生理生态学家克里斯·古列尔莫研究了让被称为黄腰林莺的迁徙鸣禽接受日照时长变化的效应。\n“我们不需要带着小鸣禽并训练它们进行6或10小时的飞行，”他说。\n如果让它们处于合适的日照周期中，“我们可以把它们从笼子里拿出来放进风洞，它们就会飞行10个小时。”"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Unlike migratory birds, however, humans have no biological shortcut to getting fit. Instead,pressures in our evolutionary history made our bodies tie fitness to exercise.",
+          "translation": "然而，与候鸟不同，人类没有获得健康的生物学捷径。\n相反，我们进化历史中的压力使身体将健康与锻炼紧密联系在一起。\n然而，与候鸟不同，人类没有生物上的捷径来保持健康。\n相反，我们进化历史中的压力使身体将健康与锻炼联系在一起。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "I"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Our ancestors' lives were unpredictable.They had to do a lot of running to catch food and escape danger, but they also needed to keep muscle mass to a minimum because muscle is biologically expensive.Each kilogram contributes about 10 to 15 kilocalories a day to our metabolism when resting - which doesn't sound like much until you realise that muscles account for about 40 percent of the average person's body mass. 'Most of us are spending 20 percent of our basic energy budget taking care of muscle mass, says Daniel Lieberman, an evolutionary biologist and marathon runner.",
+          "translation": "我们祖先的生活是难以预测的。\n他们不得不进行大量奔跑以捕食和躲避危险，但也需要将肌肉量保持在最低限度，因为肌肉在生物学上代价高昂。\n每公斤肌肉在休息时每天会为我们的新陈代谢贡献约10到15千卡热量——这听起来并不多，直到你意识到肌肉约占普通人身体质量的40%。\n“我们大多数人将基础能量预算的20%用于维持肌肉量，”进化生物学家兼马拉松跑者丹尼尔·利伯曼说道。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "J"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "So our physiology evolved to let our weight and fitness fluctuate depending on how much food was available.\"This makes us evolutionarily different from most other animals，'says Lieberman. In general, animals merely need to be capable of short bouts of intense activity,whether it's the cheetah chasing prey or the gazelle escaping.Cats are fast, but they don’t need to run very far.Perhaps a few mad dashes around the house are all it takes to keep a domestic one fit enough for feline purposes. 'Humans, on the other hand, needed to adapt to run slower, but for longer,' says Lieberman.",
+          "translation": "因此，我们的生理机能进化使得体重和健康状况根据食物获取量的多少而波动。\n“这使得我们在进化上不同于大多数其他动物，”利伯曼说。\n总的来说，动物只需具备进行短暂剧烈活动的能力，无论是猎豹追捕猎物还是瞪羚逃跑都是如此。\n猫跑得很快，但它们不需要跑很远。\n也许在屋内几次疯狂冲刺就足以让家猫保持足以满足猫科动物需求的健康状态。\n“另一方面，人类需要适应跑得更慢但更久，”利伯曼说。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "K"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "He argues that long ago on the African savannah, natural selection made us into ‘supremely adapted' endurance athletes, capable of running prey into the ground and ranging over long distances with unusual efficiency. But only, it appears, if we train. Otherwise we quickly degenerate into couch potatoes.",
+          "translation": "他认为，在很久以前的非洲大草原上，自然选择使我们成为‘高度适应’的耐力运动员，能够将猎物追至筋疲力尽，并以异常高效的方式长途跋涉。\n但似乎，只有当我们训练时才能如此。\n否则，我们会迅速退化为懒散的沙发土豆。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "L"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "As for speed, even those animals that do cover impressive distances don’t have to be the fastest they can possibly be. Barnacle geese needn’t set world records when crossing the North Atlantic; they just need to be able to get to their destination. 'And,'says exercise physiologist Ross Tucker,'humans may be the only animal that actually cares about reaching peak performance.' Other than racehorses and greyhounds, both of which we have bred to race,animals aren't directly competing against one another. 'I don't know that all animals are the same, performance-wise ... and we don’t know whether training would enhance their ability，'he says.",
+          "translation": "至于速度，即使是那些能够跨越惊人距离的动物，也不必非要达到它们可能达到的最快速度。\n白颊黑雁在飞越北大西洋时无需创造世界纪录；它们只需要能够抵达目的地。\n运动生理学家罗斯·塔克说：‘而且，人类可能是唯一真正在意达到巅峰表现的动物。’\n除了我们培育用于赛跑的马和灵缇犬之外，动物们并不直接相互竞争。\n他说：‘我不知道所有动物在表现能力方面是否相同……我们也不知道训练是否会提升它们的能力。’\n至于速度，即使是那些行进了惊人距离的动物，也不必达到它们可能的最快速度。\n白颊黑雁在飞越北大西洋时不必创造世界纪录；它们只需要能够到达目的地。\n运动生理学家罗斯·塔克说：“而且，人类可能是唯一真正在意达到最佳表现的动物。”\n除了我们培育来比赛的马和灵缇犬之外，动物们并不直接相互竞争。\n他说：“我不知道所有动物在表现方面是否都一样……我们也不知道训练是否会提高它们的能力。”"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15360",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 28 - 30\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119949",
+              "number": 28,
+              "prompt": "The writer discusses marathon runners and barnacle geese to introduce the idea that",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "marathon runners may be using inefficient training methods."
+                },
+                {
+                  "value": "B",
+                  "label": "the role of diet in achieving fitness has been underestimated."
+                },
+                {
+                  "value": "C",
+                  "label": "barnacle geese spend much longer preparing to face a challenge."
+                },
+                {
+                  "value": "D",
+                  "label": "serious training is not always necessary for physical achievement."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求选出作者提及马拉松跑者和 barnacle geese 的目的。原文段落 A 指出人类跑马拉松必须认真训练，而段落 B 和 E 则说明 barnacle geese 并不进行系统训练，而是通过静坐进食就提升了飞行能力。这种对比旨在说明‘严肃训练并非身体成就的必要条件’，因此正确答案是 D。",
+              "reason": "通过对比人类和雁，引出‘训练非必须’的核心论点。",
+              "location_analysis": "用人类跑马拉松要训练和雁不训练对比，引出训练非必须的观点。",
+              "paraphrasing": "serious training is not always necessary -> barnacle goose doesn't spend months training; marathon runners train seriously",
+              "keywords": "marathon runners, barnacle geese",
+              "evidence": [
+                "No one would dream of running a marathon without first making a serious effort to train for it.",
+                "So how do the birds prepare for this? Do they spend months gradually building up fitness? That's not really the barnacle goose's style."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及马拉松训练方法效率低下的信息，属于无中生有。",
+                "B": "原文未讨论饮食在健身中的作用，属于无中生有。",
+                "C": "原文强调的是准备时间短而非长，与信息矛盾。"
+              }
+            },
+            {
+              "id": "119950",
+              "number": 29,
+              "prompt": "The writer says that human muscles",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "use up a lot of energy even when resting."
+                },
+                {
+                  "value": "B",
+                  "label": "are heavier than other types of body tissue."
+                },
+                {
+                  "value": "C",
+                  "label": "were more efficiently used by our ancestors."
+                },
+                {
+                  "value": "D",
+                  "label": "have become weaker than they were in the past."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问人类肌肉的特点。原文段落 I 明确指出：‘Each kilogram contributes about 10 to 15 kilocalories a day to our metabolism when resting’，说明即使在休息状态下，肌肉也会消耗大量能量。这与选项 A ‘use up a lot of energy even when resting’ 完全对应，因此答案为 A。",
+              "reason": "直接对应休息时肌肉的能量消耗。",
+              "location_analysis": "原文说明静止时肌肉每公斤消耗10-15大卡，证实肌肉耗能大。",
+              "paraphrasing": "use up a lot of energy even when resting -> each kilogram contributes about 10 to 15 kilocalories a day to our metabolism when resting",
+              "keywords": "human muscles, energy",
+              "evidence": [
+                "Each kilogram contributes about 10 to 15 kilocalories a day to our metabolism when resting"
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": {
+                "B": "原文未将肌肉重量与其他组织比较，属于无中生有。",
+                "C": "原文未提及祖先对肌肉的使用效率，属于无中生有。",
+                "D": "原文并未指出人类肌肉比过去变弱，与原文信息矛盾。"
+              }
+            },
+            {
+              "id": "119951",
+              "number": 30,
+              "prompt": "The writer says that in order to survive, early humans developed the ability to",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "hide from their prey."
+                },
+                {
+                  "value": "B",
+                  "label": "run long distances."
+                },
+                {
+                  "value": "C",
+                  "label": "adapt their speeds to different situations."
+                },
+                {
+                  "value": "D",
+                  "label": "predict different types of animal movements."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问早期人类为生存发展出的能力。原文段落 J 和 K 提到，人类祖先需要长时间奔跑以追捕猎物或长途迁徙，自然选择使我们成为‘supremely adapted endurance athletes’（极适应耐力运动的生物），强调的是长距离奔跑而非速度或隐蔽，因此正确答案是 B。",
+              "reason": "直接指出人类需要长跑适应进化。",
+              "location_analysis": "早期人类为生存演化出长距离奔跑能力，而非速度或隐蔽。",
+              "paraphrasing": "run long distances -> Humans, on the other hand, needed to adapt to run slower, but for longer; natural selection made us into ‘supremely adapted' endurance athletes",
+              "keywords": "early humans, survive, develop the ability",
+              "evidence": [
+                "He argues that long ago on the African savannah, natural selection made us into ‘supremely adapted' endurance athletes"
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": {
+                "A": "原文未提及早期人类通过躲藏猎物来生存，与长跑能力无关。",
+                "C": "原文强调早期人类发展的是长跑耐力，而非根据不同情况调整速度。",
+                "D": "原文未提及预测动物运动的能力，该选项内容在文中无依据。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15364",
+          "type": 4,
+          "title": "What is the key to physical fitness?",
+          "instructions": "Questions 31 - 35\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119952",
+              "number": 31,
+              "prompt": "In biological terms, when an animal is physically fit, its body changes, becoming more powerful and _____. For bears, this change may be initially caused by colder weather or a lack of _____, which during _____ causes certain compounds to be released into their _____ and to travel around the body. These compounds appear to prevent muscle loss. In the case of barnacle geese, the change may be due to a variation in _____.",
+              "options": [],
+              "answer": "efficient",
+              "accepted_answers": [
+                "efficient"
+              ],
+              "analysis": "题干要求填写动物身体变化后变得更 powerful 和什么。原文段落 F 中明确写道：‘the body has undergone changes that make it stronger and more efficient’，其中 ‘efficient’ 与题干中的空格位置完全对应，因此答案为 efficient。",
+              "reason": "原文直接出现efficient。",
+              "location_analysis": "原文'stronger and more efficient'对应'powerful and ...",
+              "paraphrasing": "more powerful and $19952$ -> stronger and more efficient",
+              "keywords": "physically fit, changes, more powerful and",
+              "evidence": [
+                "Biologically speaking, all it means is that the body has undergone changes that make it stronger and more efficient."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119953",
+              "number": 32,
+              "prompt": "In biological terms, when an animal is physically fit, its body changes, becoming more powerful and _____. For bears, this change may be initially caused by colder weather or a lack of _____, which during _____ causes certain compounds to be released into their _____ and to travel around the body. These compounds appear to prevent muscle loss. In the case of barnacle geese, the change may be due to a variation in _____.",
+              "options": [],
+              "answer": "food",
+              "accepted_answers": [
+                "food"
+              ],
+              "analysis": "题干提到熊的身体变化可能由寒冷天气或缺乏某种东西引发。原文段落 F 指出触发因素包括 ‘falling temperatures or insufficient food’，‘insufficient food’ 即‘缺乏食物’，因此空格应填 food。",
+              "reason": "insufficient food提示答案food。",
+              "location_analysis": "原文'falling temperatures or insufficient food'对应...",
+              "paraphrasing": "colder weather or a lack of $19953$ -> falling temperatures or insufficient food",
+              "keywords": "colder weather or a lack of",
+              "evidence": [
+                "In animals such as bears these changes appear to be triggered by cues such as falling temperatures or insufficient food."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119954",
+              "number": 33,
+              "prompt": "In biological terms, when an animal is physically fit, its body changes, becoming more powerful and _____. For bears, this change may be initially caused by colder weather or a lack of _____, which during _____ causes certain compounds to be released into their _____ and to travel around the body. These compounds appear to prevent muscle loss. In the case of barnacle geese, the change may be due to a variation in _____.",
+              "options": [],
+              "answer": "hibernation",
+              "accepted_answers": [
+                "hibernation"
+              ],
+              "analysis": "题干描述该过程发生在某个时期。原文段落 F 提到 ‘In the months of hibernation, these factors seem to prompt the release...’，说明这些化合物是在冬眠期间释放的，因此答案为 hibernation。",
+              "reason": "直接出现hibernation。",
+              "location_analysis": "原文明确'In the months of hibernation'。",
+              "paraphrasing": "during $19954$ causes -> In the months of hibernation",
+              "keywords": "during, certain compounds",
+              "evidence": [
+                "In the months of hibernation, these factors seem to prompt the release of muscle-protecting compounds"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119955",
+              "number": 34,
+              "prompt": "In biological terms, when an animal is physically fit, its body changes, becoming more powerful and _____. For bears, this change may be initially caused by colder weather or a lack of _____, which during _____ causes certain compounds to be released into their _____ and to travel around the body. These compounds appear to prevent muscle loss. In the case of barnacle geese, the change may be due to a variation in _____.",
+              "options": [],
+              "answer": "blood",
+              "accepted_answers": [
+                "blood"
+              ],
+              "analysis": "题干说某些化合物被释放到熊的某个体液中并循环全身。原文段落 F 写道：‘carried to the bears' muscles in their blood’，明确指出这些物质通过血液运输，因此空格应填 blood。",
+              "reason": "blood直接出现。",
+              "location_analysis": "原文'carried ... in their blood'对应血液。",
+              "paraphrasing": "released into their $19955$ and to travel around the body -> carried to the bears' muscles in their blood",
+              "keywords": "released into their, and to travel around the body",
+              "evidence": [
+                "these factors seem to prompt the release of muscle-protecting compounds which are then carried to the bears' muscles in their blood"
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119956",
+              "number": 35,
+              "prompt": "In biological terms, when an animal is physically fit, its body changes, becoming more powerful and _____. For bears, this change may be initially caused by colder weather or a lack of _____, which during _____ causes certain compounds to be released into their _____ and to travel around the body. These compounds appear to prevent muscle loss. In the case of barnacle geese, the change may be due to a variation in _____.",
+              "options": [],
+              "answer": "temperature",
+              "accepted_answers": [
+                "temperature"
+              ],
+              "analysis": "题干问 barnacle geese 的身体变化可能源于什么变化。原文段落 G 中 Halsey 提出，它们可能对‘environmental change such as temperature’作出反应，说明温度变化是关键刺激因素，因此答案为 temperature。",
+              "reason": "原文直接提到‘temperature’。",
+              "location_analysis": "鹅对温度等环境变化做出反应。",
+              "paraphrasing": "variation in temperature -> environmental change such as temperature",
+              "keywords": "barnacle geese, environmental change, temperature",
+              "evidence": [],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "In biological terms, when an animal is physically fit, its body changes, becoming more powerful and $119952$. For bears, this change may be initially caused by colder weather or a lack of $119953$, which during $119954$ causes certain compounds to be released into their $119955$ and to travel around the body. These compounds appear to prevent muscle loss. In the case of barnacle geese, the change may be due to a variation in $119956$.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "In biological terms, when an animal is physically fit, its body changes, becoming more powerful and $119952$. For bears, this change may be initially caused by colder weather or a lack of $119953$, which during $119954$ causes certain compounds to be released into their $119955$ and to travel around the body. These compounds appear to prevent muscle loss. In the case of barnacle geese, the change may be due to a variation in $119956$."
+        },
+        {
+          "id": "15366",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 36 - 40\nLook at the following statements(Questions 36-40) and the list of researchers below.\nMatch each statement with the correct researcher, A, B, C or D.\nChoose the correct letter and move it into the gap.\nNB You may use any letter more than once.",
+          "option_title": "List of Researchers",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Lewis Halsey"
+            },
+            {
+              "value": "B",
+              "label": "B. Chris Guglielmo"
+            },
+            {
+              "value": "C",
+              "label": "C. Daniel Lieberman"
+            },
+            {
+              "value": "D",
+              "label": "D. Ross Tucker"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119957",
+              "number": 36,
+              "prompt": "One belief about how animals stay fit is possibly untrue",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Lewis Halsey"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Chris Guglielmo"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Daniel Lieberman"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Ross Tucker"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干陈述‘关于动物如何保持健康的某一观点可能是错误的’。原文段落 C 提出一个普遍假设：动物通过觅食和逃避天敌的运动来维持健康；而段落 D 中 Lewis Halsey 明确指出‘this may not necessarily be the case’，质疑该假设，因此匹配研究者 A（Lewis Halsey）。",
+              "reason": "Halsey指出假设可能不成立。",
+              "location_analysis": "Halsey质疑动物靠运动维持健康的假设，对应题干。",
+              "paraphrasing": "one belief about how animals stay fit is possibly untrue -> the question is tied up in a broader assumption: that animals maintain fitness because of the exercise... Halsey points out that this may not necessarily be the case",
+              "keywords": "one belief, possibly untrue",
+              "evidence": [
+                "The question is tied up in a broader assumption: that animals maintain fitness because of the exercise they get finding food and escaping predators.",
+                "Halsey points out that this may not necessarily be the case."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119958",
+              "number": 37,
+              "prompt": "It may not be possible to train all animals to improve their speed",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Lewis Halsey"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Chris Guglielmo"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Daniel Lieberman"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Ross Tucker"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干表示‘可能无法通过训练提升所有动物的速度’。原文段落 L 中 Ross Tucker 表示：‘we don’t know whether training would enhance their ability’，说明训练对动物表现的影响尚不确定，符合题干含义，因此匹配研究者 D（Ross Tucker）。",
+              "reason": "Ross Tucker提出训练效果未知。",
+              "location_analysis": "Tucker指出不确定训练能否提升动物能力，符合题干。",
+              "paraphrasing": "it may not be possible to train all animals to improve their speed -> we don’t know whether training would enhance their ability",
+              "keywords": "not possible to train all animals to improve their speed",
+              "evidence": [
+                "I don't know that all animals are the same, performance-wise ... and we don’t know whether training would enhance their ability"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119959",
+              "number": 38,
+              "prompt": "One type of bird has demonstrated fitness when exposed to a stimulus in experimental conditions",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Lewis Halsey"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Chris Guglielmo"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Daniel Lieberman"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Ross Tucker"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干指出‘一种鸟类在实验条件下接触刺激后展现出体能’。原文段落 G 描述 Chris Guglielmo 对黄腰柳莺（yellow-rumped warblers）进行实验，通过改变日照时间使其在风洞中连续飞行 10 小时，证明其体能表现，因此匹配研究者 B（Chris Guglielmo）。",
+              "reason": "原文对应Guglielmo的实验。",
+              "location_analysis": "Guglielmo实验中黄腰柳莺在特定光照下飞行10小时，展示了体能。",
+              "paraphrasing": "exposed to a stimulus in experimental conditions -> subjected to changing hours of daylight; demonstrated fitness -> they fly for 10 hours",
+              "keywords": "bird, fitness, experimental conditions",
+              "evidence": [
+                "Chris Guglielmo, a physiological ecologist, has studied the effect of subjecting migratory songbirds known as yellow-rumped warblers to changing hours of daylight."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119960",
+              "number": 39,
+              "prompt": "Human energy use developed in a different way from that of animals",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Lewis Halsey"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Chris Guglielmo"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Daniel Lieberman"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Ross Tucker"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干称‘人类能量使用方式与动物不同’。原文段落 J 中 Daniel Lieberman 指出：‘This makes us evolutionarily different from most other animals’，并解释人类肌肉占基础代谢比例高，需根据食物供应调整体重和体能，说明能量使用机制确实不同，因此匹配研究者 C（Daniel Lieberman）。",
+              "reason": "Lieberman直接说明人类不同。",
+              "location_analysis": "Lieberman指出人类能量使用与其他动物进化不同。",
+              "paraphrasing": "human energy use developed in a different way from that of animals -> This makes us evolutionarily different from most other animals",
+              "keywords": "human energy use, different way, animals, Daniel Lieberman",
+              "evidence": [],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119961",
+              "number": 40,
+              "prompt": "One type of bird may develop more strength when the weather becomes warmer or cooler",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Lewis Halsey"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Chris Guglielmo"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Daniel Lieberman"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Ross Tucker"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干说‘某种鸟类可能在天气变暖或变冷时增强体力’。原文段落 G 中 Lewis Halsey 提出 barnacle geese 可能对‘environmental change such as temperature’作出反应，从而为迁徙做准备，暗示温度变化促使其身体更强壮，因此匹配研究者 A（Lewis Halsey）。",
+              "reason": "Halsey提出温度变化触发鹅的体能准备。",
+              "location_analysis": "Halsey认为鹅对温度变化反应增强体力。",
+              "paraphrasing": "when the weather becomes warmer or cooler -> responding to an environmental change such as temperature",
+              "keywords": "bird, more strength, weather, warmer or cooler, Lewis Halsey",
+              "evidence": [],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Researchers"
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "How animals keep fit",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "No one would dream of running a marathon without first making a serious effort to train for it.",
+          "translation": "没有人会梦想着不先认真努力训练就去跑马拉松。"
+        },
+        {
+          "index": 3,
+          "sentence": "But no matter how well they have stuck to their training regime, contestants will find that running non-stop for 42 kilometres is going to hurt.",
+          "translation": "但无论参赛者如何严格遵循他们的训练计划，他们都会发现连续跑42公里将会非常痛苦。"
+        },
+        {
+          "index": 4,
+          "sentence": "Now consider the barnacle goose.",
+          "translation": "现在来看一下白颊黑雁。"
+        },
+        {
+          "index": 5,
+          "sentence": "Every year this bird carries out a 3000-kilometre migration.",
+          "translation": "每年这种鸟都会进行一场3000公里的迁徙。"
+        },
+        {
+          "index": 6,
+          "sentence": "So how do the birds prepare for this?",
+          "translation": "那么这些鸟是如何为此准备的呢？"
+        },
+        {
+          "index": 7,
+          "sentence": "Do they spend months gradually building up fitness?",
+          "translation": "它们是否会花费数月时间逐渐锻炼体能？"
+        },
+        {
+          "index": 8,
+          "sentence": "That's not really the barnacle goose's style.",
+          "translation": "这并非白颊黑雁的风格。"
+        },
+        {
+          "index": 9,
+          "sentence": "Instead, says environmental physiologist Lewis Halsey, \"They just basically sit on the water and eat a lot.\"",
+          "translation": "相反，环境生理学家刘易斯·哈尔西表示：“它们基本上只是待在水面上，吃大量的食物。”"
+        },
+        {
+          "index": 10,
+          "sentence": "Now consider the barnacle goose.",
+          "translation": "现在考虑一下白颊黑雁。"
+        },
+        {
+          "index": 11,
+          "sentence": "Every year this bird carries out a 3000-kilometre migration.",
+          "translation": "每年，这种鸟都会进行一次长达3000公里的迁徙。"
+        },
+        {
+          "index": 12,
+          "sentence": "So how do the birds prepare for this?",
+          "translation": "那么，这些鸟是如何为此做准备的？"
+        },
+        {
+          "index": 13,
+          "sentence": "Do they spend months gradually building up fitness?",
+          "translation": "它们是否会花费数月时间逐渐增强体能？"
+        },
+        {
+          "index": 14,
+          "sentence": "That's not really the barnacle goose's style.",
+          "translation": "这并非白颊黑雁的风格。"
+        },
+        {
+          "index": 15,
+          "sentence": "Instead, says environmental physiologist Lewis Halsey, \"They just basically sit on the water and eat a lot.'",
+          "translation": "相反，环境生理学家刘易斯·哈尔西说：“它们基本上只是待在水面上，大量进食。”"
+        },
+        {
+          "index": 17,
+          "sentence": "Until recently, nobody had really asked whether exercise is as tightly connected to fitness in the rest of the animal kingdom as it is for us.",
+          "translation": "直到最近，还没有人真正探究过：在动物界中，运动是否与我们人类一样，与体质健康紧密相连。"
+        },
+        {
+          "index": 18,
+          "sentence": "The question is tied up in a broader assumption: that animals maintain fitness because of the exercise they get finding food and escaping predators.",
+          "translation": "这个问题涉及一个更广泛的假设：动物之所以能保持健康体质，是因为它们在觅食和躲避捕食者的过程中得到了锻炼。"
+        },
+        {
+          "index": 20,
+          "sentence": "Halsey points out that this may not necessarily be the case.",
+          "translation": "哈尔西指出，这未必是事实。"
+        },
+        {
+          "index": 21,
+          "sentence": "Take the house cat.",
+          "translation": "以家猫为例。"
+        },
+        {
+          "index": 22,
+          "sentence": "Most domestic cats spend much of the day lounging around, apparently doing nothing, rather than hunting for food.",
+          "translation": "大多数家猫一天中大部分时间都在闲逛，显然无所事事，而不是捕猎食物。"
+        },
+        {
+          "index": 23,
+          "sentence": "But over short distances, even the laziest can move incredibly fast when they want to.",
+          "translation": "但在短距离内，即使是最懒的猫也能在想要时移动得极快。"
+        },
+        {
+          "index": 24,
+          "sentence": "Similarly, black and brown bears manage to come out of several months' hibernation with their muscle mass intact - without having to lift so much as a paw during this time.",
+          "translation": "同样，黑熊和棕熊在长达数月的冬眠后，肌肉量仍能保持完好——在这段时间内它们甚至无需抬一下爪子。"
+        },
+        {
+          "index": 26,
+          "sentence": "Barnacle geese go one better.",
+          "translation": "藤壶鹅更胜一筹。"
+        },
+        {
+          "index": 27,
+          "sentence": "In the process of sitting around, they don't just maintain their fitness.",
+          "translation": "在无所事事的过程中，它们不仅维持了健康。"
+        },
+        {
+          "index": 28,
+          "sentence": "They also develop stronger hearts and bigger flight muscles, enabling them to fly for thousands of kilometres in a migration that may last as little as two days.",
+          "translation": "它们还发展出更强壮的心脏和更大的飞行肌肉，使其能在可能仅持续两天的迁徙中飞行数千公里。"
+        },
+        {
+          "index": 30,
+          "sentence": "So, if exercise isn't necessarily the key to physical strength, then what is?",
+          "translation": "那么，如果锻炼不一定是体力的关键，那什么才是呢？"
+        },
+        {
+          "index": 31,
+          "sentence": "One clue comes from a broader view of the meaning of physical fitness.",
+          "translation": "一个线索来自于对身体素质含义的更广泛理解。"
+        },
+        {
+          "index": 32,
+          "sentence": "Biologically speaking, all it means is that the body has undergone changes that make it stronger and more efficient.",
+          "translation": "从生物学角度来说，这仅仅意味着身体经历了变化，使其更强壮、更高效。"
+        },
+        {
+          "index": 33,
+          "sentence": "In animals such as bears these changes appear to be triggered by cues such as falling temperatures or insufficient food.",
+          "translation": "在像熊这样的动物中，这些变化似乎是由气温下降或食物不足等信号触发的。"
+        },
+        {
+          "index": 34,
+          "sentence": "In the months of hibernation, these factors seem to prompt the release of muscle-protecting compounds which are then carried to the bears' muscles in their blood and prevent muscle loss.",
+          "translation": "在几个月的冬眠期间，这些因素似乎促使肌肉保护化合物的释放，随后通过血液输送到熊的肌肉中，从而防止肌肉流失。"
+        },
+        {
+          "index": 36,
+          "sentence": "Barnacle geese,Halsey suggests, may be responding to an environmental change such as temperature, which helps their bodies somehow ' know' that a big physical challenge is looming.",
+          "translation": "哈西认为，白颊黑雁可能正在对诸如温度之类的环境变化做出反应，这以某种方式帮助它们的身体‘知道’一个巨大的体能挑战即将来临。"
+        },
+        {
+          "index": 37,
+          "sentence": "In other bird species, that cue may be something different.",
+          "translation": "在其他鸟类物种中，这种信号可能有所不同。"
+        },
+        {
+          "index": 38,
+          "sentence": "Chris Guglielmo, a physiological ecologist, has studied the effect of subjecting migratory songbirds known as yellow-rumped warblers to changing hours of daylight.",
+          "translation": "生理生态学家克里斯·古列尔莫研究了让被称为黄腰林莺的迁徙鸣禽接受日照时长变化的效应。"
+        },
+        {
+          "index": 39,
+          "sentence": "\"We don' t need to take little songbirds and train them up to do a 6- or 10-hour flight,' he says.",
+          "translation": "“我们不需要带着小鸣禽并训练它们进行6或10小时的飞行，”他说。"
+        },
+        {
+          "index": 40,
+          "sentence": "If they are subjected to the right daylight cycle,'we can take them out of the cage and put them in the wind tunnel, and they fly for 10 hours.'",
+          "translation": "如果让它们处于合适的日照周期中，“我们可以把它们从笼子里拿出来放进风洞，它们就会飞行10个小时。”"
+        },
+        {
+          "index": 41,
+          "sentence": "Unlike migratory birds, however, humans have no biological shortcut to getting fit.",
+          "translation": "然而，与候鸟不同，人类没有获得健康的生物学捷径。"
+        },
+        {
+          "index": 42,
+          "sentence": "Instead, pressures in our evolutionary history made our bodies tie fitness to exercise.",
+          "translation": "相反，我们进化历史中的压力使身体将健康与锻炼紧密联系在一起。"
+        },
+        {
+          "index": 43,
+          "sentence": "Unlike migratory birds, however, humans have no biological shortcut to getting fit.",
+          "translation": "然而，与候鸟不同，人类没有生物上的捷径来保持健康。"
+        },
+        {
+          "index": 44,
+          "sentence": "Instead, pressures in our evolutionary history made our bodies tie fitness to exercise.",
+          "translation": "相反，我们进化历史中的压力使身体将健康与锻炼联系在一起。"
+        },
+        {
+          "index": 46,
+          "sentence": "Our ancestors' lives were unpredictable.",
+          "translation": "我们祖先的生活是难以预测的。"
+        },
+        {
+          "index": 47,
+          "sentence": "They had to do a lot of running to catch food and escape danger, but they also needed to keep muscle mass to a minimum because muscle is biologically expensive.",
+          "translation": "他们不得不进行大量奔跑以捕食和躲避危险，但也需要将肌肉量保持在最低限度，因为肌肉在生物学上代价高昂。"
+        },
+        {
+          "index": 48,
+          "sentence": "Each kilogram contributes about 10 to 15 kilocalories a day to our metabolism when resting - which doesn't sound like much until you realise that muscles account for about 40 percent of the average person's body mass.",
+          "translation": "每公斤肌肉在休息时每天会为我们的新陈代谢贡献约10到15千卡热量——这听起来并不多，直到你意识到肌肉约占普通人身体质量的40%。"
+        },
+        {
+          "index": 49,
+          "sentence": "'Most of us are spending 20 percent of our basic energy budget taking care of muscle mass, says Daniel Lieberman, an evolutionary biologist and marathon runner.",
+          "translation": "“我们大多数人将基础能量预算的20%用于维持肌肉量，”进化生物学家兼马拉松跑者丹尼尔·利伯曼说道。"
+        },
+        {
+          "index": 51,
+          "sentence": "So our physiology evolved to let our weight and fitness fluctuate depending on how much food was available.",
+          "translation": "因此，我们的生理机能进化使得体重和健康状况根据食物获取量的多少而波动。"
+        },
+        {
+          "index": 52,
+          "sentence": "\"This makes us evolutionarily different from most other animals，\"says Lieberman.",
+          "translation": "“这使得我们在进化上不同于大多数其他动物，”利伯曼说。"
+        },
+        {
+          "index": 53,
+          "sentence": "In general, animals merely need to be capable of short bouts of intense activity, whether it's the cheetah chasing prey or the gazelle escaping.",
+          "translation": "总的来说，动物只需具备进行短暂剧烈活动的能力，无论是猎豹追捕猎物还是瞪羚逃跑都是如此。"
+        },
+        {
+          "index": 54,
+          "sentence": "Cats are fast, but they don’t need to run very far.",
+          "translation": "猫跑得很快，但它们不需要跑很远。"
+        },
+        {
+          "index": 55,
+          "sentence": "Perhaps a few mad dashes around the house are all it takes to keep a domestic one fit enough for feline purposes.",
+          "translation": "也许在屋内几次疯狂冲刺就足以让家猫保持足以满足猫科动物需求的健康状态。"
+        },
+        {
+          "index": 56,
+          "sentence": "'Humans, on the other hand, needed to adapt to run slower, but for longer,' says Lieberman.",
+          "translation": "“另一方面，人类需要适应跑得更慢但更久，”利伯曼说。"
+        },
+        {
+          "index": 58,
+          "sentence": "He argues that long ago on the African savannah, natural selection made us into ‘supremely adapted' endurance athletes, capable of running prey into the ground and ranging over long distances with unusual efficiency.",
+          "translation": "他认为，在很久以前的非洲大草原上，自然选择使我们成为‘高度适应’的耐力运动员，能够将猎物追至筋疲力尽，并以异常高效的方式长途跋涉。"
+        },
+        {
+          "index": 59,
+          "sentence": "But only, it appears, if we train.",
+          "translation": "但似乎，只有当我们训练时才能如此。"
+        },
+        {
+          "index": 60,
+          "sentence": "Otherwise we quickly degenerate into couch potatoes.",
+          "translation": "否则，我们会迅速退化为懒散的沙发土豆。"
+        },
+        {
+          "index": 61,
+          "sentence": "As for speed, even those animals that do cover impressive distances don’t have to be the fastest they can possibly be.",
+          "translation": "至于速度，即使是那些能够跨越惊人距离的动物，也不必非要达到它们可能达到的最快速度。"
+        },
+        {
+          "index": 62,
+          "sentence": "Barnacle geese needn’t set world records when crossing the North Atlantic; they just need to be able to get to their destination.",
+          "translation": "白颊黑雁在飞越北大西洋时无需创造世界纪录；它们只需要能够抵达目的地。"
+        },
+        {
+          "index": 63,
+          "sentence": "'And,'says exercise physiologist Ross Tucker,'humans may be the only animal that actually cares about reaching peak performance.'",
+          "translation": "运动生理学家罗斯·塔克说：‘而且，人类可能是唯一真正在意达到巅峰表现的动物。’"
+        },
+        {
+          "index": 64,
+          "sentence": "Other than racehorses and greyhounds, both of which we have bred to race,animals aren't directly competing against one another.",
+          "translation": "除了我们培育用于赛跑的马和灵缇犬之外，动物们并不直接相互竞争。"
+        },
+        {
+          "index": 65,
+          "sentence": "'I don't know that all animals are the same, performance-wise ... and we don’t know whether training would enhance their ability，'he says.",
+          "translation": "他说：‘我不知道所有动物在表现能力方面是否相同……我们也不知道训练是否会提升它们的能力。’"
+        },
+        {
+          "index": 66,
+          "sentence": "As for speed, even those animals that do cover impressive distances don’t have to be the fastest they can possibly be.",
+          "translation": "至于速度，即使是那些行进了惊人距离的动物，也不必达到它们可能的最快速度。"
+        },
+        {
+          "index": 67,
+          "sentence": "Barnacle geese needn’t set world records when crossing the North Atlantic; they just need to be able to get to their destination.",
+          "translation": "白颊黑雁在飞越北大西洋时不必创造世界纪录；它们只需要能够到达目的地。"
+        },
+        {
+          "index": 68,
+          "sentence": "'And,'says exercise physiologist Ross Tucker,'humans may be the only animal that actually cares about reaching peak performance.'",
+          "translation": "运动生理学家罗斯·塔克说：“而且，人类可能是唯一真正在意达到最佳表现的动物。”"
+        },
+        {
+          "index": 69,
+          "sentence": "Other than racehorses and greyhounds, both of which we have bred to race,animals aren't directly competing against one another.",
+          "translation": "除了我们培育来比赛的马和灵缇犬之外，动物们并不直接相互竞争。"
+        },
+        {
+          "index": 70,
+          "sentence": "'I don't know that all animals are the same, performance-wise ... and we don’t know whether training would enhance their ability，'he says.",
+          "translation": "他说：“我不知道所有动物在表现方面是否都一样……我们也不知道训练是否会提高它们的能力。”"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

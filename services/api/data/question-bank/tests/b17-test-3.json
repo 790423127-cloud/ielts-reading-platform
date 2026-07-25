@@ -1,0 +1,2854 @@
+{
+  "id": "b17-test-3",
+  "book": "剑雅17",
+  "book_number": 17,
+  "name": "Test 3",
+  "title": "剑雅17 Test 3",
+  "parts": [
+    {
+      "id": "1892",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Local countryside walks",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "The following walks have coloured marker posts to guide you",
+          "translation": "以下步行路线设有彩色标记柱，用于为您指引方向"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A Grove Mill",
+          "translation": "A 格罗夫磨坊"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Take either the yellow path or the blue path - both eventually come out at the old Water Mill and are at about the same level of difficulty. There is a shallow stream which runs alongside the yellow path. Dogs enjoy a swim here if it's hot, and there are trees to help keep you cool while you wait.",
+          "translation": "您可以走黄色路径或蓝色路径——两者最终都会抵达古老的水磨坊，并且难度大致相当。\n黄色路径旁有一条浅浅的小溪流过。\n天气炎热时，狗喜欢在这里游泳，而周围的树木也能让您在等待时保持凉爽。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B Blackhill Trail",
+          "translation": "B 布莱克希尔步道"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Follow the marker posts carefully as you make your way through some dense forest. lf you take a wrong turn, as walkers often do, your walk could end up being a lot longer than you expected.The sun may be shining, but there is plenty of damp undergrowth, so wear a tough pair of hiking boots if you don't want your feet to get wet. It isn't advisable to take small dogs on this trail.",
+          "translation": "当你穿越一片茂密的森林时，请小心跟随标记柱。\n如果你像徒步者常做的那样拐错弯，你的徒步可能会变得比预期长得多。\n阳光可能很明媚，但地面有许多潮湿的低矮灌木，所以如果你不想弄湿双脚，就穿一双结实的登山靴。\n不建议在这条小路上带小狗。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C Fern way",
+          "translation": "C 蕨类小径"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "The route is winding but fairly flat and doesn't require any special footwear or equipment. It is accessed by a gate with a strong bolt to keep sheep and cows in the field.The path is lined on both sides by firs and some majestic redwoods that date back to the nineteenth century. There are benches along the way,where you can rest and admire the beauty of the area.",
+          "translation": "这条路蜿蜒曲折但相当平坦，不需要任何特殊鞋类或装备。\n入口处有一扇带坚固门闩的大门，用于将羊和牛圈在田野里。\n小路两侧种满了冷杉和一些可追溯到19世纪的宏伟红杉。\n沿途设有长椅，您可以在此休息并欣赏该地区的美景。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D Bay Red Valley",
+          "translation": "D 湾红河谷"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Be prepared to go up and down a bit on this route.The first section is uphill,then the path flattens out- but not for long, so you need to be fairly fit. The exercise is worth it, though, as there are some spectacular views across the valley. There is a viewing platform, from which you may be lucky enough to see one of the herds of deer that roam the area.",
+          "translation": "做好准备，这条路线会有一些上下起伏。\n第一段是上坡，然后小路变得平坦——但不会持续太久，因此你需要相当好的体能。\n不过，这番努力是值得的，因为可以欣赏到山谷对面的壮丽景色。\n有一个观景台，你也许会幸运地看到一群在该地区漫步的鹿。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E Brownwater Trail",
+          "translation": "E 布朗沃特小径"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "A circular path will take you past tree and plant species from around the world that are cared for by a dedicated team of volunteers. If you bring your dog,keep it on a lead as the smaller shrubs can be easily destroyed.The path itself is open and unprotected, so be sure to wear a hat or you could get sunburnt.",
+          "translation": "一条环形路径将带你经过来自世界各地的树木和植物物种，这些植物由一个专注的志愿者团队照料。\n如果你带狗来，请用绳子牵着它，因为较小的灌木很容易被破坏。\n这条路径本身是开阔且无遮挡的，所以一定要戴帽子，否则你可能会被晒伤。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Poppi Properties",
+          "question_cue": {
+            "start": 7,
+            "end": 14
+          },
+          "translation": "波比地产"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Review by Sally Hanugoldi",
+          "translation": "莎莉·哈努戈尔迪的评论"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "l have had a terrible experience with Poppi Properties and as an ex-tenant, I advise you to go elsewhere if you want to rent or buy a property - as I have now done.When I initially viewed my Poppi Properties flat, I was accompanied by Lillee Eggerton, one of the two staff who run the company. The flat was located close to the office where I have been working for the past year, so I went there before the working day had begun. I knew immediately that it was the right property for me because of the convenient location, and a few days later I paid the deposit and the first two months' rent. The flat was on the 12th floor, which I admit was a surprise to me as I thought it was lower when I first read about it, but Lillee was very encouraging, and l felt confident that I was making the right choice.At this point, she was professional and kind, but once I had moved into the property, I discovered that she was far less approachable than she had been during the viewing period and whenever I tried to contact her, she was unavailable.",
+          "translation": "波比地产\n我对Poppi Properties公司有过糟糕的经历，作为前租户，我建议如果你想租房或买房，就去别处看看——就像我现在已经做的那样。\n当我初次看Poppi Properties的公寓时，是由该公司的两名员工之一Lillee Eggerton陪同的。\n这套公寓位于过去一年我工作的办公室附近，所以我在工作日开始前去了那里。\n因为位置便利，我立刻知道这处房产适合我，几天后我支付了押金和头两个月的租金。\n公寓在12楼，我承认这让我感到意外，因为我最初看到介绍时以为楼层更低，但Lillee非常鼓励我，我相信自己做出了正确的选择。\n那时，她专业且友善，但一旦我搬进这处房产，我发现她远不如看房期间那么平易近人，而且每当我试图联系她时，她都不在。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "At the start of my tenancy, a number of issues were unsatisfactory in the property.For example, as a new tenant, you have a right to expect your flat to be clean. In fact,carpets should be professionally cleaned, but mine had not even been hoovered. I had hoped that this problem would be addressed quickly, but nothing happened and so I did the job myself. Similarly, the oven worked when I switched it on,but it was black inside and smelt horrible.The company did nothing, so in the end I just avoided using the oven while I lived there. Several times, I asked to speak to the landlord directly but was told this was not possible. No one should have to put up with these problems, particularly when Poppi Properties charge such high rents!",
+          "translation": "波比地产\n在我租期刚开始时，房产中存在一些令人不满意的问题。\n例如，作为新租户，你有权期望你的公寓是干净的。\n事实上，地毯本应由专业人员进行清洁，但我住的地毯甚至没有被吸尘器吸过。\n我曾希望这个问题能很快得到解决，但没有任何进展，于是我自己动手做了这项工作。\n同样地，烤箱打开时能正常工作，但内部是黑色的，而且气味难闻。\n公司没有采取任何措施，所以我最终在居住期间避免使用这个烤箱。\n有几次，我要求直接与房东谈话，但被告知这是不可能的。\n没有人应该忍受这些问题，尤其是当Poppi Properties收取如此高昂的租金时！"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13800",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 6\nLook at the five descriptions of walks, A-E.\nFor which walk are the following statements true?\nWrite the correct letter, A-E, in boxes 1-6 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119803",
+              "number": 1,
+              "prompt": "There is very little shade.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“very little shade”对应E段描述“The path itself is open and unprotected, so be sure to wear a hat or you could get sunburnt”，说明该路径缺乏遮蔽、阳光直射，容易晒伤，符合“几乎没有阴凉处”的描述，因此答案为E。",
+              "reason": "E段明确指出路径开阔无遮挡，晒伤风险高，对应题干",
+              "location_analysis": "E段路径开阔无遮蔽，易晒伤，符合'很少阴凉'。",
+              "paraphrasing": "very little shade -> open and unprotected, sunburnt",
+              "keywords": "very little shade, sunburnt",
+              "evidence": [
+                "The path itself is open and unprotected, so be sure to wear a hat or you could get sunburnt."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119804",
+              "number": 2,
+              "prompt": "There are some steep sections.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“steep sections”对应D段首句“Be prepared to go up and down a bit on this route”以及“The first section is uphill”，表明路线包含上坡路段，即陡峭部分，因此答案为D。",
+              "reason": "对应题目There are some steep sections.",
+              "location_analysis": "D描述上下坡路段，先上坡后平缓但不久，即陡峭路段。",
+              "paraphrasing": "steep sections -> go up and down a bit; uphill; flattens out",
+              "keywords": "steep sections",
+              "evidence": [
+                "Be prepared to go up and down a bit on this route."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119805",
+              "number": 3,
+              "prompt": "There is a choice of route on this walk.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“choice of route”在A段中有直接体现：“Take either the yellow path or the blue path”，明确提供了两条可选路径，且难度相近，因此答案为A。",
+              "reason": "A段明确给出两条可选路线",
+              "location_analysis": "A段提供黄蓝两条路径可选，对应'有路线选择'。",
+              "paraphrasing": "choice of route -> either the yellow path or the blue path",
+              "keywords": "choice of route, either, or",
+              "evidence": [
+                "Take either the yellow path or the blue path - both eventually come out at the old Water Mill and are at about the same level of difficulty."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119806",
+              "number": 4,
+              "prompt": "There is a special site for watching wildlife.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“special site for watching wildlife”对应D段提到的“There is a viewing platform, from which you may be lucky enough to see one of the herds of deer”，观景台专为观赏鹿群（野生动物）而设，因此答案为D。",
+              "reason": "D段明确提供观看野生动物的平台",
+              "location_analysis": "D段观景台可看鹿群，对应'特别野生动物观察点'。",
+              "paraphrasing": "watching wildlife -> see one of the herds of deer",
+              "keywords": "watching wildlife, viewing platform, deer",
+              "evidence": [
+                "There is a viewing platform, from which you may be lucky enough to see one of the herds of deer that roam the area."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119807",
+              "number": 5,
+              "prompt": "Dogs must not be allowed to run freely.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“Dogs must not be allowed to run freely”对应E段“If you bring your dog, keep it on a lead”，要求狗必须拴绳，以防破坏灌木，即不能自由奔跑，因此答案为E。",
+              "reason": "题干'dogs must not be allowed to run freely'对应keep on a lead。",
+              "location_analysis": "原文要求狗必须拴绳，不能自由奔跑。",
+              "paraphrasing": "not allowed to run freely -> keep it on a lead",
+              "keywords": "dogs, not run freely, keep on a lead",
+              "evidence": [
+                "If you bring your dog,keep it on a lead as the smaller shrubs can be easily destroyed."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119808",
+              "number": 6,
+              "prompt": "You can sit down in several places.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中的“sit down in several places”对应C段“There are benches along the way, where you can rest”，说明沿途设有多个长椅供休息，符合“多处可坐”的描述，因此答案为C。",
+              "reason": "C段明确提到沿途有长椅，与题干相符。",
+              "location_analysis": "C段沿途有长椅可供休息，对应多处可坐。",
+              "paraphrasing": "sit down in several places -> benches along the way",
+              "keywords": "sit down, several places, benches along the way",
+              "evidence": [
+                "There are benches along the way,where you can rest and admire the beauty of the area."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13804",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 7 - 14\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117224",
+              "number": 7,
+              "prompt": "Sally Hanugoldi is still renting a property with Poppi Properties.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干中的“Sally Hanugoldi is still renting”与原文中的“as an ex-tenant”直接矛盾。文章开头明确指出她已不再是Poppi Properties的租客，并且已经另寻住处，因此该陈述与原文信息不符，答案为FALSE。",
+              "reason": "ex-tenant表明已不是租客",
+              "location_analysis": "Sally自称ex-tenant，已不再租房，故陈述与原文矛盾。",
+              "paraphrasing": "still renting -> ex-tenant",
+              "keywords": "still renting, ex-tenant",
+              "evidence": [
+                "l have had a terrible experience with Poppi Properties and as an ex-tenant, I advise you to go elsewhere if you want to rent or buy a property - as I have now done."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文内容矛盾，原文明确表示Sally不再租用该房产。",
+                "NOT GIVEN": "原文有明确信息，并非未提及，因此该选项错误。"
+              }
+            },
+            {
+              "id": "117225",
+              "number": 8,
+              "prompt": "Sally Hanugoldi was the first person to view the flat.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问Sally是否是第一个看房的人，但原文仅提到她由Lillee陪同看房，并未说明她是否为首位看房者。文中缺乏关于其他潜在租客或看房顺序的信息，因此无法判断该陈述真假，答案为NOT GIVEN。",
+              "reason": "原文无相关信息",
+              "location_analysis": "原文未提及她是否是第一个看房的人。",
+              "paraphrasing": "",
+              "keywords": "first person, view",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及Sally Hanugoldi，无法判断她是否是第一个看到公寓的人。",
+                "FALSE": "原文未提及相关信息，无法确定该说法为错误。"
+              }
+            },
+            {
+              "id": "117228",
+              "number": 9,
+              "prompt": "Sally made a quick decision to rent the property.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“made a quick decision”对应原文中的“I knew immediately that it was the right property for me”，随后她几天内就支付了押金和租金。这表明Sally迅速做出了租房决定，与题干描述一致，因此答案为TRUE。",
+              "reason": "原文明确说明Sally立刻做出决定",
+              "location_analysis": "Sally立刻认定房子合适并快速付定金，符合'快速决定'。",
+              "paraphrasing": "quick decision -> knew immediately",
+              "keywords": "quick decision, knew immediately",
+              "evidence": [
+                "I knew immediately that it was the right property for me because of the convenient location, and a few days later I paid the deposit and the first two months' rent."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "题干明确表示Sally做出快速决定，与选项矛盾，因此错误。",
+                "NOT GIVEN": "题干直接给出了Sally做出快速决定的信息，并非未提及，因此错误。"
+              }
+            },
+            {
+              "id": "117229",
+              "number": 10,
+              "prompt": "The flat was on a lower level than Sally had expected.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称公寓楼层“比预期低”，但原文明确写道“The flat was on the 12th floor, which I admit was a surprise to me as I thought it was lower”，说明实际楼层高于她的预期，与题干相反，因此答案为FALSE。",
+              "reason": "原文说实际楼层更高，与题干'比预期低'相反",
+              "location_analysis": "Sally以为楼层更低，实际是12楼更高，故陈述与原文矛盾。",
+              "paraphrasing": "lower level -> thought it was lower, 12th floor (实际更高)",
+              "keywords": "lower level, 12th floor, thought it was lower",
+              "evidence": [
+                "The flat was on the 12th floor, which I admit was a surprise to me as I thought it was lower when I first read about it"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文表明公寓并不比萨莉预期的低，该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文明确提及了公寓楼层与萨莉预期的比较结果，该选项与原文信息不符。"
+              }
+            },
+            {
+              "id": "117232",
+              "number": 11,
+              "prompt": "Lillee's behaviour towards Sally changed over time.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“behaviour changed over time”在原文中有明确对应：看房时Lillee“was professional and kind”，但入住后“she was far less approachable”且“unavailable”。这种前后态度的明显转变支持题干陈述，因此答案为TRUE。",
+              "reason": "原文明确描述Lillee态度前后变化",
+              "location_analysis": "Lillee看房时专业友善，入住后难接近，行为确实改变。",
+              "paraphrasing": "behaviour changed -> professional and kind -> far less approachable",
+              "keywords": "behaviour changed, professional and kind, far less approachable",
+              "evidence": [
+                "At this point, she was professional and kind, but once I had moved into the property, I discovered that she was far less approachable than she had been during the viewing period and whenever I tried to contact her, she was unavailable."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确指出Lillee对Sally的行为发生了改变，与题干一致，因此该选项错误。",
+                "NOT GIVEN": "原文中明确提到了行为变化的信息，并非未提及，因此该选项错误。"
+              }
+            },
+            {
+              "id": "117233",
+              "number": 12,
+              "prompt": "The flat that Sally rented from Poppi Properties was unfurnished.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问公寓是否“unfurnished”，但原文通篇未提及房屋是否配备家具，既未说有家具也未说无家具。由于缺乏相关信息，无法判断该陈述真假，因此答案为NOT GIVEN。",
+              "reason": "原文无相关信息",
+              "location_analysis": "原文未提及公寓是否带家具。",
+              "paraphrasing": "",
+              "keywords": "unfurnished",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及公寓是否配备家具，无法判断。",
+                "FALSE": "原文未提及公寓是否配备家具，无法判定为假。"
+              }
+            },
+            {
+              "id": "117236",
+              "number": 13,
+              "prompt": "Sally employed someone to clean her carpets.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称Sally“employed someone to clean her carpets”，但原文明确写道“so I did the job myself”，说明她是自己清洁地毯而非雇佣他人。这与题干内容矛盾，因此答案为FALSE。",
+              "reason": "原文明确说Sally自己清洁地毯",
+              "location_analysis": "Sally自己清洁地毯，并非雇人，故陈述与原文矛盾。",
+              "paraphrasing": "employed someone -> did the job myself",
+              "keywords": "employed someone, did the job myself",
+              "evidence": [
+                "carpets should be professionally cleaned, but mine had not even been hoovered. I had hoped that this problem would be addressed quickly, but nothing happened and so I did the job myself."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文表明Sally并未雇佣他人清洁地毯，而是自己完成，因此该说法与原文矛盾。",
+                "NOT GIVEN": "原文明确提及Sally没有雇佣人，因此该信息是给出的，并非未提及。"
+              }
+            },
+            {
+              "id": "117238",
+              "number": 14,
+              "prompt": "The landlord raised Sally's rent while she was living in the flat.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干提到“landlord raised Sally's rent”，但原文只说明她支付了前两个月租金，并未提及租期内租金上调或房东涨租的行为。文中无任何关于租金变动的信息，因此答案为NOT GIVEN。",
+              "reason": "原文无相关信息",
+              "location_analysis": "原文未提及房东涨租金。",
+              "paraphrasing": "",
+              "keywords": "rent raised, landlord",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及房东涨租的信息，无法确认该陈述为真。",
+                "FALSE": "原文未提及房东涨租的信息，无法确认该陈述为假。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Local countryside walks",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "The following walks have coloured marker posts to guide you",
+          "translation": "以下步行路线设有彩色标记柱，用于为您指引方向"
+        },
+        {
+          "index": 2,
+          "sentence": "A Grove Mill",
+          "translation": "A 格罗夫磨坊"
+        },
+        {
+          "index": 3,
+          "sentence": "Take either the yellow path or the blue path - both eventually come out at the old Water Mill and are at about the same level of difficulty.",
+          "translation": "您可以走黄色路径或蓝色路径——两者最终都会抵达古老的水磨坊，并且难度大致相当。"
+        },
+        {
+          "index": 4,
+          "sentence": "There is a shallow stream which runs alongside the yellow path.",
+          "translation": "黄色路径旁有一条浅浅的小溪流过。"
+        },
+        {
+          "index": 5,
+          "sentence": "Dogs enjoy a swim here if it's hot, and there are trees to help keep you cool while you wait.",
+          "translation": "天气炎热时，狗喜欢在这里游泳，而周围的树木也能让您在等待时保持凉爽。"
+        },
+        {
+          "index": 6,
+          "sentence": "B Blackhill Trail",
+          "translation": "B 布莱克希尔步道"
+        },
+        {
+          "index": 7,
+          "sentence": "Follow the marker posts carefully as you make your way through some dense forest.",
+          "translation": "当你穿越一片茂密的森林时，请小心跟随标记柱。"
+        },
+        {
+          "index": 8,
+          "sentence": "lf you take a wrong turn, as walkers often do, your walk could end up being a lot longer than you expected.",
+          "translation": "如果你像徒步者常做的那样拐错弯，你的徒步可能会变得比预期长得多。"
+        },
+        {
+          "index": 9,
+          "sentence": "The sun may be shining, but there is plenty of damp undergrowth, so wear a tough pair of hiking boots if you don't want your feet to get wet.",
+          "translation": "阳光可能很明媚，但地面有许多潮湿的低矮灌木，所以如果你不想弄湿双脚，就穿一双结实的登山靴。"
+        },
+        {
+          "index": 10,
+          "sentence": "It isn't advisable to take small dogs on this trail.",
+          "translation": "不建议在这条小路上带小狗。"
+        },
+        {
+          "index": 11,
+          "sentence": "C Fern way",
+          "translation": "C 蕨类小径"
+        },
+        {
+          "index": 12,
+          "sentence": "The route is winding but fairly flat and doesn't require any special footwear or equipment.",
+          "translation": "这条路蜿蜒曲折但相当平坦，不需要任何特殊鞋类或装备。"
+        },
+        {
+          "index": 13,
+          "sentence": "It is accessed by a gate with a strong bolt to keep sheep and cows in the field.",
+          "translation": "入口处有一扇带坚固门闩的大门，用于将羊和牛圈在田野里。"
+        },
+        {
+          "index": 14,
+          "sentence": "The path is lined on both sides by firs and some majestic redwoods that date back to the nineteenth century.",
+          "translation": "小路两侧种满了冷杉和一些可追溯到19世纪的宏伟红杉。"
+        },
+        {
+          "index": 15,
+          "sentence": "There are benches along the way,where you can rest and admire the beauty of the area.",
+          "translation": "沿途设有长椅，您可以在此休息并欣赏该地区的美景。"
+        },
+        {
+          "index": 16,
+          "sentence": "D Bay Red Valley",
+          "translation": "D 湾红河谷"
+        },
+        {
+          "index": 17,
+          "sentence": "Be prepared to go up and down a bit on this route.",
+          "translation": "做好准备，这条路线会有一些上下起伏。"
+        },
+        {
+          "index": 18,
+          "sentence": "The first section is uphill,then the path flattens out- but not for long, so you need to be fairly fit.",
+          "translation": "第一段是上坡，然后小路变得平坦——但不会持续太久，因此你需要相当好的体能。"
+        },
+        {
+          "index": 19,
+          "sentence": "The exercise is worth it, though, as there are some spectacular views across the valley.",
+          "translation": "不过，这番努力是值得的，因为可以欣赏到山谷对面的壮丽景色。"
+        },
+        {
+          "index": 20,
+          "sentence": "There is a viewing platform, from which you may be lucky enough to see one of the herds of deer that roam the area.",
+          "translation": "有一个观景台，你也许会幸运地看到一群在该地区漫步的鹿。"
+        },
+        {
+          "index": 21,
+          "sentence": "E Brownwater Trail",
+          "translation": "E 布朗沃特小径"
+        },
+        {
+          "index": 22,
+          "sentence": "A circular path will take you past tree and plant species from around the world that are cared for by a dedicated team of volunteers.",
+          "translation": "一条环形路径将带你经过来自世界各地的树木和植物物种，这些植物由一个专注的志愿者团队照料。"
+        },
+        {
+          "index": 23,
+          "sentence": "If you bring your dog, keep it on a lead as the smaller shrubs can be easily destroyed.",
+          "translation": "如果你带狗来，请用绳子牵着它，因为较小的灌木很容易被破坏。"
+        },
+        {
+          "index": 24,
+          "sentence": "The path itself is open and unprotected, so be sure to wear a hat or you could get sunburnt.",
+          "translation": "这条路径本身是开阔且无遮挡的，所以一定要戴帽子，否则你可能会被晒伤。"
+        },
+        {
+          "index": 25,
+          "sentence": "Poppi Properties",
+          "translation": "波比地产"
+        },
+        {
+          "index": 26,
+          "sentence": "Review by Sally Hanugoldi",
+          "translation": "莎莉·哈努戈尔迪的评论"
+        },
+        {
+          "index": 27,
+          "sentence": "l have had a terrible experience with Poppi Properties and as an ex-tenant, I advise you to go elsewhere if you want to rent or buy a property - as I have now done.",
+          "translation": "我对Poppi Properties公司有过糟糕的经历，作为前租户，我建议如果你想租房或买房，就去别处看看——就像我现在已经做的那样。"
+        },
+        {
+          "index": 28,
+          "sentence": "When I initially viewed my Poppi Properties flat, I was accompanied by Lillee Eggerton, one of the two staff who run the company.",
+          "translation": "当我初次看Poppi Properties的公寓时，是由该公司的两名员工之一Lillee Eggerton陪同的。"
+        },
+        {
+          "index": 29,
+          "sentence": "The flat was located close to the office where I have been working for the past year, so I went there before the working day had begun.",
+          "translation": "这套公寓位于过去一年我工作的办公室附近，所以我在工作日开始前去了那里。"
+        },
+        {
+          "index": 30,
+          "sentence": "I knew immediately that it was the right property for me because of the convenient location, and a few days later I paid the deposit and the first two months' rent.",
+          "translation": "因为位置便利，我立刻知道这处房产适合我，几天后我支付了押金和头两个月的租金。"
+        },
+        {
+          "index": 31,
+          "sentence": "The flat was on the 12th floor, which I admit was a surprise to me as I thought it was lower when I first read about it, but Lillee was very encouraging, and l felt confident that I was making the right choice.",
+          "translation": "公寓在12楼，我承认这让我感到意外，因为我最初看到介绍时以为楼层更低，但Lillee非常鼓励我，我相信自己做出了正确的选择。"
+        },
+        {
+          "index": 32,
+          "sentence": "At this point, she was professional and kind, but once I had moved into the property, I discovered that she was far less approachable than she had been during the viewing period and whenever I tried to contact her, she was unavailable.",
+          "translation": "那时，她专业且友善，但一旦我搬进这处房产，我发现她远不如看房期间那么平易近人，而且每当我试图联系她时，她都不在。"
+        },
+        {
+          "index": 33,
+          "sentence": "At the start of my tenancy, a number of issues were unsatisfactory in the property.",
+          "translation": "在我租期刚开始时，房产中存在一些令人不满意的问题。"
+        },
+        {
+          "index": 34,
+          "sentence": "For example, as a new tenant, you have a right to expect your flat to be clean.",
+          "translation": "例如，作为新租户，你有权期望你的公寓是干净的。"
+        },
+        {
+          "index": 35,
+          "sentence": "In fact, carpets should be professionally cleaned, but mine had not even been hoovered.",
+          "translation": "事实上，地毯本应由专业人员进行清洁，但我住的地毯甚至没有被吸尘器吸过。"
+        },
+        {
+          "index": 36,
+          "sentence": "I had hoped that this problem would be addressed quickly, but nothing happened and so I did the job myself.",
+          "translation": "我曾希望这个问题能很快得到解决，但没有任何进展，于是我自己动手做了这项工作。"
+        },
+        {
+          "index": 37,
+          "sentence": "Similarly, the oven worked when I switched it on, but it was black inside and smelt horrible.",
+          "translation": "同样地，烤箱打开时能正常工作，但内部是黑色的，而且气味难闻。"
+        },
+        {
+          "index": 38,
+          "sentence": "The company did nothing, so in the end I just avoided using the oven while I lived there.",
+          "translation": "公司没有采取任何措施，所以我最终在居住期间避免使用这个烤箱。"
+        },
+        {
+          "index": 39,
+          "sentence": "Several times, I asked to speak to the landlord directly but was told this was not possible.",
+          "translation": "有几次，我要求直接与房东谈话，但被告知这是不可能的。"
+        },
+        {
+          "index": 40,
+          "sentence": "No one should have to put up with these problems, particularly when Poppi Properties charge such high rents!",
+          "translation": "没有人应该忍受这些问题，尤其是当Poppi Properties收取如此高昂的租金时！"
+        }
+      ]
+    },
+    {
+      "id": "1893",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Procedure for making a complaint at work",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "If you have a problem or complaint at work, you might want to take this up with your employer. This is called 'raising a grievance'.",
+          "translation": "如果你在工作中遇到问题或提出投诉，你可能希望与雇主讨论此事。\n这被称为“提出申诉”。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Often the best way to sort out a problem is to request an informal meeting with your immediate manager to explain your concerns. You may find it is possible to sort the problem out in this way without having to take any further action.However, if you do not feel your problem has been solved,you may decide to raise a formal grievance. In this case you should first try to find out your company's grievance procedure. You should be able to find details of this in your Company Handbook, HR or Personnel manual, or on your company's HR intranet site.",
+          "translation": "通常，解决问题的最佳方式是请求与直属经理进行非正式会议，以解释你的担忧。\n你可能会发现，通过这种方式解决问题是可行的，无需采取进一步行动。\n然而，如果你觉得问题没有得到解决，你可以决定提出正式申诉。\n在这种情况下，你应首先尝试了解公司的申诉程序。\n你应能在公司手册、人力资源或人事手册中，或是公司的人力资源内网上找到相关细节。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "The next step will probably be to write to your employer. Explain your problem, and if you can think of a possible solution for resolving it, give details of this. When you have written your letter, check that you have written the date, and retain a copy so that you have a record of what you wrote. Your employer should arrange an initial meeting at a reasonable time and place to discuss your grievance.You are entitled to ask either a colleague from work or a trade union representative to go to the meeting with you. After the meeting, your employer should write to you, telling you what they have decided to do about your grievance.",
+          "translation": "下一步可能是写信给你的雇主。\n解释你的问题，如果你能想到可能的解决方案，请详细说明。\n写完信后，检查是否写上了日期，并保留一份副本，以便你有记录自己写的内容。\n你的雇主应安排一次初次会议，在合理的时间和地点讨论你的申诉。\n你有权邀请一位同事或工会代表与你一同参加会议。\n会议结束后，你的雇主应写信给你，告知他们针对你的申诉所做的决定。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "If you don't agree with your employer's decision, you have the right to appeal against it. This must be done in writing. A further meeting should then be called, which should be led by a more senior manager if possible. If you are still not satisfied with the decision made at this meeting, you may consider whether one way to solve the problem might be through mediation.This may be done inside the company or by an external agent. Alternatively, you can make an employment tribunal claim.You must do this no more than three months after the time when the event you are complaining about happened. If your application is received after this time limit, the tribunal will not usually accept it.",
+          "translation": "如果您不同意雇主的决定，您有权对此提出申诉。\n这必须以书面形式进行。\n随后应召集一次进一步的会议，如果可能的话，应由更高级别的经理主持。\n如果您仍然对本次会议做出的决定不满意，您可以考虑通过调解来解决问题是否是一个途径。\n这可以在公司内部进行，也可以通过外部机构进行。\n或者，您可以向就业法庭提出索赔。\n您必须在所投诉事件发生后的三个月内提出。\n如果您的申请在此时间限制之后才被收到，法庭通常不会予以受理。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Driving a taxi or private hire vehicle",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "驾驶出租车或私人租用车辆"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Taxis are an important part of any town or city's transport system. Taxis have a licence plate and roof sign that states they are a taxi.As a taxi driver, you might be booked in advance, wait on a taxi rank or pick up passengers while on the move. You could combine normal 'pick-up' jobs with prearranged contracts such as regular trips for schoolchildren or those unable to drive. You might also make longer-distance trips such as taking people to airports. The other type of passenger transport is a private hire vehicle.As a private hire driver, you can only collect passengers who have pre-booked through your operator. You cannot be flagged down in the street.",
+          "translation": "出租车是任何城镇或城市交通系统的重要组成部分。\n出租车有牌照和顶灯，表明它们是出租车。\n作为一名出租车司机，你可能会被提前预订、在出租车站等候或在行驶中接载乘客。\n你可以将常规的‘接载’工作与预先安排的合同（例如为学生或无法驾驶的人提供定期行程）结合起来。\n你也可能进行长途行程，例如送人们去机场。\n另一种类型的客运是私人租赁车辆。\n作为一名私人租赁司机，你只能接载通过你的运营商预先预订的乘客。\n你不能在街上被挥手拦车。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "When working in a taxi or private hire vehicle, you would:",
+          "translation": "当您在出租车或私人租赁车辆中工作时，您将："
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "• take job details over the radio from the operator at the office or by an in-car computer",
+          "translation": "• 通过办公室调度员的无线电或车载电脑接收工作详情"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "• help to load and unload passengers' luggage",
+          "translation": "• 协助装卸乘客的行李"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "• assist passengers with any physical conditions that make it difficult for them to get in and out of the vehicle",
+          "translation": "• 帮助那些因身体状况而难以进出车辆的乘客"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "• take payments",
+          "translation": "• 收取费用"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "• keep the vehicle clean and roadworthy",
+          "translation": "• 保持车辆清洁并处于适航状态"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "• keep accounts and records, if self-employed.",
+          "translation": "• 如果你是个体经营者，需要保留账目和记录。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Working conditions and skills",
+          "translation": "工作条件与技能"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "You would spend most of your time on the road, sometimes in heavy traffic, and you would be constantly on the move.The job allows you to choose your hours, but you will find more work in the evenings. You would work between 40 and 60 hours a week if full time. In the UK,17% of taxi drivers are employed full time,17% are employed part time and 66% are self-employed.As well as being a skilled driver, you need to be good at communicating with people and helping customers. You must be tactful when dealing with problems and have good time management and numeracy skills.",
+          "translation": "大部分时间你都会在路上，有时会遭遇交通拥堵，并且你会持续处于移动状态。\n这份工作允许你自由选择工作时间，但你会发现晚上工作量更大。\n如果全职工作，你每周需要工作40到60小时。\n在英国，17%的出租车司机全职受雇，17%兼职受雇，而66%是自雇人士。\n除了是一名熟练的司机外，你还需要善于与人沟通并帮助顾客。\n处理问题时你必须机智得体，并具备良好的时间管理和计算能力。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Requirements",
+          "translation": "要求"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "You will need a special licence from your local authority to be a taxi driver or private car hire driver. For this, you usually need to be over 21 years old, to have a clean current driving licence and to have been driving for at least 12 months. You may also need to pass a test of knowledge about the local geography. If you are using your own vehicle, it will also need a special licence.",
+          "translation": "要成为一名出租车司机或私人租车司机，你需要从当地政府获得特殊执照。\n为此，你通常需要年满21周岁，持有有效的无违章记录驾驶执照，并且驾龄至少满12个月。\n你可能还需要通过一项关于当地地理知识的测试。\n如果你使用自己的车辆，它也需要获得特殊执照。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Many employers value additional driver training which could include the Advanced Driving Test offered by the Institute of Advanced Motorists. Evidence of basic mechanical skills, such as RQF level 4, would also be welcome.",
+          "translation": "许多雇主重视额外的驾驶员培训，这可能包括由高级驾驶员协会提供的进阶驾驶考试。\n具备基本机械技能的证据（例如 RQF 4 级资格）也将受到欢迎。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13823",
+          "type": 8,
+          "title": "Raising a grievance at work",
+          "instructions": "Questions 15 - 21\nComplete the flow-chart.\nWrite ONE WORD AND/OR A NUMBER from the text in each gap.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117539",
+              "number": 15,
+              "prompt": "Ask to see your immediate manager on an _____ basis.",
+              "options": [],
+              "answer": "informal",
+              "accepted_answers": [
+                "informal"
+              ],
+              "analysis": "题干中的“Ask to see your immediate manager on an ___ basis”对应原文第二段中的“request an informal meeting with your immediate manager”。此处“on an informal basis”是对“informal meeting”的同义改写，因此答案为“informal”。",
+              "reason": "题干对应第一句的informal meeting，符合答案。",
+              "location_analysis": "原文提到request an informal meeting，空格需填informal。",
+              "paraphrasing": "on an informal basis -> request an informal meeting",
+              "keywords": "immediate manager, basis",
+              "evidence": [
+                "Often the best way to sort out a problem is to request an informal meeting with your immediate manager to explain your concerns."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117540",
+              "number": 16,
+              "prompt": "This may be in a handbook, a _____ or on an intranet site.",
+              "options": [],
+              "answer": "manual",
+              "accepted_answers": [
+                "manual"
+              ],
+              "analysis": "题干要求填写公司申诉程序可能所在的文件之一，原文第二段提到“in your Company Handbook, HR or Personnel manual, or on your company's HR intranet site”，其中“manual”是与“a”搭配的单数名词，符合语法和语境，因此答案为“manual”。",
+              "reason": "原文列举中manual是唯一单数词，与题干a匹配。",
+              "location_analysis": "原文列出Handbook、HR或Personnel manual，空格填manual。",
+              "paraphrasing": "a manual -> Personnel manual",
+              "keywords": "handbook, intranet site",
+              "evidence": [
+                "You should be able to find details of this in your Company Handbook, HR or Personnel manual, or on your company's HR intranet site."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117541",
+              "number": 17,
+              "prompt": "Write to your employer with details of your complaint. — You may also suggest a _____.",
+              "options": [],
+              "answer": "solution",
+              "accepted_answers": [
+                "solution"
+              ],
+              "analysis": "题干中“suggest a ___”对应原文第三段中的“if you can think of a possible solution for resolving it, give details of this”，说明员工可以在信中提出一个解决方案。因此，空格处应填入“solution”，与原文内容完全一致。",
+              "reason": "题干与原文对应，solution为直接答案。",
+              "location_analysis": "原文suggest a possible solution，空格填solution。",
+              "paraphrasing": "suggest a solution -> give details of a possible solution",
+              "keywords": "suggest, solution",
+              "evidence": [
+                "Explain your problem, and if you can think of a possible solution for resolving it, give details of this."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117542",
+              "number": 18,
+              "prompt": "You have the right to be accompanied by a _____ or a tradeunion representative.",
+              "options": [],
+              "answer": "colleague",
+              "accepted_answers": [
+                "colleague"
+              ],
+              "analysis": "题干中的“accompanied by a ___ or a trade union representative”对应原文第三段“ask either a colleague from work or a trade union representative to go to the meeting with you”。“colleague”是原文中明确提到的可陪同人员之一，因此答案为“colleague”。",
+              "reason": "题干accompanied by对应原文ask...to go with you。",
+              "location_analysis": "原文有权带同事或工会代表，空格填colleague。",
+              "paraphrasing": "accompanied by a colleague -> ask a colleague from work",
+              "keywords": "accompanied, trade union representative",
+              "evidence": [
+                "You are entitled to ask either a colleague from work or a trade union representative to go to the meeting with you."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117543",
+              "number": 19,
+              "prompt": "Your employer should then arrange a further meeting. Where possible, this should be led by a manager who is _____ to the previous one.",
+              "options": [],
+              "answer": "senior",
+              "accepted_answers": [
+                "senior"
+              ],
+              "analysis": "题干中“manager who is ___ to the previous one”对应原文第四段“led by a more senior manager if possible”。“senior”在此处表示职位更高，与“previous one”形成对比，因此答案为“senior”。",
+              "reason": "原文明确使用more senior，空格需填senior。",
+              "location_analysis": "原文further meeting应由more senior manager主持。",
+              "paraphrasing": "manager who is senior -> more senior manager",
+              "keywords": "led by a manager, senior",
+              "evidence": [
+                "A further meeting should then be called, which should be led by a more senior manager if possible."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117544",
+              "number": 20,
+              "prompt": "lf you are still not happy with the decision, you can — · think about the possibility of _____",
+              "options": [],
+              "answer": "mediation",
+              "accepted_answers": [
+                "mediation"
+              ],
+              "analysis": "题干中的“think about the possibility of ___”对应原文第四段“you may consider whether one way to solve the problem might be through mediation”。“mediation”是文中明确提出的一种解决方式，因此答案为“mediation”。",
+              "reason": "题干think about possibility对应原文consider...通过mediation。",
+              "location_analysis": "原文提到through mediation作为可能方案。",
+              "paraphrasing": "possibility of mediation -> problem might be through mediation",
+              "keywords": "possibility, mediation",
+              "evidence": [
+                "If you are still not satisfied with the decision made at this meeting, you may consider whether one way to solve the problem might be through mediation."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117545",
+              "number": 21,
+              "prompt": "· make an employment tribunal claim. This must be done within _____ months of the date of the event.",
+              "options": [],
+              "answer": "3",
+              "accepted_answers": [
+                "3"
+              ],
+              "analysis": "题干要求填写提出就业法庭申诉的时间限制，原文第四段明确指出“You must do this no more than three months after the time when the event... happened”，因此答案为数字“3”，表示三个月内。",
+              "reason": "原文明确three months，符合题干。",
+              "location_analysis": "原文规定三个月内提出，空格填数字3。",
+              "paraphrasing": "within 3 months -> no more than three months",
+              "keywords": "within, months",
+              "evidence": [
+                "You must do this no more than three months after the time when the event you are complaining about happened."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Ask to see your immediate manager on an $117539$ basis.\n↓\nlf not satisfied, find details of your company's grievance procedure.\nThis may be in a handbook, a $117540$ or on an intranet site.\n↓\nWrite to your employer with details of your complaint.\nYou may also suggest a $117541$.\nMake sure there is a date on your letter and keep a copy.\n↓\nYour employer should hold a meeting.\nYou have the right to be accompanied by a $117542$ or a tradeunion representative.\n↓\nYour employer should then inform you of the decision in writing.\nlf you are not happy with the decision, you can appeal in writing.\n↓\nYour employer should then arrange a further meeting. Where possible, this should be led by a manager who is $117543$ to the previous one.\n↓\nlf you are still not happy with the decision, you can\n· think about the possibility of $117544$\n· make an employment tribunal claim. This must be done within $117545$ months of the date of the event.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Ask to see your immediate manager on an $117539$ basis.\n↓\nlf not satisfied, find details of your company's grievance procedure.\nThis may be in a handbook, a $117540$ or on an intranet site.\n↓\nWrite to your employer with details of your complaint.\nYou may also suggest a $117541$.\nMake sure there is a date on your letter and keep a copy.\n↓\nYour employer should hold a meeting.\nYou have the right to be accompanied by a $117542$ or a tradeunion representative.\n↓\nYour employer should then inform you of the decision in writing.\nlf you are not happy with the decision, you can appeal in writing.\n↓\nYour employer should then arrange a further meeting. Where possible, this should be led by a manager who is $117543$ to the previous one.\n↓\nlf you are still not happy with the decision, you can\n· think about the possibility of $117544$\n· make an employment tribunal claim. This must be done within $117545$ months of the date of the event."
+        },
+        {
+          "id": "13826",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 22 - 27\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117546",
+              "number": 22,
+              "prompt": "Private hire drivers only take passengers by arrangement with an _____.",
+              "options": [],
+              "answer": "operator",
+              "accepted_answers": [
+                "operator"
+              ],
+              "analysis": "题干中的“by arrangement with an ___”对应原文第七段“As a private hire driver, you can only collect passengers who have pre-booked through your operator”。“operator”是乘客预订服务的中介方，因此答案为“operator”。",
+              "reason": "题干by arrangement with对应through your operator。",
+              "location_analysis": "原文规定只能接通过operator预定的乘客。",
+              "paraphrasing": "arrangement with an operator -> pre-booked through your operator",
+              "keywords": "private hire, operator",
+              "evidence": [
+                "As a private hire driver, you can only collect passengers who have pre-booked through your operator."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117547",
+              "number": 23,
+              "prompt": "A driver's job may involve helping those with _____ problems.",
+              "options": [],
+              "answer": "physical",
+              "accepted_answers": [
+                "physical"
+              ],
+              "analysis": "题干中的“those with ___ problems”对应原文第八段“assist passengers with any physical conditions that make it difficult for them to get in and out of the vehicle”。“physical”用来描述影响乘客行动的身体状况，因此答案为“physical”。",
+              "reason": "题干physical problems对应physical conditions。",
+              "location_analysis": "原文帮助身体条件困难的乘客。",
+              "paraphrasing": "physical problems -> physical conditions",
+              "keywords": "physical conditions, helping",
+              "evidence": [
+                "assist passengers with any physical conditions that make it difficult for them to get in and out of the vehicle"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117548",
+              "number": 24,
+              "prompt": "Working hours for drivers may vary, but the greatest demand is in the _____.",
+              "options": [],
+              "answer": "evenings",
+              "accepted_answers": [
+                "evenings"
+              ],
+              "analysis": "题干中“greatest demand is in the ___”对应原文第十段“you will find more work in the evenings”。“evenings”即晚上，是司机工作需求最大的时段，因此答案为“evenings”。",
+              "reason": "more work等同于greatest demand。",
+              "location_analysis": "原文提到晚上工作更多，即需求量最大。",
+              "paraphrasing": "greatest demand is in the evenings -> more work in the evenings",
+              "keywords": "demand, evenings",
+              "evidence": [
+                "The job allows you to choose your hours, but you will find more work in the evenings."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117549",
+              "number": 25,
+              "prompt": "The majority of drivers are _____.",
+              "options": [],
+              "answer": "self-employed",
+              "accepted_answers": [
+                "self-employed"
+              ],
+              "analysis": "题干中的“the majority of drivers are ___”对应原文第十段“66% are self-employed”。“majority”指超过一半，而66%显然属于大多数，因此答案为“self-employed”。",
+              "reason": "66%对应the majority。",
+              "location_analysis": "原文66%自雇，即为大多数。",
+              "paraphrasing": "majority are self-employed -> 66% are self-employed",
+              "keywords": "majority, self-employed",
+              "evidence": [
+                "In the UK,17% of taxi drivers are employed full time,17% are employed part time and 66% are self-employed."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117550",
+              "number": 26,
+              "prompt": "A driver needs to be familiar with the _____ of the area.",
+              "options": [],
+              "answer": "geography",
+              "accepted_answers": [
+                "geography"
+              ],
+              "analysis": "题干中“be familiar with the ___ of the area”对应原文第十一段“pass a test of knowledge about the local geography”。“geography”即地理知识，是司机必须掌握的内容，因此答案为“geography”。",
+              "reason": "题干be familiar with对应test of knowledge。",
+              "location_analysis": "原文需通过当地地理知识测试。",
+              "paraphrasing": "familiar with the geography -> test of knowledge about the local geography",
+              "keywords": "familiar with, geography",
+              "evidence": [
+                "You may also need to pass a test of knowledge about the local geography."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117551",
+              "number": 27,
+              "prompt": "lt may be useful if a driver has evidence of some _____ ability.",
+              "options": [],
+              "answer": "mechanical",
+              "accepted_answers": [
+                "mechanical"
+              ],
+              "analysis": "题干中的“evidence of some ___ ability”对应原文最后一段“Evidence of basic mechanical skills... would also be welcome”。“mechanical”修饰“skills/ability”，指机械维修方面的能力，因此答案为“mechanical”。",
+              "reason": "题干mechanical ability对应mechanical skills。",
+              "location_analysis": "原文提及basic mechanical skills为加分项。",
+              "paraphrasing": "mechanical ability -> basic mechanical skills",
+              "keywords": "mechanical ability",
+              "evidence": [
+                "Evidence of basic mechanical skills, such as RQF level 4, would also be welcome."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Private hire drivers only take passengers by arrangement with an $117546$.\nA driver's job may involve helping those with $117547$ problems.\nWorking hours for drivers may vary, but the greatest demand is in the $117548$.\nThe majority of drivers are $117549$.\nA driver needs to be familiar with the $117550$ of the area.\nlt may be useful if a driver has evidence of some $117551$ ability.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Private hire drivers only take passengers by arrangement with an $117546$.\nA driver's job may involve helping those with $117547$ problems.\nWorking hours for drivers may vary, but the greatest demand is in the $117548$.\nThe majority of drivers are $117549$.\nA driver needs to be familiar with the $117550$ of the area.\nlt may be useful if a driver has evidence of some $117551$ ability."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Procedure for making a complaint at work",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "If you have a problem or complaint at work, you might want to take this up with your employer.",
+          "translation": "如果你在工作中遇到问题或提出投诉，你可能希望与雇主讨论此事。"
+        },
+        {
+          "index": 2,
+          "sentence": "This is called 'raising a grievance'.",
+          "translation": "这被称为“提出申诉”。"
+        },
+        {
+          "index": 3,
+          "sentence": "Often the best way to sort out a problem is to request an informal meeting with your immediate manager to explain your concerns.",
+          "translation": "通常，解决问题的最佳方式是请求与直属经理进行非正式会议，以解释你的担忧。"
+        },
+        {
+          "index": 4,
+          "sentence": "You may find it is possible to sort the problem out in this way without having to take any further action.",
+          "translation": "你可能会发现，通过这种方式解决问题是可行的，无需采取进一步行动。"
+        },
+        {
+          "index": 5,
+          "sentence": "However, if you do not feel your problem has been solved, you may decide to raise a formal grievance.",
+          "translation": "然而，如果你觉得问题没有得到解决，你可以决定提出正式申诉。"
+        },
+        {
+          "index": 6,
+          "sentence": "In this case you should first try to find out your company's grievance procedure.",
+          "translation": "在这种情况下，你应首先尝试了解公司的申诉程序。"
+        },
+        {
+          "index": 7,
+          "sentence": "You should be able to find details of this in your Company Handbook, HR or Personnel manual, or on your company's HR intranet site.",
+          "translation": "你应能在公司手册、人力资源或人事手册中，或是公司的人力资源内网上找到相关细节。"
+        },
+        {
+          "index": 8,
+          "sentence": "The next step will probably be to write to your employer.",
+          "translation": "下一步可能是写信给你的雇主。"
+        },
+        {
+          "index": 9,
+          "sentence": "Explain your problem, and if you can think of a possible solution for resolving it, give details of this.",
+          "translation": "解释你的问题，如果你能想到可能的解决方案，请详细说明。"
+        },
+        {
+          "index": 10,
+          "sentence": "When you have written your letter, check that you have written the date, and retain a copy so that you have a record of what you wrote.",
+          "translation": "写完信后，检查是否写上了日期，并保留一份副本，以便你有记录自己写的内容。"
+        },
+        {
+          "index": 11,
+          "sentence": "Your employer should arrange an initial meeting at a reasonable time and place to discuss your grievance.",
+          "translation": "你的雇主应安排一次初次会议，在合理的时间和地点讨论你的申诉。"
+        },
+        {
+          "index": 12,
+          "sentence": "You are entitled to ask either a colleague from work or a trade union representative to go to the meeting with you.",
+          "translation": "你有权邀请一位同事或工会代表与你一同参加会议。"
+        },
+        {
+          "index": 13,
+          "sentence": "After the meeting, your employer should write to you, telling you what they have decided to do about your grievance.",
+          "translation": "会议结束后，你的雇主应写信给你，告知他们针对你的申诉所做的决定。"
+        },
+        {
+          "index": 14,
+          "sentence": "If you don't agree with your employer's decision, you have the right to appeal against it.",
+          "translation": "如果您不同意雇主的决定，您有权对此提出申诉。"
+        },
+        {
+          "index": 15,
+          "sentence": "This must be done in writing.",
+          "translation": "这必须以书面形式进行。"
+        },
+        {
+          "index": 16,
+          "sentence": "A further meeting should then be called, which should be led by a more senior manager if possible.",
+          "translation": "随后应召集一次进一步的会议，如果可能的话，应由更高级别的经理主持。"
+        },
+        {
+          "index": 17,
+          "sentence": "If you are still not satisfied with the decision made at this meeting, you may consider whether one way to solve the problem might be through mediation.",
+          "translation": "如果您仍然对本次会议做出的决定不满意，您可以考虑通过调解来解决问题是否是一个途径。"
+        },
+        {
+          "index": 18,
+          "sentence": "This may be done inside the company or by an external agent.",
+          "translation": "这可以在公司内部进行，也可以通过外部机构进行。"
+        },
+        {
+          "index": 19,
+          "sentence": "Alternatively, you can make an employment tribunal claim.",
+          "translation": "或者，您可以向就业法庭提出索赔。"
+        },
+        {
+          "index": 20,
+          "sentence": "You must do this no more than three months after the time when the event you are complaining about happened.",
+          "translation": "您必须在所投诉事件发生后的三个月内提出。"
+        },
+        {
+          "index": 21,
+          "sentence": "If your application is received after this time limit, the tribunal will not usually accept it.",
+          "translation": "如果您的申请在此时间限制之后才被收到，法庭通常不会予以受理。"
+        },
+        {
+          "index": 22,
+          "sentence": "Driving a taxi or private hire vehicle",
+          "translation": "驾驶出租车或私人租用车辆"
+        },
+        {
+          "index": 23,
+          "sentence": "Taxis are an important part of any town or city's transport system.",
+          "translation": "出租车是任何城镇或城市交通系统的重要组成部分。"
+        },
+        {
+          "index": 24,
+          "sentence": "Taxis have a licence plate and roof sign that states they are a taxi.",
+          "translation": "出租车有牌照和顶灯，表明它们是出租车。"
+        },
+        {
+          "index": 25,
+          "sentence": "As a taxi driver, you might be booked in advance, wait on a taxi rank or pick up passengers while on the move.",
+          "translation": "作为一名出租车司机，你可能会被提前预订、在出租车站等候或在行驶中接载乘客。"
+        },
+        {
+          "index": 26,
+          "sentence": "You could combine normal 'pick-up' jobs with prearranged contracts such as regular trips for schoolchildren or those unable to drive.",
+          "translation": "你可以将常规的‘接载’工作与预先安排的合同（例如为学生或无法驾驶的人提供定期行程）结合起来。"
+        },
+        {
+          "index": 27,
+          "sentence": "You might also make longer-distance trips such as taking people to airports.",
+          "translation": "你也可能进行长途行程，例如送人们去机场。"
+        },
+        {
+          "index": 28,
+          "sentence": "The other type of passenger transport is a private hire vehicle.",
+          "translation": "另一种类型的客运是私人租赁车辆。"
+        },
+        {
+          "index": 29,
+          "sentence": "As a private hire driver, you can only collect passengers who have pre-booked through your operator.",
+          "translation": "作为一名私人租赁司机，你只能接载通过你的运营商预先预订的乘客。"
+        },
+        {
+          "index": 30,
+          "sentence": "You cannot be flagged down in the street.",
+          "translation": "你不能在街上被挥手拦车。"
+        },
+        {
+          "index": 31,
+          "sentence": "When working in a taxi or private hire vehicle, you would:",
+          "translation": "当您在出租车或私人租赁车辆中工作时，您将："
+        },
+        {
+          "index": 32,
+          "sentence": "• take job details over the radio from the operator at the office or by an in-car computer",
+          "translation": "• 通过办公室调度员的无线电或车载电脑接收工作详情"
+        },
+        {
+          "index": 33,
+          "sentence": "• help to load and unload passengers' luggage",
+          "translation": "• 协助装卸乘客的行李"
+        },
+        {
+          "index": 34,
+          "sentence": "• assist passengers with any physical conditions that make it difficult for them to get in and out of the vehicle",
+          "translation": "• 帮助那些因身体状况而难以进出车辆的乘客"
+        },
+        {
+          "index": 35,
+          "sentence": "• take payments",
+          "translation": "• 收取费用"
+        },
+        {
+          "index": 36,
+          "sentence": "• keep the vehicle clean and roadworthy",
+          "translation": "• 保持车辆清洁并处于适航状态"
+        },
+        {
+          "index": 37,
+          "sentence": "• keep accounts and records, if self-employed.",
+          "translation": "• 如果你是个体经营者，需要保留账目和记录。"
+        },
+        {
+          "index": 38,
+          "sentence": "Working conditions and skills",
+          "translation": "工作条件与技能"
+        },
+        {
+          "index": 39,
+          "sentence": "You would spend most of your time on the road, sometimes in heavy traffic, and you would be constantly on the move.",
+          "translation": "大部分时间你都会在路上，有时会遭遇交通拥堵，并且你会持续处于移动状态。"
+        },
+        {
+          "index": 40,
+          "sentence": "The job allows you to choose your hours, but you will find more work in the evenings.",
+          "translation": "这份工作允许你自由选择工作时间，但你会发现晚上工作量更大。"
+        },
+        {
+          "index": 41,
+          "sentence": "You would work between 40 and 60 hours a week if full time.",
+          "translation": "如果全职工作，你每周需要工作40到60小时。"
+        },
+        {
+          "index": 42,
+          "sentence": "In the UK,17% of taxi drivers are employed full time,17% are employed part time and 66% are self-employed.",
+          "translation": "在英国，17%的出租车司机全职受雇，17%兼职受雇，而66%是自雇人士。"
+        },
+        {
+          "index": 43,
+          "sentence": "As well as being a skilled driver, you need to be good at communicating with people and helping customers.",
+          "translation": "除了是一名熟练的司机外，你还需要善于与人沟通并帮助顾客。"
+        },
+        {
+          "index": 44,
+          "sentence": "You must be tactful when dealing with problems and have good time management and numeracy skills.",
+          "translation": "处理问题时你必须机智得体，并具备良好的时间管理和计算能力。"
+        },
+        {
+          "index": 45,
+          "sentence": "Requirements",
+          "translation": "要求"
+        },
+        {
+          "index": 46,
+          "sentence": "You will need a special licence from your local authority to be a taxi driver or private car hire driver.",
+          "translation": "要成为一名出租车司机或私人租车司机，你需要从当地政府获得特殊执照。"
+        },
+        {
+          "index": 47,
+          "sentence": "For this, you usually need to be over 21 years old, to have a clean current driving licence and to have been driving for at least 12 months.",
+          "translation": "为此，你通常需要年满21周岁，持有有效的无违章记录驾驶执照，并且驾龄至少满12个月。"
+        },
+        {
+          "index": 48,
+          "sentence": "You may also need to pass a test of knowledge about the local geography.",
+          "translation": "你可能还需要通过一项关于当地地理知识的测试。"
+        },
+        {
+          "index": 49,
+          "sentence": "If you are using your own vehicle, it will also need a special licence.",
+          "translation": "如果你使用自己的车辆，它也需要获得特殊执照。"
+        },
+        {
+          "index": 50,
+          "sentence": "Many employers value additional driver training which could include the Advanced Driving Test offered by the Institute of Advanced Motorists.",
+          "translation": "许多雇主重视额外的驾驶员培训，这可能包括由高级驾驶员协会提供的进阶驾驶考试。"
+        },
+        {
+          "index": 51,
+          "sentence": "Evidence of basic mechanical skills, such as RQF level 4, would also be welcome.",
+          "translation": "具备基本机械技能的证据（例如 RQF 4 级资格）也将受到欢迎。"
+        }
+      ]
+    },
+    {
+      "id": "1894",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Forced rhubarb",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Rhubarb has large fan-shaped leaves and long, green edible stalks, which are commonly cooked with sugar to make pies and other desserts. One type of rhubarb is grown in the dark to produce longer, rosier stalks and this is called 'forced rhubarb'",
+          "translation": "大黄有巨大的扇形叶片和长而绿色的可食用茎秆，这些茎秆通常与糖一起烹饪，用来制作馅饼和其他甜点。\n一种大黄在黑暗中生长，以产生更长、更粉红的茎秆，这被称为‘催熟大黄’。\n标题：温室大黄"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "In the north of England, a cold winter is good news for some, and not just snowmen and woolly hat makers.According to Yorkshire farmer David Westwood, this year's forced rhubarb is the best for years. Westwood, a softly spoken Yorkshireman, should know.He's been growing and selling rhubarb for 62 years, since he started picking on the farm aged 11.His son Jonathan works on the farm too, making him the sixth generation of the Westwoods to grow the pink stems or 'petioles' as they are otherwise known.",
+          "translation": "在英格兰北部，寒冷的冬天对某些人来说是好消息，而不仅仅是雪人和羊毛帽制造商。\n据约克郡农民大卫·韦斯特伍德称，今年的催熟大黄是多年来最好的。\n韦斯特伍德，一个说话温和的约克郡人，理应了解这一点。\n他从11岁开始在农场采摘大黄，至今已种植和销售大黄62年。\n他的儿子乔纳森也在农场工作，使他成为韦斯特伍德家族种植粉色茎杆（或称为“叶柄”）的第六代传人。\n标题：温室大黄"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "We meet at his farm, a few miles from the city of Wake field, which with the cities of Bradford and Leeds form the three points of the Rhubarb Triangle, the heart of the British rhubarb industry. 'It doesn't grow as well anywhere else,' insists Westwood.He has a number of theories as to why this is. The loam soil on a clay base is perfect for the roots or 'crowns' which rhubarb grows from. In Victorian times - the mid-to-late 1800s - when rhubarb's popularity was at its peak, the local coal mines provided cheap fuel for heating the sheds, a crucial part of the forcing process,which involves depriving the plants of light as they develop.At the same time, the effluence from the industry enriched the soil for farmers.On top of that, according to Westwood, the high levels of pollution in the air would have been ideal for the rhubarb, as 'rhubarb loves soot'.",
+          "translation": "我们在距离韦克菲尔德市几英里的他的农场见面，该农场与布拉德福德市和利兹市共同构成了大黄三角区的三个顶点，这里是英国大黄产业的核心区域。\n“在其他地方，它长得没有这么好，”韦斯特伍德坚持说。\n关于为什么会这样，他有多种理论。\n黏土基层上的壤土非常适合大黄生长所需的根系或“根冠”。\n在维多利亚时代（19世纪中后期），大黄的受欢迎程度达到顶峰时，当地煤矿为加热温室提供了廉价的燃料，这是催熟过程中的关键部分，该过程包括在植物生长期间剥夺光照。\n同时，工业排放物使农民的土壤变得更加肥沃。\n此外，根据韦斯特伍德的说法，空气中高浓度的污染对大黄来说也是理想的，因为“大黄喜欢煤烟”。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Westwood's farm produces both the greenish outdoor rhubarb, the kind that grows well in gardens all over the country, and the startlingly pink forced rhubarb. It's this that is the 'cream of the crop' , the upper class of the rhubarb family. Forced rhubarb is the one that's most likely to convert rhubarb-haters who've been traumatised by harshly flavoured school pies made from green overgrown outdoor stems. The slender magenta spears,with a sherbet-tangy flavour and delicate texture,are a far cry from that coarse, bitter stuff. It's also a rare local fruit (although technically a vegetable) at a time when imports dominate, and a welcome splash of colour in the drab winter months. No wonder chefs and food writers have fallen in love with forced rhubarb all over again. It's enjoying a remarkable renaissance, for only 20years ago it was in such decline that Westwood, one of the last 12 growers left from a peak of 200, was considering abandoning it.",
+          "translation": "韦斯特伍德的农场既生产淡绿色的户外大黄，这种大黄在全国各地的花园里都能很好地生长，也生产颜色惊人的粉红色催熟大黄。\n正是后者才是“精华中的精华”，即大黄家族中的上品。\n催熟大黄最有可能改变那些因学校用绿色过老的外茎制成的味道浓烈的馅饼而遭受创伤、厌恶大黄的人的想法。\n细长的品红色茎秆，带有果汁汽水般的浓郁风味和细腻口感，与那种粗糙苦涩的东西截然不同。\n在进口产品占据主导地位的时代，它也是一种稀有的本地水果（尽管严格来说是蔬菜），并且在单调的冬季月份里增添了一抹令人欣喜的色彩。\n难怪厨师和美食作家再次爱上了催熟大黄。\n韦斯特伍德的农场既生产淡绿色的户外大黄，这种大黄在全国各地的花园中都能良好生长，也生产令人惊艳的粉红色催熟大黄。\n正是这种催熟大黄堪称“精品中的精品”，属于大黄家族的顶级品类。\n催熟大黄最有可能改变那些因学校馅饼使用粗糙过熟的绿色户外茎干而留下心理阴影的大黄厌恶者。\n这些纤细的紫红色茎干，带有果汁般的酸甜风味和细腻口感，与那种粗糙苦涩的东西截然不同。\n在进口产品占据主导的时代，它也是一种稀有的本地水果（尽管严格来说是一种蔬菜），并且在沉闷的冬季里为人们带来一抹令人欣喜的色彩。\n难怪厨师和美食作家们重新爱上了催熟大黄。\n它正经历一场显著的复兴，因为在仅仅20年前，它曾如此衰落，以至于韦斯特伍德——从鼎盛时期的200名种植者减少到仅剩的12名之一——曾考虑放弃它。\n标题：温室大黄"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "There are certainly simpler ways to grow food.First the plant roots, or crowns,are grown outside for more than two years.Then, at the start of their third winter,they are left in the ground until it is cold enough to break the crowns' dormancy.This is one of the factors that gives British rhubarb the edge over imports from the Netherlands, which arrive in the country a scene-stealing couple of weeks before the Yorkshire crop. To bring them to market that early, the Dutch crowns are fed with gibberellic acid, to replace the hormones naturally generated by a period of cold weather. Westwood is relaxed on the subject of the imported rhubarb,remarking only: 'It's good-looking all right, but the flavour's nowhere near.' Back in Yorkshire, sometime around the middle of November, the crowns are dug up,transferred to sheds with earthen floors, and watered in.The light is blocked out completely and the heating is turned on. In the warm and dark, the shoots appear so quickly that the buds can be heard gently popping. Within three weeks or so, the first round of picking, or ‘pulling' as it's known, can begin.",
+          "translation": "当然有更简单的种植食物的方法。\n首先，植物的根茎，或称冠芽，在户外生长两年以上。\n然后，在它们第三个冬天开始时，它们被留在地里，直到天气足够寒冷以打破冠芽的休眠状态。\n这是英国大黄相比荷兰进口产品具有优势的因素之一——荷兰产品比约克郡的作物早到几周，颇为抢眼。\n为了那么早上市，荷兰的冠芽被喂食赤霉酸，以替代由一段寒冷天气自然产生的激素。\n韦斯特伍德对进口大黄的态度很放松，只评论道：‘它外表确实不错，但味道差远了。'\n回到约克郡，大约在十一月中旬，冠芽被挖出，转移到有泥土地面的棚屋里，并浇水。\n光线被完全遮挡，暖气被打开。\n在温暖和黑暗中，嫩芽出现得如此之快，以至于能听到花蕾轻轻爆裂的声音。\n大约在三周内，第一轮采摘，即所谓的“拉采”，就可以开始了。\n首先，植物的根，即冠根，需要在户外生长两年多。\n然后，在它们第三个冬季开始时，它们被留在土里，直到天气足够寒冷，可以打破冠根的休眠期。\n这是英国大黄相对于从荷兰进口的大黄具有优势的因素之一，后者会比约克郡的作物提前几周抵达该国，抢尽风头。\n为了这么早就投放市场，荷兰的冠根被施用了赤霉酸，以替代由一段寒冷天气自然产生的激素。\n韦斯特伍德对进口大黄这个话题态度轻松，只评论道：‘它看起来确实不错，但味道差远了。’\n回到约克郡，大约在11月中旬，冠根被挖出，转移到有泥土地面的棚屋里，并浇水。\n在温暖和黑暗的环境中，嫩芽出现得如此之快，以至于可以听到花蕾轻轻爆裂的声音。\n大约在三周内，第一轮采摘，也就是所谓的“拉取”，就可以开始了。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "In Westwood's 1920s rhubarb sheds, it is pitch black. l slip and slide on the narrow troughs that serve as paths between the beds of rhubarb crowns. It's a relief when a team of 'pullers' arrive, all local men, some of whom have been working for Westwood for 40 years. Each carries a sturdy candle, and their pale, flickering light reveals a sea of yellow leaves stretching 40 metres to the far wall. The men walk the beds plucking the satiny stems expertly, choosing only the ones that have reached the length of an arm.Then, cradling the fuchsia pink bundles in their arms, they move on to the next patch. It's an extraordinary sight in this age of mechanised, computerised agriculture.'The pulling's done much the same way as it always has been,' Westwood says.'Electric light spoils the colour.' A labour-intensive process, it goes some way to explain the admittedly eye-watering price of the best forced rhubarb - that and the heating, now from oil or propane rather than coal.",
+          "translation": "标题：温室大黄\n我在充当大黄根茎苗床之间通道的狭窄沟槽上打滑。\n当一队“采收工”到来时，我感到松了一口气，他们都是当地人，有些人已经为韦斯特伍德工作了40年。\n每人拿着一根结实的蜡烛，他们苍白、摇曳的灯光映出一片黄色叶子的海洋，延伸40米直至远处的墙壁。\n这些人在苗床间行走，熟练地采摘柔滑的茎，只挑选那些已经长到手臂长度的。\n然后，他们怀抱紫粉色的束捆，继续走向下一片区域。\n在这个机械化、计算机化的农业时代，这真是一个非凡的景象。\n“采收的方式和以往差不多，”韦斯特伍德说。\n“电灯会破坏颜色。”\n这个劳动密集型的过程，在一定程度上解释了最佳温室大黄那公认令人瞠目的价格——还有取暖费用，现在使用油或丙烷代替了煤炭。\n在韦斯特伍德建于20世纪20年代的大黄种植棚里，一片漆黑。\n我在充当大黄根茎苗床之间通道的狭窄沟槽上滑来滑去。\n当一队“采收工”到来时，我感到如释重负，他们都是当地人，其中一些人已经为韦斯特伍德工作了40年。\n每个人带着一根结实的蜡烛，他们苍白摇曳的烛光映出一片黄色的叶子海洋，绵延40米直至远处的墙壁。\n这些人在苗床间行走，熟练地采摘光滑的茎秆，只选择那些长到手臂长度的。\n然后，他们怀抱紫粉色的茎秆束，继续走向下一块区域。\n在这个机械化、计算机化的农业时代，这是一幅非同寻常的景象。\n“采收工作几乎一直以同样的方式完成，”韦斯特伍德说。\n这个劳动密集型的过程在一定程度上解释了最好的催熟大黄那确实令人瞠目的价格——此外还有加热成本，现在是用石油或丙烷而非煤炭来加热。\n在韦斯特伍德建于20世纪20年代的大黄种植棚里，伸手不见五指。\n我在狭窄的槽沟上滑行，这些沟渠是苗床之间的小路。\n当一队“采摘工”到来时，我松了口气，他们都是本地人，其中一些人已为韦斯特伍德工作了40年。\n每人手持一根结实的蜡烛，苍白摇曳的烛光映出一片黄色叶子的海洋，一直延伸到40米外的远墙。\n工人们沿着苗床行走，熟练地采摘光滑的茎秆，只挑选那些已长到手臂长度的。\n然后，他们怀抱紫粉色的茎秆捆，走向下一块地。\n在这个机械化、计算机化的农业时代，这景象令人惊叹。\n“采摘方式几乎一直没变，”韦斯特伍德说。\n这一劳动密集型过程，加上如今使用石油或丙烷而非煤炭供暖，在一定程度上解释了最佳催熟大黄价格高昂的原因——这价格确实令人瞠目。\n在韦斯特伍德建于20世纪20年代的大黄培育棚里，一片漆黑。\n我在狭长的槽沟上滑来滑去，这些槽沟是苗床之间的小路，苗床上种着大黄的根冠。\n当一队‘采摘工’到来时，我松了一口气；他们都是当地男性，其中有些人已经为韦斯特伍德工作了40年。\n每人手持一支结实的蜡烛，他们微弱闪烁的烛光映出一片黄色的叶子海洋，绵延40米直到远处的墙壁。\n这些工人在苗床间走动，熟练地摘取光滑的茎秆，只挑选那些长到手臂长度的。\n然后，他们怀抱一束束紫粉色的茎秆，继续走向下一块区域。\n在当今机械化、计算机化的农业时代，这景象实属非凡。\n韦斯特伍德说：‘采摘工作基本和以往一样。’\n‘电灯会破坏颜色。’\n这一劳动密集型过程，在一定程度上解释了优质催熟大黄价格确实高得令人咋舌的原因——此外还有供暖，如今用油或丙烷代替了煤。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "So how was this arcane cold-dark-heat process, in use since Victorian times, discovered? Westwood's story is appealingly earthy. A gardener threw an old crown onto the horse stable muck pile.The manure was hot, and the plant was soon covered.The stable boy must have been puzzled by the startling pink spears that came pushing through the dirt a week or two later, but happily he had the good sense to gather them. Where there's muck there's money -and good eating indeed.",
+          "translation": "韦斯特伍德的故事质朴而引人入胜。\n一位园丁把一株老根茎扔到了马厩的粪堆上。\n粪肥是热的，植物很快被覆盖住了。\n马童一定对一两周后从泥土中冒出的令人惊叹的粉色嫩茎感到困惑，但幸运的是，他明智地把它们收集了起来。\n有粪就有钱——而且确实美味。\n那么，这个自维多利亚时代就开始使用的神秘的冷-暗-热过程是如何被发现的呢？\n韦斯特伍德的故事既接地气又引人入胜。\n一位园丁将一个老根茎扔到了马厩的粪堆上。\n肥料很热，植物很快就被覆盖了。\n马厩男孩一定对一两周后从泥土中冒出的惊人粉红色茎秆感到困惑，但幸运的是，他明智地将它们收集了起来。\n哪里有污秽，哪里就有财富——而且确实是美味佳肴。\n那么，这种自维多利亚时代沿用至今的奇妙冷暗热过程是如何被发现的呢？\n韦斯特伍德的故事朴实而引人入胜。\n一位园丁将一根老根茎扔到了马厩的粪堆上。\n粪肥很热，植物很快被覆盖住了。\n一两周后，马厩男孩看到惊人的粉色嫩芽从土中钻出，一定感到困惑，但幸运的是，他明智地将它们收集了起来。\n粪堆生财——而且确实美味可口。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13831",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 33\nThe text has six paragraphs.\nChoose the correct heading for each paragraph and move it into the gap.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. The extra time is worth it"
+            },
+            {
+              "value": "B",
+              "label": "B. The preferred rhubarb for consumers"
+            },
+            {
+              "value": "C",
+              "label": "C. Yorkshire's declining air quality"
+            },
+            {
+              "value": "D",
+              "label": "D. Observing the selection process"
+            },
+            {
+              "value": "E",
+              "label": "E. Suggesting a possible beginning"
+            },
+            {
+              "value": "F",
+              "label": "F. A long-standing family business"
+            },
+            {
+              "value": "G",
+              "label": "G. The best region for forced rhubarb"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1138311",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The extra time is worth it"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The preferred rhubarb for consumers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Yorkshire's declining air quality"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Observing the selection process"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Suggesting a possible beginning"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A long-standing family business"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The best region for forced rhubarb"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "第A段主要讲述Westwood家族六代人持续种植大黄的历史，从David Westwood 11岁开始至今已62年，其子Jonathan是第六代传人。这种跨越一个多世纪的家族经营，完美契合标题F“A long-standing family business”所表达的核心内容。",
+              "reason": "A段内容为长期家族生意，对应标题F",
+              "location_analysis": "A段讲述Westwood家族六代种植大黄，是家族生意。",
+              "paraphrasing": "28 -> A",
+              "keywords": "28, paragraph A, family business",
+              "evidence": [
+                "He's been growing and selling rhubarb for 62 years, since he started picking on the farm aged 11.",
+                "His son Jonathan works on the farm too, making him the sixth generation of the Westwoods to grow the pink stems or 'petioles' as they are otherwise known."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1138312",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The extra time is worth it"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The preferred rhubarb for consumers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Yorkshire's declining air quality"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Observing the selection process"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Suggesting a possible beginning"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A long-standing family business"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The best region for forced rhubarb"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "第B段聚焦于约克郡作为英国大黄产业核心区域的独特优势，包括土壤结构、维多利亚时代煤矿提供的廉价燃料、工业废水肥沃土壤以及空气污染（soot）反而有利于大黄生长等因素。这些细节共同支撑标题G“The best region for forced rhubarb”的概括。",
+              "reason": "B段强调约克郡是种植大黄的最佳区域，匹配G",
+              "location_analysis": "B段主要介绍约克郡是大黄三角核心，条件最佳。",
+              "paraphrasing": "29 -> B",
+              "keywords": "29, paragraph B, best region",
+              "evidence": [
+                "We meet at his farm, a few miles from the city of Wake field, which with the cities of Bradford and Leeds form the three points of the Rhubarb Triangle, the heart of the British rhubarb industry."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1138313",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The extra time is worth it"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The preferred rhubarb for consumers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Yorkshire's declining air quality"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Observing the selection process"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Suggesting a possible beginning"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A long-standing family business"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The best region for forced rhubarb"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "第C段强调forced rhubarb是“cream of the crop”，口感细腻、色泽艳丽，能改变人们对大黄的负面印象，并受到厨师和美食作家的青睐。这表明它是消费者更偏爱的品种，因此匹配标题B“The preferred rhubarb for consumers”。",
+              "reason": "C段说明forced rhubarb品质优异，是消费者首选，对应B",
+              "location_analysis": "C段描述forced rhubarb是cream of the crop，受厨师和美食作家喜爱...",
+              "paraphrasing": "30 -> C",
+              "keywords": "30, paragraph C, preferred rhubarb",
+              "evidence": [
+                "It's this that is the 'cream of the crop' , the upper class of the rhubarb family.",
+                "No wonder chefs and food writers have fallen in love with forced rhubarb all over again."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1138314",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The extra time is worth it"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The preferred rhubarb for consumers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Yorkshire's declining air quality"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Observing the selection process"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Suggesting a possible beginning"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A long-standing family business"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The best region for forced rhubarb"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "第D段详细描述forced rhubarb需先在户外培育两年以上，再经历寒冷打破休眠，整个过程耗时较长，但正因如此，英国产的大黄风味远胜荷兰进口产品。这种“额外时间带来品质优势”的逻辑，恰好对应标题A“The extra time is worth it”。",
+              "reason": "D段突出额外时间带来优势，匹配A标题",
+              "location_analysis": "D段强调forced rhubarb需要两年以上生长期，比荷兰进口更耗时但风味更佳。",
+              "paraphrasing": "31 -> D",
+              "keywords": "31, paragraph D, extra time",
+              "evidence": [
+                "First the plant roots, or crowns,are grown outside for more than two years.",
+                "This is one of the factors that gives British rhubarb the edge over imports from the Netherlands"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1138315",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The extra time is worth it"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The preferred rhubarb for consumers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Yorkshire's declining air quality"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Observing the selection process"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Suggesting a possible beginning"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A long-standing family business"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The best region for forced rhubarb"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "第E段生动描绘了采摘工人（pullers）在黑暗棚屋中使用蜡烛照明，仔细挑选长度达手臂的茎秆的过程，重点在于人工筛选的标准与方式。因此，标题D“Observing the selection process”准确概括了该段主旨。",
+              "reason": "E段描写采摘筛选过程，对应D标题",
+              "location_analysis": "E段描述工人采摘大黄的过程，包括使用蜡烛检查长度等。",
+              "paraphrasing": "32 -> E",
+              "keywords": "32, paragraph E, selection process",
+              "evidence": [
+                "The men walk the beds plucking the satiny stems expertly, choosing only the ones that have reached the length of an arm."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "1138316",
+              "number": 33,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. The extra time is worth it"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The preferred rhubarb for consumers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Yorkshire's declining air quality"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Observing the selection process"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Suggesting a possible beginning"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A long-standing family business"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The best region for forced rhubarb"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "第F段讲述forced rhubarb的起源故事：一位园丁无意将大黄根丢在马厩粪堆上，意外长出可食用的粉红嫩茎。这是一种推测性的历史轶事，旨在解释该种植方法可能的开端，因此对应标题E“Suggesting a possible beginning”。",
+              "reason": "F段提出可能的起源，对应E标题",
+              "location_analysis": "F段讲述forced rhubarb制作的起源故事，暗示最初是偶然发现。",
+              "paraphrasing": "33 -> F",
+              "keywords": "33, paragraph F, process discovered",
+              "evidence": [
+                "A gardener threw an old crown onto the horse stable muck pile.",
+                "The stable boy must have been puzzled by the startling pink spears that came pushing through the dirt a week or two later, but happily he had the good sense to gather them."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "13835",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 34 - 36\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117266",
+              "number": 34,
+              "prompt": "What aspect of forced rhubarb does the writer praise in Paragraph C?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "its suitability for pies"
+                },
+                {
+                  "value": "B",
+                  "label": "the smoothness of its stems"
+                },
+                {
+                  "value": "C",
+                  "label": "its superiority over other types of rhubarb"
+                },
+                {
+                  "value": "D",
+                  "label": "the number of places it can be successfully grown"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问作者在C段中称赞forced rhubarb的哪个方面。原文明确称forced rhubarb为“cream of the crop”和“rhubarb family的上层阶级”，强调其品质优于其他类型的大黄，尤其是与粗糙苦涩的户外大黄形成鲜明对比。因此，选项C“its superiority over other types of rhubarb”准确概括了这一赞美点。",
+              "reason": "C段明确赞美forced rhubarb品质最高，即优于其他品种",
+              "location_analysis": "C段称forced rhubarb为cream of the crop，优于其他大黄，故选C。",
+              "paraphrasing": "superiority over other types -> cream of the crop, upper class of the rhubarb family",
+              "keywords": "34, paragraph C, praise, forced rhubarb",
+              "evidence": [
+                "It's this that is the 'cream of the crop' , the upper class of the rhubarb family."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及forced rhubarb适合做派，此为无中生有。",
+                "B": "原文未讨论茎的顺滑度，该选项偏离原文信息。",
+                "D": "原文强调forced rhubarb对生长环境的特殊要求，而非成功种植的地点数量。"
+              }
+            },
+            {
+              "id": "117268",
+              "number": 35,
+              "prompt": "Why does the writer think forced rhubarb has become more popular among cooking experts?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "lt is cheap and easy to grow."
+                },
+                {
+                  "value": "B",
+                  "label": "lt is attractive and pleasant to eat."
+                },
+                {
+                  "value": "C",
+                  "label": "Local farmers are producing more of it."
+                },
+                {
+                  "value": "D",
+                  "label": "lmported varieties are in limited supply."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问为何烹饪专家越来越喜欢forced rhubarb。C段提到其“slender magenta spears”、“sherbet-tangy flavour”和“delicate texture”，并称其为冬日里“welcome splash of colour”，说明它既美观又美味。后文更直接指出“chefs and food writers have fallen in love with forced rhubarb all over again”，印证了选项B“attractive and pleasant to eat”是正确答案。",
+              "reason": "C段强调其美观和美味，因此受欢迎",
+              "location_analysis": "C段描述forced rhubarb外观诱人（magenta）、风味好（tangy）、色泽鲜艳...",
+              "paraphrasing": "attractive and pleasant to eat -> slender magenta spears, sherbet-tangy flavour and delicate texture, a welcome splash of colour",
+              "keywords": "35, cooking experts, popular",
+              "evidence": [
+                "The slender magenta spears,with a sherbet-tangy flavour and delicate texture,are a far cry from that coarse, bitter stuff.",
+                "No wonder chefs and food writers have fallen in love with forced rhubarb all over again."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及成本或易种植是其受欢迎的原因，属于无中生有。",
+                "C": "当地农民产量增加是结果而非原因，与题干要求不符。",
+                "D": "进口品种供应有限与原文可能提到的强迫大黄特点无关，属于信息矛盾。"
+              }
+            },
+            {
+              "id": "117269",
+              "number": 36,
+              "prompt": "ln the final paragraph, the writer suggests that forced rhubarb was first produced",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "by accident."
+                },
+                {
+                  "value": "B",
+                  "label": "as animal feed."
+                },
+                {
+                  "value": "C",
+                  "label": "through trial and error."
+                },
+                {
+                  "value": "D",
+                  "label": "while growing something else."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问forced rhubarb最初是如何被生产的。F段讲述了一位园丁将废弃的大黄根扔到马厩粪堆上，后来意外长出粉红色嫩茎，马厩男孩虽感困惑却将其采摘食用。这一过程完全是偶然发生的，并非有意试验或计划种植，因此选项A“by accident”正确反映了原文所述的起源方式。",
+              "reason": "F段描述forced rhubarb因偶然事件被发现",
+              "location_analysis": "F段讲述偶然将根扔到粪堆上，意外长出可食用的茎，说明首次生产是偶然。",
+              "paraphrasing": "by accident -> A gardener threw... The stable boy... puzzled... gathered them",
+              "keywords": "36, final paragraph, first produced",
+              "evidence": [
+                "A gardener threw an old crown onto the horse stable muck pile.",
+                "The stable boy must have been puzzled by the startling pink spears that came pushing through the dirt a week or two later, but happily he had the good sense to gather them."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文未提及大黄最初作为动物饲料的相关信息。",
+                "C": "与原文中偶然发现的描述不符，未涉及反复试验。",
+                "D": "原文未表明是在种植其他作物时产生的大黄。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13843",
+          "type": 4,
+          "title": "Growing forced rhubarb",
+          "instructions": "Questions 37 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117271",
+              "number": 37,
+              "prompt": "During November, rhubarb crowns are removed from the soil and replanted in darksheds that have plenty of heating. These conditions encourage such fast growth that the buds make a _____ sound as the pink stalks appear.",
+              "options": [],
+              "answer": "popping",
+              "accepted_answers": [
+                "popping"
+              ],
+              "analysis": "题干要求填写花蕾快速生长时发出的声音。D段明确写道：“In the warm and dark, the shoots appear so quickly that the buds can be heard gently popping.” 其中“popping”即为所描述的声音，与题干“make a... sound”完全对应，因此答案为“popping”。",
+              "reason": "题干grow so fast that buds make a pooping sound对应原文",
+              "location_analysis": "原文提及花蕾发出轻柔的爆破声，答案词为popping。",
+              "paraphrasing": "buds make a sound -> buds can be heard gently popping",
+              "keywords": "37, buds, sound, popping",
+              "evidence": [
+                "In the warm and dark, the shoots appear so quickly that the buds can be heard gently popping."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117272",
+              "number": 38,
+              "prompt": "The growing period lasts around three weeks. After that, the rhubarb can be picked by a group of people known as _____. They use a _____ to inspect the stems and to make sure they are as long as a human _____, before handling them with expert skill.",
+              "options": [],
+              "answer": "pullers",
+              "accepted_answers": [
+                "pullers"
+              ],
+              "analysis": "题干要求填写采摘大黄的工人的称呼。E段提到：“It's a relief when a team of 'pullers' arrive...”，并说明他们“plucking the satiny stems expertly”，其中“pullers”是文中对这群采摘者的专有称呼，且动词“pulling”也在前文出现过，因此答案为“pullers”。",
+              "reason": "题干...people known as pullers，原文直接出现pullers",
+              "location_analysis": "E段首句提到a team of 'pullers'，pullers是专业采摘工人称呼。",
+              "paraphrasing": "picked by a group of people known as -> a team of 'pullers' arrive",
+              "keywords": "38, people known as, pullers",
+              "evidence": [
+                "It's a relief when a team of 'pullers' arrive, all local men, some of whom have been working for Westwood for 40 years."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117273",
+              "number": 39,
+              "prompt": "The growing period lasts around three weeks. After that, the rhubarb can be picked by a group of people known as _____. They use a _____ to inspect the stems and to make sure they are as long as a human _____, before handling them with expert skill.",
+              "options": [],
+              "answer": "candle",
+              "accepted_answers": [
+                "candle"
+              ],
+              "analysis": "题干问采摘者用什么工具检查茎秆。E段指出：“Each carries a sturdy candle, and their pale, flickering light reveals a sea of yellow leaves...”，说明他们依靠蜡烛照明来观察茎秆状态，因此答案为“candle”，符合“ONE WORD ONLY”的要求。",
+              "reason": "题干use a candle to inspect stems，原文有candle",
+              "location_analysis": "E段提到每个拔蔗者带一支蜡烛用于照明检查。",
+              "paraphrasing": "use a candle to inspect -> Each carries a sturdy candle",
+              "keywords": "39, use a, candle, inspect",
+              "evidence": [
+                "Each carries a sturdy candle, and their pale, flickering light reveals a sea of yellow leaves stretching 40 metres to the far wall."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117274",
+              "number": 40,
+              "prompt": "The growing period lasts around three weeks. After that, the rhubarb can be picked by a group of people known as _____. They use a _____ to inspect the stems and to make sure they are as long as a human _____, before handling them with expert skill.",
+              "options": [],
+              "answer": "arm",
+              "accepted_answers": [
+                "arm"
+              ],
+              "analysis": "题干要求填写茎秆需达到的人体部位长度。E段明确说采摘者“choosing only the ones that have reached the length of an arm”，即只挑选长度达到一只手臂的茎秆，因此答案为“arm”，与题干“as long as a human...”形成同义对应。",
+              "reason": "题干as long as a human arm对应the length of an arm",
+              "location_analysis": "E段描述茎需达到手臂长度时才采摘。",
+              "paraphrasing": "long as a human arm -> the length of an arm",
+              "keywords": "40, long as a human, arm",
+              "evidence": [
+                "The men walk the beds plucking the satiny stems expertly, choosing only the ones that have reached the length of an arm."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "During November, rhubarb crowns are removed from the soil and replanted in darksheds that have plenty of heating. These conditions encourage such fast growth that the buds make a $117271$ sound as the pink stalks appear.\nThe growing period lasts around three weeks. After that, the rhubarb can be picked by a group of people known as $117272$. They use a $117273$ to inspect the stems and to make sure they are as long as a human $117274$, before handling them with expert skill.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "During November, rhubarb crowns are removed from the soil and replanted in darksheds that have plenty of heating. These conditions encourage such fast growth that the buds make a $117271$ sound as the pink stalks appear.\nThe growing period lasts around three weeks. After that, the rhubarb can be picked by a group of people known as $117272$. They use a $117273$ to inspect the stems and to make sure they are as long as a human $117274$, before handling them with expert skill."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Forced rhubarb",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Rhubarb has large fan-shaped leaves and long, green edible stalks, which are commonly cooked with sugar to make pies and other desserts.",
+          "translation": "大黄有巨大的扇形叶片和长而绿色的可食用茎秆，这些茎秆通常与糖一起烹饪，用来制作馅饼和其他甜点。"
+        },
+        {
+          "index": 2,
+          "sentence": "One type of rhubarb is grown in the dark to produce longer, rosier stalks and this is called 'forced rhubarb'",
+          "translation": "一种大黄在黑暗中生长，以产生更长、更粉红的茎秆，这被称为‘催熟大黄’。"
+        },
+        {
+          "index": 4,
+          "sentence": "28",
+          "translation": "28"
+        },
+        {
+          "index": 5,
+          "sentence": "28",
+          "translation": "28"
+        },
+        {
+          "index": 6,
+          "sentence": "In the north of England, a cold winter is good news for some, and not just snowmen and woolly hat makers.",
+          "translation": "在英格兰北部，寒冷的冬天对某些人来说是好消息，而不仅仅是雪人和羊毛帽制造商。"
+        },
+        {
+          "index": 7,
+          "sentence": "According to Yorkshire farmer David Westwood, this year's forced rhubarb is the best for years.",
+          "translation": "据约克郡农民大卫·韦斯特伍德称，今年的催熟大黄是多年来最好的。"
+        },
+        {
+          "index": 8,
+          "sentence": "Westwood, a softly spoken Yorkshireman, should know.",
+          "translation": "韦斯特伍德，一个说话温和的约克郡人，理应了解这一点。"
+        },
+        {
+          "index": 9,
+          "sentence": "He's been growing and selling rhubarb for 62 years, since he started picking on the farm aged 11.",
+          "translation": "他从11岁开始在农场采摘大黄，至今已种植和销售大黄62年。"
+        },
+        {
+          "index": 10,
+          "sentence": "His son Jonathan works on the farm too, making him the sixth generation of the Westwoods to grow the pink stems or 'petioles' as they are otherwise known.",
+          "translation": "他的儿子乔纳森也在农场工作，使他成为韦斯特伍德家族种植粉色茎杆（或称为“叶柄”）的第六代传人。"
+        },
+        {
+          "index": 12,
+          "sentence": "29",
+          "translation": "29"
+        },
+        {
+          "index": 13,
+          "sentence": "29",
+          "translation": "29"
+        },
+        {
+          "index": 14,
+          "sentence": "We meet at his farm, a few miles from the city of Wake field, which with the cities of Bradford and Leeds form the three points of the Rhubarb Triangle, the heart of the British rhubarb industry.",
+          "translation": "我们在距离韦克菲尔德市几英里的他的农场见面，该农场与布拉德福德市和利兹市共同构成了大黄三角区的三个顶点，这里是英国大黄产业的核心区域。"
+        },
+        {
+          "index": 15,
+          "sentence": "'It doesn't grow as well anywhere else,' insists Westwood.",
+          "translation": "“在其他地方，它长得没有这么好，”韦斯特伍德坚持说。"
+        },
+        {
+          "index": 16,
+          "sentence": "He has a number of theories as to why this is.",
+          "translation": "关于为什么会这样，他有多种理论。"
+        },
+        {
+          "index": 17,
+          "sentence": "The loam soil on a clay base is perfect for the roots or 'crowns' which rhubarb grows from.",
+          "translation": "黏土基层上的壤土非常适合大黄生长所需的根系或“根冠”。"
+        },
+        {
+          "index": 18,
+          "sentence": "In Victorian times - the mid-to-late 1800s - when rhubarb's popularity was at its peak, the local coal mines provided cheap fuel for heating the sheds, a crucial part of the forcing process, which involves depriving the plants of light as they develop.",
+          "translation": "在维多利亚时代（19世纪中后期），大黄的受欢迎程度达到顶峰时，当地煤矿为加热温室提供了廉价的燃料，这是催熟过程中的关键部分，该过程包括在植物生长期间剥夺光照。"
+        },
+        {
+          "index": 19,
+          "sentence": "At the same time, the effluence from the industry enriched the soil for farmers.",
+          "translation": "同时，工业排放物使农民的土壤变得更加肥沃。"
+        },
+        {
+          "index": 20,
+          "sentence": "On top of that, according to Westwood, the high levels of pollution in the air would have been ideal for the rhubarb, as 'rhubarb loves soot'.",
+          "translation": "此外，根据韦斯特伍德的说法，空气中高浓度的污染对大黄来说也是理想的，因为“大黄喜欢煤烟”。"
+        },
+        {
+          "index": 22,
+          "sentence": "Westwood's farm produces both the greenish outdoor rhubarb, the kind that grows well in gardens all over the country, and the startlingly pink forced rhubarb.",
+          "translation": "韦斯特伍德的农场既生产淡绿色的户外大黄，这种大黄在全国各地的花园里都能很好地生长，也生产颜色惊人的粉红色催熟大黄。"
+        },
+        {
+          "index": 23,
+          "sentence": "It's this that is the 'cream of the crop', the upper class of the rhubarb family.",
+          "translation": "正是后者才是“精华中的精华”，即大黄家族中的上品。"
+        },
+        {
+          "index": 24,
+          "sentence": "Forced rhubarb is the one that's most likely to convert rhubarb-haters who've been traumatised by harshly flavoured school pies made from green overgrown outdoor stems.",
+          "translation": "催熟大黄最有可能改变那些因学校用绿色过老的外茎制成的味道浓烈的馅饼而遭受创伤、厌恶大黄的人的想法。"
+        },
+        {
+          "index": 25,
+          "sentence": "The slender magenta spears, with a sherbet-tangy flavour and delicate texture, are a far cry from that coarse, bitter stuff.",
+          "translation": "细长的品红色茎秆，带有果汁汽水般的浓郁风味和细腻口感，与那种粗糙苦涩的东西截然不同。"
+        },
+        {
+          "index": 26,
+          "sentence": "It's also a rare local fruit (although technically a vegetable) at a time when imports dominate, and a welcome splash of colour in the drab winter months.",
+          "translation": "在进口产品占据主导地位的时代，它也是一种稀有的本地水果（尽管严格来说是蔬菜），并且在单调的冬季月份里增添了一抹令人欣喜的色彩。"
+        },
+        {
+          "index": 27,
+          "sentence": "No wonder chefs and food writers have fallen in love with forced rhubarb all over again.",
+          "translation": "难怪厨师和美食作家再次爱上了催熟大黄。"
+        },
+        {
+          "index": 28,
+          "sentence": "It's enjoying a remarkable renaissance, for only 20 years ago it was in such decline that Westwood, one of the last 12 growers left from a peak of 200, was considering abandoning it.",
+          "translation": "它正经历一场显著的复兴，因为仅在20年前，它还处于如此衰落的状态，以至于韦斯特伍德——从200名种植者的高峰时期仅剩的最后12名种植者之一——曾考虑放弃它。"
+        },
+        {
+          "index": 29,
+          "sentence": "30",
+          "translation": "30"
+        },
+        {
+          "index": 30,
+          "sentence": "Westwood's farm produces both the greenish outdoor rhubarb, the kind that grows well in gardens all over the country, and the startlingly pink forced rhubarb.",
+          "translation": "韦斯特伍德的农场既生产淡绿色的户外大黄，这种大黄在全国各地的花园中都能良好生长，也生产令人惊艳的粉红色催熟大黄。"
+        },
+        {
+          "index": 31,
+          "sentence": "It's this that is the 'cream of the crop', the upper class of the rhubarb family.",
+          "translation": "正是这种催熟大黄堪称“精品中的精品”，属于大黄家族的顶级品类。"
+        },
+        {
+          "index": 32,
+          "sentence": "Forced rhubarb is the one that's most likely to convert rhubarb-haters who've been traumatised by harshly flavoured school pies made from green overgrown outdoor stems.",
+          "translation": "催熟大黄最有可能改变那些因学校馅饼使用粗糙过熟的绿色户外茎干而留下心理阴影的大黄厌恶者。"
+        },
+        {
+          "index": 33,
+          "sentence": "The slender magenta spears,with a sherbet-tangy flavour and delicate texture,are a far cry from that coarse, bitter stuff.",
+          "translation": "这些纤细的紫红色茎干，带有果汁般的酸甜风味和细腻口感，与那种粗糙苦涩的东西截然不同。"
+        },
+        {
+          "index": 34,
+          "sentence": "It's also a rare local fruit (although technically a vegetable) at a time when imports dominate, and a welcome splash of colour in the drab winter months.",
+          "translation": "在进口产品占据主导的时代，它也是一种稀有的本地水果（尽管严格来说是一种蔬菜），并且在沉闷的冬季里为人们带来一抹令人欣喜的色彩。"
+        },
+        {
+          "index": 35,
+          "sentence": "No wonder chefs and food writers have fallen in love with forced rhubarb all over again.",
+          "translation": "难怪厨师和美食作家们重新爱上了催熟大黄。"
+        },
+        {
+          "index": 36,
+          "sentence": "It's enjoying a remarkable renaissance, for only 20years ago it was in such decline that Westwood, one of the last 12 growers left from a peak of 200, was considering abandoning it.",
+          "translation": "它正经历一场显著的复兴，因为在仅仅20年前，它曾如此衰落，以至于韦斯特伍德——从鼎盛时期的200名种植者减少到仅剩的12名之一——曾考虑放弃它。"
+        },
+        {
+          "index": 38,
+          "sentence": "There are certainly simpler ways to grow food.",
+          "translation": "当然有更简单的种植食物的方法。"
+        },
+        {
+          "index": 39,
+          "sentence": "First the plant roots, or crowns, are grown outside for more than two years.",
+          "translation": "首先，植物的根茎，或称冠芽，在户外生长两年以上。"
+        },
+        {
+          "index": 40,
+          "sentence": "Then, at the start of their third winter, they are left in the ground until it is cold enough to break the crowns' dormancy.",
+          "translation": "然后，在它们第三个冬天开始时，它们被留在地里，直到天气足够寒冷以打破冠芽的休眠状态。"
+        },
+        {
+          "index": 41,
+          "sentence": "This is one of the factors that gives British rhubarb the edge over imports from the Netherlands, which arrive in the country a scene-stealing couple of weeks before the Yorkshire crop.",
+          "translation": "这是英国大黄相比荷兰进口产品具有优势的因素之一——荷兰产品比约克郡的作物早到几周，颇为抢眼。"
+        },
+        {
+          "index": 42,
+          "sentence": "To bring them to market that early, the Dutch crowns are fed with gibberellic acid, to replace the hormones naturally generated by a period of cold weather.",
+          "translation": "为了那么早上市，荷兰的冠芽被喂食赤霉酸，以替代由一段寒冷天气自然产生的激素。"
+        },
+        {
+          "index": 43,
+          "sentence": "Westwood is relaxed on the subject of the imported rhubarb, remarking only: 'It's good-looking all right, but the flavour's nowhere near.'",
+          "translation": "韦斯特伍德对进口大黄的态度很放松，只评论道：‘它外表确实不错，但味道差远了。'"
+        },
+        {
+          "index": 44,
+          "sentence": "Back in Yorkshire, sometime around the middle of November, the crowns are dug up, transferred to sheds with earthen floors, and watered in.",
+          "translation": "回到约克郡，大约在十一月中旬，冠芽被挖出，转移到有泥土地面的棚屋里，并浇水。"
+        },
+        {
+          "index": 45,
+          "sentence": "The light is blocked out completely and the heating is turned on.",
+          "translation": "光线被完全遮挡，暖气被打开。"
+        },
+        {
+          "index": 46,
+          "sentence": "In the warm and dark, the shoots appear so quickly that the buds can be heard gently popping.",
+          "translation": "在温暖和黑暗中，嫩芽出现得如此之快，以至于能听到花蕾轻轻爆裂的声音。"
+        },
+        {
+          "index": 47,
+          "sentence": "Within three weeks or so, the first round of picking, or ‘pulling' as it's known, can begin.",
+          "translation": "大约在三周内，第一轮采摘，即所谓的“拉采”，就可以开始了。"
+        },
+        {
+          "index": 48,
+          "sentence": "31",
+          "translation": "31"
+        },
+        {
+          "index": 49,
+          "sentence": "There are certainly simpler ways to grow food.",
+          "translation": "当然有更简单的种植食物的方法。"
+        },
+        {
+          "index": 50,
+          "sentence": "First the plant roots, or crowns, are grown outside for more than two years.",
+          "translation": "首先，植物的根，即冠根，需要在户外生长两年多。"
+        },
+        {
+          "index": 51,
+          "sentence": "Then, at the start of their third winter, they are left in the ground until it is cold enough to break the crowns' dormancy.",
+          "translation": "然后，在它们第三个冬季开始时，它们被留在土里，直到天气足够寒冷，可以打破冠根的休眠期。"
+        },
+        {
+          "index": 52,
+          "sentence": "This is one of the factors that gives British rhubarb the edge over imports from the Netherlands, which arrive in the country a scene-stealing couple of weeks before the Yorkshire crop.",
+          "translation": "这是英国大黄相对于从荷兰进口的大黄具有优势的因素之一，后者会比约克郡的作物提前几周抵达该国，抢尽风头。"
+        },
+        {
+          "index": 53,
+          "sentence": "To bring them to market that early, the Dutch crowns are fed with gibberellic acid, to replace the hormones naturally generated by a period of cold weather.",
+          "translation": "为了这么早就投放市场，荷兰的冠根被施用了赤霉酸，以替代由一段寒冷天气自然产生的激素。"
+        },
+        {
+          "index": 54,
+          "sentence": "Westwood is relaxed on the subject of the imported rhubarb, remarking only: 'It's good-looking all right, but the flavour's nowhere near.'",
+          "translation": "韦斯特伍德对进口大黄这个话题态度轻松，只评论道：‘它看起来确实不错，但味道差远了。’"
+        },
+        {
+          "index": 55,
+          "sentence": "Back in Yorkshire, sometime around the middle of November, the crowns are dug up, transferred to sheds with earthen floors, and watered in.",
+          "translation": "回到约克郡，大约在11月中旬，冠根被挖出，转移到有泥土地面的棚屋里，并浇水。"
+        },
+        {
+          "index": 56,
+          "sentence": "The light is blocked out completely and the heating is turned on.",
+          "translation": "光线被完全遮挡，暖气被打开。"
+        },
+        {
+          "index": 57,
+          "sentence": "In the warm and dark, the shoots appear so quickly that the buds can be heard gently popping.",
+          "translation": "在温暖和黑暗的环境中，嫩芽出现得如此之快，以至于可以听到花蕾轻轻爆裂的声音。"
+        },
+        {
+          "index": 58,
+          "sentence": "Within three weeks or so, the first round of picking, or 'pulling' as it's known, can begin.",
+          "translation": "大约在三周内，第一轮采摘，也就是所谓的“拉取”，就可以开始了。"
+        },
+        {
+          "index": 59,
+          "sentence": "标题：Forced rhubarb",
+          "translation": "标题：温室大黄"
+        },
+        {
+          "index": 61,
+          "sentence": "后文：",
+          "translation": "后文："
+        },
+        {
+          "index": 62,
+          "sentence": "1. 32",
+          "translation": "1. 32"
+        },
+        {
+          "index": 63,
+          "sentence": "2. 32",
+          "translation": "2. 32"
+        },
+        {
+          "index": 64,
+          "sentence": "3. In Westwood's 1920s rhubarb sheds, it is pitch black.",
+          "translation": "在韦斯特伍德建于20世纪20年代的大黄温室里，一片漆黑。"
+        },
+        {
+          "index": 65,
+          "sentence": "l slip and slide on the narrow troughs that serve as paths between the beds of rhubarb crowns.",
+          "translation": "我在充当大黄根茎苗床之间通道的狭窄沟槽上打滑。"
+        },
+        {
+          "index": 66,
+          "sentence": "It's a relief when a team of 'pullers' arrive, all local men, some of whom have been working for Westwood for 40 years.",
+          "translation": "当一队“采收工”到来时，我感到松了一口气，他们都是当地人，有些人已经为韦斯特伍德工作了40年。"
+        },
+        {
+          "index": 67,
+          "sentence": "Each carries a sturdy candle, and their pale, flickering light reveals a sea of yellow leaves stretching 40 metres to the far wall.",
+          "translation": "每人拿着一根结实的蜡烛，他们苍白、摇曳的灯光映出一片黄色叶子的海洋，延伸40米直至远处的墙壁。"
+        },
+        {
+          "index": 68,
+          "sentence": "The men walk the beds plucking the satiny stems expertly, choosing only the ones that have reached the length of an arm.",
+          "translation": "这些人在苗床间行走，熟练地采摘柔滑的茎，只挑选那些已经长到手臂长度的。"
+        },
+        {
+          "index": 69,
+          "sentence": "Then, cradling the fuchsia pink bundles in their arms, they move on to the next patch.",
+          "translation": "然后，他们怀抱紫粉色的束捆，继续走向下一片区域。"
+        },
+        {
+          "index": 70,
+          "sentence": "It's an extraordinary sight in this age of mechanised, computerised agriculture.",
+          "translation": "在这个机械化、计算机化的农业时代，这真是一个非凡的景象。"
+        },
+        {
+          "index": 71,
+          "sentence": "'The pulling's done much the same way as it always has been,' Westwood says.",
+          "translation": "“采收的方式和以往差不多，”韦斯特伍德说。"
+        },
+        {
+          "index": 72,
+          "sentence": "'Electric light spoils the colour.'",
+          "translation": "“电灯会破坏颜色。”"
+        },
+        {
+          "index": 73,
+          "sentence": "A labour-intensive process, it goes some way to explain the admittedly eye-watering price of the best forced rhubarb - that and the heating, now from oil or propane rather than coal.",
+          "translation": "这个劳动密集型的过程，在一定程度上解释了最佳温室大黄那公认令人瞠目的价格——还有取暖费用，现在使用油或丙烷代替了煤炭。"
+        },
+        {
+          "index": 74,
+          "sentence": "4. F",
+          "translation": "4. F"
+        },
+        {
+          "index": 75,
+          "sentence": "5. 33",
+          "translation": "5. 33"
+        },
+        {
+          "index": 76,
+          "sentence": "6. 33",
+          "translation": "6. 33"
+        },
+        {
+          "index": 77,
+          "sentence": "7. So how was this arcane cold-dark-heat process, in use since Victorian times, discovered?",
+          "translation": "那么，这个自维多利亚时代就开始使用的神秘的冷-暗-热过程是如何被发现的呢？"
+        },
+        {
+          "index": 78,
+          "sentence": "Westwood's story is appealingly earthy.",
+          "translation": "韦斯特伍德的故事质朴而引人入胜。"
+        },
+        {
+          "index": 79,
+          "sentence": "A gardener threw an old crown onto the horse stable muck pile.",
+          "translation": "一位园丁把一株老根茎扔到了马厩的粪堆上。"
+        },
+        {
+          "index": 80,
+          "sentence": "The manure was hot, and the plant was soon covered.",
+          "translation": "粪肥是热的，植物很快被覆盖住了。"
+        },
+        {
+          "index": 81,
+          "sentence": "The stable boy must have been puzzled by the startling pink spears that came pushing through the dirt a week or two later, but happily he had the good sense to gather them.",
+          "translation": "马童一定对一两周后从泥土中冒出的令人惊叹的粉色嫩茎感到困惑，但幸运的是，他明智地把它们收集了起来。"
+        },
+        {
+          "index": 82,
+          "sentence": "Where there's muck there's money -and good eating indeed.",
+          "translation": "有粪就有钱——而且确实美味。"
+        },
+        {
+          "index": 83,
+          "sentence": "In Westwood's 1920s rhubarb sheds, it is pitch black.",
+          "translation": "在韦斯特伍德建于20世纪20年代的大黄种植棚里，一片漆黑。"
+        },
+        {
+          "index": 84,
+          "sentence": "l slip and slide on the narrow troughs that serve as paths between the beds of rhubarb crowns.",
+          "translation": "我在充当大黄根茎苗床之间通道的狭窄沟槽上滑来滑去。"
+        },
+        {
+          "index": 85,
+          "sentence": "It's a relief when a team of 'pullers' arrive, all local men, some of whom have been working for Westwood for 40 years.",
+          "translation": "当一队“采收工”到来时，我感到如释重负，他们都是当地人，其中一些人已经为韦斯特伍德工作了40年。"
+        },
+        {
+          "index": 86,
+          "sentence": "Each carries a sturdy candle, and their pale, flickering light reveals a sea of yellow leaves stretching 40 metres to the far wall.",
+          "translation": "每个人带着一根结实的蜡烛，他们苍白摇曳的烛光映出一片黄色的叶子海洋，绵延40米直至远处的墙壁。"
+        },
+        {
+          "index": 87,
+          "sentence": "The men walk the beds plucking the satiny stems expertly, choosing only the ones that have reached the length of an arm.",
+          "translation": "这些人在苗床间行走，熟练地采摘光滑的茎秆，只选择那些长到手臂长度的。"
+        },
+        {
+          "index": 88,
+          "sentence": "Then, cradling the fuchsia pink bundles in their arms, they move on to the next patch.",
+          "translation": "然后，他们怀抱紫粉色的茎秆束，继续走向下一块区域。"
+        },
+        {
+          "index": 89,
+          "sentence": "It's an extraordinary sight in this age of mechanised, computerised agriculture.",
+          "translation": "在这个机械化、计算机化的农业时代，这是一幅非同寻常的景象。"
+        },
+        {
+          "index": 90,
+          "sentence": "'The pulling's done much the same way as it always has been,' Westwood says.",
+          "translation": "“采收工作几乎一直以同样的方式完成，”韦斯特伍德说。"
+        },
+        {
+          "index": 91,
+          "sentence": "'Electric light spoils the colour.'",
+          "translation": "“电灯会破坏颜色。”"
+        },
+        {
+          "index": 92,
+          "sentence": "A labour-intensive process, it goes some way to explain the admittedly eye-watering price of the best forced rhubarb - that and the heating, now from oil or propane rather than coal.",
+          "translation": "这个劳动密集型的过程在一定程度上解释了最好的催熟大黄那确实令人瞠目的价格——此外还有加热成本，现在是用石油或丙烷而非煤炭来加热。"
+        },
+        {
+          "index": 93,
+          "sentence": "In Westwood's 1920s rhubarb sheds, it is pitch black.",
+          "translation": "在韦斯特伍德建于20世纪20年代的大黄种植棚里，伸手不见五指。"
+        },
+        {
+          "index": 94,
+          "sentence": "l slip and slide on the narrow troughs that serve as paths between the beds of rhubarb crowns.",
+          "translation": "我在狭窄的槽沟上滑行，这些沟渠是苗床之间的小路。"
+        },
+        {
+          "index": 95,
+          "sentence": "It's a relief when a team of 'pullers' arrive, all local men, some of whom have been working for Westwood for 40 years.",
+          "translation": "当一队“采摘工”到来时，我松了口气，他们都是本地人，其中一些人已为韦斯特伍德工作了40年。"
+        },
+        {
+          "index": 96,
+          "sentence": "Each carries a sturdy candle, and their pale, flickering light reveals a sea of yellow leaves stretching 40 metres to the far wall.",
+          "translation": "每人手持一根结实的蜡烛，苍白摇曳的烛光映出一片黄色叶子的海洋，一直延伸到40米外的远墙。"
+        },
+        {
+          "index": 97,
+          "sentence": "The men walk the beds plucking the satiny stems expertly, choosing only the ones that have reached the length of an arm.",
+          "translation": "工人们沿着苗床行走，熟练地采摘光滑的茎秆，只挑选那些已长到手臂长度的。"
+        },
+        {
+          "index": 98,
+          "sentence": "Then, cradling the fuchsia pink bundles in their arms, they move on to the next patch.",
+          "translation": "然后，他们怀抱紫粉色的茎秆捆，走向下一块地。"
+        },
+        {
+          "index": 99,
+          "sentence": "It's an extraordinary sight in this age of mechanised, computerised agriculture.",
+          "translation": "在这个机械化、计算机化的农业时代，这景象令人惊叹。"
+        },
+        {
+          "index": 100,
+          "sentence": "'The pulling's done much the same way as it always has been,' Westwood says.",
+          "translation": "“采摘方式几乎一直没变，”韦斯特伍德说。"
+        },
+        {
+          "index": 101,
+          "sentence": "'Electric light spoils the colour.'",
+          "translation": "“电灯会破坏颜色。”"
+        },
+        {
+          "index": 102,
+          "sentence": "A labour-intensive process, it goes some way to explain the admittedly eye-watering price of the best forced rhubarb - that and the heating, now from oil or propane rather than coal.",
+          "translation": "这一劳动密集型过程，加上如今使用石油或丙烷而非煤炭供暖，在一定程度上解释了最佳催熟大黄价格高昂的原因——这价格确实令人瞠目。"
+        },
+        {
+          "index": 103,
+          "sentence": "In Westwood's 1920s rhubarb sheds, it is pitch black.",
+          "translation": "在韦斯特伍德建于20世纪20年代的大黄培育棚里，一片漆黑。"
+        },
+        {
+          "index": 104,
+          "sentence": "l slip and slide on the narrow troughs that serve as paths between the beds of rhubarb crowns.",
+          "translation": "我在狭长的槽沟上滑来滑去，这些槽沟是苗床之间的小路，苗床上种着大黄的根冠。"
+        },
+        {
+          "index": 105,
+          "sentence": "It's a relief when a team of 'pullers' arrive, all local men, some of whom have been working for Westwood for 40 years.",
+          "translation": "当一队‘采摘工’到来时，我松了一口气；他们都是当地男性，其中有些人已经为韦斯特伍德工作了40年。"
+        },
+        {
+          "index": 106,
+          "sentence": "Each carries a sturdy candle, and their pale, flickering light reveals a sea of yellow leaves stretching 40 metres to the far wall.",
+          "translation": "每人手持一支结实的蜡烛，他们微弱闪烁的烛光映出一片黄色的叶子海洋，绵延40米直到远处的墙壁。"
+        },
+        {
+          "index": 107,
+          "sentence": "The men walk the beds plucking the satiny stems expertly, choosing only the ones that have reached the length of an arm.",
+          "translation": "这些工人在苗床间走动，熟练地摘取光滑的茎秆，只挑选那些长到手臂长度的。"
+        },
+        {
+          "index": 108,
+          "sentence": "Then, cradling the fuchsia pink bundles in their arms, they move on to the next patch.",
+          "translation": "然后，他们怀抱一束束紫粉色的茎秆，继续走向下一块区域。"
+        },
+        {
+          "index": 109,
+          "sentence": "It's an extraordinary sight in this age of mechanised, computerised agriculture.",
+          "translation": "在当今机械化、计算机化的农业时代，这景象实属非凡。"
+        },
+        {
+          "index": 110,
+          "sentence": "'The pulling's done much the same way as it always has been,' Westwood says.",
+          "translation": "韦斯特伍德说：‘采摘工作基本和以往一样。’"
+        },
+        {
+          "index": 111,
+          "sentence": "'Electric light spoils the colour.'",
+          "translation": "‘电灯会破坏颜色。’"
+        },
+        {
+          "index": 112,
+          "sentence": "A labour-intensive process, it goes some way to explain the admittedly eye-watering price of the best forced rhubarb - that and the heating, now from oil or propane rather than coal.",
+          "translation": "这一劳动密集型过程，在一定程度上解释了优质催熟大黄价格确实高得令人咋舌的原因——此外还有供暖，如今用油或丙烷代替了煤。"
+        },
+        {
+          "index": 114,
+          "sentence": "So how was this arcane cold-dark-heat process, in use since Victorian times, discovered?",
+          "translation": "那么，这个自维多利亚时代就开始使用的神秘的冷-暗-热过程是如何被发现的呢？"
+        },
+        {
+          "index": 115,
+          "sentence": "Westwood's story is appealingly earthy.",
+          "translation": "韦斯特伍德的故事既接地气又引人入胜。"
+        },
+        {
+          "index": 116,
+          "sentence": "A gardener threw an old crown onto the horse stable muck pile.",
+          "translation": "一位园丁将一个老根茎扔到了马厩的粪堆上。"
+        },
+        {
+          "index": 117,
+          "sentence": "The manure was hot, and the plant was soon covered.",
+          "translation": "肥料很热，植物很快就被覆盖了。"
+        },
+        {
+          "index": 118,
+          "sentence": "The stable boy must have been puzzled by the startling pink spears that came pushing through the dirt a week or two later, but happily he had the good sense to gather them.",
+          "translation": "马厩男孩一定对一两周后从泥土中冒出的惊人粉红色茎秆感到困惑，但幸运的是，他明智地将它们收集了起来。"
+        },
+        {
+          "index": 119,
+          "sentence": "Where there's muck there's money -and good eating indeed.",
+          "translation": "哪里有污秽，哪里就有财富——而且确实是美味佳肴。"
+        },
+        {
+          "index": 120,
+          "sentence": "33",
+          "translation": "33"
+        },
+        {
+          "index": 121,
+          "sentence": "So how was this arcane cold-dark-heat process, in use since Victorian times, discovered?",
+          "translation": "那么，这种自维多利亚时代沿用至今的奇妙冷暗热过程是如何被发现的呢？"
+        },
+        {
+          "index": 122,
+          "sentence": "Westwood's story is appealingly earthy.",
+          "translation": "韦斯特伍德的故事朴实而引人入胜。"
+        },
+        {
+          "index": 123,
+          "sentence": "A gardener threw an old crown onto the horse stable muck pile.",
+          "translation": "一位园丁将一根老根茎扔到了马厩的粪堆上。"
+        },
+        {
+          "index": 124,
+          "sentence": "The manure was hot, and the plant was soon covered.",
+          "translation": "粪肥很热，植物很快被覆盖住了。"
+        },
+        {
+          "index": 125,
+          "sentence": "The stable boy must have been puzzled by the startling pink spears that came pushing through the dirt a week or two later, but happily he had the good sense to gather them.",
+          "translation": "一两周后，马厩男孩看到惊人的粉色嫩芽从土中钻出，一定感到困惑，但幸运的是，他明智地将它们收集了起来。"
+        },
+        {
+          "index": 126,
+          "sentence": "Where there's muck there's money -and good eating indeed.",
+          "translation": "粪堆生财——而且确实美味可口。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

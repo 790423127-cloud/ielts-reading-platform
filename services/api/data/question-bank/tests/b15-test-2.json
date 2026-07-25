@@ -1,0 +1,2792 @@
+{
+  "id": "b15-test-2",
+  "book": "剑雅15",
+  "book_number": 15,
+  "name": "Test 2",
+  "title": "剑雅15 Test 2",
+  "parts": [
+    {
+      "id": "2048",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Harvey's Storage",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Harvey's Storage is a well-established independent company. We are centrally located in the city and provide excellent facilities for all your storage requirements.",
+          "translation": "哈维仓储是一家成熟稳健的独立公司。\n我们位于市中心，为您的所有仓储需求提供卓越的设施。\n哈维仓储是一家成熟可靠的独立公司。\n我们位于市中心，为您的所有存储需求提供优质的设施。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "We provide safe and secure units for both long- and short-term storage dependent on your needs.Our rates are competitive and tailored to your specific requirements and your choice of storage unit.Heavy-duty locks and keys are provided to all of our customers and included in the prices listed.You can hire the unit with the storage capacity you need, for the period of time that the storage is required, in a sound and secure environment, monitored by CCTV. With 24-hour access, customers can deliver and collect items when it is convenient to do so, unrestricted by business or office hours. Tarmac roadways allow customers to park cars and lorries immediately outside their units, minimising the effort required to collect or drop items off.",
+          "translation": "我们提供安全可靠的存储单元，可根据您的需求用于长期或短期存储。\n我们的价格具有竞争力，并根据您的具体需求和所选的存储单元量身定制。\n我们为所有客户提供重型锁具和钥匙，并已包含在所列价格中。\n您可以根据所需的存储容量租用单元，租期为所需存储时间，环境安全牢固，并配有闭路电视监控。\n凭借24小时出入权限，客户可以在方便时运送和提取物品，不受营业时间或办公时间的限制。\n柏油路面让客户能够将汽车和货车直接停放在其单元外，从而最大限度地减少提取或运送物品所需的工作量。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Household storage Self-storage is ideal for families or individuals with either a short- or long-term need to store their belongings. Some of our clients are de-cluttering, or they may be getting their property decorated, or planning to go abroad for a time.",
+          "translation": "家庭存储：自助存储非常适合需要短期或长期存放物品的家庭或个人。\n我们的一些客户正在清理杂物，或者可能正在装修房屋，或者计划短期出国。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Student storage You may be travelling or going home to see family and friends in the vacation, or need time to find a place to stay. You may want to store all your books and personal items, or just a few boxes or a musical instrument. We offer no-nonsense competitive pricing with flexible hire periods and with no hidden extras. We can provide you with short- or long-term affordable hire in a safe and secure environment. You are responsible for organising transport but we can also recommend local van and driver hire companies.",
+          "translation": "学生存储\n你可能会在假期旅行或回家探望家人和朋友，或者需要时间寻找住处。\n你可能想存放所有的书籍和个人物品，或者仅仅几箱行李或一件乐器。\n我们提供实事求是的竞争性价格，租期灵活，且没有隐藏的额外费用。\n我们可以在安全可靠的环境中为你提供短期或长期的实惠租赁服务。\n你负责安排运输，但我们也可以推荐当地的货车和司机租赁公司。\n学生存储 在假期期间，你可能正在旅行或回家探亲访友，或者需要时间寻找住处。\n你可能想储存所有的书籍和个人物品，或者只是几个箱子或一件乐器。\n我们提供务实且具有竞争力的价格，租期灵活，且无隐藏额外费用。\n我们可以在安全可靠的环境中为您提供短期或长期的经济租赁服务。\n您需要自行安排交通，但我们也可以推荐当地的货车和司机租赁公司。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Business storage Free up your expensive retail space with affordable self-storage.We have three different business storage centres to choose from so you can choose the location that is most convenient for you.",
+          "translation": "商业存储：通过价格实惠的自助存储，释放您昂贵的零售空间。我们有三个不同的商业存储中心可供选择，因此您可以挑选最便利的位置。\n商业存储：通过经济实惠的自助存储来释放您昂贵的零售空间。\n我们有三个不同的商业存储中心可供选择，因此您可以挑选最适合您的地点。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Local museums",
+          "question_cue": {
+            "start": 7,
+            "end": 14
+          },
+          "translation": "当地博物馆"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "A Whittlesey Museum",
+          "translation": "A 惠特尔西博物馆"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "The museum is located in the Old Town Hall, which was originally built to house horse-drawn fire engines. It has eight rooms, and the exhibits cover topics such as archive photographs, costume, domestic life and local celebrities.",
+          "translation": "该博物馆位于旧市政厅内，该建筑最初是为了容纳马拉消防车而建造的。\n博物馆有八个房间，展品涵盖档案照片、服饰、家庭生活以及当地名人等主题。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "B Octavia Hill's Birthplace House",
+          "translation": "B 奥克塔维亚·希尔的故居"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Built in 1740, this is the birthplace of pioneer social reformer Octavia Hill, who was active in the late 19th and early 20th centuries in social housing and the arts,as well as in conservation issues. Visitors are taken on a guided tour and are then free to explore the gardens.",
+          "translation": "这座建于1740年的建筑是先驱社会改革家奥克塔维亚·希尔的出生地，她在19世纪末和20世纪初活跃于社会住房、艺术以及保护议题领域。\n游客将由导游带领参观，之后可以自由探索花园。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "C Chatteris Museum",
+          "translation": "C 查特里斯博物馆"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "The old market town of Chatteris was largely rebuilt, after two serious fires in 1706 and 1864 destroyed many of the town's ancient buildings.The museum's exhibits illustrate traditional aspects of the life of local farmers as well as the railway boom of the 19th century.The museum has a touch-screen kiosk which contains over 9,000 historic photographs and texts, reproductions of which can be made on request.",
+          "translation": "古老的集镇查特里斯在1706年和1864年两场严重火灾摧毁了镇上的许多古老建筑后，进行了大规模重建。\n博物馆的展品展示了当地农民生活的传统风貌，以及19世纪的铁路繁荣景象。\n博物馆设有一个触摸屏信息亭，内藏超过9000张历史照片和文献，可根据要求提供复制品。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "D March and District Museum",
+          "translation": "D 马奇与地区博物馆"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Located in the middle of the market town of March, the museum is housed in a former school built in 1851.Its wide-ranging collections include reconstructions of an early 20th-century kitchen, sitting room and nursery. There is also an interesting display of historic cameras and radios, and a medal which was awarded to train driver Ben Gimbert for his bravery in preventing loss of life when a train full of explosives caught fire in 1944.",
+          "translation": "该博物馆位于马奇集镇的中心，坐落在一所建于1851年的前校舍内。\n其广泛的藏品包括20世纪早期厨房、起居室和育儿室的重建场景。\n此外，还有一个有趣的历史相机和收音机展览，以及一枚颁给火车司机本·金伯特的奖章，表彰他在1944年一列满载炸药的火车起火时英勇防止人员伤亡的行为。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "E Wisbech and Fenland Museum",
+          "translation": "E 维斯贝奇与芬兰博物馆"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "This 19th-century gem holds collections from around the world including Ancient Egypt. Its library, which is open to the public on the first Saturday of each month, contains the manuscript of Great Expectations by the 19th-century novelist Charles Dickens, and the Research Room can be booked for researching local records.",
+          "translation": "这座19世纪的瑰宝收藏了来自世界各地的藏品，包括古埃及的物品。\n其图书馆每月第一个周六向公众开放，收藏了19世纪小说家查尔斯·狄更斯的《远大前程》手稿，同时研究间可预约用于查阅当地记录。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15324",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1 - 6\nDo the following statements agree with the information given in Reading Passage2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119882",
+              "number": 1,
+              "prompt": "There is an extra charge for locks and keys.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“锁和钥匙需额外收费”，而原文段落B明确指出“Heavy-duty locks and keys are provided to all of our customers and included in the prices listed”（重型锁具和钥匙已包含在所列价格中），说明并无额外费用。因此，题干信息与原文矛盾，答案为FALSE。",
+              "reason": "题目说锁和钥匙需另收费，与原文'包含在价格内'矛盾。",
+              "location_analysis": "原文说钥匙和锁包含在标价内，因此没有额外费用，答案FALSE。",
+              "paraphrasing": "extra charge -> included in the prices listed",
+              "keywords": "Heavy-duty locks and keys, extra charge",
+              "evidence": [
+                "Heavy-duty locks and keys are provided to all of our customers and included in the prices listed."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文中明确表示不额外收费的信息矛盾。",
+                "NOT GIVEN": "原文已明确提及锁和钥匙不额外收费，并非未提及。"
+              }
+            },
+            {
+              "id": "119883",
+              "number": 2,
+              "prompt": "lt is possible to arrange to share a storage unit with someone else.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问是否可以与他人共享存储单元，但通读全文，无论是Harvey's Storage的介绍还是各类存储服务描述中，均未提及“共享单元”或类似安排。由于文中完全缺乏相关信息，无法判断其真伪，故答案为NOT GIVEN。",
+              "reason": "全文无任何关于共享存储单元的内容。",
+              "location_analysis": "原文未提及共享单元信息，无法判断。",
+              "paraphrasing": "",
+              "keywords": "share storage unit",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及是否可能安排与别人共享存储单元，因此该选项无信息支持。",
+                "FALSE": "原文未明确否定这种可能性，因此该选项无依据。"
+              }
+            },
+            {
+              "id": "119884",
+              "number": 3,
+              "prompt": "You can pick up your property from the storage unit during the night-time.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干提到“可在夜间取回物品”，对应原文段落B中的“With 24-hour access, customers can deliver and collect items when it is convenient to do so, unrestricted by business or office hours”。24小时开放意味着包括夜间在内的任何时间均可取物，因此题干与原文一致，答案为TRUE。",
+              "reason": "24小时开放，夜间可取。",
+              "location_analysis": "原文24小时开放，夜间可取物品，答案TRUE。",
+              "paraphrasing": "night-time -> 24-hour access",
+              "keywords": "pick up, night-time",
+              "evidence": [
+                "With 24-hour access, customers can deliver and collect items when it is convenient to do so, unrestricted by business or office hours."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确指出可以在夜间取回财产，与选项矛盾。",
+                "NOT GIVEN": "原文中已明确提及相关信息，并非未给出。"
+              }
+            },
+            {
+              "id": "119885",
+              "number": 4,
+              "prompt": "You can drive your vehicle right next to your storage unit.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干说“可将车辆直接停在存储单元旁”，原文段落B明确说明“Tarmac roadways allow customers to park cars and lorries immediately outside their units”，其中“immediately outside their units”与“drive your vehicle right next to your storage unit”构成同义替换，因此答案为TRUE。",
+              "reason": "可直接停车到单元外。",
+              "location_analysis": "原文可直接停车到单元外，答案TRUE。",
+              "paraphrasing": "right next to -> immediately outside their units",
+              "keywords": "drive, right next to",
+              "evidence": [
+                "Tarmac roadways allow customers to park cars and lorries immediately outside their units, minimising the effort required to collect or drop items off."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾，原文明确表示可以把车开到存储单元旁边。",
+                "NOT GIVEN": "原文明确给出了相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "119886",
+              "number": 5,
+              "prompt": "Students' possessions can only be stored during vacation periods.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称“学生物品只能在假期存放”，但原文段落D指出“We can provide you with short- or long-term affordable hire”，并提到灵活租期（flexible hire periods），说明服务不限于假期。因此题干与原文矛盾，答案为FALSE。",
+              "reason": "学生存储服务可短租或长租，不限于假期。",
+              "location_analysis": "原文提供灵活租期，不限于假期，答案FALSE。",
+              "paraphrasing": "only during vacation -> short- or long-term affordable hire",
+              "keywords": "Students, only during vacation",
+              "evidence": [
+                "We offer no-nonsense competitive pricing with flexible hire periods and with no hidden extras. We can provide you with short- or long-term affordable hire in a safe and secure environment."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文可能表明学生物品存放不限于假期。",
+                "NOT GIVEN": "原文明确提及了存放规定，因此并非未提及。"
+              }
+            },
+            {
+              "id": "119887",
+              "number": 6,
+              "prompt": "The storage company will collect and deliver students' property.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“公司会为学生收取和运送物品”，但原文段落D明确表示“You are responsible for organising transport”，即学生需自行安排运输，公司仅可推荐租车服务。因此题干信息错误，答案为FALSE。",
+              "reason": "学生需自行安排运输。",
+              "location_analysis": "原文学生自己负责运输，公司不提供取送服务，答案FALSE。",
+              "paraphrasing": "collect and deliver -> responsible for organising transport",
+              "keywords": "collect and deliver, students' property",
+              "evidence": [
+                "You are responsible for organising transport but we can also recommend local van and driver hire companies."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文明确指出该公司不提供收集和递送服务，与题干信息矛盾。",
+                "NOT GIVEN": "原文有明确信息表明该公司不提供此服务，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15331",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 7 - 14\nLook at the five descriptions of museums, A-E, in one area of England.\nFor which museum are the following statements true?\nWrite the correct letter, A-E, in boxes 7-14 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119888",
+              "number": 7,
+              "prompt": "There are exhibits related to the history of agriculture in the region.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出与“农业历史”相关的博物馆，段落C（Chatteris Museum）提到“The museum's exhibits illustrate traditional aspects of the life of local farmers”，其中“当地农民的传统生活”直接对应区域农业历史，因此答案为C。",
+              "reason": "题干'农业历史'对应'当地农民生活'。",
+              "location_analysis": "展览展示当地农民生活，对应农业历史，选C。",
+              "paraphrasing": "history of agriculture -> traditional aspects of the life of local farmers",
+              "keywords": "agriculture, region",
+              "evidence": [
+                "The museum's exhibits illustrate traditional aspects of the life of local farmers as well as the railway boom of the 19th century."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119889",
+              "number": 8,
+              "prompt": "Equipment for putting out fires used to be kept in this building.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问哪个博物馆曾存放灭火设备，段落A指出该馆原为市政厅，“originally built to house horse-drawn fire engines”（最初用于存放马拉消防车），而消防车属于灭火设备，因此答案为A。",
+              "reason": "消防车即灭火设备。",
+              "location_analysis": "建筑原用于存放马拉消防车，选A。",
+              "paraphrasing": "equipment for putting out fires -> house horse-drawn fire engines",
+              "keywords": "equipment, fires",
+              "evidence": [
+                "The museum is located in the Old Town Hall, which was originally built to house horse-drawn fire engines."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119890",
+              "number": 9,
+              "prompt": "You can find information on the rise of one type of transport.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干提到“某种交通工具的兴起”，段落C中“the railway boom of the 19th century”（19世纪铁路繁荣）正对应铁路作为交通方式的快速发展，因此答案为C。",
+              "reason": "铁路繁荣即一种交通方式的兴起。",
+              "location_analysis": "展览涉及19世纪铁路繁荣，对应交通发展，选C。",
+              "paraphrasing": "rise of one type of transport -> railway boom",
+              "keywords": "rise, one type of transport",
+              "evidence": [
+                "The museum's exhibits illustrate traditional aspects of the life of local farmers as well as the railway boom of the 19th century."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119891",
+              "number": 10,
+              "prompt": "There are things to see both inside and outside.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求选出“室内外均有可看内容”的博物馆，段落B描述游客先参加室内导览（guided tour），之后可自由探索花园（explore the gardens），明确体现室内外均有参观内容，因此答案为B。",
+              "reason": "导览室内，花园室外。",
+              "location_analysis": "有导览参观室内，后可探索花园，内外皆有，选B。",
+              "paraphrasing": "things to see both inside and outside -> guided tour and then free to explore the gardens",
+              "keywords": "inside and outside",
+              "evidence": [
+                "Visitors are taken on a guided tour and are then free to explore the gardens."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119892",
+              "number": 11,
+              "prompt": "lt is possible to obtain copies of old pictures and documents.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问能否获取旧照片和文件的复制品，段落C提到博物馆设有触摸屏亭，“reproductions of which can be made on request”（可应要求制作复制件），直接对应题干，因此答案为C。",
+              "reason": "可要求复制旧照片和文本。",
+              "location_analysis": "可应要求复制历史照片和文本，选C。",
+              "paraphrasing": "obtain copies of old pictures and documents -> reproductions of which can be made on request",
+              "keywords": "copies, old pictures, documents",
+              "evidence": [
+                "The museum has a touch-screen kiosk which contains over 9,000 historic photographs and texts, reproductions of which can be made on request."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119893",
+              "number": 12,
+              "prompt": "On certain days you can see an original work by a writer of fiction.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干提到“特定日期可见小说家的原创作品”，段落E说明图书馆“on the first Saturday of each month”开放，并藏有狄更斯《远大前程》手稿（manuscript of Great Expectations），狄更斯是小说家，手稿属原创作品，因此答案为E。",
+              "reason": "特定日可见小说家原创手稿。",
+              "location_analysis": "每月第一个周六开放，展示狄更斯《远大前程》手稿，选E。",
+              "paraphrasing": "certain days -> first Saturday of each month; original work by a writer of fiction -> manuscript of Great Expectations by Charles Dickens",
+              "keywords": "certain days, original work, writer of fiction",
+              "evidence": [
+                "Its library, which is open to the public on the first Saturday of each month, contains the manuscript of Great Expectations by the 19th-century novelist Charles Dickens, and the Research Room can be booked for researching local records."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119894",
+              "number": 13,
+              "prompt": "Someone who was interested in environmental matters lived here for a time.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干称“曾有人在此居住并对环境事务感兴趣”，段落B指出这是社会改革家Octavia Hill的出生地，她“was active...in conservation issues”（积极参与保护事务），而“conservation issues”即环境相关议题，因此答案为B。",
+              "reason": "Octavia Hill's Birthplace House的描述。",
+              "location_analysis": "原文提到Octavia Hill在保护问题上活跃，且此处为其出生地，选B。",
+              "paraphrasing": "environmental matters -> conservation issues; lived here -> birthplace",
+              "keywords": "environmental matters, lived here",
+              "evidence": [
+                "Built in 1740, this is the birthplace of pioneer social reformer Octavia Hill, who was active in the late 19th and early 20th centuries in social housing and the arts,as well as in conservation issues."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119895",
+              "number": 14,
+              "prompt": "This museum has an exhibit related to a heroic achievement.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求找出与“英勇事迹”相关的展品，段落D提到展出一枚奖章，“awarded to train driver Ben Gimbert for his bravery in preventing loss of life”，明确表彰其英勇行为，因此答案为D。",
+              "reason": "奖章代表英勇行为。",
+              "location_analysis": "展出Ben Gimbert因英勇防止伤亡获得的奖章，选D。",
+              "paraphrasing": "heroic achievement -> medal which was awarded to train driver Ben Gimbert for his bravery in preventing loss of life",
+              "keywords": "heroic achievement",
+              "evidence": [
+                "There is also an interesting display of historic cameras and radios, and a medal which was awarded to train driver Ben Gimbert for his bravery in preventing loss of life when a train full of explosives caught fire in 1944."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Harvey's Storage",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Harvey's Storage is a well-established independent company.",
+          "translation": "哈维仓储是一家成熟稳健的独立公司。"
+        },
+        {
+          "index": 2,
+          "sentence": "We are centrally located in the city and provide excellent facilities for all your storage requirements.",
+          "translation": "我们位于市中心，为您的所有仓储需求提供卓越的设施。"
+        },
+        {
+          "index": 3,
+          "sentence": "Harvey's Storage is a well-established independent company.",
+          "translation": "哈维仓储是一家成熟可靠的独立公司。"
+        },
+        {
+          "index": 4,
+          "sentence": "We are centrally located in the city and provide excellent facilities for all your storage requirements.",
+          "translation": "我们位于市中心，为您的所有存储需求提供优质的设施。"
+        },
+        {
+          "index": 6,
+          "sentence": "We provide safe and secure units for both long- and short-term storage dependent on your needs.",
+          "translation": "我们提供安全可靠的存储单元，可根据您的需求用于长期或短期存储。"
+        },
+        {
+          "index": 7,
+          "sentence": "Our rates are competitive and tailored to your specific requirements and your choice of storage unit.",
+          "translation": "我们的价格具有竞争力，并根据您的具体需求和所选的存储单元量身定制。"
+        },
+        {
+          "index": 8,
+          "sentence": "Heavy-duty locks and keys are provided to all of our customers and included in the prices listed.",
+          "translation": "我们为所有客户提供重型锁具和钥匙，并已包含在所列价格中。"
+        },
+        {
+          "index": 9,
+          "sentence": "You can hire the unit with the storage capacity you need, for the period of time that the storage is required, in a sound and secure environment, monitored by CCTV.",
+          "translation": "您可以根据所需的存储容量租用单元，租期为所需存储时间，环境安全牢固，并配有闭路电视监控。"
+        },
+        {
+          "index": 10,
+          "sentence": "With 24-hour access, customers can deliver and collect items when it is convenient to do so, unrestricted by business or office hours.",
+          "translation": "凭借24小时出入权限，客户可以在方便时运送和提取物品，不受营业时间或办公时间的限制。"
+        },
+        {
+          "index": 11,
+          "sentence": "Tarmac roadways allow customers to park cars and lorries immediately outside their units, minimising the effort required to collect or drop items off.",
+          "translation": "柏油路面让客户能够将汽车和货车直接停放在其单元外，从而最大限度地减少提取或运送物品所需的工作量。"
+        },
+        {
+          "index": 13,
+          "sentence": "Household storage Self-storage is ideal for families or individuals with either a short- or long-term need to store their belongings.",
+          "translation": "家庭存储：自助存储非常适合需要短期或长期存放物品的家庭或个人。"
+        },
+        {
+          "index": 14,
+          "sentence": "Some of our clients are de-cluttering, or they may be getting their property decorated, or planning to go abroad for a time.",
+          "translation": "我们的一些客户正在清理杂物，或者可能正在装修房屋，或者计划短期出国。"
+        },
+        {
+          "index": 15,
+          "sentence": "Student storage",
+          "translation": "学生存储"
+        },
+        {
+          "index": 16,
+          "sentence": "You may be travelling or going home to see family and friends in the vacation, or need time to find a place to stay.",
+          "translation": "你可能会在假期旅行或回家探望家人和朋友，或者需要时间寻找住处。"
+        },
+        {
+          "index": 17,
+          "sentence": "You may want to store all your books and personal items, or just a few boxes or a musical instrument.",
+          "translation": "你可能想存放所有的书籍和个人物品，或者仅仅几箱行李或一件乐器。"
+        },
+        {
+          "index": 18,
+          "sentence": "We offer no-nonsense competitive pricing with flexible hire periods and with no hidden extras.",
+          "translation": "我们提供实事求是的竞争性价格，租期灵活，且没有隐藏的额外费用。"
+        },
+        {
+          "index": 19,
+          "sentence": "We can provide you with short- or long-term affordable hire in a safe and secure environment.",
+          "translation": "我们可以在安全可靠的环境中为你提供短期或长期的实惠租赁服务。"
+        },
+        {
+          "index": 20,
+          "sentence": "You are responsible for organising transport but we can also recommend local van and driver hire companies.",
+          "translation": "你负责安排运输，但我们也可以推荐当地的货车和司机租赁公司。"
+        },
+        {
+          "index": 21,
+          "sentence": "Student storage You may be travelling or going home to see family and friends in the vacation, or need time to find a place to stay.",
+          "translation": "学生存储 在假期期间，你可能正在旅行或回家探亲访友，或者需要时间寻找住处。"
+        },
+        {
+          "index": 22,
+          "sentence": "You may want to store all your books and personal items, or just a few boxes or a musical instrument.",
+          "translation": "你可能想储存所有的书籍和个人物品，或者只是几个箱子或一件乐器。"
+        },
+        {
+          "index": 23,
+          "sentence": "We offer no-nonsense competitive pricing with flexible hire periods and with no hidden extras.",
+          "translation": "我们提供务实且具有竞争力的价格，租期灵活，且无隐藏额外费用。"
+        },
+        {
+          "index": 24,
+          "sentence": "We can provide you with short- or long-term affordable hire in a safe and secure environment.",
+          "translation": "我们可以在安全可靠的环境中为您提供短期或长期的经济租赁服务。"
+        },
+        {
+          "index": 25,
+          "sentence": "You are responsible for organising transport but we can also recommend local van and driver hire companies.",
+          "translation": "您需要自行安排交通，但我们也可以推荐当地的货车和司机租赁公司。"
+        },
+        {
+          "index": 26,
+          "sentence": "Business storage Free up your expensive retail space with affordable self-storage.We have three different business storage centres to choose from so you can choose the location that is most convenient for you.",
+          "translation": "商业存储：通过价格实惠的自助存储，释放您昂贵的零售空间。我们有三个不同的商业存储中心可供选择，因此您可以挑选最便利的位置。"
+        },
+        {
+          "index": 27,
+          "sentence": "Business storage Free up your expensive retail space with affordable self-storage.",
+          "translation": "商业存储：通过经济实惠的自助存储来释放您昂贵的零售空间。"
+        },
+        {
+          "index": 28,
+          "sentence": "We have three different business storage centres to choose from so you can choose the location that is most convenient for you.",
+          "translation": "我们有三个不同的商业存储中心可供选择，因此您可以挑选最适合您的地点。"
+        },
+        {
+          "index": 29,
+          "sentence": "Local museums",
+          "translation": "当地博物馆"
+        },
+        {
+          "index": 30,
+          "sentence": "A Whittlesey Museum",
+          "translation": "A 惠特尔西博物馆"
+        },
+        {
+          "index": 31,
+          "sentence": "The museum is located in the Old Town Hall, which was originally built to house horse-drawn fire engines.",
+          "translation": "该博物馆位于旧市政厅内，该建筑最初是为了容纳马拉消防车而建造的。"
+        },
+        {
+          "index": 32,
+          "sentence": "It has eight rooms, and the exhibits cover topics such as archive photographs, costume, domestic life and local celebrities.",
+          "translation": "博物馆有八个房间，展品涵盖档案照片、服饰、家庭生活以及当地名人等主题。"
+        },
+        {
+          "index": 33,
+          "sentence": "B Octavia Hill's Birthplace House",
+          "translation": "B 奥克塔维亚·希尔的故居"
+        },
+        {
+          "index": 34,
+          "sentence": "Built in 1740, this is the birthplace of pioneer social reformer Octavia Hill, who was active in the late 19th and early 20th centuries in social housing and the arts, as well as in conservation issues.",
+          "translation": "这座建于1740年的建筑是先驱社会改革家奥克塔维亚·希尔的出生地，她在19世纪末和20世纪初活跃于社会住房、艺术以及保护议题领域。"
+        },
+        {
+          "index": 35,
+          "sentence": "Visitors are taken on a guided tour and are then free to explore the gardens.",
+          "translation": "游客将由导游带领参观，之后可以自由探索花园。"
+        },
+        {
+          "index": 36,
+          "sentence": "C Chatteris Museum",
+          "translation": "C 查特里斯博物馆"
+        },
+        {
+          "index": 37,
+          "sentence": "The old market town of Chatteris was largely rebuilt, after two serious fires in 1706 and 1864 destroyed many of the town's ancient buildings.",
+          "translation": "古老的集镇查特里斯在1706年和1864年两场严重火灾摧毁了镇上的许多古老建筑后，进行了大规模重建。"
+        },
+        {
+          "index": 38,
+          "sentence": "The museum's exhibits illustrate traditional aspects of the life of local farmers as well as the railway boom of the 19th century.",
+          "translation": "博物馆的展品展示了当地农民生活的传统风貌，以及19世纪的铁路繁荣景象。"
+        },
+        {
+          "index": 39,
+          "sentence": "The museum has a touch-screen kiosk which contains over 9,000 historic photographs and texts, reproductions of which can be made on request.",
+          "translation": "博物馆设有一个触摸屏信息亭，内藏超过9000张历史照片和文献，可根据要求提供复制品。"
+        },
+        {
+          "index": 40,
+          "sentence": "D March and District Museum",
+          "translation": "D 马奇与地区博物馆"
+        },
+        {
+          "index": 41,
+          "sentence": "Located in the middle of the market town of March, the museum is housed in a former school built in 1851.",
+          "translation": "该博物馆位于马奇集镇的中心，坐落在一所建于1851年的前校舍内。"
+        },
+        {
+          "index": 42,
+          "sentence": "Its wide-ranging collections include reconstructions of an early 20th-century kitchen, sitting room and nursery.",
+          "translation": "其广泛的藏品包括20世纪早期厨房、起居室和育儿室的重建场景。"
+        },
+        {
+          "index": 43,
+          "sentence": "There is also an interesting display of historic cameras and radios, and a medal which was awarded to train driver Ben Gimbert for his bravery in preventing loss of life when a train full of explosives caught fire in 1944.",
+          "translation": "此外，还有一个有趣的历史相机和收音机展览，以及一枚颁给火车司机本·金伯特的奖章，表彰他在1944年一列满载炸药的火车起火时英勇防止人员伤亡的行为。"
+        },
+        {
+          "index": 44,
+          "sentence": "E Wisbech and Fenland Museum",
+          "translation": "E 维斯贝奇与芬兰博物馆"
+        },
+        {
+          "index": 45,
+          "sentence": "This 19th-century gem holds collections from around the world including Ancient Egypt.",
+          "translation": "这座19世纪的瑰宝收藏了来自世界各地的藏品，包括古埃及的物品。"
+        },
+        {
+          "index": 46,
+          "sentence": "Its library, which is open to the public on the first Saturday of each month, contains the manuscript of Great Expectations by the 19th-century novelist Charles Dickens, and the Research Room can be booked for researching local records.",
+          "translation": "其图书馆每月第一个周六向公众开放，收藏了19世纪小说家查尔斯·狄更斯的《远大前程》手稿，同时研究间可预约用于查阅当地记录。"
+        }
+      ]
+    },
+    {
+      "id": "2049",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Workplace health and safety considerations for plumbers",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Like many trades, plumbing can be a dangerous job. It is important to take all reasonably practicable measures to keep customers and yourself incident and injury free.",
+          "translation": "与许多行业一样，水管工可能是一项危险的工作。\n采取所有合理可行的措施以确保客户和自身免受事故和伤害至关重要。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Biohazard waste",
+          "translation": "生物危害废物"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Plumbers regularly come into contact with biohazard waste. It's the nature of the job, but that doesn't mean you should be complacent about it. According to Safe Work Australia, communicable diseases from work-related exposures to biological hazards such as sewage have been estimated to cause 320,000 deaths across the globe each year. In addition to this, plumbers are regularly exposed to other biohazards such as mould, bacteria and algae. Don't risk it - make sure appropriate protective clothing and equipment is used.",
+          "translation": "生物危害废物\n水管工经常接触生物危害废物。\n这是工作的本质，但这并不意味着你应该对此掉以轻心。\n根据澳大利亚安全工作署的数据，工作中接触污水等生物危害导致的传染病估计每年在全球造成32万人死亡。\n除此之外，水管工还经常接触到其他生物危害，如霉菌、细菌和藻类。\n不要冒险——确保使用适当的防护服和设备。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Confined spaces",
+          "translation": "密闭空间"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Plumbers may spend much of their time working in confined spaces, where they are at risk from contaminants, including airborne gases, vapours and dusts, that may cause injury from fire or explosion. They may also be exposed to high concentrations of airborne contaminants that may be harmful to health. For example, one plumber was fined $220,000 after an employee suffered from carbon-monoxide poisoning.Another potential hazard for plumbers in confined spaces is that of drowning, if water sources are not adequately cut off.",
+          "translation": "密闭空间\n水管工可能花费大量时间在狭小空间工作，在那里他们面临来自污染物的风险，包括空气中的气体、蒸汽和粉尘，这些污染物可能因火灾或爆炸而导致伤害。\n他们还可能接触到高浓度的空气中的污染物，这些污染物可能对健康有害。\n例如，一名水管工因一名员工遭受一氧化碳中毒而被罚款22万美元。\n水管工在狭小空间中的另一个潜在危险是溺水，如果水源没有被充分切断的话。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "The Safe Work Australia confined spaces code of practice outlines the necessary steps and precautions for avoiding illness and injury.",
+          "translation": "密闭空间\n澳大利亚安全工作局的《密闭空间操作规程》列出了避免疾病和伤害的必要步骤与预防措施。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Electricity",
+          "translation": "电力"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The Master Plumbers' Association calls electricity 'plumbing's hidden killer'. Metal pipes are often conductive and so gloves which provide insulation should form part of a plumber's tool kit, as should a plumbing voltage monitor and a volt tester. Gloves should be checked prior to every use and replaced every 12 to 14 months. Electrical equipment like bridging conductors should be regularly checked, with appropriate tags on the equipment to verify its safety. The project should be stopped immediately if there is any sign of electricity, so that the power can be disconnected by a qualified electrician prior to continuing work.",
+          "translation": "电力\n水暖大师协会将电称为‘水暖行业的隐形杀手’。\n金属管道通常具有导电性，因此提供绝缘功能的手套应成为水暖工工具箱的一部分，水暖电压监测器和电压测试仪也应如此。\n手套应在每次使用前进行检查，并每12至14个月更换一次。\n桥接导线等电气设备应定期检查，并在设备上附有适当的标签以验证其安全性。\n如有任何触电迹象，应立即停止项目，以便在继续工作前由合格电工切断电源。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "How to manage flexible working with your employees",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "如何管理与员工的灵活工作安排"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "There is no denying that flexible working has grown enormously in recent years. It does, however, require careful management.",
+          "translation": "不可否认，弹性工作在近年来得到了极大的发展。\n然而，它确实需要仔细的管理。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "When it comes to implementing flexible working one word is key: trust. All flexible workers should be trusted and given well-defined objectives from the start and their contribution should be assessed according to their output, as opposed to the time they spend on the job. It can be a big step to implement such a change in your business, so if you are slightly cautious then I recommend perhaps setting up an end-of-the-day review to see how much progress has been made.As all parties find their feet with the new set-up, this contact can slowly be reduced.",
+          "translation": "在实施弹性工作制时，有一个词至关重要：信任。\n所有弹性工作者应受到信任，并从一开始就获得明确的目标，他们的贡献应根据工作成果而非投入的时间来评估。\n在您的企业中实施这种改变可能是一个重大步骤，因此如果您有些谨慎，我建议或许可以设立一个每日结束时的复盘，以了解取得了多少进展。\n随着各方逐渐适应新的安排，这种沟通可以慢慢减少。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "In my eyes, it is also vital that there is shared calendar access for everyone so that people can see where their colleagues are each day. This way if they need to catch up with someone they can plan when to do so. Technology now exists to enable employees to stay in touch with other members of staff and external partners. iMeet, for example, is a tool which allows all forms of collaboration for remote working,from video conferencing, live chat and file sharing to screen sharing. The new breed of worker is therefore fully equipped to work productively away from the office, and can still feel like they're in the same room as others when necessary.",
+          "translation": "在我看来，拥有共享日历的权限对每个人来说也至关重要，这样大家就能了解同事每天的位置。\n这样一来，如果需要与某人联系，他们就可以计划何时进行沟通。\n现有技术能够使员工与其他同事和外部合作伙伴保持联系。\n例如，iMeet 是一个支持远程工作多种协作形式的工具，包括视频会议、实时聊天、文件共享以及屏幕共享。\n因此，新一代员工已完全具备在办公室外高效工作的能力，并且在必要时仍能感觉与他人同处一室。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "In my experience, employees are often more productive working at home as they can work the exact hours they want and do not have to cope with distraction caused by other employees. Being outside the confines of the office walls also appears to foster creativity. In addition, we find staff are more motivated as they have a better work-life balance. In terms of the business, we find this helps with top talent recruitment and staff retention, and a happy workforce is a more successful one.",
+          "translation": "根据我的经验，员工在家工作时往往效率更高，因为他们可以按照自己确切的时间工作，并且不必应对其他员工造成的干扰。\n走出办公室的局限似乎也能激发创造力。\n此外，我们发现员工因为拥有更好的工作与生活平衡而更有动力。\n从业务角度而言，我们发现这有助于顶尖人才的招聘和员工留存，而一支快乐的员工队伍也更能取得成功。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15333",
+          "type": 13,
+          "title": "Type danger",
+          "instructions": "Questions 15 - 20\nComplete the flow-chart.\nWrite ONE WORD ONLY from the text in each gap.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": {
+            "title": "",
+            "content": [
+              [
+                "Type danger",
+                "Examples",
+                "Risks involved",
+                "Necessary action"
+              ],
+              [
+                "Biohazard",
+                "$119896$, mould, bacteria, algae",
+                "can lead to disease and death",
+                "use protective clothing and equipment"
+              ],
+              [
+                "Confined spaces",
+                "contaminants e.g. gases, vapours and dusts",
+                "injury from fire or explosion",
+                "follow Safe Work code of practice"
+              ],
+              [
+                "Confined spaces",
+                "high concentrations of harmful airborne contaminants e.g. carbon monoxide",
+                "$119897$",
+                "follow Safe Work code of practice"
+              ],
+              [
+                "Confined spaces",
+                "water",
+                "$119898$",
+                "cut off water sources"
+              ],
+              [
+                "Electricity",
+                "metal pipes which are conductive",
+                "death from electrocution",
+                "- use insulated $119899$ and appropriate equipment\n- ensure equipment has $119900$ on to show it is safe\n- make sure electricity has been $119901$"
+              ]
+            ],
+            "rows": [
+              [
+                "Type danger",
+                "Examples",
+                "Risks involved",
+                "Necessary action"
+              ],
+              [
+                "Biohazard",
+                "$119896$, mould, bacteria, algae",
+                "can lead to disease and death",
+                "use protective clothing and equipment"
+              ],
+              [
+                "Confined spaces",
+                "contaminants e.g. gases, vapours and dusts",
+                "injury from fire or explosion",
+                "follow Safe Work code of practice"
+              ],
+              [
+                "Confined spaces",
+                "high concentrations of harmful airborne contaminants e.g. carbon monoxide",
+                "$119897$",
+                "follow Safe Work code of practice"
+              ],
+              [
+                "Confined spaces",
+                "water",
+                "$119898$",
+                "cut off water sources"
+              ],
+              [
+                "Electricity",
+                "metal pipes which are conductive",
+                "death from electrocution",
+                "- use insulated $119899$ and appropriate equipment\n- ensure equipment has $119900$ on to show it is safe\n- make sure electricity has been $119901$"
+              ]
+            ]
+          },
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119896",
+              "number": 15,
+              "prompt": "Biohazard — Examples — _____, mould, bacteria, algae",
+              "options": [],
+              "answer": "sewage",
+              "accepted_answers": [
+                "sewage"
+              ],
+              "analysis": "题干要求填写与 mould、bacteria 和 algae 并列的生物危害物，原文明确指出 plumbers 接触的生物危害包括 sewage（污水），并说明因接触 sewage 等生物危害每年导致大量死亡。因此，sewage 是与题干中其他三项并列的 biohazard 来源，符合‘ONE WORD ONLY’的要求。",
+              "reason": "题干列举mould, bacteria, algae作为biohazard的例子，原文明确sewage是主要生物危害来源。",
+              "location_analysis": "第一句提到plumbers接触biohazard waste，第二句根据Safe Work A...",
+              "paraphrasing": "biohazard waste -> sewage; mould, bacteria, algae -> mould, bacteria, algae",
+              "keywords": "biohazard, mould, bacteria, algae, disease, death, sewage",
+              "evidence": [
+                "Plumbers regularly come into contact with biohazard waste.",
+                "According to Safe Work Australia, communicable diseases from work-related exposures to biological hazards such as sewage have been estimated to cause 320,000 deaths across the globe each year."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119897",
+              "number": 16,
+              "prompt": "Confined spaces — Risks involved — _____",
+              "options": [],
+              "answer": "poisoning",
+              "accepted_answers": [
+                "poisoning"
+              ],
+              "analysis": "题干中提到‘high concentrations of harmful airborne contaminants e.g. carbon monoxide’所导致的伤害类型，原文举例说明一名员工因一氧化碳中毒（carbon-monoxide poisoning）而受害，因此此处应填 poisoning，准确对应污染物引发的具体健康后果。",
+              "reason": "碳中毒为题干所隐含的伤害类型。",
+              "location_analysis": "原文举例carbon monoxide导致poisoning，与题干fine对应。",
+              "paraphrasing": "high concentrations of harmful airborne contaminants -> carbon monoxide; injury -> poisoning",
+              "keywords": "confined spaces, contaminants, carbon monoxide, poisoning",
+              "evidence": [
+                "For example, one plumber was fined $220,000 after an employee suffered from carbon-monoxide poisoning."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119898",
+              "number": 17,
+              "prompt": "Confined spaces — Risks involved — _____",
+              "options": [],
+              "answer": "drowning",
+              "accepted_answers": [
+                "drowning"
+              ],
+              "analysis": "题干询问水（water）在密闭空间中可能造成的风险，原文明确指出‘Another potential hazard... is that of drowning, if water sources are not adequately cut off’，即若水源未被切断，可能导致溺水。因此 drowning 是对 water 风险的直接描述。",
+              "reason": "题干要求填写water相关风险，原文直接给出drowning。",
+              "location_analysis": "原文明确drowning是confined spaces中water带来的风险。",
+              "paraphrasing": "another potential hazard -> drowning",
+              "keywords": "water, drowning",
+              "evidence": [
+                "Another potential hazard for plumbers in confined spaces is that of drowning, if water sources are not adequately cut off."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119899",
+              "number": 18,
+              "prompt": "Electricity — Necessary action — - use insulated _____ and appropriate equipment - ensure equipment has _____ on to show it is safe - make sure electricity has been _____",
+              "options": [],
+              "answer": "gloves",
+              "accepted_answers": [
+                "gloves"
+              ],
+              "analysis": "题干要求填写用于防电击的绝缘物品，原文提到‘gloves which provide insulation should form part of a plumber's tool kit’，说明绝缘手套是必备防护装备。因此 gloves 是符合上下文和‘ONE WORD ONLY’要求的正确答案。",
+              "reason": "题干要求填写绝缘物品，原文明确指出gloves。",
+              "location_analysis": "原文建议使用绝缘手套，gloves为jacket中名词。",
+              "paraphrasing": "insulated -> gloves; gloves provide insulation",
+              "keywords": "electricity, metal pipes, conductive, insulated, gloves",
+              "evidence": [
+                "Metal pipes are often conductive and so gloves which provide insulation should form part of a plumber's tool kit, as should a plumbing voltage monitor and a volt tester."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119900",
+              "number": 19,
+              "prompt": "Electricity — Necessary action — - use insulated _____ and appropriate equipment - ensure equipment has _____ on to show it is safe - make sure electricity has been _____",
+              "options": [],
+              "answer": "tags",
+              "accepted_answers": [
+                "tags"
+              ],
+              "analysis": "题干要求填写设备上用于证明其安全性的标识，原文指出电气设备应‘have appropriate tags on the equipment to verify its safety’，即通过 tags 来验证安全性。因此 tags 是对设备安全认证方式的准确概括。",
+              "reason": "题干要求填写设备上的安全标识，原文对应tags。",
+              "location_analysis": "原文强调电气设备应有tags标记安全。",
+              "paraphrasing": "ensure equipment has... to show it is safe -> tags on the equipment to verify its safety",
+              "keywords": "equipment, safety, tags",
+              "evidence": [
+                "Electrical equipment like bridging conductors should be regularly checked, with appropriate tags on the equipment to verify its safety."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119901",
+              "number": 20,
+              "prompt": "Electricity — Necessary action — - use insulated _____ and appropriate equipment - ensure equipment has _____ on to show it is safe - make sure electricity has been _____",
+              "options": [],
+              "answer": "disconnected",
+              "accepted_answers": [
+                "disconnected"
+              ],
+              "analysis": "题干要求填写确保电力已处理的动作，原文强调一旦发现电力迹象，应立即停工，‘so that the power can be disconnected by a qualified electrician’。因此 disconnected 准确描述了电力必须被切断的状态，符合语法和语境要求。",
+              "reason": "题干要求填写断电动作。",
+              "location_analysis": "原文要求先断电再继续工作，需disconnected。",
+              "paraphrasing": "make sure electricity has been... -> power can be disconnected",
+              "keywords": "electricity, disconnected, power, qualified electrician",
+              "evidence": [
+                "The project should be stopped immediately if there is any sign of electricity, so that the power can be disconnected by a qualified electrician prior to continuing work."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 13,
+            "collect": "Examples\nRisks involved\nNecessary action\nBiohazard\n$119896$, mould, bacteria, algae\ncan lead to disease and death\nuse protective clothing and equipment\nConfined spaces\ncontaminants e.g. gases, vapours and dusts\ninjury from fire or explosion\nfollow Safe Work code of practice\nhigh concentrations of harmful airborne contaminants e.g. carbon monoxide\n$119897$\nfollow Safe Work code of practice\nwater\n$119898$\ncut off water sources\nElectricity\nmetal pipes which are conductive\ndeath from electrocution\n- use insulated $119899$ and appropriate equipment\n- ensure equipment\nhas $119900$ on to show it is safe\n- make sure electricity\nhas been $119901$",
+            "table": {
+              "title": "",
+              "content": [
+                [
+                  "Type danger",
+                  "Examples",
+                  "Risks involved",
+                  "Necessary action"
+                ],
+                [
+                  "Biohazard",
+                  "$119896$, mould, bacteria, algae",
+                  "can lead to disease and death",
+                  "use protective clothing and equipment"
+                ],
+                [
+                  "Confined spaces",
+                  "contaminants e.g. gases, vapours and dusts",
+                  "injury from fire or explosion",
+                  "follow Safe Work code of practice"
+                ],
+                [
+                  "Confined spaces",
+                  "high concentrations of harmful airborne contaminants e.g. carbon monoxide",
+                  "$119897$",
+                  "follow Safe Work code of practice"
+                ],
+                [
+                  "Confined spaces",
+                  "water",
+                  "$119898$",
+                  "cut off water sources"
+                ],
+                [
+                  "Electricity",
+                  "metal pipes which are conductive",
+                  "death from electrocution",
+                  "- use insulated $119899$ and appropriate equipment\n- ensure equipment has $119900$ on to show it is safe\n- make sure electricity has been $119901$"
+                ]
+              ]
+            },
+            "option_title": ""
+          },
+          "content_template": "Examples\nRisks involved\nNecessary action\nBiohazard\n$119896$, mould, bacteria, algae\ncan lead to disease and death\nuse protective clothing and equipment\nConfined spaces\ncontaminants e.g. gases, vapours and dusts\ninjury from fire or explosion\nfollow Safe Work code of practice\nhigh concentrations of harmful airborne contaminants e.g. carbon monoxide\n$119897$\nfollow Safe Work code of practice\nwater\n$119898$\ncut off water sources\nElectricity\nmetal pipes which are conductive\ndeath from electrocution\n- use insulated $119899$ and appropriate equipment\n- ensure equipment\nhas $119900$ on to show it is safe\n- make sure electricity\nhas been $119901$"
+        },
+        {
+          "id": "15335",
+          "type": 8,
+          "title": "Flexible working",
+          "instructions": "Questions 21 - 27\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119902",
+              "number": 21,
+              "prompt": "• trust your employees — • provide them with clear _____",
+              "options": [],
+              "answer": "objectives",
+              "accepted_answers": [
+                "objectives"
+              ],
+              "analysis": "题干要求填写提供给员工的清晰内容，原文提到灵活工作者应‘be given well-defined objectives from the start’，即从一开始就给予明确目标。因此 objectives 是对‘clear’后所缺名词的准确对应，符合‘ONE WORD ONLY’的要求。",
+              "reason": "题干要求填写目标，原文given well-defined objectives。",
+              "location_analysis": "原文建议提供清晰目标。",
+              "paraphrasing": "provide them with clear -> given well-defined objectives",
+              "keywords": "objectives, clear, provide",
+              "evidence": [
+                "All flexible workers should be trusted and given well-defined objectives from the start and their contribution should be assessed according to their output, as opposed to the time they spend on the job."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119903",
+              "number": 22,
+              "prompt": "• initially, have a _____ of progress each day",
+              "options": [],
+              "answer": "review",
+              "accepted_answers": [
+                "review"
+              ],
+              "analysis": "题干要求填写初期每天进行的活动，原文建议‘setting up an end-of-the-day review to see how much progress has been made’，即设立每日进度回顾。因此 review 准确对应了题干中‘initially, have a... of progress each day’的描述。",
+              "reason": "题干要求填写review。",
+              "location_analysis": "原文建议设立每日回顾。",
+              "paraphrasing": "initially, have a review -> setting up an end-of-the-day review",
+              "keywords": "initially, have a review, of progress each day",
+              "evidence": [
+                "It can be a big step to implement such a change in your business, so if you are slightly cautious then I recommend perhaps setting up an end-of-the-day review to see how much progress has been made."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119904",
+              "number": 23,
+              "prompt": "• make sure a _____ is accessible to give details of colleague locations",
+              "options": [],
+              "answer": "calendar",
+              "accepted_answers": [
+                "calendar"
+              ],
+              "analysis": "题干要求填写可共享以显示同事位置的工具，原文指出‘shared calendar access for everyone so that people can see where their colleagues are each day’，即共享日历能让员工查看彼此位置。因此 calendar 是符合上下文的唯一正确答案。",
+              "reason": "题干要求填写可访问的日程工具。",
+              "location_analysis": "原文强调共享日历以便查看同事位置。",
+              "paraphrasing": "make sure a calendar is accessible -> shared calendar access",
+              "keywords": "calendar, accessible, details of colleague locations",
+              "evidence": [
+                "In my eyes, it is also vital that there is shared calendar access for everyone so that people can see where their colleagues are each day."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119905",
+              "number": 24,
+              "prompt": "• use a program such as iMeet to encourage different types of _____ between workers",
+              "options": [],
+              "answer": "collaboration",
+              "accepted_answers": [
+                "collaboration"
+              ],
+              "analysis": "题干提到使用 iMeet 来促进不同类型的工作互动，原文说明该工具支持‘all forms of collaboration for remote working’，包括视频会议、聊天、文件共享等。因此 collaboration 准确概括了这些互动形式，符合‘ONE WORD ONLY’的要求。",
+              "reason": "题干use...to encourage different types of...。",
+              "location_analysis": "答案collaboration指协作形式。",
+              "paraphrasing": "types of collaboration -> all forms of collaboration",
+              "keywords": "collaboration, iMeet",
+              "evidence": [
+                "iMeet, for example, is a tool which allows all forms of collaboration for remote working"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119906",
+              "number": 25,
+              "prompt": "• greater productivity — • less _____ from colleagues",
+              "options": [],
+              "answer": "distraction",
+              "accepted_answers": [
+                "distraction"
+              ],
+              "analysis": "题干要求填写在家工作减少的负面因素，原文指出员工在家工作‘do not have to cope with distraction caused by other employees’，即无需应对同事造成的干扰。因此 distraction 是对题干‘less... from colleagues’的准确对应。",
+              "reason": "题干要求填写distraction。",
+              "location_analysis": "原文指出在家工作可避免同事干扰。",
+              "paraphrasing": "less distraction from colleagues -> do not have to cope with distraction caused by other employees",
+              "keywords": "less distraction, from colleagues",
+              "evidence": [
+                "In my experience, employees are often more productive working at home as they can work the exact hours they want and do not have to cope with distraction caused by other employees."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119907",
+              "number": 26,
+              "prompt": "• increase in _____",
+              "options": [],
+              "answer": "creativity",
+              "accepted_answers": [
+                "creativity"
+              ],
+              "analysis": "题干要求填写因灵活工作而提升的积极特质，原文提到‘Being outside the confines of the office walls also appears to foster creativity’，即脱离办公室环境有助于激发创造力。因此 creativity 是对‘increase in...’的恰当补充。",
+              "reason": "题干要求填写creativity。",
+              "location_analysis": "原文指出办公室外工作培养创造力。",
+              "paraphrasing": "increase in creativity -> fosters creativity",
+              "keywords": "creativity, increase",
+              "evidence": [
+                "Being outside the confines of the office walls also appears to foster creativity."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119908",
+              "number": 27,
+              "prompt": "• greater success for the company with staff recruitment and _____",
+              "options": [],
+              "answer": "retention",
+              "accepted_answers": [
+                "retention"
+              ],
+              "analysis": "题干要求填写公司在招聘之外受益的方面，原文明确指出灵活工作‘helps with top talent recruitment and staff retention’，即有助于顶尖人才招聘和员工留任。因此 retention 准确对应了题干中‘staff recruitment and...’的并列结构。",
+              "reason": "题干要求填写retention。",
+              "location_analysis": "原文强调灵活工作有助于招聘和留人。",
+              "paraphrasing": "greater success for the company with staff recruitment and retention -> helps with top talent recruitment and staff retention",
+              "keywords": "staff retention, recruitment, success",
+              "evidence": [
+                "In terms of the business, we find this helps with top talent recruitment and staff retention, and a happy workforce is a more successful one."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "How to organise flexible working\n• trust your employees\n• provide them with clear $119902$\n• base measurements of performance on their output\n• initially, have a $119903$ of progress each day\n• make sure a $119904$ is accessible to give details of colleague locations\n• use a program such as iMeet to encourage different types of $119905$ between workers\nBenefits flexibility\n• greater productivity\n• less $119906$ from colleagues\n• increase in $119907$\n• more motivated staff\n• greater success for the company with staff recruitment and $119908$",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "How to organise flexible working\n• trust your employees\n• provide them with clear $119902$\n• base measurements of performance on their output\n• initially, have a $119903$ of progress each day\n• make sure a $119904$ is accessible to give details of colleague locations\n• use a program such as iMeet to encourage different types of $119905$ between workers\nBenefits flexibility\n• greater productivity\n• less $119906$ from colleagues\n• increase in $119907$\n• more motivated staff\n• greater success for the company with staff recruitment and $119908$"
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Workplace health and safety considerations for plumbers",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Like many trades, plumbing can be a dangerous job.",
+          "translation": "与许多行业一样，水管工可能是一项危险的工作。"
+        },
+        {
+          "index": 2,
+          "sentence": "It is important to take all reasonably practicable measures to keep customers and yourself incident and injury free.",
+          "translation": "采取所有合理可行的措施以确保客户和自身免受事故和伤害至关重要。"
+        },
+        {
+          "index": 3,
+          "sentence": "Biohazard waste",
+          "translation": "生物危害废物"
+        },
+        {
+          "index": 4,
+          "sentence": "Plumbers regularly come into contact with biohazard waste.",
+          "translation": "水管工经常接触生物危害废物。"
+        },
+        {
+          "index": 5,
+          "sentence": "It's the nature of the job, but that doesn't mean you should be complacent about it.",
+          "translation": "这是工作的本质，但这并不意味着你应该对此掉以轻心。"
+        },
+        {
+          "index": 6,
+          "sentence": "According to Safe Work Australia, communicable diseases from work-related exposures to biological hazards such as sewage have been estimated to cause 320,000 deaths across the globe each year.",
+          "translation": "根据澳大利亚安全工作署的数据，工作中接触污水等生物危害导致的传染病估计每年在全球造成32万人死亡。"
+        },
+        {
+          "index": 7,
+          "sentence": "In addition to this, plumbers are regularly exposed to other biohazards such as mould, bacteria and algae.",
+          "translation": "除此之外，水管工还经常接触到其他生物危害，如霉菌、细菌和藻类。"
+        },
+        {
+          "index": 8,
+          "sentence": "Don't risk it - make sure appropriate protective clothing and equipment is used.",
+          "translation": "不要冒险——确保使用适当的防护服和设备。"
+        },
+        {
+          "index": 9,
+          "sentence": "Confined spaces",
+          "translation": "密闭空间"
+        },
+        {
+          "index": 10,
+          "sentence": "Plumbers may spend much of their time working in confined spaces, where they are at risk from contaminants, including airborne gases, vapours and dusts, that may cause injury from fire or explosion.",
+          "translation": "水管工可能花费大量时间在狭小空间工作，在那里他们面临来自污染物的风险，包括空气中的气体、蒸汽和粉尘，这些污染物可能因火灾或爆炸而导致伤害。"
+        },
+        {
+          "index": 11,
+          "sentence": "They may also be exposed to high concentrations of airborne contaminants that may be harmful to health.",
+          "translation": "他们还可能接触到高浓度的空气中的污染物，这些污染物可能对健康有害。"
+        },
+        {
+          "index": 12,
+          "sentence": "For example, one plumber was fined $220,000 after an employee suffered from carbon-monoxide poisoning.",
+          "translation": "例如，一名水管工因一名员工遭受一氧化碳中毒而被罚款22万美元。"
+        },
+        {
+          "index": 13,
+          "sentence": "Another potential hazard for plumbers in confined spaces is that of drowning, if water sources are not adequately cut off.",
+          "translation": "水管工在狭小空间中的另一个潜在危险是溺水，如果水源没有被充分切断的话。"
+        },
+        {
+          "index": 14,
+          "sentence": "The Safe Work Australia confined spaces code of practice outlines the necessary steps and precautions for avoiding illness and injury.",
+          "translation": "澳大利亚安全工作局的《密闭空间操作规程》列出了避免疾病和伤害的必要步骤与预防措施。"
+        },
+        {
+          "index": 15,
+          "sentence": "Electricity",
+          "translation": "电力"
+        },
+        {
+          "index": 16,
+          "sentence": "The Master Plumbers' Association calls electricity 'plumbing's hidden killer'.",
+          "translation": "水暖大师协会将电称为‘水暖行业的隐形杀手’。"
+        },
+        {
+          "index": 17,
+          "sentence": "Metal pipes are often conductive and so gloves which provide insulation should form part of a plumber's tool kit, as should a plumbing voltage monitor and a volt tester.",
+          "translation": "金属管道通常具有导电性，因此提供绝缘功能的手套应成为水暖工工具箱的一部分，水暖电压监测器和电压测试仪也应如此。"
+        },
+        {
+          "index": 18,
+          "sentence": "Gloves should be checked prior to every use and replaced every 12 to 14 months.",
+          "translation": "手套应在每次使用前进行检查，并每12至14个月更换一次。"
+        },
+        {
+          "index": 19,
+          "sentence": "Electrical equipment like bridging conductors should be regularly checked, with appropriate tags on the equipment to verify its safety.",
+          "translation": "桥接导线等电气设备应定期检查，并在设备上附有适当的标签以验证其安全性。"
+        },
+        {
+          "index": 20,
+          "sentence": "The project should be stopped immediately if there is any sign of electricity, so that the power can be disconnected by a qualified electrician prior to continuing work.",
+          "translation": "如有任何触电迹象，应立即停止项目，以便在继续工作前由合格电工切断电源。"
+        },
+        {
+          "index": 21,
+          "sentence": "How to manage flexible working with your employees",
+          "translation": "如何管理与员工的灵活工作安排"
+        },
+        {
+          "index": 23,
+          "sentence": "There is no denying that flexible working has grown enormously in recent years.",
+          "translation": "不可否认，弹性工作在近年来得到了极大的发展。"
+        },
+        {
+          "index": 24,
+          "sentence": "It does, however, require careful management.",
+          "translation": "然而，它确实需要仔细的管理。"
+        },
+        {
+          "index": 26,
+          "sentence": "When it comes to implementing flexible working one word is key: trust.",
+          "translation": "在实施弹性工作制时，有一个词至关重要：信任。"
+        },
+        {
+          "index": 27,
+          "sentence": "All flexible workers should be trusted and given well-defined objectives from the start and their contribution should be assessed according to their output, as opposed to the time they spend on the job.",
+          "translation": "所有弹性工作者应受到信任，并从一开始就获得明确的目标，他们的贡献应根据工作成果而非投入的时间来评估。"
+        },
+        {
+          "index": 28,
+          "sentence": "It can be a big step to implement such a change in your business, so if you are slightly cautious then I recommend perhaps setting up an end-of-the-day review to see how much progress has been made.",
+          "translation": "在您的企业中实施这种改变可能是一个重大步骤，因此如果您有些谨慎，我建议或许可以设立一个每日结束时的复盘，以了解取得了多少进展。"
+        },
+        {
+          "index": 29,
+          "sentence": "As all parties find their feet with the new set-up, this contact can slowly be reduced.",
+          "translation": "随着各方逐渐适应新的安排，这种沟通可以慢慢减少。"
+        },
+        {
+          "index": 31,
+          "sentence": "In my eyes, it is also vital that there is shared calendar access for everyone so that people can see where their colleagues are each day.",
+          "translation": "在我看来，拥有共享日历的权限对每个人来说也至关重要，这样大家就能了解同事每天的位置。"
+        },
+        {
+          "index": 32,
+          "sentence": "This way if they need to catch up with someone they can plan when to do so.",
+          "translation": "这样一来，如果需要与某人联系，他们就可以计划何时进行沟通。"
+        },
+        {
+          "index": 33,
+          "sentence": "Technology now exists to enable employees to stay in touch with other members of staff and external partners.",
+          "translation": "现有技术能够使员工与其他同事和外部合作伙伴保持联系。"
+        },
+        {
+          "index": 34,
+          "sentence": "iMeet, for example, is a tool which allows all forms of collaboration for remote working,from video conferencing, live chat and file sharing to screen sharing.",
+          "translation": "例如，iMeet 是一个支持远程工作多种协作形式的工具，包括视频会议、实时聊天、文件共享以及屏幕共享。"
+        },
+        {
+          "index": 35,
+          "sentence": "The new breed of worker is therefore fully equipped to work productively away from the office, and can still feel like they're in the same room as others when necessary.",
+          "translation": "因此，新一代员工已完全具备在办公室外高效工作的能力，并且在必要时仍能感觉与他人同处一室。"
+        },
+        {
+          "index": 37,
+          "sentence": "In my experience, employees are often more productive working at home as they can work the exact hours they want and do not have to cope with distraction caused by other employees.",
+          "translation": "根据我的经验，员工在家工作时往往效率更高，因为他们可以按照自己确切的时间工作，并且不必应对其他员工造成的干扰。"
+        },
+        {
+          "index": 38,
+          "sentence": "Being outside the confines of the office walls also appears to foster creativity.",
+          "translation": "走出办公室的局限似乎也能激发创造力。"
+        },
+        {
+          "index": 39,
+          "sentence": "In addition, we find staff are more motivated as they have a better work-life balance.",
+          "translation": "此外，我们发现员工因为拥有更好的工作与生活平衡而更有动力。"
+        },
+        {
+          "index": 40,
+          "sentence": "In terms of the business, we find this helps with top talent recruitment and staff retention, and a happy workforce is a more successful one.",
+          "translation": "从业务角度而言，我们发现这有助于顶尖人才的招聘和员工留存，而一支快乐的员工队伍也更能取得成功。"
+        }
+      ]
+    },
+    {
+      "id": "2050",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Preventing the theft of turtle eggs",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Conservationists and law enforcement have struggled to prevent wildlife trafficking. But could some plastic eggs and GPS trackers change the game?",
+          "translation": "环境保护主义者和执法部门一直难以阻止野生动物走私。\n但一些塑料蛋和GPS追踪器能否改变这一局面呢？"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Humans have been eating sea turtle eggs (and killing adult turtles for meat) for millennia. However, as human populations exploded and as sea turtles began to confront additional threats such as intensive fishing, beach development and climate change, sea turtle populations declined precipitously. Today, all but one of the world's seven species of sea turtles are considered threatened according to the IUCN*Red List.And the one that's not- the flatback turtle - is listed as data deficient,which means scientists simply don't know how it's doing.",
+          "translation": "人类食用海龟蛋（并捕杀成年海龟取肉）已有数千年历史。\n然而，随着人口激增以及海龟面临集约化捕捞、海滩开发和气候变化等额外威胁，海龟数量急剧下降。\n如今，根据世界自然保护联盟濒危物种红色名录，全球七种海龟中除一种外均被视为受威胁物种。\n而唯一未被列入的平背海龟则被列为数据缺乏，这意味着科学家根本不清楚其生存状况。\n人类食用海龟蛋（以及捕杀成年海龟获取肉食）已有数千年之久。\n然而，随着人口激增以及海龟开始面临集约化捕捞、海滩开发和气候变化等额外威胁，海龟数量急剧下降。\n如今，根据世界自然保护联盟（IUCN）红色名录，全球七种海龟中除一种外均被视为受威胁物种。\n而未受威胁的那一种——平背海龟——被列为数据缺乏，这意味着科学家根本不清楚其生存状况。\n人类食用海龟蛋（并捕杀成年海龟获取肉食）已持续数千年之久。\n然而，随着人口激增，海龟开始面临密集捕捞、海滩开发和气候变化等额外威胁，其数量急剧下降。\n而唯一未被列入受威胁物种的平背龟则被列为数据缺乏，这意味着科学家们尚不清楚其生存状况。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "One major problem is that every year millions of sea turtle eggs are illegally taken by poachers for sale on the black market.The situation is particularly serious in Nicaragua, in Central America, which is home to four sea turtle species.",
+          "translation": "一个主要问题是，每年有数百万枚海龟蛋被偷猎者非法获取，并在黑市上出售。\n这种情况在中美洲的尼加拉瓜尤为严峻，该地是四种海龟的栖息地。\n一个主要问题是，每年都有数百万枚海龟蛋被偷猎者非法获取，并在黑市上出售。\n中美洲的尼加拉瓜情况尤为严峻，该国是四种海龟的栖息地。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Kim Williams-Guillen, who works for conservation body Paso Pacifico, described the poaching of sea turtle nests on the beaches of Nicaragua as 'uncontrolled, unregulated, extensive and contested' . Even the best-protected beaches are plundered to some extent and it's not uncommon to see poachers digging up nests just meters from tourists watching sea turtles laying their clutch at night, she said.This poaching becomes particularly frenzied during the arribadas - mass laying events where thousands of turtles nest on the same beach for a single night in a biological strategy to overwhelm natural predators.",
+          "translation": "在保护组织Paso Pacifico工作的Kim Williams-Guillen将尼加拉瓜海滩上海龟巢穴被偷猎的行为描述为‘不受控制、不受监管、广泛且存在争议’。\n她说，即便是保护最严密的海滩也在一定程度上遭到掠夺，并且经常看到偷猎者在距离夜间观看海龟产卵的游客仅几米远的地方挖掘巢穴。\n在‘arribadas’（大量产卵事件）期间，这种偷猎行为变得尤为疯狂——成千上万只海龟在同一海滩上筑巢一夜，这是一种通过数量压倒天敌的生物策略。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "'Even with armed guards, the numbers of poachers overwhelm military personnel by ten or twenty to one,' Williams-Guillen said. 'Although many poachers are locals with limited resources, during these arribadas there are influxes of gangs of poachers from larger cities outside local communities.These are not just local poor people without other options.’",
+          "translation": "“即使有武装警卫，偷猎者的数量也以十比一或二十比一的比例压倒军事人员，”威廉姆斯-吉伦说道。\n“尽管许多偷猎者是资源有限的当地人，但在这些大规模产卵期间，会涌入来自当地社区以外大城市的偷猎团伙。\n这些不仅仅是别无选择的当地穷人。”"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "But to protect the country's sea turtles, Williams-Guillen said conservationists shouldn't just depend on catching low-level operators. 'If one poacher decides to stop, another one will just step into his place ... we need to know more about the middlemen and people higher up in the distribution chain,' she said.",
+          "translation": "但为了保护该国的海龟，威廉姆斯-吉伦表示，保护主义者不应仅仅依赖抓捕底层操作者。\n她说：“如果一个偷猎者决定停止，另一个人就会接替他的位置……我们需要更多地了解中间商和分销链中更高层级的人。”"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Paso Pacifico's solution is the creation of high-tech sea turtle eggs: fake eggs convincingly crafted to look like the real thing, but which contain GPS tracking devices.These have the potential to reveal the destination markets for trafficked sea turtle eggs.",
+          "translation": "帕索帕西菲科的解决方案是制造高科技海龟蛋：这些假蛋被精心制作得看起来跟真蛋一模一样，但内部装有GPS追踪装置。\n这些假蛋有可能揭示被贩运海龟蛋的最终市场。\nPaso Pacifico的解决方案是制作高科技海龟蛋：这些假蛋被精心制作，看起来与真蛋无异，但其中包含GPS追踪装置。\n这些假蛋有望揭示被走私海龟蛋的目的地市场。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Making convincing sea turtle eggs is not easy, and Paso Pacifico is still working on perfecting a prototype. In particular, it's proving quite problematic to create the right texture, since sea turtle eggs are not covered in a hard shell like those of birds, but are quite flexible.",
+          "translation": "制作逼真的海龟蛋并不容易，Paso Pacifico仍在努力完善原型。\n特别是，要创造出合适的质地相当困难，因为海龟蛋不像鸟蛋那样有坚硬的壳，而是相当有弹性。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "So Paso Pacifico brought in Lauren Wilde, a special effects artist in the US, to create a convincing outer shell.First,Wilde had to get her hands on the real thing. Since it's illegal to send sea turtle eggs over the border, Wilde is using land turtle eggs from California. 'It was really eye opening and important for me to feel these eggs and how the shell bends a little,' she said.",
+          "translation": "因此，帕索帕西菲科组织请来了美国的特效艺术家劳伦·怀尔德，来制作一个逼真的外层蛋壳。\n首先，怀尔德必须获得真品。\n由于跨边境邮寄海龟蛋属于非法行为，怀尔德使用的是来自加州陆龟的蛋。\n“触摸这些蛋并感受蛋壳能轻微弯曲，这真的让我大开眼界，也至关重要，”她说道。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "To get the GPS device inside the shell, Paso Pacifico is using 3D printers to make a plastic ball which will then have a GPS transmitter fitted inside.This will take the place of the embryo inside the shell. Lastly the fake shells will be sealed with silicone, waterproofing them.",
+          "translation": "为了将GPS设备放入蛋壳内，帕索太平洋组织正在使用3D打印机制作一个塑料球，随后将在其内部安装GPS发射器。\n这将替代蛋壳内的胚胎。\n最后，假的蛋壳将用硅胶密封，使其防水。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Sea turtles on average lay around 100 eggs in a nest,and once the fake eggs are finished they will be slipped in with the real ones. Williams-Guillen said it might even be possible to deliver fake eggs into nests while poachers are at work. Wary of tourists, poachers will often back off if strangers come near and then return when they have gone. 'It would be pretty easy to drop an egg in the dark into a nest they have been digging up,' she said.",
+          "translation": "海龟平均每个巢穴产约100枚蛋，一旦假蛋制作完成，它们将被混入真蛋中。\n威廉姆斯-吉伦表示，甚至有可能在偷猎者作案时将假蛋放入巢穴中。\n由于对游客保持警惕，偷猎者常常会在陌生人靠近时后退，待其离开后再返回。\n“在黑暗中把一枚蛋丢进他们正在挖掘的巢穴里是相当容易的，”她说。\n海龟平均在每个巢穴中产下约100枚卵，一旦这些假卵制作完成，它们将被混入真卵中。\n海龟平均每个巢穴产约100枚蛋，\n一旦假蛋制作完成，它们将被混入真蛋中。\n威廉姆斯-吉伦表示，甚至在偷猎者作业时，也有可能将假蛋放入巢穴中。\n由于对游客保持警惕，偷猎者往往会在陌生人靠近时后退，等他们离开后再返回。\n她说：“在黑暗中把一枚蛋扔进他们正在挖掘的巢穴里，是相当容易的。”"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Once the poacher picks up the fake egg along with the real ones, conservationists and law enforcement agents will be able to track them. Experts believe most of the stolen eggs eventually make their way out of Nicaragua, possibly to El Salvador or Guatemala.However, there is also growing concern that sea turtle eggs from Central America are actually heading to the USA, from where they are sold on to other countries around the world.",
+          "translation": "一旦偷猎者将假蛋与真蛋一同捡起，环保人士和执法人员就能追踪它们。\n专家认为，大多数被盗的蛋最终被运出尼加拉瓜，可能流向萨尔瓦多或危地马拉。\n然而，人们也越来越担忧，来自中美洲的海龟蛋实际上正被运往美国，并从那里转售到全球其他国家。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "To date, Paso Pacifico has yet to put a single fake egg in a nest.But Williams-Guillen said she isn't too concerned that publicity for their scheme will result in poachers looking for the eggs. 'The vast majority of the poaching is happening at night, so already it is hard to tell [the eggs] apart, and at this point, poachers and middlemen are not closely inspecting eggs, but rather shoving them into a sack as quickly as possible.'",
+          "translation": "迄今为止，帕索太平洋组织尚未将任何一颗假蛋放入巢穴中。\n但威廉姆斯-吉伦表示，她并不太担心他们计划的宣传会导致偷猎者寻找这些假蛋。\n'绝大多数偷猎行为发生在夜间，因此已经很难区分真假蛋，而且目前偷猎者和中间商并不会仔细检查蛋，而是尽快将它们塞进麻袋。'\n迄今为止，帕索帕西菲科尚未将一枚假蛋放入任何一个巢穴中。\n但威廉姆斯-吉伦表示，她并不太担心其计划的公开会导致偷猎者搜寻这些蛋。\n“绝大多数偷猎活动发生在夜间，因此已经很难分辨[这些蛋]，而目前，偷猎者和中间商并不会仔细检查蛋，而是尽快把它们塞进袋子里。”\n迄今为止，帕索太平洋组织尚未将任何一个假蛋放入巢穴中。\n但威廉姆斯-吉伦表示，她并不太担心针对他们计划的宣传会导致偷猎者寻找这些假蛋。\n“绝大多数偷猎行为发生在夜间，因此已经很难分辨出这些蛋的区别；此外，目前偷猎者和中间商并不会仔细检查蛋，而是尽可能迅速地将它们塞进麻袋。”"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "Of course, poachers will eventually become aware of the prospect of fake eggs among the real ones - especially when customers try to bite into an egg and break their teeth on the GPS transmitter instead.So, Paso Pacifico plans to do a massive deployment of as many fakes as possible to gather a lot of data before poachers get wise.",
+          "translation": "当然，偷猎者最终会意识到真蛋中可能有假蛋的存在——尤其是当顾客试图咬开蛋，却反而在GPS发射器上崩坏牙齿时。\n因此，帕索帕西菲科计划在偷猎者警觉之前，大规模部署尽可能多的假蛋，以收集大量数据。\n当然，偷猎者最终会意识到真蛋中可能混入假蛋——尤其是当顾客试图咬开蛋，却被GPS发射器硌碎了牙齿时。\n因此，帕索太平洋组织计划在偷猎者察觉之前，大量部署尽可能多的假蛋，以收集大量数据。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Knowing where the eggs go will allow conservationists and law enforcement agents to focus their resources on the right places - whether it be through awareness-building campaigns or crackdowns on illegal sellers. And eventually Paso Pacifico hopes to share the technology with interested parties around the world.",
+          "translation": "了解这些蛋的去向将使保护主义者和执法人员能够将资源集中在正确的地方——无论是通过提高意识的活动还是打击非法卖家。\n最终，帕索帕西菲科希望与世界各地感兴趣的团体共享这项技术。\n了解这些蛋的去向将使自然资源保护者和执法人员能够将资源集中在正确的地方——无论是通过提高意识的活动还是打击非法卖家。\n最终，帕索太平洋希望与世界各地的相关方分享这项技术。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15337",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 33\nThe text has six sections.\nChoose the correct heading for each section and move it into the gap.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Developing an item that appears true to life"
+            },
+            {
+              "value": "B",
+              "label": "B. Extending the project to other endangered species"
+            },
+            {
+              "value": "C",
+              "label": "C. A short but intensive investigation with longer-term follow-up"
+            },
+            {
+              "value": "D",
+              "label": "D. Problems facing sea turtles at a global level"
+            },
+            {
+              "value": "E",
+              "label": "E. Collection of eggs and their possible onward routes"
+            },
+            {
+              "value": "F",
+              "label": "F. Intensive and large-scale poaching in one location"
+            },
+            {
+              "value": "G",
+              "label": "G. Why catching the poachers may not solve the problem"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1153371",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Developing an item that appears true to life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Extending the project to other endangered species"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A short but intensive investigation with longer-term follow-up"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Problems facing sea turtles at a global level"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Collection of eggs and their possible onward routes"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Intensive and large-scale poaching in one location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Why catching the poachers may not solve the problem"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "第28题对应Section A，该段概述全球海龟面临的多重威胁，包括人类捕食、渔业、海滩开发和气候变化，并引用IUCN红色名录指出除一种外其余六种均受威胁。这与Heading D‘Problems facing sea turtles at a global level’完全吻合，因其聚焦全球范围内海龟种群的整体危机。",
+              "reason": "Section A概述全球海龟面临的威胁，与heading D吻合。",
+              "location_analysis": "首段描述全球海龟受威胁现状，对应heading D。",
+              "paraphrasing": "global level -> all but one of the world's seven species; problems -> declined, threatened",
+              "keywords": "sea turtles, global level, problems",
+              "evidence": [
+                "Humans have been eating sea turtle eggs (and killing adult turtles for meat) for millennia.",
+                "Today, all but one of the world's seven species of sea turtles are considered threatened according to the IUCN*Red List."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1153372",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Developing an item that appears true to life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Extending the project to other endangered species"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A short but intensive investigation with longer-term follow-up"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Problems facing sea turtles at a global level"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Collection of eggs and their possible onward routes"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Intensive and large-scale poaching in one location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Why catching the poachers may not solve the problem"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "第29题对应Section B，该段集中描述尼加拉瓜每年数百万海龟蛋遭盗猎的猖獗现象，特别强调在arribadas期间数千只海龟同时产卵却仍被大规模洗劫。Heading F‘Intensive and large-scale poaching in one location’准确概括了这一内容，其中‘one location’指尼加拉瓜，‘intensive and large-scale’对应‘uncontrolled, extensive’及‘thousands of turtles’。",
+              "reason": "Section B聚焦尼加拉瓜大规模偷猎，与heading F吻合。",
+              "location_analysis": "描述尼加拉瓜海龟蛋被盗猎规模大且猖獗，对应heading F。",
+              "paraphrasing": "intensive -> millions, uncontrolled; large-scale -> thousands of turtles; one location -> Nicaragua",
+              "keywords": "poaching, Nicaragua, intensive",
+              "evidence": [
+                "One major problem is that every year millions of sea turtle eggs are illegally taken by poachers for sale on the black market.",
+                "The situation is particularly serious in Nicaragua, in Central America, which is home to four sea turtle species."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1153373",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Developing an item that appears true to life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Extending the project to other endangered species"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A short but intensive investigation with longer-term follow-up"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Problems facing sea turtles at a global level"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Collection of eggs and their possible onward routes"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Intensive and large-scale poaching in one location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Why catching the poachers may not solve the problem"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "第30题对应Section C，该段指出仅抓捕底层盗猎者无效，因为‘一人退出，另一人立即顶替’，必须追查中间商和分销链上层。Heading G‘Why catching the poachers may not solve the problem’精准反映此逻辑，强调执法对象需升级，而非仅处理末端操作者。",
+              "reason": "Section C讨论单纯抓盗猎者无法解决问题，与heading G吻合。",
+              "location_analysis": "指出仅抓低端盗猎者无效，需查上线，对应heading G。",
+              "paraphrasing": "catching poachers -> catch low-level operators; may not solve -> another one will just step into his place",
+              "keywords": "catching poachers, not solve problem",
+              "evidence": [
+                "But to protect the country's sea turtles, Williams-Guillen said conservationists shouldn't just depend on catching low-level operators.",
+                "If one poacher decides to stop, another one will just step into his place"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1153374",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Developing an item that appears true to life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Extending the project to other endangered species"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A short but intensive investigation with longer-term follow-up"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Problems facing sea turtles at a global level"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Collection of eggs and their possible onward routes"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Intensive and large-scale poaching in one location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Why catching the poachers may not solve the problem"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "第31题对应Section D，该段详细描述制作逼真假海龟蛋的过程，包括外壳质感、3D打印塑料球、嵌入GPS及硅胶密封等步骤。Heading A‘Developing an item that appears true to life’恰如其分地总结了这一技术开发的核心目标——制造外观与真蛋高度相似的追踪装置。",
+              "reason": "Section D描述开发逼真假蛋，与heading A吻合。",
+              "location_analysis": "介绍制作逼真假蛋的过程，对应heading A。",
+              "paraphrasing": "developing an item -> creation of high-tech sea turtle eggs; appears true to life -> convincingly crafted to look like the real thing",
+              "keywords": "developing, item, true to life",
+              "evidence": [
+                "Paso Pacifico's solution is the creation of high-tech sea turtle eggs: fake eggs convincingly crafted to look like the real thing, but which contain GPS tracking devices.",
+                "Making convincing sea turtle eggs is not easy, and Paso Pacifico is still working on perfecting a prototype."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1153375",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Developing an item that appears true to life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Extending the project to other endangered species"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A short but intensive investigation with longer-term follow-up"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Problems facing sea turtles at a global level"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Collection of eggs and their possible onward routes"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Intensive and large-scale poaching in one location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Why catching the poachers may not solve the problem"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "第32题对应Section E，该段说明假蛋将混入真实巢穴被盗猎者取走，并预测赃物可能流向萨尔瓦多、危地马拉甚至美国。Heading E‘Collection of eggs and their possible onward routes’准确涵盖‘poacher picks up the fake egg’（收集）和‘make their way out of Nicaragua’（运输路线）两个关键信息点。",
+              "reason": "Section E讲假蛋被收走及可能运输路线，与heading E吻合。",
+              "location_analysis": "说明假蛋被偷后追踪去向，对应heading E。",
+              "paraphrasing": "collection of eggs -> poacher picks up the fake egg; possible onward routes -> make their way out of Nicaragua, to El Salvador or Guatemala",
+              "keywords": "collection of eggs, onward routes",
+              "evidence": [
+                "Once the poacher picks up the fake egg along with the real ones, conservationists and law enforcement agents will be able to track them.",
+                "Experts believe most of the stolen eggs eventually make their way out of Nicaragua, possibly to El Salvador or Guatemala."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "1153376",
+              "number": 33,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Developing an item that appears true to life"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Extending the project to other endangered species"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A short but intensive investigation with longer-term follow-up"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Problems facing sea turtles at a global level"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Collection of eggs and their possible onward routes"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Intensive and large-scale poaching in one location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Why catching the poachers may not solve the problem"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "第33题对应Section F，该段先提出短期内大规模投放假蛋以快速收集数据（intensive investigation），再说明后续将根据数据针对性打击非法贸易（longer-term follow-up）。Heading C‘A short but intensive investigation with longer-term follow-up’完整捕捉了这一策略的时间结构和行动逻辑。",
+              "reason": "Section F提到短期大量投放假蛋及后续长期追踪，与heading C吻合。",
+              "location_analysis": "计划大规模放置假蛋快速收集数据后持续行动，对应heading C。",
+              "paraphrasing": "short but intensive -> massive deployment of as many fakes as possible; longer-term follow-up -> focus resources on the right places",
+              "keywords": "intensive investigation, follow-up",
+              "evidence": [
+                "So, Paso Pacifico plans to do a massive deployment of as many fakes as possible to gather a lot of data before poachers get wise.",
+                "Knowing where the eggs go will allow conservationists and law enforcement agents to focus their resources on the right places"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "15339",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 34 - 37\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119915",
+              "number": 34,
+              "prompt": "What does the writer suggest about the flatback turtle?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "lt could be as severely threatened as other turtles."
+                },
+                {
+                  "value": "B",
+                  "label": "lt has been neglected by scientists in the past."
+                },
+                {
+                  "value": "C",
+                  "label": "lt is in less danger than some other species."
+                },
+                {
+                  "value": "D",
+                  "label": "lt should be removed from the lUCN Red List."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问作者对平背龟（flatback turtle）的看法。原文指出，世界七种海龟中除平背龟外均被列为受威胁物种，而平背龟被列为‘数据缺乏’（data deficient），即科学家尚不清楚其生存状况。这暗示它可能与其他海龟一样面临严重威胁，只是缺乏足够数据证实。因此选项A‘它可能和其他海龟一样受到严重威胁’正确，符合原文逻辑推断。",
+              "reason": "flatback因数据缺乏未被列入受威胁类别，但实际可能同样严重。",
+              "location_analysis": "flatback被列为数据缺乏，可能同样受威胁，选A。",
+              "paraphrasing": "as severely threatened -> data deficient; other turtles -> all but one ... considered threatened",
+              "keywords": "flatback turtle, threatened",
+              "evidence": [
+                "Today, all but one of the world's seven species of sea turtles are considered threatened according to the IUCN*Red List.",
+                "And the one that's not- the flatback turtle - is listed as data deficient,which means scientists simply don't know how it's doing."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": {
+                "B": "原文未提及科学家过去忽视该海龟，属于无中生有。",
+                "C": "与原文中该海龟与其他物种受威胁程度相同的观点矛盾。",
+                "D": "原文未支持将其从IUCN红色名录中移除，属于过度推断。"
+              }
+            },
+            {
+              "id": "119916",
+              "number": 35,
+              "prompt": "Williams-Guillen says that the poaching of sea turtle eggs in Nicaragua",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "is mainly carried out by local people."
+                },
+                {
+                  "value": "B",
+                  "label": "may be encouraged by the presence of tourists."
+                },
+                {
+                  "value": "C",
+                  "label": "sometimes has a highly organised structure."
+                },
+                {
+                  "value": "D",
+                  "label": "can only be controlled by the use of armed guards."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问Williams-Guillen对尼加拉瓜海龟蛋偷猎活动的看法。原文Section C提到，在大规模产卵期间，来自大城市、有组织的盗猎团伙涌入当地，且明确指出‘这些人不仅仅是别无选择的本地穷人’，说明偷猎具有高度组织性。选项C‘有时具有高度组织结构’准确对应了‘influxes of gangs of poachers from larger cities’这一关键信息，因此为正确答案。",
+              "reason": "Williams-Guillen指出偷猎有组织性，并非仅当地人。",
+              "location_analysis": "Section C提到有组织团伙偷猎，对应C。",
+              "paraphrasing": "highly organised structure -> influxes of gangs of poachers from larger cities",
+              "keywords": "poaching, organised structure, gangs",
+              "evidence": [
+                "during these arribadas there are influxes of gangs of poachers from larger cities outside local communities.",
+                "These are not just local poor people without other options."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": {
+                "A": "原文未提及盗猎海龟蛋主要由当地人进行，属于无中生有。",
+                "B": "原文可能指出游客的出现并未鼓励盗猎，或者与此相反。",
+                "D": "原文表明控制盗猎有多种方法，并非只能依靠武装守卫。"
+              }
+            },
+            {
+              "id": "119917",
+              "number": 36,
+              "prompt": "ln Section E, Williams-Guillen says that one way to encourage poachers to take the fake eggs is to",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "make fake nests and put the eggs into them."
+                },
+                {
+                  "value": "B",
+                  "label": "put them in nests with just a few real eggs."
+                },
+                {
+                  "value": "C",
+                  "label": "distract the poachers after the fake eggs have been put in the nests."
+                },
+                {
+                  "value": "D",
+                  "label": "put them in nests that the poachers have started to dig up."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问Williams-Guillen建议如何促使盗猎者拿走假蛋。原文Section E明确提到：‘在盗猎者挖掘巢穴时，趁他们因游客靠近而暂时离开之际，很容易在黑暗中将假蛋放入他们正在挖掘的巢中’。这直接对应选项D‘把假蛋放进盗猎者已经开始挖掘的巢穴中’，因为利用了盗猎者作业过程中的空档，确保假蛋被一并带走。",
+              "reason": "原文明确提到利用盗猎者挖掘时放入假蛋。",
+              "location_analysis": "将假蛋放入盗猎者正在挖掘的巢中，对应D。",
+              "paraphrasing": "put them in nests that the poachers have started to dig up -> drop an egg in the dark into a nest they have been digging up",
+              "keywords": "distract poachers, dig up",
+              "evidence": [
+                "It would be pretty easy to drop an egg in the dark into a nest they have been digging up"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "该选项在原文中未提及，属于无中生有。",
+                "B": "与原文信息矛盾，原文未提及把假蛋放在只有少数真蛋的巢中。",
+                "C": "偷换概念，原文说的是通过假蛋分散偷猎者注意力，而非在放置假蛋后分散其注意力。"
+              }
+            },
+            {
+              "id": "119918",
+              "number": 37,
+              "prompt": "lt is planned to use a large number of fake eggs at the beginning because",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "some of the fake eggs may be missed by the poachers."
+                },
+                {
+                  "value": "B",
+                  "label": "it may not be possible to continue the project indefinitely."
+                },
+                {
+                  "value": "C",
+                  "label": "some eggs may be hidden in the sand."
+                },
+                {
+                  "value": "D",
+                  "label": "it may not be feasible to fund long-term research."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问为何计划初期大量投放假蛋。原文Section F指出：‘Paso Pacifico计划尽可能多地大规模部署假蛋，以便在盗猎者察觉之前收集大量数据’。这表明项目存在时间窗口限制——一旦盗猎者意识到假蛋存在，行动就会失效。因此选项B‘可能无法无限期继续该项目’正确，对应‘before poachers get wise’所隐含的短期可行性限制。",
+              "reason": "趁盗猎者未警觉前快速大量投放假蛋。",
+              "location_analysis": "在盗猎者察觉前大量部署收集数据，对应B。",
+              "paraphrasing": "may not be possible to continue indefinitely -> gather a lot of data before poachers get wise",
+              "keywords": "large number, beginning, limited time",
+              "evidence": [
+                "So, Paso Pacifico plans to do a massive deployment of as many fakes as possible to gather a lot of data before poachers get wise."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "该选项描述的是偷猎者可能错过假蛋，但这不是计划初期大量使用假蛋的原因，与题干因果关系不符。",
+                "C": "原文未提及蛋藏在沙子里，该选项无中生有。",
+                "D": "该选项提到长期研究资金问题，而题干强调项目可能无法持续，属于信息矛盾。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15344",
+          "type": 4,
+          "title": "Making convincing sea turtle eggs",
+          "instructions": "Questions 38 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119919",
+              "number": 38,
+              "prompt": "One difficulty in creating a fake sea turtle egg is to get the appropriate texture for the shell. Unlike a bird’s egg, a turtle’s egg has a shell which is _____. Lauren Wilde has studied eggs from Californian turtles that live on _____ to create a realistic reproduction of the shell. A GPS device will then be placed inside a _____ in the fake shell. Finally, silicone will be applied to the shell to make it waterproof.",
+              "options": [],
+              "answer": "flexible",
+              "accepted_answers": [
+                "flexible"
+              ],
+              "analysis": "题干要求填写海龟蛋壳的质地特征。原文Section D明确对比鸟类蛋壳指出：‘海龟蛋没有硬壳，而是相当柔软（flexible）’。该词直接出现在描述中，且与题干‘appropriate texture for the shell’完全对应，因此答案为‘flexible’。",
+              "reason": "原文直接说明海龟蛋壳flexible。",
+              "location_analysis": "原文指出海龟蛋壳柔软有弹性。",
+              "paraphrasing": "sea turtle eggs are not covered in a hard shell ... but are quite flexible",
+              "keywords": "shell, flexible",
+              "evidence": [
+                "sea turtle eggs are not covered in a hard shell like those of birds, but are quite flexible."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119920",
+              "number": 39,
+              "prompt": "One difficulty in creating a fake sea turtle egg is to get the appropriate texture for the shell. Unlike a bird’s egg, a turtle’s egg has a shell which is _____. Lauren Wilde has studied eggs from Californian turtles that live on _____ to create a realistic reproduction of the shell. A GPS device will then be placed inside a _____ in the fake shell. Finally, silicone will be applied to the shell to make it waterproof.",
+              "options": [],
+              "answer": "land",
+              "accepted_answers": [
+                "land"
+              ],
+              "analysis": "题干问Lauren Wilde研究的是哪种龟的蛋。原文提到：‘由于无法合法获取海龟蛋，Wilde使用来自加州的陆龟蛋（land turtle eggs from California）’。关键词‘land’直接说明这些龟生活在陆地上，与题干‘live on ____’结构匹配，因此答案为‘land’。",
+              "reason": "原文明确说明使用陆龟蛋。",
+              "location_analysis": "Wilde使用加州陆龟蛋。",
+              "paraphrasing": "land turtle eggs from California",
+              "keywords": "Lauren Wilde, California, land",
+              "evidence": [
+                "Wilde is using land turtle eggs from California."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119921",
+              "number": 40,
+              "prompt": "One difficulty in creating a fake sea turtle egg is to get the appropriate texture for the shell. Unlike a bird’s egg, a turtle’s egg has a shell which is _____. Lauren Wilde has studied eggs from Californian turtles that live on _____ to create a realistic reproduction of the shell. A GPS device will then be placed inside a _____ in the fake shell. Finally, silicone will be applied to the shell to make it waterproof.",
+              "options": [],
+              "answer": "ball",
+              "accepted_answers": [
+                "ball"
+              ],
+              "analysis": "题干问GPS装置将被放置在什么内部。原文Section D说明：‘Paso Pacifico使用3D打印机制造一个塑料球（plastic ball），然后将GPS发射器装入其中’。此处‘ball’是唯一符合‘ONE WORD ONLY’要求且准确描述容器形状的词，因此答案为‘ball’。",
+              "reason": "原文说GPS装在塑料球内部。",
+              "location_analysis": "GPS装置放在塑料球内。",
+              "paraphrasing": "a plastic ball which will then have a GPS transmitter fitted inside",
+              "keywords": "GPS device, inside, ball",
+              "evidence": [
+                "To get the GPS device inside the shell, Paso Pacifico is using 3D printers to make a plastic ball which will then have a GPS transmitter fitted inside."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "One difficulty in creating a fake sea turtle egg is to get the appropriate texture for the shell. Unlike a bird’s egg, a turtle’s egg has a shell which is $119919$. Lauren Wilde has studied eggs from Californian turtles that live on $119920$ to create a realistic reproduction of the shell. A GPS device will then be placed inside a $119921$ in the fake shell. Finally, silicone will be applied to the shell to make it waterproof.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "One difficulty in creating a fake sea turtle egg is to get the appropriate texture for the shell. Unlike a bird’s egg, a turtle’s egg has a shell which is $119919$. Lauren Wilde has studied eggs from Californian turtles that live on $119920$ to create a realistic reproduction of the shell. A GPS device will then be placed inside a $119921$ in the fake shell. Finally, silicone will be applied to the shell to make it waterproof."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Preventing the theft of turtle eggs",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Conservationists and law enforcement have struggled to prevent wildlife trafficking.",
+          "translation": "环境保护主义者和执法部门一直难以阻止野生动物走私。"
+        },
+        {
+          "index": 2,
+          "sentence": "But could some plastic eggs and GPS trackers change the game?",
+          "translation": "但一些塑料蛋和GPS追踪器能否改变这一局面呢？"
+        },
+        {
+          "index": 4,
+          "sentence": "Humans have been eating sea turtle eggs (and killing adult turtles for meat) for millennia.",
+          "translation": "人类食用海龟蛋（并捕杀成年海龟取肉）已有数千年历史。"
+        },
+        {
+          "index": 5,
+          "sentence": "However, as human populations exploded and as sea turtles began to confront additional threats such as intensive fishing, beach development and climate change, sea turtle populations declined precipitously.",
+          "translation": "然而，随着人口激增以及海龟面临集约化捕捞、海滩开发和气候变化等额外威胁，海龟数量急剧下降。"
+        },
+        {
+          "index": 6,
+          "sentence": "Today, all but one of the world's seven species of sea turtles are considered threatened according to the IUCN*Red List.",
+          "translation": "如今，根据世界自然保护联盟濒危物种红色名录，全球七种海龟中除一种外均被视为受威胁物种。"
+        },
+        {
+          "index": 7,
+          "sentence": "And the one that's not- the flatback turtle - is listed as data deficient,which means scientists simply don't know how it's doing.",
+          "translation": "而唯一未被列入的平背海龟则被列为数据缺乏，这意味着科学家根本不清楚其生存状况。"
+        },
+        {
+          "index": 8,
+          "sentence": "To date, Paso Pacifico has yet to put a single fake egg in a nest.",
+          "translation": "迄今为止，帕索太平洋组织尚未将任何一颗假蛋放入巢穴中。"
+        },
+        {
+          "index": 9,
+          "sentence": "But Williams-Guillen said she isn't too concerned that publicity for their scheme will result in poachers looking for the eggs.",
+          "translation": "但威廉姆斯-吉伦表示，她并不太担心他们计划的宣传会导致偷猎者寻找这些假蛋。"
+        },
+        {
+          "index": 10,
+          "sentence": "'The vast majority of the poaching is happening at night, so already it is hard to tell [the eggs] apart, and at this point, poachers and middlemen are not closely inspecting eggs, but rather shoving them into a sack as quickly as possible.'",
+          "translation": "'绝大多数偷猎行为发生在夜间，因此已经很难区分真假蛋，而且目前偷猎者和中间商并不会仔细检查蛋，而是尽快将它们塞进麻袋。'"
+        },
+        {
+          "index": 11,
+          "sentence": "Humans have been eating sea turtle eggs (and killing adult turtles for meat) for millennia.",
+          "translation": "人类食用海龟蛋（以及捕杀成年海龟获取肉食）已有数千年之久。"
+        },
+        {
+          "index": 12,
+          "sentence": "However, as human populations exploded and as sea turtles began to confront additional threats such as intensive fishing, beach development and climate change, sea turtle populations declined precipitously.",
+          "translation": "然而，随着人口激增以及海龟开始面临集约化捕捞、海滩开发和气候变化等额外威胁，海龟数量急剧下降。"
+        },
+        {
+          "index": 13,
+          "sentence": "Today, all but one of the world's seven species of sea turtles are considered threatened according to the IUCN*Red List.",
+          "translation": "如今，根据世界自然保护联盟（IUCN）红色名录，全球七种海龟中除一种外均被视为受威胁物种。"
+        },
+        {
+          "index": 14,
+          "sentence": "And the one that's not- the flatback turtle - is listed as data deficient,which means scientists simply don't know how it's doing.",
+          "translation": "而未受威胁的那一种——平背海龟——被列为数据缺乏，这意味着科学家根本不清楚其生存状况。"
+        },
+        {
+          "index": 15,
+          "sentence": "Humans have been eating sea turtle eggs (and killing adult turtles for meat) for millennia.",
+          "translation": "人类食用海龟蛋（并捕杀成年海龟获取肉食）已持续数千年之久。"
+        },
+        {
+          "index": 16,
+          "sentence": "However, as human populations exploded and as sea turtles began to confront additional threats such as intensive fishing, beach development and climate change, sea turtle populations declined precipitously.",
+          "translation": "然而，随着人口激增，海龟开始面临密集捕捞、海滩开发和气候变化等额外威胁，其数量急剧下降。"
+        },
+        {
+          "index": 17,
+          "sentence": "Today, all but one of the world's seven species of sea turtles are considered threatened according to the IUCN*Red List.",
+          "translation": "如今，根据世界自然保护联盟濒危物种红色名录，全球七种海龟中除一种外均被视为受威胁物种。"
+        },
+        {
+          "index": 18,
+          "sentence": "And the one that's not- the flatback turtle - is listed as data deficient,which means scientists simply don't know how it's doing.",
+          "translation": "而唯一未被列入受威胁物种的平背龟则被列为数据缺乏，这意味着科学家们尚不清楚其生存状况。"
+        },
+        {
+          "index": 19,
+          "sentence": "One major problem is that every year millions of sea turtle eggs are illegally taken by poachers for sale on the black market.",
+          "translation": "一个主要问题是，每年有数百万枚海龟蛋被偷猎者非法获取，并在黑市上出售。"
+        },
+        {
+          "index": 20,
+          "sentence": "One major problem is that every year millions of sea turtle eggs are illegally taken by poachers for sale on the black market.",
+          "translation": "一个主要问题是，每年有数百万枚海龟蛋被偷猎者非法获取，并在黑市上出售。"
+        },
+        {
+          "index": 21,
+          "sentence": "The situation is particularly serious in Nicaragua, in Central America, which is home to four sea turtle species.",
+          "translation": "这种情况在中美洲的尼加拉瓜尤为严峻，该地是四种海龟的栖息地。"
+        },
+        {
+          "index": 22,
+          "sentence": "One major problem is that every year millions of sea turtle eggs are illegally taken by poachers for sale on the black market.",
+          "translation": "一个主要问题是，每年都有数百万枚海龟蛋被偷猎者非法获取，并在黑市上出售。"
+        },
+        {
+          "index": 23,
+          "sentence": "The situation is particularly serious in Nicaragua, in Central America, which is home to four sea turtle species.",
+          "translation": "中美洲的尼加拉瓜情况尤为严峻，该国是四种海龟的栖息地。"
+        },
+        {
+          "index": 24,
+          "sentence": "Kim Williams-Guillen, who works for conservation body Paso Pacifico, described the poaching of sea turtle nests on the beaches of Nicaragua as 'uncontrolled, unregulated, extensive and contested' .",
+          "translation": "在保护组织Paso Pacifico工作的Kim Williams-Guillen将尼加拉瓜海滩上海龟巢穴被偷猎的行为描述为‘不受控制、不受监管、广泛且存在争议’。"
+        },
+        {
+          "index": 25,
+          "sentence": "Even the best-protected beaches are plundered to some extent and it's not uncommon to see poachers digging up nests just meters from tourists watching sea turtles laying their clutch at night, she said.",
+          "translation": "她说，即便是保护最严密的海滩也在一定程度上遭到掠夺，并且经常看到偷猎者在距离夜间观看海龟产卵的游客仅几米远的地方挖掘巢穴。"
+        },
+        {
+          "index": 26,
+          "sentence": "This poaching becomes particularly frenzied during the arribadas - mass laying events where thousands of turtles nest on the same beach for a single night in a biological strategy to overwhelm natural predators.",
+          "translation": "在‘arribadas’（大量产卵事件）期间，这种偷猎行为变得尤为疯狂——成千上万只海龟在同一海滩上筑巢一夜，这是一种通过数量压倒天敌的生物策略。"
+        },
+        {
+          "index": 28,
+          "sentence": "30",
+          "translation": "30"
+        },
+        {
+          "index": 29,
+          "sentence": "30",
+          "translation": "30"
+        },
+        {
+          "index": 30,
+          "sentence": "'Even with armed guards, the numbers of poachers overwhelm military personnel by ten or twenty to one,' Williams-Guillen said.",
+          "translation": "“即使有武装警卫，偷猎者的数量也以十比一或二十比一的比例压倒军事人员，”威廉姆斯-吉伦说道。"
+        },
+        {
+          "index": 31,
+          "sentence": "'Although many poachers are locals with limited resources, during these arribadas there are influxes of gangs of poachers from larger cities outside local communities.",
+          "translation": "“尽管许多偷猎者是资源有限的当地人，但在这些大规模产卵期间，会涌入来自当地社区以外大城市的偷猎团伙。"
+        },
+        {
+          "index": 32,
+          "sentence": "These are not just local poor people without other options.’",
+          "translation": "这些不仅仅是别无选择的当地穷人。”"
+        },
+        {
+          "index": 33,
+          "sentence": "But to protect the country's sea turtles, Williams-Guillen said conservationists shouldn't just depend on catching low-level operators.",
+          "translation": "但为了保护该国的海龟，威廉姆斯-吉伦表示，保护主义者不应仅仅依赖抓捕底层操作者。"
+        },
+        {
+          "index": 34,
+          "sentence": "'If one poacher decides to stop, another one will just step into his place ... we need to know more about the middlemen and people higher up in the distribution chain,' she said.",
+          "translation": "她说：“如果一个偷猎者决定停止，另一个人就会接替他的位置……我们需要更多地了解中间商和分销链中更高层级的人。”"
+        },
+        {
+          "index": 36,
+          "sentence": "Paso Pacifico's solution is the creation of high-tech sea turtle eggs: fake eggs convincingly crafted to look like the real thing, but which contain GPS tracking devices.",
+          "translation": "帕索帕西菲科的解决方案是制造高科技海龟蛋：这些假蛋被精心制作得看起来跟真蛋一模一样，但内部装有GPS追踪装置。"
+        },
+        {
+          "index": 37,
+          "sentence": "These have the potential to reveal the destination markets for trafficked sea turtle eggs.",
+          "translation": "这些假蛋有可能揭示被贩运海龟蛋的最终市场。"
+        },
+        {
+          "index": 38,
+          "sentence": "31",
+          "translation": "31"
+        },
+        {
+          "index": 39,
+          "sentence": "Paso Pacifico's solution is the creation of high-tech sea turtle eggs: fake eggs convincingly crafted to look like the real thing, but which contain GPS tracking devices.",
+          "translation": "Paso Pacifico的解决方案是制作高科技海龟蛋：这些假蛋被精心制作，看起来与真蛋无异，但其中包含GPS追踪装置。"
+        },
+        {
+          "index": 40,
+          "sentence": "These have the potential to reveal the destination markets for trafficked sea turtle eggs.",
+          "translation": "这些假蛋有望揭示被走私海龟蛋的目的地市场。"
+        },
+        {
+          "index": 41,
+          "sentence": "Making convincing sea turtle eggs is not easy, and Paso Pacifico is still working on perfecting a prototype.",
+          "translation": "制作逼真的海龟蛋并不容易，Paso Pacifico仍在努力完善原型。"
+        },
+        {
+          "index": 42,
+          "sentence": "In particular, it's proving quite problematic to create the right texture, since sea turtle eggs are not covered in a hard shell like those of birds, but are quite flexible.",
+          "translation": "特别是，要创造出合适的质地相当困难，因为海龟蛋不像鸟蛋那样有坚硬的壳，而是相当有弹性。"
+        },
+        {
+          "index": 43,
+          "sentence": "So Paso Pacifico brought in Lauren Wilde, a special effects artist in the US, to create a convincing outer shell.",
+          "translation": "因此，帕索帕西菲科组织请来了美国的特效艺术家劳伦·怀尔德，来制作一个逼真的外层蛋壳。"
+        },
+        {
+          "index": 44,
+          "sentence": "First, Wilde had to get her hands on the real thing.",
+          "translation": "首先，怀尔德必须获得真品。"
+        },
+        {
+          "index": 45,
+          "sentence": "Since it's illegal to send sea turtle eggs over the border, Wilde is using land turtle eggs from California.",
+          "translation": "由于跨边境邮寄海龟蛋属于非法行为，怀尔德使用的是来自加州陆龟的蛋。"
+        },
+        {
+          "index": 46,
+          "sentence": "'It was really eye opening and important for me to feel these eggs and how the shell bends a little,' she said.",
+          "translation": "“触摸这些蛋并感受蛋壳能轻微弯曲，这真的让我大开眼界，也至关重要，”她说道。"
+        },
+        {
+          "index": 47,
+          "sentence": "To get the GPS device inside the shell, Paso Pacifico is using 3D printers to make a plastic ball which will then have a GPS transmitter fitted inside.",
+          "translation": "为了将GPS设备放入蛋壳内，帕索太平洋组织正在使用3D打印机制作一个塑料球，随后将在其内部安装GPS发射器。"
+        },
+        {
+          "index": 48,
+          "sentence": "This will take the place of the embryo inside the shell.",
+          "translation": "这将替代蛋壳内的胚胎。"
+        },
+        {
+          "index": 49,
+          "sentence": "Lastly the fake shells will be sealed with silicone, waterproofing them.",
+          "translation": "最后，假的蛋壳将用硅胶密封，使其防水。"
+        },
+        {
+          "index": 51,
+          "sentence": "Sea turtles on average lay around 100 eggs in a nest, and once the fake eggs are finished they will be slipped in with the real ones.",
+          "translation": "海龟平均每个巢穴产约100枚蛋，一旦假蛋制作完成，它们将被混入真蛋中。"
+        },
+        {
+          "index": 52,
+          "sentence": "Williams-Guillen said it might even be possible to deliver fake eggs into nests while poachers are at work.",
+          "translation": "威廉姆斯-吉伦表示，甚至有可能在偷猎者作案时将假蛋放入巢穴中。"
+        },
+        {
+          "index": 53,
+          "sentence": "Wary of tourists, poachers will often back off if strangers come near and then return when they have gone.",
+          "translation": "由于对游客保持警惕，偷猎者常常会在陌生人靠近时后退，待其离开后再返回。"
+        },
+        {
+          "index": 54,
+          "sentence": "'It would be pretty easy to drop an egg in the dark into a nest they have been digging up,' she said.",
+          "translation": "“在黑暗中把一枚蛋丢进他们正在挖掘的巢穴里是相当容易的，”她说。"
+        },
+        {
+          "index": 55,
+          "sentence": "Sea turtles on average lay around 100 eggs in a nest, and once the fake eggs are finished they will be slipped in with the real ones.",
+          "translation": "海龟平均在每个巢穴中产下约100枚卵，一旦这些假卵制作完成，它们将被混入真卵中。"
+        },
+        {
+          "index": 56,
+          "sentence": "Sea turtles on average lay around 100 eggs in a nest,",
+          "translation": "海龟平均每个巢穴产约100枚蛋，"
+        },
+        {
+          "index": 57,
+          "sentence": "and once the fake eggs are finished they will be slipped in with the real ones.",
+          "translation": "一旦假蛋制作完成，它们将被混入真蛋中。"
+        },
+        {
+          "index": 58,
+          "sentence": "Williams-Guillen said it might even be possible to deliver fake eggs into nests while poachers are at work.",
+          "translation": "威廉姆斯-吉伦表示，甚至在偷猎者作业时，也有可能将假蛋放入巢穴中。"
+        },
+        {
+          "index": 59,
+          "sentence": "Wary of tourists, poachers will often back off if strangers come near and then return when they have gone.",
+          "translation": "由于对游客保持警惕，偷猎者往往会在陌生人靠近时后退，等他们离开后再返回。"
+        },
+        {
+          "index": 60,
+          "sentence": "'It would be pretty easy to drop an egg in the dark into a nest they have been digging up,' she said.",
+          "translation": "她说：“在黑暗中把一枚蛋扔进他们正在挖掘的巢穴里，是相当容易的。”"
+        },
+        {
+          "index": 61,
+          "sentence": "Once the poacher picks up the fake egg along with the real ones, conservationists and law enforcement agents will be able to track them.",
+          "translation": "一旦偷猎者将假蛋与真蛋一同捡起，环保人士和执法人员就能追踪它们。"
+        },
+        {
+          "index": 62,
+          "sentence": "Experts believe most of the stolen eggs eventually make their way out of Nicaragua, possibly to El Salvador or Guatemala.",
+          "translation": "专家认为，大多数被盗的蛋最终被运出尼加拉瓜，可能流向萨尔瓦多或危地马拉。"
+        },
+        {
+          "index": 63,
+          "sentence": "However, there is also growing concern that sea turtle eggs from Central America are actually heading to the USA, from where they are sold on to other countries around the world.",
+          "translation": "然而，人们也越来越担忧，来自中美洲的海龟蛋实际上正被运往美国，并从那里转售到全球其他国家。"
+        },
+        {
+          "index": 65,
+          "sentence": "To date, Paso Pacifico has yet to put a single fake egg in a nest.",
+          "translation": "迄今为止，帕索帕西菲科尚未将一枚假蛋放入任何一个巢穴中。"
+        },
+        {
+          "index": 66,
+          "sentence": "But Williams-Guillen said she isn't too concerned that publicity for their scheme will result in poachers looking for the eggs.",
+          "translation": "但威廉姆斯-吉伦表示，她并不太担心其计划的公开会导致偷猎者搜寻这些蛋。"
+        },
+        {
+          "index": 67,
+          "sentence": "'The vast majority of the poaching is happening at night, so already it is hard to tell [the eggs] apart, and at this point, poachers and middlemen are not closely inspecting eggs, but rather shoving them into a sack as quickly as possible.'",
+          "translation": "“绝大多数偷猎活动发生在夜间，因此已经很难分辨[这些蛋]，而目前，偷猎者和中间商并不会仔细检查蛋，而是尽快把它们塞进袋子里。”"
+        },
+        {
+          "index": 68,
+          "sentence": "Of course, poachers will eventually become aware of the prospect of fake eggs among the real ones - especially when customers try to bite into an egg and break their teeth on the GPS transmitter instead.",
+          "translation": "当然，偷猎者最终会意识到真蛋中可能有假蛋的存在——尤其是当顾客试图咬开蛋，却反而在GPS发射器上崩坏牙齿时。"
+        },
+        {
+          "index": 69,
+          "sentence": "So, Paso Pacifico plans to do a massive deployment of as many fakes as possible to gather a lot of data before poachers get wise.",
+          "translation": "因此，帕索帕西菲科计划在偷猎者警觉之前，大规模部署尽可能多的假蛋，以收集大量数据。"
+        },
+        {
+          "index": 70,
+          "sentence": "Knowing where the eggs go will allow conservationists and law enforcement agents to focus their resources on the right places - whether it be through awareness-building campaigns or crackdowns on illegal sellers.",
+          "translation": "了解这些蛋的去向将使保护主义者和执法人员能够将资源集中在正确的地方——无论是通过提高意识的活动还是打击非法卖家。"
+        },
+        {
+          "index": 71,
+          "sentence": "And eventually Paso Pacifico hopes to share the technology with interested parties around the world.",
+          "translation": "最终，帕索帕西菲科希望与世界各地感兴趣的团体共享这项技术。"
+        },
+        {
+          "index": 72,
+          "sentence": "33",
+          "translation": "33"
+        },
+        {
+          "index": 73,
+          "sentence": "To date, Paso Pacifico has yet to put a single fake egg in a nest.",
+          "translation": "迄今为止，帕索太平洋组织尚未将任何一个假蛋放入巢穴中。"
+        },
+        {
+          "index": 74,
+          "sentence": "But Williams-Guillen said she isn't too concerned that publicity for their scheme will result in poachers looking for the eggs.",
+          "translation": "但威廉姆斯-吉伦表示，她并不太担心针对他们计划的宣传会导致偷猎者寻找这些假蛋。"
+        },
+        {
+          "index": 75,
+          "sentence": "'The vast majority of the poaching is happening at night, so already it is hard to tell [the eggs] apart, and at this point, poachers and middlemen are not closely inspecting eggs, but rather shoving them into a sack as quickly as possible.'",
+          "translation": "“绝大多数偷猎行为发生在夜间，因此已经很难分辨出这些蛋的区别；此外，目前偷猎者和中间商并不会仔细检查蛋，而是尽可能迅速地将它们塞进麻袋。”"
+        },
+        {
+          "index": 76,
+          "sentence": "Of course, poachers will eventually become aware of the prospect of fake eggs among the real ones - especially when customers try to bite into an egg and break their teeth on the GPS transmitter instead.",
+          "translation": "当然，偷猎者最终会意识到真蛋中可能混入假蛋——尤其是当顾客试图咬开蛋，却被GPS发射器硌碎了牙齿时。"
+        },
+        {
+          "index": 77,
+          "sentence": "So, Paso Pacifico plans to do a massive deployment of as many fakes as possible to gather a lot of data before poachers get wise.",
+          "translation": "因此，帕索太平洋组织计划在偷猎者察觉之前，大量部署尽可能多的假蛋，以收集大量数据。"
+        },
+        {
+          "index": 78,
+          "sentence": "Knowing where the eggs go will allow conservationists and law enforcement agents to focus their resources on the right places - whether it be through awareness-building campaigns or crackdowns on illegal sellers.",
+          "translation": "了解这些蛋的去向将使自然资源保护者和执法人员能够将资源集中在正确的地方——无论是通过提高意识的活动还是打击非法卖家。"
+        },
+        {
+          "index": 79,
+          "sentence": "And eventually Paso Pacifico hopes to share the technology with interested parties around the world.",
+          "translation": "最终，帕索太平洋希望与世界各地的相关方分享这项技术。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

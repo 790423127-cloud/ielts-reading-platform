@@ -1,0 +1,3139 @@
+{
+  "id": "b16-test-1",
+  "book": "剑雅16",
+  "book_number": 16,
+  "name": "Test 1",
+  "title": "剑雅16 Test 1",
+  "parts": [
+    {
+      "id": "1910",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Helping pupils to choose optional subjects when they're aged 14-15: what some pupils say",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A Krishnan",
+          "translation": "A 克里希南"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "I'm studying Spanish, because it's important to learn foreign languages - and I'm very pleased when l can watch a video in class and understand it.Mr Peckham really pushes us, and offers us extra assignments, to help us improve.That's good for me, because otherwise I’d be quite lazy.",
+          "translation": "我正在学习西班牙语，因为学习外语很重要——而且当我在课堂上能看懂视频内容时，我感到非常高兴。\n佩卡姆老师对我们要求很严格，还会布置额外的作业来帮助我们提高。\n这对我有好处，因为否则我会变得很懒惰。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B Lucy",
+          "translation": "B 露西"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "History is my favourite subject, and it's fascinating to see how what we learn about the past is relevant to what's going on in the world now. It's made me understand much more about politics, for instance. My plan is to study history at university,and maybe go into the diplomatic service, so l can apply a knowledge of history.",
+          "translation": "历史是我最喜欢的科目，看到我们学到的关于过去的知识与当今世界发生的事情息息相关，这非常吸引人。\n例如，这让我对政治有了更多的了解。\n历史是我最喜欢的科目，看到我们学到的过去与当今世界发生的事情如何相关，这非常吸引人。\n例如，这让我对政治有了更深入的理解。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C Mark",
+          "translation": "C 马克"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Thursdays are my favourite days, because that's when we have computing. It's the high spot of the week for me -l love learning how to program. I began when l was about eight, so when l started doing it at school, I didn't think I'd have any problem with it, but I was quite wrong! When l leave school, I'm going into my family retail business, so sadly I can't see myself becoming a programmer.",
+          "translation": "星期四是我最喜欢的日子，因为那是我们上计算机课的时候。\n这对我来说是一周的高潮——我喜欢学习如何编程。\n我大约八岁就开始学习编程，所以当我在学校开始做这件事时，我以为自己不会遇到任何问题，但我大错特错了！\n当我离开学校后，我会进入家族的零售生意，所以遗憾的是，我无法想象自己会成为程序员。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D Violeta",
+          "translation": "D 维奥莱塔"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "My parents both work in leisure and tourism, and they've always talked about their work a lot at home.l find it fascinating.I'm studying it at school, and the teacher is very knowledgeable, though l think we spend too much time listening to her; I'd like to meet more people working in the sector,and learn from their experience.",
+          "translation": "我的父母都在休闲与旅游行业工作，他们在家里总是经常谈论自己的工作。\n我的父母都在休闲旅游行业工作，他们在家里经常谈论自己的工作。\n我的父母都在休闲和旅游行业工作，他们在家里经常谈论自己的工作。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E Walid",
+          "translation": "E 瓦利德"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "I've always been keen on art, so l chose it as an optional subject, though l was afraid the lessons might be a bit dull.l needn't have worried, though - our teacher gets us to do lots of fun things, so there's no risk of getting bored.At the end of the year the class puts on an exhibition for the school, and I'm looking forward to showing some of my work to other people.",
+          "translation": "我一直对艺术很感兴趣，所以选了它作为选修科目，尽管我担心课程可能会有点枯燥。\n不过我其实不必担心——我们的老师带我们做了很多有趣的事，所以不会感到无聊。\n学年末，班级会为学校举办一个展览，我很期待向其他人展示我的一些作品。\n我一直对艺术很感兴趣，所以把它选为选修科目，尽管我担心课程可能会有点枯燥。\n不过，我原本不必担心——我们的老师让我们做很多有趣的事情，所以不可能感到无聊。\n年底，全班会为学校举办一次展览，我很期待向其他人展示我的一些作品。\n我一直对艺术很感兴趣，所以我选了它作为选修科目，尽管我担心课程可能会有点无聊。\n不过，我本不必担心——我们的老师让我们做很多有趣的事情，所以不会有感到无聊的风险。\n年底班上会为学校举办一次展览，我期待着向其他人展示我的一些作品。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "It's almost time for the next Ripton Festival!",
+          "question_cue": {
+            "start": 7,
+            "end": 14
+          },
+          "translation": "下一届里普顿节即将到来！"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "As usual, the festival will be held in the last weekend of June, this year on Saturday to Monday, 27-29 June. Ever since last year's festival, the committee has been hard at work to make this year's the best ever! The theme is Ripton through the ages. Scenes will be acted out showing how the town has developed since it was first established. But there's also plenty that's up-to-date, from the latest music to local crafts.",
+          "translation": "像往常一样，这个节日将在6月的最后一个周末举行，今年是6月27日星期六至6月29日星期一。\n自去年节日以来，委员会一直努力工作，力求使今年的节日成为有史以来最好的！\n主题是“穿越时代的里普顿”。\n将上演场景剧，展示这个城镇自最初建立以来是如何发展的。\n但也有很多与时俱进的内容，从最新音乐到当地手工艺品，不一而足。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "The Craft Fair is a regular part of the festival. Come and meet professional artists, designers and craftsmen and women, who will display their jewellery, paintings, ceramics, and much more. They'll also take orders, so if you want one of them to make something especially for you, just ask! You'll get it within a month of the festival ending.",
+          "translation": "工艺展是本次节日的常规活动之一。\n前来与专业的艺术家、设计师以及男女工匠们会面吧，他们将展示各自的珠宝、绘画、陶瓷作品以及更多其他物品。\n他们还会接受订单，因此，如果你希望其中一位为你专门制作某件物品，尽管提出要求！\n你将在节日结束后的一个月内收到它。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "The Saturday barbecue will start at 2 pm and continue until 10 pm, with a bouncy castle for kids. The barbecue will be held in Palmer's Field, or in the town hall if there's rain. Book your tickets now, as they always sell out very quickly! Entry for under 16s is free all day; adults can come for free until 6 pm and pay 5 after that. There’ll be live music throughout,with local amateur bands in the afternoon and professional musicians in the evening.",
+          "translation": "周六的烧烤活动将于下午2点开始，一直持续到晚上10点，现场还为孩子们设有充气城堡。\n烧烤活动将在帕尔默场地举行，如果下雨则改到市政厅。\n请立即预订门票，因为它们总是很快售罄！\n16岁以下人士全天免费入场；成人下午6点前可免费入场，之后需支付5英镑。\n全程将有现场音乐表演，下午是本地业余乐队，晚上则是专业音乐人。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "On Sunday we're delighted to introduce an afternoon of boat races, arranged by the Ripton Rowing Club. The spectator area by the bridge has plenty of room to stand and cheer the boats home, in addition to a number of benches.The winners of the races will be presented with trophies by the mayor of Ripton.",
+          "translation": "周日，我们很高兴地推出由里普顿划船俱乐部组织的一下午的划船比赛。\n桥边的观众区除了有大量长椅外，还有足够的站立空间，可以欢呼船只冲过终点。\n比赛的获胜者将由里普顿市长颁发奖杯。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "All money raised by the festival will go to support the sports clubs in Ripton.",
+          "translation": "该节日筹集的所有资金将用于支持里普顿的体育俱乐部。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13904",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 6\nLook at the five comments about lessons, A-E, on passage 1.\nFor which comments are the following statements true?\nWrite the correct letter, A, B, C or D, in boxes 32-37 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119816",
+              "number": 1,
+              "prompt": "This pupil is interested in the subject despite the way it is taught.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干描述“尽管教学方式如此，这位学生仍对该科目感兴趣”，对应Violeta（D）的陈述：“I find it fascinating... though I think we spend too much time listening to her”，她认为课程内容吸引人，但教学方式偏重听讲，希望有更多实践交流，符合“尽管教学方式不理想但仍感兴趣”的逻辑，故答案为D。",
+              "reason": "Violeta对课程感兴趣（fascinating），但认为老师讲太多（spend too much time listening）。",
+              "location_analysis": "Violeta觉得课程吸引人，但希望少听老师讲。",
+              "paraphrasing": "interested despite the way it is taught -> I find it fascinating ... though I think we spend too much time listening to her",
+              "keywords": "interested, despite the way it is taught",
+              "evidence": [
+                "I'd like to meet more people working in the sector,and learn from their experience."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119817",
+              "number": 2,
+              "prompt": "This pupil is hoping to have a career that makes use of the subject.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求找出“希望未来职业能运用所学科目”的学生，Lucy（B）明确表示“My plan is to study history at university, and maybe go into the diplomatic service, so I can apply a knowledge of history”，说明她计划将历史知识应用于外交工作，完全符合题意，故答案为B。",
+              "reason": "Lucy明确说未来要使用历史知识。",
+              "location_analysis": "Lucy计划学历史并从事外交，利用历史知识。",
+              "paraphrasing": "hoping to have a career that makes use of the subject -> My plan is to study history at university, and maybe go into the diplomatic service, so I can apply a knowledge of history",
+              "keywords": "career, make use of the subject",
+              "evidence": [
+                "My plan is to study history at university,and maybe go into the diplomatic service, so l can apply a knowledge of history."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119818",
+              "number": 3,
+              "prompt": "This pupil finds the subject harder than they expected.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干描述“发现科目比预期更难”，Mark（C）提到“I began when I was about eight, so when I started doing it at school, I didn't think I'd have any problem with it, but I was quite wrong!”，表明他原以为编程很简单，实际却出乎意料地困难，与题干完全对应，故答案为C。",
+              "reason": "原文C段直接表明预期与现实的差距。",
+              "location_analysis": "Mark本以为编程没问题，但实际上很困难，出乎意料。",
+              "paraphrasing": "harder than expected -> didn't think I'd have any problem with it, but I was quite wrong",
+              "keywords": "harder than expected",
+              "evidence": [
+                "I began when l was about eight, so when l started doing it at school, I didn't think I'd have any problem with it, but I was quite wrong!"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119819",
+              "number": 4,
+              "prompt": "This pupil finds the lessons very entertaining.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干称“觉得课程非常有趣”，Walid（E）表示“our teacher gets us to do lots of fun things, so there's no risk of getting bored”，说明课堂活动丰富有趣，不会无聊，与“very entertaining”相符，故答案为E。",
+              "reason": "Walid指出课堂有趣，不会无聊。",
+              "location_analysis": "Walid觉得老师安排很多有趣活动，课不无聊。",
+              "paraphrasing": "finds the lessons very entertaining -> our teacher gets us to do lots of fun things, so there's no risk of getting bored",
+              "keywords": "lessons, entertaining",
+              "evidence": [
+                "our teacher gets us to do lots of fun things, so there's no risk of getting bored."
+              ],
+              "confidence": 0.96,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119820",
+              "number": 5,
+              "prompt": "This pupil appreciates the benefit of doing challenging work.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干描述“欣赏做有挑战性作业的好处”，Krishnan（A）提到“Mr Peckham really pushes us, and offers us extra assignments... That's good for me, because otherwise I’d be quite lazy”，说明他认可老师布置额外任务对自己提升的帮助，符合题意，故答案为A。",
+              "reason": "Krishnan认可额外作业对改进有益。",
+              "location_analysis": "Krishnan认为老师的严格要求有帮助，否则他会偷懒。",
+              "paraphrasing": "benefit of doing challenging work -> Mr Peckham really pushes us, and offers us extra assignments, to help us improve.That's good for me, because otherwise I’d be quite lazy.",
+              "keywords": "appreciates, benefit, challenging work",
+              "evidence": [
+                "Mr Peckham really pushes us, and offers us extra assignments, to help us improve.That's good for me, because otherwise I’d be quite lazy."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119821",
+              "number": 6,
+              "prompt": "This pupil has realised the connection between two things.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求找出“意识到两件事之间联系”的学生，Lucy（B）说“it's fascinating to see how what we learn about the past is relevant to what's going on in the world now”，明确表达了历史学习与当今世界之间的关联，符合“realised the connection between two things”，故答案为B。",
+              "reason": "Lucy发现历史和当下的联系。",
+              "location_analysis": "Lucy意识到历史与当今世界的关联，故选B。",
+              "paraphrasing": "connection between two things -> it's fascinating to see how what we learn about the past is relevant to what's going on in the world now.",
+              "keywords": "realised, connection, two things",
+              "evidence": [
+                "it's fascinating to see how what we learn about the past is relevant to what's going on in the world now."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13907",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 7 - 14\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117372",
+              "number": 7,
+              "prompt": "The festival is held every year.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“held every year”对应原文段落A开头的“As usual, the festival will be held...”，其中“As usual”表明该节日是每年常规举行的活动，因此该陈述与原文信息一致，答案为TRUE。",
+              "reason": "As usual表明活动常规每年举行。",
+              "location_analysis": "原文说'As usual'暗示每年举办，故TRUE。",
+              "paraphrasing": "held every year -> As usual, the festival will be held",
+              "keywords": "festival, every year",
+              "evidence": [
+                "As usual, the festival will be held in the last weekend of June, this year on Saturday to Monday, 27-29 June."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "选项与原文信息矛盾，原文明确表示每年举行。",
+                "NOT GIVEN": "选项声称信息未提及，但原文明确给出了每年举行的信息。"
+              }
+            },
+            {
+              "id": "117373",
+              "number": 8,
+              "prompt": "This year's festival focuses on the town's history.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中提到“focuses on the town's history”，而原文段落A明确指出“The theme is Ripton through the ages”，即节日主题是展现Ripton镇从古至今的发展历程，这与“关注城镇历史”完全对应，因此答案为TRUE。",
+              "reason": "主题直接说明关注历史。",
+              "location_analysis": "主题贯穿年代，关注历史，与题干一致，TRUE。",
+              "paraphrasing": "focuses on the town's history -> The theme is Ripton through the ages.",
+              "keywords": "focuses on, town's history",
+              "evidence": [
+                "The theme is Ripton through the ages."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到今年的节日聚焦于小镇历史，该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文明确给出了节日聚焦小镇历史的信息，并非未提及。"
+              }
+            },
+            {
+              "id": "117375",
+              "number": 9,
+              "prompt": "Goods displayed in the craft fair are unlike ones found in shops.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称手工艺集市上的商品“不同于商店里的商品”，但原文段落B仅说明集市上会展示珠宝、绘画、陶瓷等手工艺品，并可接受定制订单，未提及这些商品是否与商店所售不同，因此文中无相关信息，答案为NOT GIVEN。",
+              "reason": "文章只说展示工艺品，未说明是否与商店不同。",
+              "location_analysis": "原文未提及与商店商品的比较。",
+              "paraphrasing": "",
+              "keywords": "Goods displayed are unlike ones found in shops",
+              "evidence": [],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文未提及手工艺博览会的商品与商店商品是否不同，因此无法支持该说法。",
+                "FALSE": "原文未提及两者是否不同，不能断定它们并非不同。"
+              }
+            },
+            {
+              "id": "117377",
+              "number": 10,
+              "prompt": "The barbecue will be cancelled if it rains.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干说“如果下雨，烧烤会被取消”，但原文段落C明确指出“The barbecue will be held in Palmer's Field, or in the town hall if there's rain”，说明下雨时活动将移至市政厅举行，并非取消，因此该陈述与原文矛盾，答案为FALSE。",
+              "reason": "下雨时有室内替代地点，非取消。",
+              "location_analysis": "下雨时移至市政厅，并非取消，故FALSE。",
+              "paraphrasing": "cancelled if it rains -> or in the town hall if there's rain",
+              "keywords": "barbecue, cancelled, rain",
+              "evidence": [
+                "The barbecue will be held in Palmer's Field, or in the town hall if there's rain."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文暗示烧烤不会因下雨取消。",
+                "NOT GIVEN": "原文已明确给出相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "117380",
+              "number": 11,
+              "prompt": "Adults can attend the barbecue at any time without charge.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称“成人可随时免费参加烧烤”，但原文段落C说明“adults can come for free until 6 pm and pay £5 after that”，即成人仅在下午6点前免费，之后需付费，因此该陈述与原文不符，答案为FALSE。",
+              "reason": "免费限时，并非任意时间。",
+              "location_analysis": "成人6点前免费，之后付费，并非随时免费，故FALSE。",
+              "paraphrasing": "at any time without charge -> adults can come for free until 6 pm and pay 5 after that",
+              "keywords": "adults, any time, without charge",
+              "evidence": [
+                "adults can come for free until 6 pm and pay 5 after that."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文明确指出成年人参加烧烤需要付费，与题干'without charge'矛盾。",
+                "NOT GIVEN": "原文明确提及成年人参加烧烤需要付费，该信息在原文中已给出，并非未提及。"
+              }
+            },
+            {
+              "id": "117382",
+              "number": 12,
+              "prompt": "Amateur musicians will perform during the whole of the barbecue.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“业余音乐人将在整个烧烤期间表演”，但原文段落C提到“There’ll be live music throughout, with local amateur bands in the afternoon and professional musicians in the evening”，说明业余乐队只在下午演出，晚上由专业音乐人表演，因此该陈述错误，答案为FALSE。",
+              "reason": "晚上是专业音乐人，不是全程业余。",
+              "location_analysis": "下午业余乐队，晚上专业音乐人。",
+              "paraphrasing": "during the whole of the barbecue -> There’ll be live music throughout,with local amateur bands in the afternoon and professional musicians in the evening.",
+              "keywords": "amateur musicians, whole barbecue",
+              "evidence": [
+                "There’ll be live music throughout,with local amateur bands in the afternoon and professional musicians in the evening."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "TRUE": "原文明确指出业余音乐家只在烧烤的部分时间表演，与题干‘整个烧烤期间’矛盾。",
+                "NOT GIVEN": "原文提供了业余音乐家表演时间的具体信息，因此并非未提及。"
+              }
+            },
+            {
+              "id": "117383",
+              "number": 13,
+              "prompt": "Seating is available for watching the boat races.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干询问观看划船比赛是否有座位，原文段落D明确提到“The spectator area... in addition to a number of benches”，其中“benches”即指供观众使用的座位，因此该陈述与原文一致，答案为TRUE。",
+              "reason": "明确提及有benches。",
+              "location_analysis": "原文提到有长凳提供座位，故TRUE。",
+              "paraphrasing": "Seating is available -> in addition to a number of benches",
+              "keywords": "seating, available, boat races",
+              "evidence": [
+                "The spectator area by the bridge has plenty of room to stand and cheer the boats home, in addition to a number of benches."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到有座位提供，与选项内容矛盾。",
+                "NOT GIVEN": "原文直接给出了相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "117386",
+              "number": 14,
+              "prompt": "People attending the festival will be asked to donate some money.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“参加者会被要求捐款”，但原文段落E仅说明“All money raised by the festival will go to support the sports clubs”，并未说明资金来源是否包括现场募捐或强制捐款，也未提及是否向参与者提出捐赠请求，因此信息未给出，答案为NOT GIVEN。",
+              "reason": "未说明是否要求参加者捐款。",
+              "location_analysis": "原文仅提及资金支持体育俱乐部，未说明来源是否为捐赠，故NOT GIVEN。",
+              "paraphrasing": "",
+              "keywords": "attendees, donate",
+              "evidence": [
+                "All money raised by the festival will go to support the sports clubs in Ripton."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文未提及参与者是否被要求捐款。",
+                "FALSE": "原文未提及参与者被要求捐款的相关信息，无法确定该陈述为假。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Helping pupils to choose optional subjects when they're aged 14-15: what some pupils say",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A Krishnan",
+          "translation": "A 克里希南"
+        },
+        {
+          "index": 2,
+          "sentence": "I'm studying Spanish, because it's important to learn foreign languages - and I'm very pleased when l can watch a video in class and understand it.",
+          "translation": "我正在学习西班牙语，因为学习外语很重要——而且当我在课堂上能看懂视频内容时，我感到非常高兴。"
+        },
+        {
+          "index": 3,
+          "sentence": "Mr Peckham really pushes us, and offers us extra assignments, to help us improve.",
+          "translation": "佩卡姆老师对我们要求很严格，还会布置额外的作业来帮助我们提高。"
+        },
+        {
+          "index": 4,
+          "sentence": "That's good for me, because otherwise I’d be quite lazy.",
+          "translation": "这对我有好处，因为否则我会变得很懒惰。"
+        },
+        {
+          "index": 5,
+          "sentence": "B Lucy",
+          "translation": "B 露西"
+        },
+        {
+          "index": 6,
+          "sentence": "History is my favourite subject, and it's fascinating to see how what we learn about the past is relevant to what's going on in the world now.",
+          "translation": "历史是我最喜欢的科目，看到我们学到的关于过去的知识与当今世界发生的事情息息相关，这非常吸引人。"
+        },
+        {
+          "index": 7,
+          "sentence": "It's made me understand much more about politics, for instance.",
+          "translation": "例如，这让我对政治有了更多的了解。"
+        },
+        {
+          "index": 8,
+          "sentence": "My plan is to study history at university, and maybe go into the diplomatic service, so I can apply a knowledge of history.",
+          "translation": "我的计划是在大学学习历史，也许将来从事外交工作，这样我就可以运用历史知识了。"
+        },
+        {
+          "index": 9,
+          "sentence": "C Mark",
+          "translation": "C 马克"
+        },
+        {
+          "index": 10,
+          "sentence": "Thursdays are my favourite days, because that's when we have computing.",
+          "translation": "星期四是我最喜欢的日子，因为那是我们上计算机课的时候。"
+        },
+        {
+          "index": 11,
+          "sentence": "It's the high spot of the week for me -l love learning how to program.",
+          "translation": "这对我来说是一周的高潮——我喜欢学习如何编程。"
+        },
+        {
+          "index": 12,
+          "sentence": "I began when l was about eight, so when l started doing it at school, I didn't think I'd have any problem with it, but I was quite wrong!",
+          "translation": "我大约八岁就开始学习编程，所以当我在学校开始做这件事时，我以为自己不会遇到任何问题，但我大错特错了！"
+        },
+        {
+          "index": 13,
+          "sentence": "When l leave school, I'm going into my family retail business, so sadly I can't see myself becoming a programmer.",
+          "translation": "当我离开学校后，我会进入家族的零售生意，所以遗憾的是，我无法想象自己会成为程序员。"
+        },
+        {
+          "index": 14,
+          "sentence": "D Violeta",
+          "translation": "D 维奥莱塔"
+        },
+        {
+          "index": 15,
+          "sentence": "My parents both work in leisure and tourism, and they've always talked about their work a lot at home.",
+          "translation": "我的父母都在休闲与旅游行业工作，他们在家里总是经常谈论自己的工作。"
+        },
+        {
+          "index": 16,
+          "sentence": "I find it fascinating.",
+          "translation": "我觉得这非常有趣。"
+        },
+        {
+          "index": 17,
+          "sentence": "I'm studying it at school, and the teacher is very knowledgeable, though I think we spend too much time listening to her; I'd like to meet more people working in the sector, and learn from their experience.",
+          "translation": "我在学校学习这一科目，老师知识渊博，但我认为我们花太多时间听她讲课了；我希望见到更多在这一领域工作的人，并从他们的经验中学习。"
+        },
+        {
+          "index": 18,
+          "sentence": "My parents both work in leisure and tourism, and they've always talked about their work a lot at home.",
+          "translation": "我的父母都在休闲旅游行业工作，他们在家里经常谈论自己的工作。"
+        },
+        {
+          "index": 19,
+          "sentence": "I find it fascinating.",
+          "translation": "我觉得这很吸引人。"
+        },
+        {
+          "index": 20,
+          "sentence": "I'm studying it at school, and the teacher is very knowledgeable, though I think we spend too much time listening to her; I'd like to meet more people working in the sector, and learn from their experience.",
+          "translation": "我在学校学习这门课程，老师知识渊博，但我认为我们花太多时间听她讲课了；我想见见更多这个领域的人，并从他们的经验中学习。"
+        },
+        {
+          "index": 21,
+          "sentence": "E Walid",
+          "translation": "E 瓦利德"
+        },
+        {
+          "index": 22,
+          "sentence": "I've always been keen on art, so l chose it as an optional subject, though l was afraid the lessons might be a bit dull.",
+          "translation": "我一直对艺术很感兴趣，所以选了它作为选修科目，尽管我担心课程可能会有点枯燥。"
+        },
+        {
+          "index": 23,
+          "sentence": "l needn't have worried, though - our teacher gets us to do lots of fun things, so there's no risk of getting bored.",
+          "translation": "不过我其实不必担心——我们的老师带我们做了很多有趣的事，所以不会感到无聊。"
+        },
+        {
+          "index": 24,
+          "sentence": "At the end of the year the class puts on an exhibition for the school, and I'm looking forward to showing some of my work to other people.",
+          "translation": "学年末，班级会为学校举办一个展览，我很期待向其他人展示我的一些作品。"
+        },
+        {
+          "index": 25,
+          "sentence": "I've always been keen on art, so l chose it as an optional subject, though l was afraid the lessons might be a bit dull.",
+          "translation": "我一直对艺术很感兴趣，所以把它选为选修科目，尽管我担心课程可能会有点枯燥。"
+        },
+        {
+          "index": 26,
+          "sentence": "l needn't have worried, though - our teacher gets us to do lots of fun things, so there's no risk of getting bored.",
+          "translation": "不过，我原本不必担心——我们的老师让我们做很多有趣的事情，所以不可能感到无聊。"
+        },
+        {
+          "index": 27,
+          "sentence": "At the end of the year the class puts on an exhibition for the school, and I'm looking forward to showing some of my work to other people.",
+          "translation": "年底，全班会为学校举办一次展览，我很期待向其他人展示我的一些作品。"
+        },
+        {
+          "index": 28,
+          "sentence": "It's almost time for the next Ripton Festival!",
+          "translation": "下一届里普顿节即将到来！"
+        },
+        {
+          "index": 30,
+          "sentence": "As usual, the festival will be held in the last weekend of June, this year on Saturday to Monday, 27-29 June.",
+          "translation": "像往常一样，这个节日将在6月的最后一个周末举行，今年是6月27日星期六至6月29日星期一。"
+        },
+        {
+          "index": 31,
+          "sentence": "Ever since last year's festival, the committee has been hard at work to make this year's the best ever!",
+          "translation": "自去年节日以来，委员会一直努力工作，力求使今年的节日成为有史以来最好的！"
+        },
+        {
+          "index": 32,
+          "sentence": "The theme is Ripton through the ages.",
+          "translation": "主题是“穿越时代的里普顿”。"
+        },
+        {
+          "index": 33,
+          "sentence": "Scenes will be acted out showing how the town has developed since it was first established.",
+          "translation": "将上演场景剧，展示这个城镇自最初建立以来是如何发展的。"
+        },
+        {
+          "index": 34,
+          "sentence": "But there's also plenty that's up-to-date, from the latest music to local crafts.",
+          "translation": "但也有很多与时俱进的内容，从最新音乐到当地手工艺品，不一而足。"
+        },
+        {
+          "index": 35,
+          "sentence": "History is my favourite subject, and it's fascinating to see how what we learn about the past is relevant to what's going on in the world now.",
+          "translation": "历史是我最喜欢的科目，看到我们学到的过去与当今世界发生的事情如何相关，这非常吸引人。"
+        },
+        {
+          "index": 36,
+          "sentence": "It's made me understand much more about politics, for instance.",
+          "translation": "例如，这让我对政治有了更深入的理解。"
+        },
+        {
+          "index": 37,
+          "sentence": "My plan is to study history at university, and so I can apply a knowledge of history.",
+          "translation": "我的计划是在大学学习历史，这样我就能运用历史知识。"
+        },
+        {
+          "index": 38,
+          "sentence": "The Craft Fair is a regular part of the festival.",
+          "translation": "工艺展是本次节日的常规活动之一。"
+        },
+        {
+          "index": 39,
+          "sentence": "Come and meet professional artists, designers and craftsmen and women, who will display their jewellery, paintings, ceramics, and much more.",
+          "translation": "前来与专业的艺术家、设计师以及男女工匠们会面吧，他们将展示各自的珠宝、绘画、陶瓷作品以及更多其他物品。"
+        },
+        {
+          "index": 40,
+          "sentence": "They'll also take orders, so if you want one of them to make something especially for you, just ask!",
+          "translation": "他们还会接受订单，因此，如果你希望其中一位为你专门制作某件物品，尽管提出要求！"
+        },
+        {
+          "index": 41,
+          "sentence": "You'll get it within a month of the festival ending.",
+          "translation": "你将在节日结束后的一个月内收到它。"
+        },
+        {
+          "index": 43,
+          "sentence": "The Saturday barbecue will start at 2 pm and continue until 10 pm, with a bouncy castle for kids.",
+          "translation": "周六的烧烤活动将于下午2点开始，一直持续到晚上10点，现场还为孩子们设有充气城堡。"
+        },
+        {
+          "index": 44,
+          "sentence": "The barbecue will be held in Palmer's Field, or in the town hall if there's rain.",
+          "translation": "烧烤活动将在帕尔默场地举行，如果下雨则改到市政厅。"
+        },
+        {
+          "index": 45,
+          "sentence": "Book your tickets now, as they always sell out very quickly!",
+          "translation": "请立即预订门票，因为它们总是很快售罄！"
+        },
+        {
+          "index": 46,
+          "sentence": "Entry for under 16s is free all day; adults can come for free until 6 pm and pay 5 after that.",
+          "translation": "16岁以下人士全天免费入场；成人下午6点前可免费入场，之后需支付5英镑。"
+        },
+        {
+          "index": 47,
+          "sentence": "There’ll be live music throughout, with local amateur bands in the afternoon and professional musicians in the evening.",
+          "translation": "全程将有现场音乐表演，下午是本地业余乐队，晚上则是专业音乐人。"
+        },
+        {
+          "index": 48,
+          "sentence": "My parents both work in leisure and tourism, and they've always talked about their work a lot at home.",
+          "translation": "我的父母都在休闲和旅游行业工作，他们在家里经常谈论自己的工作。"
+        },
+        {
+          "index": 49,
+          "sentence": "I find it fascinating.",
+          "translation": "我觉得这非常吸引人。"
+        },
+        {
+          "index": 50,
+          "sentence": "I'm studying it at school, and the teacher is very knowledgeable, though I think we spend too much time listening to her; I'd like to meet more people working in the sector, and learn from their experience.",
+          "translation": "我在学校学习这门课程，老师知识很渊博，但我认为我们花太多时间听她讲课了；我希望能够见到更多该行业的人，并从他们的经验中学习。"
+        },
+        {
+          "index": 51,
+          "sentence": "On Sunday we're delighted to introduce an afternoon of boat races, arranged by the Ripton Rowing Club.",
+          "translation": "周日，我们很高兴地推出由里普顿划船俱乐部组织的一下午的划船比赛。"
+        },
+        {
+          "index": 52,
+          "sentence": "The spectator area by the bridge has plenty of room to stand and cheer the boats home, in addition to a number of benches.",
+          "translation": "桥边的观众区除了有大量长椅外，还有足够的站立空间，可以欢呼船只冲过终点。"
+        },
+        {
+          "index": 53,
+          "sentence": "The winners of the races will be presented with trophies by the mayor of Ripton.",
+          "translation": "比赛的获胜者将由里普顿市长颁发奖杯。"
+        },
+        {
+          "index": 54,
+          "sentence": "I've always been keen on art, so l chose it as an optional subject, though l was afraid the lessons might be a bit dull.",
+          "translation": "我一直对艺术很感兴趣，所以我选了它作为选修科目，尽管我担心课程可能会有点无聊。"
+        },
+        {
+          "index": 55,
+          "sentence": "l needn't have worried, though - our teacher gets us to do lots of fun things, so there's no risk of getting bored.",
+          "translation": "不过，我本不必担心——我们的老师让我们做很多有趣的事情，所以不会有感到无聊的风险。"
+        },
+        {
+          "index": 56,
+          "sentence": "At the end of the year the class puts on an exhibition for the school, and I'm looking forward to showing some of my work to other people.",
+          "translation": "年底班上会为学校举办一次展览，我期待着向其他人展示我的一些作品。"
+        },
+        {
+          "index": 57,
+          "sentence": "All money raised by the festival will go to support the sports clubs in Ripton.",
+          "translation": "该节日筹集的所有资金将用于支持里普顿的体育俱乐部。"
+        }
+      ]
+    },
+    {
+      "id": "1911",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Reducing injuries on the farm",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Farms tend to be full of activity. There are always jobs to be done and some tasks require physical manual work. While it is good for people to be active, there are risk factors associated with this, and efforts need to be made to reduce them.",
+          "translation": "农场通常充满了各种活动。\n总有工作需要完成，其中一些任务需要体力劳动。\n虽然人们保持活跃是有益的，但这伴随着一些风险因素，因此需要努力减少这些风险。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The first risk relates to the carrying of an excessive load or weight.This places undue demands on the spine and can cause permanent damage. Examples of tasks that involve this risk are moving 50-kilogramme fertiliser bags from one site to another or carrying heavy buckets of animal feed around fields.According to the UK Health and Safety Executive, activities such as these 'should be avoided at all times'. Their documentation states that other methods should be considered, such as breaking down the load into smaller containers prior to movement or transporting the materials using a tractor or other vehicle.The risk posed by excessive force is made worse if the person lifting is also bending over as this increases pressure on the discs in the back.",
+          "translation": "第一个风险与搬运过重的负荷或重量有关。\n这会给脊柱带来不必要的压力，并可能导致永久性损伤。\n涉及此类风险的工作示例包括将50公斤重的化肥袋从一个地点搬运到另一个地点，或在田间搬运沉重的动物饲料桶。\n根据英国健康与安全执行局的说法，此类活动“应始终避免”。\n其文件指出，应考虑其他方法，例如在搬运前将货物拆分到较小的容器中，或者使用拖拉机或其他车辆运输物料。\n如果提起重物的人同时弯腰，则过度用力带来的风险会加剧，因为这会增加背部椎间盘的压力。\n这会给脊柱带来不必要的负担，并可能导致永久性损伤。\n涉及这种风险的任务示例包括将50公斤的化肥袋从一个地点搬到另一个地点，或提着沉重的动物饲料桶在田间行走。\n他们的文件指出，应考虑其他方法，例如在搬运前将重物分装到较小的容器中，或使用拖拉机等其他车辆运输材料。\n如果搬运者在搬运时也弯腰，过度用力带来的风险会加剧，因为这会增加背部椎间盘的压力。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "If a load is bulky or hard to grasp, such as a lively or agitated animal, it will be more difficult to hold while lifting and carrying.The holder may adopt an awkward posture,which is tiring and increases the risk of injury. Sometimes a load has to be held away from the body because there is a large obstacle in the area and the person lifting needs to be able to see where their feet are going. This results in increased stress on the back;holding a load at arm's length imposes about five times the stress of a close-to-the-body position. In such cases, handling aids should be purchased that can take the weight off the load and minimise the potential for injury.",
+          "translation": "如果负载体积庞大或难以抓握，例如一头活泼或躁动的动物，那么在抬起和搬运过程中会更难稳住。\n搬运者可能会采取别扭的姿势，这会令人疲劳并增加受伤的风险。\n有时，由于该区域有大型障碍物，且抬举者需要看清脚下位置，负载必须远离身体托举。\n这会导致背部承受更大的压力；\n手臂伸直托举负载带来的压力大约是紧贴身体位置的五倍。\n在这种情况下，应购买搬运辅助工具来减轻负载重量，并最大程度地减少受伤的可能性。\n如果负载体积庞大或难以抓握，例如一只活跃或焦躁不安的动物，那么在抬起和搬运过程中将更难保持稳定。\n持物者可能会采取别扭的姿势，这既令人疲劳，又增加了受伤的风险。\n有时负载必须远离身体持握，因为该区域存在大型障碍物，且抬举者需要看清脚下位置。\n这会导致背部压力增加；手臂伸直持握负载所产生的压力约为贴近身体持握时的五倍。\n在这种情况下，应购买辅助搬运工具，以减轻负载重量，并最大程度降低受伤的可能性。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Another risk that relates to awkward posture is repetitive bending when carrying out a task.An example might be repairing a gate that has collapsed onto the ground.This type of activity increases the stress on the lower back because the back muscles have to support the weight of the upper body. The farmer should think about whether the job can be performed on a workbench, reducing the need for prolonged awkward posture.",
+          "translation": "与不良姿势相关的另一个风险是在执行任务时重复弯腰。\n一个例子可能是修理一扇倒在地上的大门。\n这类活动会增加下背部的压力，因为背部肌肉需要支撑上半身的重量。\n农民应考虑这项工作能否在工作台上完成，以减少长时间保持不良姿势的需求。\n另一个与不自然姿势相关的风险是执行任务时的重复弯腰。\n这类活动会增加下背部的压力，因为背部肌肉必须支撑上半身的重量。\n农民应该考虑这项工作是否可以在工作台上完成，以减少长时间维持不自然姿势的需求。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Good customer service in retail",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "零售业中的优质客户服务"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Without customers, your retail business would not exist. It stands to reason, therefore, that how you treat your customers has a direct impact on your profit margins.",
+          "translation": "没有顾客，您的零售业务将无法存在。\n因此，理所当然地，您对待顾客的方式会直接影响您的利润空间。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Some customers just want to browse and not be bothered by sales staff.Try to be sensitive to how much help a customer wants; be proactive in offering help without being annoying. Suggest a product that naturally accompanies what the customer is considering or point out products for which there are special offers, but don’t pressure a customer into buying an item they don't want.",
+          "translation": "有些顾客只想随意浏览，不愿被销售人员打扰。\n要敏锐地察觉顾客需要多少帮助；主动提供协助，但不要令人厌烦。\n推荐与顾客正在考虑的商品自然搭配的产品，或者指出有特价优惠的商品，但不要强迫顾客购买他们不想要的东西。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Build up a comprehensive knowledge of all the products in your shop, including the pros and cons of products that are alike but that have been produced under a range of brand names. If you have run out of a particular item, make sure you know when the next orders are coming in. Negativity can put customers off instantly. If a customer asks a question to which the answer is 'no', do not just leave it at that - follow it with a positive, for example:'we're expecting more of that product in on Tuesday ‘.",
+          "translation": "全面了解你商店中的所有产品，包括那些相似但由不同品牌生产的产品各自的优缺点。\n如果某种商品已经售罄，请确保你知道下一批订单何时到货。\n消极的态度会立刻让顾客感到反感。\n如果顾客提出了一个答案为“没有”的问题，不要仅仅就此打住——随后给出积极的回应，例如：“我们预计周二会到更多那种产品。”"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Meanwhile, if you see a product in the wrong place on a shelf, don’t ignore it - put it back where it belongs. This attention to presentation keeps the shop tidy, giving the right impression to your customers. Likewise, if you notice a fault with a product, remove it and replace it with another.",
+          "translation": "同时，如果你看到货架上的商品放错了位置，不要忽视它——把它放回原处。\n这种对陈列的关注能保持店铺整洁，给顾客留下良好的印象。\n同样地，如果你注意到某件商品有瑕疵，应将其移除并替换另一件。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "When necessary, be discreet.For example, if the customer's credit card is declined at the till,keep your voice down and enquire about an alternative payment method quietly so that the customer doesn't feel humiliated.If they experience uncomfortable emotions in your shop,it's unlikely that they'll come back.",
+          "translation": "必要时，要谨慎行事。\n例如，如果顾客的信用卡在收银台被拒，请压低声音并悄悄询问其他支付方式，以免让顾客感到难堪。\n如果他们在你的店里感到不自在，他们很可能不会再光顾。\n必要时，应谨慎行事。\n例如，如果顾客的信用卡在收银台被拒，请压低声音并悄悄询问其他支付方式，以免顾客感到尴尬。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Finally, good manners are probably the most important aspect of dealing with customers.Treat each person with respect at all times, even when you are faced with rudeness.Being discourteous yourself will only add more fuel to the fire.",
+          "translation": "最后，礼貌待人或许是处理客户关系时最重要的方面。\n始终尊重每一位顾客，即使面对无礼行为也应如此。\n若自身失礼，只会火上浇油，使情况恶化。\n最后，礼貌待人可能是与顾客打交道时最重要的方面。\n无论何时都要尊重每一位顾客，即使面对粗鲁无礼的行为也要如此。\n如果你自己无礼，只会火上浇油。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Build a reputation for polite, helpful staff and you'll find that customers not only keep giving you their custom, but also tell their friends about you.",
+          "translation": "建立一支礼貌、乐于助人的员工队伍，你会发现有顾客不仅会继续光顾，还会向朋友推荐你。\n建立一支有礼貌、乐于助人的员工队伍，你会发现顾客不仅会持续光顾你的生意，还会向他们的朋友推荐你。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13928",
+          "type": 13,
+          "title": "Risks and how to avoid them",
+          "instructions": "Questions 15 - 20\nComplete the table.\nWrite ONE WORD ONLY from the text in each gap.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": {
+            "title": "",
+            "content": [
+              [
+                "Risk factor",
+                "Examples of farm activities",
+                "Risk reduction measures to consider"
+              ],
+              [
+                "Heavy loads",
+                "· Lifting sacks of $117393$\n· Carrying food for animals",
+                "· Divide into containers that weigh less\n· Use a vehicle such as a tractor"
+              ],
+              [
+                "Awkward posture",
+                "· Lifting a restless $117394$\n· Moving something around a big $117395$",
+                "Buy particular $117396$ to help with support"
+              ],
+              [
+                "A lot of $117397$ while working",
+                "Fixing a fallen $117398$",
+                "Use a workbench instead"
+              ]
+            ],
+            "rows": [
+              [
+                "Risk factor",
+                "Examples of farm activities",
+                "Risk reduction measures to consider"
+              ],
+              [
+                "Heavy loads",
+                "· Lifting sacks of $117393$\n· Carrying food for animals",
+                "· Divide into containers that weigh less\n· Use a vehicle such as a tractor"
+              ],
+              [
+                "Awkward posture",
+                "· Lifting a restless $117394$\n· Moving something around a big $117395$",
+                "Buy particular $117396$ to help with support"
+              ],
+              [
+                "A lot of $117397$ while working",
+                "Fixing a fallen $117398$",
+                "Use a workbench instead"
+              ]
+            ]
+          },
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117393",
+              "number": 15,
+              "prompt": "Heavy loads — Examples of farm activities — • Lifting sacks of _____ • Carrying food for animals",
+              "options": [],
+              "answer": "fertiliser",
+              "accepted_answers": [
+                "fertiliser"
+              ],
+              "analysis": "题干中的“sacks of”对应原文中的“50-kilogramme fertiliser bags”，其中“sacks”与“bags”为同义替换，“fertiliser”在原文中直接出现。题干要求填写农场活动中搬运的重物之一，原文明确指出搬运肥料袋属于高风险活动，因此答案为“fertiliser”。",
+              "reason": "display_answer=fertiliser，与原文fertiliser bags吻合。",
+              "location_analysis": "原文直接提到“moving 50-kilogramme fertiliser bags”，即肥料袋。",
+              "paraphrasing": "sacks of -> sacks of",
+              "keywords": "lifts, sacks, fertiliser",
+              "evidence": [
+                "Examples of tasks that involve this risk are moving 50-kilogramme fertiliser bags from one site to another or carrying heavy buckets of animal feed around fields."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117394",
+              "number": 16,
+              "prompt": "Awkward posture — Examples of farm activities — • Lifting a restless _____ • Moving something around a big _____",
+              "options": [],
+              "answer": "animal",
+              "accepted_answers": [
+                "animal"
+              ],
+              "analysis": "题干中的“restless animal”对应原文中的“a lively or agitated animal”，其中“restless”与“agitated”意思相近，均表示动物不安、难以控制。原文提到这类动物在搬运时难以抓握，容易导致姿势不当而受伤，因此答案为“animal”。",
+              "reason": "display_answer=animal，与原文一致。",
+              "location_analysis": "原文提到“a lively or agitated animal”，即不安的动物。",
+              "paraphrasing": "restless -> agitated",
+              "keywords": "restless, animal",
+              "evidence": [
+                "If a load is bulky or hard to grasp, such as a lively or agitated animal, it will be more difficult to hold while lifting and carrying."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117395",
+              "number": 17,
+              "prompt": "Awkward posture — Examples of farm activities — • Lifting a restless _____ • Moving something around a big _____",
+              "options": [],
+              "answer": "obstacle",
+              "accepted_answers": [
+                "obstacle"
+              ],
+              "analysis": "题干中的“big obstacle”对应原文中的“a large obstacle”，其中“big”与“large”为同义替换。原文指出，当搬运物品需绕过大型障碍物时，人不得不将重物远离身体，从而增加背部压力，因此答案为“obstacle”。",
+              "reason": "display_answer=obstacle，与原文吻合。",
+              "location_analysis": "原文“a large obstacle”，即巨大障碍物。",
+              "paraphrasing": "big -> large",
+              "keywords": "big, obstacle",
+              "evidence": [
+                "Sometimes a load has to be held away from the body because there is a large obstacle in the area and the person lifting needs to be able to see where their feet are going."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117396",
+              "number": 18,
+              "prompt": "Awkward posture — Risk reduction measures to consider — Buy particular _____ to help with support",
+              "options": [],
+              "answer": "aids",
+              "accepted_answers": [
+                "aids"
+              ],
+              "analysis": "题干要求填写用于辅助搬运的工具，原文中提到“In such cases, handling aids should be purchased”，即应购买“handling aids”以减轻负荷并降低受伤风险。“aids”是原文中直接出现的词，且符合“ONE WORD ONLY”的要求，因此答案为“aids”。",
+              "reason": "display_answer=aids，与原文handling aids吻合。",
+              "location_analysis": "原文建议购买“handling aids”以减少受伤风险。",
+              "paraphrasing": "buy -> purchase",
+              "keywords": "buy, handling aids",
+              "evidence": [
+                "In such cases, handling aids should be purchased that can take the weight off the load and minimise the potential for injury."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117397",
+              "number": 19,
+              "prompt": "Risk factor — A lot of _____ while working",
+              "options": [],
+              "answer": "bending",
+              "accepted_answers": [
+                "bending"
+              ],
+              "analysis": "题干中的“a lot of ___ while working”对应原文中的“repetitive bending when carrying out a task”，其中“a lot of”与“repetitive”在语义上呼应，均强调重复性动作。原文指出反复弯腰会增加下背部压力，因此答案为“bending”。",
+              "reason": "display_answer=bending，与原文一致。",
+              "location_analysis": "原文“repetitive bending”，即反复弯腰。",
+              "paraphrasing": "a lot of -> repetitive",
+              "keywords": "repetitive, bending",
+              "evidence": [
+                "Another risk that relates to awkward posture is repetitive bending when carrying out a task."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117398",
+              "number": 20,
+              "prompt": "Examples of farm activities — Fixing a fallen _____",
+              "options": [],
+              "answer": "gate",
+              "accepted_answers": [
+                "gate"
+              ],
+              "analysis": "题干中的“fixing a fallen ___”对应原文中的“repairing a gate that has collapsed onto the ground”，其中“fixing”与“repairing”、“fallen”与“collapsed”均为同义替换。该例子用于说明因长时间弯腰作业带来的风险，因此答案为“gate”。",
+              "reason": "display_answer=gate，与原文一致。",
+              "location_analysis": "原文“repairing a gate that has collapsed”，即修复倒塌的大门。",
+              "paraphrasing": "fixing -> repairing; fallen -> collapsed",
+              "keywords": "fixing, fallen, gate",
+              "evidence": [
+                "An example might be repairing a gate that has collapsed onto the ground."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 13,
+            "collect": "Risk factor\nExamples of farm\nactivities\nRisk reduction measures\nto consider\nHeavy loads\n• Lifting sacks of\n$117393$\n• Carrying food for\nanimals\n• Divide into containers\nthat weigh less\n• Use a vehicle such as\na tractor\nAwkward posture\n• Lifting a restless\n$117394$\n• Moving something\naround a big\n$117395$\nBuy particular\n$117396$\nto help with support\nA lot of $117397$\nwhile working\nFixing a fallen\n$117398$\nUse a workbench instead",
+            "table": {
+              "title": "",
+              "content": [
+                [
+                  "Risk factor",
+                  "Examples of farm activities",
+                  "Risk reduction measures to consider"
+                ],
+                [
+                  "Heavy loads",
+                  "· Lifting sacks of $117393$\n· Carrying food for animals",
+                  "· Divide into containers that weigh less\n· Use a vehicle such as a tractor"
+                ],
+                [
+                  "Awkward posture",
+                  "· Lifting a restless $117394$\n· Moving something around a big $117395$",
+                  "Buy particular $117396$ to help with support"
+                ],
+                [
+                  "A lot of $117397$ while working",
+                  "Fixing a fallen $117398$",
+                  "Use a workbench instead"
+                ]
+              ]
+            },
+            "option_title": ""
+          },
+          "content_template": "Risk factor\nExamples of farm\nactivities\nRisk reduction measures\nto consider\nHeavy loads\n• Lifting sacks of\n$117393$\n• Carrying food for\nanimals\n• Divide into containers\nthat weigh less\n• Use a vehicle such as\na tractor\nAwkward posture\n• Lifting a restless\n$117394$\n• Moving something\naround a big\n$117395$\nBuy particular\n$117396$\nto help with support\nA lot of $117397$\nwhile working\nFixing a fallen\n$117398$\nUse a workbench instead"
+        },
+        {
+          "id": "13931",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 21 - 27\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117413",
+              "number": 21,
+              "prompt": "A _____ approach to selling is fine as long as you do not irritate the customer.",
+              "options": [],
+              "answer": "proactive",
+              "accepted_answers": [
+                "proactive"
+              ],
+              "analysis": "题干中的“approach to selling”对应原文中的“be proactive in offering help”，其中“proactive”直接出现在原文中，描述一种主动但不过度打扰顾客的销售方式。题干要求填写这种销售态度的关键词，因此答案为“proactive”。",
+              "reason": "display_answer=proactive，原文直接出现。",
+              "location_analysis": "原文“proactive in offering help”，即主动提供帮助。",
+              "paraphrasing": "approach -> approach",
+              "keywords": "approach, selling, proactive",
+              "evidence": [
+                "Try to be sensitive to how much help a customer wants; be proactive in offering help without being annoying."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117414",
+              "number": 22,
+              "prompt": "Recommend additional products and _____ without being too forceful.",
+              "options": [],
+              "answer": "special offers",
+              "accepted_answers": [
+                "special offers"
+              ],
+              "analysis": "题干中的“recommend additional products and ___”对应原文中的“suggest a product... or point out products for which there are special offers”。其中“recommend”与“suggest/point out”为同义替换，“special offers”在原文中直接出现，因此答案为“special offers”。",
+              "reason": "display_answer=special offers，原文直接提及。",
+              "location_analysis": "原文建议“suggest”和“point out products for which the...",
+              "paraphrasing": "recommend -> suggest",
+              "keywords": "recommend, additional, products, special offers",
+              "evidence": [
+                "Suggest a product that naturally accompanies what the customer is considering or point out products for which there are special offers, but don’t pressure a customer into buying an item they don't want."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117415",
+              "number": 23,
+              "prompt": "Know how to compare similar products which have different _____",
+              "options": [],
+              "answer": "brand names",
+              "accepted_answers": [
+                "brand names"
+              ],
+              "analysis": "题干中的“similar products which have different ___”对应原文中的“products that are alike but that have been produced under a range of brand names”。原文明确指出这些相似产品来自不同品牌，因此答案为“brand names”。",
+              "reason": "display_answer=brand names，与原文直接对应。",
+              "location_analysis": "原文提到“produced under a range of brand names”，即不同...",
+              "paraphrasing": "similar products -> products that are alike",
+              "keywords": "different, brand names",
+              "evidence": [
+                "Build up a comprehensive knowledge of all the products in your shop, including the pros and cons of products that are alike but that have been produced under a range of brand names."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117416",
+              "number": 24,
+              "prompt": "Avoid _____ by always saying more than 'no'.",
+              "options": [],
+              "answer": "negativity",
+              "accepted_answers": [
+                "negativity"
+              ],
+              "analysis": "题干中的“Avoid ___ by always saying more than 'no'”对应原文中的“Negativity can put customers off instantly... do not just leave it at that - follow it with a positive”。原文建议避免消极回应，因此答案为“negativity”。",
+              "reason": "display_answer为'negativity'，原文含Negativity。",
+              "location_analysis": "原文C段'Negativity can put customers off'，建议避免nega...",
+              "paraphrasing": "avoid ->不要只说不；negativity -> Negativity",
+              "keywords": "Avoid, negativity, 'no'",
+              "evidence": [
+                "Negativity can put customers off instantly."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117417",
+              "number": 25,
+              "prompt": "Keep an eye on the _____ of goods on the shelves.",
+              "options": [],
+              "answer": "presentation",
+              "accepted_answers": [
+                "presentation"
+              ],
+              "analysis": "题干中的“Keep an eye on the ___ of goods on the shelves”对应原文中的“This attention to presentation keeps the shop tidy”。其中“keep an eye on”与“attention to”为同义表达，“presentation”指商品陈列状态，因此答案为“presentation”。",
+              "reason": "display_answer=presentation，原文直接出现。",
+              "location_analysis": "原文“attention to presentation keeps the shop tid...",
+              "paraphrasing": "keep an eye on -> attention to",
+              "keywords": "presentation, shelves",
+              "evidence": [
+                "This attention to presentation keeps the shop tidy, giving the right impression to your customers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117418",
+              "number": 26,
+              "prompt": "If a customer has problems paying with their _____, handle the problem with care.",
+              "options": [],
+              "answer": "credit card",
+              "accepted_answers": [
+                "credit card"
+              ],
+              "analysis": "题干中的“problems paying with their ___”对应原文中的“if the customer's credit card is declined at the till”。原文明确提到信用卡被拒的情况，并建议谨慎处理，因此答案为“credit card”。",
+              "reason": "题干对应credit card。",
+              "location_analysis": "原文提到信用卡被拒。",
+              "paraphrasing": "problems paying with their credit card -> credit card is declined",
+              "keywords": "credit card, problems paying",
+              "evidence": [
+                "if the customer's credit card is declined at the till"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117419",
+              "number": 27,
+              "prompt": "Any _____ from a customer should not affect how you treat them.",
+              "options": [],
+              "answer": "rudeness",
+              "accepted_answers": [
+                "rudeness"
+              ],
+              "analysis": "题干中的“Any ___ from a customer should not affect how you treat them”对应原文中的“Treat each person with respect at all times, even when you are faced with rudeness”。其中“rudeness”在原文中直接出现，指顾客的粗鲁行为，因此答案为“rudeness”。",
+              "reason": "display_answer=rudeness，原文直接出现。",
+              "location_analysis": "原文“when you are faced with rudeness”，即面对粗鲁行为。",
+              "paraphrasing": "any rudeness -> faced with rudeness",
+              "keywords": "rudeness, treat",
+              "evidence": [
+                "Treat each person with respect at all times, even when you are faced with rudeness."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "A $117413$ approach to selling is fine as long as you do not irritate the customer.\nRecommend additional products and $117414$ without being too forceful.\nKnow how to compare similar products which have different $117415$\nAvoid $117416$ by always saying more than 'no'.\nKeep an eye on the $117417$ of goods on the shelves.\nIf a customer has problems paying with their $117418$, handle the problem with care.\nAny $117419$ from a customer should not affect how you treat them.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "A $117413$ approach to selling is fine as long as you do not irritate the customer.\nRecommend additional products and $117414$ without being too forceful.\nKnow how to compare similar products which have different $117415$\nAvoid $117416$ by always saying more than 'no'.\nKeep an eye on the $117417$ of goods on the shelves.\nIf a customer has problems paying with their $117418$, handle the problem with care.\nAny $117419$ from a customer should not affect how you treat them."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Reducing injuries on the farm",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "Farms tend to be full of activity.",
+          "translation": "农场通常充满了各种活动。"
+        },
+        {
+          "index": 3,
+          "sentence": "There are always jobs to be done and some tasks require physical manual work.",
+          "translation": "总有工作需要完成，其中一些任务需要体力劳动。"
+        },
+        {
+          "index": 4,
+          "sentence": "While it is good for people to be active, there are risk factors associated with this, and efforts need to be made to reduce them.",
+          "translation": "虽然人们保持活跃是有益的，但这伴随着一些风险因素，因此需要努力减少这些风险。"
+        },
+        {
+          "index": 6,
+          "sentence": "The first risk relates to the carrying of an excessive load or weight.",
+          "translation": "第一个风险与搬运过重的负荷或重量有关。"
+        },
+        {
+          "index": 7,
+          "sentence": "This places undue demands on the spine and can cause permanent damage.",
+          "translation": "这会给脊柱带来不必要的压力，并可能导致永久性损伤。"
+        },
+        {
+          "index": 8,
+          "sentence": "Examples of tasks that involve this risk are moving 50-kilogramme fertiliser bags from one site to another or carrying heavy buckets of animal feed around fields.",
+          "translation": "涉及此类风险的工作示例包括将50公斤重的化肥袋从一个地点搬运到另一个地点，或在田间搬运沉重的动物饲料桶。"
+        },
+        {
+          "index": 9,
+          "sentence": "According to the UK Health and Safety Executive, activities such as these 'should be avoided at all times'.",
+          "translation": "根据英国健康与安全执行局的说法，此类活动“应始终避免”。"
+        },
+        {
+          "index": 10,
+          "sentence": "Their documentation states that other methods should be considered, such as breaking down the load into smaller containers prior to movement or transporting the materials using a tractor or other vehicle.",
+          "translation": "其文件指出，应考虑其他方法，例如在搬运前将货物拆分到较小的容器中，或者使用拖拉机或其他车辆运输物料。"
+        },
+        {
+          "index": 11,
+          "sentence": "The risk posed by excessive force is made worse if the person lifting is also bending over as this increases pressure on the discs in the back.",
+          "translation": "如果提起重物的人同时弯腰，则过度用力带来的风险会加剧，因为这会增加背部椎间盘的压力。"
+        },
+        {
+          "index": 12,
+          "sentence": "If a load is bulky or hard to grasp, such as a lively or agitated animal, it will be more difficult to hold while lifting and carrying.",
+          "translation": "如果负载体积庞大或难以抓握，例如一头活泼或躁动的动物，那么在抬起和搬运过程中会更难稳住。"
+        },
+        {
+          "index": 13,
+          "sentence": "The holder may adopt an awkward posture, which is tiring and increases the risk of injury.",
+          "translation": "搬运者可能会采取别扭的姿势，这会令人疲劳并增加受伤的风险。"
+        },
+        {
+          "index": 14,
+          "sentence": "Sometimes a load has to be held away from the body because there is a large obstacle in the area and the person lifting needs to be able to see where their feet are going.",
+          "translation": "有时，由于该区域有大型障碍物，且抬举者需要看清脚下位置，负载必须远离身体托举。"
+        },
+        {
+          "index": 15,
+          "sentence": "This results in increased stress on the back;",
+          "translation": "这会导致背部承受更大的压力；"
+        },
+        {
+          "index": 16,
+          "sentence": "holding a load at arm's length imposes about five times the stress of a close-to-the-body position.",
+          "translation": "手臂伸直托举负载带来的压力大约是紧贴身体位置的五倍。"
+        },
+        {
+          "index": 17,
+          "sentence": "In such cases, handling aids should be purchased that can take the weight off the load and minimise the potential for injury.",
+          "translation": "在这种情况下，应购买搬运辅助工具来减轻负载重量，并最大程度地减少受伤的可能性。"
+        },
+        {
+          "index": 18,
+          "sentence": "If a load is bulky or hard to grasp, such as a lively or agitated animal, it will be more difficult to hold while lifting and carrying.",
+          "translation": "如果负载体积庞大或难以抓握，例如一只活跃或焦躁不安的动物，那么在抬起和搬运过程中将更难保持稳定。"
+        },
+        {
+          "index": 19,
+          "sentence": "The holder may adopt an awkward posture, which is tiring and increases the risk of injury.",
+          "translation": "持物者可能会采取别扭的姿势，这既令人疲劳，又增加了受伤的风险。"
+        },
+        {
+          "index": 20,
+          "sentence": "Sometimes a load has to be held away from the body because there is a large obstacle in the area and the person lifting needs to be able to see where their feet are going.",
+          "translation": "有时负载必须远离身体持握，因为该区域存在大型障碍物，且抬举者需要看清脚下位置。"
+        },
+        {
+          "index": 21,
+          "sentence": "This results in increased stress on the back; holding a load at arm's length imposes about five times the stress of a close-to-the-body position.",
+          "translation": "这会导致背部压力增加；手臂伸直持握负载所产生的压力约为贴近身体持握时的五倍。"
+        },
+        {
+          "index": 22,
+          "sentence": "In such cases, handling aids should be purchased that can take the weight off the load and minimise the potential for injury.",
+          "translation": "在这种情况下，应购买辅助搬运工具，以减轻负载重量，并最大程度降低受伤的可能性。"
+        },
+        {
+          "index": 24,
+          "sentence": "Another risk that relates to awkward posture is repetitive bending when carrying out a task.",
+          "translation": "与不良姿势相关的另一个风险是在执行任务时重复弯腰。"
+        },
+        {
+          "index": 25,
+          "sentence": "An example might be repairing a gate that has collapsed onto the ground.",
+          "translation": "一个例子可能是修理一扇倒在地上的大门。"
+        },
+        {
+          "index": 26,
+          "sentence": "This type of activity increases the stress on the lower back because the back muscles have to support the weight of the upper body.",
+          "translation": "这类活动会增加下背部的压力，因为背部肌肉需要支撑上半身的重量。"
+        },
+        {
+          "index": 27,
+          "sentence": "The farmer should think about whether the job can be performed on a workbench, reducing the need for prolonged awkward posture.",
+          "translation": "农民应考虑这项工作能否在工作台上完成，以减少长时间保持不良姿势的需求。"
+        },
+        {
+          "index": 28,
+          "sentence": "Good customer service in retail",
+          "translation": "零售业中的优质客户服务"
+        },
+        {
+          "index": 30,
+          "sentence": "Without customers, your retail business would not exist.",
+          "translation": "没有顾客，您的零售业务将无法存在。"
+        },
+        {
+          "index": 31,
+          "sentence": "It stands to reason, therefore, that how you treat your customers has a direct impact on your profit margins.",
+          "translation": "因此，理所当然地，您对待顾客的方式会直接影响您的利润空间。"
+        },
+        {
+          "index": 32,
+          "sentence": "The first risk relates to the carrying of an excessive load or weight.",
+          "translation": "第一个风险与搬运过重的负荷或重量有关。"
+        },
+        {
+          "index": 33,
+          "sentence": "This places undue demands on the spine and can cause permanent damage.",
+          "translation": "这会给脊柱带来不必要的负担，并可能导致永久性损伤。"
+        },
+        {
+          "index": 34,
+          "sentence": "Examples of tasks that involve this risk are moving 50-kilogramme fertiliser bags from one site to another or carrying heavy buckets of animal feed around fields.",
+          "translation": "涉及这种风险的任务示例包括将50公斤的化肥袋从一个地点搬到另一个地点，或提着沉重的动物饲料桶在田间行走。"
+        },
+        {
+          "index": 35,
+          "sentence": "According to the UK Health and Safety Executive, activities such as these 'should be avoided at all times'.",
+          "translation": "根据英国健康与安全执行局的说法，此类活动“应始终避免”。"
+        },
+        {
+          "index": 36,
+          "sentence": "Their documentation states that other methods should be considered, such as breaking down the load into smaller containers prior to movement or transporting the materials using a tractor or other vehicle.",
+          "translation": "他们的文件指出，应考虑其他方法，例如在搬运前将重物分装到较小的容器中，或使用拖拉机等其他车辆运输材料。"
+        },
+        {
+          "index": 37,
+          "sentence": "The risk posed by excessive force is made worse if the person lifting is also bending over as this increases pressure on the discs in the back.",
+          "translation": "如果搬运者在搬运时也弯腰，过度用力带来的风险会加剧，因为这会增加背部椎间盘的压力。"
+        },
+        {
+          "index": 38,
+          "sentence": "Some customers just want to browse and not be bothered by sales staff.",
+          "translation": "有些顾客只想随意浏览，不愿被销售人员打扰。"
+        },
+        {
+          "index": 39,
+          "sentence": "Try to be sensitive to how much help a customer wants; be proactive in offering help without being annoying.",
+          "translation": "要敏锐地察觉顾客需要多少帮助；主动提供协助，但不要令人厌烦。"
+        },
+        {
+          "index": 40,
+          "sentence": "Suggest a product that naturally accompanies what the customer is considering or point out products for which there are special offers, but don’t pressure a customer into buying an item they don't want.",
+          "translation": "推荐与顾客正在考虑的商品自然搭配的产品，或者指出有特价优惠的商品，但不要强迫顾客购买他们不想要的东西。"
+        },
+        {
+          "index": 42,
+          "sentence": "Build up a comprehensive knowledge of all the products in your shop, including the pros and cons of products that are alike but that have been produced under a range of brand names.",
+          "translation": "全面了解你商店中的所有产品，包括那些相似但由不同品牌生产的产品各自的优缺点。"
+        },
+        {
+          "index": 43,
+          "sentence": "If you have run out of a particular item, make sure you know when the next orders are coming in.",
+          "translation": "如果某种商品已经售罄，请确保你知道下一批订单何时到货。"
+        },
+        {
+          "index": 44,
+          "sentence": "Negativity can put customers off instantly.",
+          "translation": "消极的态度会立刻让顾客感到反感。"
+        },
+        {
+          "index": 45,
+          "sentence": "If a customer asks a question to which the answer is 'no', do not just leave it at that - follow it with a positive, for example:'we're expecting more of that product in on Tuesday '.",
+          "translation": "如果顾客提出了一个答案为“没有”的问题，不要仅仅就此打住——随后给出积极的回应，例如：“我们预计周二会到更多那种产品。”"
+        },
+        {
+          "index": 46,
+          "sentence": "Another risk that relates to awkward posture is repetitive bending when carrying out a task.",
+          "translation": "另一个与不自然姿势相关的风险是执行任务时的重复弯腰。"
+        },
+        {
+          "index": 47,
+          "sentence": "An example might be repairing a gate that has collapsed onto the ground.",
+          "translation": "一个例子可能是修理一扇倒在地上的大门。"
+        },
+        {
+          "index": 48,
+          "sentence": "This type of activity increases the stress on the lower back because the back muscles have to support the weight of the upper body.",
+          "translation": "这类活动会增加下背部的压力，因为背部肌肉必须支撑上半身的重量。"
+        },
+        {
+          "index": 49,
+          "sentence": "The farmer should think about whether the job can be performed on a workbench, reducing the need for prolonged awkward posture.",
+          "translation": "农民应该考虑这项工作是否可以在工作台上完成，以减少长时间维持不自然姿势的需求。"
+        },
+        {
+          "index": 50,
+          "sentence": "Meanwhile, if you see a product in the wrong place on a shelf, don’t ignore it - put it back where it belongs.",
+          "translation": "同时，如果你看到货架上的商品放错了位置，不要忽视它——把它放回原处。"
+        },
+        {
+          "index": 51,
+          "sentence": "This attention to presentation keeps the shop tidy, giving the right impression to your customers.",
+          "translation": "这种对陈列的关注能保持店铺整洁，给顾客留下良好的印象。"
+        },
+        {
+          "index": 52,
+          "sentence": "Likewise, if you notice a fault with a product, remove it and replace it with another.",
+          "translation": "同样地，如果你注意到某件商品有瑕疵，应将其移除并替换另一件。"
+        },
+        {
+          "index": 53,
+          "sentence": "When necessary, be discreet.",
+          "translation": "必要时，要谨慎行事。"
+        },
+        {
+          "index": 54,
+          "sentence": "For example, if the customer's credit card is declined at the till, keep your voice down and enquire about an alternative payment method quietly so that the customer doesn't feel humiliated.",
+          "translation": "例如，如果顾客的信用卡在收银台被拒，请压低声音并悄悄询问其他支付方式，以免让顾客感到难堪。"
+        },
+        {
+          "index": 55,
+          "sentence": "If they experience uncomfortable emotions in your shop, it's unlikely that they'll come back.",
+          "translation": "如果他们在你的店里感到不自在，他们很可能不会再光顾。"
+        },
+        {
+          "index": 56,
+          "sentence": "When necessary, be discreet.",
+          "translation": "必要时，应谨慎行事。"
+        },
+        {
+          "index": 57,
+          "sentence": "For example, if the customer's credit card is declined at the till, keep your voice down and enquire about an alternative payment method quietly so that the customer doesn't feel humiliated.",
+          "translation": "例如，如果顾客的信用卡在收银台被拒，请压低声音并悄悄询问其他支付方式，以免顾客感到尴尬。"
+        },
+        {
+          "index": 58,
+          "sentence": "If they experience uncomfortable emotions in your shop, it's unlikely that they'll come back.",
+          "translation": "如果他们在你的店里感到不自在，他们很可能不会再光顾。"
+        },
+        {
+          "index": 59,
+          "sentence": "Finally, good manners are probably the most important aspect of dealing with customers.",
+          "translation": "最后，礼貌待人或许是处理客户关系时最重要的方面。"
+        },
+        {
+          "index": 60,
+          "sentence": "Treat each person with respect at all times, even when you are faced with rudeness.",
+          "translation": "始终尊重每一位顾客，即使面对无礼行为也应如此。"
+        },
+        {
+          "index": 61,
+          "sentence": "Being discourteous yourself will only add more fuel to the fire.",
+          "translation": "若自身失礼，只会火上浇油，使情况恶化。"
+        },
+        {
+          "index": 62,
+          "sentence": "Finally, good manners are probably the most important aspect of dealing with customers.",
+          "translation": "最后，礼貌待人可能是与顾客打交道时最重要的方面。"
+        },
+        {
+          "index": 63,
+          "sentence": "Treat each person with respect at all times, even when you are faced with rudeness.",
+          "translation": "无论何时都要尊重每一位顾客，即使面对粗鲁无礼的行为也要如此。"
+        },
+        {
+          "index": 64,
+          "sentence": "Being discourteous yourself will only add more fuel to the fire.",
+          "translation": "如果你自己无礼，只会火上浇油。"
+        },
+        {
+          "index": 66,
+          "sentence": "Build a reputation for polite, helpful staff and you'll find that customers not only keep giving you their custom, but also tell their friends about you.",
+          "translation": "建立一支礼貌、乐于助人的员工队伍，你会发现有顾客不仅会继续光顾，还会向朋友推荐你。"
+        },
+        {
+          "index": 67,
+          "sentence": "Build a reputation for polite, helpful staff and you'll find that customers not only keep giving you their custom, but also tell their friends about you.",
+          "translation": "建立一支有礼貌、乐于助人的员工队伍，你会发现顾客不仅会持续光顾你的生意，还会向他们的朋友推荐你。"
+        }
+      ]
+    },
+    {
+      "id": "1912",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Plastic is no longer fantastic",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "In 2017, Carlos Ferrando, a Spanish engineer-turned-entrepreneur, saw a piece of art in a museum that profoundly affected him. \"What Lies Under', a photographic composition by Indonesian digital artist Ferdi Rizkiyanto, shows a child crouching by the edge of the ocean and 'lifting up' a wave, to reveal a cluster of assorted plastic waste, from polyethylene bags to water bottles. The artwork, designed to raise public awareness, left Ferrando angry - and fuelled with entrepreneurial ideas.",
+          "translation": "2017年，西班牙工程师转型企业家卡洛斯·费兰多在一家博物馆看到一件艺术作品，这深深触动了他。\n印尼数字艺术家费迪·里兹基亚托的摄影作品《表层之下》描绘了一个孩子蹲在海洋边缘，掀起一片海浪，露出从塑料袋到水瓶等各类塑料垃圾。\n这件旨在提高公众意识的作品让费兰多感到愤怒，并激发了他的创业想法。\n2017年，卡洛斯·费兰多，一位西班牙工程师出身的创业者，在博物馆看到一件深深触动他的艺术品。\n印尼数字艺术家费迪·里兹基亚托的摄影作品《谎言之下的真相》展示了一个孩子蹲在海边，'掀起'海浪，露出一堆五花八门的塑料垃圾，从聚乙烯袋到水瓶。\n这件旨在提高公众意识的艺术品让费兰多感到愤怒，并激发了他的创业想法。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Ferrando runs a Spanish-based design company, Closca, that produces an ingenious foldable bicycle helmet.But he has now also designed a stylish glass water bottle with a stretchy silicone strap and magnetic closure mechanism that means it can be attached to almost anything, from a bike to a bag to a pushchair handle. The product comes with an app that tells people where they can fill their bottles with water for free.",
+          "translation": "费兰多经营着一家总部位于西班牙的设计公司Closca，该公司生产一种巧妙的可折叠自行车头盔。\n但他现在又设计了一款时尚的玻璃水瓶，配有弹性硅胶带和磁力闭合装置，这意味着它可以固定在几乎任何东西上，从自行车到包包再到婴儿车把手。\n该产品附带一个应用程序，可以告诉人们在哪里可以免费为他们的瓶子装水。\n但他现在又设计了一款时尚的玻璃水瓶，配有一条可拉伸的硅胶带和磁性闭合机制，这意味着它可以附着在几乎任何东西上，从自行车到背包再到婴儿推车把手。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "The intention is to persuade people to stop buying water in plastic bottles, thus saving consumers money and reducing the plastic waste piling up in our oceans.‘Bottled water is now a $100 billion business, and 81 percent of the bottles are not recycled. It's a complete waste - water is only 1.5 percent of the price of the bottle!' Ferrando cries. indeed, environmentalists estimate that by 2050 there will be more plastic in our oceans than fish and that's mainly down to such bottles. We are trying to create a sense that being environmentally sophisticated is a status symbol,' he adds.'We want people to clip their bottles onto what they are wearing,to show that they are recycling - and to look cool.'",
+          "translation": "其意图是说服人们停止购买塑料瓶装水，从而为消费者省钱，并减少堆积在海洋中的塑料垃圾。\n其意图是说服人们停止购买塑料瓶装水，从而为消费者省钱并减少堆积在海洋中的塑料垃圾。\n“瓶装水现在是一个价值1000亿美元的产业，而81%的瓶子没有被回收。”\n这完全是浪费——水仅占瓶子价格的1.5%！”费兰多喊道。\n事实上，环保主义者估计，到2050年，海洋中的塑料将比鱼类还多，而这主要归咎于这类瓶子。\n“我们正试图营造一种观念，即环保意识强是一种身份象征，”他补充道。\n“我们希望人们把瓶子夹在穿着的东西上，以显示他们在回收——并且看起来很酷。”\n其意图是说服人们停止购买塑料瓶装水，从而为消费者节省开支，并减少堆积在海洋中的塑料垃圾。\n“瓶装水如今是一个价值1000亿美元的产业，而81%的瓶子未被回收利用。”\n这完全是浪费——水的成本仅占瓶子价格的1.5%！”费兰多感叹道。\n的确，环保人士估计，到2050年，海洋中的塑料将比鱼类还多，而这主要归因于此类瓶子。\n“我们正试图营造一种观念，即对环境问题有深刻认知是一种身份象征，”他补充道。\n“我们希望人们将瓶子夹在衣服上，以表明他们正在回收利用——并且看起来很酷。”"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Ferrando's story is fascinating because it seems like an indicator of something unexpected.Three decades ago, conspicuous consumption - the purchase of luxuries, such as handbags, shoes, cars, etc. on a lavish scale - heightened people's social status. Indeed, the closing decades of the 20th century were a time when it seemed that anything could be turned into a commodity.Hence the fact that water became a consumer item, sold in plastic bottles, instead of just emerging, for free, from a tap.",
+          "translation": "费兰多的故事引人入胜，因为它似乎预示着某种出人意料的现象。\n三十年前，炫耀性消费 —— 即大手笔购买奢侈品，如手袋、鞋子、汽车等 —— 提升了人们的社会地位。\n事实上，20世纪末的几十年里，似乎任何东西都可以被转化为商品。\n因此，水成了一种消费品，装在塑料瓶中出售，而不是直接从水龙头中免费流出。\n费兰多的故事引人入胜，因为它似乎预示了一些出乎意料的事情。\n三十年前，炫耀性消费——即大手笔购买手提包、鞋子、汽车等奢侈品——提升了人们的社会地位。\n事实上，20世纪末的几十年里，似乎任何东西都可以变成商品。\n因此，水成了一种消费品，装在塑料瓶里出售，而不只是从水龙头里免费流出。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Today, though, conspicuous extravagance no longer seems desirable among consumers. Now, recycling is fashionable - as is cycling rather than driving. Plastic water bottles have become so common that they do not command status; instead,what many millennials - young people born in the late 20th century - prefer to post on social media are 'real'(refillable) bottles or even the once widespread Thermos bottles. Some teenagers currently think that these stainless-steel vacuum-insulated water bottles that are coming back onto the market are ultra 'cool'; never mind the fact that they feel oddly out-of-date to anyone over the age of 40 or that teenagers in the 1970s would have avoided ever being seen with one.",
+          "translation": "然而如今，炫耀性消费似乎不再受消费者青睐。\n现在，回收利用成为一种时尚，骑自行车而非开车也同样如此。\n塑料水瓶已变得如此普遍，以至于它们不再彰显地位；相反，许多千禧一代（出生于20世纪末的年轻人）更愿意在社交媒体上晒出的是“真正的”（可重复使用的）水瓶，甚至是曾经流行的保温瓶。\n一些青少年目前认为，这些重新回归市场的不锈钢真空保温水瓶非常“酷”；尽管对40岁以上的人来说它们感觉异常过时，而且20世纪70年代的青少年会避免被人看到使用这种水瓶，但这都无关紧要。\n然而如今，炫富式的挥霍在消费者中似乎已不再受欢迎。\n现在，回收利用变得时髦——正如骑自行车而非开车一样。\n塑料水瓶已变得如此普遍，以至于不再象征地位；相反，许多千禧一代——即出生于20世纪末的年轻人——更喜欢在社交媒体上晒出“真正的”（可重复使用的）水瓶，甚至是曾经广泛流行的保温瓶。\n一些青少年目前认为，这些重新回到市场的不锈钢真空保温水瓶极其“酷”；尽管它们对于40岁以上的人来说显得过时得莫名其妙，而且20世纪70年代的青少年会尽量避免被人看到使用这种瓶子。\n然而今天，炫耀性的奢侈消费在消费者中似乎不再受欢迎。\n如今，回收利用很时髦——骑自行车而非开车也同样如此。\n塑料水瓶已变得如此普遍，以至于它们不再象征社会地位；相反，许多千禧一代——出生于20世纪末的年轻人——更倾向于在社交媒体上发布的是‘真正的’（可重复使用的）水瓶，甚至是曾经广泛使用的保温瓶。\n一些青少年目前认为这些重新出现在市场上的不锈钢真空保温水瓶非常‘酷’；且不提它们对40岁以上的人来说显得异常过时，也不提20世纪70年代的青少年会避免被人看到拿着这种瓶子。\n然而如今，炫耀性消费在消费者中似乎不再受欢迎。\n如今，回收利用变得时髦——骑自行车而非开车也是如此。\n塑料水瓶已变得如此普遍，以至于它们不再象征地位；相反，许多千禧一代——出生于20世纪末的年轻人——更倾向于在社交媒体上发布的是“真正的”（可重复使用的）水瓶，甚至是曾经广泛使用的保温瓶。\n一些青少年目前认为，这些重新上市的不锈钢真空保温水瓶极其“酷”；尽管它们对40岁以上的人来说感觉奇特而过时，且20世纪70年代的青少年会避之唯恐不及，不愿被人看到使用它们。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "It is uncertain whether Closca will succeed in its goal.Although its foldable bike helmet is available in some outlets in New York, including the Museum of Modern Art, it can be very hard for any design entrepreneur to really take off in the global mass market, though not as hard as it might have been in the past. If an entrepreneur had wanted to fund a smart invention a few decades ago, he or she would have had to either raise a bank loan, borrow money from a family member or use a credit card.Things have moved on slightly since then.",
+          "translation": "克洛斯卡能否实现其目标尚不确定。\n尽管其可折叠自行车头盔在纽约的一些商店（包括现代艺术博物馆）有售，但对任何设计企业家来说，要在全球大众市场真正取得成功可能非常困难，尽管这并不像过去那样艰难。\n如果一位企业家几十年前想为一项巧妙的发明筹集资金，他或她要么需要获得银行贷款，要么向家人借钱，要么使用信用卡。\n自那时起，情况已略有进展。\nClosca 能否实现其目标尚不确定。\n尽管其可折叠自行车头盔在纽约的一些零售店（包括现代艺术博物馆）有售，但任何设计企业家要在全球大众市场真正成功都非常困难，尽管这比过去可能容易一些。\n如果一位企业家几十年前想要资助一项巧妙的发明，他或她不得不要么获得银行贷款、向家人借钱，要么使用信用卡。\n自那时以来，情况已略有变化。\n克罗斯卡能否实现其目标尚不确定。\n尽管其可折叠自行车头盔在纽约的一些零售店有售，包括现代艺术博物馆，但任何设计企业家要想真正在全球大众市场取得成功仍然非常困难，尽管这没有过去那么难。\n如果几十年前一位企业家想要资助一项巧妙的发明，他或她要么必须获得银行贷款，要么向家人借钱，要么使用信用卡。\n自那时起，情况已略有变化。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Entrepreneurs are still using the last two options, but some are also tapping into the ever-growing pot of money that is becoming available in the management world for 'corporate social responsibility' (CSR) investments.And then there are other options for those who wish to raise money straight away. Ferrando posted details about his water-bottle venture on a large, recognised platform for funding creative projects. He appealed for people to donate $30,000 of seed money - the money he needed to get his project going - and promised to give a bottle to anyone who provided more than $39 in 'donations'. If he received the funds, he stated that the company would produce bottles in grey and white; if $60,000 was raised, a multicoloured one would be made. Using this approach, none of the donors has a stake in his idea, nor does he have any debt. Instead, it is almost a pre-sale of the product, in a manner that tests demand in advance and creates a potential crowd of enthusiasts.This old-fashioned community funding with a digital twist is supporting a growing array of projects ranging from films to card games, videos, watches and so on.And, at last count, Closca had raised some $52,838 from 803 backers.Maybe, 20 years from now, it will be the plastic bottle that seems peculiarly old-fashioned.",
+          "translation": "企业家们仍在使用后两种选择，但有些人也在利用管理界日益增长的、可用于“企业社会责任”（CSR）投资的资金池。\n对于那些希望立即筹集资金的人来说，还有其他选择。\n费兰多在一个大型且公认的创意项目融资平台上发布了他关于水瓶创业的详细信息。\n他呼吁人们捐赠3万美元的种子资金——这是他启动项目所需的资金——并承诺向任何提供超过39美元“捐款”的人赠送一个水瓶。\n他声明，如果收到这笔资金，公司将生产灰色和白色的水瓶；如果筹集到6万美元，则还会生产一款彩色水瓶。\n通过这种方式，捐赠者对他的创意没有任何股权，他也没有任何债务。\n相反，这几乎是一种产品的预售方式，既能提前测试需求，又能培养潜在的爱好者群体。\n这种带有数字化元素的古老社区筹资方式，正在支持从电影、纸牌游戏、视频到手表等日益增多的项目。\n而且，根据最新统计，克洛斯卡已经从803位支持者那里筹集了约52,838美元。\n或许，20年后，塑料水瓶反而会显得格外过时。\n企业家们仍然在使用后两种选择，但有些人也在利用管理领域日益增长、用于‘企业社会责任’投资的资金池。\n此外，对于那些希望立即筹集资金的人来说，还有其他选择。\n费兰多在一个大型且公认的创意项目融资平台上发布了关于他水瓶创业的详细信息。\n他呼吁人们捐赠3万美元的启动资金——这是他启动项目所需的资金——并承诺向任何提供超过39美元‘捐款’的人赠送一个水瓶。\n他声明，如果收到资金，公司将生产灰色和白色的瓶子；如果筹集到6万美元，则会制作一款彩色瓶子。\n相反，这几乎是一种产品预售，以提前测试需求并创造潜在爱好者群体的方式进行。\n这种带有数字化特色的传统社区筹资方式，正在支持从电影到纸牌游戏、视频、手表等越来越多的项目。\n而且，根据最新统计，Closca已经从803位支持者那里筹集了约52,838美元。\n也许，20年后，塑料瓶反而会显得格外过时。\n企业家们仍然在使用后两种方式，但有些人也在利用管理层中日益增长的、可用于‘企业社会责任’投资的资金池。\n如果他收到了这笔资金，他说明公司将会生产灰色和白色的水瓶；如果筹集到6万美元，则会生产彩色水瓶。\n通过这种方法，没有任何捐赠者对他的想法拥有股权，他也没有任何债务。\n相反，这几乎是一种产品的预售方式，可以提前测试需求并创造潜在的爱好者群体。\n这种带有数字化特色的老式社区资金募集方式，正支持着从电影到卡牌游戏、视频、手表等越来越多的项目。\n根据最新统计，Closca已经从803名支持者那里筹集了约52838美元。\n也许20年后，塑料水瓶反而会显得格外过时。\n企业家们仍然在使用后两种选择，但有些人也在挖掘管理领域中日益增长的、可用于‘企业社会责任’投资的资金池。\n费兰多在一个大型且公认的创意项目融资平台上发布了他水瓶创业项目的详细信息。\n他呼吁人们捐赠30,000美元的种子资金——这是启动他项目所需的资金——并承诺向任何提供超过39美元‘捐款’的人赠送一个水瓶。\n他声明，如果收到资金，公司将生产灰色和白色的水瓶；如果筹集到60,000美元，则会制造一款彩色的。\n通过这种方式，捐赠者对他的想法没有任何股权，他也不承担任何债务。\n相反，这几乎是一种产品的预售方式，既能提前测试需求，又能创造潜在的爱好者群体。\n这种带有数字元素的传统社区资助方式正在支持越来越多的项目，从电影到纸牌游戏、视频、手表等。\n并且，根据最新统计，Closca已经从803位支持者那里筹集了大约52,838美元。\n也许，20年后，塑料瓶会显得格外过时。\n企业家们仍在采用后两种方式，但有些人也开始利用管理领域中日益增长的可用于“企业社会责任”（CSR）投资的资金池。\n费兰多在一个大型、公认的创意项目融资平台上发布了关于他水瓶事业的详细信息。\n他呼吁人们捐赠30,000美元的种子资金——这是他启动项目所需的资金——并承诺向任何提供超过39美元“捐款”的人赠送一个水瓶。\n他表示，如果收到这笔资金，公司将生产灰色和白色的水瓶；如果筹集到60,000美元，则会制造彩色水瓶。\n这种带有数字化特色的传统社区资助方式正支持着越来越多的项目，涵盖电影、卡牌游戏、视频、手表等。\n根据最新统计，Closca已从803位支持者那里筹集了约52,838美元。\n也许20年后，塑料水瓶会显得格外过时。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13939",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 34\nThe text has seven paragraphs.\nChoose the correct heading for each paragraph and move it into the gap.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. A time when opportunities were limited"
+            },
+            {
+              "value": "B",
+              "label": "B. The reasons why Fernando's product is needed"
+            },
+            {
+              "value": "C",
+              "label": "C. A no-risk solution"
+            },
+            {
+              "value": "D",
+              "label": "D. Two inventions and some physical details"
+            },
+            {
+              "value": "E",
+              "label": "E. The contrasting views of different generations"
+            },
+            {
+              "value": "F",
+              "label": "F. A disturbing experience"
+            },
+            {
+              "value": "G",
+              "label": "G. The problems with replacing a consumer item"
+            },
+            {
+              "value": "H",
+              "label": "H. Looking back at why water was bottled"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1139391",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A time when opportunities were limited"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The reasons why Fernando's product is needed"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A no-risk solution"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Two inventions and some physical details"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The contrasting views of different generations"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A disturbing experience"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The problems with replacing a consumer item"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Looking back at why water was bottled"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "第28题对应段落A。该段开头描述Carlos Ferrando在博物馆看到一件名为《What Lies Under》的艺术作品后深受触动，感到愤怒并激发创业灵感。这种因艺术品引发的强烈情绪反应与标题F ‘A disturbing experience’（一次令人不安的经历）高度吻合，因此选F。",
+              "reason": "paragraph A首句点明艺术品带来的深刻影响，与heading F吻合。",
+              "location_analysis": "首句描述艺术品对Ferrando的强烈冲击，对应标题F。",
+              "paraphrasing": "disturbing experience -> piece of art profoundly affected him",
+              "keywords": "2017, Carlos Ferrando, artwork, profoundly affected",
+              "evidence": [
+                "In 2017, Carlos Ferrando, a Spanish engineer-turned-entrepreneur, saw a piece of art in a museum that profoundly affected him."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1139392",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A time when opportunities were limited"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The reasons why Fernando's product is needed"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A no-risk solution"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Two inventions and some physical details"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The contrasting views of different generations"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A disturbing experience"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The problems with replacing a consumer item"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Looking back at why water was bottled"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "第29题对应段落B。该段先后介绍了Ferrando公司生产的两种产品：可折叠自行车头盔和带硅胶带与磁吸扣的玻璃水瓶，并详细描述了水瓶的物理特性（如可附着于自行车、包或婴儿车）。这些内容完全契合标题D ‘Two inventions and some physical details’。",
+              "reason": "段落B介绍折叠头盔和玻璃水瓶两个发明及其细节，与heading D相符。",
+              "location_analysis": "段落B描述两个发明及其物理细节，对应标题D。",
+              "paraphrasing": "invention and details -> foldable bicycle helmet; glass water bottle with strap and magnetic closure",
+              "keywords": "glass water bottle, app, free",
+              "evidence": [
+                "Ferrando runs a Spanish-based design company, Closca, that produces an ingenious foldable bicycle helmet.",
+                "But he has now also designed a stylish glass water bottle with a stretchy silicone strap and magnetic closure mechanism that means it can be attached to almost anything, from a bike to a bag to a pushchair handle."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1139393",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A time when opportunities were limited"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The reasons why Fernando's product is needed"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A no-risk solution"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Two inventions and some physical details"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The contrasting views of different generations"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A disturbing experience"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The problems with replacing a consumer item"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Looking back at why water was bottled"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "第30题对应段落C。该段开篇即阐明设计玻璃水瓶的目的：‘to persuade people to stop buying water in plastic bottles’，并引用数据说明塑料瓶回收率低、对海洋污染严重，强调该产品在经济和环保上的必要性。这与标题B ‘The reasons why Fernando's product is needed’完全一致。",
+              "reason": "C段首句直接阐释产品必要性的原因，与heading B匹配。",
+              "location_analysis": "段落C开头说明产品目的，减少塑料瓶污染，对应标题B。",
+              "paraphrasing": "reasons why product needed -> persuade people to stop buying plastic bottles, reduce plastic waste",
+              "keywords": "persuade people to stop buying plastic bottles, plastic waste, oceans",
+              "evidence": [
+                "The intention is to persuade people to stop buying water in plastic bottles, thus saving consumers money and reducing the plastic waste piling up in our oceans."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1139394",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A time when opportunities were limited"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The reasons why Fernando's product is needed"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A no-risk solution"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Two inventions and some physical details"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The contrasting views of different generations"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A disturbing experience"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The problems with replacing a consumer item"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Looking back at why water was bottled"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "第31题对应段落D。该段回顾了上世纪末‘炫耀性消费’盛行的时代背景，并解释为何水会从免费自来水变成被装在塑料瓶中销售的商品（‘water became a consumer item’）。这种对历史原因的追溯正好匹配标题H ‘Looking back at why water was bottled’。",
+              "reason": "D段回顾水成为商品被瓶装的历史，与heading H呼应。",
+              "location_analysis": "段落D回顾过去水被装瓶销售的现象，对应标题H。",
+              "paraphrasing": "looking back why water bottled -> water became a consumer item, sold in plastic bottles",
+              "keywords": "three decades ago, conspicuous consumption, water became a consumer item",
+              "evidence": [
+                "Three decades ago, conspicuous consumption - the purchase of luxuries, such as handbags, shoes, cars, etc. on a lavish scale - heightened people's social status.",
+                "Hence the fact that water became a consumer item, sold in plastic bottles, instead of just emerging, for free, from a tap."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1139395",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A time when opportunities were limited"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The reasons why Fernando's product is needed"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A no-risk solution"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Two inventions and some physical details"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The contrasting views of different generations"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A disturbing experience"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The problems with replacing a consumer item"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Looking back at why water was bottled"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "第32题对应段落E。该段对比了不同世代对水瓶的态度：千禧一代和青少年认为不锈钢保温瓶‘cool’，而40岁以上人群觉得它们‘out-of-date’，甚至1970年代的青少年也会避免使用。这种代际观念差异精准对应标题E ‘The contrasting views of different generations’。",
+              "reason": "E段描述千禧一代与年长一代对水瓶的不同看法，与heading E吻合。",
+              "location_analysis": "段落E对比不同世代对瓶子的态度，对应标题E。",
+              "paraphrasing": "contrasting views of generations -> millennials prefer refillable bottles; teenagers think Thermos cool; older people find them out-of-date",
+              "keywords": "millennials, teenagers, old-fashioned, Thermos bottles",
+              "evidence": [
+                "Now, recycling is fashionable - as is cycling rather than driving.",
+                "Some teenagers currently think that these stainless-steel vacuum-insulated water bottles that are coming back onto the market are ultra 'cool'; never mind the fact that they feel oddly out-of-date to anyone over the age of 40 or that teenagers in the 1970s would have avoided ever being seen with one."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "1139396",
+              "number": 33,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A time when opportunities were limited"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The reasons why Fernando's product is needed"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A no-risk solution"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Two inventions and some physical details"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The contrasting views of different generations"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A disturbing experience"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The problems with replacing a consumer item"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Looking back at why water was bottled"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "第33题对应段落F。该段指出几十年前创业者若想融资，只能通过银行贷款、向家人借钱或刷信用卡，选择非常有限。这与标题A ‘A time when opportunities were limited’形成直接对应，强调过去创业融资渠道的匮乏。",
+              "reason": "F段说明过去融资渠道有限，与heading A匹配。",
+              "location_analysis": "段落F指出过去创业者融资方式有限，对应标题A。",
+              "paraphrasing": "opportunities limited -> raise a bank loan, borrow money from a family member or use a credit card",
+              "keywords": "fund, bank loan, borrow money, family member, credit card",
+              "evidence": [
+                "If an entrepreneur had wanted to fund a smart invention a few decades ago, he or she would have had to either raise a bank loan, borrow money from a family member or use a credit card."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            },
+            {
+              "id": "1139397",
+              "number": 34,
+              "prompt": "Section G",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A time when opportunities were limited"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The reasons why Fernando's product is needed"
+                },
+                {
+                  "value": "C",
+                  "label": "C. A no-risk solution"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Two inventions and some physical details"
+                },
+                {
+                  "value": "E",
+                  "label": "E. The contrasting views of different generations"
+                },
+                {
+                  "value": "F",
+                  "label": "F. A disturbing experience"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The problems with replacing a consumer item"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Looking back at why water was bottled"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "第34题对应段落G。该段描述Ferrando通过众筹平台募资，捐赠者无股权、创业者无债务，且能提前测试市场需求，相当于一种‘预销售’模式。这种无需承担风险即可启动项目的方式，完全符合标题C ‘A no-risk solution’的含义。",
+              "reason": "G段说明众筹无债务且预售测试需求，与heading C吻合。",
+              "location_analysis": "段落G描述众筹模式无风险优势，对应标题C。",
+              "paraphrasing": "no-risk solution -> none of the donors has a stake, no debt, pre-sale, tests demand",
+              "keywords": "donors, stake, debt, pre-sale, no risk",
+              "evidence": [
+                "Using this approach, none of the donors has a stake in his idea, nor does he have any debt.",
+                "Instead, it is almost a pre-sale of the product, in a manner that tests demand in advance and creates a potential crowd of enthusiasts."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "G"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "13942",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 35 - 37\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117435",
+              "number": 35,
+              "prompt": "What does Ferrando say about his glass water bottle?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "lt matches his bicycle helmet."
+                },
+                {
+                  "value": "B",
+                  "label": "lt is cheaper than a plastic bottle."
+                },
+                {
+                  "value": "C",
+                  "label": "He has designed it to suit all ages."
+                },
+                {
+                  "value": "D",
+                  "label": "He wants people to be proud to show it."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问Ferrando对其玻璃水瓶的看法。原文C段中，Ferrando表示：‘We are trying to create a sense that being environmentally sophisticated is a status symbol’以及‘We want people to clip their bottles onto what they are wearing... and to look cool’，说明他希望人们以展示该水瓶为荣，将其视为一种环保身份象征。选项D ‘He wants people to be proud to show it’ 正是对这一意图的准确概括。",
+              "reason": "Ferrando明确表示希望人们炫耀水瓶。",
+              "location_analysis": "Ferrando希望人们炫耀水瓶成为身份象征，对应D. He wants people to ...",
+              "paraphrasing": "proud to show it -> status symbol; look cool",
+              "keywords": "Ferrando, glass water bottle",
+              "evidence": [
+                "We are trying to create a sense that being environmentally sophisticated is a status symbol,' he adds."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": {
+                "A": "原文未提及玻璃水瓶与自行车头盔匹配的信息。",
+                "B": "与原文矛盾，玻璃水瓶通常比塑料瓶更贵。",
+                "C": "原文并未说明该设计适合所有年龄段。"
+              }
+            },
+            {
+              "id": "117437",
+              "number": 36,
+              "prompt": "What does the writer find fascinating about Ferrando's story?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "the youthfulness of his ideas"
+                },
+                {
+                  "value": "B",
+                  "label": "the old-fashioned nature of his products"
+                },
+                {
+                  "value": "C",
+                  "label": "the choice it is creating for consumers"
+                },
+                {
+                  "value": "D",
+                  "label": "the change it is revealing in people's attitudes"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问作者为何觉得Ferrando的故事引人入胜。原文D段首句明确指出：‘Ferrando's story is fascinating because it seems like an indicator of something unexpected’，随后对比了三十年前炫耀性消费（如购买奢侈品）提升社会地位，而如今回收和使用可重复灌装水瓶反而成为潮流。这表明作者关注的是人们消费态度的根本转变，因此选项D ‘the change it is revealing in people's attitudes’ 正确。",
+              "reason": "段落D首句指出故事暗示了出乎意料的变化，与选项D相符。",
+              "location_analysis": "作者认为Ferrando的故事揭示了消费态度的转变，对应D。",
+              "paraphrasing": "change in people's attitudes -> three decades ago conspicuous consumption heightened status, now recycling fashionable",
+              "keywords": "fascinating, indicator of something unexpected, conspicuous consumption, change",
+              "evidence": [
+                "Ferrando's story is fascinating because it seems like an indicator of something unexpected."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及Ferrando的想法具有年轻特质，属于无中生有。",
+                "B": "原文中Ferrando的产品并非老式，与原文信息矛盾。",
+                "C": "原文并未强调该故事为消费者创造选择，属于无中生有。"
+              }
+            },
+            {
+              "id": "117439",
+              "number": 37,
+              "prompt": "What does the writer suggest about Closca's bike helmet?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "lt has both functional and artistic value."
+                },
+                {
+                  "value": "B",
+                  "label": "lts main appeal is to older people."
+                },
+                {
+                  "value": "C",
+                  "label": "lt has had extraordinary success worldwide."
+                },
+                {
+                  "value": "D",
+                  "label": "lt is a more exciting invention than the glass bottle."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问作者对Closca自行车头盔的看法。原文B段提到该头盔是‘an ingenious foldable bicycle helmet’，强调其功能性（可折叠）；G段又指出它在纽约现代艺术博物馆（Museum of Modern Art）有售，暗示其具有设计感和艺术价值。因此，选项A ‘It has both functional and artistic value’ 准确反映了原文信息。",
+              "reason": "头盔创新且陈列于现代艺术博物馆，兼具功能与艺术性。",
+              "location_analysis": "头盔既实用（折叠）又具艺术性（在MoMA销售），对应A。",
+              "paraphrasing": "functional and artistic value -> ingenious foldable bicycle helmet, available in Museum of Modern Art",
+              "keywords": "foldable bicycle helmet, available in Museum of Modern Art",
+              "evidence": [
+                "Ferrando runs a Spanish-based design company, Closca, that produces an ingenious foldable bicycle helmet.",
+                "Although its foldable bike helmet is available in some outlets in New York, including the Museum of Modern Art, it can be very hard for any design entrepreneur to really take off in the global mass market, though not as hard as it might have been in the past."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "B": "原文未提及该头盔主要吸引老年人，属于无中生有。",
+                "C": "原文并未说明该头盔在全球获得非凡成功，属于夸大事实。",
+                "D": "原文未将该头盔与玻璃瓶进行比较，属于无中生有。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13950",
+          "type": 4,
+          "title": "Funding a smart invention",
+          "instructions": "Questions 38 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117443",
+              "number": 38,
+              "prompt": "Thirty years ago, the methods used by creators to fund their projects involved getting money from the bank or from someone in the _____. Banks today are still a useful source of finance, but investments may also be sought from corporate social responsibility' projects.",
+              "options": [],
+              "answer": "family",
+              "accepted_answers": [
+                "family"
+              ],
+              "analysis": "题干要求填写三十多年前创业者获取资金的来源之一。原文G段提到：‘he or she would have had to either raise a bank loan, borrow money from a family member or use a credit card’，其中‘family member’直接对应题干中的‘someone in the ___’。因此，正确答案为‘family’，指从家庭成员处借款。",
+              "reason": "题干'from someone in the $17443$'对应原文'borrow money from a family member'。",
+              "location_analysis": "原文明确提到从家庭成员借钱，因此填写family。",
+              "paraphrasing": "someone in the family -> borrow money from a family member",
+              "keywords": "borrow money, family member",
+              "evidence": [
+                "If an entrepreneur had wanted to fund a smart invention a few decades ago, he or she would have had to either raise a bank loan, borrow money from a family member or use a credit card."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117444",
+              "number": 39,
+              "prompt": "In order to get immediate funding, the method Ferrando took was to use a well-known _____ to advertise his product and request financial support. People who gave a certain figure or over were offered a free gift. In addition, Ferrando advised his donors that his company would create bottles in two colours, followed by a _____ bottle once they had received a more significant amount. In this way, Ferrando avoided debt and found out how many people might want his products before manufacturing them.",
+              "options": [],
+              "answer": "platform",
+              "accepted_answers": [
+                "platform"
+              ],
+              "analysis": "题干描述Ferrando为获得即时资金所采用的方法。原文G段指出：‘Ferrando posted details about his water-bottle venture on a large, recognised platform for funding creative projects’，其中‘a large, recognised platform’与题干中的‘a well-known ___’形成同义替换。因此，正确答案是‘platform’，指他使用的众筹平台。",
+              "reason": "题干'use a well-known $17444$'对应原文'a large, recognised platform'。",
+              "location_analysis": "原文指出Ferrando在知名平台上发布信息，所以是platform。",
+              "paraphrasing": "well-known platform -> a large, recognised platform",
+              "keywords": "large, recognised platform",
+              "evidence": [
+                "Ferrando posted details about his water-bottle venture on a large, recognised platform for funding creative projects."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117445",
+              "number": 40,
+              "prompt": "In order to get immediate funding, the method Ferrando took was to use a well-known _____ to advertise his product and request financial support. People who gave a certain figure or over were offered a free gift. In addition, Ferrando advised his donors that his company would create bottles in two colours, followed by a _____ bottle once they had received a more significant amount. In this way, Ferrando avoided debt and found out how many people might want his products before manufacturing them.",
+              "options": [],
+              "answer": "multicoloured",
+              "accepted_answers": [
+                "multicoloured"
+              ],
+              "analysis": "题干提到当筹款达到更高金额时会推出另一种颜色的瓶子。原文G段明确说明：‘If $60,000 was raised, a multicoloured one would be made’，其中‘multicoloured’直接对应题干中‘a ___ bottle’的空格。因此，正确答案为‘multicoloured’，符合‘ONE WORD ONLY’的要求。",
+              "reason": "题干'followed by a $17445$ bottle'对应原文'a multicoloured one'。",
+              "location_analysis": "原文明确说明当筹款达$60,000时生产multicoloured瓶子。",
+              "paraphrasing": "multicoloured bottle -> a multicoloured one would be made",
+              "keywords": "multicoloured",
+              "evidence": [
+                "If $60,000 was raised, a multicoloured one would be made."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "Thirty years ago, the methods used by creators to fund their projects involved getting money from the bank or from someone in the $117443$. Banks today are still a useful source of finance, but investments may also be sought from corporate social responsibility' projects.\nIn order to get immediate funding, the method Ferrando took was to use a well-known $117444$ to advertise his product and request financial support. People who gave a certain figure or over were offered a free gift. In addition, Ferrando advised his donors that his company would create bottles in two colours, followed by a $117445$ bottle once they had received a more significant amount. In this way, Ferrando avoided debt and found out how many people might want his products before manufacturing them.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Thirty years ago, the methods used by creators to fund their projects involved getting money from the bank or from someone in the $117443$. Banks today are still a useful source of finance, but investments may also be sought from corporate social responsibility' projects.\nIn order to get immediate funding, the method Ferrando took was to use a well-known $117444$ to advertise his product and request financial support. People who gave a certain figure or over were offered a free gift. In addition, Ferrando advised his donors that his company would create bottles in two colours, followed by a $117445$ bottle once they had received a more significant amount. In this way, Ferrando avoided debt and found out how many people might want his products before manufacturing them."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Plastic is no longer fantastic",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "28",
+          "translation": "28"
+        },
+        {
+          "index": 3,
+          "sentence": "In 2017, Carlos Ferrando, a Spanish engineer-turned-entrepreneur, saw a piece of art in a museum that profoundly affected him.",
+          "translation": "2017年，西班牙工程师转型企业家卡洛斯·费兰多在一家博物馆看到一件艺术作品，这深深触动了他。"
+        },
+        {
+          "index": 4,
+          "sentence": "\"What Lies Under\", a photographic composition by Indonesian digital artist Ferdi Rizkiyanto, shows a child crouching by the edge of the ocean and 'lifting up' a wave, to reveal a cluster of assorted plastic waste, from polyethylene bags to water bottles.",
+          "translation": "印尼数字艺术家费迪·里兹基亚托的摄影作品《表层之下》描绘了一个孩子蹲在海洋边缘，掀起一片海浪，露出从塑料袋到水瓶等各类塑料垃圾。"
+        },
+        {
+          "index": 5,
+          "sentence": "The artwork, designed to raise public awareness, left Ferrando angry - and fuelled with entrepreneurial ideas.",
+          "translation": "这件旨在提高公众意识的作品让费兰多感到愤怒，并激发了他的创业想法。"
+        },
+        {
+          "index": 6,
+          "sentence": "In 2017, Carlos Ferrando, a Spanish engineer-turned-entrepreneur, saw a piece of art in a museum that profoundly affected him.",
+          "translation": "2017年，卡洛斯·费兰多，一位西班牙工程师出身的创业者，在博物馆看到一件深深触动他的艺术品。"
+        },
+        {
+          "index": 7,
+          "sentence": "\"What Lies Under\", a photographic composition by Indonesian digital artist Ferdi Rizkiyanto, shows a child crouching by the edge of the ocean and 'lifting up' a wave, to reveal a cluster of assorted plastic waste, from polyethylene bags to water bottles.",
+          "translation": "印尼数字艺术家费迪·里兹基亚托的摄影作品《谎言之下的真相》展示了一个孩子蹲在海边，'掀起'海浪，露出一堆五花八门的塑料垃圾，从聚乙烯袋到水瓶。"
+        },
+        {
+          "index": 8,
+          "sentence": "The artwork, designed to raise public awareness, left Ferrando angry - and fuelled with entrepreneurial ideas.",
+          "translation": "这件旨在提高公众意识的艺术品让费兰多感到愤怒，并激发了他的创业想法。"
+        },
+        {
+          "index": 10,
+          "sentence": "Ferrando runs a Spanish-based design company, Closca, that produces an ingenious foldable bicycle helmet.",
+          "translation": "费兰多经营着一家总部位于西班牙的设计公司Closca，该公司生产一种巧妙的可折叠自行车头盔。"
+        },
+        {
+          "index": 11,
+          "sentence": "But he has now also designed a stylish glass water bottle with a stretchy silicone strap and magnetic closure mechanism that means it can be attached to almost anything, from a bike to a bag to a pushchair handle.",
+          "translation": "但他现在又设计了一款时尚的玻璃水瓶，配有弹性硅胶带和磁力闭合装置，这意味着它可以固定在几乎任何东西上，从自行车到包包再到婴儿车把手。"
+        },
+        {
+          "index": 12,
+          "sentence": "The product comes with an app that tells people where they can fill their bottles with water for free.",
+          "translation": "该产品附带一个应用程序，可以告诉人们在哪里可以免费为他们的瓶子装水。"
+        },
+        {
+          "index": 13,
+          "sentence": "29",
+          "translation": "29"
+        },
+        {
+          "index": 14,
+          "sentence": "Ferrando runs a Spanish-based design company, Closca, that produces an ingenious foldable bicycle helmet.",
+          "translation": "费兰多经营着一家总部位于西班牙的设计公司Closca，该公司生产一种巧妙的可折叠自行车头盔。"
+        },
+        {
+          "index": 15,
+          "sentence": "But he has now also designed a stylish glass water bottle with a stretchy silicone strap and magnetic closure mechanism that means it can be attached to almost anything, from a bike to a bag to a pushchair handle.",
+          "translation": "但他现在又设计了一款时尚的玻璃水瓶，配有一条可拉伸的硅胶带和磁性闭合机制，这意味着它可以附着在几乎任何东西上，从自行车到背包再到婴儿推车把手。"
+        },
+        {
+          "index": 16,
+          "sentence": "The product comes with an app that tells people where they can fill their bottles with water for free.",
+          "translation": "该产品附带一个应用程序，可以告诉人们在哪里可以免费为他们的瓶子装水。"
+        },
+        {
+          "index": 18,
+          "sentence": "The intention is to persuade people to stop buying water in plastic bottles, thus saving consumers money and reducing the plastic waste piling up in our oceans.",
+          "translation": "其意图是说服人们停止购买塑料瓶装水，从而为消费者省钱，并减少堆积在海洋中的塑料垃圾。"
+        },
+        {
+          "index": 19,
+          "sentence": "The intention is to persuade people to stop buying water in plastic bottles, thus saving consumers money and reducing the plastic waste piling up in our oceans.",
+          "translation": "其意图是说服人们停止购买塑料瓶装水，从而为消费者省钱并减少堆积在海洋中的塑料垃圾。"
+        },
+        {
+          "index": 20,
+          "sentence": "‘Bottled water is now a $100 billion business, and 81 percent of the bottles are not recycled.",
+          "translation": "“瓶装水现在是一个价值1000亿美元的产业，而81%的瓶子没有被回收。”"
+        },
+        {
+          "index": 21,
+          "sentence": "It's a complete waste - water is only 1.5 percent of the price of the bottle!' Ferrando cries.",
+          "translation": "这完全是浪费——水仅占瓶子价格的1.5%！”费兰多喊道。"
+        },
+        {
+          "index": 22,
+          "sentence": "indeed, environmentalists estimate that by 2050 there will be more plastic in our oceans than fish and that's mainly down to such bottles.",
+          "translation": "事实上，环保主义者估计，到2050年，海洋中的塑料将比鱼类还多，而这主要归咎于这类瓶子。"
+        },
+        {
+          "index": 23,
+          "sentence": "We are trying to create a sense that being environmentally sophisticated is a status symbol,' he adds.",
+          "translation": "“我们正试图营造一种观念，即环保意识强是一种身份象征，”他补充道。"
+        },
+        {
+          "index": 24,
+          "sentence": "'We want people to clip their bottles onto what they are wearing,to show that they are recycling - and to look cool.'",
+          "translation": "“我们希望人们把瓶子夹在穿着的东西上，以显示他们在回收——并且看起来很酷。”"
+        },
+        {
+          "index": 25,
+          "sentence": "The intention is to persuade people to stop buying water in plastic bottles, thus saving consumers money and reducing the plastic waste piling up in our oceans.",
+          "translation": "其意图是说服人们停止购买塑料瓶装水，从而为消费者节省开支，并减少堆积在海洋中的塑料垃圾。"
+        },
+        {
+          "index": 26,
+          "sentence": "‘Bottled water is now a $100 billion business, and 81 percent of the bottles are not recycled.",
+          "translation": "“瓶装水如今是一个价值1000亿美元的产业，而81%的瓶子未被回收利用。”"
+        },
+        {
+          "index": 27,
+          "sentence": "It's a complete waste - water is only 1.5 percent of the price of the bottle!' Ferrando cries.",
+          "translation": "这完全是浪费——水的成本仅占瓶子价格的1.5%！”费兰多感叹道。"
+        },
+        {
+          "index": 28,
+          "sentence": "indeed, environmentalists estimate that by 2050 there will be more plastic in our oceans than fish and that's mainly down to such bottles.",
+          "translation": "的确，环保人士估计，到2050年，海洋中的塑料将比鱼类还多，而这主要归因于此类瓶子。"
+        },
+        {
+          "index": 29,
+          "sentence": "We are trying to create a sense that being environmentally sophisticated is a status symbol,' he adds.",
+          "translation": "“我们正试图营造一种观念，即对环境问题有深刻认知是一种身份象征，”他补充道。"
+        },
+        {
+          "index": 30,
+          "sentence": "'We want people to clip their bottles onto what they are wearing, to show that they are recycling - and to look cool.'",
+          "translation": "“我们希望人们将瓶子夹在衣服上，以表明他们正在回收利用——并且看起来很酷。”"
+        },
+        {
+          "index": 32,
+          "sentence": "Ferrando's story is fascinating because it seems like an indicator of something unexpected.",
+          "translation": "费兰多的故事引人入胜，因为它似乎预示着某种出人意料的现象。"
+        },
+        {
+          "index": 33,
+          "sentence": "Three decades ago, conspicuous consumption - the purchase of luxuries, such as handbags, shoes, cars, etc. on a lavish scale - heightened people's social status.",
+          "translation": "三十年前，炫耀性消费 —— 即大手笔购买奢侈品，如手袋、鞋子、汽车等 —— 提升了人们的社会地位。"
+        },
+        {
+          "index": 34,
+          "sentence": "Indeed, the closing decades of the 20th century were a time when it seemed that anything could be turned into a commodity.",
+          "translation": "事实上，20世纪末的几十年里，似乎任何东西都可以被转化为商品。"
+        },
+        {
+          "index": 35,
+          "sentence": "Hence the fact that water became a consumer item, sold in plastic bottles, instead of just emerging, for free, from a tap.",
+          "translation": "因此，水成了一种消费品，装在塑料瓶中出售，而不是直接从水龙头中免费流出。"
+        },
+        {
+          "index": 36,
+          "sentence": "31",
+          "translation": "31"
+        },
+        {
+          "index": 37,
+          "sentence": "Ferrando's story is fascinating because it seems like an indicator of something unexpected.",
+          "translation": "费兰多的故事引人入胜，因为它似乎预示了一些出乎意料的事情。"
+        },
+        {
+          "index": 38,
+          "sentence": "Three decades ago, conspicuous consumption - the purchase of luxuries, such as handbags, shoes, cars, etc. on a lavish scale - heightened people's social status.",
+          "translation": "三十年前，炫耀性消费——即大手笔购买手提包、鞋子、汽车等奢侈品——提升了人们的社会地位。"
+        },
+        {
+          "index": 39,
+          "sentence": "Indeed, the closing decades of the 20th century were a time when it seemed that anything could be turned into a commodity.",
+          "translation": "事实上，20世纪末的几十年里，似乎任何东西都可以变成商品。"
+        },
+        {
+          "index": 40,
+          "sentence": "Hence the fact that water became a consumer item, sold in plastic bottles, instead of just emerging, for free, from a tap.",
+          "translation": "因此，水成了一种消费品，装在塑料瓶里出售，而不只是从水龙头里免费流出。"
+        },
+        {
+          "index": 41,
+          "sentence": "Today, though, conspicuous extravagance no longer seems desirable among consumers.",
+          "translation": "然而如今，炫耀性消费似乎不再受消费者青睐。"
+        },
+        {
+          "index": 42,
+          "sentence": "Now, recycling is fashionable - as is cycling rather than driving.",
+          "translation": "现在，回收利用成为一种时尚，骑自行车而非开车也同样如此。"
+        },
+        {
+          "index": 43,
+          "sentence": "Plastic water bottles have become so common that they do not command status; instead, what many millennials - young people born in the late 20th century - prefer to post on social media are 'real' (refillable) bottles or even the once widespread Thermos bottles.",
+          "translation": "塑料水瓶已变得如此普遍，以至于它们不再彰显地位；相反，许多千禧一代（出生于20世纪末的年轻人）更愿意在社交媒体上晒出的是“真正的”（可重复使用的）水瓶，甚至是曾经流行的保温瓶。"
+        },
+        {
+          "index": 44,
+          "sentence": "Some teenagers currently think that these stainless-steel vacuum-insulated water bottles that are coming back onto the market are ultra 'cool'; never mind the fact that they feel oddly out-of-date to anyone over the age of 40 or that teenagers in the 1970s would have avoided ever being seen with one.",
+          "translation": "一些青少年目前认为，这些重新回归市场的不锈钢真空保温水瓶非常“酷”；尽管对40岁以上的人来说它们感觉异常过时，而且20世纪70年代的青少年会避免被人看到使用这种水瓶，但这都无关紧要。"
+        },
+        {
+          "index": 45,
+          "sentence": "Today, though, conspicuous extravagance no longer seems desirable among consumers.",
+          "translation": "然而如今，炫富式的挥霍在消费者中似乎已不再受欢迎。"
+        },
+        {
+          "index": 46,
+          "sentence": "Now, recycling is fashionable - as is cycling rather than driving.",
+          "translation": "现在，回收利用变得时髦——正如骑自行车而非开车一样。"
+        },
+        {
+          "index": 47,
+          "sentence": "Plastic water bottles have become so common that they do not command status; instead, what many millennials - young people born in the late 20th century - prefer to post on social media are 'real' (refillable) bottles or even the once widespread Thermos bottles.",
+          "translation": "塑料水瓶已变得如此普遍，以至于不再象征地位；相反，许多千禧一代——即出生于20世纪末的年轻人——更喜欢在社交媒体上晒出“真正的”（可重复使用的）水瓶，甚至是曾经广泛流行的保温瓶。"
+        },
+        {
+          "index": 48,
+          "sentence": "Some teenagers currently think that these stainless-steel vacuum-insulated water bottles that are coming back onto the market are ultra 'cool'; never mind the fact that they feel oddly out-of-date to anyone over the age of 40 or that teenagers in the 1970s would have avoided ever being seen with one.",
+          "translation": "一些青少年目前认为，这些重新回到市场的不锈钢真空保温水瓶极其“酷”；尽管它们对于40岁以上的人来说显得过时得莫名其妙，而且20世纪70年代的青少年会尽量避免被人看到使用这种瓶子。"
+        },
+        {
+          "index": 49,
+          "sentence": "Today, though, conspicuous extravagance no longer seems desirable among consumers.",
+          "translation": "然而今天，炫耀性的奢侈消费在消费者中似乎不再受欢迎。"
+        },
+        {
+          "index": 50,
+          "sentence": "Now, recycling is fashionable - as is cycling rather than driving.",
+          "translation": "如今，回收利用很时髦——骑自行车而非开车也同样如此。"
+        },
+        {
+          "index": 51,
+          "sentence": "Plastic water bottles have become so common that they do not command status; instead,what many millennials - young people born in the late 20th century - prefer to post on social media are 'real'(refillable) bottles or even the once widespread Thermos bottles.",
+          "translation": "塑料水瓶已变得如此普遍，以至于它们不再象征社会地位；相反，许多千禧一代——出生于20世纪末的年轻人——更倾向于在社交媒体上发布的是‘真正的’（可重复使用的）水瓶，甚至是曾经广泛使用的保温瓶。"
+        },
+        {
+          "index": 52,
+          "sentence": "Some teenagers currently think that these stainless-steel vacuum-insulated water bottles that are coming back onto the market are ultra 'cool'; never mind the fact that they feel oddly out-of-date to anyone over the age of 40 or that teenagers in the 1970s would have avoided ever being seen with one.",
+          "translation": "一些青少年目前认为这些重新出现在市场上的不锈钢真空保温水瓶非常‘酷’；且不提它们对40岁以上的人来说显得异常过时，也不提20世纪70年代的青少年会避免被人看到拿着这种瓶子。"
+        },
+        {
+          "index": 53,
+          "sentence": "Today, though, conspicuous extravagance no longer seems desirable among consumers.",
+          "translation": "然而如今，炫耀性消费在消费者中似乎不再受欢迎。"
+        },
+        {
+          "index": 54,
+          "sentence": "Now, recycling is fashionable - as is cycling rather than driving.",
+          "translation": "如今，回收利用变得时髦——骑自行车而非开车也是如此。"
+        },
+        {
+          "index": 55,
+          "sentence": "Plastic water bottles have become so common that they do not command status; instead, what many millennials - young people born in the late 20th century - prefer to post on social media are 'real' (refillable) bottles or even the once widespread Thermos bottles.",
+          "translation": "塑料水瓶已变得如此普遍，以至于它们不再象征地位；相反，许多千禧一代——出生于20世纪末的年轻人——更倾向于在社交媒体上发布的是“真正的”（可重复使用的）水瓶，甚至是曾经广泛使用的保温瓶。"
+        },
+        {
+          "index": 56,
+          "sentence": "Some teenagers currently think that these stainless-steel vacuum-insulated water bottles that are coming back onto the market are ultra 'cool'; never mind the fact that they feel oddly out-of-date to anyone over the age of 40 or that teenagers in the 1970s would have avoided ever being seen with one.",
+          "translation": "一些青少年目前认为，这些重新上市的不锈钢真空保温水瓶极其“酷”；尽管它们对40岁以上的人来说感觉奇特而过时，且20世纪70年代的青少年会避之唯恐不及，不愿被人看到使用它们。"
+        },
+        {
+          "index": 58,
+          "sentence": "It is uncertain whether Closca will succeed in its goal.",
+          "translation": "克洛斯卡能否实现其目标尚不确定。"
+        },
+        {
+          "index": 59,
+          "sentence": "Although its foldable bike helmet is available in some outlets in New York, including the Museum of Modern Art, it can be very hard for any design entrepreneur to really take off in the global mass market, though not as hard as it might have been in the past.",
+          "translation": "尽管其可折叠自行车头盔在纽约的一些商店（包括现代艺术博物馆）有售，但对任何设计企业家来说，要在全球大众市场真正取得成功可能非常困难，尽管这并不像过去那样艰难。"
+        },
+        {
+          "index": 60,
+          "sentence": "If an entrepreneur had wanted to fund a smart invention a few decades ago, he or she would have had to either raise a bank loan, borrow money from a family member or use a credit card.",
+          "translation": "如果一位企业家几十年前想为一项巧妙的发明筹集资金，他或她要么需要获得银行贷款，要么向家人借钱，要么使用信用卡。"
+        },
+        {
+          "index": 61,
+          "sentence": "Things have moved on slightly since then.",
+          "translation": "自那时起，情况已略有进展。"
+        },
+        {
+          "index": 62,
+          "sentence": "Entrepreneurs are still using the last two options, but some are also tapping into the ever-growing pot of money that is becoming available in the management world for 'corporate social responsibility' (CSR) investments.",
+          "translation": "企业家们仍在使用后两种选择，但有些人也在利用管理界日益增长的、可用于“企业社会责任”（CSR）投资的资金池。"
+        },
+        {
+          "index": 63,
+          "sentence": "And then there are other options for those who wish to raise money straight away.",
+          "translation": "对于那些希望立即筹集资金的人来说，还有其他选择。"
+        },
+        {
+          "index": 64,
+          "sentence": "Ferrando posted details about his water-bottle venture on a large, recognised platform for funding creative projects.",
+          "translation": "费兰多在一个大型且公认的创意项目融资平台上发布了他关于水瓶创业的详细信息。"
+        },
+        {
+          "index": 65,
+          "sentence": "He appealed for people to donate $30,000 of seed money - the money he needed to get his project going - and promised to give a bottle to anyone who provided more than $39 in 'donations'.",
+          "translation": "他呼吁人们捐赠3万美元的种子资金——这是他启动项目所需的资金——并承诺向任何提供超过39美元“捐款”的人赠送一个水瓶。"
+        },
+        {
+          "index": 66,
+          "sentence": "If he received the funds, he stated that the company would produce bottles in grey and white; if $60,000 was raised, a multicoloured one would be made.",
+          "translation": "他声明，如果收到这笔资金，公司将生产灰色和白色的水瓶；如果筹集到6万美元，则还会生产一款彩色水瓶。"
+        },
+        {
+          "index": 67,
+          "sentence": "Using this approach, none of the donors has a stake in his idea, nor does he have any debt.",
+          "translation": "通过这种方式，捐赠者对他的创意没有任何股权，他也没有任何债务。"
+        },
+        {
+          "index": 68,
+          "sentence": "Instead, it is almost a pre-sale of the product, in a manner that tests demand in advance and creates a potential crowd of enthusiasts.",
+          "translation": "相反，这几乎是一种产品的预售方式，既能提前测试需求，又能培养潜在的爱好者群体。"
+        },
+        {
+          "index": 69,
+          "sentence": "This old-fashioned community funding with a digital twist is supporting a growing array of projects ranging from films to card games, videos, watches and so on.",
+          "translation": "这种带有数字化元素的古老社区筹资方式，正在支持从电影、纸牌游戏、视频到手表等日益增多的项目。"
+        },
+        {
+          "index": 70,
+          "sentence": "And, at last count, Closca had raised some $52,838 from 803 backers.",
+          "translation": "而且，根据最新统计，克洛斯卡已经从803位支持者那里筹集了约52,838美元。"
+        },
+        {
+          "index": 71,
+          "sentence": "Maybe, 20 years from now, it will be the plastic bottle that seems peculiarly old-fashioned.",
+          "translation": "或许，20年后，塑料水瓶反而会显得格外过时。"
+        },
+        {
+          "index": 72,
+          "sentence": "It is uncertain whether Closca will succeed in its goal.",
+          "translation": "Closca 能否实现其目标尚不确定。"
+        },
+        {
+          "index": 73,
+          "sentence": "Although its foldable bike helmet is available in some outlets in New York, including the Museum of Modern Art, it can be very hard for any design entrepreneur to really take off in the global mass market, though not as hard as it might have been in the past.",
+          "translation": "尽管其可折叠自行车头盔在纽约的一些零售店（包括现代艺术博物馆）有售，但任何设计企业家要在全球大众市场真正成功都非常困难，尽管这比过去可能容易一些。"
+        },
+        {
+          "index": 74,
+          "sentence": "If an entrepreneur had wanted to fund a smart invention a few decades ago, he or she would have had to either raise a bank loan, borrow money from a family member or use a credit card.",
+          "translation": "如果一位企业家几十年前想要资助一项巧妙的发明，他或她不得不要么获得银行贷款、向家人借钱，要么使用信用卡。"
+        },
+        {
+          "index": 75,
+          "sentence": "Things have moved on slightly since then.",
+          "translation": "自那时以来，情况已略有变化。"
+        },
+        {
+          "index": 76,
+          "sentence": "It is uncertain whether Closca will succeed in its goal.",
+          "translation": "克罗斯卡能否实现其目标尚不确定。"
+        },
+        {
+          "index": 77,
+          "sentence": "Although its foldable bike helmet is available in some outlets in New York, including the Museum of Modern Art, it can be very hard for any design entrepreneur to really take off in the global mass market, though not as hard as it might have been in the past.",
+          "translation": "尽管其可折叠自行车头盔在纽约的一些零售店有售，包括现代艺术博物馆，但任何设计企业家要想真正在全球大众市场取得成功仍然非常困难，尽管这没有过去那么难。"
+        },
+        {
+          "index": 78,
+          "sentence": "If an entrepreneur had wanted to fund a smart invention a few decades ago, he or she would have had to either raise a bank loan, borrow money from a family member or use a credit card.",
+          "translation": "如果几十年前一位企业家想要资助一项巧妙的发明，他或她要么必须获得银行贷款，要么向家人借钱，要么使用信用卡。"
+        },
+        {
+          "index": 79,
+          "sentence": "Things have moved on slightly since then.",
+          "translation": "自那时起，情况已略有变化。"
+        },
+        {
+          "index": 80,
+          "sentence": "Entrepreneurs are still using the last two options, but some are also tapping into the ever-growing pot of money that is becoming available in the management world for 'corporate social responsibility' (CSR) investments.",
+          "translation": "企业家们仍然在使用后两种选择，但有些人也在利用管理领域日益增长、用于‘企业社会责任’投资的资金池。"
+        },
+        {
+          "index": 81,
+          "sentence": "And then there are other options for those who wish to raise money straight away.",
+          "translation": "此外，对于那些希望立即筹集资金的人来说，还有其他选择。"
+        },
+        {
+          "index": 82,
+          "sentence": "Ferrando posted details about his water-bottle venture on a large, recognised platform for funding creative projects.",
+          "translation": "费兰多在一个大型且公认的创意项目融资平台上发布了关于他水瓶创业的详细信息。"
+        },
+        {
+          "index": 83,
+          "sentence": "He appealed for people to donate $30,000 of seed money - the money he needed to get his project going - and promised to give a bottle to anyone who provided more than $39 in 'donations'.",
+          "translation": "他呼吁人们捐赠3万美元的启动资金——这是他启动项目所需的资金——并承诺向任何提供超过39美元‘捐款’的人赠送一个水瓶。"
+        },
+        {
+          "index": 84,
+          "sentence": "If he received the funds, he stated that the company would produce bottles in grey and white; if $60,000 was raised, a multicoloured one would be made.",
+          "translation": "他声明，如果收到资金，公司将生产灰色和白色的瓶子；如果筹集到6万美元，则会制作一款彩色瓶子。"
+        },
+        {
+          "index": 85,
+          "sentence": "Using this approach, none of the donors has a stake in his idea, nor does he have any debt.",
+          "translation": "通过这种方式，捐赠者对他的创意没有任何股权，他也没有任何债务。"
+        },
+        {
+          "index": 86,
+          "sentence": "Instead, it is almost a pre-sale of the product, in a manner that tests demand in advance and creates a potential crowd of enthusiasts.",
+          "translation": "相反，这几乎是一种产品预售，以提前测试需求并创造潜在爱好者群体的方式进行。"
+        },
+        {
+          "index": 87,
+          "sentence": "This old-fashioned community funding with a digital twist is supporting a growing array of projects ranging from films to card games, videos, watches and so on.",
+          "translation": "这种带有数字化特色的传统社区筹资方式，正在支持从电影到纸牌游戏、视频、手表等越来越多的项目。"
+        },
+        {
+          "index": 88,
+          "sentence": "And, at last count, Closca had raised some $52,838 from 803 backers.",
+          "translation": "而且，根据最新统计，Closca已经从803位支持者那里筹集了约52,838美元。"
+        },
+        {
+          "index": 89,
+          "sentence": "Maybe, 20 years from now, it will be the plastic bottle that seems peculiarly old-fashioned.",
+          "translation": "也许，20年后，塑料瓶反而会显得格外过时。"
+        },
+        {
+          "index": 90,
+          "sentence": "Entrepreneurs are still using the last two options, but some are also tapping into the ever-growing pot of money that is becoming available in the management world for 'corporate social responsibility' (CSR) investments.",
+          "translation": "企业家们仍然在使用后两种方式，但有些人也在利用管理层中日益增长的、可用于‘企业社会责任’投资的资金池。"
+        },
+        {
+          "index": 91,
+          "sentence": "And then there are other options for those who wish to raise money straight away.",
+          "translation": "对于那些希望立即筹集资金的人来说，还有其他选择。"
+        },
+        {
+          "index": 92,
+          "sentence": "Ferrando posted details about his water-bottle venture on a large, recognised platform for funding creative projects.",
+          "translation": "费兰多在一个大型且公认的创意项目融资平台上发布了关于他水瓶创业的详细信息。"
+        },
+        {
+          "index": 93,
+          "sentence": "He appealed for people to donate $30,000 of seed money - the money he needed to get his project going - and promised to give a bottle to anyone who provided more than $39 in 'donations'.",
+          "translation": "他呼吁人们捐赠3万美元的启动资金——这是他启动项目所需的资金——并承诺向任何提供超过39美元‘捐款’的人赠送一个水瓶。"
+        },
+        {
+          "index": 94,
+          "sentence": "If he received the funds, he stated that the company would produce bottles in grey and white; if $60,000 was raised, a multicoloured one would be made.",
+          "translation": "如果他收到了这笔资金，他说明公司将会生产灰色和白色的水瓶；如果筹集到6万美元，则会生产彩色水瓶。"
+        },
+        {
+          "index": 95,
+          "sentence": "Using this approach, none of the donors has a stake in his idea, nor does he have any debt.",
+          "translation": "通过这种方法，没有任何捐赠者对他的想法拥有股权，他也没有任何债务。"
+        },
+        {
+          "index": 96,
+          "sentence": "Instead, it is almost a pre-sale of the product, in a manner that tests demand in advance and creates a potential crowd of enthusiasts.",
+          "translation": "相反，这几乎是一种产品的预售方式，可以提前测试需求并创造潜在的爱好者群体。"
+        },
+        {
+          "index": 97,
+          "sentence": "This old-fashioned community funding with a digital twist is supporting a growing array of projects ranging from films to card games, videos, watches and so on.",
+          "translation": "这种带有数字化特色的老式社区资金募集方式，正支持着从电影到卡牌游戏、视频、手表等越来越多的项目。"
+        },
+        {
+          "index": 98,
+          "sentence": "And, at last count, Closca had raised some $52,838 from 803 backers.",
+          "translation": "根据最新统计，Closca已经从803名支持者那里筹集了约52838美元。"
+        },
+        {
+          "index": 99,
+          "sentence": "Maybe, 20 years from now, it will be the plastic bottle that seems peculiarly old-fashioned.",
+          "translation": "也许20年后，塑料水瓶反而会显得格外过时。"
+        },
+        {
+          "index": 100,
+          "sentence": "Entrepreneurs are still using the last two options, but some are also tapping into the ever-growing pot of money that is becoming available in the management world for 'corporate social responsibility' (CSR) investments.",
+          "translation": "企业家们仍然在使用后两种选择，但有些人也在挖掘管理领域中日益增长的、可用于‘企业社会责任’投资的资金池。"
+        },
+        {
+          "index": 101,
+          "sentence": "And then there are other options for those who wish to raise money straight away.",
+          "translation": "此外，对于那些希望立即筹集资金的人来说，还有其他选择。"
+        },
+        {
+          "index": 102,
+          "sentence": "Ferrando posted details about his water-bottle venture on a large, recognised platform for funding creative projects.",
+          "translation": "费兰多在一个大型且公认的创意项目融资平台上发布了他水瓶创业项目的详细信息。"
+        },
+        {
+          "index": 103,
+          "sentence": "He appealed for people to donate $30,000 of seed money - the money he needed to get his project going - and promised to give a bottle to anyone who provided more than $39 in 'donations'.",
+          "translation": "他呼吁人们捐赠30,000美元的种子资金——这是启动他项目所需的资金——并承诺向任何提供超过39美元‘捐款’的人赠送一个水瓶。"
+        },
+        {
+          "index": 104,
+          "sentence": "If he received the funds, he stated that the company would produce bottles in grey and white; if $60,000 was raised, a multicoloured one would be made.",
+          "translation": "他声明，如果收到资金，公司将生产灰色和白色的水瓶；如果筹集到60,000美元，则会制造一款彩色的。"
+        },
+        {
+          "index": 105,
+          "sentence": "Using this approach, none of the donors has a stake in his idea, nor does he have any debt.",
+          "translation": "通过这种方式，捐赠者对他的想法没有任何股权，他也不承担任何债务。"
+        },
+        {
+          "index": 106,
+          "sentence": "Instead, it is almost a pre-sale of the product, in a manner that tests demand in advance and creates a potential crowd of enthusiasts.",
+          "translation": "相反，这几乎是一种产品的预售方式，既能提前测试需求，又能创造潜在的爱好者群体。"
+        },
+        {
+          "index": 107,
+          "sentence": "This old-fashioned community funding with a digital twist is supporting a growing array of projects ranging from films to card games, videos, watches and so on.",
+          "translation": "这种带有数字元素的传统社区资助方式正在支持越来越多的项目，从电影到纸牌游戏、视频、手表等。"
+        },
+        {
+          "index": 108,
+          "sentence": "And, at last count, Closca had raised some $52,838 from 803 backers.",
+          "translation": "并且，根据最新统计，Closca已经从803位支持者那里筹集了大约52,838美元。"
+        },
+        {
+          "index": 109,
+          "sentence": "Maybe, 20 years from now, it will be the plastic bottle that seems peculiarly old-fashioned.",
+          "translation": "也许，20年后，塑料瓶会显得格外过时。"
+        },
+        {
+          "index": 110,
+          "sentence": "Entrepreneurs are still using the last two options, but some are also tapping into the ever-growing pot of money that is becoming available in the management world for 'corporate social responsibility' (CSR) investments.",
+          "translation": "企业家们仍在采用后两种方式，但有些人也开始利用管理领域中日益增长的可用于“企业社会责任”（CSR）投资的资金池。"
+        },
+        {
+          "index": 111,
+          "sentence": "And then there are other options for those who wish to raise money straight away.",
+          "translation": "此外，对于那些希望立即筹集资金的人来说，还有其他选择。"
+        },
+        {
+          "index": 112,
+          "sentence": "Ferrando posted details about his water-bottle venture on a large, recognised platform for funding creative projects.",
+          "translation": "费兰多在一个大型、公认的创意项目融资平台上发布了关于他水瓶事业的详细信息。"
+        },
+        {
+          "index": 113,
+          "sentence": "He appealed for people to donate $30,000 of seed money - the money he needed to get his project going - and promised to give a bottle to anyone who provided more than $39 in 'donations'.",
+          "translation": "他呼吁人们捐赠30,000美元的种子资金——这是他启动项目所需的资金——并承诺向任何提供超过39美元“捐款”的人赠送一个水瓶。"
+        },
+        {
+          "index": 114,
+          "sentence": "If he received the funds, he stated that the company would produce bottles in grey and white; if $60,000 was raised, a multicoloured one would be made.",
+          "translation": "他表示，如果收到这笔资金，公司将生产灰色和白色的水瓶；如果筹集到60,000美元，则会制造彩色水瓶。"
+        },
+        {
+          "index": 115,
+          "sentence": "Using this approach, none of the donors has a stake in his idea, nor does he have any debt.",
+          "translation": "通过这种方式，捐赠者对他的创意没有任何股权，他也没有任何债务。"
+        },
+        {
+          "index": 116,
+          "sentence": "Instead, it is almost a pre-sale of the product, in a manner that tests demand in advance and creates a potential crowd of enthusiasts.",
+          "translation": "相反，这几乎是一种产品的预售方式，既能提前测试需求，又能创造潜在的爱好者群体。"
+        },
+        {
+          "index": 117,
+          "sentence": "This old-fashioned community funding with a digital twist is supporting a growing array of projects ranging from films to card games, videos, watches and so on.",
+          "translation": "这种带有数字化特色的传统社区资助方式正支持着越来越多的项目，涵盖电影、卡牌游戏、视频、手表等。"
+        },
+        {
+          "index": 118,
+          "sentence": "And, at last count, Closca had raised some $52,838 from 803 backers.",
+          "translation": "根据最新统计，Closca已从803位支持者那里筹集了约52,838美元。"
+        },
+        {
+          "index": 119,
+          "sentence": "Maybe, 20 years from now, it will be the plastic bottle that seems peculiarly old-fashioned.",
+          "translation": "也许20年后，塑料水瓶会显得格外过时。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

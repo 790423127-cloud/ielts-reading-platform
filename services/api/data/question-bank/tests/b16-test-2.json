@@ -1,0 +1,2860 @@
+{
+  "id": "b16-test-2",
+  "book": "剑雅16",
+  "book_number": 16,
+  "name": "Test 2",
+  "title": "剑雅16 Test 2",
+  "parts": [
+    {
+      "id": "1913",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "How to choose your builder",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Building a new home is a significant investment, and it's essential to find the right builder for the job.Before you look for a builder, it's important to develop a comprehensive budget and have clear plans.Once you have a design in mind, it is time to start narrowing down your builder shortlist, and this starts with assessing how qualified each builder is. In Australia, this means checking that the builder holds a residential building licence. Most states have their own building authority who you can contact to check a builder's licence.",
+          "translation": "建造新家是一项重大的投资，找到合适的建筑商来完成这项工作至关重要。\n在寻找建筑商之前，制定全面的预算和清晰的计划很重要。\n一旦你心中有了设计，就该开始缩小建筑商的候选名单，而这首先要评估每位建筑商的资质。\n在澳大利亚，这意味着要检查建筑商是否持有住宅建筑许可证。\n大多数州都有自己的建筑管理机构，你可以联系他们来核实建筑商的许可证。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "You can also check if the builder is a member of an industry association such as the Housing industry Association (HIA), and whether they have won any industry awards. For instance, the HIA runs a state and national awards programme, with a category that recognises the level of customer service that a builder delivers.",
+          "translation": "您还可以检查建筑商是否是行业协会（例如住房行业协会（HIA））的成员，以及他们是否获得过行业奖项。\n例如，HIA 运营着一个州级和全国性的奖项计划，其中设有专门表彰建筑商所提供的客户服务水平的类别。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Most experts agree that display homes (homes constructed by the builder that are open to the public) offer a great opportunity to study their work up close. Display homes are usually offered by major project builders who work on a large scale and can deliver good quality and value.You can also talk to the salesperson and find out about the home design and what is and isn't included in the sale price. And it may be possible to talk to other customers you meet there and ask their opinion of the workmanship in the display home.",
+          "translation": "大多数专家认为，展示房（由建筑商建造并向公众开放的房屋）提供了近距离研究其工作的绝佳机会。\n展示房通常由大规模作业、能提供优良品质和性价比的大型项目建筑商提供。\n你还可以与销售人员交谈，了解房屋设计以及售价中包含和不包含的内容。\n而且，你有可能与在那里遇到的其他顾客交谈，询问他们对展示房工艺的看法。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Finally, avoid signing any business contract before you have read and understood it thoroughly. Ask your builder to use a standard building contract that has been designed to comply with the Domestic Building Contracts Act, and to be fair to both client and builder. You have five business days within which you may withdraw from the contract after signing it.",
+          "translation": "最后，在彻底阅读并理解合同之前，避免签署任何商业合同。\n要求你的建筑商使用一份符合《国内建筑合同法》且对客户和建筑商都公平的标准建筑合同。\n签署合同后，你有五个工作日的时间可以退出合同。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Island adventure activities",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "岛屿冒险活动"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "A Rib riding",
+          "translation": "A 橡皮艇骑行"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Conquer stormy seas on a high-speed ride in an RIB (Rigid Inflatable Boat). These powerful boats cut through choppy waters with ease. You'll need to hold on tight as the boat bounces across the wake of awesome cruise liners in one of the world's busiest shipping lanes.",
+          "translation": "乘坐刚性充气艇（RIB）高速航行，征服波涛汹涌的海面。\n这些动力强劲的船只轻松穿过多风浪的水域。\n当船只颠簸着穿过世界上最繁忙航道之一的壮观邮轮船尾浪时，你必须紧紧抓住。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "B Horse riding",
+          "translation": "B 骑马"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Experience the thrill of riding on horseback along peaceful country lanes and secluded bridleways with the help of expert guides. Even a novice can quickly take the reins and feel the thrill of riding one of nature's most magnificent beasts.",
+          "translation": "在专业导游的帮助下，体验沿着宁静的乡间小路和隐蔽的马道骑马的刺激感。\n即使是新手也能迅速掌握缰绳，感受到驾驭自然界最雄伟生物之一的兴奋。\n在专业向导的帮助下，体验沿着宁静的乡间小路和幽静的马道骑马的刺激。\n即使是新手也能很快掌握缰绳，感受骑乘大自然最壮丽动物之一的兴奋。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "C Kayaking",
+          "translation": "C 皮划艇"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Test your kayak nerves paddling around a deserted military fort built on a rocky outcrop out at sea, then explore the island's busy harbours before gliding back to dry land where a hot shower and a cup of tea await.",
+          "translation": "测试你的皮划艇胆量，划行围绕一座建在海中岩石露头上的废弃军事堡垒，然后探索岛屿繁忙的港口，最后滑行回到陆地，那里有热水淋浴和一杯茶在等着你。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "D Cycling",
+          "translation": "D 骑自行车"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Test your endurance on the famous Round the Island Cycle Route.Grit your teeth and tackle the brutal hills in the south of the island, or for something less challenging, discover our car-free cycle tracks on former railway lines.",
+          "translation": "在著名的环岛自行车赛道上测试您的耐力。\n咬紧牙关，应对岛屿南部陡峭的山丘，或者选择挑战性较低的活动，探索我们在前铁路线路上修建的无车自行车道。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "E Segway riding",
+          "translation": "E 赛格威骑行"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Have you got what it takes to master a Segway? In theory, these quirky electric machines are simple to control, with users leaning forwards to go faster and back to slow down. In reality, you'll need some practice before you can master the skill and glide around the island.",
+          "translation": "你有能力掌握一辆赛格威吗？\n理论上，这些奇特的电动设备操作简单，用户向前倾斜可以加速，向后倾斜则减速。\n实际上，你需要一些练习才能掌握技巧，并在岛上平稳滑行。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "F Tree climbing",
+          "translation": "F 爬树"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "A climb into the canopy of a 25-metre oak tree is an amazing experience.",
+          "translation": "爬到一棵25米高的橡树的树冠上是一次令人惊叹的体验。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Supported by a rope and harness, you can stand on branches no bigger than your wrist, and swing out between the boughs, or simply take the opportunity to lie in a tree-top hammock and absorb the stunning bird's eye views.",
+          "translation": "借助绳索和安全带的支撑，你可以站在比手腕还细的树枝上，在枝干间荡来荡去，或者干脆躺在树顶吊床上，尽情欣赏令人叹为观止的鸟瞰景色。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "G Coasteering",
+          "translation": "G 海岸攀岩探险"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "Tackle the spectacular coast in the north of the island.Scrabble over the rocks around cliff edges as the waves crash around you, dive through submerged caves and emerge onto a beach once used by smugglers.This is a thrilling experience, but not an adventure to attempt alone.",
+          "translation": "挑战岛屿北部壮丽的海岸线。\n在浪花拍打你的四周时，攀爬悬崖边缘的岩石，潜入水下洞穴，然后出现在曾被走私者使用的海滩上。\n这是一次激动人心的体验，但不应独自尝试这种冒险。"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "H Mountain boarding",
+          "translation": "H 山地滑板"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "First developed as an off-season alternative to winter sports and now a sport in its own right, mountain boarding has the speed of snowboarding but with a harder landing when you fall. After a bit of practice and a few bruises, you'll learn to control the ride and can join the few people who can call themselves mountain boarders.",
+          "translation": "山地滑板最初作为冬季运动的非赛季替代品而开发，现在已成为一项独立的运动，它拥有单板滑雪的速度，但摔倒时着陆更硬。\n经过一点练习和几处瘀伤后，你将学会控制滑行，并能够加入少数自称为山地滑板者的人群。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13956",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1 - 7\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117446",
+              "number": 1,
+              "prompt": "After selecting a builder, you should decide on the design of your new house.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称‘选定建筑商后再决定房屋设计’，但原文段落A明确指出‘在寻找建筑商之前，应先制定全面预算并拥有清晰的设计方案’（Before you look for a builder, it's important to develop a comprehensive budget and have clear plans）。两者顺序完全相反，因此该陈述与原文矛盾，答案为FALSE。",
+              "reason": "题干与原文顺序矛盾，答案为 FALSE。",
+              "location_analysis": "题干说选好 builder 再决定设计；原文说找 builder 前先做好预算和设计。顺序相反...",
+              "paraphrasing": "after selecting builder → before you look for a builder; decide design → develop clear plans",
+              "keywords": "select builder, decide design",
+              "evidence": [
+                "Before you look for a builder, it's important to develop a comprehensive budget and have clear plans."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，因为设计通常在选择建造商之前确定。",
+                "NOT GIVEN": "原文明确提及了选择顺序，并非未提及。"
+              }
+            },
+            {
+              "id": "117448",
+              "number": 2,
+              "prompt": "In Australia, you can make sure that a builder has the appropriate licence.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干询问是否可在澳大利亚确认建筑商持有合适执照。原文段落A明确说明‘在澳大利亚，这意味着要检查建筑商是否持有住宅建筑执照’（checking that the builder holds a residential building licence），并通过各州建筑主管部门可核实。因此题干信息与原文一致，答案为TRUE。",
+              "reason": "题干与原文一致。",
+              "location_analysis": "原文明确指出在澳洲可检查 builder 是否持有住宅建筑执照。题干与此一致。",
+              "paraphrasing": "make sure → checking; appropriate licence → holds a residential building licence",
+              "keywords": "Australia, builder, licence",
+              "evidence": [
+                "In Australia, this means checking that the builder holds a residential building licence."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文信息矛盾，原文明确给出了可以确保建筑商有许可证的方法。",
+                "NOT GIVEN": "原文明确提到了确保建筑商有许可证的方式，并非未提及。"
+              }
+            },
+            {
+              "id": "117450",
+              "number": 3,
+              "prompt": "The best builders usually belong to the Housing Industry Association.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干声称‘最好的建筑商通常属于住房行业协会（HIA）’，但原文段落B仅提到‘可以查看建筑商是否为HIA等行业协会成员’，并未将‘最佳建筑商’与HIA会员身份建立必然联系，也未暗示HIA成员即代表最高水平。因此文中无此信息，答案为NOT GIVEN。",
+              "reason": "原文无信息支持'best builders'与HIA的关联。",
+              "location_analysis": "原文只说可查builder是否HIA成员，未说最佳builder属于HIA，选NOT GIVEN。",
+              "paraphrasing": "best builders -> 无对应; belong to -> member of",
+              "keywords": "best builders, Housing Industry Association",
+              "evidence": [
+                "You can also check if the builder is a member of an industry association such as the Housing industry Association (HIA), and whether they have won any industry awards."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及最佳建筑商与住宅产业协会的从属关系，属于无中生有。",
+                "FALSE": "原文未提供任何信息证明该说法错误，属于无中生有。"
+              }
+            },
+            {
+              "id": "117452",
+              "number": 4,
+              "prompt": "The HIA gives an award to builders whose standards of customer service arevery high.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干提到HIA会表彰客户服务标准极高的建筑商。原文段落B明确指出‘HIA举办州级和国家级奖项计划，其中设有专门类别以认可建筑商提供的客户服务水平’（recognises the level of customer service that a builder delivers）。这与题干描述完全对应，因此答案为TRUE。",
+              "reason": "题干与原文一致。",
+              "location_analysis": "原文明确 HIA 有奖项类别认可 builder 的客户服务水平。题干描述一致。",
+              "paraphrasing": "standards of customer service are very high → recognises the level of customer service that a builder delivers",
+              "keywords": "HIA, award, customer service",
+              "evidence": [
+                "For instance, the HIA runs a state and national awards programme, with a category that recognises the level of customer service that a builder delivers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到HIA给客户服务标准很高的建筑商颁奖，因此该选项与原文矛盾。",
+                "NOT GIVEN": "原文中明确给出了关于该颁奖的信息，因此并非未提及。"
+              }
+            },
+            {
+              "id": "117454",
+              "number": 5,
+              "prompt": "Builders who work on smaller projects are more likely to have display homes.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干认为从事小型项目的建筑商更可能有展示房，但原文段落C明确说明‘展示房通常由大规模作业的大型项目建筑商提供’（Display homes are usually offered by major project builders who work on a large scale），暗示小型项目建筑商反而较少提供。因此题干与原文矛盾，答案为FALSE。",
+              "reason": "原文明确展示房来自大规模建筑商。",
+              "location_analysis": "原文说展示房通常由大型项目建筑商提供，而非小型，题述矛盾，选FALSE。",
+              "paraphrasing": "builders who work on smaller projects -> major project builders who work on a large scale",
+              "keywords": "display homes, smaller projects",
+              "evidence": [
+                "Display homes are usually offered by major project builders who work on a large scale"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文明确否定了这一说法，与原文内容矛盾。",
+                "NOT GIVEN": "原文有明确信息表明该说法错误，并非未提及。"
+              }
+            },
+            {
+              "id": "117456",
+              "number": 6,
+              "prompt": "lt is advisable to have a contract which is in accordance with the Domestic Building Contracts Act.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干建议使用符合《住宅建筑合同法》的合同。原文段落D直接建议‘要求建筑商用符合《住宅建筑合同法》的标准建筑合同’（use a standard building contract that has been designed to comply with the Domestic Building Contracts Act）。两者表述一致，因此答案为TRUE。",
+              "reason": "原文直接建议符合法案的合同。",
+              "location_analysis": "原文建议使用符合该法案的合同，题述建议一致，选TRUE。",
+              "paraphrasing": "in accordance with -> comply with",
+              "keywords": "contract, Domestic Building Contracts Act",
+              "evidence": [
+                "Ask your builder to use a standard building contract that has been designed to comply with the Domestic Building Contracts Act"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确建议合同应符合该法案，与选项矛盾。",
+                "NOT GIVEN": "原文已明确提及建议合同应符合该法案，并非未提及。"
+              }
+            },
+            {
+              "id": "117459",
+              "number": 7,
+              "prompt": "A contract is legally binding from the time it has been signed.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称合同一经签署即具法律约束力，但原文段落D明确指出‘签署后有五个工作日可撤销合同’（You have five business days within which you may withdraw from the contract after signing it），说明签署并不立即产生不可撤销的法律效力。因此题干与原文矛盾，答案为FALSE。",
+              "reason": "签署后可退出，与题干“签署即具法律约束力”矛盾。",
+              "location_analysis": "原文说签署后有五个工作日可退出合同，说明并非签署即具约束力。题干相反。",
+              "paraphrasing": "legally binding → may withdraw from the contract after signing it",
+              "keywords": "contract, legally binding, signed",
+              "evidence": [
+                "You have five business days within which you may withdraw from the contract after signing it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，合同并非从签署时即具有法律约束力。",
+                "NOT GIVEN": "原文明确否定了该说法，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "13972",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 8 - 14\nLook at the eight advertisements for adventure sports on an island, A-H.\nFor which adventure sport are the following statements true?\nWrite the correct letter, A-H, in boxes 8-14 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "119822",
+              "number": 8,
+              "prompt": "You will be provided with safety equipment.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干询问哪项活动会提供安全装备。原文F段（树攀）提到参与者‘由绳索和安全带支撑’（Supported by a rope and harness），这两者属于典型的安全设备，直接对应题干中的‘safety equipment’，因此答案为F。",
+              "reason": "rope和harness即为safety equipment。",
+              "location_analysis": "原文F段明确提供rope和harness作为安全装备，选F。",
+              "paraphrasing": "safety equipment -> Supported by a rope and harness",
+              "keywords": "safety equipment, F",
+              "evidence": [
+                "Supported by a rope and harness, you can stand on branches no bigger than your wrist"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119823",
+              "number": 9,
+              "prompt": "You may get some minor injuries doing this activity.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "题干问哪项活动可能导致轻微受伤。原文H段（山地滑板）提到‘经过一些练习和几处瘀伤后，你才能掌控骑行’（After a bit of practice and a few bruises），其中‘bruises’（瘀伤）即为minor injuries（轻微伤害）的同义表达，因此答案为H。",
+              "reason": "bruises对应题目minor injuries。",
+              "location_analysis": "原文H段提到a few bruises（瘀伤）即minor injuries，选H。",
+              "paraphrasing": "minor injuries -> a few bruises",
+              "keywords": "minor injuries, H",
+              "evidence": [
+                "After a bit of practice and a few bruises, you'll learn to control the ride"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119824",
+              "number": 10,
+              "prompt": "You can see a disused, isolated building.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出能看到废弃孤立建筑的活动。原文C段（皮划艇）描述‘绕着海上岩石上的废弃军事堡垒划行’（paddling around a deserted military fort built on a rocky outcrop out at sea），‘deserted military fort’正符合‘disused, isolated building’的定义，因此答案为C。",
+              "reason": "deserted military fort吻合disused isolated building。",
+              "location_analysis": "原文C段提到deserted military fort（废弃军事堡垒），即孤立废弃建筑，选C。",
+              "paraphrasing": "disused, isolated building -> deserted military fort",
+              "keywords": "disused, isolated building, C",
+              "evidence": [
+                "Test your kayak nerves paddling around a deserted military fort built on a rocky outcrop out at sea"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119825",
+              "number": 11,
+              "prompt": "You can relax and look down from above in an unusual location.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干描述‘在不寻常地点放松并俯瞰下方’。原文F段（树攀）提到可‘躺在树顶吊床中，欣赏壮观的鸟瞰景色’（lie in a tree-top hammock and absorb the stunning bird's eye views），‘relax’对应‘lie in a hammock’，‘look down from above’对应‘bird's eye views’，地点也属非常规，因此答案为F。",
+              "reason": "lie in a hammock表relax，bird's eye views表俯瞰。",
+              "location_analysis": "原文F段可躺在树顶吊床看鸟瞰美景，选F。",
+              "paraphrasing": "relax -> lie in a hammock; look down from above -> bird's eye views",
+              "keywords": "relax, look down from above, F",
+              "evidence": [
+                "lie in a tree-top hammock and absorb the stunning bird's eye views."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119826",
+              "number": 12,
+              "prompt": "You will take an exciting trip in rough water close to big ships.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干指‘在靠近大船的汹涌水域中进行刺激航行’。原文A段（RIB快艇）描述‘在世界上最繁忙航道之一，穿越巨型邮轮尾流’（bounces across the wake of awesome cruise liners in one of the world's busiest shipping lanes），‘choppy waters’对应‘rough water’，‘cruise liners’即‘big ships’，因此答案为A。",
+              "reason": "cruise liners即big ships，航路有choppy waters。",
+              "location_analysis": "原文A段在繁忙航道中穿越邮轮尾流，对应rough water和big ships，选A。",
+              "paraphrasing": "rough water -> choppy waters; close to big ships -> across the wake of cruise liners",
+              "keywords": "rough water, big ships, A",
+              "evidence": [
+                "as the boat bounces across the wake of awesome cruise liners in one of the world's busiest shipping lanes."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119827",
+              "number": 13,
+              "prompt": "You can choose easy options or more difficult ones.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问哪项活动提供难易不同的选择。原文D段（骑行）明确对比‘挑战南部险峻山丘’与‘选择前铁路线上的无车平缓车道’（tackle the brutal hills... or for something less challenging, discover our car-free cycle tracks），直接体现难度分级，因此答案为D。",
+              "reason": "选项包含困难与简单路径。",
+              "location_analysis": "D段有“brutal hills”与“car-free cycle tracks on for...",
+              "paraphrasing": "easy → something less challenging; difficult → brutal hills",
+              "keywords": "easy options, more difficult ones",
+              "evidence": [
+                "Grit your teeth and tackle the brutal hills in the south of the island, or for something less challenging, discover our car-free cycle tracks on former railway lines."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "119828",
+              "number": 14,
+              "prompt": "You may find this more difficult than you expect.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干称某活动‘可能比预期更难’。原文E段（赛格威骑行）指出‘理论上这些电动装置易于控制，但实际上需要练习才能掌握技能’（In theory... simple to control... In reality, you'll need some practice before you can master the skill），明确表达实际难度高于预期，因此答案为E。",
+              "reason": "原文指出实际困难",
+              "location_analysis": "E段说理论上简单但实际上需练习才能掌握，对应题干“比想象的难”，故选E",
+              "paraphrasing": "more difficult than you expect -> In reality, you'll need some practice before you can master the skill",
+              "keywords": "more difficult than you expect",
+              "evidence": [
+                "In reality, you'll need some practice before you can master the skill and glide around the island."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Island adventure activities",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Island adventure activities",
+          "translation": "岛屿冒险活动"
+        },
+        {
+          "index": 2,
+          "sentence": "Building a new home is a significant investment, and it's essential to find the right builder for the job.",
+          "translation": "建造新家是一项重大的投资，找到合适的建筑商来完成这项工作至关重要。"
+        },
+        {
+          "index": 3,
+          "sentence": "Before you look for a builder, it's important to develop a comprehensive budget and have clear plans.",
+          "translation": "在寻找建筑商之前，制定全面的预算和清晰的计划很重要。"
+        },
+        {
+          "index": 4,
+          "sentence": "Once you have a design in mind, it is time to start narrowing down your builder shortlist, and this starts with assessing how qualified each builder is.",
+          "translation": "一旦你心中有了设计，就该开始缩小建筑商的候选名单，而这首先要评估每位建筑商的资质。"
+        },
+        {
+          "index": 5,
+          "sentence": "In Australia, this means checking that the builder holds a residential building licence.",
+          "translation": "在澳大利亚，这意味着要检查建筑商是否持有住宅建筑许可证。"
+        },
+        {
+          "index": 6,
+          "sentence": "Most states have their own building authority who you can contact to check a builder's licence.",
+          "translation": "大多数州都有自己的建筑管理机构，你可以联系他们来核实建筑商的许可证。"
+        },
+        {
+          "index": 7,
+          "sentence": "B Horse riding",
+          "translation": "B 骑马"
+        },
+        {
+          "index": 8,
+          "sentence": "Experience the thrill of riding on horseback along peaceful country lanes and secluded bridleways with the help of expert guides.",
+          "translation": "在专业导游的帮助下，体验沿着宁静的乡间小路和隐蔽的马道骑马的刺激感。"
+        },
+        {
+          "index": 9,
+          "sentence": "Even a novice can quickly take the reins and feel the thrill of riding one of nature's most magnificent beasts.",
+          "translation": "即使是新手也能迅速掌握缰绳，感受到驾驭自然界最雄伟生物之一的兴奋。"
+        },
+        {
+          "index": 10,
+          "sentence": "You can also check if the builder is a member of an industry association such as the Housing industry Association (HIA), and whether they have won any industry awards.",
+          "translation": "您还可以检查建筑商是否是行业协会（例如住房行业协会（HIA））的成员，以及他们是否获得过行业奖项。"
+        },
+        {
+          "index": 11,
+          "sentence": "For instance, the HIA runs a state and national awards programme, with a category that recognises the level of customer service that a builder delivers.",
+          "translation": "例如，HIA 运营着一个州级和全国性的奖项计划，其中设有专门表彰建筑商所提供的客户服务水平的类别。"
+        },
+        {
+          "index": 13,
+          "sentence": "Most experts agree that display homes (homes constructed by the builder that are open to the public) offer a great opportunity to study their work up close.",
+          "translation": "大多数专家认为，展示房（由建筑商建造并向公众开放的房屋）提供了近距离研究其工作的绝佳机会。"
+        },
+        {
+          "index": 14,
+          "sentence": "Display homes are usually offered by major project builders who work on a large scale and can deliver good quality and value.",
+          "translation": "展示房通常由大规模作业、能提供优良品质和性价比的大型项目建筑商提供。"
+        },
+        {
+          "index": 15,
+          "sentence": "You can also talk to the salesperson and find out about the home design and what is and isn't included in the sale price.",
+          "translation": "你还可以与销售人员交谈，了解房屋设计以及售价中包含和不包含的内容。"
+        },
+        {
+          "index": 16,
+          "sentence": "And it may be possible to talk to other customers you meet there and ask their opinion of the workmanship in the display home.",
+          "translation": "而且，你有可能与在那里遇到的其他顾客交谈，询问他们对展示房工艺的看法。"
+        },
+        {
+          "index": 18,
+          "sentence": "Finally, avoid signing any business contract before you have read and understood it thoroughly.",
+          "translation": "最后，在彻底阅读并理解合同之前，避免签署任何商业合同。"
+        },
+        {
+          "index": 19,
+          "sentence": "Ask your builder to use a standard building contract that has been designed to comply with the Domestic Building Contracts Act, and to be fair to both client and builder.",
+          "translation": "要求你的建筑商使用一份符合《国内建筑合同法》且对客户和建筑商都公平的标准建筑合同。"
+        },
+        {
+          "index": 20,
+          "sentence": "You have five business days within which you may withdraw from the contract after signing it.",
+          "translation": "签署合同后，你有五个工作日的时间可以退出合同。"
+        },
+        {
+          "index": 21,
+          "sentence": "Island adventure activities",
+          "translation": "岛屿冒险活动"
+        },
+        {
+          "index": 22,
+          "sentence": "A Rib riding",
+          "translation": "A 橡皮艇骑行"
+        },
+        {
+          "index": 23,
+          "sentence": "Conquer stormy seas on a high-speed ride in an RIB (Rigid Inflatable Boat).",
+          "translation": "乘坐刚性充气艇（RIB）高速航行，征服波涛汹涌的海面。"
+        },
+        {
+          "index": 24,
+          "sentence": "These powerful boats cut through choppy waters with ease.",
+          "translation": "这些动力强劲的船只轻松穿过多风浪的水域。"
+        },
+        {
+          "index": 25,
+          "sentence": "You'll need to hold on tight as the boat bounces across the wake of awesome cruise liners in one of the world's busiest shipping lanes.",
+          "translation": "当船只颠簸着穿过世界上最繁忙航道之一的壮观邮轮船尾浪时，你必须紧紧抓住。"
+        },
+        {
+          "index": 26,
+          "sentence": "B Horse riding",
+          "translation": "B 骑马"
+        },
+        {
+          "index": 27,
+          "sentence": "Experience the thrill of riding on horseback along peaceful country lanes and secluded bridleways with the help of expert guides.",
+          "translation": "在专业向导的帮助下，体验沿着宁静的乡间小路和幽静的马道骑马的刺激。"
+        },
+        {
+          "index": 28,
+          "sentence": "Even a novice can quickly take the reins and feel the thrill of riding one of nature's most magnificent beasts.",
+          "translation": "即使是新手也能很快掌握缰绳，感受骑乘大自然最壮丽动物之一的兴奋。"
+        },
+        {
+          "index": 29,
+          "sentence": "C Kayaking",
+          "translation": "C 皮划艇"
+        },
+        {
+          "index": 30,
+          "sentence": "Test your kayak nerves paddling around a deserted military fort built on a rocky outcrop out at sea, then explore the island's busy harbours before gliding back to dry land where a hot shower and a cup of tea await.",
+          "translation": "测试你的皮划艇胆量，划行围绕一座建在海中岩石露头上的废弃军事堡垒，然后探索岛屿繁忙的港口，最后滑行回到陆地，那里有热水淋浴和一杯茶在等着你。"
+        },
+        {
+          "index": 31,
+          "sentence": "D Cycling",
+          "translation": "D 骑自行车"
+        },
+        {
+          "index": 32,
+          "sentence": "Test your endurance on the famous Round the Island Cycle Route.",
+          "translation": "在著名的环岛自行车赛道上测试您的耐力。"
+        },
+        {
+          "index": 33,
+          "sentence": "Grit your teeth and tackle the brutal hills in the south of the island, or for something less challenging, discover our car-free cycle tracks on former railway lines.",
+          "translation": "咬紧牙关，应对岛屿南部陡峭的山丘，或者选择挑战性较低的活动，探索我们在前铁路线路上修建的无车自行车道。"
+        },
+        {
+          "index": 34,
+          "sentence": "E Segway riding",
+          "translation": "E 赛格威骑行"
+        },
+        {
+          "index": 35,
+          "sentence": "Have you got what it takes to master a Segway?",
+          "translation": "你有能力掌握一辆赛格威吗？"
+        },
+        {
+          "index": 36,
+          "sentence": "In theory, these quirky electric machines are simple to control, with users leaning forwards to go faster and back to slow down.",
+          "translation": "理论上，这些奇特的电动设备操作简单，用户向前倾斜可以加速，向后倾斜则减速。"
+        },
+        {
+          "index": 37,
+          "sentence": "In reality, you'll need some practice before you can master the skill and glide around the island.",
+          "translation": "实际上，你需要一些练习才能掌握技巧，并在岛上平稳滑行。"
+        },
+        {
+          "index": 38,
+          "sentence": "F Tree climbing",
+          "translation": "F 爬树"
+        },
+        {
+          "index": 39,
+          "sentence": "A climb into the canopy of a 25-metre oak tree is an amazing experience.",
+          "translation": "爬到一棵25米高的橡树的树冠上是一次令人惊叹的体验。"
+        },
+        {
+          "index": 40,
+          "sentence": "Supported by a rope and harness, you can stand on branches no bigger than your wrist, and swing out between the boughs, or simply take the opportunity to lie in a tree-top hammock and absorb the stunning bird's eye views.",
+          "translation": "借助绳索和安全带的支撑，你可以站在比手腕还细的树枝上，在枝干间荡来荡去，或者干脆躺在树顶吊床上，尽情欣赏令人叹为观止的鸟瞰景色。"
+        },
+        {
+          "index": 41,
+          "sentence": "G Coasteering",
+          "translation": "G 海岸攀岩探险"
+        },
+        {
+          "index": 42,
+          "sentence": "Tackle the spectacular coast in the north of the island.",
+          "translation": "挑战岛屿北部壮丽的海岸线。"
+        },
+        {
+          "index": 43,
+          "sentence": "Scrabble over the rocks around cliff edges as the waves crash around you, dive through submerged caves and emerge onto a beach once used by smugglers.",
+          "translation": "在浪花拍打你的四周时，攀爬悬崖边缘的岩石，潜入水下洞穴，然后出现在曾被走私者使用的海滩上。"
+        },
+        {
+          "index": 44,
+          "sentence": "This is a thrilling experience, but not an adventure to attempt alone.",
+          "translation": "这是一次激动人心的体验，但不应独自尝试这种冒险。"
+        },
+        {
+          "index": 45,
+          "sentence": "H Mountain boarding",
+          "translation": "H 山地滑板"
+        },
+        {
+          "index": 46,
+          "sentence": "First developed as an off-season alternative to winter sports and now a sport in its own right, mountain boarding has the speed of snowboarding but with a harder landing when you fall.",
+          "translation": "山地滑板最初作为冬季运动的非赛季替代品而开发，现在已成为一项独立的运动，它拥有单板滑雪的速度，但摔倒时着陆更硬。"
+        },
+        {
+          "index": 47,
+          "sentence": "After a bit of practice and a few bruises, you'll learn to control the ride and can join the few people who can call themselves mountain boarders.",
+          "translation": "经过一点练习和几处瘀伤后，你将学会控制滑行，并能够加入少数自称为山地滑板者的人群。"
+        }
+      ]
+    },
+    {
+      "id": "1914",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Barrington Music Service: Business and Development Manager",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Barrington Music Service organises a wide range of music activities for children and young people resident in and around Barrington. It provides singing and specialist instrumental lessons in schools, and it owns a collection of instruments for use in schools, some of which are available for hire by the parents of children having lessons. The Service also arranges a number of music-related events, including festivals bringing together choirs and soloists from schools in both Barrington and other areas.The Music Service provides administrative and financial support for the Barrington Youth Orchestra,which takes part in workshops with professional artists and gives performances.",
+          "translation": "巴林顿音乐服务为居住在巴林顿及其周边的儿童和青少年组织各种音乐活动。\n它在学校提供歌唱和专业的乐器课程，并拥有一批供学校使用的乐器，其中一些可供上课孩子的家长租用。\n该服务还安排了许多与音乐相关的活动，包括将巴林顿及其他地区学校的合唱团和独唱者聚集在一起的音乐节。\n音乐服务为巴林顿青年管弦乐团提供行政和财务支持，该乐团参与专业艺术家的工作坊并进行演出。\n巴林顿音乐服务机构为居住在巴林顿及其周边的儿童和青少年组织各种音乐活动。\n该机构在学校提供歌唱和专业器乐课程，并拥有一批供学校使用的乐器，其中一些可供上课学生的家长租用。\n该服务机构还安排了许多与音乐相关的活动，包括将巴林顿及其他地区学校的合唱团和独奏者汇聚一堂的音乐节。\n该音乐服务机构为巴林顿青年管弦乐团提供行政和财务支持，该乐团参与专业艺术家的工作坊并举办演出。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Barrington Music Service is seeking to recruit a Business and Development Manager to manage the administrative function and build on the success of the Service.We are looking for an individual with a passion for delivering the best possible music provision for the benefit of our children and young people.",
+          "translation": "巴林顿音乐服务部现正招聘一名业务与发展经理，负责管理行政职能，并在该服务部已有成就的基础上继续发展。\n我们正在寻找一位充满热情的人士，致力于为我们的儿童和青少年提供尽可能最好的音乐教育服务。\n巴林顿音乐服务正在招募一位业务与发展经理，以管理行政职能并巩固该服务的成功成果。\n我们寻找一位充满热情、致力于为儿童和青少年提供最佳音乐服务的人选，以造福我们的年轻一代。\n巴林顿音乐服务正在招聘一名业务与发展经理，以管理行政职能并在该服务的成功基础上继续发展。\n我们希望寻找一位热衷于为我们的儿童和青少年提供最佳音乐教育服务的人士。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "As the Business and Development Manager,you will be responsible for managing the administrative and financial systems of the Music Service, ensuring it does not exceed its budget,which is currently around 1m a year. You will take the lead on marketing the Service and ensuring the generation of new income.The Music Service is involved in several partnerships with schools and with music and community organisations in the district, and you will be expected to increase the number and scope of these, as well as take the lead in fundraising. The Service recently embarked on a programme to broaden what is taught in school music lessons, to include instruments and musical styles from around the world, and you will be required to further develop this emphasis on diversity.",
+          "translation": "作为业务与发展经理，你将负责管理音乐服务的行政和财务体系，确保其不超过目前的年度预算（约100万英镑）。\n你将主导该服务的市场营销工作，并确保创造新的收入来源。\n该音乐服务与区内学校、音乐及社区组织建立了多项合作关系，你需扩大这些合作的数量和范围，并主导筹款工作。\n该服务近期启动了一项计划，旨在拓宽学校音乐课程的教学内容，纳入来自世界各地的乐器和音乐风格，你将需要进一步推进这一对多样性的重视。\n作为业务与发展经理，你将负责管理音乐服务的行政与财务系统，确保其不超出当前每年约100万英镑的预算。\n你将主导该服务的市场推广工作，并确保创造新的收入来源。\n该音乐服务与区内多所学校及音乐和社区组织建立了合作关系，你需扩大这些合作的数量与范围，并主导筹款工作。\n该服务近期启动了一项计划，旨在扩大学校音乐课程的教学内容，涵盖来自世界各地的乐器和音乐风格，你需进一步推进这一对多样性的重视。\n作为业务与发展经理，您将负责管理音乐服务的行政和财务系统，确保其不超出目前每年约100万英镑的预算。\n您将主导该服务的市场营销工作，并确保创造新的收入来源。\n该音乐服务与本地学校、音乐及社区组织建立了多项合作伙伴关系，您需要扩大这些合作的数量和范围，并主导筹款活动。\n该服务最近启动了一项计划，旨在拓宽学校音乐课程的教学内容，纳入来自世界各地的乐器和音乐风格，您需要进一步发展这一对多样性的重视。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "You will need to improve systems for ensuring that the records of the Service's activities are accurate, and maintain a database of all music teachers, students, and instruments belonging to the Service.",
+          "translation": "你需要改进系统，以确保该服务机构活动记录的准确性，并维护一个包含所有音乐教师、学生以及属于该服务机构的乐器的数据库。\n你需要改进相关系统，以确保该服务机构活动记录的准确性，并维护一个包含所有音乐教师、学生以及该机构所属乐器的数据库。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "The person appointed will have experience of a supervisory role and the skills to motivate members of a team. You will have an understanding of accounting, at a non-specialist level, and of standard financial procedures.High-level IT skills and excellent verbal and written communication skills are essential.Although experience in music education is not crucial, good knowledge of the field, or of other areas of arts management, would be an advantage.",
+          "translation": "被任命的人将具备监督角色的经验以及激励团队成员的能力。\n你将具备非专业层面的会计知识以及对标准财务流程的理解。\n高级的IT技能以及出色的口头和书面沟通能力是必不可少的。\n虽然音乐教育方面的经验并非关键，但对该领域或其他艺术管理领域有深入了解将是一个优势。\n被任命者将具有监督角色的经验，以及激励团队成员的能力。\n你需要在非专业层面理解会计知识以及标准财务流程。\n高级信息技术技能以及出色的口头和书面沟通能力是必不可少的。\n虽然音乐教育经验并非关键，但对该领域或其他艺术管理领域的深入了解将是一个优势。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Health and safety in small businesses",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "小型企业中的健康与安全"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "The rate of accidents at work is almost 75% higher in small businesses than in larger companies.One possible reason is that many managers of small businesses have an inadequate knowledge of health and safety issues.",
+          "translation": "小企业的工作事故率比大公司高出近75%。\n一个可能的原因是，许多小企业管理者对健康与安全问题了解不足。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Many managers of small businesses claim their situation is made worse by bureaucracy, arguing that the huge number of regulations - not just on health and safety but also on tax, the minimum wage, and much, much more - makes their work difficult.",
+          "translation": "许多小型企业的管理者声称，官僚主义使他们的处境更加糟糕，他们认为大量的法规——不仅仅是关于健康与安全的，还包括税收、最低工资以及诸多其他方面的规定——让他们的工作变得困难。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Many managers are simply not aware of their responsibilities. They are too busy running their companies to read manuals, employ consultants or go to seminars. Moreover, the average business person doesn't know where and how to get information.",
+          "translation": "许多管理者根本没有意识到自己的责任。\n他们忙于经营公司，以至于无暇阅读手册、聘请顾问或参加研讨会。\n此外，普通商人也不知道从哪里以及如何获取信息。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "The Federation of Small Businesses argues that the special nature of small businesses should be recognised by health and safety inspectors, with an emphasis on education and how to comply with the law, rather than simply on enforcement. For instance, inspectors could make employers aware of what they really need to know, rather than swamping them with mountains of leaflets which may not be relevant.",
+          "translation": "小企业联合会主张，健康与安全监察员应认识到小企业的特殊性，重点应放在教育和如何遵守法律上，而不仅仅是执法。\n例如，监察员可以让雇主了解他们真正需要知道的内容，而不是用大量可能不相关的传单淹没他们。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Improvements are being made, however. The Health and Safety Executive has issued a free guide to the most important health and safety laws for employers.All employers must have their own health and safety policy statement and, for businesses with more than five employees, this must be in writing. It should be specific to the business and clear about the arrangements for and organisation of health and safety at work.",
+          "translation": "然而，改善措施正在实施。\n健康与安全执行局已发布一份免费指南，介绍雇主需遵守的最重要的健康与安全法规。\n所有雇主必须拥有自己的健康与安全政策声明，对于员工超过五人的企业，该声明必须以书面形式呈现。\n该声明应针对具体业务，并明确说明工作场所健康与安全的安排及组织结构。\n健康与安全执行局已发布一份免费指南，内容涉及雇主需遵守的最重要的健康与安全法规。\n所有雇主都必须拥有自己的健康与安全政策声明，对于员工超过五人的企业，该声明必须以书面形式呈现。\n该政策声明应针对企业具体情况进行制定，并明确工作场所健康与安全的安排和组织方式。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "It should state a strategy, detail how it will be implemented and by whom, and say when it will be reviewed and updated. It is advisable to involve employees in this process, as they have direct experience.",
+          "translation": "它应阐明一项策略，详细说明如何实施、由谁实施，并指出何时将对其进行审查和更新。\n建议让员工参与这一过程，因为他们拥有直接的实践经验。\n它应阐明一项策略，详细说明实施方式及负责人，并规定审查和更新的时间。\n建议让员工参与这一过程，因为他们具备直接经验。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "Assessing and identifying risks is the starting point. But to comply with the law, businesses must train their employees about health and safety, and provide information to others who need to know, such as the contractors working for them. These are often smaller companies that carry out most of the dangerous work. Helping them to get into good safety habits makes it easier for them to tender for work from big companies.",
+          "translation": "评估和识别风险是起点。\n但为了遵守法律，企业必须对员工进行健康与安全培训，并向其他需要知晓的人（例如为其工作的承包商）提供信息。\n这些承包商通常是承担大部分危险工作的较小公司。\n帮助他们养成良好的安全习惯，会使他们更容易竞标大公司的工作。\n但为了遵守法律，企业必须对员工进行健康与安全培训，并向其他需要了解的人员（例如为其工作的承包商）提供信息。\n这些通常是承担大部分危险工作的小型公司。\n帮助他们养成良好的安全习惯，会使他们更容易投标大公司的工作。"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "Other advice from the Health and Safety Executive for small businesses tackles specific issues, such as helping small companies to deal with work-related stress.",
+          "translation": "卫生与安全执行局为小企业提供的其他建议涉及具体问题，例如帮助小公司应对与工作相关的压力。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13978",
+          "type": 8,
+          "title": "Barrington Music Service",
+          "instructions": "Questions 15 - 20\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117474",
+              "number": 15,
+              "prompt": "• events such as _____ for local and visiting schools",
+              "options": [],
+              "answer": "festivals",
+              "accepted_answers": [
+                "festivals"
+              ],
+              "analysis": "题干中的“events such as ... for local and visiting schools”对应原文A段第二句：“The Service also arranges a number of music-related events, including festivals bringing together choirs and soloists from schools in both Barrington and other areas.”其中“festivals”直接出现在原文中，且明确指出这些节日活动汇集了本地（Barrington）及其他地区的学校，与题干中“local and visiting schools”完全对应，因此答案为festivals。",
+              "reason": "题干'events such as ... for local and visiting schools'对应原文'events including festivals bringing together choirs and soloists from schools in both Barrington and other areas'。",
+              "location_analysis": "原文提到包括festivals，汇聚当地及其他地区学校的合唱团和独唱者，对应题目。",
+              "paraphrasing": "events such as -> arranges a number of music-related events, including",
+              "keywords": "events, local and visiting schools",
+              "evidence": [
+                "The Service also arranges a number of music-related events, including festivals bringing together choirs and soloists from schools in both Barrington and other areas."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117475",
+              "number": 16,
+              "prompt": "• manage the administration of the Service — • be responsible for keeping to the _____",
+              "options": [],
+              "answer": "budget",
+              "accepted_answers": [
+                "budget"
+              ],
+              "analysis": "题干要求填写“keeping to the...”，对应C段首句：“ensuring it does not exceed its budget, which is currently around £1m a year.”其中“budget”是原文明确提到的财务限制目标，而“keeping to the budget”与“ensuring it does not exceed its budget”构成同义改写关系，因此答案为budget。",
+              "reason": "题干'responsible for keeping to the...'对应原文'ensuring it does not exceed its budget'。",
+              "location_analysis": "'ensuring it does not exceed its budget'与'keepi...",
+              "paraphrasing": "keeping to the -> ensuring it does not exceed its",
+              "keywords": "keeping to the",
+              "evidence": [
+                "As the Business and Development Manager,you will be responsible for managing the administrative and financial systems of the Music Service, ensuring it does not exceed its budget,which is currently around 1m a year."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117476",
+              "number": 17,
+              "prompt": "• build _____ with other organisations",
+              "options": [],
+              "answer": "partnerships",
+              "accepted_answers": [
+                "partnerships"
+              ],
+              "analysis": "题干中的“build ... with other organisations”对应C段第二句：“you will be expected to increase the number and scope of these [partnerships]”. 原文明确提到音乐服务已与学校及社区组织建立“partnerships”，而应聘者需扩大其数量与范围，“build partnerships”正是对此内容的概括，因此答案为partnerships。",
+              "reason": "题干'build...with other organisations'对应原文'increase the number and scope of these partnerships'。",
+              "location_analysis": "'increase the number and scope of these partner...",
+              "paraphrasing": "build -> increase the number and scope of",
+              "keywords": "build, with other organisations",
+              "evidence": [
+                "The Music Service is involved in several partnerships with schools and with music and community organisations in the district, and you will be expected to increase the number and scope of these, as well as take the lead in fundraising."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117477",
+              "number": 18,
+              "prompt": "• increase the focus on _____ in school music lessons(e.g., international styles)",
+              "options": [],
+              "answer": "diversity",
+              "accepted_answers": [
+                "diversity"
+              ],
+              "analysis": "题干提到“increase the focus on ... in school music lessons (e.g., international styles)”，对应C段末句：“you will be required to further develop this emphasis on diversity.”原文指出课程改革旨在纳入世界各地的乐器与音乐风格，这种“diversity”正是题干所指的核心内容，因此答案为diversity。",
+              "reason": "题干'focus on...in school music lessons'对应原文'emphasis on diversity'。",
+              "location_analysis": "原文'further develop this emphasis on diversity'，...",
+              "paraphrasing": "increase the focus on -> further develop this emphasis on",
+              "keywords": "increase the focus on, in school music lessons, international styles",
+              "evidence": [
+                "The Service recently embarked on a programme to broaden what is taught in school music lessons, to include instruments and musical styles from around the world, and you will be required to further develop this emphasis on diversity."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117478",
+              "number": 19,
+              "prompt": "• make sure records and a _____ is kept up-to-date",
+              "options": [],
+              "answer": "database",
+              "accepted_answers": [
+                "database"
+              ],
+              "analysis": "题干要求填写“make sure records and a ... is kept up-to-date”，对应D段：“maintain a database of all music teachers, students, and instruments belonging to the Service.”其中“maintain a database”与“keep a database up-to-date”意思一致，且数据库内容涵盖教师、学生和乐器，符合上下文逻辑，因此答案为database。",
+              "reason": "题干'make sure records and a ... is kept up-to-date'对应原文'maintain a database'。",
+              "location_analysis": "'maintain a database'与'keep a database up-to-da...",
+              "paraphrasing": "make sure records and a ... is kept up-to-date -> maintain a database of all music teachers, students, and instruments",
+              "keywords": "make sure records and a ... is kept up-to-date",
+              "evidence": [
+                "You will need to improve systems for ensuring that the records of the Service's activities are accurate, and maintain a database of all music teachers, students, and instruments belonging to the Service."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117479",
+              "number": 20,
+              "prompt": "• ability to supervise and motivate others — • basic knowledge of _____",
+              "options": [],
+              "answer": "accounting",
+              "accepted_answers": [
+                "accounting"
+              ],
+              "analysis": "题干中的“basic knowledge of ...”对应E段首句：“You will have an understanding of accounting, at a non-specialist level...”。“basic knowledge”与“understanding ... at a non-specialist level”为同义表达，且“accounting”是唯一符合语境的专业领域词汇，因此答案为accounting。",
+              "reason": "题干'basic knowledge of...'对应原文'understanding of accounting, at a non-specialist level'。",
+              "location_analysis": "原文'understanding of accounting, at a non-specia...",
+              "paraphrasing": "basic knowledge of -> an understanding of, at a non-specialist level",
+              "keywords": "basic knowledge of",
+              "evidence": [
+                "You will have an understanding of accounting, at a non-specialist level, and of standard financial procedures."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Activities\n• organises music lessons\n• enables the hire of instruments\n• events such as $117474$ for local and visiting schools\n• supports Barrington Youth Orchestra\nPost of Business and Development Manager\nPerson appointed will\n• manage the administration of the Service\n• be responsible for keeping to the $117475$\n• build $117476$ with other organisations\n• be proactive in fundraising\n• increase the focus on $117477$ in school music lessons(e.g., international styles)\n• make sure records and a $117478$ is kept up-to-date\nPerson appointed must have\n• ability to supervise and motivate others\n• basic knowledge of $117479$\n• other relevant skills",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Activities\n• organises music lessons\n• enables the hire of instruments\n• events such as $117474$ for local and visiting schools\n• supports Barrington Youth Orchestra\nPost of Business and Development Manager\nPerson appointed will\n• manage the administration of the Service\n• be responsible for keeping to the $117475$\n• build $117476$ with other organisations\n• be proactive in fundraising\n• increase the focus on $117477$ in school music lessons(e.g., international styles)\n• make sure records and a $117478$ is kept up-to-date\nPerson appointed must have\n• ability to supervise and motivate others\n• basic knowledge of $117479$\n• other relevant skills"
+        },
+        {
+          "id": "13982",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 21 - 27\nComplete the sentences below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117486",
+              "number": 21,
+              "prompt": "One cause of health and safety problems in small businesses is that managers do not have enough relevant _____.",
+              "options": [],
+              "answer": "knowledge",
+              "accepted_answers": [
+                "knowledge"
+              ],
+              "analysis": "题干指出“managers do not have enough relevant ...”，对应A段第二句：“many managers of small businesses have an inadequate knowledge of health and safety issues.”其中“inadequate knowledge”与“do not have enough relevant knowledge”构成直接同义替换，且该知识特指健康与安全领域，因此答案为knowledge。",
+              "reason": "题干'do not have enough relevant...'对应原文'have an inadequate knowledge of health and safety issues'。",
+              "location_analysis": "原文'inadequate knowledge'与'do not have enough kn...",
+              "paraphrasing": "do not have enough relevant -> have an inadequate knowledge of",
+              "keywords": "cause of health and safety problems, managers, do not have enough relevant",
+              "evidence": [
+                "One possible reason is that many managers of small businesses have an inadequate knowledge of health and safety issues."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117487",
+              "number": 22,
+              "prompt": "Managers complain they have too many _____ to deal with.",
+              "options": [],
+              "answer": "regulations",
+              "accepted_answers": [
+                "regulations"
+              ],
+              "analysis": "题干中“Managers complain they have too many ...”对应B段：“arguing that the huge number of regulations ... makes their work difficult.”原文用“huge number of regulations”描述管理者面临的繁重法规负担，与题干“too many regulations”完全对应，因此答案为regulations。",
+              "reason": "题干'Managers complain they have too many ...'对应原文'claim their situation is made worse by ... the huge number of regulations'。",
+              "location_analysis": "原文'claim their situation is made worse by burea...",
+              "paraphrasing": "complain -> claim their situation is made worse by",
+              "keywords": "complain, too many",
+              "evidence": [
+                "Many managers of small businesses claim their situation is made worse by bureaucracy, arguing that the huge number of regulations - not just on health and safety but also on tax, the minimum wage, and much, much more - makes their work difficult."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117488",
+              "number": 23,
+              "prompt": "Managers may not fully understand their _____.",
+              "options": [],
+              "answer": "responsibilities",
+              "accepted_answers": [
+                "responsibilities"
+              ],
+              "analysis": "题干“may not fully understand their ...”对应C段首句：“Many managers are simply not aware of their responsibilities.”其中“not aware of their responsibilities”与“may not fully understand their responsibilities”意思一致，均指管理者对自身法定职责认知不足，因此答案为responsibilities。",
+              "reason": "题干'may not fully understand their...'对应原文'are simply not aware of their responsibilities'。",
+              "location_analysis": "原文'simply not aware of their responsibilities'与...",
+              "paraphrasing": "may not fully understand their -> are simply not aware of their",
+              "keywords": "may not fully understand their",
+              "evidence": [
+                "Many managers are simply not aware of their responsibilities."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117489",
+              "number": 24,
+              "prompt": "Businesses sometimes feel that inspectors give them far too many _____.",
+              "options": [],
+              "answer": "leaflets",
+              "accepted_answers": [
+                "leaflets"
+              ],
+              "analysis": "题干“inspectors give them far too many ...”对应D段末句：“rather than swamping them with mountains of leaflets which may not be relevant.”原文用“mountains of leaflets”形象地描述检查员提供过多无关资料的问题，与题干“far too many leaflets”形成同义表达，因此答案为leaflets。",
+              "reason": "题干'inspectors give them far too many...'对应原文'swamping them with mountains of leaflets'。",
+              "location_analysis": "原文'swamping them with mountains of leaflets'与'g...",
+              "paraphrasing": "give them far too many -> swamping them with mountains of",
+              "keywords": "inspectors, give them far too many",
+              "evidence": [
+                "For instance, inspectors could make employers aware of what they really need to know, rather than swamping them with mountains of leaflets which may not be relevant."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117490",
+              "number": 25,
+              "prompt": "Businesses above a certain size must produce a written _____ of their health and safety policy.",
+              "options": [],
+              "answer": "statement",
+              "accepted_answers": [
+                "statement"
+              ],
+              "analysis": "题干要求填写“produce a written ... of their health and safety policy”，对应E段：“All employers must have their own health and safety policy statement ... this must be in writing.”其中“policy statement”是固定搭配，且明确要求书面形式，与题干完全匹配，因此答案为statement。",
+              "reason": "题干'produce a written...of their health and safety policy'对应原文'have their own health and safety policy statement ... in writing'。",
+              "location_analysis": "原文'with more than five employees, this must be ...",
+              "paraphrasing": "above a certain size -> with more than five employees; must produce a written -> must be in writing",
+              "keywords": "above a certain size, must produce a written",
+              "evidence": [
+                "All employers must have their own health and safety policy statement and, for businesses with more than five employees, this must be in writing."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117491",
+              "number": 26,
+              "prompt": "A company's health and safety policy is relevant to both its employees and its _____.",
+              "options": [],
+              "answer": "contractors",
+              "accepted_answers": [
+                "contractors"
+              ],
+              "analysis": "题干指出政策适用于“both its employees and its ...”，对应G段：“provide information to others who need to know, such as the contractors working for them.”原文明确将“contractors”列为需获知安全信息的对象，与员工并列，因此答案为contractors。",
+              "reason": "题干'policy is relevant to both its employees and its...'对应原文'train their employees ... and provide information to others ... such as the contractors'。",
+              "location_analysis": "原文'provide information to others ... such as th...",
+              "paraphrasing": "relevant to both its employees and its -> train their employees about health and safety, and provide information to others who need to know, such as",
+              "keywords": "relevant to both its employees and its",
+              "evidence": [
+                "But to comply with the law, businesses must train their employees about health and safety, and provide information to others who need to know, such as the contractors working for them."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117492",
+              "number": 27,
+              "prompt": "The Health and Safety Executive can advise small businesses on problems of _____]among their employees.",
+              "options": [],
+              "answer": "stress",
+              "accepted_answers": [
+                "stress"
+              ],
+              "analysis": "题干询问健康与安全执行局可就员工中的何种问题提供建议，对应H段：“helping small companies to deal with work-related stress.”其中“work-related stress”即员工因工作产生的压力问题，与题干“problems of ... among their employees”完全对应，因此答案为stress。",
+              "reason": "题干'advise on problems of ... among their employees'对应原文'helping small companies to deal with work-related stress'。",
+              "location_analysis": "原文'helping small companies to deal with work-re...",
+              "paraphrasing": "advise ... on problems of -> tackles specific issues, such as helping small companies to deal with",
+              "keywords": "advise small businesses on problems of ... among their employees",
+              "evidence": [
+                "Other advice from the Health and Safety Executive for small businesses tackles specific issues, such as helping small companies to deal with work-related stress."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "One cause of health and safety problems in small businesses is that managers do not have enough relevant $117486$.\nManagers complain they have too many $117487$ to deal with.\nManagers may not fully understand their $117488$.\nBusinesses sometimes feel that inspectors give them far too many $117489$.\nBusinesses above a certain size must produce a written $117490$ of their health and safety policy.\nA company's health and safety policy is relevant to both its employees and its $117491$.\nThe Health and Safety Executive can advise small businesses on problems of $117492$]among their employees.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "One cause of health and safety problems in small businesses is that managers do not have enough relevant $117486$.\nManagers complain they have too many $117487$ to deal with.\nManagers may not fully understand their $117488$.\nBusinesses sometimes feel that inspectors give them far too many $117489$.\nBusinesses above a certain size must produce a written $117490$ of their health and safety policy.\nA company's health and safety policy is relevant to both its employees and its $117491$.\nThe Health and Safety Executive can advise small businesses on problems of $117492$]among their employees."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Barrington Music Service: Business and Development Manager",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Barrington Music Service organises a wide range of music activities for children and young people resident in and around Barrington.",
+          "translation": "巴林顿音乐服务为居住在巴林顿及其周边的儿童和青少年组织各种音乐活动。"
+        },
+        {
+          "index": 2,
+          "sentence": "It provides singing and specialist instrumental lessons in schools, and it owns a collection of instruments for use in schools, some of which are available for hire by the parents of children having lessons.",
+          "translation": "它在学校提供歌唱和专业的乐器课程，并拥有一批供学校使用的乐器，其中一些可供上课孩子的家长租用。"
+        },
+        {
+          "index": 3,
+          "sentence": "The Service also arranges a number of music-related events, including festivals bringing together choirs and soloists from schools in both Barrington and other areas.",
+          "translation": "该服务还安排了许多与音乐相关的活动，包括将巴林顿及其他地区学校的合唱团和独唱者聚集在一起的音乐节。"
+        },
+        {
+          "index": 4,
+          "sentence": "The Music Service provides administrative and financial support for the Barrington Youth Orchestra, which takes part in workshops with professional artists and gives performances.",
+          "translation": "音乐服务为巴林顿青年管弦乐团提供行政和财务支持，该乐团参与专业艺术家的工作坊并进行演出。"
+        },
+        {
+          "index": 5,
+          "sentence": "Barrington Music Service organises a wide range of music activities for children and young people resident in and around Barrington.",
+          "translation": "巴林顿音乐服务机构为居住在巴林顿及其周边的儿童和青少年组织各种音乐活动。"
+        },
+        {
+          "index": 6,
+          "sentence": "It provides singing and specialist instrumental lessons in schools, and it owns a collection of instruments for use in schools, some of which are available for hire by the parents of children having lessons.",
+          "translation": "该机构在学校提供歌唱和专业器乐课程，并拥有一批供学校使用的乐器，其中一些可供上课学生的家长租用。"
+        },
+        {
+          "index": 7,
+          "sentence": "The Service also arranges a number of music-related events, including festivals bringing together choirs and soloists from schools in both Barrington and other areas.",
+          "translation": "该服务机构还安排了许多与音乐相关的活动，包括将巴林顿及其他地区学校的合唱团和独奏者汇聚一堂的音乐节。"
+        },
+        {
+          "index": 8,
+          "sentence": "The Music Service provides administrative and financial support for the Barrington Youth Orchestra,which takes part in workshops with professional artists and gives performances.",
+          "translation": "该音乐服务机构为巴林顿青年管弦乐团提供行政和财务支持，该乐团参与专业艺术家的工作坊并举办演出。"
+        },
+        {
+          "index": 9,
+          "sentence": "Barrington Music Service is seeking to recruit a Business and Development Manager to manage the administrative function and build on the success of the Service.",
+          "translation": "巴林顿音乐服务部现正招聘一名业务与发展经理，负责管理行政职能，并在该服务部已有成就的基础上继续发展。"
+        },
+        {
+          "index": 10,
+          "sentence": "We are looking for an individual with a passion for delivering the best possible music provision for the benefit of our children and young people.",
+          "translation": "我们正在寻找一位充满热情的人士，致力于为我们的儿童和青少年提供尽可能最好的音乐教育服务。"
+        },
+        {
+          "index": 11,
+          "sentence": "Barrington Music Service is seeking to recruit a Business and Development Manager to manage the administrative function and build on the success of the Service.",
+          "translation": "巴林顿音乐服务正在招募一位业务与发展经理，以管理行政职能并巩固该服务的成功成果。"
+        },
+        {
+          "index": 12,
+          "sentence": "We are looking for an individual with a passion for delivering the best possible music provision for the benefit of our children and young people.",
+          "translation": "我们寻找一位充满热情、致力于为儿童和青少年提供最佳音乐服务的人选，以造福我们的年轻一代。"
+        },
+        {
+          "index": 13,
+          "sentence": "As the Business and Development Manager,you will be responsible for managing the administrative and financial systems of the Music Service, ensuring it does not exceed its budget,which is currently around 1m a year.",
+          "translation": "作为业务与发展经理，你将负责管理音乐服务的行政和财务体系，确保其不超过目前的年度预算（约100万英镑）。"
+        },
+        {
+          "index": 14,
+          "sentence": "You will take the lead on marketing the Service and ensuring the generation of new income.",
+          "translation": "你将主导该服务的市场营销工作，并确保创造新的收入来源。"
+        },
+        {
+          "index": 15,
+          "sentence": "The Music Service is involved in several partnerships with schools and with music and community organisations in the district, and you will be expected to increase the number and scope of these, as well as take the lead in fundraising.",
+          "translation": "该音乐服务与区内学校、音乐及社区组织建立了多项合作关系，你需扩大这些合作的数量和范围，并主导筹款工作。"
+        },
+        {
+          "index": 16,
+          "sentence": "The Service recently embarked on a programme to broaden what is taught in school music lessons, to include instruments and musical styles from around the world, and you will be required to further develop this emphasis on diversity.",
+          "translation": "该服务近期启动了一项计划，旨在拓宽学校音乐课程的教学内容，纳入来自世界各地的乐器和音乐风格，你将需要进一步推进这一对多样性的重视。"
+        },
+        {
+          "index": 17,
+          "sentence": "As the Business and Development Manager, you will be responsible for managing the administrative and financial systems of the Music Service, ensuring it does not exceed its budget, which is currently around 1m a year.",
+          "translation": "作为业务与发展经理，你将负责管理音乐服务的行政与财务系统，确保其不超出当前每年约100万英镑的预算。"
+        },
+        {
+          "index": 18,
+          "sentence": "You will take the lead on marketing the Service and ensuring the generation of new income.",
+          "translation": "你将主导该服务的市场推广工作，并确保创造新的收入来源。"
+        },
+        {
+          "index": 19,
+          "sentence": "The Music Service is involved in several partnerships with schools and with music and community organisations in the district, and you will be expected to increase the number and scope of these, as well as take the lead in fundraising.",
+          "translation": "该音乐服务与区内多所学校及音乐和社区组织建立了合作关系，你需扩大这些合作的数量与范围，并主导筹款工作。"
+        },
+        {
+          "index": 20,
+          "sentence": "The Service recently embarked on a programme to broaden what is taught in school music lessons, to include instruments and musical styles from around the world, and you will be required to further develop this emphasis on diversity.",
+          "translation": "该服务近期启动了一项计划，旨在扩大学校音乐课程的教学内容，涵盖来自世界各地的乐器和音乐风格，你需进一步推进这一对多样性的重视。"
+        },
+        {
+          "index": 21,
+          "sentence": "You will need to improve systems for ensuring that the records of the Service's activities are accurate, and maintain a database of all music teachers, students, and instruments belonging to the Service.",
+          "translation": "你需要改进系统，以确保该服务机构活动记录的准确性，并维护一个包含所有音乐教师、学生以及属于该服务机构的乐器的数据库。"
+        },
+        {
+          "index": 22,
+          "sentence": "You will need to improve systems for ensuring that the records of the Service's activities are accurate, and maintain a database of all music teachers, students, and instruments belonging to the Service.",
+          "translation": "你需要改进系统，以确保该服务机构活动记录的准确性，并维护一个包含所有音乐教师、学生以及属于该服务机构的乐器的数据库。"
+        },
+        {
+          "index": 23,
+          "sentence": "Improvements are being made, however.",
+          "translation": "然而，改善措施正在实施。"
+        },
+        {
+          "index": 24,
+          "sentence": "The Health and Safety Executive has issued a free guide to the most important health and safety laws for employers.",
+          "translation": "健康与安全执行局已发布一份免费指南，介绍雇主需遵守的最重要的健康与安全法规。"
+        },
+        {
+          "index": 25,
+          "sentence": "All employers must have their own health and safety policy statement and, for businesses with more than five employees, this must be in writing.",
+          "translation": "所有雇主必须拥有自己的健康与安全政策声明，对于员工超过五人的企业，该声明必须以书面形式呈现。"
+        },
+        {
+          "index": 26,
+          "sentence": "It should be specific to the business and clear about the arrangements for and organisation of health and safety at work.",
+          "translation": "该声明应针对具体业务，并明确说明工作场所健康与安全的安排及组织结构。"
+        },
+        {
+          "index": 27,
+          "sentence": "The person appointed will have experience of a supervisory role and the skills to motivate members of a team.",
+          "translation": "被任命的人将具备监督角色的经验以及激励团队成员的能力。"
+        },
+        {
+          "index": 28,
+          "sentence": "You will have an understanding of accounting, at a non-specialist level, and of standard financial procedures.",
+          "translation": "你将具备非专业层面的会计知识以及对标准财务流程的理解。"
+        },
+        {
+          "index": 29,
+          "sentence": "High-level IT skills and excellent verbal and written communication skills are essential.",
+          "translation": "高级的IT技能以及出色的口头和书面沟通能力是必不可少的。"
+        },
+        {
+          "index": 30,
+          "sentence": "Although experience in music education is not crucial, good knowledge of the field, or of other areas of arts management, would be an advantage.",
+          "translation": "虽然音乐教育方面的经验并非关键，但对该领域或其他艺术管理领域有深入了解将是一个优势。"
+        },
+        {
+          "index": 31,
+          "sentence": "Health and safety in small businesses",
+          "translation": "小型企业中的健康与安全"
+        },
+        {
+          "index": 33,
+          "sentence": "The rate of accidents at work is almost 75% higher in small businesses than in larger companies.",
+          "translation": "小企业的工作事故率比大公司高出近75%。"
+        },
+        {
+          "index": 34,
+          "sentence": "One possible reason is that many managers of small businesses have an inadequate knowledge of health and safety issues.",
+          "translation": "一个可能的原因是，许多小企业管理者对健康与安全问题了解不足。"
+        },
+        {
+          "index": 35,
+          "sentence": "Barrington Music Service is seeking to recruit a Business and Development Manager to manage the administrative function and build on the success of the Service.",
+          "translation": "巴林顿音乐服务正在招聘一名业务与发展经理，以管理行政职能并在该服务的成功基础上继续发展。"
+        },
+        {
+          "index": 36,
+          "sentence": "We are looking for an individual with a passion for delivering the best possible music provision for the benefit of our children and young people.",
+          "translation": "我们希望寻找一位热衷于为我们的儿童和青少年提供最佳音乐教育服务的人士。"
+        },
+        {
+          "index": 37,
+          "sentence": "Many managers of small businesses claim their situation is made worse by bureaucracy, arguing that the huge number of regulations - not just on health and safety but also on tax, the minimum wage, and much, much more - makes their work difficult.",
+          "translation": "许多小型企业的管理者声称，官僚主义使他们的处境更加糟糕，他们认为大量的法规——不仅仅是关于健康与安全的，还包括税收、最低工资以及诸多其他方面的规定——让他们的工作变得困难。"
+        },
+        {
+          "index": 38,
+          "sentence": "As the Business and Development Manager, you will be responsible for managing the administrative and financial systems of the Music Service, ensuring it does not exceed its budget, which is currently around £1m a year.",
+          "translation": "作为业务与发展经理，您将负责管理音乐服务的行政和财务系统，确保其不超出目前每年约100万英镑的预算。"
+        },
+        {
+          "index": 39,
+          "sentence": "You will take the lead on marketing the Service and ensuring the generation of new income.",
+          "translation": "您将主导该服务的市场营销工作，并确保创造新的收入来源。"
+        },
+        {
+          "index": 40,
+          "sentence": "The Music Service is involved in several partnerships with schools and with music and community organisations in the district, and you will be expected to increase the number and scope of these, as well as take the lead in fundraising.",
+          "translation": "该音乐服务与本地学校、音乐及社区组织建立了多项合作伙伴关系，您需要扩大这些合作的数量和范围，并主导筹款活动。"
+        },
+        {
+          "index": 41,
+          "sentence": "The Service recently embarked on a programme to broaden what is taught in school music lessons, to include instruments and musical styles from around the world, and you will be required to further develop this emphasis on diversity.",
+          "translation": "该服务最近启动了一项计划，旨在拓宽学校音乐课程的教学内容，纳入来自世界各地的乐器和音乐风格，您需要进一步发展这一对多样性的重视。"
+        },
+        {
+          "index": 42,
+          "sentence": "Many managers are simply not aware of their responsibilities.",
+          "translation": "许多管理者根本没有意识到自己的责任。"
+        },
+        {
+          "index": 43,
+          "sentence": "They are too busy running their companies to read manuals, employ consultants or go to seminars.",
+          "translation": "他们忙于经营公司，以至于无暇阅读手册、聘请顾问或参加研讨会。"
+        },
+        {
+          "index": 44,
+          "sentence": "Moreover, the average business person doesn't know where and how to get information.",
+          "translation": "此外，普通商人也不知道从哪里以及如何获取信息。"
+        },
+        {
+          "index": 45,
+          "sentence": "You will need to improve systems for ensuring that the records of the Service's activities are accurate, and maintain a database of all music teachers, students, and instruments belonging to the Service.",
+          "translation": "你需要改进相关系统，以确保该服务机构活动记录的准确性，并维护一个包含所有音乐教师、学生以及该机构所属乐器的数据库。"
+        },
+        {
+          "index": 46,
+          "sentence": "The Federation of Small Businesses argues that the special nature of small businesses should be recognised by health and safety inspectors, with an emphasis on education and how to comply with the law, rather than simply on enforcement.",
+          "translation": "小企业联合会主张，健康与安全监察员应认识到小企业的特殊性，重点应放在教育和如何遵守法律上，而不仅仅是执法。"
+        },
+        {
+          "index": 47,
+          "sentence": "For instance, inspectors could make employers aware of what they really need to know, rather than swamping them with mountains of leaflets which may not be relevant.",
+          "translation": "例如，监察员可以让雇主了解他们真正需要知道的内容，而不是用大量可能不相关的传单淹没他们。"
+        },
+        {
+          "index": 48,
+          "sentence": "The person appointed will have experience of a supervisory role and the skills to motivate members of a team.",
+          "translation": "被任命者将具有监督角色的经验，以及激励团队成员的能力。"
+        },
+        {
+          "index": 49,
+          "sentence": "You will have an understanding of accounting, at a non-specialist level, and of standard financial procedures.",
+          "translation": "你需要在非专业层面理解会计知识以及标准财务流程。"
+        },
+        {
+          "index": 50,
+          "sentence": "High-level IT skills and excellent verbal and written communication skills are essential.",
+          "translation": "高级信息技术技能以及出色的口头和书面沟通能力是必不可少的。"
+        },
+        {
+          "index": 51,
+          "sentence": "Although experience in music education is not crucial, good knowledge of the field, or of other areas of arts management, would be an advantage.",
+          "translation": "虽然音乐教育经验并非关键，但对该领域或其他艺术管理领域的深入了解将是一个优势。"
+        },
+        {
+          "index": 52,
+          "sentence": "Improvements are being made, however.",
+          "translation": "然而，改善措施正在实施。"
+        },
+        {
+          "index": 53,
+          "sentence": "The Health and Safety Executive has issued a free guide to the most important health and safety laws for employers.",
+          "translation": "健康与安全执行局已发布一份免费指南，内容涉及雇主需遵守的最重要的健康与安全法规。"
+        },
+        {
+          "index": 54,
+          "sentence": "All employers must have their own health and safety policy statement and, for businesses with more than five employees, this must be in writing.",
+          "translation": "所有雇主都必须拥有自己的健康与安全政策声明，对于员工超过五人的企业，该声明必须以书面形式呈现。"
+        },
+        {
+          "index": 55,
+          "sentence": "It should be specific to the business and clear about the arrangements for and organisation of health and safety at work.",
+          "translation": "该政策声明应针对企业具体情况进行制定，并明确工作场所健康与安全的安排和组织方式。"
+        },
+        {
+          "index": 56,
+          "sentence": "It should state a strategy, detail how it will be implemented and by whom, and say when it will be reviewed and updated.",
+          "translation": "它应阐明一项策略，详细说明如何实施、由谁实施，并指出何时将对其进行审查和更新。"
+        },
+        {
+          "index": 57,
+          "sentence": "It is advisable to involve employees in this process, as they have direct experience.",
+          "translation": "建议让员工参与这一过程，因为他们拥有直接的实践经验。"
+        },
+        {
+          "index": 58,
+          "sentence": "It should state a strategy, detail how it will be implemented and by whom, and say when it will be reviewed and updated.",
+          "translation": "它应阐明一项策略，详细说明实施方式及负责人，并规定审查和更新的时间。"
+        },
+        {
+          "index": 59,
+          "sentence": "It is advisable to involve employees in this process, as they have direct experience.",
+          "translation": "建议让员工参与这一过程，因为他们具备直接经验。"
+        },
+        {
+          "index": 60,
+          "sentence": "Assessing and identifying risks is the starting point.",
+          "translation": "评估和识别风险是起点。"
+        },
+        {
+          "index": 61,
+          "sentence": "But to comply with the law, businesses must train their employees about health and safety, and provide information to others who need to know, such as the contractors working for them.",
+          "translation": "但为了遵守法律，企业必须对员工进行健康与安全培训，并向其他需要知晓的人（例如为其工作的承包商）提供信息。"
+        },
+        {
+          "index": 62,
+          "sentence": "These are often smaller companies that carry out most of the dangerous work.",
+          "translation": "这些承包商通常是承担大部分危险工作的较小公司。"
+        },
+        {
+          "index": 63,
+          "sentence": "Helping them to get into good safety habits makes it easier for them to tender for work from big companies.",
+          "translation": "帮助他们养成良好的安全习惯，会使他们更容易竞标大公司的工作。"
+        },
+        {
+          "index": 64,
+          "sentence": "Assessing and identifying risks is the starting point.",
+          "translation": "评估和识别风险是起点。"
+        },
+        {
+          "index": 65,
+          "sentence": "But to comply with the law, businesses must train their employees about health and safety, and provide information to others who need to know, such as the contractors working for them.",
+          "translation": "但为了遵守法律，企业必须对员工进行健康与安全培训，并向其他需要了解的人员（例如为其工作的承包商）提供信息。"
+        },
+        {
+          "index": 66,
+          "sentence": "These are often smaller companies that carry out most of the dangerous work.",
+          "translation": "这些通常是承担大部分危险工作的小型公司。"
+        },
+        {
+          "index": 67,
+          "sentence": "Helping them to get into good safety habits makes it easier for them to tender for work from big companies.",
+          "translation": "帮助他们养成良好的安全习惯，会使他们更容易投标大公司的工作。"
+        },
+        {
+          "index": 69,
+          "sentence": "Other advice from the Health and Safety Executive for small businesses tackles specific issues, such as helping small companies to deal with work-related stress.",
+          "translation": "卫生与安全执行局为小企业提供的其他建议涉及具体问题，例如帮助小公司应对与工作相关的压力。"
+        }
+      ]
+    },
+    {
+      "id": "1915",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Jobs in ancient Egypt",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "In order to be engaged in the higher professions in ancient Egypt, a person had to be literate and so first had to become a scribe. The apprenticeship for this job lasted many years and was tough and challenging. It principally involved memorizing hieroglyphic symbols and practicing handwritten lettering.Scribes noted the everyday activities in ancient Egypt and wrote about everything from grain stocks to tax records.Therefore, most of our information on this rich culture comes from their records. Most scribes were men from privileged backgrounds. The occupation of scribe was among the most sought-after in ancient Egypt.Craftspeople endeavored to get their sons into the school for scribes, but they were rarely successful.",
+          "translation": "要在古埃及从事高级职业，一个人必须识字，因此首先得成为一名抄写员。\n这项工作的学徒期持续多年，且艰难而充满挑战。\n它主要包括记忆象形文字符号和练习手写字体。\n抄写员记录古埃及的日常活动，从粮食储备到税务记录无所不写。\n因此，我们关于这一丰富文化的大部分信息都来自他们的记录。\n大多数抄写员是来自特权阶层的男性。\n抄写员的职业在古埃及是最令人向往的职业之一。\n工匠们竭力将儿子送进抄写员学校，但成功的寥寥无几。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "As in many civilizations, the lower classes provided the means for those above them to live comfortable lives. You needed to work if you wanted to eat, but there was no shortage of jobs at any time in Egypt's history.The commonplace items taken for granted today, such as a brush or bowl, had to be made by hand; laundry had to be washed by hand, clothing sewn, and sandals made from papyrus and palm leaves. In order to make these and have paper to write on, papyrus plants had to be harvested, processed, and distributed and all these jobs needed workers. There were rewards and sometimes difficulties. The reed cutter, for example, who harvested papyrus plants along the Nile, had to bear in mind that he worked in an area that was also home to wildlife that, at times, could prove fatal.",
+          "translation": "正如许多文明一样，下层阶级为上流社会提供了舒适生活的手段。\n想要糊口就必须工作，但在埃及历史上的任何时候都不缺乏工作机会。\n如今被视为理所当然的日常物品，如刷子或碗，必须手工制作；衣物必须手洗，衣服需缝制，凉鞋则用纸莎草和棕榈叶制成。\n为了制造这些物品并拥有书写用的纸张，纸莎草植物必须被收割、加工和分配，所有这些工作都需要工人。\n工作中既有回报，有时也伴随着困难。\n例如，在尼罗河沿岸收割纸莎草的割苇工必须牢记，他工作的地方也是野生动物的栖息地，这些动物有时可能致命。\n正如许多文明一样，下层阶级为上层阶级提供了过上舒适生活的手段。\n如果你想吃饭，就必须工作，但在埃及历史的任何时期，工作机会都不短缺。\n如今被视为理所当然的日常物品，如刷子或碗，都必须手工制作；衣物需手洗，衣服需缝制，凉鞋需用纸莎草和棕榈叶制作。\n为了制作这些物品并拥有书写用的纸，纸莎草植物必须被收割、加工和分配，所有这些工作都需要工人。\n工作中既有回报，有时也有困难。\n例如，在尼罗河沿岸收割纸莎草植物的割苇人必须牢记，他所工作的区域也是野生动物的栖息地，这些动物有时可能致命。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "At the bottom rung of all these jobs were the people who served as the basis for the entire economy: the farmers. Farmers usually did not own the land they worked. They were given food, implements, and living quarters as payment for their labor.Although there were many more glamorous jobs than farming, farmers were the backbone of the Egyptian economy and sustained everyone else.",
+          "translation": "在这些工作的最底层，是作为整个经济基础的人们：农民。\n农民通常并不拥有他们耕作的土地。\n他们获得食物、工具和住所作为劳动的报酬。\n虽然有许多比农耕更光鲜的工作，但农民是埃及经济的支柱，供养着其他所有人。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The details of lower-class jobs are known from medical reports on the treatment of injuries, letters, and documents written on various professions, literary works, tomb inscriptions,and artistic representations.This evidence presents a comprehensive view of daily work in ancient Egypt - how the jobs were done, and sometimes how people felt about the work. In general, the Egyptians seem to have felt pride in their work no matter what their occupation.Everyone had something to contribute to the community, and no skills seem to have been considered non-essential. The potter who produced cups and bowls was as important to the community as the scribe, and the amulet-maker as vital as the pharmacist.",
+          "translation": "关于底层工作的细节，可以从治疗伤病的医疗报告、信件、关于各种职业的书面文件、文学作品、墓穴铭文以及艺术表现中得知。\n这些证据呈现了古埃及日常工作的全面图景——包括工作是如何完成的，有时还包括人们对工作的感受。\n总体而言，无论从事何种职业，埃及人似乎对工作感到自豪。\n每个人都能为社区做出贡献，没有任何技能被认为是不必要的。\n制作杯碗的陶工对社区的重要性与书吏相当，而护身符制作者与药剂师同样不可或缺。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Part of making a living, regardless of one's special skills,was taking part in the king's monumental building projects.Although it is commonly believed that the great monuments and temples of Egypt were achieved through slave labor, there is absolutely no evidence to support this. The pyramids and other monuments were built by Egyptian laborers who either donated their time as community service or were paid for their labor, and Egyptians from every occupation could be called on to do this.",
+          "translation": "无论个人拥有何种特殊技能，谋生的一部分都包括参与国王的大型建筑工程。\n尽管人们普遍认为埃及的伟大纪念碑和寺庙是通过奴隶劳动建成的，但完全没有证据支持这一说法。\n金字塔和其他纪念碑是由埃及劳工建造的，他们要么以社区服务的形式贡献时间，要么因劳动获得报酬；来自各行各业的埃及人都可能被征召参与这项工作。\n无论一个人拥有何种特殊技能，谋生的一部分都包括参与国王的宏伟建筑项目。\n尽管人们普遍认为埃及的伟大纪念碑和神庙是通过奴隶劳动建造的，但绝对没有证据支持这一点。\n金字塔和其他纪念碑是由埃及劳动者建造的，他们要么作为社区服务自愿贡献时间，要么因劳动获得报酬，并且每个行业的埃及人都可能被征召参与这项工作。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Stone had to first be quarried and this required workers to split the blocks from the rock cliffs. It was done by inserting wooden wedges in the rock which would swell and cause the stone to break from the face. The often huge blocks were then pushed onto sleds, devices better suited than wheeled vehicles to moving weighty objects over shifting sand.They were then rolled to a different location where they could be cut and shaped. This job was done by skilled stonemasons working with copper chisels and wooden mallets.As the chisels could get blunt, a specialist in sharpening would take the tool, sharpen it, and bring it back. This would have been constant daily work as the masons could wear down their tools on a single block.",
+          "translation": "首先必须开采石头，这需要工人从岩石崖壁上劈下石块。\n这一过程通过将木楔插入岩石中来完成，木楔会膨胀，从而使石头从岩面断裂。\n这些通常巨大的石块随后被推到雪橇上，这种工具比轮式车辆更适合在流沙上移动重物。\n然后被滚到另一个地点进行切割和塑形。\n这项工作由熟练的石匠完成，他们使用铜凿和木槌。\n由于凿子会变钝，一名磨刀专家会拿走工具，将其磨利，再送回来。\n这成了日常的持续工作，因为石匠打磨一块石料就可能磨损工具。\n首先必须开采石头，这需要工人们将石块从岩石峭壁上劈裂下来。\n这是通过将木楔插入岩石中实现的，木楔会膨胀，从而使石头从岩面崩裂。\n这些通常巨大的石块随后被推到雪橇上，这种装置比轮式车辆更适合在松动的沙地上移动重物。\n随后它们被滚动到另一个地点，在那里可以进行切割和塑形。\n这项工作由熟练的石匠完成，他们使用铜凿和木槌进行操作。\n由于凿子会变钝，一名磨锐工具的专业人员会拿走工具，将其磨锐后再送回来。\n这会是日常持续不断的工作，因为石匠们仅加工一块石头就可能磨损他们的工具。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "The blocks were then moved into position by unskilled laborers. These people were mostly farmers who could do nothing with their land during the months when the Nile River overflowed its banks. Egyptologists Bob Brier and Hoyt Hobbs explain:‘For two months annually, workmen gathered by the tens of thousands from all over the country to transport the blocks a permanent crew had quarried during the rest of the year. Overseers organized the men into teams to transport the stones on the sleds.'Once the pyramid was complete,the inner chambers needed to be decorated by scribes who painted elaborate images on the walls. Interior work on tombs and temples also required sculptors who could expertly cutaway the stone around certain figures or scenes that had been painted.",
+          "translation": "随后，这些石块由非熟练工人搬运到位。\n这些人大多是农民，在尼罗河泛滥的数月间，他们无法耕种自己的土地。\n埃及学家鲍勃·布里尔和霍伊特·霍布斯解释道：‘每年有两个月，来自全国各地的数万名工人聚集在一起，运输一支固定队伍在一年中其余时间开采的石块。\n监工将人们组织成小组，用雪橇运输石块。’\n一旦金字塔完工，内部墓室需要由书吏进行装饰，他们在墙壁上绘制精美的图像。\n墓葬和神庙的内部工作还需要雕刻家，他们能够熟练地凿除已绘制的特定人物或场景周围的石头。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "While these artists were highly skilled, everyone - no matter what their job for the rest of the year - was expected to contribute to communal projects. This practice was in keeping with the value of ma’at (harmony and balance) which was central to Egyptian culture. One was expected to care for others as much as oneself and contributing to the common good was an expression of this. There is no doubt there were many people who did not love their job every day, but the Egyptian government was aware of how hard the people worked and so staged a number of festivals throughout the year to show gratitude and give them days off to relax.",
+          "translation": "尽管这些艺术家技艺高超，但每个人——无论一年中其他时间从事什么工作——都被期望为公共项目做出贡献。\n这种做法符合玛亚特（和谐与平衡）的价值观，这是埃及文化的核心。\n人们被期望像关心自己一样关心他人，而促进公共利益正是这一点的体现。\n毫无疑问，许多人并不是每天都热爱自己的工作，但埃及政府深知人民的辛苦劳作，因此全年举办了许多节日以表达感谢，并给他们放假休息。\n尽管这些艺术家技艺高超，但每个人——无论一年中其余时间从事何种工作——都被期望为社区项目做出贡献。\n这一做法符合玛亚特（和谐与平衡）的价值观，该价值观是埃及文化的核心。\n人们被期望像关爱自己一样关爱他人，而为公共利益做贡献正是这一理念的体现。\n毫无疑问，有许多人并不每天都热爱自己的工作，但埃及政府意识到人民工作的艰辛，因此在全年举办了许多节日以表达感激之情，并给予他们休息日放松身心。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "13988",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 28 - 32\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117500",
+              "number": 28,
+              "prompt": "What does the writer say about scribes in ancient Egypt?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Their working days were very long."
+                },
+                {
+                  "value": "B",
+                  "label": "The topics they wrote about were very varied."
+                },
+                {
+                  "value": "C",
+                  "label": "Many of them were once ordinary working people."
+                },
+                {
+                  "value": "D",
+                  "label": "Few of them realised the true value of their occupation."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问关于古埃及抄写员（scribes）的信息，正确选项为B。原文段落A中明确指出：‘Scribes noted the everyday activities in ancient Egypt and wrote about everything from grain stocks to tax records’，说明他们记录的内容涵盖日常生活的方方面面，从粮食储备到税收记录，体现出写作主题的多样性。因此，选项B‘The topics they wrote about were very varied’是对原文信息的准确概括。",
+              "reason": "display_answer为B，原文明确scribes记录内容多样，对应B选项。",
+              "location_analysis": "选项B对应原文提及scribes记录从粮食到税收等多样内容，即the topics varied。",
+              "paraphrasing": "topics varied -> every day activities ... everything from ... to ...",
+              "keywords": "scribes, topics, varied",
+              "evidence": [
+                "Scribes noted the everyday activities in ancient Egypt and wrote about everything from grain stocks to tax records."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及 scribes 的工作时长，或暗示工作时间并不长。",
+                "C": "原文表明 scribes 多出身于精英阶层，而非普通劳动者。",
+                "D": "原文指出 scribes 充分认识到自己职业的崇高地位，而非少数人意识到其价值。"
+              }
+            },
+            {
+              "id": "117502",
+              "number": 29,
+              "prompt": "What is the writer doing in the second paragraph?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "explaining why jobs were plentiful in ancient Egypt"
+                },
+                {
+                  "value": "B",
+                  "label": "pointing out how honest workers were in ancient Egypt"
+                },
+                {
+                  "value": "C",
+                  "label": "comparing manual and professional work in ancient Egypt"
+                },
+                {
+                  "value": "D",
+                  "label": "noting the range of duties an individual worker had in ancient Egypt"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问作者在第二段（段落B）中的写作目的，正确答案是A。该段开头即说明‘there was no shortage of jobs at any time in Egypt's history’，随后列举了刷子、碗、衣物、纸张等日常用品均需手工制作，强调各类工作机会始终充足。因此，作者是在解释为何古埃及的工作岗位非常充裕，与选项A‘explaining why jobs were plentiful in ancient Egypt’完全对应。",
+              "reason": "display_answer为A，段落主旨为工作机会多，对应A选项。",
+              "location_analysis": "选项A正确，第二段直接说埃及历史上从不缺工作，并举例说明各工种需求。",
+              "paraphrasing": "explaining why jobs were plentiful -> there was no shortage of jobs at any time in Egypt's history",
+              "keywords": "second paragraph, jobs plentiful",
+              "evidence": [
+                "You needed to work if you wanted to eat, but there was no shortage of jobs at any time in Egypt's history."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": {
+                "B": "原文未提及古埃及工人是否诚实，该选项无中生有。",
+                "C": "原文未对体力劳动与专业工作进行对比，属于信息缺失。",
+                "D": "原文未具体说明单个工人的职责范围，与段落内容不符。"
+              }
+            },
+            {
+              "id": "117504",
+              "number": 30,
+              "prompt": "What is the writer doing in the fifth paragraph?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "explaining a problem"
+                },
+                {
+                  "value": "B",
+                  "label": "describing a change"
+                },
+                {
+                  "value": "C",
+                  "label": "rejecting a popular view"
+                },
+                {
+                  "value": "D",
+                  "label": "criticising a past activity"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问第五段（段落E）的写作意图，正确答案为C。该段先提出一个普遍看法：‘it is commonly believed that the great monuments...were achieved through slave labor’，但紧接着用‘there is absolutely no evidence to support this’予以否定。这种结构明显是在反驳一个广为流传但错误的观点，因此选项C‘rejecting a popular view’准确反映了作者的写作目的。",
+              "reason": "display_answer为C，段落在推翻常见误解。",
+              "location_analysis": "选项C正确，第五段先说普遍观点（奴隶劳动），随即反驳说毫无证据。",
+              "paraphrasing": "popular view -> it is commonly believed ... slave labor; rejecting -> there is absolutely no evidence to support this",
+              "keywords": "fifth paragraph, rejecting a popular view",
+              "evidence": [
+                "Although it is commonly believed that the great monuments and temples of Egypt were achieved through slave labor, there is absolutely no evidence to support this."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "该段落并非在解释某个问题，而是针对一个普遍观点提出反驳。",
+                "B": "段落内容未涉及任何变化的描述，而是聚焦于对流行观点的否定。",
+                "D": "虽然涉及过去活动，但作者并非在批评，而是在驳斥人们对这些活动的普遍看法。"
+              }
+            },
+            {
+              "id": "117507",
+              "number": 31,
+              "prompt": "The writer refers to the value of ma'at in order to explain",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "how the work of artists reflected beliefs in ancient Egypt."
+                },
+                {
+                  "value": "B",
+                  "label": "how ancient Egyptians viewed their role in society."
+                },
+                {
+                  "value": "C",
+                  "label": "why the opinions of certain people were valued in ancient Egypt."
+                },
+                {
+                  "value": "D",
+                  "label": "why ancient Egyptians expressed their views so readily."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问作者提及‘ma’at’（和谐与平衡）的价值是为了说明什么，正确答案是B。段落H指出，所有人都被期望参与公共项目，这是对‘ma’at’价值观的体现，并进一步解释‘One was expected to care for others as much as oneself and contributing to the common good was an expression of this’。这表明古埃及人将社会贡献视为自身角色的一部分，因此选项B‘how ancient Egyptians viewed their role in society’正确。",
+              "reason": "display_answer为B，ma'at说明埃及人对社会角色的认知。",
+              "location_analysis": "选项B正确，ma'at解释了埃及人如何看待自己在社会中的角色（照顾他人、贡献集体）。",
+              "paraphrasing": "how ancient Egyptians viewed their role -> everybody ... expected to care for others ... contributing to the common good was an expression of ma'at",
+              "keywords": "ma'at, role in society",
+              "evidence": [
+                "This practice was in keeping with the value of ma’at (harmony and balance) which was central to Egyptian culture.",
+                "One was expected to care for others as much as oneself and contributing to the common good was an expression of this."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": {
+                "A": "文章提及ma'at的价值是为了说明古埃及人如何理解自身角色，而非艺术作品如何反映信仰，属无中生有。",
+                "C": "ma'at的价值与特定人群意见被重视无关，原文未建立该联系，属张冠李戴。",
+                "D": "ma'at的价值与表达观点的轻易性无关，原文未提及此信息，属无中生有。"
+              }
+            },
+            {
+              "id": "117509",
+              "number": 32,
+              "prompt": "Which word best describes the attitude of the Egyptian government toward its workers?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "strict"
+                },
+                {
+                  "value": "B",
+                  "label": "patient"
+                },
+                {
+                  "value": "C",
+                  "label": "negligent"
+                },
+                {
+                  "value": "D",
+                  "label": "appreciative"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问埃及政府对工人的态度，正确答案是D（appreciative）。段落H末尾提到：‘the Egyptian government was aware of how hard the people worked and so staged a number of festivals throughout the year to show gratitude and give them days off to relax’。这表明政府通过举办节日和给予休假来表达感谢，体现出赞赏和感激的态度，与选项D完全吻合。",
+              "reason": "display_answer为D，政府行为显示对工人的赞赏。",
+              "location_analysis": "选项D正确，埃及政府通过节日和休假表达对工人的感激，即appreciative。",
+              "paraphrasing": "appreciative -> staged festivals ... to show gratitude and give them days off",
+              "keywords": "Egyptian government, appreciative",
+              "evidence": [
+                "the Egyptian government was aware of how hard the people worked and so staged a number of festivals throughout the year to show gratitude and give them days off to relax."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及政府态度严厉，可能属于无中生有。",
+                "B": "原文未体现政府有耐心的态度，该信息缺乏依据。",
+                "C": "与原文中政府可能欣赏工人的描述矛盾，属于信息矛盾。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "14000",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 33 - 36\nLook at the following statements (Questions 33-36) and the list of jobs below.\nMatch each statement with the correct job, A-G.\nChoose the correct word and move it into the gap.",
+          "option_title": "List of Jobs",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. scribe"
+            },
+            {
+              "value": "B",
+              "label": "B. reed cutter"
+            },
+            {
+              "value": "C",
+              "label": "C. farmer"
+            },
+            {
+              "value": "D",
+              "label": "D. potter"
+            },
+            {
+              "value": "E",
+              "label": "E. stonemason"
+            },
+            {
+              "value": "F",
+              "label": "F. overseer"
+            },
+            {
+              "value": "G",
+              "label": "G. sculptor"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117510",
+              "number": 33,
+              "prompt": "was unable to work at certain times",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. scribe"
+                },
+                {
+                  "value": "B",
+                  "label": "B. reed cutter"
+                },
+                {
+                  "value": "C",
+                  "label": "C. farmer"
+                },
+                {
+                  "value": "D",
+                  "label": "D. potter"
+                },
+                {
+                  "value": "E",
+                  "label": "E. stonemason"
+                },
+                {
+                  "value": "F",
+                  "label": "F. overseer"
+                },
+                {
+                  "value": "G",
+                  "label": "G. sculptor"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干描述某职业‘在特定时间无法工作’，正确答案是C（farmer）。段落G指出：‘These people were mostly farmers who could do nothing with their land during the months when the Nile River overflowed its banks’。尼罗河泛滥期间农田被淹，农民无法耕作，因此确实存在无法工作的固定时段，与题干描述一致。",
+              "reason": "display_answer为C，农民在特定时间无法工作。",
+              "location_analysis": "匹配C farmer，原文说明农民在尼罗河泛滥期间无法耕作，对应无法工作。",
+              "paraphrasing": "was unable to work at certain times -> farmers could do nothing with their land during the months when the Nile River overflowed",
+              "keywords": "farmer, unable to work, certain times",
+              "evidence": [
+                "These people were mostly farmers who could do nothing with their land during the months when the Nile River overflowed its banks."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117511",
+              "number": 34,
+              "prompt": "divided workers into groups",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. scribe"
+                },
+                {
+                  "value": "B",
+                  "label": "B. reed cutter"
+                },
+                {
+                  "value": "C",
+                  "label": "C. farmer"
+                },
+                {
+                  "value": "D",
+                  "label": "D. potter"
+                },
+                {
+                  "value": "E",
+                  "label": "E. stonemason"
+                },
+                {
+                  "value": "F",
+                  "label": "F. overseer"
+                },
+                {
+                  "value": "G",
+                  "label": "G. sculptor"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干描述某职业‘将工人分成小组’，正确答案是F（overseer）。段落G中明确提到：‘Overseers organized the men into teams to transport the stones on the sleds’。其中‘organized the men into teams’即‘divided workers into groups’的同义表达，直接对应题干要求，因此答案为overseer。",
+              "reason": "原文overseers组织队伍，对应F。",
+              "location_analysis": "Overseers将工人分成小组运输石块。",
+              "paraphrasing": "divided workers into groups -> organized the men into teams",
+              "keywords": "divided workers into groups, overseer",
+              "evidence": [
+                "Overseers organized the men into teams to transport the stones on the sleds."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117512",
+              "number": 35,
+              "prompt": "faced daily hazards",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. scribe"
+                },
+                {
+                  "value": "B",
+                  "label": "B. reed cutter"
+                },
+                {
+                  "value": "C",
+                  "label": "C. farmer"
+                },
+                {
+                  "value": "D",
+                  "label": "D. potter"
+                },
+                {
+                  "value": "E",
+                  "label": "E. stonemason"
+                },
+                {
+                  "value": "F",
+                  "label": "F. overseer"
+                },
+                {
+                  "value": "G",
+                  "label": "G. sculptor"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干描述某职业‘面临日常危险’，正确答案是B（reed cutter）。段落B指出：‘The reed cutter...had to bear in mind that he worked in an area that was also home to wildlife that, at times, could prove fatal’。这说明芦苇收割者在其工作环境中需面对可能致命的野生动物，构成持续性的安全威胁，符合‘daily hazards’的描述。",
+              "reason": "display_answer为B，reed cutter面临日常危险。",
+              "location_analysis": "匹配B reed cutter，原文描述其工作区域有致命野生动物，即日常危险。",
+              "paraphrasing": "faced daily hazards -> had to bear in mind that he worked in an area that was also home to wildlife that, at times, could prove fatal",
+              "keywords": "reed cutter, daily hazards",
+              "evidence": [
+                "The reed cutter, for example, who harvested papyrus plants along the Nile, had to bear in mind that he worked in an area that was also home to wildlife that, at times, could prove fatal."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117513",
+              "number": 36,
+              "prompt": "underwent a long period of training",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. scribe"
+                },
+                {
+                  "value": "B",
+                  "label": "B. reed cutter"
+                },
+                {
+                  "value": "C",
+                  "label": "C. farmer"
+                },
+                {
+                  "value": "D",
+                  "label": "D. potter"
+                },
+                {
+                  "value": "E",
+                  "label": "E. stonemason"
+                },
+                {
+                  "value": "F",
+                  "label": "F. overseer"
+                },
+                {
+                  "value": "G",
+                  "label": "G. sculptor"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干描述某职业‘经历了长期培训’，正确答案是A（scribe）。段落A提到：‘The apprenticeship for this job lasted many years and was tough and challenging’，明确说明抄写员的学徒期长达数年，且过程艰苦，这与‘underwent a long period of training’完全对应，因此答案为scribe。",
+              "reason": "display_answer为A，scribe训练时间很长。",
+              "location_analysis": "匹配A scribe，原文明确指出学徒期持续多年，即长期培训。",
+              "paraphrasing": "underwent a long period of training -> apprenticeship for this job lasted many years",
+              "keywords": "scribe, long period of training",
+              "evidence": [
+                "The apprenticeship for this job lasted many years and was tough and challenging."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Jobs"
+          }
+        },
+        {
+          "id": "14004",
+          "type": 8,
+          "title": "The king's building projects",
+          "instructions": "Questions 37 - 40\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "117518",
+              "number": 37,
+              "prompt": "Labourers who worked on the king's buildings were local people who chose to participate in _____ or who received payment.",
+              "options": [],
+              "answer": "community service",
+              "accepted_answers": [
+                "community service"
+              ],
+              "analysis": "题干要求填写参与国王建筑工程的劳工动机之一，答案为‘community service’。段落E指出：‘The pyramids...were built by Egyptian laborers who either donated their time as community service or were paid for their labor’。此处‘donated their time as community service’直接对应题干中‘chose to participate in...’的表述，且符合‘NO MORE THAN TWO WORDS’的要求。",
+              "reason": "display_answer为community service，原文直接提及。",
+              "location_analysis": "空格需填写与payment并列的名词，原文donated...as community ser...",
+              "paraphrasing": "chose to participate in community service -> donated their time as community service",
+              "keywords": "community service",
+              "evidence": [
+                "The pyramids and other monuments were built by Egyptian laborers who either donated their time as community service or were paid for their labor"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117519",
+              "number": 38,
+              "prompt": "The work involved breaking up stone cliffs using wooden wedges. The large pieces of stone were then transported to another site on sleds, which moved easily over the _____. Here, the blocks could be cut and shaped using tools made of _____ and wood. Some of these had to be sharpened regularly.",
+              "options": [],
+              "answer": "shifting sand",
+              "accepted_answers": [
+                "shifting sand"
+              ],
+              "analysis": "题干要求填写雪橇（sleds）移动所经的地面类型，答案为‘shifting sand’。段落F提到：‘sleds, devices better suited than wheeled vehicles to moving weighty objects over shifting sand’。这说明雪橇之所以被使用，正是因为其适合在松动流沙上运输重物，因此‘shifting sand’是准确且直接来自原文的答案。",
+              "reason": "display_answer为shifting sand，原文直接出现。",
+              "location_analysis": "空格在over the后，原文shifting sand为sleds移动的介质，符合题干。",
+              "paraphrasing": "moved easily over the shifting sand -> sleds ... better suited ... to moving weighty objects over shifting sand",
+              "keywords": "sleds, shifting sand",
+              "evidence": [
+                "The often huge blocks were then pushed onto sleds, devices better suited than wheeled vehicles to moving weighty objects over shifting sand."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117520",
+              "number": 39,
+              "prompt": "The work involved breaking up stone cliffs using wooden wedges. The large pieces of stone were then transported to another site on sleds, which moved easily over the _____. Here, the blocks could be cut and shaped using tools made of _____ and wood. Some of these had to be sharpened regularly.",
+              "options": [],
+              "answer": "copper",
+              "accepted_answers": [
+                "copper"
+              ],
+              "analysis": "题干要求填写用于切割和塑形石块的工具材质，答案为‘copper’。段落F明确说明：‘This job was done by skilled stonemasons working with copper chisels and wooden mallets’。题干中‘tools made of...and wood’对应原文中的‘copper chisels and wooden mallets’，因此只需提取‘copper’作为答案，符合字数限制。",
+              "reason": "display_answer为copper，原文明确工具材料。",
+              "location_analysis": "空格需填写材料，原文copper chisels，填copper满足NO MORE THAN ...",
+              "paraphrasing": "tools made of copper and wood -> stonemasons working with copper chisels and wooden mallets",
+              "keywords": "tools, copper, wood",
+              "evidence": [
+                "This job was done by skilled stonemasons working with copper chisels and wooden mallets."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "117521",
+              "number": 40,
+              "prompt": "Eventually, the stone was moved into place to create a building. The job of moving the stone was often done by _____ or other unskilled workers.",
+              "options": [],
+              "answer": "farmers",
+              "accepted_answers": [
+                "farmers"
+              ],
+              "analysis": "题干要求填写搬运石块的主要劳动力，答案为‘farmers’。段落G开头指出：‘The blocks were then moved into position by unskilled laborers. These people were mostly farmers’。这说明搬运工作主要由农民承担，他们属于非技术工人，与题干中‘or other unskilled workers’的结构完全吻合，因此‘farmers’是正确答案。",
+              "reason": "display_answer为farmers，原文明确指出。",
+              "location_analysis": "空格需填从事搬运的群体，原文说明mainly farmers，符合题干or other uns...",
+              "paraphrasing": "often done by farmers or other unskilled workers -> These people were mostly farmers",
+              "keywords": "unskilled workers, farmers",
+              "evidence": [
+                "The blocks were then moved into position by unskilled laborers. These people were mostly farmers"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Labourers who worked on the king's buildings were local people who chose to participate in $117518$ or who received payment.\nThe work involved breaking up stone cliffs using wooden wedges. The large pieces of stone were then transported to another site on sleds, which moved easily over the $117519$. Here, the blocks could be cut and shaped using tools made of $117520$ and wood. Some of these had to be sharpened regularly.\nEventually, the stone was moved into place to create a building. The job of moving the stone was often done by $117521$ or other unskilled workers.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Labourers who worked on the king's buildings were local people who chose to participate in $117518$ or who received payment.\nThe work involved breaking up stone cliffs using wooden wedges. The large pieces of stone were then transported to another site on sleds, which moved easily over the $117519$. Here, the blocks could be cut and shaped using tools made of $117520$ and wood. Some of these had to be sharpened regularly.\nEventually, the stone was moved into place to create a building. The job of moving the stone was often done by $117521$ or other unskilled workers."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Jobs in ancient Egypt",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "In order to be engaged in the higher professions in ancient Egypt, a person had to be literate and so first had to become a scribe.",
+          "translation": "要在古埃及从事高级职业，一个人必须识字，因此首先得成为一名抄写员。"
+        },
+        {
+          "index": 3,
+          "sentence": "The apprenticeship for this job lasted many years and was tough and challenging.",
+          "translation": "这项工作的学徒期持续多年，且艰难而充满挑战。"
+        },
+        {
+          "index": 4,
+          "sentence": "It principally involved memorizing hieroglyphic symbols and practicing handwritten lettering.",
+          "translation": "它主要包括记忆象形文字符号和练习手写字体。"
+        },
+        {
+          "index": 5,
+          "sentence": "Scribes noted the everyday activities in ancient Egypt and wrote about everything from grain stocks to tax records.",
+          "translation": "抄写员记录古埃及的日常活动，从粮食储备到税务记录无所不写。"
+        },
+        {
+          "index": 6,
+          "sentence": "Therefore, most of our information on this rich culture comes from their records.",
+          "translation": "因此，我们关于这一丰富文化的大部分信息都来自他们的记录。"
+        },
+        {
+          "index": 7,
+          "sentence": "Most scribes were men from privileged backgrounds.",
+          "translation": "大多数抄写员是来自特权阶层的男性。"
+        },
+        {
+          "index": 8,
+          "sentence": "The occupation of scribe was among the most sought-after in ancient Egypt.",
+          "translation": "抄写员的职业在古埃及是最令人向往的职业之一。"
+        },
+        {
+          "index": 9,
+          "sentence": "Craftspeople endeavored to get their sons into the school for scribes, but they were rarely successful.",
+          "translation": "工匠们竭力将儿子送进抄写员学校，但成功的寥寥无几。"
+        },
+        {
+          "index": 10,
+          "sentence": "As in many civilizations, the lower classes provided the means for those above them to live comfortable lives.",
+          "translation": "正如许多文明一样，下层阶级为上流社会提供了舒适生活的手段。"
+        },
+        {
+          "index": 11,
+          "sentence": "You needed to work if you wanted to eat, but there was no shortage of jobs at any time in Egypt's history.",
+          "translation": "想要糊口就必须工作，但在埃及历史上的任何时候都不缺乏工作机会。"
+        },
+        {
+          "index": 12,
+          "sentence": "The commonplace items taken for granted today, such as a brush or bowl, had to be made by hand; laundry had to be washed by hand, clothing sewn, and sandals made from papyrus and palm leaves.",
+          "translation": "如今被视为理所当然的日常物品，如刷子或碗，必须手工制作；衣物必须手洗，衣服需缝制，凉鞋则用纸莎草和棕榈叶制成。"
+        },
+        {
+          "index": 13,
+          "sentence": "In order to make these and have paper to write on, papyrus plants had to be harvested, processed, and distributed and all these jobs needed workers.",
+          "translation": "为了制造这些物品并拥有书写用的纸张，纸莎草植物必须被收割、加工和分配，所有这些工作都需要工人。"
+        },
+        {
+          "index": 14,
+          "sentence": "There were rewards and sometimes difficulties.",
+          "translation": "工作中既有回报，有时也伴随着困难。"
+        },
+        {
+          "index": 15,
+          "sentence": "The reed cutter, for example, who harvested papyrus plants along the Nile, had to bear in mind that he worked in an area that was also home to wildlife that, at times, could prove fatal.",
+          "translation": "例如，在尼罗河沿岸收割纸莎草的割苇工必须牢记，他工作的地方也是野生动物的栖息地，这些动物有时可能致命。"
+        },
+        {
+          "index": 16,
+          "sentence": "As in many civilizations, the lower classes provided the means for those above them to live comfortable lives.",
+          "translation": "正如许多文明一样，下层阶级为上层阶级提供了过上舒适生活的手段。"
+        },
+        {
+          "index": 17,
+          "sentence": "You needed to work if you wanted to eat, but there was no shortage of jobs at any time in Egypt's history.",
+          "translation": "如果你想吃饭，就必须工作，但在埃及历史的任何时期，工作机会都不短缺。"
+        },
+        {
+          "index": 18,
+          "sentence": "The commonplace items taken for granted today, such as a brush or bowl, had to be made by hand; laundry had to be washed by hand, clothing sewn, and sandals made from papyrus and palm leaves.",
+          "translation": "如今被视为理所当然的日常物品，如刷子或碗，都必须手工制作；衣物需手洗，衣服需缝制，凉鞋需用纸莎草和棕榈叶制作。"
+        },
+        {
+          "index": 19,
+          "sentence": "In order to make these and have paper to write on, papyrus plants had to be harvested, processed, and distributed and all these jobs needed workers.",
+          "translation": "为了制作这些物品并拥有书写用的纸，纸莎草植物必须被收割、加工和分配，所有这些工作都需要工人。"
+        },
+        {
+          "index": 20,
+          "sentence": "There were rewards and sometimes difficulties.",
+          "translation": "工作中既有回报，有时也有困难。"
+        },
+        {
+          "index": 21,
+          "sentence": "The reed cutter, for example, who harvested papyrus plants along the Nile, had to bear in mind that he worked in an area that was also home to wildlife that, at times, could prove fatal.",
+          "translation": "例如，在尼罗河沿岸收割纸莎草植物的割苇人必须牢记，他所工作的区域也是野生动物的栖息地，这些动物有时可能致命。"
+        },
+        {
+          "index": 23,
+          "sentence": "At the bottom rung of all these jobs were the people who served as the basis for the entire economy: the farmers.",
+          "translation": "在这些工作的最底层，是作为整个经济基础的人们：农民。"
+        },
+        {
+          "index": 24,
+          "sentence": "Farmers usually did not own the land they worked.",
+          "translation": "农民通常并不拥有他们耕作的土地。"
+        },
+        {
+          "index": 25,
+          "sentence": "They were given food, implements, and living quarters as payment for their labor.",
+          "translation": "他们获得食物、工具和住所作为劳动的报酬。"
+        },
+        {
+          "index": 26,
+          "sentence": "Although there were many more glamorous jobs than farming, farmers were the backbone of the Egyptian economy and sustained everyone else.",
+          "translation": "虽然有许多比农耕更光鲜的工作，但农民是埃及经济的支柱，供养着其他所有人。"
+        },
+        {
+          "index": 28,
+          "sentence": "The details of lower-class jobs are known from medical reports on the treatment of injuries, letters, and documents written on various professions, literary works, tomb inscriptions, and artistic representations.",
+          "translation": "关于底层工作的细节，可以从治疗伤病的医疗报告、信件、关于各种职业的书面文件、文学作品、墓穴铭文以及艺术表现中得知。"
+        },
+        {
+          "index": 29,
+          "sentence": "This evidence presents a comprehensive view of daily work in ancient Egypt - how the jobs were done, and sometimes how people felt about the work.",
+          "translation": "这些证据呈现了古埃及日常工作的全面图景——包括工作是如何完成的，有时还包括人们对工作的感受。"
+        },
+        {
+          "index": 30,
+          "sentence": "In general, the Egyptians seem to have felt pride in their work no matter what their occupation.",
+          "translation": "总体而言，无论从事何种职业，埃及人似乎对工作感到自豪。"
+        },
+        {
+          "index": 31,
+          "sentence": "Everyone had something to contribute to the community, and no skills seem to have been considered non-essential.",
+          "translation": "每个人都能为社区做出贡献，没有任何技能被认为是不必要的。"
+        },
+        {
+          "index": 32,
+          "sentence": "The potter who produced cups and bowls was as important to the community as the scribe, and the amulet-maker as vital as the pharmacist.",
+          "translation": "制作杯碗的陶工对社区的重要性与书吏相当，而护身符制作者与药剂师同样不可或缺。"
+        },
+        {
+          "index": 33,
+          "sentence": "Part of making a living, regardless of one's special skills, was taking part in the king's monumental building projects.",
+          "translation": "无论个人拥有何种特殊技能，谋生的一部分都包括参与国王的大型建筑工程。"
+        },
+        {
+          "index": 34,
+          "sentence": "Although it is commonly believed that the great monuments and temples of Egypt were achieved through slave labor, there is absolutely no evidence to support this.",
+          "translation": "尽管人们普遍认为埃及的伟大纪念碑和寺庙是通过奴隶劳动建成的，但完全没有证据支持这一说法。"
+        },
+        {
+          "index": 35,
+          "sentence": "The pyramids and other monuments were built by Egyptian laborers who either donated their time as community service or were paid for their labor, and Egyptians from every occupation could be called on to do this.",
+          "translation": "金字塔和其他纪念碑是由埃及劳工建造的，他们要么以社区服务的形式贡献时间，要么因劳动获得报酬；来自各行各业的埃及人都可能被征召参与这项工作。"
+        },
+        {
+          "index": 36,
+          "sentence": "Part of making a living, regardless of one's special skills, was taking part in the king's monumental building projects.",
+          "translation": "无论一个人拥有何种特殊技能，谋生的一部分都包括参与国王的宏伟建筑项目。"
+        },
+        {
+          "index": 37,
+          "sentence": "Although it is commonly believed that the great monuments and temples of Egypt were achieved through slave labor, there is absolutely no evidence to support this.",
+          "translation": "尽管人们普遍认为埃及的伟大纪念碑和神庙是通过奴隶劳动建造的，但绝对没有证据支持这一点。"
+        },
+        {
+          "index": 38,
+          "sentence": "The pyramids and other monuments were built by Egyptian laborers who either donated their time as community service or were paid for their labor, and Egyptians from every occupation could be called on to do this.",
+          "translation": "金字塔和其他纪念碑是由埃及劳动者建造的，他们要么作为社区服务自愿贡献时间，要么因劳动获得报酬，并且每个行业的埃及人都可能被征召参与这项工作。"
+        },
+        {
+          "index": 39,
+          "sentence": "Stone had to first be quarried and this required workers to split the blocks from the rock cliffs.",
+          "translation": "首先必须开采石头，这需要工人从岩石崖壁上劈下石块。"
+        },
+        {
+          "index": 40,
+          "sentence": "It was done by inserting wooden wedges in the rock which would swell and cause the stone to break from the face.",
+          "translation": "这一过程通过将木楔插入岩石中来完成，木楔会膨胀，从而使石头从岩面断裂。"
+        },
+        {
+          "index": 41,
+          "sentence": "The often huge blocks were then pushed onto sleds, devices better suited than wheeled vehicles to moving weighty objects over shifting sand.",
+          "translation": "这些通常巨大的石块随后被推到雪橇上，这种工具比轮式车辆更适合在流沙上移动重物。"
+        },
+        {
+          "index": 42,
+          "sentence": "They were then rolled to a different location where they could be cut and shaped.",
+          "translation": "然后被滚到另一个地点进行切割和塑形。"
+        },
+        {
+          "index": 43,
+          "sentence": "This job was done by skilled stonemasons working with copper chisels and wooden mallets.",
+          "translation": "这项工作由熟练的石匠完成，他们使用铜凿和木槌。"
+        },
+        {
+          "index": 44,
+          "sentence": "As the chisels could get blunt, a specialist in sharpening would take the tool, sharpen it, and bring it back.",
+          "translation": "由于凿子会变钝，一名磨刀专家会拿走工具，将其磨利，再送回来。"
+        },
+        {
+          "index": 45,
+          "sentence": "This would have been constant daily work as the masons could wear down their tools on a single block.",
+          "translation": "这成了日常的持续工作，因为石匠打磨一块石料就可能磨损工具。"
+        },
+        {
+          "index": 46,
+          "sentence": "Stone had to first be quarried and this required workers to split the blocks from the rock cliffs.",
+          "translation": "首先必须开采石头，这需要工人们将石块从岩石峭壁上劈裂下来。"
+        },
+        {
+          "index": 47,
+          "sentence": "It was done by inserting wooden wedges in the rock which would swell and cause the stone to break from the face.",
+          "translation": "这是通过将木楔插入岩石中实现的，木楔会膨胀，从而使石头从岩面崩裂。"
+        },
+        {
+          "index": 48,
+          "sentence": "The often huge blocks were then pushed onto sleds, devices better suited than wheeled vehicles to moving weighty objects over shifting sand.",
+          "translation": "这些通常巨大的石块随后被推到雪橇上，这种装置比轮式车辆更适合在松动的沙地上移动重物。"
+        },
+        {
+          "index": 49,
+          "sentence": "They were then rolled to a different location where they could be cut and shaped.",
+          "translation": "随后它们被滚动到另一个地点，在那里可以进行切割和塑形。"
+        },
+        {
+          "index": 50,
+          "sentence": "This job was done by skilled stonemasons working with copper chisels and wooden mallets.",
+          "translation": "这项工作由熟练的石匠完成，他们使用铜凿和木槌进行操作。"
+        },
+        {
+          "index": 51,
+          "sentence": "As the chisels could get blunt, a specialist in sharpening would take the tool, sharpen it, and bring it back.",
+          "translation": "由于凿子会变钝，一名磨锐工具的专业人员会拿走工具，将其磨锐后再送回来。"
+        },
+        {
+          "index": 52,
+          "sentence": "This would have been constant daily work as the masons could wear down their tools on a single block.",
+          "translation": "这会是日常持续不断的工作，因为石匠们仅加工一块石头就可能磨损他们的工具。"
+        },
+        {
+          "index": 54,
+          "sentence": "The blocks were then moved into position by unskilled laborers.",
+          "translation": "随后，这些石块由非熟练工人搬运到位。"
+        },
+        {
+          "index": 55,
+          "sentence": "These people were mostly farmers who could do nothing with their land during the months when the Nile River overflowed its banks.",
+          "translation": "这些人大多是农民，在尼罗河泛滥的数月间，他们无法耕种自己的土地。"
+        },
+        {
+          "index": 56,
+          "sentence": "Egyptologists Bob Brier and Hoyt Hobbs explain:‘For two months annually, workmen gathered by the tens of thousands from all over the country to transport the blocks a permanent crew had quarried during the rest of the year.",
+          "translation": "埃及学家鲍勃·布里尔和霍伊特·霍布斯解释道：‘每年有两个月，来自全国各地的数万名工人聚集在一起，运输一支固定队伍在一年中其余时间开采的石块。"
+        },
+        {
+          "index": 57,
+          "sentence": "Overseers organized the men into teams to transport the stones on the sleds.'",
+          "translation": "监工将人们组织成小组，用雪橇运输石块。’"
+        },
+        {
+          "index": 58,
+          "sentence": "Once the pyramid was complete,the inner chambers needed to be decorated by scribes who painted elaborate images on the walls.",
+          "translation": "一旦金字塔完工，内部墓室需要由书吏进行装饰，他们在墙壁上绘制精美的图像。"
+        },
+        {
+          "index": 59,
+          "sentence": "Interior work on tombs and temples also required sculptors who could expertly cutaway the stone around certain figures or scenes that had been painted.",
+          "translation": "墓葬和神庙的内部工作还需要雕刻家，他们能够熟练地凿除已绘制的特定人物或场景周围的石头。"
+        },
+        {
+          "index": 60,
+          "sentence": "While these artists were highly skilled, everyone - no matter what their job for the rest of the year - was expected to contribute to communal projects.",
+          "translation": "尽管这些艺术家技艺高超，但每个人——无论一年中其他时间从事什么工作——都被期望为公共项目做出贡献。"
+        },
+        {
+          "index": 61,
+          "sentence": "This practice was in keeping with the value of ma’at (harmony and balance) which was central to Egyptian culture.",
+          "translation": "这种做法符合玛亚特（和谐与平衡）的价值观，这是埃及文化的核心。"
+        },
+        {
+          "index": 62,
+          "sentence": "One was expected to care for others as much as oneself and contributing to the common good was an expression of this.",
+          "translation": "人们被期望像关心自己一样关心他人，而促进公共利益正是这一点的体现。"
+        },
+        {
+          "index": 63,
+          "sentence": "There is no doubt there were many people who did not love their job every day, but the Egyptian government was aware of how hard the people worked and so staged a number of festivals throughout the year to show gratitude and give them days off to relax.",
+          "translation": "毫无疑问，许多人并不是每天都热爱自己的工作，但埃及政府深知人民的辛苦劳作，因此全年举办了许多节日以表达感谢，并给他们放假休息。"
+        },
+        {
+          "index": 64,
+          "sentence": "While these artists were highly skilled, everyone - no matter what their job for the rest of the year - was expected to contribute to communal projects.",
+          "translation": "尽管这些艺术家技艺高超，但每个人——无论一年中其余时间从事何种工作——都被期望为社区项目做出贡献。"
+        },
+        {
+          "index": 65,
+          "sentence": "This practice was in keeping with the value of ma’at (harmony and balance) which was central to Egyptian culture.",
+          "translation": "这一做法符合玛亚特（和谐与平衡）的价值观，该价值观是埃及文化的核心。"
+        },
+        {
+          "index": 66,
+          "sentence": "One was expected to care for others as much as oneself and contributing to the common good was an expression of this.",
+          "translation": "人们被期望像关爱自己一样关爱他人，而为公共利益做贡献正是这一理念的体现。"
+        },
+        {
+          "index": 67,
+          "sentence": "There is no doubt there were many people who did not love their job every day, but the Egyptian government was aware of how hard the people worked and so staged a number of festivals throughout the year to show gratitude and give them days off to relax.",
+          "translation": "毫无疑问，有许多人并不每天都热爱自己的工作，但埃及政府意识到人民工作的艰辛，因此在全年举办了许多节日以表达感激之情，并给予他们休息日放松身心。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

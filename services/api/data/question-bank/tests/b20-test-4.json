@@ -1,0 +1,2458 @@
+{
+  "id": "b20-test-4",
+  "book": "剑雅20",
+  "book_number": 20,
+  "name": "Test 4",
+  "title": "剑雅20 Test 4",
+  "parts": [
+    {
+      "id": "2942",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "The best bags for taking things to the sports centre or gym",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A Fjällräven vardag duffel 30",
+          "translation": "A 款 北极狐日常行李袋 30 升"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "This premium outdoor brand has a newly released lightweight bag in its product range. Constructed from the brand's special water-resistant fabric, it's also great from an eco-perspective, as it's made from 65 per cent recycled polyester and 35 per cent organic cotton. This bag is definitely strong, and you'll be able to squeeze it into a tight space without worrying about damaging it.",
+          "translation": "这个高端户外品牌在其产品系列中推出了一款新发布的轻量包。\n这款包采用该品牌特殊的防水面料制成，从环保角度来看也很出色，因为它由65%的再生聚酯纤维和35%的有机棉制成。\n这款包非常结实，你可以把它塞进狭窄的空间，而无需担心损坏它。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B Filson medium rugged twill duffel bag",
+          "translation": "B. Filson 中号坚固斜纹布行李袋"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "This brand has a great tradition of producing simply the best quality gear. lf you're inclined to treat yourself to a bag that should last you a lifetime, this is for you. Admittedly it's likely you'll need to save up for this one, but it's well worth it.",
+          "translation": "该品牌拥有一贯生产最优质装备的优秀传统。\n如果你倾向于为自己买一个能用一辈子的包，那么这款包很适合你。\n诚然，你可能需要为此存钱，但这非常值得。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C Deuter trans alpine pro 28",
+          "translation": "C Deuter 跨阿尔卑斯专业版 28 升包"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "This pack has got so many features, which does, however, make it on the heavier side. For example, the pouch at the back is expandable to put your bike helmet (or trainers / towel / other sizeable gear) in, and the side pockets are perfect for water bottles.",
+          "translation": "这款背包拥有众多功能，但这却使其偏重。\n例如，背部的袋子是可扩展的，可以放入你的自行车头盔（或运动鞋/毛巾/其他大件装备），而侧袋则非常适合放置水瓶。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D Columbia unisex convey 25l rolltop daypack",
+          "translation": "D 哥伦比亚男女通用 convey 25升卷顶日用背包"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The full-width zip means you can easily push stuff in. There's one main compartment which also has a separate padded sleeve for a tablet plus an extra zip pocket for valuables at the top and convenient metal rings to attach items like bike helmets if required.",
+          "translation": "全拉链设计意味着你可以轻松地将物品塞入。\n它有一个主隔层，还配有一个独立的软垫隔层用于放置平板电脑，顶部有一个额外的拉链口袋存放贵重物品，并且有方便的金属环，可根据需要挂上如自行车头盔等物品。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E The North Face base camp duffel",
+          "translation": "E 北面基础露营行李袋"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "This top-of-the-range bag has a very generous 50 litre storage capacity. If that's too much for you, there's always the trimmer 31 litre equivalent (which retails a little cheaper). There's an internal pocket to separate some gear out and an extra small external zip pocket on one of the ends.",
+          "translation": "这款顶级包具有非常大的50升存储容量。\n如果这对你来说太大了，还有更紧凑的31升版本（零售价格略低）。\n内部有一个口袋可以分隔部分装备，并且在一端还有一个额外的外部小拉链口袋。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F Under Armour sports style duffel",
+          "translation": "F 安德玛运动风格旅行袋"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "A simple yet effective and stylish bag. At 24 litres it's neat in size, and a separate smaller waterproof compartment at one of the ends is ideal for putting damp gear in so that everything else is unaffected by it. It also comes with a removable strap so you can wear it over one shoulder. It's a decent option for an everyday gym bag that won't break the bank.",
+          "translation": "这是一款简单、实用且时尚的包。\n其容量为24升，尺寸紧凑，一端独立的较小防水隔层非常适合放置潮湿物品，从而确保其他物品不受影响。\n此外，它还配有一条可拆卸的肩带，便于单肩背携。\n作为一款日常健身包，它价格合理，物有所值。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Why not try coasteering in North Devon?",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "为什么不去北德文尝试一下海岸攀岩呢？"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Coasteering is an adventure sport which involves coastal exploration. When you try coasteering from our centre, you go along the local coast, staying at sea level. You do this by, for example, running over rough ground, climbing rocks, swimming, and jumping off cliffs into the sea. In this way you can explore the impact zone, which is the area where the sea and the land meet and you will get an entirely new view of the coast and on some days you may even be able to observe a variety of marine wildlife.",
+          "translation": "海岸探险是一项涉及沿海探索的冒险运动。\n当你从我们的中心尝试海岸探险时，你会沿着当地海岸线行进，保持在海拔高度。\n例如，你通过跑过崎岖地面、攀爬岩石、游泳以及从悬崖跳入海中进行这项活动。\n这样你就可以探索海洋与陆地交界的冲击区域，从而获得对海岸的全新视角，在某些日子里，你甚至可能观察到各种海洋野生动物。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Our centre is located in the centre of the village of Croyde in the south-west of England, which has some very beautiful coastal scenery. From our centre you're transported to the coasteering location on Baggy Point. Once you've completed your coasteering experience we'll return you to our centre, which has changing facilities and warm showers, and you can also get a drink or snack in the café.",
+          "translation": "我们的中心位于英格兰西南部克罗伊德村的中心地带，那里拥有非常美丽的海岸风景。\n从我们的中心，您将被送至位于巴吉角的海洋攀岩活动地点。\n一旦您完成了海洋攀岩体验，我们将带您返回中心，那里设有更衣设施和热水淋浴，您还可以在咖啡馆享用饮品或小吃。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Your coasteering guide will check the tide and conditions at sea before your trip. Checks on your safety equipment to make sure it fits effectively are important too. If your guide feels that the risks are too high, then your trip will be rescheduled. It should be noted that the minimum age is 8 years old.",
+          "translation": "您的海岸探险向导将在您出发前检查潮汐和海面状况。\n检查您的安全装备以确保其有效贴合也同样重要。\n如果您的向导认为风险过高，您的行程将被重新安排。\n需要注意的是，最低年龄限制为8岁。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "We have a range of experiences for participants to try, such as the family coasteering route, which includes a variety of exciting things to look at. Then there is the adventurer challenge and the more challenging thrill-seeker route. Coastal adventures can be arranged as a part of a group or in a private session. The choice is entirely yours. Sessions are £40 per person, which covers the use of wetsuits, helmets and a buoyancy aid to help you float in the sea. Towels can be hired for a small fee. You'll need to bring a pair of shorts to wear over your wetsuit to protect it when you slide over rocks and a pair of trainers to help you grip on slippery surfaces.",
+          "translation": "我们为参与者提供了一系列可供尝试的体验项目，例如家庭式海岸探险路线，其中包含了各种令人兴奋的景观。\n此外，还有冒险者挑战项目以及更具挑战性的寻求刺激者路线。\n海岸探险活动可以以团体形式或私人课程形式安排。\n选择完全在于你。\n课程费用为每人40英镑，包含使用潜水服、头盔以及帮助你在海中浮起的浮力辅助设备。\n毛巾可以以少量费用租用。\n你需要带一条短裤穿在潜水服外面，以便在岩石上滑行时保护它，并带一双运动鞋，帮助你在湿滑表面抓牢。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "If you're also interested in surfing, you can add lessons to your coasteering sessions at our centre in Croyde.",
+          "translation": "如果你也对冲浪感兴趣，可以在我们位于克洛伊德中心的探险活动中增加课程。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21501",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 7\nLook at the six reviews of gym bags, A-F.\nFor which gym bag are the following statements true?\nWrite the correct letter, A-F, in boxes 1-7 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131393",
+              "number": 1,
+              "prompt": "Owners of this bag can put wet swimwear in it and keep other items dry.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干中的“put wet swimwear in it and keep other items dry”对应原文F段中的“a separate smaller waterproof compartment... ideal for putting damp gear in so that everything else is unaffected by it”。其中“wet swimwear”被替换为“damp gear”，而“keep other items dry”则通过“everything else is unaffected by it”表达，说明F款包具备防水隔层，能有效隔离湿物，因此答案为F。",
+              "reason": "F段明确提到防水隔层可放湿的装备且不影响其他物品。",
+              "location_analysis": "原文F段描述防水隔层放湿装备不影响其他物品，与题干一致。",
+              "paraphrasing": "wet swimwear -> damp gear; keep other items dry -> everything else is unaffected by it",
+              "keywords": "wet swimwear, keep other items dry",
+              "evidence": [
+                "a separate smaller waterproof compartment at one of the ends is ideal for putting damp gear in so that everything else is unaffected by it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131394",
+              "number": 2,
+              "prompt": "This bag will not wear out quickly.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干“will not wear out quickly”意指耐用性强，原文B段提到该品牌“producing simply the best quality gear”且“a bag that should last you a lifetime”，强调其高品质和长久使用寿命，与题干意思一致，因此答案为B。",
+              "reason": "B段以 'best quality' 和 'last you a lifetime' 表示耐用。",
+              "location_analysis": "B段强调高品质、可使用一生，暗示耐用不易磨损。",
+              "paraphrasing": "will not wear out quickly -> best quality gear, last you a lifetime",
+              "keywords": "will not wear out quickly",
+              "evidence": [
+                "This brand has a great tradition of producing simply the best quality gear.",
+                "lf you're inclined to treat yourself to a bag that should last you a lifetime, this is for you."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131395",
+              "number": 3,
+              "prompt": "If someone is looking for an environmentally friendly bag, this one would be appropriate.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问环保型包款，原文A段明确指出该包“great from an eco-perspective, as it's made from 65 per cent recycled polyester and 35 per cent organic cotton”，即使用再生聚酯和有机棉制成，符合环保理念，因此答案为A。",
+              "reason": "A段从生态角度强调环保材料。",
+              "location_analysis": "A段明确说明材料含65%再生聚酯和35%有机棉，符合环保。",
+              "paraphrasing": "environmentally friendly -> eco-perspective, recycled polyester, organic cotton",
+              "keywords": "environmentally friendly bag",
+              "evidence": [
+                "it's also great from an eco-perspective, as it's made from 65 per cent recycled polyester and 35 per cent organic cotton."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131396",
+              "number": 4,
+              "prompt": "People can choose from two different sizes of this bag.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干要求找出提供两种尺寸选择的包款，原文E段提到“a very generous 50 litre storage capacity”以及“the trimmer 31 litre equivalent (which retails a little cheaper)”，说明该款包有50升和31升两种容量可选，因此答案为E。",
+              "reason": "E段提供了两种容量选择。",
+              "location_analysis": "E段提及50升容量，并说明还有更小的31升版本。",
+              "paraphrasing": "two different sizes -> 50 litre / 31 litre equivalent",
+              "keywords": "two different sizes",
+              "evidence": [
+                "This top-of-the-range bag has a very generous 50 litre storage capacity.",
+                "If that's too much for you, there's always the trimmer 31 litre equivalent (which retails a little cheaper)."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131397",
+              "number": 5,
+              "prompt": "This bag would suit someone who does not want to spend too much.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干中“does not want to spend too much”对应原文F段末句“It's a decent option for an everyday gym bag that won't break the bank”，其中“won't break the bank”是“价格实惠、不会花太多钱”的惯用表达，因此答案为F。",
+              "reason": "F段 'won't break the bank' 暗示价格低廉。",
+              "location_analysis": "F段末尾说明价格适中，不会让人破费。",
+              "paraphrasing": "does not want to spend too much -> won't break the bank",
+              "keywords": "does not want to spend too much",
+              "evidence": [
+                "It's a decent option for an everyday gym bag that won't break the bank."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131398",
+              "number": 6,
+              "prompt": "This bag has only just appeared on the market.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干“has only just appeared on the market”对应原文A段首句“This premium outdoor brand has a newly released lightweight bag”，其中“newly released”明确表示该产品刚刚上市，因此答案为A。",
+              "reason": "A段 'newly released' 对应刚刚上市。",
+              "location_analysis": "A段首句明确表示是新发布的产品。",
+              "paraphrasing": "just appeared on the market -> newly released",
+              "keywords": "just appeared on the market",
+              "evidence": [
+                "This premium outdoor brand has a newly released lightweight bag in its product range."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131399",
+              "number": 7,
+              "prompt": "This bag weighs more than some other gym bags.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“weighs more than some other gym bags”对应原文C段中的“This pack has got so many features, which does, however, make it on the heavier side”，说明该包因功能多而相对较重，因此答案为C。",
+              "reason": "C段 'on the heavier side' 表明比别的包重。",
+              "location_analysis": "C段明确说明该包因功能多而偏重。",
+              "paraphrasing": "weighs more -> on the heavier side",
+              "keywords": "weighs more than some other gym bags",
+              "evidence": [
+                "This pack has got so many features, which does, however, make it on the heavier side."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "21503",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in the text?\nIn boxes 8-14 on your answer sheet, write \n TRUE if the statement agrees with the information \n FALSE if the statement contradicts the information \n NOT GIVEN if there is no information on this",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131400",
+              "number": 8,
+              "prompt": "The coasteering centre guarantees participants will see animals in the sea during their session.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“guarantees participants will see animals”，但原文仅说“you may even be able to observe a variety of marine wildlife”，其中“may”表示可能性而非保证，与题干中的“guarantees”矛盾，因此答案为FALSE。",
+              "reason": "原文用 'may' 表示可能性，不是保证。",
+              "location_analysis": "原文 'may even be able to observe' 表可能而非保证，与题干矛盾。",
+              "paraphrasing": "guarantees -> may even be able to observe",
+              "keywords": "guarantees, see animals",
+              "evidence": [
+                "you may even be able to observe a variety of marine wildlife."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文信息矛盾，原文指出无法保证看到海洋动物。",
+                "NOT GIVEN": "原文明确提及无法保证看到动物，并非未提及相关信息。"
+              }
+            },
+            {
+              "id": "131401",
+              "number": 9,
+              "prompt": "Participants need to walk from the centre in Croyde to the start of their coasteering session.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称参与者需“walk from the centre”，但原文明确说明“From our centre you're transported to the coasteering location on Baggy Point”，即由中心用车接送至活动地点，并非步行，因此答案为FALSE。",
+              "reason": "原文 'transported' 表示乘车，不是步行。",
+              "location_analysis": "原文说明参与者被车送到Baggy Point，而非步行。",
+              "paraphrasing": "walk -> transported",
+              "keywords": "walk from the centre in Croyde",
+              "evidence": [
+                "From our centre you're transported to the coasteering location on Baggy Point."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文表明参与者无需步行或起点不在中心。",
+                "NOT GIVEN": "原文明确给出了相关描述，并非未提及。"
+              }
+            },
+            {
+              "id": "131402",
+              "number": 10,
+              "prompt": "Refreshments in the café are included in the fee for the course.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问咖啡厅饮品是否包含在课程费用中，原文仅提到“you can also get a drink or snack in the café”，但未说明这些是否免费或已包含在£40费用内，因此信息未提及，答案为NOT GIVEN。",
+              "reason": "原文未提及咖啡厅费用是否包含在课程费中。",
+              "location_analysis": "原文仅说可在咖啡厅购买饮品小吃，未说明费用包含与否。",
+              "paraphrasing": "included in the fee -> 未提及",
+              "keywords": "refreshments, included in the fee",
+              "evidence": [
+                "you can also get a drink or snack in the café."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及课程费用是否包含咖啡馆茶点，因此不能判断为正确。",
+                "FALSE": "原文没有说明课程费用不包含咖啡馆茶点，因此不能判断为错误。"
+              }
+            },
+            {
+              "id": "131403",
+              "number": 11,
+              "prompt": "The thrill-seeker route is the most popular one.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“thrill-seeker route is the most popular”，但原文虽列出family route、adventurer challenge和thrill-seeker route三种选项，却未对任何路线的受欢迎程度进行比较或说明，因此答案为NOT GIVEN。",
+              "reason": "原文未提哪条路线最受欢迎。",
+              "location_analysis": "原文列举多条路线，但未比较受欢迎程度。",
+              "paraphrasing": "most popular -> 未提及",
+              "keywords": "most popular",
+              "evidence": [
+                "Then there is the adventurer challenge and the more challenging thrill-seeker route."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文没有提供该路线是最受欢迎的比较信息或证据。",
+                "FALSE": "原文没有提供该路线不是最受欢迎的依据。"
+              }
+            },
+            {
+              "id": "131404",
+              "number": 12,
+              "prompt": "Participants need to pay extra to hire the necessary items of safety equipment.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称需“pay extra to hire safety equipment”，但原文明确指出“Sessions are £40 per person, which covers the use of wetsuits, helmets and a buoyancy aid”，说明安全装备费用已包含在内，无需额外支付，因此答案为FALSE。",
+              "reason": "'covers' 表示已包含，无需另付。",
+              "location_analysis": "原文说明安全设备的费用包含在£40中，无需额外支付。",
+              "paraphrasing": "pay extra -> covered, hire -> 有费用说明",
+              "keywords": "pay extra, hire safety equipment",
+              "evidence": [
+                "Sessions are £40 per person, which covers the use of wetsuits, helmets and a buoyancy aid"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文明确表示参与者无需额外支付安全设备租赁费，因此与题干矛盾。",
+                "NOT GIVEN": "原文明确给出了关于安全设备租赁费用的信息，并非未提及。"
+              }
+            },
+            {
+              "id": "131405",
+              "number": 13,
+              "prompt": "The centre recommends participants put on a particular type of footwear.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干询问是否推荐特定鞋类，原文明确建议“You'll need to bring... a pair of trainers to help you grip on slippery surfaces”，其中“trainers”即运动鞋，用于防滑，符合“particular type of footwear”的描述，因此答案为TRUE。",
+              "reason": "原文明确推荐穿 trainers。",
+              "location_analysis": "原文建议穿 trainers 以增加抓地力。",
+              "paraphrasing": "recommends -> You'll need to bring; particular type -> trainers to help you grip",
+              "keywords": "recommends, particular type of footwear",
+              "evidence": [
+                "You'll need to bring a pair of shorts to wear over your wetsuit to protect it when you slide over rocks and a pair of trainers to help you grip on slippery surfaces."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到中心建议穿特定类型鞋子，此选项与原文信息矛盾。",
+                "NOT GIVEN": "原文已明确给出相关建议，并非未提及，因此不选此选项。"
+              }
+            },
+            {
+              "id": "131406",
+              "number": 14,
+              "prompt": "It is possible to combine coasteering with learning another sport.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称可将coasteering与其他运动结合，原文最后一段提到“If you're also interested in surfing, you can add lessons to your coasteering sessions”，说明可额外加入冲浪课程，即能结合学习另一项运动，因此答案为TRUE。",
+              "reason": "原文表示可在coasteering中加冲浪课程。",
+              "location_analysis": "原文说明可额外添加冲浪课程至coasteering活动中。",
+              "paraphrasing": "combine -> add, another sport -> surfing lessons",
+              "keywords": "combine, learning another sport",
+              "evidence": [
+                "If you're also interested in surfing, you can add lessons to your coasteering sessions"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文明确提到的内容相矛盾，原文指出可以结合另一项运动。",
+                "NOT GIVEN": "原文中明确提供了相关信息，因此并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "The best bags for taking things to the sports centre or gym",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A Fjällräven vardag duffel 30",
+          "translation": "A 款 北极狐日常行李袋 30 升"
+        },
+        {
+          "index": 2,
+          "sentence": "This premium outdoor brand has a newly released lightweight bag in its product range.",
+          "translation": "这个高端户外品牌在其产品系列中推出了一款新发布的轻量包。"
+        },
+        {
+          "index": 3,
+          "sentence": "Constructed from the brand's special water-resistant fabric, it's also great from an eco-perspective, as it's made from 65 per cent recycled polyester and 35 per cent organic cotton.",
+          "translation": "这款包采用该品牌特殊的防水面料制成，从环保角度来看也很出色，因为它由65%的再生聚酯纤维和35%的有机棉制成。"
+        },
+        {
+          "index": 4,
+          "sentence": "This bag is definitely strong, and you'll be able to squeeze it into a tight space without worrying about damaging it.",
+          "translation": "这款包非常结实，你可以把它塞进狭窄的空间，而无需担心损坏它。"
+        },
+        {
+          "index": 5,
+          "sentence": "B Filson medium rugged twill duffel bag",
+          "translation": "B. Filson 中号坚固斜纹布行李袋"
+        },
+        {
+          "index": 6,
+          "sentence": "This brand has a great tradition of producing simply the best quality gear.",
+          "translation": "该品牌拥有一贯生产最优质装备的优秀传统。"
+        },
+        {
+          "index": 7,
+          "sentence": "lf you're inclined to treat yourself to a bag that should last you a lifetime, this is for you.",
+          "translation": "如果你倾向于为自己买一个能用一辈子的包，那么这款包很适合你。"
+        },
+        {
+          "index": 8,
+          "sentence": "Admittedly it's likely you'll need to save up for this one, but it's well worth it.",
+          "translation": "诚然，你可能需要为此存钱，但这非常值得。"
+        },
+        {
+          "index": 9,
+          "sentence": "C Deuter trans alpine pro 28",
+          "translation": "C Deuter 跨阿尔卑斯专业版 28 升包"
+        },
+        {
+          "index": 10,
+          "sentence": "This pack has got so many features, which does, however, make it on the heavier side.",
+          "translation": "这款背包拥有众多功能，但这却使其偏重。"
+        },
+        {
+          "index": 11,
+          "sentence": "For example, the pouch at the back is expandable to put your bike helmet (or trainers / towel / other sizeable gear) in, and the side pockets are perfect for water bottles.",
+          "translation": "例如，背部的袋子是可扩展的，可以放入你的自行车头盔（或运动鞋/毛巾/其他大件装备），而侧袋则非常适合放置水瓶。"
+        },
+        {
+          "index": 12,
+          "sentence": "D Columbia unisex convey 25l rolltop daypack",
+          "translation": "D 哥伦比亚男女通用 convey 25升卷顶日用背包"
+        },
+        {
+          "index": 13,
+          "sentence": "The full-width zip means you can easily push stuff in.",
+          "translation": "全拉链设计意味着你可以轻松地将物品塞入。"
+        },
+        {
+          "index": 14,
+          "sentence": "There's one main compartment which also has a separate padded sleeve for a tablet plus an extra zip pocket for valuables at the top and convenient metal rings to attach items like bike helmets if required.",
+          "translation": "它有一个主隔层，还配有一个独立的软垫隔层用于放置平板电脑，顶部有一个额外的拉链口袋存放贵重物品，并且有方便的金属环，可根据需要挂上如自行车头盔等物品。"
+        },
+        {
+          "index": 15,
+          "sentence": "E The North Face base camp duffel",
+          "translation": "E 北面基础露营行李袋"
+        },
+        {
+          "index": 16,
+          "sentence": "This top-of-the-range bag has a very generous 50 litre storage capacity.",
+          "translation": "这款顶级包具有非常大的50升存储容量。"
+        },
+        {
+          "index": 17,
+          "sentence": "If that's too much for you, there's always the trimmer 31 litre equivalent (which retails a little cheaper).",
+          "translation": "如果这对你来说太大了，还有更紧凑的31升版本（零售价格略低）。"
+        },
+        {
+          "index": 18,
+          "sentence": "There's an internal pocket to separate some gear out and an extra small external zip pocket on one of the ends.",
+          "translation": "内部有一个口袋可以分隔部分装备，并且在一端还有一个额外的外部小拉链口袋。"
+        },
+        {
+          "index": 19,
+          "sentence": "F Under Armour sports style duffel",
+          "translation": "F 安德玛运动风格旅行袋"
+        },
+        {
+          "index": 20,
+          "sentence": "A simple yet effective and stylish bag.",
+          "translation": "这是一款简单、实用且时尚的包。"
+        },
+        {
+          "index": 21,
+          "sentence": "At 24 litres it's neat in size, and a separate smaller waterproof compartment at one of the ends is ideal for putting damp gear in so that everything else is unaffected by it.",
+          "translation": "其容量为24升，尺寸紧凑，一端独立的较小防水隔层非常适合放置潮湿物品，从而确保其他物品不受影响。"
+        },
+        {
+          "index": 22,
+          "sentence": "It also comes with a removable strap so you can wear it over one shoulder.",
+          "translation": "此外，它还配有一条可拆卸的肩带，便于单肩背携。"
+        },
+        {
+          "index": 23,
+          "sentence": "It's a decent option for an everyday gym bag that won't break the bank.",
+          "translation": "作为一款日常健身包，它价格合理，物有所值。"
+        },
+        {
+          "index": 24,
+          "sentence": "Why not try coasteering in North Devon?",
+          "translation": "为什么不去北德文尝试一下海岸攀岩呢？"
+        },
+        {
+          "index": 25,
+          "sentence": "Coasteering is an adventure sport which involves coastal exploration.",
+          "translation": "海岸探险是一项涉及沿海探索的冒险运动。"
+        },
+        {
+          "index": 26,
+          "sentence": "When you try coasteering from our centre, you go along the local coast, staying at sea level.",
+          "translation": "当你从我们的中心尝试海岸探险时，你会沿着当地海岸线行进，保持在海拔高度。"
+        },
+        {
+          "index": 27,
+          "sentence": "You do this by, for example, running over rough ground, climbing rocks, swimming, and jumping off cliffs into the sea.",
+          "translation": "例如，你通过跑过崎岖地面、攀爬岩石、游泳以及从悬崖跳入海中进行这项活动。"
+        },
+        {
+          "index": 28,
+          "sentence": "In this way you can explore the impact zone, which is the area where the sea and the land meet and you will get an entirely new view of the coast and on some days you may even be able to observe a variety of marine wildlife.",
+          "translation": "这样你就可以探索海洋与陆地交界的冲击区域，从而获得对海岸的全新视角，在某些日子里，你甚至可能观察到各种海洋野生动物。"
+        },
+        {
+          "index": 29,
+          "sentence": "Our centre is located in the centre of the village of Croyde in the south-west of England, which has some very beautiful coastal scenery.",
+          "translation": "我们的中心位于英格兰西南部克罗伊德村的中心地带，那里拥有非常美丽的海岸风景。"
+        },
+        {
+          "index": 30,
+          "sentence": "From our centre you're transported to the coasteering location on Baggy Point.",
+          "translation": "从我们的中心，您将被送至位于巴吉角的海洋攀岩活动地点。"
+        },
+        {
+          "index": 31,
+          "sentence": "Once you've completed your coasteering experience we'll return you to our centre, which has changing facilities and warm showers, and you can also get a drink or snack in the café.",
+          "translation": "一旦您完成了海洋攀岩体验，我们将带您返回中心，那里设有更衣设施和热水淋浴，您还可以在咖啡馆享用饮品或小吃。"
+        },
+        {
+          "index": 32,
+          "sentence": "Your coasteering guide will check the tide and conditions at sea before your trip.",
+          "translation": "您的海岸探险向导将在您出发前检查潮汐和海面状况。"
+        },
+        {
+          "index": 33,
+          "sentence": "Checks on your safety equipment to make sure it fits effectively are important too.",
+          "translation": "检查您的安全装备以确保其有效贴合也同样重要。"
+        },
+        {
+          "index": 34,
+          "sentence": "If your guide feels that the risks are too high, then your trip will be rescheduled.",
+          "translation": "如果您的向导认为风险过高，您的行程将被重新安排。"
+        },
+        {
+          "index": 35,
+          "sentence": "It should be noted that the minimum age is 8 years old.",
+          "translation": "需要注意的是，最低年龄限制为8岁。"
+        },
+        {
+          "index": 36,
+          "sentence": "We have a range of experiences for participants to try, such as the family coasteering route, which includes a variety of exciting things to look at.",
+          "translation": "我们为参与者提供了一系列可供尝试的体验项目，例如家庭式海岸探险路线，其中包含了各种令人兴奋的景观。"
+        },
+        {
+          "index": 37,
+          "sentence": "Then there is the adventurer challenge and the more challenging thrill-seeker route.",
+          "translation": "此外，还有冒险者挑战项目以及更具挑战性的寻求刺激者路线。"
+        },
+        {
+          "index": 38,
+          "sentence": "Coastal adventures can be arranged as a part of a group or in a private session.",
+          "translation": "海岸探险活动可以以团体形式或私人课程形式安排。"
+        },
+        {
+          "index": 39,
+          "sentence": "The choice is entirely yours.",
+          "translation": "选择完全在于你。"
+        },
+        {
+          "index": 40,
+          "sentence": "Sessions are £40 per person, which covers the use of wetsuits, helmets and a buoyancy aid to help you float in the sea.",
+          "translation": "课程费用为每人40英镑，包含使用潜水服、头盔以及帮助你在海中浮起的浮力辅助设备。"
+        },
+        {
+          "index": 41,
+          "sentence": "Towels can be hired for a small fee.",
+          "translation": "毛巾可以以少量费用租用。"
+        },
+        {
+          "index": 42,
+          "sentence": "You'll need to bring a pair of shorts to wear over your wetsuit to protect it when you slide over rocks and a pair of trainers to help you grip on slippery surfaces.",
+          "translation": "你需要带一条短裤穿在潜水服外面，以便在岩石上滑行时保护它，并带一双运动鞋，帮助你在湿滑表面抓牢。"
+        },
+        {
+          "index": 43,
+          "sentence": "If you're also interested in surfing, you can add lessons to your coasteering sessions at our centre in Croyde.",
+          "translation": "如果你也对冲浪感兴趣，可以在我们位于克洛伊德中心的探险活动中增加课程。"
+        }
+      ]
+    },
+    {
+      "id": "2944",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Opportunities for graduates -freelance writing",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "lf you want to start a career in writing or journalism, freelancing could be for you. Here is some advice on finding opportunities, and building your portfolio:",
+          "translation": "如果你想在写作或新闻行业开始职业生涯，自由职业可能适合你。\n以下是一些关于寻找机会和建立作品集的建议："
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "There are more graduates than ever entering an increasingly diminished market, so they are having to be more creative in the ways they get income and gain experience in their chosen field. For those with a talent for writing, working freelance can be worthwhile.",
+          "translation": "越来越多的毕业生涌入日益萎缩的市场，因此他们不得不在获取收入和在所选领域积累经验的方式上更具创造力。\n对于那些有写作天赋的人来说，从事自由职业是值得的。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "When starting out, many people turn to specialist websites listing a range of current writing projects offered by different organisations, which freelancers can apply to complete. These sites can be useful but just make sure any organisation is genuine first. Otherwise you might find you've spent hours on work which you never get paid for.",
+          "translation": "在起步阶段，许多人求助于专业网站，这些网站列出由不同组织提供的各类当前写作项目，自由职业者可以申请完成这些项目。\n这些网站可能有用，但务必首先确保任何组织都是真实可靠的。\n否则，你可能会发现自己花了数小时在永远得不到报酬的工作上。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "When looking to get work for magazines and newspapers, keep the pitches - in which you present what you could write for them - brief and interesting. Even if you're sending your fifth in a row of rejected ones, be polite and professional.",
+          "translation": "当寻求为杂志和报纸获取工作时，应保持你的投稿——即你阐述自己能为他们撰写哪些内容——简洁且有趣。\n即使你连续第五次发送的稿件被拒绝，也要保持礼貌和专业。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "The advantages",
+          "translation": "优势"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "The positives of freelancing as a graduate are numerous. It's incredibly satisfying to be working for yourself and having the responsibility of determining your own workload. Making a living doing what you love is hugely rewarding, and of course the flexibility of the work hours may suit you. New graduates are generally used to working unusual hours, so if you're most comfortable working late at night or at the weekend, then freelancing may be the way to go. Depending on how much work you manage to get, which can vary wildly, especially when you're just starting out, it also leaves it open for you to get a part-time job, however basic, which would bring in a regular amount.",
+          "translation": "作为毕业生，自由职业的积极方面是众多的。\n为自己工作并承担决定自己工作量的责任，这令人非常满足。\n靠做自己热爱的事情谋生是极有回报的，而且工作时间的灵活性当然也可能适合你。\n新毕业生通常习惯于在非正常时间工作，所以如果你在深夜或周末工作时感到最舒适，那么自由职业可能适合你。\n取决于你能得到多少工作（这可能会变动很大，尤其是在你刚开始时），这也让你有机会从事一份兼职工作——无论多么基础——从而带来一份稳定的收入。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "The disadvantages",
+          "translation": "劣势"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "It is not steady and it is not always profitable. Graduate writers are notorious for working for no actual payment, and it's because there are so many people willing to do it that companies simply assume that it's acceptable, and of course this suits the companies.",
+          "translation": "这份工作并不稳定，也不总是盈利的。\n毕业生作家因无偿工作而臭名昭著，这是因为有太多人愿意这样做，以至于公司简单地认为这是可以接受的，而这当然对它们有利。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Freelancing is probably not for people who lack motivation. If you don't go looking for work, spending your days shooting off emails, then it is very unlikely the work will come to you, For most people, freelancing does not provide regular work at the beginning. So if you find it stressful not getting paid at the end of every week or month, then it's worth looking at other options.",
+          "translation": "自由职业可能不适合缺乏动力的人。\n如果你不主动寻找工作，整日只是随意发送邮件，那么工作几乎不会主动找上门来。\n对大多数人来说，自由职业在初期并不能提供稳定的工作。\n因此，如果你觉得每周或每月末没有收入会带来压力，那么值得考虑其他选择。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "How to make sure your CV catches the hiring manager's eye",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "如何确保你的简历能吸引招聘经理的注意"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "To be successful in today's job market, it pays to put yourself in the shoes of the hiring manager, After all, their perception of your CV could result in a job interview or a rejection.",
+          "translation": "要想在当今的就业市场上取得成功，换位思考招聘经理的想法是值得的。\n毕竟，他们对你简历的看法可能导致你获得面试机会或被拒绝。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Hiring managers are pushed for time, so they will usually spend a few seconds skimming your CV for must-have terms before they decide to commit to reading it fully, To pass this preliminary test, make sure your CV is extremely easy to read and is divided into appropriate sections.",
+          "translation": "招聘经理时间紧迫，因此他们通常只会花几秒钟扫视你的简历，寻找必备的关键词，然后才决定是否通篇阅读。\n要通过这一初步筛选，请确保你的简历极易阅读，并划分为合适的板块。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Never make readers wade through large amounts of writing or you will risk losing their interest quickly, You should also research your target role thoroughly to identify what skills are most needed and ensure these are clearly included near the beginning of your CV. Providing a pleasant reading experience and reflecting the company's needs in your CV will create a perfect first impression.",
+          "translation": "切勿让读者费力阅读大量文字，否则您将很快失去他们的兴趣。\n您还应彻底研究目标职位，以确定最需要的技能，并确保在简历开头附近清晰地包含这些内容。\n在简历中提供愉快的阅读体验并反映公司需求，将创造完美的第一印象。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Once managers have scanned your CV quickly, they will look at your present or most recent post. This is easily the best way to assess you, so managers will review this part of your CV thoroughly. Give this description your full attention and think about the questions that managers will want answers to, such as ‘Where do you sit within the organisation?’ and 'How do you contribute to the company?’",
+          "translation": "一旦管理者快速浏览了你的简历，他们会将目光转向你当前或最近的职位。\n这无疑是评估你的最佳方式，因此管理者会仔细审阅你简历中的这一部分。\n请全神贯注于这一描述，并思考管理者希望得到答案的问题，例如“你在组织中处于什么位置？”以及“你如何为公司做出贡献？”"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Many job seekers make bold claims in their CVs, but very few back them up with facts. Demonstrate the scale of your responsibilities by including numbers such as the size of budget you control, or the number of locations you work in. These numbers provide a scale that everybody can understand and leave readers in no doubt of the level you work at. You can also prove your impact by including quantifiable achievements you have had. Perhaps you have generated sales of £300k within six months, or maybe you have delivered a project that affected 3 million customers.",
+          "translation": "许多求职者在简历中做出大胆的声明，但很少有人用事实来支持这些说法。\n通过包含数字（如你控制的预算规模或你工作地点的数量）来展示你职责的范围。\n这些数字提供了一个人人都能理解的尺度，让读者对你的工作水平毫不怀疑。\n你也可以通过包含可量化的成就来证明你的影响力。\n也许你在六个月内创造了30万英镑的销售额，或者你完成了一个影响300万客户的项目。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Even the smallest weakness can deter managers from shortlisting you. Obvious spelling and grammar mistakes will be warning signs, but they will also be on the lookout for gaps in the list of posts you have held, or facts that just don't add up. Proofread your CV thoroughly, including all of your dates, and don't be tempted to add any white lies. Keep everything looking as professional as possible and don't give them any reason to doubt you.",
+          "translation": "即使是最微小的弱点也可能使经理们不愿将你列入候选名单。\n明显的拼写和语法错误会是警示信号，但他们也会留意你任职经历中的空白，或无法相互印证的事实。\n仔细校对简历中的所有日期等信息，不要忍不住添上任何善意的谎言。\n让一切尽可能显得专业，不要给他们任何质疑你的理由。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21519",
+          "type": 8,
+          "title": "How to become a freelance writer",
+          "instructions": "Questions 15 - 21\nComplete the notes below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 15-21 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131420",
+              "number": 15,
+              "prompt": "- best to check out that potential employers are _____ before agreeing to do any work",
+              "options": [],
+              "answer": "genuine",
+              "accepted_answers": [
+                "genuine"
+              ],
+              "analysis": "题干中的“check out that potential employers are”对应原文中的“make sure any organisation is genuine”，其中“potential employers”与“organisation”为同义替换，“check out”与“make sure”语义一致。因此，答案为 genuine，表示在同意工作前应确认雇主是否真实可靠。",
+              "reason": "直接对应，题干find out对应原文make sure。",
+              "location_analysis": "题干要求确认雇主是真实的，原文说确保机构是genuine。",
+              "paraphrasing": "check out that potential employers are -> make sure any organisation is genuine",
+              "keywords": "specialist websites, genuine",
+              "evidence": [
+                "These sites can be useful but just make sure any organisation is genuine first."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131421",
+              "number": 16,
+              "prompt": "- ensure all _____ are persuasive and kept to a minimum length",
+              "options": [],
+              "answer": "pitches",
+              "accepted_answers": [
+                "pitches"
+              ],
+              "analysis": "题干要求确保所有 pitches 具有说服力且简短，原文中提到“keep the pitches … brief and interesting”，其中“brief”对应“kept to a minimum length”，“interesting”可理解为具有吸引力或说服力。因此，答案为 pitches，直接来自原文。",
+              "reason": "题干persuasive和minimum length对应原文brief和interesting。",
+              "location_analysis": "题干要求使pitches有说服力且简洁，原文说保持brief和interesting。",
+              "paraphrasing": "ensure all pitches are persuasive and kept to a minimum length -> keep the pitches brief and interesting",
+              "keywords": "pitches, brief, interesting",
+              "evidence": [
+                "When looking to get work for magazines and newspapers, keep the pitches - in which you present what you could write for them - brief and interesting."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131422",
+              "number": 17,
+              "prompt": "Advantages of freelance writing — the power to decide on the size of the _____",
+              "options": [],
+              "answer": "workload",
+              "accepted_answers": [
+                "workload"
+              ],
+              "analysis": "题干中“the power to decide on the size of the ___”对应原文中的“having the responsibility of determining your own workload”，其中“decide on the size”与“determining”语义相近，“workload”即工作量，完全匹配题干语境，因此答案为 workload。",
+              "reason": "直接对应。",
+              "location_analysis": "题干说决定工作量大小，原文说决定自己的workload。",
+              "paraphrasing": "decide on the size of the workload -> having the responsibility of determining your own workload",
+              "keywords": "power to decide on the size, workload",
+              "evidence": [
+                "It's incredibly satisfying to be working for yourself and having the responsibility of determining your own workload."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131423",
+              "number": 18,
+              "prompt": "the _____ in the scheduling of the work",
+              "options": [],
+              "answer": "flexibility",
+              "accepted_answers": [
+                "flexibility"
+              ],
+              "analysis": "题干中的“flexibility in the scheduling of the work”对应原文中的“the flexibility of the work hours may suit you”，其中“scheduling”与“work hours”语义相关，“flexibility”一词在原文中直接出现，因此答案为 flexibility。",
+              "reason": "直接出现'flexibility of the work hours'",
+              "location_analysis": "原文'flexibility of the work hours may suit you'，...",
+              "paraphrasing": "flexibility in the scheduling -> flexibility of the work hours",
+              "keywords": "flexibility, scheduling, work hours",
+              "evidence": [
+                "Making a living doing what you love is hugely rewarding, and of course the flexibility of the work hours may suit you."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131424",
+              "number": 19,
+              "prompt": "the chance to commit to a second _____ to generate income",
+              "options": [],
+              "answer": "job",
+              "accepted_answers": [
+                "job"
+              ],
+              "analysis": "题干中“commit to a second ___ to generate income”对应原文中的“get a part-time job, however basic, which would bring in a regular amount”，其中“second job”指除自由职业外的另一份工作，“job”在原文中明确出现，因此答案为 job。",
+              "reason": "直接出现'part-time job'",
+              "location_analysis": "原文'it also leaves it open for you to get a part...",
+              "paraphrasing": "commit to a second -> get a part-time; job -> job",
+              "keywords": "commit to a second, job",
+              "evidence": [
+                "Depending on how much work you manage to get, which can vary wildly, especially when you're just starting out, it also leaves it open for you to get a part-time job, however basic, which would bring in a regular amount."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131425",
+              "number": 20,
+              "prompt": "it is largely expected that young freelancers will be happy to complete assignments without _____",
+              "options": [],
+              "answer": "payment",
+              "accepted_answers": [
+                "payment"
+              ],
+              "analysis": "题干中“complete assignments without ___”对应原文中的“working for no actual payment”，其中“without payment”与“no actual payment”意思一致，说明年轻自由撰稿人常被期望无偿工作，因此答案为 payment。",
+              "reason": "题干without payment对应原文no actual payment。",
+              "location_analysis": "题干说期望年轻自由职业者无偿完成任务，原文说毕业生常做无报酬工作。",
+              "paraphrasing": "happy to complete assignments without payment -> working for no actual payment",
+              "keywords": "assignments without payment",
+              "evidence": [
+                "It is not steady and it is not always profitable."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131426",
+              "number": 21,
+              "prompt": "graduates whose _____ is limited may not get any work",
+              "options": [],
+              "answer": "motivation",
+              "accepted_answers": [
+                "motivation"
+              ],
+              "analysis": "题干中“graduates whose ___ is limited may not get any work”对应原文中的“Freelancing is probably not for people who lack motivation”，其中“motivation is limited”与“lack motivation”为同义表达，说明缺乏动力者难以获得工作，因此答案为 motivation。",
+              "reason": "题干motivation limited对应原文lack motivation。",
+              "location_analysis": "题干说缺乏动力的毕业生可能接不到工作，原文说缺乏动力、不主动找活就没工作。",
+              "paraphrasing": "whose motivation is limited may not get any work -> if you don't go looking for work... it is very unlikely the work will come to you",
+              "keywords": "graduates whose motivation is limited",
+              "evidence": [
+                "Freelancing is probably not for people who lack motivation."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Freelancing gives would-be writers a chance to get some paid experience\nSources of work\nspecialist websites:\n- best to check out that potential employers are $131420$ before agreeing to do any work\nthe press:\n- ensure all $131421$ are persuasive and kept to a minimum length\nAdvantages of freelance writing\nthe power to decide on the size of the $131422$\nthe $131423$ in the scheduling of the work\nthe chance to commit to a second $131424$ to generate income\nDisadvantages of freelance writing\nit is largely expected that young freelancers will be happy to complete assignments without $131425$\ngraduates whose $131426$ is limited may not get any work\nit may be hard trying to live without money coming in at fixed times",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Freelancing gives would-be writers a chance to get some paid experience\nSources of work\nspecialist websites:\n- best to check out that potential employers are $131420$ before agreeing to do any work\nthe press:\n- ensure all $131421$ are persuasive and kept to a minimum length\nAdvantages of freelance writing\nthe power to decide on the size of the $131422$\nthe $131423$ in the scheduling of the work\nthe chance to commit to a second $131424$ to generate income\nDisadvantages of freelance writing\nit is largely expected that young freelancers will be happy to complete assignments without $131425$\ngraduates whose $131426$ is limited may not get any work\nit may be hard trying to live without money coming in at fixed times"
+        },
+        {
+          "id": "21521",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 22 - 27\nComplete the sentences below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 22-27 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131427",
+              "number": 22,
+              "prompt": "The writer should make sure that they have separated the CV into suitable _____.",
+              "options": [],
+              "answer": "sections",
+              "accepted_answers": [
+                "sections"
+              ],
+              "analysis": "题干中“separated the CV into suitable ___”对应原文中的“divided into appropriate sections”，其中“sections”直接出现在原文中，且“suitable”与“appropriate”为同义词，因此答案为 sections。",
+              "reason": "直接出现'sections'",
+              "location_analysis": "原文'is divided into appropriate sections'，sectio...",
+              "paraphrasing": "separated the CV into suitable sections -> divided into appropriate sections",
+              "keywords": "separated, CV, sections",
+              "evidence": [
+                "To pass this preliminary test, make sure your CV is extremely easy to read and is divided into appropriate sections."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131428",
+              "number": 23,
+              "prompt": "If the text of a CV is too long, there is a risk that the reader's _____ will not be held.",
+              "options": [],
+              "answer": "interest",
+              "accepted_answers": [
+                "interest"
+              ],
+              "analysis": "题干中“risk that the reader's ___ will not be held”对应原文中的“risk losing their interest quickly”，其中“interest”是关键信息，说明简历过长会导致读者失去兴趣，因此答案为 interest。",
+              "reason": "题干risk that reader's interest will not be held对应risk losing their interest。",
+              "location_analysis": "原文说大量文字会使读者失去兴趣，答案为interest。",
+              "paraphrasing": "reader's interest will not be held -> risk losing their interest",
+              "keywords": "CV too long, reader's interest",
+              "evidence": [
+                "Never make readers wade through large amounts of writing or you will risk losing their interest quickly,"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131429",
+              "number": 24,
+              "prompt": "It is advisable to highlight the essential _____ for the post early on in the CV.",
+              "options": [],
+              "answer": "skills",
+              "accepted_answers": [
+                "skills"
+              ],
+              "analysis": "题干中“highlight the essential ___ for the post early on”对应原文中的“identify what skills are most needed and ensure these are clearly included near the beginning”，其中“skills”是核心关键词，且与“essential”语义一致，因此答案为 skills。",
+              "reason": "题干essential skills对应原文skills most needed。",
+              "location_analysis": "题干说突出重要技能，原文说将最需技能明确放在开头附近。",
+              "paraphrasing": "highlight the essential skills early on -> ensure these are clearly included near the beginning",
+              "keywords": "highlight essential skills, early on",
+              "evidence": [
+                "You should also research your target role thoroughly to identify what skills are most needed and ensure these are clearly included near the beginning of your CV."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131430",
+              "number": 25,
+              "prompt": "Writers should support statements in their CV with facts, for example how big is the _____ that they are in charge of.",
+              "options": [],
+              "answer": "budget",
+              "accepted_answers": [
+                "budget"
+              ],
+              "analysis": "题干中“how big is the ___ that they are in charge of”对应原文中的“the size of budget you control”，其中“budget”直接出现在原文中，且“in charge of”与“control”语义一致，因此答案为 budget。",
+              "reason": "直接出现'budget'",
+              "location_analysis": "原文'the size of budget you control'，budget对应答案。",
+              "paraphrasing": "how big is the budget -> the size of budget",
+              "keywords": "budget, in charge of",
+              "evidence": [
+                "Demonstrate the scale of your responsibilities by including numbers such as the size of budget you control, or the number of locations you work in."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131431",
+              "number": 26,
+              "prompt": "It is worth giving details of any past _____, together with any relevant statistics.",
+              "options": [],
+              "answer": "achievements",
+              "accepted_answers": [
+                "achievements"
+              ],
+              "analysis": "题干中“details of any past ___ , together with any relevant statistics”对应原文中的“including quantifiable achievements you have had”，其中“achievements”与“past”和“statistics”形成逻辑关联，说明需用具体成果支撑简历内容，因此答案为 achievements。",
+              "reason": "题干past achievements对应原文achievements。",
+              "location_analysis": "题干说过去的成就和统计数字，原文说quantifiable achievements。",
+              "paraphrasing": "details of any past achievements -> quantifiable achievements",
+              "keywords": "past achievements, relevant statistics",
+              "evidence": [
+                "You can also prove your impact by including quantifiable achievements you have had."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131432",
+              "number": 27,
+              "prompt": "Checking that no _____ appear in the language used in the CV is vital.",
+              "options": [],
+              "answer": "mistakes",
+              "accepted_answers": [
+                "mistakes"
+              ],
+              "analysis": "题干中“no ___ appear in the language used in the CV”对应原文中的“Obvious spelling and grammar mistakes will be warning signs”，其中“mistakes”涵盖拼写和语法错误，是语言使用中需避免的问题，因此答案为 mistakes。",
+              "reason": "直接出现'mistakes'",
+              "location_analysis": "原文'Obvious spelling and grammar mistakes will b...",
+              "paraphrasing": "mistakes appear in the language -> spelling and grammar mistakes",
+              "keywords": "mistakes, language, CV",
+              "evidence": [
+                "Obvious spelling and grammar mistakes will be warning signs, but they will also be on the lookout for gaps in the list of posts you have held, or facts that just don't add up."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "The writer should make sure that they have separated the CV into suitable $131427$.\n23 If the text of a CV is too long, there is a risk that the reader's $131428$ will not be held.\n24 It is advisable to highlight the essential $131429$ for the post early on in the CV.\n25 Writers should support statements in their CV with facts, for example how big is the $131430$ that they are in charge of.\n26 It is worth giving details of any past $131431$, together with any relevant statistics.\n27 Checking that no $131432$ appear in the language used in the CV is vital.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The writer should make sure that they have separated the CV into suitable $131427$.\n23 If the text of a CV is too long, there is a risk that the reader's $131428$ will not be held.\n24 It is advisable to highlight the essential $131429$ for the post early on in the CV.\n25 Writers should support statements in their CV with facts, for example how big is the $131430$ that they are in charge of.\n26 It is worth giving details of any past $131431$, together with any relevant statistics.\n27 Checking that no $131432$ appear in the language used in the CV is vital."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Opportunities for graduates -freelance writing",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "lf you want to start a career in writing or journalism, freelancing could be for you.",
+          "translation": "如果你想在写作或新闻行业开始职业生涯，自由职业可能适合你。"
+        },
+        {
+          "index": 2,
+          "sentence": "Here is some advice on finding opportunities, and building your portfolio:",
+          "translation": "以下是一些关于寻找机会和建立作品集的建议："
+        },
+        {
+          "index": 3,
+          "sentence": "There are more graduates than ever entering an increasingly diminished market, so they are having to be more creative in the ways they get income and gain experience in their chosen field.",
+          "translation": "越来越多的毕业生涌入日益萎缩的市场，因此他们不得不在获取收入和在所选领域积累经验的方式上更具创造力。"
+        },
+        {
+          "index": 4,
+          "sentence": "For those with a talent for writing, working freelance can be worthwhile.",
+          "translation": "对于那些有写作天赋的人来说，从事自由职业是值得的。"
+        },
+        {
+          "index": 5,
+          "sentence": "When starting out, many people turn to specialist websites listing a range of current writing projects offered by different organisations, which freelancers can apply to complete.",
+          "translation": "在起步阶段，许多人求助于专业网站，这些网站列出由不同组织提供的各类当前写作项目，自由职业者可以申请完成这些项目。"
+        },
+        {
+          "index": 6,
+          "sentence": "These sites can be useful but just make sure any organisation is genuine first.",
+          "translation": "这些网站可能有用，但务必首先确保任何组织都是真实可靠的。"
+        },
+        {
+          "index": 7,
+          "sentence": "Otherwise you might find you've spent hours on work which you never get paid for.",
+          "translation": "否则，你可能会发现自己花了数小时在永远得不到报酬的工作上。"
+        },
+        {
+          "index": 8,
+          "sentence": "When looking to get work for magazines and newspapers, keep the pitches - in which you present what you could write for them - brief and interesting.",
+          "translation": "当寻求为杂志和报纸获取工作时，应保持你的投稿——即你阐述自己能为他们撰写哪些内容——简洁且有趣。"
+        },
+        {
+          "index": 9,
+          "sentence": "Even if you're sending your fifth in a row of rejected ones, be polite and professional.",
+          "translation": "即使你连续第五次发送的稿件被拒绝，也要保持礼貌和专业。"
+        },
+        {
+          "index": 10,
+          "sentence": "The advantages",
+          "translation": "优势"
+        },
+        {
+          "index": 11,
+          "sentence": "The positives of freelancing as a graduate are numerous.",
+          "translation": "作为毕业生，自由职业的积极方面是众多的。"
+        },
+        {
+          "index": 12,
+          "sentence": "It's incredibly satisfying to be working for yourself and having the responsibility of determining your own workload.",
+          "translation": "为自己工作并承担决定自己工作量的责任，这令人非常满足。"
+        },
+        {
+          "index": 13,
+          "sentence": "Making a living doing what you love is hugely rewarding, and of course the flexibility of the work hours may suit you.",
+          "translation": "靠做自己热爱的事情谋生是极有回报的，而且工作时间的灵活性当然也可能适合你。"
+        },
+        {
+          "index": 14,
+          "sentence": "New graduates are generally used to working unusual hours, so if you're most comfortable working late at night or at the weekend, then freelancing may be the way to go.",
+          "translation": "新毕业生通常习惯于在非正常时间工作，所以如果你在深夜或周末工作时感到最舒适，那么自由职业可能适合你。"
+        },
+        {
+          "index": 15,
+          "sentence": "Depending on how much work you manage to get, which can vary wildly, especially when you're just starting out, it also leaves it open for you to get a part-time job, however basic, which would bring in a regular amount.",
+          "translation": "取决于你能得到多少工作（这可能会变动很大，尤其是在你刚开始时），这也让你有机会从事一份兼职工作——无论多么基础——从而带来一份稳定的收入。"
+        },
+        {
+          "index": 16,
+          "sentence": "The disadvantages",
+          "translation": "劣势"
+        },
+        {
+          "index": 17,
+          "sentence": "It is not steady and it is not always profitable.",
+          "translation": "这份工作并不稳定，也不总是盈利的。"
+        },
+        {
+          "index": 18,
+          "sentence": "Graduate writers are notorious for working for no actual payment, and it's because there are so many people willing to do it that companies simply assume that it's acceptable, and of course this suits the companies.",
+          "translation": "毕业生作家因无偿工作而臭名昭著，这是因为有太多人愿意这样做，以至于公司简单地认为这是可以接受的，而这当然对它们有利。"
+        },
+        {
+          "index": 19,
+          "sentence": "Freelancing is probably not for people who lack motivation.",
+          "translation": "自由职业可能不适合缺乏动力的人。"
+        },
+        {
+          "index": 20,
+          "sentence": "If you don't go looking for work, spending your days shooting off emails, then it is very unlikely the work will come to you,",
+          "translation": "如果你不主动寻找工作，整日只是随意发送邮件，那么工作几乎不会主动找上门来。"
+        },
+        {
+          "index": 21,
+          "sentence": "For most people, freelancing does not provide regular work at the beginning.",
+          "translation": "对大多数人来说，自由职业在初期并不能提供稳定的工作。"
+        },
+        {
+          "index": 22,
+          "sentence": "So if you find it stressful not getting paid at the end of every week or month, then it's worth looking at other options.",
+          "translation": "因此，如果你觉得每周或每月末没有收入会带来压力，那么值得考虑其他选择。"
+        },
+        {
+          "index": 23,
+          "sentence": "How to make sure your CV catches the hiring manager's eye",
+          "translation": "如何确保你的简历能吸引招聘经理的注意"
+        },
+        {
+          "index": 24,
+          "sentence": "To be successful in today's job market, it pays to put yourself in the shoes of the hiring manager,",
+          "translation": "要想在当今的就业市场上取得成功，换位思考招聘经理的想法是值得的。"
+        },
+        {
+          "index": 25,
+          "sentence": "After all, their perception of your CV could result in a job interview or a rejection.",
+          "translation": "毕竟，他们对你简历的看法可能导致你获得面试机会或被拒绝。"
+        },
+        {
+          "index": 26,
+          "sentence": "Hiring managers are pushed for time, so they will usually spend a few seconds skimming your CV for must-have terms before they decide to commit to reading it fully,",
+          "translation": "招聘经理时间紧迫，因此他们通常只会花几秒钟扫视你的简历，寻找必备的关键词，然后才决定是否通篇阅读。"
+        },
+        {
+          "index": 27,
+          "sentence": "To pass this preliminary test, make sure your CV is extremely easy to read and is divided into appropriate sections.",
+          "translation": "要通过这一初步筛选，请确保你的简历极易阅读，并划分为合适的板块。"
+        },
+        {
+          "index": 28,
+          "sentence": "Never make readers wade through large amounts of writing or you will risk losing their interest quickly.",
+          "translation": "切勿让读者费力阅读大量文字，否则您将很快失去他们的兴趣。"
+        },
+        {
+          "index": 29,
+          "sentence": "You should also research your target role thoroughly to identify what skills are most needed and ensure these are clearly included near the beginning of your CV.",
+          "translation": "您还应彻底研究目标职位，以确定最需要的技能，并确保在简历开头附近清晰地包含这些内容。"
+        },
+        {
+          "index": 30,
+          "sentence": "Providing a pleasant reading experience and reflecting the company's needs in your CV will create a perfect first impression.",
+          "translation": "在简历中提供愉快的阅读体验并反映公司需求，将创造完美的第一印象。"
+        },
+        {
+          "index": 31,
+          "sentence": "Once managers have scanned your CV quickly, they will look at your present or most recent post.",
+          "translation": "一旦管理者快速浏览了你的简历，他们会将目光转向你当前或最近的职位。"
+        },
+        {
+          "index": 32,
+          "sentence": "This is easily the best way to assess you, so managers will review this part of your CV thoroughly.",
+          "translation": "这无疑是评估你的最佳方式，因此管理者会仔细审阅你简历中的这一部分。"
+        },
+        {
+          "index": 33,
+          "sentence": "Give this description your full attention and think about the questions that managers will want answers to, such as ‘Where do you sit within the organisation?’ and 'How do you contribute to the company?’",
+          "translation": "请全神贯注于这一描述，并思考管理者希望得到答案的问题，例如“你在组织中处于什么位置？”以及“你如何为公司做出贡献？”"
+        },
+        {
+          "index": 34,
+          "sentence": "Many job seekers make bold claims in their CVs, but very few back them up with facts.",
+          "translation": "许多求职者在简历中做出大胆的声明，但很少有人用事实来支持这些说法。"
+        },
+        {
+          "index": 35,
+          "sentence": "Demonstrate the scale of your responsibilities by including numbers such as the size of budget you control, or the number of locations you work in.",
+          "translation": "通过包含数字（如你控制的预算规模或你工作地点的数量）来展示你职责的范围。"
+        },
+        {
+          "index": 36,
+          "sentence": "These numbers provide a scale that everybody can understand and leave readers in no doubt of the level you work at.",
+          "translation": "这些数字提供了一个人人都能理解的尺度，让读者对你的工作水平毫不怀疑。"
+        },
+        {
+          "index": 37,
+          "sentence": "You can also prove your impact by including quantifiable achievements you have had.",
+          "translation": "你也可以通过包含可量化的成就来证明你的影响力。"
+        },
+        {
+          "index": 38,
+          "sentence": "Perhaps you have generated sales of £300k within six months, or maybe you have delivered a project that affected 3 million customers.",
+          "translation": "也许你在六个月内创造了30万英镑的销售额，或者你完成了一个影响300万客户的项目。"
+        },
+        {
+          "index": 39,
+          "sentence": "Even the smallest weakness can deter managers from shortlisting you.",
+          "translation": "即使是最微小的弱点也可能使经理们不愿将你列入候选名单。"
+        },
+        {
+          "index": 40,
+          "sentence": "Obvious spelling and grammar mistakes will be warning signs, but they will also be on the lookout for gaps in the list of posts you have held, or facts that just don't add up.",
+          "translation": "明显的拼写和语法错误会是警示信号，但他们也会留意你任职经历中的空白，或无法相互印证的事实。"
+        },
+        {
+          "index": 41,
+          "sentence": "Proofread your CV thoroughly, including all of your dates, and don't be tempted to add any white lies.",
+          "translation": "仔细校对简历中的所有日期等信息，不要忍不住添上任何善意的谎言。"
+        },
+        {
+          "index": 42,
+          "sentence": "Keep everything looking as professional as possible and don't give them any reason to doubt you.",
+          "translation": "让一切尽可能显得专业，不要给他们任何质疑你的理由。"
+        }
+      ]
+    },
+    {
+      "id": "2946",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "How archaeologists made some exciting discoveries in southeast Turkey",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A It's a sad fact of archaeological life that we can often only find things when they're about to be lost forever, Construction of the llisu Dam, on the river Tigris in southeast Turkey, is now complete, and the flooding of 300 km² Of land behind it has begun. The dam will provide much needed water and electricity to the local region, but it will flood up to 500 archaeological sites. However, its construction has also provided a great opportunity to learn about the past of this region, because when the dam was proposed in the early 1990s, the government invited teams of local and international archaeologists to work in the Tigris valley upstream of llisu to recover as much as they could before the dam was completed. The result was a series of intensive survey projects, followed by more than twenty excavations, which amazingly came across places with archaeological remains ranging from deep prehistory to the Ottoman period. The area to be flooded is now the best-studied archaeological landscape in eastern Turkey.",
+          "translation": "A 考古学中有一个令人遗憾的事实：我们常常只能在事物即将永远消失时才发现它们。\n位于土耳其东南部底格里斯河上的伊利苏大坝现已建成，其后方300平方公里土地的淹没工作已经开始。\n这座大坝将为当地提供急需的水电资源，但将淹没多达500处考古遗址。\n然而，它的建设也提供了一个了解该地区历史的绝佳机会，因为当大坝在20世纪90年代初被提出时，政府邀请了当地和国际考古团队在伊利苏上游的底格里斯河谷开展工作，以便在大坝建成前尽可能多地恢复遗址。\n结果是一系列密集的勘察项目，随后进行了二十多次挖掘，令人惊讶地发现了一些考古遗迹地点，这些遗迹涵盖了从远古史前时期到奥斯曼帝国时期的范围。\n如今，这片将被淹没的区域已成为土耳其东部研究最为深入的考古景观。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "B One of the biggest llisu Dam salvage excavations was at the site of Ziyaret Tepe, an imposing mound rising 22 metres above the plain, within which lies the ancient Assyrian city of Tušhan.",
+          "translation": "伊利苏水坝最大的抢救性发掘之一发生在齐亚雷特特佩遗址，这是一座高出平原22米的宏伟土丘，其内坐落着古老的亚述城市图尚。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Tushan was a provincial centre which guarded the northern border of the mighty Assyrian Empire for almost 300 years (882-611 BCE). It never approached the grandeur of the Assyrian capital Nineveh, but it was part of the Assyrian network of imperial control which imposed authority over conquered regions. Tushan was home not just to Assyrian settlers, but to deportees from all over the empire, who had been uprooted from their homelands as a further means of subjugation.",
+          "translation": "图尚是一个省级中心，在近300年（公元前882年至公元前611年）间守卫着强大的亚述帝国的北部边境。\n它从未达到亚述首都尼尼微的宏伟规模，但它是亚述帝国控制网络的一部分，该网络在被征服地区施加权威。\n图尚不仅是亚述定居者的家园，也是来自帝国各地的被驱逐者的家园，这些人被连根拔起，远离故土，作为进一步征服的手段。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "C Archaeological work at Ziyaret Tepe began in 1997 and ran for eighteen years. The results of all those long hot summers in the field are now finally ready to be presented, with the publication of the project's first book. It provides the most complete picture of an Assyrian imperial town yet known. It includes a mass of information on the governor's palace at Tušhan, which sat on the eastern side of the high mound. lt was built under King Ashurnasirpal ll, who boasted about its construction in an inscription found not far away. Unlike Ashurnasirpal's magnificent palace at Nimrud, Tushan's provincial palace had no raised stone carvings of historical figures. Instead, its white plastered walls were decorated with finely painted geometric patterns in blue, red, orange and black, The reception suite was equipped with a trackway for a moveable heating brazier and with neatly tiled bathrooms, giving it a touch of luxury.",
+          "translation": "Ziyaret Tepe的考古工作始于1997年，持续了十八年。\n随着该项目第一本书的出版，那些漫长炎热夏季的田野工作成果终于得以呈现。\n它提供了迄今为止已知最完整的亚述帝国城镇图景。\n其中包括大量关于位于高丘东侧的Tušhan总督宫殿的信息。\n与亚述纳西拔在尼姆鲁德的宏伟宫殿不同，Tušhan的行省宫殿没有历史人物的浮雕石雕。\n相反，其白色粉刷的墙壁上装饰着以蓝色、红色、橙色和黑色绘制的精美几何图案，\n接待套房配备了一条用于移动加热火盆的轨道，以及铺设整齐的浴室，为其增添了一丝奢华之感。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "The remains of some of the governors themselves may have been found. Under the paving of the palace, five intact burials of human ashes were excavated. Whether or not these were the governors of Tušhan, they were certainly important people, whose bodies had been burnt on beds with ivory fittings, and provided with bronze bowls, lamps and ornaments. Intriguingly, cremation was not an Assyrian practice and these burials suggest that Tushan's ruling elite had either adopted local customs, or were not themselves Assyrians.",
+          "translation": "一些总督本人的遗骸可能已被发现。\n在宫殿的地砖下，发掘出了五个完整的人类骨灰墓葬。\n无论这些是否是图尚的总督，他们无疑都是重要人物，其遗体在带有象牙装饰的床架上被焚烧，并随葬有青铜碗、灯具和饰品。\n耐人寻味的是，火葬并非亚述人的习俗，而这些墓葬表明图尚的统治精英要么采纳了当地风俗，要么他们本身就不是亚述人。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "D To the south of the high mound, Tušhan had a substantial lower town and this is where the real work of the city took place. Over many seasons, the excavation team uncovered a series of sizeable structures, all set around large courtyards paved with beautiful black and white mosaics made of thousands of small, plain black or white pebbles collected from local river beds. Most were high-status homes but one had more complex functions. The entrance chamber to this building yielded hundreds of tiny tokens in a range of forms standing for different numbers and commodities. These are thought to have been used for keeping records as merchandise and people passed in and out The administrative function of the building was confirmed when an archive of 28 tablets with cuneiform writing was found. These include lists of different personnel, but most concern the movement of barley. These transactions are visible throughout the building in the form of standardised weights and huge jars to keep it in. This building was the commercial and administrative centre of Tušhan.",
+          "translation": "在高土丘的南面，图尚有一个相当大的下城，城市的主要活动就在这里进行。\n经过多个发掘季，考古团队发现了一系列规模可观的建筑，这些建筑都围绕着大型庭院而建，庭院地面铺着精美的黑白马赛克，由数千颗从当地河床收集的普通黑白小卵石制成。\n这些建筑大多是高地位阶层的住宅，但其中一栋具有更复杂的功能。\n这栋建筑的入口厅出土了数百个小巧的标记物，它们形态各异，代表不同的数量和商品。\n这些标记物被认为曾用于在商品和人员进出时进行记录。当发现一个包含28块楔形文字泥板的档案库时，这栋建筑的行政功能得到了确认。\n这些泥板包括各类人员的名单，但大部分涉及大麦的流通。\n这些交易活动在整个建筑中随处可见，表现为标准化的砝码和储存大麦的大型陶罐。\n这栋建筑是图尚的商业和行政中心。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "E The frontier character of the city, which stood on the border with hostile Shubria, is clear from the massive fortifications which surrounded both the high mound and the lower town. The mudbrick city wall was two kilometres long and almost three metres thick, with a substantial ditch in front of it. Despite these precautions, Tushan fell with the rest of the Assyrian Empire. The imperial capital at Nineveh fell after a dramatic siege in 612 BCE, after which the remaining Assyrian forces retreated steadily north-westward towards the site of the empire's last stand at the city of Harran. In the path of the army of Medes and Babylonians as they marched up the Tigris river lay Tušhan.",
+          "translation": "E 这座城市位于与敌对地区舒布里亚接壤的边境，其边疆特征从环绕高丘和下城的巨大防御工事中清晰可见。\n这座泥砖城墙长达两公里，厚度近三米，前方还建有一条宽阔的壕沟。\n尽管采取了这些预防措施，图尚仍与亚述帝国其他地区一同沦陷。\n帝国首都尼尼微在公元前612年的一场激烈围城战后陷落，此后剩余的亚述军队稳步向西北撤退，前往帝国最后据点哈兰城所在地。\n在米底人和巴比伦人军队沿底格里斯河上游行进的道路上，坐落着图尚城。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "F Now Tushan faces another threat, as the water from the llisu Dam advances along the same route as that used by the Medes and Babylonians 2,600 year ago. It remains to be seen to what extent the site will eventually be flooded, but even though its physical remains may be lost, along with the other llisu sites, there is some consolation in the fact that a rich record of the town of Tushan, some of its history, its people and way of life, is now preserved in the archives and publications of the Ziyaret Tepe project.",
+          "translation": "如今，图尚面临着另一威胁，因为伊利苏大坝的水沿着2600年前米底人和巴比伦人所用的同一条路线向前推进。\n该遗址最终将被淹没到什么程度仍有待观察，但即使其物理遗迹连同其他伊利苏遗址可能会消失，令人稍感欣慰的是，关于图尚镇及其部分历史、居民和生活方式的大量记录现已保存在Ziyaret Tepe项目的档案和出版物中。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21533",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 33\nThe text has six sections, A-F.\nChoose the correct heading for each section from the list of headings below.\nWrite the correct number, A-H, in boxes 28-33 on your answer sheet.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Defences which proved inadequate"
+            },
+            {
+              "value": "B",
+              "label": "B. Why Tushan's governors were so important"
+            },
+            {
+              "value": "C",
+              "label": "C. An approaching force of a different type"
+            },
+            {
+              "value": "D",
+              "label": "D. A detailed description of one building on the site"
+            },
+            {
+              "value": "E",
+              "label": "E. An important link in the chain of defences"
+            },
+            {
+              "value": "F",
+              "label": "F. How domestic buildings in the lower town were furnished"
+            },
+            {
+              "value": "G",
+              "label": "G. The main reason for the archaeological investigations"
+            },
+            {
+              "value": "H",
+              "label": "H. Where the trade deals were done"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131446",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Defences which proved inadequate"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Why Tushan's governors were so important"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An approaching force of a different type"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A detailed description of one building on the site"
+                },
+                {
+                  "value": "E",
+                  "label": "E. An important link in the chain of defences"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How domestic buildings in the lower town were furnished"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The main reason for the archaeological investigations"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Where the trade deals were done"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干要求为 Section B 选择最合适的标题。Section B 主要介绍了 Ziyaret Tepe 是 Ilısu 大坝抢救性考古发掘中规模最大的一处遗址，并指出其即为古代亚述城市 Tušhan。然而，进行这些考古工作的根本原因在 Section A 中已明确说明：因修建大坝将淹没大片区域，政府才邀请考古学家在淹没前尽可能抢救文物。因此，Section B 属于这一背景下的具体案例，对应标题 G “The main reason for the archaeological investigations”（考古调查的主要原因）。",
+              "reason": "Section B是具体挖掘例子，题干问考古调查的主要原因，对应A段修坝促考古，因此选G。",
+              "location_analysis": "Section A介绍修坝带来考古机会，而Section B具体说明对Ziyaret Tepe...",
+              "paraphrasing": "main reason for the archaeological investigations -> invited teams of local and international archaeologists to work",
+              "keywords": "Section B, main reason, archaeological investigations",
+              "evidence": [
+                "The result was a series of intensive survey projects, followed by more than twenty excavations, which amazingly came across places with archaeological remains ranging from deep prehistory to the Ottoman period.",
+                "One of the biggest llisu Dam salvage excavations was at the site of Ziyaret Tepe, an imposing mound rising 22 metres above the plain, within which lies the ancient Assyrian city of Tušhan."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "131447",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Defences which proved inadequate"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Why Tushan's governors were so important"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An approaching force of a different type"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A detailed description of one building on the site"
+                },
+                {
+                  "value": "E",
+                  "label": "E. An important link in the chain of defences"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How domestic buildings in the lower town were furnished"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The main reason for the archaeological investigations"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Where the trade deals were done"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "Section C 描述了 Tušhan 作为亚述帝国北部边疆的省级中心，在近三百年间守卫帝国边境，属于帝国控制网络的一部分。这表明它在帝国整体防御体系中扮演关键角色。题干选项 E “An important link in the chain of defences”（防御链中的重要一环）准确概括了该段主旨，其中“provincial centre which guarded the northern border”与“important link in the chain of defences”构成同义转述。",
+              "reason": "题干强调防御链中的一环，C段正好说明其作为边境守卫者的角色。",
+              "location_analysis": "Section C介绍Tušhan是守卫北部边界的省会，所以是防御链的重要一环，选E。",
+              "paraphrasing": "An important link in the chain of defences -> provincial centre which guarded the northern border",
+              "keywords": "Section C, link, chain of defences",
+              "evidence": [
+                "Tushan was a provincial centre which guarded the northern border of the mighty Assyrian Empire for almost 300 years (882-611 BCE)."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "131448",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Defences which proved inadequate"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Why Tushan's governors were so important"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An approaching force of a different type"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A detailed description of one building on the site"
+                },
+                {
+                  "value": "E",
+                  "label": "E. An important link in the chain of defences"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How domestic buildings in the lower town were furnished"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The main reason for the archaeological investigations"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Where the trade deals were done"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "Section D 聚焦于 Tušhan 下城的一处特定建筑，详细描述了其入口处发现的数百枚小型标记物（tokens）、记录人员和大麦运输的楔形文字泥板，以及用于储存的大罐，最终明确指出“this building was the commercial and administrative centre”。题干选项 D “A detailed description of one building on the site”（对遗址中一栋建筑的详细描述）完全匹配该段内容，因此为正确答案。",
+              "reason": "D段完整描述下城一栋建筑（商业行政中心），故选D。",
+              "location_analysis": "D段详细描述了下城一栋多功能建筑，选D。",
+              "paraphrasing": "A detailed description of one building -> substantial lower town, entrance chamber, archive of tablets",
+              "keywords": "Section D, description of one building",
+              "evidence": [
+                "Over many seasons, the excavation team uncovered a series of sizeable structures, all set around large courtyards paved with beautiful black and white mosaics made of thousands of small, plain black or white pebbles collected from local river beds.",
+                "The entrance chamber to this building yielded hundreds of tiny tokens in a range of forms standing for different numbers and commodities."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "131449",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Defences which proved inadequate"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Why Tushan's governors were so important"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An approaching force of a different type"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A detailed description of one building on the site"
+                },
+                {
+                  "value": "E",
+                  "label": "E. An important link in the chain of defences"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How domestic buildings in the lower town were furnished"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The main reason for the archaeological investigations"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Where the trade deals were done"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "Section E 提到下城是城市实际运作的核心区域，并特别指出其中一栋建筑兼具商业与行政功能，出土了记录大麦运输的泥板档案及用于记账的 tokens，最后总结“this building was the commercial and administrative centre of Tušhan”。这清楚表明贸易活动在此进行。题干选项 H “Where the trade deals were done”（交易发生的地方）正是对此内容的精准概括，故为正确答案。",
+              "reason": "E段明确说明交易发生在下城商业行政中心，选H。",
+              "location_analysis": "E段讲下城是商业行政中心，交易记录显示，故选H。",
+              "paraphrasing": "Where the trade deals were done -> lower town, commercial and administrative centre",
+              "keywords": "Section E, trade deals, where",
+              "evidence": [
+                "These include lists of different personnel, but most concern the movement of barley.",
+                "This building was the commercial and administrative centre of Tušhan."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "131450",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Defences which proved inadequate"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Why Tushan's governors were so important"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An approaching force of a different type"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A detailed description of one building on the site"
+                },
+                {
+                  "value": "E",
+                  "label": "E. An important link in the chain of defences"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How domestic buildings in the lower town were furnished"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The main reason for the archaeological investigations"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Where the trade deals were done"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "Section F 并未直接描述防御工事，但 Section E 明确提到 Tušhan 拥有长达两公里、厚近三米的泥砖城墙及护城壕沟等“massive fortifications”，然而即便如此，“Despite these precautions, Tushan fell with the rest of the Assyrian Empire”。这说明尽管防御严密，最终仍未能阻止城市陷落，印证了选项 A “Defences which proved inadequate”（被证明无效的防御）的准确性。",
+              "reason": "F段指出防御措施未能阻止城市陷落，选A。",
+              "location_analysis": "F段提到尽管有强大防御，Tušhan仍陷落，故选A。",
+              "paraphrasing": "Defences which proved inadequate -> massive fortifications, despite these precautions, Tushan fell",
+              "keywords": "Section F, defences, inadequate",
+              "evidence": [
+                "The mudbrick city wall was two kilometres long and almost three metres thick, with a substantial ditch in front of it.",
+                "Despite these precautions, Tushan fell with the rest of the Assyrian Empire."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "131451",
+              "number": 33,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Defences which proved inadequate"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Why Tushan's governors were so important"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An approaching force of a different type"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A detailed description of one building on the site"
+                },
+                {
+                  "value": "E",
+                  "label": "E. An important link in the chain of defences"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How domestic buildings in the lower town were furnished"
+                },
+                {
+                  "value": "G",
+                  "label": "G. The main reason for the archaeological investigations"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Where the trade deals were done"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "Section A 开篇指出 Ilısu 大坝建成后将淹没包括 Tušhan 在内的众多遗址，而 Section F 进一步强调：“Now Tushan faces another threat, as the water from the Ilısu Dam advances along the same route as that used by the Medes and Babylonians 2,600 years ago.” 这里的“water”作为一种新的、非军事的“入侵力量”，与古代军队形成对比。因此，选项 C “An approaching force of a different type”（一种不同类型的逼近力量）准确对应此意。",
+              "reason": "题干A段提及水作为新威胁，区别于古代军队，选C。",
+              "location_analysis": "最后一段写Ilisu Dam的水将淹没Tušhan，与古代军队不同，故选C。",
+              "paraphrasing": "An approaching force of a different type -> water from the llisu Dam advances along the same route",
+              "keywords": "Section A, approaching force, different type",
+              "evidence": [
+                "Now Tushan faces another threat, as the water from the llisu Dam advances along the same route as that used by the Medes and Babylonians 2,600 year ago."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "21535",
+          "type": 4,
+          "title": "Tušhan's lower town",
+          "instructions": "Questions 34 - 37\nComplete the summary below.\nChoose ONE WORD ONLY from Section D of the text for each answer.\nWrite your answers in boxes 34-37 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131452",
+              "number": 34,
+              "prompt": "Below the mound where the governor's palace stood was a large lower town. Archaeologists found some houses of considerable size there, which had spacious courtyards in the middle. These had attractively patterned _____ on the floors.",
+              "options": [],
+              "answer": "mosaics",
+              "accepted_answers": [
+                "mosaics"
+              ],
+              "analysis": "题干要求填写下城庭院地板上具有吸引力图案的物品。原文 Section D 明确提到：“large courtyards paved with beautiful black and white mosaics made of thousands of small, plain black or white pebbles”。其中“beautiful black and white mosaics”对应题干中的“attractively patterned...on the floors”，且限定词 ONE WORD ONLY 要求直接提取原文关键词，因此答案为“mosaics”。",
+              "reason": "题干提到庭院有图案的地面，对应原文中的mosaics。",
+              "location_analysis": "原文提到庭院铺有美丽黑白马赛克，因此答案为mosaics。",
+              "paraphrasing": "attractively patterned -> beautiful black and white mosaics",
+              "keywords": "courtyards, patterned, floors",
+              "evidence": [
+                "Over many seasons, the excavation team uncovered a series of sizeable structures, all set around large courtyards paved with beautiful black and white mosaics made of thousands of small, plain black or white pebbles collected from local river beds."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131453",
+              "number": 35,
+              "prompt": "Archaeologists discovered a large number of differently shaped artefacts in one of the buildings. They discovered a large number of very small _____ which represented a variety of goods and quantities. They were probably adopted by the townspeople to maintain _____ of goods as well as men and women, that entered and left the town. Later, a number of inscribed tablets were discovered, which mostly recorded the transport of _____ This trade was also evident in the remains of some enormous jars that were found, which had been used for storage.",
+              "options": [],
+              "answer": "tokens",
+              "accepted_answers": [
+                "tokens"
+              ],
+              "analysis": "题干要求填写代表不同商品和数量的小型物品。原文 Section D 指出：“The entrance chamber to this building yielded hundreds of tiny tokens in a range of forms standing for different numbers and commodities.” 其中“tiny tokens”对应“very small...artefacts”，“standing for different numbers and commodities”对应“represented a variety of goods and quantities”，因此根据 ONE WORD ONLY 的要求，答案为“tokens”。",
+              "reason": "题干要求小型代表商品和数量的物品，原文tokens符合。",
+              "location_analysis": "原文提到数百个小标记代表不同数量和商品，答案为tokens。",
+              "paraphrasing": "very small -> tiny tokens; represented a variety of goods -> standing for different numbers and commodities",
+              "keywords": "very small, artefacts, represented goods",
+              "evidence": [
+                "The entrance chamber to this building yielded hundreds of tiny tokens in a range of forms standing for different numbers and commodities."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131454",
+              "number": 36,
+              "prompt": "Archaeologists discovered a large number of differently shaped artefacts in one of the buildings. They discovered a large number of very small _____ which represented a variety of goods and quantities. They were probably adopted by the townspeople to maintain _____ of goods as well as men and women, that entered and left the town. Later, a number of inscribed tablets were discovered, which mostly recorded the transport of _____ This trade was also evident in the remains of some enormous jars that were found, which had been used for storage.",
+              "options": [],
+              "answer": "records",
+              "accepted_answers": [
+                "records"
+              ],
+              "analysis": "题干要求填写用于记录进出货物及人员的信息类型。原文 Section D 明确说明这些 tokens “are thought to have been used for keeping records as merchandise and people passed in and out”。其中“keeping records”直接对应题干中的“maintain...of goods as well as men and women, that entered and left”，且需填入 ONE WORD ONLY，故答案为“records”。",
+              "reason": "题干要求保持货物和人员进出的记录，原文keeping records。",
+              "location_analysis": "这些标记用来记录进出商品，原文为keeping records，故填records。",
+              "paraphrasing": "maintain -> keeping; goods as well as men and women -> merchandise and people passed in and out",
+              "keywords": "maintain, goods, men and women, entered and left",
+              "evidence": [
+                "These are thought to have been used for keeping records as merchandise and people passed in and out"
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131455",
+              "number": 37,
+              "prompt": "Archaeologists discovered a large number of differently shaped artefacts in one of the buildings. They discovered a large number of very small _____ which represented a variety of goods and quantities. They were probably adopted by the townspeople to maintain _____ of goods as well as men and women, that entered and left the town. Later, a number of inscribed tablets were discovered, which mostly recorded the transport of _____ This trade was also evident in the remains of some enormous jars that were found, which had been used for storage.",
+              "options": [],
+              "answer": "barley",
+              "accepted_answers": [
+                "barley"
+              ],
+              "analysis": "题干要求填写泥板主要记录运输的物品。原文 Section D 指出泥板档案“most concern the movement of barley”，而题干中“recorded the transport of...”与“concern the movement of...”构成同义替换。根据题目要求选择 ONE WORD ONLY，且该词必须来自 Section D，因此答案为“barley”。",
+              "reason": "题干要求刻字泥板记录运输物品，原文movement of barley。",
+              "location_analysis": "泥板记录了大麦的运输，答案为barley。",
+              "paraphrasing": "recorded the transport of -> most concern the movement of",
+              "keywords": "inscribed tablets, recorded, transport",
+              "evidence": [
+                "These include lists of different personnel, but most concern the movement of barley."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "Below the mound where the governor's palace stood was a large lower town. Archaeologists found some houses of considerable size there, which had spacious courtyards in the middle. These had attractively patterned $131452$ on the floors.\nArchaeologists discovered a large number of differently shaped artefacts in one of the buildings. They discovered a large number of very small $131453$ which represented a variety of goods and quantities. They were probably adopted by the townspeople to maintain $131454$ of goods as well as men and women, that entered and left the town. Later, a number of inscribed tablets were discovered, which mostly recorded the transport of $131455$ This trade was also evident in the remains of some enormous jars that were found, which had been used for storage.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Below the mound where the governor's palace stood was a large lower town. Archaeologists found some houses of considerable size there, which had spacious courtyards in the middle. These had attractively patterned $131452$ on the floors.\nArchaeologists discovered a large number of differently shaped artefacts in one of the buildings. They discovered a large number of very small $131453$ which represented a variety of goods and quantities. They were probably adopted by the townspeople to maintain $131454$ of goods as well as men and women, that entered and left the town. Later, a number of inscribed tablets were discovered, which mostly recorded the transport of $131455$ This trade was also evident in the remains of some enormous jars that were found, which had been used for storage."
+        },
+        {
+          "id": "21537",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 38 - 40\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 38-40 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131456",
+              "number": 38,
+              "prompt": "What do we learn about the ancient city of Tušhan?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "lt was built in an area which the Assyrians had taken over."
+                },
+                {
+                  "value": "B",
+                  "label": "It was an impressive city the same size as Nineveh."
+                },
+                {
+                  "value": "C",
+                  "label": "It was situated in the middle of the northern region of Assyria."
+                },
+                {
+                  "value": "D",
+                  "label": "It was inhabited mainly by Assyrian soldiers and their families."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问关于 Tušhan 的信息。原文 Section B 提到 Tušhan 是亚述帝国在北部边境设立的省级中心，用于“imposed authority over conquered regions”，且居民不仅包括亚述移民，还有“deportees from all over the empire”。这表明该城建于被亚述征服的地区，而非帝国核心地带。选项 A “It was built in an area which the Assyrians had taken over”准确反映此意，因此为正确答案。",
+              "reason": "题干问关于Tušhan的情况，原文表明它位于被征服地区，选A。",
+              "location_analysis": "Tušhan是征服地区的一部分，居民包括被驱逐者，故A正确。",
+              "paraphrasing": "area which the Assyrians had taken over -> conquered regions; deportees from all over the empire",
+              "keywords": "Tušhan, area, Assyrians, taken over",
+              "evidence": [
+                "Tushan was a provincial centre which guarded the northern border of the mighty Assyrian Empire for almost 300 years (882-611 BCE).",
+                "Tushan was home not just to Assyrian settlers, but to deportees from all over the empire, who had been uprooted from their homelands as a further means of subjugation."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "B": "原文未提及Tušhan与尼尼微大小相同，属于无中生有。",
+                "C": "原文指出Tušhan位于亚述北部地区，但未明确说明是'中部'，属于范围错误。",
+                "D": "原文未提到Tušhan主要居民是亚述士兵及其家属，属于无中生有。"
+              }
+            },
+            {
+              "id": "131457",
+              "number": 39,
+              "prompt": "Why do archaeologists consider the burials under the palace significant?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Assyrian cremations did not generally include any bronze bowls."
+                },
+                {
+                  "value": "B",
+                  "label": "They indicate that some governors may have been foreigners."
+                },
+                {
+                  "value": "C",
+                  "label": "The furniture that was found there was unusual for the period."
+                },
+                {
+                  "value": "D",
+                  "label": "They were the only bodies that were excavated in Tušhan."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问宫殿下墓葬的重要性。原文 Section C 指出：“cremation was not an Assyrian practice and these burials suggest that Tushan's ruling elite had either adopted local customs, or were not themselves Assyrians.” 这暗示埋葬于此的统治阶层可能并非亚述人，而是外来者或本地人。选项 B “They indicate that some governors may have been foreigners”与此逻辑一致，因此为正确答案。",
+              "reason": "题干问墓葬重要性，原文指出火化非亚述传统，表明统治者可能非亚述人，对应B。",
+              "location_analysis": "火化非亚述习俗，显示总督可能非亚述人，故B正确。",
+              "paraphrasing": "governors may have been foreigners -> cremation was not an Assyrian practice",
+              "keywords": "burials, palace, significant, governors",
+              "evidence": [
+                "Intriguingly, cremation was not an Assyrian practice and these burials suggest that Tushan's ruling elite had either adopted local customs, or were not themselves Assyrians."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及亚述火葬通常不包含青铜碗，属于无中生有。",
+                "C": "原文说明家具在该时期并不罕见，与选项中的“不寻常”矛盾。",
+                "D": "原文提到宫殿下的埋葬只是图沙恩发掘的一部分，并非唯一。"
+              }
+            },
+            {
+              "id": "131458",
+              "number": 40,
+              "prompt": "In Section F, what conclusion does the writer come to?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "It is clear that Tušhan will soon be completely under water."
+                },
+                {
+                  "value": "B",
+                  "label": "Everything is now known about the history of the Tušhan area."
+                },
+                {
+                  "value": "C",
+                  "label": "Other cities will be researched through the Ziyaret Tepe project."
+                },
+                {
+                  "value": "D",
+                  "label": "It is likely that documents will be the only source of information on Tushan."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问作者在 Section F 得出的结论。原文最后一句指出：“even though its physical remains may be lost...a rich record of the town of Tushan...is now preserved in the archives and publications”。这表明尽管遗址可能被淹没，但相关信息已通过文献保存下来。选项 D “It is likely that documents will be the only source of information on Tushan”准确概括了这一结论，因此为正确答案。",
+              "reason": "题干问作者结论，原文说物理遗迹可能消失但档案保存了记录，选D。",
+              "location_analysis": "作者认为尽管遗迹可能淹没，但记录已保存，选D。",
+              "paraphrasing": "documents will be the only source -> rich record ... preserved in the archives and publications",
+              "keywords": "Section F, conclusion, writer",
+              "evidence": [
+                "even though its physical remains may be lost, along with the other llisu sites, there is some consolation in the fact that a rich record of the town of Tushan, some of its history, its people and way of life, is now preserved in the archives and publications of the Ziyaret Tepe project."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "该选项过于绝对，原文并未明确说Tušhan很快会被完全淹没，只是提到了潜在的威胁。",
+                "B": "与原文矛盾，文中暗示对Tušhan地区的历史还有很多未知，并非一切已知。",
+                "C": "原文未提及Ziyaret Tepe项目会研究其他城市，属于无中生有。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "How archaeologists made some exciting discoveries in southeast Turkey",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A It's a sad fact of archaeological life that we can often only find things when they're about to be lost forever,",
+          "translation": "A 考古学中有一个令人遗憾的事实：我们常常只能在事物即将永远消失时才发现它们。"
+        },
+        {
+          "index": 2,
+          "sentence": "Construction of the llisu Dam, on the river Tigris in southeast Turkey, is now complete, and the flooding of 300 km² Of land behind it has begun.",
+          "translation": "位于土耳其东南部底格里斯河上的伊利苏大坝现已建成，其后方300平方公里土地的淹没工作已经开始。"
+        },
+        {
+          "index": 3,
+          "sentence": "The dam will provide much needed water and electricity to the local region, but it will flood up to 500 archaeological sites.",
+          "translation": "这座大坝将为当地提供急需的水电资源，但将淹没多达500处考古遗址。"
+        },
+        {
+          "index": 4,
+          "sentence": "However, its construction has also provided a great opportunity to learn about the past of this region, because when the dam was proposed in the early 1990s, the government invited teams of local and international archaeologists to work in the Tigris valley upstream of llisu to recover as much as they could before the dam was completed.",
+          "translation": "然而，它的建设也提供了一个了解该地区历史的绝佳机会，因为当大坝在20世纪90年代初被提出时，政府邀请了当地和国际考古团队在伊利苏上游的底格里斯河谷开展工作，以便在大坝建成前尽可能多地恢复遗址。"
+        },
+        {
+          "index": 5,
+          "sentence": "The result was a series of intensive survey projects, followed by more than twenty excavations, which amazingly came across places with archaeological remains ranging from deep prehistory to the Ottoman period.",
+          "translation": "结果是一系列密集的勘察项目，随后进行了二十多次挖掘，令人惊讶地发现了一些考古遗迹地点，这些遗迹涵盖了从远古史前时期到奥斯曼帝国时期的范围。"
+        },
+        {
+          "index": 6,
+          "sentence": "The area to be flooded is now the best-studied archaeological landscape in eastern Turkey.",
+          "translation": "如今，这片将被淹没的区域已成为土耳其东部研究最为深入的考古景观。"
+        },
+        {
+          "index": 7,
+          "sentence": "One of the biggest llisu Dam salvage excavations was at the site of Ziyaret Tepe, an imposing mound rising 22 metres above the plain, within which lies the ancient Assyrian city of Tušhan.",
+          "translation": "伊利苏水坝最大的抢救性发掘之一发生在齐亚雷特特佩遗址，这是一座高出平原22米的宏伟土丘，其内坐落着古老的亚述城市图尚。"
+        },
+        {
+          "index": 8,
+          "sentence": "Tushan was a provincial centre which guarded the northern border of the mighty Assyrian Empire for almost 300 years (882-611 BCE).",
+          "translation": "图尚是一个省级中心，在近300年（公元前882年至公元前611年）间守卫着强大的亚述帝国的北部边境。"
+        },
+        {
+          "index": 9,
+          "sentence": "It never approached the grandeur of the Assyrian capital Nineveh, but it was part of the Assyrian network of imperial control which imposed authority over conquered regions.",
+          "translation": "它从未达到亚述首都尼尼微的宏伟规模，但它是亚述帝国控制网络的一部分，该网络在被征服地区施加权威。"
+        },
+        {
+          "index": 10,
+          "sentence": "Tushan was home not just to Assyrian settlers, but to deportees from all over the empire, who had been uprooted from their homelands as a further means of subjugation.",
+          "translation": "图尚不仅是亚述定居者的家园，也是来自帝国各地的被驱逐者的家园，这些人被连根拔起，远离故土，作为进一步征服的手段。"
+        },
+        {
+          "index": 11,
+          "sentence": "Archaeological work at Ziyaret Tepe began in 1997 and ran for eighteen years.",
+          "translation": "Ziyaret Tepe的考古工作始于1997年，持续了十八年。"
+        },
+        {
+          "index": 12,
+          "sentence": "The results of all those long hot summers in the field are now finally ready to be presented, with the publication of the project's first book.",
+          "translation": "随着该项目第一本书的出版，那些漫长炎热夏季的田野工作成果终于得以呈现。"
+        },
+        {
+          "index": 13,
+          "sentence": "It provides the most complete picture of an Assyrian imperial town yet known.",
+          "translation": "它提供了迄今为止已知最完整的亚述帝国城镇图景。"
+        },
+        {
+          "index": 14,
+          "sentence": "It includes a mass of information on the governor's palace at Tušhan, which sat on the eastern side of the high mound.",
+          "translation": "其中包括大量关于位于高丘东侧的Tušhan总督宫殿的信息。"
+        },
+        {
+          "index": 15,
+          "sentence": "l t was built under King Ashurnasirpal ll, who boasted about its construction in an inscription found not far away.",
+          "translation": "它是在亚述纳西拔二世国王统治下建造的，他在不远处发现的一块铭文中夸耀了其建筑。"
+        },
+        {
+          "index": 16,
+          "sentence": "Unlike Ashurnasirpal's magnificent palace at Nimrud, Tushan's provincial palace had no raised stone carvings of historical figures.",
+          "translation": "与亚述纳西拔在尼姆鲁德的宏伟宫殿不同，Tušhan的行省宫殿没有历史人物的浮雕石雕。"
+        },
+        {
+          "index": 17,
+          "sentence": "Instead, its white plastered walls were decorated with finely painted geometric patterns in blue, red, orange and black,",
+          "translation": "相反，其白色粉刷的墙壁上装饰着以蓝色、红色、橙色和黑色绘制的精美几何图案，"
+        },
+        {
+          "index": 18,
+          "sentence": "The reception suite was equipped with a trackway for a moveable heating brazier and with neatly tiled bathrooms, giving it a touch of luxury.",
+          "translation": "接待套房配备了一条用于移动加热火盆的轨道，以及铺设整齐的浴室，为其增添了一丝奢华之感。"
+        },
+        {
+          "index": 19,
+          "sentence": "The remains of some of the governors themselves may have been found.",
+          "translation": "一些总督本人的遗骸可能已被发现。"
+        },
+        {
+          "index": 20,
+          "sentence": "Under the paving of the palace, five intact burials of human ashes were excavated.",
+          "translation": "在宫殿的地砖下，发掘出了五个完整的人类骨灰墓葬。"
+        },
+        {
+          "index": 21,
+          "sentence": "Whether or not these were the governors of Tušhan, they were certainly important people, whose bodies had been burnt on beds with ivory fittings, and provided with bronze bowls, lamps and ornaments.",
+          "translation": "无论这些是否是图尚的总督，他们无疑都是重要人物，其遗体在带有象牙装饰的床架上被焚烧，并随葬有青铜碗、灯具和饰品。"
+        },
+        {
+          "index": 22,
+          "sentence": "Intriguingly, cremation was not an Assyrian practice and these burials suggest that Tushan's ruling elite had either adopted local customs, or were not themselves Assyrians.",
+          "translation": "耐人寻味的是，火葬并非亚述人的习俗，而这些墓葬表明图尚的统治精英要么采纳了当地风俗，要么他们本身就不是亚述人。"
+        },
+        {
+          "index": 23,
+          "sentence": "D To the south of the high mound, Tušhan had a substantial lower town and this is where the real work of the city took place.",
+          "translation": "在高土丘的南面，图尚有一个相当大的下城，城市的主要活动就在这里进行。"
+        },
+        {
+          "index": 24,
+          "sentence": "Over many seasons, the excavation team uncovered a series of sizeable structures, all set around large courtyards paved with beautiful black and white mosaics made of thousands of small, plain black or white pebbles collected from local river beds.",
+          "translation": "经过多个发掘季，考古团队发现了一系列规模可观的建筑，这些建筑都围绕着大型庭院而建，庭院地面铺着精美的黑白马赛克，由数千颗从当地河床收集的普通黑白小卵石制成。"
+        },
+        {
+          "index": 25,
+          "sentence": "Most were high-status homes but one had more complex functions.",
+          "translation": "这些建筑大多是高地位阶层的住宅，但其中一栋具有更复杂的功能。"
+        },
+        {
+          "index": 26,
+          "sentence": "The entrance chamber to this building yielded hundreds of tiny tokens in a range of forms standing for different numbers and commodities.",
+          "translation": "这栋建筑的入口厅出土了数百个小巧的标记物，它们形态各异，代表不同的数量和商品。"
+        },
+        {
+          "index": 27,
+          "sentence": "These are thought to have been used for keeping records as merchandise and people passed in and out The administrative function of the building was confirmed when an archive of 28 tablets with cuneiform writing was found.",
+          "translation": "这些标记物被认为曾用于在商品和人员进出时进行记录。当发现一个包含28块楔形文字泥板的档案库时，这栋建筑的行政功能得到了确认。"
+        },
+        {
+          "index": 28,
+          "sentence": "These include lists of different personnel, but most concern the movement of barley.",
+          "translation": "这些泥板包括各类人员的名单，但大部分涉及大麦的流通。"
+        },
+        {
+          "index": 29,
+          "sentence": "These transactions are visible throughout the building in the form of standardised weights and huge jars to keep it in.",
+          "translation": "这些交易活动在整个建筑中随处可见，表现为标准化的砝码和储存大麦的大型陶罐。"
+        },
+        {
+          "index": 30,
+          "sentence": "This building was the commercial and administrative centre of Tušhan.",
+          "translation": "这栋建筑是图尚的商业和行政中心。"
+        },
+        {
+          "index": 31,
+          "sentence": "E The frontier character of the city, which stood on the border with hostile Shubria, is clear from the massive fortifications which surrounded both the high mound and the lower town.",
+          "translation": "E 这座城市位于与敌对地区舒布里亚接壤的边境，其边疆特征从环绕高丘和下城的巨大防御工事中清晰可见。"
+        },
+        {
+          "index": 32,
+          "sentence": "The mudbrick city wall was two kilometres long and almost three metres thick, with a substantial ditch in front of it.",
+          "translation": "这座泥砖城墙长达两公里，厚度近三米，前方还建有一条宽阔的壕沟。"
+        },
+        {
+          "index": 33,
+          "sentence": "Despite these precautions, Tushan fell with the rest of the Assyrian Empire.",
+          "translation": "尽管采取了这些预防措施，图尚仍与亚述帝国其他地区一同沦陷。"
+        },
+        {
+          "index": 34,
+          "sentence": "The imperial capital at Nineveh fell after a dramatic siege in 612 BCE, after which the remaining Assyrian forces retreated steadily north-westward towards the site of the empire's last stand at the city of Harran.",
+          "translation": "帝国首都尼尼微在公元前612年的一场激烈围城战后陷落，此后剩余的亚述军队稳步向西北撤退，前往帝国最后据点哈兰城所在地。"
+        },
+        {
+          "index": 35,
+          "sentence": "In the path of the army of Medes and Babylonians as they marched up the Tigris river lay Tušhan.",
+          "translation": "在米底人和巴比伦人军队沿底格里斯河上游行进的道路上，坐落着图尚城。"
+        },
+        {
+          "index": 36,
+          "sentence": "F Now Tushan faces another threat, as the water from the llisu Dam advances along the same route as that used by the Medes and Babylonians 2,600 year ago.",
+          "translation": "如今，图尚面临着另一威胁，因为伊利苏大坝的水沿着2600年前米底人和巴比伦人所用的同一条路线向前推进。"
+        },
+        {
+          "index": 37,
+          "sentence": "It remains to be seen to what extent the site will eventually be flooded, but even though its physical remains may be lost, along with the other llisu sites, there is some consolation in the fact that a rich record of the town of Tushan, some of its history, its people and way of life, is now preserved in the archives and publications of the Ziyaret Tepe project.",
+          "translation": "该遗址最终将被淹没到什么程度仍有待观察，但即使其物理遗迹连同其他伊利苏遗址可能会消失，令人稍感欣慰的是，关于图尚镇及其部分历史、居民和生活方式的大量记录现已保存在Ziyaret Tepe项目的档案和出版物中。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

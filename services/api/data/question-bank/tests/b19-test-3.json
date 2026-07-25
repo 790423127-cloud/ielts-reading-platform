@@ -1,0 +1,2446 @@
+{
+  "id": "b19-test-3",
+  "book": "剑雅19",
+  "book_number": 19,
+  "name": "Test 3",
+  "title": "剑雅19 Test 3",
+  "parts": [
+    {
+      "id": "2746",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "A Purple Rainbow:The Truth",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Having actors playing popular rock band Purple Rainbow seemed like a badidea,but in fact they're impressive musicians themselves.Their fans in the film were actual fans of the group and transferred their enthusiasm to the actors very convincingly.I assumed there would be plenty of music,linked by weak dialogue,but I was wrong.And the support that band members gave to lead singer Jerry Cosgrove when tragedy entered his life had me close to tears, giving me a new appreciation of the band.",
+          "translation": "影片中的粉丝实际上是该乐队的真正粉丝，他们非常令人信服地将热情传递给了演员。\n我原以为会有大量音乐，穿插着薄弱的对话，但我错了。\n当悲剧降临主唱Jerry Cosgrove的生活时，乐队成员给予他的支持让我几乎落泪，使我对这个乐队有了全新的欣赏。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "B Home Fires",
+          "translation": "B 《家庭之火》"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "I expected a standard,rather dull,story about domestic life,like the director's last two films.Instead,Home Fires had me on the edge of my seat with excitement.It's certainly worth a second viewing.Having said that,although it is apparently a film intended for all ages,many children would find the long discussions of relationship issues boring,and they contributed little or nothing to the film.",
+          "translation": "我本以为这会是一个标准、相当枯燥的关于家庭生活的故事，就像导演前两部电影一样。\n相反，《家之火》让我紧张得坐立不安，充满兴奋。\n这绝对值得再看一遍。\n话虽如此，尽管这显然是一部适合所有年龄段的电影，但许多孩子会觉得关于关系问题的冗长讨论很无聊，而这些讨论对电影几乎没有任何贡献。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "C The Jeffersons",
+          "translation": "C 《杰斐逊一家》"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "One of the most popular films of the past half century is Mary and Tom,and a remake of it seems unnecessary.Nevertheless,The Jeffersons has some delightful elements,particularly the acting of Yvonne Richards.She really brought the character she played to life,but sadly,neither she nor the other actors could make the script sound natural.",
+          "translation": "过去半个世纪最受欢迎的电影之一是《玛丽与汤姆》，对其重拍似乎没有必要。\n尽管如此，《杰斐逊一家》仍有一些令人愉悦的元素，尤其是伊冯·理查兹的表演。\n她确实将自己扮演的角色演得栩栩如生，但遗憾的是，无论她还是其他演员，都无法使剧本听起来自然。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "D Space Challenge 5",
+          "translation": "D 太空挑战 5"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "This film makes an important ethical point about treating other people with respect,but that is likely to be missed by many teenagers,the target audience, as it assumes familiarity with the world as it was 20 years ago.With change happening so fast these days,many of the references will leave them confused.",
+          "translation": "这部电影提出了一个关于尊重他人的重要道德观点，但这一点很可能被目标观众——许多青少年所忽略，因为它假设观众熟悉20年前的世界。\n由于当今变化如此迅速，影片中的许多背景信息会让他们感到困惑。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "E Uplands",
+          "translation": "E 高地"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Uplands could have been a delightful film:it has a charming story,witty dialogue,and is visually breathtaking.But the two lead actors are at their best in thrillers,not films like this one.James Petherick,who plays the hero,fails to gain the sympathy of the audience,who should be moved by the ups and downs in his life.",
+          "translation": "《高地》本可以成为一部令人愉悦的电影：它有一个迷人的故事、诙谐的对话，而且在视觉上令人叹为观止。\n但两位主演在惊悚片中表现最佳，而非这类电影。\n饰演主角的詹姆斯·佩瑟里克未能赢得观众的同情，而观众本应被他生活中的起伏所感动。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Sports events in New Zealand",
+          "question_cue": {
+            "start": 9,
+            "end": 14
+          },
+          "translation": "新西兰的体育赛事"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "A McLeans Island Run",
+          "translation": "A 麦克莱恩斯岛跑步活动"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "This unique running and cycling event winds its way through the Canterbury countryside and finishes in Orana Park,where your spectators will include lions,tigers,gorillas and giraffes.Whether you're a first-timer or a seasoned professional,there's a distance to suit you.Choose from the short,the sprint or the standard distance.You can race to help other people too-if you get some friends or workmates to take part,you'll be in with a chance to win $25,000 to put towards a good cause of your choice.",
+          "translation": "这一独特的跑步与骑行赛事蜿蜒穿过坎特伯雷乡村，终点设在奥拉纳公园，届时你的观众将包括狮子、老虎、大猩猩和长颈鹿。\n无论你是新手还是经验丰富的专业人士，总有适合你的距离。\n你可以从短距离、冲刺距离或标准距离中进行选择。\n你还可以通过比赛来帮助他人——如果你邀请一些朋友或同事参与，你将有机会赢得25,000美元，用于支持你选择的慈善事业。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "B The Pioneer",
+          "translation": "B 先锋赛"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "The Pioneer is an awe-inspiring seven-day mountain bike race through New Zealand's pristine Southern Alps.It is the first race of its kind to link together over 500 km of farm tracks,cycle trails,double track and single track riding in a very special part of the world where soaring mountain peaks,crystal-clear lakes,and high country await.If you're looking for a mountain bike race to get you inspired,this is it!",
+          "translation": "先锋赛是一项令人惊叹的七日山地自行车赛事，穿越新西兰原始南阿尔卑斯山脉。\n这是首个将超过500公里的农场小径、自行车道、双轨和单轨骑行路线连接在一起的此类赛事，位于一个非常特殊的地方，那里耸立的山峰、清澈的湖泊和高原等待着你。\n如果你在寻找一场能激发灵感的山地自行车赛，就是它了！\n《先驱者》是一项令人叹为观止的为期七天的山地自行车赛事，穿越新西兰原始的南阿尔卑斯山。\n这是首个将超过500公里的农场小径、自行车道、双轨和单轨骑行路线连接起来的赛事，位于一个极为特殊的地方，那里有高耸的山峰、清澈的湖泊和高原地带等待探索。\n如果你正在寻找一场能激发灵感的山地自行车比赛，这就是了！"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "C Race Drive Experience",
+          "translation": "C 竞速驾驶体验"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "If you have ever wanted to experience the extreme thrill of driving a 6000cc race car,then this is definitely for you!You start off your Race Drive Experience by meeting the skilled team of racing drivers at the Motorsport Park Raceway, before being fully kitted out with one of our race suits and safety helmet. Then you are strapped into the passenger seat of one of our racing cars and taken on a demo drive,covering racing lines,braking points and race driving tricks.Finally you take the driver's seat and can undertake your own high-speed laps of the circuit.",
+          "translation": "如果你曾经想要体验驾驶6000cc赛车的极致刺激，那么这绝对适合你！\n你的赛车驾驶体验从在赛车运动公园赛道与经验丰富的赛车手团队会面开始，然后你会全副武装，穿上我们的一件赛车服并戴上安全头盔。\n接着，你被系上安全带，坐在我们一辆赛车的副驾驶座上，进行一次示范驾驶，涵盖赛车路线、刹车点和赛车驾驶技巧。\n最后，你坐上驾驶座，可以在赛道上进行你自己的高速绕圈驾驶。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "D Banks Peninsular Walking Festival",
+          "translation": "D 班克斯半岛徒步节"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "The Banks Peninsula Walking Festival offers guided walks all over the Banks Peninsula.The guides,all volunteers,are local people who love to share their passion for this special place with those from the wider community. Participants are guaranteed an enjoyable experience as they relax,get to know new people and absorb the stories and atmosphere of this fantastic land.",
+          "translation": "班克斯半岛徒步节在班克斯半岛各地提供有向导的徒步活动。\n向导均为志愿者，他们是热衷于与更广泛社区的成员分享自己对这片特殊之地热情的当地居民。\n参与者可以放松身心、结识新朋友，并领略这片神奇土地的故事与氛围，从而确保获得愉快的体验。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "19834",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 8\nLook at the five film reviews, A-E.\nFor which film review are the following statements true?\nChoose the correct letter, A-E.\nNB You mayuse any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128949",
+              "number": 1,
+              "prompt": "The reviewer thinks some of the cast are unsuitable for their roles.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“some of the cast are unsuitable for their roles”对应原文E段中提到的“the two lead actors are at their best in thrillers, not films like this one”，说明主演擅长的是惊悚片，而非本片类型；此外，“James Petherick...fails to gain the sympathy of the audience”也暗示其表演未能契合角色需求。因此，E是正确答案。",
+              "reason": "直接指出演员不适合角色。",
+              "location_analysis": "两位主演适合惊悚片而非本片，主角未能赢得观众同情，暗示选角不合适。",
+              "paraphrasing": "some of the cast are unsuitable -> two lead actors are at their best in thrillers, not films like this one; fails to gain the sympathy",
+              "keywords": "cast, unsuitable for roles",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128950",
+              "number": 2,
+              "prompt": "The dialogue in this film seems unrealistic.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出对话显得不真实的影片，C段明确指出“neither she nor the other actors could make the script sound natural”，即演员无法让剧本台词听起来自然，这与“dialogue seems unrealistic”形成直接对应关系，故答案为C。",
+              "reason": "原文明确否定台词自然性。",
+              "location_analysis": "演员无法让台词听起来自然，即对话不真实。",
+              "paraphrasing": "dialogue unrealistic -> script sound natural (否定)",
+              "keywords": "dialogue, unrealistic",
+              "evidence": [
+                "neither she nor the other actors could make the script sound natural."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128951",
+              "number": 3,
+              "prompt": "The reviewer found this film unexpectedly emotional.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“unexpectedly emotional”对应A段中“had me close to tears”，作者原以为影片只是音乐加薄弱对白，却因乐队成员在主唱遭遇悲剧时给予的支持而深受感动，这种情感体验出乎预料，因此答案是A。",
+              "reason": "A段表达了出乎意料的感动，与题干吻合。",
+              "location_analysis": "A段说乐队支持主唱让他感动落泪，是意外情感。",
+              "paraphrasing": "unexpectedly emotional -> had me close to tears",
+              "keywords": "unexpectedly emotional",
+              "evidence": [
+                "And the support that band members gave to lead singer Jerry Cosgrove when tragedy entered his life had me close to tears, giving me a new appreciation of the band."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128952",
+              "number": 4,
+              "prompt": "This film contains dialogue that is uninteresting for some viewers.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“dialogue that is uninteresting for some viewers”对应B段中“many children would find the long discussions of relationship issues boring”，说明部分观众（尤其是儿童）会觉得影片中的对话冗长乏味，因此答案为B。",
+              "reason": "原文明确指出boring。",
+              "location_analysis": "许多孩子觉得冗长的关系讨论无聊，即对话无趣。",
+              "paraphrasing": "uninteresting dialogue -> boring discussions of relationship issues",
+              "keywords": "dialogue, uninteresting",
+              "evidence": [
+                "many children would find the long discussions of relationship issues boring"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128953",
+              "number": 5,
+              "prompt": "This film carries a moral message.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“carries a moral message”对应D段首句“This film makes an important ethical point about treating other people with respect”，其中“ethical point”即道德信息，尽管目标观众可能难以理解，但影片确实传达了尊重他人的价值观，因此答案是D。",
+              "reason": "D段首句即点明伦理观点。",
+              "location_analysis": "原文明确提到电影传达关于尊重他人的伦理观点，即道德信息。",
+              "paraphrasing": "moral message -> ethical point about treating other people with respect",
+              "keywords": "moral message",
+              "evidence": [
+                "This film makes an important ethical point about treating other people with respect"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128954",
+              "number": 6,
+              "prompt": "Non-actors take part in this film.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“Non-actors take part in this film”对应A段中“Their fans in the film were actual fans of the group”，说明影片中出现的粉丝并非专业演员，而是真实乐迷，他们将热情传递给演员，因此答案为A。",
+              "reason": "A段说明粉丝是真实粉丝，即非演员参与。",
+              "location_analysis": "A段提到电影中乐队粉丝是真实粉丝，不是演员。",
+              "paraphrasing": "non-actors -> actual fans of the group",
+              "keywords": "non-actors, take part",
+              "evidence": [
+                "Their fans in the film were actual fans of the group and transferred their enthusiasm to the actors very convincingly."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128955",
+              "number": 7,
+              "prompt": "The reviewer thinks this film should be seen again.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“should be seen again”对应B段中“It's certainly worth a second viewing”，评论者明确表示该片值得重看，这与题干意思完全一致，因此答案是B。",
+              "reason": "B段直接建议二刷。",
+              "location_analysis": "B段说值得再看一遍，与题干一致。",
+              "paraphrasing": "should be seen again -> worth a second viewing",
+              "keywords": "seen again",
+              "evidence": [
+                "It's certainly worth a second viewing."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128956",
+              "number": 8,
+              "prompt": "This film mentions things that audience members won't know about.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“mentions things that audience members won't know about”对应D段中“many of the references will leave them confused”，因为影片假设观众熟悉20年前的世界，而如今变化迅速，青少年观众会对其中内容感到困惑，因此答案为D。",
+              "reason": "观众因不熟悉背景而困惑。",
+              "location_analysis": "引用会让青少年困惑，即他们不了解。",
+              "paraphrasing": "things audience won't know -> many of the references will leave them confused",
+              "keywords": "mentions things, audience won't know",
+              "evidence": [
+                "many of the references will leave them confused"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "19836",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 9 - 14\nLook at the four advertisements for sports events, A-D.\nFor which event are the following statements true?\nChoose the correct letter, A-D.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128957",
+              "number": 9,
+              "prompt": "You see spectacular scenery.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“see spectacular scenery”对应B段中“soaring mountain peaks, crystal-clear lakes, and high country await”，描述了壮丽的高山、清澈湖泊和高地景观，符合“spectacular scenery”的含义，因此答案是B。",
+              "reason": "直接描述自然景观。",
+              "location_analysis": "描述高山、湖泊等壮丽景色。",
+              "paraphrasing": "see spectacular scenery -> soaring mountain peaks, crystal-clear lakes, and high country",
+              "keywords": "spectacular scenery",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128958",
+              "number": 10,
+              "prompt": "You are provided with special clothing.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中的“provided with special clothing”对应C段中“before being fully kitted out with one of our race suits and safety helmet”，说明参与者会获得赛车服和安全头盔等专业装备，即特殊服装，因此答案为C。",
+              "reason": "C段直接提供装备。",
+              "location_analysis": "C段提供赛车服和安全帽，即特殊服装。",
+              "paraphrasing": "provided with special clothing -> fully kitted out with one of our race suits and safety helmet",
+              "keywords": "special clothing",
+              "evidence": [
+                "before being fully kitted out with one of our race suits and safety helmet."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128959",
+              "number": 11,
+              "prompt": "You may be watched while you are doing the activity.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“may be watched while you are doing the activity”对应A段中“your spectators will include lions, tigers, gorillas and giraffes”，虽然此处用动物作比喻，但明确指出参赛者在终点会被观看，因此答案是A。",
+              "reason": "有观众观看。",
+              "location_analysis": "观众包括狮子、老虎等动物，即活动时被观看。",
+              "paraphrasing": "may be watched -> your spectators will include lions, tigers, gorillas and giraffes",
+              "keywords": "watched while doing activity",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128960",
+              "number": 12,
+              "prompt": "You watch someone else before doing the activity yourself.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中的“watch someone else before doing the activity yourself”对应C段中先进行“demo drive”（示范驾驶），之后才“take the driver's seat”亲自驾驶，说明参与者需先观察他人操作再自己实践，因此答案为C。",
+              "reason": "C段描述了先观看演示再自己驾驶的过程。",
+              "location_analysis": "原文先被带进行演示驾驶（观看），再自己驾驶。",
+              "paraphrasing": "watch someone else -> taken on a demo drive; before doing the activity yourself -> take the driver's seat",
+              "keywords": "watch someone else before doing the activity",
+              "evidence": [
+                "Finally you take the driver's seat and can undertake your own high-speed laps of the circuit."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128961",
+              "number": 13,
+              "prompt": "You meet people who are expert at the activity.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中的“meet people who are expert at the activity”对应C段开头“You start off...by meeting the skilled team of racing drivers”，其中“skilled team of racing drivers”即指在该活动中具有专业技能的人士，因此答案是C。",
+              "reason": "C段与专家团队见面。",
+              "location_analysis": "C段开头遇到专业赛车手团队。",
+              "paraphrasing": "people who are expert -> skilled team of racing drivers",
+              "keywords": "expert at the activity",
+              "evidence": [
+                "You start off your Race Drive Experience by meeting the skilled team of racing drivers at the Motorsport Park Raceway"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128962",
+              "number": 14,
+              "prompt": "You can raise money for a charity.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“raise money for a charity”对应A段中“you'll be in with a chance to win $25,000 to put towards a good cause of your choice”，说明参赛者有机会赢得奖金用于慈善目的，因此答案为A。",
+              "reason": "A段明确为慈善筹款。",
+              "location_analysis": "A段可赢取25000美元用于慈善。",
+              "paraphrasing": "raise money for charity -> win $25,000 to put towards a good cause of your choice",
+              "keywords": "raise money, charity",
+              "evidence": [
+                "you'll be in with a chance to win $25,000 to put towards a good cause of your choice."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "A Purple Rainbow:The Truth",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Having actors playing popular rock band Purple Rainbow seemed like a bad idea, but in fact they're impressive musicians themselves.",
+          "translation": "让演员扮演流行摇滚乐队Purple Rainbow似乎是个糟糕的主意，但事实上他们本身就是令人印象深刻的音乐人。"
+        },
+        {
+          "index": 2,
+          "sentence": "Their fans in the film were actual fans of the group and transferred their enthusiasm to the actors very convincingly.",
+          "translation": "影片中的粉丝实际上是该乐队的真正粉丝，他们非常令人信服地将热情传递给了演员。"
+        },
+        {
+          "index": 3,
+          "sentence": "I assumed there would be plenty of music, linked by weak dialogue, but I was wrong.",
+          "translation": "我原以为会有大量音乐，穿插着薄弱的对话，但我错了。"
+        },
+        {
+          "index": 4,
+          "sentence": "And the support that band members gave to lead singer Jerry Cosgrove when tragedy entered his life had me close to tears, giving me a new appreciation of the band.",
+          "translation": "当悲剧降临主唱Jerry Cosgrove的生活时，乐队成员给予他的支持让我几乎落泪，使我对这个乐队有了全新的欣赏。"
+        },
+        {
+          "index": 5,
+          "sentence": "B Home Fires",
+          "translation": "B 《家庭之火》"
+        },
+        {
+          "index": 6,
+          "sentence": "I expected a standard,rather dull,story about domestic life,like the director's last two films.",
+          "translation": "我本以为这会是一个标准、相当枯燥的关于家庭生活的故事，就像导演前两部电影一样。"
+        },
+        {
+          "index": 7,
+          "sentence": "Instead,Home Fires had me on the edge of my seat with excitement.",
+          "translation": "相反，《家之火》让我紧张得坐立不安，充满兴奋。"
+        },
+        {
+          "index": 8,
+          "sentence": "It's certainly worth a second viewing.",
+          "translation": "这绝对值得再看一遍。"
+        },
+        {
+          "index": 9,
+          "sentence": "Having said that,although it is apparently a film intended for all ages,many children would find the long discussions of relationship issues boring,and they contributed little or nothing to the film.",
+          "translation": "话虽如此，尽管这显然是一部适合所有年龄段的电影，但许多孩子会觉得关于关系问题的冗长讨论很无聊，而这些讨论对电影几乎没有任何贡献。"
+        },
+        {
+          "index": 10,
+          "sentence": "C The Jeffersons",
+          "translation": "C 《杰斐逊一家》"
+        },
+        {
+          "index": 11,
+          "sentence": "One of the most popular films of the past half century is Mary and Tom, and a remake of it seems unnecessary.",
+          "translation": "过去半个世纪最受欢迎的电影之一是《玛丽与汤姆》，对其重拍似乎没有必要。"
+        },
+        {
+          "index": 12,
+          "sentence": "Nevertheless, The Jeffersons has some delightful elements, particularly the acting of Yvonne Richards.",
+          "translation": "尽管如此，《杰斐逊一家》仍有一些令人愉悦的元素，尤其是伊冯·理查兹的表演。"
+        },
+        {
+          "index": 13,
+          "sentence": "She really brought the character she played to life, but sadly, neither she nor the other actors could make the script sound natural.",
+          "translation": "她确实将自己扮演的角色演得栩栩如生，但遗憾的是，无论她还是其他演员，都无法使剧本听起来自然。"
+        },
+        {
+          "index": 14,
+          "sentence": "D Space Challenge 5",
+          "translation": "D 太空挑战 5"
+        },
+        {
+          "index": 15,
+          "sentence": "This film makes an important ethical point about treating other people with respect, but that is likely to be missed by many teenagers, the target audience, as it assumes familiarity with the world as it was 20 years ago.",
+          "translation": "这部电影提出了一个关于尊重他人的重要道德观点，但这一点很可能被目标观众——许多青少年所忽略，因为它假设观众熟悉20年前的世界。"
+        },
+        {
+          "index": 16,
+          "sentence": "With change happening so fast these days, many of the references will leave them confused.",
+          "translation": "由于当今变化如此迅速，影片中的许多背景信息会让他们感到困惑。"
+        },
+        {
+          "index": 17,
+          "sentence": "E Uplands",
+          "translation": "E 高地"
+        },
+        {
+          "index": 18,
+          "sentence": "Uplands could have been a delightful film:it has a charming story,witty dialogue,and is visually breathtaking.",
+          "translation": "《高地》本可以成为一部令人愉悦的电影：它有一个迷人的故事、诙谐的对话，而且在视觉上令人叹为观止。"
+        },
+        {
+          "index": 19,
+          "sentence": "But the two lead actors are at their best in thrillers,not films like this one.",
+          "translation": "但两位主演在惊悚片中表现最佳，而非这类电影。"
+        },
+        {
+          "index": 20,
+          "sentence": "James Petherick,who plays the hero,fails to gain the sympathy of the audience,who should be moved by the ups and downs in his life.",
+          "translation": "饰演主角的詹姆斯·佩瑟里克未能赢得观众的同情，而观众本应被他生活中的起伏所感动。"
+        },
+        {
+          "index": 21,
+          "sentence": "Sports events in New Zealand",
+          "translation": "新西兰的体育赛事"
+        },
+        {
+          "index": 22,
+          "sentence": "A McLeans Island Run",
+          "translation": "A 麦克莱恩斯岛跑步活动"
+        },
+        {
+          "index": 23,
+          "sentence": "This unique running and cycling event winds its way through the Canterbury countryside and finishes in Orana Park, where your spectators will include lions, tigers, gorillas and giraffes.",
+          "translation": "这一独特的跑步与骑行赛事蜿蜒穿过坎特伯雷乡村，终点设在奥拉纳公园，届时你的观众将包括狮子、老虎、大猩猩和长颈鹿。"
+        },
+        {
+          "index": 24,
+          "sentence": "Whether you're a first-timer or a seasoned professional, there's a distance to suit you.",
+          "translation": "无论你是新手还是经验丰富的专业人士，总有适合你的距离。"
+        },
+        {
+          "index": 25,
+          "sentence": "Choose from the short, the sprint or the standard distance.",
+          "translation": "你可以从短距离、冲刺距离或标准距离中进行选择。"
+        },
+        {
+          "index": 26,
+          "sentence": "You can race to help other people too-if you get some friends or workmates to take part, you'll be in with a chance to win $25,000 to put towards a good cause of your choice.",
+          "translation": "你还可以通过比赛来帮助他人——如果你邀请一些朋友或同事参与，你将有机会赢得25,000美元，用于支持你选择的慈善事业。"
+        },
+        {
+          "index": 27,
+          "sentence": "B The Pioneer",
+          "translation": "B 先锋赛"
+        },
+        {
+          "index": 28,
+          "sentence": "The Pioneer is an awe-inspiring seven-day mountain bike race through New Zealand's pristine Southern Alps.",
+          "translation": "先锋赛是一项令人惊叹的七日山地自行车赛事，穿越新西兰原始南阿尔卑斯山脉。"
+        },
+        {
+          "index": 29,
+          "sentence": "It is the first race of its kind to link together over 500 km of farm tracks, cycle trails, double track and single track riding in a very special part of the world where soaring mountain peaks, crystal-clear lakes, and high country await.",
+          "translation": "这是首个将超过500公里的农场小径、自行车道、双轨和单轨骑行路线连接在一起的此类赛事，位于一个非常特殊的地方，那里耸立的山峰、清澈的湖泊和高原等待着你。"
+        },
+        {
+          "index": 30,
+          "sentence": "If you're looking for a mountain bike race to get you inspired, this is it!",
+          "translation": "如果你在寻找一场能激发灵感的山地自行车赛，就是它了！"
+        },
+        {
+          "index": 31,
+          "sentence": "The Pioneer is an awe-inspiring seven-day mountain bike race through New Zealand's pristine Southern Alps.",
+          "translation": "《先驱者》是一项令人叹为观止的为期七天的山地自行车赛事，穿越新西兰原始的南阿尔卑斯山。"
+        },
+        {
+          "index": 32,
+          "sentence": "It is the first race of its kind to link together over 500 km of farm tracks, cycle trails, double track and single track riding in a very special part of the world where soaring mountain peaks, crystal-clear lakes, and high country await.",
+          "translation": "这是首个将超过500公里的农场小径、自行车道、双轨和单轨骑行路线连接起来的赛事，位于一个极为特殊的地方，那里有高耸的山峰、清澈的湖泊和高原地带等待探索。"
+        },
+        {
+          "index": 33,
+          "sentence": "If you're looking for a mountain bike race to get you inspired, this is it!",
+          "translation": "如果你正在寻找一场能激发灵感的山地自行车比赛，这就是了！"
+        },
+        {
+          "index": 34,
+          "sentence": "C Race Drive Experience",
+          "translation": "C 竞速驾驶体验"
+        },
+        {
+          "index": 35,
+          "sentence": "If you have ever wanted to experience the extreme thrill of driving a 6000cc race car, then this is definitely for you!",
+          "translation": "如果你曾经想要体验驾驶6000cc赛车的极致刺激，那么这绝对适合你！"
+        },
+        {
+          "index": 36,
+          "sentence": "You start off your Race Drive Experience by meeting the skilled team of racing drivers at the Motorsport Park Raceway, before being fully kitted out with one of our race suits and safety helmet.",
+          "translation": "你的赛车驾驶体验从在赛车运动公园赛道与经验丰富的赛车手团队会面开始，然后你会全副武装，穿上我们的一件赛车服并戴上安全头盔。"
+        },
+        {
+          "index": 37,
+          "sentence": "Then you are strapped into the passenger seat of one of our racing cars and taken on a demo drive, covering racing lines, braking points and race driving tricks.",
+          "translation": "接着，你被系上安全带，坐在我们一辆赛车的副驾驶座上，进行一次示范驾驶，涵盖赛车路线、刹车点和赛车驾驶技巧。"
+        },
+        {
+          "index": 38,
+          "sentence": "Finally you take the driver's seat and can undertake your own high-speed laps of the circuit.",
+          "translation": "最后，你坐上驾驶座，可以在赛道上进行你自己的高速绕圈驾驶。"
+        },
+        {
+          "index": 39,
+          "sentence": "D Banks Peninsular Walking Festival",
+          "translation": "D 班克斯半岛徒步节"
+        },
+        {
+          "index": 40,
+          "sentence": "The Banks Peninsula Walking Festival offers guided walks all over the Banks Peninsula.",
+          "translation": "班克斯半岛徒步节在班克斯半岛各地提供有向导的徒步活动。"
+        },
+        {
+          "index": 41,
+          "sentence": "The guides, all volunteers, are local people who love to share their passion for this special place with those from the wider community.",
+          "translation": "向导均为志愿者，他们是热衷于与更广泛社区的成员分享自己对这片特殊之地热情的当地居民。"
+        },
+        {
+          "index": 42,
+          "sentence": "Participants are guaranteed an enjoyable experience as they relax, get to know new people and absorb the stories and atmosphere of this fantastic land.",
+          "translation": "参与者可以放松身心、结识新朋友，并领略这片神奇土地的故事与氛围，从而确保获得愉快的体验。"
+        }
+      ]
+    },
+    {
+      "id": "2748",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "What to do if you are made redundant",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Employees are made redundant when a company has to reduce the workforce because a job or jobs are no longer needed.It has nothing to do with the employees'ability to do their jobs.However,dealing with redundancy can be difficult.Here are some tips on how to cope.",
+          "translation": "当公司因某个或多个职位不再需要而不得不裁员时，员工就会被裁撤。\n这与员工的工作能力毫无关系。\n然而，应对裁员可能是一件困难的事情。\n以下是一些应对建议。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "First of all,don't panic.It's common for people to either rush into a flurry of activity or be frozen by the shock of being suddenly made redundant.The best course of action is to keep calm and draw up a list of all of the things you need to arrange in the months ahead.It's important to find out what your rights are.Obtain a copy of the in-house redundancy policy if there is one and check out your contract for exit terms.",
+          "translation": "首先，不要惊慌。\n人们通常要么会匆忙陷入一连串的忙乱中，要么会因突然被裁员而震惊得不知所措。\n最好的做法是保持冷静，并列出你在未来几个月需要安排的所有事项。\n弄清自己的权利很重要。\n如果公司内部有裁员政策，获取一份副本，并查看你的合同中关于离职条款的内容。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Try to maintain good relations wherever possible with your employer,even if you are angry about the manner of your exit.You will still need a reasonable reference when the time comes to move on,and it may be that your boss can make useful introductions or offer you consultancy work.",
+          "translation": "无论何时，尽力与你的雇主保持良好的关系，即使你对离职的方式感到愤怒。\n当你到了继续前进的时候，你仍然需要一个合理的推荐信，而且你的老板可能会进行有用的引荐或为你提供咨询工作。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Help from a professional outplacement company can make a huge difference to your job search success and reduce the amount of time taken to find your next role.You can purchase this yourself,but there are advantages to having it arranged via your company.",
+          "translation": "来自专业再就业服务公司的帮助能极大地提升你求职成功的几率，并缩短找到下一份工作所需的时间。\n你可以自行购买这项服务，但通过你所在的公司来安排也有其优势。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Don't rush into applying for any or every job that comes up.Take stock of what you have to offer,what you want to do,and carry out in-depth research to find out what employers are actually looking for.Talk to people in your target industry for career advice and information.This information will be invaluable in helping you identify potential employers.",
+          "translation": "不要急于申请任何出现的或所有的工作。\n评估你所具备的技能、你想要做的事情，并进行深入研究以了解雇主真正在寻找什么。\n与目标行业的人士交谈，获取职业建议和信息。\n这些信息在帮助你识别潜在雇主方面将是无价的。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Assess whether there are any gaps in experience or qualifications that could be a barrier to getting another job and address them.Enrol on some of those courses you have always been too busy to go on:not only will this enhance your skills,it also shows your commitment to continuous professional development.",
+          "translation": "评估自己在经验或资历方面是否存在任何可能成为找到另一份工作障碍的缺口，并加以解决。\n报名参加一些你一直因太忙而未能参加的课程：这不仅会提升你的技能，还能展示你对持续专业发展的投入。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Redundancy enables you to move your career forward in line with your own personal agenda.Although it can be traumatic,many people find that redundancy is actually the incentive they need to take their career in the direction they actually want to go.So think about what you really want,and go for it.",
+          "translation": "裁员使你能够按照自己的个人计划推进职业生涯。\n尽管这可能令人痛苦，但许多人发现裁员实际上是一种激励，促使他们朝着自己真正想去的方向规划职业。\n所以，思考你真正想要什么，然后去追求它。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Palvin's Restaurant",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "帕尔文餐厅"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Instructions to new kitchen staff",
+          "translation": "给新厨房员工的指示"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Dress standards at our restaurants are extremely important whichever area you work in.The following information will help ensure that you have a professional appearance every day as you carry out your foodservice duties.",
+          "translation": "无论你在哪个区域工作，我们餐厅的着装标准都极为重要。\n以下信息将有助于确保你在履行餐饮服务职责时每天保持专业的形象。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Palvin's Restaurant chain provides new kitchen staff with their uniforms and you are advised to come to work with a note of your chest,waist and hip measurements to assist in this process.On your first day,you'll be issued with two pairs of trousers,two aprons, two jackets and two hats.Once you're happy that you have the correct size,please take the garments home and add a name tag to each one.Put these inside the garments so that they cannot be seen.",
+          "translation": "帕尔文餐厅\nPalvin's Restaurant 连锁餐厅为新厨房员工提供制服，建议你上班时带上胸围、腰围和臀围的尺寸记录，以协助完成这一过程。\n在第一天，你会领到两条裤子、两条围裙、两件外套和两顶帽子。\n一旦你确认尺码合适，请将衣物带回家，并给每件衣物加上姓名标签。\n将这些标签放在衣物内侧，以便不可见。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Kitchen work can be messy,and it is up to you to make sure that your uniform is kept clean,but you will receive a laundry allowance to help you do this.Towels are available at work,but it's a good idea to bring your own too in case you need it.You can keep this and any other personal items safe in the lockers that are available for use while you're on duty.It's advisable to bring your own small padlock for these.",
+          "translation": "厨房工作可能会很脏乱，确保制服保持清洁是你的责任，但你会收到洗衣补贴来帮助你完成此事。\n工作场所提供毛巾，但最好也自带毛巾以防不时之需。\n你可以将毛巾和其他个人物品安全存放在值班时可用的储物柜中。\n建议你自带一个小挂锁来锁这些储物柜。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Uniforms should not be worn outside work.You should wear your normal clothes to and from work but make sure they're respectable.For example,hoodies and other similar tops are not acceptable in the kitchens;if it's cold,wear a jacket.When you arrive at work,you can use the changing facilities located next to the lockers to put on your uniform.You can wear your own shoes in the kitchens as long as they're sturdy and enclosed.We strongly recommend rubber soles so that they do not slip on the floor.",
+          "translation": "制服不应在工作场所外穿着。\n上下班时应穿便装，但要确保着装得体。\n例如，连帽衫及其他类似上衣在厨房内是不可接受的；如果天气冷，请穿一件夹克。\n到达工作地点后，你可以使用储物柜旁边的更衣设施换上制服。\n在厨房里可以穿自己的鞋子，只要鞋子结实且全包即可。\n我们强烈推荐橡胶鞋底，以防在地板上打滑。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "If you incur any injuries that require crutches while you're working for the company, you cannot then take on any tasks that involve standing up.However,if such a situation should occur,we will make every effort to place you in an appropriate area where you can sit down to work so you will not need to take time off.Employees who have smaller injuries,such as hand cuts,need to check with their manager whether they can come to work: you may have to take time off to avoid infection.",
+          "translation": "如果你在为该公司工作期间遭受任何需要使用拐杖的伤害，那么你将不能承担任何需要站立的任务。\n然而，如果这种情况发生，我们将尽一切努力将你安排在一个合适的区域，让你能够坐着工作，这样你就不需要请假。\n受轻伤（例如手部割伤）的员工需要与经理确认是否能够上班：你可能需要请假以避免感染。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "19846",
+          "type": 8,
+          "title": "Dealing with redundancy",
+          "instructions": "Questions 15 - 21\nComplete the notes below.\nChoose ONE WORD ONLY from the text in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128989",
+              "number": 15,
+              "prompt": "Start by considering what needs to be done and make a _____ to work through.",
+              "options": [],
+              "answer": "list",
+              "accepted_answers": [
+                "list"
+              ],
+              "analysis": "题干中的“make a... to work through”对应原文“The best course of action is to keep calm and draw up a list of all of the things you need to arrange”，说明应列出待办事项清单，故答案为“list”。",
+              "reason": "定位到第二段。",
+              "location_analysis": "原文建议保持冷静并列出待办清单，故填list。",
+              "paraphrasing": "make a list -> draw up a list",
+              "keywords": "list, make a list, what needs to be done",
+              "evidence": [
+                "The best course of action is to keep calm and draw up a list of all of the things you need to arrange in the months ahead."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128990",
+              "number": 16,
+              "prompt": "you want to receive a positive _____ from them for a future post.",
+              "options": [],
+              "answer": "reference",
+              "accepted_answers": [
+                "reference"
+              ],
+              "analysis": "题干中“receive a positive... from them for a future post”对应原文“You will still need a reasonable reference when the time comes to move on”，其中“reference”指推荐信，与题干意思一致，因此答案是“reference”。",
+              "reason": "题干receive a positive reference对应原文reasonable reference。",
+              "location_analysis": "原文说需要合理推荐信，对应positive reference。",
+              "paraphrasing": "positive reference -> reasonable reference",
+              "keywords": "reference, positive",
+              "evidence": [
+                "You will still need a reasonable reference when the time comes to move on"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128991",
+              "number": 17,
+              "prompt": "you might get some _____ projects from them in the future.",
+              "options": [],
+              "answer": "consultancy",
+              "accepted_answers": [
+                "consultancy"
+              ],
+              "analysis": "题干中“get some... projects from them in the future”对应原文“it may be that your boss can... offer you consultancy work”，说明未来可能获得咨询类工作，故答案为“consultancy”。",
+              "reason": "题干you might get some consultancy projects对应原文consultancy work。",
+              "location_analysis": "原文boss可能提供咨询工作，对应get some consultancy projects。",
+              "paraphrasing": "consultancy projects -> consultancy work",
+              "keywords": "consultancy, projects",
+              "evidence": [
+                "it may be that your boss can make useful introductions or offer you consultancy work."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128992",
+              "number": 18,
+              "prompt": "Find an organisation that specialises in _____ to help you look for another job.",
+              "options": [],
+              "answer": "outplacement",
+              "accepted_answers": [
+                "outplacement"
+              ],
+              "analysis": "题干中“organisation that specialises in... to help you look for another job”对应原文“Help from a professional outplacement company can make a huge difference to your job search success”，因此答案是“outplacement”。",
+              "reason": "定位到第四段。",
+              "location_analysis": "原文说专业再就业公司能帮助求职，故填outplacement。",
+              "paraphrasing": "organisation that specialises in outplacement -> professional outplacement company",
+              "keywords": "organisation, specialises, outplacement, help, look for job",
+              "evidence": [
+                "Help from a professional outplacement company can make a huge difference to your job search success and reduce the amount of time taken to find your next role."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128993",
+              "number": 19,
+              "prompt": "Invest time in doing serious _____ concerning the current requirements in your sector.",
+              "options": [],
+              "answer": "research",
+              "accepted_answers": [
+                "research"
+              ],
+              "analysis": "题干中“invest time in doing serious... concerning the current requirements”对应原文“carry out in-depth research to find out what employers are actually looking for”，说明需进行深入研究，故答案为“research”。",
+              "reason": "题干invest time in doing serious research对应in-depth research。",
+              "location_analysis": "原文说进行深入研究以了解雇主需求。",
+              "paraphrasing": "serious research -> in-depth research",
+              "keywords": "in-depth research, sector",
+              "evidence": [
+                "carry out in-depth research to find out what employers are actually looking for."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128994",
+              "number": 20,
+              "prompt": "Consider if your work and training records contain _____ that might prevent you finding work.",
+              "options": [],
+              "answer": "gaps",
+              "accepted_answers": [
+                "gaps"
+              ],
+              "analysis": "题干中“work and training records contain... that might prevent you finding work”对应原文“Assess whether there are any gaps in experience or qualifications that could be a barrier”，因此答案是“gaps”。",
+              "reason": "定位到第六段。",
+              "location_analysis": "原文评估经验和资历中的空白，故填gaps。",
+              "paraphrasing": "gaps in experience or qualifications -> gaps in experience or qualifications",
+              "keywords": "gaps, work and training records, prevent, finding work",
+              "evidence": [
+                "Assess whether there are any gaps in experience or qualifications that could be a barrier to getting another job and address them."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128995",
+              "number": 21,
+              "prompt": "Look on redundancy as a useful _____ to advance, rather than the end of your career.",
+              "options": [],
+              "answer": "incentive",
+              "accepted_answers": [
+                "incentive"
+              ],
+              "analysis": "题干中“look on redundancy as a useful... to advance”对应原文“redundancy is actually the incentive they need to take their career in the direction they actually want to go”，说明裁员可成为职业发展的激励，故答案为“incentive”。",
+              "reason": "题干look on redundancy as a useful incentive直接对应。",
+              "location_analysis": "原文将裁员视为推动职业发展的激励。",
+              "paraphrasing": "useful incentive -> incentive they actually need",
+              "keywords": "incentive, redundancy",
+              "evidence": [
+                "many people find that redundancy is actually the incentive they need to take their career in the direction they actually want to go."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Initial steps\nStart by considering what needs to be done and make a $128989$ to work through.\nGet the company's policy concerning laying off staff and check personal work-related documents.\nDealing with the company\nAvoid letting the management see you are annoyed because:\nyou want to receive a positive $128990$ from them for a future post.\nyou might get some $128991$ projects from them in the future.\nMoving on\nFind an organisation that specialises in $128992$ to help you look for another job.\nInvest time in doing serious $128993$ concerning the current requirements in your sector.\nConsider if your work and training records contain $128994$ that might prevent you finding work.\nSign up for any relevant courses to improve your chances of being selected for a new post.\nConclusion\nLook on redundancy as a useful $128995$ to advance, rather than the end of your career.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Initial steps\nStart by considering what needs to be done and make a $128989$ to work through.\nGet the company's policy concerning laying off staff and check personal work-related documents.\nDealing with the company\nAvoid letting the management see you are annoyed because:\nyou want to receive a positive $128990$ from them for a future post.\nyou might get some $128991$ projects from them in the future.\nMoving on\nFind an organisation that specialises in $128992$ to help you look for another job.\nInvest time in doing serious $128993$ concerning the current requirements in your sector.\nConsider if your work and training records contain $128994$ that might prevent you finding work.\nSign up for any relevant courses to improve your chances of being selected for a new post.\nConclusion\nLook on redundancy as a useful $128995$ to advance, rather than the end of your career."
+        },
+        {
+          "id": "19848",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 22 - 27\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the text in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "128983",
+              "number": 22,
+              "prompt": "New staff must record their own body _____ before arriving at work.",
+              "options": [],
+              "answer": "measurements",
+              "accepted_answers": [
+                "measurements"
+              ],
+              "analysis": "题干中的“body measurements”对应原文中的“chest, waist and hip measurements”，这是新员工在入职前需记录的身体数据，用于领取合适尺寸的制服。因此，答案为“measurements”。",
+              "reason": "原文chest, waist and hip measurements即body measurements。",
+              "location_analysis": "上班前需记录身体测量数据以领取制服。",
+              "paraphrasing": "body measurements -> chest, waist and hip measurements",
+              "keywords": "measurements, body measurements",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128984",
+              "number": 23,
+              "prompt": "You should use your _____ to ensure that your uniform is never dirty.",
+              "options": [],
+              "answer": "laundry allowance",
+              "accepted_answers": [
+                "laundry allowance"
+              ],
+              "analysis": "题干要求填写确保制服干净的手段，原文明确提到“you will receive a laundry allowance to help you do this”，即公司提供洗衣津贴以协助员工保持制服清洁，因此答案是“laundry allowance”。",
+              "reason": "原文直接提到laundry allowance。",
+              "location_analysis": "原文laundry allowance对应题干laundry allowance，用于清洗制服。",
+              "paraphrasing": "you will receive -> you should use; ensure that your uniform is never dirty -> keep your uniform clean",
+              "keywords": "laundry allowance, uniform clean",
+              "evidence": [
+                "you will receive a laundry allowance to help you do this."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128985",
+              "number": 24,
+              "prompt": "Clothes worn to travel to work must be _____.",
+              "options": [],
+              "answer": "respectable",
+              "accepted_answers": [
+                "respectable"
+              ],
+              "analysis": "题干中“clothes worn to travel to work must be...”对应原文“You should wear your normal clothes to and from work but make sure they're respectable”，其中“respectable”直接说明通勤服装需得体，故答案为“respectable”。",
+              "reason": "定位到第十一段。",
+              "location_analysis": "原文要求通勤着装得体，故填respectable。",
+              "paraphrasing": "clothes worn to travel to work must be respectable -> You should wear your normal clothes to and from work but make sure they're respectable",
+              "keywords": "clothes, travel to work, must be, respectable",
+              "evidence": [
+                "You should wear your normal clothes to and from work but make sure they're respectable."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128986",
+              "number": 25,
+              "prompt": "Casual wear, such as _____, should not be worn in the kitchen area.",
+              "options": [],
+              "answer": "hoodies",
+              "accepted_answers": [
+                "hoodies"
+              ],
+              "analysis": "题干中的“casual wear, such as...”对应原文“hoodies and other similar tops are not acceptable in the kitchens”，说明连帽衫（hoodies）属于厨房内禁止穿着的休闲服饰，因此答案是“hoodies”。",
+              "reason": "原文hoodies直接对应。",
+              "location_analysis": "厨房内不允许穿连帽衫等休闲上衣。",
+              "paraphrasing": "casual wear such as hoodies -> hoodies and other similar tops",
+              "keywords": "hoodies",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128987",
+              "number": 26,
+              "prompt": "Staff using _____ may still come to work.",
+              "options": [],
+              "answer": "crutches",
+              "accepted_answers": [
+                "crutches"
+              ],
+              "analysis": "题干提到使用某种辅助工具仍可上班，原文指出“If you incur any injuries that require crutches... we will make every effort to place you in an appropriate area where you can sit down to work”，说明使用拐杖（crutches）的员工仍可工作，故答案为“crutches”。",
+              "reason": "原文提及crutches且说明无需休假。",
+              "location_analysis": "使用拐杖的员工仍可上班，但需安排坐式工作。",
+              "paraphrasing": "using crutches -> injuries that require crutches",
+              "keywords": "crutches",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "128988",
+              "number": 27,
+              "prompt": "Please contact the manager before arriving at the kitchens if you have any _____ or other similar injuries.",
+              "options": [],
+              "answer": "hand cuts",
+              "accepted_answers": [
+                "hand cuts"
+              ],
+              "analysis": "题干要求填写需事先联系经理的小伤类型，原文明确提到“Employees who have smaller injuries, such as hand cuts, need to check with their manager whether they can come to work”，因此答案是“hand cuts”。",
+              "reason": "原文hand cuts直接对应。",
+              "location_analysis": "手部割伤等小伤需先咨询经理能否上班。",
+              "paraphrasing": "hand cuts -> hand cuts",
+              "keywords": "hand cuts",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "New staff must record their own body $128983$ before arriving at work.\nYou should use your $128984$ to ensure that your uniform is never dirty.\nClothes worn to travel to work must be $128985$.\nCasual wear, such as $128986$, should not be worn in the kitchen area.\nStaff using $128987$ may still come to work.\nPlease contact the manager before arriving at the kitchens if you have any $128988$ or other similar injuries.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "New staff must record their own body $128983$ before arriving at work.\nYou should use your $128984$ to ensure that your uniform is never dirty.\nClothes worn to travel to work must be $128985$.\nCasual wear, such as $128986$, should not be worn in the kitchen area.\nStaff using $128987$ may still come to work.\nPlease contact the manager before arriving at the kitchens if you have any $128988$ or other similar injuries."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "What to do if you are made redundant",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Employees are made redundant when a company has to reduce the workforce because a job or jobs are no longer needed.",
+          "translation": "当公司因某个或多个职位不再需要而不得不裁员时，员工就会被裁撤。"
+        },
+        {
+          "index": 2,
+          "sentence": "It has nothing to do with the employees' ability to do their jobs.",
+          "translation": "这与员工的工作能力毫无关系。"
+        },
+        {
+          "index": 3,
+          "sentence": "However, dealing with redundancy can be difficult.",
+          "translation": "然而，应对裁员可能是一件困难的事情。"
+        },
+        {
+          "index": 4,
+          "sentence": "Here are some tips on how to cope.",
+          "translation": "以下是一些应对建议。"
+        },
+        {
+          "index": 5,
+          "sentence": "First of all, don't panic.",
+          "translation": "首先，不要惊慌。"
+        },
+        {
+          "index": 6,
+          "sentence": "It's common for people to either rush into a flurry of activity or be frozen by the shock of being suddenly made redundant.",
+          "translation": "人们通常要么会匆忙陷入一连串的忙乱中，要么会因突然被裁员而震惊得不知所措。"
+        },
+        {
+          "index": 7,
+          "sentence": "The best course of action is to keep calm and draw up a list of all of the things you need to arrange in the months ahead.",
+          "translation": "最好的做法是保持冷静，并列出你在未来几个月需要安排的所有事项。"
+        },
+        {
+          "index": 8,
+          "sentence": "It's important to find out what your rights are.",
+          "translation": "弄清自己的权利很重要。"
+        },
+        {
+          "index": 9,
+          "sentence": "Obtain a copy of the in-house redundancy policy if there is one and check out your contract for exit terms.",
+          "translation": "如果公司内部有裁员政策，获取一份副本，并查看你的合同中关于离职条款的内容。"
+        },
+        {
+          "index": 10,
+          "sentence": "Try to maintain good relations wherever possible with your employer, even if you are angry about the manner of your exit.",
+          "translation": "无论何时，尽力与你的雇主保持良好的关系，即使你对离职的方式感到愤怒。"
+        },
+        {
+          "index": 11,
+          "sentence": "You will still need a reasonable reference when the time comes to move on, and it may be that your boss can make useful introductions or offer you consultancy work.",
+          "translation": "当你到了继续前进的时候，你仍然需要一个合理的推荐信，而且你的老板可能会进行有用的引荐或为你提供咨询工作。"
+        },
+        {
+          "index": 12,
+          "sentence": "Help from a professional outplacement company can make a huge difference to your job search success and reduce the amount of time taken to find your next role.",
+          "translation": "来自专业再就业服务公司的帮助能极大地提升你求职成功的几率，并缩短找到下一份工作所需的时间。"
+        },
+        {
+          "index": 13,
+          "sentence": "You can purchase this yourself, but there are advantages to having it arranged via your company.",
+          "translation": "你可以自行购买这项服务，但通过你所在的公司来安排也有其优势。"
+        },
+        {
+          "index": 14,
+          "sentence": "Don't rush into applying for any or every job that comes up.",
+          "translation": "不要急于申请任何出现的或所有的工作。"
+        },
+        {
+          "index": 15,
+          "sentence": "Take stock of what you have to offer, what you want to do, and carry out in-depth research to find out what employers are actually looking for.",
+          "translation": "评估你所具备的技能、你想要做的事情，并进行深入研究以了解雇主真正在寻找什么。"
+        },
+        {
+          "index": 16,
+          "sentence": "Talk to people in your target industry for career advice and information.",
+          "translation": "与目标行业的人士交谈，获取职业建议和信息。"
+        },
+        {
+          "index": 17,
+          "sentence": "This information will be invaluable in helping you identify potential employers.",
+          "translation": "这些信息在帮助你识别潜在雇主方面将是无价的。"
+        },
+        {
+          "index": 18,
+          "sentence": "Assess whether there are any gaps in experience or qualifications that could be a barrier to getting another job and address them.",
+          "translation": "评估自己在经验或资历方面是否存在任何可能成为找到另一份工作障碍的缺口，并加以解决。"
+        },
+        {
+          "index": 19,
+          "sentence": "Enrol on some of those courses you have always been too busy to go on:not only will this enhance your skills,it also shows your commitment to continuous professional development.",
+          "translation": "报名参加一些你一直因太忙而未能参加的课程：这不仅会提升你的技能，还能展示你对持续专业发展的投入。"
+        },
+        {
+          "index": 20,
+          "sentence": "Redundancy enables you to move your career forward in line with your own personal agenda.",
+          "translation": "裁员使你能够按照自己的个人计划推进职业生涯。"
+        },
+        {
+          "index": 21,
+          "sentence": "Although it can be traumatic, many people find that redundancy is actually the incentive they need to take their career in the direction they actually want to go.",
+          "translation": "尽管这可能令人痛苦，但许多人发现裁员实际上是一种激励，促使他们朝着自己真正想去的方向规划职业。"
+        },
+        {
+          "index": 22,
+          "sentence": "So think about what you really want, and go for it.",
+          "translation": "所以，思考你真正想要什么，然后去追求它。"
+        },
+        {
+          "index": 23,
+          "sentence": "Palvin's Restaurant",
+          "translation": "帕尔文餐厅"
+        },
+        {
+          "index": 24,
+          "sentence": "Instructions to new kitchen staff",
+          "translation": "给新厨房员工的指示"
+        },
+        {
+          "index": 25,
+          "sentence": "Dress standards at our restaurants are extremely important whichever area you work in.",
+          "translation": "无论你在哪个区域工作，我们餐厅的着装标准都极为重要。"
+        },
+        {
+          "index": 26,
+          "sentence": "The following information will help ensure that you have a professional appearance every day as you carry out your foodservice duties.",
+          "translation": "以下信息将有助于确保你在履行餐饮服务职责时每天保持专业的形象。"
+        },
+        {
+          "index": 27,
+          "sentence": "Palvin's Restaurant chain provides new kitchen staff with their uniforms and you are advised to come to work with a note of your chest, waist and hip measurements to assist in this process.",
+          "translation": "Palvin's Restaurant 连锁餐厅为新厨房员工提供制服，建议你上班时带上胸围、腰围和臀围的尺寸记录，以协助完成这一过程。"
+        },
+        {
+          "index": 28,
+          "sentence": "On your first day, you'll be issued with two pairs of trousers, two aprons, two jackets and two hats.",
+          "translation": "在第一天，你会领到两条裤子、两条围裙、两件外套和两顶帽子。"
+        },
+        {
+          "index": 29,
+          "sentence": "Once you're happy that you have the correct size, please take the garments home and add a name tag to each one.",
+          "translation": "一旦你确认尺码合适，请将衣物带回家，并给每件衣物加上姓名标签。"
+        },
+        {
+          "index": 30,
+          "sentence": "Put these inside the garments so that they cannot be seen.",
+          "translation": "将这些标签放在衣物内侧，以便不可见。"
+        },
+        {
+          "index": 31,
+          "sentence": "Kitchen work can be messy, and it is up to you to make sure that your uniform is kept clean, but you will receive a laundry allowance to help you do this.",
+          "translation": "厨房工作可能会很脏乱，确保制服保持清洁是你的责任，但你会收到洗衣补贴来帮助你完成此事。"
+        },
+        {
+          "index": 32,
+          "sentence": "Towels are available at work, but it's a good idea to bring your own too in case you need it.",
+          "translation": "工作场所提供毛巾，但最好也自带毛巾以防不时之需。"
+        },
+        {
+          "index": 33,
+          "sentence": "You can keep this and any other personal items safe in the lockers that are available for use while you're on duty.",
+          "translation": "你可以将毛巾和其他个人物品安全存放在值班时可用的储物柜中。"
+        },
+        {
+          "index": 34,
+          "sentence": "It's advisable to bring your own small padlock for these.",
+          "translation": "建议你自带一个小挂锁来锁这些储物柜。"
+        },
+        {
+          "index": 35,
+          "sentence": "Uniforms should not be worn outside work.",
+          "translation": "制服不应在工作场所外穿着。"
+        },
+        {
+          "index": 36,
+          "sentence": "You should wear your normal clothes to and from work but make sure they're respectable.",
+          "translation": "上下班时应穿便装，但要确保着装得体。"
+        },
+        {
+          "index": 37,
+          "sentence": "For example,hoodies and other similar tops are not acceptable in the kitchens;if it's cold,wear a jacket.",
+          "translation": "例如，连帽衫及其他类似上衣在厨房内是不可接受的；如果天气冷，请穿一件夹克。"
+        },
+        {
+          "index": 38,
+          "sentence": "When you arrive at work,you can use the changing facilities located next to the lockers to put on your uniform.",
+          "translation": "到达工作地点后，你可以使用储物柜旁边的更衣设施换上制服。"
+        },
+        {
+          "index": 39,
+          "sentence": "You can wear your own shoes in the kitchens as long as they're sturdy and enclosed.",
+          "translation": "在厨房里可以穿自己的鞋子，只要鞋子结实且全包即可。"
+        },
+        {
+          "index": 40,
+          "sentence": "We strongly recommend rubber soles so that they do not slip on the floor.",
+          "translation": "我们强烈推荐橡胶鞋底，以防在地板上打滑。"
+        },
+        {
+          "index": 41,
+          "sentence": "If you incur any injuries that require crutches while you're working for the company, you cannot then take on any tasks that involve standing up.",
+          "translation": "如果你在为该公司工作期间遭受任何需要使用拐杖的伤害，那么你将不能承担任何需要站立的任务。"
+        },
+        {
+          "index": 42,
+          "sentence": "However, if such a situation should occur, we will make every effort to place you in an appropriate area where you can sit down to work so you will not need to take time off.",
+          "translation": "然而，如果这种情况发生，我们将尽一切努力将你安排在一个合适的区域，让你能够坐着工作，这样你就不需要请假。"
+        },
+        {
+          "index": 43,
+          "sentence": "Employees who have smaller injuries, such as hand cuts, need to check with their manager whether they can come to work: you may have to take time off to avoid infection.",
+          "translation": "受轻伤（例如手部割伤）的员工需要与经理确认是否能够上班：你可能需要请假以避免感染。"
+        }
+      ]
+    },
+    {
+      "id": "2750",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "The forgotten role of women in medieval arts",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A team of archaeologists recently and unexpectedly revealed direct archaeological evidence of the involvement of medieval women in the production of manuscripts.This challenges the widespread assumptions that men were the sole producers of books throughout the period in European history known as the Middle Ages (600-1500 AD).They did so by identifying particles of blue pigment in the fossilised dental plaque of a medieval woman as lapis lazuli,an extremely valuable stone at the time.The findings are the first of their kind and strongly suggest it will be possible to increase the profile of ancient female artists in the historical and archaeological record by analysing their dirty teeth.",
+          "translation": "一个考古学家团队最近意外地发现了直接考古证据，证明中世纪女性参与了手稿的制作。\n这挑战了普遍的看法，即在整个被称为中世纪（公元600-1500年）的欧洲历史时期，男性是书籍的唯一制作者。\n他们通过鉴定一位中世纪女性化石牙菌斑中的蓝色颜料颗粒为青金石——当时一种极其珍贵的石头——从而得出了这一结论。\n这些发现是首次此类成果，并且强烈表明通过分析古代女性艺术家的脏牙齿，有可能提高她们在历史和考古记录中的知名度。\n一个考古团队最近意外地发现了直接考古证据，表明中世纪女性参与了手稿的制作。\n这一发现挑战了普遍存在的假设，即在整个欧洲历史上的中世纪时期（公元600-1500年），男性是书籍的唯一制作者。\n他们通过将一名中世纪女性牙结石中的蓝色颜料颗粒识别为青金石（当时一种极其珍贵的石头），从而证明了这一点。\n这些发现是同类中的首个，并强烈表明，通过分析她们脏污的牙齿，有可能在历史和考古记录中提升古代女性艺术家的形象。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "This discovery was made possible by applying technological advances in the field of archaeological science to a little-studied deposit on teeth known as tartar,which is mineralised dental plaque.In most societies today,oral hygiene practices are part of our daily routine,meaning that dental plaque is regularly removed and doesn't have a chance to build up on our teeth.This was not the case in the past.Plaque built up and mineralised over the course of people's lives.This solid deposit has unique archaeological potential.A key characteristic of dental plaque is that while it forms it has the ability to entrap a wide range of microscopic and molecular debris that enters a person's mouth.When dental plaque hardens and becomes tartar,it can entomb these particles and molecules for hundreds or thousands of years-potentially even millions.",
+          "translation": "这一发现的实现得益于将考古科学领域的技术进步应用于一种较少被研究的牙齿沉积物——牙结石，即矿化的牙菌斑。\n在当今大多数社会中，口腔卫生习惯是我们日常生活的一部分，这意味着牙菌斑会被定期清除，没有机会在牙齿上积累。\n过去的情况并非如此。\n牙菌斑在人们的一生中逐渐积累并矿化。\n这种固体沉积物具有独特的考古学潜力。\n牙菌斑的一个关键特征是，在形成过程中，它能够捕获进入人口腔的各种微观和分子碎片。\n当牙菌斑硬化变成牙结石时，它可以将这些颗粒和分子封存数百年或数千年——甚至可能长达数百万年。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "The majority of scholarly work conducted on ancient tartar has been centred on what people ate but,besides taking in food,the human mouth is subject to a constant influx of particles of different types directly from the environment. Tree and grass pollen,spores,cotton fibres,medicinal plants and micro-charcoal have all been reported among the finds from this type of dental analysis.Despite such promising evidence,the value of tartar as environmental evidence has not,so far,been much exploited.",
+          "translation": "对古代牙结石进行的大多数学术研究都集中于人们的饮食内容，但除了摄入食物外，人类口腔还持续受到来自环境中各种类型颗粒的直接涌入。\n树木和草的花粉、孢子、棉纤维、药用植物以及微炭屑都在这种牙齿分析的发现中被报道过。\n尽管有如此有前景的证据，但迄今为止，牙结石作为环境证据的价值尚未得到充分发掘。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The team analysed the skeletal remains of a female individual,known as B78,who lived in the 11th-12th century.She was buried in the grounds of a former women's monastery in Dalheim,Germany,that is in ruins today but was occupied by various religious groups for around a thousand years.They found well over 100 bright blue particles,in the form of small crystals and individual flecks,scattered throughout the tartar which was still preserved on her teeth. Her skeletal remains had not indicated anything particular about her life, besides a general indication that she probably did not do any hard labour.The blue particles were unlike any other discovery -firstly because of their colour, and secondly because of their sheer number.",
+          "translation": "该团队分析了生活在11至12世纪、被称为B78的女性个体的骨骼遗骸。\n她被埋葬在德国达尔海姆一座前女子修道院的土地上，该修道院如今已成废墟，但曾被不同宗教群体占据约一千年。\n他们发现了超过100个亮蓝色颗粒，呈小晶体和零星斑点状，散布在其牙齿上仍保存的牙结石中。\n她的骨骼遗骸并未透露出其生活的任何特别信息，除了一般的迹象表明她可能没有从事过重体力劳动。\n这些蓝色颗粒与任何其他发现都不同——首先是因为它们的颜色，其次是因为它们的数量庞大。\n该团队分析了一位被称为B78的女性个体的骨骼遗骸，她生活在11至12世纪。\n她被埋葬在德国达尔海姆一座前女子修道院的场地内，该修道院如今已成废墟，但曾被多个宗教团体占据约一千年。\n他们发现了远超过100个亮蓝色颗粒，以小晶体和独立斑点的形式散布在仍保留在她牙齿上的牙结石中。\n除了大致表明她可能未从事任何重体力劳动外，她的骨骼遗骸并未揭示其生活的任何特别信息。\n这些蓝色颗粒与任何其他发现都不同——首先是因其颜色，其次是因为其数量之多。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "To be sure about the nature of the particles of bright blue powder trapped in the woman's tartar,a range of microscopy techniques were used.All techniques provided the same results:the blue specks were lazurite,the blue portion of the lapis lazuli stone,a substance more precious than gold in Medieval Europe.Afghanistan was the only source of the stone at the time, and the preparation of the pigment took great skill.",
+          "translation": "为了确认困在该女性牙结石中亮蓝色粉末颗粒的性质，研究人员使用了一系列显微镜技术。\n所有技术都提供了相同的结果：这些蓝色斑点是天青石，即青金石的蓝色部分，在中世纪欧洲这是一种比黄金更珍贵的物质。\n当时阿富汗是该石料的唯一来源，而且制备这种颜料需要高超的技艺。\n为了确定这位女性牙结石中明亮蓝色粉末颗粒的性质，研究人员采用了一系列显微技术。\n所有技术都得出了相同的结果：这些蓝色微粒是青金石中的蓝色部分——青金岩，在中世纪欧洲，这种物质比黄金还要珍贵。\n当时，阿富汗是该石料的唯一产地，而制备这种颜料也需要高超的技艺。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "So how did particles of this precious material end up deposited on this woman's teeth?A variety of reasons were possible,from painting to accidental ingestion during pigment preparation,or even the consumption of the powder as a medicine.But the way in which the blue particles were found in her tartar-single flecks in different areas-pointed to repeated exposure, not a single intake.And creating a vivid blue pigment from lapis lazuli required an Arabic method of oil flotation that did not appear in European artists'manuals until after the 15th century.This all suggests that it's more likely that this ultramarine pigment was brought into the region as a finished product for use by artists.",
+          "translation": "那么，这种珍贵材料的颗粒是如何最终沉积在这位女性的牙齿上的呢？\n有多种可能的原因，从绘画到颜料制备过程中的意外摄入，甚至是将这种粉末作为药物食用。\n但蓝色颗粒在她的牙垢中被发现的方式——不同区域中的单个斑点——指向的是反复接触，而非一次性摄入。\n而且，从青金石中提取鲜艳的蓝色颜料需要一种阿拉伯的油浮选方法，这种方法直到15世纪之后才出现在欧洲艺术家的手册中。\n所有这些都表明，这种群青颜料更有可能是作为成品被带入该地区，供艺术家使用。\n可能的原因多种多样，从绘画到在颜料制备过程中意外摄入，甚至是将这种粉末作为药物服用。\n但是，在她的牙结石中发现蓝色颗粒的方式——不同区域的单个斑点——表明是反复接触，而非一次性摄入。\n而且，用青金石制成鲜艳的蓝色颜料需要一种阿拉伯的油浮选方法，这种方法直到15世纪后才出现在欧洲艺术家的手册中。\n所有这些都表明，这种群青颜料更可能是作为成品被带到该地区供艺术家使用的。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "The most likely explanation,then,is that this was an artist who repeatedly used her lips to make a fine point on the end of her brush in order to paint intricate detail on manuscripts.This finding suggests that women were more involved in the production of books throughout the Middle Ages than tends to be thought.Before the 12th century fewer than one per cent of the books that still remain can be traced to the work of women.Additionally, artists are largely invisible in both the historic and archaeological records as they rarely signed their work before the 15th century and,until now,there have been no known skeletal markers directly associated with producing art.The work strongly points to the possibility of using microscopic particles entombed in ancient tartar to track the artists of ancient times.It also suggests that it may be possible to track other 'dusty'crafts using this method and thereby reveal the invisible workforce behind many forms of art.",
+          "translation": "那么，最有可能的解释是，这是一位艺术家，她反复用嘴唇将画笔末端弄尖，以便在手稿上绘制复杂的细节。\n这一发现表明，在整个中世纪，女性参与书籍制作的程度比人们通常认为的要高。\n在12世纪之前，现存书籍中只有不到1%可以追溯到女性的作品。\n此外，艺术家在历史和考古记录中基本上是不可见的，因为他们在15世纪之前很少在他们的作品上署名，而且到目前为止，还没有已知的与艺术创作直接相关的骨骼标记。\n这项研究强有力地指向了一种可能性，即利用古代牙结石中封存的微观颗粒来追踪古代的艺术家。\n这也表明，使用这种方法可能可以追踪其他“多尘”的手工艺，从而揭示许多艺术形式背后那些看不见的劳动者。\n因此，最有可能的解释是，这是一位艺术家，她反复用嘴唇将画笔末端抿尖，以便在手稿上绘制精细的细节。\n这一发现表明，在整个中世纪，女性参与书籍制作的程度比人们普遍认为的要高。\n在12世纪之前，现存书籍中只有不到百分之一可以追溯到女性的作品。\n此外，艺术家在历史和考古记录中几乎不可见，因为他们在15世纪之前很少在作品上署名，而且直到现在，也没有已知的骨骼标记与艺术创作直接相关。\n这项研究强烈表明，可以利用封存在古代牙结石中的微小颗粒来追踪古代的艺术家。\n它还表明，用这种方法可能追踪其他“带粉尘”的手工艺，从而揭示许多艺术形式背后那些不为人知的劳动者。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "19859",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 28 - 32\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "129009",
+              "number": 28,
+              "prompt": "In Paragraph A, what does the writer say about the archaeology team's work?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "It confirmed what they had assumed when they started it."
+                },
+                {
+                  "value": "B",
+                  "label": "It was hard to persuade other historians about their findings."
+                },
+                {
+                  "value": "C",
+                  "label": "It could reveal the importance of various women in history."
+                },
+                {
+                  "value": "D",
+                  "label": "It could help identify the number of books written in the Middle Ages."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问A段中作者对考古团队工作的看法。原文末句指出，通过分析古代女性牙石中的色素颗粒，‘strongly suggest it will be possible to increase the profile of ancient female artists’，即该研究有助于提升历史上女性艺术家的地位。选项C中‘reveal the importance of various women in history’正是对此的同义改写，因此答案为C。",
+              "reason": "对应原文A段末句",
+              "location_analysis": "原文末句指出，分析牙石可提升古代女性艺术家的历史地位，对应C选项。",
+              "paraphrasing": "reveal the importance -> increase the profile",
+              "keywords": "archaeology team's work, increase the profile",
+              "evidence": [
+                "The findings are the first of their kind and strongly suggest it will be possible to increase the profile of ancient female artists in the historical and archaeological record by analysing their dirty teeth."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及考古团队的工作证实了其初始假设，属于无中生有。",
+                "B": "原文并未提到难以说服其他历史学家，该信息无根据。",
+                "D": "原文讨论的是女性历史重要性，而非中世纪书籍数量，选项与内容不符。"
+              }
+            },
+            {
+              "id": "129010",
+              "number": 29,
+              "prompt": "What point does the writer make about dental tartar in Paragraph C?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Archaeologists could make more use of it than they do at present."
+                },
+                {
+                  "value": "B",
+                  "label": "Some particles are more easily trapped in it than others."
+                },
+                {
+                  "value": "C",
+                  "label": "The environment can cause it to break down."
+                },
+                {
+                  "value": "D",
+                  "label": "Changes in people's diet have influenced its composition."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问C段中作者关于牙结石的观点。原文明确提到‘the value of tartar as environmental evidence has not, so far, been much exploited’，说明其作为环境证据的潜力尚未被充分挖掘。选项A‘Archaeologists could make more use of it than they do at present’准确转述了这一含义，因此答案为A。",
+              "reason": "直接对应选项A，表明考古学家可以更多地利用它。",
+              "location_analysis": "原文说牙结石作为环境证据的价值尚未被充分利用，对应A。",
+              "paraphrasing": "not been much exploited -> could make more use",
+              "keywords": "value of tartar, not been much exploited",
+              "evidence": [
+                "Despite such promising evidence,the value of tartar as environmental evidence has not,so far,been much exploited."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文未对不同颗粒被困的难易程度进行比较。",
+                "C": "与原文中牙结石具有抗分解特性的描述矛盾。",
+                "D": "该信息在原文中虽有可能提及，但并非本段论述的核心要点。"
+              }
+            },
+            {
+              "id": "129011",
+              "number": 30,
+              "prompt": "What did the skeleton of B78 suggest about her?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "She had not been very old when she died."
+                },
+                {
+                  "value": "B",
+                  "label": "Her life had not been very physically demanding."
+                },
+                {
+                  "value": "C",
+                  "label": "Her teeth had more tartar than most skeletons of that age."
+                },
+                {
+                  "value": "D",
+                  "label": "She had been given a grander burial than other women of her time."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问B78的骨骼揭示了她什么情况。D段指出：‘Her skeletal remains had not indicated anything particular about her life, besides a general indication that she probably did not do any hard labour’，即她的生活可能并不需要从事重体力劳动。选项B‘Her life had not been very physically demanding’与此完全对应，因此答案为B。",
+              "reason": "对应原文D段",
+              "location_analysis": "D段指出B78的骨骼表明她可能未从事重体力劳动，对应B选项。",
+              "paraphrasing": "life had not been very physically demanding -> did not do any hard labour",
+              "keywords": "skeleton, B78, suggested, physically demanding",
+              "evidence": [
+                "Her skeletal remains had not indicated anything particular about her life, besides a general indication that she probably did not do any hard labour."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文中骨架显示她死时年龄较大或未提及具体年龄，与选项矛盾。",
+                "C": "原文未比较牙结石量，或指出她的牙齿状况与常人无异。",
+                "D": "原文未提及她的葬礼比同时代其他女性更隆重，属于无中生有。"
+              }
+            },
+            {
+              "id": "129012",
+              "number": 31,
+              "prompt": "What is the writer doing in Paragraph F?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "supporting the team's view that the blue pigment was imported"
+                },
+                {
+                  "value": "B",
+                  "label": "explaining why artists in Europe liked to use the blue pigment"
+                },
+                {
+                  "value": "C",
+                  "label": "comparing artistic designs using the blue pigment in different parts of the world"
+                },
+                {
+                  "value": "D",
+                  "label": "criticising arguments put forward by other scientists about the blue pigment"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问F段中作者在做什么。F段末句写道：‘This all suggests that it's more likely that this ultramarine pigment was brought into the region as a finished product for use by artists’，明确支持颜料是以成品形式进口的观点。选项A‘supporting the team's view that the blue pigment was imported’准确概括了该段主旨，因此答案为A。",
+              "reason": "对应原文F段末句",
+              "location_analysis": "F段末句支持颜料是作为成品进口的观点，对应A选项。",
+              "paraphrasing": "supporting the view that the blue pigment was imported -> suggests that this ultramarine pigment was brought into the region as a finished product",
+              "keywords": "Paragraph F, blue pigment, imported",
+              "evidence": [
+                "This all suggests that it's more likely that this ultramarine pigment was brought into the region as a finished product for use by artists."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "B": "该段并未解释欧洲艺术家的偏好，而是支持颜料进口的观点。",
+                "C": "该段未比较不同地区使用蓝色颜料的设计，属于无中生有。",
+                "D": "与该段内容矛盾，作者并未批评其他科学家，而是支持团队观点。"
+              }
+            },
+            {
+              "id": "129013",
+              "number": 32,
+              "prompt": "What problem does the writer highlight about medieval artists in Paragraph G?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "the poor facilities available to females in the profession"
+                },
+                {
+                  "value": "B",
+                  "label": "the small number of projects available to them"
+                },
+                {
+                  "value": "C",
+                  "label": "the difficulties locating their skeletal remains for study"
+                },
+                {
+                  "value": "D",
+                  "label": "the lack of evidence for their contribution to books"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问G段中作者指出中世纪艺术家面临什么问题。原文提到：‘artists are largely invisible in both the historic and archaeological records as they rarely signed their work before the 15th century’，说明缺乏能证明他们贡献的直接证据。选项D‘the lack of evidence for their contribution to books’正是对此的精准概括，因此答案为D。",
+              "reason": "对应原文G段",
+              "location_analysis": "G段指出中世纪艺术家极少署名，导致其贡献难以查证，对应D选项。",
+              "paraphrasing": "lack of evidence for their contribution -> artists are largely invisible... as they rarely signed their work",
+              "keywords": "problem, medieval artists, Paragraph G, lack of evidence",
+              "evidence": [
+                "Additionally, artists are largely invisible in both the historic and archaeological records as they rarely signed their work before the 15th century"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文并未提及中世纪艺术家（尤其是女性）的工作设施较差，属于无中生有。",
+                "B": "原文没有指出中世纪艺术家可参与的项目数量少，与原文信息不符。",
+                "C": "原文未提及通过骨骼遗骸研究艺术家的困难，属于无中生有。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "19865",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 33 - 36\nThe text has seven paragraphs, A-G.\nWhich paragraph mentions the following?\nChoose the correct letter, A-G.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "129014",
+              "number": 33,
+              "prompt": "reference to the possible length of time that tartar can preserve particles from the air",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求找出提及牙结石保存空气中颗粒可能持续时间的段落。B段明确指出：‘When dental plaque hardens and becomes tartar, it can entomb these particles... for hundreds or thousands of years—potentially even millions’，直接对应‘possible length of time’这一线索，因此答案为B。",
+              "reason": "直接对应题干的'possible length of time'。",
+              "location_analysis": "原文提到牙结石可封存颗粒长达数百万年，对应B。",
+              "paraphrasing": "entomb for hundreds or thousands of years -> possible length of time",
+              "keywords": "hundreds or thousands of years, potentially even millions",
+              "evidence": [
+                "When dental plaque hardens and becomes tartar,it can entomb these particles and molecules for hundreds or thousands of years-potentially even millions."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "129015",
+              "number": 34,
+              "prompt": "two reasons why the particles that the team found in teeth were unique",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求找出提及蓝色颗粒两个独特原因的段落。D段末句明确说明：‘The blue particles were unlike any other discovery – firstly because of their colour, and secondly because of their sheer number’，正好对应‘two reasons’和‘unique’，因此答案为D。",
+              "reason": "对应原文D段",
+              "location_analysis": "D段指出蓝色颗粒因颜色和数量而独一无二，符合题意。",
+              "paraphrasing": "two reasons -> because of their colour, because of their sheer number",
+              "keywords": "two reasons, particles, unique",
+              "evidence": [
+                "The blue particles were unlike any other discovery -firstly because of their colour, and secondly because of their sheer number."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "129016",
+              "number": 35,
+              "prompt": "various examples of the types of particle that can be discovered in old teeth",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出列举可在古牙中发现的多种颗粒类型的段落。C段提到：‘Tree and grass pollen, spores, cotton fibres, medicinal plants and micro-charcoal have all been reported among the finds’，完整列举了各类环境微粒，与题干‘various examples of the types of particle’完全匹配，因此答案为C。",
+              "reason": "直接对应题干的'various examples of types of particle'。",
+              "location_analysis": "原文列举了多种可在牙齿中发现的颗粒类型，对应C。",
+              "paraphrasing": "have all been reported -> examples of types",
+              "keywords": "Tree and grass pollen, spores, cotton fibres, medicinal plants, micro-charcoal",
+              "evidence": [
+                "Tree and grass pollen,spores,cotton fibres,medicinal plants and micro-charcoal have all been reported among the finds from this type of dental analysis."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "129017",
+              "number": 36,
+              "prompt": "a suggestion that the blue pigment might have been used in medieval times to cure illness",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干要求找出暗示蓝色颜料可能用于治疗疾病的段落。F段提到蓝色粉末进入牙齿的可能原因包括‘or even the consumption of the powder as a medicine’，其中‘as a medicine’直接对应‘cure illness’的含义，因此答案为F。",
+              "reason": "直接对应题干的'cure illness'。",
+              "location_analysis": "原文提到蓝色粉末可能被用作药物，对应F。",
+              "paraphrasing": "consumption as a medicine -> cure illness",
+              "keywords": "consumption of the powder as a medicine",
+              "evidence": [
+                "or even the consumption of the powder as a medicine."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "19867",
+          "type": 4,
+          "title": "Lapis lazuli",
+          "instructions": "Questions 37 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the text in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "129018",
+              "number": 37,
+              "prompt": "A blue pigment used to create artworks in Europe in the Middle Ages was derived from a stone called lapis lazuli. In medieval times, even _____ was not as valuable. Lapis lazuli could only be found in Afghanistan and a lot of _____ was needed to make the pigment from the stone.",
+              "options": [],
+              "answer": "gold",
+              "accepted_answers": [
+                "gold"
+              ],
+              "analysis": "题干要求填入比青金石价值更低的物品。E段明确指出青金石‘a substance more precious than gold in Medieval Europe’，即比黄金更珍贵，因此空格应填‘gold’，以表达‘even gold was not as valuable’的含义。",
+              "reason": "直接对应题干'even $129018$ was not as valuable'。",
+              "location_analysis": "原文说青金石比黄金更珍贵，故空格填gold。",
+              "paraphrasing": "more precious than gold -> even gold was not as valuable",
+              "keywords": "more precious than gold",
+              "evidence": [
+                "a substance more precious than gold in Medieval Europe."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "129019",
+              "number": 38,
+              "prompt": "A blue pigment used to create artworks in Europe in the Middle Ages was derived from a stone called lapis lazuli. In medieval times, even _____ was not as valuable. Lapis lazuli could only be found in Afghanistan and a lot of _____ was needed to make the pigment from the stone.",
+              "options": [],
+              "answer": "skill",
+              "accepted_answers": [
+                "skill"
+              ],
+              "analysis": "题干要求填入制作颜料所需的东西。E段末句提到‘the preparation of the pigment took great skill’，说明需要高超的技艺。因此空格应填‘skill’，与题干中‘a lot of... was needed’形成语义对应。",
+              "reason": "对应原文E段末句",
+              "location_analysis": "E段末句指出制备颜料需要大量技巧，所以是skill。",
+              "paraphrasing": "a lot of... needed -> took great skill",
+              "keywords": "a lot of, needed, make pigment",
+              "evidence": [
+                "Afghanistan was the only source of the stone at the time, and the preparation of the pigment took great skill."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "129020",
+              "number": 39,
+              "prompt": "The procedure used to do this appeared much later in the manuals used by European artists and this suggests that the product came to their countries as an imported powder. Artists often had to make a _____ on their brushes using their mouths, which then enabled them to produce the fine features needed for _____ and books.",
+              "options": [],
+              "answer": "point",
+              "accepted_answers": [
+                "point"
+              ],
+              "analysis": "题干描述艺术家用嘴处理画笔的动作。G段提到艺术家‘used her lips to make a fine point on the end of her brush’，其中‘make a fine point’直接对应题干中的‘make a... on their brushes’，因此空格应填‘point’。",
+              "reason": "直接对应题干'make a $129020$ on their brushes'。",
+              "location_analysis": "原文说艺术家用嘴唇使刷子尖端变细，故空格填point。",
+              "paraphrasing": "make a fine point -> make a point",
+              "keywords": "make a fine point on the end of her brush",
+              "evidence": [
+                "The most likely explanation,then,is that this was an artist who repeatedly used her lips to make a fine point on the end of her brush in order to paint intricate detail on manuscripts."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "129021",
+              "number": 40,
+              "prompt": "The procedure used to do this appeared much later in the manuals used by European artists and this suggests that the product came to their countries as an imported powder. Artists often had to make a _____ on their brushes using their mouths, which then enabled them to produce the fine features needed for _____ and books.",
+              "options": [],
+              "answer": "manuscripts",
+              "accepted_answers": [
+                "manuscripts"
+              ],
+              "analysis": "题干要求填入与‘books’并列、需要精细描绘的对象。G段明确指出艺术家用细笔尖‘to paint intricate detail on manuscripts’，而‘manuscripts’（手稿）正是中世纪书籍的主要形式，与题干后半句‘and books’逻辑一致，因此答案为‘manuscripts’。",
+              "reason": "题干提及“精细特征（用于……和书籍）”，manuscripts对应“手稿”。",
+              "location_analysis": "原文指出用细笔尖绘制手稿上的精细细节。",
+              "paraphrasing": "paint intricate detail on manuscripts -> produce fine features needed for manuscripts",
+              "keywords": "fine features, needed for, and books",
+              "evidence": [
+                "to paint intricate detail on manuscripts."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "A blue pigment used to create artworks in Europe in the Middle Ages was derived from a stone called lapis lazuli. In medieval times, even $129018$ was not as valuable. Lapis lazuli could only be found in Afghanistan and a lot of $129019$ was needed to make the pigment from the stone.\nThe procedure used to do this appeared much later in the manuals used by European artists and this suggests that the product came to their countries as an imported powder. Artists often had to make a $129020$ on their brushes using their mouths, which then enabled them to produce the fine features needed for $129021$ and books.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "A blue pigment used to create artworks in Europe in the Middle Ages was derived from a stone called lapis lazuli. In medieval times, even $129018$ was not as valuable. Lapis lazuli could only be found in Afghanistan and a lot of $129019$ was needed to make the pigment from the stone.\nThe procedure used to do this appeared much later in the manuals used by European artists and this suggests that the product came to their countries as an imported powder. Artists often had to make a $129020$ on their brushes using their mouths, which then enabled them to produce the fine features needed for $129021$ and books."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "The forgotten role of women in medieval arts",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A team of archaeologists recently and unexpectedly revealed direct archaeological evidence of the involvement of medieval women in the production of manuscripts.",
+          "translation": "一个考古学家团队最近意外地发现了直接考古证据，证明中世纪女性参与了手稿的制作。"
+        },
+        {
+          "index": 2,
+          "sentence": "This challenges the widespread assumptions that men were the sole producers of books throughout the period in European history known as the Middle Ages (600-1500 AD).",
+          "translation": "这挑战了普遍的看法，即在整个被称为中世纪（公元600-1500年）的欧洲历史时期，男性是书籍的唯一制作者。"
+        },
+        {
+          "index": 3,
+          "sentence": "They did so by identifying particles of blue pigment in the fossilised dental plaque of a medieval woman as lapis lazuli, an extremely valuable stone at the time.",
+          "translation": "他们通过鉴定一位中世纪女性化石牙菌斑中的蓝色颜料颗粒为青金石——当时一种极其珍贵的石头——从而得出了这一结论。"
+        },
+        {
+          "index": 4,
+          "sentence": "The findings are the first of their kind and strongly suggest it will be possible to increase the profile of ancient female artists in the historical and archaeological record by analysing their dirty teeth.",
+          "translation": "这些发现是首次此类成果，并且强烈表明通过分析古代女性艺术家的脏牙齿，有可能提高她们在历史和考古记录中的知名度。"
+        },
+        {
+          "index": 5,
+          "sentence": "A team of archaeologists recently and unexpectedly revealed direct archaeological evidence of the involvement of medieval women in the production of manuscripts.",
+          "translation": "一个考古团队最近意外地发现了直接考古证据，表明中世纪女性参与了手稿的制作。"
+        },
+        {
+          "index": 6,
+          "sentence": "This challenges the widespread assumptions that men were the sole producers of books throughout the period in European history known as the Middle Ages (600-1500 AD).",
+          "translation": "这一发现挑战了普遍存在的假设，即在整个欧洲历史上的中世纪时期（公元600-1500年），男性是书籍的唯一制作者。"
+        },
+        {
+          "index": 7,
+          "sentence": "They did so by identifying particles of blue pigment in the fossilised dental plaque of a medieval woman as lapis lazuli, an extremely valuable stone at the time.",
+          "translation": "他们通过将一名中世纪女性牙结石中的蓝色颜料颗粒识别为青金石（当时一种极其珍贵的石头），从而证明了这一点。"
+        },
+        {
+          "index": 8,
+          "sentence": "The findings are the first of their kind and strongly suggest it will be possible to increase the profile of ancient female artists in the historical and archaeological record by analysing their dirty teeth.",
+          "translation": "这些发现是同类中的首个，并强烈表明，通过分析她们脏污的牙齿，有可能在历史和考古记录中提升古代女性艺术家的形象。"
+        },
+        {
+          "index": 10,
+          "sentence": "This discovery was made possible by applying technological advances in the field of archaeological science to a little-studied deposit on teeth known as tartar, which is mineralised dental plaque.",
+          "translation": "这一发现的实现得益于将考古科学领域的技术进步应用于一种较少被研究的牙齿沉积物——牙结石，即矿化的牙菌斑。"
+        },
+        {
+          "index": 11,
+          "sentence": "In most societies today, oral hygiene practices are part of our daily routine, meaning that dental plaque is regularly removed and doesn't have a chance to build up on our teeth.",
+          "translation": "在当今大多数社会中，口腔卫生习惯是我们日常生活的一部分，这意味着牙菌斑会被定期清除，没有机会在牙齿上积累。"
+        },
+        {
+          "index": 12,
+          "sentence": "This was not the case in the past.",
+          "translation": "过去的情况并非如此。"
+        },
+        {
+          "index": 13,
+          "sentence": "Plaque built up and mineralised over the course of people's lives.",
+          "translation": "牙菌斑在人们的一生中逐渐积累并矿化。"
+        },
+        {
+          "index": 14,
+          "sentence": "This solid deposit has unique archaeological potential.",
+          "translation": "这种固体沉积物具有独特的考古学潜力。"
+        },
+        {
+          "index": 15,
+          "sentence": "A key characteristic of dental plaque is that while it forms it has the ability to entrap a wide range of microscopic and molecular debris that enters a person's mouth.",
+          "translation": "牙菌斑的一个关键特征是，在形成过程中，它能够捕获进入人口腔的各种微观和分子碎片。"
+        },
+        {
+          "index": 16,
+          "sentence": "When dental plaque hardens and becomes tartar, it can entomb these particles and molecules for hundreds or thousands of years - potentially even millions.",
+          "translation": "当牙菌斑硬化变成牙结石时，它可以将这些颗粒和分子封存数百年或数千年——甚至可能长达数百万年。"
+        },
+        {
+          "index": 18,
+          "sentence": "The majority of scholarly work conducted on ancient tartar has been centred on what people ate but, besides taking in food, the human mouth is subject to a constant influx of particles of different types directly from the environment.",
+          "translation": "对古代牙结石进行的大多数学术研究都集中于人们的饮食内容，但除了摄入食物外，人类口腔还持续受到来自环境中各种类型颗粒的直接涌入。"
+        },
+        {
+          "index": 19,
+          "sentence": "Tree and grass pollen, spores, cotton fibres, medicinal plants and micro-charcoal have all been reported among the finds from this type of dental analysis.",
+          "translation": "树木和草的花粉、孢子、棉纤维、药用植物以及微炭屑都在这种牙齿分析的发现中被报道过。"
+        },
+        {
+          "index": 20,
+          "sentence": "Despite such promising evidence, the value of tartar as environmental evidence has not, so far, been much exploited.",
+          "translation": "尽管有如此有前景的证据，但迄今为止，牙结石作为环境证据的价值尚未得到充分发掘。"
+        },
+        {
+          "index": 21,
+          "sentence": "The team analysed the skeletal remains of a female individual, known as B78, who lived in the 11th-12th century.",
+          "translation": "该团队分析了生活在11至12世纪、被称为B78的女性个体的骨骼遗骸。"
+        },
+        {
+          "index": 22,
+          "sentence": "She was buried in the grounds of a former women's monastery in Dalheim, Germany, that is in ruins today but was occupied by various religious groups for around a thousand years.",
+          "translation": "她被埋葬在德国达尔海姆一座前女子修道院的土地上，该修道院如今已成废墟，但曾被不同宗教群体占据约一千年。"
+        },
+        {
+          "index": 23,
+          "sentence": "They found well over 100 bright blue particles, in the form of small crystals and individual flecks, scattered throughout the tartar which was still preserved on her teeth.",
+          "translation": "他们发现了超过100个亮蓝色颗粒，呈小晶体和零星斑点状，散布在其牙齿上仍保存的牙结石中。"
+        },
+        {
+          "index": 24,
+          "sentence": "Her skeletal remains had not indicated anything particular about her life, besides a general indication that she probably did not do any hard labour.",
+          "translation": "她的骨骼遗骸并未透露出其生活的任何特别信息，除了一般的迹象表明她可能没有从事过重体力劳动。"
+        },
+        {
+          "index": 25,
+          "sentence": "The blue particles were unlike any other discovery - firstly because of their colour, and secondly because of their sheer number.",
+          "translation": "这些蓝色颗粒与任何其他发现都不同——首先是因为它们的颜色，其次是因为它们的数量庞大。"
+        },
+        {
+          "index": 26,
+          "sentence": "The team analysed the skeletal remains of a female individual, known as B78, who lived in the 11th-12th century.",
+          "translation": "该团队分析了一位被称为B78的女性个体的骨骼遗骸，她生活在11至12世纪。"
+        },
+        {
+          "index": 27,
+          "sentence": "She was buried in the grounds of a former women's monastery in Dalheim, Germany, that is in ruins today but was occupied by various religious groups for around a thousand years.",
+          "translation": "她被埋葬在德国达尔海姆一座前女子修道院的场地内，该修道院如今已成废墟，但曾被多个宗教团体占据约一千年。"
+        },
+        {
+          "index": 28,
+          "sentence": "They found well over 100 bright blue particles, in the form of small crystals and individual flecks, scattered throughout the tartar which was still preserved on her teeth.",
+          "translation": "他们发现了远超过100个亮蓝色颗粒，以小晶体和独立斑点的形式散布在仍保留在她牙齿上的牙结石中。"
+        },
+        {
+          "index": 29,
+          "sentence": "Her skeletal remains had not indicated anything particular about her life, besides a general indication that she probably did not do any hard labour.",
+          "translation": "除了大致表明她可能未从事任何重体力劳动外，她的骨骼遗骸并未揭示其生活的任何特别信息。"
+        },
+        {
+          "index": 30,
+          "sentence": "The blue particles were unlike any other discovery - firstly because of their colour, and secondly because of their sheer number.",
+          "translation": "这些蓝色颗粒与任何其他发现都不同——首先是因其颜色，其次是因为其数量之多。"
+        },
+        {
+          "index": 31,
+          "sentence": "To be sure about the nature of the particles of bright blue powder trapped in the woman's tartar, a range of microscopy techniques were used.",
+          "translation": "为了确认困在该女性牙结石中亮蓝色粉末颗粒的性质，研究人员使用了一系列显微镜技术。"
+        },
+        {
+          "index": 32,
+          "sentence": "All techniques provided the same results: the blue specks were lazurite, the blue portion of the lapis lazuli stone, a substance more precious than gold in Medieval Europe.",
+          "translation": "所有技术都提供了相同的结果：这些蓝色斑点是天青石，即青金石的蓝色部分，在中世纪欧洲这是一种比黄金更珍贵的物质。"
+        },
+        {
+          "index": 33,
+          "sentence": "Afghanistan was the only source of the stone at the time, and the preparation of the pigment took great skill.",
+          "translation": "当时阿富汗是该石料的唯一来源，而且制备这种颜料需要高超的技艺。"
+        },
+        {
+          "index": 34,
+          "sentence": "To be sure about the nature of the particles of bright blue powder trapped in the woman's tartar, a range of microscopy techniques were used.",
+          "translation": "为了确定这位女性牙结石中明亮蓝色粉末颗粒的性质，研究人员采用了一系列显微技术。"
+        },
+        {
+          "index": 35,
+          "sentence": "All techniques provided the same results: the blue specks were lazurite, the blue portion of the lapis lazuli stone, a substance more precious than gold in Medieval Europe.",
+          "translation": "所有技术都得出了相同的结果：这些蓝色微粒是青金石中的蓝色部分——青金岩，在中世纪欧洲，这种物质比黄金还要珍贵。"
+        },
+        {
+          "index": 36,
+          "sentence": "Afghanistan was the only source of the stone at the time, and the preparation of the pigment took great skill.",
+          "translation": "当时，阿富汗是该石料的唯一产地，而制备这种颜料也需要高超的技艺。"
+        },
+        {
+          "index": 37,
+          "sentence": "So how did particles of this precious material end up deposited on this woman's teeth?",
+          "translation": "那么，这种珍贵材料的颗粒是如何最终沉积在这位女性的牙齿上的呢？"
+        },
+        {
+          "index": 38,
+          "sentence": "A variety of reasons were possible, from painting to accidental ingestion during pigment preparation, or even the consumption of the powder as a medicine.",
+          "translation": "有多种可能的原因，从绘画到颜料制备过程中的意外摄入，甚至是将这种粉末作为药物食用。"
+        },
+        {
+          "index": 39,
+          "sentence": "But the way in which the blue particles were found in her tartar—single flecks in different areas—pointed to repeated exposure, not a single intake.",
+          "translation": "但蓝色颗粒在她的牙垢中被发现的方式——不同区域中的单个斑点——指向的是反复接触，而非一次性摄入。"
+        },
+        {
+          "index": 40,
+          "sentence": "And creating a vivid blue pigment from lapis lazuli required an Arabic method of oil flotation that did not appear in European artists' manuals until after the 15th century.",
+          "translation": "而且，从青金石中提取鲜艳的蓝色颜料需要一种阿拉伯的油浮选方法，这种方法直到15世纪之后才出现在欧洲艺术家的手册中。"
+        },
+        {
+          "index": 41,
+          "sentence": "This all suggests that it's more likely that this ultramarine pigment was brought into the region as a finished product for use by artists.",
+          "translation": "所有这些都表明，这种群青颜料更有可能是作为成品被带入该地区，供艺术家使用。"
+        },
+        {
+          "index": 42,
+          "sentence": "So how did particles of this precious material end up deposited on this woman's teeth?",
+          "translation": "那么，这种珍贵材料的颗粒是如何最终沉积在这位女性的牙齿上的呢？"
+        },
+        {
+          "index": 43,
+          "sentence": "A variety of reasons were possible,from painting to accidental ingestion during pigment preparation,or even the consumption of the powder as a medicine.",
+          "translation": "可能的原因多种多样，从绘画到在颜料制备过程中意外摄入，甚至是将这种粉末作为药物服用。"
+        },
+        {
+          "index": 44,
+          "sentence": "But the way in which the blue particles were found in her tartar-single flecks in different areas-pointed to repeated exposure, not a single intake.",
+          "translation": "但是，在她的牙结石中发现蓝色颗粒的方式——不同区域的单个斑点——表明是反复接触，而非一次性摄入。"
+        },
+        {
+          "index": 45,
+          "sentence": "And creating a vivid blue pigment from lapis lazuli required an Arabic method of oil flotation that did not appear in European artists'manuals until after the 15th century.",
+          "translation": "而且，用青金石制成鲜艳的蓝色颜料需要一种阿拉伯的油浮选方法，这种方法直到15世纪后才出现在欧洲艺术家的手册中。"
+        },
+        {
+          "index": 46,
+          "sentence": "This all suggests that it's more likely that this ultramarine pigment was brought into the region as a finished product for use by artists.",
+          "translation": "所有这些都表明，这种群青颜料更可能是作为成品被带到该地区供艺术家使用的。"
+        },
+        {
+          "index": 47,
+          "sentence": "The most likely explanation,then,is that this was an artist who repeatedly used her lips to make a fine point on the end of her brush in order to paint intricate detail on manuscripts.",
+          "translation": "那么，最有可能的解释是，这是一位艺术家，她反复用嘴唇将画笔末端弄尖，以便在手稿上绘制复杂的细节。"
+        },
+        {
+          "index": 48,
+          "sentence": "This finding suggests that women were more involved in the production of books throughout the Middle Ages than tends to be thought.",
+          "translation": "这一发现表明，在整个中世纪，女性参与书籍制作的程度比人们通常认为的要高。"
+        },
+        {
+          "index": 49,
+          "sentence": "Before the 12th century fewer than one per cent of the books that still remain can be traced to the work of women.",
+          "translation": "在12世纪之前，现存书籍中只有不到1%可以追溯到女性的作品。"
+        },
+        {
+          "index": 50,
+          "sentence": "Additionally, artists are largely invisible in both the historic and archaeological records as they rarely signed their work before the 15th century and,until now,there have been no known skeletal markers directly associated with producing art.",
+          "translation": "此外，艺术家在历史和考古记录中基本上是不可见的，因为他们在15世纪之前很少在他们的作品上署名，而且到目前为止，还没有已知的与艺术创作直接相关的骨骼标记。"
+        },
+        {
+          "index": 51,
+          "sentence": "The work strongly points to the possibility of using microscopic particles entombed in ancient tartar to track the artists of ancient times.",
+          "translation": "这项研究强有力地指向了一种可能性，即利用古代牙结石中封存的微观颗粒来追踪古代的艺术家。"
+        },
+        {
+          "index": 52,
+          "sentence": "It also suggests that it may be possible to track other 'dusty'crafts using this method and thereby reveal the invisible workforce behind many forms of art.",
+          "translation": "这也表明，使用这种方法可能可以追踪其他“多尘”的手工艺，从而揭示许多艺术形式背后那些看不见的劳动者。"
+        },
+        {
+          "index": 53,
+          "sentence": "The most likely explanation, then, is that this was an artist who repeatedly used her lips to make a fine point on the end of her brush in order to paint intricate detail on manuscripts.",
+          "translation": "因此，最有可能的解释是，这是一位艺术家，她反复用嘴唇将画笔末端抿尖，以便在手稿上绘制精细的细节。"
+        },
+        {
+          "index": 54,
+          "sentence": "This finding suggests that women were more involved in the production of books throughout the Middle Ages than tends to be thought.",
+          "translation": "这一发现表明，在整个中世纪，女性参与书籍制作的程度比人们普遍认为的要高。"
+        },
+        {
+          "index": 55,
+          "sentence": "Before the 12th century fewer than one per cent of the books that still remain can be traced to the work of women.",
+          "translation": "在12世纪之前，现存书籍中只有不到百分之一可以追溯到女性的作品。"
+        },
+        {
+          "index": 56,
+          "sentence": "Additionally, artists are largely invisible in both the historic and archaeological records as they rarely signed their work before the 15th century and, until now, there have been no known skeletal markers directly associated with producing art.",
+          "translation": "此外，艺术家在历史和考古记录中几乎不可见，因为他们在15世纪之前很少在作品上署名，而且直到现在，也没有已知的骨骼标记与艺术创作直接相关。"
+        },
+        {
+          "index": 57,
+          "sentence": "The work strongly points to the possibility of using microscopic particles entombed in ancient tartar to track the artists of ancient times.",
+          "translation": "这项研究强烈表明，可以利用封存在古代牙结石中的微小颗粒来追踪古代的艺术家。"
+        },
+        {
+          "index": 58,
+          "sentence": "It also suggests that it may be possible to track other 'dusty' crafts using this method and thereby reveal the invisible workforce behind many forms of art.",
+          "translation": "它还表明，用这种方法可能追踪其他“带粉尘”的手工艺，从而揭示许多艺术形式背后那些不为人知的劳动者。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

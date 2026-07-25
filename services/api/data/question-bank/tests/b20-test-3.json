@@ -1,0 +1,2664 @@
+{
+  "id": "b20-test-3",
+  "book": "剑雅20",
+  "book_number": 20,
+  "name": "Test 3",
+  "title": "剑雅20 Test 3",
+  "parts": [
+    {
+      "id": "2936",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Why not visit Wales and go to a festival?",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A Winter Food and Craft Festival",
+          "translation": "冬季美食与手工艺节"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Our ever-popular Winter Food and Craft Festival is back! This year it's going to be bigger and better than ever, The event will host a variety of stalls, selling items ranging from fashion and personal ornaments, including beautiful necklaces or earrings, to handmade gifts, There will also be a large seating area where visitors can enjoy some of the hot and cold ready-to-eat delights on offer.",
+          "translation": "我们备受欢迎的冬季美食与手工艺节回来了！\n今年它将比以往任何时候都更大、更精彩。\n该活动将设有各种摊位，出售从时尚饰品和个人装饰品（包括精美的项链或耳环）到手工礼物的商品。\n还将设有一个大型休息区，游客可以在那里享用现场提供的各种热食和冷食即食美味。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B Other Voices",
+          "translation": "B 其他声音"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "On 1st and 2nd November, Other Voices makes its way from its home in Dingle on the west coast of Ireland to the town of Cardigan on the west coast of Wales, for a phenomenal weekend which celebrates the longstanding cultural and musical ties between these regions. Over the weekend we will showcase a line-up of over 30 free musical and cultural events, featuring incredible vocal performances.",
+          "translation": "11月1日和2日，其他声音活动将从其位于爱尔兰西海岸丁格尔的故乡移至威尔士西海岸的卡迪根镇，举办一个非凡的周末，庆祝这两个地区之间长期存在的文化和音乐联系。\n在整个周末，我们将展示超过30场免费音乐和文化活动的阵容，其中包含令人惊叹的声乐表演。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C Festival of Senses",
+          "translation": "C 感官节"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Festival of Senses is an annual free festival in the West Wales town of Llandeilo. It offers craft and fashion stalls, food stalls and more. The Country Market will be open all day on Friday and Saturday. Do visit us for light snacks and to view our wide range of goods, all produced in the area by our cooks, crafters and growers.",
+          "translation": "感官节是位于西威尔士兰代洛镇的一年一度的免费节庆活动。\n它设有手工艺品和时尚摊位、食品摊位等。\n乡村市场将在周五和周六全天开放。\n请务必前来品尝小吃，并浏览我们种类繁多的商品，这些商品均由本地的厨师、手工艺者和种植者生产。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D Craft Festival Cardiff",
+          "translation": "D 加的夫工艺节"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Craft Festival Cardiff (formerly Made by Hand Cardiff) moved to City Hall, Cardiff in 2014. There is a range of bookable workshops for all ages. Our workshops are very popular and most sell out quickly. To book you must be over 16 years of age. We also have a range of free workshops for children between the ages of 2 and 18.",
+          "translation": "卡迪夫手工艺节（原名为“卡迪夫手工制作”）于2014年迁至卡迪夫市政厅。\n这里有一系列可预订的工作坊，面向所有年龄段的人群。\n我们的工作坊非常受欢迎，大多数很快就售罄了。\n预订者必须年满16岁。\n我们还有一系列免费工作坊，面向2至18岁的儿童。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E Sparks in the Park",
+          "translation": "E 公园烟花秀"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Our annual event enables up to 20,000 people to view one of the UK's largest firework displays, accompanied by live presenters from HeartFM radio, a full fun-fair, food and drinks stalls and a carnival atmosphere. Two displays will be taking place again this year: a children's firework display from 6 pm and Wales's largest firework display from 7 pm onwards. All funds raised will be distributed to organisations that help people in need.",
+          "translation": "我们的年度活动可容纳多达20,000人观赏英国最大的烟花表演之一，现场有HeartFM电台主持人的直播、完整的游乐场、食品和饮料摊位以及嘉年华氛围。\n今年将再次举办两场表演：下午6点开始的儿童烟花表演，以及晚上7点开始的威尔士最大烟花表演。\n所有筹集的资金将分配给帮助有需要人士的组织。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "The benefits of taking an advanced driving course",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "参加高级驾驶课程的好处"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Once you have passed the practical and theory components of the driving test and have your full driving licence, you may think you are an expert driver. However, there are lots of things you can do to improve your road skills, making you a safer and more competent driver.",
+          "translation": "一旦你通过了驾驶考试的实际操作和理论部分，并获得了正式驾照，你可能会认为自己是一名专家级的驾驶员。\n然而，有很多方法可以提升你的驾驶技巧，从而让你成为一名更安全、更有能力的驾驶员。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "What is an advanced driving course?",
+          "translation": "什么是高级驾驶课程？"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "The course gives you advanced feedback and guidance on your driving habits. The series of lessons provides you with the opportunity to learn additional skills that will help you to anticipate hazards when you are driving and turn you into a more systematic and disciplined road user.",
+          "translation": "该课程会针对你的驾驶习惯提供高层次的反馈与指导。\n这一系列课程让你有机会学习额外技能，这些技能将帮助你驾驶时预判危险，并将你塑造成一个更有条理、更具纪律性的道路使用者。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Each available course differs in structure depending on the company that you choose to use. However, they all have the same goal. And as well as producing safer drivers, the advanced driving course may help reduce your fuel consumption and keep your car in better shape for longer.",
+          "translation": "每种可用课程的结构根据你选择使用的公司而有所不同。\n然而，它们都有着相同的目的。\n除了培养更安全的驾驶者外，高级驾驶课程还可能有助于降低你的燃油消耗，并使你的车辆保持更长时间的良好状态。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "There are a few advanced driving courses you can choose from, depending on which driving skills you need to work on. Here are two examples:",
+          "translation": "你可以从几种高级驾驶课程中选择，具体取决于你需要提升哪些驾驶技能。\n以下是两个例子："
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "lAM Roadsmart",
+          "translation": "IAM Roadsmart"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Once you have purchased the course, the company will match you with a local expert who will observe your driving habits over a series of lessons, The instructor will then give you personalised feedback which will help ensure that you are driving in the safest way possible.",
+          "translation": "一旦你购买了课程，公司会为你匹配一位当地专家，他会在系列课程中观察你的驾驶习惯。\n随后，指导员会向你提供个性化的反馈，这有助于确保你以最安全的方式驾驶。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "lAM Roadsmart offers a number of different advanced packages, including courses",
+          "translation": "IAM Roadsmart\nlAM Roadsmart 提供多种不同的高级套餐，包括课程"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "intended for users of both cars and motorcycles.",
+          "translation": "适用于汽车和摩托车驾驶者。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "The BAC",
+          "translation": "BAC（英国汽车协会）"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "The BAC has a wide range of specialist courses suitable for every type of driver. If there are certain elements of road use that you find particularly challenging, such as driving at night or using rural roads, you will be able to find a course that is tailored to suit you. The BAC also has a course intended to help improve confidence for more general road use.",
+          "translation": "BAC（英国汽车协会）\nBAC 提供一系列适合各类驾驶员的专业课程。\n如果道路使用的某些方面让你觉得特别具有挑战性，例如夜间驾驶或使用乡村道路，你将能够找到一门为你量身定制的课程。\nBAC 还开设了一门课程，旨在帮助提升更广泛道路使用中的自信心。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Prices vary depending on how many hours you wish to undertake and what you wish to practise, so it is best to contact the BAC directly for more information.",
+          "translation": "BAC（英国汽车协会）\n价格根据您希望投入的学时以及想要练习的内容而有所不同，因此最好直接联系BAC以获取更多信息。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21442",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 7\nLook at the five advertisements for entertainment events in Wales, A-E.\nFor which event are the following statements true?\nWrite the correct letter, A-E, in boxes 1-7 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131313",
+              "number": 1,
+              "prompt": "This event used to be known by a different name.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“used to be known by a different name”对应原文段落D中的“Craft Festival Cardiff (formerly Made by Hand Cardiff)”，其中“formerly”明确表示该活动过去有另一个名称“Made by Hand Cardiff”，因此答案为D。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文指出活动原名 Made by Hand Cardiff，与题干同义转换。",
+              "paraphrasing": "used to be known by a different name -> formerly called Made by Hand Cardiff",
+              "keywords": "formerly known, different name",
+              "evidence": [
+                "Craft Festival Cardiff (formerly Made by Hand Cardiff) moved to City Hall, Cardiff in 2014."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131314",
+              "number": 2,
+              "prompt": "At the end of this event any profits are handed over to charities.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中提到“profits are handed over to charities”，而段落E明确指出“All funds raised will be distributed to organisations that help people in need”，即所有筹集的资金都会捐给帮助有需要人群的组织，这与慈善用途一致，因此答案为E。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文明确所有筹款用于帮助需要的人群，即慈善。",
+              "paraphrasing": "profits are handed over to charities -> All funds raised will be distributed to organisations that help people in need",
+              "keywords": "profits, charities",
+              "evidence": [
+                "All funds raised will be distributed to organisations that help people in need."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131315",
+              "number": 3,
+              "prompt": "People can buy refreshments here that have all been made locally.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出提供本地制作食品的活动。段落C提到“Do visit us for light snacks... all produced in the area by our cooks, crafters and growers”，说明所提供的轻食和商品均由当地生产者制作，完全符合“made locally”的描述，因此答案为C。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文强调当地生产，与题干完全吻合。",
+              "paraphrasing": "bought refreshments that have been made locally -> goods, all produced in the area by our cooks, crafters and growers",
+              "keywords": "refreshments, made locally",
+              "evidence": [
+                "Do visit us for light snacks and to view our wide range of goods, all produced in the area by our cooks, crafters and growers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131316",
+              "number": 4,
+              "prompt": "This event has increased in size since it was last held.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“increased in size since it was last held”对应段落A中“This year it's going to be bigger and better than ever”，其中“bigger”直接表明活动规模比以往更大，因此答案为A。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文声称比以往都更大更好，即规模扩大。",
+              "paraphrasing": "has increased in size -> bigger and better than ever",
+              "keywords": "increased in size",
+              "evidence": [
+                "This year it's going to be bigger and better than ever,"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131317",
+              "number": 5,
+              "prompt": "It is advisable to reserve places for certain activities at this event.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“reserve places for certain activities”对应段落D中提到的“bookable workshops”以及“Our workshops are very popular and most sell out quickly”，说明这些活动需要提前预订，因此建议预留位置，答案为D。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文提到 workshop 需提前预订，即建议预约。",
+              "paraphrasing": "reserve places for certain activities -> bookable workshops",
+              "keywords": "reserve places, activities",
+              "evidence": [
+                "There is a range of bookable workshops for all ages. Our workshops are very popular and most sell out quickly."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131318",
+              "number": 6,
+              "prompt": "This event also takes place in another country.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“also takes place in another country”对应段落B中“Other Voices makes its way from its home in Dingle on the west coast of Ireland to the town of Cardigan on the west coast of Wales”，说明该活动原本在爱尔兰举办，也来到威尔士，涉及两个国家，因此答案为B。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文说明活动从爱尔兰来到威尔士，涉及跨国家。",
+              "paraphrasing": "also takes place in another country -> makes its way from its home in Dingle ... to the town of Cardigan",
+              "keywords": "takes place in another country",
+              "evidence": [
+                "Other Voices makes its way from its home in Dingle on the west coast of Ireland to the town of Cardigan on the west coast of Wales,"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131319",
+              "number": 7,
+              "prompt": "People can listen to a range of singers here without paying.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中“listen to a range of singers here without paying”对应段落B中“over 30 free musical and cultural events, featuring incredible vocal performances”，其中“free”和“vocal performances”表明可以免费欣赏多位歌手的表演，因此答案为B。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文明确说明免费音乐和文化活动，含声乐表演。",
+              "paraphrasing": "listen to a range of singers without paying -> free musical and cultural events, featuring incredible vocal performances",
+              "keywords": "listen, singers, without paying",
+              "evidence": [
+                "Over the weekend we will showcase a line-up of over 30 free musical and cultural events, featuring incredible vocal performances."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "21444",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in the text?\nIn boxes 8-14 on your answer sheet, write \n TRUE if the statement agrees with the information \n FALSE if the statement contradicts the information \n NOT GIVEN if there is no information on this",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131320",
+              "number": 8,
+              "prompt": "An advanced driving course aims to teach drivers to predict problems on the road ahead.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“predict problems on the road ahead”对应原文中“learn additional skills that will help you to anticipate hazards when you are driving”，其中“anticipate hazards”即预测道路上的危险，与题干意思一致，因此答案为TRUE。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文提到学习预测危险，与题干一致，故选 TRUE。",
+              "paraphrasing": "predict problems on the road ahead -> anticipate hazards when you are driving",
+              "keywords": "predict problems, road ahead",
+              "evidence": [
+                "The series of lessons provides you with the opportunity to learn additional skills that will help you to anticipate hazards when you are driving"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确指出高级驾驶课程旨在教司机预测前方问题，该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文中明确提到了高级驾驶课程的目的，因此该选项并非未提及。"
+              }
+            },
+            {
+              "id": "131321",
+              "number": 9,
+              "prompt": "Every advanced driving course follows a standard format.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称“Every advanced driving course follows a standard format”，但原文明确指出“Each available course differs in structure depending on the company”，说明课程结构因公司而异，并非统一标准，因此该陈述错误，答案为FALSE。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文明确课程结构各异，否定标准格式，故选 FALSE。",
+              "paraphrasing": "follows a standard format -> Each available course differs in structure",
+              "keywords": "standard format",
+              "evidence": [
+                "Each available course differs in structure depending on the company that you choose to use."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文指出并非所有高级驾驶课程都遵循标准格式。",
+                "NOT GIVEN": "原文明确提到了课程格式的信息，并非未给出。"
+              }
+            },
+            {
+              "id": "131322",
+              "number": 10,
+              "prompt": "An advanced driving course can show participants how to use less petrol.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“use less petrol”对应原文中“the advanced driving course may help reduce your fuel consumption”，其中“fuel consumption”即燃油消耗，与“use less petrol”意思一致，因此答案为TRUE。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文明确说减少油耗，与题干一致，故选 TRUE。",
+              "paraphrasing": "use less petrol -> reduce your fuel consumption",
+              "keywords": "use less petrol",
+              "evidence": [
+                "the advanced driving course may help reduce your fuel consumption"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到高级驾驶课程能教授省油技巧，与选项矛盾。",
+                "NOT GIVEN": "原文已明确提及课程展示如何省油，并非未提及。"
+              }
+            },
+            {
+              "id": "131323",
+              "number": 11,
+              "prompt": "lAM Roadsmart courses are becoming available in more places.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干提到“lAM Roadsmart courses are becoming available in more places”，但原文仅说明该公司会为学员匹配当地专家，并未提及课程是否正在扩展到更多地区，因此文中无相关信息，答案为NOT GIVEN。",
+              "reason": "文中没有相关信息，NOT GIVEN",
+              "location_analysis": "原文未提课程在更多地方变得可用。",
+              "paraphrasing": "",
+              "keywords": "more places, available",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及课程在更多地方可用，属于无中生有。",
+                "FALSE": "原文未明确否定课程在更多地方可用，因此不能判断为错误。"
+              }
+            },
+            {
+              "id": "131324",
+              "number": 12,
+              "prompt": "lAM Roadsmart courses operate on a one-to-one basis.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“operate on a one-to-one basis”对应原文中“the company will match you with a local expert who will observe your driving habits”，说明每位学员会被分配一位专属专家进行指导，体现一对一教学模式，因此答案为TRUE。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文描述匹配专家并观察驾驶习惯，暗示一对一教学，故选 TRUE。",
+              "paraphrasing": "one-to-one basis -> match you with a local expert who will observe your driving habits",
+              "keywords": "one-to-one basis",
+              "evidence": [
+                "the company will match you with a local expert who will observe your driving habits over a series of lessons,"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确说明课程是一对一进行的，与选项内容矛盾。",
+                "NOT GIVEN": "原文明确给出了一对一的信息，并非未提及。"
+              }
+            },
+            {
+              "id": "131325",
+              "number": 13,
+              "prompt": "lAM Roadsmart runs courses for professional drivers.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“lAM Roadsmart runs courses for professional drivers”，但原文只提到课程适用于“users of both cars and motorcycles”，并未说明是否面向职业司机，因此文中无此信息，答案为NOT GIVEN。",
+              "reason": "文中没有相关信息，NOT GIVEN",
+              "location_analysis": "原文说课程面向汽车和摩托车用户，未提及专业司机。",
+              "paraphrasing": "",
+              "keywords": "professional drivers, users of cars and motorcycles",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文中并未提及LAM Roadsmart是否专门为专业司机提供课程，因此无法判断为正确。",
+                "FALSE": "原文没有信息表明LAM Roadsmart不为专业司机提供课程，因此不能判断为错误。"
+              }
+            },
+            {
+              "id": "131326",
+              "number": 14,
+              "prompt": "The BAC only provides lessons to people who have particular driving requirements.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干说“The BAC only provides lessons to people who have particular driving requirements”，但原文提到“The BAC also has a course intended to help improve confidence for more general road use”，说明其课程不仅针对特殊需求者，也包括一般驾驶者，因此该陈述错误，答案为FALSE。",
+              "reason": "直接原文对应",
+              "location_analysis": "原文还提供通用课程，否定只针对特定需求，故选 FALSE。",
+              "paraphrasing": "only provides lessons to particular requirements -> a course intended to help improve confidence for more general road use",
+              "keywords": "only provides lessons to people who have particular driving requirements",
+              "evidence": [
+                "The BAC also has a course intended to help improve confidence for more general road use."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文矛盾，原文表明BAC提供的课程不仅限于有特定驾驶需求的人。",
+                "NOT GIVEN": "原文明确提及BAC提供课程的条件，并非未提及，因此该选项错误。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Why not visit Wales and go to a festival?",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A Winter Food and Craft Festival",
+          "translation": "冬季美食与手工艺节"
+        },
+        {
+          "index": 2,
+          "sentence": "Our ever-popular Winter Food and Craft Festival is back!",
+          "translation": "我们备受欢迎的冬季美食与手工艺节回来了！"
+        },
+        {
+          "index": 3,
+          "sentence": "This year it's going to be bigger and better than ever,",
+          "translation": "今年它将比以往任何时候都更大、更精彩。"
+        },
+        {
+          "index": 4,
+          "sentence": "The event will host a variety of stalls, selling items ranging from fashion and personal ornaments, including beautiful necklaces or earrings, to handmade gifts,",
+          "translation": "该活动将设有各种摊位，出售从时尚饰品和个人装饰品（包括精美的项链或耳环）到手工礼物的商品。"
+        },
+        {
+          "index": 5,
+          "sentence": "There will also be a large seating area where visitors can enjoy some of the hot and cold ready-to-eat delights on offer.",
+          "translation": "还将设有一个大型休息区，游客可以在那里享用现场提供的各种热食和冷食即食美味。"
+        },
+        {
+          "index": 6,
+          "sentence": "B Other Voices",
+          "translation": "B 其他声音"
+        },
+        {
+          "index": 7,
+          "sentence": "On 1st and 2nd November, Other Voices makes its way from its home in Dingle on the west coast of Ireland to the town of Cardigan on the west coast of Wales, for a phenomenal weekend which celebrates the longstanding cultural and musical ties between these regions.",
+          "translation": "11月1日和2日，其他声音活动将从其位于爱尔兰西海岸丁格尔的故乡移至威尔士西海岸的卡迪根镇，举办一个非凡的周末，庆祝这两个地区之间长期存在的文化和音乐联系。"
+        },
+        {
+          "index": 8,
+          "sentence": "Over the weekend we will showcase a line-up of over 30 free musical and cultural events, featuring incredible vocal performances.",
+          "translation": "在整个周末，我们将展示超过30场免费音乐和文化活动的阵容，其中包含令人惊叹的声乐表演。"
+        },
+        {
+          "index": 9,
+          "sentence": "C Festival of Senses",
+          "translation": "C 感官节"
+        },
+        {
+          "index": 10,
+          "sentence": "Festival of Senses is an annual free festival in the West Wales town of Llandeilo.",
+          "translation": "感官节是位于西威尔士兰代洛镇的一年一度的免费节庆活动。"
+        },
+        {
+          "index": 11,
+          "sentence": "It offers craft and fashion stalls, food stalls and more.",
+          "translation": "它设有手工艺品和时尚摊位、食品摊位等。"
+        },
+        {
+          "index": 12,
+          "sentence": "The Country Market will be open all day on Friday and Saturday.",
+          "translation": "乡村市场将在周五和周六全天开放。"
+        },
+        {
+          "index": 13,
+          "sentence": "Do visit us for light snacks and to view our wide range of goods, all produced in the area by our cooks, crafters and growers.",
+          "translation": "请务必前来品尝小吃，并浏览我们种类繁多的商品，这些商品均由本地的厨师、手工艺者和种植者生产。"
+        },
+        {
+          "index": 14,
+          "sentence": "D Craft Festival Cardiff",
+          "translation": "D 加的夫工艺节"
+        },
+        {
+          "index": 15,
+          "sentence": "Craft Festival Cardiff (formerly Made by Hand Cardiff) moved to City Hall, Cardiff in 2014.",
+          "translation": "卡迪夫手工艺节（原名为“卡迪夫手工制作”）于2014年迁至卡迪夫市政厅。"
+        },
+        {
+          "index": 16,
+          "sentence": "There is a range of bookable workshops for all ages.",
+          "translation": "这里有一系列可预订的工作坊，面向所有年龄段的人群。"
+        },
+        {
+          "index": 17,
+          "sentence": "Our workshops are very popular and most sell out quickly.",
+          "translation": "我们的工作坊非常受欢迎，大多数很快就售罄了。"
+        },
+        {
+          "index": 18,
+          "sentence": "To book you must be over 16 years of age.",
+          "translation": "预订者必须年满16岁。"
+        },
+        {
+          "index": 19,
+          "sentence": "We also have a range of free workshops for children between the ages of 2 and 18.",
+          "translation": "我们还有一系列免费工作坊，面向2至18岁的儿童。"
+        },
+        {
+          "index": 20,
+          "sentence": "E Sparks in the Park",
+          "translation": "E 公园烟花秀"
+        },
+        {
+          "index": 21,
+          "sentence": "Our annual event enables up to 20,000 people to view one of the UK's largest firework displays, accompanied by live presenters from HeartFM radio, a full fun-fair, food and drinks stalls and a carnival atmosphere.",
+          "translation": "我们的年度活动可容纳多达20,000人观赏英国最大的烟花表演之一，现场有HeartFM电台主持人的直播、完整的游乐场、食品和饮料摊位以及嘉年华氛围。"
+        },
+        {
+          "index": 22,
+          "sentence": "Two displays will be taking place again this year: a children's firework display from 6 pm and Wales's largest firework display from 7 pm onwards.",
+          "translation": "今年将再次举办两场表演：下午6点开始的儿童烟花表演，以及晚上7点开始的威尔士最大烟花表演。"
+        },
+        {
+          "index": 23,
+          "sentence": "All funds raised will be distributed to organisations that help people in need.",
+          "translation": "所有筹集的资金将分配给帮助有需要人士的组织。"
+        },
+        {
+          "index": 24,
+          "sentence": "The benefits of taking an advanced driving course",
+          "translation": "参加高级驾驶课程的好处"
+        },
+        {
+          "index": 25,
+          "sentence": "Once you have passed the practical and theory components of the driving test and have your full driving licence, you may think you are an expert driver.",
+          "translation": "一旦你通过了驾驶考试的实际操作和理论部分，并获得了正式驾照，你可能会认为自己是一名专家级的驾驶员。"
+        },
+        {
+          "index": 26,
+          "sentence": "However, there are lots of things you can do to improve your road skills, making you a safer and more competent driver.",
+          "translation": "然而，有很多方法可以提升你的驾驶技巧，从而让你成为一名更安全、更有能力的驾驶员。"
+        },
+        {
+          "index": 27,
+          "sentence": "What is an advanced driving course?",
+          "translation": "什么是高级驾驶课程？"
+        },
+        {
+          "index": 28,
+          "sentence": "The course gives you advanced feedback and guidance on your driving habits.",
+          "translation": "该课程会针对你的驾驶习惯提供高层次的反馈与指导。"
+        },
+        {
+          "index": 29,
+          "sentence": "The series of lessons provides you with the opportunity to learn additional skills that will help you to anticipate hazards when you are driving and turn you into a more systematic and disciplined road user.",
+          "translation": "这一系列课程让你有机会学习额外技能，这些技能将帮助你驾驶时预判危险，并将你塑造成一个更有条理、更具纪律性的道路使用者。"
+        },
+        {
+          "index": 30,
+          "sentence": "Each available course differs in structure depending on the company that you choose to use.",
+          "translation": "每种可用课程的结构根据你选择使用的公司而有所不同。"
+        },
+        {
+          "index": 31,
+          "sentence": "However, they all have the same goal.",
+          "translation": "然而，它们都有着相同的目的。"
+        },
+        {
+          "index": 32,
+          "sentence": "And as well as producing safer drivers, the advanced driving course may help reduce your fuel consumption and keep your car in better shape for longer.",
+          "translation": "除了培养更安全的驾驶者外，高级驾驶课程还可能有助于降低你的燃油消耗，并使你的车辆保持更长时间的良好状态。"
+        },
+        {
+          "index": 33,
+          "sentence": "There are a few advanced driving courses you can choose from, depending on which driving skills you need to work on.",
+          "translation": "你可以从几种高级驾驶课程中选择，具体取决于你需要提升哪些驾驶技能。"
+        },
+        {
+          "index": 34,
+          "sentence": "Here are two examples:",
+          "translation": "以下是两个例子："
+        },
+        {
+          "index": 35,
+          "sentence": "lAM Roadsmart",
+          "translation": "IAM Roadsmart"
+        },
+        {
+          "index": 36,
+          "sentence": "Once you have purchased the course, the company will match you with a local expert who will observe your driving habits over a series of lessons,",
+          "translation": "一旦你购买了课程，公司会为你匹配一位当地专家，他会在系列课程中观察你的驾驶习惯。"
+        },
+        {
+          "index": 37,
+          "sentence": "The instructor will then give you personalised feedback which will help ensure that you are driving in the safest way possible.",
+          "translation": "随后，指导员会向你提供个性化的反馈，这有助于确保你以最安全的方式驾驶。"
+        },
+        {
+          "index": 38,
+          "sentence": "lAM Roadsmart offers a number of different advanced packages, including courses",
+          "translation": "lAM Roadsmart 提供多种不同的高级套餐，包括课程"
+        },
+        {
+          "index": 39,
+          "sentence": "intended for users of both cars and motorcycles.",
+          "translation": "适用于汽车和摩托车驾驶者。"
+        },
+        {
+          "index": 40,
+          "sentence": "The BAC",
+          "translation": "BAC（英国汽车协会）"
+        },
+        {
+          "index": 41,
+          "sentence": "The BAC has a wide range of specialist courses suitable for every type of driver.",
+          "translation": "BAC 提供一系列适合各类驾驶员的专业课程。"
+        },
+        {
+          "index": 42,
+          "sentence": "If there are certain elements of road use that you find particularly challenging, such as driving at night or using rural roads, you will be able to find a course that is tailored to suit you.",
+          "translation": "如果道路使用的某些方面让你觉得特别具有挑战性，例如夜间驾驶或使用乡村道路，你将能够找到一门为你量身定制的课程。"
+        },
+        {
+          "index": 43,
+          "sentence": "The BAC also has a course intended to help improve confidence for more general road use.",
+          "translation": "BAC 还开设了一门课程，旨在帮助提升更广泛道路使用中的自信心。"
+        },
+        {
+          "index": 44,
+          "sentence": "Prices vary depending on how many hours you wish to undertake and what you wish to practise, so it is best to contact the BAC directly for more information.",
+          "translation": "价格根据您希望投入的学时以及想要练习的内容而有所不同，因此最好直接联系BAC以获取更多信息。"
+        }
+      ]
+    },
+    {
+      "id": "2938",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Passage 2",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Cambridge is a city of cyclesFor anyone in Cambridge for a fewhours or a few days, hiring a bike isthe easiest way to get the freedom of the city.\nCome to Darren's Bike Hire, where a large selection of bikes are all available for hire at only £25.00 a day (cost of basket and lock inclusive). They are also fitted with lights front and rear for those wishing to retain the bike overnight.\nBooking\nJust email info@DBH.com to ensure that there is a bike waiting for you when you need one.\nThis is particularly necessary during the school holiday period of July and August.\nCycling is for all the family\nAll sizes of bikes are available for hire and, for those too small to pedal themselves, there are bikes fitted with child seats.\nHire charges\n1 day £25.00    2 weeks £55.00\n2 days £30.00    3 weeks £70.00\n3 days £ 35.00    4 weeks £80.00\n1 week £45.00\nThe hire charge must be paid in advance.\nIn addition, a £40.00 deposit must be paid. This is returned to the hirer on the safe return of the bicycle.\nRates are reduced for longer periods, especially in winter.",
+          "translation": "来到达伦自行车租赁店，这里提供大量自行车供租用，每天仅需25英镑（费用包含车篮和车锁）。\n自行车还配备了前后车灯，方便希望过夜保留车辆的顾客。\n预订\n只需发送电子邮件至 info@DBH.com，即可确保在您需要时有一辆自行车等着您。\n这一点在……期间尤其必要\n七月和八月的学校假期期间。\n骑行适合所有家庭成员\n各种尺寸的自行车均可出租，对于太小而无法自行踩踏板的人，还配备了装有儿童座椅的自行车。\n租车费用\n1天25英镑，2周55英镑。\n2天30.00英镑，3周70.00英镑\n3天租借费35.00英镑，4周租借费80.00英镑\n一周租费为45.00英镑\n租赁费用必须提前支付。\n租车费用必须提前支付。\n此外，必须支付40.00英镑的押金。\n在自行车安全归还后，这笔押金将退还给租用者。\n租期越长，费率越优惠，尤其是在冬季。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Natural Environment Research Council",
+          "translation": "自然环境研究委员会"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "HOW TO APPLY FOR A JOB ONLINE",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "如何在线申请工作"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "How do l start an application?",
+          "translation": "我该如何开始申请？"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Once you've found a post in the Current Vacancies that you'd like to apply for and viewed the job description, click the Apply Now tab below. Then you will be presented with a screen that asks you to create a new account. Scroll down the section that says First Time Applicant to enter your email address, which is used to create your account. You also have to agree to the data collection policy before an application form will appear on screen.",
+          "translation": "一旦你在当前职位空缺中找到想要申请的职位并查看了职位描述，请点击下方的“立即申请”标签。\n随后，屏幕会要求你创建一个新账户。\n向下滚动至标有“首次申请者”的部分，输入你的电子邮件地址，该地址将用于创建账户。\n你还必须同意数据收集政策，之后申请表才会在屏幕上显示。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "How do l fill the application form in?",
+          "translation": "我该如何填写申请表？"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "The form has a series of tabs at the top, with names such as Personal Details, Education, etc. These are split up to enable you to work on small sections of the application at any one time. Every time you click a tab, the data is saved. You can also alter your application at any point and then click Save Changes at the bottom of the form.",
+          "translation": "表格顶部有一系列选项卡，名称包括“个人详情”、“教育”等。\n这些选项卡被分拆开来，以便您随时处理申请的各个小部分。\n每次点击一个选项卡时，数据都会被保存。\n您也可以在任何时候修改申请，然后点击表格底部的“保存更改”。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Some sections of the application form are required information. These will be indicated with an asterisk (*).",
+          "translation": "申请表格的某些部分是必填信息。\n这些部分会以星号 (*) 标示。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "When you have finished, click the Complete tab. You then type your name (this is instead of a signature) and click Submit. You will be asked to confirm that you really want to submit your application.",
+          "translation": "当你完成时，点击“完成”选项卡。\n然后输入你的姓名（这代替签名），并点击“提交”。\n你会被要求确认是否真的想要提交你的申请。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Can I save my application and come back and work on it later?",
+          "translation": "我可以保存我的申请，稍后再回来继续填写吗？"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "The application does not need to be completed in one sitting. When you sign up for the first time, you will be sent the password for your account, You can use this to log in and continue your application. Click the login link; there will be an option on the left called My Applications. This contains a list of your applications that are in progress at the current time.",
+          "translation": "申请不需要一次性全部完成。\n当你首次注册时，你将收到账户密码，\n你可以使用该密码登录并继续你的申请。\n点击登录链接；\n左侧会有一个名为“我的申请”的选项。\n这里面列出了你当前正在进行的所有申请。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "How do l apply for more than one vacancy at the same time?",
+          "translation": "我如何同时申请多个职位？"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "You will need to submit an application form to the recruitment office for every position you are interested in being considered for. Please do not submit one application form to apply for a number of different posts.",
+          "translation": "你需要为每一个你感兴趣并希望被考虑的职位，向招聘办公室提交一份申请表。\n请不要仅提交一份申请表来申请多个不同的职位。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21466",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 15 - 21\nDo the following statements agree with the information given in the text?\nIn boxes 15-21 on your answer sheet, write \n TRUE if the statement agrees with the information \n FALSE if the statement contradicts the information \n NOT GIVEN if there is no information on this",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131340",
+              "number": 15,
+              "prompt": "Darren's Bike Hire is open 7 days a week.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问“Darren's Bike Hire是否每周7天营业”，但原文中并未提及该自行车租赁店的具体营业时间或每周开放天数。尽管文中提到了预订方式、价格和设备信息，但关于营业日的信息完全缺失，因此无法判断陈述真假，答案应为NOT GIVEN。",
+              "reason": "原文没有提到营业时间，因此答案是NOT GIVEN。",
+              "location_analysis": "原文未提及营业时间，无相关信息。",
+              "paraphrasing": "",
+              "keywords": "open, 7 days a week",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及Darren's Bike Hire是否每周7天营业，该选项无中生有。",
+                "FALSE": "原文未提及营业时间信息，无法判断是否每周7天营业，该选项与原文信息矛盾，但缺乏依据。"
+              }
+            },
+            {
+              "id": "131341",
+              "number": 16,
+              "prompt": "All bicycles cost the same to hire.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称“所有自行车的租金相同”，原文明确指出“a large selection of bikes are all available for hire at only £25.00 a day”，说明无论车型如何，日租金统一为£25，且包含篮子和锁的费用。因此该陈述与原文一致，答案为TRUE。",
+              "reason": "原文说明所有自行车日租价均为£25",
+              "location_analysis": "原文仅列一种日租金£25，未提不同车型差价",
+              "paraphrasing": "题干 'All bicycles cost the same' -> 原文显示统一价格 £25/day",
+              "keywords": "all bicycles, same cost",
+              "evidence": [
+                "Come to Darren's Bike Hire, where a large selection of bikes are all available for hire at only £25.00 a day (cost of basket and lock inclusive)."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": {
+                "FALSE": "原文明确说明所有自行车租赁价格相同，与选项矛盾。",
+                "NOT GIVEN": "原文已明确给出信息，并非未提及。"
+              }
+            },
+            {
+              "id": "131342",
+              "number": 17,
+              "prompt": "You have to pay extra for a basket and lock.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干说“需要额外支付篮子和锁的费用”，但原文明确说明“£25.00 a day (cost of basket and lock inclusive)”，即篮子和锁的费用已包含在日租价格内，并非额外收费。因此该陈述与原文矛盾，答案为FALSE。",
+              "reason": "括号内明确说明 basket and lock 费用已包含",
+              "location_analysis": "原文说明篮子锁费用已包含，无需额外付费",
+              "paraphrasing": "题干 'pay extra for basket and lock' -> 原文 'cost of basket and lock inclusive'",
+              "keywords": "extra, basket, lock",
+              "evidence": [
+                "Come to Darren's Bike Hire, where a large selection of bikes are all available for hire at only £25.00 a day (cost of basket and lock inclusive)."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文可能表明篮子和锁是免费提供的或已包含在费用中。",
+                "NOT GIVEN": "原文已明确提及篮子和锁的收费情况，并非未提及。"
+              }
+            },
+            {
+              "id": "131343",
+              "number": 18,
+              "prompt": "Reservations are advised at some times of year.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干提到“某些时段建议预订”，原文指出“Just email... to ensure that there is a bike waiting for you... This is particularly necessary during the school holiday period of July and August”，说明在七八月学校假期期间特别需要提前预订，这与题干中的“some times of year”对应，因此答案为TRUE。",
+              "reason": "原文指出学校假期期间特别需要确保预约",
+              "location_analysis": "原文建议在七八月学校假期期间预订",
+              "paraphrasing": "题干 'reservations advised' -> 原文 'particularly necessary during the school holiday period'",
+              "keywords": "reservations, advised, some times of year",
+              "evidence": [
+                "This is particularly necessary during the school holiday period of July and August."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": {
+                "FALSE": "原文明确指出在某些时间段建议预订，因此该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文明确提到了在某些时间段建议预订，并非未提及，因此该选项不成立。"
+              }
+            },
+            {
+              "id": "131344",
+              "number": 19,
+              "prompt": "All bikes come with child seats.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称“所有自行车都配有儿童座椅”，但原文写的是“for those too small to pedal themselves, there are bikes fitted with child seats”，表明只有部分自行车（专为幼儿准备的）配备儿童座椅，并非全部。因此该陈述错误，答案为FALSE。",
+              "reason": "原文指出仅部分自行车配有儿童座椅",
+              "location_analysis": "原文说有些自行车配有儿童座椅，并非所有",
+              "paraphrasing": "题干 'All bikes come with child seats' -> 原文 'for those too small ... there are bikes fitted with child seats'",
+              "keywords": "all bikes, child seats",
+              "evidence": [
+                "All sizes of bikes are available for hire and, for those too small to pedal themselves, there are bikes fitted with child seats."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文可能指出并非所有自行车都配备儿童座椅。",
+                "NOT GIVEN": "原文明确给出了相关信息，并非未提及，因此该选项不符合事实。"
+              }
+            },
+            {
+              "id": "131345",
+              "number": 20,
+              "prompt": "The deposit is non-refundable.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干说“押金不可退还”，而原文明确说明“a £40.00 deposit must be paid. This is returned to the hirer on the safe return of the bicycle”，即只要安全归还自行车，押金就会退还。因此该陈述与原文矛盾，答案为FALSE。",
+              "reason": "原文说明押金在还车后返还",
+              "location_analysis": "原文说押金在安全还车后退还，故可退",
+              "paraphrasing": "题干 'non-refundable' -> 原文 'returned to the hirer on the safe return'",
+              "keywords": "deposit, non-refundable",
+              "evidence": [
+                "This is returned to the hirer on the safe return of the bicycle."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "与原文中押金可退的信息矛盾。",
+                "NOT GIVEN": "原文明确提到了押金是否可退，并非未提及。"
+              }
+            },
+            {
+              "id": "131346",
+              "number": 21,
+              "prompt": "It can be cheaper to hire a bike during the winter months.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称“冬季租车可能更便宜”，原文最后一句提到“Rates are reduced for longer periods, especially in winter”，明确指出冬季租金会降低，尤其适用于长期租赁。因此该陈述与原文一致，答案为TRUE。",
+              "reason": "原文指出冬季租金更低",
+              "location_analysis": "原文明确冬季租金降低",
+              "paraphrasing": "题干 'cheaper during winter' -> 原文 'rates are reduced for longer periods, especially in winter'",
+              "keywords": "cheaper, winter months",
+              "evidence": [
+                "Rates are reduced for longer periods, especially in winter."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "原文明确提及冬季租自行车更便宜，与题干一致，因此该选项与原文矛盾。",
+                "NOT GIVEN": "原文中明确提到了冬季租车价格更优惠的信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "21474",
+          "type": 8,
+          "title": "Applying for jobs online",
+          "instructions": "Questions 22 - 27\nComplete the sentences below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the text for each answer.\nWrite your answers in boxes 22-27 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131347",
+              "number": 22,
+              "prompt": "Select a job you like in the_____section. • Read the job description and click Apply Now.",
+              "options": [],
+              "answer": "Current Vacancies",
+              "accepted_answers": [
+                "Current Vacancies"
+              ],
+              "analysis": "题干要求填写选择职位所在的栏目名称，原文中提到“Once you've found a post in the Current Vacancies that you'd like to apply for...”，直接对应“Current Vacancies”这一栏目，因此答案为Current Vacancies。",
+              "reason": "原文明确提到 Current Vacancies",
+              "location_analysis": "原文说明在 Current Vacancies 查找岗位",
+              "paraphrasing": "题干 'Select a job you like' -> 原文 'found a post in the Current Vacancies'",
+              "keywords": "Select a job, Current Vacancies",
+              "evidence": [
+                "Once you've found a post in the Current Vacancies that you'd like to apply for and viewed the job description, click the Apply Now tab below."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131348",
+              "number": 23,
+              "prompt": "Sign up for a new account in the section named_____. • Accept the terms of the data collection policy.",
+              "options": [],
+              "answer": "First Time Applicant",
+              "accepted_answers": [
+                "First Time Applicant"
+              ],
+              "analysis": "题干询问注册新账户所在的版块名称，原文明确指出“Scroll down the section that says First Time Applicant to enter your email address...”，说明创建账户需在“First Time Applicant”部分操作，因此答案为First Time Applicant。",
+              "reason": "原文直接提到 First Time Applicant",
+              "location_analysis": "原文说明在 First Time Applicant 部分创建账号",
+              "paraphrasing": "题干 'Sign up for a new account in the section named' -> 原文 'scroll down the section that says First Time Applicant'",
+              "keywords": "new account, First Time Applicant",
+              "evidence": [
+                "Scroll down the section that says First Time Applicant to enter your email address, which is used to create your account."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131349",
+              "number": 24,
+              "prompt": "Work on your application form. You can move between tabs, and this allows you to fill in_____of the application form, completing one at a time.",
+              "options": [],
+              "answer": "small sections",
+              "accepted_answers": [
+                "small sections"
+              ],
+              "analysis": "题干要求填写可分段完成申请表的内容描述，原文提到“The form has a series of tabs... These are split up to enable you to work on small sections of the application at any one time”，说明用户可以逐个填写“small sections”，因此答案为small sections。",
+              "reason": "原文明确提到 small sections",
+              "location_analysis": "原文说明通过标签页可依次填写小部分内容",
+              "paraphrasing": "题干 'fill in ... of the application form' -> 原文 'work on small sections of the application'",
+              "keywords": "move between tabs, fill in",
+              "evidence": [
+                "These are split up to enable you to work on small sections of the application at any one time."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131350",
+              "number": 25,
+              "prompt": "When you're satisfied with your application, click the Complete tab, and then click Submit after putting in your_____.",
+              "options": [],
+              "answer": "name",
+              "accepted_answers": [
+                "name"
+              ],
+              "analysis": "题干问提交前需输入什么信息，原文说明“When you have finished, click the Complete tab. You then type your name (this is instead of a signature) and click Submit”，明确指出需输入“name”作为电子签名，因此答案为name。",
+              "reason": "原文明确指出 type your name",
+              "location_analysis": "原文说明提交前需输入姓名",
+              "paraphrasing": "题干 'click Submit after putting in your' -> 原文 'type your name (this is instead of a signature) and click Submit'",
+              "keywords": "click Submit, putting in your",
+              "evidence": [
+                "When you have finished, click the Complete tab. You then type your name (this is instead of a signature) and click Submit."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131351",
+              "number": 26,
+              "prompt": "You do not have to finish your application in_____. You can have a break and then go into My Applications to continue working on applications currently in progress there.",
+              "options": [],
+              "answer": "one sitting",
+              "accepted_answers": [
+                "one sitting"
+              ],
+              "analysis": "题干询问是否必须一次性完成申请，原文明确表示“The application does not need to be completed in one sitting”，说明无需在“one sitting”内完成，可分次填写，因此答案为one sitting。",
+              "reason": "原文直接提到 one sitting",
+              "location_analysis": "原文说明无需一次完成申请",
+              "paraphrasing": "题干 'finish your application in' -> 原文 'does not need to be completed in one sitting'",
+              "keywords": "finish your application, one sitting",
+              "evidence": [
+                "The application does not need to be completed in one sitting."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131352",
+              "number": 27,
+              "prompt": "NB If you are applying for multiple posts, the_____will need a separate application for each post.",
+              "options": [],
+              "answer": "recruitment office",
+              "accepted_answers": [
+                "recruitment office"
+              ],
+              "analysis": "题干要求填写接收多份申请的部门名称，原文指出“You will need to submit an application form to the recruitment office for every position...”，说明每个职位都需向“recruitment office”单独提交申请，因此答案为recruitment office。",
+              "reason": "原文明确提到 recruitment office",
+              "location_analysis": "原文说明每个职位需向招聘办公室单独提交申请",
+              "paraphrasing": "题干 'the ... will need a separate application' -> 原文 'submit an application form to the recruitment office for every position'",
+              "keywords": "multiple posts, separate application, recruitment office",
+              "evidence": [
+                "You will need to submit an application form to the recruitment office for every position you are interested in being considered for."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "22 Select a job you like in the $131347$ section.\n• Read the job description and click Apply Now.\n23 Sign up for a new account in the section named $131348$.\n• Accept the terms of the data collection policy.\n24 Work on your application form. You can move between tabs, and this allows you to fill in $131349$ of the application form, completing one at a time.\n25 When you're satisfied with your application, click the Complete tab, and then click Submit after putting in your $131350$.\n26 You do not have to finish your application in $131351$. You can have a break and then go into My Applications to continue working on applications currently in progress there.\n27 NB If you are applying for multiple posts, the $131352$ will need a separate application for each post.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "22 Select a job you like in the $131347$ section.\n• Read the job description and click Apply Now.\n23 Sign up for a new account in the section named $131348$.\n• Accept the terms of the data collection policy.\n24 Work on your application form. You can move between tabs, and this allows you to fill in $131349$ of the application form, completing one at a time.\n25 When you're satisfied with your application, click the Complete tab, and then click Submit after putting in your $131350$.\n26 You do not have to finish your application in $131351$. You can have a break and then go into My Applications to continue working on applications currently in progress there.\n27 NB If you are applying for multiple posts, the $131352$ will need a separate application for each post."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Passage 2",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "For anyone in Cambridge for a few hours or a few days, hiring a bike is the easiest way to get the freedom of the city.",
+          "translation": "对于在剑桥停留几小时或几天的人来说，租一辆自行车是体验这座城市自由度的最简单方式。"
+        },
+        {
+          "index": 2,
+          "sentence": "Come to Darren's Bike Hire, where a large selection of bikes are all available for hire at only £25.00 a day (cost of basket and lock inclusive).",
+          "translation": "来到达伦自行车租赁店，这里提供大量自行车供租用，每天仅需25英镑（费用包含车篮和车锁）。"
+        },
+        {
+          "index": 3,
+          "sentence": "They are also fitted with lights front and rear for those wishing to retain the bike overnight.",
+          "translation": "自行车还配备了前后车灯，方便希望过夜保留车辆的顾客。"
+        },
+        {
+          "index": 4,
+          "sentence": "Booking",
+          "translation": "预订"
+        },
+        {
+          "index": 5,
+          "sentence": "Just email info@DBH.com to ensure that there is a bike waiting for you when you need one.",
+          "translation": "只需发送电子邮件至 info@DBH.com，即可确保在您需要时有一辆自行车等着您。"
+        },
+        {
+          "index": 6,
+          "sentence": "This is particularly necessary during",
+          "translation": "这一点在……期间尤其必要"
+        },
+        {
+          "index": 7,
+          "sentence": "the school holiday period of July and August.",
+          "translation": "七月和八月的学校假期期间。"
+        },
+        {
+          "index": 8,
+          "sentence": "Cycling is for all the family",
+          "translation": "骑行适合所有家庭成员"
+        },
+        {
+          "index": 9,
+          "sentence": "All sizes of bikes are available for hire and, for those too small to pedal themselves, there are bikes fitted with child seats.",
+          "translation": "各种尺寸的自行车均可出租，对于太小而无法自行踩踏板的人，还配备了装有儿童座椅的自行车。"
+        },
+        {
+          "index": 10,
+          "sentence": "Hire charges",
+          "translation": "租车费用"
+        },
+        {
+          "index": 11,
+          "sentence": "1 day £25.00 2 weeks £55.00",
+          "translation": "1天25英镑，2周55英镑。"
+        },
+        {
+          "index": 12,
+          "sentence": "2 days £30.00 3 weeks £70.00",
+          "translation": "2天30.00英镑，3周70.00英镑"
+        },
+        {
+          "index": 13,
+          "sentence": "3 days £ 35.00 4 weeks £80.00",
+          "translation": "3天租借费35.00英镑，4周租借费80.00英镑"
+        },
+        {
+          "index": 14,
+          "sentence": "1 week £45.00",
+          "translation": "一周租费为45.00英镑"
+        },
+        {
+          "index": 15,
+          "sentence": "The hire charge must be paid in",
+          "translation": "租赁费用必须提前支付。"
+        },
+        {
+          "index": 16,
+          "sentence": "advance.",
+          "translation": "租车费用必须提前支付。"
+        },
+        {
+          "index": 17,
+          "sentence": "In addition, a £40.00 deposit must be paid.",
+          "translation": "此外，必须支付40.00英镑的押金。"
+        },
+        {
+          "index": 18,
+          "sentence": "This is returned to the hirer on the safe return of the bicycle.",
+          "translation": "在自行车安全归还后，这笔押金将退还给租用者。"
+        },
+        {
+          "index": 19,
+          "sentence": "Rates are reduced for longer periods, especially in winter.",
+          "translation": "租期越长，费率越优惠，尤其是在冬季。"
+        },
+        {
+          "index": 20,
+          "sentence": "Natural Environment Research Council",
+          "translation": "自然环境研究委员会"
+        },
+        {
+          "index": 21,
+          "sentence": "HOW TO APPLY FOR A JOB ONLINE",
+          "translation": "如何在线申请工作"
+        },
+        {
+          "index": 22,
+          "sentence": "How do l start an application?",
+          "translation": "我该如何开始申请？"
+        },
+        {
+          "index": 23,
+          "sentence": "Once you've found a post in the Current Vacancies that you'd like to apply for and viewed the job description, click the Apply Now tab below.",
+          "translation": "一旦你在当前职位空缺中找到想要申请的职位并查看了职位描述，请点击下方的“立即申请”标签。"
+        },
+        {
+          "index": 24,
+          "sentence": "Then you will be presented with a screen that asks you to create a new account.",
+          "translation": "随后，屏幕会要求你创建一个新账户。"
+        },
+        {
+          "index": 25,
+          "sentence": "Scroll down the section that says First Time Applicant to enter your email address, which is used to create your account.",
+          "translation": "向下滚动至标有“首次申请者”的部分，输入你的电子邮件地址，该地址将用于创建账户。"
+        },
+        {
+          "index": 26,
+          "sentence": "You also have to agree to the data collection policy before an application form will appear on screen.",
+          "translation": "你还必须同意数据收集政策，之后申请表才会在屏幕上显示。"
+        },
+        {
+          "index": 27,
+          "sentence": "How do l fill the application form in?",
+          "translation": "我该如何填写申请表？"
+        },
+        {
+          "index": 28,
+          "sentence": "The form has a series of tabs at the top, with names such as Personal Details, Education, etc.",
+          "translation": "表格顶部有一系列选项卡，名称包括“个人详情”、“教育”等。"
+        },
+        {
+          "index": 29,
+          "sentence": "These are split up to enable you to work on small sections of the application at any one time.",
+          "translation": "这些选项卡被分拆开来，以便您随时处理申请的各个小部分。"
+        },
+        {
+          "index": 30,
+          "sentence": "Every time you click a tab, the data is saved.",
+          "translation": "每次点击一个选项卡时，数据都会被保存。"
+        },
+        {
+          "index": 31,
+          "sentence": "You can also alter your application at any point and then click Save Changes at the bottom of the form.",
+          "translation": "您也可以在任何时候修改申请，然后点击表格底部的“保存更改”。"
+        },
+        {
+          "index": 32,
+          "sentence": "Some sections of the application form are required information.",
+          "translation": "申请表格的某些部分是必填信息。"
+        },
+        {
+          "index": 33,
+          "sentence": "These will be indicated with an asterisk (*).",
+          "translation": "这些部分会以星号 (*) 标示。"
+        },
+        {
+          "index": 34,
+          "sentence": "When you have finished, click the Complete tab.",
+          "translation": "当你完成时，点击“完成”选项卡。"
+        },
+        {
+          "index": 35,
+          "sentence": "You then type your name (this is instead of a signature) and click Submit.",
+          "translation": "然后输入你的姓名（这代替签名），并点击“提交”。"
+        },
+        {
+          "index": 36,
+          "sentence": "You will be asked to confirm that you really want to submit your application.",
+          "translation": "你会被要求确认是否真的想要提交你的申请。"
+        },
+        {
+          "index": 37,
+          "sentence": "Can I save my application and come back and work on it later?",
+          "translation": "我可以保存我的申请，稍后再回来继续填写吗？"
+        },
+        {
+          "index": 38,
+          "sentence": "The application does not need to be completed in one sitting.",
+          "translation": "申请不需要一次性全部完成。"
+        },
+        {
+          "index": 39,
+          "sentence": "When you sign up for the first time, you will be sent the password for your account,",
+          "translation": "当你首次注册时，你将收到账户密码，"
+        },
+        {
+          "index": 40,
+          "sentence": "You can use this to log in and continue your application.",
+          "translation": "你可以使用该密码登录并继续你的申请。"
+        },
+        {
+          "index": 41,
+          "sentence": "Click the login link;",
+          "translation": "点击登录链接；"
+        },
+        {
+          "index": 42,
+          "sentence": "there will be an option on the left called My Applications.",
+          "translation": "左侧会有一个名为“我的申请”的选项。"
+        },
+        {
+          "index": 43,
+          "sentence": "This contains a list of your applications that are in progress at the current time.",
+          "translation": "这里面列出了你当前正在进行的所有申请。"
+        },
+        {
+          "index": 44,
+          "sentence": "How do l apply for more than one vacancy at the same time?",
+          "translation": "我如何同时申请多个职位？"
+        },
+        {
+          "index": 45,
+          "sentence": "You will need to submit an application form to the recruitment office for every position you are interested in being considered for.",
+          "translation": "你需要为每一个你感兴趣并希望被考虑的职位，向招聘办公室提交一份申请表。"
+        },
+        {
+          "index": 46,
+          "sentence": "Please do not submit one application form to apply for a number of different posts.",
+          "translation": "请不要仅提交一份申请表来申请多个不同的职位。"
+        }
+      ]
+    },
+    {
+      "id": "2940",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "WIND POWER - A TURN FOR THE BETTER",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "In an effort to find alternative sources of energy, some governments have turned to wind power as a possible solution. However, this has proved controversial, as Steve Rose reports.",
+          "translation": "为了寻找替代能源，一些政府已转向风能作为一种可能的解决方案。\n然而，正如史蒂夫·罗斯报道的那样，这已被证明是存在争议的。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A Think of wind power and the first image to spring to mind is most likely a giant, three-bladed propeller spinning atop a slim tower, probably in a rural area. Chances are that's actually the only image that springs to mind - and that's the problem.",
+          "translation": "提到风能，首先映入脑海的很可能是乡村地区细长塔顶上旋转的巨大三叶片螺旋桨。\n很可能这实际上就是唯一浮现的画面——而这正是问题所在。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B To renewable-energy supporters, wind turbines symbolise the hope of a green, clean future, but to opponents, they might as well be invaders from outer space. In the UK, with plans for new wind farms proceeding apace in an effort to meet the government's interim target for renewable-sourced energy, the debate has reached crisis point. Anti-wind farm groups have been springing up wherever wind farms are proposed; some opponents say they would rather have a nuclear power station in their backyard than see the rural landscape covered in propellers on sticks. And as long as propellers on sticks are the only option, pro- and anti-wind farm camps are unlikely ever to agree. The debate is clearly as much about the aesthetics of wind power as the politics and practicalities but, at present, wind turbines barely rank above electricity pylons in terms of aesthetic consideration, Members of the design community are, however, rising to the challenge.",
+          "translation": "对于可再生能源的支持者来说，风力涡轮机象征着绿色、清洁未来的希望，但对反对者而言，它们无异于来自外太空的入侵者。\n在英国，为了达成政府的可再生能源中期目标，新风电场的建设计划迅速推进，使得这场辩论已陷入危机时刻。\n凡是提议建设风电场的地方，反风电场团体便会如雨后春笋般涌现；一些反对者表示，他们宁愿自家后院有座核电站，也不愿看到乡村景观被遍布的杆上螺旋桨覆盖。\n只要杆上螺旋桨还是唯一的选择，支持和反对风电场的阵营就几乎不可能达成一致。\n这场辩论显然既关乎风电的政治和实用性，也关乎其美学价值；但目前，风力涡轮机在美学考量上的地位几乎不比电线塔高。然而，设计界的成员正在迎接这一挑战。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "C One of the most striking projects rethinks the idea of the turbine entirely. It is called an Aerogenerator and it looks nothing like a propeller on a stick. The Aerogenerator, designed by Grimshaw Architects, is arguably the first wind turbine design to capture the spirit of pioneering optimism that these structures sought to express. It could also be a very practical option, especially since it would be situated offshore, far away from anyone's backyard. While conventional turbines rotate on a horizontal axis, the tall, V-shaped Aerogenerator spins on a vertical axis, like a record, Unlike horizontal-axis designs, vertical-axis turbines can harness wind energy from any direction, and because the moving parts and the generator are at ground level, they are easier to maintain.",
+          "translation": "最引人注目的项目之一彻底重新思考了涡轮机的概念。\n它被称为航空发电机，看起来完全不像杆上的螺旋桨。\n由格里姆肖建筑师事务所设计的航空发电机，可以说是首个捕捉到这些结构试图表达的开拓性乐观精神的风力涡轮机设计。\n它也可能是一个非常实用的选择，尤其是因为它将位于海上，远离任何人的后院。\n传统涡轮机在水平轴上旋转，而高耸的V形航空发电机在垂直轴上旋转，像唱片一样。与水平轴设计不同，垂直轴涡轮机可以从任何方向利用风能，而且由于活动部件和发电机位于地面水平，它们更易于维护。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "D 'Our engineer thought about the problems with traditional turbines and developed a new design, says Theo Bird, founder of Windpower Ltd., who is funding this new Aerogenerator project through a combination of a government grant and the money he was saving to buy a new house. 'By making our turbine so large, we can build offshore, where there's more wind. It's got to be something strong and simple to work at sea. And in the future, you could possibly double the power from each turbine by harnessing tidal power beneath the surface of the sea,' 'Also,' adds Bird, 'we saw it as a striking landmark that could enhance the entrance of a harbour or an industrial port.\"",
+          "translation": "“我们的工程师思考了传统涡轮机的问题，并开发了一种新设计，”风力发电有限公司创始人西奥·伯德说。他通过政府拨款和自己原本计划购买新房子的积蓄共同资助了这个新的气动发电机项目。\n“通过将涡轮机制造得如此之大，我们可以在风力更强的海上进行建设。\n它必须坚固且简单，才能在海上运作。\n未来，通过利用海面下的潮汐能，你或许可以将每个涡轮机的发电量翻倍。”伯德补充道，“我们也将其视为一个引人注目的地标，可以提升港口或工业港口的入口形象。”"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "E Beyond making more attractive wind farms, there is also potential for integrating turbines directly into buildings. After all, if nobody wants wind turbines in the countryside why not put them in the cities? Cities already have high-rise structures in which to incorporate turbines that would be in tune with a man-made environment, Added to this, there would be less need to transport the electricity large distances to its users.",
+          "translation": "除了建设更具吸引力的风力发电场之外，还有可能将涡轮机直接整合到建筑物中。\n毕竟，如果没有人希望在乡村安装风力涡轮机，为什么不把它们安置在城市里呢？\n城市已经拥有高层建筑，可以融入与人工环境相协调的涡轮机，此外，这也减少了将电力远距离输送给用户的需求。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "F It took a long time for architects to successfully incorporate effective wind turbines into buildings, The architect Richard Rogers proposed an integral turbine for the Tomigaya Tower in Tokyo in 1993, but his plan was turned down. In more recent efforts, such as William Pedersen's sports centre in New York, wind turbines seem to be environmentally friendly but do not provide a real solution to energy requirements.",
+          "translation": "F 建筑师们花了很长时间才成功地将高效的风力涡轮机融入建筑物中，\n建筑师理查德·罗杰斯于1993年为东京的富谷塔提出了一个整体涡轮机方案，但他的计划被拒绝了。\n在更近期的尝试中，例如威廉·佩德森在纽约设计的体育中心，风力涡轮机看似环保，却并未为能源需求提供真正的解决方案。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "G Going a step further, several years ago a European Commission-sponsored organisation named Project WEB (Wind Energy for the Built Environment investigated in detail the possibility of constructing a purpose-built wind-powered skyscraper, According to Project WEB's environmental engineer, Sinisa Stankovic, under the right circumstances such a building could generate nearly all of its own energy needs. Yet despite the proven effectiveness of Project WEB's designs (which also included a four-tower design that could harness wind from any direction), the realities of the construction industry kept them on the drawing board.",
+          "translation": "更进一步来说，多年前，一个由欧盟委员会资助、名为“建筑环境风能项目”的组织详细研究了建造一座专门设计的风力发电摩天大楼的可能性。\n据该项目环境工程师辛尼萨·斯坦科维奇所言，在适当条件下，这样一座建筑几乎可以满足其自身所有的能源需求。\n然而，尽管该项目设计（还包括一种可从任何方向利用风能的四塔设计）的有效性已得到证实，但建筑行业的现实情况使其仍停留在设计阶段。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "H A project that came closer to realisation was the controversial Freedom Tower in New York. At the top of this enormous tower, architects intended to create a 150 m-high open cage structure containing a wind turbine. The skyscraper beneath it was shaped to channel the wind up into it, and it could have generated a quarter of the building's needs - a genuine urban wind farm. Despite this design receiving widespread approval, other factors came to take precedence over environmental considerations. So instead of a powerful advertisement for wind power's potential to the world, the Freedom Tower became a rather ordinary office block. Guy Battle, a much respected expert in the field of environmental and sustainable architecture, was consulting engineer for the project.",
+          "translation": "H 一个更接近实现的项目是纽约备受争议的自由塔。\n在这座巨大建筑的顶部，建筑师计划建造一个150米高的开放式笼状结构，其中包含一座风力涡轮机。\n其下方的摩天大楼被设计成引导风向上的形状，本可满足该建筑四分之一的需求——堪称真正的城市风电场。\n尽管这一设计获得广泛认可，但其他因素最终凌驾于环境考量之上。\n因此，自由塔未能成为向世界展示风能潜力的有力象征，反而变成了一栋相当普通的办公楼。\n备受尊敬的环境与可持续建筑领域专家盖伊·巴特尔担任该项目的咨询工程师。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "I As energy from fossil fuels becomes more scarce and expensive, the energy performance of buildings can only increase in importance. ‘Traditional buildings have been a drain on infrastructure-water, electricity, waste disposal, etc.’ says Battle, ‘It's no longer about just responding to cultural and social urban factors. It's a whole different layer of architecture coming through that will begin to change the face of our cities.’",
+          "translation": "随着化石燃料能源变得越来越稀缺和昂贵，建筑的能源性能只会变得更加重要。\n“传统建筑一直是基础设施——水、电、废物处理等方面的消耗，”巴特尔说，“这不再仅仅是对文化和社会城市因素的回应。这是一个全新的建筑层面正在浮现，它将开始改变我们城市的面貌。”"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "21483",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 28 - 34\nThe text on pages 67 and 68 has nine paragraphs, A-I.\nWhich paragraph mentions the following?\nWrite the correct letter, A-l, in boxes 28-34 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131366",
+              "number": 28,
+              "prompt": "a comparison between new and traditional turbine designs",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出提及新旧涡轮机设计对比的段落。C段明确将Aerogenerator与传统水平轴涡轮机进行比较，指出前者采用垂直轴设计，能从任意方向捕获风能，且维护更方便，而后者为常规的水平轴结构。这种直接对比符合题干中“comparison between new and traditional turbine designs”的要求，因此答案为C。",
+              "reason": "题干要求比较新旧涡轮机设计，C段明确对比Aerogenerator与传统的水平轴涡轮机。",
+              "location_analysis": "C段描述Aerogenerator与传统水平轴涡轮机的对比。",
+              "paraphrasing": "new turbine designs -> Aerogenerator; traditional turbine designs -> conventional turbines",
+              "keywords": "comparison, new and traditional turbine designs",
+              "evidence": [
+                "The Aerogenerator, designed by Grimshaw Architects, is arguably the first wind turbine design to capture the spirit of pioneering optimism that these structures sought to express."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131367",
+              "number": 29,
+              "prompt": "two unsatisfactory attempts to include wind turbines in buildings",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干要求找出提及两次不成功的建筑整合风力涡轮尝试的段落。F段提到Richard Rogers在1993年为东京Tomigaya Tower设计的涡轮方案被拒绝，以及William Pedersen在纽约体育中心的设计虽环保却无法真正满足能源需求。这两例均属于“unsatisfactory attempts”，完全对应题干描述，故答案为F。",
+              "reason": "两个例子均为unsatisfactory",
+              "location_analysis": "F段提到Richard Rogers被拒方案和Pedersen的非实效方案。",
+              "paraphrasing": "unsatisfactory attempts -> proposed ... turned down / do not provide a real solution",
+              "keywords": "two, unsatisfactory, attempts, wind turbines, buildings",
+              "evidence": [
+                "The architect Richard Rogers proposed an integral turbine for the Tomigaya Tower in Tokyo in 1993, but his plan was turned down.",
+                "In more recent efforts, such as William Pedersen's sports centre in New York, wind turbines seem to be environmentally friendly but do not provide a real solution to energy requirements."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131368",
+              "number": 30,
+              "prompt": "an official policy relating to energy production",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干要求定位提及官方能源政策的段落。B段提到英国政府为实现“可再生能源中期目标”而加速推进风电场建设，这属于明确的官方能源生产政策。其中“government's interim target for renewable-sourced energy”正是对“official policy relating to energy production”的具体体现，因此答案为B。",
+              "reason": "直接对应官方政策",
+              "location_analysis": "B段提到政府可再生能源临时目标，属官方政策。",
+              "paraphrasing": "official policy -> government's interim target for renewable-sourced energy",
+              "keywords": "official policy, energy production",
+              "evidence": [
+                "In the UK, with plans for new wind farms proceeding apace in an effort to meet the government's interim target for renewable-sourced energy, the debate has reached crisis point."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131369",
+              "number": 31,
+              "prompt": "disappointing modifications to plans for an innovative corporate building",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "题干要求找出关于创新企业建筑计划被令人失望地修改的段落。H段描述Freedom Tower原计划顶部设置风力涡轮，可供应四分之一用电，成为风能潜力的有力宣传，但最终因其他因素优先而变成普通办公楼。这种从“innovative”到“ordinary”的转变正符合“disappointing modifications”，故答案为H。",
+              "reason": "计划被修改结果令人失望",
+              "location_analysis": "H段说自由塔本可成为风力广告，却成了普通办公楼。",
+              "paraphrasing": "disappointing modifications -> instead of ... became a rather ordinary office block; innovative corporate building -> Freedom Tower",
+              "keywords": "disappointing modifications, plans, innovative corporate building",
+              "evidence": [
+                "So instead of a powerful advertisement for wind power's potential to the world, the Freedom Tower became a rather ordinary office block."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131370",
+              "number": 32,
+              "prompt": "a claim that changes in building design will impact the way urban areas look",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "analysis": "题干要求找出声称建筑设计变化将影响城市面貌的段落。I段引用Guy Battle的话指出，一种全新的建筑层次正在出现，“will begin to change the face of our cities”，这与题干中“changes in building design will impact the way urban areas look”形成直接对应，因此答案为I。",
+              "reason": "直接对应",
+              "location_analysis": "I段Battle说新建筑层将改变城市面貌。",
+              "paraphrasing": "changes in building design -> different layer of architecture; impact on urban areas look -> change the face of our cities",
+              "keywords": "changes, building design, impact, urban areas look",
+              "evidence": [
+                "It's a whole different layer of architecture coming through that will begin to change the face of our cities."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131371",
+              "number": 33,
+              "prompt": "wind farms in urban areas as one solution to the problem of appearance",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干要求找出将城市风电场作为外观问题解决方案的段落。E段提出，既然人们不愿在乡村看到风力涡轮，不如将其融入城市高楼，这样既符合人造环境，又能减少输电距离。该段将城市风电视为解决传统风电“appearance”争议的替代方案，完全契合题干，故答案为E。",
+              "reason": "直接对应城市方案",
+              "location_analysis": "E段提出将涡轮融入城市建筑以解决外观争议。",
+              "paraphrasing": "solution to appearance -> integrating turbines directly into buildings; urban areas -> cities",
+              "keywords": "wind farms, urban areas, solution, appearance",
+              "evidence": [
+                "Beyond making more attractive wind farms, there is also potential for integrating turbines directly into buildings.",
+                "After all, if nobody wants wind turbines in the countryside why not put them in the cities?"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131372",
+              "number": 34,
+              "prompt": "a source of finance for the development of a new turbine for an offshore project",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                },
+                {
+                  "value": "H",
+                  "label": "H"
+                },
+                {
+                  "value": "I",
+                  "label": "I"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求找出提及海上新涡轮项目资金来源的段落。D段明确说明Theo Bird通过“政府拨款”和“自己存下买新房的钱”共同资助Aerogenerator项目，且该项目专为海上建造设计。这与题干中“source of finance for the development of a new turbine for an offshore project”完全匹配，因此答案为D。",
+              "reason": "直接提及资金来源和海上项目",
+              "location_analysis": "D段说明资金来自政府拨款与个人积蓄。",
+              "paraphrasing": "source of finance -> funding ... through a combination of a government grant and the money he was saving to buy a new house; new turbine -> Aerogenerator; offshore -> build offshore",
+              "keywords": "source of finance, development, new turbine, offshore project",
+              "evidence": [
+                "By making our turbine so large, we can build offshore, where there's more wind."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "21485",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 35 - 40\nLook at the following projects (Questions 35-40) and the list of people below, Match each project with the correct person, A-E.\nWrite the correct letter, A-E, in boxes 35-40 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "List of People",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Theo Bird"
+            },
+            {
+              "value": "B",
+              "label": "B. Richard Rogers"
+            },
+            {
+              "value": "C",
+              "label": "C. William Pedersen"
+            },
+            {
+              "value": "D",
+              "label": "D. Sinisa Stankovic"
+            },
+            {
+              "value": "E",
+              "label": "E. Guy Battle"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "131373",
+              "number": 35,
+              "prompt": "an ambitious design which resulted in a boring building",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Theo Bird"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Richard Rogers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. William Pedersen"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Sinisa Stankovic"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Guy Battle"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干描述一个雄心勃勃却最终建成平庸建筑的设计项目。H段指出Freedom Tower原计划成为风能潜力的“强大广告”，但最终沦为“相当普通的办公楼”，而Guy Battle正是该项目的咨询工程师。因此，这一“ambitious design”与“boring building”的对比指向E（Guy Battle），答案为E。",
+              "reason": "自由塔项目负责人为Guy Battle",
+              "location_analysis": "H段Guy Battle参与的自由塔最终成为普通办公楼。",
+              "paraphrasing": "ambitious design -> a powerful advertisement for wind power's potential; boring building -> rather ordinary office block",
+              "keywords": "ambitious design, boring building",
+              "evidence": [
+                "So instead of a powerful advertisement for wind power's potential to the world, the Freedom Tower became a rather ordinary office block.",
+                "Guy Battle, a much respected expert in the field of environmental and sustainable architecture, was consulting engineer for the project."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131374",
+              "number": 36,
+              "prompt": "a venture partially financed by personal wealth",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Theo Bird"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Richard Rogers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. William Pedersen"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Sinisa Stankovic"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Guy Battle"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干要求匹配由个人财富部分资助的项目。D段提到Theo Bird用“原本打算买新房的钱”加上政府拨款来资助Aerogenerator项目，这明确体现了“partially financed by personal wealth”。因此，该项目对应人物A（Theo Bird），答案为A。",
+              "reason": "明确个人财富投资",
+              "location_analysis": "D段说Theo Bird用积蓄购新房的资金资助项目。",
+              "paraphrasing": "partially financed by personal wealth -> money he was saving to buy a new house",
+              "keywords": "venture, partially financed, personal wealth",
+              "evidence": [
+                "who is funding this new Aerogenerator project through a combination of a government grant and the money he was saving to buy a new house."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131375",
+              "number": 37,
+              "prompt": "a building designed for leisure activities",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Theo Bird"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Richard Rogers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. William Pedersen"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Sinisa Stankovic"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Guy Battle"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出为休闲活动设计的建筑。F段提到William Pedersen在纽约设计的“sports centre”（体育中心），属于典型的休闲用途建筑，尽管其风力涡轮未能有效供能。因此，该建筑对应人物C（William Pedersen），答案为C。",
+              "reason": "体育中心明确为休闲用途",
+              "location_analysis": "F段William Pedersen设计的是体育中心（休闲活动）。",
+              "paraphrasing": "building for leisure activities -> sports centre",
+              "keywords": "building, leisure activities",
+              "evidence": [
+                "In more recent efforts, such as William Pedersen's sports centre in New York, wind turbines seem to be environmentally friendly but do not provide a real solution to energy requirements."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131376",
+              "number": 38,
+              "prompt": "a design for a building capable of producing virtually all its own energy",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Theo Bird"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Richard Rogers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. William Pedersen"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Sinisa Stankovic"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Guy Battle"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求匹配能几乎自给自足能源的建筑设计。G段引用Sinisa Stankovic的话称，在适当条件下，Project WEB设计的建筑“could generate nearly all of its own energy needs”，这与题干“capable of producing virtually all its own energy”完全一致，故答案为D（Sinisa Stankovic）。",
+              "reason": "直接对应",
+              "location_analysis": "G段Sinisa Stankovic说在适当条件下建筑可自给自足。",
+              "paraphrasing": "capable of producing virtually all its own energy -> generate nearly all of its own energy needs",
+              "keywords": "design, building, capable, nearly all its own energy",
+              "evidence": [
+                "According to Project WEB's environmental engineer, Sinisa Stankovic, under the right circumstances such a building could generate nearly all of its own energy needs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131377",
+              "number": 39,
+              "prompt": "a project supported by a group of countries",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Theo Bird"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Richard Rogers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. William Pedersen"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Sinisa Stankovic"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Guy Battle"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求找出由多国支持的项目。G段提到Project WEB是由“European Commission-sponsored organisation”（欧盟委员会资助的组织）发起的，欧盟代表多个国家，因此该项目属于“supported by a group of countries”。该项目由Sinisa Stankovic参与，故答案为D。",
+              "reason": "欧盟委员会代表多国支持",
+              "location_analysis": "Project WEB由欧盟委员会资助，是多国支持的项目。",
+              "paraphrasing": "supported by a group of countries -> European Commission-sponsored organisation named Project WEB",
+              "keywords": "project supported by a group of countries, Sinisa Stankovic",
+              "evidence": [
+                "several years ago a European Commission-sponsored organisation named Project WEB (Wind Energy for the Built Environment investigated in detail the possibility of constructing a purpose-built wind-powered skyscraper"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "131378",
+              "number": 40,
+              "prompt": "a structure that may make use of more than one natural energy source",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Theo Bird"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Richard Rogers"
+                },
+                {
+                  "value": "C",
+                  "label": "C. William Pedersen"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Sinisa Stankovic"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Guy Battle"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干要求匹配可能利用多种自然能源的结构。D段中Theo Bird提到未来或许可通过“harnessing tidal power beneath the surface of the sea”来使每个涡轮发电量翻倍，即同时利用风能和潮汐能。这符合“more than one natural energy source”的描述，因此对应人物A（Theo Bird），答案为A。",
+              "reason": "风能+潮汐能",
+              "location_analysis": "D段说未来可结合潮汐能，实现多能源利用。",
+              "paraphrasing": "more than one natural energy source -> harness tidal power beneath the surface of the sea",
+              "keywords": "structure, more than one, natural energy source",
+              "evidence": [
+                "And in the future, you could possibly double the power from each turbine by harnessing tidal power beneath the surface of the sea,' 'Also,' adds Bird,"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of People"
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "WIND POWER - A TURN FOR THE BETTER",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "In an effort to find alternative sources of energy, some governments have turned to wind power as a possible solution.",
+          "translation": "为了寻找替代能源，一些政府已转向风能作为一种可能的解决方案。"
+        },
+        {
+          "index": 2,
+          "sentence": "However, this has proved controversial, as Steve Rose reports.",
+          "translation": "然而，正如史蒂夫·罗斯报道的那样，这已被证明是存在争议的。"
+        },
+        {
+          "index": 3,
+          "sentence": "A Think of wind power and the first image to spring to mind is most likely a giant, three-bladed propeller spinning atop a slim tower, probably in a rural area.",
+          "translation": "提到风能，首先映入脑海的很可能是乡村地区细长塔顶上旋转的巨大三叶片螺旋桨。"
+        },
+        {
+          "index": 4,
+          "sentence": "Chances are that's actually the only image that springs to mind - and that's the problem.",
+          "translation": "很可能这实际上就是唯一浮现的画面——而这正是问题所在。"
+        },
+        {
+          "index": 5,
+          "sentence": "To renewable-energy supporters, wind turbines symbolise the hope of a green, clean future, but to opponents, they might as well be invaders from outer space.",
+          "translation": "对于可再生能源的支持者来说，风力涡轮机象征着绿色、清洁未来的希望，但对反对者而言，它们无异于来自外太空的入侵者。"
+        },
+        {
+          "index": 6,
+          "sentence": "In the UK, with plans for new wind farms proceeding apace in an effort to meet the government's interim target for renewable-sourced energy, the debate has reached crisis point.",
+          "translation": "在英国，为了达成政府的可再生能源中期目标，新风电场的建设计划迅速推进，使得这场辩论已陷入危机时刻。"
+        },
+        {
+          "index": 7,
+          "sentence": "Anti-wind farm groups have been springing up wherever wind farms are proposed; some opponents say they would rather have a nuclear power station in their backyard than see the rural landscape covered in propellers on sticks.",
+          "translation": "凡是提议建设风电场的地方，反风电场团体便会如雨后春笋般涌现；一些反对者表示，他们宁愿自家后院有座核电站，也不愿看到乡村景观被遍布的杆上螺旋桨覆盖。"
+        },
+        {
+          "index": 8,
+          "sentence": "And as long as propellers on sticks are the only option, pro- and anti-wind farm camps are unlikely ever to agree.",
+          "translation": "只要杆上螺旋桨还是唯一的选择，支持和反对风电场的阵营就几乎不可能达成一致。"
+        },
+        {
+          "index": 9,
+          "sentence": "The debate is clearly as much about the aesthetics of wind power as the politics and practicalities but, at present, wind turbines barely rank above electricity pylons in terms of aesthetic consideration, Members of the design community are, however, rising to the challenge.",
+          "translation": "这场辩论显然既关乎风电的政治和实用性，也关乎其美学价值；但目前，风力涡轮机在美学考量上的地位几乎不比电线塔高。然而，设计界的成员正在迎接这一挑战。"
+        },
+        {
+          "index": 10,
+          "sentence": "One of the most striking projects rethinks the idea of the turbine entirely.",
+          "translation": "最引人注目的项目之一彻底重新思考了涡轮机的概念。"
+        },
+        {
+          "index": 11,
+          "sentence": "It is called an Aerogenerator and it looks nothing like a propeller on a stick.",
+          "translation": "它被称为航空发电机，看起来完全不像杆上的螺旋桨。"
+        },
+        {
+          "index": 12,
+          "sentence": "The Aerogenerator, designed by Grimshaw Architects, is arguably the first wind turbine design to capture the spirit of pioneering optimism that these structures sought to express.",
+          "translation": "由格里姆肖建筑师事务所设计的航空发电机，可以说是首个捕捉到这些结构试图表达的开拓性乐观精神的风力涡轮机设计。"
+        },
+        {
+          "index": 13,
+          "sentence": "It could also be a very practical option, especially since it would be situated offshore, far away from anyone's backyard.",
+          "translation": "它也可能是一个非常实用的选择，尤其是因为它将位于海上，远离任何人的后院。"
+        },
+        {
+          "index": 14,
+          "sentence": "While conventional turbines rotate on a horizontal axis, the tall, V-shaped Aerogenerator spins on a vertical axis, like a record, Unlike horizontal-axis designs, vertical-axis turbines can harness wind energy from any direction, and because the moving parts and the generator are at ground level, they are easier to maintain.",
+          "translation": "传统涡轮机在水平轴上旋转，而高耸的V形航空发电机在垂直轴上旋转，像唱片一样。与水平轴设计不同，垂直轴涡轮机可以从任何方向利用风能，而且由于活动部件和发电机位于地面水平，它们更易于维护。"
+        },
+        {
+          "index": 15,
+          "sentence": "D 'Our engineer thought about the problems with traditional turbines and developed a new design, says Theo Bird, founder of Windpower Ltd., who is funding this new Aerogenerator project through a combination of a government grant and the money he was saving to buy a new house.",
+          "translation": "“我们的工程师思考了传统涡轮机的问题，并开发了一种新设计，”风力发电有限公司创始人西奥·伯德说。他通过政府拨款和自己原本计划购买新房子的积蓄共同资助了这个新的气动发电机项目。"
+        },
+        {
+          "index": 16,
+          "sentence": "'By making our turbine so large, we can build offshore, where there's more wind.",
+          "translation": "“通过将涡轮机制造得如此之大，我们可以在风力更强的海上进行建设。"
+        },
+        {
+          "index": 17,
+          "sentence": "It's got to be something strong and simple to work at sea.",
+          "translation": "它必须坚固且简单，才能在海上运作。"
+        },
+        {
+          "index": 18,
+          "sentence": "And in the future, you could possibly double the power from each turbine by harnessing tidal power beneath the surface of the sea,' 'Also,' adds Bird, 'we saw it as a striking landmark that could enhance the entrance of a harbour or an industrial port.\"",
+          "translation": "未来，通过利用海面下的潮汐能，你或许可以将每个涡轮机的发电量翻倍。”伯德补充道，“我们也将其视为一个引人注目的地标，可以提升港口或工业港口的入口形象。”"
+        },
+        {
+          "index": 19,
+          "sentence": "E Beyond making more attractive wind farms, there is also potential for integrating turbines directly into buildings.",
+          "translation": "除了建设更具吸引力的风力发电场之外，还有可能将涡轮机直接整合到建筑物中。"
+        },
+        {
+          "index": 20,
+          "sentence": "After all, if nobody wants wind turbines in the countryside why not put them in the cities?",
+          "translation": "毕竟，如果没有人希望在乡村安装风力涡轮机，为什么不把它们安置在城市里呢？"
+        },
+        {
+          "index": 21,
+          "sentence": "Cities already have high-rise structures in which to incorporate turbines that would be in tune with a man-made environment, Added to this, there would be less need to transport the electricity large distances to its users.",
+          "translation": "城市已经拥有高层建筑，可以融入与人工环境相协调的涡轮机，此外，这也减少了将电力远距离输送给用户的需求。"
+        },
+        {
+          "index": 22,
+          "sentence": "F It took a long time for architects to successfully incorporate effective wind turbines into buildings,",
+          "translation": "F 建筑师们花了很长时间才成功地将高效的风力涡轮机融入建筑物中，"
+        },
+        {
+          "index": 23,
+          "sentence": "The architect Richard Rogers proposed an integral turbine for the Tomigaya Tower in Tokyo in 1993, but his plan was turned down.",
+          "translation": "建筑师理查德·罗杰斯于1993年为东京的富谷塔提出了一个整体涡轮机方案，但他的计划被拒绝了。"
+        },
+        {
+          "index": 24,
+          "sentence": "In more recent efforts, such as William Pedersen's sports centre in New York, wind turbines seem to be environmentally friendly but do not provide a real solution to energy requirements.",
+          "translation": "在更近期的尝试中，例如威廉·佩德森在纽约设计的体育中心，风力涡轮机看似环保，却并未为能源需求提供真正的解决方案。"
+        },
+        {
+          "index": 25,
+          "sentence": "G Going a step further, several years ago a European Commission-sponsored organisation named Project WEB (Wind Energy for the Built Environment investigated in detail the possibility of constructing a purpose-built wind-powered skyscraper,",
+          "translation": "更进一步来说，多年前，一个由欧盟委员会资助、名为“建筑环境风能项目”的组织详细研究了建造一座专门设计的风力发电摩天大楼的可能性。"
+        },
+        {
+          "index": 26,
+          "sentence": "According to Project WEB's environmental engineer, Sinisa Stankovic, under the right circumstances such a building could generate nearly all of its own energy needs.",
+          "translation": "据该项目环境工程师辛尼萨·斯坦科维奇所言，在适当条件下，这样一座建筑几乎可以满足其自身所有的能源需求。"
+        },
+        {
+          "index": 27,
+          "sentence": "Yet despite the proven effectiveness of Project WEB's designs (which also included a four-tower design that could harness wind from any direction), the realities of the construction industry kept them on the drawing board.",
+          "translation": "然而，尽管该项目设计（还包括一种可从任何方向利用风能的四塔设计）的有效性已得到证实，但建筑行业的现实情况使其仍停留在设计阶段。"
+        },
+        {
+          "index": 28,
+          "sentence": "H A project that came closer to realisation was the controversial Freedom Tower in New York.",
+          "translation": "H 一个更接近实现的项目是纽约备受争议的自由塔。"
+        },
+        {
+          "index": 29,
+          "sentence": "At the top of this enormous tower, architects intended to create a 150 m-high open cage structure containing a wind turbine.",
+          "translation": "在这座巨大建筑的顶部，建筑师计划建造一个150米高的开放式笼状结构，其中包含一座风力涡轮机。"
+        },
+        {
+          "index": 30,
+          "sentence": "The skyscraper beneath it was shaped to channel the wind up into it, and it could have generated a quarter of the building's needs - a genuine urban wind farm.",
+          "translation": "其下方的摩天大楼被设计成引导风向上的形状，本可满足该建筑四分之一的需求——堪称真正的城市风电场。"
+        },
+        {
+          "index": 31,
+          "sentence": "Despite this design receiving widespread approval, other factors came to take precedence over environmental considerations.",
+          "translation": "尽管这一设计获得广泛认可，但其他因素最终凌驾于环境考量之上。"
+        },
+        {
+          "index": 32,
+          "sentence": "So instead of a powerful advertisement for wind power's potential to the world, the Freedom Tower became a rather ordinary office block.",
+          "translation": "因此，自由塔未能成为向世界展示风能潜力的有力象征，反而变成了一栋相当普通的办公楼。"
+        },
+        {
+          "index": 33,
+          "sentence": "Guy Battle, a much respected expert in the field of environmental and sustainable architecture, was consulting engineer for the project.",
+          "translation": "备受尊敬的环境与可持续建筑领域专家盖伊·巴特尔担任该项目的咨询工程师。"
+        },
+        {
+          "index": 34,
+          "sentence": "As energy from fossil fuels becomes more scarce and expensive, the energy performance of buildings can only increase in importance.",
+          "translation": "随着化石燃料能源变得越来越稀缺和昂贵，建筑的能源性能只会变得更加重要。"
+        },
+        {
+          "index": 35,
+          "sentence": "‘Traditional buildings have been a drain on infrastructure-water, electricity, waste disposal, etc.’ says Battle, ‘It's no longer about just responding to cultural and social urban factors. It's a whole different layer of architecture coming through that will begin to change the face of our cities.’",
+          "translation": "“传统建筑一直是基础设施——水、电、废物处理等方面的消耗，”巴特尔说，“这不再仅仅是对文化和社会城市因素的回应。这是一个全新的建筑层面正在浮现，它将开始改变我们城市的面貌。”"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

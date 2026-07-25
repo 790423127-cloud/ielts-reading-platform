@@ -1,0 +1,3249 @@
+{
+  "id": "b11-test-1",
+  "book": "剑雅11",
+  "book_number": 11,
+  "name": "Test 1",
+  "title": "剑雅11 Test 1",
+  "parts": [
+    {
+      "id": "2093",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Is Your Child at School Today?",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "School Attendance Information for Parents/Carers",
+          "translation": "家长/监护人出勤信息"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Introduction",
+          "translation": "引言"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Receiving a good full-time education will give your child the best possible start in life.Attending school regularly and punctually is essential if children are to make the most of the opportunities available to them. The law says that parents must ensure that their child regularly attends the school where he/she is registered.",
+          "translation": "接受良好的全日制教育将为您的孩子提供人生中最佳的开端。\n如果孩子们要充分利用现有机会，定期且准时上学至关重要。\n法律规定，父母必须确保其子女定期就读于他/她注册的学校。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "What you can do to help",
+          "translation": "您可以采取哪些措施提供帮助"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "• Make sure your child arrives at school on time. This encourages habits of good timekeeping and lessens any possible classroom disruption. If your child arrives after the register has closed without a good reason, this will be recorded as an 'unauthorised' absence for that session.",
+          "translation": "• 确保您的孩子按时到校。\n这有助于养成良好守时的习惯，并减少可能对课堂秩序造成的干扰。\n如果您的孩子在点名结束后无正当理由才到校，该时段将被记录为‘未经批准的’缺勤。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "• If your child has to miss school it is vital that you let the school know why,preferably on the first morning of absence. (Your child's school will have an attendance policy explaining how this should be done.)",
+          "translation": "• 如果您的孩子需要缺课，您务必告知学校原因，最好在缺课的第一天早上就通知。\n（您孩子的学校会有一份出勤政策，说明应如何通知。）"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "• If you know or think that your child is having difficulties attending school you should contact the school. It is better to do this sooner rather than later, as most problems can be dealt with very quickly.",
+          "translation": "如果你知道或认为你的孩子在上学方面有困难，你应该联系学校。\n最好尽早这样做，而不是拖延，因为大多数问题都可以很快得到处理。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Authorised and Unauthorised Absence",
+          "translation": "准假与未准假缺勤"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "If your child is absent and the school either does not receive an explanation from you, or considers the explanation unsatisfactory, it will record your child's absence as 'unauthorised', that is, as truancy.",
+          "translation": "如果您的孩子缺课，而学校要么没有收到您的解释，要么认为解释不充分，学校会将您孩子的缺课记录为“未经授权”，即旷课。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Most absences for acceptable reasons will be authorised by your child's school:",
+          "translation": "大多数因合理原因造成的缺勤将获得您孩子所在学校的批准："
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "• Sickness",
+          "translation": "• 生病"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "• Unavoidable medical or dental appointments (if possible, arrange these for after school or during school holidays)",
+          "translation": "• 不可避免的医疗或牙科预约（如果可能，尽量将这些预约安排在放学后或学校假期期间）"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "• An interview with a prospective employer or college",
+          "translation": "• 与未来雇主或大学的面试"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "• Exceptional family circumstances,such as bereavement",
+          "translation": "• 特殊的家庭情况，例如丧亲"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "• Days of religious observance.",
+          "translation": "• 宗教节日。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Your child's school will not authorise absence for the following reasons:",
+          "translation": "您孩子的学校不会批准以下原因的缺勤："
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "• Shopping during school hours",
+          "translation": "• 在上课时间购物"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "• Day trips",
+          "translation": "• 一日游"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "• Holidays which have not been agreed",
+          "translation": "• 未经同意的假期"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "• Birthdays",
+          "translation": "• 生日"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "• Looking after brothers or sisters or ill relatives.",
+          "translation": "• 照顾兄弟姐妹或生病的亲属。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "HOLIDAY APARTMENTS TO LET",
+          "question_cue": {
+            "start": 6,
+            "end": 14
+          },
+          "translation": "度假公寓待租"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "Sleeps 2-3.One-bedroom apartment with uninterrupted sea views. This is a small first floor apartment in a well-established apartment complex containing a range of leisure facilities and a supermarket for residents.On the edge of the town but close to cafes and restaurants.On-street parking is generally available.",
+          "translation": "可入住2-3人。\n一居室公寓，拥有无遮挡海景。\n这是一套小型一楼公寓，位于设施完善的公寓综合体内，内设一系列休闲设施和供居民使用的超市。\n位于小镇边缘，但靠近咖啡馆和餐厅。\n通常可在街边停车。\n可供2人入住。"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "Sleeps 2-4.Spacious one-bedroom apartment in a complex that has only just opened, five minutes' walk from the sea.Private parking in front of building. It is located in a quiet, unspoilt village with a local market, banks, cafés and restaurants. There are some fabulous championship golf courses within easy walking distance.",
+          "translation": "可住2-4人。\n宽敞的一居室公寓，位于刚开业的小区中，步行五分钟即可到达海边。\n楼前设有私人停车位。\n它坐落在一个宁静、未受破坏的村庄里，拥有当地市场、银行、咖啡馆和餐厅。\n步行可达范围内有几处极好的锦标赛级高尔夫球场。\n可入住2至4人。\n可供2人入住。"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "Sleeps 2+child.One-bedroom cottage (child's bed can also be provided), large terrace with uninterrupted views of the river and mountains. A truly peaceful location in a picturesque village, but less than ten minutes' drive from the coast and all the amenities of a town. Owners live nearby and are happy to help in any way they can.",
+          "translation": "可容纳2名成人和1名儿童。\n一居室小屋（也可提供儿童床），带有大型露台，可以一览无余地欣赏河流和山脉的景色。\n位于一个风景如画的村庄中，环境十分宁静，但距离海岸和城镇的所有便利设施不到十分钟车程。\n房主住在附近，乐于提供任何可能的帮助。\n可供2人入住。"
+        },
+        {
+          "label": "",
+          "index": 29,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 30,
+          "text": "Sleeps 2-5.Two-bedroom apartment in a complex with its own pool and beautiful views of the national park.A peaceful location just 3 km from the town centre,where there are plenty of shops and excellent sports facilities. Superb local golf courses within easy reach.",
+          "translation": "可住2至5人。\n两居室公寓位于一处拥有独立泳池的住宅区内，可欣赏国家公园的优美景色。\n位置宁静，距离镇中心仅3公里，那里有众多商店和极好的体育设施。\n优质的本地高尔夫球场近在咫尺。\n可供2人入住。"
+        },
+        {
+          "label": "",
+          "index": 31,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 32,
+          "text": "Sleeps 2-4.Modern one-bedroom first floor apartment in house, owners resident on ground floor.This great location offers easy access to all that this fantastic town has to offer, a few minutes' drive from its supermarket, bank, cafés, restaurants.The ferry to the island beach leaves from 100 m away. Ten minutes walk from the new shopping centre, which has many shops, food hall, cinema and multi-storey car park.",
+          "translation": "可住2-4人。\n可入住2至4人。\n现代一居室公寓，位于房屋二楼，房主居住在一楼。\n优越的地理位置使您轻松享受这座美妙小镇的一切便利，距其超市、银行、咖啡馆和餐厅仅几分钟车程。\n前往岛屿海滩的渡轮从100米外出发。\n步行十分钟可达新购物中心，那里拥有众多商店、美食广场、电影院和多层停车场。\n可供2人入住。\n一居室二楼公寓。"
+        },
+        {
+          "label": "",
+          "index": 33,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 34,
+          "text": "Sleeps 2.One-bedroom first floor apartment.Beautifully furnished, offering a high standard of comfort. Situated in a peaceful location on the edge of an inland village,with attractive views of the golf course. Many restaurants, bars, shops etc. are within easy walking distance.Garage available by arrangement with the owners.",
+          "translation": "可住2人。一居室一楼公寓。\n装修精美，提供高标准的舒适度。\n位于内陆村庄边缘的宁静位置，可欣赏高尔夫球场的迷人景色。\n许多餐厅、酒吧、商店等都在步行可达范围内。\n车库可通过与业主协商使用。\n可供2人入住。\n一居室二楼公寓。\n位于内陆村庄边缘的宁静地段，可欣赏到高尔夫球场的迷人景色。\n许多餐厅、酒吧、商店等都在步行可达的范围内。\n车库可与业主协商使用。"
+        },
+        {
+          "label": "",
+          "index": 35,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 36,
+          "text": "Sleeps 2-4. Two-bedroom apartment in central location in busy street with shops, restaurants etc. not far from the beach. The town has ideal facilities for holidays all year round, including swimming pool, tennis courts and golf course.",
+          "translation": "可住2-4人。\n可入住2至4人。\n可供2人入住。\n两居室公寓，位于繁华街道的中心地段，商铺、餐厅等设施齐全，且距海滩不远。\n该镇拥有适合全年度假的理想设施，包括游泳池、网球场和高尔夫球场。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15782",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1 - 5\nDo the following statements agree with the information given in Reading Passage 1?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120487",
+              "number": 1,
+              "prompt": "Children must go to the school where they are registered.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“Children must go to the school where they are registered”与原文中的“The law says that parents must ensure that their child regularly attends the school where he/she is registered”意思一致。原文明确指出法律要求孩子必须就读于其注册的学校，因此该陈述为TRUE。",
+              "reason": "题干与原文内容直接对应。",
+              "location_analysis": "原文明确指出家长必须确保孩子就读于注册学校，与题干一致。",
+              "paraphrasing": "must attend registered school -> must ensure that their child regularly attends the school where he/she is registered",
+              "keywords": "registered, school",
+              "evidence": [
+                "The law says that parents must ensure that their child regularly attends the school where he/she is registered."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确表示孩子必须去注册的学校，因此该选项与原文矛盾。",
+                "NOT GIVEN": "原文明确给出了相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120488",
+              "number": 2,
+              "prompt": "All arrivals after the register has closed are recorded as 'unauthorised' absences.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“所有在点名结束后到校的情况都会被记为‘未经授权’的缺勤”，但原文明确指出只有“在没有正当理由的情况下迟到”才会被记为‘unauthorised’ absence。题干忽略了“without a good reason”这一关键条件，表述过于绝对，因此答案为FALSE。",
+              "reason": "原文有条件限制，题干忽略条件，故为FALSE。",
+              "location_analysis": "题干说所有迟到都记为未经授权缺勤，原文强调无合理理由才如此记录，故题干过于绝对。",
+              "paraphrasing": "all arrivals after register closed -> if arrives after register closed without good reason, recorded as unauthorised",
+              "keywords": "register closed, unauthorised",
+              "evidence": [
+                "If your child arrives after the register has closed without a good reason, this will be recorded as an 'unauthorised' absence for that session."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "题干与原文信息矛盾，原文中并非所有迟到都记为“未经授权”的缺勤。",
+                "NOT GIVEN": "原文明确提到了相关情况，并非未提及。"
+              }
+            },
+            {
+              "id": "120489",
+              "number": 3,
+              "prompt": "lf your child is absent from school, you must send the school a letter to explain why.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干提到“必须写信解释缺勤原因”，但原文仅说明家长“应尽快告知学校缺勤原因（preferably on the first morning of absence）”，并未限定必须通过书信形式。由于题干添加了原文未提及的具体方式，信息无法确认，故答案为NOT GIVEN。",
+              "reason": "题干提及必须写信，原文未提及，故无法判断。",
+              "location_analysis": "原文要求告知学校原因，但未规定必须用信件，题干增加了原信息中没有的要求。",
+              "paraphrasing": "must send a letter -> it is vital that you let the school know why (no specified requirement for letter)",
+              "keywords": "miss school, let school know",
+              "evidence": [
+                "If your child has to miss school it is vital that you let the school know why,preferably on the first morning of absence."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文并未明确要求必须写信，题干说法无依据。",
+                "FALSE": "原文未提及不需要写信，题干否定缺乏证据。"
+              }
+            },
+            {
+              "id": "120490",
+              "number": 4,
+              "prompt": "Staff who think a child is having difficulties at school will contact the parents.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干说“学校工作人员会主动联系家长”，但原文说的是“If you know or think that your child is having difficulties attending school you should contact the school”，即家长应主动联系学校，而非学校联系家长。两者主语和动作方向相反，原文未提学校主动联系的情形，因此答案为NOT GIVEN。",
+              "reason": "原文未提及学校主动联系家长，因此题干未提及。",
+              "location_analysis": "原文说的是家长应联系学校，题干说学校联系家长，方向相反。",
+              "paraphrasing": "school contacts parents -> you should contact the school (parents主动联系，非学校联系家长)",
+              "keywords": "contact the school, difficulties",
+              "evidence": [
+                "If you know or think that your child is having difficulties attending school you should contact the school."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文中未提及员工会联系家长的做法，因此无法判断为真。",
+                "FALSE": "原文中并未否定员工联系家长的做法，因此不能判断为假。"
+              }
+            },
+            {
+              "id": "120491",
+              "number": 5,
+              "prompt": "Schools will contact other authorities about children who take frequent unauthorised absences.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干提到“学校会就频繁无故缺勤联系其他机构”，但原文仅说明学校会将无合理解释的缺勤记录为‘unauthorised’，并未提及是否会进一步联系其他当局。由于缺乏相关信息，无法判断该陈述是否成立，故答案为NOT GIVEN。",
+              "reason": "未提及联系其他机构。",
+              "location_analysis": "原文讨论了授权和未授权缺席，但未提及学校会联系其他机构，因此NOT GIVEN。",
+              "paraphrasing": "contact other authorities -> 原文未提",
+              "keywords": "unauthorised absences, other authorities",
+              "evidence": [
+                "If your child is absent and the school either does not receive an explanation from you, or considers the explanation unsatisfactory, it will record your child's absence as 'unauthorised', that is, as truancy."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及学校会联系其他机构，该信息无中生有。",
+                "FALSE": "原文未明确否定这一说法，因此不能判断为错误。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15788",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 6 - 14\nThe text has seven sections, A-G.\nFor which apartment are the following statements true?\nWrite the correct letter, A-G, in boxes 6-14 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120492",
+              "number": 6,
+              "prompt": "lt overlooks a golf course.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干要求找出“可俯瞰高尔夫球场”的公寓。F段中提到“Situated in a peaceful location on the edge of an inland village, with attractive views of the golf course”，其中“views of the golf course”与题干中的“overlooks a golf course”形成同义对应，因此答案是F。",
+              "reason": "答案是F。",
+              "location_analysis": "F段提到'views of the golf course'，与题干一致。",
+              "paraphrasing": "overlooks a golf course -> attractive views of the golf course",
+              "keywords": "overlooks golf course, F",
+              "evidence": [
+                "Situated in a peaceful location on the edge of an inland village,with attractive views of the golf course."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120493",
+              "number": 7,
+              "prompt": "lt has its own parking space.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问哪处公寓“拥有自己的停车位”。B段明确指出“Private parking in front of building”，即建筑物前设有私人停车位，这与题干中“has its own parking space”完全对应，因此答案是B。",
+              "reason": "答案是B。",
+              "location_analysis": "B段提到'Private parking in front of building'，对应自有...",
+              "paraphrasing": "has its own parking space -> Private parking in front of building",
+              "keywords": "own parking space, B",
+              "evidence": [
+                "Private parking in front of building."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120494",
+              "number": 8,
+              "prompt": "lt is in the centre of a town.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干要求找出“位于城镇中心”的公寓。G段描述为“Two-bedroom apartment in central location in busy street with shops, restaurants etc.”，其中“central location”直接对应题干中的“in the centre of a town”，因此答案是G。",
+              "reason": "答案是G。",
+              "location_analysis": "G段明确说'central location'，即城镇中心。",
+              "paraphrasing": "in the centre of a town -> central location",
+              "keywords": "centre of a town, G",
+              "evidence": [
+                "Two-bedroom apartment in central location in busy street with shops, restaurants etc. not far from the beach."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120495",
+              "number": 9,
+              "prompt": "The sea can be seen from it.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问哪处公寓“可以看到海”。A段开头即提到“One-bedroom apartment with uninterrupted sea views”，其中“sea views”明确表示可看到海景，与题干“the sea can be seen from it”完全吻合，因此答案是A。",
+              "reason": "答案是A。",
+              "location_analysis": "A段提到'uninterrupted sea views'，即能看到海。",
+              "paraphrasing": "The sea can be seen from it -> uninterrupted sea views",
+              "keywords": "sea can be seen, A",
+              "evidence": [
+                "One-bedroom apartment with uninterrupted sea views."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120496",
+              "number": 10,
+              "prompt": "There is a swimming pool for residents of the apartment complex.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求找出“公寓楼内有供住户使用的游泳池”的选项。D段提到“Two-bedroom apartment in a complex with its own pool”，其中“its own pool”即指该公寓综合体拥有专属泳池，供住户使用，因此答案是D。",
+              "reason": "答案是D。",
+              "location_analysis": "D段提到'complex with its own pool'，即住户有游泳池。",
+              "paraphrasing": "swimming pool for residents -> apartment complex with its own pool",
+              "keywords": "swimming pool for residents, D",
+              "evidence": [
+                "Two-bedroom apartment in a complex with its own pool and beautiful views of the national park."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120497",
+              "number": 11,
+              "prompt": "lt is in a new apartment complex.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问哪处公寓“位于新建的公寓楼中”。B段指出“Spacious one-bedroom apartment in a complex that has only just opened”，其中“only just opened”表明该公寓楼刚刚启用，即新建，与题干“new apartment complex”对应，因此答案是B。",
+              "reason": "答案是B。",
+              "location_analysis": "B段说'complex that has only just opened'，即新建的公寓区。",
+              "paraphrasing": "new apartment complex -> complex that has only just opened",
+              "keywords": "new apartment complex, B",
+              "evidence": [
+                "Spacious one-bedroom apartment in a complex that has only just opened, five minutes' walk from the sea."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120498",
+              "number": 12,
+              "prompt": "lt is part of an apartment complex with its own supermarket.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干要求找出“所在公寓楼配有超市”的选项。A段提到“This is a small first floor apartment in a well-established apartment complex containing a range of leisure facilities and a supermarket for residents”，明确说明该公寓楼内设有供住户使用的超市，因此答案是A。",
+              "reason": "答案是A。",
+              "location_analysis": "A段提到'complex containing a supermarket for resid...",
+              "paraphrasing": "its own supermarket -> a supermarket for residents",
+              "keywords": "apartment complex with supermarket, A",
+              "evidence": [
+                "This is a small first floor apartment in a well-established apartment complex containing a range of leisure facilities and a supermarket for residents."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120499",
+              "number": 13,
+              "prompt": "lt has a private outdoor area where you can sit.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问哪处公寓“有私人的户外座位区”。C段描述为“One-bedroom cottage... large terrace with uninterrupted views of the river and mountains”，其中“large terrace”即指宽敞的私人露台，可供坐憩，与题干“private outdoor area where you can sit”相符，因此答案是C。",
+              "reason": "答案是C。",
+              "location_analysis": "C段提到'large terrace'，即私人户外休息区。",
+              "paraphrasing": "private outdoor area where you can sit -> large terrace",
+              "keywords": "private outdoor area, C",
+              "evidence": [
+                "One-bedroom cottage (child's bed can also be provided), large terrace with uninterrupted views of the river and mountains."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120500",
+              "number": 14,
+              "prompt": "The owners will organise parking on request.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干要求找出“业主可根据要求安排停车”的公寓。F段末尾提到“Garage available by arrangement with the owners”，其中“by arrangement”即表示可应要求安排，与题干“organise parking on request”形成同义替换，因此答案是F。",
+              "reason": "答案是F。",
+              "location_analysis": "F段提到'Garage available by arrangement with the o...",
+              "paraphrasing": "owners will organise parking on request -> Garage available by arrangement with the owners",
+              "keywords": "parking on request, F",
+              "evidence": [
+                "Garage available by arrangement with the owners."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "HOLIDAY APARTMENTS TO LET",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "School Attendance Information for Parents/Carers",
+          "translation": "家长/监护人出勤信息"
+        },
+        {
+          "index": 2,
+          "sentence": "Introduction",
+          "translation": "引言"
+        },
+        {
+          "index": 3,
+          "sentence": "Receiving a good full-time education will give your child the best possible start in life.",
+          "translation": "接受良好的全日制教育将为您的孩子提供人生中最佳的开端。"
+        },
+        {
+          "index": 4,
+          "sentence": "Attending school regularly and punctually is essential if children are to make the most of the opportunities available to them.",
+          "translation": "如果孩子们要充分利用现有机会，定期且准时上学至关重要。"
+        },
+        {
+          "index": 5,
+          "sentence": "The law says that parents must ensure that their child regularly attends the school where he/she is registered.",
+          "translation": "法律规定，父母必须确保其子女定期就读于他/她注册的学校。"
+        },
+        {
+          "index": 6,
+          "sentence": "What you can do to help",
+          "translation": "您可以采取哪些措施提供帮助"
+        },
+        {
+          "index": 7,
+          "sentence": "• Make sure your child arrives at school on time.",
+          "translation": "• 确保您的孩子按时到校。"
+        },
+        {
+          "index": 8,
+          "sentence": "This encourages habits of good timekeeping and lessens any possible classroom disruption.",
+          "translation": "这有助于养成良好守时的习惯，并减少可能对课堂秩序造成的干扰。"
+        },
+        {
+          "index": 9,
+          "sentence": "If your child arrives after the register has closed without a good reason, this will be recorded as an 'unauthorised' absence for that session.",
+          "translation": "如果您的孩子在点名结束后无正当理由才到校，该时段将被记录为‘未经批准的’缺勤。"
+        },
+        {
+          "index": 10,
+          "sentence": "• If your child has to miss school it is vital that you let the school know why,preferably on the first morning of absence.",
+          "translation": "• 如果您的孩子需要缺课，您务必告知学校原因，最好在缺课的第一天早上就通知。"
+        },
+        {
+          "index": 11,
+          "sentence": "(Your child's school will have an attendance policy explaining how this should be done.)",
+          "translation": "（您孩子的学校会有一份出勤政策，说明应如何通知。）"
+        },
+        {
+          "index": 12,
+          "sentence": "If you know or think that your child is having difficulties attending school you should contact the school.",
+          "translation": "如果你知道或认为你的孩子在上学方面有困难，你应该联系学校。"
+        },
+        {
+          "index": 13,
+          "sentence": "It is better to do this sooner rather than later, as most problems can be dealt with very quickly.",
+          "translation": "最好尽早这样做，而不是拖延，因为大多数问题都可以很快得到处理。"
+        },
+        {
+          "index": 14,
+          "sentence": "Authorised and Unauthorised Absence",
+          "translation": "准假与未准假缺勤"
+        },
+        {
+          "index": 15,
+          "sentence": "If your child is absent and the school either does not receive an explanation from you, or considers the explanation unsatisfactory, it will record your child's absence as 'unauthorised', that is, as truancy.",
+          "translation": "如果您的孩子缺课，而学校要么没有收到您的解释，要么认为解释不充分，学校会将您孩子的缺课记录为“未经授权”，即旷课。"
+        },
+        {
+          "index": 16,
+          "sentence": "Most absences for acceptable reasons will be authorised by your child's school:",
+          "translation": "大多数因合理原因造成的缺勤将获得您孩子所在学校的批准："
+        },
+        {
+          "index": 17,
+          "sentence": "• Sickness",
+          "translation": "• 生病"
+        },
+        {
+          "index": 18,
+          "sentence": "• Unavoidable medical or dental appointments (if possible, arrange these for after school or during school holidays)",
+          "translation": "• 不可避免的医疗或牙科预约（如果可能，尽量将这些预约安排在放学后或学校假期期间）"
+        },
+        {
+          "index": 19,
+          "sentence": "• An interview with a prospective employer or college",
+          "translation": "• 与未来雇主或大学的面试"
+        },
+        {
+          "index": 20,
+          "sentence": "• Exceptional family circumstances,such as bereavement",
+          "translation": "• 特殊的家庭情况，例如丧亲"
+        },
+        {
+          "index": 21,
+          "sentence": "• Days of religious observance.",
+          "translation": "• 宗教节日。"
+        },
+        {
+          "index": 22,
+          "sentence": "Your child's school will not authorise absence for the following reasons:",
+          "translation": "您孩子的学校不会批准以下原因的缺勤："
+        },
+        {
+          "index": 23,
+          "sentence": "• Shopping during school hours",
+          "translation": "• 在上课时间购物"
+        },
+        {
+          "index": 24,
+          "sentence": "• Day trips",
+          "translation": "• 一日游"
+        },
+        {
+          "index": 25,
+          "sentence": "• Holidays which have not been agreed",
+          "translation": "• 未经同意的假期"
+        },
+        {
+          "index": 26,
+          "sentence": "• Birthdays",
+          "translation": "• 生日"
+        },
+        {
+          "index": 27,
+          "sentence": "• Looking after brothers or sisters or ill relatives.",
+          "translation": "• 照顾兄弟姐妹或生病的亲属。"
+        },
+        {
+          "index": 28,
+          "sentence": "HOLIDAY APARTMENTS TO LET",
+          "translation": "度假公寓待租"
+        },
+        {
+          "index": 30,
+          "sentence": "Sleeps 2-3.",
+          "translation": "可入住2-3人。"
+        },
+        {
+          "index": 31,
+          "sentence": "One-bedroom apartment with uninterrupted sea views.",
+          "translation": "一居室公寓，拥有无遮挡海景。"
+        },
+        {
+          "index": 32,
+          "sentence": "This is a small first floor apartment in a well-established apartment complex containing a range of leisure facilities and a supermarket for residents.",
+          "translation": "这是一套小型一楼公寓，位于设施完善的公寓综合体内，内设一系列休闲设施和供居民使用的超市。"
+        },
+        {
+          "index": 33,
+          "sentence": "On the edge of the town but close to cafes and restaurants.",
+          "translation": "位于小镇边缘，但靠近咖啡馆和餐厅。"
+        },
+        {
+          "index": 34,
+          "sentence": "On-street parking is generally available.",
+          "translation": "通常可在街边停车。"
+        },
+        {
+          "index": 36,
+          "sentence": "Sleeps 2-4.",
+          "translation": "可住2-4人。"
+        },
+        {
+          "index": 37,
+          "sentence": "Spacious one-bedroom apartment in a complex that has only just opened, five minutes' walk from the sea.",
+          "translation": "宽敞的一居室公寓，位于刚开业的小区中，步行五分钟即可到达海边。"
+        },
+        {
+          "index": 38,
+          "sentence": "Private parking in front of building.",
+          "translation": "楼前设有私人停车位。"
+        },
+        {
+          "index": 39,
+          "sentence": "It is located in a quiet, unspoilt village with a local market, banks, cafés and restaurants.",
+          "translation": "它坐落在一个宁静、未受破坏的村庄里，拥有当地市场、银行、咖啡馆和餐厅。"
+        },
+        {
+          "index": 40,
+          "sentence": "There are some fabulous championship golf courses within easy walking distance.",
+          "translation": "步行可达范围内有几处极好的锦标赛级高尔夫球场。"
+        },
+        {
+          "index": 42,
+          "sentence": "Sleeps 2+child.",
+          "translation": "可容纳2名成人和1名儿童。"
+        },
+        {
+          "index": 43,
+          "sentence": "One-bedroom cottage (child's bed can also be provided), large terrace with uninterrupted views of the river and mountains.",
+          "translation": "一居室小屋（也可提供儿童床），带有大型露台，可以一览无余地欣赏河流和山脉的景色。"
+        },
+        {
+          "index": 44,
+          "sentence": "A truly peaceful location in a picturesque village, but less than ten minutes' drive from the coast and all the amenities of a town.",
+          "translation": "位于一个风景如画的村庄中，环境十分宁静，但距离海岸和城镇的所有便利设施不到十分钟车程。"
+        },
+        {
+          "index": 45,
+          "sentence": "Owners live nearby and are happy to help in any way they can.",
+          "translation": "房主住在附近，乐于提供任何可能的帮助。"
+        },
+        {
+          "index": 47,
+          "sentence": "Sleeps 2-5.",
+          "translation": "可住2至5人。"
+        },
+        {
+          "index": 48,
+          "sentence": "Two-bedroom apartment in a complex with its own pool and beautiful views of the national park.",
+          "translation": "两居室公寓位于一处拥有独立泳池的住宅区内，可欣赏国家公园的优美景色。"
+        },
+        {
+          "index": 49,
+          "sentence": "A peaceful location just 3 km from the town centre,where there are plenty of shops and excellent sports facilities.",
+          "translation": "位置宁静，距离镇中心仅3公里，那里有众多商店和极好的体育设施。"
+        },
+        {
+          "index": 50,
+          "sentence": "Superb local golf courses within easy reach.",
+          "translation": "优质的本地高尔夫球场近在咫尺。"
+        },
+        {
+          "index": 52,
+          "sentence": "Sleeps 2-4.",
+          "translation": "可入住2至4人。"
+        },
+        {
+          "index": 53,
+          "sentence": "Modern one-bedroom first floor apartment in house, owners resident on ground floor.",
+          "translation": "现代一居室公寓，位于房屋二楼，房主居住在一楼。"
+        },
+        {
+          "index": 54,
+          "sentence": "This great location offers easy access to all that this fantastic town has to offer, a few minutes' drive from its supermarket, bank, cafés, restaurants.",
+          "translation": "优越的地理位置使您轻松享受这座美妙小镇的一切便利，距其超市、银行、咖啡馆和餐厅仅几分钟车程。"
+        },
+        {
+          "index": 55,
+          "sentence": "The ferry to the island beach leaves from 100 m away.",
+          "translation": "前往岛屿海滩的渡轮从100米外出发。"
+        },
+        {
+          "index": 56,
+          "sentence": "Ten minutes walk from the new shopping centre, which has many shops, food hall, cinema and multi-storey car park.",
+          "translation": "步行十分钟可达新购物中心，那里拥有众多商店、美食广场、电影院和多层停车场。"
+        },
+        {
+          "index": 58,
+          "sentence": "Sleeps 2.One-bedroom first floor apartment.",
+          "translation": "可住2人。一居室一楼公寓。"
+        },
+        {
+          "index": 59,
+          "sentence": "Beautifully furnished, offering a high standard of comfort.",
+          "translation": "装修精美，提供高标准的舒适度。"
+        },
+        {
+          "index": 60,
+          "sentence": "Situated in a peaceful location on the edge of an inland village,with attractive views of the golf course.",
+          "translation": "位于内陆村庄边缘的宁静位置，可欣赏高尔夫球场的迷人景色。"
+        },
+        {
+          "index": 61,
+          "sentence": "Many restaurants, bars, shops etc. are within easy walking distance.",
+          "translation": "许多餐厅、酒吧、商店等都在步行可达范围内。"
+        },
+        {
+          "index": 62,
+          "sentence": "Garage available by arrangement with the owners.",
+          "translation": "车库可通过与业主协商使用。"
+        },
+        {
+          "index": 63,
+          "sentence": "Sleeps 2.",
+          "translation": "可供2人入住。"
+        },
+        {
+          "index": 64,
+          "sentence": "One-bedroom first floor apartment.",
+          "translation": "一居室二楼公寓。"
+        },
+        {
+          "index": 65,
+          "sentence": "Beautifully furnished, offering a high standard of comfort.",
+          "translation": "装修精美，提供高标准的舒适度。"
+        },
+        {
+          "index": 66,
+          "sentence": "Situated in a peaceful location on the edge of an inland village,with attractive views of the golf course.",
+          "translation": "位于内陆村庄边缘的宁静地段，可欣赏到高尔夫球场的迷人景色。"
+        },
+        {
+          "index": 67,
+          "sentence": "Many restaurants, bars, shops etc. are within easy walking distance.",
+          "translation": "许多餐厅、酒吧、商店等都在步行可达的范围内。"
+        },
+        {
+          "index": 68,
+          "sentence": "Garage available by arrangement with the owners.",
+          "translation": "车库可与业主协商使用。"
+        },
+        {
+          "index": 70,
+          "sentence": "Sleeps 2-4.",
+          "translation": "可住2-4人。"
+        },
+        {
+          "index": 71,
+          "sentence": "Two-bedroom apartment in central location in busy street with shops, restaurants etc. not far from the beach.",
+          "translation": "两居室公寓，位于繁华街道的中心地段，商铺、餐厅等设施齐全，且距海滩不远。"
+        },
+        {
+          "index": 72,
+          "sentence": "The town has ideal facilities for holidays all year round, including swimming pool, tennis courts and golf course.",
+          "translation": "该镇拥有适合全年度假的理想设施，包括游泳池、网球场和高尔夫球场。"
+        }
+      ]
+    },
+    {
+      "id": "2094",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "GZJ Travel - Recruitment Info",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "We're looking for keen and effective people who are passionate about travel to work as Travel Sales Consultants in our rapidly-growing team. Our recruitment process has five stages. Here's how it works:",
+          "translation": "我们正在寻找对旅行充满热情、敏锐且高效的人才，加入我们快速发展的团队，担任旅行销售顾问。\n我们的招聘流程分为五个阶段。\n具体操作如下："
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "The first stage is to use our online application form to apply for a current vacancy.This is your chance to tell us about yourself, and the qualities and experience you have that make you the ideal person for the job. For the Travel Sales Consultant role, you'll need to provide us with evidence that you have extensive experience in a marketing environment, as well as a solid academic background. If you're interested in a career as a Corporate Travel Consultant, you'll need at least one year's experience as a Travel Consultant.",
+          "translation": "第一阶段是使用我们的在线申请表格来申请当前的职位空缺。\n这是你向我们介绍自己、以及你拥有的使你成为该职位理想人选的素质和经验的机会。\n对于旅行销售顾问这一职位，你需要向我们提供证据，证明你在市场营销环境中有丰富的经验，以及扎实的学术背景。\n如果你对从事企业旅行顾问的职业感兴趣，你需要至少有一年的旅行顾问经验。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "If you reach Stage Two, we'll arrange a telephone discussion, where you can find out more about us, including the rewards on offer.For instance, once a year we like to acknowledge outstanding efforts and celebrate successes with our co-workers, and we have prize-giving ceremonies designed to do just this.",
+          "translation": "如果你进入第二阶段，我们将安排一次电话沟通，届时你可以了解更多关于我们的信息，包括提供的奖励。\n例如，我们每年都会与同事们一起表彰杰出贡献并庆祝成功，为此我们会举办颁奖典礼。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "In Stage Three we'll be able to give you more information about GZJ Travel, and find out more about you, at an interview which you'll attend with a small group of other applicants.We'll be asking you about your ambitions and of course your sales ability, the most vital quality for our business.You'll also be required to complete a psychometric test so we can find out more about your working style and characteristics. We'll also tell you about some of the perks - for example, as a Flight Center employee you can take advantage of the free consultations conducted by our in-house health and wellbeing team, Healthwise.",
+          "translation": "在第三阶段，我们将能够提供更多关于GZJ旅游的信息，并在你与其他一小群申请人共同参加的面试中进一步了解你。\n我们将询问你的抱负，当然还有你的销售能力，这是对我们业务至关重要的素质。\n你还需要完成一项心理测试，以便我们进一步了解你的工作风格和特点。\n我们还会告诉你一些额外福利——例如，作为Flight Center的员工，你可以享受由我们内部健康与福祉团队Healthwise提供的免费咨询。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Next, in Stage Four, you'll be introduced to the Area Leader and you'll also visit one of our shops, where you'll meet the team and find out more about the sort of work that's involved. If you successfully pass Stage Four, you've reached the final stage of the process and we'll be in touch with a job offer! And if you accept, we'll book you into our Learning Center to get your training under way as soon as possible. Careerwise, the department responsible for the training, will then organise individual coaching to assist in setting goals for your career path.",
+          "translation": "接下来，在第四阶段，您将被介绍给区域负责人，并且您还将参观我们的一家门店，在那里您将与团队会面，并进一步了解所涉及的工作类型。\n如果您成功通过第四阶段，您就进入了流程的最后一个阶段，我们将与您联系并提供工作机会！\n如果您接受，我们将为您预订学习中心，以便尽快开始您的培训。\n负责培训的 Careerwise 部门随后将安排个人指导，以协助您为职业道路设定目标。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Hilton Laboratory",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "希尔顿实验室"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Health and safety in the workplace",
+          "translation": "工作场所的健康与安全"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Personal safety",
+          "translation": "人身安全"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "You must be familiar with the emergency procedures in your building so that you know what to do in the event of fire, spillages or other accidents. Do not enter restricted areas without authorisation, and at all times observe the warnings given.Do not wedge open fire doors or tamper with door closures, and do not block doorways, corridors or stairs, as obstructions may affect access in the event of a fire.Avoid leaving drawers and doors open unnecessarily and do not trail cables or flexes across the floor.",
+          "translation": "你必须熟悉所在大楼的紧急程序，以便在发生火灾、泄漏或其他事故时知道该怎么做。\n未经授权不得进入限制区域，并时刻遵守所给出的警告。\n不要用楔子撑开防火门或擅自改动闭门器，也不要堵塞门口、走廊或楼梯，因为障碍物可能会影响火灾时的通道。\n避免不必要地让抽屉和门保持打开状态，也不要将电缆或电线拖在地板上。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "How to dispose of rubbish safely",
+          "translation": "如何安全处理垃圾"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "We aim to protect the environment by saving and recycling glass, waste paper, and an increasing range of other materials. It is important to check materials carefully for contamination before placing them in recycling containers. Never put sharp objects such as razor blades or broken glass into waste bins without having wrapped the items carefully to protect those emptying the bins. Other waste procedures may vary - contact your Building Manager or Divisional Safety Officer for advice with regard to your particular department.",
+          "translation": "我们旨在通过节约和回收玻璃、废纸以及越来越多其他种类的材料来保护环境。\n在将材料放入回收容器之前，仔细检查是否有污染非常重要。\n切勿将诸如剃须刀片或碎玻璃之类的尖锐物品直接放入垃圾桶，除非已仔细包裹好这些物品，以保护清空垃圾桶的人员。\n其他垃圾处理程序可能有所不同——请联系你的楼宇经理或部门安全官员，以获取针对你特定部门的建议。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "How to handle heavy objects",
+          "translation": "如何处理重物"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Make sure that shelves are not overloaded and that glass and heavy objects are stored at working height where they will be easier to reach. Use steps or ladders to reach items at height; never climb on benches, tables or chairs. Never move anything that is beyond your capability. Wherever possible you should use the trolleys provided in the workplace to do the job for you. If repetitive manual operations are routine in your work,your department will ensure you receive appropriate instruction on safe working practices and posture.",
+          "translation": "确保货架不超载，并且玻璃和重物存放在工作高度，以便更容易拿取。\n使用梯子或阶梯取高处物品；切勿攀爬长凳、桌子或椅子。\n切勿移动超出自身能力范围的物品。\n只要可能，应使用工作场所提供的手推车来完成搬运工作。\n如果重复性体力操作是您工作中的常规内容，您的部门将确保您接受有关安全操作规程和姿势的适当指导。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Staying alert",
+          "translation": "保持警觉"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "If you become mentally or physically tired during the working day, and find that you're feeling drowsy or not concentrating properly, you could be at risk of causing an accident or making a mistake that could harm you or your colleagues. To prevent this, make sure that you take regular breaks when necessary.",
+          "translation": "如果你在工作日期间感到精神或身体疲惫，并且发现自己昏昏欲睡或注意力不集中，你就可能面临引发事故或犯错的风险，这些事故或错误可能伤害你或你的同事。\n为防止这种情况，请确保在必要时定期休息。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15790",
+          "type": 8,
+          "title": "GZJ Travel - Recruitment Process",
+          "instructions": "Questions 15 - 21\nComplete the flow-chart.\nWrite NO MORE THAN THREE WORDS from the text in each gap.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "121517",
+              "number": 15,
+              "prompt": "• Give proof of achievements so far both in education and in a _____",
+              "options": [],
+              "answer": "marketing environment",
+              "accepted_answers": [
+                "marketing environment"
+              ],
+              "analysis": "题干要求填写与教育成就并列的工作领域，原文指出申请者需“provide us with evidence that you have extensive experience in a marketing environment, as well as a solid academic background”，其中“marketing environment”与“academic background”并列，分别对应工作经验和教育背景。因此，答案“marketing environment”准确无误。",
+              "reason": "原文明确提到需要提供营销环境经验及学术背景的证据。",
+              "location_analysis": "题干要求给出教育及营销环境的证明，原文对应需要提供相关证据。",
+              "paraphrasing": "give proof of achievements → you'll need to provide us with evidence; in education → academic background; in a marketing environment → experience in a marketing environment",
+              "keywords": "proof of achievements, education, marketing environment",
+              "evidence": [
+                "you'll need to provide us with evidence that you have extensive experience in a marketing environment, as well as a solid academic background."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "121518",
+              "number": 16,
+              "prompt": "(Note: additional requirements for applicants interested in the role of _____ )",
+              "options": [],
+              "answer": "Corporate Travel Consultant",
+              "accepted_answers": [
+                "Corporate Travel Consultant"
+              ],
+              "analysis": "题干括号内提示该空针对特定职位的额外要求，原文明确说明“If you're interested in a career as a Corporate Travel Consultant, you'll need at least one year's experience...”，直接点出“Corporate Travel Consultant”这一职位名称及其附加条件。因此，该职位名称即为正确答案。",
+              "reason": "原文直接提到对Corporate Travel Consultant角色的额外要求。",
+              "location_analysis": "题干询问感兴趣角色的附加要求，原文指出针对企业旅行顾问需要一年经验。",
+              "paraphrasing": "applicants interested in the role of → If you're interested in a career as",
+              "keywords": "Corporate Travel Consultant, additional requirements",
+              "evidence": [
+                "If you're interested in a career as a Corporate Travel Consultant, you'll need at least one year's experience as a Travel Consultant."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "121519",
+              "number": 17,
+              "prompt": "• More information given about company and the _____ you could receive",
+              "options": [],
+              "answer": "rewards",
+              "accepted_answers": [
+                "rewards"
+              ],
+              "analysis": "题干提到在电话沟通阶段可了解公司提供的某种待遇，原文指出“you can find out more about us, including the rewards on offer”，其中“rewards”与题干中的“the... you could receive”形成同义对应。因此，“rewards”是准确反映原文信息的答案。",
+              "reason": "原文明确电话讨论中会提供奖励信息。",
+              "location_analysis": "题干提到电话讨论中可获得关于奖励的信息，原文对应提到的奖励。",
+              "paraphrasing": "the rewards you could receive → the rewards on offer",
+              "keywords": "telephone discussion, rewards",
+              "evidence": [
+                "we'll arrange a telephone discussion, where you can find out more about us, including the rewards on offer."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            },
+            {
+              "id": "121520",
+              "number": 18,
+              "prompt": "• Information about annual event, where prizes are given to those who have made _____",
+              "options": [],
+              "answer": "outstanding efforts",
+              "accepted_answers": [
+                "outstanding efforts"
+              ],
+              "analysis": "题干描述年度颁奖活动表彰的对象，原文提到“acknowledge outstanding efforts and celebrate successes”并举办“prize-giving ceremonies”，其中“outstanding efforts”直接对应题干中“those who have made...”的内容。因此，“outstanding efforts”是原文中明确用于描述获奖原因的短语。",
+              "reason": "原文直接对应年度庆典及对杰出努力的表彰。",
+              "location_analysis": "题干描述年度活动颁发奖项给有杰出努力者，原文对应提及prize-giving ceremoni...",
+              "paraphrasing": "prizes given to those who have → prize-giving ceremonies designed to do just this; outstanding efforts",
+              "keywords": "annual event, prizes, outstanding efforts",
+              "evidence": [
+                "once a year we like to acknowledge outstanding efforts and celebrate successes with our co-workers, and we have prize-giving ceremonies designed to do just this."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "121521",
+              "number": 19,
+              "prompt": "• Chance to tell us about how good you are at selling, and also about the _____ you have",
+              "options": [],
+              "answer": "ambitions",
+              "accepted_answers": [
+                "ambitions"
+              ],
+              "analysis": "题干要求填写除销售能力外还需说明的个人特质，原文在第三阶段面试中提到“We'll be asking you about your ambitions and of course your sales ability”，其中“ambitions”与“sales ability”并列，正好对应题干中“how good you are at selling, and also about the... you have”。因此，答案“ambitions”准确无误。",
+              "reason": "原文明确在群体面试中询问ambitions。",
+              "location_analysis": "题干要求说明销售能力及雄心，原文询问ambitions和sales ability。",
+              "paraphrasing": "how good you are at selling → sales ability; about the ambitions you have → asking you about your ambitions",
+              "keywords": "group interview, ambitions",
+              "evidence": [
+                "We'll be asking you about your ambitions and of course your sales ability, the most vital quality for our business."
+              ],
+              "confidence": 0.96,
+              "wrong_reasons": null
+            },
+            {
+              "id": "121522",
+              "number": 20,
+              "prompt": "• Take part in a _____ (used to learn about your way of working)",
+              "options": [],
+              "answer": "psychometric test",
+              "accepted_answers": [
+                "psychometric test"
+              ],
+              "analysis": "题干描述一种用于了解工作方式的测试，原文明确说明“You'll also be required to complete a psychometric test so we can find out more about your working style and characteristics”，其中“psychometric test”正是用来评估工作风格的工具。因此，该短语完全符合题干要求，且为原文原词。",
+              "reason": "原文明确需完成psychometric test。",
+              "location_analysis": "题干要求参加测试了解工作方式，原文对应完成心理测试。",
+              "paraphrasing": "Take part in → complete; used to learn about your way of working → find out more about your working style and characteristics",
+              "keywords": "psychometric test, working style",
+              "evidence": [
+                "You'll also be required to complete a psychometric test so we can find out more about your working style and characteristics."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "121523",
+              "number": 21,
+              "prompt": "• Meet a manager, and the _____ working in a particular store",
+              "options": [],
+              "answer": "team",
+              "accepted_answers": [
+                "team"
+              ],
+              "analysis": "题干要求填写在第四阶段会见的商店工作人员群体，原文指出“visit one of our shops, where you'll meet the team”，其中“team”指代在该门店工作的同事群体，与题干中“the... working in a particular store”完全对应。因此，“team”是简洁且准确的答案。",
+              "reason": "原文明确在Stage Four介绍Area Leader并参观商店见team。",
+              "location_analysis": "题干要求会见经理及商店团队，原文对应与团队见面。",
+              "paraphrasing": "the team working in a particular store → meet the team and find out more about the sort of work that's involved",
+              "keywords": "manager, working in a store, team",
+              "evidence": [
+                "you'll be introduced to the Area Leader and you'll also visit one of our shops, where you'll meet the team and find out more about the sort of work that's involved."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Stage One - Application form\n• Go online and apply for jobs advertised\n• Give proof of achievements so far both in education and in a $121517$\n(Note: additional requirements for applicants interested in the role of $121518$ )\n↓\nStage Two - Telephone discussion\n• More information given about company and the $121519$ you could receive\n• Information about annual event, where prizes are given to those who have made $121520$\n↓\nStage Three - Group interview\n• Chance to tell us about how good you are at selling, and also about the $121521$ you have\n• Take part in a $121522$ (used to learn about your way of working)\n• Information given on benefits (e.g. health consultations)\n↓\nStage Four - Individual interview\n• Meet a manager, and the $121523$ working in a particular store\n↓\nStage Five - Job offer\n• Job offer sent out to successful applicants",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Stage One - Application form\n• Go online and apply for jobs advertised\n• Give proof of achievements so far both in education and in a $121517$\n(Note: additional requirements for applicants interested in the role of $121518$ )\n↓\nStage Two - Telephone discussion\n• More information given about company and the $121519$ you could receive\n• Information about annual event, where prizes are given to those who have made $121520$\n↓\nStage Three - Group interview\n• Chance to tell us about how good you are at selling, and also about the $121521$ you have\n• Take part in a $121522$ (used to learn about your way of working)\n• Information given on benefits (e.g. health consultations)\n↓\nStage Four - Individual interview\n• Meet a manager, and the $121523$ working in a particular store\n↓\nStage Five - Job offer\n• Job offer sent out to successful applicants"
+        },
+        {
+          "id": "15792",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 22 - 27\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120508",
+              "number": 22,
+              "prompt": "There are certain places in the building that staff should avoid unless they have _____",
+              "options": [],
+              "answer": "authorisation",
+              "accepted_answers": [
+                "authorisation"
+              ],
+              "analysis": "题干中的“staff should avoid unless they have”对应原文中的“Do not enter restricted areas without authorisation”，说明员工只有在获得授权（authorisation）的情况下才能进入特定区域。因此，正确答案是“authorisation”，这是原文中明确提到的进入限制区域的前提条件。",
+              "reason": "原文直接提到未经authorisation不得进入限制区域。",
+              "location_analysis": "题干要求避免进入未经授权的区域，原文对应禁止无授权进入。",
+              "paraphrasing": "places staff should avoid unless they have → Do not enter restricted areas without authorisation",
+              "keywords": "restricted areas, authorisation",
+              "evidence": [
+                "Do not enter restricted areas without authorisation, and at all times observe the warnings given."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120509",
+              "number": 23,
+              "prompt": "To ensure people can get out easily, it is important that there are no _____ to exits.",
+              "options": [],
+              "answer": "obstructions",
+              "accepted_answers": [
+                "obstructions"
+              ],
+              "analysis": "题干要求确保出口畅通无阻，原文中提到“do not block doorways, corridors or stairs, as obstructions may affect access in the event of a fire”，其中“obstructions”直接对应题干中的“no ... to exits”。因此，答案“obstructions”准确反映了原文中影响逃生通道的障碍物概念。",
+              "reason": "原文明确指出obstructions影响出口通行。",
+              "location_analysis": "题干要求确保出口无障碍物，原文说明阻塞物会影响逃生。",
+              "paraphrasing": "no obstructions to exits → do not block doorways, corridors or stairs, as obstructions may affect access in the event of a fire",
+              "keywords": "get out easily, exits, obstructions",
+              "evidence": [
+                "do not block doorways, corridors or stairs, as obstructions may affect access in the event of a fire."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120510",
+              "number": 24,
+              "prompt": "Items which could cause injury must be _____ before they are disposed of.",
+              "options": [],
+              "answer": "wrapped carefully",
+              "accepted_answers": [
+                "wrapped carefully"
+              ],
+              "analysis": "题干指出可能造成伤害的物品在丢弃前必须妥善处理，原文明确说明“Never put sharp objects such as razor blades or broken glass into waste bins without having wrapped the items carefully”，即尖锐物品需“wrapped carefully”后再丢弃以保护清洁人员。因此，“wrapped carefully”是符合题意的正确答案。",
+              "reason": "原文明确sharp objects需wrapped carefully后丢弃。",
+              "location_analysis": "题干要求处理可能造成伤害的物品需小心包裹，原文对应危险物品先包裹再丢弃。",
+              "paraphrasing": "cause injury → sharp objects such as razor blades or broken glass; must be wrapped carefully before disposed → wrapped the items carefully to protect those emptying the bins",
+              "keywords": "cause injury, disposed of, wrapped carefully",
+              "evidence": [
+                "Never put sharp objects such as razor blades or broken glass into waste bins without having wrapped the items carefully to protect those emptying the bins."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120511",
+              "number": 25,
+              "prompt": "Not all departments have the same system for dealing with _____, so you need to check before throwing things away.",
+              "options": [],
+              "answer": "waste",
+              "accepted_answers": [
+                "waste"
+              ],
+              "analysis": "题干提到不同部门处理某类事务的方式不同，需事先确认，原文指出“Other waste procedures may vary - contact your Building Manager... for advice with regard to your particular department”，说明废弃物（waste）处理流程因部门而异。因此，答案“waste”准确对应原文中所指的需特别注意的处理对象。",
+              "reason": "原文明确指出waste procedures各部门不同需核实。",
+              "location_analysis": "题干指出各部门处理废弃物系统不同，原文说明waste procedures可能不同。",
+              "paraphrasing": "not all departments have the same system for dealing with waste → Other waste procedures may vary - contact your Building Manager or Divisional Safety Officer for advice with regard to your particular department.",
+              "keywords": "departments, system for dealing with waste",
+              "evidence": [
+                "Other waste procedures may vary - contact your Building Manager or Divisional Safety Officer for advice with regard to your particular department."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120512",
+              "number": 26,
+              "prompt": "_____ are available to make tasks which require moving objects easier.",
+              "options": [],
+              "answer": "Trolleys",
+              "accepted_answers": [
+                "Trolleys"
+              ],
+              "analysis": "题干询问用于搬运重物的辅助工具，原文提到“Wherever possible you should use the trolleys provided in the workplace to do the job for you”，明确指出工作场所提供手推车（trolleys）以协助搬运任务。因此，“Trolleys”是符合“make tasks which require moving objects easier”的正确答案。",
+              "reason": "原文直接指出使用trolleys搬运重物。",
+              "location_analysis": "题干要求搬运物体时使用工具使工作容易，原文建议使用提供的trolleys。",
+              "paraphrasing": "available to make tasks which require moving objects easier → Wherever possible you should use the trolleys provided in the workplace to do the job for you.",
+              "keywords": "moving objects, trolleys",
+              "evidence": [
+                "Wherever possible you should use the trolleys provided in the workplace to do the job for you."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120513",
+              "number": 27,
+              "prompt": "You should have _____ while you are working.",
+              "options": [],
+              "answer": "breaks",
+              "accepted_answers": [
+                "breaks"
+              ],
+              "analysis": "题干强调工作期间应有休息，原文建议“make sure that you take regular breaks when necessary”以防止因疲劳导致事故或错误。因此，“breaks”准确对应原文中为保持警觉和安全而推荐的行为，完全符合题干要求。",
+              "reason": "原文明确建议take regular breaks。",
+              "location_analysis": "题干强调工作时应有休息，原文要求确保必要休息。",
+              "paraphrasing": "you should have breaks while you are working → make sure that you take regular breaks when necessary.",
+              "keywords": "breaks, working",
+              "evidence": [
+                "To prevent this, make sure that you take regular breaks when necessary."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "There are certain places in the building that staff should avoid unless they have $120508$\nTo ensure people can get out easily, it is important that there are no $120509$ to exits.\nItems which could cause injury must be $120510$ before they are disposed of.\nNot all departments have the same system for dealing with $120511$, so you need to check before throwing things away.\n$120512$ are available to make tasks which require moving objects easier.\nYou should have $120513$ while you are working.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "There are certain places in the building that staff should avoid unless they have $120508$\nTo ensure people can get out easily, it is important that there are no $120509$ to exits.\nItems which could cause injury must be $120510$ before they are disposed of.\nNot all departments have the same system for dealing with $120511$, so you need to check before throwing things away.\n$120512$ are available to make tasks which require moving objects easier.\nYou should have $120513$ while you are working."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "GZJ Travel - Recruitment Info",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "We're looking for keen and effective people who are passionate about travel to work as Travel Sales Consultants in our rapidly-growing team.",
+          "translation": "我们正在寻找对旅行充满热情、敏锐且高效的人才，加入我们快速发展的团队，担任旅行销售顾问。"
+        },
+        {
+          "index": 2,
+          "sentence": "Our recruitment process has five stages.",
+          "translation": "我们的招聘流程分为五个阶段。"
+        },
+        {
+          "index": 3,
+          "sentence": "Here's how it works:",
+          "translation": "具体操作如下："
+        },
+        {
+          "index": 4,
+          "sentence": "The first stage is to use our online application form to apply for a current vacancy.",
+          "translation": "第一阶段是使用我们的在线申请表格来申请当前的职位空缺。"
+        },
+        {
+          "index": 5,
+          "sentence": "This is your chance to tell us about yourself, and the qualities and experience you have that make you the ideal person for the job.",
+          "translation": "这是你向我们介绍自己、以及你拥有的使你成为该职位理想人选的素质和经验的机会。"
+        },
+        {
+          "index": 6,
+          "sentence": "For the Travel Sales Consultant role, you'll need to provide us with evidence that you have extensive experience in a marketing environment, as well as a solid academic background.",
+          "translation": "对于旅行销售顾问这一职位，你需要向我们提供证据，证明你在市场营销环境中有丰富的经验，以及扎实的学术背景。"
+        },
+        {
+          "index": 7,
+          "sentence": "If you're interested in a career as a Corporate Travel Consultant, you'll need at least one year's experience as a Travel Consultant.",
+          "translation": "如果你对从事企业旅行顾问的职业感兴趣，你需要至少有一年的旅行顾问经验。"
+        },
+        {
+          "index": 8,
+          "sentence": "If you reach Stage Two, we'll arrange a telephone discussion, where you can find out more about us, including the rewards on offer.",
+          "translation": "如果你进入第二阶段，我们将安排一次电话沟通，届时你可以了解更多关于我们的信息，包括提供的奖励。"
+        },
+        {
+          "index": 9,
+          "sentence": "For instance, once a year we like to acknowledge outstanding efforts and celebrate successes with our co-workers, and we have prize-giving ceremonies designed to do just this.",
+          "translation": "例如，我们每年都会与同事们一起表彰杰出贡献并庆祝成功，为此我们会举办颁奖典礼。"
+        },
+        {
+          "index": 10,
+          "sentence": "In Stage Three we'll be able to give you more information about GZJ Travel, and find out more about you, at an interview which you'll attend with a small group of other applicants.",
+          "translation": "在第三阶段，我们将能够提供更多关于GZJ旅游的信息，并在你与其他一小群申请人共同参加的面试中进一步了解你。"
+        },
+        {
+          "index": 11,
+          "sentence": "We'll be asking you about your ambitions and of course your sales ability, the most vital quality for our business.",
+          "translation": "我们将询问你的抱负，当然还有你的销售能力，这是对我们业务至关重要的素质。"
+        },
+        {
+          "index": 12,
+          "sentence": "You'll also be required to complete a psychometric test so we can find out more about your working style and characteristics.",
+          "translation": "你还需要完成一项心理测试，以便我们进一步了解你的工作风格和特点。"
+        },
+        {
+          "index": 13,
+          "sentence": "We'll also tell you about some of the perks - for example, as a Flight Center employee you can take advantage of the free consultations conducted by our in-house health and wellbeing team, Healthwise.",
+          "translation": "我们还会告诉你一些额外福利——例如，作为Flight Center的员工，你可以享受由我们内部健康与福祉团队Healthwise提供的免费咨询。"
+        },
+        {
+          "index": 14,
+          "sentence": "Next, in Stage Four, you'll be introduced to the Area Leader and you'll also visit one of our shops, where you'll meet the team and find out more about the sort of work that's involved.",
+          "translation": "接下来，在第四阶段，您将被介绍给区域负责人，并且您还将参观我们的一家门店，在那里您将与团队会面，并进一步了解所涉及的工作类型。"
+        },
+        {
+          "index": 15,
+          "sentence": "If you successfully pass Stage Four, you've reached the final stage of the process and we'll be in touch with a job offer!",
+          "translation": "如果您成功通过第四阶段，您就进入了流程的最后一个阶段，我们将与您联系并提供工作机会！"
+        },
+        {
+          "index": 16,
+          "sentence": "And if you accept, we'll book you into our Learning Center to get your training under way as soon as possible.",
+          "translation": "如果您接受，我们将为您预订学习中心，以便尽快开始您的培训。"
+        },
+        {
+          "index": 17,
+          "sentence": "Careerwise, the department responsible for the training, will then organise individual coaching to assist in setting goals for your career path.",
+          "translation": "负责培训的 Careerwise 部门随后将安排个人指导，以协助您为职业道路设定目标。"
+        },
+        {
+          "index": 18,
+          "sentence": "Hilton Laboratory",
+          "translation": "希尔顿实验室"
+        },
+        {
+          "index": 19,
+          "sentence": "Health and safety in the workplace",
+          "translation": "工作场所的健康与安全"
+        },
+        {
+          "index": 20,
+          "sentence": "Personal safety",
+          "translation": "人身安全"
+        },
+        {
+          "index": 21,
+          "sentence": "You must be familiar with the emergency procedures in your building so that you know what to do in the event of fire, spillages or other accidents.",
+          "translation": "你必须熟悉所在大楼的紧急程序，以便在发生火灾、泄漏或其他事故时知道该怎么做。"
+        },
+        {
+          "index": 22,
+          "sentence": "Do not enter restricted areas without authorisation, and at all times observe the warnings given.",
+          "translation": "未经授权不得进入限制区域，并时刻遵守所给出的警告。"
+        },
+        {
+          "index": 23,
+          "sentence": "Do not wedge open fire doors or tamper with door closures, and do not block doorways, corridors or stairs, as obstructions may affect access in the event of a fire.",
+          "translation": "不要用楔子撑开防火门或擅自改动闭门器，也不要堵塞门口、走廊或楼梯，因为障碍物可能会影响火灾时的通道。"
+        },
+        {
+          "index": 24,
+          "sentence": "Avoid leaving drawers and doors open unnecessarily and do not trail cables or flexes across the floor.",
+          "translation": "避免不必要地让抽屉和门保持打开状态，也不要将电缆或电线拖在地板上。"
+        },
+        {
+          "index": 25,
+          "sentence": "How to dispose of rubbish safely",
+          "translation": "如何安全处理垃圾"
+        },
+        {
+          "index": 26,
+          "sentence": "We aim to protect the environment by saving and recycling glass, waste paper, and an increasing range of other materials.",
+          "translation": "我们旨在通过节约和回收玻璃、废纸以及越来越多其他种类的材料来保护环境。"
+        },
+        {
+          "index": 27,
+          "sentence": "It is important to check materials carefully for contamination before placing them in recycling containers.",
+          "translation": "在将材料放入回收容器之前，仔细检查是否有污染非常重要。"
+        },
+        {
+          "index": 28,
+          "sentence": "Never put sharp objects such as razor blades or broken glass into waste bins without having wrapped the items carefully to protect those emptying the bins.",
+          "translation": "切勿将诸如剃须刀片或碎玻璃之类的尖锐物品直接放入垃圾桶，除非已仔细包裹好这些物品，以保护清空垃圾桶的人员。"
+        },
+        {
+          "index": 29,
+          "sentence": "Other waste procedures may vary - contact your Building Manager or Divisional Safety Officer for advice with regard to your particular department.",
+          "translation": "其他垃圾处理程序可能有所不同——请联系你的楼宇经理或部门安全官员，以获取针对你特定部门的建议。"
+        },
+        {
+          "index": 30,
+          "sentence": "How to handle heavy objects",
+          "translation": "如何处理重物"
+        },
+        {
+          "index": 31,
+          "sentence": "Make sure that shelves are not overloaded and that glass and heavy objects are stored at working height where they will be easier to reach.",
+          "translation": "确保货架不超载，并且玻璃和重物存放在工作高度，以便更容易拿取。"
+        },
+        {
+          "index": 32,
+          "sentence": "Use steps or ladders to reach items at height; never climb on benches, tables or chairs.",
+          "translation": "使用梯子或阶梯取高处物品；切勿攀爬长凳、桌子或椅子。"
+        },
+        {
+          "index": 33,
+          "sentence": "Never move anything that is beyond your capability.",
+          "translation": "切勿移动超出自身能力范围的物品。"
+        },
+        {
+          "index": 34,
+          "sentence": "Wherever possible you should use the trolleys provided in the workplace to do the job for you.",
+          "translation": "只要可能，应使用工作场所提供的手推车来完成搬运工作。"
+        },
+        {
+          "index": 35,
+          "sentence": "If repetitive manual operations are routine in your work,your department will ensure you receive appropriate instruction on safe working practices and posture.",
+          "translation": "如果重复性体力操作是您工作中的常规内容，您的部门将确保您接受有关安全操作规程和姿势的适当指导。"
+        },
+        {
+          "index": 36,
+          "sentence": "Staying alert",
+          "translation": "保持警觉"
+        },
+        {
+          "index": 37,
+          "sentence": "If you become mentally or physically tired during the working day, and find that you're feeling drowsy or not concentrating properly, you could be at risk of causing an accident or making a mistake that could harm you or your colleagues.",
+          "translation": "如果你在工作日期间感到精神或身体疲惫，并且发现自己昏昏欲睡或注意力不集中，你就可能面临引发事故或犯错的风险，这些事故或错误可能伤害你或你的同事。"
+        },
+        {
+          "index": 38,
+          "sentence": "To prevent this, make sure that you take regular breaks when necessary.",
+          "translation": "为防止这种情况，请确保在必要时定期休息。"
+        }
+      ]
+    },
+    {
+      "id": "2095",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "The Zebras' long walk across Africa",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "James Gifford investigates some interesting new research into migration patterns of zebras living in Botswana in southern Africa",
+          "translation": "詹姆斯·吉福德研究了关于生活在非洲南部博茨瓦纳的斑马迁徙模式的一些有趣的新研究。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "For any animal to travel over 270 km in Botswana partly across the sand and low bush terrain of the Kalahari Desert is a remarkable achievement. But to do so in 11 days and without any obvious motivation, as this zebra population does, is quite extraordinary. On average their journey involves an exhausting round-trip of 588 km - between the Makgadikgadi salt pan area and the Okavango river - making it second only to the great trek undertaken by the zebra herds in the Serengeti National Park.However, what is even more incredible still in my view is that until recently it was completely unheard of.",
+          "translation": "对于任何动物来说，在博茨瓦纳穿越卡拉哈里沙漠的部分沙地和低矮灌木地带，完成超过270公里的旅程都是一项了不起的成就。\n但这个斑马种群在11天内完成这一旅程，且没有任何明显动机，这实属非同寻常。\n平均而言，它们的旅程包括在马卡迪卡迪盐沼地区和奥卡万戈河之间往返588公里的艰辛跋涉，这仅次于塞伦盖蒂国家公园斑马群所进行的长途迁徙。\n然而，在我看来，更令人难以置信的是，直到最近这一现象都完全不为人知。\n对于任何动物来说，在博茨瓦纳穿越喀拉哈里沙漠的沙地和低矮灌木地带，行程超过270公里，都是一项了不起的成就。\n但像这个斑马种群那样，在11天内完成这一旅程且没有任何明显动机，则相当非同寻常。\n它们的旅程平均涉及马卡迪卡迪盐沼地区与奥卡万戈河之间588公里的疲惫往返路程，这使得其在规模上仅次于塞伦盖蒂国家公园斑马群进行的大迁徙。\n然而，在我看来，更为不可思议的是，直到最近，这一迁徙现象完全未被人们所知。\n对于任何动物来说，在博茨瓦纳穿越部分卡拉哈里沙漠的沙地和低矮灌木地形，行程超过270公里，都是一项了不起的成就。\n但像这个斑马种群一样，在11天内完成这一旅程且没有任何明显动机，则相当非同寻常。\n平均而言，它们的旅程包括在马卡迪卡迪盐沼地区和奥卡万戈河之间长达588公里的往返行程，这使其仅次于塞伦盖蒂国家公园斑马群所进行的伟大迁徙。\n然而，在我看来，更令人难以置信的是，直到最近，这一现象还完全无人知晓。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Hattie Bartlam, a researcher, discovered this migration while she was tracking zebra groups, officially known as harems, by the Okavango river for her PhD. Each harem consists of a stallion and his seven or eight mares with juvenile foals. There is no loyalty between zebras beyond this social group, though harems often gather together into so-called herds. For her study, Hattie had planned to compare the small-scale movement patterns of 11 different zebra herds in the area.",
+          "translation": "研究员哈蒂·巴特拉姆在为她的博士论文追踪奥卡万戈河附近的斑马群（官方称为“妻妾群”）时，发现了这一迁徙现象。\n每个妻妾群由一匹雄马及其七八匹雌马及幼驹组成。\n斑马之间除了这一社会群体外没有忠诚可言，不过妻妾群常常聚集在一起形成所谓的马群。\n为了她的研究，哈蒂原本计划比较该地区11个不同斑马群的小规模移动模式。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "In December, when the annual rains had transformed the roads into rivers,Hattie was,therefore, more than a little surprised when she checked the data sent by the radio collars she fits to the zebras she is tracking to find that six of the harems were 270 km away on the edge of the Makgadikgadi, a huge mineral-rich area where salt has collected over the years as water evaporates in the heat. Then, when the last of the moisture from the rains had disappeared in May the following year, five of those harems came wearily back to the Okavango. This raised the question: why, despite a plentiful supply of food and water, were the zebras being drawn eastwards to the salt pans? Even more difficult to understand was what made six of the groups travel so far, while the other five remained by the Okavango.",
+          "translation": "12月，当每年的降雨将道路变成了河流时，哈蒂检查了她安装在追踪斑马身上的无线电项圈所传来的数据，发现六个斑马群已经到了270公里之外的马卡迪卡迪盐沼边缘，那是一个巨大的富含矿物质的地区，随着水分在高温下蒸发，盐分多年来逐渐堆积。因此，她远远不止是感到惊讶。\n随后，在第二年5月雨水带来的最后一点湿气消失时，这些斑马群中的五个又疲惫不堪地回到了奥卡万戈河。\n这引发了一个问题：为什么尽管食物和水源供应充足，斑马们还是被吸引向东前往盐沼？\n更难理解的是，是什么让这六个斑马群长途跋涉，而其他五个则留在奥卡万戈河附近。\n12月，当年度的降雨已将道路变成河流时，哈蒂检查了她追踪的斑马身上佩戴的无线电项圈发送的数据，发现其中六个斑马群已在270公里之外的马卡迪卡迪盐沼边缘，这是一个富含矿物质的广阔区域，多年来随着水分在高温下蒸发，盐分在此积聚，因此她感到非常惊讶。\n然后，在次年5月，当雨水的最后一丝湿气消失时，其中五个斑马群疲惫地回到了奥卡万戈。\n这引发了一个问题：尽管有充足的食物和水供应，为什么斑马会被吸引向东前往盐沼？\n更难理解的是，是什么让六个斑马群长途跋涉，而其他五个则留在奥卡万戈附近。\n十二月，当每年的雨水将道路变成河流时，哈蒂检查了她追踪的斑马身上佩戴的无线电项圈发送的数据，发现其中六个斑马群位于270公里外的马卡迪卡迪边缘——一个富含矿物质的大型区域，多年来由于水分在高温下蒸发，盐分在此积聚。因此，她感到非常惊讶。\n随后，在第二年五月，当雨水带来的最后一点湿气消失时，其中五个斑马群疲惫地返回了奥卡万戈。\n这引发了一个问题：尽管食物和水供应充足，为什么斑马还是被吸引向东前往盐沼？\n更难理解的是，是什么让其中六个群体长途跋涉如此之远，而其他五个却留在奥卡万戈附近。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "This discovery created quite a buzz in the research community. I decided to visit Hattie and she explained that a century ago the large number of Botswana's zebra and wildebeest herds and the resulting competition for grass made migration essential. One of the migration tracks went from the Okavango to Makgadikgadi. But in the late 1960s, giant fences were put up to stop foot and mouth and other diseases spreading between wildlife and domestic cattle. One of these went across the migration track. Though the animals could get round the obstacle, each leg of their journey would now be 200 km longer - an impossible distance given the lack of permanent water on the extended route. Even today,with the fence gone (it was taken down in 2004), there is dangerously little drinking water to support the zebras on the return journey to the Okavango.",
+          "translation": "这一发现在研究界引起了不小的轰动。\n我决定拜访哈蒂，她解释说，一个世纪前，博茨瓦纳大量的斑马和角马群以及随之而来的对牧草的竞争使迁徙成为必要。\n其中一条迁徙路线是从奥卡万戈延伸到马卡迪卡迪。\n但在20世纪60年代末，人们竖起了巨大的围栏，以防止口蹄疫和其他疾病在野生动物和家畜之间传播。\n其中一道围栏横跨了迁徙路线。\n尽管动物们可以绕过障碍，但它们每段旅程现在都要多走200公里——考虑到延长路线上缺乏永久性水源，这是一段无法实现的距离。\n即使今天，围栏已经拆除（于2004年拆除），在返回奥卡万戈的途中，可供斑马饮用的水仍然少得危险。\n我决定去拜访哈蒂，她解释说，一个世纪前，博茨瓦纳大量的斑马和角马群以及由此产生的对草地的竞争使得迁徙成为必要。\n但在20世纪60年代末，人们竖起了巨大的围栏，以防止口蹄疫和其他疾病在野生动物与家畜之间传播。\n其中一道围栏正好横跨了这条迁徙路线。\n尽管动物们可以绕过这一障碍，但它们每一段旅程现在都要多走200公里——鉴于延长后的路线上缺乏永久水源，这是一个不可能完成的距离。\n即使到了今天，围栏已经拆除（它于2004年被移除），在返回奥卡万戈的途中，可供斑马饮用的水源仍然少得可怜，足以构成危险。\n其中一条迁徙路线是从奥卡万戈通往马卡迪卡迪。\n但在20世纪60年代末，巨大的围栏被竖立起来，以防止口蹄疫和其他疾病在野生动物与家养牛之间传播。\n尽管动物们能够绕过这一障碍，但它们旅程的每一段现在都要增加200公里——鉴于延长路线上缺乏永久性水源，这是一个不可能完成的距离。\n即使到了今天，随着围栏被拆除（它于2004年被拆除），在斑马返回奥卡万戈的途中，可饮用水仍然少得危险，不足以支持它们的生存。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "As a zebra can live up to 20 years, the migration must have skipped at least one generation during the 40 or so years that the fences were up.This prompts another question: it has always been assumed that the young of social herbivores like zebras learn migratory behaviour from their parents, so how did the latest generation learn when and where to go? Not from their parents, who were prevented from migrating. Did they follow another species, such as elephants? We may never know.",
+          "translation": "由于斑马可以活到20岁，在围栏竖立的大约40年里，这一迁徙行为必定至少跳过了一代。\n这引出了另一个问题：人们一直认为，像斑马这样的群居草食动物的幼崽是从父母那里学习迁徙行为的，那么最新一代是如何知道何时以及去哪里迁徙的呢？\n不是从它们的父母那里学到的，因为它们的父母当时被阻止迁徙。\n它们是否跟随了其他物种，比如大象？\n我们可能永远不得而知。\n由于斑马的寿命可达20年，在围栏竖立的大约40年间，这种迁徙必定至少跨过了一代斑马。\n这引发了一个问题：人们一直认为像斑马这样的群居食草动物的幼崽会从父母那里学习迁徙行为，那么最新一代斑马是如何知道何时何地迁徙的呢？\n并非从它们的父母那里学来，因为其父母被阻止迁徙。\n它们是否追随了其他物种，比如大象？\n我们可能永远无法知晓。\n由于斑马寿命可达20年，在围栏存在的约40年里，迁徙行为必然至少跳过了一代斑马。\n这引出了另一个问题：人们一直认为像斑马这样的群居草食动物的幼崽从父母那里学习迁徙行为，那么最新一代斑马是如何知道何时何地迁徙的呢？\n并非从它们的父母那里学来，因为父母曾被迫无法迁徙。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Hattie's data points to the conclusion that there are several zebra populations adopting different behaviour. The first, like the vast majority of the Okavango zebras, take it easy, spending the entire year by the river. The second group, 15,000-20,000 strong, work a bit harder. They divide their time between the Makgadikgadi salt pans and the Boteti River,which is reasonably near by.They sometimes struggle to find water in the Boteti area during the dry season, often moving 30 km in search of fresh grazing. Their reward: the juicy grass around the Makgadikgadi after the rains.The final group of zebras, whose numbers are more modest (though as yet unknown), must surely be considered as among the animal kingdom's most remarkable athletes. By moving between the Okavango and the salt pans, they enjoy the best of both worlds.But the price they pay is an extraordinary journey across Botswana.",
+          "translation": "哈蒂的数据指向一个结论，即存在多个斑马种群采取了不同的行为模式。\n第一种，如同奥卡万戈地区绝大多数斑马一样，悠然自得，全年都停留在河边。\n第二群斑马数量庞大，约1.5万到2万匹，它们则要更为辛苦一些。\n它们的时间分布在马卡迪卡迪盐沼和相距不远的博泰蒂河之间。\n在旱季，它们有时很难在博泰蒂地区找到水源，常常要移动30公里去寻找新鲜的草场。\n而它们的回报是：雨后马卡迪卡迪周边多汁的牧草。\n最后一群斑马，数量较少（尽管目前仍未知），但绝对应被视为动物王国中最卓越的运动员之一。\n通过在奥卡万戈和盐沼之间迁徙，它们享受到了两全其美的优势。\n但它们为此付出的代价是穿越博茨瓦纳的一次非凡旅程。\n哈蒂的数据表明，存在多个斑马种群采取不同行为的结论。\n第一种，像绝大多数奥卡万戈斑马一样，过着悠闲的生活，全年都待在河边。\n第二群体，数量约1.5万至2万只，稍微更辛苦一些。\n它们在马卡迪卡迪盐沼和相距不远的博泰蒂河之间分配时间。\n在旱季，它们有时难以在博泰蒂地区找到水源，常常移动30公里以寻找新鲜的草场。\n它们的回报是：雨后马卡迪卡迪周围多汁的青草。\n最后一组斑马，数量较少（尽管尚未可知），无疑应被视为动物王国中最非凡的运动健将之一。\n通过在奥卡万戈和盐沼之间迁徙，它们享受了两全其美的好处。\n但它们付出的代价是一次穿越博茨瓦纳的非凡旅程。\n哈蒂的数据指向一个结论：存在多个斑马种群表现出不同的行为模式。\n第一类斑马，如同奥卡万戈地区的绝大多数斑马一样，悠然自得，整年都待在河边。\n第二类斑马，数量约在1.5万至2万头之间，则更为辛劳一些。\n它们在马卡迪卡迪盐沼和相距不远的博泰蒂河之间来回奔波。\n在旱季，它们有时在博泰蒂地区难以找到水源，常常迁徙30公里以寻觅新的草场。\n它们的回报是：雨后马卡迪卡迪周边鲜嫩多汁的牧草。\n最后一类斑马，其数量相对较少（尽管至今未知），但无疑应被视为动物王国中最杰出的旅行者。\n通过在奥卡万戈和盐沼之间迁移，它们两全其美。\n但为此付出的代价便是一场穿越博茨瓦纳的非凡旅程。\n哈蒂的数据指向一个结论：存在多个斑马种群，它们采取了不同的行为模式。\n第一类斑马，如同奥卡万戈地区绝大多数斑马一样，悠然自得，整年都待在河边。\n第二类斑马，数量在1.5万到2万之间，则要稍微辛苦一些。\n它们的时间分配在马卡迪卡迪盐沼和相对较近的博泰蒂河之间。\n在旱季，它们有时难以在博泰蒂地区找到水源，常常移动30公里来寻找新鲜的草场。\n它们的回报是：雨后马卡迪卡迪周围多汁的草。\n最后一类斑马，数量较少（尽管目前尚不清楚），必须被视为动物王国中最卓越的运动员之一。\n通过在奥卡万戈和盐沼之间迁徒，它们两全其美。\n但它们付出的代价是一次横跨博茨瓦纳的非凡旅程。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Endangered species naturally tend to grab the headlines, so it's refreshing for a relatively abundant animal like the zebra to be the centre of attention for once.Zebras are a vital part of the food chain: understanding their migration in turn helps us to interpret the movements of their predators, and Hattie's research has shed light on the impact of fences on migratory animals. So what triggered her interest in zebras? She explains that it is easier to get funding to study exciting animals like lions.Crucial as that undoubtedly is, she believes that herbivores like zebras are key to understanding any ecosystem.The scientific community is fortunate that people like Hattie are willing to take the hard option.",
+          "translation": "濒危物种自然容易占据头条新闻，因此像斑马这样相对繁多的动物能一度成为焦点，令人耳目一新。\n斑马是食物链的关键组成部分：了解它们的迁徙反过来有助于我们解读其捕食者的活动，而哈蒂的研究揭示了围栏对迁徙动物的影响。\n那么，是什么引发了她对斑马的兴趣呢？\n她解释道，研究像狮子这样令人兴奋的动物更容易获得资金。\n尽管这无疑很重要，但她认为像斑马这样的食草动物是理解任何生态系统的关键。\n科学界很幸运，有像哈蒂这样愿意选择艰难道路的人。\n濒危物种自然倾向于占据头条新闻，因此像斑马这样相对丰富的动物能够成为关注的焦点，令人耳目一新。\n斑马是食物链的重要一环：了解它们的迁徙反过来有助于我们解读其捕食者的活动，而哈蒂的研究揭示了围栏对迁徙动物的影响。\n她解释说，研究像狮子这样令人兴奋的动物更容易获得资金。\n科学界很幸运，有像哈蒂这样的人愿意选择艰难的道路。\n濒危物种自然倾向于占据新闻头条，因此像斑马这样相对丰富的动物能成为一次关注的焦点，令人感到耳目一新。\n斑马是食物链的重要组成部分：理解它们的迁徙反过来有助于我们解读其捕食者的活动，而哈蒂的研究揭示了围栏对迁徙动物的影响。\n那么，是什么激发了她对斑马的研究兴趣呢？\n她解释说，研究像狮子这样引人注目的动物更容易获得资金支持。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15794",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 34\nThe text has five sections.\nChoose the correct heading for each section and move it into the gap.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. A decrease in the zebra population"
+            },
+            {
+              "value": "B",
+              "label": "B. An obstruction on the traditional route"
+            },
+            {
+              "value": "C",
+              "label": "C. An unknown species"
+            },
+            {
+              "value": "D",
+              "label": "D. Some confusing information"
+            },
+            {
+              "value": "E",
+              "label": "E. Staying permanently in the Makgadikgadi"
+            },
+            {
+              "value": "F",
+              "label": "F. Nearly a record in the zebra world"
+            },
+            {
+              "value": "G",
+              "label": "G. Three different ways of living"
+            },
+            {
+              "value": "H",
+              "label": "H. The original aim of the work"
+            },
+            {
+              "value": "I",
+              "label": "I. How was the information passed on?"
+            },
+            {
+              "value": "J",
+              "label": "J. Why it is important to study zebras"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1157941",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A decrease in the zebra population"
+                },
+                {
+                  "value": "B",
+                  "label": "B. An obstruction on the traditional route"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An unknown species"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Some confusing information"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Staying permanently in the Makgadikgadi"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Nearly a record in the zebra world"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Three different ways of living"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The original aim of the work"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How was the information passed on?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Why it is important to study zebras"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "第28题对应文章A段，该段强调斑马迁徙距离达588公里，“making it second only to the great trek... in the Serengeti”，说明这一迁徙几乎创下纪录。因此标题F“Nearly a record in the zebra world”准确概括了本段主旨。",
+              "reason": "首段强调旅程长、仅次于Serengeti，接近记录。",
+              "location_analysis": "Sections A首句描述旅程remarkable，末句说只有Serengeti迁移更远，对...",
+              "paraphrasing": "nearly a record -> second only to the great trek",
+              "keywords": "record, migration, zebra world",
+              "evidence": [
+                "For any animal to travel over 270 km in Botswana partly across the sand and low bush terrain of the Kalahari Desert is a remarkable achievement.",
+                "On average their journey involves an exhausting round-trip of 588 km - between the Makgadikgadi salt pan area and the Okavango river - making it second only to the great trek undertaken by the zebra herds in the Serengeti National Park."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1157942",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A decrease in the zebra population"
+                },
+                {
+                  "value": "B",
+                  "label": "B. An obstruction on the traditional route"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An unknown species"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Some confusing information"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Staying permanently in the Makgadikgadi"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Nearly a record in the zebra world"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Three different ways of living"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The original aim of the work"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How was the information passed on?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Why it is important to study zebras"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "第29题对应B段，该段末句明确指出Hattie最初的研究计划是“compare the small-scale movement patterns of 11 different zebra herds”，这正是她博士研究的原始目标，因此标题H“The original aim of the work”正确。",
+              "reason": "直接说明最初的研究计划。",
+              "location_analysis": "B段末句说明Hattie原本计划研究小范围移动模式，对应H“工作的最初目标”。",
+              "paraphrasing": "original aim of the work -> For her study, Hattie had planned to compare the small-scale movement patterns",
+              "keywords": "original aim, Hattie, PhD",
+              "evidence": [
+                "For her study, Hattie had planned to compare the small-scale movement patterns of 11 different zebra herds in the area."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1157943",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A decrease in the zebra population"
+                },
+                {
+                  "value": "B",
+                  "label": "B. An obstruction on the traditional route"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An unknown species"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Some confusing information"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Staying permanently in the Makgadikgadi"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Nearly a record in the zebra world"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Three different ways of living"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The original aim of the work"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How was the information passed on?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Why it is important to study zebras"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "第30题对应C段，Hattie发现斑马在食物水源充足的情况下仍长途迁徙，感到“more than a little surprised”，并提出“why...”的疑问，显示出她对这一行为的困惑。因此标题D“Some confusing information”恰当反映了该段内容。",
+              "reason": "数据令人意外并引发疑问，即confusing information。",
+              "location_analysis": "C段Hattie发现斑马远行后惊讶并提出why的问题，对应D“令人困惑的信息”。",
+              "paraphrasing": "some confusing information -> more than a little surprised; This raised the question: why",
+              "keywords": "confusing information, surprised, why",
+              "evidence": [
+                "This raised the question: why, despite a plentiful supply of food and water, were the zebras being drawn eastwards to the salt pans?"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1157944",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A decrease in the zebra population"
+                },
+                {
+                  "value": "B",
+                  "label": "B. An obstruction on the traditional route"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An unknown species"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Some confusing information"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Staying permanently in the Makgadikgadi"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Nearly a record in the zebra world"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Three different ways of living"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The original aim of the work"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How was the information passed on?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Why it is important to study zebras"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "第31题对应D段，该段提到20世纪60年代修建的围栏“went across the migration track”，直接阻碍了斑马的传统迁徙路线，导致迁徙变得不可能。因此标题B“An obstruction on the traditional route”准确概括了本段核心信息。",
+              "reason": "栅栏直接阻塞传统迁移路线。",
+              "location_analysis": "D段介绍栅栏横跨迁移路线，阻碍迁移，对应B“传统路线上的障碍”。",
+              "paraphrasing": "An obstruction on the traditional route -> giant fences were put up...One of these went across the migration track",
+              "keywords": "obstruction, fence, migration track",
+              "evidence": [
+                "In the late 1960s, giant fences were put up to stop foot and mouth and other diseases spreading between wildlife and domestic cattle.",
+                "One of these went across the migration track."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1157945",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A decrease in the zebra population"
+                },
+                {
+                  "value": "B",
+                  "label": "B. An obstruction on the traditional route"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An unknown species"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Some confusing information"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Staying permanently in the Makgadikgadi"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Nearly a record in the zebra world"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Three different ways of living"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The original aim of the work"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How was the information passed on?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Why it is important to study zebras"
+                }
+              ],
+              "answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "analysis": "第32题对应E段，该段核心问题是：在父母无法迁徙的情况下，新一代斑马如何学会迁徙行为？文中明确提出“how did the latest generation learn when and where to go?”，这与标题I“How was the information passed on?”完全对应。",
+              "reason": "段落核心问题就是迁移知识如何传给下一代。",
+              "location_analysis": "E段问新一代如何学会迁移行为，对应I“信息如何传递？”。",
+              "paraphrasing": "How was the information passed on? -> how did the latest generation learn when and where to go?",
+              "keywords": "how, information passed on, learn, migration",
+              "evidence": [
+                "It has always been assumed that the young of social herbivores like zebras learn migratory behaviour from their parents, so how did the latest generation learn when and where to go?"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "1157946",
+              "number": 33,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A decrease in the zebra population"
+                },
+                {
+                  "value": "B",
+                  "label": "B. An obstruction on the traditional route"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An unknown species"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Some confusing information"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Staying permanently in the Makgadikgadi"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Nearly a record in the zebra world"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Three different ways of living"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The original aim of the work"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How was the information passed on?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Why it is important to study zebras"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "第33题对应F段，该段明确将斑马分为三类：全年留在奥卡万戈的、往返博泰蒂河与盐沼的、以及往返奥卡万戈与盐沼的长途迁徙者，分别描述了它们不同的生活方式。因此标题G“Three different ways of living”准确总结了本段内容。",
+              "reason": "段落明确列举三种不同行为模式的种群。",
+              "location_analysis": "F段分三类种群描述不同生活方式，对应G“三种不同生存方式”。",
+              "paraphrasing": "Three different ways of living -> several zebra populations adopting different behaviour; The first... The second group... The final group",
+              "keywords": "three different ways of living, several zebra populations, different behaviour",
+              "evidence": [
+                "Hattie's data points to the conclusion that there are several zebra populations adopting different behaviour."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            },
+            {
+              "id": "1157947",
+              "number": 34,
+              "prompt": "Section G",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. A decrease in the zebra population"
+                },
+                {
+                  "value": "B",
+                  "label": "B. An obstruction on the traditional route"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An unknown species"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Some confusing information"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Staying permanently in the Makgadikgadi"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Nearly a record in the zebra world"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Three different ways of living"
+                },
+                {
+                  "value": "H",
+                  "label": "H. The original aim of the work"
+                },
+                {
+                  "value": "I",
+                  "label": "I. How was the information passed on?"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Why it is important to study zebras"
+                }
+              ],
+              "answer": "J",
+              "accepted_answers": [
+                "J"
+              ],
+              "analysis": "第34题对应G段，该段强调研究斑马的重要性：它们是食物链关键环节，有助于理解捕食者行为和整个生态系统，并指出像Hattie这样研究食草动物的学者对科学界意义重大。因此标题J“Why it is important to study zebras”正确。",
+              "reason": "段落解释研究斑马为何重要。",
+              "location_analysis": "G段强调研究斑马的重要性，如食物链关键、帮助理解生态系统，对应J。",
+              "paraphrasing": "Why it is important to study zebras -> she believes that herbivores like zebras are key to understanding any ecosystem",
+              "keywords": "why, important, study zebras, key to understanding ecosystem",
+              "evidence": [
+                "Zebras are a vital part of the food chain: understanding their migration in turn helps us to interpret the movements of their predators",
+                "she believes that herbivores like zebras are key to understanding any ecosystem."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "G"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "15796",
+          "type": 4,
+          "title": "Social behaviou r in zebras",
+          "instructions": "Questions 35 - 37\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120521",
+              "number": 35,
+              "prompt": "Zebras tend to live together in small units, which experts call _____ Here, a male zebra has charge of a number of adult _____ and their young. These units sometimes assemble in bigger groupings or _____, but it is still clear that the zebras' loyalty only extends to the small unit they live in.",
+              "options": [],
+              "answer": "harems",
+              "accepted_answers": [
+                "harems"
+              ],
+              "analysis": "题干中的“small units, which experts call”对应原文B段中的“zebra groups, officially known as harems”，其中“harems”是专家对这种小群体的正式称呼。因此，正确答案为“harems”，这是文章中直接给出的术语。",
+              "reason": "原文直接定义small unit为harem。",
+              "location_analysis": "B段中明确指出小单元称为harems，直接对应blank。",
+              "paraphrasing": "small units which experts call -> officially known as harems",
+              "keywords": "small units, experts call, harems",
+              "evidence": [
+                "Each harem consists of a stallion and his seven or eight mares with juvenile foals."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120522",
+              "number": 36,
+              "prompt": "Zebras tend to live together in small units, which experts call _____ Here, a male zebra has charge of a number of adult _____ and their young. These units sometimes assemble in bigger groupings or _____, but it is still clear that the zebras' loyalty only extends to the small unit they live in.",
+              "options": [],
+              "answer": "mares",
+              "accepted_answers": [
+                "mares"
+              ],
+              "analysis": "题干要求填写雄性斑马所管理的成年雌性斑马的名称。原文B段提到“Each harem consists of a stallion and his seven or eight mares with juvenile foals”，其中“mares”即指成年雌性斑马，与题干中的“adult”对应，因此答案为“mares”。",
+              "reason": "mares即成年雌斑马。",
+              "location_analysis": "B段说明harem包含stallion和mares（雌马），对应blank。",
+              "paraphrasing": "adult females -> mares",
+              "keywords": "adult female, mares",
+              "evidence": [
+                "Each harem consists of a stallion and his seven or eight mares with juvenile foals."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120523",
+              "number": 37,
+              "prompt": "Zebras tend to live together in small units, which experts call _____ Here, a male zebra has charge of a number of adult _____ and their young. These units sometimes assemble in bigger groupings or _____, but it is still clear that the zebras' loyalty only extends to the small unit they live in.",
+              "options": [],
+              "answer": "herds",
+              "accepted_answers": [
+                "herds"
+              ],
+              "analysis": "题干中的“bigger groupings”在原文B段中对应“harems often gather together into so-called herds”，说明多个harems会聚集成更大的群体，称为“herds”。因此，“herds”是符合题意的唯一单词答案。",
+              "reason": "herds即为更大的群体。",
+              "location_analysis": "原文指出harems常集合成herds，对应blank。",
+              "paraphrasing": "bigger groupings -> herds",
+              "keywords": "bigger groupings, herds",
+              "evidence": [
+                "harems often gather together into so-called herds."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "Zebras tend to live together in small units, which experts call $120521$ Here, a male zebra has charge of a number of adult $120522$ and their young. These units sometimes assemble in bigger groupings or $120523$, but it is still clear that the zebras' loyalty only extends to the small unit they live in.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Zebras tend to live together in small units, which experts call $120521$ Here, a male zebra has charge of a number of adult $120522$ and their young. These units sometimes assemble in bigger groupings or $120523$, but it is still clear that the zebras' loyalty only extends to the small unit they live in."
+        },
+        {
+          "id": "15798",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 38 - 40\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120524",
+              "number": 38,
+              "prompt": "How did Hattie feel when she heard some of the zebras had travelled so far?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "annoyed because she would have to follow them to Makgadikgadi"
+                },
+                {
+                  "value": "B",
+                  "label": "disappointed that not all of them made it back to Okavango"
+                },
+                {
+                  "value": "C",
+                  "label": "frustrated as the rains had made the roads unusable"
+                },
+                {
+                  "value": "D",
+                  "label": "unsure as to their real motivation for going"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问Hattie对部分斑马长途迁徙的感受。原文C段提到她看到数据后“more than a little surprised”，并提出疑问：“why... were the zebras being drawn eastwards to the salt pans?”，表明她对斑马迁徙的真正动机感到困惑，因此选项D“unsure as to their real motivation for going”正确。",
+              "reason": "她惊讶并质疑动机，说明unsure。",
+              "location_analysis": "C段中Hattie对斑马远行感到惊讶并提出why的问题，表明她对动机不确定，对应D。",
+              "paraphrasing": "unsure as to their real motivation for going -> why... were the zebras being drawn eastwards to the salt pans?",
+              "keywords": "Hattie, surprised, why, motivation",
+              "evidence": [
+                "This raised the question: why, despite a plentiful supply of food and water, were the zebras being drawn eastwards to the salt pans?"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及Hattie需要跟随斑马前往Makgadikgadi，该信息无中生有。",
+                "B": "与原文中Hattie的感受不符，原文未体现她对斑马未全部返回感到失望。",
+                "C": "张冠李戴，将道路无法使用的原因与Hattie的情绪错误关联。"
+              }
+            },
+            {
+              "id": "120525",
+              "number": 39,
+              "prompt": "When describing the different Botswana zebra populations, the writer indicates",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "his admiration for the ones who migrate the furthest distance."
+                },
+                {
+                  "value": "B",
+                  "label": "his sympathy for the ones who stay by the Okavango River."
+                },
+                {
+                  "value": "C",
+                  "label": "his disbelief that those by the Boteti have difficulty finding food."
+                },
+                {
+                  "value": "D",
+                  "label": "his anxiety that their migration patterns may not be able to continue."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问作者对不同斑马种群的态度。F段描述第三类斑马时称其为“among the animal kingdom's most remarkable athletes”，表达了明显的钦佩之情，这与选项A“his admiration for the ones who migrate the furthest distance”完全吻合。",
+              "reason": "作者赞颂迁徙最远的斑马群。",
+              "location_analysis": "F段描述迁徙最远的斑马为“最卓越运动员”，表达钦佩，对应A。",
+              "paraphrasing": "his admiration for the ones who migrate the furthest distance -> must surely be considered as among the animal kingdom's most remarkable athletes",
+              "keywords": "admiration, most remarkable athletes",
+              "evidence": [
+                "The final group of zebras, whose numbers are more modest (though as yet unknown), must surely be considered as among the animal kingdom's most remarkable athletes."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文中作者并未表达对奥卡万戈河边斑马的同情，此选项属于无中生有。",
+                "C": "原文未提及作者对博泰蒂河边斑马觅食困难表示怀疑，此选项属于无中生有。",
+                "D": "原文未表达作者对斑马迁徙模式能否持续的焦虑，此选项与原文信息矛盾。"
+              }
+            },
+            {
+              "id": "120526",
+              "number": 40,
+              "prompt": "What does the writer suggest in the final paragraph?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Too much time has been wasted on research into the predators like lions."
+                },
+                {
+                  "value": "B",
+                  "label": "lt is sometimes necessary to go against the trend in research matters."
+                },
+                {
+                  "value": "C",
+                  "label": "Research will result in a ban on fences in areas where zebras live."
+                },
+                {
+                  "value": "D",
+                  "label": "Research into animals which are not endangered will increase."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问作者在最后一段的暗示。G段指出研究斑马这类食草动物虽难获资助，却是理解生态系统的关键，并称赞Hattie“willing to take the hard option”，说明有时需逆研究潮流而行，因此选项B“it is sometimes necessary to go against the trend in research matters”正确。",
+              "reason": "作者称赞Hattie选择逆向研究潮流。",
+              "location_analysis": "末段指出研究斑马是逆流而行的困难选择，对应B“有时需要逆研究潮流”。",
+              "paraphrasing": "lt is sometimes necessary to go against the trend in research matters -> it is easier to get funding to study exciting animals like lions. Crucial as that undoubtedly is, she believes that herbivores like zebras are key...The scientific community is fortunate that people like Hattie are willing to take the hard option.",
+              "keywords": "hard option, go against the trend, funding",
+              "evidence": [
+                "She explains that it is easier to get funding to study exciting animals like lions.Crucial as that undoubtedly is, she believes that herbivores like zebras are key to understanding any ecosystem.The scientific community is fortunate that people like Hattie are willing to take the hard option."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文并未提及浪费太多时间研究狮子，属于无中生有。",
+                "C": "选项表述过于绝对，原文并未保证研究会导致禁止围栏。",
+                "D": "原文未提及对非濒危动物的研究将会增加，属于无关信息。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "The Zebras' long walk across Africa",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "James Gifford investigates some interesting new research into migration patterns of zebras living in Botswana in southern Africa",
+          "translation": "詹姆斯·吉福德研究了关于生活在非洲南部博茨瓦纳的斑马迁徙模式的一些有趣的新研究。"
+        },
+        {
+          "index": 3,
+          "sentence": "For any animal to travel over 270 km in Botswana partly across the sand and low bush terrain of the Kalahari Desert is a remarkable achievement.",
+          "translation": "对于任何动物来说，在博茨瓦纳穿越卡拉哈里沙漠的部分沙地和低矮灌木地带，完成超过270公里的旅程都是一项了不起的成就。"
+        },
+        {
+          "index": 4,
+          "sentence": "But to do so in 11 days and without any obvious motivation, as this zebra population does, is quite extraordinary.",
+          "translation": "但这个斑马种群在11天内完成这一旅程，且没有任何明显动机，这实属非同寻常。"
+        },
+        {
+          "index": 5,
+          "sentence": "On average their journey involves an exhausting round-trip of 588 km - between the Makgadikgadi salt pan area and the Okavango river - making it second only to the great trek undertaken by the zebra herds in the Serengeti National Park.",
+          "translation": "平均而言，它们的旅程包括在马卡迪卡迪盐沼地区和奥卡万戈河之间往返588公里的艰辛跋涉，这仅次于塞伦盖蒂国家公园斑马群所进行的长途迁徙。"
+        },
+        {
+          "index": 6,
+          "sentence": "However, what is even more incredible still in my view is that until recently it was completely unheard of.",
+          "translation": "然而，在我看来，更令人难以置信的是，直到最近这一现象都完全不为人知。"
+        },
+        {
+          "index": 7,
+          "sentence": "For any animal to travel over 270 km in Botswana partly across the sand and low bush terrain of the Kalahari Desert is a remarkable achievement.",
+          "translation": "对于任何动物来说，在博茨瓦纳穿越喀拉哈里沙漠的沙地和低矮灌木地带，行程超过270公里，都是一项了不起的成就。"
+        },
+        {
+          "index": 8,
+          "sentence": "But to do so in 11 days and without any obvious motivation, as this zebra population does, is quite extraordinary.",
+          "translation": "但像这个斑马种群那样，在11天内完成这一旅程且没有任何明显动机，则相当非同寻常。"
+        },
+        {
+          "index": 9,
+          "sentence": "On average their journey involves an exhausting round-trip of 588 km - between the Makgadikgadi salt pan area and the Okavango river - making it second only to the great trek undertaken by the zebra herds in the Serengeti National Park.",
+          "translation": "它们的旅程平均涉及马卡迪卡迪盐沼地区与奥卡万戈河之间588公里的疲惫往返路程，这使得其在规模上仅次于塞伦盖蒂国家公园斑马群进行的大迁徙。"
+        },
+        {
+          "index": 10,
+          "sentence": "However, what is even more incredible still in my view is that until recently it was completely unheard of.",
+          "translation": "然而，在我看来，更为不可思议的是，直到最近，这一迁徙现象完全未被人们所知。"
+        },
+        {
+          "index": 11,
+          "sentence": "For any animal to travel over 270 km in Botswana partly across the sand and low bush terrain of the Kalahari Desert is a remarkable achievement.",
+          "translation": "对于任何动物来说，在博茨瓦纳穿越部分卡拉哈里沙漠的沙地和低矮灌木地形，行程超过270公里，都是一项了不起的成就。"
+        },
+        {
+          "index": 12,
+          "sentence": "But to do so in 11 days and without any obvious motivation, as this zebra population does, is quite extraordinary.",
+          "translation": "但像这个斑马种群一样，在11天内完成这一旅程且没有任何明显动机，则相当非同寻常。"
+        },
+        {
+          "index": 13,
+          "sentence": "On average their journey involves an exhausting round-trip of 588 km - between the Makgadikgadi salt pan area and the Okavango river - making it second only to the great trek undertaken by the zebra herds in the Serengeti National Park.",
+          "translation": "平均而言，它们的旅程包括在马卡迪卡迪盐沼地区和奥卡万戈河之间长达588公里的往返行程，这使其仅次于塞伦盖蒂国家公园斑马群所进行的伟大迁徙。"
+        },
+        {
+          "index": 14,
+          "sentence": "However, what is even more incredible still in my view is that until recently it was completely unheard of.",
+          "translation": "然而，在我看来，更令人难以置信的是，直到最近，这一现象还完全无人知晓。"
+        },
+        {
+          "index": 16,
+          "sentence": "29",
+          "translation": "29"
+        },
+        {
+          "index": 17,
+          "sentence": "29",
+          "translation": "29"
+        },
+        {
+          "index": 18,
+          "sentence": "Hattie Bartlam, a researcher, discovered this migration while she was tracking zebra groups, officially known as harems, by the Okavango river for her PhD.",
+          "translation": "研究员哈蒂·巴特拉姆在为她的博士论文追踪奥卡万戈河附近的斑马群（官方称为“妻妾群”）时，发现了这一迁徙现象。"
+        },
+        {
+          "index": 19,
+          "sentence": "Each harem consists of a stallion and his seven or eight mares with juvenile foals.",
+          "translation": "每个妻妾群由一匹雄马及其七八匹雌马及幼驹组成。"
+        },
+        {
+          "index": 20,
+          "sentence": "There is no loyalty between zebras beyond this social group, though harems often gather together into so-called herds.",
+          "translation": "斑马之间除了这一社会群体外没有忠诚可言，不过妻妾群常常聚集在一起形成所谓的马群。"
+        },
+        {
+          "index": 21,
+          "sentence": "For her study, Hattie had planned to compare the small-scale movement patterns of 11 different zebra herds in the area.",
+          "translation": "为了她的研究，哈蒂原本计划比较该地区11个不同斑马群的小规模移动模式。"
+        },
+        {
+          "index": 23,
+          "sentence": "In December, when the annual rains had transformed the roads into rivers, Hattie was, therefore, more than a little surprised when she checked the data sent by the radio collars she fits to the zebras she is tracking to find that six of the harems were 270 km away on the edge of the Makgadikgadi, a huge mineral-rich area where salt has collected over the years as water evaporates in the heat.",
+          "translation": "12月，当每年的降雨将道路变成了河流时，哈蒂检查了她安装在追踪斑马身上的无线电项圈所传来的数据，发现六个斑马群已经到了270公里之外的马卡迪卡迪盐沼边缘，那是一个巨大的富含矿物质的地区，随着水分在高温下蒸发，盐分多年来逐渐堆积。因此，她远远不止是感到惊讶。"
+        },
+        {
+          "index": 24,
+          "sentence": "Then, when the last of the moisture from the rains had disappeared in May the following year, five of those harems came wearily back to the Okavango.",
+          "translation": "随后，在第二年5月雨水带来的最后一点湿气消失时，这些斑马群中的五个又疲惫不堪地回到了奥卡万戈河。"
+        },
+        {
+          "index": 25,
+          "sentence": "This raised the question: why, despite a plentiful supply of food and water, were the zebras being drawn eastwards to the salt pans?",
+          "translation": "这引发了一个问题：为什么尽管食物和水源供应充足，斑马们还是被吸引向东前往盐沼？"
+        },
+        {
+          "index": 26,
+          "sentence": "Even more difficult to understand was what made six of the groups travel so far, while the other five remained by the Okavango.",
+          "translation": "更难理解的是，是什么让这六个斑马群长途跋涉，而其他五个则留在奥卡万戈河附近。"
+        },
+        {
+          "index": 27,
+          "sentence": "In December, when the annual rains had transformed the roads into rivers, Hattie was, therefore, more than a little surprised when she checked the data sent by the radio collars she fits to the zebras she is tracking to find that six of the harems were 270 km away on the edge of the Makgadikgadi, a huge mineral-rich area where salt has collected over the years as water evaporates in the heat.",
+          "translation": "12月，当年度的降雨已将道路变成河流时，哈蒂检查了她追踪的斑马身上佩戴的无线电项圈发送的数据，发现其中六个斑马群已在270公里之外的马卡迪卡迪盐沼边缘，这是一个富含矿物质的广阔区域，多年来随着水分在高温下蒸发，盐分在此积聚，因此她感到非常惊讶。"
+        },
+        {
+          "index": 28,
+          "sentence": "Then, when the last of the moisture from the rains had disappeared in May the following year, five of those harems came wearily back to the Okavango.",
+          "translation": "然后，在次年5月，当雨水的最后一丝湿气消失时，其中五个斑马群疲惫地回到了奥卡万戈。"
+        },
+        {
+          "index": 29,
+          "sentence": "This raised the question: why, despite a plentiful supply of food and water, were the zebras being drawn eastwards to the salt pans?",
+          "translation": "这引发了一个问题：尽管有充足的食物和水供应，为什么斑马会被吸引向东前往盐沼？"
+        },
+        {
+          "index": 30,
+          "sentence": "Even more difficult to understand was what made six of the groups travel so far, while the other five remained by the Okavango.",
+          "translation": "更难理解的是，是什么让六个斑马群长途跋涉，而其他五个则留在奥卡万戈附近。"
+        },
+        {
+          "index": 31,
+          "sentence": "In December, when the annual rains had transformed the roads into rivers, Hattie was, therefore, more than a little surprised when she checked the data sent by the radio collars she fits to the zebras she is tracking to find that six of the harems were 270 km away on the edge of the Makgadikgadi, a huge mineral-rich area where salt has collected over the years as water evaporates in the heat.",
+          "translation": "十二月，当每年的雨水将道路变成河流时，哈蒂检查了她追踪的斑马身上佩戴的无线电项圈发送的数据，发现其中六个斑马群位于270公里外的马卡迪卡迪边缘——一个富含矿物质的大型区域，多年来由于水分在高温下蒸发，盐分在此积聚。因此，她感到非常惊讶。"
+        },
+        {
+          "index": 32,
+          "sentence": "Then, when the last of the moisture from the rains had disappeared in May the following year, five of those harems came wearily back to the Okavango.",
+          "translation": "随后，在第二年五月，当雨水带来的最后一点湿气消失时，其中五个斑马群疲惫地返回了奥卡万戈。"
+        },
+        {
+          "index": 33,
+          "sentence": "This raised the question: why, despite a plentiful supply of food and water, were the zebras being drawn eastwards to the salt pans?",
+          "translation": "这引发了一个问题：尽管食物和水供应充足，为什么斑马还是被吸引向东前往盐沼？"
+        },
+        {
+          "index": 34,
+          "sentence": "Even more difficult to understand was what made six of the groups travel so far, while the other five remained by the Okavango.",
+          "translation": "更难理解的是，是什么让其中六个群体长途跋涉如此之远，而其他五个却留在奥卡万戈附近。"
+        },
+        {
+          "index": 36,
+          "sentence": "This discovery created quite a buzz in the research community.",
+          "translation": "这一发现在研究界引起了不小的轰动。"
+        },
+        {
+          "index": 37,
+          "sentence": "I decided to visit Hattie and she explained that a century ago the large number of Botswana's zebra and wildebeest herds and the resulting competition for grass made migration essential.",
+          "translation": "我决定拜访哈蒂，她解释说，一个世纪前，博茨瓦纳大量的斑马和角马群以及随之而来的对牧草的竞争使迁徙成为必要。"
+        },
+        {
+          "index": 38,
+          "sentence": "One of the migration tracks went from the Okavango to Makgadikgadi.",
+          "translation": "其中一条迁徙路线是从奥卡万戈延伸到马卡迪卡迪。"
+        },
+        {
+          "index": 39,
+          "sentence": "But in the late 1960s, giant fences were put up to stop foot and mouth and other diseases spreading between wildlife and domestic cattle.",
+          "translation": "但在20世纪60年代末，人们竖起了巨大的围栏，以防止口蹄疫和其他疾病在野生动物和家畜之间传播。"
+        },
+        {
+          "index": 40,
+          "sentence": "One of these went across the migration track.",
+          "translation": "其中一道围栏横跨了迁徙路线。"
+        },
+        {
+          "index": 41,
+          "sentence": "Though the animals could get round the obstacle, each leg of their journey would now be 200 km longer - an impossible distance given the lack of permanent water on the extended route.",
+          "translation": "尽管动物们可以绕过障碍，但它们每段旅程现在都要多走200公里——考虑到延长路线上缺乏永久性水源，这是一段无法实现的距离。"
+        },
+        {
+          "index": 42,
+          "sentence": "Even today,with the fence gone (it was taken down in 2004), there is dangerously little drinking water to support the zebras on the return journey to the Okavango.",
+          "translation": "即使今天，围栏已经拆除（于2004年拆除），在返回奥卡万戈的途中，可供斑马饮用的水仍然少得危险。"
+        },
+        {
+          "index": 43,
+          "sentence": "This discovery created quite a buzz in the research community.",
+          "translation": "这一发现在研究界引起了不小的轰动。"
+        },
+        {
+          "index": 44,
+          "sentence": "I decided to visit Hattie and she explained that a century ago the large number of Botswana's zebra and wildebeest herds and the resulting competition for grass made migration essential.",
+          "translation": "我决定去拜访哈蒂，她解释说，一个世纪前，博茨瓦纳大量的斑马和角马群以及由此产生的对草地的竞争使得迁徙成为必要。"
+        },
+        {
+          "index": 45,
+          "sentence": "One of the migration tracks went from the Okavango to Makgadikgadi.",
+          "translation": "其中一条迁徙路线是从奥卡万戈延伸到马卡迪卡迪。"
+        },
+        {
+          "index": 46,
+          "sentence": "But in the late 1960s, giant fences were put up to stop foot and mouth and other diseases spreading between wildlife and domestic cattle.",
+          "translation": "但在20世纪60年代末，人们竖起了巨大的围栏，以防止口蹄疫和其他疾病在野生动物与家畜之间传播。"
+        },
+        {
+          "index": 47,
+          "sentence": "One of these went across the migration track.",
+          "translation": "其中一道围栏正好横跨了这条迁徙路线。"
+        },
+        {
+          "index": 48,
+          "sentence": "Though the animals could get round the obstacle, each leg of their journey would now be 200 km longer - an impossible distance given the lack of permanent water on the extended route.",
+          "translation": "尽管动物们可以绕过这一障碍，但它们每一段旅程现在都要多走200公里——鉴于延长后的路线上缺乏永久水源，这是一个不可能完成的距离。"
+        },
+        {
+          "index": 49,
+          "sentence": "Even today,with the fence gone (it was taken down in 2004), there is dangerously little drinking water to support the zebras on the return journey to the Okavango.",
+          "translation": "即使到了今天，围栏已经拆除（它于2004年被移除），在返回奥卡万戈的途中，可供斑马饮用的水源仍然少得可怜，足以构成危险。"
+        },
+        {
+          "index": 50,
+          "sentence": "This discovery created quite a buzz in the research community.",
+          "translation": "这一发现在研究界引起了不小的轰动。"
+        },
+        {
+          "index": 51,
+          "sentence": "I decided to visit Hattie and she explained that a century ago the large number of Botswana's zebra and wildebeest herds and the resulting competition for grass made migration essential.",
+          "translation": "我决定去拜访哈蒂，她解释说，一个世纪前，博茨瓦纳大量的斑马和角马群以及由此产生的对草地的竞争使得迁徙成为必要。"
+        },
+        {
+          "index": 52,
+          "sentence": "One of the migration tracks went from the Okavango to Makgadikgadi.",
+          "translation": "其中一条迁徙路线是从奥卡万戈通往马卡迪卡迪。"
+        },
+        {
+          "index": 53,
+          "sentence": "But in the late 1960s, giant fences were put up to stop foot and mouth and other diseases spreading between wildlife and domestic cattle.",
+          "translation": "但在20世纪60年代末，巨大的围栏被竖立起来，以防止口蹄疫和其他疾病在野生动物与家养牛之间传播。"
+        },
+        {
+          "index": 54,
+          "sentence": "One of these went across the migration track.",
+          "translation": "其中一道围栏横跨了迁徙路线。"
+        },
+        {
+          "index": 55,
+          "sentence": "Though the animals could get round the obstacle, each leg of their journey would now be 200 km longer - an impossible distance given the lack of permanent water on the extended route.",
+          "translation": "尽管动物们能够绕过这一障碍，但它们旅程的每一段现在都要增加200公里——鉴于延长路线上缺乏永久性水源，这是一个不可能完成的距离。"
+        },
+        {
+          "index": 56,
+          "sentence": "Even today,with the fence gone (it was taken down in 2004), there is dangerously little drinking water to support the zebras on the return journey to the Okavango.",
+          "translation": "即使到了今天，随着围栏被拆除（它于2004年被拆除），在斑马返回奥卡万戈的途中，可饮用水仍然少得危险，不足以支持它们的生存。"
+        },
+        {
+          "index": 58,
+          "sentence": "As a zebra can live up to 20 years, the migration must have skipped at least one generation during the 40 or so years that the fences were up.",
+          "translation": "由于斑马可以活到20岁，在围栏竖立的大约40年里，这一迁徙行为必定至少跳过了一代。"
+        },
+        {
+          "index": 59,
+          "sentence": "This prompts another question: it has always been assumed that the young of social herbivores like zebras learn migratory behaviour from their parents, so how did the latest generation learn when and where to go?",
+          "translation": "这引出了另一个问题：人们一直认为，像斑马这样的群居草食动物的幼崽是从父母那里学习迁徙行为的，那么最新一代是如何知道何时以及去哪里迁徙的呢？"
+        },
+        {
+          "index": 60,
+          "sentence": "Not from their parents, who were prevented from migrating.",
+          "translation": "不是从它们的父母那里学到的，因为它们的父母当时被阻止迁徙。"
+        },
+        {
+          "index": 61,
+          "sentence": "Did they follow another species, such as elephants?",
+          "translation": "它们是否跟随了其他物种，比如大象？"
+        },
+        {
+          "index": 62,
+          "sentence": "We may never know.",
+          "translation": "我们可能永远不得而知。"
+        },
+        {
+          "index": 63,
+          "sentence": "As a zebra can live up to 20 years, the migration must have skipped at least one generation during the 40 or so years that the fences were up.",
+          "translation": "由于斑马的寿命可达20年，在围栏竖立的大约40年间，这种迁徙必定至少跨过了一代斑马。"
+        },
+        {
+          "index": 64,
+          "sentence": "This prompts another question: it has always been assumed that the young of social herbivores like zebras learn migratory behaviour from their parents, so how did the latest generation learn when and where to go?",
+          "translation": "这引发了一个问题：人们一直认为像斑马这样的群居食草动物的幼崽会从父母那里学习迁徙行为，那么最新一代斑马是如何知道何时何地迁徙的呢？"
+        },
+        {
+          "index": 65,
+          "sentence": "Not from their parents, who were prevented from migrating.",
+          "translation": "并非从它们的父母那里学来，因为其父母被阻止迁徙。"
+        },
+        {
+          "index": 66,
+          "sentence": "Did they follow another species, such as elephants?",
+          "translation": "它们是否追随了其他物种，比如大象？"
+        },
+        {
+          "index": 67,
+          "sentence": "We may never know.",
+          "translation": "我们可能永远无法知晓。"
+        },
+        {
+          "index": 68,
+          "sentence": "As a zebra can live up to 20 years, the migration must have skipped at least one generation during the 40 or so years that the fences were up.",
+          "translation": "由于斑马寿命可达20年，在围栏存在的约40年里，迁徙行为必然至少跳过了一代斑马。"
+        },
+        {
+          "index": 69,
+          "sentence": "This prompts another question: it has always been assumed that the young of social herbivores like zebras learn migratory behaviour from their parents, so how did the latest generation learn when and where to go?",
+          "translation": "这引出了另一个问题：人们一直认为像斑马这样的群居草食动物的幼崽从父母那里学习迁徙行为，那么最新一代斑马是如何知道何时何地迁徙的呢？"
+        },
+        {
+          "index": 70,
+          "sentence": "Not from their parents, who were prevented from migrating.",
+          "translation": "并非从它们的父母那里学来，因为父母曾被迫无法迁徙。"
+        },
+        {
+          "index": 71,
+          "sentence": "Did they follow another species, such as elephants?",
+          "translation": "它们是否跟随了其他物种，比如大象？"
+        },
+        {
+          "index": 72,
+          "sentence": "We may never know.",
+          "translation": "我们可能永远不得而知。"
+        },
+        {
+          "index": 73,
+          "sentence": "Hattie's data points to the conclusion that there are several zebra populations adopting different behaviour.",
+          "translation": "哈蒂的数据指向一个结论，即存在多个斑马种群采取了不同的行为模式。"
+        },
+        {
+          "index": 74,
+          "sentence": "The first, like the vast majority of the Okavango zebras, take it easy, spending the entire year by the river.",
+          "translation": "第一种，如同奥卡万戈地区绝大多数斑马一样，悠然自得，全年都停留在河边。"
+        },
+        {
+          "index": 75,
+          "sentence": "The second group, 15,000-20,000 strong, work a bit harder.",
+          "translation": "第二群斑马数量庞大，约1.5万到2万匹，它们则要更为辛苦一些。"
+        },
+        {
+          "index": 76,
+          "sentence": "They divide their time between the Makgadikgadi salt pans and the Boteti River, which is reasonably near by.",
+          "translation": "它们的时间分布在马卡迪卡迪盐沼和相距不远的博泰蒂河之间。"
+        },
+        {
+          "index": 77,
+          "sentence": "They sometimes struggle to find water in the Boteti area during the dry season, often moving 30 km in search of fresh grazing.",
+          "translation": "在旱季，它们有时很难在博泰蒂地区找到水源，常常要移动30公里去寻找新鲜的草场。"
+        },
+        {
+          "index": 78,
+          "sentence": "Their reward: the juicy grass around the Makgadikgadi after the rains.",
+          "translation": "而它们的回报是：雨后马卡迪卡迪周边多汁的牧草。"
+        },
+        {
+          "index": 79,
+          "sentence": "The final group of zebras, whose numbers are more modest (though as yet unknown), must surely be considered as among the animal kingdom's most remarkable athletes.",
+          "translation": "最后一群斑马，数量较少（尽管目前仍未知），但绝对应被视为动物王国中最卓越的运动员之一。"
+        },
+        {
+          "index": 80,
+          "sentence": "By moving between the Okavango and the salt pans, they enjoy the best of both worlds.",
+          "translation": "通过在奥卡万戈和盐沼之间迁徙，它们享受到了两全其美的优势。"
+        },
+        {
+          "index": 81,
+          "sentence": "But the price they pay is an extraordinary journey across Botswana.",
+          "translation": "但它们为此付出的代价是穿越博茨瓦纳的一次非凡旅程。"
+        },
+        {
+          "index": 82,
+          "sentence": "Hattie's data points to the conclusion that there are several zebra populations adopting different behaviour.",
+          "translation": "哈蒂的数据表明，存在多个斑马种群采取不同行为的结论。"
+        },
+        {
+          "index": 83,
+          "sentence": "The first, like the vast majority of the Okavango zebras, take it easy, spending the entire year by the river.",
+          "translation": "第一种，像绝大多数奥卡万戈斑马一样，过着悠闲的生活，全年都待在河边。"
+        },
+        {
+          "index": 84,
+          "sentence": "The second group, 15,000-20,000 strong, work a bit harder.",
+          "translation": "第二群体，数量约1.5万至2万只，稍微更辛苦一些。"
+        },
+        {
+          "index": 85,
+          "sentence": "They divide their time between the Makgadikgadi salt pans and the Boteti River, which is reasonably near by.",
+          "translation": "它们在马卡迪卡迪盐沼和相距不远的博泰蒂河之间分配时间。"
+        },
+        {
+          "index": 86,
+          "sentence": "They sometimes struggle to find water in the Boteti area during the dry season, often moving 30 km in search of fresh grazing.",
+          "translation": "在旱季，它们有时难以在博泰蒂地区找到水源，常常移动30公里以寻找新鲜的草场。"
+        },
+        {
+          "index": 87,
+          "sentence": "Their reward: the juicy grass around the Makgadikgadi after the rains.",
+          "translation": "它们的回报是：雨后马卡迪卡迪周围多汁的青草。"
+        },
+        {
+          "index": 88,
+          "sentence": "The final group of zebras, whose numbers are more modest (though as yet unknown), must surely be considered as among the animal kingdom's most remarkable athletes.",
+          "translation": "最后一组斑马，数量较少（尽管尚未可知），无疑应被视为动物王国中最非凡的运动健将之一。"
+        },
+        {
+          "index": 89,
+          "sentence": "By moving between the Okavango and the salt pans, they enjoy the best of both worlds.",
+          "translation": "通过在奥卡万戈和盐沼之间迁徙，它们享受了两全其美的好处。"
+        },
+        {
+          "index": 90,
+          "sentence": "But the price they pay is an extraordinary journey across Botswana.",
+          "translation": "但它们付出的代价是一次穿越博茨瓦纳的非凡旅程。"
+        },
+        {
+          "index": 91,
+          "sentence": "Hattie's data points to the conclusion that there are several zebra populations adopting different behaviour.",
+          "translation": "哈蒂的数据指向一个结论：存在多个斑马种群表现出不同的行为模式。"
+        },
+        {
+          "index": 92,
+          "sentence": "The first, like the vast majority of the Okavango zebras, take it easy, spending the entire year by the river.",
+          "translation": "第一类斑马，如同奥卡万戈地区的绝大多数斑马一样，悠然自得，整年都待在河边。"
+        },
+        {
+          "index": 93,
+          "sentence": "The second group, 15,000-20,000 strong, work a bit harder.",
+          "translation": "第二类斑马，数量约在1.5万至2万头之间，则更为辛劳一些。"
+        },
+        {
+          "index": 94,
+          "sentence": "They divide their time between the Makgadikgadi salt pans and the Boteti River, which is reasonably near by.",
+          "translation": "它们在马卡迪卡迪盐沼和相距不远的博泰蒂河之间来回奔波。"
+        },
+        {
+          "index": 95,
+          "sentence": "They sometimes struggle to find water in the Boteti area during the dry season, often moving 30 km in search of fresh grazing.",
+          "translation": "在旱季，它们有时在博泰蒂地区难以找到水源，常常迁徙30公里以寻觅新的草场。"
+        },
+        {
+          "index": 96,
+          "sentence": "Their reward: the juicy grass around the Makgadikgadi after the rains.",
+          "translation": "它们的回报是：雨后马卡迪卡迪周边鲜嫩多汁的牧草。"
+        },
+        {
+          "index": 97,
+          "sentence": "The final group of zebras, whose numbers are more modest (though as yet unknown), must surely be considered as among the animal kingdom's most remarkable athletes.",
+          "translation": "最后一类斑马，其数量相对较少（尽管至今未知），但无疑应被视为动物王国中最杰出的旅行者。"
+        },
+        {
+          "index": 98,
+          "sentence": "By moving between the Okavango and the salt pans, they enjoy the best of both worlds.",
+          "translation": "通过在奥卡万戈和盐沼之间迁移，它们两全其美。"
+        },
+        {
+          "index": 99,
+          "sentence": "But the price they pay is an extraordinary journey across Botswana.",
+          "translation": "但为此付出的代价便是一场穿越博茨瓦纳的非凡旅程。"
+        },
+        {
+          "index": 100,
+          "sentence": "Hattie's data points to the conclusion that there are several zebra populations adopting different behaviour.",
+          "translation": "哈蒂的数据指向一个结论：存在多个斑马种群，它们采取了不同的行为模式。"
+        },
+        {
+          "index": 101,
+          "sentence": "The first, like the vast majority of the Okavango zebras, take it easy, spending the entire year by the river.",
+          "translation": "第一类斑马，如同奥卡万戈地区绝大多数斑马一样，悠然自得，整年都待在河边。"
+        },
+        {
+          "index": 102,
+          "sentence": "The second group, 15,000-20,000 strong, work a bit harder.",
+          "translation": "第二类斑马，数量在1.5万到2万之间，则要稍微辛苦一些。"
+        },
+        {
+          "index": 103,
+          "sentence": "They divide their time between the Makgadikgadi salt pans and the Boteti River,which is reasonably near by.",
+          "translation": "它们的时间分配在马卡迪卡迪盐沼和相对较近的博泰蒂河之间。"
+        },
+        {
+          "index": 104,
+          "sentence": "They sometimes struggle to find water in the Boteti area during the dry season, often moving 30 km in search of fresh grazing.",
+          "translation": "在旱季，它们有时难以在博泰蒂地区找到水源，常常移动30公里来寻找新鲜的草场。"
+        },
+        {
+          "index": 105,
+          "sentence": "Their reward: the juicy grass around the Makgadikgadi after the rains.",
+          "translation": "它们的回报是：雨后马卡迪卡迪周围多汁的草。"
+        },
+        {
+          "index": 106,
+          "sentence": "The final group of zebras, whose numbers are more modest (though as yet unknown), must surely be considered as among the animal kingdom's most remarkable athletes.",
+          "translation": "最后一类斑马，数量较少（尽管目前尚不清楚），必须被视为动物王国中最卓越的运动员之一。"
+        },
+        {
+          "index": 107,
+          "sentence": "By moving between the Okavango and the salt pans, they enjoy the best of both worlds.",
+          "translation": "通过在奥卡万戈和盐沼之间迁徒，它们两全其美。"
+        },
+        {
+          "index": 108,
+          "sentence": "But the price they pay is an extraordinary journey across Botswana.",
+          "translation": "但它们付出的代价是一次横跨博茨瓦纳的非凡旅程。"
+        },
+        {
+          "index": 109,
+          "sentence": "Endangered species naturally tend to grab the headlines, so it's refreshing for a relatively abundant animal like the zebra to be the centre of attention for once.",
+          "translation": "濒危物种自然容易占据头条新闻，因此像斑马这样相对繁多的动物能一度成为焦点，令人耳目一新。"
+        },
+        {
+          "index": 110,
+          "sentence": "Zebras are a vital part of the food chain: understanding their migration in turn helps us to interpret the movements of their predators, and Hattie's research has shed light on the impact of fences on migratory animals.",
+          "translation": "斑马是食物链的关键组成部分：了解它们的迁徙反过来有助于我们解读其捕食者的活动，而哈蒂的研究揭示了围栏对迁徙动物的影响。"
+        },
+        {
+          "index": 111,
+          "sentence": "So what triggered her interest in zebras?",
+          "translation": "那么，是什么引发了她对斑马的兴趣呢？"
+        },
+        {
+          "index": 112,
+          "sentence": "She explains that it is easier to get funding to study exciting animals like lions.",
+          "translation": "她解释道，研究像狮子这样令人兴奋的动物更容易获得资金。"
+        },
+        {
+          "index": 113,
+          "sentence": "Crucial as that undoubtedly is, she believes that herbivores like zebras are key to understanding any ecosystem.",
+          "translation": "尽管这无疑很重要，但她认为像斑马这样的食草动物是理解任何生态系统的关键。"
+        },
+        {
+          "index": 114,
+          "sentence": "The scientific community is fortunate that people like Hattie are willing to take the hard option.",
+          "translation": "科学界很幸运，有像哈蒂这样愿意选择艰难道路的人。"
+        },
+        {
+          "index": 115,
+          "sentence": "Endangered species naturally tend to grab the headlines, so it's refreshing for a relatively abundant animal like the zebra to be the centre of attention for once.",
+          "translation": "濒危物种自然倾向于占据头条新闻，因此像斑马这样相对丰富的动物能够成为关注的焦点，令人耳目一新。"
+        },
+        {
+          "index": 116,
+          "sentence": "Zebras are a vital part of the food chain: understanding their migration in turn helps us to interpret the movements of their predators, and Hattie's research has shed light on the impact of fences on migratory animals.",
+          "translation": "斑马是食物链的重要一环：了解它们的迁徙反过来有助于我们解读其捕食者的活动，而哈蒂的研究揭示了围栏对迁徙动物的影响。"
+        },
+        {
+          "index": 117,
+          "sentence": "So what triggered her interest in zebras?",
+          "translation": "那么，是什么引发了她对斑马的兴趣呢？"
+        },
+        {
+          "index": 118,
+          "sentence": "She explains that it is easier to get funding to study exciting animals like lions.",
+          "translation": "她解释说，研究像狮子这样令人兴奋的动物更容易获得资金。"
+        },
+        {
+          "index": 119,
+          "sentence": "Crucial as that undoubtedly is, she believes that herbivores like zebras are key to understanding any ecosystem.",
+          "translation": "尽管这无疑很重要，但她认为像斑马这样的食草动物是理解任何生态系统的关键。"
+        },
+        {
+          "index": 120,
+          "sentence": "The scientific community is fortunate that people like Hattie are willing to take the hard option.",
+          "translation": "科学界很幸运，有像哈蒂这样的人愿意选择艰难的道路。"
+        },
+        {
+          "index": 121,
+          "sentence": "34",
+          "translation": "34"
+        },
+        {
+          "index": 122,
+          "sentence": "Endangered species naturally tend to grab the headlines, so it's refreshing for a relatively abundant animal like the zebra to be the centre of attention for once.",
+          "translation": "濒危物种自然倾向于占据新闻头条，因此像斑马这样相对丰富的动物能成为一次关注的焦点，令人感到耳目一新。"
+        },
+        {
+          "index": 123,
+          "sentence": "Zebras are a vital part of the food chain: understanding their migration in turn helps us to interpret the movements of their predators, and Hattie's research has shed light on the impact of fences on migratory animals.",
+          "translation": "斑马是食物链的重要组成部分：理解它们的迁徙反过来有助于我们解读其捕食者的活动，而哈蒂的研究揭示了围栏对迁徙动物的影响。"
+        },
+        {
+          "index": 124,
+          "sentence": "So what triggered her interest in zebras?",
+          "translation": "那么，是什么激发了她对斑马的研究兴趣呢？"
+        },
+        {
+          "index": 125,
+          "sentence": "She explains that it is easier to get funding to study exciting animals like lions.",
+          "translation": "她解释说，研究像狮子这样引人注目的动物更容易获得资金支持。"
+        },
+        {
+          "index": 126,
+          "sentence": "Crucial as that undoubtedly is, she believes that herbivores like zebras are key to understanding any ecosystem.",
+          "translation": "尽管这无疑很重要，但她认为像斑马这样的食草动物是理解任何生态系统的关键。"
+        },
+        {
+          "index": 127,
+          "sentence": "The scientific community is fortunate that people like Hattie are willing to take the hard option.",
+          "translation": "科学界很幸运，有像哈蒂这样愿意选择艰难道路的人。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

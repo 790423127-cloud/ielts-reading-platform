@@ -1,0 +1,2534 @@
+{
+  "id": "b18-test-3",
+  "book": "剑雅18",
+  "book_number": 18,
+  "name": "Test 3",
+  "title": "剑雅18 Test 3",
+  "parts": [
+    {
+      "id": "2510",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Manly Beaches",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Next time you visit Manly, 30 minutes by ferry from the centre of Australia’s biggest city, Sydney, some of these less famous beaches",
+          "translation": "下次你前往曼利——从澳大利亚最大城市悉尼市中心乘渡轮30分钟即可到达——时，可以探索一些不太知名的海滩。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A Fairy Bower",
+          "translation": "A 仙女湾"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Located in a marine protection ea, the water is perfect for paddling, snorkelling or even scuba diving. There is a small gift shop for unusual souvenirs, and a kiosk that rents stand-up paddleboards. Buses do not stop nearby so a walk is necessary.",
+          "translation": "该海滩位于海洋保护区，水质极佳，适合划桨、浮潜甚至水肺潜水。\n这里有一家出售特色纪念品的小礼品店，以及一个出租站立式桨板的小摊位。\n附近没有公交车站，因此步行是必要的。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B North Steyne",
+          "translation": "B 北斯泰恩海滩"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "This popular beach is a little further from the ferry than the main beach and it always feels less crowded. North Steyne has professional lifeguards on duty, but the surf can be hazardous so check conditions if swimming with young ones. If you want to try surfing for the first time, Manly Surf School operates out of the surf club located on the beach. Please note that boards reserved for students and are not available for rent.",
+          "translation": "这个热门海滩比主海滩离渡轮稍远，因此总是感觉不那么拥挤。\n北斯泰恩海滩有专业救生员值班，但海浪可能有危险，因此如果与儿童一同游泳，请检查海况。\n如果你想初次尝试冲浪，曼利冲浪学校在位于海滩上的冲浪俱乐部内运营。\n请注意，这些冲浪板是为学生预留的，不可租用。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C Delwood",
+          "translation": "C 德尔伍德"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Delwood’s secluded cove is a scenic walk from the ferry along the harbour walkway. There are no shops, so bring a picnic and have a peaceful swim off the rocks. You’ II probably have the beach to yourself.",
+          "translation": "从渡轮码头沿着港口步道步行，即可抵达德尔伍德隐蔽的小海湾，沿途风景如画。\n这里没有商店，所以请自带野餐食物，并在岩石旁享受一次宁静的游泳。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D Little Manly",
+          "translation": "D 小曼利海滩"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "This popular harbour beach has a net that encloses the swimming area. It is a good option for families as the protected area makes it easy to keep an eye on kids playing in the water. There is also a large playground, a public barbecue that anyone can use and toilet facilities, which make this a eat spot for a family day out.",
+          "translation": "这个受欢迎的港口沙滩有一张网将游泳区域围住。\n对于家庭来说，这是一个不错的选择，因为受保护的区域便于照看在水中玩耍的孩子。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E East Esplanade",
+          "translation": "E 东滨海大道"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Located next to Manly Wharf, East Esplanade is a popular spot all day. There is no beach closer to the ferry buses than this one. Kayakers meet for a paddle here as the sun rises, and daytrippers sit on the sand during the day. People get together on the grass after work, and bring drinks, snacks and music to watch the sun go down.",
+          "translation": "东滨海大道位于曼利码头旁边，是一个全天都受欢迎的地点。\n没有比这更靠近渡轮巴士的海滩了。\n日出时，皮划艇爱好者聚集在这里划桨，而白天一日游的游客则坐在沙滩上。\n下班后，人们在草地上聚会，带着饮料、小吃和音乐，观看日落。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F Shelly Beach",
+          "translation": "F 雪莉海滩"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "This is the best spot if you don’t like big waves. Rent a beach chair or head straight to the Boathouse Cafe, the perfect place for breakfast lunch Please note that Shelly Beach gets overly crowded at times, so avoid it on a sunny weekend afternoon.",
+          "translation": "如果你不喜欢大浪，这里是最佳地点。\n租一把沙滩椅，或者直接前往船屋咖啡馆，那里是享用早餐或午餐的绝佳地点。\n请注意，雪莉海滩有时会过于拥挤，因此请避开阳光明媚的周末下午前往。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Sydney Water: advice for customers paying a bill",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "悉尼水务公司：客户支付账单的建议"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "About your bill",
+          "translation": "关于您的账单"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Sydney Water services over five million people in greater Sydney, and if you own a property, you'll get a bill from us. Generally, this is just for your water and wastewater services, but there could be other charges. We send most bills quarterly, after we’ve read the meter. If your property has no meter, we send the bill at the start of each quarter.",
+          "translation": "悉尼水务公司为大悉尼地区超过五百万人提供服务，如果你拥有一处房产，你将会收到我们寄来的账单。\n通常，这仅针对你的供水和污水处理服务，但也可能包含其他费用。\n我们大多数账单按季度发送，在读取水表之后。\n如果你的房产没有水表，我们会在每个季度初发送账单。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "When do we send the bill?",
+          "translation": "我们何时寄送账单？"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "If you’d like monthly bills, simply ask us to read your meter monthly. It costs $32.52 a quarter to be billed this way and this additional fee will appear on the first bill each quarter. To arrange it, just call us on 13 20 92.",
+          "translation": "如果您希望按月收到账单，只需要求我们每月读取您的电表即可。\n按这种方式计费每季度收费32.52美元，这笔额外费用将出现在每季度的第一张账单上。\n如需安排，只需拨打我们的电话13 20 92即可。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "What if you can’t pay the bill？",
+          "translation": "如果你无法支付账单怎么办？"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "We understand that it might be hard to pay your bill. If you’re having difficulties, we have a range of options to help. If you receive a pension, we may give you a reduction on your bill, but you must own and live in your home to qualify for this.",
+          "translation": "我们理解您可能难以支付账单。\n如果您遇到困难，我们提供多种选项来提供帮助。\n如果您领取养老金，我们可能会减免您的部分账单，但您必须拥有并居住在自己的家中才有资格享受此项优惠。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "How can you get your billing history?",
+          "translation": "如何获取你的账单历史记录？"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "· Register for eBill.",
+          "translation": "· 注册电子账单。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "When you register for Sydney Water’s online billing facility, eBill, you'll be able to see your past bills at any time. Once you’re registered, you'll stop getting paper bills and start getting electronic ones.",
+          "translation": "当你注册悉尼水务公司的在线账单服务eBill后，你将能够随时查看过往账单。\n一旦注册成功，你将不再收到纸质账单，而是开始接收电子账单。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "· Still want paper bills?",
+          "translation": "仍然想要纸质账单吗？"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "Simply cancel your registration after you have saved the electronic bills you need. Then you'll go back to paper bills, but you won’t have access to the online bills after you cancel.",
+          "translation": "只需在保存了所需的电子账单后取消注册。\n之后你将恢复到纸质账单，但取消注册后你将无法访问在线账单。"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "· Contact us. Simply contact us and we'll give you a statement that shows the amounts we charged you and the payments we received on your last five bills.",
+          "translation": "· 联系我们。\n只需联系我们，我们便会提供一份账单明细，显示我们向您收取的金额以及我们收到的您最近五期账单的付款。"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "· Need more history?",
+          "translation": "· 需要更早的记录吗？"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "If you need information that’s older than your last five bills, you need to pay $28.04 for a ‘billing record search statement'.",
+          "translation": "如果你需要的信息早于最近五份账单，你需要支付28.04美元来获取一份‘账单记录查询声明'。"
+        },
+        {
+          "label": "",
+          "index": 29,
+          "text": "How do you stop a charge on a bill?",
+          "translation": "如何终止账单上的某项收费？"
+        },
+        {
+          "label": "",
+          "index": 30,
+          "text": "We'll stop fixed charge on your bill if a licensed plumber cuts off your water or wastewater service. Your plumber must apply for this disconnection and follow Sydney Water’s standard procedures.",
+          "translation": "如果持有执照的水管工切断您的水或废水服务，我们将停止对您账单收取固定费用。\n您的水管工必须申请此项断水服务，并遵循悉尼水务公司的标准程序。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "17937",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 7\nLook at the six beach descriptions, A-F, on passage 1A.\nFor which beaches are the following statements true?\nWrite the correct letter, A-F，in boxes 1-7 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "126243",
+              "number": 1,
+              "prompt": "You can buy food at this beach.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干要求找出可以购买食物的海滩。原文F段提到“head straight to the Boathouse Cafe, the perfect place for breakfast lunch”，说明Shelly Beach（F）有咖啡馆提供餐食，对应“buy food”。因此答案为F。",
+              "reason": "选项F明确提到在Boathouse Cafe吃早餐或午餐，对应买食物。",
+              "location_analysis": "F海滩有Boathouse Cafe提供早餐午餐。",
+              "paraphrasing": "buy food -> breakfast, lunch",
+              "keywords": "buy food, beach",
+              "evidence": [
+                "Rent a beach chair or head straight to the Boathouse Cafe, the perfect place for breakfast lunch"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126244",
+              "number": 2,
+              "prompt": "You can learn to do a sport at this beach.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问哪个海滩可以学习一项运动。原文B段指出“If you want to try surfing for the first time, Manly Surf School operates out of the surf club located on the beach”，表明North Steyne（B）提供冲浪课程，符合“learn to do a sport”的描述。因此答案为B。",
+              "reason": "选项B提到冲浪学校，可以学习冲浪这项运动。",
+              "location_analysis": "B海滩有Manly Surf School，可学冲浪。",
+              "paraphrasing": "learn to do a sport -> try surfing for the first time, Manly Surf School",
+              "keywords": "learn sport, beach",
+              "evidence": [
+                "If you want to try surfing for the first time, Manly Surf School operates out of the surf club located on the beach."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126245",
+              "number": 3,
+              "prompt": "This beach can be uncomfortably busy.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干要求找出可能过于拥挤的海滩。原文F段明确说明“Shelly Beach gets overly crowded at times, so avoid it on a sunny weekend afternoon”，其中“overly crowded”与题干中的“uncomfortably busy”形成同义替换。因此答案为F。",
+              "reason": "选项F明确说经常过度拥挤。",
+              "location_analysis": "F海滩会过度拥挤，避免周末下午去。",
+              "paraphrasing": "uncomfortably busy -> overly crowded",
+              "keywords": "uncomfortably busy, beach",
+              "evidence": [
+                "Please note that Shelly Beach gets overly crowded at times, so avoid it on a sunny weekend afternoon."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126246",
+              "number": 4,
+              "prompt": "Adults can supervise their children without much difficulty at this beach.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问哪个海滩便于家长照看孩子。原文D段提到Little Manly（D）“has a net that encloses the swimming area”且“the protected area makes it easy to keep an eye on kids playing in the water”，这与“supervise their children without much difficulty”完全对应。因此答案为D。",
+              "reason": "选项D描述保护区域容易照看孩子。",
+              "location_analysis": "D海滩有围栏游泳区，家长易照看孩子。",
+              "paraphrasing": "supervise their children -> keep an eye on kids; without much difficulty -> easy",
+              "keywords": "supervise children, difficulty, beach",
+              "evidence": [
+                "It is a good option for families as the protected area makes it easy to keep an eye on kids playing in the water."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126247",
+              "number": 5,
+              "prompt": "This beach is nearest to public transport.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干要求找出离公共交通最近的海滩。原文E段明确指出“There is no beach closer to the ferry buses than this one”，说明East Esplanade（E）是距离渡轮巴士最近的海滩，而渡轮和巴士属于公共交通。因此答案为E。",
+              "reason": "选项E明确说没有比它更靠近渡轮巴士的海滩。",
+              "location_analysis": "E海滩离渡轮巴士最近。",
+              "paraphrasing": "nearest to public transport -> no beach closer to the ferry buses",
+              "keywords": "nearest to public transport, beach",
+              "evidence": [
+                "There is no beach closer to the ferry buses than this one."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126248",
+              "number": 6,
+              "prompt": "People are employed to supervise swimmers at this beach.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问哪个海滩有雇员监管游泳者。原文B段提到North Steyne（B）“has professional lifeguards on duty”，其中“professional lifeguards”即被雇佣的专业救生员，负责监督游泳安全，与题干“employed to supervise swimmers”一致。因此答案为B。",
+              "reason": "选项B提到专业救生员在岗，即被雇佣监管游泳者。",
+              "location_analysis": "B海滩有专业救生员值班监管游泳者。",
+              "paraphrasing": "employed to supervise swimmers -> professional lifeguards on duty",
+              "keywords": "employed to supervise swimmers, beach",
+              "evidence": [
+                "North Steyne has professional lifeguards on duty"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126249",
+              "number": 7,
+              "prompt": "You can hire sports equipment at this beach.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干要求找出可租借体育器材的海滩。原文A段提到Fairy Bower（A）有“a kiosk that rents stand-up paddleboards”，站立式桨板属于水上运动器材，对应“hire sports equipment”。因此答案为A。",
+              "reason": "选项A的售货亭出租站立式桨板，属于体育器材。",
+              "location_analysis": "A海滩有租赁站立式桨板。",
+              "paraphrasing": "hire sports equipment -> rents stand-up paddleboards",
+              "keywords": "hire sports equipment, beach",
+              "evidence": [
+                "a kiosk that rents stand-up paddleboards"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "17939",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in Reading Passage 1B?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "126250",
+              "number": 8,
+              "prompt": "All property owners receive Sydney Water bills.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干陈述“所有房产所有者都会收到悉尼水务账单”。原文明确说明“if you own a property, you'll get a bill from us”，即拥有房产就会收到账单，与题干完全一致。因此答案为TRUE。",
+              "reason": "原文明确，与题干一致。",
+              "location_analysis": "原文说如果你拥有房产就会收到账单，所以所有业主都会收到。",
+              "paraphrasing": "All property owners -> if you own a property; receive Sydney Water bills -> you'll get a bill from us",
+              "keywords": "property owners, Sydney Water bills",
+              "evidence": [
+                "if you own a property, you'll get a bill from us"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "与原文中“所有业主都收到悉尼水费账单”的信息直接矛盾。",
+                "NOT GIVEN": "原文明确提及了所有业主收到账单的信息，并非未提及。"
+              }
+            },
+            {
+              "id": "126251",
+              "number": 9,
+              "prompt": "Customers who don't have a water meter must pay an extra charge.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“没有水表的客户需支付额外费用”。原文仅说明“若房产无水表，则在每季度初寄出账单”，并未提及任何额外收费。因此文中无此信息，答案为NOT GIVEN。",
+              "reason": "原文未提及任何额外收费",
+              "location_analysis": "原文只说了无表时账单发送方式，未提额外费用。",
+              "paraphrasing": "customers who don't have a water meter -> If your property has no meter",
+              "keywords": "no water meter, extra charge",
+              "evidence": [
+                "If your property has no meter, we send the bill at the start of each quarter."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及没有水表的客户必须支付额外费用，该选项无中生有。",
+                "FALSE": "原文未明确说明没有水表的客户不需要支付额外费用，无法判断为假。"
+              }
+            },
+            {
+              "id": "126252",
+              "number": 10,
+              "prompt": "Customers who choose to receive a bill every month pay extra.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干说选择每月账单需额外付费。原文明确指出“If you’d like monthly bills... It costs $32.52 a quarter to be billed this way and this additional fee will appear on the first bill each quarter”，说明确实存在附加费用。因此答案为TRUE。",
+              "reason": "原文明确说明选择月账单需额外费用。",
+              "location_analysis": "选择月账单需每季度额外支付32.52澳元。",
+              "paraphrasing": "receive a bill every month -> monthly bills; pay extra -> costs $32.52 a quarter, additional fee",
+              "keywords": "monthly bill, pay extra",
+              "evidence": [
+                "It costs $32.52 a quarter to be billed this way and this additional fee will appear on the first bill each quarter."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "原文明确指出有额外费用，该选项与实际信息矛盾。",
+                "NOT GIVEN": "原文中有关于额外费用的明确信息，并非未提及。"
+              }
+            },
+            {
+              "id": "126253",
+              "number": 11,
+              "prompt": "Pensioners who live in rented accommodation might get a discount.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称租房的养老金领取者可能获得折扣。但原文规定“If you receive a pension... you must own and live in your home to qualify for this”，即必须拥有并居住在自有住房中才能享受优惠，租房不符合条件。因此题干与原文矛盾，答案为FALSE。",
+              "reason": "题干说租房可能获得折扣，与原文矛盾。",
+              "location_analysis": "原文说领取养老金者需拥有并居住在自己家中才有优惠，租房不行。",
+              "paraphrasing": "live in rented accommodation -> not own and live in your home; might get a discount -> but you must own and live in your home to qualify",
+              "keywords": "pensioners, rented accommodation, discount",
+              "evidence": [
+                "If you receive a pension, we may give you a reduction on your bill, but you must own and live in your home to qualify for this."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文中明确说明此类情况存在折扣，但该选项声称会获得折扣，与原文矛盾。",
+                "NOT GIVEN": "原文中直接给出了相反信息，并非未提及，因此不是NOT GIVEN。"
+              }
+            },
+            {
+              "id": "126254",
+              "number": 12,
+              "prompt": "Customers registered for eBill receive both paper and electronic bills.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称注册eBill的客户会同时收到纸质和电子账单。但原文明确说明“Once you’re registered, you'll stop getting paper bills and start getting electronic ones”，即只收电子账单。因此题干错误，答案为FALSE。",
+              "reason": "原文明确只收电子账单，与题干不符。",
+              "location_analysis": "注册eBill后停止纸质账单，只收电子账单，并非两者都收。",
+              "paraphrasing": "receive both paper and electronic bills -> stop getting paper bills and start getting electronic ones",
+              "keywords": "eBill, both paper and electronic bills",
+              "evidence": [
+                "you'll stop getting paper bills and start getting electronic ones."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "TRUE": "原文指出注册eBill的客户只收到电子账单，不收到纸质账单，与此矛盾。",
+                "NOT GIVEN": "原文明确提到了注册eBill的客户账单接收方式，并非未提及。"
+              }
+            },
+            {
+              "id": "126255",
+              "number": 13,
+              "prompt": "Customers who request information from the period before their last five bills must pay a fee.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称索取早于最近五张账单的信息需付费。原文明确指出“If you need information that’s older than your last five bills, you need to pay $28.04 for a ‘billing record search statement’”，与题干完全一致。因此答案为TRUE。",
+              "reason": "原文明确说需要付费。",
+              "location_analysis": "需要早于最近五张账单的信息需支付28.04澳元。",
+              "paraphrasing": "request information from the period before their last five bills -> need information that’s older than your last five bills; pay a fee -> pay $28.04",
+              "keywords": "older than last five bills, pay a fee",
+              "evidence": [
+                "If you need information that’s older than your last five bills, you need to pay $28.04 for a ‘billing record search statement'."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文明确陈述的事实相矛盾。",
+                "NOT GIVEN": "该选项错误地认为原文未提供相关信息，实际上原文已明确说明。"
+              }
+            },
+            {
+              "id": "126256",
+              "number": 14,
+              "prompt": "A fixed charge can be avoided when the water supply is disconnected by a licensed plumber.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干称当持证水管工断开供水时可避免固定收费。原文明确说明“We'll stop fixed charge on your bill if a licensed plumber cuts off your water or wastewater service”，其中“stop fixed charge”即避免该费用，“licensed plumber”与题干一致。因此答案为TRUE。",
+              "reason": "原文明确说明情况。",
+              "location_analysis": "如果持证水管工断开供水，可停止固定收费。",
+              "paraphrasing": "avoided -> stop; water supply is disconnected by a licensed plumber -> a licensed plumber cuts off your water or wastewater service",
+              "keywords": "fixed charge, disconnected by licensed plumber",
+              "evidence": [
+                "We'll stop fixed charge on your bill if a licensed plumber cuts off your water or wastewater service."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾，原文明确表示由有执照水管工切断供水可避免固定费用。",
+                "NOT GIVEN": "原文已明确给出相关信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Manly Beaches",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Next time you visit Manly, 30 minutes by ferry from the centre of Australia’s biggest city, Sydney, some of these less famous beaches",
+          "translation": "下次你前往曼利——从澳大利亚最大城市悉尼市中心乘渡轮30分钟即可到达——时，可以探索一些不太知名的海滩。"
+        },
+        {
+          "index": 2,
+          "sentence": "A Fairy Bower",
+          "translation": "A 仙女湾"
+        },
+        {
+          "index": 3,
+          "sentence": "Located in a marine protection ea, the water is perfect for paddling, snorkelling or even scuba diving.",
+          "translation": "该海滩位于海洋保护区，水质极佳，适合划桨、浮潜甚至水肺潜水。"
+        },
+        {
+          "index": 4,
+          "sentence": "There is a small gift shop for unusual souvenirs, and a kiosk that rents stand-up paddleboards.",
+          "translation": "这里有一家出售特色纪念品的小礼品店，以及一个出租站立式桨板的小摊位。"
+        },
+        {
+          "index": 5,
+          "sentence": "Buses do not stop nearby so a walk is necessary.",
+          "translation": "附近没有公交车站，因此步行是必要的。"
+        },
+        {
+          "index": 6,
+          "sentence": "B North Steyne",
+          "translation": "B 北斯泰恩海滩"
+        },
+        {
+          "index": 7,
+          "sentence": "This popular beach is a little further from the ferry than the main beach and it always feels less crowded.",
+          "translation": "这个热门海滩比主海滩离渡轮稍远，因此总是感觉不那么拥挤。"
+        },
+        {
+          "index": 8,
+          "sentence": "North Steyne has professional lifeguards on duty, but the surf can be hazardous so check conditions if swimming with young ones.",
+          "translation": "北斯泰恩海滩有专业救生员值班，但海浪可能有危险，因此如果与儿童一同游泳，请检查海况。"
+        },
+        {
+          "index": 9,
+          "sentence": "If you want to try surfing for the first time, Manly Surf School operates out of the surf club located on the beach.",
+          "translation": "如果你想初次尝试冲浪，曼利冲浪学校在位于海滩上的冲浪俱乐部内运营。"
+        },
+        {
+          "index": 10,
+          "sentence": "Please note that boards reserved for students and are not available for rent.",
+          "translation": "请注意，这些冲浪板是为学生预留的，不可租用。"
+        },
+        {
+          "index": 11,
+          "sentence": "C Delwood",
+          "translation": "C 德尔伍德"
+        },
+        {
+          "index": 12,
+          "sentence": "Delwood’s secluded cove is a scenic walk from the ferry along the harbour walkway.",
+          "translation": "从渡轮码头沿着港口步道步行，即可抵达德尔伍德隐蔽的小海湾，沿途风景如画。"
+        },
+        {
+          "index": 13,
+          "sentence": "There are no shops, so bring a picnic and have a peaceful swim off the rocks.",
+          "translation": "这里没有商店，所以请自带野餐食物，并在岩石旁享受一次宁静的游泳。"
+        },
+        {
+          "index": 14,
+          "sentence": "You'll probably have the beach to yourself.",
+          "translation": "你很可能独享整个海滩。"
+        },
+        {
+          "index": 15,
+          "sentence": "D Little Manly",
+          "translation": "D 小曼利海滩"
+        },
+        {
+          "index": 16,
+          "sentence": "This popular harbour beach has a net that encloses the swimming area.",
+          "translation": "这个受欢迎的港口沙滩有一张网将游泳区域围住。"
+        },
+        {
+          "index": 17,
+          "sentence": "It is a good option for families as the protected area makes it easy to keep an eye on kids playing in the water.",
+          "translation": "对于家庭来说，这是一个不错的选择，因为受保护的区域便于照看在水中玩耍的孩子。"
+        },
+        {
+          "index": 18,
+          "sentence": "There is also a large playground, a public barbecue that anyone can use and toilet facilities, which make this a great spot for a family day out.",
+          "translation": "还有一个大型游乐场、任何人都可以使用的公共烧烤设施以及卫生间设施，这些使它成为家庭出游的好地方。"
+        },
+        {
+          "index": 19,
+          "sentence": "E East Esplanade",
+          "translation": "E 东滨海大道"
+        },
+        {
+          "index": 20,
+          "sentence": "Located next to Manly Wharf, East Esplanade is a popular spot all day.",
+          "translation": "东滨海大道位于曼利码头旁边，是一个全天都受欢迎的地点。"
+        },
+        {
+          "index": 21,
+          "sentence": "There is no beach closer to the ferry buses than this one.",
+          "translation": "没有比这更靠近渡轮巴士的海滩了。"
+        },
+        {
+          "index": 22,
+          "sentence": "Kayakers meet for a paddle here as the sun rises, and daytrippers sit on the sand during the day.",
+          "translation": "日出时，皮划艇爱好者聚集在这里划桨，而白天一日游的游客则坐在沙滩上。"
+        },
+        {
+          "index": 23,
+          "sentence": "People get together on the grass after work, and bring drinks, snacks and music to watch the sun go down.",
+          "translation": "下班后，人们在草地上聚会，带着饮料、小吃和音乐，观看日落。"
+        },
+        {
+          "index": 24,
+          "sentence": "F Shelly Beach",
+          "translation": "F 雪莉海滩"
+        },
+        {
+          "index": 25,
+          "sentence": "This is the best spot if you don’t like big waves.",
+          "translation": "如果你不喜欢大浪，这里是最佳地点。"
+        },
+        {
+          "index": 26,
+          "sentence": "Rent a beach chair or head straight to the Boathouse Cafe, the perfect place for breakfast lunch",
+          "translation": "租一把沙滩椅，或者直接前往船屋咖啡馆，那里是享用早餐或午餐的绝佳地点。"
+        },
+        {
+          "index": 27,
+          "sentence": "Please note that Shelly Beach gets overly crowded at times, so avoid it on a sunny weekend afternoon.",
+          "translation": "请注意，雪莉海滩有时会过于拥挤，因此请避开阳光明媚的周末下午前往。"
+        },
+        {
+          "index": 28,
+          "sentence": "Sydney Water: advice for customers paying a bill",
+          "translation": "悉尼水务公司：客户支付账单的建议"
+        },
+        {
+          "index": 29,
+          "sentence": "About your bill",
+          "translation": "关于您的账单"
+        },
+        {
+          "index": 30,
+          "sentence": "Sydney Water services over five million people in greater Sydney, and if you own a property, you'll get a bill from us.",
+          "translation": "悉尼水务公司为大悉尼地区超过五百万人提供服务，如果你拥有一处房产，你将会收到我们寄来的账单。"
+        },
+        {
+          "index": 31,
+          "sentence": "Generally, this is just for your water and wastewater services, but there could be other charges.",
+          "translation": "通常，这仅针对你的供水和污水处理服务，但也可能包含其他费用。"
+        },
+        {
+          "index": 32,
+          "sentence": "We send most bills quarterly, after we’ve read the meter.",
+          "translation": "我们大多数账单按季度发送，在读取水表之后。"
+        },
+        {
+          "index": 33,
+          "sentence": "If your property has no meter, we send the bill at the start of each quarter.",
+          "translation": "如果你的房产没有水表，我们会在每个季度初发送账单。"
+        },
+        {
+          "index": 34,
+          "sentence": "When do we send the bill?",
+          "translation": "我们何时寄送账单？"
+        },
+        {
+          "index": 35,
+          "sentence": "If you’d like monthly bills, simply ask us to read your meter monthly.",
+          "translation": "如果您希望按月收到账单，只需要求我们每月读取您的电表即可。"
+        },
+        {
+          "index": 36,
+          "sentence": "It costs $32.52 a quarter to be billed this way and this additional fee will appear on the first bill each quarter.",
+          "translation": "按这种方式计费每季度收费32.52美元，这笔额外费用将出现在每季度的第一张账单上。"
+        },
+        {
+          "index": 37,
+          "sentence": "To arrange it, just call us on 13 20 92.",
+          "translation": "如需安排，只需拨打我们的电话13 20 92即可。"
+        },
+        {
+          "index": 38,
+          "sentence": "What if you can’t pay the bill？",
+          "translation": "如果你无法支付账单怎么办？"
+        },
+        {
+          "index": 39,
+          "sentence": "We understand that it might be hard to pay your bill.",
+          "translation": "我们理解您可能难以支付账单。"
+        },
+        {
+          "index": 40,
+          "sentence": "If you’re having difficulties, we have a range of options to help.",
+          "translation": "如果您遇到困难，我们提供多种选项来提供帮助。"
+        },
+        {
+          "index": 41,
+          "sentence": "If you receive a pension, we may give you a reduction on your bill, but you must own and live in your home to qualify for this.",
+          "translation": "如果您领取养老金，我们可能会减免您的部分账单，但您必须拥有并居住在自己的家中才有资格享受此项优惠。"
+        },
+        {
+          "index": 42,
+          "sentence": "How can you get your billing history?",
+          "translation": "如何获取你的账单历史记录？"
+        },
+        {
+          "index": 43,
+          "sentence": "· Register for eBill.",
+          "translation": "· 注册电子账单。"
+        },
+        {
+          "index": 44,
+          "sentence": "When you register for Sydney Water’s online billing facility, eBill, you'll be able to see your past bills at any time.",
+          "translation": "当你注册悉尼水务公司的在线账单服务eBill后，你将能够随时查看过往账单。"
+        },
+        {
+          "index": 45,
+          "sentence": "Once you’re registered, you'll stop getting paper bills and start getting electronic ones.",
+          "translation": "一旦注册成功，你将不再收到纸质账单，而是开始接收电子账单。"
+        },
+        {
+          "index": 46,
+          "sentence": "Still want paper bills?",
+          "translation": "仍然想要纸质账单吗？"
+        },
+        {
+          "index": 47,
+          "sentence": "Simply cancel your registration after you have saved the electronic bills you need.",
+          "translation": "只需在保存了所需的电子账单后取消注册。"
+        },
+        {
+          "index": 48,
+          "sentence": "Then you'll go back to paper bills, but you won’t have access to the online bills after you cancel.",
+          "translation": "之后你将恢复到纸质账单，但取消注册后你将无法访问在线账单。"
+        },
+        {
+          "index": 49,
+          "sentence": "· Contact us.",
+          "translation": "· 联系我们。"
+        },
+        {
+          "index": 50,
+          "sentence": "Simply contact us and we'll give you a statement that shows the amounts we charged you and the payments we received on your last five bills.",
+          "translation": "只需联系我们，我们便会提供一份账单明细，显示我们向您收取的金额以及我们收到的您最近五期账单的付款。"
+        },
+        {
+          "index": 51,
+          "sentence": "· Need more history?",
+          "translation": "· 需要更早的记录吗？"
+        },
+        {
+          "index": 52,
+          "sentence": "If you need information that’s older than your last five bills, you need to pay $28.04 for a ‘billing record search statement'.",
+          "translation": "如果你需要的信息早于最近五份账单，你需要支付28.04美元来获取一份‘账单记录查询声明'。"
+        },
+        {
+          "index": 53,
+          "sentence": "How do you stop a charge on a bill?",
+          "translation": "如何终止账单上的某项收费？"
+        },
+        {
+          "index": 54,
+          "sentence": "We'll stop fixed charge on your bill if a licensed plumber cuts off your water or wastewater service.",
+          "translation": "如果持有执照的水管工切断您的水或废水服务，我们将停止对您账单收取固定费用。"
+        },
+        {
+          "index": 55,
+          "sentence": "Your plumber must apply for this disconnection and follow Sydney Water’s standard procedures.",
+          "translation": "您的水管工必须申请此项断水服务，并遵循悉尼水务公司的标准程序。"
+        }
+      ]
+    },
+    {
+      "id": "2511",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Company car parking policy",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "DG Contracts recognises that many people working in the organisation require a vehicle for business purposes and aims to provide parking facilities for as many individuals as possible. However, car parking provision is limited. DG Contracts therefore actively encourages staff to reduce their carbon footprint by using public transport, walking or cycling, or by organising ways of sharing the use of cars.",
+          "translation": "DG合同公司认识到，许多在公司工作的人员出于业务需求需要车辆，并旨在为尽可能多的个人提供停车设施。\n然而，停车位供应有限。\n因此，DG合同公司积极鼓励员工通过使用公共交通、步行或骑自行车，或组织拼车方式来减少碳足迹。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "The car parking policy aims to allocate parking on a fair and equitable basis with spaces being given first to those employees who claim above a certain mileage of travel for business purposes. Individuals who are allocated a parking space will be issued with a parking permit and a number which corresponds to a car parking space. If there are any non-allocated car parking spaces, these can be utilised by employees on a first-come, first-served basis. In some cases, designated parking areas are required for company vehicles, which must be parked securely at night. However, employees may park in these areas in the daytime.",
+          "translation": "该停车政策旨在以公平公正的原则分配停车位，优先将车位分配给那些因公务出行里程超过一定标准的员工。\n被分配到停车位的员工将获得一张停车许可证和一个与停车位对应的编号。\n如有任何未分配的停车位，员工可按照先到先得的原则使用。\n在某些情况下，公司车辆需要指定的停车区域，这些车辆夜间必须安全停放。\n不过，员工在白天可以停放在这些区域。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "If any individual leaves the company prior to the expiry of their parking permit, this will be handed on to the member of staff who acts as their replacement, assuming that this person requires it. If any individual who has been issued a parking permit takes maternity leave or is signed off work for a lengthy period, their parking permit will be reallocated to the staff member appointed as cover for this individual during their absence.",
+          "translation": "如果任何人在其停车许可证到期前离开公司，该许可证将转交给接替其职位的员工，前提是此人需要停车位。\n如果任何已获得停车许可证的员工休产假或因故长期无法工作，其停车许可证将重新分配给在此期间被指定替代该员工的工作人员。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Employees who park their cars in a DG company car park do so at their own risk and must follow the rules laid down in the parking policy. If you have any complaints concerning any aspect of car parking at DG company car parks, please address them to the HR Manager.",
+          "translation": "在DG公司停车场停车的员工需自行承担风险，且必须遵守停车政策中规定的规则。\n如果您对DG公司停车场的任何停车问题有投诉，请向人力资源经理反映。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Ensuring safety in the office",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "确保办公室安全"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "It’s fairly obvious that safety and health hazards can exist on worksites filled with heavy machine and equipment. However, a surprising number of hazards can also be present in the office.",
+          "translation": "显而易见，在堆满重型机械和设备的工作场所可能存在安全和健康隐患。\n然而，办公室中也可能存在数量惊人的安全隐患。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "The most common types of injuries are slips, trips and falls. Boxes, files and other items piled in walkways can create a tripping hazard. Be certain that all materials are safely stored in their proper location to prevent build-up of clutter. Further, in addition to posing an electrical hazard, stretching wires across walkways creates a tripping hazard, so ensure they are properly secured and covered.",
+          "translation": "最常见的伤害类型是滑倒、绊倒和摔倒。\n堆放在过道上的箱子、文件和其他物品可能造成绊倒的危险。\n确保所有材料都被安全地存放在合适的位置，以防止杂物堆积。\n此外，电线横跨过道不仅会造成电气危险，还会产生绊倒隐患，因此要确保它们被妥善固定并覆盖。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Standing on rolling office chairs is a significant fall hazard. Workers who need to reach something at an elevated height should use a stepladder, which must be fully opened and placed on level ground.",
+          "translation": "站在带滚轮的办公椅上是一个重大的跌倒隐患。\n需要够到高处物品的员工应使用梯凳，且梯凳必须完全打开并放置在平坦的地面上。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Workers can collide when making turns in the hallways and around blind corners. This can be prevented by installing mirrors in these places so workers can see who is coming. Floors may also present a hazard. Marble tile can become very slippery，particularly when wet. The use of carpets can help to reduce falls and can be especially helpful at main doors, where workers are likely to be coming in with wet shoes.",
+          "translation": "工人在走廊转弯处及视线死角区域可能会发生碰撞。\n可通过在这些位置安装镜子来预防此类事故，从而使工人能够看到来人的动向。\n地板同样可能构成安全隐患。\n大理石瓷砖会变得非常滑，尤其是在潮湿的情况下。\n使用地毯有助于减少摔倒事故，并且在大门处特别有效，因为工人很可能穿着湿鞋进入该区域。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Another type of injury comes from workers being struck by an object. Filing cabinets may be in danger of tipping over if drawers are left open, and filing cabinets and desks may also create a tripping hazard if they are not properly closed. High piles of materials and equipment can cause major injuries if they are knocked over. Heavy objects should always be stored close to the ground, and the load capacity of shelves should never be exceeded.",
+          "translation": "另一种伤害类型来自员工被物体撞击。\n如果抽屉未关好，文件柜有可能倾倒；而文件柜和桌子若未妥善关闭，也可能造成绊倒风险。\n高高的物料和设备堆若被撞倒，可能导致严重伤害。\n重物应始终存放在靠近地面的位置，并且绝不可超过货架的承载能力。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Because office workers spend most of their day seated at a desk, they are prone to strains and other injuries related to posture and repetitive movement. Desks, seating, monitor stands, etc. should all be adjustable in order to accommodate the widest possible range of employees. Typing from hard copy can lead to neck strain if a worker is forced to look down repeatedly to the desk at the document being copied and back to the computer screen. This can be prevented by providing holders, which help to prevent muscle imbalance by positioning the document at the same level as the screen. Another cause of neck injuries is incorrect placement of the computer mouse - this should always be kept beside the keyboard, and at the same level.",
+          "translation": "由于办公室员工一天中的大部分时间都坐在办公桌前，他们容易受到与姿势和重复性动作相关的肌肉拉伤及其他损伤。\n办公桌、座椅、显示器支架等都应可调节，以便适应尽可能多的不同员工。\n如果员工被迫反复低头看向桌面上正在抄写的文件，然后再抬头看向电脑屏幕，那么从纸质文件上打字可能会导致颈部劳损。\n可以通过提供文件架来防止这种情况，文件架将文件放置在屏幕的同一水平高度，有助于避免肌肉不平衡。\n颈部受伤的另一个原因是电脑鼠标放置不当——鼠标应始终放在键盘旁边，并且保持在同一水平高度。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "17948",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 20\nComplete the sentences below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 15-20 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "126257",
+              "number": 15,
+              "prompt": "Parking is limited, so the use of alternative methods of transport and the _____ of cars is encouraged.",
+              "options": [],
+              "answer": "sharing",
+              "accepted_answers": [
+                "sharing"
+              ],
+              "analysis": "题干中的“the use of alternative methods of transport and the ___ of cars”对应原文中的“using public transport, walking or cycling, or by organising ways of sharing the use of cars”。其中，“sharing”是原文中明确提到的拼车方式，与题干结构完全匹配，因此答案为 sharing。",
+              "reason": "直接对应原文 'organising ways of sharing'。",
+              "location_analysis": "原文鼓励员工通过拼车减少碳足迹。",
+              "paraphrasing": "use of alternative methods and sharing of cars -> organising ways of sharing the use of cars",
+              "keywords": "alternative methods, sharing",
+              "evidence": [
+                "DG Contracts therefore actively encourages staff to reduce their carbon footprint by using public transport, walking or cycling, or by organising ways of sharing the use of cars."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126258",
+              "number": 16,
+              "prompt": "Staff with the highest _____ are given parking spaces first.",
+              "options": [],
+              "answer": "mileage",
+              "accepted_answers": [
+                "mileage"
+              ],
+              "analysis": "题干要求填写“Staff with the highest ___ are given parking spaces first”，原文第二段指出“spaces being given first to those employees who claim above a certain mileage of travel for business purposes”。“mileage”即为员工申请商务出行的行驶里程数，与题干中的“highest”形成逻辑对应，因此答案是 mileage。",
+              "reason": "直接匹配题干。",
+              "location_analysis": "优先分配停车位给高行驶里程的员工。",
+              "paraphrasing": "highest mileage -> claim above a certain mileage",
+              "keywords": "parking spaces, highest mileage",
+              "evidence": [
+                "The car parking policy aims to allocate parking on a fair and equitable basis with spaces being given first to those employees who claim above a certain mileage of travel for business purposes."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126259",
+              "number": 17,
+              "prompt": "Some parking spaces are reserved for company vehicles during the _____ but may be used by staff at other times.",
+              "options": [],
+              "answer": "night",
+              "accepted_answers": [
+                "night"
+              ],
+              "analysis": "题干中提到“reserved for company vehicles during the ___ but may be used by staff at other times”，原文第二段说明“designated parking areas are required for company vehicles, which must be parked securely at night. However, employees may park in these areas in the daytime”。“night”与“daytime”形成时间对比，符合题干语境，因此答案为 night。",
+              "reason": "原文明确 'at night'。",
+              "location_analysis": "公司车辆晚间需安全停放，但白天员工可用。",
+              "paraphrasing": "during the night -> at night",
+              "keywords": "reserved, company vehicles, night",
+              "evidence": [
+                "In some cases, designated parking areas are required for company vehicles, which must be parked securely at night. However, employees may park in these areas in the daytime."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126260",
+              "number": 18,
+              "prompt": "If an employee leaves the company permanently, their parking space will normally be given to their _____.",
+              "options": [],
+              "answer": "replacement",
+              "accepted_answers": [
+                "replacement"
+              ],
+              "analysis": "题干描述“their parking space will normally be given to their ___”，原文第三段明确指出“If any individual leaves the company... this will be handed on to the member of staff who acts as their replacement”。“replacement”指接替离职员工职位的人，与题干意思完全一致，因此答案是 replacement。",
+              "reason": "直接对应题干。",
+              "location_analysis": "员工离职后停车位转给接替者。",
+              "paraphrasing": "given to replacement -> handed on to the member of staff who acts as their replacement",
+              "keywords": "leaves permanently, replacement",
+              "evidence": [
+                "If any individual leaves the company prior to the expiry of their parking permit, this will be handed on to the member of staff who acts as their replacement, assuming that this person requires it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126261",
+              "number": 19,
+              "prompt": "If an employee takes extended leave, their parking space will be given to the person who provides _____ for the absent employee.",
+              "options": [],
+              "answer": "cover",
+              "accepted_answers": [
+                "cover"
+              ],
+              "analysis": "题干中“the person who provides ___ for the absent employee”对应原文第三段的“reallocated to the staff member appointed as cover for this individual during their absence”。“cover”在此处意为临时代班或顶替，符合题干语义，因此正确答案是 cover。",
+              "reason": "原文 'appointed as cover' 对应。",
+              "location_analysis": "长期休假时，车位分配给临时接替者。",
+              "paraphrasing": "provides cover -> appointed as cover",
+              "keywords": "extended leave, cover",
+              "evidence": [
+                "If any individual who has been issued a parking permit takes maternity leave or is signed off work for a lengthy period, their parking permit will be reallocated to the staff member appointed as cover for this individual during their absence."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126262",
+              "number": 20,
+              "prompt": "All _____ about car parking should be sent to the HR Manager.",
+              "options": [],
+              "answer": "complaints",
+              "accepted_answers": [
+                "complaints"
+              ],
+              "analysis": "题干要求填写“All ___ about car parking should be sent to the HR Manager”，原文第四段明确写道“If you have any complaints concerning any aspect of car parking... please address them to the HR Manager”。“complaints”直接对应题干中的“about car parking”，因此答案为 complaints。",
+              "reason": "直接对应题干。",
+              "location_analysis": "停车投诉应提交给人力资源经理。",
+              "paraphrasing": "complaints about car parking -> any complaints concerning any aspect of car parking",
+              "keywords": "complaints, HR Manager",
+              "evidence": [
+                "If you have any complaints concerning any aspect of car parking at DG company car parks, please address them to the HR Manager."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Parking is limited, so the use of alternative methods of transport and the $126257$ of cars is encouraged.\n16 Staff with the highest $126258$ are given parking spaces first.\n17 Some parking spaces are reserved for company vehicles during the $126259$ but may be used by staff at other times.\n18 If an employee leaves the company permanently, their parking space will normally be given to their $126260$.\n19 If an employee takes extended leave, their parking space will be given to the person who provides $126261$ for the absent employee.\n20 All $126262$ about car parking should be sent to the HR Manager.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Parking is limited, so the use of alternative methods of transport and the $126257$ of cars is encouraged.\n16 Staff with the highest $126258$ are given parking spaces first.\n17 Some parking spaces are reserved for company vehicles during the $126259$ but may be used by staff at other times.\n18 If an employee leaves the company permanently, their parking space will normally be given to their $126260$.\n19 If an employee takes extended leave, their parking space will be given to the person who provides $126261$ for the absent employee.\n20 All $126262$ about car parking should be sent to the HR Manager."
+        },
+        {
+          "id": "17950",
+          "type": 8,
+          "title": "Making sure offices are safe",
+          "instructions": "Questions 21 - 27\nComplete the notes below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 21-27 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "126263",
+              "number": 21,
+              "prompt": "• items such as _____ do not create a tripping hazard",
+              "options": [],
+              "answer": "wires",
+              "accepted_answers": [
+                "wires"
+              ],
+              "analysis": "步骤 1：定位信息梳理\n题型：21-27 摘要填空，顺序出题，Q21 是第一道填空，对应文章办公装修规范段落。\n定位词：Q21 题干核心考点（办公装修需要隐藏的物品）\n原文对应句子：\nAll wires must be hidden inside the walls or under the floor.\n步骤 2：定位与同义替换拆解\n题干逻辑：办公改造时，______必须隐藏起来\n原文原词：wires（电线），无改写，原词复现；\nmust be hidden 完全匹配题干被动语态 “需要被隐藏” 的要求；\n题目规则 ONE WORD ONLY，wires 为单个名词，符合书写要求。",
+              "reason": "原文直接提及 wires 为绊倒隐患。",
+              "location_analysis": "电线横穿走道会造成绊倒危险。",
+              "paraphrasing": "items such as wires -> stretching wires across walkways",
+              "keywords": "tripping hazard, wires",
+              "evidence": [
+                "stretching wires across walkways creates a tripping hazard"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126264",
+              "number": 22,
+              "prompt": "• workers do not use _____ to reach high objects",
+              "options": [],
+              "answer": "chairs",
+              "accepted_answers": [
+                "chairs"
+              ],
+              "analysis": "题干要求填写“workers do not use ___ to reach high objects”，原文第七段指出“Standing on rolling office chairs is a significant fall hazard”，并建议使用梯子代替。“chairs”即为员工不应使用的登高工具，因此答案为 chairs。",
+              "reason": "原文明确指出其危险。",
+              "location_analysis": "禁止员工用椅子垫高取物。",
+              "paraphrasing": "workers do not use chairs -> standing on rolling office chairs is a significant fall hazard",
+              "keywords": "chairs, reach high objects",
+              "evidence": [
+                "Standing on rolling office chairs is a significant fall hazard."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126265",
+              "number": 23,
+              "prompt": "• _____ are fixed at corners",
+              "options": [],
+              "answer": "mirrors",
+              "accepted_answers": [
+                "mirrors"
+              ],
+              "analysis": "题干中“___ are fixed at corners”对应原文第八段的“This can be prevented by installing mirrors in these places so workers can see who is coming”。“mirrors”用于防止在转角处发生碰撞，符合题干语境，因此答案是 mirrors。",
+              "reason": "direct match。",
+              "location_analysis": "在角落安装镜子以防碰撞。",
+              "paraphrasing": "mirrors fixed at corners -> installing mirrors in these places",
+              "keywords": "mirrors, corners",
+              "evidence": [
+                "This can be prevented by installing mirrors in these places so workers can see who is coming."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126266",
+              "number": 24,
+              "prompt": "• floors are covered by _____, especially at entrances",
+              "options": [],
+              "answer": "carpets",
+              "accepted_answers": [
+                "carpets"
+              ],
+              "analysis": "题干提到“floors are covered by ___ , especially at entrances”，原文第八段指出“The use of carpets can help to reduce falls and can be especially helpful at main doors”。“carpets”被明确推荐用于入口区域以防滑倒，因此答案为 carpets。",
+              "reason": "原文直接对应。",
+              "location_analysis": "入口铺设地毯减少滑倒。",
+              "paraphrasing": "floors covered by carpets -> the use of carpets can help to reduce falls and can be especially helpful at main doors",
+              "keywords": "carpets, entrances",
+              "evidence": [
+                "The use of carpets can help to reduce falls and can be especially helpful at main doors"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126267",
+              "number": 25,
+              "prompt": "To prevent injuries caused by objects, ensure that — • _____ in office furniture are kept closed",
+              "options": [],
+              "answer": "drawers",
+              "accepted_answers": [
+                "drawers"
+              ],
+              "analysis": "题干要求填写“___ in office furniture are kept closed”，原文第九段提到“Filing cabinets may be in danger of tipping over if drawers are left open”。“drawers”若未关闭会导致家具倾倒，构成安全隐患，因此答案是 drawers。",
+              "reason": "原文提及抽屉不关导致危险。",
+              "location_analysis": "文件柜抽屉应保持关闭以防倾倒。",
+              "paraphrasing": "drawers kept closed -> filing cabinets may be in danger of tipping over if drawers are left open",
+              "keywords": "drawers, kept closed",
+              "evidence": [
+                "Filing cabinets may be in danger of tipping over if drawers are left open"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126268",
+              "number": 26,
+              "prompt": "To prevent injuries due sture and repetitive vement, ensure that — • office furniture is _____",
+              "options": [],
+              "answer": "adjustable",
+              "accepted_answers": [
+                "adjustable"
+              ],
+              "analysis": "题干中“office furniture is ___”对应原文第十段的“Desks, seating, monitor stands, etc. should all be adjustable in order to accommodate the widest possible range of employees”。“adjustable”强调办公家具应可调节以适应不同员工需求，因此答案为 adjustable。",
+              "reason": "direct match。",
+              "location_analysis": "办公家具应可调节以适配不同员工。",
+              "paraphrasing": "office furniture is adjustable -> desks, seating, monitor stands, etc. should all be adjustable",
+              "keywords": "adjustable furniture",
+              "evidence": [
+                "Desks, seating, monitor stands, etc. should all be adjustable in order to accommodate the widest possible range of employees."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126269",
+              "number": 27,
+              "prompt": "• _____ are provided for documents",
+              "options": [],
+              "answer": "holders",
+              "accepted_answers": [
+                "holders"
+              ],
+              "analysis": "题干要求填写“___ are provided for documents”，原文第十段指出“This can be prevented by providing holders, which help to prevent muscle imbalance by positioning the document at the same level as the screen”。“holders”用于放置文档以减少颈部疲劳，因此答案是 holders。",
+              "reason": "原文明确提及 'holders'。",
+              "location_analysis": "提供文件架放置文档以减少颈部疲劳。",
+              "paraphrasing": "holders provided for documents -> providing holders",
+              "keywords": "holders, documents",
+              "evidence": [
+                "This can be prevented by providing holders, which help to prevent muscle imbalance by positioning the document at the same level as the screen."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "To prevent slips, trips, falls and collisions, ensure that\n• boxes, files, etc. correctly stored\n• items such as $126263$ do not create a tripping hazard\n• workers do not use $126264$ to reach high objects\n• $126265$ are fixed at corners\n• floors are covered by $126266$, especially at entrances\nTo prevent injuries caused by objects, ensure that\n• $126267$ in office furniture are kept closed\n• objects which are heavy are kept near the floor\nTo prevent injuries due sture and repetitive vement, ensure that\n• office furniture is $126268$\n• $126269$ are provided for documents\n• the mouse is placed next to the computer keyboard",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "To prevent slips, trips, falls and collisions, ensure that\n• boxes, files, etc. correctly stored\n• items such as $126263$ do not create a tripping hazard\n• workers do not use $126264$ to reach high objects\n• $126265$ are fixed at corners\n• floors are covered by $126266$, especially at entrances\nTo prevent injuries caused by objects, ensure that\n• $126267$ in office furniture are kept closed\n• objects which are heavy are kept near the floor\nTo prevent injuries due sture and repetitive vement, ensure that\n• office furniture is $126268$\n• $126269$ are provided for documents\n• the mouse is placed next to the computer keyboard"
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Company car parking policy",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "DG Contracts recognises that many people working in the organisation require a vehicle for business purposes and aims to provide parking facilities for as many individuals as possible.",
+          "translation": "DG合同公司认识到，许多在公司工作的人员出于业务需求需要车辆，并旨在为尽可能多的个人提供停车设施。"
+        },
+        {
+          "index": 2,
+          "sentence": "However, car parking provision is limited.",
+          "translation": "然而，停车位供应有限。"
+        },
+        {
+          "index": 3,
+          "sentence": "DG Contracts therefore actively encourages staff to reduce their carbon footprint by using public transport, walking or cycling, or by organising ways of sharing the use of cars.",
+          "translation": "因此，DG合同公司积极鼓励员工通过使用公共交通、步行或骑自行车，或组织拼车方式来减少碳足迹。"
+        },
+        {
+          "index": 4,
+          "sentence": "The car parking policy aims to allocate parking on a fair and equitable basis with spaces being given first to those employees who claim above a certain mileage of travel for business purposes.",
+          "translation": "该停车政策旨在以公平公正的原则分配停车位，优先将车位分配给那些因公务出行里程超过一定标准的员工。"
+        },
+        {
+          "index": 5,
+          "sentence": "Individuals who are allocated a parking space will be issued with a parking permit and a number which corresponds to a car parking space.",
+          "translation": "被分配到停车位的员工将获得一张停车许可证和一个与停车位对应的编号。"
+        },
+        {
+          "index": 6,
+          "sentence": "If there are any non-allocated car parking spaces, these can be utilised by employees on a first-come, first-served basis.",
+          "translation": "如有任何未分配的停车位，员工可按照先到先得的原则使用。"
+        },
+        {
+          "index": 7,
+          "sentence": "In some cases, designated parking areas are required for company vehicles, which must be parked securely at night.",
+          "translation": "在某些情况下，公司车辆需要指定的停车区域，这些车辆夜间必须安全停放。"
+        },
+        {
+          "index": 8,
+          "sentence": "However, employees may park in these areas in the daytime.",
+          "translation": "不过，员工在白天可以停放在这些区域。"
+        },
+        {
+          "index": 9,
+          "sentence": "If any individual leaves the company prior to the expiry of their parking permit, this will be handed on to the member of staff who acts as their replacement, assuming that this person requires it.",
+          "translation": "如果任何人在其停车许可证到期前离开公司，该许可证将转交给接替其职位的员工，前提是此人需要停车位。"
+        },
+        {
+          "index": 10,
+          "sentence": "If any individual who has been issued a parking permit takes maternity leave or is signed off work for a lengthy period, their parking permit will be reallocated to the staff member appointed as cover for this individual during their absence.",
+          "translation": "如果任何已获得停车许可证的员工休产假或因故长期无法工作，其停车许可证将重新分配给在此期间被指定替代该员工的工作人员。"
+        },
+        {
+          "index": 11,
+          "sentence": "Employees who park their cars in a DG company car park do so at their own risk and must follow the rules laid down in the parking policy.",
+          "translation": "在DG公司停车场停车的员工需自行承担风险，且必须遵守停车政策中规定的规则。"
+        },
+        {
+          "index": 12,
+          "sentence": "If you have any complaints concerning any aspect of car parking at DG company car parks, please address them to the HR Manager.",
+          "translation": "如果您对DG公司停车场的任何停车问题有投诉，请向人力资源经理反映。"
+        },
+        {
+          "index": 13,
+          "sentence": "Ensuring safety in the office",
+          "translation": "确保办公室安全"
+        },
+        {
+          "index": 14,
+          "sentence": "It’s fairly obvious that safety and health hazards can exist on worksites filled with heavy machine and equipment.",
+          "translation": "显而易见，在堆满重型机械和设备的工作场所可能存在安全和健康隐患。"
+        },
+        {
+          "index": 15,
+          "sentence": "However, a surprising number of hazards can also be present in the office.",
+          "translation": "然而，办公室中也可能存在数量惊人的安全隐患。"
+        },
+        {
+          "index": 16,
+          "sentence": "The most common types of injuries are slips, trips and falls.",
+          "translation": "最常见的伤害类型是滑倒、绊倒和摔倒。"
+        },
+        {
+          "index": 17,
+          "sentence": "Boxes, files and other items piled in walkways can create a tripping hazard.",
+          "translation": "堆放在过道上的箱子、文件和其他物品可能造成绊倒的危险。"
+        },
+        {
+          "index": 18,
+          "sentence": "Be certain that all materials are safely stored in their proper location to prevent build-up of clutter.",
+          "translation": "确保所有材料都被安全地存放在合适的位置，以防止杂物堆积。"
+        },
+        {
+          "index": 19,
+          "sentence": "Further, in addition to posing an electrical hazard, stretching wires across walkways creates a tripping hazard, so ensure they are properly secured and covered.",
+          "translation": "此外，电线横跨过道不仅会造成电气危险，还会产生绊倒隐患，因此要确保它们被妥善固定并覆盖。"
+        },
+        {
+          "index": 20,
+          "sentence": "Standing on rolling office chairs is a significant fall hazard.",
+          "translation": "站在带滚轮的办公椅上是一个重大的跌倒隐患。"
+        },
+        {
+          "index": 21,
+          "sentence": "Workers who need to reach something at an elevated height should use a stepladder, which must be fully opened and placed on level ground.",
+          "translation": "需要够到高处物品的员工应使用梯凳，且梯凳必须完全打开并放置在平坦的地面上。"
+        },
+        {
+          "index": 22,
+          "sentence": "Workers can collide when making turns in the hallways and around blind corners.",
+          "translation": "工人在走廊转弯处及视线死角区域可能会发生碰撞。"
+        },
+        {
+          "index": 23,
+          "sentence": "This can be prevented by installing mirrors in these places so workers can see who is coming.",
+          "translation": "可通过在这些位置安装镜子来预防此类事故，从而使工人能够看到来人的动向。"
+        },
+        {
+          "index": 24,
+          "sentence": "Floors may also present a hazard.",
+          "translation": "地板同样可能构成安全隐患。"
+        },
+        {
+          "index": 25,
+          "sentence": "Marble tile can become very slippery，particularly when wet.",
+          "translation": "大理石瓷砖会变得非常滑，尤其是在潮湿的情况下。"
+        },
+        {
+          "index": 26,
+          "sentence": "The use of carpets can help to reduce falls and can be especially helpful at main doors, where workers are likely to be coming in with wet shoes.",
+          "translation": "使用地毯有助于减少摔倒事故，并且在大门处特别有效，因为工人很可能穿着湿鞋进入该区域。"
+        },
+        {
+          "index": 27,
+          "sentence": "Another type of injury comes from workers being struck by an object.",
+          "translation": "另一种伤害类型来自员工被物体撞击。"
+        },
+        {
+          "index": 28,
+          "sentence": "Filing cabinets may be in danger of tipping over if drawers are left open, and filing cabinets and desks may also create a tripping hazard if they are not properly closed.",
+          "translation": "如果抽屉未关好，文件柜有可能倾倒；而文件柜和桌子若未妥善关闭，也可能造成绊倒风险。"
+        },
+        {
+          "index": 29,
+          "sentence": "High piles of materials and equipment can cause major injuries if they are knocked over.",
+          "translation": "高高的物料和设备堆若被撞倒，可能导致严重伤害。"
+        },
+        {
+          "index": 30,
+          "sentence": "Heavy objects should always be stored close to the ground, and the load capacity of shelves should never be exceeded.",
+          "translation": "重物应始终存放在靠近地面的位置，并且绝不可超过货架的承载能力。"
+        },
+        {
+          "index": 31,
+          "sentence": "Because office workers spend most of their day seated at a desk, they are prone to strains and other injuries related to posture and repetitive movement.",
+          "translation": "由于办公室员工一天中的大部分时间都坐在办公桌前，他们容易受到与姿势和重复性动作相关的肌肉拉伤及其他损伤。"
+        },
+        {
+          "index": 32,
+          "sentence": "Desks, seating, monitor stands, etc. should all be adjustable in order to accommodate the widest possible range of employees.",
+          "translation": "办公桌、座椅、显示器支架等都应可调节，以便适应尽可能多的不同员工。"
+        },
+        {
+          "index": 33,
+          "sentence": "Typing from hard copy can lead to neck strain if a worker is forced to look down repeatedly to the desk at the document being copied and back to the computer screen.",
+          "translation": "如果员工被迫反复低头看向桌面上正在抄写的文件，然后再抬头看向电脑屏幕，那么从纸质文件上打字可能会导致颈部劳损。"
+        },
+        {
+          "index": 34,
+          "sentence": "This can be prevented by providing holders, which help to prevent muscle imbalance by positioning the document at the same level as the screen.",
+          "translation": "可以通过提供文件架来防止这种情况，文件架将文件放置在屏幕的同一水平高度，有助于避免肌肉不平衡。"
+        },
+        {
+          "index": 35,
+          "sentence": "Another cause of neck injuries is incorrect placement of the computer mouse - this should always be kept beside the keyboard, and at the same level.",
+          "translation": "颈部受伤的另一个原因是电脑鼠标放置不当——鼠标应始终放在键盘旁边，并且保持在同一水平高度。"
+        }
+      ]
+    },
+    {
+      "id": "2512",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Part 3 reading texts",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "The long straight roads built by the Romans have, in many cases, become just as famous in history as their greatest emperors and generals. Building upon more ancient routes and creating a huge number of new ones, Roman engineers were fearless in their plans to join one point to another in as straight a line as possible, whatever the difficulties in geography and the costs in manpower Consequently, roads required bridges, tunnels, viaducts and many other architectural and engineering features to create a series of breathtaking but highly useful monuments, which spread from Europe to eastern parts of the Roman empire.",
+          "translation": "罗马人修建的笔直长路，在许多情况下，在历史上已变得与他们最伟大的皇帝和将军一样著名。\n罗马工程师在更古老的道路基础上进行建设，并开辟了大量新路线，他们无畏地规划着以尽可能笔直的线条连接两点，无论地理上的困难和人力的代价有多大。因此，这些道路需要桥梁、隧道、高架渠以及许多其他建筑和工程特征，以创造一系列令人惊叹但极具实用性的纪念性建筑，这些建筑从欧洲一直延伸到罗马帝国的东部地区。\n在许多情况下，罗马人修建的笔直道路在历史上与最伟大的皇帝和将军同样著名。\n罗马工程师在更古老路线的基础上进行建设，并开辟了大量新路线，他们无畏地规划，力求以尽可能笔直的线路连接两点，无论地理上的困难和人力成本如何。因此，道路需要桥梁、隧道、高架渠以及许多其他建筑和工程特征，创造出系列令人惊叹但极为实用的纪念性建筑，这些建筑从欧洲延伸至罗马帝国东部地区。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The Romans did not invent roads, but, as in so many other areas, they took an idea which went back as far as the Bronze Age and extended that concept, daring to squeeze from it the fullest possible potential. The first and most famous great Roman road was the Via Appia, or Appian Way.",
+          "translation": "罗马人并未发明道路，但正如在许多其他领域一样，他们采纳了一个可追溯至青铜时代的理念，并扩展了这一概念，敢于从中挖掘出最大可能的潜力。\n罗马人并没有发明道路，但正如在许多其他领域一样，他们采纳了一个可以追溯到青铜时代的理念，并加以扩展，大胆地从中挖掘出最大的潜力。\n第一条也是最著名的罗马大道是阿庇亚大道。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Constructed from 312 BCE, and covering 196 kilometres, it linked Rome to ancient Capua in Italy in as straight a line as possible and was appropriately known to the Romans as the Regina Viarum or ’Queen of Roads’. Much like a modern highway, it bypassed small towns along the way, and it largely ignored geographical obstacles. The road would later be extended to 569 kilometres in length.",
+          "translation": "该道路始建于公元前312年，全长196公里，以尽可能笔直的线路连接罗马与意大利的古卡普阿，罗马人恰如其分地将其称为“Regina Viarum”或“道路女王”。\n它类似于现代高速公路，沿途绕开小镇，并且基本上无视地理障碍。\n这条道路后来被延长至569公里。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "The network of public man roads covered over 120,000 kilometres. Besides permitting the rapid deployment of troops and, more importantly, the wheeled vehicles which supplied them with food and equipment, Roman roads allowed for an inc ease in trade and cultural exchange.",
+          "translation": "公共道路网络总长度超过12万公里。\n除了允许军队快速部署，更重要的是，允许为军队提供食物和装备的轮式车辆通行之外，罗马道路还促进了贸易和文化交流的增长。\n公共干道网络总长度超过12万公里。\n除了允许军队快速部署以及更重要的——为部队提供食物和装备的轮式车辆通行之外，罗马道路还促进了贸易和文化交流的增长。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Roads were also one of the ways Rome could demonstrate its authority. For this reason, many roads began and ended in a triumphal arch, and the imperial prestige associated with a road project was demonstrated in the fact that roads were very often named after the officials who funded them; for example, the Via Appia takes its name from the Roman magistrate Appius Claudius Caecus.",
+          "translation": "道路也是罗马展示其权威的方式之一。\n因此，许多道路的起点和终点都设有凯旋门，而道路工程所关联的帝国威望则体现在道路往往以资助其建设的官员命名这一事实上；例如，阿庇安大道得名于罗马执政官阿庇乌斯·克劳狄乌斯·凯库斯。\n出于这个原因，许多道路以凯旋门为起点和终点，而与道路工程相关的帝国威望则体现在道路通常以资助它们的官员命名这一事实上；例如，阿皮亚大道得名于罗马执政官阿皮乌斯·克劳狄乌斯·凯库斯。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "To achieve the objective of constructing the shortest routes possible between two points, all manner of engineering difficulties had to be overcome. Once extensive surveying had been carried out, to ensure the proposed route was actually straight and to determine what various engineering methods were needed, marshes had to be drained, forests cut through, creeks diverted, bedrock channelled, mountainsides cut into, rivers crossed with bridges, valleys traversed with viaducts and tunnels built through mountains. When all that was done, roads had to be levelled, reinforced with support walls or terracing and then, of course, maintained, which they were for over 800 years.",
+          "translation": "为了实现尽可能在两点之间修建最短路线这一目标，各种工程难题都必须被克服。\n一旦进行了广泛勘测，以确保拟建路线确实是笔直的，并确定需要哪些不同的工程方法，就必须排干沼泽、砍伐森林、改道溪流、开凿基岩、切入山坡、架桥过河、建造高架桥穿越山谷以及开凿隧道穿过山脉。\n所有这些工作完成后，道路还必须被平整，用挡土墙或梯田加固，然后当然还要进行维护，而这些道路确实得到了超过800年的维护。\n为了实现两点之间尽可能修建最短路线这一目标，必须克服各种工程难题。\n一旦进行了广泛的勘测，以确保规划路线确实是笔直的，并确定需要哪些不同的工程方法，就必须排干沼泽、砍伐森林、改道溪流、开凿岩床、削切山腰、架桥跨河、以高架桥穿越山谷、并开凿隧道穿过山脉。\n所有这一切完成后，道路还需平整、用支撑墙或梯田式结构加固，然后当然还要进行维护，而它们也确实得到了超过800年的维护。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Major roads were around a standard 4.2 metres wide, which was enough space for two vehicles to pass each other. First a trench was dug in the earth, and a layer of large stones was used to form the foundation. This was followed by a substantial deposit of smaller broken materials - often crushed brick was used for this purpose, and on top of this, a layer of fine gravel was added. This upper section of the road was referred to as the nucleus and was then surfaced with blocks or slabs. Mountain roads might also have ridges running across the surface of the slabs, to give animals better grip, and have ruts cut into the stone to guide wheeled vehicles.",
+          "translation": "主要道路的标准宽度约为4.2米，足以让两辆车辆相互通行。\n首先，在地面上挖出一条沟渠，并用一层大石块构成地基。\n接着铺设一层大量的小型破碎材料——通常使用碎砖——并在其上方添加一层细砾石。\n道路的这一上层部分称为“核心层”，随后用石块或石板铺砌表面。\n山路还可能在石板表面设置横向凸脊，以增强动物的抓地力，并在石头上刻出车辙，以引导轮式车辆通行。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Roads were purposely inclined slightly from the centre down to the kerb to allow rainwater to run off along the sides. Many also had parallel ditches that collected the runoff and formed a drainage canal on each side of the road. A path of packed gravel for pedestrians typically ran along each side of the road, varying in width from 1 to 3 metres. Separating the path from the road were the kerb stones, which were regular upright slabs. Busier stretches of main roads had areas where vehicles could pull over, and some of these had services for travellers and their animals. Milestones were also set up at regular intervals along the road and these often recorded who was responsible for the upkeep of that stretch of the road and what repairs had been made.",
+          "translation": "道路特意从中心向路缘略微倾斜，以便雨水沿两侧流走。\n许多道路还设有平行的沟渠，收集径流水，并在道路两侧形成排水渠。\n一条供行人使用的压实碎石小径通常沿道路两侧延伸，宽度在1至3米之间变化。\n将小径与道路隔开的是路缘石，它们是规则的直立石板。\n主干道较繁忙的路段设有车辆可以停靠的区域，其中一些区域还为旅行者及其牲畜提供服务。\n里程碑也沿道路按固定间隔设置，这些里程碑通常记录谁负责该段道路的维护以及进行了哪些维修工作。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Lasting symbols of the imagination of Roman engineers are the many arched bridges and viaducts still standing today that helped achieve the engineers’ straight-line goal. The Romans built to last, and the piers of bridges which crossed rivers, for example, were often built with a resistant prow-shape and used massive durable blocks of stone, while the upper parts might be built of stone blocks strengthened with iron clamps. Perhaps the most impressive bridge was at Narni; 180 metres long, 8 metres wide and as high as 33 metres, it had 4 massive semicircular arches, one of which, stretching 32.1 metres,ranks as one of the longest block-arch spans in the ancient world. Recently hit by earthquakes, it is now having to undergo restoration work to repair the effects.",
+          "translation": "罗马工程师想象力的持久象征是至今仍屹立不倒的许多拱桥和渡槽，它们帮助实现了工程师们直线铺设的目标。\n罗马人的建筑经久耐用，例如，跨越河流的桥梁桥墩通常被建成抗冲击的船首形状，并使用巨大耐用的石块，而上部则可能采用铁夹加固的石块建造。\n也许最令人印象深刻的桥是纳尔尼桥；它长180米，宽8米，高33米，拥有4个巨大的半圆形拱门，其中一个跨度达32.1米，堪称古代世界最长的块石拱跨度之一。\n最近该桥遭受了地震袭击，现在必须进行修复工作以弥补损坏。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Such was the engineering and surveying skill of the Romans that many of their roads have provided the basis for hundreds of today’s routes across Europe and the Middle East. Many roads in Italy still use the original Roman name for certain stretches, and some bridges, such as at Tre Ponti in Venice, still carry road traffic today.",
+          "translation": "罗马人在工程和测量方面的技艺如此高超，以至于他们修建的许多道路为当今横跨欧洲和中东的数百条路线奠定了基础。\n意大利的许多道路在某些路段仍沿用原始的罗马名称，而一些桥梁，例如威尼斯的Tre Ponti桥，至今仍承载着道路交通。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "17953",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 28 - 33\nThe text on passage 3 has six sections, A-F.\nWhich section mentions the following?\nWrite the correct letter, A-F, in boxes 28-33 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "126270",
+              "number": 28,
+              "prompt": "the various functions of Roman roads",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干要求找出提及罗马道路多种功能的段落。段落C明确指出罗马道路不仅用于军队快速部署和后勤补给，还促进了贸易与文化交流；此外，道路也是罗马展示权威的方式之一，例如以资助官员命名道路、起止于凯旋门等。这些内容全面涵盖了罗马道路的军事、经济、文化及政治功能，因此答案为C。",
+              "reason": "C段第一句直接描述多种功能，第二句补充权力展示功能。",
+              "location_analysis": "段落C提及道路的军事、贸易和文化功能，以及展示权威。",
+              "paraphrasing": "functions -> permitted the rapid deployment of troops... an increase in trade and cultural exchange; demonstrate its authority",
+              "keywords": "functions, Roman roads",
+              "evidence": [
+                "Roads were also one of the ways Rome could demonstrate its authority."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126271",
+              "number": 29,
+              "prompt": "reference to some current remains of Roman road building",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干询问哪一段提到罗马道路建设现存遗迹。段落F开头指出“许多拱桥和高架桥至今仍屹立”，并举例纳尔尼桥和威尼斯的特雷蓬蒂桥“至今仍承载交通”。这些表述直接对应‘current remains’（当前留存的遗迹），说明部分罗马工程至今仍在使用，因此答案为F。",
+              "reason": "F段首句提到still standing，末句提到today's routes。",
+              "location_analysis": "F段提到现存桥梁和道路仍在使用，对应current remains。",
+              "paraphrasing": "current remains -> still standing today; basis for today's routes",
+              "keywords": "current remains, Roman road building",
+              "evidence": [
+                "Lasting symbols of the imagination of Roman engineers are the many arched bridges and viaducts still standing today that helped achieve the engineers’ straight-line goal.",
+                "Such was the engineering and surveying skill of the Romans that many of their roads have provided the basis for hundreds of today’s routes across Europe and the Middle East."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126272",
+              "number": 30,
+              "prompt": "a description of preparations for building a road",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干要求找出描述修路前准备工作的段落。段落D详细说明了修建道路前需进行大规模勘测，以确保路线笔直，并列举了排水沼泽、砍伐森林、改道溪流、开凿山体、架桥穿隧等一系列工程准备工作。这些内容完全符合‘preparations for building a road’的要求，因此答案为D。",
+              "reason": "D段详细列出修建前的各项准备工作。",
+              "location_analysis": "D段描述修路前的勘察和工程准备。",
+              "paraphrasing": "preparations -> extensive surveying, marshes drained, forests cut, creeks diverted, etc.",
+              "keywords": "preparations, building a road",
+              "evidence": [
+                "Once extensive surveying had been carried out, to ensure the proposed route was actually straight and to determine what various engineering methods were needed, marshes had to be drained, forests cut through, creeks diverted, bedrock channelled, mountainsides cut into, rivers crossed with bridges, valleys traversed with viaducts and tunnels built through mountains."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126273",
+              "number": 31,
+              "prompt": "the period in history when road building began",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问的是道路建设始于哪个历史时期。段落B首句明确指出，虽然罗马人并未发明道路，但他们采纳了一个可追溯至‘青铜时代’（Bronze Age）的概念并加以扩展。这里的‘went back as far as the Bronze Age’直接对应题干中的‘the period in history when road building began’，因此答案为B。",
+              "reason": "B段首句明确提及Bronze Age作为道路概念的起源时期。",
+              "location_analysis": "B段指出道路概念可追溯至青铜时代，即road building began的时期。",
+              "paraphrasing": "period -> Bronze Age; began -> went back as far as",
+              "keywords": "period in history, road building began",
+              "evidence": [
+                "The Romans did not invent roads, but, as in so many other areas, they took an idea which went back as far as the Bronze Age and extended that concept, daring to squeeze from it the fullest possible potential."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126274",
+              "number": 32,
+              "prompt": "the consequence of damage caused by a natural disaster",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干要求找出提及自然灾害造成损害后果的段落。段落F提到纳尔尼桥‘recently hit by earthquakes, it is now having to undergo restoration work’，即因地震受损而需修复。这清楚说明了自然灾害（地震）带来的后果（修复工作），因此答案为F。",
+              "reason": "F段末句直接说明自然灾害（地震）造成的后果（需修复）。",
+              "location_analysis": "F段提到桥梁受地震破坏，现在需要修复。",
+              "paraphrasing": "damage caused by a natural disaster -> hit by earthquakes, undergoing restoration",
+              "keywords": "consequence, damage, natural disaster",
+              "evidence": [
+                "Recently hit by earthquakes, it is now having to undergo restoration work to repair the effects."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126275",
+              "number": 33,
+              "prompt": "the total distance once crossed by Roman roads",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问罗马道路总长度。段落C首句明确写道：‘The network of public main roads covered over 120,000 kilometres.’ 这直接给出了罗马道路系统的总距离，与题干‘total distance once crossed by Roman roads’完全对应，因此答案为C。",
+              "reason": "C段首句直接明确罗马道路的总距离。",
+              "location_analysis": "C段首句给出罗马道路总长度。",
+              "paraphrasing": "total distance -> covered over 120,000 kilometres",
+              "keywords": "total distance, Roman roads",
+              "evidence": [
+                "The network of public man roads covered over 120,000 kilometres."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "17955",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 34 - 37\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "126276",
+              "number": 34,
+              "prompt": "Which aspect of Roman road building does the writer mention in Section A?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "the strength and permanence of the roads"
+                },
+                {
+                  "value": "B",
+                  "label": "the magnificence and practicality of the roads"
+                },
+                {
+                  "value": "C",
+                  "label": "the number of people involved in building"
+                },
+                {
+                  "value": "D",
+                  "label": "the powerful people who financed the roads"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问段落A中提到的罗马道路特点。A段末句描述道路为‘breathtaking but highly useful monuments’，即既壮观又实用。选项B中的‘magnificence and practicality’正是对这一表述的准确同义转述，因此正确答案为B。",
+              "reason": "A段末句用breathtaking but highly useful体现magnificence and practicality。",
+              "location_analysis": "选项B对应A段中breathtaking but highly useful，兼具宏伟与实用。",
+              "paraphrasing": "magnificence and practicality -> breathtaking but highly useful monuments",
+              "keywords": "Section A, aspect",
+              "evidence": [
+                "Consequently, roads required bridges, tunnels, viaducts and many other architectural and engineering features to create a series of breathtaking but highly useful monuments, which spread from Europe to eastern parts of the Roman empire."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "该选项只强调了道路的坚固性和持久性，忽略了原文提到的实用性和宏伟性。",
+                "C": "原文并未提及参与道路建设的人数这一细节。",
+                "D": "原文没有提到资助道路建设的权贵阶层，属于无中生有。"
+              }
+            },
+            {
+              "id": "126277",
+              "number": 35,
+              "prompt": "The writer compares the Appian Way to a modern highway because",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "it was lengthened over time."
+                },
+                {
+                  "value": "B",
+                  "label": "it took a long time to construct."
+                },
+                {
+                  "value": "C",
+                  "label": "it was used by a large number of travellers."
+                },
+                {
+                  "value": "D",
+                  "label": "it was designed to avoid certain areas."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问为何作者将阿庇亚大道比作现代高速公路。段落B中明确指出该道路‘much like a modern highway, it bypassed small towns along the way’，即绕过沿途小镇，这与选项D‘designed to avoid certain areas’完全对应，因此答案为D。",
+              "reason": "B段直接说明it bypassed small towns相当于avoid certain areas。",
+              "location_analysis": "题干比较原因：Appian Way像现代高速，因它绕过小镇。",
+              "paraphrasing": "avoid certain areas -> bypassed small towns",
+              "keywords": "Appian Way, modern highway, compared",
+              "evidence": [
+                "Much like a modern highway, it bypassed small towns along the way, and it largely ignored geographical obstacles."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文并未提及Appian Way随时间延长，不是与高速公路比较的原因。",
+                "B": "建造时间长短并非作者比较的关键，原文未强调此点。",
+                "C": "使用人数多不是作者进行比较的理由，原文未提及或非重点。"
+              }
+            },
+            {
+              "id": "126278",
+              "number": 36,
+              "prompt": "According to the writer, the purpose of the triumphal arches was to",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "display the power of Rome."
+                },
+                {
+                  "value": "B",
+                  "label": "celebrate the opening of a road."
+                },
+                {
+                  "value": "C",
+                  "label": "show the name of important roads."
+                },
+                {
+                  "value": "D",
+                  "label": "provide access for important officials."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问凯旋门的作用。段落C提到‘roads began and ended in a triumphal arch’是为了‘demonstrate its authority’，即展示罗马的权威。选项A‘display the power of Rome’正是对此的准确概括，因此答案为A。",
+              "reason": "C段第二句说明凯旋门的作用是展示权威。",
+              "location_analysis": "选项A对应原文demonstrate its authority，即展示罗马权力。",
+              "paraphrasing": "display the power of Rome -> demonstrate its authority",
+              "keywords": "purpose, triumphal arches",
+              "evidence": [
+                "For this reason, many roads began and ended in a triumphal arch, and the imperial prestige associated with a road project was demonstrated in the fact that roads were very often named after the officials who funded them"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文中提及凯旋门是用来纪念军事胜利，而不是庆祝道路开通。",
+                "C": "原文未提及凯旋门展示重要道路名称的信息。",
+                "D": "原文指出凯旋门是象征性建筑，并非为重要官员提供通行功能。"
+              }
+            },
+            {
+              "id": "126279",
+              "number": 37,
+              "prompt": "What common use of a milestone is mentioned in Section E?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "indicating to travellers the total length of the road"
+                },
+                {
+                  "value": "B",
+                  "label": "highlighting areas of the road that needed repair"
+                },
+                {
+                  "value": "C",
+                  "label": "noting details regarding the maintenance of the road"
+                },
+                {
+                  "value": "D",
+                  "label": "marking rest places along the road for travellers and their animals"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问里程碑的常见用途。段落E末句指出里程碑‘often recorded who was responsible for the upkeep... and what repairs had been made’，即记录道路维护责任人和已进行的维修。这与选项C‘noting details regarding the maintenance of the road’完全一致，因此答案为C。",
+              "reason": "E段末句直接描述里程碑记录维护信息。",
+              "location_analysis": "选项C对应里程碑记录维护责任和修复细节。",
+              "paraphrasing": "noting details regarding maintenance -> recorded who was responsible for the upkeep and what repairs had been made",
+              "keywords": "common use, milestone, Section E",
+              "evidence": [
+                "Milestones were also set up at regular intervals along the road and these often recorded who was responsible for the upkeep of that stretch of the road and what repairs had been made."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及里程碑用于指示道路总长度，此为无中生有。",
+                "B": "原文未提及里程碑用于突出需要维修的区域，与内容不符。",
+                "D": "原文未提及里程碑用于标记休息处，属于张冠李戴。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "17960",
+          "type": 8,
+          "title": "38",
+          "instructions": "Questions 38 - 40\nLabel the diagram below.\nChoose NO MORE THAN TWO WORDS from the text for each answer.\nWrite your answers in boxes 38-40 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "/static/media/b18-test-3-roman-road-diagram.webp",
+          "question_type": "diagram_label_completion",
+          "interaction_type": "image_gap",
+          "answer_hotspots": {
+            "126280": {
+              "x": 14.6,
+              "y": 17.2,
+              "width": 20
+            },
+            "126281": {
+              "x": 48.2,
+              "y": 17.2,
+              "width": 21
+            },
+            "126282": {
+              "x": 46,
+              "y": 84.1,
+              "width": 20
+            }
+          },
+          "questions": [
+            {
+              "id": "126280",
+              "number": 38,
+              "prompt": "Nucleus made of _____",
+              "options": [],
+              "answer": "fine gravel",
+              "accepted_answers": [
+                "fine gravel"
+              ],
+              "analysis": "题干要求填写构成‘nucleus’的材料。段落E中描述道路结构时提到，在碎石层之上是‘a layer of fine gravel’，并说明‘this upper section... was referred to as the nucleus’。因此，nucleus由fine gravel构成，答案为‘fine gravel’。",
+              "reason": "前文铺垫了fine gravel，且nucleus指上层。",
+              "location_analysis": "题干问nucleus材质，原文说上层即nucleus由fine gravel构成。",
+              "paraphrasing": "Nucleus made of -> this upper section was referred to as the nucleus",
+              "keywords": "Nucleus, made of",
+              "evidence": [
+                "This upper section of the road was referred to as the nucleus and was then surfaced with blocks or slabs."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126281",
+              "number": 39,
+              "prompt": "Stone slabs - may be ridged to help _____ using the road",
+              "options": [],
+              "answer": "animals",
+              "accepted_answers": [
+                "animals"
+              ],
+              "analysis": "题干问石板上的凸起（ridges）是为了帮助谁。段落E明确说明‘ridges running across the surface of the slabs, to give animals better grip’，即帮助动物获得更好抓地力。因此，空格应填‘animals’，与题干‘help... using the road’逻辑一致。",
+              "reason": "E段明确ridges给animals better grip。",
+              "location_analysis": "题干问石板上凸起帮助谁，原文说给动物更好的抓地力。",
+              "paraphrasing": "help animals -> give animals better grip",
+              "keywords": "ridged, help, using the road",
+              "evidence": [
+                "Mountain roads might also have ridges running across the surface of the slabs, to give animals better grip, and have ruts cut into the stone to guide wheeled vehicles."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "126282",
+              "number": 40,
+              "prompt": "Layer of materials such as _____",
+              "options": [],
+              "answer": "crushed brick",
+              "accepted_answers": [
+                "crushed brick"
+              ],
+              "analysis": "题干要求填写某一层所用材料的例子。段落E提到在大石块基础之上铺设‘smaller broken materials - often crushed brick was used for this purpose’。因此，‘crushed brick’是该层材料的典型示例，符合‘NO MORE THAN TWO WORDS’的要求，答案为‘crushed brick’。",
+              "reason": "E段描述路面结构时举例用crushed brick。",
+              "location_analysis": "题干问某一层的材料示例，原文提到crushed brick。",
+              "paraphrasing": "materials such as -> crushed brick was used",
+              "keywords": "layer of materials, such as",
+              "evidence": [
+                "This was followed by a substantial deposit of smaller broken materials - often crushed brick was used for this purpose"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Nucleus made of $126280$\n39 Stone slabs - may be ridged to help $126281$ using the road\n40 Layer of materials such as $126282$",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Nucleus made of $126280$\n39 Stone slabs - may be ridged to help $126281$ using the road\n40 Layer of materials such as $126282$"
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Roman Roads",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "The long straight roads built by the Romans have, in many cases, become just as famous in history as their greatest emperors and generals.",
+          "translation": "罗马人修建的笔直长路，在许多情况下，在历史上已变得与他们最伟大的皇帝和将军一样著名。"
+        },
+        {
+          "index": 2,
+          "sentence": "Building upon more ancient routes and creating a huge number of new ones, Roman engineers were fearless in their plans to join one point to another in as straight a line as possible, whatever the difficulties in geography and the costs in manpower Consequently, roads required bridges, tunnels, viaducts and many other architectural and engineering features to create a series of breathtaking but highly useful monuments, which spread from Europe to eastern parts of the Roman empire.",
+          "translation": "罗马工程师在更古老的道路基础上进行建设，并开辟了大量新路线，他们无畏地规划着以尽可能笔直的线条连接两点，无论地理上的困难和人力的代价有多大。因此，这些道路需要桥梁、隧道、高架渠以及许多其他建筑和工程特征，以创造一系列令人惊叹但极具实用性的纪念性建筑，这些建筑从欧洲一直延伸到罗马帝国的东部地区。"
+        },
+        {
+          "index": 3,
+          "sentence": "The long straight roads built by the Romans have, in many cases, become just as famous in history as their greatest emperors and generals.",
+          "translation": "在许多情况下，罗马人修建的笔直道路在历史上与最伟大的皇帝和将军同样著名。"
+        },
+        {
+          "index": 4,
+          "sentence": "Building upon more ancient routes and creating a huge number of new ones, Roman engineers were fearless in their plans to join one point to another in as straight a line as possible, whatever the difficulties in geography and the costs in manpower Consequently, roads required bridges, tunnels, viaducts and many other architectural and engineering features to create a series of breathtaking but highly useful monuments, which spread from Europe to eastern parts of the Roman empire.",
+          "translation": "罗马工程师在更古老路线的基础上进行建设，并开辟了大量新路线，他们无畏地规划，力求以尽可能笔直的线路连接两点，无论地理上的困难和人力成本如何。因此，道路需要桥梁、隧道、高架渠以及许多其他建筑和工程特征，创造出系列令人惊叹但极为实用的纪念性建筑，这些建筑从欧洲延伸至罗马帝国东部地区。"
+        },
+        {
+          "index": 5,
+          "sentence": "The Romans did not invent roads, but, as in so many other areas, they took an idea which went back as far as the Bronze Age and extended that concept, daring to squeeze from it the fullest possible potential.",
+          "translation": "罗马人并未发明道路，但正如在许多其他领域一样，他们采纳了一个可追溯至青铜时代的理念，并扩展了这一概念，敢于从中挖掘出最大可能的潜力。"
+        },
+        {
+          "index": 6,
+          "sentence": "The Romans did not invent roads, but, as in so many other areas, they took an idea which went back as far as the Bronze Age and extended that concept, daring to squeeze from it the fullest possible potential.",
+          "translation": "罗马人并没有发明道路，但正如在许多其他领域一样，他们采纳了一个可以追溯到青铜时代的理念，并加以扩展，大胆地从中挖掘出最大的潜力。"
+        },
+        {
+          "index": 7,
+          "sentence": "The first and most famous great Roman road was the Via Appia, or Appian Way.",
+          "translation": "第一条也是最著名的罗马大道是阿庇亚大道。"
+        },
+        {
+          "index": 8,
+          "sentence": "Constructed from 312 BCE, and covering 196 kilometres, it linked Rome to ancient Capua in Italy in as straight a line as possible and was appropriately known to the Romans as the Regina Viarum or ’Queen of Roads’.",
+          "translation": "该道路始建于公元前312年，全长196公里，以尽可能笔直的线路连接罗马与意大利的古卡普阿，罗马人恰如其分地将其称为“Regina Viarum”或“道路女王”。"
+        },
+        {
+          "index": 9,
+          "sentence": "Much like a modern highway, it bypassed small towns along the way, and it largely ignored geographical obstacles.",
+          "translation": "它类似于现代高速公路，沿途绕开小镇，并且基本上无视地理障碍。"
+        },
+        {
+          "index": 10,
+          "sentence": "The road would later be extended to 569 kilometres in length.",
+          "translation": "这条道路后来被延长至569公里。"
+        },
+        {
+          "index": 11,
+          "sentence": "The network of public man roads covered over 120,000 kilometres.",
+          "translation": "公共道路网络总长度超过12万公里。"
+        },
+        {
+          "index": 12,
+          "sentence": "Besides permitting the rapid deployment of troops and, more importantly, the wheeled vehicles which supplied them with food and equipment, Roman roads allowed for an inc ease in trade and cultural exchange.",
+          "translation": "除了允许军队快速部署，更重要的是，允许为军队提供食物和装备的轮式车辆通行之外，罗马道路还促进了贸易和文化交流的增长。"
+        },
+        {
+          "index": 13,
+          "sentence": "Roads were also one of the ways Rome could demonstrate its authority.",
+          "translation": "道路也是罗马展示其权威的方式之一。"
+        },
+        {
+          "index": 14,
+          "sentence": "For this reason, many roads began and ended in a triumphal arch, and the imperial prestige associated with a road project was demonstrated in the fact that roads were very often named after the officials who funded them; for example, the Via Appia takes its name from the Roman magistrate Appius Claudius Caecus.",
+          "translation": "因此，许多道路的起点和终点都设有凯旋门，而道路工程所关联的帝国威望则体现在道路往往以资助其建设的官员命名这一事实上；例如，阿庇安大道得名于罗马执政官阿庇乌斯·克劳狄乌斯·凯库斯。"
+        },
+        {
+          "index": 15,
+          "sentence": "The network of public man roads covered over 120,000 kilometres.",
+          "translation": "公共干道网络总长度超过12万公里。"
+        },
+        {
+          "index": 16,
+          "sentence": "Besides permitting the rapid deployment of troops and, more importantly, the wheeled vehicles which supplied them with food and equipment, Roman roads allowed for an inc ease in trade and cultural exchange.",
+          "translation": "除了允许军队快速部署以及更重要的——为部队提供食物和装备的轮式车辆通行之外，罗马道路还促进了贸易和文化交流的增长。"
+        },
+        {
+          "index": 17,
+          "sentence": "Roads were also one of the ways Rome could demonstrate its authority.",
+          "translation": "道路也是罗马展示其权威的方式之一。"
+        },
+        {
+          "index": 18,
+          "sentence": "For this reason, many roads began and ended in a triumphal arch, and the imperial prestige associated with a road project was demonstrated in the fact that roads were very often named after the officials who funded them; for example, the Via Appia takes its name from the Roman magistrate Appius Claudius Caecus.",
+          "translation": "出于这个原因，许多道路以凯旋门为起点和终点，而与道路工程相关的帝国威望则体现在道路通常以资助它们的官员命名这一事实上；例如，阿皮亚大道得名于罗马执政官阿皮乌斯·克劳狄乌斯·凯库斯。"
+        },
+        {
+          "index": 19,
+          "sentence": "To achieve the objective of constructing the shortest routes possible between two points, all manner of engineering difficulties had to be overcome.",
+          "translation": "为了实现尽可能在两点之间修建最短路线这一目标，各种工程难题都必须被克服。"
+        },
+        {
+          "index": 20,
+          "sentence": "Once extensive surveying had been carried out, to ensure the proposed route was actually straight and to determine what various engineering methods were needed, marshes had to be drained, forests cut through, creeks diverted, bedrock channelled, mountainsides cut into, rivers crossed with bridges, valleys traversed with viaducts and tunnels built through mountains.",
+          "translation": "一旦进行了广泛勘测，以确保拟建路线确实是笔直的，并确定需要哪些不同的工程方法，就必须排干沼泽、砍伐森林、改道溪流、开凿基岩、切入山坡、架桥过河、建造高架桥穿越山谷以及开凿隧道穿过山脉。"
+        },
+        {
+          "index": 21,
+          "sentence": "When all that was done, roads had to be levelled, reinforced with support walls or terracing and then, of course, maintained, which they were for over 800 years.",
+          "translation": "所有这些工作完成后，道路还必须被平整，用挡土墙或梯田加固，然后当然还要进行维护，而这些道路确实得到了超过800年的维护。"
+        },
+        {
+          "index": 22,
+          "sentence": "To achieve the objective of constructing the shortest routes possible between two points, all manner of engineering difficulties had to be overcome.",
+          "translation": "为了实现两点之间尽可能修建最短路线这一目标，必须克服各种工程难题。"
+        },
+        {
+          "index": 23,
+          "sentence": "Once extensive surveying had been carried out, to ensure the proposed route was actually straight and to determine what various engineering methods were needed, marshes had to be drained, forests cut through, creeks diverted, bedrock channelled, mountainsides cut into, rivers crossed with bridges, valleys traversed with viaducts and tunnels built through mountains.",
+          "translation": "一旦进行了广泛的勘测，以确保规划路线确实是笔直的，并确定需要哪些不同的工程方法，就必须排干沼泽、砍伐森林、改道溪流、开凿岩床、削切山腰、架桥跨河、以高架桥穿越山谷、并开凿隧道穿过山脉。"
+        },
+        {
+          "index": 24,
+          "sentence": "When all that was done, roads had to be levelled, reinforced with support walls or terracing and then, of course, maintained, which they were for over 800 years.",
+          "translation": "所有这一切完成后，道路还需平整、用支撑墙或梯田式结构加固，然后当然还要进行维护，而它们也确实得到了超过800年的维护。"
+        },
+        {
+          "index": 26,
+          "sentence": "Major roads were around a standard 4.2 metres wide, which was enough space for two vehicles to pass each other.",
+          "translation": "主要道路的标准宽度约为4.2米，足以让两辆车辆相互通行。"
+        },
+        {
+          "index": 27,
+          "sentence": "First a trench was dug in the earth, and a layer of large stones was used to form the foundation.",
+          "translation": "首先，在地面上挖出一条沟渠，并用一层大石块构成地基。"
+        },
+        {
+          "index": 28,
+          "sentence": "This was followed by a substantial deposit of smaller broken materials - often crushed brick was used for this purpose, and on top of this, a layer of fine gravel was added.",
+          "translation": "接着铺设一层大量的小型破碎材料——通常使用碎砖——并在其上方添加一层细砾石。"
+        },
+        {
+          "index": 29,
+          "sentence": "This upper section of the road was referred to as the nucleus and was then surfaced with blocks or slabs.",
+          "translation": "道路的这一上层部分称为“核心层”，随后用石块或石板铺砌表面。"
+        },
+        {
+          "index": 30,
+          "sentence": "Mountain roads might also have ridges running across the surface of the slabs, to give animals better grip, and have ruts cut into the stone to guide wheeled vehicles.",
+          "translation": "山路还可能在石板表面设置横向凸脊，以增强动物的抓地力，并在石头上刻出车辙，以引导轮式车辆通行。"
+        },
+        {
+          "index": 31,
+          "sentence": "Roads were purposely inclined slightly from the centre down to the kerb to allow rainwater to run off along the sides.",
+          "translation": "道路特意从中心向路缘略微倾斜，以便雨水沿两侧流走。"
+        },
+        {
+          "index": 32,
+          "sentence": "Many also had parallel ditches that collected the runoff and formed a drainage canal on each side of the road.",
+          "translation": "许多道路还设有平行的沟渠，收集径流水，并在道路两侧形成排水渠。"
+        },
+        {
+          "index": 33,
+          "sentence": "A path of packed gravel for pedestrians typically ran along each side of the road, varying in width from 1 to 3 metres.",
+          "translation": "一条供行人使用的压实碎石小径通常沿道路两侧延伸，宽度在1至3米之间变化。"
+        },
+        {
+          "index": 34,
+          "sentence": "Separating the path from the road were the kerb stones, which were regular upright slabs.",
+          "translation": "将小径与道路隔开的是路缘石，它们是规则的直立石板。"
+        },
+        {
+          "index": 35,
+          "sentence": "Busier stretches of main roads had areas where vehicles could pull over, and some of these had services for travellers and their animals.",
+          "translation": "主干道较繁忙的路段设有车辆可以停靠的区域，其中一些区域还为旅行者及其牲畜提供服务。"
+        },
+        {
+          "index": 36,
+          "sentence": "Milestones were also set up at regular intervals along the road and these often recorded who was responsible for the upkeep of that stretch of the road and what repairs had been made.",
+          "translation": "里程碑也沿道路按固定间隔设置，这些里程碑通常记录谁负责该段道路的维护以及进行了哪些维修工作。"
+        },
+        {
+          "index": 38,
+          "sentence": "Lasting symbols of the imagination of Roman engineers are the many arched bridges and viaducts still standing today that helped achieve the engineers’ straight-line goal.",
+          "translation": "罗马工程师想象力的持久象征是至今仍屹立不倒的许多拱桥和渡槽，它们帮助实现了工程师们直线铺设的目标。"
+        },
+        {
+          "index": 39,
+          "sentence": "The Romans built to last, and the piers of bridges which crossed rivers, for example, were often built with a resistant prow-shape and used massive durable blocks of stone, while the upper parts might be built of stone blocks strengthened with iron clamps.",
+          "translation": "罗马人的建筑经久耐用，例如，跨越河流的桥梁桥墩通常被建成抗冲击的船首形状，并使用巨大耐用的石块，而上部则可能采用铁夹加固的石块建造。"
+        },
+        {
+          "index": 40,
+          "sentence": "Perhaps the most impressive bridge was at Narni; 180 metres long, 8 metres wide and as high as 33 metres, it had 4 massive semicircular arches, one of which, stretching 32.1 metres,ranks as one of the longest block-arch spans in the ancient world.",
+          "translation": "也许最令人印象深刻的桥是纳尔尼桥；它长180米，宽8米，高33米，拥有4个巨大的半圆形拱门，其中一个跨度达32.1米，堪称古代世界最长的块石拱跨度之一。"
+        },
+        {
+          "index": 41,
+          "sentence": "Recently hit by earthquakes, it is now having to undergo restoration work to repair the effects.",
+          "translation": "最近该桥遭受了地震袭击，现在必须进行修复工作以弥补损坏。"
+        },
+        {
+          "index": 42,
+          "sentence": "Such was the engineering and surveying skill of the Romans that many of their roads have provided the basis for hundreds of today’s routes across Europe and the Middle East.",
+          "translation": "罗马人在工程和测量方面的技艺如此高超，以至于他们修建的许多道路为当今横跨欧洲和中东的数百条路线奠定了基础。"
+        },
+        {
+          "index": 43,
+          "sentence": "Many roads in Italy still use the original Roman name for certain stretches, and some bridges, such as at Tre Ponti in Venice, still carry road traffic today.",
+          "translation": "意大利的许多道路在某些路段仍沿用原始的罗马名称，而一些桥梁，例如威尼斯的Tre Ponti桥，至今仍承载着道路交通。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

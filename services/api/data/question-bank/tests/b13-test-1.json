@@ -1,0 +1,3270 @@
+{
+  "id": "b13-test-1",
+  "book": "剑雅13",
+  "book_number": 13,
+  "name": "Test 1",
+  "title": "剑雅13 Test 1",
+  "parts": [
+    {
+      "id": "2069",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "THE BEST SUITCASES",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A Briggs and Riley Weekender",
+          "translation": "A 款  Briggs and Riley 周末旅行箱"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A weekend suitcase that's sophisticated and unusually spacious for its type. The strong nylon outer fabric is water and abrasion resistant, so it should handle any knocks without showing signs of damage.",
+          "translation": "一款精致且在同类型中异常宽敞的周末旅行箱。\n其坚固的尼龙外层面料具有防水和耐磨特性，因此能够承受任何碰撞而不显现损坏迹象。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B Mulberry Scotchgrain",
+          "translation": "B 玛百莉 Scotchgrain 系列"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Trimmed in brown leather, with gold details, this bag from the renowned fashion house is a truly indulgent buy. If you're investing this much in a suitcase then you'd better be planning an amazing holiday to go with it.",
+          "translation": "这款来自知名时尚品牌的手袋以棕色皮革镶边，饰以金色细节，确实是一种奢华消费。\n如果你在行李箱上投入这么多钱，那么你最好计划一个精彩的假期来与之相配。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C Rimova Salsa",
+          "translation": "C 款式：Rimova Salsa"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "A design you can trust, this case is built from super light polycarbonate and is incredibly solid.The built-in combination lock offers state-of-the-art security so you can travel with peace of mind.",
+          "translation": "这款行李箱设计可靠，采用超轻聚碳酸酯制成，极其坚固。\n内置密码锁提供最先进的安全保障，让您安心出行。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D Tripp Holiday",
+          "translation": "D 特里普假日系列"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Simple and affordable, the Tripp range offers a great selection of tough cases.They also come in a huge range of cheerful colours that should go with anything you choose to put on, and you'll definitely be able to spot it on the luggage carousel at the airport.",
+          "translation": "简单且价格实惠，Tripp系列提供了多种坚固箱子的绝佳选择。\n它们还有各种鲜艳的颜色，与你选择的任何衣物都能搭配，而且在机场行李传送带上你绝对能一眼认出它。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E Eastpak Tranverz Holdall",
+          "translation": "E 东帕克·特兰维兹行李袋"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "For those who want something in between an annual holiday suitcase and a weekend bag, this is a fantastic compromise. With two wheels and a telescopic handle, the bag is guaranteed for 30 years. Did we mention it also comes in colourful leopard print?",
+          "translation": "对于那些想要介于年度假期行李箱和周末包之间产品的人来说，这是一个极好的折中选择。\n这款包配备了两个轮子和一个伸缩手柄，享有30年质保。\n我们有没有提到它还有彩色豹纹款式可选？"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F Herschel Parcel",
+          "translation": "F 赫尔舍尔包裹箱"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "From the brand behind some of today's most popular rucksacks, this suitcase really is a delight.Custom printed, with Herschel's signature leather toggles this well-crafted case is as cool, stylish and up to date as they come.",
+          "translation": "来自当今一些最受欢迎的背包品牌，这款行李箱确实令人愉悦。\n定制印花，搭配赫舍尔标志性的皮革扣环，这款制作精良的行李箱酷炫、时尚且与时俱进。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "G The Diplomat",
+          "translation": "G 外交官"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Travel in style with this beautiful suitcase that goes back to the days when trains ran on steam and air travel was leisurely. The leather case, part of the Steamline Luggage range, features roller wheels and a metal frame to hold it in shape.",
+          "translation": "带着这款优雅的手提箱时尚出行，它让人回想起火车以蒸汽为动力、航空旅行悠闲惬意的时代。\n这款皮革手提箱属于Steamline Luggage系列，配备滚轮和金属框架以保持其形状。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "THE OXFORD SCHOOL OF DRAMA",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "牛津戏剧学院"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "One-Year Acting Course",
+          "translation": "一年制表演课程"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "This is an intensive course which is designed for those who have completed their academic studies and have some theatre or film experience already. In order to be accepted you should be a high achiever, knowledgeable about the industry and determined to succeed.",
+          "translation": "这是一门为已完成学业且具备一定戏剧或电影经验的人设计的强化课程。\n要获得录取，你应当是一名成绩优异者、对行业有深入了解，并有决心取得成功。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Term One : Technical classes in acting, voice, movement, applied movement and characterisation, music, singing, film, radio and professional development.The term finishes with an internal production given for tutors and students.",
+          "translation": "第一学期：开设表演、声音、动作、应用动作与角色塑造、音乐、歌唱、电影、广播及专业发展等技巧课程。学期以面向教师和学生呈现的一场内部剧目而告终。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Term Two : All technical classes continue from term one.There is an internal performance of a one-act play, the recording of an audio showreel at a professional studio and the Showcase Drama in front of an invited audience including casting directors and agents.",
+          "translation": "第二学期：所有技术课程从第一学期继续开始。\n其中包括一部独幕剧的内部演出、在专业录音室录制音频作品集，以及面向包括选角导演和经纪人在内的受邀观众进行的戏剧展示表演。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "Term Three : Technical classes continue with additional focus on audition technique, workshops and masterclasses.This term includes a public performance of a play outdoors in the grounds of Blenheim Palace, and the chance to act a short film recorded on location by a professional crew.",
+          "translation": "第三学期：技术课程继续开展，同时额外侧重于试镜技巧、工作坊和大师班。\n本学期包括在布莱尼姆宫户外场地进行的一场公开戏剧演出，以及参与一部由专业团队实地拍摄的短片演出的机会。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "How to Apply",
+          "translation": "如何申请"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Entry to The Oxford School of Drama is by audition only and there are no academic requirements for any of our courses.",
+          "translation": "牛津戏剧学院\n进入牛津戏剧学院仅通过试镜，并且我们的任何课程都没有学术要求。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Once we have received your application form and audition fee, we will email you with a date for your audition and further details about what to expect when you are here.",
+          "translation": "一旦我们收到你的申请表和试镜费用，我们将通过电子邮件告知你试镜的日期以及有关你来到这里后应预期什么的更多细节。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "For your initial audition, you will need to prepare two contrasting speeches from plays, lasting no longer than two minutes.There will also be some group work for which you will need to wear loose, comfortable clothing.",
+          "translation": "对于你的初次试镜，你需要准备两段来自戏剧的对比性独白，每段时长不超过两分钟。\n还会有一些小组活动，为此你需要穿着宽松舒适的衣服。"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "If you are applying from overseas, you will be able to submit your first audition by means of DVD, YouTube or link to a secure website. You will be invited to submit this once we have received your application form and audition fee. If you are successful in your first audition, you will be invited to attend future auditions here at the school.The school will provide a free bus from central Oxford for those attending auditions.",
+          "translation": "如果你是海外申请者，你可以通过DVD、YouTube或安全网站链接提交你的第一轮试镜。\n一旦我们收到你的申请表和试镜费，你将被邀请提交这一材料。\n如果你首轮试镜成功，你将被邀请参加在学校进行的后续试镜。\n学校将为参加试镜的人提供从牛津市中心出发的免费巴士。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15595",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 7\nLook at the seven reviews of suitcases, A-G.\nFor which suitcase are the following statements true?\nWrite the correct Jetter, A-G , in boxes 1-7 on your answer sheet .\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120167",
+              "number": 1,
+              "prompt": "This suitcase is for those who wish to purchase expensive luggage.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“purchase expensive luggage”对应原文B段中的“truly indulgent buy”，该描述暗示这是一款价格昂贵的奢侈行李箱。此外，“renowned fashion house”也强化了其高端定位，因此适合希望购买昂贵行李的人，答案为B。",
+              "reason": "extract B clearly describes expensive luxury item",
+              "location_analysis": "B 提到 'truly indulgent buy'，暗示价格昂贵，对应想买昂贵行李的人。",
+              "paraphrasing": "expensive luggage -> truly indulgent buy",
+              "keywords": "purchase expensive luggage",
+              "evidence": [
+                "Trimmed in brown leather, with gold details, this bag from the renowned fashion house is a truly indulgent buy."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120168",
+              "number": 2,
+              "prompt": "This suitcase is the right one for people who like to follow the latest fashion.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干中“follow the latest fashion”在F段中被表达为“as cool, stylish and up to date as they come”，说明这款行李箱紧跟潮流、时尚前卫。同时提到品牌以流行背包著称，进一步支持其时尚属性，因此答案为F。",
+              "reason": "extract about F emphasizes trendiness",
+              "location_analysis": "F 用 'stylish and up to date' 描述，符合追求最新时尚。",
+              "paraphrasing": "latest fashion -> stylish and up to date",
+              "keywords": "follow the latest fashion",
+              "evidence": [
+                "this well-crafted case is as cool, stylish and up to date as they come."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120169",
+              "number": 3,
+              "prompt": "lt is easy to choose one of these suitcases to match most clothing.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“match most clothing”对应D段中“cheerful colours that should go with anything you choose to put on”，明确指出其颜色百搭，容易与各种衣物搭配，因此答案为D。",
+              "reason": "explicit match with clothing mentioned",
+              "location_analysis": "D 说颜色与任何衣物搭配，对应容易搭配衣服。",
+              "paraphrasing": "match most clothing -> go with anything you choose to put on",
+              "keywords": "match most clothing",
+              "evidence": [
+                "They also come in a huge range of cheerful colours that should go with anything you choose to put on"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120170",
+              "number": 4,
+              "prompt": "The manufacturer is confident that this suitcase will last a long time.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“last a long time”在E段中通过“guaranteed for 30 years”体现，表明制造商对其耐用性有高度信心，因此答案为E。",
+              "reason": "30-year guarantee indicates confidence in longevity",
+              "location_analysis": "E 承诺30年保修，体现制造商对耐用性的信心。",
+              "paraphrasing": "last a long time -> guaranteed for 30 years",
+              "keywords": "last a long time",
+              "evidence": [
+                "the bag is guaranteed for 30 years."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120171",
+              "number": 5,
+              "prompt": "ltems in this suitcase will not be affected if it gets wet.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“not be affected if it gets wet”对应A段中“water and abrasion resistant”的描述，说明外层材料具有防水性能，能有效保护内部物品不受潮，因此答案为A。",
+              "reason": "water resistant directly addresses wet conditions",
+              "location_analysis": "A 提到防水外层，物品不会受潮。",
+              "paraphrasing": "gets wet -> water resistant",
+              "keywords": "gets wet",
+              "evidence": [
+                "The strong nylon outer fabric is water and abrasion resistant"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120172",
+              "number": 6,
+              "prompt": "This suitcase is of a useful, medium size.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“useful, medium size”在E段中被描述为“something in between an annual holiday suitcase and a weekend bag”，即介于大行李箱和周末包之间的尺寸，符合中等实用尺寸的定义，因此答案为E。",
+              "reason": "description implies medium size",
+              "location_analysis": "E 描述介于大行李箱和周末包之间，即中等尺寸。",
+              "paraphrasing": "medium size -> in between an annual holiday suitcase and a weekend bag",
+              "keywords": "useful, medium size",
+              "evidence": [
+                "For those who want something in between an annual holiday suitcase and a weekend bag, this is a fantastic compromise."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120173",
+              "number": 7,
+              "prompt": "Those who want to be reminded of an earlier age of travel will like this suitcase.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干中的“reminded of an earlier age of travel”对应G段中“goes back to the days when trains ran on steam and air travel was leisurely”，明确唤起对早期旅行时代的怀旧情感，因此答案为G。",
+              "reason": "nostalgic reference to earlier travel era",
+              "location_analysis": "G 提到蒸汽火车和悠闲航空旅行，唤起早期旅行时代。",
+              "paraphrasing": "reminded of earlier age -> goes back to the days when trains ran on steam and air travel was leisurely",
+              "keywords": "earlier age of travel",
+              "evidence": [
+                "Travel in style with this beautiful suitcase that goes back to the days when trains ran on steam and air travel was leisurely."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15598",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120174",
+              "number": 8,
+              "prompt": "Students can begin the one-year course without any previous involvement inacting.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称学生可“without any previous involvement in acting”开始课程，但原文明确要求申请者“have some theatre or film experience already”，说明必须具备相关经验，因此该陈述与原文矛盾，答案为FALSE。",
+              "reason": "prerequisite explicitly states needing experience",
+              "location_analysis": "原文要求已有剧院/电影经验，因此无经验不能开始。",
+              "paraphrasing": "some theatre or film experience already -> requires having experience",
+              "keywords": "no previous involvement in acting",
+              "evidence": [
+                "This is an intensive course which is designed for those who have completed their academic studies and have some theatre or film experience already."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文明确要求学生先前有表演经历，与题干说法矛盾。",
+                "NOT GIVEN": "原文已直接否定题干说法，并非未提及相关信息。"
+              }
+            },
+            {
+              "id": "120175",
+              "number": 9,
+              "prompt": "Students will act in a performance in front of their classmates at the end of the firstterm.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“in front of their classmates”对应原文中第一学期末的“internal production given for tutors and students”，其中“students”即包括同学，因此该陈述与原文一致，答案为TRUE。",
+              "reason": "students are among audience",
+              "location_analysis": "第一学期末内部演出观众包括学生，对应同学。",
+              "paraphrasing": "classmates -> tutors and students",
+              "keywords": "in front of their classmates",
+              "evidence": [
+                "The term finishes with an internal production given for tutors and students."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确提到‘at the end of the firstterm’，与选项内容矛盾。",
+                "NOT GIVEN": "原文明确提及了该信息，并非未给出。"
+              }
+            },
+            {
+              "id": "120176",
+              "number": 10,
+              "prompt": "Family members may attend a performance during the second term.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问家人是否可参加第二学期演出，但原文仅提到观众包括“casting directors and agents”，并未提及家庭成员是否被允许出席，因此文中无相关信息，答案为NOT GIVEN。",
+              "reason": "未提及家人是否可参加。",
+              "location_analysis": "原文只提casting directors and agents，未提家人，选NOT GIVEN。",
+              "paraphrasing": "family members -> 无对应",
+              "keywords": "family members may attend, inviting audience including casting directors and agents",
+              "evidence": [
+                "the Showcase Drama in front of an invited audience including casting directors and agents."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及家庭成员是否可以在第二学期观看演出，无法判断为正确。",
+                "FALSE": "原文未提供任何信息证明家庭成员不能观看，因此不能判定为错误。"
+              }
+            },
+            {
+              "id": "120177",
+              "number": 11,
+              "prompt": "Students are required to make a film on their own in the last term of the course.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称学生需“make a film on their own”，但原文明确说明短片是由“a professional crew”在实地拍摄，学生只是参与表演，并非独立制作，因此该陈述与原文不符，答案为FALSE。",
+              "reason": "students act in film produced by professionals, not own",
+              "location_analysis": "第三学期未要求独立拍电影，而是有专业团队拍摄。",
+              "paraphrasing": "on their own -> additional focus on audition technique",
+              "keywords": "make a film on their own",
+              "evidence": [
+                "the chance to act a short film recorded on location by a professional crew."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文矛盾，原文表明学生并非独自完成电影。",
+                "NOT GIVEN": "原文明确给出了相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120178",
+              "number": 12,
+              "prompt": "ln their first audition, candidates perform speeches they have worked on in advance.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“speeches they have worked on in advance”对应原文中“prepare two contrasting speeches from plays”，“prepare”即表示提前准备，因此该陈述与原文一致，答案为TRUE。",
+              "reason": "prepare implies advance work",
+              "location_analysis": "首次试镜要求准备两个演讲，即提前准备。",
+              "paraphrasing": "worked on in advance -> prepare two contrasting speeches",
+              "keywords": "speeches they have worked on in advance",
+              "evidence": [
+                "For your initial audition, you will need to prepare two contrasting speeches from plays, lasting no longer than two minutes."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文中明确说明第一次试镜时表演事先准备好的演讲这一信息相矛盾。",
+                "NOT GIVEN": "原文中并未提及任何关于第一次试镜表演演讲准备情况的其他信息，因此无法判断为错误。"
+              }
+            },
+            {
+              "id": "120179",
+              "number": 13,
+              "prompt": "The Oxford School of Drama will send candidates details of local accommodation.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问学校是否会提供住宿信息，但原文只提到“provide a free bus from central Oxford”，并未涉及住宿安排或相关信息，因此文中无此内容，答案为NOT GIVEN。",
+              "reason": "未提及住宿细节。",
+              "location_analysis": "原文只提供免费巴士，未提住宿信息，选NOT GIVEN。",
+              "paraphrasing": "accommodation -> 无对应",
+              "keywords": "details of local accommodation, free bus from central Oxford",
+              "evidence": [
+                "The school will provide a free bus from central Oxford for those attending auditions."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "题干声称牛津戏剧学院会发送住宿详情，但原文未提及此信息，无法判断真假。",
+                "FALSE": "题干信息在原文中无对应表述，无法确定其错误，因此不能判断为假。"
+              }
+            },
+            {
+              "id": "120180",
+              "number": 14,
+              "prompt": "Overseas candidates can do all their auditions via a digital link.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称海外申请者可“do all their auditions via a digital link”，但原文明确指出只有“first audition”可通过数字方式提交，后续试镜需到校参加，因此该陈述与原文矛盾，答案为FALSE。",
+              "reason": "only first audition digital, not all",
+              "location_analysis": "只有第一次试镜可通过数字方式，之后需到校。",
+              "paraphrasing": "all auditions -> invited to submit first audition by digital means",
+              "keywords": "all their auditions via a digital link",
+              "evidence": [
+                "If you are applying from overseas, you will be able to submit your first audition by means of DVD, YouTube or link to a secure website.",
+                "If you are successful in your first audition, you will be invited to attend future auditions here at the school."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文矛盾，原文指出并非所有试镜都能通过数字链接进行。",
+                "NOT GIVEN": "原文中有相关信息，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "THE BEST SUITCASES",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A Briggs and Riley Weekender",
+          "translation": "A 款  Briggs and Riley 周末旅行箱"
+        },
+        {
+          "index": 2,
+          "sentence": "A weekend suitcase that's sophisticated and unusually spacious for its type.",
+          "translation": "一款精致且在同类型中异常宽敞的周末旅行箱。"
+        },
+        {
+          "index": 3,
+          "sentence": "The strong nylon outer fabric is water and abrasion resistant, so it should handle any knocks without showing signs of damage.",
+          "translation": "其坚固的尼龙外层面料具有防水和耐磨特性，因此能够承受任何碰撞而不显现损坏迹象。"
+        },
+        {
+          "index": 4,
+          "sentence": "B Mulberry Scotchgrain",
+          "translation": "B 玛百莉 Scotchgrain 系列"
+        },
+        {
+          "index": 5,
+          "sentence": "Trimmed in brown leather, with gold details, this bag from the renowned fashion house is a truly indulgent buy.",
+          "translation": "这款来自知名时尚品牌的手袋以棕色皮革镶边，饰以金色细节，确实是一种奢华消费。"
+        },
+        {
+          "index": 6,
+          "sentence": "If you're investing this much in a suitcase then you'd better be planning an amazing holiday to go with it.",
+          "translation": "如果你在行李箱上投入这么多钱，那么你最好计划一个精彩的假期来与之相配。"
+        },
+        {
+          "index": 7,
+          "sentence": "C Rimova Salsa",
+          "translation": "C 款式：Rimova Salsa"
+        },
+        {
+          "index": 8,
+          "sentence": "A design you can trust, this case is built from super light polycarbonate and is incredibly solid.",
+          "translation": "这款行李箱设计可靠，采用超轻聚碳酸酯制成，极其坚固。"
+        },
+        {
+          "index": 9,
+          "sentence": "The built-in combination lock offers state-of-the-art security so you can travel with peace of mind.",
+          "translation": "内置密码锁提供最先进的安全保障，让您安心出行。"
+        },
+        {
+          "index": 10,
+          "sentence": "D Tripp Holiday",
+          "translation": "D 特里普假日系列"
+        },
+        {
+          "index": 11,
+          "sentence": "Simple and affordable, the Tripp range offers a great selection of tough cases.",
+          "translation": "简单且价格实惠，Tripp系列提供了多种坚固箱子的绝佳选择。"
+        },
+        {
+          "index": 12,
+          "sentence": "They also come in a huge range of cheerful colours that should go with anything you choose to put on, and you'll definitely be able to spot it on the luggage carousel at the airport.",
+          "translation": "它们还有各种鲜艳的颜色，与你选择的任何衣物都能搭配，而且在机场行李传送带上你绝对能一眼认出它。"
+        },
+        {
+          "index": 13,
+          "sentence": "E Eastpak Tranverz Holdall",
+          "translation": "E 东帕克·特兰维兹行李袋"
+        },
+        {
+          "index": 14,
+          "sentence": "For those who want something in between an annual holiday suitcase and a weekend bag, this is a fantastic compromise.",
+          "translation": "对于那些想要介于年度假期行李箱和周末包之间产品的人来说，这是一个极好的折中选择。"
+        },
+        {
+          "index": 15,
+          "sentence": "With two wheels and a telescopic handle, the bag is guaranteed for 30 years.",
+          "translation": "这款包配备了两个轮子和一个伸缩手柄，享有30年质保。"
+        },
+        {
+          "index": 16,
+          "sentence": "Did we mention it also comes in colourful leopard print?",
+          "translation": "我们有没有提到它还有彩色豹纹款式可选？"
+        },
+        {
+          "index": 17,
+          "sentence": "F Herschel Parcel",
+          "translation": "F 赫尔舍尔包裹箱"
+        },
+        {
+          "index": 18,
+          "sentence": "From the brand behind some of today's most popular rucksacks, this suitcase really is a delight.",
+          "translation": "来自当今一些最受欢迎的背包品牌，这款行李箱确实令人愉悦。"
+        },
+        {
+          "index": 19,
+          "sentence": "Custom printed, with Herschel's signature leather toggles this well-crafted case is as cool, stylish and up to date as they come.",
+          "translation": "定制印花，搭配赫舍尔标志性的皮革扣环，这款制作精良的行李箱酷炫、时尚且与时俱进。"
+        },
+        {
+          "index": 20,
+          "sentence": "G The Diplomat",
+          "translation": "G 外交官"
+        },
+        {
+          "index": 21,
+          "sentence": "Travel in style with this beautiful suitcase that goes back to the days when trains ran on steam and air travel was leisurely.",
+          "translation": "带着这款优雅的手提箱时尚出行，它让人回想起火车以蒸汽为动力、航空旅行悠闲惬意的时代。"
+        },
+        {
+          "index": 22,
+          "sentence": "The leather case, part of the Steamline Luggage range, features roller wheels and a metal frame to hold it in shape.",
+          "translation": "这款皮革手提箱属于Steamline Luggage系列，配备滚轮和金属框架以保持其形状。"
+        },
+        {
+          "index": 23,
+          "sentence": "THE OXFORD SCHOOL OF DRAMA",
+          "translation": "牛津戏剧学院"
+        },
+        {
+          "index": 24,
+          "sentence": "One-Year Acting Course",
+          "translation": "一年制表演课程"
+        },
+        {
+          "index": 25,
+          "sentence": "This is an intensive course which is designed for those who have completed their academic studies and have some theatre or film experience already.",
+          "translation": "这是一门为已完成学业且具备一定戏剧或电影经验的人设计的强化课程。"
+        },
+        {
+          "index": 26,
+          "sentence": "In order to be accepted you should be a high achiever, knowledgeable about the industry and determined to succeed.",
+          "translation": "要获得录取，你应当是一名成绩优异者、对行业有深入了解，并有决心取得成功。"
+        },
+        {
+          "index": 27,
+          "sentence": "Term One : Technical classes in acting, voice, movement, applied movement and characterisation, music, singing, film, radio and professional development.The term finishes with an internal production given for tutors and students.",
+          "translation": "第一学期：开设表演、声音、动作、应用动作与角色塑造、音乐、歌唱、电影、广播及专业发展等技巧课程。学期以面向教师和学生呈现的一场内部剧目而告终。"
+        },
+        {
+          "index": 28,
+          "sentence": "Term Two : All technical classes continue from term one.",
+          "translation": "第二学期：所有技术课程从第一学期继续开始。"
+        },
+        {
+          "index": 29,
+          "sentence": "There is an internal performance of a one-act play, the recording of an audio showreel at a professional studio and the Showcase Drama in front of an invited audience including casting directors and agents.",
+          "translation": "其中包括一部独幕剧的内部演出、在专业录音室录制音频作品集，以及面向包括选角导演和经纪人在内的受邀观众进行的戏剧展示表演。"
+        },
+        {
+          "index": 30,
+          "sentence": "Term Three : Technical classes continue with additional focus on audition technique, workshops and masterclasses.",
+          "translation": "第三学期：技术课程继续开展，同时额外侧重于试镜技巧、工作坊和大师班。"
+        },
+        {
+          "index": 31,
+          "sentence": "This term includes a public performance of a play outdoors in the grounds of Blenheim Palace, and the chance to act a short film recorded on location by a professional crew.",
+          "translation": "本学期包括在布莱尼姆宫户外场地进行的一场公开戏剧演出，以及参与一部由专业团队实地拍摄的短片演出的机会。"
+        },
+        {
+          "index": 32,
+          "sentence": "How to Apply",
+          "translation": "如何申请"
+        },
+        {
+          "index": 33,
+          "sentence": "Entry to The Oxford School of Drama is by audition only and there are no academic requirements for any of our courses.",
+          "translation": "进入牛津戏剧学院仅通过试镜，并且我们的任何课程都没有学术要求。"
+        },
+        {
+          "index": 34,
+          "sentence": "Once we have received your application form and audition fee, we will email you with a date for your audition and further details about what to expect when you are here.",
+          "translation": "一旦我们收到你的申请表和试镜费用，我们将通过电子邮件告知你试镜的日期以及有关你来到这里后应预期什么的更多细节。"
+        },
+        {
+          "index": 35,
+          "sentence": "For your initial audition, you will need to prepare two contrasting speeches from plays, lasting no longer than two minutes.",
+          "translation": "对于你的初次试镜，你需要准备两段来自戏剧的对比性独白，每段时长不超过两分钟。"
+        },
+        {
+          "index": 36,
+          "sentence": "There will also be some group work for which you will need to wear loose, comfortable clothing.",
+          "translation": "还会有一些小组活动，为此你需要穿着宽松舒适的衣服。"
+        },
+        {
+          "index": 37,
+          "sentence": "If you are applying from overseas, you will be able to submit your first audition by means of DVD, YouTube or link to a secure website.",
+          "translation": "如果你是海外申请者，你可以通过DVD、YouTube或安全网站链接提交你的第一轮试镜。"
+        },
+        {
+          "index": 38,
+          "sentence": "You will be invited to submit this once we have received your application form and audition fee.",
+          "translation": "一旦我们收到你的申请表和试镜费，你将被邀请提交这一材料。"
+        },
+        {
+          "index": 39,
+          "sentence": "If you are successful in your first audition, you will be invited to attend future auditions here at the school.",
+          "translation": "如果你首轮试镜成功，你将被邀请参加在学校进行的后续试镜。"
+        },
+        {
+          "index": 40,
+          "sentence": "The school will provide a free bus from central Oxford for those attending auditions.",
+          "translation": "学校将为参加试镜的人提供从牛津市中心出发的免费巴士。"
+        }
+      ]
+    },
+    {
+      "id": "2070",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "BORDER CROSSING FOR COMMERCIAL VEHICLES",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "This Border Crossing Guide is designed for drivers and motor carriers operating commercial vehicles at Michigan's international border crossings. This information will help you cross the border from the U.S. into Canada, and from Canada into the US.",
+          "translation": "本边境通关指南专为在密歇根州国际边境口岸运营商用车辆的司机和运输公司设计。\n这些信息将帮助您从美国进入加拿大，以及从加拿大进入美国。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Your first point of contact at the border consists of Primary Inspection. The best way to clear customs at Primary Inspection is to make sure Customs gets information about your shipment before you set off, using the Pre-Arrival Processing System(PAPS). When using this you need to provide information about your shipment, and you also need to send proof of a current annual inspection for your vehicle, tractor and trailer.",
+          "translation": "你在边境的第一个接触点是初级检查。\n在初级检查处顺利通关的最佳方式是使用预到达处理系统，确保海关在出发前获取你货物信息。\n使用该系统时，你需要提供货物信息，并且还需要提交车辆、牵引车和拖车当前年度检查的证明。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Before you arrive at the border, make sure you have all your paperwork up to date and ready to present at Primary Inspection. You'll need a photo ID in addition to your birth certificate or passport. Drivers must also turn on interior cab lights and open all interior drapes or blinds to sleeper areas for easy inspection.",
+          "translation": "在抵达边境之前，请确保您已将所有文件更新完毕，并准备好在一级检查处出示。\n除了出生证明或护照外，您还需要携带带有照片的身份证件。\n驾驶员还必须打开驾驶室内部灯光，并拉开卧铺区域的所有内部窗帘或百叶窗，以便进行便捷检查。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "If all of your paperwork is in order and was processed ahead of time, you will be released at the primary lane and this may be your only stop. If you are not a Canadian or U.S. citizen, a visa is obligatory and you will also be required to complete an I-94 Card. I-94 Cards are available only at border crossings into the United States. Drivers who clear customs at Primary Inspection will be instructed to report to Immigration to fill out the I-94 Card and receive verbal clearance from a U.S. official to proceed into the United States.The charge for the I-94 Card is $6.",
+          "translation": "如果你所有的文件都齐全并且已经提前处理完毕，你将在主检查通道被放行，这可能就是你唯一需要停留的地方。\n如果你不是加拿大或美国公民，签证是必须的，同时你还需要填写一份I-94卡。\nI-94卡仅在美国入境口岸提供。\n在主检查处完成通关的司机将被指示前往移民局填写I-94卡，并从美国官员那里获得口头许可，方可进入美国。\nI-94卡的费用为6美元。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "If your paperwork is not in order, you will be directed to Secondary Inspection. When you get there, look for the signs for Truck Inspection and follow these.",
+          "translation": "如果你的文件不符合要求，你将被引导至二次检查处。\n到达那里后，寻找卡车检查标志并遵循指示。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Appendix: Dealing with absence in the workplace",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "附录：处理工作场所的缺勤问题"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "This appendix considers how to handle problems of absence and gives guidance about authorised and unauthorised absence of employees from work.",
+          "translation": "本附录探讨如何处理缺勤问题，并就员工经批准和未经批准的缺勤提供指导。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The organisation should be aware of the rights of employees and in particular the requirements of the Equality Act 2010 when making any decisions about absences of employees who are disabled. In these cases the employer should consider what reasonable adjustments could be made in the workplace to help the employee.This might be something as simple as supplying an appropriate chair for the use of the employee. In cases where an employee suffers from an allergy caused by something in the workplace, the employer should consider remedial action or a transfer to alternative work.",
+          "translation": "组织在决定残疾员工的缺勤问题时，应了解员工的权利，特别是《2010年平等法案》的要求。\n在这些情况下，雇主应考虑在工作场所做出哪些合理调整以帮助该员工。\n这可能简单到为员工提供一把合适的椅子。\n如果员工因工作场所中的某种物质而过敏，雇主应考虑采取补救措施或将其调至其他工作岗位。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "If the absence is because of temporary difficulties relating to dependants, the employee may be entitled to have time off under the provisions of the Employment Rights Act 1996. In cases where the employee has difficulty managing both work and home responsibilities, employees have the right to request flexible ways of working, such as job-sharing ,and employers must have a good business reason for rejecting any such application.",
+          "translation": "如果缺勤是由于与家属相关的暂时性困难，员工可能有权根据《1996年就业权利法案》的规定请假。\n在员工难以兼顾工作和家庭责任的情况下，员工有权要求灵活的工作方式，例如工作分担，而雇主必须有合理的商业理由才能拒绝此类申请。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Employers should investigate unexpected absences promptly and the employee should be asked for an explanation at a return-to-work interview. in order to show both the employee concerned and other employees that absence is regarded as a serious matter and may result in dismissal, it is very important that persistent absence is dealt with firmly and consistently.Records showing lateness and the duration of and explanations for all spells of absence should be kept to help monitor levels of absence or lateness. If the employer wishes to contact the employee's doctor for more information about a medical condition, he or she must notify the employee in writing that they intend to make such an application and they must secure the employee's consent in writing. Consideration should be given to introducing measures to help employees, regardless of status or seniority, who may be suffering from stress. The aim should be to identify employees affected and encourage them to seek help and treatment.",
+          "translation": "雇主应及时调查意外的缺勤情况，并在返岗面试中要求员工做出解释。\n为了向相关员工及其他员工表明缺勤被视为严重问题并可能导致解雇，坚定且一致地处理长期缺勤至关重要。\n应保留显示迟到情况、所有缺勤期间的时长及解释的记录，以帮助监控缺勤或迟到的程度。\n如果雇主希望联系员工的医生以获取更多关于健康状况的信息，必须书面通知员工其有意提出此类申请，并且必须获得员工的书面同意。\n应考虑引入措施帮助可能承受压力的员工，无论其职位或资历如何。\n目标应是识别受影响的员工，并鼓励他们寻求帮助和治疗。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15606",
+          "type": 8,
+          "title": "Procedure for border crossing",
+          "instructions": "Questions 15 - 20\nComplete the flow-chart.\nWrite NO MORE THAN TWO WORDS from the text in each gap.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120181",
+              "number": 15,
+              "prompt": "For this, send your _____ details and current vehicle inspection documents.",
+              "options": [],
+              "answer": "shipment",
+              "accepted_answers": [
+                "shipment"
+              ],
+              "analysis": "题干中的“send your ___ details”对应原文第二段的“provide information about your shipment”，其中“details”被同义替换为“information about”，而“shipment”是唯一符合语境且不超过两个词的答案。同时，题干还提到需提供车辆年检证明，这与原文后半句内容一致，进一步确认答案为“shipment”。",
+              "reason": "定位词PAPS，原文明确需提供shipment信息和车辆检查证明。",
+              "location_analysis": "题干send your details对应原文provide information abou...",
+              "paraphrasing": "send -> provide; details -> information about your shipment",
+              "keywords": "PAPS, details, current vehicle inspection",
+              "evidence": [
+                "When using this you need to provide information about your shipment, and you also need to send proof of a current annual inspection for your vehicle, tractor and trailer."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120182",
+              "number": 16,
+              "prompt": "Check that documents such as _____ and birth certificate/passport are ready for inspection.",
+              "options": [],
+              "answer": "photo ID",
+              "accepted_answers": [
+                "photo ID"
+              ],
+              "analysis": "题干要求填写与出生证明或护照并列的文件类型，原文第三段明确指出“You'll need a photo ID in addition to your birth certificate or passport”，其中“photo ID”直接对应题干中的“documents such as ___ and birth certificate/passport”，因此答案为“photo ID”。",
+              "reason": "定位词birth certificate/passport，原文提到photo ID。",
+              "location_analysis": "题干documents such as对应原文photo ID，答案为photo ID。",
+              "paraphrasing": "documents such as -> photo ID in addition to your birth certificate or passport",
+              "keywords": "documents, birth certificate, passport",
+              "evidence": [
+                "You'll need a photo ID in addition to your birth certificate or passport."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120183",
+              "number": 17,
+              "prompt": "Make sure the _____ are on inside the vehicle.",
+              "options": [],
+              "answer": "lights",
+              "accepted_answers": [
+                "lights"
+              ],
+              "analysis": "题干中“Make sure the ___ are on inside the vehicle”对应原文第三段“Drivers must also turn on interior cab lights”，其中“are on”与“turn on”形成动作对应，“inside the vehicle”则指向“interior cab lights”。根据题目要求不超过两个词，答案应简化为“lights”。",
+              "reason": "定位词inside vehicle，原文明确turn on lights。",
+              "location_analysis": "题干要求打开车内某物，原文turn on interior cab lights，答案为lig...",
+              "paraphrasing": "make sure the ... are on -> turn on interior cab lights",
+              "keywords": "inside the vehicle, interior cab lights",
+              "evidence": [
+                "Drivers must also turn on interior cab lights and open all interior drapes or blinds to sleeper areas for easy inspection."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120184",
+              "number": 18,
+              "prompt": "Check that the _____ in the vehicle can be easily seen.",
+              "options": [],
+              "answer": "sleeper areas",
+              "accepted_answers": [
+                "sleeper areas"
+              ],
+              "analysis": "题干要求填写车内需“能被轻易看到”的部位，原文第三段提到“open all interior drapes or blinds to sleeper areas for easy inspection”，说明检查对象是“sleeper areas”。题干中“can be easily seen”与原文“for easy inspection”构成同义替换，因此答案为“sleeper areas”。",
+              "reason": "定位词easily seen，原文sleeper areas需可见。",
+              "location_analysis": "题干要求车内某部位可以被看到，原文open...sleeper areas，答案为sleepe...",
+              "paraphrasing": "the ... in the vehicle can be easily seen -> open all interior drapes or blinds to sleeper areas for easy inspection",
+              "keywords": "easily seen, interior drapes, blinds",
+              "evidence": [
+                "Drivers must also turn on interior cab lights and open all interior drapes or blinds to sleeper areas for easy inspection."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120185",
+              "number": 19,
+              "prompt": "Non US/Canadian citizens must have a visa, and go to the _____ area to complete an 1-94 card (there is a small _____ for this) and to receive verbal clearance.",
+              "options": [],
+              "answer": "immigration",
+              "accepted_answers": [
+                "immigration"
+              ],
+              "analysis": "题干指出非美加公民需前往某区域填写I-94卡，原文第四段明确说明“Drivers who clear customs at Primary Inspection will be instructed to report to Immigration to fill out the I-94 Card”，其中“report to Immigration”直接对应题干中的“go to the ___ area”，因此答案为“immigration”。",
+              "reason": "定位词Non US/Canadian citizens, visa, I-94 card，原文对应report to Immigration。",
+              "location_analysis": "题干要求前往某地办理I-94卡，原文report to Immigration，答案为immi...",
+              "paraphrasing": "go to the ... area -> report to Immigration",
+              "keywords": "Non US/Canadian citizens, visa, I-94 card",
+              "evidence": [
+                "Drivers who clear customs at Primary Inspection will be instructed to report to Immigration to fill out the I-94 Card and receive verbal clearance from a U.S. official to proceed into the United States."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120186",
+              "number": 20,
+              "prompt": "Non US/Canadian citizens must have a visa, and go to the _____ area to complete an 1-94 card (there is a small _____ for this) and to receive verbal clearance.",
+              "options": [],
+              "answer": "charge",
+              "accepted_answers": [
+                "charge"
+              ],
+              "analysis": "题干中“there is a small ___ for this”指办理I-94卡需支付小额费用，原文第四段末句“The charge for the I-94 Card is $6”明确使用“charge”一词描述该费用，且“small”与“$6”在语义上吻合，因此答案为“charge”。",
+              "reason": "定位词small和$6，原文charge。",
+              "location_analysis": "题干small后需填费用相关词，原文charge，答案为charge。",
+              "paraphrasing": "a small ... for this -> The charge for the I-94 Card is $6",
+              "keywords": "small, I-94 card, charge, $6",
+              "evidence": [
+                "The charge for the I-94 Card is $6."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Before setting off\nTo speed up the border crossing, use PAPS.\nFor this, send your $120181$ details and current vehicle inspection documents.\n↓\nBefore arriving at the border\nCheck that documents such as $120182$ and birth certificate/passport are ready for inspection.\nMake sure the $120183$ are on inside the vehicle.\nCheck that the $120184$ in the vehicle can be easily seen.\n↓\nAt the border (Primary Inspection)\nThis may be the only stop if paperwork is in order.\nNon US/Canadian citizens must have a visa, and go to the $120185$ area to complete an 1-94 card (there is a small $120186$ for this) and to receive verbal clearance.\n↓\nAt the border(Secondary Inspection)\nIf there is a problem with paperwork, you will be sent to Truck Inspection.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Before setting off\nTo speed up the border crossing, use PAPS.\nFor this, send your $120181$ details and current vehicle inspection documents.\n↓\nBefore arriving at the border\nCheck that documents such as $120182$ and birth certificate/passport are ready for inspection.\nMake sure the $120183$ are on inside the vehicle.\nCheck that the $120184$ in the vehicle can be easily seen.\n↓\nAt the border (Primary Inspection)\nThis may be the only stop if paperwork is in order.\nNon US/Canadian citizens must have a visa, and go to the $120185$ area to complete an 1-94 card (there is a small $120186$ for this) and to receive verbal clearance.\n↓\nAt the border(Secondary Inspection)\nIf there is a problem with paperwork, you will be sent to Truck Inspection."
+        },
+        {
+          "id": "15608",
+          "type": 8,
+          "title": "Absence in the workplace",
+          "instructions": "Questions 21 - 27\nComplete the notes below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120187",
+              "number": 21,
+              "prompt": "• help with issues related to disabilities, e.g. provision of a suitable _____",
+              "options": [],
+              "answer": "chair",
+              "accepted_answers": [
+                "chair"
+              ],
+              "analysis": "题干提到为残疾员工提供“suitable ___”，原文第八段举例说明“supplying an appropriate chair for the use of the employee”，其中“appropriate chair”与“suitable ___”形成直接对应，且题目要求仅填一个词，故答案为“chair”。",
+              "reason": "定位词disabilities, provision，原文提到chair。",
+              "location_analysis": "题干provision of a suitable对应原文supplying an appro...",
+              "paraphrasing": "provision of a suitable ... -> supplying an appropriate chair",
+              "keywords": "disabilities, provision, suitable",
+              "evidence": [
+                "This might be something as simple as supplying an appropriate chair for the use of the employee."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120188",
+              "number": 22,
+              "prompt": "• provision of arrangements to deal with any work-related _____",
+              "options": [],
+              "answer": "allergy",
+              "accepted_answers": [
+                "allergy"
+              ],
+              "analysis": "题干中“work-related ___”对应原文第八段“an allergy caused by something in the workplace”，说明过敏源来自工作场所，属于工作相关问题。题干要求填一个词，且“allergy”在原文中明确出现，因此答案为“allergy”。",
+              "reason": "定位词work-related，原文allergy caused by workplace。",
+              "location_analysis": "题干work-related对应原文allergy caused by...workplace...",
+              "paraphrasing": "provision of arrangements to deal with any work-related ... -> allergy caused by something in the workplace",
+              "keywords": "work-related, allergy, remedial action",
+              "evidence": [
+                "In cases where an employee suffers from an allergy caused by something in the workplace, the employer should consider remedial action or a transfer to alternative work."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120189",
+              "number": 23,
+              "prompt": "• time off work to deal with short-term problems of _____",
+              "options": [],
+              "answer": "dependants",
+              "accepted_answers": [
+                "dependants"
+              ],
+              "analysis": "题干中“short-term problems of ___”对应原文第九段“temporary difficulties relating to dependants”，其中“temporary difficulties”与“short-term problems”为同义替换，“relating to dependants”直接对应“of ___”，因此答案为“dependants”。",
+              "reason": "定位词time off, short-term problems，原文temporary...dependants。",
+              "location_analysis": "题干short-term problems对应原文temporary difficulties...",
+              "paraphrasing": "short-term problems of ... -> temporary difficulties relating to dependants",
+              "keywords": "time off, short-term problems, dependants",
+              "evidence": [
+                "If the absence is because of temporary difficulties relating to dependants, the employee may be entitled to have time off under the provisions of the Employment Rights Act 1996."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120190",
+              "number": 24,
+              "prompt": "• possibility of arrangements that are _____ to help with domestic",
+              "options": [],
+              "answer": "flexible",
+              "accepted_answers": [
+                "flexible"
+              ],
+              "analysis": "题干要求填写用于帮助处理家庭责任的安排类型，原文第九段提到“employees have the right to request flexible ways of working, such as job-sharing”，其中“flexible ways of working”对应题干中的“arrangements that are ___”，因此答案为“flexible”。",
+              "reason": "定位词domestic responsibilities，原文flexible ways。",
+              "location_analysis": "题干arrangements that are对应原文flexible ways of wor...",
+              "paraphrasing": "arrangements that are ... -> flexible ways of working such as job-sharing",
+              "keywords": "arrangements, flexible, domestic responsibilities",
+              "evidence": [
+                "In cases where the employee has difficulty managing both work and home responsibilities, employees have the right to request flexible ways of working, such as job-sharing ,and employers must have a good business reason for rejecting any such application."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120191",
+              "number": 25,
+              "prompt": "• make it clear that absence is a possible reason for _____",
+              "options": [],
+              "answer": "dismissal",
+              "accepted_answers": [
+                "dismissal"
+              ],
+              "analysis": "题干中“absence is a possible reason for ___”对应原文第十段“absence is regarded as a serious matter and may result in dismissal”，其中“may result in dismissal”明确指出缺勤可能导致解雇，因此答案为“dismissal”。",
+              "reason": "定位词absence, possible reason，原文may result in dismissal。",
+              "location_analysis": "题干possible reason for对应原文result in dismissal，答案...",
+              "paraphrasing": "a possible reason for ... -> may result in dismissal",
+              "keywords": "absence, possible reason, dismissal",
+              "evidence": [
+                "in order to show both the employee concerned and other employees that absence is regarded as a serious matter and may result in dismissal, it is very important that persistent absence is dealt with firmly and consistently."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120192",
+              "number": 26,
+              "prompt": "• ask employees for consent before contacting their _____",
+              "options": [],
+              "answer": "doctor",
+              "accepted_answers": [
+                "doctor"
+              ],
+              "analysis": "题干提到雇主在联系某人前需获得员工同意，原文第十段明确指出“If the employer wishes to contact the employee's doctor... they must secure the employee's consent in writing”，其中“contact the employee's doctor”与题干“contacting their ___”完全对应，因此答案为“doctor”。",
+              "reason": "定位词consent, contacting，原文contact employee's doctor。",
+              "location_analysis": "题干consent...contacting对应原文secure consent...cont...",
+              "paraphrasing": "ask employees for consent before contacting their ... -> must notify the employee... secure the employee's consent... contact the employee's doctor",
+              "keywords": "consent, contacting, doctor",
+              "evidence": [
+                "If the employer wishes to contact the employee's doctor for more information about a medical condition, he or she must notify the employee in writing that they intend to make such an application and they must secure the employee's consent in writing."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120193",
+              "number": 27,
+              "prompt": "• identify employees affected by _____ and provide support",
+              "options": [],
+              "answer": "stress",
+              "accepted_answers": [
+                "stress"
+              ],
+              "analysis": "题干要求填写员工可能受影响并需支持的问题，原文第十段末句提到“who may be suffering from stress”以及“identify employees affected and encourage them to seek help”，其中“suffering from stress”与“affected by ___”形成对应，因此答案为“stress”。",
+              "reason": "定位词identify, affected, support，原文suffering from stress。",
+              "location_analysis": "题干identify employees affected by对应原文identify em...",
+              "paraphrasing": "identify employees affected by ... -> identify employees affected and encourage them to seek help; suffering from stress",
+              "keywords": "identify employees, affected by, stress, support",
+              "evidence": [
+                "Consideration should be given to introducing measures to help employees, regardless of status or seniority, who may be suffering from stress. The aim should be to identify employees affected and encourage them to seek help and treatment."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Employees' rights\n• help with issues related to disabilities, e.g. provision of a suitable $120187$\n• provision of arrangements to deal with any work-related $120188$\n• time off work to deal with short-term problems of $120189$\n• possibility of arrangements that are $120190$ to help with domestic\nresponsibilities\nRecommendations to employers\n• make it clear that absence is a possible reason for $120191$\n• ask employees for consent before contacting their $120192$\n• identify employees affected by $120193$ and provide support",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Employees' rights\n• help with issues related to disabilities, e.g. provision of a suitable $120187$\n• provision of arrangements to deal with any work-related $120188$\n• time off work to deal with short-term problems of $120189$\n• possibility of arrangements that are $120190$ to help with domestic\nresponsibilities\nRecommendations to employers\n• make it clear that absence is a possible reason for $120191$\n• ask employees for consent before contacting their $120192$\n• identify employees affected by $120193$ and provide support"
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "BORDER CROSSING FOR COMMERCIAL VEHICLES",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "This Border Crossing Guide is designed for drivers and motor carriers operating commercial vehicles at Michigan's international border crossings.",
+          "translation": "本边境通关指南专为在密歇根州国际边境口岸运营商用车辆的司机和运输公司设计。"
+        },
+        {
+          "index": 2,
+          "sentence": "This information will help you cross the border from the U.S. into Canada, and from Canada into the US.",
+          "translation": "这些信息将帮助您从美国进入加拿大，以及从加拿大进入美国。"
+        },
+        {
+          "index": 3,
+          "sentence": "Your first point of contact at the border consists of Primary Inspection.",
+          "translation": "你在边境的第一个接触点是初级检查。"
+        },
+        {
+          "index": 4,
+          "sentence": "The best way to clear customs at Primary Inspection is to make sure Customs gets information about your shipment before you set off, using the Pre-Arrival Processing System(PAPS).",
+          "translation": "在初级检查处顺利通关的最佳方式是使用预到达处理系统，确保海关在出发前获取你货物信息。"
+        },
+        {
+          "index": 5,
+          "sentence": "When using this you need to provide information about your shipment, and you also need to send proof of a current annual inspection for your vehicle, tractor and trailer.",
+          "translation": "使用该系统时，你需要提供货物信息，并且还需要提交车辆、牵引车和拖车当前年度检查的证明。"
+        },
+        {
+          "index": 6,
+          "sentence": "Before you arrive at the border, make sure you have all your paperwork up to date and ready to present at Primary Inspection.",
+          "translation": "在抵达边境之前，请确保您已将所有文件更新完毕，并准备好在一级检查处出示。"
+        },
+        {
+          "index": 7,
+          "sentence": "You'll need a photo ID in addition to your birth certificate or passport.",
+          "translation": "除了出生证明或护照外，您还需要携带带有照片的身份证件。"
+        },
+        {
+          "index": 8,
+          "sentence": "Drivers must also turn on interior cab lights and open all interior drapes or blinds to sleeper areas for easy inspection.",
+          "translation": "驾驶员还必须打开驾驶室内部灯光，并拉开卧铺区域的所有内部窗帘或百叶窗，以便进行便捷检查。"
+        },
+        {
+          "index": 9,
+          "sentence": "If all of your paperwork is in order and was processed ahead of time, you will be released at the primary lane and this may be your only stop.",
+          "translation": "如果你所有的文件都齐全并且已经提前处理完毕，你将在主检查通道被放行，这可能就是你唯一需要停留的地方。"
+        },
+        {
+          "index": 10,
+          "sentence": "If you are not a Canadian or U.S. citizen, a visa is obligatory and you will also be required to complete an I-94 Card.",
+          "translation": "如果你不是加拿大或美国公民，签证是必须的，同时你还需要填写一份I-94卡。"
+        },
+        {
+          "index": 11,
+          "sentence": "I-94 Cards are available only at border crossings into the United States.",
+          "translation": "I-94卡仅在美国入境口岸提供。"
+        },
+        {
+          "index": 12,
+          "sentence": "Drivers who clear customs at Primary Inspection will be instructed to report to Immigration to fill out the I-94 Card and receive verbal clearance from a U.S. official to proceed into the United States.",
+          "translation": "在主检查处完成通关的司机将被指示前往移民局填写I-94卡，并从美国官员那里获得口头许可，方可进入美国。"
+        },
+        {
+          "index": 13,
+          "sentence": "The charge for the I-94 Card is $6.",
+          "translation": "I-94卡的费用为6美元。"
+        },
+        {
+          "index": 14,
+          "sentence": "If your paperwork is not in order, you will be directed to Secondary Inspection.",
+          "translation": "如果你的文件不符合要求，你将被引导至二次检查处。"
+        },
+        {
+          "index": 15,
+          "sentence": "When you get there, look for the signs for Truck Inspection and follow these.",
+          "translation": "到达那里后，寻找卡车检查标志并遵循指示。"
+        },
+        {
+          "index": 16,
+          "sentence": "Appendix: Dealing with absence in the workplace",
+          "translation": "附录：处理工作场所的缺勤问题"
+        },
+        {
+          "index": 17,
+          "sentence": "This appendix considers how to handle problems of absence and gives guidance about authorised and unauthorised absence of employees from work.",
+          "translation": "本附录探讨如何处理缺勤问题，并就员工经批准和未经批准的缺勤提供指导。"
+        },
+        {
+          "index": 18,
+          "sentence": "The organisation should be aware of the rights of employees and in particular the requirements of the Equality Act 2010 when making any decisions about absences of employees who are disabled.",
+          "translation": "组织在决定残疾员工的缺勤问题时，应了解员工的权利，特别是《2010年平等法案》的要求。"
+        },
+        {
+          "index": 19,
+          "sentence": "In these cases the employer should consider what reasonable adjustments could be made in the workplace to help the employee.",
+          "translation": "在这些情况下，雇主应考虑在工作场所做出哪些合理调整以帮助该员工。"
+        },
+        {
+          "index": 20,
+          "sentence": "This might be something as simple as supplying an appropriate chair for the use of the employee.",
+          "translation": "这可能简单到为员工提供一把合适的椅子。"
+        },
+        {
+          "index": 21,
+          "sentence": "In cases where an employee suffers from an allergy caused by something in the workplace, the employer should consider remedial action or a transfer to alternative work.",
+          "translation": "如果员工因工作场所中的某种物质而过敏，雇主应考虑采取补救措施或将其调至其他工作岗位。"
+        },
+        {
+          "index": 22,
+          "sentence": "If the absence is because of temporary difficulties relating to dependants, the employee may be entitled to have time off under the provisions of the Employment Rights Act 1996.",
+          "translation": "如果缺勤是由于与家属相关的暂时性困难，员工可能有权根据《1996年就业权利法案》的规定请假。"
+        },
+        {
+          "index": 23,
+          "sentence": "In cases where the employee has difficulty managing both work and home responsibilities, employees have the right to request flexible ways of working, such as job-sharing, and employers must have a good business reason for rejecting any such application.",
+          "translation": "在员工难以兼顾工作和家庭责任的情况下，员工有权要求灵活的工作方式，例如工作分担，而雇主必须有合理的商业理由才能拒绝此类申请。"
+        },
+        {
+          "index": 24,
+          "sentence": "Employers should investigate unexpected absences promptly and the employee should be asked for an explanation at a return-to-work interview.",
+          "translation": "雇主应及时调查意外的缺勤情况，并在返岗面试中要求员工做出解释。"
+        },
+        {
+          "index": 25,
+          "sentence": "in order to show both the employee concerned and other employees that absence is regarded as a serious matter and may result in dismissal, it is very important that persistent absence is dealt with firmly and consistently.",
+          "translation": "为了向相关员工及其他员工表明缺勤被视为严重问题并可能导致解雇，坚定且一致地处理长期缺勤至关重要。"
+        },
+        {
+          "index": 26,
+          "sentence": "Records showing lateness and the duration of and explanations for all spells of absence should be kept to help monitor levels of absence or lateness.",
+          "translation": "应保留显示迟到情况、所有缺勤期间的时长及解释的记录，以帮助监控缺勤或迟到的程度。"
+        },
+        {
+          "index": 27,
+          "sentence": "If the employer wishes to contact the employee's doctor for more information about a medical condition, he or she must notify the employee in writing that they intend to make such an application and they must secure the employee's consent in writing.",
+          "translation": "如果雇主希望联系员工的医生以获取更多关于健康状况的信息，必须书面通知员工其有意提出此类申请，并且必须获得员工的书面同意。"
+        },
+        {
+          "index": 28,
+          "sentence": "Consideration should be given to introducing measures to help employees, regardless of status or seniority, who may be suffering from stress.",
+          "translation": "应考虑引入措施帮助可能承受压力的员工，无论其职位或资历如何。"
+        },
+        {
+          "index": 29,
+          "sentence": "The aim should be to identify employees affected and encourage them to seek help and treatment.",
+          "translation": "目标应是识别受影响的员工，并鼓励他们寻求帮助和治疗。"
+        }
+      ]
+    },
+    {
+      "id": "2071",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "A visit to Oymyakon, the world's coldest town",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "You don't need a sat nav to drive to Oymyakon. From Yakutsk you cross the Lena River and simply follow the M56 almost all of the way before taking a left at Tomtor for the final few kilometres. The journey takes two days of hard driving; two days of glistening landscapes, frozen rivers and untouched snow; two days of endless forest and breathtaking beauty; two days to penetrate the heart of Siberia and reach the coldest inhabited place on Earth.The beauty surprised me. Siberia isn't known for its pleasant appearance. It's always billed as a place of hardship. But for hour after hour, the wintry wonderland was bathed in a crisp, clean sunshine,presenting a continuous panorama of conifer trees wreathed in silence and snow.",
+          "translation": "开车前往奥伊米亚康并不需要卫星导航。\n从雅库茨克出发，越过勒拿河，几乎全程沿着M56公路行驶，在托姆托尔左转，再走最后几公里就到了。\n这段旅程需要两天艰难的驾驶；两天里，景色晶莹闪烁，河流冰封，雪地无痕；两天里，是无尽的森林和令人屏息的美景；两天的时间，足以深入西伯利亚腹地，抵达地球上最寒冷的有人居住之地。\n这种美丽让我感到惊讶。\n西伯利亚并非以其宜人的外观而闻名。\n它总被描绘成一片艰苦之地。\n但一连几个小时，这片冬日仙境都沐浴在清新干净的阳光中，展现出一幅连绵的全景，针叶树被静默与白雪所环绕。\n开车去奥伊米亚康不需要卫星导航。\n从雅库茨克出发，你穿过勒拿河，几乎全程沿着M56公路行驶，然后在托姆托尔左转，行驶最后几公里。\n这段旅程需要两天的艰苦驾驶；两天里，景色闪耀，河流封冻，积雪未染；两天里，森林无边，美不胜收；两天时间，深入西伯利亚腹地，抵达地球上最寒冷的有人居住之地。\n这份美丽让我感到惊讶。\n它总被描绘成一个艰苦的地方。\n但一小时又一小时，这片冬日仙境沐浴在清新明澈的阳光中，展现出连绵的全景，松柏树被寂静和白雪环绕。\n驱车前往奥伊米亚康并不需要卫星导航。\n从雅库茨克出发，你穿过勒拿河，几乎全程沿着M56公路行驶，然后在托姆托尔左转，走完最后几公里。\n这段旅程需要两天艰苦的驾驶：两天里，沿途是闪闪发光的景色、冰封的河流和未受污染的雪；两天里，是无尽的森林和令人屏息的美景；两天的时间，足以深入西伯利亚腹地，抵达地球上最寒冷的有人居住之地。\n这种美丽令我惊讶。\n西伯利亚并非以宜人的外貌著称。\n它总是被描绘成一个艰苦的地方。\n但一小时又一小时，这片冬日仙境沐浴在清新洁净的阳光中，展现出连绵的全景，针叶树被寂静和白雪环绕。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "As we left the flat plain, the road began to twist and turn, leading us into untouched hills and on towards the Verkhoyansk Mountains. Beneath their snow-clad peaks,the slopes became steeper and the valleys deeper. Down in a valley, we stopped to look at a hot spring beside the road. It was immediately obvious against the snow- a spot shrouded in heavy mist. Trees emerged from the strange haze as ghostly silhouettes.",
+          "translation": "当我们离开平坦的平原时，道路开始蜿蜒曲折，引领我们进入未经开发的山丘，并继续朝着维尔霍扬斯克山脉前进。\n在它们白雪覆盖的山峰之下，山坡变得更加陡峭，山谷也更深邃。\n在下面的一个山谷里，我们停下来观看路边的温泉。\n在雪的映衬下，它立刻变得显而易见——一个被浓雾笼罩的地方。\n树木从奇特的雾霭中浮现，如同幽灵般的轮廓。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Despite the magical ambience of the Siberian wilderness, its reputation for hardship hit me every time I climbed out of the vehicle. Within less than a minute, the skin all over my face began to feel as if it were burning. If I wasn't wearing my two sets of gloves,I rapidly lost the feeling in my fingertips. I learned very quickly not to draw too deep a breath because the shock of the cold air in my lungs invariably set me off on an extended bout of coughing.Siberia in winter is a world barely fit for human habitation.This is a place of such searing cold that it bites through multiple layers of clothing as if they aren't there.",
+          "translation": "尽管西伯利亚荒野有着神奇的氛围，但每次我爬出车外时，它那以严酷著称的名声都让我切身体会到。\n不到一分钟，我脸上的皮肤就开始感觉像在燃烧一样。\n如果我没有戴两副手套，我的指尖会迅速失去知觉。\n我很快就学会了不要深呼吸，因为冷空气进入肺部的冲击总会引发我一阵长时间的咳嗽。\n冬季的西伯利亚是一个几乎不适合人类居住的世界。\n这个地方寒冷刺骨，能穿透多层衣服，仿佛它们根本不存在一样。\n尽管西伯利亚荒野有着神奇的氛围，但每当我爬出车外时，它那严酷的名声都会让我深受感触。\n不到一分钟，我脸上所有的皮肤就开始感觉像在燃烧一样。\n如果我没有戴两副手套，我的指尖很快就会失去知觉。\n我很快就学会了不要深呼吸，因为冷空气对肺部的刺激总会引发我长时间的一阵咳嗽。\n这个地方寒冷刺骨，冷气能穿透多层衣物，仿佛它们根本不存在一样。\n尽管西伯利亚荒野有着神奇的氛围，但每次我爬出车辆时，其艰苦的名声都会冲击着我。\n不到一分钟，我整个脸上的皮肤就开始有种灼烧感。\n我很快就学会了不要深呼吸，因为冷空气对肺部的冲击总会引发我一阵长时间的咳嗽。\n这个地方寒冷刺骨，能穿透多层衣物，仿佛它们不存在一样。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Oymyakon is a quiet little town - the world's coldest- of about 550 inhabitants, with its own power station, a school, two shops and a small hospital. It probably originated as a seasonal settlement where reindeer herders spent the summer on the banks of the Indigirka River.",
+          "translation": "奥伊米亚康是一个安静的小镇——世界上最冷的小镇——约有550名居民，拥有自己的发电站、一所学校、两家商店和一家小医院。\n它可能最初是一个季节性定居点，驯鹿牧民在英迪吉尔卡河岸边度过夏季。\n奥伊米亚康是一个安静的小镇——世界上最寒冷的小镇——约有550名居民，拥有自己的发电站、一所学校、两家商店和一家小医院。\n它可能最初是一个季节性定居点，驯鹿牧民曾在因迪吉尔卡河畔度过夏天。\n奥伊米亚康是一个宁静的小镇——世界上最寒冷的小镇——约有550名居民，拥有自己的发电站、一所学校、两家商店和一家小型医院。\n它可能最初是一个季节性定居点，驯鹿牧民在因迪吉尔卡河岸边度过夏天。\n奥伊米亚康是一个安静的小镇——世界上最寒冷的地方——约有550名居民，拥有自己的发电站、一所学校、两家商店和一家小医院。\n它最初可能是一个季节性定居点，驯鹿牧民在因迪吉尔卡河畔度过夏季。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "The temperature when I arrived was -45°C - not particularly cold, I was informed.A number of factors combine to explain Oymyakon's record low temperatures. It is far from the ocean,with its moderating effect on air temperature. In addition, the town sits in a valley, below the general level of the Oymyakon Plateau, which, in turn, is enclosed on all sides by mountains up to 2,000 metres in height. As the cold air sinks, it accumulates in the valley, with little wind to disturb it. Oymyakon's average temperature in January is -50℃.Lower temperatures have been recorded in Antarctica, but there are no permanent inhabitants there.",
+          "translation": "我到达时的气温是零下45摄氏度——我被告知这并不算特别冷。\n多种因素共同解释了奥伊米亚康创纪录的低温。\n它远离海洋，而海洋对气温具有调节作用。\n此外，该镇坐落于一个山谷中，低于奥伊米亚康高原的一般海拔，而该高原又被高达2000米的山脉四面环绕。\n由于冷空气下沉，它积聚在山谷中，几乎没有什么风来扰动它。\n奥伊米亚康一月份的平均气温是零下50摄氏度。\n南极洲曾记录到更低的温度，但那里没有永久居民。\n我到达时的气温是零下45摄氏度——有人告诉我，这还不算特别冷。\n多个因素共同解释了奥伊米亚康创纪录的低气温。\n这里远离海洋，而海洋对气温有调节作用。\n此外，小镇坐落在一个山谷中，低于奥伊米亚康高原的一般海拔，而该高原又四面被高达2000米的山脉环绕。\n由于冷空气下沉，它会在山谷中积聚，且很少有风来扰动。\n奥伊米亚康一月的平均气温为零下50摄氏度。\n南极洲记录过更低的气温，但那里没有永久居民。\n我抵达时的气温是零下45摄氏度——但据告知，这并不算特别寒冷。\n多种因素共同解释了奥伊米亚康创纪录的低气温。\n此外，该镇坐落于一个山谷中，低于奥伊米亚康高原的一般海拔，而高原本身又被高达2000米的山脉四面环绕。\n由于冷空气下沉，它聚集在山谷中，几乎没有风来扰动它。\n奥伊米亚康一月份的平均气温为零下50摄氏度。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Day-to-day life in Oymyakon presents certain challenges during the long winters. There are hardly any modern household conveniences. Water is hacked out of the nearby river as great chunks of ice and dragged home on a sledge. The giant ice cubes are stacked outdoors and carried into the house one at a time to melt when needed. The lack of running water also means no showers or baths, or indeed flushing toilets.Since 2008, the town's school has enjoyed the luxury of indoor toilets, however. It's one of the small number of civic buildings in the centre of town that are linked to the power station.",
+          "translation": "在奥伊米亚康的漫长冬季，日常生活面临着一些挑战。\n几乎没有任何现代化的家庭便利设施。\n人们从附近的河中砍下大块冰块，然后用雪橇拖回家。\n巨大的冰块堆放在户外，需要时逐个搬进屋内融化。\n缺乏自来水还意味着没有淋浴或浴缸，甚至没有冲水马桶。\n然而，自2008年起，镇上的学校已经享有了室内厕所的奢侈待遇。\n这是镇中心少数几座与发电站相连的公共建筑之一。\n在奥伊米亚康的漫长冬季，日常生活面临着某些挑战。\n几乎没有任何现代家庭便利设施。\n水是从附近的河流中凿出的大块冰，然后用雪橇拖回家。\n这些巨大的冰块堆放在户外，需要时一次一块搬进屋内融化。\n缺乏自来水也意味着没有淋浴或盆浴，当然也没有抽水马桶。\n不过，自2008年起，镇上的学校已经拥有了室内厕所这一奢侈设施。\n它是镇中心少数几个与电站相连的公共建筑之一。\n奥伊米亚康的日常生活会在漫长的冬季中面临某些挑战。\n这里几乎没有任何现代化的家庭便利设施。\n水是从附近的河流中凿出的大块冰块，然后用雪橇拖回家。\n这些巨大的冰块堆放在室外，需要时一次一块地搬进屋内融化。\n缺乏自来水也意味着没有淋浴或浴缸，甚至没有抽水马桶。\n然而，自2008年以来，镇上的学校便享有了室内厕所的奢侈设施。\n这是镇中心少数与发电站相连的市政建筑之一。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "The power station provides winter heating in the form of hot water, but many houses lie outside its range and rely on their own wood-burning stove.Fuel is plentiful enough in the surrounding forest, but someone still has to venture out to cut the wood.Everybody in Oymyakon owns good boots, a hat made of animal fur and fur-lined mittens.The boots are usually made from reindeer hide, which is light but keeps your feet very warm - the individual hairs are hollow, like a thin tube with air inside.Since air is a poor conductor of heat, the skin makes excellent winter footwear,and felt soles give added insulation. Hats come in a variety of furs, including fox, raccoon, sable and mink.",
+          "translation": "发电站以热水的形式提供冬季供暖，但许多房屋不在其覆盖范围内，依靠自家的柴火炉取暖。\n周围森林中的燃料足够多，但依然得有人冒险外出砍柴。\n奥伊米亚康的每个人都拥有优质靴子、动物皮草帽和毛皮衬里的手套。\n靴子通常由驯鹿皮制成，重量轻但能让脚保持温暖——每根毛发是中空的，像内部有空气的细管。\n由于空气是热的不良导体，这种皮料制成了极佳的冬季鞋履，而毛毡鞋底则提供了额外的隔热效果。\n帽子采用多种毛皮制成，包括狐狸皮、浣熊皮、黑貂皮和水貂皮。\n发电站以热水的形式提供冬季供暖，但许多房屋位于其覆盖范围之外，依赖自家的燃木炉取暖。\n周围的森林中燃料十分充足，但仍需有人外出砍伐木材。\n奥伊米亚康的每个人都拥有优质的靴子、动物毛皮制成的帽子和毛皮内衬的手套。\n靴子通常由驯鹿皮制成，这种材质轻便却能让脚部非常温暖——其毛发是空心的，如同内含空气的细管。\n由于空气是热的不良导体，这种皮革成为极佳的冬季鞋履材料，而毛毡鞋底则提供了额外的保暖效果。\n帽子由各种毛皮制成，包括狐狸皮、浣熊皮、貂皮和水貂皮。\n发电站以热水的形式提供冬季供暖，但许多房屋位于其覆盖范围之外，只能依靠自家的烧木柴炉子。\n周围的森林中燃料相当充足，但依然需要有人冒险外出砍伐木柴。\n奥伊米亚康的每个人都有自己的优质靴子、动物皮毛制成的帽子和皮毛衬里的手套。\n靴子通常由驯鹿皮制成，这种材料轻便但能很好地保暖脚部——每根毛发都是中空的，像内部有空气的细管。\n由于空气是热的不良导体，这种兽皮成为了极佳的冬季鞋履材料，毡制鞋底还提供了额外的隔热效果。\n帽子采用多种毛皮制成，包括狐狸、浣熊、黑貂和水貂的毛皮。\n该发电站以热水的形式提供冬季供暖，但许多房屋位于其覆盖范围之外，依靠自家的柴火炉取暖。\n周围的森林中燃料足够充足，但仍需有人冒险外出砍伐木材。\n奥伊米亚康的每个人都拥有优质的靴子、动物皮毛制成的帽子和毛皮衬里的手套。\n靴子通常由驯鹿皮制成，这种皮革很轻，但能保持脚部非常温暖——每根毛发都是中空的，像内部充满空气的细管。\n由于空气是热的不良导体，这种皮毛成为极佳的冬季鞋履材料，而毛毡鞋底则提供了额外的隔热效果。\n帽子采用多种皮毛制成，包括狐狸、浣熊、黑貂和水貂的毛皮。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Oymyakon's two shops keep a decent stock of basic foods in tins and packets, but locals also have do-it-yourself options, including hunting, trapping,ice-fishing, reindeer-breeding and horse-breeding. Indeed, being self-sufficient runs in the blood in Siberia. The Oymyakon diet relies heavily on meat for its protein, a primary source of energy in the prolonged winter. Unsurprisingly, given the weather, everyone eats heartily in Oymyakon. A typical meal l was offered consisted of a thick horse soup and huge piles of horse meatballs, all washed down with cloudberry cordial.",
+          "translation": "奥伊米亚康的两家商店储备了充足的罐装和包装基本食品，但当地人也依赖自给自足的方式，包括狩猎、设陷阱捕兽、冰钓、驯鹿养殖和马匹养殖。\n事实上，在西伯利亚，自给自足是根深蒂固的传统。\n奥伊米亚康的饮食以肉类为主要蛋白质来源，这是漫长冬季中获取能量的主要方式。\n鉴于当地气候，毫不意外的是，每个人在奥伊米亚康都吃得非常丰盛。\n我收到的一份典型餐食包括浓稠的马肉汤和大量马肉丸，并用云莓果汁佐餐。\n奥伊米亚康的两家商店储备了相当数量的罐装和袋装基本食品，但当地居民也有自给自足的选择，包括狩猎、诱捕、冰钓、驯鹿养殖和马匹饲养。\n事实上，自给自足在西伯利亚是根深蒂固的传统。\n奥伊米亚康的饮食主要依赖肉类获取蛋白质，这是在漫长冬季中的主要能量来源。\n考虑到这样的天气，奥伊米亚康的每个人胃口都很好，这并不令人意外。\n他们提供的一顿典型餐食包括浓稠的马肉汤和大堆马肉丸，全部用云莓果汁来佐餐。\n奥伊米亚康的两家商店储备了相当多的罐头和包装基本食品，但当地居民也有自给自足的选择，包括狩猎、设陷阱捕猎、冰上钓鱼、驯鹿养殖和马匹繁殖。\n奥伊米亚康的饮食高度依赖肉类获取蛋白质，这是漫长冬季的主要能量来源。\n考虑到这样的天气，奥伊米亚康的每个人都吃得非常丰盛，这并不令人意外。\n我吃到的一顿典型餐食包括浓稠的马肉汤和大量马肉丸，全部用云莓果汁冲下。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "I"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Spring is the best season here, I'm told.The snow melts, the river flows once more and the forest is full of wild flowers. But it's short. In the summer Oymyakon can be uncomfortably hot. Much of the forest becomes boggy, so mosquitoes are a constant presence. Oymyakon's climate certainly wouldn't suit me, but residents I spoke to said they wouldn't live anywhere else.",
+          "translation": "有人告诉我，春天是这里最好的季节。\n冰雪融化，河流重新流淌，森林里开满了野花。\n但春天很短暂。\n在夏季，奥伊米亚康可能会热得令人不适。\n大部分森林变得沼泽化，因此蚊子无处不在。\n奥伊米亚康的气候显然不适合我，但与我交谈的居民表示，他们不愿住在其他地方。\n据我了解，春天是这里最美的季节。\n积雪融化，河水再次流淌，森林里开满了野花。\n但春天很短促。\n夏季的奥伊米亚康可能会热得令人不适。\n大部分森林变得沼泽化，因此蚊子常年肆虐。\n奥伊米亚康的气候显然不适合我，但与我交谈过的居民表示，他们不愿意住在其他地方。\n积雪融化，河流再次流淌，森林里开满了野花。\n夏季的奥伊米亚康可能会热得让人不适。\n大部分森林变得沼泽化，因此蚊虫常年出没。\n奥伊米亚康的气候显然不适合我，但我与之交谈的居民表示，他们不愿住在其他地方。\n据我所知，春天是这里最好的季节。\n但这个季节很短暂。\n到了夏天，奥伊米亚康可能会热得令人不适。\n大部分森林变得泥泞，因此蚊子无处不在。\n奥伊米亚康的气候当然不适合我，但我交谈过的居民表示，他们不愿住在其他地方。\n有人告诉我，这里是春季最美好。\n奥伊米亚康的气候显然不适合我，但与我交谈过的居民表示，他们不愿住在其他地方。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15610",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 36\nThe text has nine paragraphs.\nChoose the correct heading for each paragraph and move it into the gap.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Various sources of supplies"
+            },
+            {
+              "value": "B",
+              "label": "B. The effects of going outside"
+            },
+            {
+              "value": "C",
+              "label": "C. Oymyakon past and present"
+            },
+            {
+              "value": "D",
+              "label": "D. A contrast in the landscape"
+            },
+            {
+              "value": "E",
+              "label": "E. Animals that can survive the cold"
+            },
+            {
+              "value": "F",
+              "label": "F. How Oymyakon is affected by its location"
+            },
+            {
+              "value": "G",
+              "label": "G. Keeping out the cold"
+            },
+            {
+              "value": "H",
+              "label": "H. Not the only challenging time of the year"
+            },
+            {
+              "value": "I",
+              "label": "I. Better than its reputation"
+            },
+            {
+              "value": "J",
+              "label": "J. Very few facilities in buildings"
+            },
+            {
+              "value": "K",
+              "label": "K. More snow than anywhere else in the world"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1156101",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Various sources of supplies"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The effects of going outside"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Oymyakon past and present"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A contrast in the landscape"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Animals that can survive the cold"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How Oymyakon is affected by its location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Keeping out the cold"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Not the only challenging time of the year"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Better than its reputation"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Very few facilities in buildings"
+                },
+                {
+                  "value": "K",
+                  "label": "K. More snow than anywhere else in the world"
+                }
+              ],
+              "answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "analysis": "段落A开头描述了西伯利亚冬季壮丽的雪景，并明确表示“The beauty surprised me”，同时指出人们通常认为西伯利亚是艰苦之地（“billed as a place of hardship”）。这种实际美景与负面名声之间的反差，正好对应标题“I. Better than its reputation”。",
+              "reason": "A段描述西伯利亚景色美丽，与名声的艰苦形成对比。",
+              "location_analysis": "段落先写美景，结尾说‘beauty surprised me’，表明比名声好。",
+              "paraphrasing": "Better than its reputation -> beauty, billed as a place of hardship",
+              "keywords": "beauty, reputation",
+              "evidence": [
+                "The beauty surprised me.",
+                "It's always billed as a place of hardship."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1156102",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Various sources of supplies"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The effects of going outside"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Oymyakon past and present"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A contrast in the landscape"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Animals that can survive the cold"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How Oymyakon is affected by its location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Keeping out the cold"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Not the only challenging time of the year"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Better than its reputation"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Very few facilities in buildings"
+                },
+                {
+                  "value": "K",
+                  "label": "K. More snow than anywhere else in the world"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "段落B描写了从平坦平原进入山区的过程，道路蜿蜒、山谷幽深，并特别提到温泉在雪地中蒸腾出雾气，树木如鬼影般浮现。这种从开阔到封闭、清晰到朦胧的景观变化，体现了“D. A contrast in the landscape”所强调的视觉与地形对比。",
+              "reason": "B段描述了地形的对比。",
+              "location_analysis": "段落从平坦平原到陡峭山坡的景观变化。",
+              "paraphrasing": "",
+              "keywords": "landscape, contrast",
+              "evidence": [
+                "As we left the flat plain, the road began to twist and turn, leading us into untouched hills and on towards the Verkhoyansk Mountains."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1156103",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Various sources of supplies"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The effects of going outside"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Oymyakon past and present"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A contrast in the landscape"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Animals that can survive the cold"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How Oymyakon is affected by its location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Keeping out the cold"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Not the only challenging time of the year"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Better than its reputation"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Very few facilities in buildings"
+                },
+                {
+                  "value": "K",
+                  "label": "K. More snow than anywhere else in the world"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "段落C聚焦于作者下车后身体对严寒的即时反应：脸部灼痛、手指麻木、呼吸引发咳嗽等，这些都直接体现了户外极端低温对人体的影响。因此，该段主旨与标题“B. The effects of going outside”高度吻合。",
+              "reason": "C段聚焦户外严寒对身体的影响。",
+              "location_analysis": "段落描述外出后皮肤灼烧、手指麻木等冷效应。",
+              "paraphrasing": "The effects of going outside -> climbed out, burning, coughing, lost feeling",
+              "keywords": "going outside, effects",
+              "evidence": [
+                "Within less than a minute, the skin all over my face began to feel as if it were burning."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1156104",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Various sources of supplies"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The effects of going outside"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Oymyakon past and present"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A contrast in the landscape"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Animals that can survive the cold"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How Oymyakon is affected by its location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Keeping out the cold"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Not the only challenging time of the year"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Better than its reputation"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Very few facilities in buildings"
+                },
+                {
+                  "value": "K",
+                  "label": "K. More snow than anywhere else in the world"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "段落D既介绍了奥伊米亚康当前的基本设施（如学校、医院、商店），也追溯其历史起源——作为驯鹿牧民的季节性定居点。这种今昔结合的叙述方式，恰好对应标题“C. Oymyakon past and present”。",
+              "reason": "D段提到了城镇的过去和现在。",
+              "location_analysis": "段落介绍奥伊米亚康的现状和起源。",
+              "paraphrasing": "Oymyakon past and present -> inhabitants, power station, school, originated",
+              "keywords": "Oymyakon, past",
+              "evidence": [
+                "Oymyakon is a quiet little town - the world's coldest- of about 550 inhabitants, with its own power station, a school, two shops and a small hospital.",
+                "It probably originated as a seasonal settlement where reindeer herders spent the summer on the banks of the Indigirka River."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1156105",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Various sources of supplies"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The effects of going outside"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Oymyakon past and present"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A contrast in the landscape"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Animals that can survive the cold"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How Oymyakon is affected by its location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Keeping out the cold"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Not the only challenging time of the year"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Better than its reputation"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Very few facilities in buildings"
+                },
+                {
+                  "value": "K",
+                  "label": "K. More snow than anywhere else in the world"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "段落E系统解释了奥伊米亚康为何如此寒冷：远离海洋、地处谷地、四面环山、风力微弱等因素共同导致冷空气积聚。整段都在分析地理位置如何影响气候，因此最匹配标题“F. How Oymyakon is affected by its location”。",
+              "reason": "整段分析地理位置的影响。",
+              "location_analysis": "E段解释地理位置导致极寒，对应标题F。",
+              "paraphrasing": "How Oymyakon is affected by its location -> far from ocean; sits in valley; enclosed by mountains; cold air accumulates",
+              "keywords": "far from ocean, valley, mountains, cold air sinks",
+              "evidence": [
+                "As the cold air sinks, it accumulates in the valley, with little wind to disturb it."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "1156106",
+              "number": 33,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Various sources of supplies"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The effects of going outside"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Oymyakon past and present"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A contrast in the landscape"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Animals that can survive the cold"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How Oymyakon is affected by its location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Keeping out the cold"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Not the only challenging time of the year"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Better than its reputation"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Very few facilities in buildings"
+                },
+                {
+                  "value": "K",
+                  "label": "K. More snow than anywhere else in the world"
+                }
+              ],
+              "answer": "J",
+              "accepted_answers": [
+                "J"
+              ],
+              "analysis": "段落F详细描述了当地缺乏现代生活设施的情况，如无自来水、无法洗澡、厕所需手动处理冰块等，仅少数公共建筑有室内厕所。这些内容突出强调了建筑物内设施极度匮乏，与标题“J. Very few facilities in buildings”完全一致。",
+              "reason": "F段强调建筑物内设施匮乏。",
+              "location_analysis": "段落描述缺乏生活设施如自来水和卫生间。",
+              "paraphrasing": "Very few facilities in buildings -> hardly any modern household conveniences, no running water",
+              "keywords": "facilities, buildings",
+              "evidence": [
+                "There are hardly any modern household conveniences.",
+                "The lack of running water also means no showers or baths, or indeed flushing toilets."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            },
+            {
+              "id": "1156107",
+              "number": 34,
+              "prompt": "Section G",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Various sources of supplies"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The effects of going outside"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Oymyakon past and present"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A contrast in the landscape"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Animals that can survive the cold"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How Oymyakon is affected by its location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Keeping out the cold"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Not the only challenging time of the year"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Better than its reputation"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Very few facilities in buildings"
+                },
+                {
+                  "value": "K",
+                  "label": "K. More snow than anywhere else in the world"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "段落G重点讲述居民如何抵御严寒：使用木柴取暖、穿戴动物毛皮制成的靴子、帽子和手套，并解释了驯鹿皮因中空毛发而具备优异保温性能。这些内容围绕“保暖”展开，因此对应标题“G. Keeping out the cold”。",
+              "reason": "G段主要讨论保暖方式。",
+              "location_analysis": "段落讲述防寒措施如生火和保暖衣物。",
+              "paraphrasing": "Keeping out the cold -> boots, hat, mittens, wood-burning stove",
+              "keywords": "keeping out cold",
+              "evidence": [
+                "Everybody in Oymyakon owns good boots, a hat made of animal fur and fur-lined mittens."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "G"
+            },
+            {
+              "id": "1156108",
+              "number": 35,
+              "prompt": "Section H",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Various sources of supplies"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The effects of going outside"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Oymyakon past and present"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A contrast in the landscape"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Animals that can survive the cold"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How Oymyakon is affected by its location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Keeping out the cold"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Not the only challenging time of the year"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Better than its reputation"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Very few facilities in buildings"
+                },
+                {
+                  "value": "K",
+                  "label": "K. More snow than anywhere else in the world"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "尽管段落A主要描写前往奥伊米亚康的旅程和沿途美景，但根据题目设定，此处需匹配标题“A. Various sources of supplies”。然而，该段并未涉及物资来源；考虑到标准答案要求填入“A”，此解析依题干指示作答，实际内容更贴近标题I。",
+              "reason": "答案设为A，但内容更匹配I；此处按给定答案解析。",
+              "location_analysis": "题目要求paragraph A对应heading A，实际A段内容不符，但标准答案要求空白填入A。",
+              "paraphrasing": "Various sources of supplies (heading A) does not match paragraph A; paragraph A is about journey and beauty.",
+              "keywords": "first paragraph, introduction, journey",
+              "evidence": [
+                "You don't need a sat nav to drive to Oymyakon. From Yakutsk you cross the Lena River and simply follow the M56 almost all of the way before taking a left at Tomtor for the final few kilometres."
+              ],
+              "confidence": 0.5,
+              "wrong_reasons": null,
+              "source_section_code": "H"
+            },
+            {
+              "id": "1156109",
+              "number": 36,
+              "prompt": "Section I",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Various sources of supplies"
+                },
+                {
+                  "value": "B",
+                  "label": "B. The effects of going outside"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Oymyakon past and present"
+                },
+                {
+                  "value": "D",
+                  "label": "D. A contrast in the landscape"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Animals that can survive the cold"
+                },
+                {
+                  "value": "F",
+                  "label": "F. How Oymyakon is affected by its location"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Keeping out the cold"
+                },
+                {
+                  "value": "H",
+                  "label": "H. Not the only challenging time of the year"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Better than its reputation"
+                },
+                {
+                  "value": "J",
+                  "label": "J. Very few facilities in buildings"
+                },
+                {
+                  "value": "K",
+                  "label": "K. More snow than anywhere else in the world"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "段落I指出春季虽美但短暂，夏季则炎热且蚊虫肆虐，说明严冬并非唯一的挑战时期。这与标题“H. Not the only challenging time of the year”形成直接对应，强调全年不同季节各有困难。",
+              "reason": "指出夏季也是挑战。",
+              "location_analysis": "段落提到冬天之外，夏天也炎热多蚊虫。",
+              "paraphrasing": "Not the only challenging time of the year -> Spring is the best, summer uncomfortably hot, mosquitoes",
+              "keywords": "spring, summer",
+              "evidence": [
+                "Spring is the best season here, I'm told.",
+                "In the summer Oymyakon can be uncomfortably hot."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "I"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "15612",
+          "type": 4,
+          "title": "Why Oymyakon gets so cold",
+          "instructions": "Questions 37 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120203",
+              "number": 37,
+              "prompt": "Oymyakon is a long way from any _____ which would prevent the temperature from falling so low. The town is located in a _____ within a plateau surrounded by _____. Because there is not much _____, cold air collects in the town.",
+              "options": [],
+              "answer": "ocean",
+              "accepted_answers": [
+                "ocean"
+              ],
+              "analysis": "题干中的“a long way from any”对应原文E段中的“far from the ocean”，说明奥伊米亚康远离海洋，而海洋具有调节气温的作用。因此，此处应填入“ocean”，这是导致当地气温极低的关键地理因素之一。",
+              "reason": "直接对应题干'long way from any ocean'",
+              "location_analysis": "原文明确指出Oymyakon远离海洋，因此答案ocean。",
+              "paraphrasing": "long way from any ocean -> far from the ocean",
+              "keywords": "far from, ocean",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120204",
+              "number": 38,
+              "prompt": "Oymyakon is a long way from any _____ which would prevent the temperature from falling so low. The town is located in a _____ within a plateau surrounded by _____. Because there is not much _____, cold air collects in the town.",
+              "options": [],
+              "answer": "valley",
+              "accepted_answers": [
+                "valley"
+              ],
+              "analysis": "题干要求填写奥伊米亚康所处的地形，原文E段明确指出“the town sits in a valley”，即该镇位于一个山谷中。这与题干中“located in a”完全对应，因此答案为“valley”。",
+              "reason": "原文E段。",
+              "location_analysis": "原文明确说城镇位于山谷中。",
+              "paraphrasing": "located in a valley -> sits in a valley",
+              "keywords": "located in valley",
+              "evidence": [
+                "the town sits in a valley"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120205",
+              "number": 39,
+              "prompt": "Oymyakon is a long way from any _____ which would prevent the temperature from falling so low. The town is located in a _____ within a plateau surrounded by _____. Because there is not much _____, cold air collects in the town.",
+              "options": [],
+              "answer": "mountains",
+              "accepted_answers": [
+                "mountains"
+              ],
+              "analysis": "题干提到该地被某种地貌环绕，原文E段描述“enclosed on all sides by mountains up to 2,000 metres in height”，即四周被高山包围。因此，“mountains”是符合题意的唯一单词，准确反映了奥伊米亚康的地理环境。",
+              "reason": "原文说被群山环绕。",
+              "location_analysis": "题目提到被某物包围，原文 mountains 符合。",
+              "paraphrasing": "surrounded by mountains -> enclosed on all sides by mountains",
+              "keywords": "surrounded by",
+              "evidence": [
+                "which, in turn, is enclosed on all sides by mountains up to 2,000 metres in height."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120206",
+              "number": 40,
+              "prompt": "Oymyakon is a long way from any _____ which would prevent the temperature from falling so low. The town is located in a _____ within a plateau surrounded by _____. Because there is not much _____, cold air collects in the town.",
+              "options": [],
+              "answer": "wind",
+              "accepted_answers": [
+                "wind"
+              ],
+              "analysis": "题干指出由于缺少某种自然因素，冷空气在镇上聚集。原文E段提到“with little wind to disturb it”，说明风力微弱是冷空气积聚的原因。因此，此处应填入“wind”，与题干“not much”形成同义对应。",
+              "reason": "原文指出风少导致冷气聚集。",
+              "location_analysis": "题目说冷空气聚集因缺少某物，原文 little wind。",
+              "paraphrasing": "not much wind -> little wind",
+              "keywords": "not much",
+              "evidence": [
+                "As the cold air sinks, it accumulates in the valley, with little wind to disturb it."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "Oymyakon is a long way from any $120203$ which would prevent the temperature from falling so low. The town is located in a $120204$ within a plateau surrounded by $120205$. Because there is not much $120206$, cold air collects in the town.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Oymyakon is a long way from any $120203$ which would prevent the temperature from falling so low. The town is located in a $120204$ within a plateau surrounded by $120205$. Because there is not much $120206$, cold air collects in the town."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "A visit to Oymyakon, the world's coldest town",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "You don't need a sat nav to drive to Oymyakon.",
+          "translation": "开车前往奥伊米亚康并不需要卫星导航。"
+        },
+        {
+          "index": 3,
+          "sentence": "From Yakutsk you cross the Lena River and simply follow the M56 almost all of the way before taking a left at Tomtor for the final few kilometres.",
+          "translation": "从雅库茨克出发，越过勒拿河，几乎全程沿着M56公路行驶，在托姆托尔左转，再走最后几公里就到了。"
+        },
+        {
+          "index": 4,
+          "sentence": "The journey takes two days of hard driving; two days of glistening landscapes, frozen rivers and untouched snow; two days of endless forest and breathtaking beauty; two days to penetrate the heart of Siberia and reach the coldest inhabited place on Earth.",
+          "translation": "这段旅程需要两天艰难的驾驶；两天里，景色晶莹闪烁，河流冰封，雪地无痕；两天里，是无尽的森林和令人屏息的美景；两天的时间，足以深入西伯利亚腹地，抵达地球上最寒冷的有人居住之地。"
+        },
+        {
+          "index": 5,
+          "sentence": "The beauty surprised me.",
+          "translation": "这种美丽让我感到惊讶。"
+        },
+        {
+          "index": 6,
+          "sentence": "Siberia isn't known for its pleasant appearance.",
+          "translation": "西伯利亚并非以其宜人的外观而闻名。"
+        },
+        {
+          "index": 7,
+          "sentence": "It's always billed as a place of hardship.",
+          "translation": "它总被描绘成一片艰苦之地。"
+        },
+        {
+          "index": 8,
+          "sentence": "But for hour after hour, the wintry wonderland was bathed in a crisp, clean sunshine, presenting a continuous panorama of conifer trees wreathed in silence and snow.",
+          "translation": "但一连几个小时，这片冬日仙境都沐浴在清新干净的阳光中，展现出一幅连绵的全景，针叶树被静默与白雪所环绕。"
+        },
+        {
+          "index": 9,
+          "sentence": "You don't need a sat nav to drive to Oymyakon.",
+          "translation": "开车去奥伊米亚康不需要卫星导航。"
+        },
+        {
+          "index": 10,
+          "sentence": "From Yakutsk you cross the Lena River and simply follow the M56 almost all of the way before taking a left at Tomtor for the final few kilometres.",
+          "translation": "从雅库茨克出发，你穿过勒拿河，几乎全程沿着M56公路行驶，然后在托姆托尔左转，行驶最后几公里。"
+        },
+        {
+          "index": 11,
+          "sentence": "The journey takes two days of hard driving; two days of glistening landscapes, frozen rivers and untouched snow; two days of endless forest and breathtaking beauty; two days to penetrate the heart of Siberia and reach the coldest inhabited place on Earth.",
+          "translation": "这段旅程需要两天的艰苦驾驶；两天里，景色闪耀，河流封冻，积雪未染；两天里，森林无边，美不胜收；两天时间，深入西伯利亚腹地，抵达地球上最寒冷的有人居住之地。"
+        },
+        {
+          "index": 12,
+          "sentence": "The beauty surprised me.",
+          "translation": "这份美丽让我感到惊讶。"
+        },
+        {
+          "index": 13,
+          "sentence": "Siberia isn't known for its pleasant appearance.",
+          "translation": "西伯利亚并非以其宜人的外观而闻名。"
+        },
+        {
+          "index": 14,
+          "sentence": "It's always billed as a place of hardship.",
+          "translation": "它总被描绘成一个艰苦的地方。"
+        },
+        {
+          "index": 15,
+          "sentence": "But for hour after hour, the wintry wonderland was bathed in a crisp, clean sunshine, presenting a continuous panorama of conifer trees wreathed in silence and snow.",
+          "translation": "但一小时又一小时，这片冬日仙境沐浴在清新明澈的阳光中，展现出连绵的全景，松柏树被寂静和白雪环绕。"
+        },
+        {
+          "index": 16,
+          "sentence": "You don't need a sat nav to drive to Oymyakon.",
+          "translation": "驱车前往奥伊米亚康并不需要卫星导航。"
+        },
+        {
+          "index": 17,
+          "sentence": "From Yakutsk you cross the Lena River and simply follow the M56 almost all of the way before taking a left at Tomtor for the final few kilometres.",
+          "translation": "从雅库茨克出发，你穿过勒拿河，几乎全程沿着M56公路行驶，然后在托姆托尔左转，走完最后几公里。"
+        },
+        {
+          "index": 18,
+          "sentence": "The journey takes two days of hard driving; two days of glistening landscapes, frozen rivers and untouched snow; two days of endless forest and breathtaking beauty; two days to penetrate the heart of Siberia and reach the coldest inhabited place on Earth.",
+          "translation": "这段旅程需要两天艰苦的驾驶：两天里，沿途是闪闪发光的景色、冰封的河流和未受污染的雪；两天里，是无尽的森林和令人屏息的美景；两天的时间，足以深入西伯利亚腹地，抵达地球上最寒冷的有人居住之地。"
+        },
+        {
+          "index": 19,
+          "sentence": "The beauty surprised me.",
+          "translation": "这种美丽令我惊讶。"
+        },
+        {
+          "index": 20,
+          "sentence": "Siberia isn't known for its pleasant appearance.",
+          "translation": "西伯利亚并非以宜人的外貌著称。"
+        },
+        {
+          "index": 21,
+          "sentence": "It's always billed as a place of hardship.",
+          "translation": "它总是被描绘成一个艰苦的地方。"
+        },
+        {
+          "index": 22,
+          "sentence": "But for hour after hour, the wintry wonderland was bathed in a crisp, clean sunshine, presenting a continuous panorama of conifer trees wreathed in silence and snow.",
+          "translation": "但一小时又一小时，这片冬日仙境沐浴在清新洁净的阳光中，展现出连绵的全景，针叶树被寂静和白雪环绕。"
+        },
+        {
+          "index": 24,
+          "sentence": "Spring is the best season here, I'm told.",
+          "translation": "有人告诉我，春天是这里最好的季节。"
+        },
+        {
+          "index": 25,
+          "sentence": "The snow melts, the river flows once more and the forest is full of wild flowers.",
+          "translation": "冰雪融化，河流重新流淌，森林里开满了野花。"
+        },
+        {
+          "index": 26,
+          "sentence": "But it's short.",
+          "translation": "但春天很短暂。"
+        },
+        {
+          "index": 27,
+          "sentence": "In the summer Oymyakon can be uncomfortably hot.",
+          "translation": "在夏季，奥伊米亚康可能会热得令人不适。"
+        },
+        {
+          "index": 28,
+          "sentence": "Much of the forest becomes boggy, so mosquitoes are a constant presence.",
+          "translation": "大部分森林变得沼泽化，因此蚊子无处不在。"
+        },
+        {
+          "index": 29,
+          "sentence": "Oymyakon's climate certainly wouldn't suit me, but residents I spoke to said they wouldn't live anywhere else.",
+          "translation": "奥伊米亚康的气候显然不适合我，但与我交谈的居民表示，他们不愿住在其他地方。"
+        },
+        {
+          "index": 30,
+          "sentence": "Spring is the best season here, I'm told.",
+          "translation": "据我了解，春天是这里最美的季节。"
+        },
+        {
+          "index": 31,
+          "sentence": "The snow melts, the river flows once more and the forest is full of wild flowers.",
+          "translation": "积雪融化，河水再次流淌，森林里开满了野花。"
+        },
+        {
+          "index": 32,
+          "sentence": "But it's short.",
+          "translation": "但春天很短促。"
+        },
+        {
+          "index": 33,
+          "sentence": "In the summer Oymyakon can be uncomfortably hot.",
+          "translation": "夏季的奥伊米亚康可能会热得令人不适。"
+        },
+        {
+          "index": 34,
+          "sentence": "Much of the forest becomes boggy, so mosquitoes are a constant presence.",
+          "translation": "大部分森林变得沼泽化，因此蚊子常年肆虐。"
+        },
+        {
+          "index": 35,
+          "sentence": "Oymyakon's climate certainly wouldn't suit me, but residents I spoke to said they wouldn't live anywhere else.",
+          "translation": "奥伊米亚康的气候显然不适合我，但与我交谈过的居民表示，他们不愿意住在其他地方。"
+        },
+        {
+          "index": 36,
+          "sentence": "As we left the flat plain, the road began to twist and turn, leading us into untouched hills and on towards the Verkhoyansk Mountains.",
+          "translation": "当我们离开平坦的平原时，道路开始蜿蜒曲折，引领我们进入未经开发的山丘，并继续朝着维尔霍扬斯克山脉前进。"
+        },
+        {
+          "index": 37,
+          "sentence": "Beneath their snow-clad peaks,the slopes became steeper and the valleys deeper.",
+          "translation": "在它们白雪覆盖的山峰之下，山坡变得更加陡峭，山谷也更深邃。"
+        },
+        {
+          "index": 38,
+          "sentence": "Down in a valley, we stopped to look at a hot spring beside the road.",
+          "translation": "在下面的一个山谷里，我们停下来观看路边的温泉。"
+        },
+        {
+          "index": 39,
+          "sentence": "It was immediately obvious against the snow- a spot shrouded in heavy mist.",
+          "translation": "在雪的映衬下，它立刻变得显而易见——一个被浓雾笼罩的地方。"
+        },
+        {
+          "index": 40,
+          "sentence": "Trees emerged from the strange haze as ghostly silhouettes.",
+          "translation": "树木从奇特的雾霭中浮现，如同幽灵般的轮廓。"
+        },
+        {
+          "index": 41,
+          "sentence": "A visit to Oymyakon, the world's coldest town",
+          "translation": "探访奥伊米亚康——世界最寒冷的小镇"
+        },
+        {
+          "index": 42,
+          "sentence": "Despite the magical ambience of the Siberian wilderness, its reputation for hardship hit me every time I climbed out of the vehicle.",
+          "translation": "尽管西伯利亚荒野有着神奇的氛围，但每次我爬出车外时，它那以严酷著称的名声都让我切身体会到。"
+        },
+        {
+          "index": 43,
+          "sentence": "Within less than a minute, the skin all over my face began to feel as if it were burning.",
+          "translation": "不到一分钟，我脸上的皮肤就开始感觉像在燃烧一样。"
+        },
+        {
+          "index": 44,
+          "sentence": "If I wasn't wearing my two sets of gloves, I rapidly lost the feeling in my fingertips.",
+          "translation": "如果我没有戴两副手套，我的指尖会迅速失去知觉。"
+        },
+        {
+          "index": 45,
+          "sentence": "I learned very quickly not to draw too deep a breath because the shock of the cold air in my lungs invariably set me off on an extended bout of coughing.",
+          "translation": "我很快就学会了不要深呼吸，因为冷空气进入肺部的冲击总会引发我一阵长时间的咳嗽。"
+        },
+        {
+          "index": 46,
+          "sentence": "Siberia in winter is a world barely fit for human habitation.",
+          "translation": "冬季的西伯利亚是一个几乎不适合人类居住的世界。"
+        },
+        {
+          "index": 47,
+          "sentence": "This is a place of such searing cold that it bites through multiple layers of clothing as if they aren't there.",
+          "translation": "这个地方寒冷刺骨，能穿透多层衣服，仿佛它们根本不存在一样。"
+        },
+        {
+          "index": 48,
+          "sentence": "Despite the magical ambience of the Siberian wilderness, its reputation for hardship hit me every time I climbed out of the vehicle.",
+          "translation": "尽管西伯利亚荒野有着神奇的氛围，但每当我爬出车外时，它那严酷的名声都会让我深受感触。"
+        },
+        {
+          "index": 49,
+          "sentence": "Within less than a minute, the skin all over my face began to feel as if it were burning.",
+          "translation": "不到一分钟，我脸上所有的皮肤就开始感觉像在燃烧一样。"
+        },
+        {
+          "index": 50,
+          "sentence": "If I wasn't wearing my two sets of gloves, I rapidly lost the feeling in my fingertips.",
+          "translation": "如果我没有戴两副手套，我的指尖很快就会失去知觉。"
+        },
+        {
+          "index": 51,
+          "sentence": "I learned very quickly not to draw too deep a breath because the shock of the cold air in my lungs invariably set me off on an extended bout of coughing.",
+          "translation": "我很快就学会了不要深呼吸，因为冷空气对肺部的刺激总会引发我长时间的一阵咳嗽。"
+        },
+        {
+          "index": 52,
+          "sentence": "Siberia in winter is a world barely fit for human habitation.",
+          "translation": "冬季的西伯利亚是一个几乎不适合人类居住的世界。"
+        },
+        {
+          "index": 53,
+          "sentence": "This is a place of such searing cold that it bites through multiple layers of clothing as if they aren't there.",
+          "translation": "这个地方寒冷刺骨，冷气能穿透多层衣物，仿佛它们根本不存在一样。"
+        },
+        {
+          "index": 54,
+          "sentence": "Despite the magical ambience of the Siberian wilderness, its reputation for hardship hit me every time I climbed out of the vehicle.",
+          "translation": "尽管西伯利亚荒野有着神奇的氛围，但每次我爬出车辆时，其艰苦的名声都会冲击着我。"
+        },
+        {
+          "index": 55,
+          "sentence": "Within less than a minute, the skin all over my face began to feel as if it were burning.",
+          "translation": "不到一分钟，我整个脸上的皮肤就开始有种灼烧感。"
+        },
+        {
+          "index": 56,
+          "sentence": "If I wasn't wearing my two sets of gloves, I rapidly lost the feeling in my fingertips.",
+          "translation": "如果我没有戴两副手套，我的指尖很快就会失去知觉。"
+        },
+        {
+          "index": 57,
+          "sentence": "I learned very quickly not to draw too deep a breath because the shock of the cold air in my lungs invariably set me off on an extended bout of coughing.",
+          "translation": "我很快就学会了不要深呼吸，因为冷空气对肺部的冲击总会引发我一阵长时间的咳嗽。"
+        },
+        {
+          "index": 58,
+          "sentence": "Siberia in winter is a world barely fit for human habitation.",
+          "translation": "冬季的西伯利亚是一个几乎不适合人类居住的世界。"
+        },
+        {
+          "index": 59,
+          "sentence": "This is a place of such searing cold that it bites through multiple layers of clothing as if they aren't there.",
+          "translation": "这个地方寒冷刺骨，能穿透多层衣物，仿佛它们不存在一样。"
+        },
+        {
+          "index": 60,
+          "sentence": "Oymyakon is a quiet little town - the world's coldest- of about 550 inhabitants, with its own power station, a school, two shops and a small hospital.",
+          "translation": "奥伊米亚康是一个安静的小镇——世界上最冷的小镇——约有550名居民，拥有自己的发电站、一所学校、两家商店和一家小医院。"
+        },
+        {
+          "index": 61,
+          "sentence": "It probably originated as a seasonal settlement where reindeer herders spent the summer on the banks of the Indigirka River.",
+          "translation": "它可能最初是一个季节性定居点，驯鹿牧民在英迪吉尔卡河岸边度过夏季。"
+        },
+        {
+          "index": 62,
+          "sentence": "Oymyakon is a quiet little town - the world's coldest- of about 550 inhabitants, with its own power station, a school, two shops and a small hospital.",
+          "translation": "奥伊米亚康是一个安静的小镇——世界上最寒冷的小镇——约有550名居民，拥有自己的发电站、一所学校、两家商店和一家小医院。"
+        },
+        {
+          "index": 63,
+          "sentence": "It probably originated as a seasonal settlement where reindeer herders spent the summer on the banks of the Indigirka River.",
+          "translation": "它可能最初是一个季节性定居点，驯鹿牧民曾在因迪吉尔卡河畔度过夏天。"
+        },
+        {
+          "index": 64,
+          "sentence": "Oymyakon is a quiet little town - the world's coldest- of about 550 inhabitants, with its own power station, a school, two shops and a small hospital.",
+          "translation": "奥伊米亚康是一个宁静的小镇——世界上最寒冷的小镇——约有550名居民，拥有自己的发电站、一所学校、两家商店和一家小型医院。"
+        },
+        {
+          "index": 65,
+          "sentence": "It probably originated as a seasonal settlement where reindeer herders spent the summer on the banks of the Indigirka River.",
+          "translation": "它可能最初是一个季节性定居点，驯鹿牧民在因迪吉尔卡河岸边度过夏天。"
+        },
+        {
+          "index": 66,
+          "sentence": "Oymyakon is a quiet little town - the world's coldest- of about 550 inhabitants, with its own power station, a school, two shops and a small hospital.",
+          "translation": "奥伊米亚康是一个安静的小镇——世界上最寒冷的地方——约有550名居民，拥有自己的发电站、一所学校、两家商店和一家小医院。"
+        },
+        {
+          "index": 67,
+          "sentence": "It probably originated as a seasonal settlement where reindeer herders spent the summer on the banks of the Indigirka River.",
+          "translation": "它最初可能是一个季节性定居点，驯鹿牧民在因迪吉尔卡河畔度过夏季。"
+        },
+        {
+          "index": 69,
+          "sentence": "The temperature when I arrived was -45°C - not particularly cold, I was informed.",
+          "translation": "我到达时的气温是零下45摄氏度——我被告知这并不算特别冷。"
+        },
+        {
+          "index": 70,
+          "sentence": "A number of factors combine to explain Oymyakon's record low temperatures.",
+          "translation": "多种因素共同解释了奥伊米亚康创纪录的低温。"
+        },
+        {
+          "index": 71,
+          "sentence": "It is far from the ocean,with its moderating effect on air temperature.",
+          "translation": "它远离海洋，而海洋对气温具有调节作用。"
+        },
+        {
+          "index": 72,
+          "sentence": "In addition, the town sits in a valley, below the general level of the Oymyakon Plateau, which, in turn, is enclosed on all sides by mountains up to 2,000 metres in height.",
+          "translation": "此外，该镇坐落于一个山谷中，低于奥伊米亚康高原的一般海拔，而该高原又被高达2000米的山脉四面环绕。"
+        },
+        {
+          "index": 73,
+          "sentence": "As the cold air sinks, it accumulates in the valley, with little wind to disturb it.",
+          "translation": "由于冷空气下沉，它积聚在山谷中，几乎没有什么风来扰动它。"
+        },
+        {
+          "index": 74,
+          "sentence": "Oymyakon's average temperature in January is -50℃.",
+          "translation": "奥伊米亚康一月份的平均气温是零下50摄氏度。"
+        },
+        {
+          "index": 75,
+          "sentence": "Lower temperatures have been recorded in Antarctica, but there are no permanent inhabitants there.",
+          "translation": "南极洲曾记录到更低的温度，但那里没有永久居民。"
+        },
+        {
+          "index": 76,
+          "sentence": "The temperature when I arrived was -45°C - not particularly cold, I was informed.",
+          "translation": "我到达时的气温是零下45摄氏度——有人告诉我，这还不算特别冷。"
+        },
+        {
+          "index": 77,
+          "sentence": "A number of factors combine to explain Oymyakon's record low temperatures.",
+          "translation": "多个因素共同解释了奥伊米亚康创纪录的低气温。"
+        },
+        {
+          "index": 78,
+          "sentence": "It is far from the ocean,with its moderating effect on air temperature.",
+          "translation": "这里远离海洋，而海洋对气温有调节作用。"
+        },
+        {
+          "index": 79,
+          "sentence": "In addition, the town sits in a valley, below the general level of the Oymyakon Plateau, which, in turn, is enclosed on all sides by mountains up to 2,000 metres in height.",
+          "translation": "此外，小镇坐落在一个山谷中，低于奥伊米亚康高原的一般海拔，而该高原又四面被高达2000米的山脉环绕。"
+        },
+        {
+          "index": 80,
+          "sentence": "As the cold air sinks, it accumulates in the valley, with little wind to disturb it.",
+          "translation": "由于冷空气下沉，它会在山谷中积聚，且很少有风来扰动。"
+        },
+        {
+          "index": 81,
+          "sentence": "Oymyakon's average temperature in January is -50℃.",
+          "translation": "奥伊米亚康一月的平均气温为零下50摄氏度。"
+        },
+        {
+          "index": 82,
+          "sentence": "Lower temperatures have been recorded in Antarctica, but there are no permanent inhabitants there.",
+          "translation": "南极洲记录过更低的气温，但那里没有永久居民。"
+        },
+        {
+          "index": 83,
+          "sentence": "The temperature when I arrived was -45°C - not particularly cold, I was informed.",
+          "translation": "我抵达时的气温是零下45摄氏度——但据告知，这并不算特别寒冷。"
+        },
+        {
+          "index": 84,
+          "sentence": "A number of factors combine to explain Oymyakon's record low temperatures.",
+          "translation": "多种因素共同解释了奥伊米亚康创纪录的低气温。"
+        },
+        {
+          "index": 85,
+          "sentence": "It is far from the ocean,with its moderating effect on air temperature.",
+          "translation": "它远离海洋，而海洋对气温具有调节作用。"
+        },
+        {
+          "index": 86,
+          "sentence": "In addition, the town sits in a valley, below the general level of the Oymyakon Plateau, which, in turn, is enclosed on all sides by mountains up to 2,000 metres in height.",
+          "translation": "此外，该镇坐落于一个山谷中，低于奥伊米亚康高原的一般海拔，而高原本身又被高达2000米的山脉四面环绕。"
+        },
+        {
+          "index": 87,
+          "sentence": "As the cold air sinks, it accumulates in the valley, with little wind to disturb it.",
+          "translation": "由于冷空气下沉，它聚集在山谷中，几乎没有风来扰动它。"
+        },
+        {
+          "index": 88,
+          "sentence": "Oymyakon's average temperature in January is -50℃.",
+          "translation": "奥伊米亚康一月份的平均气温为零下50摄氏度。"
+        },
+        {
+          "index": 89,
+          "sentence": "Lower temperatures have been recorded in Antarctica, but there are no permanent inhabitants there.",
+          "translation": "南极洲曾记录到更低的温度，但那里没有永久居民。"
+        },
+        {
+          "index": 90,
+          "sentence": "Day-to-day life in Oymyakon presents certain challenges during the long winters.",
+          "translation": "在奥伊米亚康的漫长冬季，日常生活面临着一些挑战。"
+        },
+        {
+          "index": 91,
+          "sentence": "There are hardly any modern household conveniences.",
+          "translation": "几乎没有任何现代化的家庭便利设施。"
+        },
+        {
+          "index": 92,
+          "sentence": "Water is hacked out of the nearby river as great chunks of ice and dragged home on a sledge.",
+          "translation": "人们从附近的河中砍下大块冰块，然后用雪橇拖回家。"
+        },
+        {
+          "index": 93,
+          "sentence": "The giant ice cubes are stacked outdoors and carried into the house one at a time to melt when needed.",
+          "translation": "巨大的冰块堆放在户外，需要时逐个搬进屋内融化。"
+        },
+        {
+          "index": 94,
+          "sentence": "The lack of running water also means no showers or baths, or indeed flushing toilets.",
+          "translation": "缺乏自来水还意味着没有淋浴或浴缸，甚至没有冲水马桶。"
+        },
+        {
+          "index": 95,
+          "sentence": "Since 2008, the town's school has enjoyed the luxury of indoor toilets, however.",
+          "translation": "然而，自2008年起，镇上的学校已经享有了室内厕所的奢侈待遇。"
+        },
+        {
+          "index": 96,
+          "sentence": "It's one of the small number of civic buildings in the centre of town that are linked to the power station.",
+          "translation": "这是镇中心少数几座与发电站相连的公共建筑之一。"
+        },
+        {
+          "index": 97,
+          "sentence": "Day-to-day life in Oymyakon presents certain challenges during the long winters.",
+          "translation": "在奥伊米亚康的漫长冬季，日常生活面临着某些挑战。"
+        },
+        {
+          "index": 98,
+          "sentence": "There are hardly any modern household conveniences.",
+          "translation": "几乎没有任何现代家庭便利设施。"
+        },
+        {
+          "index": 99,
+          "sentence": "Water is hacked out of the nearby river as great chunks of ice and dragged home on a sledge.",
+          "translation": "水是从附近的河流中凿出的大块冰，然后用雪橇拖回家。"
+        },
+        {
+          "index": 100,
+          "sentence": "The giant ice cubes are stacked outdoors and carried into the house one at a time to melt when needed.",
+          "translation": "这些巨大的冰块堆放在户外，需要时一次一块搬进屋内融化。"
+        },
+        {
+          "index": 101,
+          "sentence": "The lack of running water also means no showers or baths, or indeed flushing toilets.",
+          "translation": "缺乏自来水也意味着没有淋浴或盆浴，当然也没有抽水马桶。"
+        },
+        {
+          "index": 102,
+          "sentence": "Since 2008, the town's school has enjoyed the luxury of indoor toilets, however.",
+          "translation": "不过，自2008年起，镇上的学校已经拥有了室内厕所这一奢侈设施。"
+        },
+        {
+          "index": 103,
+          "sentence": "It's one of the small number of civic buildings in the centre of town that are linked to the power station.",
+          "translation": "它是镇中心少数几个与电站相连的公共建筑之一。"
+        },
+        {
+          "index": 104,
+          "sentence": "33",
+          "translation": "33"
+        },
+        {
+          "index": 105,
+          "sentence": "Day-to-day life in Oymyakon presents certain challenges during the long winters.",
+          "translation": "奥伊米亚康的日常生活会在漫长的冬季中面临某些挑战。"
+        },
+        {
+          "index": 106,
+          "sentence": "There are hardly any modern household conveniences.",
+          "translation": "这里几乎没有任何现代化的家庭便利设施。"
+        },
+        {
+          "index": 107,
+          "sentence": "Water is hacked out of the nearby river as great chunks of ice and dragged home on a sledge.",
+          "translation": "水是从附近的河流中凿出的大块冰块，然后用雪橇拖回家。"
+        },
+        {
+          "index": 108,
+          "sentence": "The giant ice cubes are stacked outdoors and carried into the house one at a time to melt when needed.",
+          "translation": "这些巨大的冰块堆放在室外，需要时一次一块地搬进屋内融化。"
+        },
+        {
+          "index": 109,
+          "sentence": "The lack of running water also means no showers or baths, or indeed flushing toilets.",
+          "translation": "缺乏自来水也意味着没有淋浴或浴缸，甚至没有抽水马桶。"
+        },
+        {
+          "index": 110,
+          "sentence": "Since 2008, the town's school has enjoyed the luxury of indoor toilets, however.",
+          "translation": "然而，自2008年以来，镇上的学校便享有了室内厕所的奢侈设施。"
+        },
+        {
+          "index": 111,
+          "sentence": "It's one of the small number of civic buildings in the centre of town that are linked to the power station.",
+          "translation": "这是镇中心少数与发电站相连的市政建筑之一。"
+        },
+        {
+          "index": 112,
+          "sentence": "The power station provides winter heating in the form of hot water, but many houses lie outside its range and rely on their own wood-burning stove.",
+          "translation": "发电站以热水的形式提供冬季供暖，但许多房屋不在其覆盖范围内，依靠自家的柴火炉取暖。"
+        },
+        {
+          "index": 113,
+          "sentence": "Fuel is plentiful enough in the surrounding forest, but someone still has to venture out to cut the wood.",
+          "translation": "周围森林中的燃料足够多，但依然得有人冒险外出砍柴。"
+        },
+        {
+          "index": 114,
+          "sentence": "Everybody in Oymyakon owns good boots, a hat made of animal fur and fur-lined mittens.",
+          "translation": "奥伊米亚康的每个人都拥有优质靴子、动物皮草帽和毛皮衬里的手套。"
+        },
+        {
+          "index": 115,
+          "sentence": "The boots are usually made from reindeer hide, which is light but keeps your feet very warm - the individual hairs are hollow, like a thin tube with air inside.",
+          "translation": "靴子通常由驯鹿皮制成，重量轻但能让脚保持温暖——每根毛发是中空的，像内部有空气的细管。"
+        },
+        {
+          "index": 116,
+          "sentence": "Since air is a poor conductor of heat, the skin makes excellent winter footwear, and felt soles give added insulation.",
+          "translation": "由于空气是热的不良导体，这种皮料制成了极佳的冬季鞋履，而毛毡鞋底则提供了额外的隔热效果。"
+        },
+        {
+          "index": 117,
+          "sentence": "Hats come in a variety of furs, including fox, raccoon, sable and mink.",
+          "translation": "帽子采用多种毛皮制成，包括狐狸皮、浣熊皮、黑貂皮和水貂皮。"
+        },
+        {
+          "index": 118,
+          "sentence": "The power station provides winter heating in the form of hot water, but many houses lie outside its range and rely on their own wood-burning stove.",
+          "translation": "发电站以热水的形式提供冬季供暖，但许多房屋位于其覆盖范围之外，依赖自家的燃木炉取暖。"
+        },
+        {
+          "index": 119,
+          "sentence": "Fuel is plentiful enough in the surrounding forest, but someone still has to venture out to cut the wood.",
+          "translation": "周围的森林中燃料十分充足，但仍需有人外出砍伐木材。"
+        },
+        {
+          "index": 120,
+          "sentence": "Everybody in Oymyakon owns good boots, a hat made of animal fur and fur-lined mittens.",
+          "translation": "奥伊米亚康的每个人都拥有优质的靴子、动物毛皮制成的帽子和毛皮内衬的手套。"
+        },
+        {
+          "index": 121,
+          "sentence": "The boots are usually made from reindeer hide, which is light but keeps your feet very warm - the individual hairs are hollow, like a thin tube with air inside.",
+          "translation": "靴子通常由驯鹿皮制成，这种材质轻便却能让脚部非常温暖——其毛发是空心的，如同内含空气的细管。"
+        },
+        {
+          "index": 122,
+          "sentence": "Since air is a poor conductor of heat, the skin makes excellent winter footwear, and felt soles give added insulation.",
+          "translation": "由于空气是热的不良导体，这种皮革成为极佳的冬季鞋履材料，而毛毡鞋底则提供了额外的保暖效果。"
+        },
+        {
+          "index": 123,
+          "sentence": "Hats come in a variety of furs, including fox, raccoon, sable and mink.",
+          "translation": "帽子由各种毛皮制成，包括狐狸皮、浣熊皮、貂皮和水貂皮。"
+        },
+        {
+          "index": 124,
+          "sentence": "The power station provides winter heating in the form of hot water, but many houses lie outside its range and rely on their own wood-burning stove.",
+          "translation": "发电站以热水的形式提供冬季供暖，但许多房屋位于其覆盖范围之外，只能依靠自家的烧木柴炉子。"
+        },
+        {
+          "index": 125,
+          "sentence": "Fuel is plentiful enough in the surrounding forest, but someone still has to venture out to cut the wood.",
+          "translation": "周围的森林中燃料相当充足，但依然需要有人冒险外出砍伐木柴。"
+        },
+        {
+          "index": 126,
+          "sentence": "Everybody in Oymyakon owns good boots, a hat made of animal fur and fur-lined mittens.",
+          "translation": "奥伊米亚康的每个人都有自己的优质靴子、动物皮毛制成的帽子和皮毛衬里的手套。"
+        },
+        {
+          "index": 127,
+          "sentence": "The boots are usually made from reindeer hide, which is light but keeps your feet very warm - the individual hairs are hollow, like a thin tube with air inside.",
+          "translation": "靴子通常由驯鹿皮制成，这种材料轻便但能很好地保暖脚部——每根毛发都是中空的，像内部有空气的细管。"
+        },
+        {
+          "index": 128,
+          "sentence": "Since air is a poor conductor of heat, the skin makes excellent winter footwear, and felt soles give added insulation.",
+          "translation": "由于空气是热的不良导体，这种兽皮成为了极佳的冬季鞋履材料，毡制鞋底还提供了额外的隔热效果。"
+        },
+        {
+          "index": 129,
+          "sentence": "Hats come in a variety of furs, including fox, raccoon, sable and mink.",
+          "translation": "帽子采用多种毛皮制成，包括狐狸、浣熊、黑貂和水貂的毛皮。"
+        },
+        {
+          "index": 130,
+          "sentence": "The power station provides winter heating in the form of hot water, but many houses lie outside its range and rely on their own wood-burning stove.",
+          "translation": "该发电站以热水的形式提供冬季供暖，但许多房屋位于其覆盖范围之外，依靠自家的柴火炉取暖。"
+        },
+        {
+          "index": 131,
+          "sentence": "Fuel is plentiful enough in the surrounding forest, but someone still has to venture out to cut the wood.",
+          "translation": "周围的森林中燃料足够充足，但仍需有人冒险外出砍伐木材。"
+        },
+        {
+          "index": 132,
+          "sentence": "Everybody in Oymyakon owns good boots, a hat made of animal fur and fur-lined mittens.",
+          "translation": "奥伊米亚康的每个人都拥有优质的靴子、动物皮毛制成的帽子和毛皮衬里的手套。"
+        },
+        {
+          "index": 133,
+          "sentence": "The boots are usually made from reindeer hide, which is light but keeps your feet very warm - the individual hairs are hollow, like a thin tube with air inside.",
+          "translation": "靴子通常由驯鹿皮制成，这种皮革很轻，但能保持脚部非常温暖——每根毛发都是中空的，像内部充满空气的细管。"
+        },
+        {
+          "index": 134,
+          "sentence": "Since air is a poor conductor of heat, the skin makes excellent winter footwear, and felt soles give added insulation.",
+          "translation": "由于空气是热的不良导体，这种皮毛成为极佳的冬季鞋履材料，而毛毡鞋底则提供了额外的隔热效果。"
+        },
+        {
+          "index": 135,
+          "sentence": "Hats come in a variety of furs, including fox, raccoon, sable and mink.",
+          "translation": "帽子采用多种皮毛制成，包括狐狸、浣熊、黑貂和水貂的毛皮。"
+        },
+        {
+          "index": 137,
+          "sentence": "Oymyakon's two shops keep a decent stock of basic foods in tins and packets, but locals also have do-it-yourself options, including hunting, trapping, ice-fishing, reindeer-breeding and horse-breeding.",
+          "translation": "奥伊米亚康的两家商店储备了充足的罐装和包装基本食品，但当地人也依赖自给自足的方式，包括狩猎、设陷阱捕兽、冰钓、驯鹿养殖和马匹养殖。"
+        },
+        {
+          "index": 138,
+          "sentence": "Indeed, being self-sufficient runs in the blood in Siberia.",
+          "translation": "事实上，在西伯利亚，自给自足是根深蒂固的传统。"
+        },
+        {
+          "index": 139,
+          "sentence": "The Oymyakon diet relies heavily on meat for its protein, a primary source of energy in the prolonged winter.",
+          "translation": "奥伊米亚康的饮食以肉类为主要蛋白质来源，这是漫长冬季中获取能量的主要方式。"
+        },
+        {
+          "index": 140,
+          "sentence": "Unsurprisingly, given the weather, everyone eats heartily in Oymyakon.",
+          "translation": "鉴于当地气候，毫不意外的是，每个人在奥伊米亚康都吃得非常丰盛。"
+        },
+        {
+          "index": 141,
+          "sentence": "A typical meal l was offered consisted of a thick horse soup and huge piles of horse meatballs, all washed down with cloudberry cordial.",
+          "translation": "我收到的一份典型餐食包括浓稠的马肉汤和大量马肉丸，并用云莓果汁佐餐。"
+        },
+        {
+          "index": 142,
+          "sentence": "Oymyakon's two shops keep a decent stock of basic foods in tins and packets, but locals also have do-it-yourself options, including hunting, trapping, ice-fishing, reindeer-breeding and horse-breeding.",
+          "translation": "奥伊米亚康的两家商店储备了相当数量的罐装和袋装基本食品，但当地居民也有自给自足的选择，包括狩猎、诱捕、冰钓、驯鹿养殖和马匹饲养。"
+        },
+        {
+          "index": 143,
+          "sentence": "Indeed, being self-sufficient runs in the blood in Siberia.",
+          "translation": "事实上，自给自足在西伯利亚是根深蒂固的传统。"
+        },
+        {
+          "index": 144,
+          "sentence": "The Oymyakon diet relies heavily on meat for its protein, a primary source of energy in the prolonged winter.",
+          "translation": "奥伊米亚康的饮食主要依赖肉类获取蛋白质，这是在漫长冬季中的主要能量来源。"
+        },
+        {
+          "index": 145,
+          "sentence": "Unsurprisingly, given the weather, everyone eats heartily in Oymyakon.",
+          "translation": "考虑到这样的天气，奥伊米亚康的每个人胃口都很好，这并不令人意外。"
+        },
+        {
+          "index": 146,
+          "sentence": "A typical meal l was offered consisted of a thick horse soup and huge piles of horse meatballs, all washed down with cloudberry cordial.",
+          "translation": "他们提供的一顿典型餐食包括浓稠的马肉汤和大堆马肉丸，全部用云莓果汁来佐餐。"
+        },
+        {
+          "index": 147,
+          "sentence": "Oymyakon's two shops keep a decent stock of basic foods in tins and packets, but locals also have do-it-yourself options, including hunting, trapping, ice-fishing, reindeer-breeding and horse-breeding.",
+          "translation": "奥伊米亚康的两家商店储备了相当多的罐头和包装基本食品，但当地居民也有自给自足的选择，包括狩猎、设陷阱捕猎、冰上钓鱼、驯鹿养殖和马匹繁殖。"
+        },
+        {
+          "index": 148,
+          "sentence": "Indeed, being self-sufficient runs in the blood in Siberia.",
+          "translation": "事实上，在西伯利亚，自给自足是根深蒂固的传统。"
+        },
+        {
+          "index": 149,
+          "sentence": "The Oymyakon diet relies heavily on meat for its protein, a primary source of energy in the prolonged winter.",
+          "translation": "奥伊米亚康的饮食高度依赖肉类获取蛋白质，这是漫长冬季的主要能量来源。"
+        },
+        {
+          "index": 150,
+          "sentence": "Unsurprisingly, given the weather, everyone eats heartily in Oymyakon.",
+          "translation": "考虑到这样的天气，奥伊米亚康的每个人都吃得非常丰盛，这并不令人意外。"
+        },
+        {
+          "index": 151,
+          "sentence": "A typical meal l was offered consisted of a thick horse soup and huge piles of horse meatballs, all washed down with cloudberry cordial.",
+          "translation": "我吃到的一顿典型餐食包括浓稠的马肉汤和大量马肉丸，全部用云莓果汁冲下。"
+        },
+        {
+          "index": 152,
+          "sentence": "Spring is the best season here, I'm told.",
+          "translation": "有人告诉我，春天是这里最好的季节。"
+        },
+        {
+          "index": 153,
+          "sentence": "The snow melts, the river flows once more and the forest is full of wild flowers.",
+          "translation": "积雪融化，河流再次流淌，森林里开满了野花。"
+        },
+        {
+          "index": 154,
+          "sentence": "But it's short.",
+          "translation": "但春天很短暂。"
+        },
+        {
+          "index": 155,
+          "sentence": "In the summer Oymyakon can be uncomfortably hot.",
+          "translation": "夏季的奥伊米亚康可能会热得让人不适。"
+        },
+        {
+          "index": 156,
+          "sentence": "Much of the forest becomes boggy, so mosquitoes are a constant presence.",
+          "translation": "大部分森林变得沼泽化，因此蚊虫常年出没。"
+        },
+        {
+          "index": 157,
+          "sentence": "Oymyakon's climate certainly wouldn't suit me, but residents I spoke to said they wouldn't live anywhere else.",
+          "translation": "奥伊米亚康的气候显然不适合我，但我与之交谈的居民表示，他们不愿住在其他地方。"
+        },
+        {
+          "index": 158,
+          "sentence": "Spring is the best season here, I'm told.",
+          "translation": "据我所知，春天是这里最好的季节。"
+        },
+        {
+          "index": 159,
+          "sentence": "The snow melts, the river flows once more and the forest is full of wild flowers.",
+          "translation": "积雪融化，河流再次流淌，森林里开满了野花。"
+        },
+        {
+          "index": 160,
+          "sentence": "But it's short.",
+          "translation": "但这个季节很短暂。"
+        },
+        {
+          "index": 161,
+          "sentence": "In the summer Oymyakon can be uncomfortably hot.",
+          "translation": "到了夏天，奥伊米亚康可能会热得令人不适。"
+        },
+        {
+          "index": 162,
+          "sentence": "Much of the forest becomes boggy, so mosquitoes are a constant presence.",
+          "translation": "大部分森林变得泥泞，因此蚊子无处不在。"
+        },
+        {
+          "index": 163,
+          "sentence": "Oymyakon's climate certainly wouldn't suit me, but residents I spoke to said they wouldn't live anywhere else.",
+          "translation": "奥伊米亚康的气候当然不适合我，但我交谈过的居民表示，他们不愿住在其他地方。"
+        },
+        {
+          "index": 164,
+          "sentence": "Spring is the best season here, I'm told.",
+          "translation": "有人告诉我，这里是春季最美好。"
+        },
+        {
+          "index": 165,
+          "sentence": "The snow melts, the river flows once more and the forest is full of wild flowers.",
+          "translation": "积雪融化，河流再次流淌，森林里开满了野花。"
+        },
+        {
+          "index": 166,
+          "sentence": "But it's short.",
+          "translation": "但这个季节很短暂。"
+        },
+        {
+          "index": 167,
+          "sentence": "In the summer Oymyakon can be uncomfortably hot.",
+          "translation": "在夏季，奥伊米亚康可能会热得令人不适。"
+        },
+        {
+          "index": 168,
+          "sentence": "Much of the forest becomes boggy, so mosquitoes are a constant presence.",
+          "translation": "大部分森林变得沼泽化，因此蚊子无处不在。"
+        },
+        {
+          "index": 169,
+          "sentence": "Oymyakon's climate certainly wouldn't suit me, but residents I spoke to said they wouldn't live anywhere else.",
+          "translation": "奥伊米亚康的气候显然不适合我，但与我交谈过的居民表示，他们不愿住在其他地方。"
+        },
+        {
+          "index": 170,
+          "sentence": "Spring is the best season here, I'm told.",
+          "translation": "据我所知，春天是这里最好的季节。"
+        },
+        {
+          "index": 171,
+          "sentence": "The snow melts, the river flows once more and the forest is full of wild flowers.",
+          "translation": "积雪融化，河水再次流淌，森林里开满了野花。"
+        },
+        {
+          "index": 172,
+          "sentence": "But it's short.",
+          "translation": "但春天很短暂。"
+        },
+        {
+          "index": 173,
+          "sentence": "In the summer Oymyakon can be uncomfortably hot.",
+          "translation": "到了夏天，奥伊米亚康可能会热得令人不适。"
+        },
+        {
+          "index": 174,
+          "sentence": "Much of the forest becomes boggy, so mosquitoes are a constant presence.",
+          "translation": "大部分森林变得泥泞，因此蚊子无处不在。"
+        },
+        {
+          "index": 175,
+          "sentence": "Oymyakon's climate certainly wouldn't suit me, but residents I spoke to said they wouldn't live anywhere else.",
+          "translation": "奥伊米亚康的气候显然不适合我，但与我交谈过的居民表示，他们不愿住在其他地方。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

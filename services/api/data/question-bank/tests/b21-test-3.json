@@ -1,0 +1,2592 @@
+{
+  "id": "b21-test-3",
+  "book": "剑雅21",
+  "book_number": 21,
+  "name": "Test 3",
+  "title": "剑雅21 Test 3",
+  "parts": [
+    {
+      "id": "211031",
+      "number": 1,
+      "title": "Section 1",
+      "article_title": "Supermarket reviews",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A Sharpsavers",
+          "translation": "A Sharpsavers"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Customers are impressed with this supermarket’s environmentally-friendly packaging as well as the attractive in-store cafés for customers. A wider range of goods has recently been introduced and there are also plans for online shopping facilities in the near future.",
+          "translation": "顾客对这家超市的环保包装以及店内吸引人的咖啡馆印象深刻。\n最近推出了更广泛的商品种类，并且计划在不久的将来提供网上购物设施。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B Carltons",
+          "translation": "B Carltons"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "This is generally accepted as the best of all the supermarkets for value for money. Stock range isn’t as wide as in some other supermarkets, but this doesn’t appear to put customers off — in fact they say they’re happy that they don’t have to spend time making decisions on what brand to buy.",
+          "translation": "这家超市被普遍认为是所有超市中性价比最高的。\n库存种类不如其他一些超市广泛，但这似乎并没有让顾客望而却步——事实上，他们表示很高兴不必花时间决定购买哪个品牌。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C TruCost",
+          "translation": "C TruCost"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Customers like the regular discounts at this supermarket although the fruit and vegetables on sale are sometimes a bit past their best. A new app now allows customers to shop from any location, but a few setbacks have been reported when using this.",
+          "translation": "顾客喜欢这家超市的定期折扣，尽管出售的水果和蔬菜有时有点不新鲜。\n一款新的应用程序现在允许顾客从任何地点购物，但据报道在使用时出现了一些小问题。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D Fressons",
+          "translation": "D Fressons"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "This supermarket is known for its local produce and customers also like the layout of its stores and the easy availability of parking, but checkout queuing times are a problem. Products also tend to be more expensive than in some other supermarkets, and some customers say they can’t afford to shop there regularly.",
+          "translation": "这家超市以本地产品闻名，顾客也喜欢其店面布局和停车便利，但结账排队时间是个问题。\n产品也往往比其他一些超市更贵，一些顾客表示他们无法经常在那里购物。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E ValuMart",
+          "translation": "E ValuMart"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "This supermarket has relatively poor ratings for its in-store shopping, with complaints about inconvenient opening hours and many items being out of stock. However, customers are impressed with how straightforward the website is to use, and the availability of delivery slots.",
+          "translation": "这家超市的店内购物评分相对较低，有投诉称营业时间不便，许多商品缺货。\n然而，顾客对其网站使用的便捷性和送货时段的可用性印象深刻。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F Greenbaums",
+          "translation": "F Greenbaums"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "This is overall the most popular supermarket with shoppers, who appreciate the wide range of products available and their excellent quality. The staff here are also extremely helpful, although other supermarkets may be more competitive in their pricing.",
+          "translation": "这是总体上最受购物者欢迎的超市，他们欣赏其广泛的产品种类和卓越的品质。\n这里的员工也非常乐于助人，尽管其他超市在定价上可能更具竞争力。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Getting a credit card",
+          "question_cue": {
+            "start": 9,
+            "end": 14
+          },
+          "translation": "申请信用卡"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "To qualify for a credit card you will need to give information about where you live and how much you earn. Before offering you a card, the card provider will do a credit check to investigate whether you have any history of outstanding debts. The amount it allows you to spend — your credit limit — will be based on this and your other circumstances. Credit limits tend to be modest to begin with but are often increased by banks over time. The card provider will also stipulate a minimum monthly repayment you need to make. You should avoid only paying the minimum your provider asks for each month, as interest has to be paid on outstanding balances.",
+          "translation": "要获得信用卡资格，你需要提供有关居住地和收入的信息。\n在向你提供信用卡之前，发卡机构会进行信用检查，以调查你是否有任何未偿债务的历史。\n它允许你消费的金额——你的信用额度——将基于此以及你的其他情况。\n信用额度起初往往不高，但银行通常会随着时间的推移而提高。\n发卡机构还会规定你需要每月偿还的最低还款额。\n你应该避免每月只支付发卡机构要求的最低还款额，因为未偿余额需要支付利息。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Many cards have some form of insurance built into them, covering damage to goods purchased with the card or cancellation of a flight or holiday. This is free, but there are usually conditions attached so read the small print if you intend to rely on the cover.",
+          "translation": "许多信用卡都内置了某种形式的保险，涵盖用卡购买的商品损坏或航班或假期取消。\n这是免费的，但通常附有条件，因此如果你打算依赖该保障，请阅读细则。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Bear in mind that you don’t have to pay the full amount on your card to get protection — the key thing is the price of the product you are buying. For example, if you’re buying a £500 flight, and pay £100 on your card and £400 in cash, your credit card will protect you for the full amount.",
+          "translation": "请记住，你不必用信用卡支付全额才能获得保障——关键是你所购买产品的价格。\n例如，如果你购买一张500英镑的机票，用信用卡支付100英镑，用现金支付400英镑，你的信用卡将为你提供全额保障。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "When choosing a card the easiest option is to go to your bank, but it may not offer the best deal for your circumstances. Instead you should consider how you will use the card and look for one that suits your needs.",
+          "translation": "选择信用卡时，最简单的选择是去你的银行，但它可能不会为你的情况提供最优惠的方案。\n相反，你应该考虑你将如何使用信用卡，并寻找一张适合你需求的卡。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Store cards are usually available at the point of sale and can be used to make a purchase once a credit check and application form have been completed, which can take as little as 10 minutes. Retailers often offer incentives to sign up for their cards, which may include an introductory discount on goods. However, interest rates on these cards tend to be high.",
+          "translation": "商店卡通常可在销售点获得，一旦完成信用检查和申请表，即可用于购物，这最快只需10分钟。\n零售商通常会提供激励措施来鼓励注册他们的卡，其中可能包括商品的开卡折扣。\n然而，这些卡的利率往往很高。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Affinity cards are credit cards with the logo of a charitable organisation on them. The charity will receive donations based on your spending. These don’t tend to add up to much, and if the card has an uncompetitive interest rate you may be better off choosing a cheaper card and making donations separately.",
+          "translation": "慈善信用卡是上面印有慈善组织标志的信用卡。\n该慈善机构将根据你的消费获得捐款。\n这些捐款往往不会很多，而且如果该卡的利率没有竞争力，你最好选择一张更便宜的卡并单独捐款。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "388",
+          "type": 2,
+          "title": "Supermarket reviews",
+          "instructions": "Questions 1-8\nLook at the six supermarket reviews, A-F.\nFor which supermarket are the following statements true?\nWrite the correct letter, A-F, in boxes 1-8 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "Supermarket reviews",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Sharpsavers"
+            },
+            {
+              "value": "B",
+              "label": "B. Carltons"
+            },
+            {
+              "value": "C",
+              "label": "C. TruCost"
+            },
+            {
+              "value": "D",
+              "label": "D. Fressons"
+            },
+            {
+              "value": "E",
+              "label": "E. ValuMart"
+            },
+            {
+              "value": "F",
+              "label": "F. Greenbaums"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197636",
+              "number": 1,
+              "prompt": "The items on sale are of a high standard.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Sharpsavers"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Carltons"
+                },
+                {
+                  "value": "C",
+                  "label": "C. TruCost"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Fressons"
+                },
+                {
+                  "value": "E",
+                  "label": "E. ValuMart"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Greenbaums"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干中的“items on sale are of a high standard”对应原文F段中“their excellent quality”。Greenbaums超市被描述为整体最受欢迎的超市，顾客欣赏其产品种类丰富且质量优异，这与题干所表达的“商品标准高”完全一致，因此答案为F。",
+              "reason": "正确答案F，定位到Greenbaums的描述。",
+              "location_analysis": "原文F提到产品范围广且质量优异，与题干对应。",
+              "paraphrasing": "items on sale -> products available; high standard -> excellent quality",
+              "keywords": "high standard, excellent quality",
+              "evidence": [
+                "This is overall the most popular supermarket with shoppers, who appreciate the wide range of products available and their excellent quality."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197637",
+              "number": 2,
+              "prompt": "Customers have to wait a long time before they can pay.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Sharpsavers"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Carltons"
+                },
+                {
+                  "value": "C",
+                  "label": "C. TruCost"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Fressons"
+                },
+                {
+                  "value": "E",
+                  "label": "E. ValuMart"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Greenbaums"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干“Customers have to wait a long time before they can pay”对应D段中“checkout queuing times are a problem”。Fressons超市虽然以本地产品和良好布局著称，但结账排队时间长是其明显缺点，因此答案为D。",
+              "reason": "正确答案D，Fressons的描述。",
+              "location_analysis": "原文D明确提到结账排队时间长，与题干相符。",
+              "paraphrasing": "wait a long time before they can pay -> checkout queuing times are a problem",
+              "keywords": "wait a long time, checkout queuing",
+              "evidence": [
+                "but checkout queuing times are a problem."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197638",
+              "number": 3,
+              "prompt": "Some of the food is not always very fresh.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Sharpsavers"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Carltons"
+                },
+                {
+                  "value": "C",
+                  "label": "C. TruCost"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Fressons"
+                },
+                {
+                  "value": "E",
+                  "label": "E. ValuMart"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Greenbaums"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“Some of the food is not always very fresh”对应C段中“the fruit and vegetables on sale are sometimes a bit past their best”。TruCost超市虽有定期折扣，但蔬果新鲜度存在问题，因此答案为C。",
+              "reason": "正确答案C，TruCost的描述。",
+              "location_analysis": "原文C提到水果蔬菜有时不新鲜，对应题干。",
+              "paraphrasing": "food is not always very fresh -> fruit and vegetables are sometimes a bit past their best",
+              "keywords": "food not fresh, fruit and vegetables past their best",
+              "evidence": [
+                "Customers like the regular discounts at this supermarket although the fruit and vegetables on sale are sometimes a bit past their best."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197639",
+              "number": 4,
+              "prompt": "The products bought are well worth the price.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Sharpsavers"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Carltons"
+                },
+                {
+                  "value": "C",
+                  "label": "C. TruCost"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Fressons"
+                },
+                {
+                  "value": "E",
+                  "label": "E. ValuMart"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Greenbaums"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干“The products bought are well worth the price”对应B段中“best of all the supermarkets for value for money”。Carltons超市被认为性价比最高，尽管商品种类不多，但顾客认为物有所值，因此答案为B。",
+              "reason": "正确答案B，Carltons的描述。",
+              "location_analysis": "原文B被评为性价比最佳，对应题干。",
+              "paraphrasing": "well worth the price -> best for value for money",
+              "keywords": "well worth the price, value for money",
+              "evidence": [
+                "This is generally accepted as the best of all the supermarkets for value for money."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197640",
+              "number": 5,
+              "prompt": "There is now a greater variety of products available.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Sharpsavers"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Carltons"
+                },
+                {
+                  "value": "C",
+                  "label": "C. TruCost"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Fressons"
+                },
+                {
+                  "value": "E",
+                  "label": "E. ValuMart"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Greenbaums"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干“There is now a greater variety of products available”对应A段中“A wider range of goods has recently been introduced”。Sharpsavers超市最近扩大了商品种类，与题干描述一致，因此答案为A。",
+              "reason": "正确答案A，Sharpsavers的描述。",
+              "location_analysis": "原文A提到最近引入了更广泛的商品，对应题干。",
+              "paraphrasing": "greater variety of products -> wider range of goods",
+              "keywords": "greater variety, wider range",
+              "evidence": [
+                "A wider range of goods has recently been introduced and there are also plans for online shopping facilities in the near future."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197641",
+              "number": 6,
+              "prompt": "The limited choice available can be an advantage.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Sharpsavers"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Carltons"
+                },
+                {
+                  "value": "C",
+                  "label": "C. TruCost"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Fressons"
+                },
+                {
+                  "value": "E",
+                  "label": "E. ValuMart"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Greenbaums"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干“The limited choice available can be an advantage”对应B段中“they’re happy that they don’t have to spend time making decisions on what brand to buy”。Carltons超市因选择有限反而让顾客感到轻松，视为优势，因此答案为B。",
+              "reason": "正确答案B，Carltons的描述。",
+              "location_analysis": "原文B提到顾客因选择少而不用花时间做决定，视为优势。",
+              "paraphrasing": "limited choice can be an advantage -> happy that they don’t have to spend time making decisions on what brand to buy",
+              "keywords": "limited choice, advantage, happy not to spend time",
+              "evidence": [
+                "Stock range isn’t as wide as in some other supermarkets, but this doesn’t appear to put customers off — in fact they say they’re happy that they don’t have to spend time making decisions on what brand to buy."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197642",
+              "number": 7,
+              "prompt": "It is easy to order goods online.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Sharpsavers"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Carltons"
+                },
+                {
+                  "value": "C",
+                  "label": "C. TruCost"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Fressons"
+                },
+                {
+                  "value": "E",
+                  "label": "E. ValuMart"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Greenbaums"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干“It is easy to order goods online”对应E段中“customers are impressed with how straightforward the website is to use, and the availability of delivery slots”。ValuMart超市实体店评价不佳，但其网站操作简便、配送时段充足，因此答案为E。",
+              "reason": "正确答案E，ValuMart的描述。",
+              "location_analysis": "原文E提到网站易于使用且配送时段可用，对应题干。",
+              "paraphrasing": "easy to order goods online -> straightforward the website is to use, availability of delivery slots",
+              "keywords": "easy to order online, straightforward website",
+              "evidence": [
+                "However, customers are impressed with how straightforward the website is to use, and the availability of delivery slots."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197643",
+              "number": 8,
+              "prompt": "Customers praise the service provided by employees.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Sharpsavers"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Carltons"
+                },
+                {
+                  "value": "C",
+                  "label": "C. TruCost"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Fressons"
+                },
+                {
+                  "value": "E",
+                  "label": "E. ValuMart"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Greenbaums"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干“Customers praise the service provided by employees”对应F段中“The staff here are also extremely helpful”。Greenbaums超市不仅产品优质，员工服务也广受好评，因此答案为F。",
+              "reason": "正确答案F，Greenbaums的描述。",
+              "location_analysis": "原文F提到员工非常乐于助人，对应题干。",
+              "paraphrasing": "service provided by employees -> staff extremely helpful",
+              "keywords": "praise service provided by employees, staff extremely helpful",
+              "evidence": [
+                "The staff here are also extremely helpful, although other supermarkets may be more competitive in their pricing."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "Supermarket reviews"
+          }
+        },
+        {
+          "id": "389",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 9-14\nDo the following statements agree with the information given in the text?\nIn boxes 9-14 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197644",
+              "number": 9,
+              "prompt": "It may be a good idea to repay only the minimum amount required each month.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干“It may be a good idea to repay only the minimum amount required each month”与原文“You should avoid only paying the minimum your provider asks for each month”相矛盾。文章明确建议避免只还最低还款额，因为会产生利息，因此答案为FALSE。",
+              "reason": "题干说可能是个好主意，原文说应该避免，矛盾。",
+              "location_analysis": "原文建议避免只还最低金额，与题干相反，故FALSE。",
+              "paraphrasing": "good idea to repay minimum -> avoid only paying the minimum",
+              "keywords": "repay only minimum, avoid",
+              "evidence": [
+                "You should avoid only paying the minimum your provider asks for each month, as interest has to be paid on outstanding balances."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文观点相反，原文认为只还最低还款额不是好主意。",
+                "NOT GIVEN": "原文明确否定了这种做法，因此该选项不成立。"
+              }
+            },
+            {
+              "id": "1197645",
+              "number": 10,
+              "prompt": "You should take out insurance in case you lose your card.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NG",
+              "accepted_answers": [
+                "NG",
+                "NOT GIVEN"
+              ],
+              "analysis": "题干“You should take out insurance in case you lose your card”在文中未提及。原文仅说明信用卡自带保险覆盖购买商品损坏或旅行取消等情况，并未涉及卡片丢失的保险问题，因此答案为NOT GIVEN。",
+              "reason": "未提及丢失卡片的情况。",
+              "location_analysis": "原文只提到购买物品损坏或旅行取消保险，未提丢失卡片保险。",
+              "paraphrasing": "take out insurance -> insurance built into them",
+              "keywords": "insurance in case you lose your card",
+              "evidence": [
+                "Many cards have some form of insurance built into them, covering damage to goods purchased with the card or cancellation of a flight or holiday."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文并未明确提及应购买保险以防丢卡，因此该选项无依据。",
+                "FALSE": "原文并未明确否定这一建议，因此该选项与原文不符。"
+              }
+            },
+            {
+              "id": "1197646",
+              "number": 11,
+              "prompt": "You should make yourself aware of any restrictions on insurance claims you make using your card.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干“You should make yourself aware of any restrictions on insurance claims”对应原文“there are usually conditions attached so read the small print if you intend to rely on the cover”。文章提醒用户注意保险条款中的限制条件，因此答案为TRUE。",
+              "reason": "题干要求了解限制，原文要求阅读细则。",
+              "location_analysis": "原文提醒注意条件，阅读细则，与题干一致。",
+              "paraphrasing": "make yourself aware of restrictions -> read the small print",
+              "keywords": "restrictions on insurance claims, conditions attached",
+              "evidence": [
+                "This is free, but there are usually conditions attached so read the small print if you intend to rely on the cover."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文意思相反，原文明确要求了解限制。",
+                "NOT GIVEN": "原文已明确提及相关限制信息，并非未提及。"
+              }
+            },
+            {
+              "id": "1197647",
+              "number": 12,
+              "prompt": "You can only claim insurance for the full cost of a product or service if you paid for it all on your credit card.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干“You can only claim insurance for the full cost...if you paid for it all on your credit card”与原文“you don’t have to pay the full amount on your card to get protection”相矛盾。文章举例说明即使部分付款也可获得全额保障，因此答案为FALSE。",
+              "reason": "题干说必须全额用卡支付才能索赔全额，原文说部分支付也可以，矛盾。",
+              "location_analysis": "原文说无需全额用卡支付即可获得全额保护，与题干相反。",
+              "paraphrasing": "you can only claim insurance for the full cost if paid all on credit card -> don't have to pay the full amount on your card to get protection",
+              "keywords": "only claim insurance for full cost if paid all on card",
+              "evidence": [
+                "Bear in mind that you don’t have to pay the full amount on your card to get protection — the key thing is the price of the product you are buying.",
+                "For example, if you’re buying a £500 flight, and pay £100 on your card and £400 in cash, your credit card will protect you for the full amount."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "题干条件为‘全额支付才能索赔全部费用’，但原文可能允许部分索赔或不同支付方式，与题干矛盾。",
+                "NOT GIVEN": "题干明确提及了全额支付的条件，原文中有相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "1197648",
+              "number": 13,
+              "prompt": "A card provided by your bank may offer more security than one from another provider.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NG",
+              "accepted_answers": [
+                "NG",
+                "NOT GIVEN"
+              ],
+              "analysis": "题干“A card provided by your bank may offer more security”在文中无相关信息。原文仅指出银行可能不是最优惠的选择，但未比较不同发卡方的安全性，因此答案为NOT GIVEN。",
+              "reason": "未提供有关安全性的信息。",
+              "location_analysis": "原文只提到银行可能不是最佳选择，未提及安全性比较。",
+              "paraphrasing": "more security -> not mentioned",
+              "keywords": "bank card may offer more security",
+              "evidence": [
+                "When choosing a card the easiest option is to go to your bank, but it may not offer the best deal for your circumstances."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及银行提供的卡比其他提供商更安全，属于无中生有。",
+                "FALSE": "原文未对两者安全性进行比较，无法判断该说法错误。"
+              }
+            },
+            {
+              "id": "1197649",
+              "number": 14,
+              "prompt": "You can generally get a store card quite quickly while you are in the store.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干“You can generally get a store card quite quickly while you are in the store”对应原文“can be used to make a purchase once...completed, which can take as little as 10 minutes”。文章明确说明店内申请商店卡流程快捷，因此答案为TRUE。",
+              "reason": "题干说可以很快获得，原文支持。",
+              "location_analysis": "原文提到在店内申请并支付仅需10分钟，与题干一致。",
+              "paraphrasing": "quite quickly -> as little as 10 minutes",
+              "keywords": "get store card quickly while in store",
+              "evidence": [
+                "Store cards are usually available at the point of sale and can be used to make a purchase once a credit check and application form have been completed, which can take as little as 10 minutes."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文信息矛盾，原文明确表示在店内可以很快获得商店卡。",
+                "NOT GIVEN": "原文中给出了相关信息，因此不是未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Supermarket reviews",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A Sharpsavers",
+          "translation": "A Sharpsavers"
+        },
+        {
+          "index": 2,
+          "sentence": "Customers are impressed with this supermarket’s environmentally-friendly packaging as well as the attractive in-store cafés for customers.",
+          "translation": "顾客对这家超市的环保包装以及店内吸引人的咖啡馆印象深刻。"
+        },
+        {
+          "index": 3,
+          "sentence": "A wider range of goods has recently been introduced and there are also plans for online shopping facilities in the near future.",
+          "translation": "最近推出了更广泛的商品种类，并且计划在不久的将来提供网上购物设施。"
+        },
+        {
+          "index": 4,
+          "sentence": "B Carltons",
+          "translation": "B Carltons"
+        },
+        {
+          "index": 5,
+          "sentence": "This is generally accepted as the best of all the supermarkets for value for money.",
+          "translation": "这家超市被普遍认为是所有超市中性价比最高的。"
+        },
+        {
+          "index": 6,
+          "sentence": "Stock range isn’t as wide as in some other supermarkets, but this doesn’t appear to put customers off — in fact they say they’re happy that they don’t have to spend time making decisions on what brand to buy.",
+          "translation": "库存种类不如其他一些超市广泛，但这似乎并没有让顾客望而却步——事实上，他们表示很高兴不必花时间决定购买哪个品牌。"
+        },
+        {
+          "index": 7,
+          "sentence": "C TruCost",
+          "translation": "C TruCost"
+        },
+        {
+          "index": 8,
+          "sentence": "Customers like the regular discounts at this supermarket although the fruit and vegetables on sale are sometimes a bit past their best.",
+          "translation": "顾客喜欢这家超市的定期折扣，尽管出售的水果和蔬菜有时有点不新鲜。"
+        },
+        {
+          "index": 9,
+          "sentence": "A new app now allows customers to shop from any location, but a few setbacks have been reported when using this.",
+          "translation": "一款新的应用程序现在允许顾客从任何地点购物，但据报道在使用时出现了一些小问题。"
+        },
+        {
+          "index": 10,
+          "sentence": "D Fressons",
+          "translation": "D Fressons"
+        },
+        {
+          "index": 11,
+          "sentence": "This supermarket is known for its local produce and customers also like the layout of its stores and the easy availability of parking, but checkout queuing times are a problem.",
+          "translation": "这家超市以本地产品闻名，顾客也喜欢其店面布局和停车便利，但结账排队时间是个问题。"
+        },
+        {
+          "index": 12,
+          "sentence": "Products also tend to be more expensive than in some other supermarkets, and some customers say they can’t afford to shop there regularly.",
+          "translation": "产品也往往比其他一些超市更贵，一些顾客表示他们无法经常在那里购物。"
+        },
+        {
+          "index": 13,
+          "sentence": "E ValuMart",
+          "translation": "E ValuMart"
+        },
+        {
+          "index": 14,
+          "sentence": "This supermarket has relatively poor ratings for its in-store shopping, with complaints about inconvenient opening hours and many items being out of stock.",
+          "translation": "这家超市的店内购物评分相对较低，有投诉称营业时间不便，许多商品缺货。"
+        },
+        {
+          "index": 15,
+          "sentence": "However, customers are impressed with how straightforward the website is to use, and the availability of delivery slots.",
+          "translation": "然而，顾客对其网站使用的便捷性和送货时段的可用性印象深刻。"
+        },
+        {
+          "index": 16,
+          "sentence": "F Greenbaums",
+          "translation": "F Greenbaums"
+        },
+        {
+          "index": 17,
+          "sentence": "This is overall the most popular supermarket with shoppers, who appreciate the wide range of products available and their excellent quality.",
+          "translation": "这是总体上最受购物者欢迎的超市，他们欣赏其广泛的产品种类和卓越的品质。"
+        },
+        {
+          "index": 18,
+          "sentence": "The staff here are also extremely helpful, although other supermarkets may be more competitive in their pricing.",
+          "translation": "这里的员工也非常乐于助人，尽管其他超市在定价上可能更具竞争力。"
+        },
+        {
+          "index": 19,
+          "sentence": "Getting a credit card",
+          "translation": "申请信用卡"
+        },
+        {
+          "index": 20,
+          "sentence": "To qualify for a credit card you will need to give information about where you live and how much you earn.",
+          "translation": "要获得信用卡资格，你需要提供有关居住地和收入的信息。"
+        },
+        {
+          "index": 21,
+          "sentence": "Before offering you a card, the card provider will do a credit check to investigate whether you have any history of outstanding debts.",
+          "translation": "在向你提供信用卡之前，发卡机构会进行信用检查，以调查你是否有任何未偿债务的历史。"
+        },
+        {
+          "index": 22,
+          "sentence": "The amount it allows you to spend — your credit limit — will be based on this and your other circumstances.",
+          "translation": "它允许你消费的金额——你的信用额度——将基于此以及你的其他情况。"
+        },
+        {
+          "index": 23,
+          "sentence": "Credit limits tend to be modest to begin with but are often increased by banks over time.",
+          "translation": "信用额度起初往往不高，但银行通常会随着时间的推移而提高。"
+        },
+        {
+          "index": 24,
+          "sentence": "The card provider will also stipulate a minimum monthly repayment you need to make.",
+          "translation": "发卡机构还会规定你需要每月偿还的最低还款额。"
+        },
+        {
+          "index": 25,
+          "sentence": "You should avoid only paying the minimum your provider asks for each month, as interest has to be paid on outstanding balances.",
+          "translation": "你应该避免每月只支付发卡机构要求的最低还款额，因为未偿余额需要支付利息。"
+        },
+        {
+          "index": 26,
+          "sentence": "Many cards have some form of insurance built into them, covering damage to goods purchased with the card or cancellation of a flight or holiday.",
+          "translation": "许多信用卡都内置了某种形式的保险，涵盖用卡购买的商品损坏或航班或假期取消。"
+        },
+        {
+          "index": 27,
+          "sentence": "This is free, but there are usually conditions attached so read the small print if you intend to rely on the cover.",
+          "translation": "这是免费的，但通常附有条件，因此如果你打算依赖该保障，请阅读细则。"
+        },
+        {
+          "index": 28,
+          "sentence": "Bear in mind that you don’t have to pay the full amount on your card to get protection — the key thing is the price of the product you are buying.",
+          "translation": "请记住，你不必用信用卡支付全额才能获得保障——关键是你所购买产品的价格。"
+        },
+        {
+          "index": 29,
+          "sentence": "For example, if you’re buying a £500 flight, and pay £100 on your card and £400 in cash, your credit card will protect you for the full amount.",
+          "translation": "例如，如果你购买一张500英镑的机票，用信用卡支付100英镑，用现金支付400英镑，你的信用卡将为你提供全额保障。"
+        },
+        {
+          "index": 30,
+          "sentence": "When choosing a card the easiest option is to go to your bank, but it may not offer the best deal for your circumstances.",
+          "translation": "选择信用卡时，最简单的选择是去你的银行，但它可能不会为你的情况提供最优惠的方案。"
+        },
+        {
+          "index": 31,
+          "sentence": "Instead you should consider how you will use the card and look for one that suits your needs.",
+          "translation": "相反，你应该考虑你将如何使用信用卡，并寻找一张适合你需求的卡。"
+        },
+        {
+          "index": 32,
+          "sentence": "Store cards are usually available at the point of sale and can be used to make a purchase once a credit check and application form have been completed, which can take as little as 10 minutes.",
+          "translation": "商店卡通常可在销售点获得，一旦完成信用检查和申请表，即可用于购物，这最快只需10分钟。"
+        },
+        {
+          "index": 33,
+          "sentence": "Retailers often offer incentives to sign up for their cards, which may include an introductory discount on goods.",
+          "translation": "零售商通常会提供激励措施来鼓励注册他们的卡，其中可能包括商品的开卡折扣。"
+        },
+        {
+          "index": 34,
+          "sentence": "However, interest rates on these cards tend to be high.",
+          "translation": "然而，这些卡的利率往往很高。"
+        },
+        {
+          "index": 35,
+          "sentence": "Affinity cards are credit cards with the logo of a charitable organisation on them.",
+          "translation": "慈善信用卡是上面印有慈善组织标志的信用卡。"
+        },
+        {
+          "index": 36,
+          "sentence": "The charity will receive donations based on your spending.",
+          "translation": "该慈善机构将根据你的消费获得捐款。"
+        },
+        {
+          "index": 37,
+          "sentence": "These don’t tend to add up to much, and if the card has an uncompetitive interest rate you may be better off choosing a cheaper card and making donations separately.",
+          "translation": "这些捐款往往不会很多，而且如果该卡的利率没有竞争力，你最好选择一张更便宜的卡并单独捐款。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    },
+    {
+      "id": "211032",
+      "number": 2,
+      "title": "Section 2",
+      "article_title": "First day orientation for university staff members",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Transport and Parking",
+          "translation": "交通与停车"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "There are various bus and train links to the university and discounted tickets are available for staff. We also offer bike storage on campus and a cycle-to-work scheme. Further information on transport options is available from the Environment Team or can be found in the Travel Options leaflet.",
+          "translation": "有多条公交和火车线路通往大学，并为员工提供折扣票。\n我们还在校园内提供自行车存放处和骑行上班计划。\n有关交通选择的更多信息，可从环境团队获取，或可在《出行选择》宣传单中找到。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "If you intend to travel to work by car, you should check whether parking facilities are available at your location and apply for a permit where applicable.",
+          "translation": "如果你打算开车上班，应检查你所在的地点是否有停车设施，并在适用的情况下申请许可证。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Your IT Account",
+          "translation": "你的IT账户"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Please liaise with your departmental IT contact to set up your university IT account, password and username. IT Services will be able to do this once the Recruitment Team have generated an employee number for you. You will then be able to log in to a university PC, as well as use Blackboard, Wi-Fi and many other IT systems and services. If you require further assistance, contact the IT Service Desk.",
+          "translation": "请与您所在部门的IT联系人联系，以设置您的大学IT账户、密码和用户名。\n一旦招聘团队为您生成了员工编号，IT服务部门就能进行设置。\n之后您将能够登录大学电脑，并使用Blackboard、Wi-Fi以及许多其他IT系统和服务。\n如果您需要进一步的帮助，请联系IT服务台。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Your University Card",
+          "translation": "您的大学卡"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "You need your University Card for proof of ID to enter buildings and areas where you work, and to gain access to smart printers and other resources. To obtain a card you will need to be registered with the Human Resource database and have your university IT account. Before you place a request for a card, please ensure that your details are correct by checking and updating your record using Employee Self Service.",
+          "translation": "您需要大学卡作为身份证明，以进入您工作的建筑物和区域，并使用智能打印机和其他资源。\n要获得一张卡，您需要在人力资源数据库中注册，并拥有您的大学IT账户。\n在您申请办卡之前，请使用员工自助服务检查并更新您的记录，以确保您的详细信息正确无误。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "To obtain your card, please go to the Security Lodge, where a photo will be taken and the card produced immediately. Alternatively, if you upload a passport-style photo, your department can request the card via an email to Security. Please note that this email will need to include your name and payroll number.",
+          "translation": "要领取您的卡，请前往保安室，那里会为您拍照并当场制卡。\n或者，如果您上传一张护照规格的照片，您的部门可以通过电子邮件向保安部门申请办卡。\n请注意，这封电子邮件需要包含您的姓名和工资编号。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Employee Self Service",
+          "translation": "员工自助服务"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Employee Self Service (ESS) allows staff to validate and update their staff record. This facility is particularly useful for checking your payslips, but you may wish to opt out of ESS correspondence.",
+          "translation": "员工自助服务（ESS）允许员工验证和更新他们的员工记录。\n该功能对于查看您的工资单特别有用，但您可能希望选择不接收ESS的通信。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Induction",
+          "translation": "入职培训"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Inductions are typically arranged by each department and you should get in touch with your departmental contact for more information. In addition to this, you can also use the Employee Portal to sign up for the yearly university-wide Information Day.",
+          "translation": "入职培训通常由各部门安排，您应该与所在部门的联系人联系以获取更多信息。\n除此之外，您还可以使用员工门户网站报名参加每年一度的全校信息日。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Information for theatre staff managers",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "剧院员工经理须知"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "INTRODUCTION\n\nThis is the information required by those responsible for the theatre staff who have contact with the audience during any production at The Place Theatre. It is important that the designated manager, and ideally also their deputy, be familiar with the contents.",
+          "translation": "引言\n\n这是The Place Theatre任何演出期间，负责与观众接触的剧院员工的相关负责人所需的信息。\n指定的经理，最好也包括其副手，熟悉这些内容非常重要。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "PERSONNEL\n\nCommon practice shows it is most appropriate to have at least six, and no more than eight, theatre staff available to ensure sufficient coverage of all public areas. These staff should be committed to their role and arrive within good time to be briefed and positioned before the audience starts to arrive.",
+          "translation": "人员\n\n通常的做法表明，至少安排六名、最多不超过八名剧院员工，以确保所有公共区域都有足够的人员覆盖，这是最合适的。\n这些员工应尽职尽责，并在观众开始到达之前及时到达，接受简要指示并各就各位。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "One or two members of staff should remain in the foyer to prepare for the interval. One of these should be the manager.",
+          "translation": "应留一两名员工在门厅为幕间休息做准备。\n其中一人应为经理。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "BOX OFFICE\n\nBefore the audience arrives the box office will need to be opened and the lights switched on, which is done by a switch located on the left, directly outside the box office. The power for the box office will also need to be turned on, using the switch labelled Terminal. The computer then needs to be turned on; this can be done by pressing the power button located underneath the counter on the top of a small black unit.",
+          "translation": "售票处\n\n在观众到达之前，需要打开售票处并开灯，这通过位于售票处正门外左侧的一个开关来完成。\n售票处的电源也需要打开，使用标有“Terminal”的开关。\n然后需要打开电脑；这可以通过按下位于柜台下方一个小型黑色装置顶部的电源按钮来完成。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "NOTICEBOARDS\n\nThere are two small boards: one next to the box office, and the other on the wall by the main auditorium door. These are for notices to audiences, such as requests for mobiles to be switched off while the show is on, or warnings about lighting special effects. It is essential that notices such as these are put up for the sake of audience safety.",
+          "translation": "公告板\n\n有两个小公告板：一个在售票处旁边，另一个在主观众厅门旁的墙上。\n这些用于向观众发布通知，例如要求演出期间关闭手机，或警告灯光特效。\n为了观众的安全，张贴此类通知至关重要。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "There are two large boards on the wall opposite the bar — these are for publicity for forthcoming productions. There are also numerous display boards behind the bar listing the current bar prices for the staff and audience to refer to.",
+          "translation": "酒吧对面的墙上有两个大公告板——这些用于宣传即将上演的剧目。\n酒吧后面还有许多展示板，列出当前的酒水价格，供员工和观众参考。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "AUDITORIUM\n\nThere are two wheelchair bays, each wide enough to accommodate one wheelchair plus a chair for a companion. The three seats by the main foyer door should be left vacant for latecomers. The staff member who is sitting by the main doors into the foyer is responsible for seating these people.",
+          "translation": "观众厅\n\n有两个轮椅位，每个宽度足以容纳一辆轮椅和一把陪同者的椅子。\n主门厅门旁的三个座位应留给迟到者。\n坐在通往门厅的主门旁的工作人员负责安排这些人入座。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Items of food may be taken into the auditorium at the discretion of the manager. Drinks are allowed into the auditorium; however, these might result in spills which should be dealt with as soon as they are noticed.",
+          "translation": "食品是否可以带入观众厅由经理酌情决定。\n饮料允许带入观众厅；然而，这可能会导致泼洒，一旦发现应立即处理。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "390",
+          "type": 8,
+          "title": "First day orientation for university staff members",
+          "instructions": "Questions 15-21\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the text for each answer.\nWrite your answers in boxes 15-21 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197650",
+              "number": 15,
+              "prompt": "You qualify for _____ for public transport if you work for the university.",
+              "options": [],
+              "answer": "discounted tickets",
+              "accepted_answers": [
+                "discounted tickets"
+              ],
+              "analysis": "题干中的“qualify for”对应原文中的“available for”，而“public transport”在原文中体现为“bus and train links”。原文明确指出“discounted tickets are available for staff”，说明大学员工可获得公共交通的折扣票，因此答案是“discounted tickets”。",
+              "reason": "答案句直接包含discounted tickets。",
+              "location_analysis": "原文提到staff可获discounted tickets，与题干对应。",
+              "paraphrasing": "qualify for -> available for",
+              "keywords": "public transport, discounted tickets",
+              "evidence": [
+                "There are various bus and train links to the university and discounted tickets are available for staff."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197651",
+              "number": 16,
+              "prompt": "Contact the _____.",
+              "options": [],
+              "answer": "environment team",
+              "accepted_answers": [
+                "environment team"
+              ],
+              "analysis": "题干要求填写应联系的部门，原文提到“Further information on transport options is available from the Environment Team”，其中“available from”与题干中的“Contact”构成同义替换，因此答案为“environment team”。",
+              "reason": "答案句明确提到Environment Team。",
+              "location_analysis": "题干要求联系…，原文说明信息可来自Environment Team。",
+              "paraphrasing": "Contact -> available from",
+              "keywords": "Contact, Environment Team",
+              "evidence": [
+                "Further information on transport options is available from the Environment Team or can be found in the Travel Options leaflet."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197652",
+              "number": 17,
+              "prompt": "You may need to obtain a _____.",
+              "options": [],
+              "answer": "parking permit / permit",
+              "accepted_answers": [
+                "parking permit / permit",
+                "parking permit",
+                "permit"
+              ],
+              "analysis": "题干中的“obtain a”对应原文中的“apply for a”，而“parking”在原文中出现在“parking facilities”和“apply for a permit where applicable”中。由此可知，开车上班可能需要申请停车许可，因此答案是“parking permit”或“permit”。",
+              "reason": "答案句包含permit。",
+              "location_analysis": "题干说可能需要获取permit，原文对应apply for a permit。",
+              "paraphrasing": "obtain a -> apply for a",
+              "keywords": "parking, permit",
+              "evidence": [
+                "If you intend to travel to work by car, you should check whether parking facilities are available at your location and apply for a permit where applicable."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197653",
+              "number": 18,
+              "prompt": "You need your _____ before you can create your IT account.",
+              "options": [],
+              "answer": "employee number",
+              "accepted_answers": [
+                "employee number"
+              ],
+              "analysis": "题干询问创建IT账户前需要什么，原文指出“IT Services will be able to do this once the Recruitment Team have generated an employee number for you”，说明必须先获得员工编号（employee number）才能设置账户，因此答案是“employee number”。",
+              "reason": "答案句直接提到employee number。",
+              "location_analysis": "题干说需要employee number才能创建IT账户，原文说一旦生成employee nu...",
+              "paraphrasing": "need your ... before -> once ... have generated",
+              "keywords": "IT account, employee number",
+              "evidence": [
+                "IT Services will be able to do this once the Recruitment Team have generated an employee number for you."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197654",
+              "number": 19,
+              "prompt": "A University Card is necessary for equipment such as _____.",
+              "options": [],
+              "answer": "smart printers / printers",
+              "accepted_answers": [
+                "smart printers / printers",
+                "smart printers",
+                "printers"
+              ],
+              "analysis": "题干问大学卡用于哪些设备，原文提到“to gain access to smart printers and other resources”，其中“smart printers”属于设备范畴，且与题干中的“equipment such as”对应，因此答案是“smart printers”或“printers”。",
+              "reason": "答案句包含smart printers。",
+              "location_analysis": "题干说卡用于smart printers等设备，原文对应gain access to smar...",
+              "paraphrasing": "equipment such as -> smart printers and other resources",
+              "keywords": "University Card, smart printers",
+              "evidence": [
+                "You need your University Card for proof of ID to enter buildings and areas where you work, and to gain access to smart printers and other resources."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197655",
+              "number": 20,
+              "prompt": "You can collect your card from the _____.",
+              "options": [],
+              "answer": "security lodge",
+              "accepted_answers": [
+                "security lodge"
+              ],
+              "analysis": "题干问领取卡片的地点，原文明确说明“To obtain your card, please go to the Security Lodge”，其中“go to”与题干中的“collect from”意思一致，因此答案是“security lodge”。",
+              "reason": "答案句明确提到Security Lodge。",
+              "location_analysis": "题干说去Security Lodge取卡，原文直接说明。",
+              "paraphrasing": "collect from -> go to",
+              "keywords": "collect your card, Security Lodge",
+              "evidence": [
+                "To obtain your card, please go to the Security Lodge, where a photo will be taken and the card produced immediately."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197656",
+              "number": 21,
+              "prompt": "Employee Self Service is recommended for viewing _____.",
+              "options": [],
+              "answer": "payslips / your payslips",
+              "accepted_answers": [
+                "payslips / your payslips",
+                "payslips",
+                "your payslips"
+              ],
+              "analysis": "题干问Employee Self Service推荐用于查看什么，原文指出“This facility is particularly useful for checking your payslips”，其中“checking”与题干中的“viewing”为同义表达，因此答案是“payslips”或“your payslips”。",
+              "reason": "答案句包含payslips。",
+              "location_analysis": "题干推荐ESS看payslips，原文说用于checking payslips。",
+              "paraphrasing": "recommended for viewing -> useful for checking",
+              "keywords": "Employee Self Service, payslips",
+              "evidence": [
+                "This facility is particularly useful for checking your payslips, but you may wish to opt out of ESS correspondence."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "15 You qualify for $1197650$ for public transport if you work for the university.\n16 Contact the $1197651$.\n17 You may need to obtain a $1197652$.\n18 You need your $1197653$ before you can create your IT account.\n19 A University Card is necessary for equipment such as $1197654$.\n20 You can collect your card from the $1197655$.\n21 Employee Self Service is recommended for viewing $1197656$.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "15 You qualify for $1197650$ for public transport if you work for the university.\n16 Contact the $1197651$.\n17 You may need to obtain a $1197652$.\n18 You need your $1197653$ before you can create your IT account.\n19 A University Card is necessary for equipment such as $1197654$.\n20 You can collect your card from the $1197655$.\n21 Employee Self Service is recommended for viewing $1197656$."
+        },
+        {
+          "id": "391",
+          "type": 8,
+          "title": "Information for theatre staff managers",
+          "instructions": "Questions 22-27\nComplete the notes below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 22-27 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197657",
+              "number": 22,
+              "prompt": "- the lights (using the switch to the _____ of the office)",
+              "options": [],
+              "answer": "left",
+              "accepted_answers": [
+                "left"
+              ],
+              "analysis": "题干询问开关位于办公室的哪一侧，原文明确说明灯光开关“is done by a switch located on the left, directly outside the box office”，其中“on the left”直接对应题干中的“to the ... of the office”，因此答案是“left”。",
+              "reason": "答案句直接给出left。",
+              "location_analysis": "题干说开关在办公室左边，原文明确on the left。",
+              "paraphrasing": "to the ... of -> located on the",
+              "keywords": "lights, switch, left",
+              "evidence": [
+                "the box office will need to be opened and the lights switched on, which is done by a switch located on the left, directly outside the box office."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197658",
+              "number": 23,
+              "prompt": "- the computer (switch found below the _____)",
+              "options": [],
+              "answer": "counter",
+              "accepted_answers": [
+                "counter"
+              ],
+              "analysis": "题干问电脑开关位于何处下方，原文提到“pressing the power button located underneath the counter”，其中“underneath the counter”与题干中的“below the ...”构成同义替换，因此答案是“counter”。",
+              "reason": "答案句包含counter。",
+              "location_analysis": "题干说开关在柜台下面，原文underneath the counter。",
+              "paraphrasing": "found below the -> located underneath the",
+              "keywords": "computer, switch, below, counter",
+              "evidence": [
+                "this can be done by pressing the power button located underneath the counter on the top of a small black unit."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197659",
+              "number": 24,
+              "prompt": "• give instructions about use of mobiles during performances — • display posters about future _____",
+              "options": [],
+              "answer": "productions",
+              "accepted_answers": [
+                "productions"
+              ],
+              "analysis": "题干要求填写海报宣传的内容，原文指出大公告板用于“publicity for forthcoming productions”，其中“forthcoming productions”即指未来的演出，与题干中的“future ...”完全对应，因此答案是“productions”。",
+              "reason": "答案句包含productions。",
+              "location_analysis": "题干说展示未来productions的海报，原文for forthcoming product...",
+              "paraphrasing": "display posters about -> publicity for",
+              "keywords": "posters, future productions",
+              "evidence": [
+                "There are two large boards on the wall opposite the bar — these are for publicity for forthcoming productions."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197660",
+              "number": 25,
+              "prompt": "• remember to keep some places available for _____",
+              "options": [],
+              "answer": "latecomers",
+              "accepted_answers": [
+                "latecomers"
+              ],
+              "analysis": "题干问需为谁保留座位，原文明确说明“The three seats by the main foyer door should be left vacant for latecomers”，其中“latecomers”直接对应题干中的“available for ...”，因此答案是“latecomers”。",
+              "reason": "答案句直接给出latecomers。",
+              "location_analysis": "题干说为latecomers留位，原文left vacant for latecomers。",
+              "paraphrasing": "available for -> left vacant for",
+              "keywords": "keep places available, latecomers",
+              "evidence": [
+                "The three seats by the main foyer door should be left vacant for latecomers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197661",
+              "number": 26,
+              "prompt": "• decide if _____ is permitted inside",
+              "options": [],
+              "answer": "food",
+              "accepted_answers": [
+                "food"
+              ],
+              "analysis": "题干询问是否允许带入某物，原文提到“Items of food may be taken into the auditorium at the discretion of the manager”，说明食物是否允许由经理决定，因此答案是“food”。",
+              "reason": "答案句包含food。",
+              "location_analysis": "题干问是否允许food，原文说food may be taken into。",
+              "paraphrasing": "is permitted -> may be taken into",
+              "keywords": "permitted inside, food",
+              "evidence": [
+                "Items of food may be taken into the auditorium at the discretion of the manager."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197662",
+              "number": 27,
+              "prompt": "• make sure _____ are cleaned up.",
+              "options": [],
+              "answer": "spills",
+              "accepted_answers": [
+                "spills"
+              ],
+              "analysis": "题干要求填写需清理的东西，原文指出饮料可能造成“spills which should be dealt with as soon as they are noticed”，其中“dealt with”对应题干中的“cleaned up”，因此答案是“spills”。",
+              "reason": "答案句包含spills。",
+              "location_analysis": "题干说确保spills被清理，原文spills should be dealt with。",
+              "paraphrasing": "cleaned up -> dealt with",
+              "keywords": "cleaned up, spills",
+              "evidence": [
+                "Drinks are allowed into the auditorium; however, these might result in spills which should be dealt with as soon as they are noticed."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Personnel\n• note that:\n- a minimum of six staff members should be on duty\n- some staff are required to make sure all is ready before the interval\nBox office\n• turn on\n- the lights (using the switch to the $1197657$ of the office)\n- the power\n- the computer (switch found below the $1197658$)\nNoticeboards\n• give instructions about use of mobiles during performances\n• display posters about future $1197659$\nAuditorium\n• remember to keep some places available for $1197660$\n• decide if $1197661$ is permitted inside\n• make sure $1197662$ are cleaned up.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Personnel\n• note that:\n- a minimum of six staff members should be on duty\n- some staff are required to make sure all is ready before the interval\nBox office\n• turn on\n- the lights (using the switch to the $1197657$ of the office)\n- the power\n- the computer (switch found below the $1197658$)\nNoticeboards\n• give instructions about use of mobiles during performances\n• display posters about future $1197659$\nAuditorium\n• remember to keep some places available for $1197660$\n• decide if $1197661$ is permitted inside\n• make sure $1197662$ are cleaned up."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "First day orientation for university staff members",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Transport and Parking",
+          "translation": "交通与停车"
+        },
+        {
+          "index": 2,
+          "sentence": "There are various bus and train links to the university and discounted tickets are available for staff.",
+          "translation": "有多条公交和火车线路通往大学，并为员工提供折扣票。"
+        },
+        {
+          "index": 3,
+          "sentence": "We also offer bike storage on campus and a cycle-to-work scheme.",
+          "translation": "我们还在校园内提供自行车存放处和骑行上班计划。"
+        },
+        {
+          "index": 4,
+          "sentence": "Further information on transport options is available from the Environment Team or can be found in the Travel Options leaflet.",
+          "translation": "有关交通选择的更多信息，可从环境团队获取，或可在《出行选择》宣传单中找到。"
+        },
+        {
+          "index": 5,
+          "sentence": "If you intend to travel to work by car, you should check whether parking facilities are available at your location and apply for a permit where applicable.",
+          "translation": "如果你打算开车上班，应检查你所在的地点是否有停车设施，并在适用的情况下申请许可证。"
+        },
+        {
+          "index": 6,
+          "sentence": "Your IT Account",
+          "translation": "你的IT账户"
+        },
+        {
+          "index": 7,
+          "sentence": "Please liaise with your departmental IT contact to set up your university IT account, password and username.",
+          "translation": "请与您所在部门的IT联系人联系，以设置您的大学IT账户、密码和用户名。"
+        },
+        {
+          "index": 8,
+          "sentence": "IT Services will be able to do this once the Recruitment Team have generated an employee number for you.",
+          "translation": "一旦招聘团队为您生成了员工编号，IT服务部门就能进行设置。"
+        },
+        {
+          "index": 9,
+          "sentence": "You will then be able to log in to a university PC, as well as use Blackboard, Wi-Fi and many other IT systems and services.",
+          "translation": "之后您将能够登录大学电脑，并使用Blackboard、Wi-Fi以及许多其他IT系统和服务。"
+        },
+        {
+          "index": 10,
+          "sentence": "If you require further assistance, contact the IT Service Desk.",
+          "translation": "如果您需要进一步的帮助，请联系IT服务台。"
+        },
+        {
+          "index": 11,
+          "sentence": "Your University Card",
+          "translation": "您的大学卡"
+        },
+        {
+          "index": 12,
+          "sentence": "You need your University Card for proof of ID to enter buildings and areas where you work, and to gain access to smart printers and other resources.",
+          "translation": "您需要大学卡作为身份证明，以进入您工作的建筑物和区域，并使用智能打印机和其他资源。"
+        },
+        {
+          "index": 13,
+          "sentence": "To obtain a card you will need to be registered with the Human Resource database and have your university IT account.",
+          "translation": "要获得一张卡，您需要在人力资源数据库中注册，并拥有您的大学IT账户。"
+        },
+        {
+          "index": 14,
+          "sentence": "Before you place a request for a card, please ensure that your details are correct by checking and updating your record using Employee Self Service.",
+          "translation": "在您申请办卡之前，请使用员工自助服务检查并更新您的记录，以确保您的详细信息正确无误。"
+        },
+        {
+          "index": 15,
+          "sentence": "To obtain your card, please go to the Security Lodge, where a photo will be taken and the card produced immediately.",
+          "translation": "要领取您的卡，请前往保安室，那里会为您拍照并当场制卡。"
+        },
+        {
+          "index": 16,
+          "sentence": "Alternatively, if you upload a passport-style photo, your department can request the card via an email to Security.",
+          "translation": "或者，如果您上传一张护照规格的照片，您的部门可以通过电子邮件向保安部门申请办卡。"
+        },
+        {
+          "index": 17,
+          "sentence": "Please note that this email will need to include your name and payroll number.",
+          "translation": "请注意，这封电子邮件需要包含您的姓名和工资编号。"
+        },
+        {
+          "index": 18,
+          "sentence": "Employee Self Service",
+          "translation": "员工自助服务"
+        },
+        {
+          "index": 19,
+          "sentence": "Employee Self Service (ESS) allows staff to validate and update their staff record.",
+          "translation": "员工自助服务（ESS）允许员工验证和更新他们的员工记录。"
+        },
+        {
+          "index": 20,
+          "sentence": "This facility is particularly useful for checking your payslips, but you may wish to opt out of ESS correspondence.",
+          "translation": "该功能对于查看您的工资单特别有用，但您可能希望选择不接收ESS的通信。"
+        },
+        {
+          "index": 21,
+          "sentence": "Induction",
+          "translation": "入职培训"
+        },
+        {
+          "index": 22,
+          "sentence": "Inductions are typically arranged by each department and you should get in touch with your departmental contact for more information.",
+          "translation": "入职培训通常由各部门安排，您应该与所在部门的联系人联系以获取更多信息。"
+        },
+        {
+          "index": 23,
+          "sentence": "In addition to this, you can also use the Employee Portal to sign up for the yearly university-wide Information Day.",
+          "translation": "除此之外，您还可以使用员工门户网站报名参加每年一度的全校信息日。"
+        },
+        {
+          "index": 24,
+          "sentence": "Information for theatre staff managers",
+          "translation": "剧院员工经理须知"
+        },
+        {
+          "index": 25,
+          "sentence": "INTRODUCTION\n\nThis is the information required by those responsible for the theatre staff who have contact with the audience during any production at The Place Theatre.",
+          "translation": "引言\n\n这是The Place Theatre任何演出期间，负责与观众接触的剧院员工的相关负责人所需的信息。"
+        },
+        {
+          "index": 26,
+          "sentence": "It is important that the designated manager, and ideally also their deputy, be familiar with the contents.",
+          "translation": "指定的经理，最好也包括其副手，熟悉这些内容非常重要。"
+        },
+        {
+          "index": 27,
+          "sentence": "PERSONNEL\n\nCommon practice shows it is most appropriate to have at least six, and no more than eight, theatre staff available to ensure sufficient coverage of all public areas.",
+          "translation": "人员\n\n通常的做法表明，至少安排六名、最多不超过八名剧院员工，以确保所有公共区域都有足够的人员覆盖，这是最合适的。"
+        },
+        {
+          "index": 28,
+          "sentence": "These staff should be committed to their role and arrive within good time to be briefed and positioned before the audience starts to arrive.",
+          "translation": "这些员工应尽职尽责，并在观众开始到达之前及时到达，接受简要指示并各就各位。"
+        },
+        {
+          "index": 29,
+          "sentence": "One or two members of staff should remain in the foyer to prepare for the interval.",
+          "translation": "应留一两名员工在门厅为幕间休息做准备。"
+        },
+        {
+          "index": 30,
+          "sentence": "One of these should be the manager.",
+          "translation": "其中一人应为经理。"
+        },
+        {
+          "index": 31,
+          "sentence": "BOX OFFICE\n\nBefore the audience arrives the box office will need to be opened and the lights switched on, which is done by a switch located on the left, directly outside the box office.",
+          "translation": "售票处\n\n在观众到达之前，需要打开售票处并开灯，这通过位于售票处正门外左侧的一个开关来完成。"
+        },
+        {
+          "index": 32,
+          "sentence": "The power for the box office will also need to be turned on, using the switch labelled Terminal.",
+          "translation": "售票处的电源也需要打开，使用标有“Terminal”的开关。"
+        },
+        {
+          "index": 33,
+          "sentence": "The computer then needs to be turned on; this can be done by pressing the power button located underneath the counter on the top of a small black unit.",
+          "translation": "然后需要打开电脑；这可以通过按下位于柜台下方一个小型黑色装置顶部的电源按钮来完成。"
+        },
+        {
+          "index": 34,
+          "sentence": "NOTICEBOARDS\n\nThere are two small boards: one next to the box office, and the other on the wall by the main auditorium door.",
+          "translation": "公告板\n\n有两个小公告板：一个在售票处旁边，另一个在主观众厅门旁的墙上。"
+        },
+        {
+          "index": 35,
+          "sentence": "These are for notices to audiences, such as requests for mobiles to be switched off while the show is on, or warnings about lighting special effects.",
+          "translation": "这些用于向观众发布通知，例如要求演出期间关闭手机，或警告灯光特效。"
+        },
+        {
+          "index": 36,
+          "sentence": "It is essential that notices such as these are put up for the sake of audience safety.",
+          "translation": "为了观众的安全，张贴此类通知至关重要。"
+        },
+        {
+          "index": 37,
+          "sentence": "There are two large boards on the wall opposite the bar — these are for publicity for forthcoming productions.",
+          "translation": "酒吧对面的墙上有两个大公告板——这些用于宣传即将上演的剧目。"
+        },
+        {
+          "index": 38,
+          "sentence": "There are also numerous display boards behind the bar listing the current bar prices for the staff and audience to refer to.",
+          "translation": "酒吧后面还有许多展示板，列出当前的酒水价格，供员工和观众参考。"
+        },
+        {
+          "index": 39,
+          "sentence": "AUDITORIUM\n\nThere are two wheelchair bays, each wide enough to accommodate one wheelchair plus a chair for a companion.",
+          "translation": "观众厅\n\n有两个轮椅位，每个宽度足以容纳一辆轮椅和一把陪同者的椅子。"
+        },
+        {
+          "index": 40,
+          "sentence": "The three seats by the main foyer door should be left vacant for latecomers.",
+          "translation": "主门厅门旁的三个座位应留给迟到者。"
+        },
+        {
+          "index": 41,
+          "sentence": "The staff member who is sitting by the main doors into the foyer is responsible for seating these people.",
+          "translation": "坐在通往门厅的主门旁的工作人员负责安排这些人入座。"
+        },
+        {
+          "index": 42,
+          "sentence": "Items of food may be taken into the auditorium at the discretion of the manager.",
+          "translation": "食品是否可以带入观众厅由经理酌情决定。"
+        },
+        {
+          "index": 43,
+          "sentence": "Drinks are allowed into the auditorium; however, these might result in spills which should be dealt with as soon as they are noticed.",
+          "translation": "饮料允许带入观众厅；然而，这可能会导致泼洒，一旦发现应立即处理。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    },
+    {
+      "id": "211033",
+      "number": 3,
+      "title": "Section 3",
+      "article_title": "Algonquin Provincial Park",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Algonquin Provincial Park is located in south-central Ontario, Canada, and covers 7,653 square kilometres. Its size, combined with its nearness to the major cities of Toronto and Ottawa, make Algonquin one of the most popular parks in the province. Access to the park is by way of Highway 60, the most common route, as it travels through the southern portion of the park connecting the East Gate to the West Gate. The East Gate is located just west of the town of Whitney, while the West Gate is located just east of the town of Dwight, which is 45 kilometres from the town of Huntsville. The Trans-Canada highway bypasses it to the north.",
+          "translation": "阿冈昆省立公园位于加拿大安大略省中南部，占地7,653平方公里。\n其面积之大，加上靠近多伦多和渥太华等主要城市，使阿冈昆成为该省最受欢迎的公园之一。\n进入公园的途径是60号公路，这是最常见的路线，因为它穿过公园南部，连接东门和西门。\n东门位于惠特尼镇以西，西门则位于德怀特镇以东，德怀特镇距亨茨维尔镇45公里。\n加拿大横贯公路从北面绕过它。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "In 1893 it was established as a national park under the Federal government. Its name was later changed to Algonquin Provincial Park when it fell under the jurisdiction of the provincial government. In the 19th century, large white pine and red pine trees were cut down to produce lumber for domestic and American markets, as well as some square timber for export to Great Britain. This activity was closely followed by the establishment of small numbers of homesteaders and farmers in the area. Even at that time, however, the region’s beauty was recognized by nature preservationists. It is here that the types of trees change from the coniferous forests of Southern Ontario to the deciduous forests of Northern Ontario. It was acknowledged in 1992 for its several heritage values including: its role in the development of park resource management; the pioneering of visitor interpretation programs; its role in inspiring artists; and its development of historic structures such as cottages, camps, a railway station and museum buildings.",
+          "translation": "1893年，它作为国家公园在联邦政府管辖下成立。\n后来当它归省政府管辖时，更名为阿冈昆省立公园。\n在19世纪，高大的白松和红松被砍伐，为国内和美国市场生产木材，还有一些方木出口到英国。\n紧随其后的是少数自耕农和农民在该地区定居。\n然而，即使在那时，该地区的美丽也已被自然保护主义者所认可。\n正是在这里，树木类型从南安大略的针叶林转变为北安大略的落叶林。\n1992年，它因其多项遗产价值而得到认可，包括：在公园资源管理发展中的作用；开创游客解说项目；在激发艺术家灵感方面的作用；以及历史建筑的发展，如小屋、营地、火车站和博物馆建筑。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "The Ottawa, Arnprior and Parry Sound Railway was constructed through the park in 1896, and provided the first easy access to the area. In an attempt to make the park more attractive to vacationers, Hotel Algonquin was opened at Joe Lake where fishing was the main attraction. Then the Grand Trunk Railway opened its first hotel, the Highland Inn, near Park Headquarters. Built on a hill behind Algonquin Park Station and focusing on winter activities, the two-storey year-round resort was an immediate success. Soon after, a number of business people built other guest lodges in the park. Nominigan Camp, consisting of a main lodge with six cabins of log construction, a favourite of canoers, was established on Smoke Lake. Camp Minnesing on Burnt Island Lake was created as a wilderness lodge. Later, Highland Inn was enlarged and new camps were added.",
+          "translation": "渥太华、安普赖尔和帕里桑德铁路于1896年穿过公园建成，首次提供了进入该地区的便捷通道。\n为了使公园对度假者更具吸引力，阿尔冈昆酒店在乔湖开业，钓鱼是主要吸引力。\n随后，大干线铁路在公园总部附近开设了其第一家酒店——高地旅馆。\n这座两层楼的全年度假村建在阿冈昆公园站后面的山上，以冬季活动为重点，立即取得了成功。\n不久之后，一些商人在公园内建造了其他旅馆。\n诺米尼根营地（Nominigan Camp）建于烟湖（Smoke Lake）上，由一座主屋和六间原木建造的小屋组成，深受划独木舟者的喜爱。\n位于烧岛湖（Burnt Island Lake）的明尼辛营地（Camp Minnesing）是作为荒野小屋而建的。\n后来，高地旅馆（Highland Inn）进行了扩建，并增加了新的营地。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The beauty of Algonquin Park attracted painters such as Tom Thomson, who along with other members of the Canadian elite painters known as the Group of Seven, found the environment inspiring. Thomson served as a guide in the park, often working from Mowat Lodge. He did much of his painting at Canoe Lake, a favourite site overlooking the central portion of the lake. A cairn and totem pole memorial, erected by friends of the painter, stands on Hayhurst Point, near the north end of the lake where he died. Another noted Canadian painter who died in the park was Ken Danby, a celebrated painter of highly realistic portrayals of everyday life. Contemporary painters continue to display a love of nature and a profound appreciation of the natural world through their awe-inspiring works of the park’s landscapes.",
+          "translation": "阿冈昆公园的美景吸引了像汤姆·汤姆森（Tom Thomson）这样的画家，他与加拿大精英画家团体“七人画派”（Group of Seven）的其他成员一样，觉得这里的环境能激发灵感。\n汤姆森曾在公园担任向导，经常在莫瓦特旅馆（Mowat Lodge）工作。\n他的大部分画作都是在独木舟湖（Canoe Lake）完成的，那里是他最喜欢的俯瞰湖中央部分的地点。\n在画家去世的湖的北端附近，海赫斯特角（Hayhurst Point）上矗立着一座由画家的朋友们竖立的石堆和图腾柱纪念碑。\n另一位在公园内去世的加拿大著名画家是肯·丹比（Ken Danby），他以高度写实地描绘日常生活而闻名。\n当代画家们继续通过他们令人惊叹的公园风景画作，展现对自然的热爱和对自然世界的深刻欣赏。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Algonquin became popular during the 1950s and 60s for year-round open-air pastimes. Visitors eager to see the diversity of wildlife and explore the 2400 lakes and 1200km of streams and rivers contributed to the establishment of canoeing routes, fishing, horseback riding and cross-country skiing. To preserve wildlife and wilderness areas, and to minimize contact with people, many ideal locations could only be accessed by canoe or on foot. More than 53 species of mammals, 272 species of birds, 31 species of reptiles and amphibians, and 54 species of fish consider Algonquin home. Also, the park developed a visitor centre which now features exhibits about the natural and cultural history of the park. There are nineteen interpretive trails, ranging in length from 0.8km to 13km, and each trail provides a self-guided pamphlet which is meant to introduce visitors to a different aspect of the park’s ecology or history.",
+          "translation": "阿冈昆公园在20世纪50年代和60年代因全年开放的户外休闲活动而变得受欢迎。\n渴望看到野生动物多样性并探索2400个湖泊和1200公里溪流与河流的游客，促进了独木舟路线、钓鱼、骑马和越野滑雪的建立。\n为了保护野生动物和荒野区域，并尽量减少与人的接触，许多理想的地点只能通过独木舟或步行到达。\n超过53种哺乳动物、272种鸟类、31种爬行动物和两栖动物以及54种鱼类以阿冈昆为家。\n此外，公园还建立了一个游客中心，现在展示有关公园自然和文化历史的展品。\n有19条解说步道，长度从0.8公里到13公里不等，每条步道都提供一本自助指南小册子，旨在向游客介绍公园生态或历史的不同方面。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "As recreational use of the park increased, it became clear that a long-term plan to manage the park was required. Six years of consultation with park guests resulted in the Algonquin Master Plan. It was an organizational plan that sought to ensure that the park could continue indefinitely to serve all the competing park interests. Three major changes have come about as a result of this plan. First, the park is now divided into regions with different specified purposes and uses: Nature Reserve and Historic; Wilderness; Development, Recreation-Utilization. The second change was to segregate logging, as much as possible, from recreational users of the park. This would help to maintain the park’s natural environment and integrity. Thirdly, rules were put in place to limit the impact of recreational use of the park. For example, recyclables are banned in the interior. Also there are restrictions on the number of people who can enter per day and there are limits to the number of people occupying a campsite. Finally, the use of motor boats is limited to a few of the larger and more accessible lakes. The master plan continues to be reviewed and updated on a regular basis.",
+          "translation": "随着公园休闲用途的增加，显然需要一个长期计划来管理公园。\n经过与公园游客六年的协商，制定了《阿冈昆总体规划》（Algonquin Master Plan）。\n这是一个组织计划，旨在确保公园能够无限期地继续服务于所有相互竞争的公园利益。\n该计划带来了三大变化。\n首先，公园现在被划分为具有不同指定用途的区域：自然保护区与历史区；荒野区；开发区，休闲利用区。\n第二个变化是尽可能将伐木活动与公园的休闲使用者隔离开来。\n这将有助于维护公园的自然环境和完整性。\n第三，制定了规则以限制公园休闲使用的影响。\n例如，内部区域禁止使用可回收物品。\n此外，对每天可进入的人数有限制，对占用营地的人数也有限制。\n最后，摩托艇的使用仅限于少数几个较大且更易到达的湖泊。\n总体规划会定期进行审查和更新。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "392",
+          "type": 10,
+          "title": "List of Headings",
+          "instructions": "Questions 28-33\nThe text has six paragraphs, A-F.\nChoose the correct heading for each paragraph from the list of headings below.\nWrite the correct number, i-ix, in boxes 28-33 on your answer sheet.",
+          "option_title": "",
+          "options": [
+            {
+              "value": "i",
+              "label": "i. Redefining Policies"
+            },
+            {
+              "value": "ii",
+              "label": "ii. Geographic Setting"
+            },
+            {
+              "value": "iii",
+              "label": "iii. Encouraging Tourism"
+            },
+            {
+              "value": "iv",
+              "label": "iv. Tree Harvesting"
+            },
+            {
+              "value": "v",
+              "label": "v. Outdoor Activities"
+            },
+            {
+              "value": "vi",
+              "label": "vi. Funding Shortages"
+            },
+            {
+              "value": "vii",
+              "label": "vii. A Favourite Subject for Artists"
+            },
+            {
+              "value": "viii",
+              "label": "viii. Camping Locations"
+            },
+            {
+              "value": "ix",
+              "label": "ix. Gaining Official Status"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197663",
+              "number": 28,
+              "prompt": "Paragraph A _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Redefining Policies"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. Geographic Setting"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. Encouraging Tourism"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. Tree Harvesting"
+                },
+                {
+                  "value": "v",
+                  "label": "v. Outdoor Activities"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Funding Shortages"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. A Favourite Subject for Artists"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. Camping Locations"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Gaining Official Status"
+                }
+              ],
+              "answer": "ii",
+              "accepted_answers": [
+                "ii"
+              ],
+              "analysis": "题干要求为段落A选择合适标题。段落A开篇即指出Algonquin Provincial Park位于加拿大安大略省中南部，并详细描述了其与多伦多、渥太华等大城市的位置关系以及通过Highway 60和Trans-Canada highway的交通可达性。这些信息均围绕公园的地理位置展开，与选项ii“Geographic Setting”完全对应，因此答案为ii。",
+              "reason": "heading ii 概括地理位置",
+              "location_analysis": "段落A介绍公园的地理位置和交通可达性，对应heading ii。",
+              "paraphrasing": "Geographic Setting -> located in south-central Ontario, near major cities",
+              "keywords": "location, Highway 60, Toronto, Ottawa",
+              "evidence": [
+                "Algonquin Provincial Park is located in south-central Ontario, Canada, and covers 7,653 square kilometres."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197664",
+              "number": 29,
+              "prompt": "Paragraph B _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Redefining Policies"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. Geographic Setting"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. Encouraging Tourism"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. Tree Harvesting"
+                },
+                {
+                  "value": "v",
+                  "label": "v. Outdoor Activities"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Funding Shortages"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. A Favourite Subject for Artists"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. Camping Locations"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Gaining Official Status"
+                }
+              ],
+              "answer": "ix",
+              "accepted_answers": [
+                "ix"
+              ],
+              "analysis": "段落B提到该公园于1893年在联邦政府下被确立为国家公园，后转由省政府管辖并更名为Algonquin Provincial Park。这一过程体现了公园获得官方地位的历史演变，与选项ix“Gaining Official Status”中的核心概念高度一致，因此正确答案是ix。",
+              "reason": "heading ix 对应官方地位确立",
+              "location_analysis": "段落B讲述公园获得官方地位（国家公园→省级公园）。",
+              "paraphrasing": "Gaining Official Status -> established as a national park, changed to Algonquin Provincial Park",
+              "keywords": "established, national park, provincial government",
+              "evidence": [
+                "In 1893 it was established as a national park under the Federal government.",
+                "Its name was later changed to Algonquin Provincial Park when it fell under the jurisdiction of the provincial government."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197665",
+              "number": 30,
+              "prompt": "Paragraph C _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Redefining Policies"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. Geographic Setting"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. Encouraging Tourism"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. Tree Harvesting"
+                },
+                {
+                  "value": "v",
+                  "label": "v. Outdoor Activities"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Funding Shortages"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. A Favourite Subject for Artists"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. Camping Locations"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Gaining Official Status"
+                }
+              ],
+              "answer": "iii",
+              "accepted_answers": [
+                "iii"
+              ],
+              "analysis": "段落C重点描述了1896年铁路建设后，为吸引游客而陆续开设Hotel Algonquin、Highland Inn及其他度假营地等举措。这些措施旨在提升公园对度假者的吸引力，直接对应选项iii“Encouraging Tourism”，因此答案为iii。",
+              "reason": "heading iii 强调旅游推广",
+              "location_analysis": "段落C描述铁路和酒店建设以吸引游客，对应heading iii。",
+              "paraphrasing": "Encouraging Tourism -> make the park more attractive to vacationers, opened hotels",
+              "keywords": "railway, Hotel Algonquin, vacationers",
+              "evidence": [
+                "The Ottawa, Arnprior and Parry Sound Railway was constructed through the park in 1896, and provided the first easy access to the area.",
+                "In an attempt to make the park more attractive to vacationers, Hotel Algonquin was opened at Joe Lake where fishing was the main attraction."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197666",
+              "number": 31,
+              "prompt": "Paragraph D _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Redefining Policies"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. Geographic Setting"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. Encouraging Tourism"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. Tree Harvesting"
+                },
+                {
+                  "value": "v",
+                  "label": "v. Outdoor Activities"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Funding Shortages"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. A Favourite Subject for Artists"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. Camping Locations"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Gaining Official Status"
+                }
+              ],
+              "answer": "vii",
+              "accepted_answers": [
+                "vii"
+              ],
+              "analysis": "段落D明确指出Algonquin公园的美景吸引了Tom Thomson及Group of Seven等著名画家，他们认为这里的环境极具启发性（inspiring）。这与选项vii“A Favourite Subject for Artists”所表达的内容完全吻合，因此答案为vii。",
+              "reason": "heading vii 直接对应艺术家主题",
+              "location_analysis": "段落D指出公园是艺术家（如汤姆·汤姆森）的灵感源泉。",
+              "paraphrasing": "A Favourite Subject for Artists -> attracted painters, found the environment inspiring",
+              "keywords": "painters, Tom Thomson, Group of Seven, inspiring",
+              "evidence": [
+                "The beauty of Algonquin Park attracted painters such as Tom Thomson, who along with other members of the Canadian elite painters known as the Group of Seven, found the environment inspiring."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197667",
+              "number": 32,
+              "prompt": "Paragraph E _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Redefining Policies"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. Geographic Setting"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. Encouraging Tourism"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. Tree Harvesting"
+                },
+                {
+                  "value": "v",
+                  "label": "v. Outdoor Activities"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Funding Shortages"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. A Favourite Subject for Artists"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. Camping Locations"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Gaining Official Status"
+                }
+              ],
+              "answer": "v",
+              "accepted_answers": [
+                "v"
+              ],
+              "analysis": "段落E提到Algonquin在1950至60年代因全年开放的户外活动而广受欢迎，并列举了独木舟、钓鱼、骑马和越野滑雪等多种活动。这些内容全面概括了公园作为户外休闲场所的特点，与选项v“Outdoor Activities”精准对应，因此答案为v。",
+              "reason": "heading v 概括户外活动",
+              "location_analysis": "段落E介绍公园在1950-60年代成为户外活动中心。",
+              "paraphrasing": "Outdoor Activities -> open-air pastimes, canoeing, fishing, horseback riding, cross-country skiing",
+              "keywords": "open-air pastimes, canoeing, fishing, skiing",
+              "evidence": [
+                "Algonquin became popular during the 1950s and 60s for year-round open-air pastimes.",
+                "Visitors eager to see the diversity of wildlife and explore the 2400 lakes and 1200km of streams and rivers contributed to the establishment of canoeing routes, fishing, horseback riding and cross-country skiing."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197668",
+              "number": 33,
+              "prompt": "Paragraph F _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Redefining Policies"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. Geographic Setting"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. Encouraging Tourism"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. Tree Harvesting"
+                },
+                {
+                  "value": "v",
+                  "label": "v. Outdoor Activities"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Funding Shortages"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. A Favourite Subject for Artists"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. Camping Locations"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Gaining Official Status"
+                }
+              ],
+              "answer": "i",
+              "accepted_answers": [
+                "i"
+              ],
+              "analysis": "段落F介绍了随着游客增多，公园制定了Algonquin Master Plan以平衡各方利益，并实施三大主要变革：划分功能区域、分离伐木与休闲活动、制定限制性规定。这些举措属于政策层面的重新定义和调整，与选项i“Redefining Policies”含义一致，因此答案为i。",
+              "reason": "heading i 对应政策重新定义",
+              "location_analysis": "段落F介绍通过总规划重新定义政策以平衡各方利益。",
+              "paraphrasing": "Redefining Policies -> Algonquin Master Plan, three major changes, rules to limit impact",
+              "keywords": "master plan, changes, rules",
+              "evidence": [
+                "Six years of consultation with park guests resulted in the Algonquin Master Plan.",
+                "Three major changes have come about as a result of this plan."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 10,
+            "collect": "28 Paragraph A $1197663$\n29 Paragraph B $1197664$\n30 Paragraph C $1197665$\n31 Paragraph D $1197666$\n32 Paragraph E $1197667$\n33 Paragraph F $1197668$",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "28 Paragraph A $1197663$\n29 Paragraph B $1197664$\n30 Paragraph C $1197665$\n31 Paragraph D $1197666$\n32 Paragraph E $1197667$\n33 Paragraph F $1197668$"
+        },
+        {
+          "id": "393",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 34-36\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 34-36 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197669",
+              "number": 34,
+              "prompt": "Which of the following factors makes the park so popular?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "The park provides the most direct route between Whitney and Dwight."
+                },
+                {
+                  "value": "B",
+                  "label": "The park is between two southern routes."
+                },
+                {
+                  "value": "C",
+                  "label": "The park is easily accessed by highways."
+                },
+                {
+                  "value": "D",
+                  "label": "The park is easily reached from two urban centres."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干询问公园受欢迎的原因。原文段落A明确指出：“Its size, combined with its nearness to the major cities of Toronto and Ottawa, make Algonquin one of the most popular parks in the province.” 这说明其靠近多伦多和渥太华两大城市是关键因素，对应选项D“easily reached from two urban centres”，因此答案为D。",
+              "reason": "选项D正确陈述原因",
+              "location_analysis": "公园靠近多伦多和渥太华两大城市，使其受欢迎。",
+              "paraphrasing": "easily reached from two urban centres -> nearness to the major cities of Toronto and Ottawa",
+              "keywords": "popular, nearness, major cities, Toronto, Ottawa",
+              "evidence": [
+                "Its size, combined with its nearness to the major cities of Toronto and Ottawa, make Algonquin one of the most popular parks in the province."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提及公园连接惠特尼和德怀特是最直接路线，无中生有。",
+                "B": "公园位置描述与原文不符，且并非其受欢迎的原因。",
+                "C": "原文未强调高速公路易达性，可能指其他交通方式，信息矛盾。"
+              }
+            },
+            {
+              "id": "1197670",
+              "number": 35,
+              "prompt": "The writer suggests the holiday facilities were",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "developed simultaneously."
+                },
+                {
+                  "value": "B",
+                  "label": "owned by the railway companies."
+                },
+                {
+                  "value": "C",
+                  "label": "positioned around park lakes."
+                },
+                {
+                  "value": "D",
+                  "label": "built to appeal to a variety of people."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问作者对度假设施的看法。段落C提到Hotel Algonquin主打钓鱼、Highland Inn侧重冬季活动、Nominigan Camp受独木舟爱好者欢迎、Camp Minnesing定位为荒野小屋，说明各类设施针对不同兴趣群体设计，体现出多样性与广泛吸引力，对应选项D“built to appeal to a variety of people”，因此答案为D。",
+              "reason": "选项D正确，设施多样化",
+              "location_analysis": "不同设施针对钓鱼、冬季运动、独木舟、荒野体验等，吸引多元人群。",
+              "paraphrasing": "appeal to a variety of people -> different facilities for different interests",
+              "keywords": "fishing, winter activities, canoers, wilderness lodge",
+              "evidence": [
+                "In an attempt to make the park more attractive to vacationers, Hotel Algonquin was opened at Joe Lake where fishing was the main attraction.",
+                "Built on a hill behind Algonquin Park Station and focusing on winter activities, the two-storey year-round resort was an immediate success."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文指出这些设施是逐步开发的，并非同时进行。",
+                "B": "原文提到铁路公司仅赞助或提供交通，并未拥有这些设施。",
+                "C": "原文未提及设施位于公园湖泊周围，而是其他位置。"
+              }
+            },
+            {
+              "id": "1197671",
+              "number": 36,
+              "prompt": "What does the writer suggest about Algonquin Park in paragraph D?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Only artistic people appreciated it."
+                },
+                {
+                  "value": "B",
+                  "label": "Famous Canadians are buried there."
+                },
+                {
+                  "value": "C",
+                  "label": "The environment is stimulating to creative people."
+                },
+                {
+                  "value": "D",
+                  "label": "The most popular place in Algonquin Park is Canoe Lake."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问段落D中作者对Algonquin公园的看法。原文明确写道：“The beauty of Algonquin Park attracted painters... found the environment inspiring.” 表明自然环境激发了艺术家的创造力，对应选项C“environment is stimulating to creative people”，因此答案为C。",
+              "reason": "选项C正确，环境刺激创造力",
+              "location_analysis": "段D说明公园环境激发艺术家灵感。",
+              "paraphrasing": "environment is stimulating to creative people -> found the environment inspiring",
+              "keywords": "painters, inspiring environment, Tom Thomson, Group of Seven",
+              "evidence": [
+                "The beauty of Algonquin Park attracted painters such as Tom Thomson, who along with other members of the Canadian elite painters known as the Group of Seven, found the environment inspiring."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": {
+                "A": "原文未提到只有艺术人士欣赏该公园，属于无中生有。",
+                "B": "原文未提及知名加拿大人埋葬于此，属于无中生有。",
+                "D": "原文未指出Canoe Lake是公园中最受欢迎的地方，可能张冠李戴。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "394",
+          "type": 8,
+          "title": "Algonquin master plan",
+          "instructions": "Questions 37-40\nComplete the summary below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 37-40 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197672",
+              "number": 37,
+              "prompt": "A master plan was developed after _____ with Algonquin visitors in order to benefit all concerned. One consequence of the master plan was the separation into distinct _____. For example, leisure activities were organised away from the logging industry. In addition, in an effort to minimise any negative impact on the park, regulations were made prohibiting guests from bringing _____ into the park. Further, limits were placed on the number of individuals who could stay at each _____.",
+              "options": [],
+              "answer": "consultation",
+              "accepted_answers": [
+                "consultation"
+              ],
+              "analysis": "题干要求填写制定总体规划前的准备工作。原文段落F提到：“Six years of consultation with park guests resulted in the Algonquin Master Plan.” 其中“consultation”直接对应题干中的“after ______ with Algonquin visitors”，因此答案为consultation。",
+              "reason": "原文直接对应",
+              "location_analysis": "经过与游客协商6年制定总规划，填consultation。",
+              "paraphrasing": "after consultation with visitors -> consultation with park guests",
+              "keywords": "master plan, consultation, park guests",
+              "evidence": [
+                "Six years of consultation with park guests resulted in the Algonquin Master Plan."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197673",
+              "number": 38,
+              "prompt": "A master plan was developed after _____ with Algonquin visitors in order to benefit all concerned. One consequence of the master plan was the separation into distinct _____. For example, leisure activities were organised away from the logging industry. In addition, in an effort to minimise any negative impact on the park, regulations were made prohibiting guests from bringing _____ into the park. Further, limits were placed on the number of individuals who could stay at each _____.",
+              "options": [],
+              "answer": "regions / areas",
+              "accepted_answers": [
+                "regions / areas",
+                "regions",
+                "areas"
+              ],
+              "analysis": "题干要求填写总体规划带来的一个结果。原文段落F指出：“the park is now divided into regions with different specified purposes and uses”，说明公园被划分为具有不同用途的区域，“regions”或“areas”均可准确概括此意，因此答案为regions / areas。",
+              "reason": "原文直接对应",
+              "location_analysis": "公园被划分为不同用途区域。",
+              "paraphrasing": "separation into distinct regions -> divided into regions",
+              "keywords": "divided into regions, different purposes",
+              "evidence": [
+                "First, the park is now divided into regions with different specified purposes and uses: Nature Reserve and Historic; Wilderness; Development, Recreation-Utilization."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197674",
+              "number": 39,
+              "prompt": "A master plan was developed after _____ with Algonquin visitors in order to benefit all concerned. One consequence of the master plan was the separation into distinct _____. For example, leisure activities were organised away from the logging industry. In addition, in an effort to minimise any negative impact on the park, regulations were made prohibiting guests from bringing _____ into the park. Further, limits were placed on the number of individuals who could stay at each _____.",
+              "options": [],
+              "answer": "recyclables",
+              "accepted_answers": [
+                "recyclables"
+              ],
+              "analysis": "题干要求填写被禁止带入公园的物品。原文段落F明确说明：“recyclables are banned in the interior”，即禁止游客将可回收物带入公园内部，因此答案为recyclables。",
+              "reason": "原文直接对应",
+              "location_analysis": "规定禁止携带可回收物进入公园。",
+              "paraphrasing": "prohibiting guests from bringing recyclables -> recyclables are banned",
+              "keywords": "recyclables, banned",
+              "evidence": [
+                "For example, recyclables are banned in the interior."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197675",
+              "number": 40,
+              "prompt": "A master plan was developed after _____ with Algonquin visitors in order to benefit all concerned. One consequence of the master plan was the separation into distinct _____. For example, leisure activities were organised away from the logging industry. In addition, in an effort to minimise any negative impact on the park, regulations were made prohibiting guests from bringing _____ into the park. Further, limits were placed on the number of individuals who could stay at each _____.",
+              "options": [],
+              "answer": "campsite",
+              "accepted_answers": [
+                "campsite"
+              ],
+              "analysis": "题干要求填写对人数进行限制的具体地点。原文段落F提到：“there are limits to the number of people occupying a campsite”，说明每个营地（campsite）的入住人数受到限制，因此答案为campsite。",
+              "reason": "原文直接对应",
+              "location_analysis": "限制每个营地的入住人数。",
+              "paraphrasing": "stay at each campsite -> occupying a campsite",
+              "keywords": "limits, occupying, campsite",
+              "evidence": [
+                "Also there are restrictions on the number of people who can enter per day and there are limits to the number of people occupying a campsite."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "A master plan was developed after $1197672$ with Algonquin visitors in order to benefit all concerned. One consequence of the master plan was the separation into distinct $1197673$. For example, leisure activities were organised away from the logging industry. In addition, in an effort to minimise any negative impact on the park, regulations were made prohibiting guests from bringing $1197674$ into the park. Further, limits were placed on the number of individuals who could stay at each $1197675$.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "A master plan was developed after $1197672$ with Algonquin visitors in order to benefit all concerned. One consequence of the master plan was the separation into distinct $1197673$. For example, leisure activities were organised away from the logging industry. In addition, in an effort to minimise any negative impact on the park, regulations were made prohibiting guests from bringing $1197674$ into the park. Further, limits were placed on the number of individuals who could stay at each $1197675$."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Algonquin Provincial Park",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Algonquin Provincial Park is located in south-central Ontario, Canada, and covers 7,653 square kilometres.",
+          "translation": "阿冈昆省立公园位于加拿大安大略省中南部，占地7,653平方公里。"
+        },
+        {
+          "index": 2,
+          "sentence": "Its size, combined with its nearness to the major cities of Toronto and Ottawa, make Algonquin one of the most popular parks in the province.",
+          "translation": "其面积之大，加上靠近多伦多和渥太华等主要城市，使阿冈昆成为该省最受欢迎的公园之一。"
+        },
+        {
+          "index": 3,
+          "sentence": "Access to the park is by way of Highway 60, the most common route, as it travels through the southern portion of the park connecting the East Gate to the West Gate.",
+          "translation": "进入公园的途径是60号公路，这是最常见的路线，因为它穿过公园南部，连接东门和西门。"
+        },
+        {
+          "index": 4,
+          "sentence": "The East Gate is located just west of the town of Whitney, while the West Gate is located just east of the town of Dwight, which is 45 kilometres from the town of Huntsville.",
+          "translation": "东门位于惠特尼镇以西，西门则位于德怀特镇以东，德怀特镇距亨茨维尔镇45公里。"
+        },
+        {
+          "index": 5,
+          "sentence": "The Trans-Canada highway bypasses it to the north.",
+          "translation": "加拿大横贯公路从北面绕过它。"
+        },
+        {
+          "index": 6,
+          "sentence": "In 1893 it was established as a national park under the Federal government.",
+          "translation": "1893年，它作为国家公园在联邦政府管辖下成立。"
+        },
+        {
+          "index": 7,
+          "sentence": "Its name was later changed to Algonquin Provincial Park when it fell under the jurisdiction of the provincial government.",
+          "translation": "后来当它归省政府管辖时，更名为阿冈昆省立公园。"
+        },
+        {
+          "index": 8,
+          "sentence": "In the 19th century, large white pine and red pine trees were cut down to produce lumber for domestic and American markets, as well as some square timber for export to Great Britain.",
+          "translation": "在19世纪，高大的白松和红松被砍伐，为国内和美国市场生产木材，还有一些方木出口到英国。"
+        },
+        {
+          "index": 9,
+          "sentence": "This activity was closely followed by the establishment of small numbers of homesteaders and farmers in the area.",
+          "translation": "紧随其后的是少数自耕农和农民在该地区定居。"
+        },
+        {
+          "index": 10,
+          "sentence": "Even at that time, however, the region’s beauty was recognized by nature preservationists.",
+          "translation": "然而，即使在那时，该地区的美丽也已被自然保护主义者所认可。"
+        },
+        {
+          "index": 11,
+          "sentence": "It is here that the types of trees change from the coniferous forests of Southern Ontario to the deciduous forests of Northern Ontario.",
+          "translation": "正是在这里，树木类型从南安大略的针叶林转变为北安大略的落叶林。"
+        },
+        {
+          "index": 12,
+          "sentence": "It was acknowledged in 1992 for its several heritage values including: its role in the development of park resource management; the pioneering of visitor interpretation programs; its role in inspiring artists; and its development of historic structures such as cottages, camps, a railway station and museum buildings.",
+          "translation": "1992年，它因其多项遗产价值而得到认可，包括：在公园资源管理发展中的作用；开创游客解说项目；在激发艺术家灵感方面的作用；以及历史建筑的发展，如小屋、营地、火车站和博物馆建筑。"
+        },
+        {
+          "index": 13,
+          "sentence": "The Ottawa, Arnprior and Parry Sound Railway was constructed through the park in 1896, and provided the first easy access to the area.",
+          "translation": "渥太华、安普赖尔和帕里桑德铁路于1896年穿过公园建成，首次提供了进入该地区的便捷通道。"
+        },
+        {
+          "index": 14,
+          "sentence": "In an attempt to make the park more attractive to vacationers, Hotel Algonquin was opened at Joe Lake where fishing was the main attraction.",
+          "translation": "为了使公园对度假者更具吸引力，阿尔冈昆酒店在乔湖开业，钓鱼是主要吸引力。"
+        },
+        {
+          "index": 15,
+          "sentence": "Then the Grand Trunk Railway opened its first hotel, the Highland Inn, near Park Headquarters.",
+          "translation": "随后，大干线铁路在公园总部附近开设了其第一家酒店——高地旅馆。"
+        },
+        {
+          "index": 16,
+          "sentence": "Built on a hill behind Algonquin Park Station and focusing on winter activities, the two-storey year-round resort was an immediate success.",
+          "translation": "这座两层楼的全年度假村建在阿冈昆公园站后面的山上，以冬季活动为重点，立即取得了成功。"
+        },
+        {
+          "index": 17,
+          "sentence": "Soon after, a number of business people built other guest lodges in the park.",
+          "translation": "不久之后，一些商人在公园内建造了其他旅馆。"
+        },
+        {
+          "index": 18,
+          "sentence": "Nominigan Camp, consisting of a main lodge with six cabins of log construction, a favourite of canoers, was established on Smoke Lake.",
+          "translation": "诺米尼根营地（Nominigan Camp）建于烟湖（Smoke Lake）上，由一座主屋和六间原木建造的小屋组成，深受划独木舟者的喜爱。"
+        },
+        {
+          "index": 19,
+          "sentence": "Camp Minnesing on Burnt Island Lake was created as a wilderness lodge.",
+          "translation": "位于烧岛湖（Burnt Island Lake）的明尼辛营地（Camp Minnesing）是作为荒野小屋而建的。"
+        },
+        {
+          "index": 20,
+          "sentence": "Later, Highland Inn was enlarged and new camps were added.",
+          "translation": "后来，高地旅馆（Highland Inn）进行了扩建，并增加了新的营地。"
+        },
+        {
+          "index": 21,
+          "sentence": "The beauty of Algonquin Park attracted painters such as Tom Thomson, who along with other members of the Canadian elite painters known as the Group of Seven, found the environment inspiring.",
+          "translation": "阿冈昆公园的美景吸引了像汤姆·汤姆森（Tom Thomson）这样的画家，他与加拿大精英画家团体“七人画派”（Group of Seven）的其他成员一样，觉得这里的环境能激发灵感。"
+        },
+        {
+          "index": 22,
+          "sentence": "Thomson served as a guide in the park, often working from Mowat Lodge.",
+          "translation": "汤姆森曾在公园担任向导，经常在莫瓦特旅馆（Mowat Lodge）工作。"
+        },
+        {
+          "index": 23,
+          "sentence": "He did much of his painting at Canoe Lake, a favourite site overlooking the central portion of the lake.",
+          "translation": "他的大部分画作都是在独木舟湖（Canoe Lake）完成的，那里是他最喜欢的俯瞰湖中央部分的地点。"
+        },
+        {
+          "index": 24,
+          "sentence": "A cairn and totem pole memorial, erected by friends of the painter, stands on Hayhurst Point, near the north end of the lake where he died.",
+          "translation": "在画家去世的湖的北端附近，海赫斯特角（Hayhurst Point）上矗立着一座由画家的朋友们竖立的石堆和图腾柱纪念碑。"
+        },
+        {
+          "index": 25,
+          "sentence": "Another noted Canadian painter who died in the park was Ken Danby, a celebrated painter of highly realistic portrayals of everyday life.",
+          "translation": "另一位在公园内去世的加拿大著名画家是肯·丹比（Ken Danby），他以高度写实地描绘日常生活而闻名。"
+        },
+        {
+          "index": 26,
+          "sentence": "Contemporary painters continue to display a love of nature and a profound appreciation of the natural world through their awe-inspiring works of the park’s landscapes.",
+          "translation": "当代画家们继续通过他们令人惊叹的公园风景画作，展现对自然的热爱和对自然世界的深刻欣赏。"
+        },
+        {
+          "index": 27,
+          "sentence": "Algonquin became popular during the 1950s and 60s for year-round open-air pastimes.",
+          "translation": "阿冈昆公园在20世纪50年代和60年代因全年开放的户外休闲活动而变得受欢迎。"
+        },
+        {
+          "index": 28,
+          "sentence": "Visitors eager to see the diversity of wildlife and explore the 2400 lakes and 1200km of streams and rivers contributed to the establishment of canoeing routes, fishing, horseback riding and cross-country skiing.",
+          "translation": "渴望看到野生动物多样性并探索2400个湖泊和1200公里溪流与河流的游客，促进了独木舟路线、钓鱼、骑马和越野滑雪的建立。"
+        },
+        {
+          "index": 29,
+          "sentence": "To preserve wildlife and wilderness areas, and to minimize contact with people, many ideal locations could only be accessed by canoe or on foot.",
+          "translation": "为了保护野生动物和荒野区域，并尽量减少与人的接触，许多理想的地点只能通过独木舟或步行到达。"
+        },
+        {
+          "index": 30,
+          "sentence": "More than 53 species of mammals, 272 species of birds, 31 species of reptiles and amphibians, and 54 species of fish consider Algonquin home.",
+          "translation": "超过53种哺乳动物、272种鸟类、31种爬行动物和两栖动物以及54种鱼类以阿冈昆为家。"
+        },
+        {
+          "index": 31,
+          "sentence": "Also, the park developed a visitor centre which now features exhibits about the natural and cultural history of the park.",
+          "translation": "此外，公园还建立了一个游客中心，现在展示有关公园自然和文化历史的展品。"
+        },
+        {
+          "index": 32,
+          "sentence": "There are nineteen interpretive trails, ranging in length from 0.8km to 13km, and each trail provides a self-guided pamphlet which is meant to introduce visitors to a different aspect of the park’s ecology or history.",
+          "translation": "有19条解说步道，长度从0.8公里到13公里不等，每条步道都提供一本自助指南小册子，旨在向游客介绍公园生态或历史的不同方面。"
+        },
+        {
+          "index": 33,
+          "sentence": "As recreational use of the park increased, it became clear that a long-term plan to manage the park was required.",
+          "translation": "随着公园休闲用途的增加，显然需要一个长期计划来管理公园。"
+        },
+        {
+          "index": 34,
+          "sentence": "Six years of consultation with park guests resulted in the Algonquin Master Plan.",
+          "translation": "经过与公园游客六年的协商，制定了《阿冈昆总体规划》（Algonquin Master Plan）。"
+        },
+        {
+          "index": 35,
+          "sentence": "It was an organizational plan that sought to ensure that the park could continue indefinitely to serve all the competing park interests.",
+          "translation": "这是一个组织计划，旨在确保公园能够无限期地继续服务于所有相互竞争的公园利益。"
+        },
+        {
+          "index": 36,
+          "sentence": "Three major changes have come about as a result of this plan.",
+          "translation": "该计划带来了三大变化。"
+        },
+        {
+          "index": 37,
+          "sentence": "First, the park is now divided into regions with different specified purposes and uses: Nature Reserve and Historic; Wilderness; Development, Recreation-Utilization.",
+          "translation": "首先，公园现在被划分为具有不同指定用途的区域：自然保护区与历史区；荒野区；开发区，休闲利用区。"
+        },
+        {
+          "index": 38,
+          "sentence": "The second change was to segregate logging, as much as possible, from recreational users of the park.",
+          "translation": "第二个变化是尽可能将伐木活动与公园的休闲使用者隔离开来。"
+        },
+        {
+          "index": 39,
+          "sentence": "This would help to maintain the park’s natural environment and integrity.",
+          "translation": "这将有助于维护公园的自然环境和完整性。"
+        },
+        {
+          "index": 40,
+          "sentence": "Thirdly, rules were put in place to limit the impact of recreational use of the park.",
+          "translation": "第三，制定了规则以限制公园休闲使用的影响。"
+        },
+        {
+          "index": 41,
+          "sentence": "For example, recyclables are banned in the interior.",
+          "translation": "例如，内部区域禁止使用可回收物品。"
+        },
+        {
+          "index": 42,
+          "sentence": "Also there are restrictions on the number of people who can enter per day and there are limits to the number of people occupying a campsite.",
+          "translation": "此外，对每天可进入的人数有限制，对占用营地的人数也有限制。"
+        },
+        {
+          "index": 43,
+          "sentence": "Finally, the use of motor boats is limited to a few of the larger and more accessible lakes.",
+          "translation": "最后，摩托艇的使用仅限于少数几个较大且更易到达的湖泊。"
+        },
+        {
+          "index": 44,
+          "sentence": "The master plan continues to be reviewed and updated on a regular basis.",
+          "translation": "总体规划会定期进行审查和更新。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    }
+  ],
+  "question_count": 40
+}

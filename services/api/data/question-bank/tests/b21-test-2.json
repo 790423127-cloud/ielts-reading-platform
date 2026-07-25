@@ -1,0 +1,2574 @@
+{
+  "id": "b21-test-2",
+  "book": "剑雅21",
+  "book_number": 21,
+  "name": "Test 2",
+  "title": "剑雅21 Test 2",
+  "parts": [
+    {
+      "id": "211021",
+      "number": 1,
+      "title": "Section 1",
+      "article_title": "Customer service standards for the county libraries",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "We want to make you welcome in our libraries.",
+          "translation": "我们希望您在我们的图书馆感到受欢迎。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "We will:\n· wear badges, which will show that we work in the library, and state the position we hold\n· always greet you, acknowledge those waiting for our attention, and try to avoid long queues\n· deal with the person in front of us before answering the telephone\n· publicise our opening hours and give at least six weeks’ notice of any planned changes to those hours — however, we may need to close the library at short notice in an emergency\n· provide clear directional signs to areas of the library, keep counter and display areas tidy, straighten shelves daily and make 90% of returns available on the day of return\n· help you to make use of our automated reservations service\n· carry out a planned programme of library refurbishment that will be reviewed annually.",
+          "translation": "我们将：\n· 佩戴徽章，表明我们在图书馆工作，并注明我们的职位\n· 总是问候您，注意到那些等待我们关注的人，并尽量避免排长队\n· 先处理面前的人，再接听电话\n· 公布我们的开放时间，并至少提前六周通知任何计划中的时间变更——然而，在紧急情况下，我们可能需要临时关闭图书馆\n· 提供清晰的图书馆区域方向指示牌，保持柜台和展示区整洁，每天整理书架，并使90%的归还图书在归还当天可供借阅\n· 帮助您使用我们的自动预约服务\n· 实施一项计划中的图书馆翻新计划，该计划将每年进行审查。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "In return, we will expect similar courtesy and respect from you, our customer.",
+          "translation": "作为回报，我们期望您，我们的顾客，也能给予同样的礼貌和尊重。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Communication methods",
+          "translation": "沟通方式"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "In addition to visiting the library you may access our services in a variety of ways, e.g.\nby telephone or email.",
+          "translation": "除了到访图书馆，您还可以通过多种方式获取我们的服务，例如通过电话或电子邮件。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "On the telephone",
+          "translation": "电话沟通"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "We will:\n· aim to answer calls within 10 rings, or provide a messaging service\n· answer clearly, giving the name of the library and/or department\n· let you know what is happening — if your enquiry cannot be dealt with immediately, we will call back within an agreed time\n· deal with messages as quickly as possible, at least twice a day when the library is open.",
+          "translation": "我们将：\n· 力争在10声铃响内接听电话，或提供语音留言服务\n· 清晰应答，告知图书馆和/或部门的名称\n· 让您了解情况——如果您的咨询无法立即处理，我们将在约定的时间内回电\n· 尽快处理留言，在图书馆开放期间每天至少处理两次。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "We may choose to end a telephone call if a caller becomes abusive, but only after giving due warning of what we are going to do and why.",
+          "translation": "如果来电者变得辱骂，我们可能会选择结束通话，但只有在充分警告我们将要做什么以及为什么之后才会这样做。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Email enquiries",
+          "translation": "电子邮件咨询"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "We will:\n· acknowledge emails within seven days of receipt but we may not be able to respond fully within this time. However, we will let you know when you can expect a full response.\n· give all comments and complaints our full consideration, and pass them on to Sue Jones, the Chief Librarian, when appropriate.",
+          "translation": "我们将：\n· 在收到电子邮件后七天内确认收悉，但我们可能无法在此时间内全面回复。\n然而，我们会告知您何时可以期待全面回复。\n· 对所有意见和投诉给予充分考虑，并在适当时转交给首席图书馆员苏·琼斯。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Places to eat in Riverton",
+          "question_cue": {
+            "start": 7,
+            "end": 14
+          },
+          "translation": "里弗顿的餐饮场所"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "A Strollers Restaurant",
+          "translation": "A 斯特罗勒斯餐厅"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Don’t miss the re-opening of the newly-refurbished Strollers Restaurant next month. Its menus, serving locally-produced food, will change seasonally. The bar, with its relaxed atmosphere, will be the ideal setting for that pre-meal drink. Whether you choose from the cocktail or wine list, you will be spoilt for choice.",
+          "translation": "不要错过下个月新装修的斯特罗勒斯餐厅重新开业。\n其菜单供应本地生产的食物，将随季节变化。\n酒吧氛围轻松，是餐前小酌的理想场所。\n无论您从鸡尾酒单还是葡萄酒单中选择，都会让您难以取舍。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "B Al Pomodoro",
+          "translation": "B 阿尔·波莫多罗"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Located near the main high street, within a pedestrianised area, Al Pomodoro offers an authentic taste of Italy. It overlooks the stunning 800-year-old City Parish Church. The atmosphere is relaxed, and you can eat on the terrace all year round (be sure to dress warmly on chilly evenings!). There is a varied menu with vegetarian options and fresh fish at reasonable prices. The house wines are also good value. Closed Mondays.",
+          "translation": "阿尔·波莫多罗位于主商业街附近，在一个步行区内，提供正宗的意大利风味。\n它俯瞰着拥有800年历史的令人惊叹的城市教区教堂。\n氛围轻松，您全年都可以在露台上用餐（在寒冷的夜晚一定要穿暖和！）。\n菜单多样，有素食选择和新鲜鱼类，价格合理。\n店酒也很超值。\n周一休息。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "C The Old Tavern",
+          "translation": "C 老酒馆"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "The Old Tavern is a popular meeting point before and after events at the city’s stadium. If you can’t get a ticket for the big match, you can see it on one of the giant screens whilst still soaking up the atmosphere; it is a great place to chill out in deep sofas. The Old Tavern also offers a range of meals and snacks, all freshly prepared, starting from just £3.50.",
+          "translation": "老酒馆是城市体育场活动前后的热门聚会地点。\n如果您买不到大型比赛的门票，您可以在巨大的屏幕上观看比赛，同时仍然沉浸在氛围中；这是一个在深沙发里放松的好地方。\n老酒馆还提供各种餐食和小吃，全部新鲜制作，起价仅3.50英镑。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "D Thai Palace",
+          "translation": "D 泰宫"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Situated in the city centre, the Thai Palace is one of the best restaurants in Riverton. It has a good mix of regular customers, including some well-known faces from music, sport and the media. It sources much of its produce locally, and blends Welsh lamb and beef with fresh herbs and spices flown in each week from Thailand. The friendly waiters wear a different Thai costume each week and provide attentive service. The restaurant caters for groups of all sizes, from meals for two to conference dinners.",
+          "translation": "泰宫位于市中心，是里弗顿最好的餐厅之一。\n它拥有良好的常客组合，包括一些来自音乐、体育和媒体的知名面孔。\n它的大部分食材来自本地，并将威尔士羊肉和牛肉与每周从泰国空运来的新鲜香草和香料融合在一起。\n友好的服务员每周穿着不同的泰国服装，提供周到的服务。\n餐厅可承办各种规模的团体聚餐，从两人用餐到会议晚宴。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "E Riverton Hall",
+          "translation": "E 里弗顿庄园"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Go to Riverton Hall for an evening in historic surroundings. In the famous Banqueting Hall, which seats up to 150, you can enjoy the best of the local food. On arrival you will be welcomed with mead, a traditional medieval drink. Hosts will serve your meal and keep you entertained with a selection of folk songs. A set menu of four courses — at a price of £55 a person — will be served together with wine or soft drinks.",
+          "translation": "前往里弗顿庄园，在历史环境中度过一个夜晚。\n在著名的宴会厅，可容纳多达150人，您可以享用最好的当地美食。\n抵达时，您将受到蜂蜜酒的欢迎，这是一种传统的中世纪饮品。\n主持人将为您上菜，并用精选的民歌为您助兴。\n一份四道菜的套餐——价格为每人55英镑——将随葡萄酒或软饮料一起供应。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "381",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1-6\nDo the following statements agree with the information given in the text?\nIn boxes 1-6 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197596",
+              "number": 1,
+              "prompt": "All library staff are required to display their job titles.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干中的“display their job titles”对应原文中的“wear badges... and state the position we hold”，即工作人员需佩戴徽章并标明职位。这与题干所述“必须展示职位名称”完全一致，因此答案为 TRUE。",
+              "reason": "原文明确要求标明职位。",
+              "location_analysis": "原文要求佩戴徽章标明职位，与题干一致，TRUE。",
+              "paraphrasing": "display job titles -> state the position we hold",
+              "keywords": "display job titles, wear badges, state position",
+              "evidence": [
+                "wear badges, which will show that we work in the library, and state the position we hold"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确表明所有工作人员都需要展示职务头衔，与题干一致。",
+                "NOT GIVEN": "原文明确给出了相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "1197597",
+              "number": 2,
+              "prompt": "Library staff may interrupt their conversation with a customer in the library in order to answer the phone.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干称工作人员可能会中断与顾客的对话去接电话，但原文明确指出“deal with the person in front of us before answering the telephone”，即优先处理面前的顾客再接听电话，说明不会中断对话，因此答案为 FALSE。",
+              "reason": "原文规定先处理顾客。",
+              "location_analysis": "原文先处理顾客再接电话，不会中断，FALSE。",
+              "paraphrasing": "interrupt to answer phone -> deal with the person in front of us before answering telephone",
+              "keywords": "interrupt conversation, answer phone, deal with person before",
+              "evidence": [
+                "deal with the person in front of us before answering the telephone"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文信息矛盾，原文明确表示工作人员不会中断对话去接电话。",
+                "NOT GIVEN": "该选项错误，因为原文已给出明确信息，并非未提及。"
+              }
+            },
+            {
+              "id": "1197598",
+              "number": 3,
+              "prompt": "Books that have been reserved will be kept behind the counter ready for collection.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NG",
+              "accepted_answers": [
+                "NG",
+                "NOT GIVEN"
+              ],
+              "analysis": "题干提到“reserved books will be kept behind the counter”，但原文仅说明会帮助读者使用自动预约服务，并未提及预约书籍是否放在柜台后或如何取书，因此该信息在文中未涉及，答案为 NOT GIVEN。",
+              "reason": "原文未提及",
+              "location_analysis": "原文未提及保留图书放在柜台后面待取。",
+              "paraphrasing": "",
+              "keywords": "reserved books behind counter",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "题干内容在原文中未提及，属于无中生有。",
+                "FALSE": "原文并未明确否定该信息，属于过度推断。"
+              }
+            },
+            {
+              "id": "1197599",
+              "number": 4,
+              "prompt": "There is a schedule for improving the library every year.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干中“schedule for improving the library every year”对应原文“carry out a planned programme of library refurbishment that will be reviewed annually”，表明图书馆有年度翻新计划并每年审查，因此答案为 TRUE。",
+              "reason": "原文明确提及年度审查计划。",
+              "location_analysis": "原文有计划每年审查翻新，TRUE。",
+              "paraphrasing": "schedule for improving library -> planned programme of library refurbishment reviewed annually",
+              "keywords": "schedule, improving library every year, planned programme, reviewed annually",
+              "evidence": [
+                "carry out a planned programme of library refurbishment that will be reviewed annually"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文中明确提到每年都有改进图书馆的计划，与题干表述一致，该选项错误。",
+                "NOT GIVEN": "原文中确实提到了每年都有改进计划，因此并非信息未给出，该选项错误。"
+              }
+            },
+            {
+              "id": "1197600",
+              "number": 5,
+              "prompt": "If someone phoning the library is rude, library staff will immediately put the phone down.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干说若来电者无礼，工作人员会立即挂断电话，但原文指出“We may choose to end a telephone call... but only after giving due warning”，即必须先警告才会挂断，而非立即挂断，因此答案为 FALSE。",
+              "reason": "原文要求在警告后方可挂断。",
+              "location_analysis": "原文先警告再挂断，不是立即，FALSE。",
+              "paraphrasing": "immediately put down -> only after giving due warning",
+              "keywords": "rude caller, immediately put phone down, after giving due warning",
+              "evidence": [
+                "We may choose to end a telephone call if a caller becomes abusive, but only after giving due warning of what we are going to do and why."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文表明图书馆工作人员有特定处理方式，并非立即挂断。",
+                "NOT GIVEN": "原文明确提到了该行为，因此信息是给出而非未提及。"
+              }
+            },
+            {
+              "id": "1197601",
+              "number": 6,
+              "prompt": "Library staff will give complete answers to all written enquiries within a week.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干声称所有书面咨询都会在一周内得到完整答复，但原文明确表示“we may not be able to respond fully within this time”，即可能无法在七天内完整回复，因此答案为 FALSE。",
+              "reason": "原文说明无法保证一周内完整回复。",
+              "location_analysis": "原文一周内可能无法完全回复，FALSE。",
+              "paraphrasing": "complete answers within a week -> may not be able to respond fully within this time",
+              "keywords": "complete answers, written enquiries, within a week, may not respond fully",
+              "evidence": [
+                "acknowledge emails within seven days of receipt but we may not be able to respond fully within this time."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文指出图书馆工作人员无法在一周内给出完整答案。",
+                "NOT GIVEN": "原文明确提及了回答所有书面咨询的时间要求，并非未给出信息。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "382",
+          "type": 2,
+          "title": "Places to eat in Riverton",
+          "instructions": "Questions 7-14\nLook at the five advertisements for eating places, A-E.\nFor which place are the following statements true?\nWrite the correct letter, A-E, in boxes 7-14 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "Places to eat in Riverton",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Strollers Restaurant"
+            },
+            {
+              "value": "B",
+              "label": "B. Al Pomodoro"
+            },
+            {
+              "value": "C",
+              "label": "C. The Old Tavern"
+            },
+            {
+              "value": "D",
+              "label": "D. Thai Palace"
+            },
+            {
+              "value": "E",
+              "label": "E. Riverton Hall"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197602",
+              "number": 7,
+              "prompt": "You can see celebrities eating at this place.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Strollers Restaurant"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Al Pomodoro"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The Old Tavern"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Thai Palace"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Riverton Hall"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“see celebrities”对应原文 Thai Palace 段落中提到的“including some well-known faces from music, sport and the media”，说明此处常有名人光顾，因此答案为 D。",
+              "reason": "原文提及知名面孔。",
+              "location_analysis": "Thai Palace有知名人士光顾，对应D。",
+              "paraphrasing": "see celebrities -> well-known faces from music, sport and the media",
+              "keywords": "celebrities, well-known faces",
+              "evidence": [
+                "It has a good mix of regular customers, including some well-known faces from music, sport and the media."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197603",
+              "number": 8,
+              "prompt": "This place offers a wide range of wines.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Strollers Restaurant"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Al Pomodoro"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The Old Tavern"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Thai Palace"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Riverton Hall"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中“wide range of wines”对应 Strollers Restaurant 段落中的“Whether you choose from the cocktail or wine list, you will be spoilt for choice”，表明酒类选择丰富，因此答案为 A。",
+              "reason": "原文提到酒类选择丰富。",
+              "location_analysis": "Strollers Restaurant提供多种酒类选择，对应A。",
+              "paraphrasing": "wide range of wines -> spoilt for choice from cocktail or wine list",
+              "keywords": "wide range of wines, cocktail or wine list, spoilt for choice",
+              "evidence": [
+                "Whether you choose from the cocktail or wine list, you will be spoilt for choice."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197604",
+              "number": 9,
+              "prompt": "You have to walk to this place.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Strollers Restaurant"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Al Pomodoro"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The Old Tavern"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Thai Palace"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Riverton Hall"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干“you have to walk to this place”对应 Al Pomodoro 所在位置“within a pedestrianised area”，即步行区，意味着不能开车直达，需步行前往，因此答案为 B。",
+              "reason": "原文说在步行区内。",
+              "location_analysis": "Al Pomodoro位于步行区，需要步行前往，对应B。",
+              "paraphrasing": "walk to this place -> within a pedestrianised area",
+              "keywords": "walk, pedestrianised area",
+              "evidence": [
+                "Located near the main high street, within a pedestrianised area"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197605",
+              "number": 10,
+              "prompt": "Everyone pays the same amount for their meal at this place.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Strollers Restaurant"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Al Pomodoro"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The Old Tavern"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Thai Palace"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Riverton Hall"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干“everyone pays the same amount”对应 Riverton Hall 的“a set menu of four courses — at a price of £55 a person”，说明所有顾客支付相同价格，因此答案为 E。",
+              "reason": "原文明确每人价格相同。",
+              "location_analysis": "Riverton Hall提供固定价格套餐，每人£55，对应E。",
+              "paraphrasing": "everyone pays same amount -> set menu at £55 a person",
+              "keywords": "same amount, set menu, £55 a person",
+              "evidence": [
+                "A set menu of four courses — at a price of £55 a person — will be served together with wine or soft drinks."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197606",
+              "number": 11,
+              "prompt": "This place has very comfortable seating.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Strollers Restaurant"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Al Pomodoro"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The Old Tavern"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Thai Palace"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Riverton Hall"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中“very comfortable seating”对应 The Old Tavern 段落中的“chill out in deep sofas”，深沙发暗示座位非常舒适，因此答案为 C。",
+              "reason": "原文提到深沙发。",
+              "location_analysis": "The Old Tavern有深沙发，非常舒适，对应C。",
+              "paraphrasing": "comfortable seating -> chill out in deep sofas",
+              "keywords": "comfortable seating, deep sofas",
+              "evidence": [
+                "it is a great place to chill out in deep sofas."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197607",
+              "number": 12,
+              "prompt": "You can listen to music at this place.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Strollers Restaurant"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Al Pomodoro"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The Old Tavern"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Thai Palace"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Riverton Hall"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干“listen to music”对应 Riverton Hall 中“keep you entertained with a selection of folk songs”，民歌属于音乐表演，因此答案为 E。",
+              "reason": "原文有民歌娱乐。",
+              "location_analysis": "Riverton Hall有民歌表演，可听音乐，对应E。",
+              "paraphrasing": "listen to music -> entertained with a selection of folk songs",
+              "keywords": "listen to music, folk songs",
+              "evidence": [
+                "Hosts will serve your meal and keep you entertained with a selection of folk songs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197608",
+              "number": 13,
+              "prompt": "You can have your meal outside at this place.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Strollers Restaurant"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Al Pomodoro"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The Old Tavern"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Thai Palace"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Riverton Hall"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干“have your meal outside”对应 Al Pomodoro 的“you can eat on the terrace all year round”，露台用餐即户外用餐，因此答案为 B。",
+              "reason": "原文提到全年可在露台用餐。",
+              "location_analysis": "Al Pomodoro可在露台用餐，对应B。",
+              "paraphrasing": "have meal outside -> eat on the terrace all year round",
+              "keywords": "have meal outside, terrace",
+              "evidence": [
+                "you can eat on the terrace all year round"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197609",
+              "number": 14,
+              "prompt": "This place is currently closed.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Strollers Restaurant"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Al Pomodoro"
+                },
+                {
+                  "value": "C",
+                  "label": "C. The Old Tavern"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Thai Palace"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Riverton Hall"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干“currently closed”可从 Strollers Restaurant 段落中“Don’t miss the re-opening... next month”推断出目前尚未开放，因此答案为 A。",
+              "reason": "原文暗示目前关闭。",
+              "location_analysis": "Strollers Restaurant下月重开，目前关闭，对应A。",
+              "paraphrasing": "currently closed -> re-opening of the newly-refurbished Strollers Restaurant next month",
+              "keywords": "currently closed, re-opening next month",
+              "evidence": [
+                "Don’t miss the re-opening of the newly-refurbished Strollers Restaurant next month."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "Places to eat in Riverton"
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Customer service standards for the county libraries",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "We want to make you welcome in our libraries.",
+          "translation": "我们希望您在我们的图书馆感到受欢迎。"
+        },
+        {
+          "index": 2,
+          "sentence": "We will:\n· wear badges, which will show that we work in the library, and state the position we hold\n· always greet you, acknowledge those waiting for our attention, and try to avoid long queues\n· deal with the person in front of us before answering the telephone\n· publicise our opening hours and give at least six weeks’ notice of any planned changes to those hours — however, we may need to close the library at short notice in an emergency\n· provide clear directional signs to areas of the library, keep counter and display areas tidy, straighten shelves daily and make 90% of returns available on the day of return\n· help you to make use of our automated reservations service\n· carry out a planned programme of library refurbishment that will be reviewed annually.",
+          "translation": "我们将：\n· 佩戴徽章，表明我们在图书馆工作，并注明我们的职位\n· 总是问候您，注意到那些等待我们关注的人，并尽量避免排长队\n· 先处理面前的人，再接听电话\n· 公布我们的开放时间，并至少提前六周通知任何计划中的时间变更——然而，在紧急情况下，我们可能需要临时关闭图书馆\n· 提供清晰的图书馆区域方向指示牌，保持柜台和展示区整洁，每天整理书架，并使90%的归还图书在归还当天可供借阅\n· 帮助您使用我们的自动预约服务\n· 实施一项计划中的图书馆翻新计划，该计划将每年进行审查。"
+        },
+        {
+          "index": 3,
+          "sentence": "In return, we will expect similar courtesy and respect from you, our customer.",
+          "translation": "作为回报，我们期望您，我们的顾客，也能给予同样的礼貌和尊重。"
+        },
+        {
+          "index": 4,
+          "sentence": "Communication methods",
+          "translation": "沟通方式"
+        },
+        {
+          "index": 5,
+          "sentence": "In addition to visiting the library you may access our services in a variety of ways, e.g.\nby telephone or email.",
+          "translation": "除了到访图书馆，您还可以通过多种方式获取我们的服务，例如通过电话或电子邮件。"
+        },
+        {
+          "index": 6,
+          "sentence": "On the telephone",
+          "translation": "电话沟通"
+        },
+        {
+          "index": 7,
+          "sentence": "We will:\n· aim to answer calls within 10 rings, or provide a messaging service\n· answer clearly, giving the name of the library and/or department\n· let you know what is happening — if your enquiry cannot be dealt with immediately, we will call back within an agreed time\n· deal with messages as quickly as possible, at least twice a day when the library is open.",
+          "translation": "我们将：\n· 力争在10声铃响内接听电话，或提供语音留言服务\n· 清晰应答，告知图书馆和/或部门的名称\n· 让您了解情况——如果您的咨询无法立即处理，我们将在约定的时间内回电\n· 尽快处理留言，在图书馆开放期间每天至少处理两次。"
+        },
+        {
+          "index": 8,
+          "sentence": "We may choose to end a telephone call if a caller becomes abusive, but only after giving due warning of what we are going to do and why.",
+          "translation": "如果来电者变得辱骂，我们可能会选择结束通话，但只有在充分警告我们将要做什么以及为什么之后才会这样做。"
+        },
+        {
+          "index": 9,
+          "sentence": "Email enquiries",
+          "translation": "电子邮件咨询"
+        },
+        {
+          "index": 10,
+          "sentence": "We will:\n· acknowledge emails within seven days of receipt but we may not be able to respond fully within this time.",
+          "translation": "我们将：\n· 在收到电子邮件后七天内确认收悉，但我们可能无法在此时间内全面回复。"
+        },
+        {
+          "index": 11,
+          "sentence": "However, we will let you know when you can expect a full response.\n· give all comments and complaints our full consideration, and pass them on to Sue Jones, the Chief Librarian, when appropriate.",
+          "translation": "然而，我们会告知您何时可以期待全面回复。\n· 对所有意见和投诉给予充分考虑，并在适当时转交给首席图书馆员苏·琼斯。"
+        },
+        {
+          "index": 12,
+          "sentence": "Places to eat in Riverton",
+          "translation": "里弗顿的餐饮场所"
+        },
+        {
+          "index": 13,
+          "sentence": "A Strollers Restaurant",
+          "translation": "A 斯特罗勒斯餐厅"
+        },
+        {
+          "index": 14,
+          "sentence": "Don’t miss the re-opening of the newly-refurbished Strollers Restaurant next month.",
+          "translation": "不要错过下个月新装修的斯特罗勒斯餐厅重新开业。"
+        },
+        {
+          "index": 15,
+          "sentence": "Its menus, serving locally-produced food, will change seasonally.",
+          "translation": "其菜单供应本地生产的食物，将随季节变化。"
+        },
+        {
+          "index": 16,
+          "sentence": "The bar, with its relaxed atmosphere, will be the ideal setting for that pre-meal drink.",
+          "translation": "酒吧氛围轻松，是餐前小酌的理想场所。"
+        },
+        {
+          "index": 17,
+          "sentence": "Whether you choose from the cocktail or wine list, you will be spoilt for choice.",
+          "translation": "无论您从鸡尾酒单还是葡萄酒单中选择，都会让您难以取舍。"
+        },
+        {
+          "index": 18,
+          "sentence": "B Al Pomodoro",
+          "translation": "B 阿尔·波莫多罗"
+        },
+        {
+          "index": 19,
+          "sentence": "Located near the main high street, within a pedestrianised area, Al Pomodoro offers an authentic taste of Italy.",
+          "translation": "阿尔·波莫多罗位于主商业街附近，在一个步行区内，提供正宗的意大利风味。"
+        },
+        {
+          "index": 20,
+          "sentence": "It overlooks the stunning 800-year-old City Parish Church.",
+          "translation": "它俯瞰着拥有800年历史的令人惊叹的城市教区教堂。"
+        },
+        {
+          "index": 21,
+          "sentence": "The atmosphere is relaxed, and you can eat on the terrace all year round (be sure to dress warmly on chilly evenings!).",
+          "translation": "氛围轻松，您全年都可以在露台上用餐（在寒冷的夜晚一定要穿暖和！）。"
+        },
+        {
+          "index": 22,
+          "sentence": "There is a varied menu with vegetarian options and fresh fish at reasonable prices.",
+          "translation": "菜单多样，有素食选择和新鲜鱼类，价格合理。"
+        },
+        {
+          "index": 23,
+          "sentence": "The house wines are also good value.",
+          "translation": "店酒也很超值。"
+        },
+        {
+          "index": 24,
+          "sentence": "Closed Mondays.",
+          "translation": "周一休息。"
+        },
+        {
+          "index": 25,
+          "sentence": "C The Old Tavern",
+          "translation": "C 老酒馆"
+        },
+        {
+          "index": 26,
+          "sentence": "The Old Tavern is a popular meeting point before and after events at the city’s stadium.",
+          "translation": "老酒馆是城市体育场活动前后的热门聚会地点。"
+        },
+        {
+          "index": 27,
+          "sentence": "If you can’t get a ticket for the big match, you can see it on one of the giant screens whilst still soaking up the atmosphere; it is a great place to chill out in deep sofas.",
+          "translation": "如果您买不到大型比赛的门票，您可以在巨大的屏幕上观看比赛，同时仍然沉浸在氛围中；这是一个在深沙发里放松的好地方。"
+        },
+        {
+          "index": 28,
+          "sentence": "The Old Tavern also offers a range of meals and snacks, all freshly prepared, starting from just £3.50.",
+          "translation": "老酒馆还提供各种餐食和小吃，全部新鲜制作，起价仅3.50英镑。"
+        },
+        {
+          "index": 29,
+          "sentence": "D Thai Palace",
+          "translation": "D 泰宫"
+        },
+        {
+          "index": 30,
+          "sentence": "Situated in the city centre, the Thai Palace is one of the best restaurants in Riverton.",
+          "translation": "泰宫位于市中心，是里弗顿最好的餐厅之一。"
+        },
+        {
+          "index": 31,
+          "sentence": "It has a good mix of regular customers, including some well-known faces from music, sport and the media.",
+          "translation": "它拥有良好的常客组合，包括一些来自音乐、体育和媒体的知名面孔。"
+        },
+        {
+          "index": 32,
+          "sentence": "It sources much of its produce locally, and blends Welsh lamb and beef with fresh herbs and spices flown in each week from Thailand.",
+          "translation": "它的大部分食材来自本地，并将威尔士羊肉和牛肉与每周从泰国空运来的新鲜香草和香料融合在一起。"
+        },
+        {
+          "index": 33,
+          "sentence": "The friendly waiters wear a different Thai costume each week and provide attentive service.",
+          "translation": "友好的服务员每周穿着不同的泰国服装，提供周到的服务。"
+        },
+        {
+          "index": 34,
+          "sentence": "The restaurant caters for groups of all sizes, from meals for two to conference dinners.",
+          "translation": "餐厅可承办各种规模的团体聚餐，从两人用餐到会议晚宴。"
+        },
+        {
+          "index": 35,
+          "sentence": "E Riverton Hall",
+          "translation": "E 里弗顿庄园"
+        },
+        {
+          "index": 36,
+          "sentence": "Go to Riverton Hall for an evening in historic surroundings.",
+          "translation": "前往里弗顿庄园，在历史环境中度过一个夜晚。"
+        },
+        {
+          "index": 37,
+          "sentence": "In the famous Banqueting Hall, which seats up to 150, you can enjoy the best of the local food.",
+          "translation": "在著名的宴会厅，可容纳多达150人，您可以享用最好的当地美食。"
+        },
+        {
+          "index": 38,
+          "sentence": "On arrival you will be welcomed with mead, a traditional medieval drink.",
+          "translation": "抵达时，您将受到蜂蜜酒的欢迎，这是一种传统的中世纪饮品。"
+        },
+        {
+          "index": 39,
+          "sentence": "Hosts will serve your meal and keep you entertained with a selection of folk songs.",
+          "translation": "主持人将为您上菜，并用精选的民歌为您助兴。"
+        },
+        {
+          "index": 40,
+          "sentence": "A set menu of four courses — at a price of £55 a person — will be served together with wine or soft drinks.",
+          "translation": "一份四道菜的套餐——价格为每人55英镑——将随葡萄酒或软饮料一起供应。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    },
+    {
+      "id": "211022",
+      "number": 2,
+      "title": "Section 2",
+      "article_title": "J&G's commitments to candidates",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "As a well-established employment agency with a strong track record in helping candidates to find temporary employment assignments, J&G is committed to:",
+          "translation": "作为一家拥有良好业绩记录、在帮助求职者找到临时工作方面有着良好记录的知名职业介绍所，J&G致力于："
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "1 Offering you tailored assignments\n\nJ&G commits to working closely with you to confirm your assignment expectations, while helping you to ensure that these are achievable. We will also ensure that assignments offered to you are appropriate for your skills set.",
+          "translation": "1 为您提供量身定制的工作任务\n\nJ&G承诺与您密切合作，确认您对工作任务的期望，同时帮助您确保这些期望是可以实现的。\n我们还将确保提供给您的任务适合您的技能组合。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "2 Keeping you informed\n\nWe will keep you informed throughout all stages of the recruitment process. We will do our best to find you suitable temporary roles, and give you updates on positions available, feedback during and following an assignment and useful advice for your future development. We will inform you as soon as possible about when temporary assignments will end.",
+          "translation": "2 让您随时了解情况\n\n我们将在招聘过程的所有阶段让您随时了解情况。\n我们将尽力为您找到合适的临时职位，并向您提供现有职位的最新信息、任务期间和之后的反馈，以及对您未来发展的有用建议。\n我们将尽快通知您临时任务何时结束。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "3 Developing your skills and experience\n\nJ&G commits to ensuring that, prior to attending interviews with potential employers, you are briefed and given advice on interview techniques. After you have completed nine months’ continuous employment with us, we will carry out a Career Development assessment with you.",
+          "translation": "3 发展您的技能和经验\n\nJ&G承诺确保在您参加潜在雇主的面试之前，向您介绍情况并提供面试技巧方面的建议。\n在您与我们连续工作满九个月后，我们将与您进行一次职业发展评估。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "4 Helping you avoid accidents at work\n\nJ&G commits to informing you of any health and safety regulations, and will contact your employer immediately if you make us aware of any health and safety issues. If you find you are facing significant danger in an assignment, we will give you our full support and make it a priority to search for another assignment for you.",
+          "translation": "4 帮助您避免工作中的事故\n\nJ&G承诺向您告知所有健康与安全规定，并且如果您让我们注意到任何健康与安全问题，我们将立即联系您的雇主。\n如果您发现自己在某项任务中面临重大危险，我们将全力支持您，并优先为您寻找另一项任务。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "5 Recruiting without discrimination\n\nJ&G commits to recruiting without discrimination — we base our selection decisions on professional criteria only. We are proud of our record in ensuring that staff are employed purely on the basis of whether they can do the job.",
+          "translation": "5 无歧视招聘\n\nJ&G承诺进行无歧视招聘——我们的选拔决定仅基于专业标准。\n我们为在确保员工纯粹基于能否胜任工作而被聘用方面的记录感到自豪。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "6 Helping you benefit from the advantages J&G offers\n\nJ&G commits to offering you access to advantages such as database training, as well as loyalty programmes providing discounts on purchases from a number of major retailers, exclusively available to J&G employees. J&G commits to offering you access to further developmental tools, skills set refreshers, advice and assistance whenever you wish throughout your professional career.",
+          "translation": "6 帮助您从J&G提供的优势中受益\n\nJ&G承诺为您提供获取优势的途径，例如数据库培训，以及忠诚度计划，该计划为从多家主要零售商处购物提供折扣，且仅限J&G员工专享。\nJ&G承诺在您的整个职业生涯中，随时为您提供获取进一步的发展工具、技能组合复习、建议和协助的途径。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Pool cars - guidance notes",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "公用车辆 - 指导说明"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Pool cars are provided to allow staff to undertake company business without having to use their own private vehicle. Pool cars are provided predominantly for business mileage only. A small amount of private mileage may be incurred by an individual, but this must be declared on the log sheet and will be recharged to the individual through the payroll system.",
+          "translation": "提供公用车辆是为了让员工能够办理公司业务，而无需使用自己的私人车辆。\n公用车辆主要仅供公务里程使用。\n个人可能会产生少量私人里程，但这必须在记录表上申报，并将通过工资系统向个人收取费用。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Booking procedure\n\nBefore booking a pool car, please ensure that you obtain the permission of your line manager. He/she will be contacted when you make the booking, to check that this has been authorised.",
+          "translation": "预订程序\n\n在预订公用车辆之前，请确保您已获得直属经理的许可。\n当您进行预订时，将会联系他/她，以核实此预订已获授权。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Pool cars can be booked by contacting the Helpdesk, either by email (helpdesk@KFK.com) or telephone (01793-525252).",
+          "translation": "可以通过联系服务台预订公用车辆，方式为发送电子邮件（helpdesk@KFK.com）或致电（01793-525252）。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "It is advisable to give as much notice as possible when making a booking, as otherwise you may find that no pool car is available when you need it.",
+          "translation": "建议在预订时尽可能提前通知，否则您可能会发现在需要时没有可用的公用车辆。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Collection process\n\nThe keys and logbook must be collected from Reception during normal working hours (8.30am to 5.30pm). If you need to collect the car outside these hours, you must make alternative arrangements with the Helpdesk.",
+          "translation": "领取流程\n\n钥匙和行车日志必须在正常工作时间内（上午8:30至下午5:30）从接待处领取。\n如果您需要在这些时间之外取车，则必须与服务台另行安排。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Where are the pool cars kept?\n\nCars are kept in the lower basement car park. Enter by the stairs closest to the Octagon building. There is a security key pad on the door, where you will need to enter the code shown on the inside front cover of the pool car logbook. Pool cars are always parked in marked bays and nowhere else in the car park.",
+          "translation": "公用车辆停放在哪里？\n车辆停放在地下底层停车场。\n从最靠近Octagon大楼的楼梯进入。\n门上有一个安全键盘，您需要输入公用车辆行车日志封面内侧显示的密码。\n公用车辆始终停放在标记的停车位内，不得停放在停车场内的其他任何地方。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Before driving off\n\nPlease check the vehicle before driving off. Any faults must be reported to the Helpdesk immediately.",
+          "translation": "出发前\n\n请在出发前检查车辆。\n任何故障必须立即向服务台报告。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "You should enter into the logbook the mileage that is indicated, and check it is identical to the end mileage recorded by the previous driver. If this is not the case, you should report this upon returning the vehicle.",
+          "translation": "您应在行车日志中记录显示的里程数，并检查其是否与上一位驾驶员记录的结束里程数一致。\n如果不一致，您应在归还车辆时报告此情况。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Exiting the car park\n\nInside the front cover of the logbook is an access card. This will need to be swiped through the card reader to raise the exit shutter. The shutter closes automatically when the car has driven through.",
+          "translation": "驶出停车场\n\n行车日志封面内侧有一张门禁卡。\n需要在读卡器上刷卡以升起出口卷帘门。\n车辆驶过后，卷帘门会自动关闭。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "383",
+          "type": 13,
+          "title": "J&G commitments to candidates",
+          "instructions": "Questions 15-21\nComplete the table below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 15-21 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": {
+            "title": "J&G commitments to candidates",
+            "content": [
+              [
+                "<b>COMMITMENT</b>",
+                "<b>DETAILS</b>"
+              ],
+              [
+                "<b>Tailored assignments</b>",
+                "• to meet your $1197610$ regarding assignments\n• to provide work that uses your skills"
+              ],
+              [
+                "<b>Information</b>",
+                "• to give updates, $1197611$ and advice\n• to give notice of end of assignments"
+              ],
+              [
+                "<b>Skills development</b>",
+                "• to help you prepare for $1197612$\n• to evaluate your progress"
+              ],
+              [
+                "<b>Avoiding accidents</b>",
+                "• to help you to ensure your safety at work\n• to back you up if you are in serious $1197613$"
+              ],
+              [
+                "<b>Non-discriminatory recruitment</b>",
+                "• to consider only $1197614$ matters when recruiting"
+              ],
+              [
+                "<b>Advantages</b>",
+                "• to offer you training, e.g. in using a $1197615$\n• to offer you $1197616$ when buying from certain stores"
+              ]
+            ],
+            "rows": [
+              [
+                "<b>COMMITMENT</b>",
+                "<b>DETAILS</b>"
+              ],
+              [
+                "<b>Tailored assignments</b>",
+                "• to meet your $1197610$ regarding assignments\n• to provide work that uses your skills"
+              ],
+              [
+                "<b>Information</b>",
+                "• to give updates, $1197611$ and advice\n• to give notice of end of assignments"
+              ],
+              [
+                "<b>Skills development</b>",
+                "• to help you prepare for $1197612$\n• to evaluate your progress"
+              ],
+              [
+                "<b>Avoiding accidents</b>",
+                "• to help you to ensure your safety at work\n• to back you up if you are in serious $1197613$"
+              ],
+              [
+                "<b>Non-discriminatory recruitment</b>",
+                "• to consider only $1197614$ matters when recruiting"
+              ],
+              [
+                "<b>Advantages</b>",
+                "• to offer you training, e.g. in using a $1197615$\n• to offer you $1197616$ when buying from certain stores"
+              ]
+            ]
+          },
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197610",
+              "number": 15,
+              "prompt": "Tailored assignments — DETAILS — • to meet your _____ regarding assignments • to provide work that uses your skills",
+              "options": [],
+              "answer": "expectations",
+              "accepted_answers": [
+                "expectations"
+              ],
+              "analysis": "题干中的“your expectations regarding assignments”对应原文中的“confirm your assignment expectations”，其中“expectations”为原词重现，且语义完全一致。因此，答案应为“expectations”，表示候选人对临时工作的期望。",
+              "reason": "直接匹配",
+              "location_analysis": "题干对应原文confirm your assignment expectations，expe...",
+              "paraphrasing": "your expectations regarding assignments -> your assignment expectations",
+              "keywords": "confirm, assignment expectations",
+              "evidence": [
+                "J&G commits to working closely with you to confirm your assignment expectations, while helping you to ensure that these are achievable."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197611",
+              "number": 16,
+              "prompt": "Information — DETAILS — • to give updates, _____ and advice • to give notice of end of assignments",
+              "options": [],
+              "answer": "feedback",
+              "accepted_answers": [
+                "feedback"
+              ],
+              "analysis": "题干要求填写“updates, _____ and advice”，原文明确提到“give you updates on positions available, feedback during and following an assignment and useful advice”，其中“feedback”直接出现在并列结构中，与题干结构完全匹配，故答案为“feedback”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干总结原文信息，feedback为原词。",
+              "paraphrasing": "give updates, feedback and advice -> give you updates on positions available, feedback during and following an assignment and useful advice",
+              "keywords": "updates, feedback",
+              "evidence": [
+                "We will do our best to find you suitable temporary roles, and give you updates on positions available, feedback during and following an assignment and useful advice for your future development."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197612",
+              "number": 17,
+              "prompt": "Skills development — DETAILS — • to help you prepare for _____ • to evaluate your progress",
+              "options": [],
+              "answer": "interviews / interview",
+              "accepted_answers": [
+                "interviews / interview",
+                "interviews",
+                "interview"
+              ],
+              "analysis": "题干中的“help you prepare for _____”对应原文“prior to attending interviews with potential employers, you are briefed and given advice on interview techniques”。此处“interviews”是原文直接出现的关键词，且“prepare for interviews”与“attending interviews”逻辑一致，因此答案为“interviews”或“interview”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干to help you prepare for interviews对应原文attendi...",
+              "paraphrasing": "help you prepare for interviews -> prior to attending interviews with potential employers, you are briefed and given advice on interview techniques",
+              "keywords": "prepare for interviews",
+              "evidence": [
+                "J&G commits to ensuring that, prior to attending interviews with potential employers, you are briefed and given advice on interview techniques."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197613",
+              "number": 18,
+              "prompt": "Avoiding accidents — DETAILS — • to help you to ensure your safety at work • to back you up if you are in serious _____",
+              "options": [],
+              "answer": "danger",
+              "accepted_answers": [
+                "danger"
+              ],
+              "analysis": "题干中的“serious _____”对应原文“facing significant danger”，其中“danger”为共同核心词，“significant”与“serious”为同义替换。原文明确指出若候选人面临重大危险，公司将全力支持，因此答案为“danger”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干serious danger对应原文significant danger，danger为答案。",
+              "paraphrasing": "serious danger -> significant danger",
+              "keywords": "significant danger",
+              "evidence": [
+                "If you find you are facing significant danger in an assignment, we will give you our full support and make it a priority to search for another assignment for you."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197614",
+              "number": 19,
+              "prompt": "Non-discriminatory recruitment — DETAILS — • to consider only _____ matters when recruiting",
+              "options": [],
+              "answer": "professional",
+              "accepted_answers": [
+                "professional"
+              ],
+              "analysis": "题干中的“only _____ matters”对应原文“base our selection decisions on professional criteria only”，其中“professional”修饰“criteria”，而题干用“matters”概括，但“professional”作为限定词直接来自原文，符合“ONE WORD ONLY”的要求，故答案为“professional”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干only professional matters对应原文professional cri...",
+              "paraphrasing": "professional matters -> professional criteria",
+              "keywords": "professional criteria",
+              "evidence": [
+                "J&G commits to recruiting without discrimination — we base our selection decisions on professional criteria only."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197615",
+              "number": 20,
+              "prompt": "Advantages — DETAILS — • to offer you training, e.g. in using a _____ • to offer you _____ when buying from certain stores",
+              "options": [],
+              "answer": "database",
+              "accepted_answers": [
+                "database"
+              ],
+              "analysis": "题干中的“training, e.g. in using a _____”对应原文“advantages such as database training”，其中“database”直接修饰“training”，且是唯一提及的具体培训内容，因此答案为“database”，符合题目对单一单词的要求。",
+              "reason": "直接匹配",
+              "location_analysis": "题干using a database对应原文database training，databas...",
+              "paraphrasing": "training, e.g. in using a database -> advantages such as database training",
+              "keywords": "database training",
+              "evidence": [
+                "J&G commits to offering you access to advantages such as database training, as well as loyalty programmes providing discounts on purchases from a number of major retailers, exclusively available to J&G employees."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197616",
+              "number": 21,
+              "prompt": "Advantages — DETAILS — • to offer you training, e.g. in using a _____ • to offer you _____ when buying from certain stores",
+              "options": [],
+              "answer": "discounts",
+              "accepted_answers": [
+                "discounts"
+              ],
+              "analysis": "题干中的“offer you _____ when buying from certain stores”对应原文“loyalty programmes providing discounts on purchases from a number of major retailers”，其中“discounts”是直接给出的福利形式，且与“when buying”形成逻辑对应，因此答案为“discounts”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干discounts when buying对应原文discounts on purchas...",
+              "paraphrasing": "discounts when buying -> discounts on purchases",
+              "keywords": "discounts on purchases",
+              "evidence": [
+                "J&G commits to offering you access to advantages such as database training, as well as loyalty programmes providing discounts on purchases from a number of major retailers, exclusively available to J&G employees."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 13,
+            "collect": "",
+            "table": {
+              "title": "J&G commitments to candidates",
+              "content": [
+                [
+                  "<b>COMMITMENT</b>",
+                  "<b>DETAILS</b>"
+                ],
+                [
+                  "<b>Tailored assignments</b>",
+                  "• to meet your $1197610$ regarding assignments\n• to provide work that uses your skills"
+                ],
+                [
+                  "<b>Information</b>",
+                  "• to give updates, $1197611$ and advice\n• to give notice of end of assignments"
+                ],
+                [
+                  "<b>Skills development</b>",
+                  "• to help you prepare for $1197612$\n• to evaluate your progress"
+                ],
+                [
+                  "<b>Avoiding accidents</b>",
+                  "• to help you to ensure your safety at work\n• to back you up if you are in serious $1197613$"
+                ],
+                [
+                  "<b>Non-discriminatory recruitment</b>",
+                  "• to consider only $1197614$ matters when recruiting"
+                ],
+                [
+                  "<b>Advantages</b>",
+                  "• to offer you training, e.g. in using a $1197615$\n• to offer you $1197616$ when buying from certain stores"
+                ]
+              ]
+            },
+            "option_title": ""
+          }
+        },
+        {
+          "id": "384",
+          "type": 8,
+          "title": "Borrowing a pool car",
+          "instructions": "Questions 22-27\nComplete the flow-chart below.\nChoose NO MORE THAN TWO WORDS from the text for each answer.\nWrite your answers in boxes 22-27 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197617",
+              "number": 22,
+              "prompt": "Ask your _____ for authorisation.",
+              "options": [],
+              "answer": "line manager",
+              "accepted_answers": [
+                "line manager"
+              ],
+              "analysis": "题干中的“Ask your _____ for authorisation”对应原文“obtain the permission of your line manager”，其中“line manager”是公司内部标准职位称谓，且“authorisation”与“permission”为同义替换，因此答案为“line manager”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干ask your ... for authorisation对应原文obtain the ...",
+              "paraphrasing": "ask your line manager for authorisation -> obtain the permission of your line manager",
+              "keywords": "permission, line manager",
+              "evidence": [
+                "Before booking a pool car, please ensure that you obtain the permission of your line manager."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197618",
+              "number": 23,
+              "prompt": "To book, email or call the _____.",
+              "options": [],
+              "answer": "Helpdesk",
+              "accepted_answers": [
+                "Helpdesk"
+              ],
+              "analysis": "题干中的“email or call the _____”对应原文“Pool cars can be booked by contacting the Helpdesk, either by email or telephone”，其中“Helpdesk”是唯一被提及的联系对象，且拼写一致，因此答案为“Helpdesk”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干email or call the Helpdesk对应原文contacting the ...",
+              "paraphrasing": "email or call the Helpdesk -> contacting the Helpdesk by email or telephone",
+              "keywords": "contacting the Helpdesk",
+              "evidence": [
+                "Pool cars can be booked by contacting the Helpdesk, either by email (helpdesk@KFK.com) or telephone (01793-525252)."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197619",
+              "number": 24,
+              "prompt": "Use the _____ given in the logbook.",
+              "options": [],
+              "answer": "security code / code",
+              "accepted_answers": [
+                "security code / code",
+                "security code",
+                "code"
+              ],
+              "analysis": "题干中的“Use the _____ given in the logbook”对应原文“enter the code shown on the inside front cover of the pool car logbook”，其中“code”是进入车场门禁所需的信息，也可称为“security code”，两者在上下文中均可接受，故答案为“security code”或“code”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干use the ... given对应原文enter the code shown, co...",
+              "paraphrasing": "use the code -> enter the code",
+              "keywords": "security key pad, code",
+              "evidence": [
+                "There is a security key pad on the door, where you will need to enter the code shown on the inside front cover of the pool car logbook."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197620",
+              "number": 25,
+              "prompt": "Collect the car from one of the _____ in the car park.",
+              "options": [],
+              "answer": "marked bays",
+              "accepted_answers": [
+                "marked bays"
+              ],
+              "analysis": "题干中的“one of the _____ in the car park”对应原文“Pool cars are always parked in marked bays and nowhere else”，其中“marked bays”是车辆停放的指定区域，且“one of the”与复数“bays”语法一致，因此答案为“marked bays”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干one of the ... in the car park对应原文parked in m...",
+              "paraphrasing": "one of the marked bays -> parked in marked bays",
+              "keywords": "parked in marked bays",
+              "evidence": [
+                "Pool cars are always parked in marked bays and nowhere else in the car park."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197621",
+              "number": 26,
+              "prompt": "Inform the Helpdesk about any _____ at once.",
+              "options": [],
+              "answer": "faults",
+              "accepted_answers": [
+                "faults"
+              ],
+              "analysis": "题干中的“Inform the Helpdesk about any _____ at once”对应原文“Any faults must be reported to the Helpdesk immediately”，其中“faults”指车辆故障，且“reported”与“inform about”为同义表达，因此答案为“faults”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干inform the Helpdesk about any faults对应原文repor...",
+              "paraphrasing": "inform about any faults -> report any faults",
+              "keywords": "faults, reported",
+              "evidence": [
+                "Any faults must be reported to the Helpdesk immediately."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197622",
+              "number": 27,
+              "prompt": "Write the current _____ in the logbook.",
+              "options": [],
+              "answer": "mileage / mileage indicated",
+              "accepted_answers": [
+                "mileage / mileage indicated",
+                "mileage",
+                "mileage indicated"
+              ],
+              "analysis": "题干中的“Write the current _____ in the logbook”对应原文“You should enter into the logbook the mileage that is indicated”，其中“mileage”是必须记录的数据，且“current”对应“that is indicated”，因此答案为“mileage”或更完整的“mileage indicated”。",
+              "reason": "直接匹配",
+              "location_analysis": "题干write the current ... in the logbook对应原文enter...",
+              "paraphrasing": "write the current mileage -> enter into the logbook the mileage that is indicated",
+              "keywords": "enter the mileage",
+              "evidence": [
+                "You should enter into the logbook the mileage that is indicated, and check it is identical to the end mileage recorded by the previous driver."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Ask your $1197617$ for authorisation.\nTo book, email or call the $1197618$.\nUse the $1197619$ given in the logbook.\nCollect the car from one of the $1197620$ in the car park.\nInform the Helpdesk about any $1197621$ at once.\nWrite the current $1197622$ in the logbook.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Ask your $1197617$ for authorisation.\nTo book, email or call the $1197618$.\nUse the $1197619$ given in the logbook.\nCollect the car from one of the $1197620$ in the car park.\nInform the Helpdesk about any $1197621$ at once.\nWrite the current $1197622$ in the logbook."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "J&G's commitments to candidates",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "As a well-established employment agency with a strong track record in helping candidates to find temporary employment assignments, J&G is committed to:",
+          "translation": "作为一家拥有良好业绩记录、在帮助求职者找到临时工作方面有着良好记录的知名职业介绍所，J&G致力于："
+        },
+        {
+          "index": 2,
+          "sentence": "1 Offering you tailored assignments\n\nJ&G commits to working closely with you to confirm your assignment expectations, while helping you to ensure that these are achievable.",
+          "translation": "1 为您提供量身定制的工作任务\n\nJ&G承诺与您密切合作，确认您对工作任务的期望，同时帮助您确保这些期望是可以实现的。"
+        },
+        {
+          "index": 3,
+          "sentence": "We will also ensure that assignments offered to you are appropriate for your skills set.",
+          "translation": "我们还将确保提供给您的任务适合您的技能组合。"
+        },
+        {
+          "index": 4,
+          "sentence": "2 Keeping you informed\n\nWe will keep you informed throughout all stages of the recruitment process.",
+          "translation": "2 让您随时了解情况\n\n我们将在招聘过程的所有阶段让您随时了解情况。"
+        },
+        {
+          "index": 5,
+          "sentence": "We will do our best to find you suitable temporary roles, and give you updates on positions available, feedback during and following an assignment and useful advice for your future development.",
+          "translation": "我们将尽力为您找到合适的临时职位，并向您提供现有职位的最新信息、任务期间和之后的反馈，以及对您未来发展的有用建议。"
+        },
+        {
+          "index": 6,
+          "sentence": "We will inform you as soon as possible about when temporary assignments will end.",
+          "translation": "我们将尽快通知您临时任务何时结束。"
+        },
+        {
+          "index": 7,
+          "sentence": "3 Developing your skills and experience\n\nJ&G commits to ensuring that, prior to attending interviews with potential employers, you are briefed and given advice on interview techniques.",
+          "translation": "3 发展您的技能和经验\n\nJ&G承诺确保在您参加潜在雇主的面试之前，向您介绍情况并提供面试技巧方面的建议。"
+        },
+        {
+          "index": 8,
+          "sentence": "After you have completed nine months’ continuous employment with us, we will carry out a Career Development assessment with you.",
+          "translation": "在您与我们连续工作满九个月后，我们将与您进行一次职业发展评估。"
+        },
+        {
+          "index": 9,
+          "sentence": "4 Helping you avoid accidents at work\n\nJ&G commits to informing you of any health and safety regulations, and will contact your employer immediately if you make us aware of any health and safety issues.",
+          "translation": "4 帮助您避免工作中的事故\n\nJ&G承诺向您告知所有健康与安全规定，并且如果您让我们注意到任何健康与安全问题，我们将立即联系您的雇主。"
+        },
+        {
+          "index": 10,
+          "sentence": "If you find you are facing significant danger in an assignment, we will give you our full support and make it a priority to search for another assignment for you.",
+          "translation": "如果您发现自己在某项任务中面临重大危险，我们将全力支持您，并优先为您寻找另一项任务。"
+        },
+        {
+          "index": 11,
+          "sentence": "5 Recruiting without discrimination\n\nJ&G commits to recruiting without discrimination — we base our selection decisions on professional criteria only.",
+          "translation": "5 无歧视招聘\n\nJ&G承诺进行无歧视招聘——我们的选拔决定仅基于专业标准。"
+        },
+        {
+          "index": 12,
+          "sentence": "We are proud of our record in ensuring that staff are employed purely on the basis of whether they can do the job.",
+          "translation": "我们为在确保员工纯粹基于能否胜任工作而被聘用方面的记录感到自豪。"
+        },
+        {
+          "index": 13,
+          "sentence": "6 Helping you benefit from the advantages J&G offers\n\nJ&G commits to offering you access to advantages such as database training, as well as loyalty programmes providing discounts on purchases from a number of major retailers, exclusively available to J&G employees.",
+          "translation": "6 帮助您从J&G提供的优势中受益\n\nJ&G承诺为您提供获取优势的途径，例如数据库培训，以及忠诚度计划，该计划为从多家主要零售商处购物提供折扣，且仅限J&G员工专享。"
+        },
+        {
+          "index": 14,
+          "sentence": "J&G commits to offering you access to further developmental tools, skills set refreshers, advice and assistance whenever you wish throughout your professional career.",
+          "translation": "J&G承诺在您的整个职业生涯中，随时为您提供获取进一步的发展工具、技能组合复习、建议和协助的途径。"
+        },
+        {
+          "index": 15,
+          "sentence": "Pool cars - guidance notes",
+          "translation": "公用车辆 - 指导说明"
+        },
+        {
+          "index": 16,
+          "sentence": "Pool cars are provided to allow staff to undertake company business without having to use their own private vehicle.",
+          "translation": "提供公用车辆是为了让员工能够办理公司业务，而无需使用自己的私人车辆。"
+        },
+        {
+          "index": 17,
+          "sentence": "Pool cars are provided predominantly for business mileage only.",
+          "translation": "公用车辆主要仅供公务里程使用。"
+        },
+        {
+          "index": 18,
+          "sentence": "A small amount of private mileage may be incurred by an individual, but this must be declared on the log sheet and will be recharged to the individual through the payroll system.",
+          "translation": "个人可能会产生少量私人里程，但这必须在记录表上申报，并将通过工资系统向个人收取费用。"
+        },
+        {
+          "index": 19,
+          "sentence": "Booking procedure\n\nBefore booking a pool car, please ensure that you obtain the permission of your line manager.",
+          "translation": "预订程序\n\n在预订公用车辆之前，请确保您已获得直属经理的许可。"
+        },
+        {
+          "index": 20,
+          "sentence": "He/she will be contacted when you make the booking, to check that this has been authorised.",
+          "translation": "当您进行预订时，将会联系他/她，以核实此预订已获授权。"
+        },
+        {
+          "index": 21,
+          "sentence": "Pool cars can be booked by contacting the Helpdesk, either by email (helpdesk@KFK.com) or telephone (01793-525252).",
+          "translation": "可以通过联系服务台预订公用车辆，方式为发送电子邮件（helpdesk@KFK.com）或致电（01793-525252）。"
+        },
+        {
+          "index": 22,
+          "sentence": "It is advisable to give as much notice as possible when making a booking, as otherwise you may find that no pool car is available when you need it.",
+          "translation": "建议在预订时尽可能提前通知，否则您可能会发现在需要时没有可用的公用车辆。"
+        },
+        {
+          "index": 23,
+          "sentence": "Collection process\n\nThe keys and logbook must be collected from Reception during normal working hours (8.30am to 5.30pm).",
+          "translation": "领取流程\n\n钥匙和行车日志必须在正常工作时间内（上午8:30至下午5:30）从接待处领取。"
+        },
+        {
+          "index": 24,
+          "sentence": "If you need to collect the car outside these hours, you must make alternative arrangements with the Helpdesk.",
+          "translation": "如果您需要在这些时间之外取车，则必须与服务台另行安排。"
+        },
+        {
+          "index": 25,
+          "sentence": "Where are the pool cars kept?",
+          "translation": "公用车辆停放在哪里？"
+        },
+        {
+          "index": 26,
+          "sentence": "Cars are kept in the lower basement car park.",
+          "translation": "车辆停放在地下底层停车场。"
+        },
+        {
+          "index": 27,
+          "sentence": "Enter by the stairs closest to the Octagon building.",
+          "translation": "从最靠近Octagon大楼的楼梯进入。"
+        },
+        {
+          "index": 28,
+          "sentence": "There is a security key pad on the door, where you will need to enter the code shown on the inside front cover of the pool car logbook.",
+          "translation": "门上有一个安全键盘，您需要输入公用车辆行车日志封面内侧显示的密码。"
+        },
+        {
+          "index": 29,
+          "sentence": "Pool cars are always parked in marked bays and nowhere else in the car park.",
+          "translation": "公用车辆始终停放在标记的停车位内，不得停放在停车场内的其他任何地方。"
+        },
+        {
+          "index": 30,
+          "sentence": "Before driving off\n\nPlease check the vehicle before driving off.",
+          "translation": "出发前\n\n请在出发前检查车辆。"
+        },
+        {
+          "index": 31,
+          "sentence": "Any faults must be reported to the Helpdesk immediately.",
+          "translation": "任何故障必须立即向服务台报告。"
+        },
+        {
+          "index": 32,
+          "sentence": "You should enter into the logbook the mileage that is indicated, and check it is identical to the end mileage recorded by the previous driver.",
+          "translation": "您应在行车日志中记录显示的里程数，并检查其是否与上一位驾驶员记录的结束里程数一致。"
+        },
+        {
+          "index": 33,
+          "sentence": "If this is not the case, you should report this upon returning the vehicle.",
+          "translation": "如果不一致，您应在归还车辆时报告此情况。"
+        },
+        {
+          "index": 34,
+          "sentence": "Exiting the car park\n\nInside the front cover of the logbook is an access card.",
+          "translation": "驶出停车场\n\n行车日志封面内侧有一张门禁卡。"
+        },
+        {
+          "index": 35,
+          "sentence": "This will need to be swiped through the card reader to raise the exit shutter.",
+          "translation": "需要在读卡器上刷卡以升起出口卷帘门。"
+        },
+        {
+          "index": 36,
+          "sentence": "The shutter closes automatically when the car has driven through.",
+          "translation": "车辆驶过后，卷帘门会自动关闭。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    },
+    {
+      "id": "211023",
+      "number": 3,
+      "title": "Section 3",
+      "article_title": "Why some mammals have developed a cooperative approach to raising their young",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Meerkats are one of the most cooperative species of mammal on the planet. Their home is in the flat, arid landscape of the huge Kalahari Desert in Southern Africa where there is no water throughout many months of the year. The scarcity of food and the difficulty of finding anywhere suitable to hide from predators have led them to live in groups where they share the roles of food hunters. Meerkats live in large families of up to 50 individuals, but only one dominant male and female will breed, while their pups are fed and raised by the others in the group. The subordinate females produce milk for the pups and take care of them in their underground burrows during the first three weeks of life. For the next three months these females continue to provide their nutrition by giving away up to 40% of the food they find.",
+          "translation": "猫鼬是地球上最具合作性的哺乳动物物种之一。\n它们的家园位于南部非洲广阔的喀拉哈里沙漠平坦、干旱的地带，那里一年中有好几个月没有水。\n食物的稀缺以及难以找到合适的藏身之处躲避捕食者，导致它们群居生活，并分担寻找食物的角色。\n猫鼬生活在多达50只个体的大家庭中，但只有一对占主导地位的雄性和雌性会繁殖，而它们的幼崽则由群体中的其他成员喂养和抚养。\n处于从属地位的雌性为幼崽产奶，并在它们生命的前三周里在地下洞穴中照顾它们。\n在接下来的三个月里，这些雌性继续通过贡献出它们找到的多达40%的食物来提供营养。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "This strategy is hugely successful — dominant female meerkats can produce up to 20 pups in a year, increasing their group’s size so they can hold precious land against rival families. But the evolution of this strategy makes little sense when individuals are typically out to help themselves. In most animals, the drive for survival and to pass on their own genes means few will help to raise the offspring of others and in some cases, such as lions and some monkeys, they will even kill the young of rivals. ‘It’s easy to understand why animals compete,’ said Professor Tim Clutton-Brock, a zoologist at the University of Cambridge. ‘It is less easy to understand why in some cases individuals might spend a large section of their lives helping other individuals.’",
+          "translation": "这种策略非常成功——占主导地位的雌性猫鼬一年可以产下多达20只幼崽，从而扩大其群体的规模，以便能够守住宝贵的领地，对抗敌对家族。\n但是，当个体通常只顾自己时，这种策略的进化就没什么意义了。\n在大多数动物中，生存和传递自身基因的本能意味着很少有动物会帮助抚养其他个体的后代，在某些情况下，例如狮子和一些猴子，它们甚至会杀死竞争对手的幼崽。剑桥大学的动物学家Tim Clutton-Brock教授说：‘理解动物为何竞争很容易，但理解为什么在某些情况下个体会花费生命中的大部分时间来帮助其他个体就不那么容易了。’"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "This is what Prof. Clutton-Brock and his colleagues set out to understand as part of an ambitious six-year project. They observed and monitored more than 700 wild meerkats from 30 different groups in the Kalahari, taking genetic and hormone samples of the animals throughout their lives. They found that meerkats show an unusually high level of kinship to others in their group compared to that found in other social animals, such as African hunting dogs and primates. In other words, almost all members of a meerkat group are brothers and sisters. As the meerkats within a group all share copies of the same genes, it means they also have a vested interest in ensuring that their mother’s offspring reach adulthood, says Prof. Clutton-Brock. He explains that other females can ensure the genes they share are passed on by helping to raise their brothers and sisters. ‘It makes cooperation much stronger.’",
+          "translation": "这正是Clutton-Brock教授及其同事着手去理解的问题，作为一个雄心勃勃的六年项目的一部分。\n他们观察并监测了喀拉哈里沙漠中来自30个不同群体的700多只野生猫鼬，并在它们的一生中采集了基因和激素样本。\n他们发现，与其他群居动物（如非洲猎犬和灵长类动物）相比，猫鼬与群体内其他成员的亲缘关系异常高。\n换句话说，一个猫鼬群体中几乎所有的成员都是兄弟姐妹。\nClutton-Brock教授说，由于群体内的猫鼬都共享相同基因的副本，这意味着它们也都有既得利益，要确保它们母亲的后代能活到成年。\n他解释说，其他雌性可以通过帮助抚养它们的兄弟姐妹来确保它们共享的基因得以传递。‘这使得合作更加牢固。’"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "In other social animals, such as chimpanzees and baboons, kinship is much lower within groups. This means that higher primates, including humans, have to engage in far more social manoeuvering and alliance-forming within their group, Prof. Clutton-Brock says. This could have been one of the driving forces for the increases in intelligence and brain size seen in humans. ‘Most of the animals that live in groups with low levels of kinship tend to be what we would regard as cognitively developed,’ said Prof. Clutton-Brock. Even humans live in groups with very low average levels of relatedness. The moral is that if you are living in a group where not everyone is closely related to you and might be looking to disadvantage you if they get a chance, you need to be clever.",
+          "translation": "在其他群居动物中，例如黑猩猩和狒狒，群体内的亲缘关系要低得多。\nClutton-Brock教授说，这意味着包括人类在内的高等灵长类动物必须在群体内进行更多的社交周旋和联盟形成。\n这可能是人类智力和脑容量增长的驱动力之一。Clutton-Brock教授说：‘大多数生活在亲缘关系水平低的群体中的动物，往往是我们认为认知发达的动物。’\n即使是人类也生活在平均亲缘关系水平非常低的群体中。\n其中的寓意是，如果你生活在一个并非每个人都与你关系密切的群体中，并且他们可能一有机会就会对你不利，那么你就需要聪明一点。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Other cooperative animals have evolved different strategies to help ensure the group sticks together. Banded mongooses, the meerkats’ larger cousins, create a ‘veil of ignorance’ that helps to ensure the group work together to raise their young. Unlike meerkats, four to six females breed at the same time. While younger females typically mate a few days after the older ones, they synchronise their pregnancies so all the females give birth on exactly the same morning. The communal litter is then raised by the group.\n\nProfessor Michael Cant, an evolutionary biologist at the University of Exeter, UK, who has been studying mongooses since 1995, says, ‘Synchronising to give birth at the same moment is a way to avoid infanticide. We think none of the females know who their own pups are so they care for all of them just in case they are their own.’ It is a selfish act that leads to something like a true community.",
+          "translation": "其他具有合作性的动物已经进化出不同的策略来帮助确保群体团结在一起。\n带状猫鼬是狐獴的较大表亲，它们会制造一种‘无知之幕’，有助于确保群体共同抚养幼崽。\n与狐獴不同，四到六只雌性会同时繁殖。\n虽然较年轻的雌性通常比年长的晚几天交配，但它们会同步怀孕，以便所有雌性都在同一天早上分娩。\n然后，这一窝共同的幼崽由群体抚养。\n英国埃克塞特大学的进化生物学家迈克尔·坎特教授自1995年以来一直在研究猫鼬，他说：‘同步到同一时刻分娩是避免杀婴的一种方式。\n我们认为没有雌性知道哪些是自己的幼崽，所以它们会照顾所有幼崽，以防其中有自己的。’\n这是一种自私的行为，却导致了类似真正社群的结果。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "To examine this behaviour in more detail, Prof. Cant and his team fed half of the breeding females in each mongoose group with additional nutrient-rich food during pregnancy. They found that while the mothers that had been fed the extra food gave birth to larger pups, they then worked extra hard to raise the offspring of mothers who had not had the extra food, levelling out the differences between them. ‘[Banded] mongooses always [seem to] do the opposite of what we think they should do,’ said Prof. Cant, whose assumption had been that pups who were bigger at birth would benefit from their head start in life. Instead, the females focused on raising the weakest individuals. Further results due to be published later also show that those whose mothers were not fed extra food during pregnancy may actually end up doing better in later life.\n\nProf. Cant believes that the results could also have implications for testing theories of cooperation in humans. ‘Humans are cooperative breeders — our offspring are raised by grandparents and siblings as well as their parents.’",
+          "translation": "为了更详细地研究这种行为，坎特教授和他的团队在怀孕期间给每个猫鼬群体中一半的繁殖雌性额外喂食了营养丰富的食物。\n他们发现，虽然吃了额外食物的母亲产下了更大的幼崽，但它们随后会格外努力地抚养那些没有吃到额外食物的母亲的后代，从而拉平了它们之间的差异。坎特教授说：‘[带状]猫鼬似乎总是做出与我们预期相反的行为。’他原本的假设是，出生时更大的幼崽会受益于其人生起步的优势。\n相反，雌性专注于抚养最弱的个体。\n稍后将要发表的进一步结果还显示，那些母亲在怀孕期间未获得额外食物的个体，实际上可能在日后的生活中表现得更好。\n坎特教授认为，这些结果也可能对检验人类合作理论具有启示意义。‘人类是合作繁殖者——我们的后代由祖父母、兄弟姐妹以及父母共同抚养。’"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "385",
+          "type": 10,
+          "title": "List of Headings",
+          "instructions": "Questions 28-33\nThe text has six sections, A-F.\nChoose the correct heading for each section from the list of headings below.\nWrite the correct number, i-ix, in boxes 28-33 on your answer sheet.",
+          "option_title": "",
+          "options": [
+            {
+              "value": "i",
+              "label": "i. Characteristics meerkats have recently developed"
+            },
+            {
+              "value": "ii",
+              "label": "ii. A previous theory disproved"
+            },
+            {
+              "value": "iii",
+              "label": "iii. The strong bond between a mother and her pup"
+            },
+            {
+              "value": "iv",
+              "label": "iv. An unusual approach that assists in territorial defence"
+            },
+            {
+              "value": "v",
+              "label": "v. How to progress without many family connections"
+            },
+            {
+              "value": "vi",
+              "label": "vi. Cooperation between species"
+            },
+            {
+              "value": "vii",
+              "label": "vii. The benefits of operating to an identical timetable"
+            },
+            {
+              "value": "viii",
+              "label": "viii. A remarkable number of siblings"
+            },
+            {
+              "value": "ix",
+              "label": "ix. Community life in a very harsh environment"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197623",
+              "number": 28,
+              "prompt": "Section A _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Characteristics meerkats have recently developed"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A previous theory disproved"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. The strong bond between a mother and her pup"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. An unusual approach that assists in territorial defence"
+                },
+                {
+                  "value": "v",
+                  "label": "v. How to progress without many family connections"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Cooperation between species"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The benefits of operating to an identical timetable"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. A remarkable number of siblings"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Community life in a very harsh environment"
+                }
+              ],
+              "answer": "ix",
+              "accepted_answers": [
+                "ix"
+              ],
+              "analysis": "题干要求为段落A选择标题。段落A开头指出“meerkats的栖息地是南非卡拉哈里沙漠平坦干旱的地带，一年中许多月份都没有水”，并描述了它们因食物稀缺和难以躲避天敌而形成群体生活。这些内容强调了在极端恶劣环境下的群居生存方式，与选项ix“Community life in a very harsh environment”（在非常严酷环境中的社群生活）完全对应。",
+              "reason": "段落A首句直接点明环境恶劣，需要群居，与heading ix吻合。",
+              "location_analysis": "段落A描述严酷沙漠环境下的群居生活，对应heading ix。",
+              "paraphrasing": "Community life in a very harsh environment -> Meerkats live in groups in the Kalahari Desert with no water",
+              "keywords": "harsh environment, arid, no water",
+              "evidence": [
+                "Meerkats are one of the most cooperative species of mammal on the planet. Their home is in the flat, arid landscape of the huge Kalahari Desert in Southern Africa where there is no water throughout many months of the year."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197624",
+              "number": 29,
+              "prompt": "Section B _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Characteristics meerkats have recently developed"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A previous theory disproved"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. The strong bond between a mother and her pup"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. An unusual approach that assists in territorial defence"
+                },
+                {
+                  "value": "v",
+                  "label": "v. How to progress without many family connections"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Cooperation between species"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The benefits of operating to an identical timetable"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. A remarkable number of siblings"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Community life in a very harsh environment"
+                }
+              ],
+              "answer": "iv",
+              "accepted_answers": [
+                "iv"
+              ],
+              "analysis": "段落B提到“dominant female meerkats can produce up to 20 pups in a year, increasing their group’s size so they can hold precious land against rival families”，说明通过大量繁殖来增强群体规模以保卫领地。这与选项iv“An unusual approach that assists in territorial defence”（一种有助于领地防御的不寻常策略）相符，因为这种高繁殖率作为合作繁殖策略确实不常见且直接服务于领土竞争。",
+              "reason": "该句直接说明大量繁殖有助于领土防御。",
+              "location_analysis": "B段指出主宰雌性大量繁殖以增强群体规模，从而保卫领地。",
+              "paraphrasing": "An unusual approach that assists in territorial defence -> dominant female produces many pups to increase group size and hold land",
+              "keywords": "dominant female, produce up to 20 pups, hold precious land",
+              "evidence": [
+                "dominant female meerkats can produce up to 20 pups in a year, increasing their group’s size so they can hold precious land against rival families."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197625",
+              "number": 30,
+              "prompt": "Section C _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Characteristics meerkats have recently developed"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A previous theory disproved"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. The strong bond between a mother and her pup"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. An unusual approach that assists in territorial defence"
+                },
+                {
+                  "value": "v",
+                  "label": "v. How to progress without many family connections"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Cooperation between species"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The benefits of operating to an identical timetable"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. A remarkable number of siblings"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Community life in a very harsh environment"
+                }
+              ],
+              "answer": "viii",
+              "accepted_answers": [
+                "viii"
+              ],
+              "analysis": "段落C指出研究发现“meerkats show an unusually high level of kinship... almost all members of a meerkat group are brothers and sisters”，即群体内几乎所有个体都是亲兄弟姐妹，亲属关系极高。这与选项viii“A remarkable number of siblings”（数量惊人的兄弟姐妹）直接对应，准确概括了该段的核心发现。",
+              "reason": "这两句直接体现了remarkable number of siblings。",
+              "location_analysis": "C段发现meerkats群体内亲属关系极高，几乎所有成员都是兄弟姐妹。",
+              "paraphrasing": "A remarkable number of siblings -> almost all members are brothers and sisters",
+              "keywords": "high level of kinship, brothers and sisters",
+              "evidence": [
+                "They found that meerkats show an unusually high level of kinship to others in their group compared to that found in other social animals, such as African hunting dogs and primates. In other words, almost all members of a meerkat group are brothers and sisters."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197626",
+              "number": 31,
+              "prompt": "Section D _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Characteristics meerkats have recently developed"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A previous theory disproved"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. The strong bond between a mother and her pup"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. An unusual approach that assists in territorial defence"
+                },
+                {
+                  "value": "v",
+                  "label": "v. How to progress without many family connections"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Cooperation between species"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The benefits of operating to an identical timetable"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. A remarkable number of siblings"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Community life in a very harsh environment"
+                }
+              ],
+              "answer": "v",
+              "accepted_answers": [
+                "v"
+              ],
+              "analysis": "段落D讨论在亲属关系较低的群体（如黑猩猩、狒狒乃至人类）中，个体必须进行更多“social manoeuvering and alliance-forming”，并总结道“you need to be clever”才能在群体中立足。这与选项v“How to progress without many family connections”（在缺乏紧密家族联系的情况下如何进步）逻辑一致，强调了低亲缘关系下需依靠智慧和社交策略发展。",
+              "reason": "这两句解释了在低亲属关系中如何通过智慧和社交进步。",
+              "location_analysis": "D段讨论低亲属关系群体需要更多社交策略和智慧来进步。",
+              "paraphrasing": "How to progress without many family connections -> low kinship groups need to be clever to form alliances",
+              "keywords": "low kinship, social manoeuvering, clever",
+              "evidence": [
+                "This means that higher primates, including humans, have to engage in far more social manoeuvering and alliance-forming within their group",
+                "The moral is that if you are living in a group where not everyone is closely related to you and might be looking to disadvantage you if they get a chance, you need to be clever."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197627",
+              "number": 32,
+              "prompt": "Section E _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Characteristics meerkats have recently developed"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A previous theory disproved"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. The strong bond between a mother and her pup"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. An unusual approach that assists in territorial defence"
+                },
+                {
+                  "value": "v",
+                  "label": "v. How to progress without many family connections"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Cooperation between species"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The benefits of operating to an identical timetable"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. A remarkable number of siblings"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Community life in a very harsh environment"
+                }
+              ],
+              "answer": "vii",
+              "accepted_answers": [
+                "vii"
+              ],
+              "analysis": "段落E描述banded mongooses通过同步怀孕使所有雌性“give birth on exactly the same morning”，从而创造“veil of ignorance”以避免杀婴行为，并促使群体共同抚养幼崽。这一行为的核心在于统一时间表带来的合作优势，与选项vii“The benefits of operating to an identical timetable”（按相同时间表运作的好处）完全吻合。",
+              "reason": "这两句直接说明了同步分娩的好处。",
+              "location_analysis": "E段描述猫鼬同步分娩避免杀婴，促进合作，对应benefits of identical tim...",
+              "paraphrasing": "The benefits of operating to an identical timetable -> synchronising births to avoid infanticide and ensure group care",
+              "keywords": "synchronise, same morning, avoid infanticide",
+              "evidence": [
+                "While younger females typically mate a few days after the older ones, they synchronise their pregnancies so all the females give birth on exactly the same morning.",
+                "Synchronising to give birth at the same moment is a way to avoid infanticide."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197628",
+              "number": 33,
+              "prompt": "Section F _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. Characteristics meerkats have recently developed"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A previous theory disproved"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. The strong bond between a mother and her pup"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. An unusual approach that assists in territorial defence"
+                },
+                {
+                  "value": "v",
+                  "label": "v. How to progress without many family connections"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Cooperation between species"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The benefits of operating to an identical timetable"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. A remarkable number of siblings"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Community life in a very harsh environment"
+                }
+              ],
+              "answer": "ii",
+              "accepted_answers": [
+                "ii"
+              ],
+              "analysis": "段落F中，Prof. Cant原以为出生体型较大的幼崽会因“head start in life”而更具优势，但实验结果却显示母猫鼬反而更努力照顾那些未获得额外营养的母亲所生的较弱幼崽，即“do the opposite of what we think they should do”。这明确推翻了先前假设，因此对应选项ii“A previous theory disproved”（一个先前理论被证伪）。",
+              "reason": "该句明确表示之前假设被推翻。",
+              "location_analysis": "F段通过实验推翻了原先认为较大幼崽有优势的理论。",
+              "paraphrasing": "A previous theory disproved -> assumption that bigger pups benefit is wrong; they raise the weakest instead",
+              "keywords": "do the opposite, assumption, bigger at birth would benefit",
+              "evidence": [
+                "‘[Banded] mongooses always [seem to] do the opposite of what we think they should do,’ said Prof. Cant, whose assumption had been that pups who were bigger at birth would benefit from their head start in life. Instead, the females focused on raising the weakest individuals."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 10,
+            "collect": "28 Section A $1197623$\n29 Section B $1197624$\n30 Section C $1197625$\n31 Section D $1197626$\n32 Section E $1197627$\n33 Section F $1197628$",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "28 Section A $1197623$\n29 Section B $1197624$\n30 Section C $1197625$\n31 Section D $1197626$\n32 Section E $1197627$\n33 Section F $1197628$"
+        },
+        {
+          "id": "386",
+          "type": 8,
+          "title": "The breeding habits of meerkats in the Kalahari Desert",
+          "instructions": "Questions 34-36\nComplete the summary below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 34-36 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197629",
+              "number": 34,
+              "prompt": "Meerkats have to survive without _____ for long periods.",
+              "options": [],
+              "answer": "water",
+              "accepted_answers": [
+                "water"
+              ],
+              "analysis": "题干问meerkats在很长一段时间内无法获得什么。原文段落A第二句明确指出“where there is no water throughout many months of the year”，即一年中许多月份都没有水。因此答案为“water”，直接对应题干中“survive without... for long periods”的描述。",
+              "reason": "直接对应题干中survive without... for long periods。",
+              "location_analysis": "原文说全年很多个月没有水，因此答案为water。",
+              "paraphrasing": "survive without water for long periods -> no water throughout many months",
+              "keywords": "no water, many months",
+              "evidence": [
+                "Their home is in the flat, arid landscape of the huge Kalahari Desert in Southern Africa where there is no water throughout many months of the year."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197630",
+              "number": 35,
+              "prompt": "There are not many places where they can safely keep clear of _____.",
+              "options": [],
+              "answer": "predators",
+              "accepted_answers": [
+                "predators"
+              ],
+              "analysis": "题干中“keep clear of”意为避开，与原文“hide from predators”中的“hide from”构成同义替换。段落A提到“the difficulty of finding anywhere suitable to hide from predators”，说明天敌（predators）是meerkats需要躲避的对象，因此答案为“predators”。",
+              "reason": "题干中keep clear of与hide from同义。",
+              "location_analysis": "原文说很难找到合适地方躲避predators，答案为predators。",
+              "paraphrasing": "keep clear of predators -> hide from predators",
+              "keywords": "hide from, difficulty",
+              "evidence": [
+                "The scarcity of food and the difficulty of finding anywhere suitable to hide from predators have led them to live in groups"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197631",
+              "number": 36,
+              "prompt": "Other females provide the young with _____ initially.",
+              "options": [],
+              "answer": "milk",
+              "accepted_answers": [
+                "milk"
+              ],
+              "analysis": "题干问其他雌性最初为幼崽提供什么。原文段落A第六句指出“The subordinate females produce milk for the pups... during the first three weeks of life”，其中“first three weeks”对应题干中的“initially”，而“produce milk”明确说明提供的是“milk”，故答案为“milk”。",
+              "reason": "题干中initially对应first three weeks。",
+              "location_analysis": "原文说从雌性产奶喂养幼崽，答案为milk。",
+              "paraphrasing": "provide the young with milk initially -> produce milk for the pups during the first three weeks",
+              "keywords": "produce milk, first three weeks",
+              "evidence": [
+                "The subordinate females produce milk for the pups and take care of them in their underground burrows during the first three weeks of life."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Meerkats have to survive without $1197629$ for long periods.\nThere are not many places where they can safely keep clear of $1197630$.\nOther females provide the young with $1197631$ initially.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Meerkats have to survive without $1197629$ for long periods.\nThere are not many places where they can safely keep clear of $1197630$.\nOther females provide the young with $1197631$ initially."
+        },
+        {
+          "id": "387",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 37-40\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 37-40 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197632",
+              "number": 37,
+              "prompt": "In Section B, when describing how meerkats breed, Professor Clutton-Brock is",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "concerned that this may lead to aggression within the group."
+                },
+                {
+                  "value": "B",
+                  "label": "doubtful that there will be enough food to support bigger groups."
+                },
+                {
+                  "value": "C",
+                  "label": "puzzled by the way they have evolved to assist the members of the group."
+                },
+                {
+                  "value": "D",
+                  "label": "amazed by the way a group can defend itself against other larger species."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问Prof. Clutton-Brock对meerkats繁殖方式的态度。段落B末尾引用他的话：“It is less easy to understand why... individuals might spend a large section of their lives helping other individuals”，表明他对这种利他性合作进化感到困惑。选项C“puzzled by the way they have evolved to assist the members of the group”准确反映了这一态度。",
+              "reason": "直接表达对合作进化的困惑。",
+              "location_analysis": "教授说很难理解为什么个体帮助其他个体，表示困惑，对应C。",
+              "paraphrasing": "puzzled by the way they have evolved to assist -> less easy to understand why individuals spend time helping others",
+              "keywords": "less easy to understand, helping other individuals",
+              "evidence": [
+                "‘It’s easy to understand why animals compete,’ said Professor Tim Clutton-Brock, a zoologist at the University of Cambridge. ‘It is less easy to understand why in some cases individuals might spend a large section of their lives helping other individuals.’"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及群体内部攻击性与繁殖的关系。",
+                "B": "原文未涉及食物供应对群体大小的质疑。",
+                "D": "该选项描述的是群体防御而非繁殖行为。"
+              }
+            },
+            {
+              "id": "1197633",
+              "number": 38,
+              "prompt": "What conclusion did Professor Clutton-Brock reach during his study of meerkats?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Groups are genetically related to other groups in the area."
+                },
+                {
+                  "value": "B",
+                  "label": "Females will only look after pups that look the same as them."
+                },
+                {
+                  "value": "C",
+                  "label": "Pups ignore others in the group that do not have the same mother."
+                },
+                {
+                  "value": "D",
+                  "label": "Females secure the survival of their genes by nursing the group’s pups."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问Prof. Clutton-Brock的研究结论。段落C明确指出：“other females can ensure the genes they share are passed on by helping to raise their brothers and sisters”，说明雌性通过哺育群体中的幼崽（即自己的兄弟姐妹）来确保自身基因的延续。这与选项D“Females secure the survival of their genes by nursing the group’s pups”完全一致。",
+              "reason": "明确说明雌性通过抚养群体幼崽传递基因。",
+              "location_analysis": "教授结论是雌性通过帮助抚养兄弟姐妹确保基因传递，对应D。",
+              "paraphrasing": "Females secure the survival of their genes by nursing the group’s pups -> females ensure genes passed on by helping raise brothers and sisters",
+              "keywords": "ensure the genes are passed on, helping to raise brothers and sisters",
+              "evidence": [
+                "He explains that other females can ensure the genes they share are passed on by helping to raise their brothers and sisters."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及群体间遗传关系，该选项属于无中生有。",
+                "B": "与原文矛盾，母猫鼬会照顾所有幼崽，而非仅外表相似的。",
+                "C": "张冠李戴，教授研究的是雌性行为而非幼崽行为，且幼崽不忽视非亲生幼崽。"
+              }
+            },
+            {
+              "id": "1197634",
+              "number": 39,
+              "prompt": "What does Professor Clutton-Brock think is important about lower kinship groups?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "Members value the support of others more."
+                },
+                {
+                  "value": "B",
+                  "label": "Co-operation can no longer be relied on in families."
+                },
+                {
+                  "value": "C",
+                  "label": "Members have to become smarter in order to do well."
+                },
+                {
+                  "value": "D",
+                  "label": "Cleverness is regarded as the key characteristic of a leader."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问Prof. Clutton-Brock认为低亲属关系群体中什么重要。段落D结尾总结：“if you are living in a group where not everyone is closely related... you need to be clever”，强调在亲缘关系薄弱的群体中，个体必须更聪明才能应对潜在的竞争与欺骗。这与选项C“Members have to become smarter in order to do well”逻辑一致。",
+              "reason": "直接指出需要聪明。",
+              "location_analysis": "教授说低亲属关系群体需要聪明才能应对，对应C。",
+              "paraphrasing": "Members have to become smarter in order to do well -> need to be clever to avoid disadvantage",
+              "keywords": "not closely related, need to be clever",
+              "evidence": [
+                "The moral is that if you are living in a group where not everyone is closely related to you and might be looking to disadvantage you if they get a chance, you need to be clever."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及成员更重视他人支持，属于无中生有。",
+                "B": "与原文中关于家庭合作依然重要的观点矛盾。",
+                "D": "原文并未将聪明视为领导者的关键特征，属于张冠李戴。"
+              }
+            },
+            {
+              "id": "1197635",
+              "number": 40,
+              "prompt": "Following his team’s experiment with feeding mongooses, Professor Cant",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "admits to being constantly surprised by the behaviour of the species."
+                },
+                {
+                  "value": "B",
+                  "label": "finds the mothers’ efforts to help the weakest pups admirable."
+                },
+                {
+                  "value": "C",
+                  "label": "thinks it could show some human carers in a negative light."
+                },
+                {
+                  "value": "D",
+                  "label": "is unsure what later findings of the study will reveal."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问Prof. Cant在喂食实验后的看法。段落F中他坦言：“[Banded] mongooses always [seem to] do the opposite of what we think they should do”，并提到自己原本假设体型大的幼崽会有优势，但结果相反。这表明他对猫鼬的行为持续感到惊讶，与选项A“admits to being constantly surprised by the behaviour of the species”完全对应。",
+              "reason": "直接表达意外。",
+              "location_analysis": "Cant教授说猫鼬总是做与预期相反的事，表明惊讶，对应A。",
+              "paraphrasing": "admits to being constantly surprised -> always do the opposite of what we think they should do",
+              "keywords": "do the opposite of what we think",
+              "evidence": [
+                "‘[Banded] mongooses always [seem to] do the opposite of what we think they should do,’ said Prof. Cant"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "原文中教授并未对母亲帮助最弱幼崽的行为表示钦佩，属于无中生有。",
+                "C": "原文未提及该实验对某些人类照顾者产生负面启示，属于过度推断。",
+                "D": "原文中教授对后续发现持有明确态度，并非不确定。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Why some mammals have developed a cooperative approach to raising their young",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Meerkats are one of the most cooperative species of mammal on the planet.",
+          "translation": "猫鼬是地球上最具合作性的哺乳动物物种之一。"
+        },
+        {
+          "index": 2,
+          "sentence": "Their home is in the flat, arid landscape of the huge Kalahari Desert in Southern Africa where there is no water throughout many months of the year.",
+          "translation": "它们的家园位于南部非洲广阔的喀拉哈里沙漠平坦、干旱的地带，那里一年中有好几个月没有水。"
+        },
+        {
+          "index": 3,
+          "sentence": "The scarcity of food and the difficulty of finding anywhere suitable to hide from predators have led them to live in groups where they share the roles of food hunters.",
+          "translation": "食物的稀缺以及难以找到合适的藏身之处躲避捕食者，导致它们群居生活，并分担寻找食物的角色。"
+        },
+        {
+          "index": 4,
+          "sentence": "Meerkats live in large families of up to 50 individuals, but only one dominant male and female will breed, while their pups are fed and raised by the others in the group.",
+          "translation": "猫鼬生活在多达50只个体的大家庭中，但只有一对占主导地位的雄性和雌性会繁殖，而它们的幼崽则由群体中的其他成员喂养和抚养。"
+        },
+        {
+          "index": 5,
+          "sentence": "The subordinate females produce milk for the pups and take care of them in their underground burrows during the first three weeks of life.",
+          "translation": "处于从属地位的雌性为幼崽产奶，并在它们生命的前三周里在地下洞穴中照顾它们。"
+        },
+        {
+          "index": 6,
+          "sentence": "For the next three months these females continue to provide their nutrition by giving away up to 40% of the food they find.",
+          "translation": "在接下来的三个月里，这些雌性继续通过贡献出它们找到的多达40%的食物来提供营养。"
+        },
+        {
+          "index": 7,
+          "sentence": "This strategy is hugely successful — dominant female meerkats can produce up to 20 pups in a year, increasing their group’s size so they can hold precious land against rival families.",
+          "translation": "这种策略非常成功——占主导地位的雌性猫鼬一年可以产下多达20只幼崽，从而扩大其群体的规模，以便能够守住宝贵的领地，对抗敌对家族。"
+        },
+        {
+          "index": 8,
+          "sentence": "But the evolution of this strategy makes little sense when individuals are typically out to help themselves.",
+          "translation": "但是，当个体通常只顾自己时，这种策略的进化就没什么意义了。"
+        },
+        {
+          "index": 9,
+          "sentence": "In most animals, the drive for survival and to pass on their own genes means few will help to raise the offspring of others and in some cases, such as lions and some monkeys, they will even kill the young of rivals. ‘It’s easy to understand why animals compete,’ said Professor Tim Clutton-Brock, a zoologist at the University of Cambridge. ‘It is less easy to understand why in some cases individuals might spend a large section of their lives helping other individuals.’",
+          "translation": "在大多数动物中，生存和传递自身基因的本能意味着很少有动物会帮助抚养其他个体的后代，在某些情况下，例如狮子和一些猴子，它们甚至会杀死竞争对手的幼崽。剑桥大学的动物学家Tim Clutton-Brock教授说：‘理解动物为何竞争很容易，但理解为什么在某些情况下个体会花费生命中的大部分时间来帮助其他个体就不那么容易了。’"
+        },
+        {
+          "index": 10,
+          "sentence": "This is what Prof. Clutton-Brock and his colleagues set out to understand as part of an ambitious six-year project.",
+          "translation": "这正是Clutton-Brock教授及其同事着手去理解的问题，作为一个雄心勃勃的六年项目的一部分。"
+        },
+        {
+          "index": 11,
+          "sentence": "They observed and monitored more than 700 wild meerkats from 30 different groups in the Kalahari, taking genetic and hormone samples of the animals throughout their lives.",
+          "translation": "他们观察并监测了喀拉哈里沙漠中来自30个不同群体的700多只野生猫鼬，并在它们的一生中采集了基因和激素样本。"
+        },
+        {
+          "index": 12,
+          "sentence": "They found that meerkats show an unusually high level of kinship to others in their group compared to that found in other social animals, such as African hunting dogs and primates.",
+          "translation": "他们发现，与其他群居动物（如非洲猎犬和灵长类动物）相比，猫鼬与群体内其他成员的亲缘关系异常高。"
+        },
+        {
+          "index": 13,
+          "sentence": "In other words, almost all members of a meerkat group are brothers and sisters.",
+          "translation": "换句话说，一个猫鼬群体中几乎所有的成员都是兄弟姐妹。"
+        },
+        {
+          "index": 14,
+          "sentence": "As the meerkats within a group all share copies of the same genes, it means they also have a vested interest in ensuring that their mother’s offspring reach adulthood, says Prof. Clutton-Brock.",
+          "translation": "Clutton-Brock教授说，由于群体内的猫鼬都共享相同基因的副本，这意味着它们也都有既得利益，要确保它们母亲的后代能活到成年。"
+        },
+        {
+          "index": 15,
+          "sentence": "He explains that other females can ensure the genes they share are passed on by helping to raise their brothers and sisters. ‘It makes cooperation much stronger.’",
+          "translation": "他解释说，其他雌性可以通过帮助抚养它们的兄弟姐妹来确保它们共享的基因得以传递。‘这使得合作更加牢固。’"
+        },
+        {
+          "index": 16,
+          "sentence": "In other social animals, such as chimpanzees and baboons, kinship is much lower within groups.",
+          "translation": "在其他群居动物中，例如黑猩猩和狒狒，群体内的亲缘关系要低得多。"
+        },
+        {
+          "index": 17,
+          "sentence": "This means that higher primates, including humans, have to engage in far more social manoeuvering and alliance-forming within their group, Prof. Clutton-Brock says.",
+          "translation": "Clutton-Brock教授说，这意味着包括人类在内的高等灵长类动物必须在群体内进行更多的社交周旋和联盟形成。"
+        },
+        {
+          "index": 18,
+          "sentence": "This could have been one of the driving forces for the increases in intelligence and brain size seen in humans. ‘Most of the animals that live in groups with low levels of kinship tend to be what we would regard as cognitively developed,’ said Prof. Clutton-Brock.",
+          "translation": "这可能是人类智力和脑容量增长的驱动力之一。Clutton-Brock教授说：‘大多数生活在亲缘关系水平低的群体中的动物，往往是我们认为认知发达的动物。’"
+        },
+        {
+          "index": 19,
+          "sentence": "Even humans live in groups with very low average levels of relatedness.",
+          "translation": "即使是人类也生活在平均亲缘关系水平非常低的群体中。"
+        },
+        {
+          "index": 20,
+          "sentence": "The moral is that if you are living in a group where not everyone is closely related to you and might be looking to disadvantage you if they get a chance, you need to be clever.",
+          "translation": "其中的寓意是，如果你生活在一个并非每个人都与你关系密切的群体中，并且他们可能一有机会就会对你不利，那么你就需要聪明一点。"
+        },
+        {
+          "index": 21,
+          "sentence": "Other cooperative animals have evolved different strategies to help ensure the group sticks together.",
+          "translation": "其他具有合作性的动物已经进化出不同的策略来帮助确保群体团结在一起。"
+        },
+        {
+          "index": 22,
+          "sentence": "Banded mongooses, the meerkats’ larger cousins, create a ‘veil of ignorance’ that helps to ensure the group work together to raise their young.",
+          "translation": "带状猫鼬是狐獴的较大表亲，它们会制造一种‘无知之幕’，有助于确保群体共同抚养幼崽。"
+        },
+        {
+          "index": 23,
+          "sentence": "Unlike meerkats, four to six females breed at the same time.",
+          "translation": "与狐獴不同，四到六只雌性会同时繁殖。"
+        },
+        {
+          "index": 24,
+          "sentence": "While younger females typically mate a few days after the older ones, they synchronise their pregnancies so all the females give birth on exactly the same morning.",
+          "translation": "虽然较年轻的雌性通常比年长的晚几天交配，但它们会同步怀孕，以便所有雌性都在同一天早上分娩。"
+        },
+        {
+          "index": 25,
+          "sentence": "The communal litter is then raised by the group.",
+          "translation": "然后，这一窝共同的幼崽由群体抚养。"
+        },
+        {
+          "index": 26,
+          "sentence": "Professor Michael Cant, an evolutionary biologist at the University of Exeter, UK, who has been studying mongooses since 1995, says, ‘Synchronising to give birth at the same moment is a way to avoid infanticide.",
+          "translation": "英国埃克塞特大学的进化生物学家迈克尔·坎特教授自1995年以来一直在研究猫鼬，他说：‘同步到同一时刻分娩是避免杀婴的一种方式。"
+        },
+        {
+          "index": 27,
+          "sentence": "We think none of the females know who their own pups are so they care for all of them just in case they are their own.’",
+          "translation": "我们认为没有雌性知道哪些是自己的幼崽，所以它们会照顾所有幼崽，以防其中有自己的。’"
+        },
+        {
+          "index": 28,
+          "sentence": "It is a selfish act that leads to something like a true community.",
+          "translation": "这是一种自私的行为，却导致了类似真正社群的结果。"
+        },
+        {
+          "index": 29,
+          "sentence": "To examine this behaviour in more detail, Prof. Cant and his team fed half of the breeding females in each mongoose group with additional nutrient-rich food during pregnancy.",
+          "translation": "为了更详细地研究这种行为，坎特教授和他的团队在怀孕期间给每个猫鼬群体中一半的繁殖雌性额外喂食了营养丰富的食物。"
+        },
+        {
+          "index": 30,
+          "sentence": "They found that while the mothers that had been fed the extra food gave birth to larger pups, they then worked extra hard to raise the offspring of mothers who had not had the extra food, levelling out the differences between them. ‘[Banded] mongooses always [seem to] do the opposite of what we think they should do,’ said Prof. Cant, whose assumption had been that pups who were bigger at birth would benefit from their head start in life.",
+          "translation": "他们发现，虽然吃了额外食物的母亲产下了更大的幼崽，但它们随后会格外努力地抚养那些没有吃到额外食物的母亲的后代，从而拉平了它们之间的差异。坎特教授说：‘[带状]猫鼬似乎总是做出与我们预期相反的行为。’他原本的假设是，出生时更大的幼崽会受益于其人生起步的优势。"
+        },
+        {
+          "index": 31,
+          "sentence": "Instead, the females focused on raising the weakest individuals.",
+          "translation": "相反，雌性专注于抚养最弱的个体。"
+        },
+        {
+          "index": 32,
+          "sentence": "Further results due to be published later also show that those whose mothers were not fed extra food during pregnancy may actually end up doing better in later life.",
+          "translation": "稍后将要发表的进一步结果还显示，那些母亲在怀孕期间未获得额外食物的个体，实际上可能在日后的生活中表现得更好。"
+        },
+        {
+          "index": 33,
+          "sentence": "Prof. Cant believes that the results could also have implications for testing theories of cooperation in humans. ‘Humans are cooperative breeders — our offspring are raised by grandparents and siblings as well as their parents.’",
+          "translation": "坎特教授认为，这些结果也可能对检验人类合作理论具有启示意义。‘人类是合作繁殖者——我们的后代由祖父母、兄弟姐妹以及父母共同抚养。’"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    }
+  ],
+  "question_count": 40
+}

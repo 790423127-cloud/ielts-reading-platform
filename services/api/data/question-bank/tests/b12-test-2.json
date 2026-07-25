@@ -1,0 +1,2866 @@
+{
+  "id": "b12-test-2",
+  "book": "剑雅12",
+  "book_number": 12,
+  "name": "Test 2",
+  "title": "剑雅12 Test 2",
+  "parts": [
+    {
+      "id": "2084",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Lost, Damaged or Delayed Inland Mail Claim Form",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Before completing this claim form for lost, damaged or delayed mail you should visit www.royalmail.com to find out all you need to know about our policies.Alternatively you can get the details from our 'Mail Made Easy' booklet, available at any local post office branch. When you fill in the form, make sure you complete it in full, using the checklist that we have provided to help you. If you find that you do not have the evidence required to make a claim but would like us to investigate an issue with your mail service, the easiest way to do this is by visiting our website.",
+          "translation": "在填写此份关于遗失、损坏或延误邮件的索赔表之前，您应访问www.royalmail.com以了解我们政策的所有相关信息。\n或者，您可以从我们的《邮件轻松办》手册中获取详细信息，该手册可在任何当地邮局分支机构获取。\n填写表格时，请确保使用我们提供的核对清单来帮助您完整填写。\n如果您发现自己没有提出索赔所需的证据，但希望我们调查您的邮件服务问题，最简单的方法就是访问我们的网站。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Lost items",
+          "translation": "丢失物品"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "If you wish to claim compensation for lost items, you need to send us original proof of posting, e.g. a Post Office receipt. If claiming for the contents of a package, you also need to provide proof of value,e.g. till item reference number, receipt, bank statement, etc.",
+          "translation": "丢失物品\n如果您希望就丢失物品申请赔偿，您需要向我们提供原始的邮寄证明，例如邮局收据。\n如果就包裹内的物品索赔，您还需要提供价值证明，例如收银机商品参考编号、收据、银行对账单等。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Damaged items",
+          "translation": "损坏物品"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "When claiming compensation for items that have been damaged, you should send us the items themselves, if possible.However, if these are very large or unsafe to post, you may instead provide photographs as evidence of the damage.Please retain the original packaging (and damaged items, if not sent to us) as we may need to inspect them.",
+          "translation": "损坏物品\n当申请物品损坏赔偿时，如果可能，您应将物品本身寄送给我们。\n然而，如果物品体积过大或邮寄不安全，您可以提供照片作为损坏证据。\n请保留原始包装（以及未寄送给我们的损坏物品），因为我们可能需要进行检查。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Time restrictions",
+          "translation": "时间限制"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "We allow up to 15 working days for items to arrive, so cannot accept a claim for loss unless 15 working days or more have passed since the item was posted.",
+          "translation": "我们允许最多15个工作日让物品送达，因此除非自物品寄出后已过去15个工作日或更长时间，否则我们无法受理丢失索赔。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Claims for lost or damaged items must be made within 12 months of the postal date. Claims for delayed items must be submitted within 3 months of the date they were posted if the claim is made by the sender, or within 1 month of receipt if the claim is made by the recipient of the item.",
+          "translation": "损坏物品\n对于丢失或损坏物品的索赔必须在邮寄日期后的12个月内提出。\n对于延迟物品的索赔，如果由寄件人提出，则必须在邮寄日期后的3个月内提交；如果由收件人提出，则必须在收到物品后的1个月内提交。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Days out for the family",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "适合全家人的外出游玩日"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "A Carrickfergus Castle",
+          "translation": "A 卡里克弗格斯城堡"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Considered to be Northern Ireland's oldest castle, Carrickfergus has seen more than 800 years of military occupation since its foundations were laid. During summer, traditional feasts are served, and fairs and craft markets provide an extra attraction. The history of the castle is explained and brought to life with exhibits and guided tours.",
+          "translation": "卡里克弗格斯城堡被认为是北爱尔兰最古老的城堡，自其地基建成以来，已历经超过800年的军事占领。\n夏季期间，这里会提供传统盛宴，而集市和手工艺品市场则增添了额外的吸引力。\n通过展品和导览游览，城堡的历史得以讲解并生动呈现。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "B Glamis Castle",
+          "translation": "B 格拉姆斯城堡"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Shakespeare used Glamis as the background when he wrote one of his best-known plays, Macbeth, and the Queen Mother grew up here. It is also rumoured to have a secret chamber in the walls of the castle.There are many ghost tales associated with this castle, which will capture the imagination of younger visitors.",
+          "translation": "莎士比亚在创作他最著名的戏剧之一《麦克白》时，以格拉姆斯城堡为背景，而伊丽莎白王太后正是在这里长大的。\n此外，有传闻称城堡的墙壁内有一个秘密房间。\n与这座城堡相关的众多鬼怪故事会激发年轻游客的想象力。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "C Tintagel Castle",
+          "translation": "C 廷塔杰尔城堡"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "High up on the cliff tops,Tintagel Castle is the legendary home of King Arthur. The visitor's guide on sale at the reception is well worth the money, as it can help you to visualise what it would have been like hundreds of years ago. You can park in the village car park and walk the half mile to the castle, or take the shuttle bus.",
+          "translation": "高高地矗立在悬崖顶上，廷塔杰尔城堡是传说中亚瑟王的故乡。\n接待处出售的游客指南物超所值，因为它能帮助你想象出数百年前这里的景象。\n你可以把车停在村里的停车场，然后步行半英里到达城堡，或者乘坐穿梭巴士。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "D Pickering Castle",
+          "translation": "D 皮克林城堡"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Built by William the Conqueror, this is a great castle for children to run around in. There are lots of special events too, including a chance to come along and see some plays which are put on during the summer months. Nearby Helmsley Castle is also worth a visit.",
+          "translation": "由征服者威廉建造，这座城堡非常适合孩子们四处奔跑玩耍。\n这里还有许多特别活动，包括有机会前来观看夏季上演的一些戏剧。\n附近的赫姆斯利城堡也值得一游。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "E Stokesay Castle",
+          "translation": "E 斯托克赛城堡"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "A range of workshops, including music and combat, are held here during the summer. Children of all ages will enjoy learning at these and there is a guided tour which has been especially designed with younger visitors in mind.Some of them may find the dungeon quite scary though.",
+          "translation": "夏季期间，这里会举办一系列工作坊，包括音乐和格斗活动。\n各个年龄段的孩子都会喜欢在这类活动中学习，并且这里还设有专门为年轻游客设计的导览游。\n不过，有些孩子可能会觉得地牢相当可怕。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "F Warwick Castle",
+          "translation": "F 沃里克城堡"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "This castle is over 1,000 years old and has towers and a moat, and is just as you might imagine a castle to be.Children can even get to try on armour to see how heavy it is. At Christmas, a special market is held here - a great opportunity to look for presents and Christmas treats.",
+          "translation": "这座城堡已有超过1000年的历史，拥有塔楼和护城河，正如你想象中的城堡模样。\n孩子们甚至可以试穿盔甲，感受它有多重。\n圣诞节期间，这里会举办一个特别市场——是寻找礼物和圣诞美食的绝佳机会。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15717",
+          "type": 8,
+          "title": "Claiming compensation from the Royal Mail for lost,",
+          "instructions": "Questions 1 - 7\nComplete the notes below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120367",
+              "number": 1,
+              "prompt": "• go online to learn about their policies or get the _____ that contains the relevant information",
+              "options": [],
+              "answer": "booklet",
+              "accepted_answers": [
+                "booklet"
+              ],
+              "analysis": "题干中提到‘get the... that contains the relevant information’，对应原文中的‘get the details from our \"Mail Made Easy\" booklet’。这里的‘booklet’即为所填答案，因为该小册子在邮局可获取，并包含相关政策信息，与题干要求完全一致。",
+              "reason": "直接对应题干",
+              "location_analysis": "'Mail Made Easy' booklet 即 booklet 的同义表达。",
+              "paraphrasing": "get the booklet -> get the 'Mail Made Easy' booklet",
+              "keywords": "get, booklet",
+              "evidence": [
+                "Alternatively you can get the details from our 'Mail Made Easy' booklet, available at any local post office branch."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120368",
+              "number": 2,
+              "prompt": "• refer to the _____ to ensure all the relevant sections are completed",
+              "options": [],
+              "answer": "checklist",
+              "accepted_answers": [
+                "checklist"
+              ],
+              "analysis": "题干要求填写表格时需参考某物以确保所有相关内容都已填写，原文明确指出‘using the checklist that we have provided to help you’，说明应使用提供的清单（checklist）来完成表格，因此答案为‘checklist’。",
+              "reason": "直接对应题干",
+              "location_analysis": "原文使用 'using the checklist' 与题干同义。",
+              "paraphrasing": "refer to the checklist -> using the checklist",
+              "keywords": "checklist",
+              "evidence": [
+                "When you fill in the form, make sure you complete it in full, using the checklist that we have provided to help you."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120369",
+              "number": 3,
+              "prompt": "(You can use their _____ to request action if you don't have enough proof to make a claim.)",
+              "options": [],
+              "answer": "website",
+              "accepted_answers": [
+                "website"
+              ],
+              "analysis": "题干中提到‘use their... to request action if you don't have enough proof’，而原文指出‘the easiest way to do this is by visiting our website’，即通过访问官网来请求调查服务问题。因此，此处应填‘website’，与题干中的‘use their...’形成同义对应。",
+              "reason": "直接对应题干",
+              "location_analysis": "题干 use their website 对应原文 visit our website。",
+              "paraphrasing": "use their website -> visit our website",
+              "keywords": "website",
+              "evidence": [
+                "If you find that you do not have the evidence required to make a claim but would like us to investigate an issue with your mail service, the easiest way to do this is by visiting our website."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120370",
+              "number": 4,
+              "prompt": "• in the case of a package, include something (e.g. bank statement) to prove its _____.",
+              "options": [],
+              "answer": "value",
+              "accepted_answers": [
+                "value"
+              ],
+              "analysis": "题干要求提供证明包裹内容价值的材料，如银行对账单。原文在‘Lost items’部分明确说明：‘If claiming for the contents of a package, you also need to provide proof of value, e.g. till item reference number, receipt, bank statement, etc.’，因此答案为‘value’，直接对应‘proof of value’。",
+              "reason": "直接对应",
+              "location_analysis": "原文要求提供价值证明，如银行对账单。",
+              "paraphrasing": "prove its value -> proof of value",
+              "keywords": "proof of value, contents",
+              "evidence": [],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120371",
+              "number": 5,
+              "prompt": "• either the actual item or _____ showing the damage to the item",
+              "options": [],
+              "answer": "photograph",
+              "accepted_answers": [
+                "photograph"
+              ],
+              "analysis": "题干询问损坏物品索赔时可提交什么替代实物，原文在‘Damaged items’部分指出：‘you may instead provide photographs as evidence of the damage’，即可用照片作为损坏证据。因此答案是‘photograph’，符合‘NO MORE THAN TWO WORDS’的要求。",
+              "reason": "直接对应题干",
+              "location_analysis": "题干要求的是 photographs showing damage。",
+              "paraphrasing": "photograph showing the damage -> provide photographs as evidence of the damage",
+              "keywords": "photographs, damage",
+              "evidence": [
+                "However, if these are very large or unsafe to post, you may instead provide photographs as evidence of the damage."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120372",
+              "number": 6,
+              "prompt": "(You should keep the _____ that was used when the item was originally sent.)",
+              "options": [],
+              "answer": "packaging",
+              "accepted_answers": [
+                "packaging"
+              ],
+              "analysis": "题干要求保留寄送时使用的包装，原文明确说明：‘Please retain the original packaging (and damaged items, if not sent to us) as we may need to inspect them’，其中‘original packaging’即指寄送时所用的包装，因此答案为‘packaging’。",
+              "reason": "直接对应题干",
+              "location_analysis": "题干 keep the packaging，原文 retain the original pa...",
+              "paraphrasing": "the packaging that was used -> the original packaging",
+              "keywords": "packaging, original packaging",
+              "evidence": [
+                "Please retain the original packaging (and damaged items, if not sent to us) as we may need to inspect them."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120373",
+              "number": 7,
+              "prompt": "• Delayed items: if you are the _____, you must claim within three months of posting the package",
+              "options": [],
+              "answer": "sender",
+              "accepted_answers": [
+                "sender"
+              ],
+              "analysis": "题干指出若你是某类人，须在寄件后三个月内提出延误索赔。原文在‘Time restrictions’部分说明：‘Claims for delayed items must be submitted within 3 months of the date they were posted if the claim is made by the sender’，因此此处应填‘sender’，与题干逻辑完全吻合。",
+              "reason": "直接对应题干",
+              "location_analysis": "题干 if you are the sender，原文 if the claim is mad...",
+              "paraphrasing": "if you are the sender -> if the claim is made by the sender",
+              "keywords": "sender, claim within three months",
+              "evidence": [
+                "Claims for delayed items must be submitted within 3 months of the date they were posted if the claim is made by the sender, or within 1 month of receipt if the claim is made by the recipient of the item."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "damaged or delayed mail\nBefore filling in the form\n• go online to learn about their policies or get the $120367$ that contains the relevant information\nWhen filling in the form\n• refer to the $120368$ to ensure all the relevant sections are completed\n(You can use their $120369$ to request action if you don't have enough proof to make a claim.)\nWhen claiming compensation for a lost item\n• include proof that you have posted the item\n• in the case of a package, include something (e.g. bank statement) to prove its $120370$.\nWhen claiming for the cost of a damaged item, include\n• either the actual item or $120371$ showing the damage to the item\n(You should keep the $120372$ that was used when the item was originally sent.)\nWhen to claim\n• Lost or damaged items: within 12 months of posting the item\n• Delayed items: if you are the $120373$, you must claim within three months of posting the package",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "damaged or delayed mail\nBefore filling in the form\n• go online to learn about their policies or get the $120367$ that contains the relevant information\nWhen filling in the form\n• refer to the $120368$ to ensure all the relevant sections are completed\n(You can use their $120369$ to request action if you don't have enough proof to make a claim.)\nWhen claiming compensation for a lost item\n• include proof that you have posted the item\n• in the case of a package, include something (e.g. bank statement) to prove its $120370$.\nWhen claiming for the cost of a damaged item, include\n• either the actual item or $120371$ showing the damage to the item\n(You should keep the $120372$ that was used when the item was originally sent.)\nWhen to claim\n• Lost or damaged items: within 12 months of posting the item\n• Delayed items: if you are the $120373$, you must claim within three months of posting the package"
+        },
+        {
+          "id": "15719",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 8 - 14\nLook at the descriptions of six castles, A-F.\nFor which castle are the following statements true?\nWrite the correct letter, A-F, in boxes 8-14 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120374",
+              "number": 8,
+              "prompt": "At certain times of year you can eat special meals here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干描述‘At certain times of year you can eat special meals here’，对应A段Carrickfergus Castle的内容：‘During summer, traditional feasts are served’。‘Traditional feasts’即特殊餐食，且限定在夏季，符合‘certain times of year’，因此答案为A。",
+              "reason": "直接对应题干",
+              "location_analysis": "Castle A 描述中明确提到传统盛宴。",
+              "paraphrasing": "eat special meals -> traditional feasts are served",
+              "keywords": "eat special meals, traditional feasts",
+              "evidence": [
+                "During summer, traditional feasts are served, and fairs and craft markets provide an extra attraction."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120375",
+              "number": 9,
+              "prompt": "Children can get dressed up here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干‘Children can get dressed up here’对应F段Warwick Castle的描述：‘Children can even get to try on armour to see how heavy it is’。‘Try on armour’属于装扮行为，与‘get dressed up’形成同义替换，因此答案为F。",
+              "reason": "直接对应题干",
+              "location_analysis": "Castle F 描述让孩子试穿盔甲。",
+              "paraphrasing": "get dressed up -> try on armour",
+              "keywords": "get dressed up, try on armour",
+              "evidence": [
+                "Children can even get to try on armour to see how heavy it is."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120376",
+              "number": 10,
+              "prompt": "There is another castle in the same area.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干‘There is another castle in the same area’对应D段Pickering Castle的句子：‘Nearby Helmsley Castle is also worth a visit’。‘Nearby’表明同一区域存在另一座城堡，因此答案为D。",
+              "reason": "直接对应题干",
+              "location_analysis": "Castle D: 'Nearby Helmsley Castle' 表明附近有另一城堡。",
+              "paraphrasing": "another castle -> Nearby Helmsley Castle is also worth a visit",
+              "keywords": "another castle, Helmsley Castle",
+              "evidence": [
+                "Nearby Helmsley Castle is also worth a visit."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120377",
+              "number": 11,
+              "prompt": "A lot of stories are told about this place.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干‘A lot of stories are told about this place’对应B段Glamis Castle的内容：‘There are many ghost tales associated with this castle’。‘Ghost tales’即各类故事，且数量多（many），完全匹配题干描述，因此答案为B。",
+              "reason": "直接对应题干",
+              "location_analysis": "Castle B 有许多鬼故事传说。",
+              "paraphrasing": "stories -> ghost tales",
+              "keywords": "stories, ghost tales",
+              "evidence": [
+                "There are many ghost tales associated with this castle, which will capture the imagination of younger visitors."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120378",
+              "number": 12,
+              "prompt": "Part of the castle may be frightening for some children.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干‘Part of the castle may be frightening for some children’对应E段Stokesay Castle的描述：‘Some of them may find the dungeon quite scary though’。‘Dungeon’（地牢）是城堡的一部分，且明确指出可能让儿童感到害怕，因此答案为E。",
+              "reason": "直接对应题干",
+              "location_analysis": "Castle E: 地牢对孩子们来说可能很可怕。",
+              "paraphrasing": "frightening for children -> the dungeon quite scary",
+              "keywords": "frightening, dungeon",
+              "evidence": [
+                "Some of them may find the dungeon quite scary though."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120379",
+              "number": 13,
+              "prompt": "Plays are performed here during part of the year.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干‘Plays are performed here during part of the year’对应D段Pickering Castle的内容：‘see some plays which are put on during the summer months’。‘Summer months’即一年中的部分时间，且明确提到有戏剧演出，因此答案为D。",
+              "reason": "直接对应题干",
+              "location_analysis": "Castle D 夏季有戏剧表演。",
+              "paraphrasing": "plays performed -> see some plays which are put on during the summer months",
+              "keywords": "plays performed, summer months",
+              "evidence": [
+                "There are lots of special events too, including a chance to come along and see some plays which are put on during the summer months."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120380",
+              "number": 14,
+              "prompt": "A guided tour is offered which is particularly suitable for children.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干‘A guided tour is offered which is particularly suitable for children’对应E段Stokesay Castle的描述：‘there is a guided tour which has been especially designed with younger visitors in mind’。‘Younger visitors’即儿童，且导览专为其设计，完全符合题干要求，因此答案为E。",
+              "reason": "直接对应题干",
+              "location_analysis": "Castle E 的导览游览专为儿童设计。",
+              "paraphrasing": "guided tour suitable for children -> guided tour especially designed with younger visitors in mind",
+              "keywords": "guided tour, younger visitors",
+              "evidence": [
+                "Children of all ages will enjoy learning at these and there is a guided tour which has been especially designed with younger visitors in mind."
+              ],
+              "confidence": 0.9,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Days out for the family",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Before completing this claim form for lost, damaged or delayed mail you should visit www.royalmail.com to find out all you need to know about our policies.",
+          "translation": "在填写此份关于遗失、损坏或延误邮件的索赔表之前，您应访问www.royalmail.com以了解我们政策的所有相关信息。"
+        },
+        {
+          "index": 2,
+          "sentence": "Alternatively you can get the details from our 'Mail Made Easy' booklet, available at any local post office branch.",
+          "translation": "或者，您可以从我们的《邮件轻松办》手册中获取详细信息，该手册可在任何当地邮局分支机构获取。"
+        },
+        {
+          "index": 3,
+          "sentence": "When you fill in the form, make sure you complete it in full, using the checklist that we have provided to help you.",
+          "translation": "填写表格时，请确保使用我们提供的核对清单来帮助您完整填写。"
+        },
+        {
+          "index": 4,
+          "sentence": "If you find that you do not have the evidence required to make a claim but would like us to investigate an issue with your mail service, the easiest way to do this is by visiting our website.",
+          "translation": "如果您发现自己没有提出索赔所需的证据，但希望我们调查您的邮件服务问题，最简单的方法就是访问我们的网站。"
+        },
+        {
+          "index": 5,
+          "sentence": "Lost items",
+          "translation": "丢失物品"
+        },
+        {
+          "index": 6,
+          "sentence": "If you wish to claim compensation for lost items, you need to send us original proof of posting, e.g. a Post Office receipt.",
+          "translation": "如果您希望就丢失物品申请赔偿，您需要向我们提供原始的邮寄证明，例如邮局收据。"
+        },
+        {
+          "index": 7,
+          "sentence": "If claiming for the contents of a package, you also need to provide proof of value, e.g. till item reference number, receipt, bank statement, etc.",
+          "translation": "如果就包裹内的物品索赔，您还需要提供价值证明，例如收银机商品参考编号、收据、银行对账单等。"
+        },
+        {
+          "index": 8,
+          "sentence": "Damaged items",
+          "translation": "损坏物品"
+        },
+        {
+          "index": 9,
+          "sentence": "When claiming compensation for items that have been damaged, you should send us the items themselves, if possible.",
+          "translation": "当申请物品损坏赔偿时，如果可能，您应将物品本身寄送给我们。"
+        },
+        {
+          "index": 10,
+          "sentence": "However, if these are very large or unsafe to post, you may instead provide photographs as evidence of the damage.",
+          "translation": "然而，如果物品体积过大或邮寄不安全，您可以提供照片作为损坏证据。"
+        },
+        {
+          "index": 11,
+          "sentence": "Please retain the original packaging (and damaged items, if not sent to us) as we may need to inspect them.",
+          "translation": "请保留原始包装（以及未寄送给我们的损坏物品），因为我们可能需要进行检查。"
+        },
+        {
+          "index": 12,
+          "sentence": "Time restrictions",
+          "translation": "时间限制"
+        },
+        {
+          "index": 13,
+          "sentence": "We allow up to 15 working days for items to arrive, so cannot accept a claim for loss unless 15 working days or more have passed since the item was posted.",
+          "translation": "我们允许最多15个工作日让物品送达，因此除非自物品寄出后已过去15个工作日或更长时间，否则我们无法受理丢失索赔。"
+        },
+        {
+          "index": 14,
+          "sentence": "Claims for lost or damaged items must be made within 12 months of the postal date.",
+          "translation": "对于丢失或损坏物品的索赔必须在邮寄日期后的12个月内提出。"
+        },
+        {
+          "index": 15,
+          "sentence": "Claims for delayed items must be submitted within 3 months of the date they were posted if the claim is made by the sender, or within 1 month of receipt if the claim is made by the recipient of the item.",
+          "translation": "对于延迟物品的索赔，如果由寄件人提出，则必须在邮寄日期后的3个月内提交；如果由收件人提出，则必须在收到物品后的1个月内提交。"
+        },
+        {
+          "index": 16,
+          "sentence": "Days out for the family",
+          "translation": "适合全家人的外出游玩日"
+        },
+        {
+          "index": 17,
+          "sentence": "A Carrickfergus Castle",
+          "translation": "A 卡里克弗格斯城堡"
+        },
+        {
+          "index": 18,
+          "sentence": "Considered to be Northern Ireland's oldest castle, Carrickfergus has seen more than 800 years of military occupation since its foundations were laid.",
+          "translation": "卡里克弗格斯城堡被认为是北爱尔兰最古老的城堡，自其地基建成以来，已历经超过800年的军事占领。"
+        },
+        {
+          "index": 19,
+          "sentence": "During summer, traditional feasts are served, and fairs and craft markets provide an extra attraction.",
+          "translation": "夏季期间，这里会提供传统盛宴，而集市和手工艺品市场则增添了额外的吸引力。"
+        },
+        {
+          "index": 20,
+          "sentence": "The history of the castle is explained and brought to life with exhibits and guided tours.",
+          "translation": "通过展品和导览游览，城堡的历史得以讲解并生动呈现。"
+        },
+        {
+          "index": 21,
+          "sentence": "B Glamis Castle",
+          "translation": "B 格拉姆斯城堡"
+        },
+        {
+          "index": 22,
+          "sentence": "Shakespeare used Glamis as the background when he wrote one of his best-known plays, Macbeth, and the Queen Mother grew up here.",
+          "translation": "莎士比亚在创作他最著名的戏剧之一《麦克白》时，以格拉姆斯城堡为背景，而伊丽莎白王太后正是在这里长大的。"
+        },
+        {
+          "index": 23,
+          "sentence": "It is also rumoured to have a secret chamber in the walls of the castle.",
+          "translation": "此外，有传闻称城堡的墙壁内有一个秘密房间。"
+        },
+        {
+          "index": 24,
+          "sentence": "There are many ghost tales associated with this castle, which will capture the imagination of younger visitors.",
+          "translation": "与这座城堡相关的众多鬼怪故事会激发年轻游客的想象力。"
+        },
+        {
+          "index": 25,
+          "sentence": "C Tintagel Castle",
+          "translation": "C 廷塔杰尔城堡"
+        },
+        {
+          "index": 26,
+          "sentence": "High up on the cliff tops, Tintagel Castle is the legendary home of King Arthur.",
+          "translation": "高高地矗立在悬崖顶上，廷塔杰尔城堡是传说中亚瑟王的故乡。"
+        },
+        {
+          "index": 27,
+          "sentence": "The visitor's guide on sale at the reception is well worth the money, as it can help you to visualise what it would have been like hundreds of years ago.",
+          "translation": "接待处出售的游客指南物超所值，因为它能帮助你想象出数百年前这里的景象。"
+        },
+        {
+          "index": 28,
+          "sentence": "You can park in the village car park and walk the half mile to the castle, or take the shuttle bus.",
+          "translation": "你可以把车停在村里的停车场，然后步行半英里到达城堡，或者乘坐穿梭巴士。"
+        },
+        {
+          "index": 29,
+          "sentence": "D Pickering Castle",
+          "translation": "D 皮克林城堡"
+        },
+        {
+          "index": 30,
+          "sentence": "Built by William the Conqueror, this is a great castle for children to run around in.",
+          "translation": "由征服者威廉建造，这座城堡非常适合孩子们四处奔跑玩耍。"
+        },
+        {
+          "index": 31,
+          "sentence": "There are lots of special events too, including a chance to come along and see some plays which are put on during the summer months.",
+          "translation": "这里还有许多特别活动，包括有机会前来观看夏季上演的一些戏剧。"
+        },
+        {
+          "index": 32,
+          "sentence": "Nearby Helmsley Castle is also worth a visit.",
+          "translation": "附近的赫姆斯利城堡也值得一游。"
+        },
+        {
+          "index": 33,
+          "sentence": "E Stokesay Castle",
+          "translation": "E 斯托克赛城堡"
+        },
+        {
+          "index": 34,
+          "sentence": "A range of workshops, including music and combat, are held here during the summer.",
+          "translation": "夏季期间，这里会举办一系列工作坊，包括音乐和格斗活动。"
+        },
+        {
+          "index": 35,
+          "sentence": "Children of all ages will enjoy learning at these and there is a guided tour which has been especially designed with younger visitors in mind.",
+          "translation": "各个年龄段的孩子都会喜欢在这类活动中学习，并且这里还设有专门为年轻游客设计的导览游。"
+        },
+        {
+          "index": 36,
+          "sentence": "Some of them may find the dungeon quite scary though.",
+          "translation": "不过，有些孩子可能会觉得地牢相当可怕。"
+        },
+        {
+          "index": 37,
+          "sentence": "F Warwick Castle",
+          "translation": "F 沃里克城堡"
+        },
+        {
+          "index": 38,
+          "sentence": "This castle is over 1,000 years old and has towers and a moat, and is just as you might imagine a castle to be.",
+          "translation": "这座城堡已有超过1000年的历史，拥有塔楼和护城河，正如你想象中的城堡模样。"
+        },
+        {
+          "index": 39,
+          "sentence": "Children can even get to try on armour to see how heavy it is.",
+          "translation": "孩子们甚至可以试穿盔甲，感受它有多重。"
+        },
+        {
+          "index": 40,
+          "sentence": "At Christmas, a special market is held here - a great opportunity to look for presents and Christmas treats.",
+          "translation": "圣诞节期间，这里会举办一个特别市场——是寻找礼物和圣诞美食的绝佳机会。"
+        }
+      ]
+    },
+    {
+      "id": "2085",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "North Sydney Council",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "North Sydney Council recognises the importance of balancing the demands of your work with the demands of your personal life.",
+          "translation": "北悉尼议会认识到平衡工作需求与个人生活需求的重要性。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The standard working week for full-time council employees is 35 hours for 'Indoor Staff' and 38 hours for 'Outdoor Staff' , worked over 5 days. Indoor staff are able to access the benefit of flexi time. A number of these occasionally work from home where appropriate - an example of an initiative that can provide flexibility at certain stages of an employee's career.",
+          "translation": "议会全职员工的标准工作周为‘室内员工’35小时，‘室外员工’38小时，分布在5天内完成。\n室内员工可以享受弹性工作时间的福利。\n其中一些员工偶尔在适当情况下居家办公——这是一项能够在员工职业生涯特定阶段提供灵活性的举措示例。\n议会全职员工的标准工作周为‘室内员工’35小时，‘室外员工’38小时，工作分布在5天内。\n室内员工能够享受弹性工作时间的福利。\n其中一些人偶尔会在适当情况下在家办公——这是一个能够在员工职业生涯的特定阶段提供灵活性的举措示例。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Staff are entitled to 3 weeks per annum sick or carer's leave. In addition to the normal parental leave/maternity leave provisions,women who have completed 12 months of continuous service can access a total of 9 weeks' maternity leave that can be taken either as 9 weeks at full pay or as 18 weeks at half pay.",
+          "translation": "员工每年有权享受3周的病假或护理假。\n除正常育儿假/产假规定外，连续服务满12个月的女性员工可享受总共9周的产假，可以选择全薪休假9周或半薪休假18周。\n除了正常的育儿假/产假规定外，连续服务满12个月的女性员工可以享受共计9周的产假，可选择全薪休假9周或半薪休假18周。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The annual entitlement to paid holidays is 20 days, pro-rata for part-time. After 5 years of continuous service, employees are entitled to 6.5 weeks Long Service Leave (LSL).",
+          "translation": "每年带薪假期为20天，兼职员工按比例计算。\n连续服务满5年后，员工有权享受6.5周的长服务假。\n带薪年假每年为20天，兼职员工按比例计算。\n连续服务5年之后，员工有权享受6.5周的长服务假（LSL）。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Our Financial Advice Program is conducted in partnership with FuturePlus Financial Services. We provide the services of advisors specialising in pensions, and all our employees are given the opportunity to meet them as part of the induction process.",
+          "translation": "我们的财务建议计划是与FuturePlus金融服务公司合作开展的。\n我们提供专门从事养老金咨询的服务人员，所有员工在入职培训过程中都有机会与他们见面。\n我们的财务咨询项目是与FuturePlus金融服务公司合作开展的。\n我们提供专门从事养老金咨询的顾问服务，所有员工均有机会在入职培训期间与他们会面。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "The Employee Assistance Program(EAP) is a counselling service provided at no charge to all employees and their families.The service is available by phone or face to face. The EAP provides registered psychologists for employees wishing to discuss work or non-work matters confidentially. Employees can also access information, such as articles and self assessments, online via eapdirect.",
+          "translation": "员工援助计划是一项免费向所有员工及其家属提供的咨询服务。\n该服务可通过电话或面对面方式获得。\n员工援助计划为希望私下讨论工作或非工作事务的员工提供注册心理学家。\n员工还可以通过eapdirect在线获取文章和自我评估等信息。\n员工援助计划(EAP)是一项向所有员工及其家属免费提供的咨询服务。\nEAP为希望保密讨论工作或非工作事务的员工提供注册心理学家。\n员工还可以通过eapdirect在线获取信息，例如文章和自我评估。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Registering As An Apprentice",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "注册成为学徒"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "If you are keen to acquire new skills and learn best through 'hands-on' experiences, then registered apprenticeship is a good option for you. These programmes always involve work experience as well as classroom instruction and produce workers skilled in the occupation. There is a written contract to be signed by the apprentice and the employer, which acknowledges their joint commitment to the training process. This contract is approved and registered by the New York State Department of Labor.",
+          "translation": "如果你渴望获得新技能并通过‘实践’经验学习效果最佳，那么注册学徒制对你来说是一个不错的选择。\n这些项目始终包含工作经验和课堂教学，培养出熟练掌握该职业技能的工人。\n学徒和雇主需签署一份书面合同，确认双方对培训过程的共同承诺。\n该合同由纽约州劳工部批准和注册。\n如果你渴望掌握新技能，且通过‘亲身实践’的学习方式效果最佳，那么注册学徒制对你来说是一个不错的选择。\n这些项目通常包含工作经验和课堂教学，并培养出精通该职业的工人。\n学徒和雇主需签署一份书面合同，该合同确认了双方对培训过程的共同承诺。\n这份合同需经纽约州劳工部批准并注册。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "How Do I Qualify?",
+          "translation": "我如何符合资格？\n我如何获得资格？"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "First of all you must meet the employer's minimum qualifications. This could be a high school diploma or the equivalent.However, some employers will ask for specific high school courses, prior experience, or occupationally related courses.",
+          "translation": "首先，你必须满足雇主的最低资格要求。\n这可能是高中文凭或同等学历。\n然而，一些雇主会要求特定的高中课程、先前经验或职业相关课程。\n首先，你必须达到雇主的入职最低要求。\n这可能是一份高中文凭或同等学力证明。\n然而，有些雇主要求上过特定的高中课程、具备先前工作经验或修读过职业相关课程。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "What Is My Training Like?",
+          "translation": "我的培训是什么样的？"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Training for each apprenticeable occupation is conducted according to a training outline that has been standardized for the occupation. This assures that apprentices across the state have the same sets of basic competencies and skills.At the successful completion of each registered apprenticeship,the Department of Labor awards the apprentice a 'Certificate of Completion', which is a nationally recognized credential.",
+          "translation": "每个可学徒职业的培训都按照为该职业标准化的培训大纲进行。\n这确保了全州的学徒拥有相同的基本能力和技能。\n在成功完成每个注册学徒制后，劳工部会向学徒颁发‘结业证书’，这是一项全国认可的资质证明。\n针对每一可学徒的职业，培训均按照该职业标准化后的培训大纲进行。\n这确保了全州的学徒具备相同的基本能力和技能。\n在成功完成每个注册学徒项目后，劳工部会授予学徒一份“结业证书”，这是一份全国认可的资格证明。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "The length of time it takes you to learn the skills of the occupation depends upon two things: the standard training outline and your aptitude. Each trade has a definite term of training, listed in years. As a registered apprentice, you may progress according to that established training term, or you may become skilled more quickly or more slowly. It may even be that you start your apprenticeship with credit toward the goal. Your employer may choose to award you this for previous working experience in the occupation, or for prior coursework related to the occupation.",
+          "translation": "学习职业所需技能的时间取决于两件事：标准培训大纲和你的能力。\n每个行业都有固定的培训期限，以年为单位列出。\n作为注册学徒，你可以按照既定的培训期限进步，也可能更快或更慢地掌握技能。\n甚至可能你开始学徒时已获得部分学分，朝着目标迈进。\n你的雇主可能会根据你之前在该职业的工作经验或相关课程学习，选择授予你这些学分。\n掌握该职业技能所需的时间取决于两个因素：标准培训大纲和你的个人能力。\n每个行业都有明确的培训年限，按年列出。\n作为注册学徒，你可以按照既定的培训期限逐步进展，也可能更快或更慢地掌握技能。\n甚至有可能你在开始学徒期时已获得部分学分，用于达成目标。\n你的雇主可能会根据你在该行业先前的工作经验或相关的过往课程学习，给予你这些学分。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "As an apprentice, you are part of the employer's workforce. You work full-time for the employer. A registered apprentice works under the guidance of more experienced craft workers called journey workers. From them, you learn the skills of the trade.As you master each skill, you become a more productive employee.",
+          "translation": "作为学徒，你是雇主劳动力的一部分。\n你为雇主全职工作。\n注册学徒在被称为熟练工的更有经验的手工艺工人的指导下工作。\n从他们那里，你学习行业的技能。\n随着你掌握每项技能，你成为一名更高效的员工。\n作为一名学徒，你是雇主员工队伍中的一员。\n注册学徒在被称为熟练工的更有经验的手工工人的指导下工作。\n从他们那里，你学习这门手艺的技能。\n随着你掌握每一项技能，你会成为更有生产力的员工。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "At the same time as you are working, you are also required to attend classes (usually in the evenings). The location and times of these are set up by the local education agent in consultation with the employer. Your progress is tracked by you, your employer and your education provider.",
+          "translation": "在工作同时，你还需要参加课程（通常在晚上）。\n这些课程的地点和时间由当地教育机构与雇主协商确定。\n你的进步由你本人、雇主和教育机构共同跟踪记录。\n在你工作的同时，你还需要参加课程（通常在晚上）。\n你的进步由你自己、雇主和教育提供者共同跟踪。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Successful completion of all requirements results in your certificate.",
+          "translation": "成功完成所有要求后，你将获得证书。\n成功完成所有要求后，您将获得证书。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15721",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 20\nAnswer the questions below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the text for each answer.\nWrite your answers in boxes 15-20 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120381",
+              "number": 15,
+              "prompt": "Which employees may choose not to work regular hours? _____",
+              "options": [],
+              "answer": "indoor",
+              "accepted_answers": [
+                "indoor"
+              ],
+              "analysis": "题干询问哪些员工可以选择不按常规工时工作，对应原文B段中提到的‘Indoor staff are able to access the benefit of flexi time’以及‘occasionally work from home’。其中‘flexi time’（弹性工作时间）和居家办公都表明室内员工（indoor staff）可以不遵循固定的工作时间安排，因此答案为‘indoor’。",
+              "reason": "题干询问哪些员工可能不按常规工时工作；B段指indoor staff有弹性工作制和居家办公选项。",
+              "location_analysis": "Indoor staff有弹性工作制和居家办公选项，可不固定工时。",
+              "paraphrasing": "not work regular hours -> flexi time, work from home",
+              "keywords": "flexi time, work from home",
+              "evidence": [
+                "Indoor staff are able to access the benefit of flexi time."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120382",
+              "number": 16,
+              "prompt": "How much time off each year is an employee able to take to look after a relative?_____",
+              "options": [],
+              "answer": "3 weeks",
+              "accepted_answers": [
+                "3 weeks"
+              ],
+              "analysis": "题干问员工每年可休多少时间照顾亲属，原文C段明确指出‘Staff are entitled to 3 weeks per annum sick or carer's leave’。其中‘carer's leave’即用于照顾家人或亲属的假期，‘per annum’对应题干中的‘each year’，因此答案为‘3 weeks’。",
+              "reason": "题干询问每年可用来照顾亲属的休假时长；C段明确3周。",
+              "location_analysis": "Staff每年有3周病假或carer's leave照顾家人。",
+              "paraphrasing": "time off each year -> per annum; look after a relative -> carer's leave",
+              "keywords": "carer's leave, annual",
+              "evidence": [
+                "Staff are entitled to 3 weeks per annum sick or carer's leave."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120383",
+              "number": 17,
+              "prompt": "What kind of leave involves a choice between two alternative periods of time?_____",
+              "options": [],
+              "answer": "maternity",
+              "accepted_answers": [
+                "maternity"
+              ],
+              "analysis": "题干询问哪种假期提供两种不同的时间段选择，原文C段提到产假（maternity leave）可选择‘9 weeks at full pay or as 18 weeks at half pay’。这正符合题干中‘a choice between two alternative periods of time’的描述，因此答案是‘maternity’。",
+              "reason": "题干询问哪种假涉及两种备选时长；C段指maternity leave。",
+              "location_analysis": "Maternity leave可选择9周全薪或18周半薪。",
+              "paraphrasing": "alternative periods -> 9 weeks full pay or 18 weeks half pay",
+              "keywords": "maternity leave, 9 weeks, 18 weeks",
+              "evidence": [
+                "women who have completed 12 months of continuous service can access a total of 9 weeks' maternity leave that can be taken either as 9 weeks at full pay or as 18 weeks at half pay."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120384",
+              "number": 18,
+              "prompt": "How long must employees have worked without a break before being entitled to additional holidays?_____",
+              "options": [],
+              "answer": "5 years",
+              "accepted_answers": [
+                "5 years"
+              ],
+              "analysis": "题干问员工需连续工作多久才能获得额外假期，原文D段指出‘After 5 years of continuous service, employees are entitled to 6.5 weeks Long Service Leave (LSL)’。其中‘continuous service’对应题干中的‘worked without a break’，而长期服务假（LSL）属于额外假期，因此答案为‘5 years’。",
+              "reason": "题干询问连续工作多久有额外假期；D段明确5年。",
+              "location_analysis": "员工连续服务5年后获得额外假期（LSL）。",
+              "paraphrasing": "worked without a break -> continuous service; entitled to additional holidays -> Long Service Leave",
+              "keywords": "Long Service Leave, continuous service",
+              "evidence": [
+                "After 5 years of continuous service, employees are entitled to 6.5 weeks Long Service Leave (LSL)."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120385",
+              "number": 19,
+              "prompt": "What does the Financial Advice Program advise staff about?_____",
+              "options": [],
+              "answer": "pension",
+              "accepted_answers": [
+                "pension"
+              ],
+              "analysis": "题干询问财务咨询项目为员工提供哪方面的建议，原文D段提到‘advisors specialising in pensions’，说明该项目专注于养老金（pensions）方面的咨询。题干中的‘advise staff about’与原文‘specialising in’形成对应关系，因此答案是‘pension’。",
+              "reason": "题干询问财务咨询项目建议什么；D段指出pensions。",
+              "location_analysis": "Financial Advice Program提供养老金建议。",
+              "paraphrasing": "advise staff about -> specialising in",
+              "keywords": "Financial Advice Program, pensions",
+              "evidence": [
+                "We provide the services of advisors specialising in pensions"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120386",
+              "number": 20,
+              "prompt": "What kind of professional people can employees see if they want to talk about their job in private?_____",
+              "options": [],
+              "answer": "registered psychologists",
+              "accepted_answers": [
+                "registered psychologists"
+              ],
+              "analysis": "题干问员工若想私下讨论工作问题可咨询哪类专业人士，原文E段指出‘The EAP provides registered psychologists for employees wishing to discuss work or non-work matters confidentially’。其中‘registered psychologists’即注册心理学家，且‘confidentially’对应题干中的‘in private’，因此答案为‘registered psychologists’。",
+              "reason": "题干询问员工可与哪种专业人士私密讨论工作；E段指registered psychologists。",
+              "location_analysis": "EAP提供注册心理学家供员工私密讨论工作/非工作事宜。",
+              "paraphrasing": "professional people -> registered psychologists; talk about job in private -> discuss work or non-work matters confidentially",
+              "keywords": "talk about job in private, psychologists",
+              "evidence": [
+                "The EAP provides registered psychologists for employees wishing to discuss work or non-work matters confidentially."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Which employees may choose not to work regular hours? $120381$\nHow much time off each year is an employee able to take to look after a relative?$120382$\nWhat kind of leave involves a choice between two alternative periods of time?$120383$\nHow long must employees have worked without a break before being entitled to additional holidays?$120384$\nWhat does the Financial Advice Program advise staff about?$120385$\nWhat kind of professional people can employees see if they want to talk about their job in private?$120386$",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Which employees may choose not to work regular hours? $120381$\nHow much time off each year is an employee able to take to look after a relative?$120382$\nWhat kind of leave involves a choice between two alternative periods of time?$120383$\nHow long must employees have worked without a break before being entitled to additional holidays?$120384$\nWhat does the Financial Advice Program advise staff about?$120385$\nWhat kind of professional people can employees see if they want to talk about their job in private?$120386$"
+        },
+        {
+          "id": "15723",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 21 - 27\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120387",
+              "number": 21,
+              "prompt": "You and your employer will need to sign a _____ before training starts.",
+              "options": [],
+              "answer": "contract",
+              "accepted_answers": [
+                "contract"
+              ],
+              "analysis": "题干询问培训开始前学徒和雇主需要签署什么，原文‘Registering As An Apprentice’段落提到‘There is a written contract to be signed by the apprentice and the employer’。题干中的‘sign a ___’直接对应原文中的‘written contract’，因此答案是‘contract’。",
+              "reason": "题干询问培训前签署什么；该段提到written contract。",
+              "location_analysis": "学徒与雇主需签署一份书面合同。",
+              "paraphrasing": "sign a ___ -> written contract",
+              "keywords": "sign, contract, training",
+              "evidence": [
+                "There is a written contract to be signed by the apprentice and the employer"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120388",
+              "number": 22,
+              "prompt": "Employers may have different minimum requirements regarding applicants'_____ and experience.",
+              "options": [],
+              "answer": "qualifications",
+              "accepted_answers": [
+                "qualifications"
+              ],
+              "analysis": "题干问雇主对申请者的什么和经验有最低要求，原文‘How Do I Qualify?’段落指出‘you must meet the employer's minimum qualifications’，并举例包括高中文凭或相关课程。其中‘qualifications’涵盖学历等基本条件，与题干中的‘applicants' ___ and experience’形成对应，因此答案为‘qualifications’。",
+              "reason": "题干询问雇主对申请者什么和经验的最低要求；该段提及qualifications。",
+              "location_analysis": "雇主有最低要求，包括qualifications和经验。",
+              "paraphrasing": "minimum requirements -> minimum qualifications; applicants' ___ -> high school diploma or the equivalent",
+              "keywords": "minimum requirements, qualifications",
+              "evidence": [
+                "First of all you must meet the employer's minimum qualifications."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120389",
+              "number": 23,
+              "prompt": "Each industry has its own standardised _____ of training.",
+              "options": [],
+              "answer": "outline",
+              "accepted_answers": [
+                "outline"
+              ],
+              "analysis": "题干询问每个行业都有其标准化的培训什么，原文‘What Is My Training Like?’段落提到‘Training...is conducted according to a training outline that has been standardized for the occupation’。其中‘training outline’即培训大纲，且被明确描述为标准化内容，因此答案是‘outline’。",
+              "reason": "题干询问每个行业有其标准化的培训什么；该段提到outline。",
+              "location_analysis": "每个行业有其标准化的培训outline。",
+              "paraphrasing": "standardised ___ -> standardized training outline",
+              "keywords": "training outline, standardized",
+              "evidence": [
+                "Training for each apprenticeable occupation is conducted according to a training outline that has been standardized for the occupation."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120390",
+              "number": 24,
+              "prompt": "You may be given credit for work experience or if you have done relevant _____.",
+              "options": [],
+              "answer": "coursework",
+              "accepted_answers": [
+                "coursework"
+              ],
+              "analysis": "题干问如果做过相关什么，可能获得学分，原文‘The length of time...’段落指出雇主可能因‘prior coursework related to the occupation’而授予学分。其中‘coursework’指与职业相关的课程学习，与题干中的‘relevant ___’完全对应，因此答案为‘coursework’。",
+              "reason": "题干询问工作经验或相关什么可获得学分；该段提及coursework。",
+              "location_analysis": "雇主任可为之前的相关课程（coursework）授予学分。",
+              "paraphrasing": "given credit for -> award credit for; relevant ___ -> prior coursework",
+              "keywords": "credit, prior coursework",
+              "evidence": [
+                "Your employer may choose to award you this for previous working experience in the occupation, or for prior coursework related to the occupation."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120391",
+              "number": 25,
+              "prompt": "You will be considered as a member of the _____ during the apprenticeship.",
+              "options": [],
+              "answer": "workforce",
+              "accepted_answers": [
+                "workforce"
+              ],
+              "analysis": "题干问学徒期间被视为哪个群体的成员，原文‘As an apprentice...’段落明确说‘you are part of the employer's workforce’。其中‘workforce’指雇主的员工队伍，与题干中‘member of the ___’形成直接对应，因此答案是‘workforce’。",
+              "reason": "题干询问学徒期间被认为是__成员；该段指workforce。",
+              "location_analysis": "学徒被视为雇主workforce的一部分。",
+              "paraphrasing": "considered as a member of -> part of; ___ -> workforce",
+              "keywords": "member, workforce",
+              "evidence": [
+                "As an apprentice, you are part of the employer's workforce."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120392",
+              "number": 26,
+              "prompt": "While at work, apprentices are supervised by what are known as _____.",
+              "options": [],
+              "answer": "journey workers",
+              "accepted_answers": [
+                "journey workers"
+              ],
+              "analysis": "题干询问学徒在工作中由谁监督，原文‘As an apprentice...’段落提到‘works under the guidance of more experienced craft workers called journey workers’。其中‘journey workers’是正式称呼，题干中的‘what are known as’对应原文中的‘called’，因此答案为‘journey workers’。",
+              "reason": "题干询问工作中由谁监督；该段指journey workers。",
+              "location_analysis": "学徒在journey workers指导下工作。",
+              "paraphrasing": "supervised by -> works under the guidance of; what are known as -> called",
+              "keywords": "supervised, journey workers",
+              "evidence": [
+                "A registered apprentice works under the guidance of more experienced craft workers called journey workers."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120393",
+              "number": 27,
+              "prompt": "Employers are consulted when deciding the _____ and schedule for lessons.",
+              "options": [],
+              "answer": "location",
+              "accepted_answers": [
+                "location"
+              ],
+              "analysis": "题干问决定课程的什么和时间安排时会咨询雇主，原文‘At the same time as you are working...’段落指出‘The location and times of these are set up by the local education agent in consultation with the employer’。其中‘location’与‘times’并列，对应题干中的‘___ and schedule’，因此答案是‘location’。",
+              "reason": "题干询问决定上课的什么和时间；该段指location。",
+              "location_analysis": "上课的location和时间由教育机构与雇主协商决定。",
+              "paraphrasing": "decided in consultation with the employer -> set up by the local education agent in consultation with the employer",
+              "keywords": "location, schedule",
+              "evidence": [
+                "The location and times of these are set up by the local education agent in consultation with the employer."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "You and your employer will need to sign a $120387$ before training starts.\nEmployers may have different minimum requirements regarding applicants'$120388$ and experience.\nEach industry has its own standardised $120389$ of training.\nYou may be given credit for work experience or if you have done relevant $120390$.\nYou will be considered as a member of the $120391$ during the apprenticeship.\nWhile at work, apprentices are supervised by what are known as $120392$.\nEmployers are consulted when deciding the $120393$ and schedule for lessons.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "You and your employer will need to sign a $120387$ before training starts.\nEmployers may have different minimum requirements regarding applicants'$120388$ and experience.\nEach industry has its own standardised $120389$ of training.\nYou may be given credit for work experience or if you have done relevant $120390$.\nYou will be considered as a member of the $120391$ during the apprenticeship.\nWhile at work, apprentices are supervised by what are known as $120392$.\nEmployers are consulted when deciding the $120393$ and schedule for lessons."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "North Sydney Council",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "North Sydney Council recognises the importance of balancing the demands of your work with the demands of your personal life.",
+          "translation": "北悉尼议会认识到平衡工作需求与个人生活需求的重要性。"
+        },
+        {
+          "index": 2,
+          "sentence": "The standard working week for full-time council employees is 35 hours for 'Indoor Staff' and 38 hours for 'Outdoor Staff' , worked over 5 days.",
+          "translation": "议会全职员工的标准工作周为‘室内员工’35小时，‘室外员工’38小时，分布在5天内完成。"
+        },
+        {
+          "index": 3,
+          "sentence": "Indoor staff are able to access the benefit of flexi time.",
+          "translation": "室内员工可以享受弹性工作时间的福利。"
+        },
+        {
+          "index": 4,
+          "sentence": "A number of these occasionally work from home where appropriate - an example of an initiative that can provide flexibility at certain stages of an employee's career.",
+          "translation": "其中一些员工偶尔在适当情况下居家办公——这是一项能够在员工职业生涯特定阶段提供灵活性的举措示例。"
+        },
+        {
+          "index": 5,
+          "sentence": "Staff are entitled to 3 weeks per annum sick or carer's leave.",
+          "translation": "员工每年有权享受3周的病假或护理假。"
+        },
+        {
+          "index": 6,
+          "sentence": "In addition to the normal parental leave/maternity leave provisions,women who have completed 12 months of continuous service can access a total of 9 weeks' maternity leave that can be taken either as 9 weeks at full pay or as 18 weeks at half pay.",
+          "translation": "除正常育儿假/产假规定外，连续服务满12个月的女性员工可享受总共9周的产假，可以选择全薪休假9周或半薪休假18周。"
+        },
+        {
+          "index": 7,
+          "sentence": "The annual entitlement to paid holidays is 20 days, pro-rata for part-time.",
+          "translation": "每年带薪假期为20天，兼职员工按比例计算。"
+        },
+        {
+          "index": 8,
+          "sentence": "After 5 years of continuous service, employees are entitled to 6.5 weeks Long Service Leave (LSL).",
+          "translation": "连续服务满5年后，员工有权享受6.5周的长服务假。"
+        },
+        {
+          "index": 9,
+          "sentence": "Our Financial Advice Program is conducted in partnership with FuturePlus Financial Services.",
+          "translation": "我们的财务建议计划是与FuturePlus金融服务公司合作开展的。"
+        },
+        {
+          "index": 10,
+          "sentence": "We provide the services of advisors specialising in pensions, and all our employees are given the opportunity to meet them as part of the induction process.",
+          "translation": "我们提供专门从事养老金咨询的服务人员，所有员工在入职培训过程中都有机会与他们见面。"
+        },
+        {
+          "index": 11,
+          "sentence": "The Employee Assistance Program(EAP) is a counselling service provided at no charge to all employees and their families.",
+          "translation": "员工援助计划是一项免费向所有员工及其家属提供的咨询服务。"
+        },
+        {
+          "index": 12,
+          "sentence": "The service is available by phone or face to face.",
+          "translation": "该服务可通过电话或面对面方式获得。"
+        },
+        {
+          "index": 13,
+          "sentence": "The EAP provides registered psychologists for employees wishing to discuss work or non-work matters confidentially.",
+          "translation": "员工援助计划为希望私下讨论工作或非工作事务的员工提供注册心理学家。"
+        },
+        {
+          "index": 14,
+          "sentence": "Employees can also access information, such as articles and self assessments, online via eapdirect.",
+          "translation": "员工还可以通过eapdirect在线获取文章和自我评估等信息。"
+        },
+        {
+          "index": 15,
+          "sentence": "Registering As An Apprentice",
+          "translation": "注册成为学徒"
+        },
+        {
+          "index": 16,
+          "sentence": "If you are keen to acquire new skills and learn best through 'hands-on' experiences, then registered apprenticeship is a good option for you.",
+          "translation": "如果你渴望获得新技能并通过‘实践’经验学习效果最佳，那么注册学徒制对你来说是一个不错的选择。"
+        },
+        {
+          "index": 17,
+          "sentence": "These programmes always involve work experience as well as classroom instruction and produce workers skilled in the occupation.",
+          "translation": "这些项目始终包含工作经验和课堂教学，培养出熟练掌握该职业技能的工人。"
+        },
+        {
+          "index": 18,
+          "sentence": "There is a written contract to be signed by the apprentice and the employer, which acknowledges their joint commitment to the training process.",
+          "translation": "学徒和雇主需签署一份书面合同，确认双方对培训过程的共同承诺。"
+        },
+        {
+          "index": 19,
+          "sentence": "This contract is approved and registered by the New York State Department of Labor.",
+          "translation": "该合同由纽约州劳工部批准和注册。"
+        },
+        {
+          "index": 20,
+          "sentence": "How Do I Qualify?",
+          "translation": "我如何符合资格？"
+        },
+        {
+          "index": 21,
+          "sentence": "First of all you must meet the employer's minimum qualifications.",
+          "translation": "首先，你必须满足雇主的最低资格要求。"
+        },
+        {
+          "index": 22,
+          "sentence": "This could be a high school diploma or the equivalent.",
+          "translation": "这可能是高中文凭或同等学历。"
+        },
+        {
+          "index": 23,
+          "sentence": "However, some employers will ask for specific high school courses, prior experience, or occupationally related courses.",
+          "translation": "然而，一些雇主会要求特定的高中课程、先前经验或职业相关课程。"
+        },
+        {
+          "index": 24,
+          "sentence": "What Is My Training Like?",
+          "translation": "我的培训是什么样的？"
+        },
+        {
+          "index": 25,
+          "sentence": "Training for each apprenticeable occupation is conducted according to a training outline that has been standardized for the occupation.",
+          "translation": "每个可学徒职业的培训都按照为该职业标准化的培训大纲进行。"
+        },
+        {
+          "index": 26,
+          "sentence": "This assures that apprentices across the state have the same sets of basic competencies and skills.",
+          "translation": "这确保了全州的学徒拥有相同的基本能力和技能。"
+        },
+        {
+          "index": 27,
+          "sentence": "At the successful completion of each registered apprenticeship,the Department of Labor awards the apprentice a 'Certificate of Completion', which is a nationally recognized credential.",
+          "translation": "在成功完成每个注册学徒制后，劳工部会向学徒颁发‘结业证书’，这是一项全国认可的资质证明。"
+        },
+        {
+          "index": 28,
+          "sentence": "The length of time it takes you to learn the skills of the occupation depends upon two things: the standard training outline and your aptitude.",
+          "translation": "学习职业所需技能的时间取决于两件事：标准培训大纲和你的能力。"
+        },
+        {
+          "index": 29,
+          "sentence": "Each trade has a definite term of training, listed in years.",
+          "translation": "每个行业都有固定的培训期限，以年为单位列出。"
+        },
+        {
+          "index": 30,
+          "sentence": "As a registered apprentice, you may progress according to that established training term, or you may become skilled more quickly or more slowly.",
+          "translation": "作为注册学徒，你可以按照既定的培训期限进步，也可能更快或更慢地掌握技能。"
+        },
+        {
+          "index": 31,
+          "sentence": "It may even be that you start your apprenticeship with credit toward the goal.",
+          "translation": "甚至可能你开始学徒时已获得部分学分，朝着目标迈进。"
+        },
+        {
+          "index": 32,
+          "sentence": "Your employer may choose to award you this for previous working experience in the occupation, or for prior coursework related to the occupation.",
+          "translation": "你的雇主可能会根据你之前在该职业的工作经验或相关课程学习，选择授予你这些学分。"
+        },
+        {
+          "index": 33,
+          "sentence": "As an apprentice, you are part of the employer's workforce.",
+          "translation": "作为学徒，你是雇主劳动力的一部分。"
+        },
+        {
+          "index": 34,
+          "sentence": "You work full-time for the employer.",
+          "translation": "你为雇主全职工作。"
+        },
+        {
+          "index": 35,
+          "sentence": "A registered apprentice works under the guidance of more experienced craft workers called journey workers.",
+          "translation": "注册学徒在被称为熟练工的更有经验的手工艺工人的指导下工作。"
+        },
+        {
+          "index": 36,
+          "sentence": "From them, you learn the skills of the trade.",
+          "translation": "从他们那里，你学习行业的技能。"
+        },
+        {
+          "index": 37,
+          "sentence": "As you master each skill, you become a more productive employee.",
+          "translation": "随着你掌握每项技能，你成为一名更高效的员工。"
+        },
+        {
+          "index": 38,
+          "sentence": "At the same time as you are working, you are also required to attend classes (usually in the evenings).",
+          "translation": "在工作同时，你还需要参加课程（通常在晚上）。"
+        },
+        {
+          "index": 39,
+          "sentence": "The location and times of these are set up by the local education agent in consultation with the employer.",
+          "translation": "这些课程的地点和时间由当地教育机构与雇主协商确定。"
+        },
+        {
+          "index": 40,
+          "sentence": "Your progress is tracked by you, your employer and your education provider.",
+          "translation": "你的进步由你本人、雇主和教育机构共同跟踪记录。"
+        },
+        {
+          "index": 41,
+          "sentence": "Successful completion of all requirements results in your certificate.",
+          "translation": "成功完成所有要求后，你将获得证书。"
+        },
+        {
+          "index": 42,
+          "sentence": "North Sydney Council recognises the importance of balancing the demands of your work with the demands of your personal life.",
+          "translation": "北悉尼议会认识到平衡工作需求与个人生活需求的重要性。"
+        },
+        {
+          "index": 44,
+          "sentence": "The standard working week for full-time council employees is 35 hours for 'Indoor Staff' and 38 hours for 'Outdoor Staff' , worked over 5 days.",
+          "translation": "议会全职员工的标准工作周为‘室内员工’35小时，‘室外员工’38小时，工作分布在5天内。"
+        },
+        {
+          "index": 45,
+          "sentence": "Indoor staff are able to access the benefit of flexi time.",
+          "translation": "室内员工能够享受弹性工作时间的福利。"
+        },
+        {
+          "index": 46,
+          "sentence": "A number of these occasionally work from home where appropriate - an example of an initiative that can provide flexibility at certain stages of an employee's career.",
+          "translation": "其中一些人偶尔会在适当情况下在家办公——这是一个能够在员工职业生涯的特定阶段提供灵活性的举措示例。"
+        },
+        {
+          "index": 48,
+          "sentence": "Staff are entitled to 3 weeks per annum sick or carer's leave.",
+          "translation": "员工每年有权享受3周的病假或护理假。"
+        },
+        {
+          "index": 49,
+          "sentence": "In addition to the normal parental leave/maternity leave provisions,women who have completed 12 months of continuous service can access a total of 9 weeks' maternity leave that can be taken either as 9 weeks at full pay or as 18 weeks at half pay.",
+          "translation": "除了正常的育儿假/产假规定外，连续服务满12个月的女性员工可以享受共计9周的产假，可选择全薪休假9周或半薪休假18周。"
+        },
+        {
+          "index": 51,
+          "sentence": "The annual entitlement to paid holidays is 20 days, pro-rata for part-time.",
+          "translation": "带薪年假每年为20天，兼职员工按比例计算。"
+        },
+        {
+          "index": 52,
+          "sentence": "After 5 years of continuous service, employees are entitled to 6.5 weeks Long Service Leave (LSL).",
+          "translation": "连续服务5年之后，员工有权享受6.5周的长服务假（LSL）。"
+        },
+        {
+          "index": 53,
+          "sentence": "Our Financial Advice Program is conducted in partnership with FuturePlus Financial Services.",
+          "translation": "我们的财务咨询项目是与FuturePlus金融服务公司合作开展的。"
+        },
+        {
+          "index": 54,
+          "sentence": "We provide the services of advisors specialising in pensions, and all our employees are given the opportunity to meet them as part of the induction process.",
+          "translation": "我们提供专门从事养老金咨询的顾问服务，所有员工均有机会在入职培训期间与他们会面。"
+        },
+        {
+          "index": 56,
+          "sentence": "The Employee Assistance Program(EAP) is a counselling service provided at no charge to all employees and their families.",
+          "translation": "员工援助计划(EAP)是一项向所有员工及其家属免费提供的咨询服务。"
+        },
+        {
+          "index": 57,
+          "sentence": "The service is available by phone or face to face.",
+          "translation": "该服务可通过电话或面对面方式获得。"
+        },
+        {
+          "index": 58,
+          "sentence": "The EAP provides registered psychologists for employees wishing to discuss work or non-work matters confidentially.",
+          "translation": "EAP为希望保密讨论工作或非工作事务的员工提供注册心理学家。"
+        },
+        {
+          "index": 59,
+          "sentence": "Employees can also access information, such as articles and self assessments, online via eapdirect.",
+          "translation": "员工还可以通过eapdirect在线获取信息，例如文章和自我评估。"
+        },
+        {
+          "index": 60,
+          "sentence": "Registering As An Apprentice",
+          "translation": "注册成为学徒"
+        },
+        {
+          "index": 61,
+          "sentence": "If you are keen to acquire new skills and learn best through 'hands-on' experiences, then registered apprenticeship is a good option for you.",
+          "translation": "如果你渴望掌握新技能，且通过‘亲身实践’的学习方式效果最佳，那么注册学徒制对你来说是一个不错的选择。"
+        },
+        {
+          "index": 62,
+          "sentence": "These programmes always involve work experience as well as classroom instruction and produce workers skilled in the occupation.",
+          "translation": "这些项目通常包含工作经验和课堂教学，并培养出精通该职业的工人。"
+        },
+        {
+          "index": 63,
+          "sentence": "There is a written contract to be signed by the apprentice and the employer, which acknowledges their joint commitment to the training process.",
+          "translation": "学徒和雇主需签署一份书面合同，该合同确认了双方对培训过程的共同承诺。"
+        },
+        {
+          "index": 64,
+          "sentence": "This contract is approved and registered by the New York State Department of Labor.",
+          "translation": "这份合同需经纽约州劳工部批准并注册。"
+        },
+        {
+          "index": 65,
+          "sentence": "How Do I Qualify?",
+          "translation": "我如何获得资格？"
+        },
+        {
+          "index": 66,
+          "sentence": "First of all you must meet the employer's minimum qualifications.",
+          "translation": "首先，你必须达到雇主的入职最低要求。"
+        },
+        {
+          "index": 67,
+          "sentence": "This could be a high school diploma or the equivalent.",
+          "translation": "这可能是一份高中文凭或同等学力证明。"
+        },
+        {
+          "index": 68,
+          "sentence": "However, some employers will ask for specific high school courses, prior experience, or occupationally related courses.",
+          "translation": "然而，有些雇主要求上过特定的高中课程、具备先前工作经验或修读过职业相关课程。"
+        },
+        {
+          "index": 69,
+          "sentence": "What Is My Training Like?",
+          "translation": "我的培训是什么样的？"
+        },
+        {
+          "index": 70,
+          "sentence": "Training for each apprenticeable occupation is conducted according to a training outline that has been standardized for the occupation.",
+          "translation": "针对每一可学徒的职业，培训均按照该职业标准化后的培训大纲进行。"
+        },
+        {
+          "index": 71,
+          "sentence": "This assures that apprentices across the state have the same sets of basic competencies and skills.",
+          "translation": "这确保了全州的学徒具备相同的基本能力和技能。"
+        },
+        {
+          "index": 72,
+          "sentence": "At the successful completion of each registered apprenticeship, the Department of Labor awards the apprentice a 'Certificate of Completion', which is a nationally recognized credential.",
+          "translation": "在成功完成每个注册学徒项目后，劳工部会授予学徒一份“结业证书”，这是一份全国认可的资格证明。"
+        },
+        {
+          "index": 73,
+          "sentence": "The length of time it takes you to learn the skills of the occupation depends upon two things: the standard training outline and your aptitude.",
+          "translation": "掌握该职业技能所需的时间取决于两个因素：标准培训大纲和你的个人能力。"
+        },
+        {
+          "index": 74,
+          "sentence": "Each trade has a definite term of training, listed in years.",
+          "translation": "每个行业都有明确的培训年限，按年列出。"
+        },
+        {
+          "index": 75,
+          "sentence": "As a registered apprentice, you may progress according to that established training term, or you may become skilled more quickly or more slowly.",
+          "translation": "作为注册学徒，你可以按照既定的培训期限逐步进展，也可能更快或更慢地掌握技能。"
+        },
+        {
+          "index": 76,
+          "sentence": "It may even be that you start your apprenticeship with credit toward the goal.",
+          "translation": "甚至有可能你在开始学徒期时已获得部分学分，用于达成目标。"
+        },
+        {
+          "index": 77,
+          "sentence": "Your employer may choose to award you this for previous working experience in the occupation, or for prior coursework related to the occupation.",
+          "translation": "你的雇主可能会根据你在该行业先前的工作经验或相关的过往课程学习，给予你这些学分。"
+        },
+        {
+          "index": 78,
+          "sentence": "As an apprentice, you are part of the employer's workforce.",
+          "translation": "作为一名学徒，你是雇主员工队伍中的一员。"
+        },
+        {
+          "index": 79,
+          "sentence": "You work full-time for the employer.",
+          "translation": "你为雇主全职工作。"
+        },
+        {
+          "index": 80,
+          "sentence": "A registered apprentice works under the guidance of more experienced craft workers called journey workers.",
+          "translation": "注册学徒在被称为熟练工的更有经验的手工工人的指导下工作。"
+        },
+        {
+          "index": 81,
+          "sentence": "From them, you learn the skills of the trade.",
+          "translation": "从他们那里，你学习这门手艺的技能。"
+        },
+        {
+          "index": 82,
+          "sentence": "As you master each skill, you become a more productive employee.",
+          "translation": "随着你掌握每一项技能，你会成为更有生产力的员工。"
+        },
+        {
+          "index": 83,
+          "sentence": "At the same time as you are working, you are also required to attend classes (usually in the evenings).",
+          "translation": "在你工作的同时，你还需要参加课程（通常在晚上）。"
+        },
+        {
+          "index": 84,
+          "sentence": "The location and times of these are set up by the local education agent in consultation with the employer.",
+          "translation": "这些课程的地点和时间由当地教育机构与雇主协商确定。"
+        },
+        {
+          "index": 85,
+          "sentence": "Your progress is tracked by you, your employer and your education provider.",
+          "translation": "你的进步由你自己、雇主和教育提供者共同跟踪。"
+        },
+        {
+          "index": 86,
+          "sentence": "Successful completion of all requirements results in your certificate.",
+          "translation": "成功完成所有要求后，您将获得证书。"
+        }
+      ]
+    },
+    {
+      "id": "2086",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "Crossing the Humber estuary",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "For thousands of years, the Humber - an estuary formed where two major rivers, the Trent and the Ouse, meet - has been an obstacle to communications along the east coast of England, between the counties of Yorkshire to the north and Lincolnshire to the south. Before the arrival of the railways in the 19th century,water transportation was the most efficient means of moving heavy or bulk freight, and the Humber, situated at the heart of the waterway system associated with the two major rivers, was one of the chief highways of England. Its traffic brought prosperity to the settlements on its banks,particularly the city of Hull on its north bank, but the river itself tended to cut them off from some of their closest neighbours, as well as obstructing the progress of travellers moving north or south.",
+          "translation": "几千年来，亨伯——由两条主要河流特伦特河和乌斯河交汇形成的河口湾——一直是英格兰东海岸、北部约克郡和南部林肯郡之间交通的障碍。\n在19世纪铁路出现之前，水路运输是运送沉重或大宗货物最有效的方式，而亨伯位于与两条主要河流相关的水路系统中心，曾是英格兰的主要交通要道之一。\n其交通为沿岸的定居点带来了繁荣，尤其是北岸的赫尔市，但河流本身却将它们与一些最近的邻居隔离开来，同时也阻碍了向北或向南行进的旅行者的前进。\n数千年来，亨伯河——由特伦特河和乌斯河两条主要河流交汇形成的河口湾——一直是英格兰东海岸南北地区（北部的约克郡和南部的林肯郡）之间的交通障碍。\n在19世纪铁路出现之前，水运是运输重型或大宗货物最有效的方式，而亨伯河位于与两条主要河流相关的水道系统中心，曾是英格兰的主要交通要道之一。\n其航运为两岸的定居点带来了繁荣，尤其是北岸的赫尔市，但河流本身却往往将这些定居点与一些最近的邻居隔离开来，同时也阻碍了南北向旅行者的行程。\n数千年来，亨伯河——由特伦特河和乌斯河这两条主要河流交汇形成的河口——一直是英格兰东海岸、北部约克郡与南部林肯郡之间交通的障碍。\n在19世纪铁路出现之前，水运是最有效的重型或散装货物运输方式，而位于这两条主要河流航道系统中心的亨伯河，曾是英格兰的主要交通要道之一。\n其航运为沿岸居民点带来了繁荣，尤其是北岸的赫尔城，但河流本身却往往使它们与一些最近的邻居隔绝，同时也阻碍了南北向旅行者的行程。\n数千年来，亨伯河——由特伦特河和乌斯河这两条主要河流交汇形成的河口——一直是英格兰东海岸沿线、北部的约克郡与南部的林肯郡之间交通的障碍。\n在19世纪铁路出现之前，水路运输是运输重型或大宗货物最高效的方式，而亨伯河位于与这两条主要河流相关的水路系统的中心，曾是英格兰的主要交通要道之一。\n其水上交通为沿岸的定居点带来了繁荣，尤其是北岸的赫尔市，但河流本身却往往使它们与一些最近的邻居隔绝，同时也阻碍了向北或向南行进的旅行者的行程。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "To cater for these local and, as time progressed, wider needs, ferries were provided across many of the streams flowing into the Humber,and in 1315, a ferry was established across the Humber itself between Hull and Lincolnshire. By 1800,this ferry had become fully integrated into the overland transport system, but the changes associated with the industrial revolution were soon to threaten its position. Increased traffic encouraged speculators to establish rival ferries between Hull and Lincolnshire, notably a service between Hull and New Holland which opened in 1826.This crossing was considerably shorter than on the existing Hull to Barton service,which closed in 1851, unable to cope with the increased competition from the rival service.",
+          "translation": "为了满足这些地方性需求，并且随着时间的推移，更广泛的需求也随之出现，亨伯河入海的许多溪流上设立了渡轮服务；1315年，在亨伯河本身上建立了一条连接赫尔和林肯郡的渡轮线路。\n到1800年，这条渡轮已完全融入陆上运输系统，但随之而来的工业革命变革很快便威胁到它的地位。\n日益增长的交通量促使投机者在赫尔和林肯郡之间开设竞争性渡轮服务，其中以1826年开通的赫尔至新荷兰航线尤为突出。\n这条航线比当时现有的赫尔至巴顿航线短得多，后者因无法应对来自竞争航线的日益加剧的竞争，于1851年关闭。\n为了满足这些当地以及随着时间的推移日益广泛的需求，在流入亨伯河的许多溪流上设立了渡船，并于1315年在亨伯河本身之间建立了赫尔和林肯郡之间的渡船服务。\n到1800年，这种渡船已完全融入陆路运输系统，但与工业革命相关的变革很快威胁到了它的地位。\n日益增长的交通量促使投机者在赫尔和林肯郡之间开设了竞争性渡船，尤其是1826年开通的赫尔到新荷兰之间的服务。\n这条航线比现有的赫尔到巴顿的服务短得多，后者因无法应对来自竞争服务的加剧竞争而于1851年关闭。\n为了满足这些地方性需求，并随着时间推移，更广泛的需求也随之而来，在流入亨伯河的许多溪流上设置了渡轮，并于1315年在亨伯河上建立了赫尔与林肯郡之间的渡轮服务。\n到1800年，这一渡轮已完全融入陆上运输系统，但与工业革命相关的变革很快就威胁到了它的地位。\n日益增长的交通量促使投机者在赫尔与林肯郡之间建立竞争性渡轮服务，其中最著名的是1826年开通的赫尔至新荷兰航线。\n这条航线的距离远短于现有的赫尔至巴顿航线，后者于1851年关闭，因为它无法应对来自竞争航线的日益激烈的竞争。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "The New Holland ferry service then grew into a major link between the north and south banks of the Humber, carrying passengers, and cattle and goods bound for Hull Market. In 1968, there was briefly a ferry service from Grimsby to Hull involving hovercrafts. This did not last long as the hovercrafts could not cope with the demands of the River Humber. The ferry service between Hull and New Holland ended with the opening of the Humber Bridge in 1981.",
+          "translation": "随后，纽荷兰渡轮服务发展成为亨伯河南北两岸之间的主要连接点，搭载前往赫尔市场的乘客、牛和货物。\n1968年，曾短暂开通了从格里姆斯比到赫尔的气垫船渡轮服务。\n这次服务并未持续很久，因为气垫船无法应对亨伯河的要求。\n随着1981年亨伯桥的开通，赫尔与纽荷兰之间的渡轮服务宣告结束。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "The bridge was the outcome of over 100 years of campaigning by local interests for the construction of a bridge or tunnel across the estuary. The first major crossing proposal was a tunnel scheme in 1872.This scheme was promoted by Hull merchants and businesses dissatisfied with the service provided by the New Holland ferry crossing.Over the next 100 years, a variety of proposals were put forward in an effort to bridge the Humber. In 1928, a plan was drawn up by Hull City Council to build a multi-span bridge four miles west of Hull.However, the scheme was dropped after being hit by the financial woes of the Great Depression of the late 1920s and early 1930s.",
+          "translation": "这座桥是当地利益集团为在河口上建造一座桥或隧道而进行超过100年游说的结果。\n第一个主要的跨河提议是1872年的隧道方案。\n这一方案由对纽荷兰渡轮服务不满的赫尔商人和企业推动。\n在接下来的100年里，人们提出了各种方案，试图在亨伯河上建桥。\n1928年，赫尔市议会制定了一项计划，在赫尔以西4英里处建造一座多跨桥。\n然而，该计划在遭受20世纪20年代末和30年代初大萧条的经济困境后放弃了。\n这座大桥是当地利益团体为实现修建横跨河口的大桥或隧道而进行了100多年持续游说活动的成果。\n第一个主要的渡河方案是1872年提出的隧道计划。\n这一计划是由对纽荷兰渡轮服务感到不满的赫尔商人和企业推动的。\n在接下来的100年里，人们提出了各种旨在建造亨伯大桥的方案。\n1928年，赫尔市议会起草了一项计划，要在赫尔以西四英里处建造一座多跨大桥。\n然而，该计划因受到20世纪20年代末和30年代初大萧条金融危机的冲击而被放弃。\n这座大桥是当地利益团体经过100多年争取在河口修建桥梁或隧道的结果。\n第一个主要的跨河提案是1872年的一项隧道计划。\n这一计划由对纽荷兰渡口服务不满的赫尔商人和企业推动。\n1928年，赫尔市议会起草了一项计划，在赫尔以西4英里处修建一座多跨桥。\n然而，该计划在遭受20世纪20年代末和30年代初大萧条的金融困境打击后被放弃。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Government approval for the construction of a suspension bridge was finally granted in 1959, although it was not until 1973 that work finally began.The reasons why a suspension bridge was chosen were twofold. Firstly, the Humber has a shifting bed, and the navigable channel along which a craft can travel is always changing; a suspension bridge with no support piers in mid-stream would not obstruct the estuary.Secondly, because of the geology and topography of the area,the cost of constructing a tunnel would have been excessive.",
+          "translation": "政府最终于1959年批准建造一座悬索桥，尽管直到1973年工程才真正开始。\n选择悬索桥的原因有两个。\n首先，亨伯河的河床会移动，船只可通行的航道不断变化；而一座在河道中央没有支撑桥墩的悬索桥不会阻碍河口。\n其次，由于该地区的地质和地形条件，修建隧道的成本会过高。\n首先，亨伯河的河床是移动的，船只可航行的航道不断变化；而一座河中无支撑桥墩的悬索桥不会阻碍河口。\n其次，由于该地区的地质和地形条件，修建隧道的成本将过于高昂。\n政府终于在1959年批准了建造一座悬索桥，但直到1973年才正式开工。\n首先，亨伯河床是移动的，船舶可通行的航道不断变化；而悬索桥在河中央没有支撑桥墩，不会阻碍河口。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Work on the construction proceeded for eight years, during which time many thousands of tonnes of steel and concrete were used and upwards of one thousand workers and staff were employed at times of peak activity. The designers had been responsible for two other major suspension bridges in Britain but, with a total span of 2,220 m, or almost a mile and a half, the Humber was going to be the longest suspension bridge in the world. Nowadays designers have computers, but back then everything was done with slide rules and calculators. The towers were concrete rather than the usual steel, since concrete was cheaper and would blend in better with the setting.The bridge was designed to stand for 120 years.",
+          "translation": "建设工作持续了八年，期间使用了成千上万吨的钢材和混凝土，在活动高峰期有超过一千名工人和职员受雇于此。\n设计师曾负责英国另外两座大型悬索桥，但总跨度达2220米（约1.5英里）的亨伯桥将成为世界上最长的悬索桥。\n如今设计师使用计算机，但在那时，所有工作都依靠计算尺和计算器完成。\n桥塔采用混凝土而非通常的钢材，因为混凝土更便宜，且能更好地融入周围环境。\n该桥的设计使用寿命为120年。\n建设工作持续了八年，在此期间使用了成千上万吨的钢材和混凝土，并在活动高峰期雇佣了多达一千多名工人和职员。\n设计者曾负责英国另外两座大型悬索桥，但亨伯桥总跨度达2220米，几乎一英里半，将成为世界上最长的悬索桥。\n如今设计师拥有电脑，但当时所有工作都依靠计算尺和计算器完成。\n桥塔采用混凝土而非通常的钢材，因为混凝土更便宜，并且能更好地融入环境。\n这座桥的设计寿命为120年。\n建设工作持续了八年，在此期间使用了成千上万吨钢材和混凝土，在活动高峰期雇用了多达一千多名工人和员工。\n设计师们此前负责过英国另外两座大型悬索桥，但亨伯桥总跨度达2220米，几乎一英里半，将成为世界上最长的悬索桥。\n如今设计师有电脑，但那时一切都靠计算尺和计算器完成。\n桥塔采用混凝土而非通常的钢材，因为混凝土更便宜，且更能与周围环境相融合。\n这座桥的设计使用寿命为120年。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Malcolm Stockwell, the bridgemaster, recalls that when the bridge first opened, there wasn't a great deal of interest in it. Then children started visiting, and he remembers their astonishment at seeing the control room and all the lights. People who lived in towns on opposite banks a mile apart started crossing the river - a journey that previously might as well have been to the moon.The bridge brought them together.",
+          "translation": "桥梁主管马尔科姆·斯托克韦尔回忆道，当这座桥首次开通时，人们对它并没有太大的兴趣。\n随后，孩子们开始前来参观，他记得他们看到控制室和所有灯光时的惊讶之情。\n居住在相距一英里的河对岸城镇的人们开始过河——这段旅程以前简直就像登月一样遥不可及。\n这座桥将他们联系在了一起。\n桥梁管理员马尔科姆·斯托克韦尔回忆道，当这座桥刚开通时，人们对它并没有太大的兴趣。\n随后孩子们开始前来参观，他记得他们看到控制室和所有灯光时的惊讶之情。\n住在相隔一英里的对岸城镇的人们开始过河——这一旅程以前简直就像是去月球一样遥远。\n这座桥将他们连接在了一起。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "The bridge opened up, both socially and economically, two previously remote and insular areas of England, and the improvement in communication enabled the area to realise its potential in commercial, industrial and tourist development.The bridge has saved many millions of vehicle miles and many valuable hours of drivers' and passengers' time - an important factor not only for the drivers and operators of commercial vehicles, but also for tourists and holidaymakers who would have had to travel around the estuary to reach destinations in the region.",
+          "translation": "这座桥从社会和经济层面，将英格兰两个此前偏远且孤立的地区连接了起来，而交通的改善使该地区得以在商业、工业和旅游发展方面发挥其潜力。\n这座桥节省了数百万英里的车辆行驶里程，以及司机和乘客大量宝贵的时间——这不仅对商业车辆的司机和运营商来说是一个重要因素，也对那些原本需要绕行河口才能到达该地区目的地的游客和度假者而言意义重大。\n这座桥在社会和经济层面都打通了英格兰两个原先偏远且闭塞的地区，而交通的改善使得该地区能够发挥其在商业、工业和旅游发展方面的潜力。\n这座桥节省了数百万英里的车辆行驶里程以及司机和乘客大量的宝贵时间——这不仅对商业车辆的司机和运营商来说是一个重要因素，对原本需要绕行河口才能到达该地区目的地的游客和度假者而言也同样如此。\n这座桥从社会和经济两方面打通了英格兰两个先前偏远且封闭的地区，通讯的改善使该地区能够发挥其在商业、工业和旅游发展方面的潜力。\n这座桥节省了数百万英里的车程以及驾驶员和乘客许多宝贵的时间——这不仅对商用车辆的驾驶员和运营者是一个重要因素，也对那些原本需要绕行河口才能到达该地区目的地的游客和度假者至关重要。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "In the words of Malcolm Stockwell, 'Although it can't beat the Golden Gate Bridge in San Francisco for setting, it far outstrips it for sheer elegance and as a piece of engineering.'",
+          "translation": "用马尔科姆·斯托克韦尔的话来说，‘虽然它在环境上无法超越旧金山的金门大桥，但在纯粹的美感以及作为一项工程杰作方面，它远远胜过金门大桥。’\n用马尔科姆·斯托克韦尔的话来说：“尽管在环境方面它无法与旧金山的金门大桥媲美，但在纯粹的优雅度和工程成就上，它远远超越了对方。”\n用马尔科姆·斯托克韦尔的话来说：“尽管在环境方面它无法与旧金山的金门大桥媲美，但仅就优雅气质和工程技艺而言，它远远胜过金门大桥。”\n用马尔科姆·斯托克韦尔的话来说，‘尽管它在地理环境上无法与旧金山的金门大桥媲美，但在纯粹优雅和工程造诣方面，它远远超越了金门大桥。’"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15725",
+          "type": 6,
+          "title": "",
+          "instructions": "Questions 28 - 34\nThe text has seven sections.\nChoose the correct heading for each section from the list of headings below.",
+          "option_title": "List of Headings",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Why the ferry crossing has always been difficult"
+            },
+            {
+              "value": "B",
+              "label": "B. Building the bridge"
+            },
+            {
+              "value": "C",
+              "label": "C. An advantage of the design for the bridge"
+            },
+            {
+              "value": "D",
+              "label": "D. The growing popularity of the bridge"
+            },
+            {
+              "value": "E",
+              "label": "E. Opposition to building a bridge"
+            },
+            {
+              "value": "F",
+              "label": "F. Benefits and disadvantages the Humber has brought"
+            },
+            {
+              "value": "G",
+              "label": "G. Proposed alternatives to ferry services"
+            },
+            {
+              "value": "H",
+              "label": "H. How the bridge has contributed to the region's growth"
+            },
+            {
+              "value": "I",
+              "label": "I. Rising demand for river transport"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1157251",
+              "number": 28,
+              "prompt": "Section A",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why the ferry crossing has always been difficult"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Building the bridge"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An advantage of the design for the bridge"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The growing popularity of the bridge"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Opposition to building a bridge"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Benefits and disadvantages the Humber has brought"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Proposed alternatives to ferry services"
+                },
+                {
+                  "value": "H",
+                  "label": "H. How the bridge has contributed to the region's growth"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Rising demand for river transport"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "段落A既提到亨伯河作为交通障碍（“obstacle to communications”），又指出它曾带来繁荣（“brought prosperity to the settlements”），体现出其双重影响。这与标题F“Benefits and disadvantages the Humber has brought”完全吻合，因此第28题答案为F。",
+              "reason": "段落同时描述Humber的益处（繁荣）与弊端（阻隔），与标题F吻合",
+              "location_analysis": "A段既提到Humber带来繁荣，也指出阻碍交流，对应F",
+              "paraphrasing": "benefits and disadvantages -> prosperity and cut off",
+              "keywords": "Humber, obstacle, communication, prosperity, cut off",
+              "evidence": [
+                "For thousands of years, the Humber - an estuary formed where two major rivers, the Trent and the Ouse, meet - has been an obstacle to communications along the east coast of England, between the counties of Yorkshire to the north and Lincolnshire to the south."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "A"
+            },
+            {
+              "id": "1157252",
+              "number": 29,
+              "prompt": "Section B",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why the ferry crossing has always been difficult"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Building the bridge"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An advantage of the design for the bridge"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The growing popularity of the bridge"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Opposition to building a bridge"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Benefits and disadvantages the Humber has brought"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Proposed alternatives to ferry services"
+                },
+                {
+                  "value": "H",
+                  "label": "H. How the bridge has contributed to the region's growth"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Rising demand for river transport"
+                }
+              ],
+              "answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "analysis": "段落B描述了渡轮服务如何随时间发展以满足日益增长的运输需求，并提及工业革命后交通量激增导致竞争加剧（“increased traffic encouraged speculators to establish rival ferries”）。这些内容对应标题I“Rising demand for river transport”，因此第29题答案为I。",
+              "reason": "段落B讲述轮渡服务的发展和对运输需求的增长，对应I（水运需求上升）。",
+              "location_analysis": "段落B描述轮渡需求增长及竞争加剧，对应I。",
+              "paraphrasing": "Rising demand -> increased traffic, cater for; river transport -> ferry",
+              "keywords": "ferries, needs, increased traffic",
+              "evidence": [
+                "Increased traffic encouraged speculators to establish rival ferries between Hull and Lincolnshire, notably a service between Hull and New Holland which opened in 1826."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null,
+              "source_section_code": "B"
+            },
+            {
+              "id": "1157253",
+              "number": 30,
+              "prompt": "Section C",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why the ferry crossing has always been difficult"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Building the bridge"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An advantage of the design for the bridge"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The growing popularity of the bridge"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Opposition to building a bridge"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Benefits and disadvantages the Humber has brought"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Proposed alternatives to ferry services"
+                },
+                {
+                  "value": "H",
+                  "label": "H. How the bridge has contributed to the region's growth"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Rising demand for river transport"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "段落C详细列举了多种跨越亨伯河的替代方案，包括1872年的隧道计划、1928年的多跨桥梁提案等（“a variety of proposals were put forward”）。这些内容正好对应标题G“Proposed alternatives to ferry services”，因此第30题答案为G。",
+              "reason": "段落讨论多个渡河替代方案，与标题G匹配",
+              "location_analysis": "C段列举多种渡河方案（隧道、桥等），对应G",
+              "paraphrasing": "proposed alternatives -> proposals, tunnel scheme, plan",
+              "keywords": "proposals, tunnel, bridge, plan",
+              "evidence": [
+                "The first major crossing proposal was a tunnel scheme in 1872.",
+                "Over the next 100 years, a variety of proposals were put forward in an effort to bridge the Humber. In 1928, a plan was drawn up by Hull City Council to build a multi-span bridge four miles west of Hull."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "C"
+            },
+            {
+              "id": "1157254",
+              "number": 31,
+              "prompt": "Section D",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why the ferry crossing has always been difficult"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Building the bridge"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An advantage of the design for the bridge"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The growing popularity of the bridge"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Opposition to building a bridge"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Benefits and disadvantages the Humber has brought"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Proposed alternatives to ferry services"
+                },
+                {
+                  "value": "H",
+                  "label": "H. How the bridge has contributed to the region's growth"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Rising demand for river transport"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "段落D解释了为何选择悬索桥设计：一是河道不断变化，无桥墩不会阻碍航运；二是地质条件使隧道造价过高。这两点都是该设计方案的优势，对应标题C“An advantage of the design for the bridge”，因此第31题答案为C。",
+              "reason": "段落强调悬索桥设计的好处，符合标题C",
+              "location_analysis": "D段解释悬索桥的两大设计优势，对应C",
+              "paraphrasing": "an advantage of the design -> reasons why a suspension bridge was chosen",
+              "keywords": "suspension bridge, shifting bed, no support piers",
+              "evidence": [
+                "The reasons why a suspension bridge was chosen were twofold.",
+                "Firstly, the Humber has a shifting bed, and the navigable channel along which a craft can travel is always changing; a suspension bridge with no support piers in mid-stream would not obstruct the estuary."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "D"
+            },
+            {
+              "id": "1157255",
+              "number": 32,
+              "prompt": "Section E",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why the ferry crossing has always been difficult"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Building the bridge"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An advantage of the design for the bridge"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The growing popularity of the bridge"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Opposition to building a bridge"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Benefits and disadvantages the Humber has brought"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Proposed alternatives to ferry services"
+                },
+                {
+                  "value": "H",
+                  "label": "H. How the bridge has contributed to the region's growth"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Rising demand for river transport"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "段落E聚焦于桥梁的实际建造过程，包括施工时长、材料用量、工人数量以及桥塔采用混凝土的原因（“Work on the construction proceeded for eight years... The towers were concrete...”）。这些细节紧扣标题B“Building the bridge”，因此第32题答案为B。",
+              "reason": "段落聚焦桥梁施工与设计特点，与标题B吻合",
+              "location_analysis": "E段详细描述桥梁建设过程与设计，对应B",
+              "paraphrasing": "building the bridge -> work on the construction, project details",
+              "keywords": "work on the construction, designers, towers, concrete",
+              "evidence": [
+                "Work on the construction proceeded for eight years, during which time many thousands of tonnes of steel and concrete were used and upwards of one thousand workers and staff were employed at times of peak activity.",
+                "The towers were concrete rather than the usual steel, since concrete was cheaper and would blend in better with the setting."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "E"
+            },
+            {
+              "id": "1157256",
+              "number": 33,
+              "prompt": "Section F",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why the ferry crossing has always been difficult"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Building the bridge"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An advantage of the design for the bridge"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The growing popularity of the bridge"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Opposition to building a bridge"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Benefits and disadvantages the Humber has brought"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Proposed alternatives to ferry services"
+                },
+                {
+                  "value": "H",
+                  "label": "H. How the bridge has contributed to the region's growth"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Rising demand for river transport"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "段落F通过回忆者Malcolm Stockwell的叙述，展现了大桥开通初期人们兴趣不大，但随后儿童开始参观、居民频繁过河的现象（“Then children started visiting... People who lived in towns on opposite banks... started crossing”），体现了其受欢迎程度逐渐上升，对应标题D“The growing popularity of the bridge”，因此第33题答案为D。",
+              "reason": "段落展示大桥日益受欢迎，与标题D一致",
+              "location_analysis": "F段描述人们逐渐对桥梁感兴趣并开始使用，对应D",
+              "paraphrasing": "growing popularity -> interest, astonishment, started crossing",
+              "keywords": "children visiting, astonishment, crossing, brought them together",
+              "evidence": [
+                "Malcolm Stockwell, the bridgemaster, recalls that when the bridge first opened, there wasn't a great deal of interest in it.",
+                "Then children started visiting, and he remembers their astonishment at seeing the control room and all the lights."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "F"
+            },
+            {
+              "id": "1157257",
+              "number": 34,
+              "prompt": "Section G",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Why the ferry crossing has always been difficult"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Building the bridge"
+                },
+                {
+                  "value": "C",
+                  "label": "C. An advantage of the design for the bridge"
+                },
+                {
+                  "value": "D",
+                  "label": "D. The growing popularity of the bridge"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Opposition to building a bridge"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Benefits and disadvantages the Humber has brought"
+                },
+                {
+                  "value": "G",
+                  "label": "G. Proposed alternatives to ferry services"
+                },
+                {
+                  "value": "H",
+                  "label": "H. How the bridge has contributed to the region's growth"
+                },
+                {
+                  "value": "I",
+                  "label": "I. Rising demand for river transport"
+                }
+              ],
+              "answer": "H",
+              "accepted_answers": [
+                "H"
+              ],
+              "analysis": "段落G强调亨伯桥在社会和经济层面连接了原本孤立的地区，并促进了商业、工业和旅游业的发展（“opened up... two previously remote and insular areas... realise its potential in commercial, industrial and tourist development”），完全契合标题H“How the bridge has contributed to the region's growth”，因此第34题答案为H。",
+              "reason": "段落强调大桥对区域发展的贡献，与标题H匹配",
+              "location_analysis": "G段阐述大桥推动区域社会经济发展，对应H",
+              "paraphrasing": "contributed to the region's growth -> opened up, realise its potential, development",
+              "keywords": "opened up, socially and economically, improvement in communication, development",
+              "evidence": [
+                "The bridge opened up, both socially and economically, two previously remote and insular areas of England, and the improvement in communication enabled the area to realise its potential in commercial, industrial and tourist development.",
+                "The bridge has saved many millions of vehicle miles and many valuable hours of drivers' and passengers' time - an important factor not only for the drivers and operators of commercial vehicles, but also for tourists and holidaymakers who would have had to travel around the estuary to reach destinations in the region."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null,
+              "source_section_code": "G"
+            }
+          ],
+          "source_layout": {
+            "raw_type": 6,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Headings"
+          }
+        },
+        {
+          "id": "15727",
+          "type": 4,
+          "title": "Crossing the Humber",
+          "instructions": "Questions 35 - 40\nComplete the summary below.\nChoose ONE WORD ONLY from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120401",
+              "number": 35,
+              "prompt": "The first ferry across the Humber started operating in 1315, and by 1800, this service had been _____ with other forms of transport. The mid-19th century saw greater _____ in the provision of services. In 1968, an attempt to establish a service across the river using _____ failed.",
+              "options": [],
+              "answer": "integrated",
+              "accepted_answers": [
+                "integrated"
+              ],
+              "analysis": "题干中的“by 1800, this service had been $120401$ with other forms of transport”对应原文B段中的“By 1800, this ferry had become fully integrated into the overland transport system”。此处“integrated”准确表达了渡轮服务与陆路运输系统的融合，符合题干要求填入一个词的限制，因此答案为integrated。",
+              "reason": "直接定位",
+              "location_analysis": "原文说渡轮全面融入陆运系统，填integrated。",
+              "paraphrasing": "been $120401$ with -> fully integrated into",
+              "keywords": "1800, ferry, fully integrated",
+              "evidence": [
+                "By 1800,this ferry had become fully integrated into the overland transport system, but the changes associated with the industrial revolution were soon to threaten its position."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120402",
+              "number": 36,
+              "prompt": "The first ferry across the Humber started operating in 1315, and by 1800, this service had been _____ with other forms of transport. The mid-19th century saw greater _____ in the provision of services. In 1968, an attempt to establish a service across the river using _____ failed.",
+              "options": [],
+              "answer": "competition",
+              "accepted_answers": [
+                "competition"
+              ],
+              "analysis": "题干中“greater $120402$ in the provision of services”对应原文B段提到的“Increased traffic encouraged speculators to establish rival ferries”，说明随着交通量增加，出现了更多竞争性的渡轮服务。关键词“competition”在上下文中体现为不同渡轮公司之间的竞争，因此答案为competition。",
+              "reason": "竞争(competition)是服务提供中增加的要素",
+              "location_analysis": "原文提到竞争加剧(competition)，填competition",
+              "paraphrasing": "greater $20402$ in the provision of services -> speculators to establish rival ferries / increased competition",
+              "keywords": "increased traffic, rivalry, competition",
+              "evidence": [
+                "Increased traffic encouraged speculators to establish rival ferries between Hull and Lincolnshire, notably a service between Hull and New Holland which opened in 1826."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120403",
+              "number": 37,
+              "prompt": "The first ferry across the Humber started operating in 1315, and by 1800, this service had been _____ with other forms of transport. The mid-19th century saw greater _____ in the provision of services. In 1968, an attempt to establish a service across the river using _____ failed.",
+              "options": [],
+              "answer": "hovercrafts",
+              "accepted_answers": [
+                "hovercrafts"
+              ],
+              "analysis": "题干提到“an attempt to establish a service across the river using $120403$ failed”，而原文B段明确指出“In 1968, there was briefly a ferry service from Grimsby to Hull involving hovercrafts. This did not last long...”，说明使用的是hovercrafts（气垫船），且该服务未能持续，因此答案为hovercrafts。",
+              "reason": "1968年尝试用hovercrafts渡河失败",
+              "location_analysis": "原文提及气垫船服务未能持久，填hovercrafts",
+              "paraphrasing": "attempt using $20403$ failed -> ferry service involving hovercrafts / did not last long",
+              "keywords": "1968, hovercrafts",
+              "evidence": [
+                "In 1968, there was briefly a ferry service from Grimsby to Hull involving hovercrafts.",
+                "This did not last long as the hovercrafts could not cope with the demands of the River Humber."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120404",
+              "number": 38,
+              "prompt": "The Humber Bridge is a suspension bridge because the channel that ships travel along moves, and _____ supporting a bridge would obstruct it. A bridge rather than a _____ was chosen on the grounds of cost. This was also one reason why _____ was used for the towers.",
+              "options": [],
+              "answer": "piers",
+              "accepted_answers": [
+                "piers"
+              ],
+              "analysis": "题干中“$120404$ supporting a bridge would obstruct it”对应原文D段“a suspension bridge with no support piers in mid-stream would not obstruct the estuary”，说明如果有桥墩（piers）就会阻碍航道。因此空格处应填入piers，表示支撑桥梁的结构会妨碍通航。",
+              "reason": "题干否定句对应原文support piers",
+              "location_analysis": "原文说无桥墩不会阻碍航道，故阻碍需piers",
+              "paraphrasing": "$20404$ supporting a bridge would obstruct -> no support piers in mid-stream would not obstruct",
+              "keywords": "no support piers, obstruct",
+              "evidence": [
+                "a suspension bridge with no support piers in mid-stream would not obstruct the estuary"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120405",
+              "number": 39,
+              "prompt": "The Humber Bridge is a suspension bridge because the channel that ships travel along moves, and _____ supporting a bridge would obstruct it. A bridge rather than a _____ was chosen on the grounds of cost. This was also one reason why _____ was used for the towers.",
+              "options": [],
+              "answer": "tunnel",
+              "accepted_answers": [
+                "tunnel"
+              ],
+              "analysis": "题干中“a bridge rather than a $120405$ was chosen on the grounds of cost”对应原文D段“the cost of constructing a tunnel would have been excessive”，说明因成本过高而未选择隧道（tunnel）。因此答案为tunnel，符合题干对替代方案的描述。",
+              "reason": "原文明确指出选择桥而非隧道的原因。",
+              "location_analysis": "原文对比桥和tunnel的成本，填tunnel。",
+              "paraphrasing": "bridge rather than ... -> cost of constructing a tunnel would have been excessive",
+              "keywords": "rather than a, cost",
+              "evidence": [
+                "the cost of constructing a tunnel would have been excessive"
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120406",
+              "number": 40,
+              "prompt": "The Humber Bridge is a suspension bridge because the channel that ships travel along moves, and _____ supporting a bridge would obstruct it. A bridge rather than a _____ was chosen on the grounds of cost. This was also one reason why _____ was used for the towers.",
+              "options": [],
+              "answer": "concrete",
+              "accepted_answers": [
+                "concrete"
+              ],
+              "analysis": "题干中“concrete was used for the towers”对应原文E段“The towers were concrete rather than the usual steel, since concrete was cheaper and would blend in better with the setting”，明确指出桥塔使用的是混凝土（concrete），原因包括成本低和美观，因此答案为concrete。",
+              "reason": "成本及环境融合原因使用混凝土",
+              "location_analysis": "原文指明桥塔使用混凝土，答案为concrete",
+              "paraphrasing": "concrete was used for the towers -> towers were concrete rather than steel, since concrete was cheaper",
+              "keywords": "towers, concrete, cheaper",
+              "evidence": [
+                "The towers were concrete rather than the usual steel, since concrete was cheaper and would blend in better with the setting."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "The first ferry across the Humber started operating in 1315, and by 1800, this service had been $120401$ with other forms of transport. The mid-19th century saw greater $120402$ in the provision of services. In 1968, an attempt to establish a service across the river using $120403$ failed.\nThe Humber Bridge is a suspension bridge because the channel that ships travel along moves, and $120404$ supporting a bridge would obstruct it. A bridge rather than a $120405$ was chosen on the grounds of cost. This was also one reason why $120406$ was used for the towers.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The first ferry across the Humber started operating in 1315, and by 1800, this service had been $120401$ with other forms of transport. The mid-19th century saw greater $120402$ in the provision of services. In 1968, an attempt to establish a service across the river using $120403$ failed.\nThe Humber Bridge is a suspension bridge because the channel that ships travel along moves, and $120404$ supporting a bridge would obstruct it. A bridge rather than a $120405$ was chosen on the grounds of cost. This was also one reason why $120406$ was used for the towers."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Crossing the Humber estuary",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "For thousands of years, the Humber - an estuary formed where two major rivers, the Trent and the Ouse, meet - has been an obstacle to communications along the east coast of England, between the counties of Yorkshire to the north and Lincolnshire to the south.",
+          "translation": "几千年来，亨伯——由两条主要河流特伦特河和乌斯河交汇形成的河口湾——一直是英格兰东海岸、北部约克郡和南部林肯郡之间交通的障碍。"
+        },
+        {
+          "index": 2,
+          "sentence": "Before the arrival of the railways in the 19th century, water transportation was the most efficient means of moving heavy or bulk freight, and the Humber, situated at the heart of the waterway system associated with the two major rivers, was one of the chief highways of England.",
+          "translation": "在19世纪铁路出现之前，水路运输是运送沉重或大宗货物最有效的方式，而亨伯位于与两条主要河流相关的水路系统中心，曾是英格兰的主要交通要道之一。"
+        },
+        {
+          "index": 3,
+          "sentence": "Its traffic brought prosperity to the settlements on its banks, particularly the city of Hull on its north bank, but the river itself tended to cut them off from some of their closest neighbours, as well as obstructing the progress of travellers moving north or south.",
+          "translation": "其交通为沿岸的定居点带来了繁荣，尤其是北岸的赫尔市，但河流本身却将它们与一些最近的邻居隔离开来，同时也阻碍了向北或向南行进的旅行者的前进。"
+        },
+        {
+          "index": 4,
+          "sentence": "In the words of Malcolm Stockwell, 'Although it can't beat the Golden Gate Bridge in San Francisco for setting, it far outstrips it for sheer elegance and as a piece of engineering.'",
+          "translation": "用马尔科姆·斯托克韦尔的话来说，‘虽然它在环境上无法超越旧金山的金门大桥，但在纯粹的美感以及作为一项工程杰作方面，它远远胜过金门大桥。’"
+        },
+        {
+          "index": 5,
+          "sentence": "For thousands of years, the Humber - an estuary formed where two major rivers, the Trent and the Ouse, meet - has been an obstacle to communications along the east coast of England, between the counties of Yorkshire to the north and Lincolnshire to the south.",
+          "translation": "数千年来，亨伯河——由特伦特河和乌斯河两条主要河流交汇形成的河口湾——一直是英格兰东海岸南北地区（北部的约克郡和南部的林肯郡）之间的交通障碍。"
+        },
+        {
+          "index": 6,
+          "sentence": "Before the arrival of the railways in the 19th century, water transportation was the most efficient means of moving heavy or bulk freight, and the Humber, situated at the heart of the waterway system associated with the two major rivers, was one of the chief highways of England.",
+          "translation": "在19世纪铁路出现之前，水运是运输重型或大宗货物最有效的方式，而亨伯河位于与两条主要河流相关的水道系统中心，曾是英格兰的主要交通要道之一。"
+        },
+        {
+          "index": 7,
+          "sentence": "Its traffic brought prosperity to the settlements on its banks, particularly the city of Hull on its north bank, but the river itself tended to cut them off from some of their closest neighbours, as well as obstructing the progress of travellers moving north or south.",
+          "translation": "其航运为两岸的定居点带来了繁荣，尤其是北岸的赫尔市，但河流本身却往往将这些定居点与一些最近的邻居隔离开来，同时也阻碍了南北向旅行者的行程。"
+        },
+        {
+          "index": 8,
+          "sentence": "For thousands of years, the Humber - an estuary formed where two major rivers, the Trent and the Ouse, meet - has been an obstacle to communications along the east coast of England, between the counties of Yorkshire to the north and Lincolnshire to the south.",
+          "translation": "数千年来，亨伯河——由特伦特河和乌斯河这两条主要河流交汇形成的河口——一直是英格兰东海岸、北部约克郡与南部林肯郡之间交通的障碍。"
+        },
+        {
+          "index": 9,
+          "sentence": "Before the arrival of the railways in the 19th century, water transportation was the most efficient means of moving heavy or bulk freight, and the Humber, situated at the heart of the waterway system associated with the two major rivers, was one of the chief highways of England.",
+          "translation": "在19世纪铁路出现之前，水运是最有效的重型或散装货物运输方式，而位于这两条主要河流航道系统中心的亨伯河，曾是英格兰的主要交通要道之一。"
+        },
+        {
+          "index": 10,
+          "sentence": "Its traffic brought prosperity to the settlements on its banks, particularly the city of Hull on its north bank, but the river itself tended to cut them off from some of their closest neighbours, as well as obstructing the progress of travellers moving north or south.",
+          "translation": "其航运为沿岸居民点带来了繁荣，尤其是北岸的赫尔城，但河流本身却往往使它们与一些最近的邻居隔绝，同时也阻碍了南北向旅行者的行程。"
+        },
+        {
+          "index": 11,
+          "sentence": "For thousands of years, the Humber - an estuary formed where two major rivers, the Trent and the Ouse, meet - has been an obstacle to communications along the east coast of England, between the counties of Yorkshire to the north and Lincolnshire to the south.",
+          "translation": "数千年来，亨伯河——由特伦特河和乌斯河这两条主要河流交汇形成的河口——一直是英格兰东海岸沿线、北部的约克郡与南部的林肯郡之间交通的障碍。"
+        },
+        {
+          "index": 12,
+          "sentence": "Before the arrival of the railways in the 19th century, water transportation was the most efficient means of moving heavy or bulk freight, and the Humber, situated at the heart of the waterway system associated with the two major rivers, was one of the chief highways of England.",
+          "translation": "在19世纪铁路出现之前，水路运输是运输重型或大宗货物最高效的方式，而亨伯河位于与这两条主要河流相关的水路系统的中心，曾是英格兰的主要交通要道之一。"
+        },
+        {
+          "index": 13,
+          "sentence": "Its traffic brought prosperity to the settlements on its banks, particularly the city of Hull on its north bank, but the river itself tended to cut them off from some of their closest neighbours, as well as obstructing the progress of travellers moving north or south.",
+          "translation": "其水上交通为沿岸的定居点带来了繁荣，尤其是北岸的赫尔市，但河流本身却往往使它们与一些最近的邻居隔绝，同时也阻碍了向北或向南行进的旅行者的行程。"
+        },
+        {
+          "index": 14,
+          "sentence": "To cater for these local and, as time progressed, wider needs, ferries were provided across many of the streams flowing into the Humber, and in 1315, a ferry was established across the Humber itself between Hull and Lincolnshire.",
+          "translation": "为了满足这些地方性需求，并且随着时间的推移，更广泛的需求也随之出现，亨伯河入海的许多溪流上设立了渡轮服务；1315年，在亨伯河本身上建立了一条连接赫尔和林肯郡的渡轮线路。"
+        },
+        {
+          "index": 15,
+          "sentence": "By 1800, this ferry had become fully integrated into the overland transport system, but the changes associated with the industrial revolution were soon to threaten its position.",
+          "translation": "到1800年，这条渡轮已完全融入陆上运输系统，但随之而来的工业革命变革很快便威胁到它的地位。"
+        },
+        {
+          "index": 16,
+          "sentence": "Increased traffic encouraged speculators to establish rival ferries between Hull and Lincolnshire, notably a service between Hull and New Holland which opened in 1826.",
+          "translation": "日益增长的交通量促使投机者在赫尔和林肯郡之间开设竞争性渡轮服务，其中以1826年开通的赫尔至新荷兰航线尤为突出。"
+        },
+        {
+          "index": 17,
+          "sentence": "This crossing was considerably shorter than on the existing Hull to Barton service, which closed in 1851, unable to cope with the increased competition from the rival service.",
+          "translation": "这条航线比当时现有的赫尔至巴顿航线短得多，后者因无法应对来自竞争航线的日益加剧的竞争，于1851年关闭。"
+        },
+        {
+          "index": 18,
+          "sentence": "To cater for these local and, as time progressed, wider needs, ferries were provided across many of the streams flowing into the Humber, and in 1315, a ferry was established across the Humber itself between Hull and Lincolnshire.",
+          "translation": "为了满足这些当地以及随着时间的推移日益广泛的需求，在流入亨伯河的许多溪流上设立了渡船，并于1315年在亨伯河本身之间建立了赫尔和林肯郡之间的渡船服务。"
+        },
+        {
+          "index": 19,
+          "sentence": "By 1800, this ferry had become fully integrated into the overland transport system, but the changes associated with the industrial revolution were soon to threaten its position.",
+          "translation": "到1800年，这种渡船已完全融入陆路运输系统，但与工业革命相关的变革很快威胁到了它的地位。"
+        },
+        {
+          "index": 20,
+          "sentence": "Increased traffic encouraged speculators to establish rival ferries between Hull and Lincolnshire, notably a service between Hull and New Holland which opened in 1826.",
+          "translation": "日益增长的交通量促使投机者在赫尔和林肯郡之间开设了竞争性渡船，尤其是1826年开通的赫尔到新荷兰之间的服务。"
+        },
+        {
+          "index": 21,
+          "sentence": "This crossing was considerably shorter than on the existing Hull to Barton service, which closed in 1851, unable to cope with the increased competition from the rival service.",
+          "translation": "这条航线比现有的赫尔到巴顿的服务短得多，后者因无法应对来自竞争服务的加剧竞争而于1851年关闭。"
+        },
+        {
+          "index": 22,
+          "sentence": "To cater for these local and, as time progressed, wider needs, ferries were provided across many of the streams flowing into the Humber, and in 1315, a ferry was established across the Humber itself between Hull and Lincolnshire.",
+          "translation": "为了满足这些地方性需求，并随着时间推移，更广泛的需求也随之而来，在流入亨伯河的许多溪流上设置了渡轮，并于1315年在亨伯河上建立了赫尔与林肯郡之间的渡轮服务。"
+        },
+        {
+          "index": 23,
+          "sentence": "By 1800, this ferry had become fully integrated into the overland transport system, but the changes associated with the industrial revolution were soon to threaten its position.",
+          "translation": "到1800年，这一渡轮已完全融入陆上运输系统，但与工业革命相关的变革很快就威胁到了它的地位。"
+        },
+        {
+          "index": 24,
+          "sentence": "Increased traffic encouraged speculators to establish rival ferries between Hull and Lincolnshire, notably a service between Hull and New Holland which opened in 1826.",
+          "translation": "日益增长的交通量促使投机者在赫尔与林肯郡之间建立竞争性渡轮服务，其中最著名的是1826年开通的赫尔至新荷兰航线。"
+        },
+        {
+          "index": 25,
+          "sentence": "This crossing was considerably shorter than on the existing Hull to Barton service, which closed in 1851, unable to cope with the increased competition from the rival service.",
+          "translation": "这条航线的距离远短于现有的赫尔至巴顿航线，后者于1851年关闭，因为它无法应对来自竞争航线的日益激烈的竞争。"
+        },
+        {
+          "index": 26,
+          "sentence": "The New Holland ferry service then grew into a major link between the north and south banks of the Humber, carrying passengers, and cattle and goods bound for Hull Market.",
+          "translation": "随后，纽荷兰渡轮服务发展成为亨伯河南北两岸之间的主要连接点，搭载前往赫尔市场的乘客、牛和货物。"
+        },
+        {
+          "index": 27,
+          "sentence": "In 1968, there was briefly a ferry service from Grimsby to Hull involving hovercrafts.",
+          "translation": "1968年，曾短暂开通了从格里姆斯比到赫尔的气垫船渡轮服务。"
+        },
+        {
+          "index": 28,
+          "sentence": "This did not last long as the hovercrafts could not cope with the demands of the River Humber.",
+          "translation": "这次服务并未持续很久，因为气垫船无法应对亨伯河的要求。"
+        },
+        {
+          "index": 29,
+          "sentence": "The ferry service between Hull and New Holland ended with the opening of the Humber Bridge in 1981.",
+          "translation": "随着1981年亨伯桥的开通，赫尔与纽荷兰之间的渡轮服务宣告结束。"
+        },
+        {
+          "index": 31,
+          "sentence": "The bridge was the outcome of over 100 years of campaigning by local interests for the construction of a bridge or tunnel across the estuary.",
+          "translation": "这座桥是当地利益集团为在河口上建造一座桥或隧道而进行超过100年游说的结果。"
+        },
+        {
+          "index": 32,
+          "sentence": "The first major crossing proposal was a tunnel scheme in 1872.",
+          "translation": "第一个主要的跨河提议是1872年的隧道方案。"
+        },
+        {
+          "index": 33,
+          "sentence": "This scheme was promoted by Hull merchants and businesses dissatisfied with the service provided by the New Holland ferry crossing.",
+          "translation": "这一方案由对纽荷兰渡轮服务不满的赫尔商人和企业推动。"
+        },
+        {
+          "index": 34,
+          "sentence": "Over the next 100 years, a variety of proposals were put forward in an effort to bridge the Humber.",
+          "translation": "在接下来的100年里，人们提出了各种方案，试图在亨伯河上建桥。"
+        },
+        {
+          "index": 35,
+          "sentence": "In 1928, a plan was drawn up by Hull City Council to build a multi-span bridge four miles west of Hull.",
+          "translation": "1928年，赫尔市议会制定了一项计划，在赫尔以西4英里处建造一座多跨桥。"
+        },
+        {
+          "index": 36,
+          "sentence": "However, the scheme was dropped after being hit by the financial woes of the Great Depression of the late 1920s and early 1930s.",
+          "translation": "然而，该计划在遭受20世纪20年代末和30年代初大萧条的经济困境后放弃了。"
+        },
+        {
+          "index": 37,
+          "sentence": "The bridge was the outcome of over 100 years of campaigning by local interests for the construction of a bridge or tunnel across the estuary.",
+          "translation": "这座大桥是当地利益团体为实现修建横跨河口的大桥或隧道而进行了100多年持续游说活动的成果。"
+        },
+        {
+          "index": 38,
+          "sentence": "The first major crossing proposal was a tunnel scheme in 1872.",
+          "translation": "第一个主要的渡河方案是1872年提出的隧道计划。"
+        },
+        {
+          "index": 39,
+          "sentence": "This scheme was promoted by Hull merchants and businesses dissatisfied with the service provided by the New Holland ferry crossing.",
+          "translation": "这一计划是由对纽荷兰渡轮服务感到不满的赫尔商人和企业推动的。"
+        },
+        {
+          "index": 40,
+          "sentence": "Over the next 100 years, a variety of proposals were put forward in an effort to bridge the Humber.",
+          "translation": "在接下来的100年里，人们提出了各种旨在建造亨伯大桥的方案。"
+        },
+        {
+          "index": 41,
+          "sentence": "In 1928, a plan was drawn up by Hull City Council to build a multi-span bridge four miles west of Hull.",
+          "translation": "1928年，赫尔市议会起草了一项计划，要在赫尔以西四英里处建造一座多跨大桥。"
+        },
+        {
+          "index": 42,
+          "sentence": "However, the scheme was dropped after being hit by the financial woes of the Great Depression of the late 1920s and early 1930s.",
+          "translation": "然而，该计划因受到20世纪20年代末和30年代初大萧条金融危机的冲击而被放弃。"
+        },
+        {
+          "index": 43,
+          "sentence": "The bridge was the outcome of over 100 years of campaigning by local interests for the construction of a bridge or tunnel across the estuary.",
+          "translation": "这座大桥是当地利益团体经过100多年争取在河口修建桥梁或隧道的结果。"
+        },
+        {
+          "index": 44,
+          "sentence": "The first major crossing proposal was a tunnel scheme in 1872.",
+          "translation": "第一个主要的跨河提案是1872年的一项隧道计划。"
+        },
+        {
+          "index": 45,
+          "sentence": "This scheme was promoted by Hull merchants and businesses dissatisfied with the service provided by the New Holland ferry crossing.",
+          "translation": "这一计划由对纽荷兰渡口服务不满的赫尔商人和企业推动。"
+        },
+        {
+          "index": 46,
+          "sentence": "Over the next 100 years, a variety of proposals were put forward in an effort to bridge the Humber.",
+          "translation": "在接下来的100年里，人们提出了各种方案，试图在亨伯河上建桥。"
+        },
+        {
+          "index": 47,
+          "sentence": "In 1928, a plan was drawn up by Hull City Council to build a multi-span bridge four miles west of Hull.",
+          "translation": "1928年，赫尔市议会起草了一项计划，在赫尔以西4英里处修建一座多跨桥。"
+        },
+        {
+          "index": 48,
+          "sentence": "However, the scheme was dropped after being hit by the financial woes of the Great Depression of the late 1920s and early 1930s.",
+          "translation": "然而，该计划在遭受20世纪20年代末和30年代初大萧条的金融困境打击后被放弃。"
+        },
+        {
+          "index": 50,
+          "sentence": "Government approval for the construction of a suspension bridge was finally granted in 1959, although it was not until 1973 that work finally began.",
+          "translation": "政府最终于1959年批准建造一座悬索桥，尽管直到1973年工程才真正开始。"
+        },
+        {
+          "index": 51,
+          "sentence": "The reasons why a suspension bridge was chosen were twofold.",
+          "translation": "选择悬索桥的原因有两个。"
+        },
+        {
+          "index": 52,
+          "sentence": "Firstly, the Humber has a shifting bed, and the navigable channel along which a craft can travel is always changing; a suspension bridge with no support piers in mid-stream would not obstruct the estuary.",
+          "translation": "首先，亨伯河的河床会移动，船只可通行的航道不断变化；而一座在河道中央没有支撑桥墩的悬索桥不会阻碍河口。"
+        },
+        {
+          "index": 53,
+          "sentence": "Secondly, because of the geology and topography of the area, the cost of constructing a tunnel would have been excessive.",
+          "translation": "其次，由于该地区的地质和地形条件，修建隧道的成本会过高。"
+        },
+        {
+          "index": 54,
+          "sentence": "Government approval for the construction of a suspension bridge was finally granted in 1959, although it was not until 1973 that work finally began.",
+          "translation": "政府最终于1959年批准建造一座悬索桥，尽管直到1973年工程才真正开始。"
+        },
+        {
+          "index": 55,
+          "sentence": "The reasons why a suspension bridge was chosen were twofold.",
+          "translation": "选择悬索桥的原因有两个。"
+        },
+        {
+          "index": 56,
+          "sentence": "Firstly, the Humber has a shifting bed, and the navigable channel along which a craft can travel is always changing; a suspension bridge with no support piers in mid-stream would not obstruct the estuary.",
+          "translation": "首先，亨伯河的河床是移动的，船只可航行的航道不断变化；而一座河中无支撑桥墩的悬索桥不会阻碍河口。"
+        },
+        {
+          "index": 57,
+          "sentence": "Secondly, because of the geology and topography of the area, the cost of constructing a tunnel would have been excessive.",
+          "translation": "其次，由于该地区的地质和地形条件，修建隧道的成本将过于高昂。"
+        },
+        {
+          "index": 58,
+          "sentence": "Government approval for the construction of a suspension bridge was finally granted in 1959, although it was not until 1973 that work finally began.",
+          "translation": "政府终于在1959年批准了建造一座悬索桥，但直到1973年才正式开工。"
+        },
+        {
+          "index": 59,
+          "sentence": "The reasons why a suspension bridge was chosen were twofold.",
+          "translation": "选择悬索桥的原因有两个。"
+        },
+        {
+          "index": 60,
+          "sentence": "Firstly, the Humber has a shifting bed, and the navigable channel along which a craft can travel is always changing; a suspension bridge with no support piers in mid-stream would not obstruct the estuary.",
+          "translation": "首先，亨伯河床是移动的，船舶可通行的航道不断变化；而悬索桥在河中央没有支撑桥墩，不会阻碍河口。"
+        },
+        {
+          "index": 61,
+          "sentence": "Secondly, because of the geology and topography of the area, the cost of constructing a tunnel would have been excessive.",
+          "translation": "其次，由于该地区的地质和地形条件，修建隧道的成本会过高。"
+        },
+        {
+          "index": 63,
+          "sentence": "Work on the construction proceeded for eight years, during which time many thousands of tonnes of steel and concrete were used and upwards of one thousand workers and staff were employed at times of peak activity.",
+          "translation": "建设工作持续了八年，期间使用了成千上万吨的钢材和混凝土，在活动高峰期有超过一千名工人和职员受雇于此。"
+        },
+        {
+          "index": 64,
+          "sentence": "The designers had been responsible for two other major suspension bridges in Britain but, with a total span of 2,220 m, or almost a mile and a half, the Humber was going to be the longest suspension bridge in the world.",
+          "translation": "设计师曾负责英国另外两座大型悬索桥，但总跨度达2220米（约1.5英里）的亨伯桥将成为世界上最长的悬索桥。"
+        },
+        {
+          "index": 65,
+          "sentence": "Nowadays designers have computers, but back then everything was done with slide rules and calculators.",
+          "translation": "如今设计师使用计算机，但在那时，所有工作都依靠计算尺和计算器完成。"
+        },
+        {
+          "index": 66,
+          "sentence": "The towers were concrete rather than the usual steel, since concrete was cheaper and would blend in better with the setting.",
+          "translation": "桥塔采用混凝土而非通常的钢材，因为混凝土更便宜，且能更好地融入周围环境。"
+        },
+        {
+          "index": 67,
+          "sentence": "The bridge was designed to stand for 120 years.",
+          "translation": "该桥的设计使用寿命为120年。"
+        },
+        {
+          "index": 68,
+          "sentence": "Work on the construction proceeded for eight years, during which time many thousands of tonnes of steel and concrete were used and upwards of one thousand workers and staff were employed at times of peak activity.",
+          "translation": "建设工作持续了八年，在此期间使用了成千上万吨的钢材和混凝土，并在活动高峰期雇佣了多达一千多名工人和职员。"
+        },
+        {
+          "index": 69,
+          "sentence": "The designers had been responsible for two other major suspension bridges in Britain but, with a total span of 2,220 m, or almost a mile and a half, the Humber was going to be the longest suspension bridge in the world.",
+          "translation": "设计者曾负责英国另外两座大型悬索桥，但亨伯桥总跨度达2220米，几乎一英里半，将成为世界上最长的悬索桥。"
+        },
+        {
+          "index": 70,
+          "sentence": "Nowadays designers have computers, but back then everything was done with slide rules and calculators.",
+          "translation": "如今设计师拥有电脑，但当时所有工作都依靠计算尺和计算器完成。"
+        },
+        {
+          "index": 71,
+          "sentence": "The towers were concrete rather than the usual steel, since concrete was cheaper and would blend in better with the setting.",
+          "translation": "桥塔采用混凝土而非通常的钢材，因为混凝土更便宜，并且能更好地融入环境。"
+        },
+        {
+          "index": 72,
+          "sentence": "The bridge was designed to stand for 120 years.",
+          "translation": "这座桥的设计寿命为120年。"
+        },
+        {
+          "index": 73,
+          "sentence": "Work on the construction proceeded for eight years, during which time many thousands of tonnes of steel and concrete were used and upwards of one thousand workers and staff were employed at times of peak activity.",
+          "translation": "建设工作持续了八年，在此期间使用了成千上万吨钢材和混凝土，在活动高峰期雇用了多达一千多名工人和员工。"
+        },
+        {
+          "index": 74,
+          "sentence": "The designers had been responsible for two other major suspension bridges in Britain but, with a total span of 2,220 m, or almost a mile and a half, the Humber was going to be the longest suspension bridge in the world.",
+          "translation": "设计师们此前负责过英国另外两座大型悬索桥，但亨伯桥总跨度达2220米，几乎一英里半，将成为世界上最长的悬索桥。"
+        },
+        {
+          "index": 75,
+          "sentence": "Nowadays designers have computers, but back then everything was done with slide rules and calculators.",
+          "translation": "如今设计师有电脑，但那时一切都靠计算尺和计算器完成。"
+        },
+        {
+          "index": 76,
+          "sentence": "The towers were concrete rather than the usual steel, since concrete was cheaper and would blend in better with the setting.",
+          "translation": "桥塔采用混凝土而非通常的钢材，因为混凝土更便宜，且更能与周围环境相融合。"
+        },
+        {
+          "index": 77,
+          "sentence": "The bridge was designed to stand for 120 years.",
+          "translation": "这座桥的设计使用寿命为120年。"
+        },
+        {
+          "index": 79,
+          "sentence": "Malcolm Stockwell, the bridgemaster, recalls that when the bridge first opened, there wasn't a great deal of interest in it.",
+          "translation": "桥梁主管马尔科姆·斯托克韦尔回忆道，当这座桥首次开通时，人们对它并没有太大的兴趣。"
+        },
+        {
+          "index": 80,
+          "sentence": "Then children started visiting, and he remembers their astonishment at seeing the control room and all the lights.",
+          "translation": "随后，孩子们开始前来参观，他记得他们看到控制室和所有灯光时的惊讶之情。"
+        },
+        {
+          "index": 81,
+          "sentence": "People who lived in towns on opposite banks a mile apart started crossing the river - a journey that previously might as well have been to the moon.",
+          "translation": "居住在相距一英里的河对岸城镇的人们开始过河——这段旅程以前简直就像登月一样遥不可及。"
+        },
+        {
+          "index": 82,
+          "sentence": "The bridge brought them together.",
+          "translation": "这座桥将他们联系在了一起。"
+        },
+        {
+          "index": 83,
+          "sentence": "33",
+          "translation": "33"
+        },
+        {
+          "index": 84,
+          "sentence": "Malcolm Stockwell, the bridgemaster, recalls that when the bridge first opened, there wasn't a great deal of interest in it.",
+          "translation": "桥梁管理员马尔科姆·斯托克韦尔回忆道，当这座桥刚开通时，人们对它并没有太大的兴趣。"
+        },
+        {
+          "index": 85,
+          "sentence": "Then children started visiting, and he remembers their astonishment at seeing the control room and all the lights.",
+          "translation": "随后孩子们开始前来参观，他记得他们看到控制室和所有灯光时的惊讶之情。"
+        },
+        {
+          "index": 86,
+          "sentence": "People who lived in towns on opposite banks a mile apart started crossing the river - a journey that previously might as well have been to the moon.",
+          "translation": "住在相隔一英里的对岸城镇的人们开始过河——这一旅程以前简直就像是去月球一样遥远。"
+        },
+        {
+          "index": 87,
+          "sentence": "The bridge brought them together.",
+          "translation": "这座桥将他们连接在了一起。"
+        },
+        {
+          "index": 89,
+          "sentence": "The bridge opened up, both socially and economically, two previously remote and insular areas of England, and the improvement in communication enabled the area to realise its potential in commercial, industrial and tourist development.",
+          "translation": "这座桥从社会和经济层面，将英格兰两个此前偏远且孤立的地区连接了起来，而交通的改善使该地区得以在商业、工业和旅游发展方面发挥其潜力。"
+        },
+        {
+          "index": 90,
+          "sentence": "The bridge has saved many millions of vehicle miles and many valuable hours of drivers' and passengers' time - an important factor not only for the drivers and operators of commercial vehicles, but also for tourists and holidaymakers who would have had to travel around the estuary to reach destinations in the region.",
+          "translation": "这座桥节省了数百万英里的车辆行驶里程，以及司机和乘客大量宝贵的时间——这不仅对商业车辆的司机和运营商来说是一个重要因素，也对那些原本需要绕行河口才能到达该地区目的地的游客和度假者而言意义重大。"
+        },
+        {
+          "index": 91,
+          "sentence": "In the words of Malcolm Stockwell, 'Although it can't beat the Golden Gate Bridge in San Francisco for setting, it far outstrips it for sheer elegance and as a piece of engineering.",
+          "translation": "用马尔科姆·斯托克韦尔的话来说：“尽管在环境方面它无法与旧金山的金门大桥媲美，但在纯粹的优雅度和工程成就上，它远远超越了对方。”"
+        },
+        {
+          "index": 92,
+          "sentence": "The bridge opened up, both socially and economically, two previously remote and insular areas of England, and the improvement in communication enabled the area to realise its potential in commercial, industrial and tourist development.",
+          "translation": "这座桥在社会和经济层面都打通了英格兰两个原先偏远且闭塞的地区，而交通的改善使得该地区能够发挥其在商业、工业和旅游发展方面的潜力。"
+        },
+        {
+          "index": 93,
+          "sentence": "The bridge has saved many millions of vehicle miles and many valuable hours of drivers' and passengers' time - an important factor not only for the drivers and operators of commercial vehicles, but also for tourists and holidaymakers who would have had to travel around the estuary to reach destinations in the region.",
+          "translation": "这座桥节省了数百万英里的车辆行驶里程以及司机和乘客大量的宝贵时间——这不仅对商业车辆的司机和运营商来说是一个重要因素，对原本需要绕行河口才能到达该地区目的地的游客和度假者而言也同样如此。"
+        },
+        {
+          "index": 94,
+          "sentence": "In the words of Malcolm Stockwell, 'Although it can't beat the Golden Gate Bridge in San Francisco for setting, it far outstrips it for sheer elegance and as a piece of engineering.'",
+          "translation": "用马尔科姆·斯托克韦尔的话来说：“尽管在环境方面它无法与旧金山的金门大桥媲美，但仅就优雅气质和工程技艺而言，它远远胜过金门大桥。”"
+        },
+        {
+          "index": 95,
+          "sentence": "The bridge opened up, both socially and economically, two previously remote and insular areas of England, and the improvement in communication enabled the area to realise its potential in commercial, industrial and tourist development.",
+          "translation": "这座桥从社会和经济两方面打通了英格兰两个先前偏远且封闭的地区，通讯的改善使该地区能够发挥其在商业、工业和旅游发展方面的潜力。"
+        },
+        {
+          "index": 96,
+          "sentence": "The bridge has saved many millions of vehicle miles and many valuable hours of drivers' and passengers' time - an important factor not only for the drivers and operators of commercial vehicles, but also for tourists and holidaymakers who would have had to travel around the estuary to reach destinations in the region.",
+          "translation": "这座桥节省了数百万英里的车程以及驾驶员和乘客许多宝贵的时间——这不仅对商用车辆的驾驶员和运营者是一个重要因素，也对那些原本需要绕行河口才能到达该地区目的地的游客和度假者至关重要。"
+        },
+        {
+          "index": 97,
+          "sentence": "In the words of Malcolm Stockwell, 'Although it can't beat the Golden Gate Bridge in San Francisco for setting, it far outstrips it for sheer elegance and as a piece of engineering.'",
+          "translation": "用马尔科姆·斯托克韦尔的话来说，‘尽管它在地理环境上无法与旧金山的金门大桥媲美，但在纯粹优雅和工程造诣方面，它远远超越了金门大桥。’"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

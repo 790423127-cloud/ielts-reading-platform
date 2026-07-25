@@ -1,0 +1,3103 @@
+{
+  "id": "b10-test-a",
+  "book": "剑雅10",
+  "book_number": 10,
+  "name": "Test A",
+  "title": "剑雅10 Test A",
+  "parts": [
+    {
+      "id": "2105",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Smoke alarms in the home",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Smoke alarms are now a standard feature in Australian homes and are required by the National Building Code in any recently built properties.They are installed to detect the presence of smoke and emit a clear sound to alert you in the event of fire to give you time to escape.",
+          "translation": "烟雾报警器如今是澳大利亚家庭的标配，并且根据国家建筑规范，任何新建房产都必须安装。\n安装烟雾报警器是为了探测烟雾的存在，并在发生火灾时发出清晰的声音提醒您，从而为您争取逃生时间。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "There are two principal types of smoke alarms.Ionization alarms are the cheapest and most readily available smoke alarms.They are also very sensitive to 'flaming fires'- fires that burn fiercely - and will detect them before the smoke gets too thick. However, photoelectric alarms are more effective at detecting slow-burning fires.They are less likely to go off accidentally and so are best for homes with one floor. For the best protection, you should install one of each.",
+          "translation": "烟雾报警器主要有两种类型。\n电离式报警器是最便宜且最容易买到的烟雾报警器。\n它们对‘明火’——即燃烧猛烈的火灾——也非常敏感，并且能在烟雾变得过于浓密之前探测到它们。\n然而，光电式报警器在探测缓慢燃烧的火灾方面更为有效。\n它们不太可能意外触发，因此最适合单层住宅。\n为了获得最佳防护，你应该各安装一个。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Most battery-powered smoke alarms can be installed by the home owner and do not require professional installation.For the installation of hard-wired smoke alarms, powered from the mains electricity supply, however, you will need the services of a licensed professional. Smoke alarms are usually most effective when located on the ceiling, near or in the middle of the room or hall.",
+          "translation": "大多数电池供电的烟雾报警器可以由房主自行安装，无需专业安装。\n然而，对于由主电源供电的硬接线烟雾报警器的安装，您则需要持证专业人士的服务。\n烟雾报警器通常安装在天花板上、靠近或位于房间或大厅中央时最为有效。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Photoelectric smoke alarms in any quantity may be disposed of in domestic waste. If you have fewer than ten ionization alarms to get rid of, you may put them in your domestic waste. If you have more than ten to dispose of, you should contact your local council.",
+          "translation": "任何数量的光电烟雾报警器都可以作为家庭垃圾处理。\n如果你要处理的电离报警器少于十个，你可以将它们放入家庭垃圾中。\n如果你要处理的超过十个，你应该联系当地市政委员会。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Your battery-powered smoke alarm will produce a short beep every 60 second to alert you when the battery is running out and needs replacing. Nevertheless, it should be tested every month to ensure that the battery and the alarm sounder are working. Note that the sensitivity in all smoke alarms will reduce over time.",
+          "translation": "您的电池供电烟雾报警器将每隔60秒发出一次短促的蜂鸣声，以提醒您电池电量即将耗尽并需要更换。\n尽管如此，它应每月测试一次，以确保电池和警报器正常工作。\n请注意，所有烟雾报警器的灵敏度会随时间而降低。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Sydney Opera House Tours",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "悉尼歌剧院游览"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "We offer three different tours of this iconic building.",
+          "translation": "我们提供三种针对这座标志性建筑的不同导览。\n我们为这座标志性建筑提供三种不同的游览服务。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "The Essential Tour brings to life the story behind the design and construction of one of the world's most famous landmarks. Using interactive audio-visual technology, your guide will take you on a memorable journey inside the youngest building ever to be World Heritage listed.",
+          "translation": "经典之旅生动展现了这座世界最著名地标建筑之一的设计与建造背后的故事。\n通过互动视听技术，您的导游将带您踏上一次难忘的旅程，探索这座有史以来最年轻的世界遗产建筑内部。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Afterwards, why not stay around and eat at the Studio Cafe, with its modern Australian menu? Not only can you enjoy the best views in Sydney, you can claim a 20% reduction on the total cost of your meal. (Don’t forget to show your ticket in order to claim your discount.)",
+          "translation": "之后，何不留在附近，在提供现代澳大利亚菜单的演播室咖啡馆用餐呢？\n您不仅能够欣赏到悉尼最美的景色，还可以享受餐费总额减免20%的优惠。\n（别忘了出示您的门票以领取折扣。）"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Languages: English, French, German",
+          "translation": "语言：英语、法语、德语"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Takes place: Daily between 9am and 5pm",
+          "translation": "时间：每天上午9点至下午5点"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Prices: Adults $35 / Online $29.75",
+          "translation": "价格：成人35美元 / 在线购买29.75美元"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Concessions: Australian seniors and pensioners; students and children of 16 and under $24.50.",
+          "translation": "优惠票价：澳大利亚老年人和退休人员；学生及16岁及以下儿童为24.50澳元。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Prior bookings are not essential.",
+          "translation": "提前预订并非必需。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "The Backstage Tour gives you backstage access to the Sydney Opera House. It is a unique opportunity to experience the real-life dramas behind the stage! You might even get to stand on the concert hall stage, take up a conductor's baton in the orchestra pit and imagine you are leading the performance. You will also get to see inside the stars'，dressing rooms. The tour concludes with a complimentary breakfast in the Green Room, the private dining area of performers past and present.",
+          "translation": "后台之旅让您得以进入悉尼歌剧院的幕后区域。\n这是一次独一无二的机会，让您体验舞台背后的真实戏剧！\n您甚至可能站在音乐厅的舞台上，在乐池里拿起指挥棒，想象自己正在指挥演出。\n您还将有机会参观明星们的化妆间内部。\n游览以在绿厅（演艺人员过去和现在的私人用餐区）享用的免费早餐作为结束。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Takes place: Daily at 7am",
+          "translation": "活动时间：每天早上7点举行"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Prices:$155. No concessions.",
+          "translation": "价格：155美元。\n无优惠。"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "To purchase: Bookings are essential. Limited to 8 people per tour.",
+          "translation": "购买需知：必须提前预订。\n每次游览限8人参加。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "Online sales expire at 4.30pm two days prior.",
+          "translation": "在线销售于活动开始前两天下午4点30分截止。"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "Notes:",
+          "translation": "注意事项："
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "The tour includes up to 300 steps.Flat,rubber-soled shoes must be worn.For safety reasons, children of 12 years old and under are not permitted.",
+          "translation": "本次参观包括多达300级台阶。\n必须穿着平底、橡胶底鞋。\n出于安全考虑，12岁及以下的儿童不得参加。"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "Opera High Tea consists of a tour where you will walk in the footsteps of world-class singers, dancers and musicians,followed by fine food and music in the spectacular surroundings of the Bennelong Dining Room. What could be better than a treat of delicious light snacks and soft drinks followed by a live recital by a leading Australian singer?",
+          "translation": "歌剧下午茶包含一次游览，您将追随世界级歌手、舞者和音乐家的足迹，随后在本尼龙餐厅的壮丽环境中享用精致美食和音乐。\n还有什么比品尝美味小吃和软饮料，再欣赏一场由澳大利亚顶尖歌手带来的现场独奏会更令人享受的呢？"
+        },
+        {
+          "label": "",
+          "index": 29,
+          "text": "An unforgettable treat for young and old!",
+          "translation": "对老少皆宜的一次难忘款待！"
+        },
+        {
+          "label": "",
+          "index": 30,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 31,
+          "text": "Takes place: Every second Wednesday, 2 pm",
+          "translation": "举办时间：每隔一周的星期三，下午2点。"
+        },
+        {
+          "label": "",
+          "index": 32,
+          "text": "Duration: 1.5 hours",
+          "translation": "时长：1.5小时"
+        },
+        {
+          "label": "",
+          "index": 33,
+          "text": "Prices: $145 per person",
+          "translation": "价格：每人 145 美元"
+        },
+        {
+          "label": "",
+          "index": 34,
+          "text": "Book online or visit the Guided Tours Desk.",
+          "translation": "在线预订或前往导览服务台。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15875",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1 - 7\nDo the following statements agree with the information given in Reading Passage 1?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120647",
+              "number": 1,
+              "prompt": "All new houses in Australia must have smoke alarms.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“all new houses in Australia must have smoke alarms”与原文第一句“Smoke alarms are now a standard feature in Australian homes and are required by the National Building Code in any recently built properties”形成对应。其中“all new houses”被同义替换为“any recently built properties”，“must have”对应“required by”，因此该陈述与原文信息一致，答案为TRUE。",
+              "reason": "题干与原文对应，信息相符。",
+              "location_analysis": "原文指出国家建筑规范要求新建房产安装烟雾报警器，与题干信息一致，故选TRUE。",
+              "paraphrasing": "all new houses -> any recently built properties; must have -> required by",
+              "keywords": "new houses, Australia, smoke alarms",
+              "evidence": [
+                "Smoke alarms are now a standard feature in Australian homes and are required by the National Building Code in any recently built properties."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文信息矛盾：原文明确说明所有新房必须安装烟雾报警器。",
+                "NOT GIVEN": "原文已明确提及所有新房的要求，并非未提及。"
+              }
+            },
+            {
+              "id": "120648",
+              "number": 2,
+              "prompt": "Photoelectric smoke alarms cost less than ionization smoke alarms.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称“Photoelectric smoke alarms cost less than ionization smoke alarms”，但原文第二段明确指出“Ionization alarms are the cheapest and most readily available smoke alarms”，说明离子式报警器最便宜，而光电式并未被描述为更便宜。因此题干与原文矛盾，答案为FALSE。",
+              "reason": "题干与原文矛盾。",
+              "location_analysis": "原文明确Ionization alarms是最便宜的，而Photoelectric更贵，题干说...",
+              "paraphrasing": "cost less -> cheapest",
+              "keywords": "Photoelectric, cost less, ionization",
+              "evidence": [
+                "Ionization alarms are the cheapest and most readily available smoke alarms."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文中光电烟雾报警器成本更高的信息矛盾。",
+                "NOT GIVEN": "原文明确给出了两种报警器的价格比较信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120649",
+              "number": 3,
+              "prompt": "lt takes a short time to fit most smoke alarms.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干询问“安装烟雾报警器是否耗时很短”，但原文仅提到“Most battery-powered smoke alarms can be installed by the home owner”，并未涉及安装所需的具体时间长短。由于文中缺乏关于安装时长的信息，无法判断题干正误，故答案为NOT GIVEN。",
+              "reason": "无时间相关信息。",
+              "location_analysis": "原文只说大部分可由房主安装，未提及安装所需时间长短，故信息未给出。",
+              "paraphrasing": "fit -> installed",
+              "keywords": "short time, fit, smoke alarms",
+              "evidence": [
+                "Most battery-powered smoke alarms can be installed by the home owner and do not require professional installation."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及安装大多数烟雾报警器所需时间，无法判断为正确。",
+                "FALSE": "原文未提及安装时间，无法判断为错误。"
+              }
+            },
+            {
+              "id": "120650",
+              "number": 4,
+              "prompt": "Any hard-wired smoke alarm must be fitted by a specialist technician.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中“hard-wired smoke alarm must be fitted by a specialist technician”对应原文第三段“For the installation of hard-wired smoke alarms... you will need the services of a licensed professional”。“specialist technician”与“licensed professional”为同义表达，说明硬接线报警器确实需由专业人员安装，因此答案为TRUE。",
+              "reason": "题干与原文对应。",
+              "location_analysis": "原文说明硬接线报警器需要持证专业人员安装，与题干一致，故选TRUE。",
+              "paraphrasing": "fitted by a specialist technician -> licensed professional",
+              "keywords": "hard-wired, fitted, specialist technician",
+              "evidence": [
+                "For the installation of hard-wired smoke alarms, powered from the mains electricity supply, however, you will need the services of a licensed professional."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确所有硬连线烟雾报警器必须由专业技术人员安装，与该选项矛盾。",
+                "NOT GIVEN": "原文已明确给出相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120651",
+              "number": 5,
+              "prompt": "You should get in touch with your local council before placing any ionisation smokealarms in household rubbish.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称“在丢弃任何离子式烟雾报警器前都应联系当地议会”，但原文第四段明确区分：“If you have fewer than ten... you may put them in your domestic waste. If you have more than ten... you should contact your local council”。题干使用“any”过于绝对，忽略了少于10个可直接丢弃的情况，因此与原文不符，答案为FALSE。",
+              "reason": "需要联系议会的情况仅限于超过10个。",
+              "location_analysis": "原文说少于10个可放入生活垃圾，多于10个才需联系议会。题干说“any”过于绝对，故选FALSE。",
+              "paraphrasing": "get in touch with -> contact",
+              "keywords": "local council, ionization, household rubbish",
+              "evidence": [
+                "If you have fewer than ten ionization alarms to get rid of, you may put them in your domestic waste. If you have more than ten to dispose of, you should contact your local council."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "题干说应将电离烟雾报警器放入生活垃圾前联系当地议会，但原文反驳了这一点，指出不应扔进生活垃圾，因此TRUE与原文矛盾。",
+                "NOT GIVEN": "题干明确提到联系当地议会这一行为，但原文并未提及是否需要联系，因此NOT GIVEN与题干要求不符，因为题干内容在原文中有具体陈述。"
+              }
+            },
+            {
+              "id": "120652",
+              "number": 6,
+              "prompt": "Smoke alarms give a warning sound to indicate that battery power is low.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干“Smoke alarms give a warning sound to indicate that battery power is low”与原文第五段“Your battery-powered smoke alarm will produce a short beep every 60 second to alert you when the battery is running out”完全对应。“warning sound”即“short beep”，“battery power is low”对应“battery is running out”，因此答案为TRUE。",
+              "reason": "题干与原文对应。",
+              "location_analysis": "原文明确电池电量不足时每60秒发出短促蜂鸣声，与题干一致，故选TRUE。",
+              "paraphrasing": "warning sound -> short beep; battery power low -> battery is running out",
+              "keywords": "warning sound, battery power low",
+              "evidence": [
+                "Your battery-powered smoke alarm will produce a short beep every 60 second to alert you when the battery is running out and needs replacing."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "题干说的是烟雾报警器在电池电量低时会发出警告声，原文明确支持，故该选项与原文矛盾。",
+                "NOT GIVEN": "原文明确提及了烟雾报警器在电池电量低时发出警告声，因此该信息是给出的，并非未提及。"
+              }
+            },
+            {
+              "id": "120653",
+              "number": 7,
+              "prompt": "Old smoke alarms need to be checked more than once a month.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称“旧的烟雾报警器需要每月检查超过一次”，但原文第五段仅建议“it should be tested every month”，并未说明老旧设备需增加测试频率。文中未提及“more than once a month”的要求，因此该信息未给出，答案为NOT GIVEN。",
+              "reason": "无关于额外检查次数的信息。",
+              "location_analysis": "原文建议每月测试一次，未提及需多次测试，故信息未给出。",
+              "paraphrasing": "checked -> tested",
+              "keywords": "old, checked, more than once a month",
+              "evidence": [
+                "Nevertheless, it should be tested every month to ensure that the battery and the alarm sounder are working."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文中并未提及旧烟雾报警器需要每月检查多次，因此该说法无依据。",
+                "FALSE": "原文并未说明旧烟雾报警器不需要每月检查多次，因此不能判断为错误。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15883",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 8 - 14\nThe text has seven sections A-G.\nWhich section mentions the following?\nWrite the correct letter A-G in boxes 8-14 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120654",
+              "number": 8,
+              "prompt": "discounts available to younger visitors",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“discounts available to younger visitors”对应C段中的“Concessions: Australian seniors and pensioners; students and children of 16 and under $24.50”。“younger visitors”被具体化为“students and children of 16 and under”，且提供了优惠价格，说明确实有针对年轻游客的折扣，因此答案为C。",
+              "reason": "C段包含针对学生和儿童的优惠。",
+              "location_analysis": "C段提到学生及16岁以下儿童享有优惠票价，对应题干“年纪较小的游客可享受折扣”。",
+              "paraphrasing": "younger visitors -> students and children of 16 and under",
+              "keywords": "discounts, younger visitors",
+              "evidence": [
+                "Concessions: Australian seniors and pensioners; students and children of 16 and under $24.50."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120655",
+              "number": 9,
+              "prompt": "the need for suitable footwear",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干“the need for suitable footwear”在E段中有明确对应：“Flat, rubber-soled shoes must be worn”。“suitable footwear”即指符合安全要求的平底橡胶底鞋，该要求出现在Backstage Tour的注意事项中，因此答案为E。",
+              "reason": "E段明确指出鞋子要求。",
+              "location_analysis": "E段备注要求穿平底橡胶底鞋，对应题干。",
+              "paraphrasing": "suitable footware -> Flat, rubber-soled shoes must be worn",
+              "keywords": "suitable footwear",
+              "evidence": [
+                "Flat,rubber-soled shoes must be worn."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120656",
+              "number": 10,
+              "prompt": "the opportunity to pretend you are taking part in a concert",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干“the opportunity to pretend you are taking part in a concert”对应D段中“You might even get to stand on the concert hall stage, take up a conductor's baton... and imagine you are leading the performance”。“pretend you are taking part”与“imagine you are leading the performance”为同义表达，描述了游客可模拟参与演出的情境，因此答案为D。",
+              "reason": "D段描述可体验指挥演出的机会。",
+              "location_analysis": "D段提到可以拿起指挥棒想象自己正在指挥演出，对应题干“假装参加音乐会”。",
+              "paraphrasing": "pretend you are taking part in a concert -> imagine you are leading the performance",
+              "keywords": "pretend, taking part in a concert",
+              "evidence": [
+                "You might even get to stand on the concert hall stage, take up a conductor's baton in the orchestra pit and imagine you are leading the performance."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120657",
+              "number": 11,
+              "prompt": "a restriction on the number of participants",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干“a restriction on the number of participants”对应E段中的“Limited to 8 people per tour”。“restriction”即指人数上限，“participants”对应“people per tour”，明确说明每团最多8人，因此答案为E。",
+              "reason": "E段对人数进行了限制。",
+              "location_analysis": "E段明确限制每团最多8人，对应题干“对参与人数有限制”。",
+              "paraphrasing": "limited -> restriction on the number of participants",
+              "keywords": "restriction, number of participants",
+              "evidence": [
+                "Limited to 8 people per tour."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120658",
+              "number": 12,
+              "prompt": "a reduction that applies to purchases using the internet",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干“a reduction that applies to purchases using the internet”对应C段价格信息：“Adults $35 / Online $29.75”。“purchases using the internet”即“Online”购票，价格从35降至29.75，体现了折扣优惠，因此答案为C。",
+              "reason": "C段显示在线购票有优惠。",
+              "location_analysis": "C段显示在线购票成人价$29.75，低于原价$35，对应题干“使用互联网购买享受折扣”。",
+              "paraphrasing": "purchases using the internet -> Online",
+              "keywords": "reduction, purchases using the internet",
+              "evidence": [
+                "Prices: Adults $35 / Online $29.75"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120659",
+              "number": 13,
+              "prompt": "the need to book your ticket in advance",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干“the need to book your ticket in advance”对应E段“To purchase: Bookings are essential”。“book in advance”与“Bookings are essential”意思一致，强调必须提前预订，因此答案为E。",
+              "reason": "E段明确要求预订。",
+              "location_analysis": "E段明确强调必须提前预订，对应题干“需要提前预订门票”。",
+              "paraphrasing": "book in advance -> Bookings are essential",
+              "keywords": "book, ticket in advance",
+              "evidence": [
+                "To purchase: Bookings are essential."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120660",
+              "number": 14,
+              "prompt": "the length of one of the tours",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                },
+                {
+                  "value": "G",
+                  "label": "G"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干“the length of one of the tours”对应G段中的“Duration: 1.5 hours”。“length”即指游览时长，G段明确说明Opera High Tea的持续时间为1.5小时，因此答案为G。",
+              "reason": "G段提到了时长。",
+              "location_analysis": "G段明确时长为1.5小时，对应题干“游览的时长”。",
+              "paraphrasing": "length -> Duration",
+              "keywords": "length, tours",
+              "evidence": [
+                "Duration: 1.5 hours"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Sydney Opera House Tours",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Smoke alarms are now a standard feature in Australian homes and are required by the National Building Code in any recently built properties.",
+          "translation": "烟雾报警器如今是澳大利亚家庭的标配，并且根据国家建筑规范，任何新建房产都必须安装。"
+        },
+        {
+          "index": 2,
+          "sentence": "They are installed to detect the presence of smoke and emit a clear sound to alert you in the event of fire to give you time to escape.",
+          "translation": "安装烟雾报警器是为了探测烟雾的存在，并在发生火灾时发出清晰的声音提醒您，从而为您争取逃生时间。"
+        },
+        {
+          "index": 3,
+          "sentence": "There are two principal types of smoke alarms.",
+          "translation": "烟雾报警器主要有两种类型。"
+        },
+        {
+          "index": 4,
+          "sentence": "Ionization alarms are the cheapest and most readily available smoke alarms.",
+          "translation": "电离式报警器是最便宜且最容易买到的烟雾报警器。"
+        },
+        {
+          "index": 5,
+          "sentence": "They are also very sensitive to 'flaming fires'- fires that burn fiercely - and will detect them before the smoke gets too thick.",
+          "translation": "它们对‘明火’——即燃烧猛烈的火灾——也非常敏感，并且能在烟雾变得过于浓密之前探测到它们。"
+        },
+        {
+          "index": 6,
+          "sentence": "However, photoelectric alarms are more effective at detecting slow-burning fires.",
+          "translation": "然而，光电式报警器在探测缓慢燃烧的火灾方面更为有效。"
+        },
+        {
+          "index": 7,
+          "sentence": "They are less likely to go off accidentally and so are best for homes with one floor.",
+          "translation": "它们不太可能意外触发，因此最适合单层住宅。"
+        },
+        {
+          "index": 8,
+          "sentence": "For the best protection, you should install one of each.",
+          "translation": "为了获得最佳防护，你应该各安装一个。"
+        },
+        {
+          "index": 9,
+          "sentence": "Most battery-powered smoke alarms can be installed by the home owner and do not require professional installation.",
+          "translation": "大多数电池供电的烟雾报警器可以由房主自行安装，无需专业安装。"
+        },
+        {
+          "index": 10,
+          "sentence": "For the installation of hard-wired smoke alarms, powered from the mains electricity supply, however, you will need the services of a licensed professional.",
+          "translation": "然而，对于由主电源供电的硬接线烟雾报警器的安装，您则需要持证专业人士的服务。"
+        },
+        {
+          "index": 11,
+          "sentence": "Smoke alarms are usually most effective when located on the ceiling, near or in the middle of the room or hall.",
+          "translation": "烟雾报警器通常安装在天花板上、靠近或位于房间或大厅中央时最为有效。"
+        },
+        {
+          "index": 12,
+          "sentence": "Photoelectric smoke alarms in any quantity may be disposed of in domestic waste.",
+          "translation": "任何数量的光电烟雾报警器都可以作为家庭垃圾处理。"
+        },
+        {
+          "index": 13,
+          "sentence": "If you have fewer than ten ionization alarms to get rid of, you may put them in your domestic waste.",
+          "translation": "如果你要处理的电离报警器少于十个，你可以将它们放入家庭垃圾中。"
+        },
+        {
+          "index": 14,
+          "sentence": "If you have more than ten to dispose of, you should contact your local council.",
+          "translation": "如果你要处理的超过十个，你应该联系当地市政委员会。"
+        },
+        {
+          "index": 15,
+          "sentence": "Your battery-powered smoke alarm will produce a short beep every 60 second to alert you when the battery is running out and needs replacing.",
+          "translation": "您的电池供电烟雾报警器将每隔60秒发出一次短促的蜂鸣声，以提醒您电池电量即将耗尽并需要更换。"
+        },
+        {
+          "index": 16,
+          "sentence": "Nevertheless, it should be tested every month to ensure that the battery and the alarm sounder are working.",
+          "translation": "尽管如此，它应每月测试一次，以确保电池和警报器正常工作。"
+        },
+        {
+          "index": 17,
+          "sentence": "Note that the sensitivity in all smoke alarms will reduce over time.",
+          "translation": "请注意，所有烟雾报警器的灵敏度会随时间而降低。"
+        },
+        {
+          "index": 18,
+          "sentence": "Sydney Opera House Tours",
+          "translation": "悉尼歌剧院游览"
+        },
+        {
+          "index": 19,
+          "sentence": "We offer three different tours of this iconic building.",
+          "translation": "我们提供三种针对这座标志性建筑的不同导览。"
+        },
+        {
+          "index": 21,
+          "sentence": "The Essential Tour brings to life the story behind the design and construction of one of the world's most famous landmarks.",
+          "translation": "经典之旅生动展现了这座世界最著名地标建筑之一的设计与建造背后的故事。"
+        },
+        {
+          "index": 22,
+          "sentence": "Using interactive audio-visual technology, your guide will take you on a memorable journey inside the youngest building ever to be World Heritage listed.",
+          "translation": "通过互动视听技术，您的导游将带您踏上一次难忘的旅程，探索这座有史以来最年轻的世界遗产建筑内部。"
+        },
+        {
+          "index": 23,
+          "sentence": "Sydney Opera House Tours",
+          "translation": "悉尼歌剧院游览"
+        },
+        {
+          "index": 24,
+          "sentence": "We offer three different tours of this iconic building.",
+          "translation": "我们为这座标志性建筑提供三种不同的游览服务。"
+        },
+        {
+          "index": 25,
+          "sentence": "Afterwards, why not stay around and eat at the Studio Cafe, with its modern Australian menu?",
+          "translation": "之后，何不留在附近，在提供现代澳大利亚菜单的演播室咖啡馆用餐呢？"
+        },
+        {
+          "index": 26,
+          "sentence": "Not only can you enjoy the best views in Sydney, you can claim a 20% reduction on the total cost of your meal.",
+          "translation": "您不仅能够欣赏到悉尼最美的景色，还可以享受餐费总额减免20%的优惠。"
+        },
+        {
+          "index": 27,
+          "sentence": "(Don’t forget to show your ticket in order to claim your discount.)",
+          "translation": "（别忘了出示您的门票以领取折扣。）"
+        },
+        {
+          "index": 29,
+          "sentence": "Languages: English, French, German",
+          "translation": "语言：英语、法语、德语"
+        },
+        {
+          "index": 30,
+          "sentence": "Takes place: Daily between 9am and 5pm",
+          "translation": "时间：每天上午9点至下午5点"
+        },
+        {
+          "index": 31,
+          "sentence": "Prices: Adults $35 / Online $29.75",
+          "translation": "价格：成人35美元 / 在线购买29.75美元"
+        },
+        {
+          "index": 32,
+          "sentence": "Concessions: Australian seniors and pensioners; students and children of 16 and under $24.50.",
+          "translation": "优惠票价：澳大利亚老年人和退休人员；学生及16岁及以下儿童为24.50澳元。"
+        },
+        {
+          "index": 33,
+          "sentence": "Prior bookings are not essential.",
+          "translation": "提前预订并非必需。"
+        },
+        {
+          "index": 35,
+          "sentence": "The Backstage Tour gives you backstage access to the Sydney Opera House.",
+          "translation": "后台之旅让您得以进入悉尼歌剧院的幕后区域。"
+        },
+        {
+          "index": 36,
+          "sentence": "It is a unique opportunity to experience the real-life dramas behind the stage!",
+          "translation": "这是一次独一无二的机会，让您体验舞台背后的真实戏剧！"
+        },
+        {
+          "index": 37,
+          "sentence": "You might even get to stand on the concert hall stage, take up a conductor's baton in the orchestra pit and imagine you are leading the performance.",
+          "translation": "您甚至可能站在音乐厅的舞台上，在乐池里拿起指挥棒，想象自己正在指挥演出。"
+        },
+        {
+          "index": 38,
+          "sentence": "You will also get to see inside the stars'，dressing rooms.",
+          "translation": "您还将有机会参观明星们的化妆间内部。"
+        },
+        {
+          "index": 39,
+          "sentence": "The tour concludes with a complimentary breakfast in the Green Room, the private dining area of performers past and present.",
+          "translation": "游览以在绿厅（演艺人员过去和现在的私人用餐区）享用的免费早餐作为结束。"
+        },
+        {
+          "index": 41,
+          "sentence": "Takes place: Daily at 7am",
+          "translation": "活动时间：每天早上7点举行"
+        },
+        {
+          "index": 42,
+          "sentence": "Prices:$155.",
+          "translation": "价格：155美元。"
+        },
+        {
+          "index": 43,
+          "sentence": "No concessions.",
+          "translation": "无优惠。"
+        },
+        {
+          "index": 44,
+          "sentence": "To purchase: Bookings are essential.",
+          "translation": "购买需知：必须提前预订。"
+        },
+        {
+          "index": 45,
+          "sentence": "Limited to 8 people per tour.",
+          "translation": "每次游览限8人参加。"
+        },
+        {
+          "index": 46,
+          "sentence": "Online sales expire at 4.30pm two days prior.",
+          "translation": "在线销售于活动开始前两天下午4点30分截止。"
+        },
+        {
+          "index": 47,
+          "sentence": "Notes:",
+          "translation": "注意事项："
+        },
+        {
+          "index": 48,
+          "sentence": "The tour includes up to 300 steps.",
+          "translation": "本次参观包括多达300级台阶。"
+        },
+        {
+          "index": 49,
+          "sentence": "Flat,rubber-soled shoes must be worn.",
+          "translation": "必须穿着平底、橡胶底鞋。"
+        },
+        {
+          "index": 50,
+          "sentence": "For safety reasons, children of 12 years old and under are not permitted.",
+          "translation": "出于安全考虑，12岁及以下的儿童不得参加。"
+        },
+        {
+          "index": 52,
+          "sentence": "Opera High Tea consists of a tour where you will walk in the footsteps of world-class singers, dancers and musicians,followed by fine food and music in the spectacular surroundings of the Bennelong Dining Room.",
+          "translation": "歌剧下午茶包含一次游览，您将追随世界级歌手、舞者和音乐家的足迹，随后在本尼龙餐厅的壮丽环境中享用精致美食和音乐。"
+        },
+        {
+          "index": 53,
+          "sentence": "What could be better than a treat of delicious light snacks and soft drinks followed by a live recital by a leading Australian singer?",
+          "translation": "还有什么比品尝美味小吃和软饮料，再欣赏一场由澳大利亚顶尖歌手带来的现场独奏会更令人享受的呢？"
+        },
+        {
+          "index": 54,
+          "sentence": "An unforgettable treat for young and old!",
+          "translation": "对老少皆宜的一次难忘款待！"
+        },
+        {
+          "index": 56,
+          "sentence": "Takes place: Every second Wednesday, 2 pm",
+          "translation": "举办时间：每隔一周的星期三，下午2点。"
+        },
+        {
+          "index": 57,
+          "sentence": "Duration: 1.5 hours",
+          "translation": "时长：1.5小时"
+        },
+        {
+          "index": 58,
+          "sentence": "Prices: $145 per person",
+          "translation": "价格：每人 145 美元"
+        },
+        {
+          "index": 59,
+          "sentence": "Book online or visit the Guided Tours Desk.",
+          "translation": "在线预订或前往导览服务台。"
+        }
+      ]
+    },
+    {
+      "id": "2106",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "USING DIRECT MAIL TO SELL YOUR PRODUCT",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "When you have set up your own business, you must, of course, start selling your goods or services. One way is by using direct mail - in other words, sending a sales letter (or email) directly to companies that might want to do business with you.",
+          "translation": "当你创立了自己的企业后，当然必须开始销售你的商品或服务。\n一种方式是通过使用直邮——换句话说，直接将销售信函（或电子邮件）发送给可能想与你做生意的公司。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "One important factor is your mailing list - that is, who you contact. You can build this up from your own market research, existing clients and advertising responses, or you can contact list brokers and rent or buy a compiled list. If you are contacting a business, it is important to address the letter to the decision maker, ideally by name or at least by job title.",
+          "translation": "一个关键因素是你的邮寄列表——即你联系的对象。\n你可以通过自己的市场调研、现有客户和广告反馈来建立这个列表，或者联系列表经纪人，租用或购买现成的列表。\n如果你在联系一家企业，务必将信件寄给决策者，最好能写上姓名，或者至少注明职位头衔。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "While the desirability and price of the product on offer will obviously influence sales, you also need to gain the maximum impact from your sales letter. To achieve that, bear the following points in mind:",
+          "translation": "虽然所提供产品的吸引力和价格显然会影响销售，但你也需要从销售信中获取最大效果。\n为了实现这一点，请牢记以下几点："
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "• You have no more than two seconds from when the reader starts the letter to convince them to continue. If you fail, they will throw it away. The opening is crucial to attract their attention. And so that they don't lose interest, avoid having too much text.",
+          "translation": "• 从读者开始阅读信件的那一刻起，你只有不到两秒钟的时间来说服他们继续读下去。\n如果你失败了，他们就会把它扔掉。\n开头部分对于吸引他们的注意力至关重要。\n为了不让他们失去兴趣，要避免文字过多。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "• Try to send each mailing in a white envelope. It might be cheaper to use a brown envelope but it doesn't make for such good presentation.",
+          "translation": "• 尽量将每一封邮件用白色信封寄出。\n使用棕色信封或许更便宜，但其呈现效果不佳。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "• Include a brochure. Depending on the volume and on whether you can afford the cost, try to use at least two-colour printing for this. If practicable, it may be worth enclosing a free sample - this is a much greater incentive than photographs.",
+          "translation": "• 附上一本宣传册。\n根据数量以及您是否能承担成本，尽量使用至少双色印刷。\n如果可行，附上一份免费样品可能是值得的——这比照片更能激励购买。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "• However interested your potential clients are in buying, they will only do so if it can be done easily. So, include an order form (and of course details of how to return it) with your letter.",
+          "translation": "• 无论你的潜在客户多么有意购买，他们只有在购买过程简单便捷时才会真正下单。\n• 因此，请在信函中附上一份订购单（当然还包括如何寄回的详细说明）。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "• When you receive your replies, assess your response rate and monitor the sales.If necessary, the sales letter can then be amended to attract other clients on subsequent mail shots; make sure each different letter is coded so that monitoring is easy and effective.",
+          "translation": "• 当你收到回复时，评估你的响应率并监控销售情况。\n如有必要，可以修改销售信函以在后续邮件投递中吸引其他客户；确保每封不同的信函都有编码，以便轻松有效地进行监控。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "• Ensure that each reply is dealt with quickly and professionally. If further details are requested, these must be sent out promptly. There is no point in encouraging potential customers to contact you if your service is slow or non-existent.",
+          "translation": "• 确保每封回信都得到快速且专业的处理。\n如果客户要求提供更多细节，这些信息必须立即发出。\n如果你的服务迟缓或根本不存在，那么鼓励潜在客户联系你是毫无意义的。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "IFCES, the International Federation of Chemical Engineering Societies",
+          "translation": "IFCES，即国际化学工程学会联合会"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Job Specification: Communications Manager",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "职位说明：通讯经理"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Contract: Permanent (with 3-month probationary period)",
+          "translation": "合同：永久（含3个月试用期）"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Reports to: Chief Executive",
+          "translation": "汇报对象：首席执行官"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Hours: 9:15am - 5:30pm with 1 hour for lunch",
+          "translation": "工作时间：上午9:15至下午5:30，午休1小时"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Holidays: 23 days per annum + statutory public holidays",
+          "translation": "假期：每年23天 + 法定公共假期"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Job Summary",
+          "translation": "职位概要"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "To raise the international profile of IFCES. To communicate our objectives, programmes and services to members, the chemical engineering community, the media and the wider public.",
+          "translation": "提升IFCES的国际知名度。\n向成员、化学工程界、媒体以及更广泛的公众传达我们的目标、项目和服务。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Key Responsibilities",
+          "translation": "主要职责"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "• Develop and implement a programme of communications to member associations, the chemical engineering industry, sponsors and the media",
+          "translation": "• 制定并实施面向成员协会、化学工程行业、赞助商及媒体的沟通计划"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "• Plan and implement marketing strategies for all IFCES programmes including the World Chemical Engineering Congress",
+          "translation": "• 规划并实施涵盖世界化学工程大会在内的所有IFCES项目的市场营销策略"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "• Write and edit copy for publications intended for internal and external use including Chemical Engineer Monthly",
+          "translation": "• 撰写并编辑用于内部和外部发行的出版物文稿，包括《化学工程师月刊》"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "• Work with design agencies, web developers and other external contractors to produce high quality corporate and marketing materials",
+          "translation": "• 与设计机构、网站开发者及其他外部承包商合作，制作高质量的企业及营销材料"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "• Research, write and distribute news releases as required, often at short notice and under pressure",
+          "translation": "• 根据需要研究、撰写并分发新闻稿，通常需在短时间内且在压力下完成。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "• Deal with media enquiries and interview requests. Ensure that good relationships with both mainstream and chemical engineering media are developed and maintained",
+          "translation": "处理媒体问询与采访请求。\n确保与主流媒体及化学工程媒体建立并保持良好的关系。"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "• Assist in the production of presentations and speeches for board members",
+          "translation": "• 协助为董事会成员制作演示文稿和演讲稿"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "• Ensure website content is up to date and consistent",
+          "translation": "• 确保网站内容保持最新且一致"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "• Develop a consistent corporate identity and ensure its application by all member associations and partner organisations",
+          "translation": "• 建立统一的公司形象，并确保所有成员协会和合作组织对其加以运用"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "• Carry out specific duties and projects as directed from time to time",
+          "translation": "• 根据指示，随时执行特定职责和项目"
+        },
+        {
+          "label": "",
+          "index": 29,
+          "text": "Employee Specification",
+          "translation": "员工要求说明"
+        },
+        {
+          "label": "",
+          "index": 30,
+          "text": "Essential",
+          "translation": "必要条件"
+        },
+        {
+          "label": "",
+          "index": 31,
+          "text": "• Degree (any discipline)",
+          "translation": "• 本科学位（任何专业均可）"
+        },
+        {
+          "label": "",
+          "index": 32,
+          "text": "• Minimum 4 years’ experience in a communications role",
+          "translation": "• 在传播职位上拥有至少4年经验"
+        },
+        {
+          "label": "",
+          "index": 33,
+          "text": "• Excellent copy writing skills with strong attention to detail, a keen sense of audience and an ability to tailor writing to its particular purpose",
+          "translation": "• 出色的文案撰写技能，注重细节，对受众有敏锐的洞察力，并能够根据特定目的调整写作风格。"
+        },
+        {
+          "label": "",
+          "index": 34,
+          "text": "• Demonstrable track record of producing high quality corporate publications and marketing materials",
+          "translation": "• 在制作高质量企业出版物和营销材料方面具有可证明的成功业绩"
+        },
+        {
+          "label": "",
+          "index": 35,
+          "text": "• Excellent interpersonal and organisational skills",
+          "translation": "• 出色的人际交往能力和组织能力"
+        },
+        {
+          "label": "",
+          "index": 36,
+          "text": "• Sound IT skills, including working knowledge of Microsoft Office applications",
+          "translation": "• 扎实的IT技能，包括对微软Office应用程序的实用知识"
+        },
+        {
+          "label": "",
+          "index": 37,
+          "text": "• Willingness to travel internationally",
+          "translation": "• 愿意进行国际出差"
+        },
+        {
+          "label": "",
+          "index": 38,
+          "text": "Desirable",
+          "translation": "理想条件"
+        },
+        {
+          "label": "",
+          "index": 39,
+          "text": "• Recognised post-graduate qualification in public relations/ journalism/ marketing communications",
+          "translation": "• 被认可的公共关系/新闻学/营销传播领域的硕士研究生学历"
+        },
+        {
+          "label": "",
+          "index": 40,
+          "text": "• Knowledge of the global chemical engineering industry and the production of new materials in particular",
+          "translation": "• 了解全球化学工程行业，特别是新材料的生产"
+        },
+        {
+          "label": "",
+          "index": 41,
+          "text": "• Understanding of the concerns surrounding sustainability in chemical engineering",
+          "translation": "• 了解化学工程领域围绕可持续性的关注点"
+        },
+        {
+          "label": "",
+          "index": 42,
+          "text": "• Ability to speak a foreign language",
+          "translation": "• 具备说一门外语的能力"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15885",
+          "type": 8,
+          "title": "",
+          "instructions": "Questions 15 - 21\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120661",
+              "number": 15,
+              "prompt": "Sales letters should be sent to the _____ in a company.",
+              "options": [],
+              "answer": "decision maker",
+              "accepted_answers": [
+                "decision maker"
+              ],
+              "analysis": "题干中的“Sales letters should be sent to the ___ in a company”对应原文中的“If you are contacting a business, it is important to address the letter to the decision maker”，其中“sent to”与“address the letter to”为同义替换，“decision maker”即为公司中负责决策的人，因此答案是“decision maker”。",
+              "reason": "题干问信件应发给公司中的谁，原文直接对应。",
+              "location_analysis": "原文指出信应寄给决策者。",
+              "paraphrasing": "address the letter to -> sent to",
+              "keywords": "sales letters, sent to",
+              "evidence": [
+                "If you are contacting a business, it is important to address the letter to the decision maker, ideally by name or at least by job title."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120662",
+              "number": 16,
+              "prompt": "Your letter should make as much _____ as possible.",
+              "options": [],
+              "answer": "impact",
+              "accepted_answers": [
+                "impact"
+              ],
+              "analysis": "题干要求信件应尽可能产生“as much ___ as possible”，原文明确指出“you also need to gain the maximum impact from your sales letter”，其中“gain the maximum impact”与“make as much impact as possible”意思一致，因此答案为“impact”。",
+              "reason": "题干要求信件应尽可能产生影响力，impact是原文原词。",
+              "location_analysis": "原文指出要获得最大影响。",
+              "paraphrasing": "gain the maximum impact -> make as much impact",
+              "keywords": "make, impact",
+              "evidence": [
+                "you also need to gain the maximum impact from your sales letter."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120663",
+              "number": 17,
+              "prompt": "The reader's attention needs to be caught by the _____ of your letter.",
+              "options": [],
+              "answer": "opening",
+              "accepted_answers": [
+                "opening"
+              ],
+              "analysis": "题干问读者注意力需被信件的什么部分吸引，原文提到“The opening is crucial to attract their attention”，说明信件开头（opening）至关重要，用于抓住读者注意力，因此答案是“opening”。",
+              "reason": "题干问读者注意力被什么抓住，原文明确说开头至关重要。",
+              "location_analysis": "开头吸引注意，故答案opening。",
+              "paraphrasing": "The opening is crucial to attract their attention -> caught by the opening",
+              "keywords": "reader's attention, opening",
+              "evidence": [
+                "The opening is crucial to attract their attention."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120664",
+              "number": 18,
+              "prompt": "Letters should be sent in a _____.",
+              "options": [],
+              "answer": "white envelope",
+              "accepted_answers": [
+                "white envelope"
+              ],
+              "analysis": "题干询问信件应装在何种信封中寄出，原文建议“Try to send each mailing in a white envelope”，直接说明应使用白色信封（white envelope），尽管棕色信封更便宜，但白色信封呈现效果更好，因此答案为“white envelope”。",
+              "reason": "题干说信应装在什么里，原文明确white envelope。",
+              "location_analysis": "直接给出应使用白色信封。",
+              "paraphrasing": "send each mailing in a white envelope -> sent in a white envelope",
+              "keywords": "sent in, white envelope",
+              "evidence": [
+                "Try to send each mailing in a white envelope."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120665",
+              "number": 19,
+              "prompt": "lt is best to print the _____ in two or more colours.",
+              "options": [],
+              "answer": "brochure",
+              "accepted_answers": [
+                "brochure"
+              ],
+              "analysis": "题干提到最好用两种或以上颜色印刷某物，原文指出“Include a brochure... try to use at least two-colour printing for this”，其中“this”指代前文的“brochure”，说明宣传册（brochure）应尽量采用双色印刷以提升效果，因此答案是“brochure”。",
+              "reason": "题干要求印刷彩色的物品，原文指示brochure用至少两色印刷。",
+              "location_analysis": "此处的this指代brochure，故填brochure。",
+              "paraphrasing": "try to use at least two-colour printing for this -> print the brochure in two or more colours",
+              "keywords": "printed, two or more colours, brochure",
+              "evidence": [
+                "Include a brochure. Depending on the volume and on whether you can afford the cost, try to use at least two-colour printing for this."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120666",
+              "number": 20,
+              "prompt": "Consider sending a _____ as this is more effective than a picture.",
+              "options": [],
+              "answer": "sample",
+              "accepted_answers": [
+                "sample"
+              ],
+              "analysis": "题干建议寄送某种物品，因其比图片更有效，原文提到“it may be worth enclosing a free sample - this is a much greater incentive than photographs”，其中“free sample”即免费样品，与“picture”对应“photographs”，说明样品（sample）更具激励作用，因此答案为“sample”。",
+              "reason": "题干建议寄样品，原文明确free sample比照片激励更大。",
+              "location_analysis": "赠送免费样品比照片更有用。",
+              "paraphrasing": "free sample -> sample; greater incentive than photographs -> more effective than a picture",
+              "keywords": "sample, more effective than a picture",
+              "evidence": [
+                "If practicable, it may be worth enclosing a free sample - this is a much greater incentive than photographs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120667",
+              "number": 21,
+              "prompt": "You should calculate the _____ to your letter.",
+              "options": [],
+              "answer": "response rate",
+              "accepted_answers": [
+                "response rate"
+              ],
+              "analysis": "题干要求计算对信件的某种反馈指标，原文指出“When you receive your replies, assess your response rate and monitor the sales”，其中“assess your response rate”与“calculate the response rate”意思一致，说明需要统计回信率（response rate）以评估效果，因此答案是“response rate”。",
+              "reason": "题干说要计算什么，原文提到评估response rate。",
+              "location_analysis": "接收回复后需评估回应率。",
+              "paraphrasing": "assess your response rate -> calculate the response rate",
+              "keywords": "calculate, response rate",
+              "evidence": [
+                "When you receive your replies, assess your response rate and monitor the sales."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Sales letters should be sent to the $120661$ in a company.\nYour letter should make as much $120662$ as possible.\nThe reader's attention needs to be caught by the $120663$ of your letter.\nLetters should be sent in a $120664$.\nlt is best to print the $120665$ in two or more colours.\nConsider sending a $120666$ as this is more effective than a picture.\nYou should calculate the $120667$ to your letter.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Sales letters should be sent to the $120661$ in a company.\nYour letter should make as much $120662$ as possible.\nThe reader's attention needs to be caught by the $120663$ of your letter.\nLetters should be sent in a $120664$.\nlt is best to print the $120665$ in two or more colours.\nConsider sending a $120666$ as this is more effective than a picture.\nYou should calculate the $120667$ to your letter."
+        },
+        {
+          "id": "15887",
+          "type": 8,
+          "title": "Position: Communications Manager",
+          "instructions": "Questions 22 - 27\nComplete the notes below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120668",
+              "number": 22,
+              "prompt": "Summary of role: to improve IFCES’s _____ around the world",
+              "options": [],
+              "answer": "profile",
+              "accepted_answers": [
+                "profile"
+              ],
+              "analysis": "题干中“improve IFCES’s ___ around the world”对应原文工作摘要中的“To raise the international profile of IFCES”，其中“raise the international profile”意为提升国际形象或知名度，与“improve... profile around the world”形成同义替换，因此答案为“profile”。",
+              "reason": "题干说改善全球形象，原文profile directly对应。",
+              "location_analysis": "工作摘要明确提升国际形象。",
+              "paraphrasing": "To raise the international profile -> to improve profile around the world",
+              "keywords": "improve, profile, around the world",
+              "evidence": [
+                "To raise the international profile of IFCES."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120669",
+              "number": 23,
+              "prompt": "• writing for a number of _____, produced for both IFCES and a wider readership",
+              "options": [],
+              "answer": "publications",
+              "accepted_answers": [
+                "publications"
+              ],
+              "analysis": "题干提到为若干___撰稿，面向IFCES及更广泛读者，原文关键职责中写道“Write and edit copy for publications intended for internal and external use”，其中“publications”指出版物，涵盖内部和外部受众，与题干描述完全吻合，因此答案是“publications”。",
+              "reason": "publications is the keyword.",
+              "location_analysis": "原文提到为出版物撰稿编辑。",
+              "paraphrasing": "writing for a number of → write and edit copy for publications",
+              "keywords": "publications",
+              "evidence": [
+                "Write and edit copy for publications intended for internal and external use including Chemical Engineer Monthly"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120670",
+              "number": 24,
+              "prompt": "• making sure the _____ contains current information.",
+              "options": [],
+              "answer": "website content",
+              "accepted_answers": [
+                "website content"
+              ],
+              "analysis": "题干要求确保某内容包含最新信息，原文明确指出“Ensure website content is up to date and consistent”，其中“up to date”即“current information”，说明需保持网站内容（website content）的时效性，因此答案为“website content”。",
+              "reason": "exact phrase.",
+              "location_analysis": "原文要求确保网站内容最新。",
+              "paraphrasing": "contains current information → up to date",
+              "keywords": "website content",
+              "evidence": [
+                "Ensure website content is up to date and consistent"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120671",
+              "number": 25,
+              "prompt": "• high level skill in writing appropriately — - for the _____ to read",
+              "options": [],
+              "answer": "audience",
+              "accepted_answers": [
+                "audience"
+              ],
+              "analysis": "题干提到写作需适合特定___阅读，原文在员工要求中强调“a keen sense of audience”，即对受众有敏锐把握，并能根据受众调整写作风格，这与“for the audience to read”逻辑一致，因此答案是“audience”。",
+              "reason": "audience matches.",
+              "location_analysis": "原文要求有敏锐的受众意识。",
+              "paraphrasing": "for the ... to read → a keen sense of audience",
+              "keywords": "audience",
+              "evidence": [
+                "Excellent copy writing skills with strong attention to detail, a keen sense of audience and an ability to tailor writing to its particular purpose"
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120672",
+              "number": 26,
+              "prompt": "- to achieve a specific _____",
+              "options": [],
+              "answer": "purpose",
+              "accepted_answers": [
+                "purpose"
+              ],
+              "analysis": "题干指出写作需达成特定___，原文提到“an ability to tailor writing to its particular purpose”，说明写作应服务于特定目的（purpose），与题干中“achieve a specific purpose”形成直接对应，因此答案为“purpose”。",
+              "reason": "题干要求达成特定什么，原文purpose对应。",
+              "location_analysis": "写作需针对特定目的。",
+              "paraphrasing": "tailor writing to its particular purpose -> achieve a specific purpose",
+              "keywords": "achieve a specific purpose",
+              "evidence": [
+                "an ability to tailor writing to its particular purpose"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120673",
+              "number": 27,
+              "prompt": "Employee specification (desirable) includes: — • relevant qualification at a _____ level",
+              "options": [],
+              "answer": "post-graduate",
+              "accepted_answers": [
+                "post-graduate"
+              ],
+              "analysis": "题干询问期望具备何种层次的相关学历，原文在“Desirable”条件中列出“Recognised post-graduate qualification in public relations/journalism/marketing communications”，其中“post-graduate qualification”即研究生学历，对应题干中“at a ___ level”，因此答案是“post-graduate”。",
+              "reason": "题干问本科以上什么水平，原文post-graduate对应。",
+              "location_analysis": "desirable要求研究生资格。",
+              "paraphrasing": "post-graduate qualification -> qualification at a post-graduate level",
+              "keywords": "relevant qualification, post-graduate",
+              "evidence": [
+                "Recognised post-graduate qualification in public relations/ journalism/ marketing communications"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Summary of role: to improve IFCES’s $120668$ around the world\nResponsibilities include:\n• writing for a number of $120669$, produced for both IFCES and a wider readership\n• producing news releases quickly when necessary\n• making sure the $120670$ contains current information.\nEmployee specification (essential) includes:\n• high level skill in writing appropriately\n- for the $120671$ to read\n- to achieve a specific $120672$\n• good IT skills.\nEmployee specification (desirable) includes:\n• relevant qualification at a $120673$ level\n• awareness of issues of sustainability in relation to the industry\n• knowledge of a foreign language.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Summary of role: to improve IFCES’s $120668$ around the world\nResponsibilities include:\n• writing for a number of $120669$, produced for both IFCES and a wider readership\n• producing news releases quickly when necessary\n• making sure the $120670$ contains current information.\nEmployee specification (essential) includes:\n• high level skill in writing appropriately\n- for the $120671$ to read\n- to achieve a specific $120672$\n• good IT skills.\nEmployee specification (desirable) includes:\n• relevant qualification at a $120673$ level\n• awareness of issues of sustainability in relation to the industry\n• knowledge of a foreign language."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "USING DIRECT MAIL TO SELL YOUR PRODUCT",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "When you have set up your own business, you must, of course, start selling your goods or services.",
+          "translation": "当你创立了自己的企业后，当然必须开始销售你的商品或服务。"
+        },
+        {
+          "index": 2,
+          "sentence": "One way is by using direct mail - in other words, sending a sales letter (or email) directly to companies that might want to do business with you.",
+          "translation": "一种方式是通过使用直邮——换句话说，直接将销售信函（或电子邮件）发送给可能想与你做生意的公司。"
+        },
+        {
+          "index": 3,
+          "sentence": "One important factor is your mailing list - that is, who you contact.",
+          "translation": "一个关键因素是你的邮寄列表——即你联系的对象。"
+        },
+        {
+          "index": 4,
+          "sentence": "You can build this up from your own market research, existing clients and advertising responses, or you can contact list brokers and rent or buy a compiled list.",
+          "translation": "你可以通过自己的市场调研、现有客户和广告反馈来建立这个列表，或者联系列表经纪人，租用或购买现成的列表。"
+        },
+        {
+          "index": 5,
+          "sentence": "If you are contacting a business, it is important to address the letter to the decision maker, ideally by name or at least by job title.",
+          "translation": "如果你在联系一家企业，务必将信件寄给决策者，最好能写上姓名，或者至少注明职位头衔。"
+        },
+        {
+          "index": 6,
+          "sentence": "While the desirability and price of the product on offer will obviously influence sales, you also need to gain the maximum impact from your sales letter.",
+          "translation": "虽然所提供产品的吸引力和价格显然会影响销售，但你也需要从销售信中获取最大效果。"
+        },
+        {
+          "index": 7,
+          "sentence": "To achieve that, bear the following points in mind:",
+          "translation": "为了实现这一点，请牢记以下几点："
+        },
+        {
+          "index": 8,
+          "sentence": "• You have no more than two seconds from when the reader starts the letter to convince them to continue.",
+          "translation": "• 从读者开始阅读信件的那一刻起，你只有不到两秒钟的时间来说服他们继续读下去。"
+        },
+        {
+          "index": 9,
+          "sentence": "If you fail, they will throw it away.",
+          "translation": "如果你失败了，他们就会把它扔掉。"
+        },
+        {
+          "index": 10,
+          "sentence": "The opening is crucial to attract their attention.",
+          "translation": "开头部分对于吸引他们的注意力至关重要。"
+        },
+        {
+          "index": 11,
+          "sentence": "And so that they don't lose interest, avoid having too much text.",
+          "translation": "为了不让他们失去兴趣，要避免文字过多。"
+        },
+        {
+          "index": 12,
+          "sentence": "• Try to send each mailing in a white envelope.",
+          "translation": "• 尽量将每一封邮件用白色信封寄出。"
+        },
+        {
+          "index": 13,
+          "sentence": "It might be cheaper to use a brown envelope but it doesn't make for such good presentation.",
+          "translation": "使用棕色信封或许更便宜，但其呈现效果不佳。"
+        },
+        {
+          "index": 14,
+          "sentence": "• Include a brochure.",
+          "translation": "• 附上一本宣传册。"
+        },
+        {
+          "index": 15,
+          "sentence": "Depending on the volume and on whether you can afford the cost, try to use at least two-colour printing for this.",
+          "translation": "根据数量以及您是否能承担成本，尽量使用至少双色印刷。"
+        },
+        {
+          "index": 16,
+          "sentence": "If practicable, it may be worth enclosing a free sample - this is a much greater incentive than photographs.",
+          "translation": "如果可行，附上一份免费样品可能是值得的——这比照片更能激励购买。"
+        },
+        {
+          "index": 17,
+          "sentence": "• However interested your potential clients are in buying, they will only do so if it can be done easily.",
+          "translation": "• 无论你的潜在客户多么有意购买，他们只有在购买过程简单便捷时才会真正下单。"
+        },
+        {
+          "index": 18,
+          "sentence": "So, include an order form (and of course details of how to return it) with your letter.",
+          "translation": "• 因此，请在信函中附上一份订购单（当然还包括如何寄回的详细说明）。"
+        },
+        {
+          "index": 19,
+          "sentence": "• When you receive your replies, assess your response rate and monitor the sales.",
+          "translation": "• 当你收到回复时，评估你的响应率并监控销售情况。"
+        },
+        {
+          "index": 20,
+          "sentence": "If necessary, the sales letter can then be amended to attract other clients on subsequent mail shots; make sure each different letter is coded so that monitoring is easy and effective.",
+          "translation": "如有必要，可以修改销售信函以在后续邮件投递中吸引其他客户；确保每封不同的信函都有编码，以便轻松有效地进行监控。"
+        },
+        {
+          "index": 21,
+          "sentence": "• Ensure that each reply is dealt with quickly and professionally.",
+          "translation": "• 确保每封回信都得到快速且专业的处理。"
+        },
+        {
+          "index": 22,
+          "sentence": "If further details are requested, these must be sent out promptly.",
+          "translation": "如果客户要求提供更多细节，这些信息必须立即发出。"
+        },
+        {
+          "index": 23,
+          "sentence": "There is no point in encouraging potential customers to contact you if your service is slow or non-existent.",
+          "translation": "如果你的服务迟缓或根本不存在，那么鼓励潜在客户联系你是毫无意义的。"
+        },
+        {
+          "index": 24,
+          "sentence": "IFCES, the International Federation of Chemical Engineering Societies",
+          "translation": "IFCES，即国际化学工程学会联合会"
+        },
+        {
+          "index": 25,
+          "sentence": "Job Specification: Communications Manager",
+          "translation": "职位说明：通讯经理"
+        },
+        {
+          "index": 26,
+          "sentence": "Contract: Permanent (with 3-month probationary period)",
+          "translation": "合同：永久（含3个月试用期）"
+        },
+        {
+          "index": 27,
+          "sentence": "Reports to: Chief Executive",
+          "translation": "汇报对象：首席执行官"
+        },
+        {
+          "index": 28,
+          "sentence": "Hours: 9:15am - 5:30pm with 1 hour for lunch",
+          "translation": "工作时间：上午9:15至下午5:30，午休1小时"
+        },
+        {
+          "index": 29,
+          "sentence": "Holidays: 23 days per annum + statutory public holidays",
+          "translation": "假期：每年23天 + 法定公共假期"
+        },
+        {
+          "index": 30,
+          "sentence": "Job Summary",
+          "translation": "职位概要"
+        },
+        {
+          "index": 31,
+          "sentence": "To raise the international profile of IFCES.",
+          "translation": "提升IFCES的国际知名度。"
+        },
+        {
+          "index": 32,
+          "sentence": "To communicate our objectives, programmes and services to members, the chemical engineering community, the media and the wider public.",
+          "translation": "向成员、化学工程界、媒体以及更广泛的公众传达我们的目标、项目和服务。"
+        },
+        {
+          "index": 33,
+          "sentence": "Key Responsibilities",
+          "translation": "主要职责"
+        },
+        {
+          "index": 34,
+          "sentence": "• Develop and implement a programme of communications to member associations, the chemical engineering industry, sponsors and the media",
+          "translation": "• 制定并实施面向成员协会、化学工程行业、赞助商及媒体的沟通计划"
+        },
+        {
+          "index": 35,
+          "sentence": "• Plan and implement marketing strategies for all IFCES programmes including the World Chemical Engineering Congress",
+          "translation": "• 规划并实施涵盖世界化学工程大会在内的所有IFCES项目的市场营销策略"
+        },
+        {
+          "index": 36,
+          "sentence": "• Write and edit copy for publications intended for internal and external use including Chemical Engineer Monthly",
+          "translation": "• 撰写并编辑用于内部和外部发行的出版物文稿，包括《化学工程师月刊》"
+        },
+        {
+          "index": 37,
+          "sentence": "• Work with design agencies, web developers and other external contractors to produce high quality corporate and marketing materials",
+          "translation": "• 与设计机构、网站开发者及其他外部承包商合作，制作高质量的企业及营销材料"
+        },
+        {
+          "index": 38,
+          "sentence": "• Research, write and distribute news releases as required, often at short notice and under pressure",
+          "translation": "• 根据需要研究、撰写并分发新闻稿，通常需在短时间内且在压力下完成。"
+        },
+        {
+          "index": 39,
+          "sentence": "Deal with media enquiries and interview requests.",
+          "translation": "处理媒体问询与采访请求。"
+        },
+        {
+          "index": 40,
+          "sentence": "Ensure that good relationships with both mainstream and chemical engineering media are developed and maintained",
+          "translation": "确保与主流媒体及化学工程媒体建立并保持良好的关系。"
+        },
+        {
+          "index": 41,
+          "sentence": "• Assist in the production of presentations and speeches for board members",
+          "translation": "• 协助为董事会成员制作演示文稿和演讲稿"
+        },
+        {
+          "index": 42,
+          "sentence": "• Ensure website content is up to date and consistent",
+          "translation": "• 确保网站内容保持最新且一致"
+        },
+        {
+          "index": 43,
+          "sentence": "• Develop a consistent corporate identity and ensure its application by all member associations and partner organisations",
+          "translation": "• 建立统一的公司形象，并确保所有成员协会和合作组织对其加以运用"
+        },
+        {
+          "index": 44,
+          "sentence": "• Carry out specific duties and projects as directed from time to time",
+          "translation": "• 根据指示，随时执行特定职责和项目"
+        },
+        {
+          "index": 45,
+          "sentence": "Employee Specification",
+          "translation": "员工要求说明"
+        },
+        {
+          "index": 46,
+          "sentence": "Essential",
+          "translation": "必要条件"
+        },
+        {
+          "index": 47,
+          "sentence": "• Degree (any discipline)",
+          "translation": "• 本科学位（任何专业均可）"
+        },
+        {
+          "index": 48,
+          "sentence": "• Minimum 4 years’ experience in a communications role",
+          "translation": "• 在传播职位上拥有至少4年经验"
+        },
+        {
+          "index": 49,
+          "sentence": "• Excellent copy writing skills with strong attention to detail, a keen sense of audience and an ability to tailor writing to its particular purpose",
+          "translation": "• 出色的文案撰写技能，注重细节，对受众有敏锐的洞察力，并能够根据特定目的调整写作风格。"
+        },
+        {
+          "index": 50,
+          "sentence": "• Demonstrable track record of producing high quality corporate publications and marketing materials",
+          "translation": "• 在制作高质量企业出版物和营销材料方面具有可证明的成功业绩"
+        },
+        {
+          "index": 51,
+          "sentence": "• Excellent interpersonal and organisational skills",
+          "translation": "• 出色的人际交往能力和组织能力"
+        },
+        {
+          "index": 52,
+          "sentence": "• Sound IT skills, including working knowledge of Microsoft Office applications",
+          "translation": "• 扎实的IT技能，包括对微软Office应用程序的实用知识"
+        },
+        {
+          "index": 53,
+          "sentence": "• Willingness to travel internationally",
+          "translation": "• 愿意进行国际出差"
+        },
+        {
+          "index": 54,
+          "sentence": "Desirable",
+          "translation": "理想条件"
+        },
+        {
+          "index": 55,
+          "sentence": "• Recognised post-graduate qualification in public relations/ journalism/ marketing communications",
+          "translation": "• 被认可的公共关系/新闻学/营销传播领域的硕士研究生学历"
+        },
+        {
+          "index": 56,
+          "sentence": "• Knowledge of the global chemical engineering industry and the production of new materials in particular",
+          "translation": "• 了解全球化学工程行业，特别是新材料的生产"
+        },
+        {
+          "index": 57,
+          "sentence": "• Understanding of the concerns surrounding sustainability in chemical engineering",
+          "translation": "• 了解化学工程领域围绕可持续性的关注点"
+        },
+        {
+          "index": 58,
+          "sentence": "• Ability to speak a foreign language",
+          "translation": "• 具备说一门外语的能力"
+        }
+      ]
+    },
+    {
+      "id": "2107",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "KAURI GUM - a piece of New Zealand's history",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "The kauri tree is a massive forest tree native to New Zealand. Kauri once formed vast forests over much of the north of the country. Whereas now it is the wood of the kauri which is an important natural resource, in the past it was the tree's sap (the thick liquid which flows inside a tree) which, when hardened into gum, played an important role in New Zealand's early history.",
+          "translation": "贝壳杉是一种原产于新西兰的大型森林树木。\n贝壳杉曾在该国北部大部分地区形成广袤的森林。\n尽管现在贝壳杉的木材是一种重要的自然资源，但在过去，是这种树的汁液（树内流动的稠密液体）在硬化成树胶后，在新西兰的早期历史中发挥了重要作用。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "After running from rips or tears in the bark of trees, the sap hardens to form the lumps of gum which eventually fall to the ground and are buried under layers of forest litter. The bark often splits where branches fork from the trunk, and gum accumulates there also.",
+          "translation": "从树皮上的裂缝或撕裂处流出后，树液会硬化形成一团团的树胶，这些树胶最终掉落到地面，并被掩埋在层层森林枯枝落叶之下。\n树皮常常在树枝从树干分叉的地方裂开，树胶也会在那里积聚。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The early European settlers in New Zealand collected and sold the gum. Gum fresh from the tree was soft and of low value but most of the gum which was harvested had been buried for thousands of years. This gum came in a bewildering variety of colours, degree of transparency and hardness, depending on the length and location of burial, as well as the health of the original tree and the area of the bleeding. Highest quality gum was hard and bright and was usually found at shallow depth on the hills. Lowest quality gum was soft, black or chalky and sugary and was usually found buried in swamps, where it had been in contact with water for a long time. Long periods in the sun or bush fires could transform dull, cloudy lumps into higher quality transparent gum.",
+          "translation": "新西兰早期的欧洲定居者收集并出售这种树胶。\n刚从树上采集的树胶质地柔软且价值较低，但大部分被收获的树胶已经在地下埋藏了数千年。\n这种树胶呈现出令人眼花缭乱的多种颜色、透明度和硬度，这取决于埋藏的时间长短和地点，以及原树的健康状况和流出树液的区域。\n最高品质的树胶坚硬且明亮，通常在小山的浅层土壤中被发现。\n最低品质的树胶柔软、呈黑色或粉笔状且带有糖分，通常埋藏在沼泽中，这些地方树胶长期与水接触。\n长时间的日晒或灌木火灾可以将暗淡、浑浊的块状树胶转化为更高品质的透明树胶。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Virtually all kauri gum was found in the regions of New Zealand where kauri forests grow today _ from the middle of the North Island northwards. In Maori and early European times up until 1850，most gum collected was simply picked up from the ground, but, after that, the majority was recovered by digging.",
+          "translation": "几乎所有贝壳杉树胶都是在如今仍有贝壳杉林生长的新西兰地区发现的——从北岛中部向北延伸。\n在毛利人和早期欧洲人时代，直至1850年，收集到的多数树胶仅仅是直接从地面上捡拾的；但在此之后，大部分树胶则通过挖掘获取。\n几乎所有的考里树胶都是在如今考里森林生长的新西兰地区发现的——从北岛中部向北延伸。\n在毛利人和早期欧洲人时期直至1850年，收集到的大部分树胶只是从地面上捡拾而来，但此后，大多数树胶是通过挖掘获取的。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "The original inhabitants of New Zealand, the Maori, had experimented with kauri gum well before Europeans arrived at the beginning of the nineteenth century. They called it kapia, and found it of considerable use.",
+          "translation": "新西兰的原住民毛利人在19世纪初欧洲人到来之前就已经尝试使用考里树胶。\n他们称之为“kapia”，并发现它具有相当大的用途。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Fresh gum from trees was prized for its chewing quality, as was buried gum when softened in water and mixed with the juice of a local plant. A piece of gum was often passed around from mouth to mouth when people gathered together until it was all gone, or when they tired of chewing, it was laid aside for future use.",
+          "translation": "从树上采集的新鲜树胶因其咀嚼性而受到珍视，埋藏的树胶在水中软化并与当地一种植物的汁液混合后也同样如此。\n当人们聚集在一起时，一块树胶常常被传来传去，直到完全嚼完，或者当人们嚼腻了，就把它放在一边以备日后使用。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Kauri gum burns readily and was used by Maori people to light fires. Sometimes it was bound in grass, ignited and used as a torch by night fishermen to attract fish.",
+          "translation": "考里树胶极易燃烧，毛利人曾用它来生火。\n有时，人们将树胶裹在草中点燃，作为火把供夜间渔民用来吸引鱼类。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "The first kauri gum to be exported from New Zealand was part of a cargo taken back to Australia and England by two early expeditions in 1814 and 1815. By the 1860s, kauri gum's reputation was well established in the overseas markets and European immigrants were joining the Maoris in collecting gum on the hills of northern New Zealand. As the surface gum became more scarce, spades were used to dig up the buried 'treasure; The increasing number of diggers resulted in rapid growth of the kauri gum exports from 1,000 tons in 1860 to a maximum of over 10,000 tons in 1900.",
+          "translation": "新西兰最早出口的贝壳杉胶是1814年和1815年两次早期探险队带回澳大利亚和英格兰的部分货物。\n到19世纪60年代，贝壳杉胶在海外市场声誉卓著，欧洲移民开始加入毛利人行列，在新西兰北部丘陵地带采集这种胶。\n随着地表胶日益稀少，人们开始用铲子挖掘埋藏在地下的‘宝藏’；\n挖掘者数量的不断增加导致贝壳杉胶出口量从1860年的1000吨迅速增长至1900年超过10000吨的最高纪录。\n第一批从新西兰出口的考里树胶是1814年和1815年两次早期探险队运往澳大利亚和英格兰的货物的一部分。\n到了19世纪60年代，考里树胶在海外市场声名鹊起，欧洲移民也开始加入毛利人的行列，在新西兰北部的山丘上收集树胶。\n随着地表树胶日益稀缺，人们开始使用铲子挖掘埋藏在地下的‘宝藏’；\n挖掘者数量的增加导致考里树胶出口量迅速增长，从1860年的1000吨上升到1900年超过1万吨的最高点。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "For fifty years from about 1870 to 1920, the kauri gum industry was a major source of income for settlers in northern New Zealand. As these would-be farmers struggled to break in the land, many turned to gum-digging to earn enough money to support their families and pay for improvements to their farms until better times arrived. By the 1890s，there were 20,000 people engaged in gum-digging. Although many of these, such as farmers, women and children, were only part-time diggers, nearly 7,000 were full-timers. During times of economic difficulty, gum-digging was the only job available where the unemployed from many walks of life could earn a living, if they were prepared to work.",
+          "translation": "大约从1870年到1920年的五十年间，贝壳杉胶产业是新西兰北部定居者的主要收入来源。\n当这些准农民们艰难地开垦土地时，许多人转而从事挖胶工作，以赚取足够的钱养家糊口，并为改善农场买单，直到更好的时期到来。\n到19世纪90年代，已有两万人从事挖胶工作。\n尽管其中许多人，比如农民、妇女和儿童，只是兼职挖胶者，但近7000人是全职的。\n在经济困难时期，挖胶是唯一能提供的工作，来自各行各业的失业者如果愿意工作，就可以靠此谋生。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "The first major commercial use of kauri gum was in the manufacture of high-grade furniture varnish, a kind of clear paint used to treat wood. The best and purest gum that was exported prior to 1910 was used in this way. Kauri gum was used in 70% of the oil varnishes being manufactured in England in the 1890s. It was favoured ahead of other gums because it was easier to process at lower temperatures. The cooler the process could be kept the better, as it meant a paler varnish could be produced.",
+          "translation": "贝壳杉胶的第一个主要商业用途是制造高级家具清漆，这是一种用于处理木材的透明涂料。\n1910年之前出口的最佳、最纯净的胶正是以这种方式使用的。\n在19世纪90年代，英国制造的油性清漆中有70%使用了贝壳杉胶。\n它之所以比其他胶更受青睐，是因为它更容易在较低温度下加工。\n加工过程保持得越冷越好，因为这意味着可以生产出颜色更浅的清漆。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "About 1910, kauri gum was found to be a very suitable ingredient in the production of some kinds of floor coverings such as linoleum. In this way, a use was found for the vast quantities of poorer quality and less pure gum, that had up till then been discarded as waste. Kauri gum's importance in the manufacture of varnish and linoleum was displaced by synthetic alternatives in the 1930s.",
+          "translation": "大约在1910年，贝壳杉树胶被发现非常适合用于生产某些类型的地板覆盖物，例如油毡。\n通过这种方式，大量质量较差且纯度较低的树胶（此前一直被当作废物丢弃）得到了利用。\n在20世纪30年代，贝壳杉树胶在清漆和油毡制造中的重要性被合成替代品所取代。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "Fossil kauri gum is rather soft and can be carved easily with a knife or polished with fine sandpaper. In the time of Queen Victoria of England (1837-1901)，some pieces were made into fashionable amber beads that women wore around their necks. The occasional lump that contained preserved insects was prized for use in necklaces and bracelets. Many of the gum-diggers enjoyed the occasional spell of carving and produced a wide variety of small sculptured pieces. Many of these carvings can be seen today in local museums.",
+          "translation": "化石贝壳杉树脂相当柔软，可以用小刀轻松雕刻或用细砂纸抛光。\n在英国维多利亚女王时代（1837-1901年），有些树脂块被制成时尚的琥珀珠子，女性将其戴在脖子上。\n偶尔发现的含有保存昆虫的树脂块在制作项链和手镯时备受珍视。\n许多采胶工人偶尔享受雕刻时光，制作出各种小型雕刻作品。\n如今，许多这些雕刻品可以在当地博物馆中看到。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "Over the years, kauri gum has also been used in a number of minor products, such as an ingredient in marine glue and candles. In the last decades it has had a very limited use in the manufacture of extremely high-grade varnish for violins, but the gum of the magnificent kauri tree remains an important part of New Zealand's history.",
+          "translation": "多年来，贝壳杉胶还被用于多种次要产品，例如作为船用胶水和蜡烛的成分。\n在最近几十年里，它仅在制造小提琴用极高品质清漆方面有极其有限的用途，但宏伟的贝壳杉树的胶仍然是新西兰历史的重要组成部分。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15889",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 28 - 33\nThe text has six sections, A-F.\nWhich section contains the following information?\nWrite the correct letter, A-F, in boxes 28-33 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120674",
+              "number": 28,
+              "prompt": "an example of a domestic product made of high-quality gum",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“an example of a domestic product made of high-quality gum”对应原文E段提到的“high-grade furniture varnish”，即高品质胶用于制造高级家具清漆，属于家居用品。文中明确指出“best and purest gum”被用于此用途，与题干中“high-quality gum”形成同义替换，因此答案为E。",
+              "reason": "furniture varnish属于domestic product，且提及best and purest gum即高质胶。",
+              "location_analysis": "Section E提到高品质胶用于制造高级家具清漆，属于家居产品。",
+              "paraphrasing": "domestic product -> furniture varnish; high-quality gum -> best and purest gum",
+              "keywords": "product, high-quality gum",
+              "evidence": [
+                "The first major commercial use of kauri gum was in the manufacture of high-grade furniture varnish, a kind of clear paint used to treat wood."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120675",
+              "number": 29,
+              "prompt": "factors affecting gum quality",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干要求找出影响胶质量的因素，A段明确说明胶的颜色、透明度和硬度取决于埋藏时间、埋藏地点、原树健康状况以及出胶部位等因素。这些内容直接对应“factors affecting gum quality”，因此答案为A。",
+              "reason": "明确指出影响质量的多个因素。",
+              "location_analysis": "Section A详细说明影响胶颜色的因素。",
+              "paraphrasing": "factors affecting quality -> depending on the length and location of burial, health of the tree, area of bleeding",
+              "keywords": "factors, gum quality",
+              "evidence": [
+                "This gum came in a bewildering variety of colours, degree of transparency and hardness, depending on the length and location of burial, as well as the health of the original tree and the area of the bleeding."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120676",
+              "number": 30,
+              "prompt": "how kauri gum is formed",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问胶的形成方式，A段首句描述了树脂从树皮裂缝流出后硬化成块，并最终掉落并被森林腐殖质覆盖的过程。这完整解释了“how kauri gum is formed”，因此答案为A。",
+              "reason": "直接说明胶的形成过程。",
+              "location_analysis": "Section A描述树皮裂缝流出树脂凝固成块。",
+              "paraphrasing": "how is formed -> sap hardens to form lumps of gum",
+              "keywords": "how, formed",
+              "evidence": [
+                "After running from rips or tears in the bark of trees, the sap hardens to form the lumps of gum which eventually fall to the ground and are buried under layers of forest litter."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120677",
+              "number": 31,
+              "prompt": "how gum was gathered",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问胶是如何被收集的，B段指出1850年以前主要从地面捡拾，之后则主要通过挖掘获取。这一描述准确对应“how gum was gathered”，因此答案为B。",
+              "reason": "明确收集方式。",
+              "location_analysis": "Section B讲述早期捡拾和后期挖掘。",
+              "paraphrasing": "how was gathered -> picked up from the ground; recovered by digging",
+              "keywords": "how, gathered",
+              "evidence": [
+                "In Maori and early European times up until 1850，most gum collected was simply picked up from the ground, but, after that, the majority was recovered by digging."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120678",
+              "number": 32,
+              "prompt": "the main industrial uses of the gum",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干要求找出胶的主要工业用途，E段提到其两大用途：一是用于制造高级家具清漆，二是作为油毡等地板覆盖物的原料。这两项均为重要的工业应用，完全契合题干要求，因此答案为E。",
+              "reason": "E段提到了两种主要工业用途。",
+              "location_analysis": "题干问树胶的主要工业用途，E段介绍了用于清漆和地板覆盖物。",
+              "paraphrasing": "main industrial uses -> manufacture of high-grade furniture varnish... ingredient in floor coverings such as linoleum",
+              "keywords": "main industrial uses of the gum",
+              "evidence": [
+                "About 1910, kauri gum was found to be a very suitable ingredient in the production of some kinds of floor coverings such as linoleum."
+              ],
+              "confidence": 0.95,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120679",
+              "number": 33,
+              "prompt": "recent uses of kauri gum",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                },
+                {
+                  "value": "F",
+                  "label": "F"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干中的“recent uses”对应F段末尾提到的“in the last decades”，文中指出近年来胶被有限地用于小提琴高级清漆的制造，同时也曾用于海洋胶水、蜡烛等次要产品。这些属于近期用途，因此答案为F。",
+              "reason": "题干问 recent uses，Section F 指明近几十年 violin varnish 等用途。",
+              "location_analysis": "Section F 末句提到 recent 用于 violin varnish 和 minor...",
+              "paraphrasing": "recent uses -> last decades, limited use",
+              "keywords": "recent uses, kauri gum",
+              "evidence": [
+                "In the last decades it has had a very limited use in the manufacture of extremely high-grade varnish for violins, but the gum of the magnificent kauri tree remains an important part of New Zealand's history."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15891",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 34 - 39\nLook at the following events in the history of kauri gum in New Zealand(Questions 34-39) and the list of time periods below.\nMatch each event with the correct time period, A-l.\nChoose the correct word and move it into the gap.",
+          "option_title": "List of Time Periods",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. before the 1800s"
+            },
+            {
+              "value": "B",
+              "label": "B. in 1900"
+            },
+            {
+              "value": "C",
+              "label": "C. in 1910"
+            },
+            {
+              "value": "D",
+              "label": "D. between the late 1800s and the early 1900s"
+            },
+            {
+              "value": "E",
+              "label": "E. between the 1830s and 1900"
+            },
+            {
+              "value": "F",
+              "label": "F. in 1814 and 1815"
+            },
+            {
+              "value": "G",
+              "label": "G. after 1850"
+            },
+            {
+              "value": "H",
+              "label": "H. in the 1930s"
+            },
+            {
+              "value": "I",
+              "label": "I. in recent times"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120680",
+              "number": 34,
+              "prompt": "Kauri gum was first used in New Zealand",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. before the 1800s"
+                },
+                {
+                  "value": "B",
+                  "label": "B. in 1900"
+                },
+                {
+                  "value": "C",
+                  "label": "C. in 1910"
+                },
+                {
+                  "value": "D",
+                  "label": "D. between the late 1800s and the early 1900s"
+                },
+                {
+                  "value": "E",
+                  "label": "E. between the 1830s and 1900"
+                },
+                {
+                  "value": "F",
+                  "label": "F. in 1814 and 1815"
+                },
+                {
+                  "value": "G",
+                  "label": "G. after 1850"
+                },
+                {
+                  "value": "H",
+                  "label": "H. in the 1930s"
+                },
+                {
+                  "value": "I",
+                  "label": "I. in recent times"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问胶最早在新西兰被使用的时间，C段提到毛利人在19世纪初欧洲人到来“之前很久”就已使用胶（kapia），即早于1800年代。这与选项A“before the 1800s”完全对应，因此答案为A。",
+              "reason": "well before the beginning of the nineteenth century对应before the 1800s。",
+              "location_analysis": "Section C提到毛利人在19世纪初欧洲人到来之前就使用胶，即1800s前。",
+              "paraphrasing": "first used -> had experimented with kauri gum well before Europeans arrived at the beginning of the nineteenth century",
+              "keywords": "first used, New Zealand",
+              "evidence": [
+                "The original inhabitants of New Zealand, the Maori, had experimented with kauri gum well before Europeans arrived at the beginning of the nineteenth century."
+              ],
+              "confidence": 0.96,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120681",
+              "number": 35,
+              "prompt": "The amount of kauri gum sent overseas peaked",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. before the 1800s"
+                },
+                {
+                  "value": "B",
+                  "label": "B. in 1900"
+                },
+                {
+                  "value": "C",
+                  "label": "C. in 1910"
+                },
+                {
+                  "value": "D",
+                  "label": "D. between the late 1800s and the early 1900s"
+                },
+                {
+                  "value": "E",
+                  "label": "E. between the 1830s and 1900"
+                },
+                {
+                  "value": "F",
+                  "label": "F. in 1814 and 1815"
+                },
+                {
+                  "value": "G",
+                  "label": "G. after 1850"
+                },
+                {
+                  "value": "H",
+                  "label": "H. in the 1930s"
+                },
+                {
+                  "value": "I",
+                  "label": "I. in recent times"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“amount... peaked”对应D段提到的出口量在1900年达到峰值“over 10,000 tons”。文中用“maximum”表达峰值，与题干“peaked”形成同义替换，时间点明确为1900年，因此答案为B。",
+              "reason": "maximum对应peaked，时间1900年。",
+              "location_analysis": "Section D末尾出口在1900年达到峰值10000吨。",
+              "paraphrasing": "amount sent overseas peaked -> exports from 1,000 tons in 1860 to a maximum of over 10,000 tons in 1900",
+              "keywords": "amount peaked",
+              "evidence": [
+                "The increasing number of diggers resulted in rapid growth of the kauri gum exports from 1,000 tons in 1860 to a maximum of over 10,000 tons in 1900."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120682",
+              "number": 36,
+              "prompt": "The collection of kauri gum supplemented farmers'incomes",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. before the 1800s"
+                },
+                {
+                  "value": "B",
+                  "label": "B. in 1900"
+                },
+                {
+                  "value": "C",
+                  "label": "C. in 1910"
+                },
+                {
+                  "value": "D",
+                  "label": "D. between the late 1800s and the early 1900s"
+                },
+                {
+                  "value": "E",
+                  "label": "E. between the 1830s and 1900"
+                },
+                {
+                  "value": "F",
+                  "label": "F. in 1814 and 1815"
+                },
+                {
+                  "value": "G",
+                  "label": "G. after 1850"
+                },
+                {
+                  "value": "H",
+                  "label": "H. in the 1930s"
+                },
+                {
+                  "value": "I",
+                  "label": "I. in recent times"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干指出胶的采集补充了农民收入，D段说明在约1870至1920年间，许多拓荒农民靠挖胶维持生计并改善农场。这一时期对应选项D“between the late 1800s and the early 1900s”，因此答案为D。",
+              "reason": "1870-1920对应late 1800s到early 1900s。",
+              "location_analysis": "Section D提到农民在1870-1920年间通过挖胶补充收入。",
+              "paraphrasing": "supplemented incomes -> many turned to gum-digging to earn enough money to support their families and pay for improvements to their farms",
+              "keywords": "supplemented farmers' incomes",
+              "evidence": [
+                "For fifty years from about 1870 to 1920, the kauri gum industry was a major source of income for settlers in northern New Zealand. As these would-be farmers struggled to break in the land, many turned to gum-digging to earn enough money to support their families and pay for improvements to their farms until better times arrived."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120683",
+              "number": 37,
+              "prompt": "Kauri gum was made into jewellery",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. before the 1800s"
+                },
+                {
+                  "value": "B",
+                  "label": "B. in 1900"
+                },
+                {
+                  "value": "C",
+                  "label": "C. in 1910"
+                },
+                {
+                  "value": "D",
+                  "label": "D. between the late 1800s and the early 1900s"
+                },
+                {
+                  "value": "E",
+                  "label": "E. between the 1830s and 1900"
+                },
+                {
+                  "value": "F",
+                  "label": "F. in 1814 and 1815"
+                },
+                {
+                  "value": "G",
+                  "label": "G. after 1850"
+                },
+                {
+                  "value": "H",
+                  "label": "H. in the 1930s"
+                },
+                {
+                  "value": "I",
+                  "label": "I. in recent times"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干问胶被制成珠宝的时间，F段提到在维多利亚女王时代（1837–1901），胶被制成琥珀色珠子供女性佩戴。该时间段落在1830年代至1900年之间，与选项E完全吻合，因此答案为E。",
+              "reason": "1837-1901对应between 1830s and 1900。",
+              "location_analysis": "Section F提到维多利亚时代（1837-1901）胶被制成琥珀珠子项链。",
+              "paraphrasing": "made into jewellery -> made into fashionable amber beads",
+              "keywords": "jewellery",
+              "evidence": [
+                "In the time of Queen Victoria of England (1837-1901)，some pieces were made into fashionable amber beads that women wore around their necks."
+              ],
+              "confidence": 0.96,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120684",
+              "number": 38,
+              "prompt": "Kauri gum was used in the production of string instruments",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. before the 1800s"
+                },
+                {
+                  "value": "B",
+                  "label": "B. in 1900"
+                },
+                {
+                  "value": "C",
+                  "label": "C. in 1910"
+                },
+                {
+                  "value": "D",
+                  "label": "D. between the late 1800s and the early 1900s"
+                },
+                {
+                  "value": "E",
+                  "label": "E. between the 1830s and 1900"
+                },
+                {
+                  "value": "F",
+                  "label": "F. in 1814 and 1815"
+                },
+                {
+                  "value": "G",
+                  "label": "G. after 1850"
+                },
+                {
+                  "value": "H",
+                  "label": "H. in the 1930s"
+                },
+                {
+                  "value": "I",
+                  "label": "I. in recent times"
+                }
+              ],
+              "answer": "I",
+              "accepted_answers": [
+                "I"
+              ],
+              "analysis": "题干提到胶用于弦乐器生产，F段末句指出“近几十年”胶被用于制造小提琴的高级清漆。小提琴属于弦乐器，“in recent times”对应选项I，因此答案为I。",
+              "reason": "题干说用于弦乐器生产，对应 in recent times (I)。",
+              "location_analysis": "Section F 末句提到 recent 用于 violin varnish，即弦乐器。",
+              "paraphrasing": "string instruments -> violins",
+              "keywords": "production of string instruments",
+              "evidence": [
+                "In the last decades it has had a very limited use in the manufacture of extremely high-grade varnish for violins, but the gum of the magnificent kauri tree remains an important part of New Zealand's history."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120685",
+              "number": 39,
+              "prompt": "Most of the kauri gum was found underground",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. before the 1800s"
+                },
+                {
+                  "value": "B",
+                  "label": "B. in 1900"
+                },
+                {
+                  "value": "C",
+                  "label": "C. in 1910"
+                },
+                {
+                  "value": "D",
+                  "label": "D. between the late 1800s and the early 1900s"
+                },
+                {
+                  "value": "E",
+                  "label": "E. between the 1830s and 1900"
+                },
+                {
+                  "value": "F",
+                  "label": "F. in 1814 and 1815"
+                },
+                {
+                  "value": "G",
+                  "label": "G. after 1850"
+                },
+                {
+                  "value": "H",
+                  "label": "H. in the 1930s"
+                },
+                {
+                  "value": "I",
+                  "label": "I. in recent times"
+                }
+              ],
+              "answer": "G",
+              "accepted_answers": [
+                "G"
+              ],
+              "analysis": "题干问大部分胶何时被发现于地下，B段说明1850年之后，大多数胶通过挖掘获得，意味着主要来自地下。这与选项G“after 1850”完全对应，因此答案为G。",
+              "reason": "after that指after 1850。",
+              "location_analysis": "Section B提到1850年后大部分胶通过挖掘获得，即地下。",
+              "paraphrasing": "found underground -> majority was recovered by digging",
+              "keywords": "found underground",
+              "evidence": [
+                "In Maori and early European times up until 1850，most gum collected was simply picked up from the ground, but, after that, the majority was recovered by digging."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Time Periods"
+          }
+        },
+        {
+          "id": "15893",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 40 - 40\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120686",
+              "number": 40,
+              "prompt": "What was most likely to reduce the quality of kauri gum?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "how long it was buried"
+                },
+                {
+                  "value": "B",
+                  "label": "exposure to water"
+                },
+                {
+                  "value": "C",
+                  "label": "how deep it was buried"
+                },
+                {
+                  "value": "D",
+                  "label": "exposure to heat"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问最可能降低胶质量的因素，A段指出最低品质的胶通常埋在沼泽中，“长期接触水”导致其变软、发黑或呈粉笔状。这表明“exposure to water”是关键因素，因此正确答案为B。",
+              "reason": "接触水导致质量降低，对应exposure to water。",
+              "location_analysis": "Section A说明最低质量胶被埋在沼泽，长期接触水。",
+              "paraphrasing": "reduce quality -> lowest quality gum... found buried in swamps, where it had been in contact with water for a long time",
+              "keywords": "reduce quality, water",
+              "evidence": [
+                "Lowest quality gum was soft, black or chalky and sugary and was usually found buried in swamps, where it had been in contact with water for a long time."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": {
+                "A": "原文提到埋藏时间不会影响胶质质量，该选项无中生有。",
+                "C": "原文指出埋藏深度不是主要影响因素，该选项与原文信息矛盾。",
+                "D": "原文未提及热量会导致胶质质量下降，该选项属于无中生有。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "KAURI GUM - a piece of New Zealand's history",
+      "sentence_translations": [
+        {
+          "index": 2,
+          "sentence": "The kauri tree is a massive forest tree native to New Zealand.",
+          "translation": "贝壳杉是一种原产于新西兰的大型森林树木。"
+        },
+        {
+          "index": 3,
+          "sentence": "Kauri once formed vast forests over much of the north of the country.",
+          "translation": "贝壳杉曾在该国北部大部分地区形成广袤的森林。"
+        },
+        {
+          "index": 4,
+          "sentence": "Whereas now it is the wood of the kauri which is an important natural resource, in the past it was the tree's sap (the thick liquid which flows inside a tree) which, when hardened into gum, played an important role in New Zealand's early history.",
+          "translation": "尽管现在贝壳杉的木材是一种重要的自然资源，但在过去，是这种树的汁液（树内流动的稠密液体）在硬化成树胶后，在新西兰的早期历史中发挥了重要作用。"
+        },
+        {
+          "index": 5,
+          "sentence": "After running from rips or tears in the bark of trees, the sap hardens to form the lumps of gum which eventually fall to the ground and are buried under layers of forest litter.",
+          "translation": "从树皮上的裂缝或撕裂处流出后，树液会硬化形成一团团的树胶，这些树胶最终掉落到地面，并被掩埋在层层森林枯枝落叶之下。"
+        },
+        {
+          "index": 6,
+          "sentence": "The bark often splits where branches fork from the trunk, and gum accumulates there also.",
+          "translation": "树皮常常在树枝从树干分叉的地方裂开，树胶也会在那里积聚。"
+        },
+        {
+          "index": 7,
+          "sentence": "The early European settlers in New Zealand collected and sold the gum.",
+          "translation": "新西兰早期的欧洲定居者收集并出售这种树胶。"
+        },
+        {
+          "index": 8,
+          "sentence": "Gum fresh from the tree was soft and of low value but most of the gum which was harvested had been buried for thousands of years.",
+          "translation": "刚从树上采集的树胶质地柔软且价值较低，但大部分被收获的树胶已经在地下埋藏了数千年。"
+        },
+        {
+          "index": 9,
+          "sentence": "This gum came in a bewildering variety of colours, degree of transparency and hardness, depending on the length and location of burial, as well as the health of the original tree and the area of the bleeding.",
+          "translation": "这种树胶呈现出令人眼花缭乱的多种颜色、透明度和硬度，这取决于埋藏的时间长短和地点，以及原树的健康状况和流出树液的区域。"
+        },
+        {
+          "index": 10,
+          "sentence": "Highest quality gum was hard and bright and was usually found at shallow depth on the hills.",
+          "translation": "最高品质的树胶坚硬且明亮，通常在小山的浅层土壤中被发现。"
+        },
+        {
+          "index": 11,
+          "sentence": "Lowest quality gum was soft, black or chalky and sugary and was usually found buried in swamps, where it had been in contact with water for a long time.",
+          "translation": "最低品质的树胶柔软、呈黑色或粉笔状且带有糖分，通常埋藏在沼泽中，这些地方树胶长期与水接触。"
+        },
+        {
+          "index": 12,
+          "sentence": "Long periods in the sun or bush fires could transform dull, cloudy lumps into higher quality transparent gum.",
+          "translation": "长时间的日晒或灌木火灾可以将暗淡、浑浊的块状树胶转化为更高品质的透明树胶。"
+        },
+        {
+          "index": 13,
+          "sentence": "Virtually all kauri gum was found in the regions of New Zealand where kauri forests grow today _ from the middle of the North Island northwards.",
+          "translation": "几乎所有贝壳杉树胶都是在如今仍有贝壳杉林生长的新西兰地区发现的——从北岛中部向北延伸。"
+        },
+        {
+          "index": 14,
+          "sentence": "In Maori and early European times up until 1850，most gum collected was simply picked up from the ground, but, after that, the majority was recovered by digging.",
+          "translation": "在毛利人和早期欧洲人时代，直至1850年，收集到的多数树胶仅仅是直接从地面上捡拾的；但在此之后，大部分树胶则通过挖掘获取。"
+        },
+        {
+          "index": 15,
+          "sentence": "Virtually all kauri gum was found in the regions of New Zealand where kauri forests grow today _ from the middle of the North Island northwards.",
+          "translation": "几乎所有的考里树胶都是在如今考里森林生长的新西兰地区发现的——从北岛中部向北延伸。"
+        },
+        {
+          "index": 16,
+          "sentence": "In Maori and early European times up until 1850，most gum collected was simply picked up from the ground, but, after that, the majority was recovered by digging.",
+          "translation": "在毛利人和早期欧洲人时期直至1850年，收集到的大部分树胶只是从地面上捡拾而来，但此后，大多数树胶是通过挖掘获取的。"
+        },
+        {
+          "index": 18,
+          "sentence": "The original inhabitants of New Zealand, the Maori, had experimented with kauri gum well before Europeans arrived at the beginning of the nineteenth century.",
+          "translation": "新西兰的原住民毛利人在19世纪初欧洲人到来之前就已经尝试使用考里树胶。"
+        },
+        {
+          "index": 19,
+          "sentence": "They called it kapia, and found it of considerable use.",
+          "translation": "他们称之为“kapia”，并发现它具有相当大的用途。"
+        },
+        {
+          "index": 20,
+          "sentence": "Fresh gum from trees was prized for its chewing quality, as was buried gum when softened in water and mixed with the juice of a local plant.",
+          "translation": "从树上采集的新鲜树胶因其咀嚼性而受到珍视，埋藏的树胶在水中软化并与当地一种植物的汁液混合后也同样如此。"
+        },
+        {
+          "index": 21,
+          "sentence": "A piece of gum was often passed around from mouth to mouth when people gathered together until it was all gone, or when they tired of chewing, it was laid aside for future use.",
+          "translation": "当人们聚集在一起时，一块树胶常常被传来传去，直到完全嚼完，或者当人们嚼腻了，就把它放在一边以备日后使用。"
+        },
+        {
+          "index": 22,
+          "sentence": "Kauri gum burns readily and was used by Maori people to light fires.",
+          "translation": "考里树胶极易燃烧，毛利人曾用它来生火。"
+        },
+        {
+          "index": 23,
+          "sentence": "Sometimes it was bound in grass, ignited and used as a torch by night fishermen to attract fish.",
+          "translation": "有时，人们将树胶裹在草中点燃，作为火把供夜间渔民用来吸引鱼类。"
+        },
+        {
+          "index": 24,
+          "sentence": "The first kauri gum to be exported from New Zealand was part of a cargo taken back to Australia and England by two early expeditions in 1814 and 1815.",
+          "translation": "新西兰最早出口的贝壳杉胶是1814年和1815年两次早期探险队带回澳大利亚和英格兰的部分货物。"
+        },
+        {
+          "index": 25,
+          "sentence": "By the 1860s, kauri gum's reputation was well established in the overseas markets and European immigrants were joining the Maoris in collecting gum on the hills of northern New Zealand.",
+          "translation": "到19世纪60年代，贝壳杉胶在海外市场声誉卓著，欧洲移民开始加入毛利人行列，在新西兰北部丘陵地带采集这种胶。"
+        },
+        {
+          "index": 26,
+          "sentence": "As the surface gum became more scarce, spades were used to dig up the buried 'treasure;",
+          "translation": "随着地表胶日益稀少，人们开始用铲子挖掘埋藏在地下的‘宝藏’；"
+        },
+        {
+          "index": 27,
+          "sentence": "The increasing number of diggers resulted in rapid growth of the kauri gum exports from 1,000 tons in 1860 to a maximum of over 10,000 tons in 1900.",
+          "translation": "挖掘者数量的不断增加导致贝壳杉胶出口量从1860年的1000吨迅速增长至1900年超过10000吨的最高纪录。"
+        },
+        {
+          "index": 28,
+          "sentence": "The first kauri gum to be exported from New Zealand was part of a cargo taken back to Australia and England by two early expeditions in 1814 and 1815.",
+          "translation": "第一批从新西兰出口的考里树胶是1814年和1815年两次早期探险队运往澳大利亚和英格兰的货物的一部分。"
+        },
+        {
+          "index": 29,
+          "sentence": "By the 1860s, kauri gum's reputation was well established in the overseas markets and European immigrants were joining the Maoris in collecting gum on the hills of northern New Zealand.",
+          "translation": "到了19世纪60年代，考里树胶在海外市场声名鹊起，欧洲移民也开始加入毛利人的行列，在新西兰北部的山丘上收集树胶。"
+        },
+        {
+          "index": 30,
+          "sentence": "As the surface gum became more scarce, spades were used to dig up the buried 'treasure;",
+          "translation": "随着地表树胶日益稀缺，人们开始使用铲子挖掘埋藏在地下的‘宝藏’；"
+        },
+        {
+          "index": 31,
+          "sentence": "The increasing number of diggers resulted in rapid growth of the kauri gum exports from 1,000 tons in 1860 to a maximum of over 10,000 tons in 1900.",
+          "translation": "挖掘者数量的增加导致考里树胶出口量迅速增长，从1860年的1000吨上升到1900年超过1万吨的最高点。"
+        },
+        {
+          "index": 32,
+          "sentence": "For fifty years from about 1870 to 1920, the kauri gum industry was a major source of income for settlers in northern New Zealand.",
+          "translation": "大约从1870年到1920年的五十年间，贝壳杉胶产业是新西兰北部定居者的主要收入来源。"
+        },
+        {
+          "index": 33,
+          "sentence": "As these would-be farmers struggled to break in the land, many turned to gum-digging to earn enough money to support their families and pay for improvements to their farms until better times arrived.",
+          "translation": "当这些准农民们艰难地开垦土地时，许多人转而从事挖胶工作，以赚取足够的钱养家糊口，并为改善农场买单，直到更好的时期到来。"
+        },
+        {
+          "index": 34,
+          "sentence": "By the 1890s，there were 20,000 people engaged in gum-digging.",
+          "translation": "到19世纪90年代，已有两万人从事挖胶工作。"
+        },
+        {
+          "index": 35,
+          "sentence": "Although many of these, such as farmers, women and children, were only part-time diggers, nearly 7,000 were full-timers.",
+          "translation": "尽管其中许多人，比如农民、妇女和儿童，只是兼职挖胶者，但近7000人是全职的。"
+        },
+        {
+          "index": 36,
+          "sentence": "During times of economic difficulty, gum-digging was the only job available where the unemployed from many walks of life could earn a living, if they were prepared to work.",
+          "translation": "在经济困难时期，挖胶是唯一能提供的工作，来自各行各业的失业者如果愿意工作，就可以靠此谋生。"
+        },
+        {
+          "index": 38,
+          "sentence": "The first major commercial use of kauri gum was in the manufacture of high-grade furniture varnish, a kind of clear paint used to treat wood.",
+          "translation": "贝壳杉胶的第一个主要商业用途是制造高级家具清漆，这是一种用于处理木材的透明涂料。"
+        },
+        {
+          "index": 39,
+          "sentence": "The best and purest gum that was exported prior to 1910 was used in this way.",
+          "translation": "1910年之前出口的最佳、最纯净的胶正是以这种方式使用的。"
+        },
+        {
+          "index": 40,
+          "sentence": "Kauri gum was used in 70% of the oil varnishes being manufactured in England in the 1890s.",
+          "translation": "在19世纪90年代，英国制造的油性清漆中有70%使用了贝壳杉胶。"
+        },
+        {
+          "index": 41,
+          "sentence": "It was favoured ahead of other gums because it was easier to process at lower temperatures.",
+          "translation": "它之所以比其他胶更受青睐，是因为它更容易在较低温度下加工。"
+        },
+        {
+          "index": 42,
+          "sentence": "The cooler the process could be kept the better, as it meant a paler varnish could be produced.",
+          "translation": "加工过程保持得越冷越好，因为这意味着可以生产出颜色更浅的清漆。"
+        },
+        {
+          "index": 43,
+          "sentence": "About 1910, kauri gum was found to be a very suitable ingredient in the production of some kinds of floor coverings such as linoleum.",
+          "translation": "大约在1910年，贝壳杉树胶被发现非常适合用于生产某些类型的地板覆盖物，例如油毡。"
+        },
+        {
+          "index": 44,
+          "sentence": "In this way, a use was found for the vast quantities of poorer quality and less pure gum, that had up till then been discarded as waste.",
+          "translation": "通过这种方式，大量质量较差且纯度较低的树胶（此前一直被当作废物丢弃）得到了利用。"
+        },
+        {
+          "index": 45,
+          "sentence": "Kauri gum's importance in the manufacture of varnish and linoleum was displaced by synthetic alternatives in the 1930s.",
+          "translation": "在20世纪30年代，贝壳杉树胶在清漆和油毡制造中的重要性被合成替代品所取代。"
+        },
+        {
+          "index": 47,
+          "sentence": "Fossil kauri gum is rather soft and can be carved easily with a knife or polished with fine sandpaper.",
+          "translation": "化石贝壳杉树脂相当柔软，可以用小刀轻松雕刻或用细砂纸抛光。"
+        },
+        {
+          "index": 48,
+          "sentence": "In the time of Queen Victoria of England (1837-1901)，some pieces were made into fashionable amber beads that women wore around their necks.",
+          "translation": "在英国维多利亚女王时代（1837-1901年），有些树脂块被制成时尚的琥珀珠子，女性将其戴在脖子上。"
+        },
+        {
+          "index": 49,
+          "sentence": "The occasional lump that contained preserved insects was prized for use in necklaces and bracelets.",
+          "translation": "偶尔发现的含有保存昆虫的树脂块在制作项链和手镯时备受珍视。"
+        },
+        {
+          "index": 50,
+          "sentence": "Many of the gum-diggers enjoyed the occasional spell of carving and produced a wide variety of small sculptured pieces.",
+          "translation": "许多采胶工人偶尔享受雕刻时光，制作出各种小型雕刻作品。"
+        },
+        {
+          "index": 51,
+          "sentence": "Many of these carvings can be seen today in local museums.",
+          "translation": "如今，许多这些雕刻品可以在当地博物馆中看到。"
+        },
+        {
+          "index": 52,
+          "sentence": "Over the years, kauri gum has also been used in a number of minor products, such as an ingredient in marine glue and candles.",
+          "translation": "多年来，贝壳杉胶还被用于多种次要产品，例如作为船用胶水和蜡烛的成分。"
+        },
+        {
+          "index": 53,
+          "sentence": "In the last decades it has had a very limited use in the manufacture of extremely high-grade varnish for violins, but the gum of the magnificent kauri tree remains an important part of New Zealand's history.",
+          "translation": "在最近几十年里，它仅在制造小提琴用极高品质清漆方面有极其有限的用途，但宏伟的贝壳杉树的胶仍然是新西兰历史的重要组成部分。"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}

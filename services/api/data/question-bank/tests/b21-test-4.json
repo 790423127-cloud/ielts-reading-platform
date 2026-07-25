@@ -1,0 +1,2580 @@
+{
+  "id": "b21-test-4",
+  "book": "剑雅21",
+  "book_number": 21,
+  "name": "Test 4",
+  "title": "剑雅21 Test 4",
+  "parts": [
+    {
+      "id": "211041",
+      "number": 1,
+      "title": "Section 1",
+      "article_title": "The Scottish Curling School Why not try the Olympic sport of curling?",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Curling is a challenging sport based around a very simple idea. Slide a stone down a sheet of ice and have it stop as near as possible to the centre of a set of rings, called the house. The opposing team will do everything tactically to stop you from achieving this goal, so the game contains elements of great skill, strategy, finesse and effort. The impression given in the media that curling is a relaxed game is far from the truth.",
+          "translation": "冰壶是一项基于非常简单的理念但具有挑战性的运动。\n将冰壶石滑过冰面，使其尽可能停在称为“大本营”（house）的一组圆环的中心附近。\n对方队伍会采取一切战术手段阻止你实现这一目标，因此比赛包含了高超技巧、策略、巧妙手法和努力等元素。\n媒体给人的印象是冰壶是一项轻松的比赛，这与事实相去甚远。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Curling is one of the few sports which is accessible to all. Many start curling as children and continue to play well into retirement. Britain even has its own wheelchair squad of curlers. Curling is also very social: you could easily find yourself playing a match against a team of international champions and sitting down to a coffee together afterwards.",
+          "translation": "冰壶是少数几项适合所有人的运动之一。\n许多人从小就开始玩冰壶，并一直玩到退休以后。\n英国甚至有自己的轮椅冰壶队。\n冰壶也非常具有社交性：你很可能发现自己正在与国际冠军队比赛，赛后一起坐下来喝杯咖啡。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "If you are interested in taking up the sport but have never dared to try, why not come on our three-day initial familiarisation course?",
+          "translation": "如果你对参与这项运动感兴趣但从未敢尝试，为什么不参加我们为期三天的初始熟悉课程呢？"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Day 1\n is designed to get you onto the ice safely and to get you delivering a curling stone, with a basic understanding of the rules.",
+          "translation": "第一天\n旨在让你安全地上冰，并让你投掷冰壶石，同时基本了解规则。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Day 2\n focuses on working with the coaches to better your skills and includes an opportunity to have a short game.",
+          "translation": "第二天\n重点是与教练合作提高你的技能，并包括一个进行简短比赛的机会。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Day 3\n allows you to put your knowledge into practice in a full game.",
+          "translation": "第三天\n让你在一场完整的比赛中将所学知识付诸实践。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "At the end of the course, details of clubs looking for new members will be provided, along with information on joining our Beginner Curling Club, where you can continue to work on your skills before joining a mainstream curling club.",
+          "translation": "课程结束时，将提供寻找新成员的俱乐部的详细信息，以及加入我们初级冰壶俱乐部（Beginner Curling Club）的信息，在那里你可以在加入主流冰壶俱乐部之前继续提高技能。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Clothing\n\nYou need warmth and ease of movement, so we recommend:\n· layers of clothing, which you can remove as you warm up.\n· loose-fitting trousers e.g. jogging bottoms rather than jeans.\n· fabrics which won’t drop fibres onto the ice surface.\n· gloves, if your hands get cold, and warm socks.",
+          "translation": "服装\n\n你需要保暖且活动自如，因此我们建议：\n· 多层衣物，这样在热身时可以脱掉。\n· 宽松的裤子，例如运动裤而不是牛仔裤。\n· 不会在冰面上掉落纤维的面料。\n· 如果手冷，戴手套，以及穿保暖的袜子。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Footwear\n\n· Choose warm, soft-rubber-soled shoes.\n· If you plan to wear trainers instead, check that the soles are rubber; synthetic ones are very slippery on ice.\n· Check that the soles of your shoes are totally clean. Even tiny pieces of dirt can spoil the ice surface.",
+          "translation": "鞋类\n\n· 选择保暖、软橡胶底的鞋子。\n· 如果你打算穿运动鞋，请检查鞋底是否为橡胶；合成材料的鞋底在冰上非常滑。\n· 检查鞋底是否完全干净。\n即使是微小的污垢颗粒也会损坏冰面。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Outdoor places to visit",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "户外游览地点"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "A Balloch Castle Country Park",
+          "translation": "A 巴洛赫城堡郊野公园（Balloch Castle Country Park）"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "The park commands impressive views over a large lake and includes walled gardens, nature trails and guided walks. The ruined castle, built by John Buchanan in the nineteenth century, was once the main visitor centre. Since the early 1990s, the park has hosted several major pop gigs, which have attracted thousands of people.",
+          "translation": "该公园俯瞰一个大湖，景色壮丽，包括围墙花园、自然步道和导览步行。\n这座由约翰·布坎南（John Buchanan）在19世纪建造的城堡废墟，曾是主要的游客中心。\n自20世纪90年代初以来，该公园举办过几场大型流行音乐会，吸引了成千上万的人。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "B Thurrock Thameside Nature Park",
+          "translation": "B 瑟罗克泰晤士河畔自然公园（Thurrock Thameside Nature Park）"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "In the centre of the park is an exciting new visitor centre built on the site of a former waste disposal site, with superb views over the River Thames. There are footpaths and cycleways in 120 acres of nature park, which will soon expand to 845 acres. Visitors can experience great birdwatching — and boat watching too.",
+          "translation": "公园中心是一个令人兴奋的新游客中心，建在一个前废物处理场的旧址上，可俯瞰泰晤士河的壮丽景色。\n在120英亩的自然公园内有步行道和自行车道，很快将扩展到845英亩。\n游客可以体验绝佳的观鸟活动——也可以观船。"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "C Turner’s Wood",
+          "translation": "C 特纳森林（Turner’s Wood）"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "The wood, originally part of the estate of Edward Turner, consists mainly of oak trees, and there is a beautiful display of wildflowers in the spring. Because the wood is quite small, it is not always open to visitors. We do make it available for pupils to visit on nature observation trips, and are keen for people living nearby to get involved in looking after the reserve.",
+          "translation": "这片森林最初是爱德华·特纳（Edward Turner）庄园的一部分，主要由橡树组成，春天有美丽的野花展示。\n由于森林面积很小，并不总是对游客开放。\n我们确实会安排学生前来进行自然观察旅行，并且非常希望住在附近的人们能参与保护区的维护工作。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "D Moseley Reserve",
+          "translation": "D 莫斯利保护区"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "The reserve supports a variety of plants, animals and insects. Especially fascinating are the twisted old trees, the childhood inspiration of the author JRR Tolkien, who often passed through as he lived nearby. The site also has great historical interest, since remains of an old mill and some nineteenth-century greenhouses have been found here.",
+          "translation": "该保护区滋养着多种植物、动物和昆虫。\n尤其迷人的是那些扭曲的老树，它们是作家JRR托尔金童年灵感的来源，他住在附近时常经过这里。\n该地点也具有重大的历史意义，因为在这里发现了一座旧磨坊的遗迹和一些19世纪的温室。"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "E Druridge Park",
+          "translation": "E 德鲁里奇公园"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "The park contains a beautiful bay and sand dunes, plus a large freshwater lake surrounded by woods and meadows. This is available for launching windsurfers (by permit). You can also take a pleasant walk around the lake, or enjoy a picnic overlooking it.",
+          "translation": "公园内有一个美丽的海湾和沙丘，还有一个被树林和草地环绕的大型淡水湖。\n这里可供（凭许可证）进行帆板运动。\n您还可以绕湖惬意地散步，或是在湖边野餐，俯瞰湖景。"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "F Abbotsbury",
+          "translation": "F 阿伯茨伯里"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Visitors to Abbotsbury can enjoy the unusual experience of walking through the heart of a colony of nesting swans. Close to the beautiful Dorset coast, this unique natural wildlife habitat is also popular with film makers, and has been used as a location for a number of recent blockbusters.",
+          "translation": "来到阿伯茨伯里的游客可以体验一种不寻常的经历：步行穿过一个筑巢天鹅群的中心地带。\n这个独特的自然野生动物栖息地靠近美丽的多塞特海岸，也深受电影制作人的欢迎，并已被用作多部近期大片的拍摄地。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "395",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 1-7\nDo the following statements agree with the information given in the text?\nIn boxes 1-7 on your answer sheet, write\nTRUE if the statement agrees with the information\nFALSE if the statement contradicts the information\nNOT GIVEN if there is no information on this",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197676",
+              "number": 1,
+              "prompt": "Curling is a sport that is played at a slow, gentle pace.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干称冰壶是一项节奏缓慢、温和的运动，而原文明确指出‘媒体给人的印象是冰壶是一项轻松的比赛，但这远非事实’，说明题干描述与原文信息相矛盾。因此答案为 FALSE。",
+              "reason": "题干与原文相反",
+              "location_analysis": "媒体印象是relaxed game，但原文说far from truth，所以题干错误。",
+              "paraphrasing": "slow gentle pace -> relaxed game",
+              "keywords": "slow, gentle pace, relaxed game",
+              "evidence": [
+                "The impression given in the media that curling is a relaxed game is far from the truth."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文信息矛盾，原文指出冰壶运动并非缓慢温和。",
+                "NOT GIVEN": "原文中明确提到了关于冰壶运动节奏的信息，因此不是未提及。"
+              }
+            },
+            {
+              "id": "1197677",
+              "number": 2,
+              "prompt": "People can take part in curling at any age.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干中的‘any age’对应原文中‘Many start curling as children and continue to play well into retirement’，表明人们从孩童时期一直到退休后都可以参与这项运动，因此题干信息与原文一致，答案为 TRUE。",
+              "reason": "直接支持",
+              "location_analysis": "原文说从儿童到退休都能参加，对应任何年龄。",
+              "paraphrasing": "any age -> children ... well into retirement",
+              "keywords": "any age, children, retirement",
+              "evidence": [
+                "Many start curling as children and continue to play well into retirement."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "与原文中明确提到的“任何年龄均可参加”相矛盾。",
+                "NOT GIVEN": "原文已明确给出相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "1197678",
+              "number": 3,
+              "prompt": "A curling team can include professional and amateur players.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NG",
+              "accepted_answers": [
+                "NG",
+                "NOT GIVEN"
+              ],
+              "analysis": "题干提到冰壶队伍可以包括职业和业余选手，但原文仅说明比赛具有社交性，例如可能与国际冠军同场竞技，赛后一起喝咖啡，并未提及队伍是否由职业与业余选手混合组成，因此文中无相关信息，答案为 NOT GIVEN。",
+              "reason": "全文无相关信息。",
+              "location_analysis": "原文未提及队伍构成，故NOT GIVEN。",
+              "paraphrasing": "team includes professional and amateur -> 未提及",
+              "keywords": "professional, amateur",
+              "evidence": [],
+              "confidence": 0.1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及冰壶队可以同时包括职业和业余选手，因此无法判断为正确。",
+                "FALSE": "原文没有证据表明冰壶队不能同时包括职业和业余选手，因此不能判定为错误。"
+              }
+            },
+            {
+              "id": "1197679",
+              "number": 4,
+              "prompt": "Some basic experience of curling is required to do the three-day course.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干认为参加三天课程需要具备一些基础经验，但原文明确鼓励‘从未敢尝试的人’来参加该入门课程，说明不需要任何先前经验，因此题干与原文矛盾，答案为 FALSE。",
+              "reason": "题干与原文矛盾",
+              "location_analysis": "原文说欢迎从未尝试的人，说明不需要经验。",
+              "paraphrasing": "basic experience required -> never dared to try",
+              "keywords": "basic experience, required, three-day course",
+              "evidence": [
+                "If you are interested in taking up the sport but have never dared to try, why not come on our three-day initial familiarisation course?"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文明确表示不需要任何冰壶经验，与题干要求经验相矛盾。",
+                "NOT GIVEN": "原文已明确提及不需要经验，因此该信息不是未提及，而是与题干矛盾。"
+              }
+            },
+            {
+              "id": "1197680",
+              "number": 5,
+              "prompt": "It is best to wear several tops at the start of a curling session.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干建议在冰壶活动开始时穿多件上衣，这与原文中‘建议穿多层衣物，随着身体变暖可脱掉’的建议相符，‘several tops’即对应‘layers of clothing’，因此答案为 TRUE。",
+              "reason": "直接对应",
+              "location_analysis": "原文建议穿多层衣服，可脱卸，即开始穿几件上衣。",
+              "paraphrasing": "several tops -> layers of clothing",
+              "keywords": "several tops, layers, start",
+              "evidence": [
+                "layers of clothing, which you can remove as you warm up."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文可能明确说明开始时不必穿几件上衣，因此与题干信息矛盾。",
+                "NOT GIVEN": "原文未提及开始时穿几件上衣的建议，因此无法判断题干是否正确。"
+              }
+            },
+            {
+              "id": "1197681",
+              "number": 6,
+              "prompt": "It is important to avoid clothes made of certain kinds of material.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "T",
+              "accepted_answers": [
+                "T",
+                "TRUE"
+              ],
+              "analysis": "题干指出应避免某些材质的衣物，原文虽未直接使用‘avoid’一词，但明确建议穿着‘不会掉纤维到冰面上的面料’，暗示某些材料（如易掉纤维的）不适合，因此题干信息在原文中有依据，答案为 TRUE。",
+              "reason": "隐含意义",
+              "location_analysis": "原文建议不脱纤维的面料，隐含需避免某些材料。",
+              "paraphrasing": "avoid certain material -> fabrics which won’t drop fibres",
+              "keywords": "avoid clothes, certain material, fibres",
+              "evidence": [
+                "fabrics which won’t drop fibres onto the ice surface."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文中‘避免某些材质衣服很重要’的描述相矛盾。",
+                "NOT GIVEN": "原文中没有提及关于避免某些材质衣服的重要性的信息。"
+              }
+            },
+            {
+              "id": "1197682",
+              "number": 7,
+              "prompt": "Suitable footwear includes any type of trainers.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "F",
+              "accepted_answers": [
+                "F"
+              ],
+              "analysis": "题干声称任何类型的运动鞋都适合，但原文强调若穿运动鞋，必须确认鞋底是橡胶材质，因为合成底在冰上非常滑，说明并非所有运动鞋都合适，因此题干说法错误，答案为 FALSE。",
+              "reason": "题干过于绝对，与原文矛盾",
+              "location_analysis": "原文说只能穿橡胶底运动鞋，不是所有都合适。",
+              "paraphrasing": "any type -> check soles are rubber; synthetic slippery",
+              "keywords": "footwear, any type of trainers",
+              "evidence": [
+                "If you plan to wear trainers instead, check that the soles are rubber; synthetic ones are very slippery on ice."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，因为原文可能否定了所有运动鞋都适合的说法。",
+                "NOT GIVEN": "原文明确提及相关细节，可以判断该陈述为错误，并非未提及。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "396",
+          "type": 2,
+          "title": "Outdoor places to visit",
+          "instructions": "Questions 8-14\nLook at the six advertisements for outdoor places to visit, A-F.\nFor which place are the following statements true?\nWrite the correct letter, A-F, in boxes 8-14 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "Outdoor places to visit",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. Balloch Castle Country Park"
+            },
+            {
+              "value": "B",
+              "label": "B. Thurrock Thameside Nature Park"
+            },
+            {
+              "value": "C",
+              "label": "C. Turner’s Wood"
+            },
+            {
+              "value": "D",
+              "label": "D. Moseley Reserve"
+            },
+            {
+              "value": "E",
+              "label": "E. Druridge Park"
+            },
+            {
+              "value": "F",
+              "label": "F. Abbotsbury"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197683",
+              "number": 8,
+              "prompt": "The organisers of this place welcome the help of volunteers.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Balloch Castle Country Park"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Thurrock Thameside Nature Park"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Turner’s Wood"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Moseley Reserve"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Druridge Park"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Abbotsbury"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问哪个地点欢迎志愿者协助，C段提到‘我们希望附近居民参与保护区的维护工作’，其中‘get involved in looking after the reserve’即暗示欢迎志愿者帮助，因此答案为 C。",
+              "reason": "对应C段的描述",
+              "location_analysis": "原文表明希望附近居民参与保护，即欢迎志愿者。",
+              "paraphrasing": "welcome volunteers -> keen for people nearby to get involved in looking after",
+              "keywords": "volunteers, help, looking after",
+              "evidence": [
+                "We do make it available for pupils to visit on nature observation trips, and are keen for people living nearby to get involved in looking after the reserve."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197684",
+              "number": 9,
+              "prompt": "A writer used to visit this place.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Balloch Castle Country Park"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Thurrock Thameside Nature Park"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Turner’s Wood"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Moseley Reserve"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Druridge Park"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Abbotsbury"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问哪处曾有作家造访，D段提到‘扭曲的老树是作家J.R.R. 托尔金童年时期的灵感来源，他因住在附近而经常经过此地’，‘author JRR Tolkien’和‘often passed through’直接对应题干中的‘writer’和‘used to visit’，因此答案为 D。",
+              "reason": "对应D段",
+              "location_analysis": "JRR Tolkien是作家，常经过此地。",
+              "paraphrasing": "writer -> author JRR Tolkien; used to visit -> often passed through",
+              "keywords": "writer, used to visit",
+              "evidence": [
+                "Especially fascinating are the twisted old trees, the childhood inspiration of the author JRR Tolkien, who often passed through as he lived nearby."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197685",
+              "number": 10,
+              "prompt": "This place has not reached its intended size yet.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Balloch Castle Country Park"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Thurrock Thameside Nature Park"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Turner’s Wood"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Moseley Reserve"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Druridge Park"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Abbotsbury"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干指出某地尚未达到规划面积，B段提到公园目前有120英亩，‘将很快扩展至845英亩’，说明当前面积小于最终目标，因此该地确实未达预期规模，答案为 B。",
+              "reason": "对应B段",
+              "location_analysis": "原文说将扩展到845英亩，说明现在还未达到。",
+              "paraphrasing": "not reached intended size -> will soon expand to 845 acres",
+              "keywords": "not reached intended size, expand",
+              "evidence": [
+                "There are footpaths and cycleways in 120 acres of nature park, which will soon expand to 845 acres."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197686",
+              "number": 11,
+              "prompt": "It is sometimes possible to take part in water sports here.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Balloch Castle Country Park"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Thurrock Thameside Nature Park"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Turner’s Wood"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Moseley Reserve"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Druridge Park"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Abbotsbury"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干询问何处可进行水上运动，E段明确说明‘可凭许可在此 launching windsurfers（风帆冲浪板）’，风帆冲浪属于水上运动，因此答案为 E。",
+              "reason": "对应E段",
+              "location_analysis": "原文说可进行风帆冲浪（水上运动）。",
+              "paraphrasing": "water sports -> launching windsurfers",
+              "keywords": "water sports, windsurfers",
+              "evidence": [
+                "This is available for launching windsurfers (by permit)."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197687",
+              "number": 12,
+              "prompt": "This area was once used to get rid of large quantities of rubbish.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Balloch Castle Country Park"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Thurrock Thameside Nature Park"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Turner’s Wood"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Moseley Reserve"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Druridge Park"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Abbotsbury"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干提到某地曾用于处理大量垃圾，B段指出游客中心建在‘former waste disposal site（ former 垃圾处理场）’上，‘waste disposal site’即对应‘get rid of large quantities of rubbish’，因此答案为 B。",
+              "reason": "对应B段",
+              "location_analysis": "原文说建在以前垃圾处理场上。",
+              "paraphrasing": "get rid of large quantities of rubbish -> former waste disposal site",
+              "keywords": "rubbish, waste disposal",
+              "evidence": [
+                "In the centre of the park is an exciting new visitor centre built on the site of a former waste disposal site"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197688",
+              "number": 13,
+              "prompt": "This place can be used for educational purposes.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Balloch Castle Country Park"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Thurrock Thameside Nature Park"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Turner’s Wood"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Moseley Reserve"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Druridge Park"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Abbotsbury"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干询问哪处可用于教育目的，C段提到该林地‘向学生开放用于自然观察之旅’，‘nature observation trips’属于教育活动，因此答案为 C。",
+              "reason": "对应C段",
+              "location_analysis": "原文说供学生进行自然观察旅行，教育用途。",
+              "paraphrasing": "educational purposes -> pupils to visit on nature observation trips",
+              "keywords": "educational purposes, pupils, nature observation",
+              "evidence": [
+                "We do make it available for pupils to visit on nature observation trips"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197689",
+              "number": 14,
+              "prompt": "In the past, an old building here was used to provide information to people.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. Balloch Castle Country Park"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Thurrock Thameside Nature Park"
+                },
+                {
+                  "value": "C",
+                  "label": "C. Turner’s Wood"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Moseley Reserve"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Druridge Park"
+                },
+                {
+                  "value": "F",
+                  "label": "F. Abbotsbury"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干指出过去某处的老建筑曾用于向公众提供信息，A段提到‘那座19世纪建造的城堡废墟曾是主要的游客中心’，‘visitor centre’即承担提供信息的功能，因此答案为 A。",
+              "reason": "对应A段",
+              "location_analysis": "原文说城堡曾是主要游客中心，提供信息。",
+              "paraphrasing": "old building -> ruined castle; provide information -> main visitor centre",
+              "keywords": "old building, provide information, visitor centre",
+              "evidence": [
+                "The ruined castle, built by John Buchanan in the nineteenth century, was once the main visitor centre."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "Outdoor places to visit"
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "The Scottish Curling School Why not try the Olympic sport of curling?",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Curling is a challenging sport based around a very simple idea.",
+          "translation": "冰壶是一项基于非常简单的理念但具有挑战性的运动。"
+        },
+        {
+          "index": 2,
+          "sentence": "Slide a stone down a sheet of ice and have it stop as near as possible to the centre of a set of rings, called the house.",
+          "translation": "将冰壶石滑过冰面，使其尽可能停在称为“大本营”（house）的一组圆环的中心附近。"
+        },
+        {
+          "index": 3,
+          "sentence": "The opposing team will do everything tactically to stop you from achieving this goal, so the game contains elements of great skill, strategy, finesse and effort.",
+          "translation": "对方队伍会采取一切战术手段阻止你实现这一目标，因此比赛包含了高超技巧、策略、巧妙手法和努力等元素。"
+        },
+        {
+          "index": 4,
+          "sentence": "The impression given in the media that curling is a relaxed game is far from the truth.",
+          "translation": "媒体给人的印象是冰壶是一项轻松的比赛，这与事实相去甚远。"
+        },
+        {
+          "index": 5,
+          "sentence": "Curling is one of the few sports which is accessible to all.",
+          "translation": "冰壶是少数几项适合所有人的运动之一。"
+        },
+        {
+          "index": 6,
+          "sentence": "Many start curling as children and continue to play well into retirement.",
+          "translation": "许多人从小就开始玩冰壶，并一直玩到退休以后。"
+        },
+        {
+          "index": 7,
+          "sentence": "Britain even has its own wheelchair squad of curlers.",
+          "translation": "英国甚至有自己的轮椅冰壶队。"
+        },
+        {
+          "index": 8,
+          "sentence": "Curling is also very social: you could easily find yourself playing a match against a team of international champions and sitting down to a coffee together afterwards.",
+          "translation": "冰壶也非常具有社交性：你很可能发现自己正在与国际冠军队比赛，赛后一起坐下来喝杯咖啡。"
+        },
+        {
+          "index": 9,
+          "sentence": "If you are interested in taking up the sport but have never dared to try, why not come on our three-day initial familiarisation course?",
+          "translation": "如果你对参与这项运动感兴趣但从未敢尝试，为什么不参加我们为期三天的初始熟悉课程呢？"
+        },
+        {
+          "index": 10,
+          "sentence": "Day 1\n is designed to get you onto the ice safely and to get you delivering a curling stone, with a basic understanding of the rules.",
+          "translation": "第一天\n旨在让你安全地上冰，并让你投掷冰壶石，同时基本了解规则。"
+        },
+        {
+          "index": 11,
+          "sentence": "Day 2\n focuses on working with the coaches to better your skills and includes an opportunity to have a short game.",
+          "translation": "第二天\n重点是与教练合作提高你的技能，并包括一个进行简短比赛的机会。"
+        },
+        {
+          "index": 12,
+          "sentence": "Day 3\n allows you to put your knowledge into practice in a full game.",
+          "translation": "第三天\n让你在一场完整的比赛中将所学知识付诸实践。"
+        },
+        {
+          "index": 13,
+          "sentence": "At the end of the course, details of clubs looking for new members will be provided, along with information on joining our Beginner Curling Club, where you can continue to work on your skills before joining a mainstream curling club.",
+          "translation": "课程结束时，将提供寻找新成员的俱乐部的详细信息，以及加入我们初级冰壶俱乐部（Beginner Curling Club）的信息，在那里你可以在加入主流冰壶俱乐部之前继续提高技能。"
+        },
+        {
+          "index": 14,
+          "sentence": "Clothing\n\nYou need warmth and ease of movement, so we recommend:\n· layers of clothing, which you can remove as you warm up.\n· loose-fitting trousers e.g. jogging bottoms rather than jeans.\n· fabrics which won’t drop fibres onto the ice surface.\n· gloves, if your hands get cold, and warm socks.",
+          "translation": "服装\n\n你需要保暖且活动自如，因此我们建议：\n· 多层衣物，这样在热身时可以脱掉。\n· 宽松的裤子，例如运动裤而不是牛仔裤。\n· 不会在冰面上掉落纤维的面料。\n· 如果手冷，戴手套，以及穿保暖的袜子。"
+        },
+        {
+          "index": 15,
+          "sentence": "Footwear\n\n· Choose warm, soft-rubber-soled shoes.\n· If you plan to wear trainers instead, check that the soles are rubber; synthetic ones are very slippery on ice.\n· Check that the soles of your shoes are totally clean.",
+          "translation": "鞋类\n\n· 选择保暖、软橡胶底的鞋子。\n· 如果你打算穿运动鞋，请检查鞋底是否为橡胶；合成材料的鞋底在冰上非常滑。\n· 检查鞋底是否完全干净。"
+        },
+        {
+          "index": 16,
+          "sentence": "Even tiny pieces of dirt can spoil the ice surface.",
+          "translation": "即使是微小的污垢颗粒也会损坏冰面。"
+        },
+        {
+          "index": 17,
+          "sentence": "Outdoor places to visit",
+          "translation": "户外游览地点"
+        },
+        {
+          "index": 18,
+          "sentence": "A Balloch Castle Country Park",
+          "translation": "A 巴洛赫城堡郊野公园（Balloch Castle Country Park）"
+        },
+        {
+          "index": 19,
+          "sentence": "The park commands impressive views over a large lake and includes walled gardens, nature trails and guided walks.",
+          "translation": "该公园俯瞰一个大湖，景色壮丽，包括围墙花园、自然步道和导览步行。"
+        },
+        {
+          "index": 20,
+          "sentence": "The ruined castle, built by John Buchanan in the nineteenth century, was once the main visitor centre.",
+          "translation": "这座由约翰·布坎南（John Buchanan）在19世纪建造的城堡废墟，曾是主要的游客中心。"
+        },
+        {
+          "index": 21,
+          "sentence": "Since the early 1990s, the park has hosted several major pop gigs, which have attracted thousands of people.",
+          "translation": "自20世纪90年代初以来，该公园举办过几场大型流行音乐会，吸引了成千上万的人。"
+        },
+        {
+          "index": 22,
+          "sentence": "B Thurrock Thameside Nature Park",
+          "translation": "B 瑟罗克泰晤士河畔自然公园（Thurrock Thameside Nature Park）"
+        },
+        {
+          "index": 23,
+          "sentence": "In the centre of the park is an exciting new visitor centre built on the site of a former waste disposal site, with superb views over the River Thames.",
+          "translation": "公园中心是一个令人兴奋的新游客中心，建在一个前废物处理场的旧址上，可俯瞰泰晤士河的壮丽景色。"
+        },
+        {
+          "index": 24,
+          "sentence": "There are footpaths and cycleways in 120 acres of nature park, which will soon expand to 845 acres.",
+          "translation": "在120英亩的自然公园内有步行道和自行车道，很快将扩展到845英亩。"
+        },
+        {
+          "index": 25,
+          "sentence": "Visitors can experience great birdwatching — and boat watching too.",
+          "translation": "游客可以体验绝佳的观鸟活动——也可以观船。"
+        },
+        {
+          "index": 26,
+          "sentence": "C Turner’s Wood",
+          "translation": "C 特纳森林（Turner’s Wood）"
+        },
+        {
+          "index": 27,
+          "sentence": "The wood, originally part of the estate of Edward Turner, consists mainly of oak trees, and there is a beautiful display of wildflowers in the spring.",
+          "translation": "这片森林最初是爱德华·特纳（Edward Turner）庄园的一部分，主要由橡树组成，春天有美丽的野花展示。"
+        },
+        {
+          "index": 28,
+          "sentence": "Because the wood is quite small, it is not always open to visitors.",
+          "translation": "由于森林面积很小，并不总是对游客开放。"
+        },
+        {
+          "index": 29,
+          "sentence": "We do make it available for pupils to visit on nature observation trips, and are keen for people living nearby to get involved in looking after the reserve.",
+          "translation": "我们确实会安排学生前来进行自然观察旅行，并且非常希望住在附近的人们能参与保护区的维护工作。"
+        },
+        {
+          "index": 30,
+          "sentence": "D Moseley Reserve",
+          "translation": "D 莫斯利保护区"
+        },
+        {
+          "index": 31,
+          "sentence": "The reserve supports a variety of plants, animals and insects.",
+          "translation": "该保护区滋养着多种植物、动物和昆虫。"
+        },
+        {
+          "index": 32,
+          "sentence": "Especially fascinating are the twisted old trees, the childhood inspiration of the author JRR Tolkien, who often passed through as he lived nearby.",
+          "translation": "尤其迷人的是那些扭曲的老树，它们是作家JRR托尔金童年灵感的来源，他住在附近时常经过这里。"
+        },
+        {
+          "index": 33,
+          "sentence": "The site also has great historical interest, since remains of an old mill and some nineteenth-century greenhouses have been found here.",
+          "translation": "该地点也具有重大的历史意义，因为在这里发现了一座旧磨坊的遗迹和一些19世纪的温室。"
+        },
+        {
+          "index": 34,
+          "sentence": "E Druridge Park",
+          "translation": "E 德鲁里奇公园"
+        },
+        {
+          "index": 35,
+          "sentence": "The park contains a beautiful bay and sand dunes, plus a large freshwater lake surrounded by woods and meadows.",
+          "translation": "公园内有一个美丽的海湾和沙丘，还有一个被树林和草地环绕的大型淡水湖。"
+        },
+        {
+          "index": 36,
+          "sentence": "This is available for launching windsurfers (by permit).",
+          "translation": "这里可供（凭许可证）进行帆板运动。"
+        },
+        {
+          "index": 37,
+          "sentence": "You can also take a pleasant walk around the lake, or enjoy a picnic overlooking it.",
+          "translation": "您还可以绕湖惬意地散步，或是在湖边野餐，俯瞰湖景。"
+        },
+        {
+          "index": 38,
+          "sentence": "F Abbotsbury",
+          "translation": "F 阿伯茨伯里"
+        },
+        {
+          "index": 39,
+          "sentence": "Visitors to Abbotsbury can enjoy the unusual experience of walking through the heart of a colony of nesting swans.",
+          "translation": "来到阿伯茨伯里的游客可以体验一种不寻常的经历：步行穿过一个筑巢天鹅群的中心地带。"
+        },
+        {
+          "index": 40,
+          "sentence": "Close to the beautiful Dorset coast, this unique natural wildlife habitat is also popular with film makers, and has been used as a location for a number of recent blockbusters.",
+          "translation": "这个独特的自然野生动物栖息地靠近美丽的多塞特海岸，也深受电影制作人的欢迎，并已被用作多部近期大片的拍摄地。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    },
+    {
+      "id": "211042",
+      "number": 2,
+      "title": "Section 2",
+      "article_title": "Job: Sunset Orchard, Cromwell, New Zealand - Cherry Picking",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Picking\n\nThis is the harvesting of fruit to the required standard and is physical work. The employee must be able to lift, manoeuvre and reach the top of a 3-metre ladder. Most pickers are paid on a contract rate; e.g. for cherries the minimum bucket rate is $4-25. The average picker will pick 20 of these buckets in an 8-hour day but this depends very much upon the individual. However, you are required to pick at least 16 buckets.",
+          "translation": "采摘\n\n这是按照要求的标准收获水果，属于体力劳动。\n员工必须能够提起、移动并够到3米高的梯子顶端。\n大多数采摘工按合同费率支付工资；例如，樱桃的最低桶装费率为4-25美元。\n普通采摘工在8小时工作日内可采摘20桶，但这在很大程度上因人而异。\n但是，您必须至少采摘16桶。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Packing\n\nThis is the sorting of fruit into different grade standards. This part of the job involves standing at a sorting table and the employee must be fit and have good concentration. The employee must be able to work long hours, up to 7 days a week.",
+          "translation": "包装\n\n这是将水果按不同等级标准进行分类。\n这部分工作需要在分拣台前站立，员工必须身体健康且注意力高度集中。\n员工必须能够长时间工作，每周最多工作7天。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "Note that the cherry picking and packing starts in mid to late December and continues through until late January, weather permitting. This is our peak season and prior to and after this period we require fewer staff.",
+          "translation": "请注意，樱桃的采摘和包装工作从12月中下旬开始，一直持续到1月下旬，视天气情况而定。\n这是我们的旺季，在此之前和之后我们需要较少的员工。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Accommodation\n\nWe have accommodation available on site in bunkrooms, which were built two years ago. Because everybody is working hard and requires a decent sleep, no loud music or excessive noise is allowed after 10 o’clock. Our residential manager will allocate beds and look after everyone’s needs.",
+          "translation": "住宿\n\n我们在现场提供宿舍房间，这些房间是两年前建造的。\n因为每个人都在努力工作，需要良好的睡眠，所以晚上10点后禁止大声播放音乐或发出过度的噪音。\n我们的住宿经理将分配床位并照顾每个人的需求。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "The cost of the accommodation is $10-00 per night or $60-00 per week and it is filled on a first-come first-served basis. Payment must be made to the orchard supervisor on a weekly basis.",
+          "translation": "住宿费用为每晚10-00美元或每周60-00美元，按先到先得的原则安排。\n必须每周向果园主管支付费用。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Transport and pay\n\nPay is fortnightly and is paid by credit so you require a bank account. Also you need an IRD number and, if you are from overseas, a work permit.",
+          "translation": "交通与工资\n\n工资每两周发放一次，通过银行转账支付，因此您需要一个银行账户。\n此外，您还需要一个IRD税号，如果您来自海外，还需要工作许可证。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "If you wish to work for us, you must have some form of transport as we are 5km from Cromwell. Even if you live on site, you still need to get into town for groceries, etc. On-site parking for cars and vans is extremely limited so we suggest using a bicycle.",
+          "translation": "如果您想为我们工作，您必须有某种交通工具，因为我们距离克伦威尔5公里。\n即使您住在现场，您仍然需要进城购买杂货等。现场为汽车和货车提供的停车位极其有限，因此我们建议使用自行车。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "If you would like to apply for a position at Sunset Orchard, then please complete our online application form on the website www.sunsetorchard.co.nz",
+          "translation": "如果您想申请日落果园的职位，请在我们的网站www.sunsetorchard.co.nz上填写在线申请表。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "Service Division - Daylight Trading Company",
+          "question_cue": {
+            "start": 21,
+            "end": 27
+          },
+          "translation": "服务部 - 日光贸易公司"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "Staff Guidelines\n\nThese guidelines have been produced to enable common systems and practices to be followed across all teams within the Division. They will be formally reviewed every July and published in September, although earlier revision will occur if necessary. Any suggestions for additional items to be included should be sent to the Directorate Mailbox by the end of May each year.",
+          "translation": "员工指南\n\n制定本指南是为了使部门内所有团队能够遵循共同的制度和做法。\n指南将于每年7月进行正式审查，并于9月发布，但如有必要，会提前修订。\n任何关于增加新项目的建议应在每年5月底前发送至董事会邮箱。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Hours of Work\n\nThe office hours are 09:00 — 17:30 (Mon-Thurs) and 09:00 — 17:00 (Fri), although some staff will be working slightly different hours which have previously been approved. Where this is the case, the details should be recorded and retained on the individual’s personal file. As this is a service unit, it is important that offices are staffed throughout the day. Please observe this when taking lunch breaks. It also means that we may need to help another team in times of staff shortage so that our service to the organisation is maintained.",
+          "translation": "工作时间\n\n办公时间为周一至周四09:00至17:30，周五09:00至17:00，但有些员工的工作时间会略有不同，这些时间已事先获得批准。\n在这种情况下，详细信息应记录并保存在员工的个人档案中。\n由于这是一个服务部门，全天都有员工在办公室值班非常重要。\n请在午休时遵守这一点。\n这也意味着在人员短缺时，我们可能需要帮助其他团队，以维持我们对组织的服务。"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "There will be occasions when an urgent job arises which will require extra time to be worked. Wherever possible this should be approved in advance by your line manager but, if this is not possible, you must advise him/her as soon as possible after the event.",
+          "translation": "有时会出现紧急工作，需要加班完成。\n只要有可能，这应事先得到您的直线经理的批准，但如果不可能，您必须在事后尽快通知他/她。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Holidays\n\nHoliday requests should be submitted to and agreed by the line manager, where possible giving at least one week’s notice for one to four days of leave and three weeks’ notice for one week or more. If the period of notice is shorter, the request should be discussed as soon as possible with the line manager. Wherever possible, holiday requests will be approved but operational needs will be the overriding criterion, and there may be occasions when requests cannot be approved. Any requests for holiday exceeding fifteen working days must be approved by a member of the Leadership Team.",
+          "translation": "假期\n\n休假申请应提交给直线经理并征得其同意，如有可能，申请1至4天假期需至少提前一周通知，申请一周或更长时间假期需提前三周通知。\n如果通知期较短，应尽快与直线经理讨论该申请。\n只要有可能，休假申请都会得到批准，但运营需求将是首要标准，有时申请可能无法获得批准。\n任何超过15个工作日的休假申请必须由领导团队成员批准。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Holidays are important breaks in our working life and staff are expected and encouraged to take all their holiday within the leave year, but it is acknowledged that planned holidays can be affected by unexpected situations and the flexibility many staff demonstrate is appreciated. In accordance with organisational policy, staff are not allowed to carry more than ten days forward to the new holiday year for personal reasons, and any carry over is expected to be taken by the end of the calendar year.",
+          "translation": "假期是我们工作生活中的重要休息时间，我们期望并鼓励员工在休假年度内休完所有假期，但也承认计划好的假期可能会受到意外情况的影响，许多员工表现出的灵活性值得赞赏。\n根据组织政策，员工不得因个人原因将超过10天的假期结转到新的休假年度，任何结转的假期预计应在日历年底前休完。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "397",
+          "type": 8,
+          "title": "Job: Sunset Orchard",
+          "instructions": "Questions 15-20\nAnswer the questions below.\nChoose NO MORE THAN THREE WORDS AND/OR A NUMBER from the text for each answer.\nWrite your answers in boxes 15-20 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197690",
+              "number": 15,
+              "prompt": "What is the minimum daily amount of fruit a picker must pick? _____",
+              "options": [],
+              "answer": "16 buckets / at least 16 buckets",
+              "accepted_answers": [
+                "16 buckets / at least 16 buckets",
+                "16 buckets",
+                "at least 16 buckets"
+              ],
+              "analysis": "题干询问采摘工每天最少要采摘多少水果，对应原文中‘you are required to pick at least 16 buckets’。其中‘minimum daily amount’与‘at least 16 buckets’构成同义替换，明确指出最低采摘量为16桶，因此答案是‘16 buckets’或‘at least 16 buckets’。",
+              "reason": "直接对应原文要求。",
+              "location_analysis": "题干问最低日采摘量，原文直接说至少16桶。",
+              "paraphrasing": "minimum daily amount -> at least 16 buckets",
+              "keywords": "minimum, daily amount, pick",
+              "evidence": [
+                "However, you are required to pick at least 16 buckets."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197691",
+              "number": 16,
+              "prompt": "What mental quality does a packer need? _____",
+              "options": [],
+              "answer": "concentration / good concentration",
+              "accepted_answers": [
+                "concentration / good concentration",
+                "concentration",
+                "good concentration"
+              ],
+              "analysis": "题干问包装工所需的‘mental quality’（心理素质），原文在描述打包工作时提到‘the employee must be fit and have good concentration’。这里的‘good concentration’正是对专注力的要求，与题干中的‘mental quality’形成对应，因此答案为‘concentration’或‘good concentration’。",
+              "reason": "原文明确提到good concentration。",
+              "location_analysis": "包装工需要良好专注力。",
+              "paraphrasing": "mental quality -> good concentration",
+              "keywords": "mental quality, packer, need",
+              "evidence": [
+                "the employee must be fit and have good concentration."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197692",
+              "number": 17,
+              "prompt": "What form of accommodation is offered to cherry pickers? _____",
+              "options": [],
+              "answer": "bunkrooms / onsite bunkrooms / on site bunkrooms",
+              "accepted_answers": [
+                "bunkrooms / onsite bunkrooms / on site bunkrooms",
+                "bunkrooms",
+                "onsite bunkrooms",
+                "on site bunkrooms"
+              ],
+              "analysis": "题干询问提供给樱桃采摘者的住宿形式，原文明确说明‘We have accommodation available on site in bunkrooms’。其中‘form of accommodation’对应‘in bunkrooms’，且强调是‘on site’（现场），因此答案应为‘bunkrooms’、‘onsite bunkrooms’或‘on site bunkrooms’。",
+              "reason": "原文提到on site bunkrooms。",
+              "location_analysis": "住宿形式为bunkrooms。",
+              "paraphrasing": "form of accommodation -> on site in bunkrooms",
+              "keywords": "accommodation, offered, form",
+              "evidence": [
+                "We have accommodation available on site in bunkrooms"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197693",
+              "number": 18,
+              "prompt": "Who organises the accommodation for workers? _____",
+              "options": [],
+              "answer": "residential manager / a residential manager / the residential manager / our residential manager",
+              "accepted_answers": [
+                "residential manager / a residential manager / the residential manager / our residential manager",
+                "residential manager",
+                "a residential manager",
+                "the residential manager",
+                "our residential manager"
+              ],
+              "analysis": "题干问谁负责安排工人的住宿，原文指出‘Our residential manager will allocate beds and look after everyone’s needs’。‘allocate beds’即安排床位，与‘organises the accommodation’意思一致，因此答案是‘residential manager’及其带冠词的变体。",
+              "reason": "原文明确说明。",
+              "location_analysis": "住宿由residential manager分配。",
+              "paraphrasing": "who organises -> residential manager",
+              "keywords": "organises, accommodation, workers",
+              "evidence": [
+                "Our residential manager will allocate beds and look after everyone’s needs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197694",
+              "number": 19,
+              "prompt": "How often are workers’ bank accounts credited? _____",
+              "options": [],
+              "answer": "fortnightly",
+              "accepted_answers": [
+                "fortnightly"
+              ],
+              "analysis": "题干问工资多久支付一次到银行账户，原文提到‘Pay is fortnightly and is paid by credit so you require a bank account’。‘credited’对应‘paid by credit’，而‘how often’对应‘fortnightly’，因此答案为‘fortnightly’。",
+              "reason": "原文Pay is fortnightly。",
+              "location_analysis": "工资每两周支付一次。",
+              "paraphrasing": "bank accounts credited -> fortnightly",
+              "keywords": "bank accounts, credited, how often",
+              "evidence": [
+                "Pay is fortnightly and is paid by credit so you require a bank account."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197695",
+              "number": 20,
+              "prompt": "What type of personal transport is recommended? _____",
+              "options": [],
+              "answer": "bicycle / a bicycle",
+              "accepted_answers": [
+                "bicycle / a bicycle",
+                "bicycle",
+                "a bicycle"
+              ],
+              "analysis": "题干问推荐使用的个人交通工具，原文在交通部分指出‘we suggest using a bicycle’。‘recommended’与‘suggest’构成同义替换，因此答案是‘bicycle’或‘a bicycle’。",
+              "reason": "原文suggest using a bicycle。",
+              "location_analysis": "推荐使用自行车。",
+              "paraphrasing": "recommended transport -> a bicycle",
+              "keywords": "personal transport, recommended",
+              "evidence": [
+                "we suggest using a bicycle."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "15 What is the minimum daily amount of fruit a picker must pick? $1197690$\n16 What mental quality does a packer need? $1197691$\n17 What form of accommodation is offered to cherry pickers? $1197692$\n18 Who organises the accommodation for workers? $1197693$\n19 How often are workers’ bank accounts credited? $1197694$\n20 What type of personal transport is recommended? $1197695$",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "15 What is the minimum daily amount of fruit a picker must pick? $1197690$\n16 What mental quality does a packer need? $1197691$\n17 What form of accommodation is offered to cherry pickers? $1197692$\n18 Who organises the accommodation for workers? $1197693$\n19 How often are workers’ bank accounts credited? $1197694$\n20 What type of personal transport is recommended? $1197695$"
+        },
+        {
+          "id": "398",
+          "type": 8,
+          "title": "Service Division - Daylight Trading Company",
+          "instructions": "Questions 21-27\nComplete the sentences below.\nChoose NO MORE THAN TWO WORDS AND/OR A NUMBER from the text for each answer.\nWrite your answers in boxes 21-27 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197696",
+              "number": 21,
+              "prompt": "The annual deadline for staff to submit ideas for the guidelines falls in the month of _____.",
+              "options": [],
+              "answer": "May",
+              "accepted_answers": [
+                "May"
+              ],
+              "analysis": "题干问员工提交指南建议的年度截止月份，原文明确说‘Any suggestions... should be sent... by the end of May each year’。‘annual deadline’对应‘by the end of May’，因此答案为‘May’。",
+              "reason": "原文明确by the end of May。",
+              "location_analysis": "提交建议的截止日期是在五月末。",
+              "paraphrasing": "deadline -> by the end of May",
+              "keywords": "deadline, submit ideas, guidelines",
+              "evidence": [
+                "Any suggestions for additional items to be included should be sent to the Directorate Mailbox by the end of May each year."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197697",
+              "number": 22,
+              "prompt": "Staff should try to schedule their _____ so that there is always someone in the office at this time.",
+              "options": [],
+              "answer": "lunch breaks",
+              "accepted_answers": [
+                "lunch breaks"
+              ],
+              "analysis": "题干要求填写员工应安排好的时间段以确保办公室始终有人，原文提到‘Please observe this when taking lunch breaks’，前文说明‘offices are staffed throughout the day’。因此‘lunch breaks’是需要合理安排的时间段，答案为‘lunch breaks’。",
+              "reason": "原文要求注意午餐时间。",
+              "location_analysis": "要安排午餐时间保持办公室有人。",
+              "paraphrasing": "schedule their lunch breaks -> when taking lunch breaks",
+              "keywords": "schedule, lunch breaks, office staffed",
+              "evidence": [
+                "As this is a service unit, it is important that offices are staffed throughout the day. Please observe this when taking lunch breaks."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197698",
+              "number": 23,
+              "prompt": "If there are insufficient staff at work, it may be necessary for you to contribute to the work of a _____ that is not normally your own.",
+              "options": [],
+              "answer": "team",
+              "accepted_answers": [
+                "team"
+              ],
+              "analysis": "题干说人手不足时可能需要协助非本职的某个单位，原文指出‘we may need to help another team in times of staff shortage’。‘team’与题干中的‘a... that is not normally your own’对应，因此答案是‘team’。",
+              "reason": "原文help another team。",
+              "location_analysis": "人手不足时需协助其他团队。",
+              "paraphrasing": "contribute to work of a team -> help another team",
+              "keywords": "insufficient staff, help, another team",
+              "evidence": [
+                "It also means that we may need to help another team in times of staff shortage"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197699",
+              "number": 24,
+              "prompt": "You can work extra hours on _____ work without prior approval, as long as you inform your line manager afterwards.",
+              "options": [],
+              "answer": "urgent",
+              "accepted_answers": [
+                "urgent"
+              ],
+              "analysis": "题干问哪种工作可在未经事先批准的情况下加班，只要事后通知主管。原文提到‘an urgent job arises which will require extra time to be worked’，并说明若无法提前批准，事后需告知。因此‘urgent’是正确答案。",
+              "reason": "原文提到urgent job。",
+              "location_analysis": "紧急工作可事后告知主管。",
+              "paraphrasing": "work extra hours on urgent work -> urgent job",
+              "keywords": "extra hours, urgent work, without prior approval",
+              "evidence": [
+                "There will be occasions when an urgent job arises which will require extra time to be worked."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197700",
+              "number": 25,
+              "prompt": "If you wish to take a two-week holiday, your line manager will need to be given _____ advance warning of this.",
+              "options": [],
+              "answer": "three weeks / three weeks’",
+              "accepted_answers": [
+                "three weeks / three weeks’",
+                "three weeks",
+                "three weeks’"
+              ],
+              "analysis": "题干问申请两周假期需提前多久通知主管，原文规定‘three weeks’ notice for one week or more’。由于两周属于‘one week or more’，因此需提前三周，答案为‘three weeks’或‘three weeks’’。",
+              "reason": "原文three weeks’ notice for one week or more。",
+              "location_analysis": "一周以上假期需提前三周通知。",
+              "paraphrasing": "advance warning -> three weeks’ notice",
+              "keywords": "two-week holiday, advance warning",
+              "evidence": [
+                "Holiday requests should be submitted to and agreed by the line manager, where possible giving at least one week’s notice for one to four days of leave and three weeks’ notice for one week or more."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197701",
+              "number": 26,
+              "prompt": "A holiday request may be turned down if _____ have to take priority.",
+              "options": [],
+              "answer": "operational needs",
+              "accepted_answers": [
+                "operational needs"
+              ],
+              "analysis": "题干问假期申请可能被拒绝的原因，原文说明‘operational needs will be the overriding criterion’，即运营需求优先。因此当‘operational needs’必须优先时，假期请求可能被拒，答案为‘operational needs’。",
+              "reason": "原文operational needs overriding criterion。",
+              "location_analysis": "运营需求优先于假期申请。",
+              "paraphrasing": "turned down if operational needs take priority -> operational needs will be the overriding criterion",
+              "keywords": "holiday request, turned down, priority",
+              "evidence": [
+                "Wherever possible, holiday requests will be approved but operational needs will be the overriding criterion"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197702",
+              "number": 27,
+              "prompt": "A maximum of _____ can be saved from your holiday in one year and used in the following year.",
+              "options": [],
+              "answer": "ten days",
+              "accepted_answers": [
+                "ten days"
+              ],
+              "analysis": "题干问一年最多可结转多少天假期至下一年，原文明确说‘staff are not allowed to carry more than ten days forward to the new holiday year’。‘maximum... saved... used in the following year’对应‘carry more than ten days forward’，因此答案是‘ten days’。",
+              "reason": "原文carry more than ten days forward。",
+              "location_analysis": "最多可结转10天假期到次年。",
+              "paraphrasing": "maximum saved -> carry more than ten days forward",
+              "keywords": "maximum, saved, holiday, following year",
+              "evidence": [
+                "staff are not allowed to carry more than ten days forward to the new holiday year"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "21 The annual deadline for staff to submit ideas for the guidelines falls in the month of $1197696$.\n22 Staff should try to schedule their $1197697$ so that there is always someone in the office at this time.\n23 If there are insufficient staff at work, it may be necessary for you to contribute to the work of a $1197698$ that is not normally your own.\n24 You can work extra hours on $1197699$ work without prior approval, as long as you inform your line manager afterwards.\n25 If you wish to take a two-week holiday, your line manager will need to be given $1197700$ advance warning of this.\n26 A holiday request may be turned down if $1197701$ have to take priority.\n27 A maximum of $1197702$ can be saved from your holiday in one year and used in the following year.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "21 The annual deadline for staff to submit ideas for the guidelines falls in the month of $1197696$.\n22 Staff should try to schedule their $1197697$ so that there is always someone in the office at this time.\n23 If there are insufficient staff at work, it may be necessary for you to contribute to the work of a $1197698$ that is not normally your own.\n24 You can work extra hours on $1197699$ work without prior approval, as long as you inform your line manager afterwards.\n25 If you wish to take a two-week holiday, your line manager will need to be given $1197700$ advance warning of this.\n26 A holiday request may be turned down if $1197701$ have to take priority.\n27 A maximum of $1197702$ can be saved from your holiday in one year and used in the following year."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Job: Sunset Orchard, Cromwell, New Zealand - Cherry Picking",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Picking\n\nThis is the harvesting of fruit to the required standard and is physical work.",
+          "translation": "采摘\n\n这是按照要求的标准收获水果，属于体力劳动。"
+        },
+        {
+          "index": 2,
+          "sentence": "The employee must be able to lift, manoeuvre and reach the top of a 3-metre ladder.",
+          "translation": "员工必须能够提起、移动并够到3米高的梯子顶端。"
+        },
+        {
+          "index": 3,
+          "sentence": "Most pickers are paid on a contract rate; e.g. for cherries the minimum bucket rate is $4-25.",
+          "translation": "大多数采摘工按合同费率支付工资；例如，樱桃的最低桶装费率为4-25美元。"
+        },
+        {
+          "index": 4,
+          "sentence": "The average picker will pick 20 of these buckets in an 8-hour day but this depends very much upon the individual.",
+          "translation": "普通采摘工在8小时工作日内可采摘20桶，但这在很大程度上因人而异。"
+        },
+        {
+          "index": 5,
+          "sentence": "However, you are required to pick at least 16 buckets.",
+          "translation": "但是，您必须至少采摘16桶。"
+        },
+        {
+          "index": 6,
+          "sentence": "Packing\n\nThis is the sorting of fruit into different grade standards.",
+          "translation": "包装\n\n这是将水果按不同等级标准进行分类。"
+        },
+        {
+          "index": 7,
+          "sentence": "This part of the job involves standing at a sorting table and the employee must be fit and have good concentration.",
+          "translation": "这部分工作需要在分拣台前站立，员工必须身体健康且注意力高度集中。"
+        },
+        {
+          "index": 8,
+          "sentence": "The employee must be able to work long hours, up to 7 days a week.",
+          "translation": "员工必须能够长时间工作，每周最多工作7天。"
+        },
+        {
+          "index": 9,
+          "sentence": "Note that the cherry picking and packing starts in mid to late December and continues through until late January, weather permitting.",
+          "translation": "请注意，樱桃的采摘和包装工作从12月中下旬开始，一直持续到1月下旬，视天气情况而定。"
+        },
+        {
+          "index": 10,
+          "sentence": "This is our peak season and prior to and after this period we require fewer staff.",
+          "translation": "这是我们的旺季，在此之前和之后我们需要较少的员工。"
+        },
+        {
+          "index": 11,
+          "sentence": "Accommodation\n\nWe have accommodation available on site in bunkrooms, which were built two years ago.",
+          "translation": "住宿\n\n我们在现场提供宿舍房间，这些房间是两年前建造的。"
+        },
+        {
+          "index": 12,
+          "sentence": "Because everybody is working hard and requires a decent sleep, no loud music or excessive noise is allowed after 10 o’clock.",
+          "translation": "因为每个人都在努力工作，需要良好的睡眠，所以晚上10点后禁止大声播放音乐或发出过度的噪音。"
+        },
+        {
+          "index": 13,
+          "sentence": "Our residential manager will allocate beds and look after everyone’s needs.",
+          "translation": "我们的住宿经理将分配床位并照顾每个人的需求。"
+        },
+        {
+          "index": 14,
+          "sentence": "The cost of the accommodation is $10-00 per night or $60-00 per week and it is filled on a first-come first-served basis.",
+          "translation": "住宿费用为每晚10-00美元或每周60-00美元，按先到先得的原则安排。"
+        },
+        {
+          "index": 15,
+          "sentence": "Payment must be made to the orchard supervisor on a weekly basis.",
+          "translation": "必须每周向果园主管支付费用。"
+        },
+        {
+          "index": 16,
+          "sentence": "Transport and pay\n\nPay is fortnightly and is paid by credit so you require a bank account.",
+          "translation": "交通与工资\n\n工资每两周发放一次，通过银行转账支付，因此您需要一个银行账户。"
+        },
+        {
+          "index": 17,
+          "sentence": "Also you need an IRD number and, if you are from overseas, a work permit.",
+          "translation": "此外，您还需要一个IRD税号，如果您来自海外，还需要工作许可证。"
+        },
+        {
+          "index": 18,
+          "sentence": "If you wish to work for us, you must have some form of transport as we are 5km from Cromwell.",
+          "translation": "如果您想为我们工作，您必须有某种交通工具，因为我们距离克伦威尔5公里。"
+        },
+        {
+          "index": 19,
+          "sentence": "Even if you live on site, you still need to get into town for groceries, etc. On-site parking for cars and vans is extremely limited so we suggest using a bicycle.",
+          "translation": "即使您住在现场，您仍然需要进城购买杂货等。现场为汽车和货车提供的停车位极其有限，因此我们建议使用自行车。"
+        },
+        {
+          "index": 20,
+          "sentence": "If you would like to apply for a position at Sunset Orchard, then please complete our online application form on the website www.sunsetorchard.co.nz",
+          "translation": "如果您想申请日落果园的职位，请在我们的网站www.sunsetorchard.co.nz上填写在线申请表。"
+        },
+        {
+          "index": 21,
+          "sentence": "Service Division - Daylight Trading Company",
+          "translation": "服务部 - 日光贸易公司"
+        },
+        {
+          "index": 22,
+          "sentence": "Staff Guidelines\n\nThese guidelines have been produced to enable common systems and practices to be followed across all teams within the Division.",
+          "translation": "员工指南\n\n制定本指南是为了使部门内所有团队能够遵循共同的制度和做法。"
+        },
+        {
+          "index": 23,
+          "sentence": "They will be formally reviewed every July and published in September, although earlier revision will occur if necessary.",
+          "translation": "指南将于每年7月进行正式审查，并于9月发布，但如有必要，会提前修订。"
+        },
+        {
+          "index": 24,
+          "sentence": "Any suggestions for additional items to be included should be sent to the Directorate Mailbox by the end of May each year.",
+          "translation": "任何关于增加新项目的建议应在每年5月底前发送至董事会邮箱。"
+        },
+        {
+          "index": 25,
+          "sentence": "Hours of Work\n\nThe office hours are 09:00 — 17:30 (Mon-Thurs) and 09:00 — 17:00 (Fri), although some staff will be working slightly different hours which have previously been approved.",
+          "translation": "工作时间\n\n办公时间为周一至周四09:00至17:30，周五09:00至17:00，但有些员工的工作时间会略有不同，这些时间已事先获得批准。"
+        },
+        {
+          "index": 26,
+          "sentence": "Where this is the case, the details should be recorded and retained on the individual’s personal file.",
+          "translation": "在这种情况下，详细信息应记录并保存在员工的个人档案中。"
+        },
+        {
+          "index": 27,
+          "sentence": "As this is a service unit, it is important that offices are staffed throughout the day.",
+          "translation": "由于这是一个服务部门，全天都有员工在办公室值班非常重要。"
+        },
+        {
+          "index": 28,
+          "sentence": "Please observe this when taking lunch breaks.",
+          "translation": "请在午休时遵守这一点。"
+        },
+        {
+          "index": 29,
+          "sentence": "It also means that we may need to help another team in times of staff shortage so that our service to the organisation is maintained.",
+          "translation": "这也意味着在人员短缺时，我们可能需要帮助其他团队，以维持我们对组织的服务。"
+        },
+        {
+          "index": 30,
+          "sentence": "There will be occasions when an urgent job arises which will require extra time to be worked.",
+          "translation": "有时会出现紧急工作，需要加班完成。"
+        },
+        {
+          "index": 31,
+          "sentence": "Wherever possible this should be approved in advance by your line manager but, if this is not possible, you must advise him/her as soon as possible after the event.",
+          "translation": "只要有可能，这应事先得到您的直线经理的批准，但如果不可能，您必须在事后尽快通知他/她。"
+        },
+        {
+          "index": 32,
+          "sentence": "Holidays\n\nHoliday requests should be submitted to and agreed by the line manager, where possible giving at least one week’s notice for one to four days of leave and three weeks’ notice for one week or more.",
+          "translation": "假期\n\n休假申请应提交给直线经理并征得其同意，如有可能，申请1至4天假期需至少提前一周通知，申请一周或更长时间假期需提前三周通知。"
+        },
+        {
+          "index": 33,
+          "sentence": "If the period of notice is shorter, the request should be discussed as soon as possible with the line manager.",
+          "translation": "如果通知期较短，应尽快与直线经理讨论该申请。"
+        },
+        {
+          "index": 34,
+          "sentence": "Wherever possible, holiday requests will be approved but operational needs will be the overriding criterion, and there may be occasions when requests cannot be approved.",
+          "translation": "只要有可能，休假申请都会得到批准，但运营需求将是首要标准，有时申请可能无法获得批准。"
+        },
+        {
+          "index": 35,
+          "sentence": "Any requests for holiday exceeding fifteen working days must be approved by a member of the Leadership Team.",
+          "translation": "任何超过15个工作日的休假申请必须由领导团队成员批准。"
+        },
+        {
+          "index": 36,
+          "sentence": "Holidays are important breaks in our working life and staff are expected and encouraged to take all their holiday within the leave year, but it is acknowledged that planned holidays can be affected by unexpected situations and the flexibility many staff demonstrate is appreciated.",
+          "translation": "假期是我们工作生活中的重要休息时间，我们期望并鼓励员工在休假年度内休完所有假期，但也承认计划好的假期可能会受到意外情况的影响，许多员工表现出的灵活性值得赞赏。"
+        },
+        {
+          "index": 37,
+          "sentence": "In accordance with organisational policy, staff are not allowed to carry more than ten days forward to the new holiday year for personal reasons, and any carry over is expected to be taken by the end of the calendar year.",
+          "translation": "根据组织政策，员工不得因个人原因将超过10天的假期结转到新的休假年度，任何结转的假期预计应在日历年底前休完。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    },
+    {
+      "id": "211043",
+      "number": 3,
+      "title": "Section 3",
+      "article_title": "Tracking elephants in Namibia",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "The elephants surrounded us, moving closer and closer. Hendrick, our expert tracker, whispered: ‘I’m just checking whether they’re really eating or just pretending to eat.’ A voice screamed in my head ‘What do you mean pretending to eat? Is that bad?’ They were two metres away now, and just as I leaned towards him to ask for clarification, Hendrick raised his arm, pointing his index finger in the air — this was the signal not to move, not to make a sound, not to breathe.",
+          "translation": "大象包围了我们，越来越近。\n我们的专业追踪者亨德里克低声说：“我只是在确认它们是真的在吃东西，还是假装在吃。”\n一个声音在我脑海中尖叫：“你说假装在吃是什么意思？\n那很糟糕吗？”\n它们现在离我们只有两米远，就在我靠向他想要问清楚时，亨德里克举起手臂，食指指向空中——这是不要动、不要出声、不要呼吸的信号。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "B",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "The last time I had seen these elephants, 15 years earlier, I had narrowly escaped being flattened as they charged towards us, and was saved by the fact that the matriarch, the eldest member and authority on decision making, had been towards the back of the herd. The younger females, seeing us in their path, had turned to check and see what she wanted to do. That split second saved my life, giving us the chance to start the engine, and slam our 4x4 into reverse and out of their way.\n\nThey were really wild back then, rarely meeting humans in anything but a confrontational setting. But for years, Hendrick Munembone, and other rangers working alongside Elephant Human Relations Aid (EHRA), have tried to create a positive relationship, not only within the herds of elephants in the region, but also between the animals and the humans who live and work side by side with them — with a knock-on benefit for tourism.",
+          "translation": "我上一次见到这些大象是在15年前，当时它们向我们冲过来，我险些被踩扁，幸免于难的原因是那头女族长，即最年长的成员和决策权威，当时在象群的后方。\n年轻的雌象看到我们挡在路上，便转身查看，想看看她打算怎么做。\n那一瞬间救了我的命，给了我们机会发动引擎，将我们的四驱车猛地倒车，避开了它们。\n那时它们真的很野，很少在非对抗的环境中遇到人类。\n但多年来，亨德里克·穆内姆博内（Hendrick Munembone）和其他与大象人类关系援助组织（EHRA）合作的护林员，一直努力建立一种积极的关系，不仅在该地区的大象群内部，也在动物与那些与它们并肩生活和工作的人类之间——这对旅游业也产生了连锁效益。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "C",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "This time, as it turned out, they really were eating — which meant they were calm and curious rather than nervous and potentially aggressive. ‘They’re in a good mood,’ Hendrick whispered, putting me only slightly more at ease as they moved even closer towards the truck. Elisabeth, one of our group, was taking data and had a pencil between her teeth. Not daring to take it out, she kept it there, biting down hard on it.\n\nThis was called the Mama Africa herd of elephants, and ‘Deliwe’ and her daughter ‘Hanna’ were so close now that we could see every detail of their faces, and feel their rumbling calls under our skin. Just as it seemed as though Deliwe was about to take Elisabeth’s pencil with her trunk, Hendrick clapped his hands in quick bursts and the mother and daughter retreated a little. We let out our breath. It’s great to go on adventures — even better to return to tell the tale.",
+          "translation": "这一次，事实证明，它们确实在吃东西——这意味着它们很平静、好奇，而不是紧张且可能具有攻击性。“它们心情不错，”亨德里克低声说，这让我只是稍微放松了一点，因为它们离卡车更近了。\n我们小组的伊丽莎白（Elisabeth）正在记录数据，嘴里叼着一支铅笔。\n她不敢拿出来，就一直那样叼着，用力咬住。\n这群大象被称为“非洲妈妈”象群，“德利韦”（Deliwe）和她的女儿“汉娜”（Hanna）现在离我们如此之近，我们能看到它们脸上的每一个细节，并感受到它们低沉的叫声穿透我们的皮肤。\n就在德利韦似乎要用鼻子拿走伊丽莎白的铅笔时，亨德里克快速拍了几下手，这对母女便后退了一点。\n我们松了一口气。\n去冒险很棒——能回来讲述故事就更好了。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "D",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "We were not on safari, we were on patrol with EHRA to collect data: to record the locations of these herds, check their wellbeing, note down any injuries they may have suffered, make sure they were all there and record any new-borns. But this was not just about the wellbeing of the elephants, it was about the wellbeing of the participants — the women who had decided to join me and experience true wilderness, have close encounters with wildlife, face a challenge, support conservation efforts, trek through the desert, meet local women and relax.\n\nI had first had the idea for an all-female expedition seven years before, but had done nothing about it. Then I happened to discuss it with a friend, and suddenly everything fell into place: a group of women, elephants, ten days in Namibia, EHRA. We could track desert elephants in one of my favourite places in the world, help EHRA with its work, and experience the beauty of the desert.",
+          "translation": "我们不是在游猎，而是在与EHRA一起巡逻收集数据：记录这些象群的位置，检查它们的健康状况，记下它们可能遭受的任何伤害，确保它们都在，并记录任何新生幼象。\n但这不仅仅关乎大象的福祉，也关乎参与者的福祉——那些决定加入我、体验真正荒野、与野生动物近距离接触、面对挑战、支持保护工作、徒步穿越沙漠、结识当地女性并放松身心的女性。\n七年前我就首次有了组织全女性探险队的想法，但一直没有付诸行动。\n后来我碰巧和一位朋友讨论了这个想法，突然间一切都水到渠成：一群女性、大象、在纳米比亚的十天、EHRA。\n我们可以在我世界上最喜爱的地方之一追踪沙漠大象，帮助EHRA开展工作，并体验沙漠之美。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "E",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "I could picture it all really clearly, but now I had to make it happen. I contacted EHRA, who thought it was a great plan. But how to find the women? I wrote to all my female friends and asked them to spread the word, and soon I had a number wanting to know more. Only three months after the idea took shape, we were there in Namibia, ten women of different ages and backgrounds.",
+          "translation": "我能非常清晰地想象这一切，但现在我必须让它成为现实。\n我联系了EHRA，他们认为这是一个很棒的计划。\n但如何找到这些女性呢？\n我写信给我所有的女性朋友，请她们传播消息，很快就有一些人想了解更多。\n这个想法成形仅三个月后，我们就到了纳米比亚，十位不同年龄和背景的女性。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "F",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "When you think of Namibia, you think of desert, heat, baked cracked earth. Instead we were greeted with rain. It hadn’t rained properly for seven years, but now the rivers were in flood and the elephants had retreated to higher ground to eat the sweet new shoots. This made tracking them difficult, and we frequently had to climb up the rocks and peer through binoculars. If someone had told me that an elephant could disguise itself as a rock I wouldn’t have believed them, but with thousands of these boulders in our view, it was almost impossible to distinguish the herd, despite Hendrick pointing wildly. Once we had spotted them, we then had to try and get closer. Even with a 4x4, thorny bushes and protruding rocks made the going tough. Later, as we headed back to our camp, I spotted a rainbow. In the desert! It was an incredible sight, but of course it means there’s rain. We certainly hadn’t expected to be cooking our barbecue under umbrellas!",
+          "translation": "当你想到纳米比亚，你会想到沙漠、炎热、干裂的土地。\n然而我们却迎来了雨水。\n已经七年没有好好下过雨了，但现在河流泛滥，大象退到了更高的地方去吃鲜嫩的新芽。\n这使得追踪它们变得困难，我们经常不得不爬上岩石，用双筒望远镜仔细观察。\n如果有人告诉我大象能伪装成岩石，我是不会相信的，但视野中有成千上万这样的巨石，尽管亨德里克拼命地指，我们几乎无法分辨出象群。\n一旦我们发现了它们，接下来就得设法靠近。\n即使有四驱车，多刺的灌木丛和突出的岩石也使行进变得艰难。\n后来，在我们返回营地时，我看到了一道彩虹。\n在沙漠里！\n这景象令人难以置信，但当然这意味着有雨。\n我们绝对没想到会在雨伞下烧烤！"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "G",
+          "translation": ""
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Even with rain, the spirits of this all-women team were not dampened: in fact it made for a great sense of community. On the last day, as we sat in the safety of our truck, silently watching our animal counterparts seeking shade under a tree, I was struck by the similarity of our two groups, and wondered who was watching who more intently. We were most definitely in their territory, but they didn’t seem to mind us being there — which showed that EHRA had succeeded in reducing tension between elephants and people.",
+          "translation": "即使下雨，这支全女性团队的精神也没有被浇灭：事实上，这营造了一种强烈的集体感。\n最后一天，当我们安全地坐在卡车里，静静地看着我们的动物同伴在树下寻找阴凉时，我被我们两个群体的相似性所震撼，并想知道谁在更专注地看着谁。\n我们无疑是在它们的领地上，但它们似乎并不介意我们在那里——这表明EHRA成功地减少了人与大象之间的紧张关系。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "399",
+          "type": 10,
+          "title": "List of Headings",
+          "instructions": "Questions 28-34\nThe text has seven sections, A-G.\nChoose the correct heading for each section from the list of headings below.\nWrite the correct number, i-ix, in boxes 28-34 on your answer sheet.",
+          "option_title": "",
+          "options": [
+            {
+              "value": "i",
+              "label": "i. A disappointment"
+            },
+            {
+              "value": "ii",
+              "label": "ii. A cheerful group of people"
+            },
+            {
+              "value": "iii",
+              "label": "iii. An elephant’s memory"
+            },
+            {
+              "value": "iv",
+              "label": "iv. A past encounter"
+            },
+            {
+              "value": "v",
+              "label": "v. A great surprise"
+            },
+            {
+              "value": "vi",
+              "label": "vi. Making the elephants move back"
+            },
+            {
+              "value": "vii",
+              "label": "vii. The need to keep still and quiet"
+            },
+            {
+              "value": "viii",
+              "label": "viii. The expedition’s aims"
+            },
+            {
+              "value": "ix",
+              "label": "ix. Turning an idea into reality"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197703",
+              "number": 28,
+              "prompt": "Section A _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. A disappointment"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A cheerful group of people"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. An elephant’s memory"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. A past encounter"
+                },
+                {
+                  "value": "v",
+                  "label": "v. A great surprise"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Making the elephants move back"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The need to keep still and quiet"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. The expedition’s aims"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Turning an idea into reality"
+                }
+              ],
+              "answer": "vii",
+              "accepted_answers": [
+                "vii"
+              ],
+              "analysis": "题干要求为段落 A 选择最合适的标题。段落 A 描述了作者与象群近距离接触时的紧张场景，其中关键句是“Hendrick raised his arm... this was the signal not to move, not to make a sound, not to breathe”，明确传达出必须保持静止和安静的指令。选项 vii “The need to keep still and quiet”正是对这一核心动作的准确概括，因此答案为 vii。",
+              "reason": "段落核心动作与heading完全吻合。",
+              "location_analysis": "直接对应：举起手指示意不要动、不要出声、不要呼吸。",
+              "paraphrasing": "need to keep still and quiet -> not to move, not to make a sound, not to breathe",
+              "keywords": "signal, not to move, not to make a sound, not to breathe",
+              "evidence": [
+                "Hendrick raised his arm, pointing his index finger in the air — this was the signal not to move, not to make a sound, not to breathe."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197704",
+              "number": 29,
+              "prompt": "Section B _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. A disappointment"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A cheerful group of people"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. An elephant’s memory"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. A past encounter"
+                },
+                {
+                  "value": "v",
+                  "label": "v. A great surprise"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Making the elephants move back"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The need to keep still and quiet"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. The expedition’s aims"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Turning an idea into reality"
+                }
+              ],
+              "answer": "iv",
+              "accepted_answers": [
+                "iv"
+              ],
+              "analysis": "段落 B 回忆了作者15年前与象群的一次危险遭遇，并提到当时因象群首领（matriarch）位于队伍后方，年轻母象犹豫不决，才得以逃生。这部分内容明显是在叙述一次过去的经历，且强调了当时的惊险情境。选项 iv “A past encounter”精准对应了“the last time I had seen these elephants, 15 years earlier”这一时间线索和事件性质，因此答案为 iv。",
+              "reason": "Describes a previous dangerous encounter with elephants.",
+              "location_analysis": "Paragraph B recounts a past encounter 15 years ...",
+              "paraphrasing": "A past encounter -> The last time I had seen these elephants, 15 years earlier, I had narrowly escaped",
+              "keywords": "15 years earlier, narrowly escaped",
+              "evidence": [
+                "The last time I had seen these elephants, 15 years earlier, I had narrowly escaped being flattened as they charged towards us, and was saved by the fact that the matriarch, the eldest member and authority on decision making, had been towards the back of the herd."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197705",
+              "number": 30,
+              "prompt": "Section C _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. A disappointment"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A cheerful group of people"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. An elephant’s memory"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. A past encounter"
+                },
+                {
+                  "value": "v",
+                  "label": "v. A great surprise"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Making the elephants move back"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The need to keep still and quiet"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. The expedition’s aims"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Turning an idea into reality"
+                }
+              ],
+              "answer": "vi",
+              "accepted_answers": [
+                "vi"
+              ],
+              "analysis": "段落 C 中，当大象 Deliwe 似乎要拿走 Elisabeth 的铅笔时，“Hendrick clapped his hands in quick bursts and the mother and daughter retreated a little”，这一动作直接导致大象后退。选项 vi “Making the elephants move back”正是对这一具体行为的描述，与原文中的“clapped... retreated”形成清晰对应，因此答案为 vi。",
+              "reason": "直接描述让大象退后的动作。",
+              "location_analysis": "Hendrick拍手使大象后退。",
+              "paraphrasing": "making the elephants move back -> clapped his hands and the mother and daughter retreated",
+              "keywords": "clapped his hands, retreated",
+              "evidence": [
+                "Hendrick clapped his hands in quick bursts and the mother and daughter retreated a little."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197706",
+              "number": 31,
+              "prompt": "Section D _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. A disappointment"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A cheerful group of people"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. An elephant’s memory"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. A past encounter"
+                },
+                {
+                  "value": "v",
+                  "label": "v. A great surprise"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Making the elephants move back"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The need to keep still and quiet"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. The expedition’s aims"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Turning an idea into reality"
+                }
+              ],
+              "answer": "viii",
+              "accepted_answers": [
+                "viii"
+              ],
+              "analysis": "段落 D 明确说明此次行动并非观光，而是与 EHRA 一起巡逻收集数据，并列出多项目标：记录象群位置、检查健康状况、支持保育、体验荒野等。这些内容全面体现了此次远征的多重目的。选项 viii “The expedition’s aims”准确概括了该段主旨，因此答案为 viii。",
+              "reason": "Clearly states the aims of the patrol.",
+              "location_analysis": "Paragraph D lists expedition objectives: data c...",
+              "paraphrasing": "The expedition's aims -> to collect data, check wellbeing, support conservation, experience wilderness",
+              "keywords": "collect data, wellbeing of participants, conservation",
+              "evidence": [
+                "We were not on safari, we were on patrol with EHRA to collect data: to record the locations of these herds, check their wellbeing, note down any injuries they may have suffered, make sure they were all there and record any new-borns.",
+                "But this was not just about the wellbeing of the elephants, it was about the wellbeing of the participants — the women who had decided to join me and experience true wilderness, have close encounters with wildlife, face a challenge, support conservation efforts, trek through the desert, meet local women and relax."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197707",
+              "number": 32,
+              "prompt": "Section E _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. A disappointment"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A cheerful group of people"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. An elephant’s memory"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. A past encounter"
+                },
+                {
+                  "value": "v",
+                  "label": "v. A great surprise"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Making the elephants move back"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The need to keep still and quiet"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. The expedition’s aims"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Turning an idea into reality"
+                }
+              ],
+              "answer": "ix",
+              "accepted_answers": [
+                "ix"
+              ],
+              "analysis": "段落 E 描述了作者如何将一个酝酿七年的想法付诸实践：联系 EHRA、招募女性成员，并在三个月内成行。整个过程聚焦于从构想到实现的转变。选项 ix “Turning an idea into reality”恰当地总结了这一发展脉络，因此答案为 ix。",
+              "reason": "段落核心是计划实施的具体步骤。",
+              "location_analysis": "描述从设想到实现的过程与时间线。",
+              "paraphrasing": "turning an idea into reality -> I could picture it all... but now I had to make it happen; contacted EHRA... Only three months after the idea took shape, we were there",
+              "keywords": "idea, make it happen, contacted EHRA, three months later",
+              "evidence": [
+                "I could picture it all really clearly, but now I had to make it happen."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197708",
+              "number": 33,
+              "prompt": "Section F _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. A disappointment"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A cheerful group of people"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. An elephant’s memory"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. A past encounter"
+                },
+                {
+                  "value": "v",
+                  "label": "v. A great surprise"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Making the elephants move back"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The need to keep still and quiet"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. The expedition’s aims"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Turning an idea into reality"
+                }
+              ],
+              "answer": "v",
+              "accepted_answers": [
+                "v"
+              ],
+              "analysis": "段落 F 讲述了团队在纳米比亚遭遇意外降雨，不仅河流泛滥、追踪困难，还在沙漠中看到彩虹，甚至需在伞下烧烤。这些出人意料的情境构成了强烈的反差和惊喜。选项 v “A great surprise”准确反映了“greeted with rain”“rainbow in the desert”“cooking under umbrellas”等意外元素，因此答案为 v。",
+              "reason": "多个意外事件构成惊喜。",
+              "location_analysis": "遇到意外的大雨、彩虹和撑伞烧烤。",
+              "paraphrasing": "great surprise -> greeted with rain; spotted a rainbow in the desert; cooking barbecue under umbrellas",
+              "keywords": "rain, rainbow, umbrellas, unexpected",
+              "evidence": [
+                "Instead we were greeted with rain.",
+                "I spotted a rainbow. In the desert!"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197709",
+              "number": 34,
+              "prompt": "Section G _____",
+              "options": [
+                {
+                  "value": "i",
+                  "label": "i. A disappointment"
+                },
+                {
+                  "value": "ii",
+                  "label": "ii. A cheerful group of people"
+                },
+                {
+                  "value": "iii",
+                  "label": "iii. An elephant’s memory"
+                },
+                {
+                  "value": "iv",
+                  "label": "iv. A past encounter"
+                },
+                {
+                  "value": "v",
+                  "label": "v. A great surprise"
+                },
+                {
+                  "value": "vi",
+                  "label": "vi. Making the elephants move back"
+                },
+                {
+                  "value": "vii",
+                  "label": "vii. The need to keep still and quiet"
+                },
+                {
+                  "value": "viii",
+                  "label": "viii. The expedition’s aims"
+                },
+                {
+                  "value": "ix",
+                  "label": "ix. Turning an idea into reality"
+                }
+              ],
+              "answer": "ii",
+              "accepted_answers": [
+                "ii"
+              ],
+              "analysis": "段落 G 强调尽管下雨，但全女性团队的情绪并未低落，“in fact it made for a great sense of community”，展现出积极乐观的氛围。结尾还提到象群不介意人类存在，暗示和谐共处。选项 ii “A cheerful group of people”直接对应“spirits not dampened”和“sense of community”，因此答案为 ii。",
+              "reason": "直接描述团队积极乐观的氛围。",
+              "location_analysis": "下雨未影响士气，反而增强团队精神。",
+              "paraphrasing": "cheerful group of people -> spirits were not dampened; made for a great sense of community",
+              "keywords": "spirits not dampened, sense of community",
+              "evidence": [
+                "Even with rain, the spirits of this all-women team were not dampened: in fact it made for a great sense of community."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 10,
+            "collect": "28 Section A $1197703$\n29 Section B $1197704$\n30 Section C $1197705$\n31 Section D $1197706$\n32 Section E $1197707$\n33 Section F $1197708$\n34 Section G $1197709$",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "28 Section A $1197703$\n29 Section B $1197704$\n30 Section C $1197705$\n31 Section D $1197706$\n32 Section E $1197707$\n33 Section F $1197708$\n34 Section G $1197709$"
+        },
+        {
+          "id": "400",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 35-37\nChoose the correct letter, A, B, C or D.\nWrite the correct letter in boxes 35-37 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197710",
+              "number": 35,
+              "prompt": "The writer wasn’t flattened by elephants 15 years ago because",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "the oldest one led them away."
+                },
+                {
+                  "value": "B",
+                  "label": "the young females thought the humans would attack them."
+                },
+                {
+                  "value": "C",
+                  "label": "the oldest one was behind most of the others."
+                },
+                {
+                  "value": "D",
+                  "label": "they were frightened by the noise of the 4x4’s engine."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问作者15年前未被大象踩扁的原因。原文段落 B 指出：“was saved by the fact that the matriarch... had been towards the back of the herd”，即象群中最年长的首领位于队伍后方，导致年轻大象犹豫，从而赢得逃生时间。选项 C “the oldest one was behind most of the others”与此完全对应，因此答案为 C。",
+              "reason": "对应选项C：最年长者在队伍后方。",
+              "location_analysis": "原文明确：母象首领在队伍后方，使年轻大象犹豫，赢得逃生时间。",
+              "paraphrasing": "the oldest one was behind most of the others -> matriarch... had been towards the back of the herd",
+              "keywords": "matriarch, towards the back, saved",
+              "evidence": [
+                "was saved by the fact that the matriarch, the eldest member and authority on decision making, had been towards the back of the herd."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "原文未提及最老的大象带领它们离开，属于无中生有。",
+                "B": "原文未说明年轻雌性认为人类会攻击它们，属于无中生有。",
+                "D": "原文未提及大象被引擎噪音吓到，且噪音并非未被踩踏的原因。"
+              }
+            },
+            {
+              "id": "1197711",
+              "number": 36,
+              "prompt": "According to the writer, one aim of EHRA is",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "to prevent conflict between elephants and human inhabitants."
+                },
+                {
+                  "value": "B",
+                  "label": "to encourage tourists to behave responsibly towards the elephants."
+                },
+                {
+                  "value": "C",
+                  "label": "to keep elephants out of the areas where humans live."
+                },
+                {
+                  "value": "D",
+                  "label": "to provide work for local residents."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干询问 EHRA 的目标之一。段落 B 提到 EHRA 致力于“create a positive relationship... between the animals and the humans who live and work side by side with them”，旨在减少人象冲突。选项 A “to prevent conflict between elephants and human inhabitants”正是对此意图的同义转述，因此答案为 A。",
+              "reason": "Describes EHRA's goal of improving human-elephant relations.",
+              "location_analysis": "EHRA aims to reduce tension between elephants a...",
+              "paraphrasing": "prevent conflict -> create a positive relationship between animals and humans who live and work side by side",
+              "keywords": "create a positive relationship, between animals and humans",
+              "evidence": [
+                "But for years, Hendrick Munembone, and other rangers working alongside Elephant Human Relations Aid (EHRA), have tried to create a positive relationship, not only within the herds of elephants in the region, but also between the animals and the humans who live and work side by side with them — with a knock-on benefit for tourism."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "B": "该选项内容与题干中的目的不符，EHRA的目标并非针对游客行为。",
+                "C": "该选项与原文信息矛盾，EHRA的目的是促进共存而非隔离。",
+                "D": "该选项在原文中未提及，EHRA的主要目的不是提供就业机会。"
+              }
+            },
+            {
+              "id": "1197712",
+              "number": 37,
+              "prompt": "In section C, the writer implies that elephants pretending to eat may be",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "in need of food."
+                },
+                {
+                  "value": "B",
+                  "label": "a danger to humans."
+                },
+                {
+                  "value": "C",
+                  "label": "more interesting to watch."
+                },
+                {
+                  "value": "D",
+                  "label": "curious about humans."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干问大象“假装进食”可能意味着什么。段落 A 中 Hendrick 怀疑大象是否“pretending to eat”，而段落 C 解释“they really were eating — which meant they were calm... rather than nervous and potentially aggressive”，反向推断可知“pretending”意味着紧张且具攻击性，即对人类构成危险。选项 B “a danger to humans”符合此逻辑，因此答案为 B。",
+              "reason": "选项B：对人类的危险，符合假装进食的潜在危险。",
+              "location_analysis": "原文暗示假装进食意味着紧张且可能具有攻击性。",
+              "paraphrasing": "pretending to eat may be dangerous -> check whether they're really eating or just pretending; if pretending, they are nervous and potentially aggressive",
+              "keywords": "pretending to eat, nervous, potentially aggressive",
+              "evidence": [
+                "I’m just checking whether they’re really eating or just pretending to eat.",
+                "they really were eating — which meant they were calm and curious rather than nervous and potentially aggressive."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "A": "与原文信息矛盾，原文指出大象假装吃草并非因为饥饿。",
+                "C": "在原文中无相关描述，属于无中生有。",
+                "D": "张冠李戴，原文中好奇的对象并非人类。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "401",
+          "type": 8,
+          "title": "Tracking the elephants",
+          "instructions": "Questions 38-40\nComplete the summary below.\nChoose ONE WORD ONLY from the text for each answer.\nWrite your answers in boxes 38-40 on your answer sheet.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "1197713",
+              "number": 38,
+              "prompt": "The rain meant that shoots had grown, which attracted the elephants. It was hard to see the animals, even when using _____. Driving towards them was also difficult, because of bushes and rocks. As the expedition returned to their camp, the writer saw a _____, and then they had to use _____ as they prepared their meal.",
+              "options": [],
+              "answer": "binoculars",
+              "accepted_answers": [
+                "binoculars"
+              ],
+              "analysis": "题干要求填写用于观察大象的工具。段落 F 提到“we frequently had to climb up the rocks and peer through binoculars”，明确指出使用的是双筒望远镜。因此，根据“using”对应“peer through”，答案为 binoculars。",
+              "reason": "直接填写binoculars。",
+              "location_analysis": "原文：爬上山石，透过双筒望远镜观察。",
+              "paraphrasing": "using binoculars -> peer through binoculars",
+              "keywords": "peer through, binoculars",
+              "evidence": [
+                "we frequently had to climb up the rocks and peer through binoculars."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197714",
+              "number": 39,
+              "prompt": "The rain meant that shoots had grown, which attracted the elephants. It was hard to see the animals, even when using _____. Driving towards them was also difficult, because of bushes and rocks. As the expedition returned to their camp, the writer saw a _____, and then they had to use _____ as they prepared their meal.",
+              "options": [],
+              "answer": "rainbow",
+              "accepted_answers": [
+                "rainbow"
+              ],
+              "analysis": "题干要求填写作者返回营地途中看到的自然现象。段落 F 中写道：“I spotted a rainbow. In the desert!”，直接提到了彩虹。因此，根据“saw a”对应“spotted a”，答案为 rainbow。",
+              "reason": "直接填写rainbow。",
+              "location_analysis": "原文：看到彩虹。",
+              "paraphrasing": "saw a rainbow -> spotted a rainbow",
+              "keywords": "spotted, rainbow",
+              "evidence": [
+                "I spotted a rainbow. In the desert!"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "1197715",
+              "number": 40,
+              "prompt": "The rain meant that shoots had grown, which attracted the elephants. It was hard to see the animals, even when using _____. Driving towards them was also difficult, because of bushes and rocks. As the expedition returned to their camp, the writer saw a _____, and then they had to use _____ as they prepared their meal.",
+              "options": [],
+              "answer": "umbrellas",
+              "accepted_answers": [
+                "umbrellas"
+              ],
+              "analysis": "题干要求填写团队准备餐食时使用的物品。段落 F 结尾提到：“We certainly hadn’t expected to be cooking our barbecue under umbrellas!”，明确说明他们在伞下烧烤。因此，根据“use... as they prepared their meal”对应“cooking... under umbrellas”，答案为 umbrellas。",
+              "reason": "直接填写umbrellas。",
+              "location_analysis": "原文：在伞下烧烤。",
+              "paraphrasing": "use umbrellas while preparing meal -> cooking our barbecue under umbrellas",
+              "keywords": "cooking barbecue, under umbrellas",
+              "evidence": [
+                "We certainly hadn’t expected to be cooking our barbecue under umbrellas!"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "The rain meant that shoots had grown, which attracted the elephants. It was hard to see the animals, even when using $1197713$. Driving towards them was also difficult, because of bushes and rocks. As the expedition returned to their camp, the writer saw a $1197714$, and then they had to use $1197715$ as they prepared their meal.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "The rain meant that shoots had grown, which attracted the elephants. It was hard to see the animals, even when using $1197713$. Driving towards them was also difficult, because of bushes and rocks. As the expedition returned to their camp, the writer saw a $1197714$, and then they had to use $1197715$ as they prepared their meal."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Tracking elephants in Namibia",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "The elephants surrounded us, moving closer and closer.",
+          "translation": "大象包围了我们，越来越近。"
+        },
+        {
+          "index": 2,
+          "sentence": "Hendrick, our expert tracker, whispered: ‘I’m just checking whether they’re really eating or just pretending to eat.’",
+          "translation": "我们的专业追踪者亨德里克低声说：“我只是在确认它们是真的在吃东西，还是假装在吃。”"
+        },
+        {
+          "index": 3,
+          "sentence": "A voice screamed in my head ‘What do you mean pretending to eat?",
+          "translation": "一个声音在我脑海中尖叫：“你说假装在吃是什么意思？"
+        },
+        {
+          "index": 4,
+          "sentence": "Is that bad?’",
+          "translation": "那很糟糕吗？”"
+        },
+        {
+          "index": 5,
+          "sentence": "They were two metres away now, and just as I leaned towards him to ask for clarification, Hendrick raised his arm, pointing his index finger in the air — this was the signal not to move, not to make a sound, not to breathe.",
+          "translation": "它们现在离我们只有两米远，就在我靠向他想要问清楚时，亨德里克举起手臂，食指指向空中——这是不要动、不要出声、不要呼吸的信号。"
+        },
+        {
+          "index": 6,
+          "sentence": "The last time I had seen these elephants, 15 years earlier, I had narrowly escaped being flattened as they charged towards us, and was saved by the fact that the matriarch, the eldest member and authority on decision making, had been towards the back of the herd.",
+          "translation": "我上一次见到这些大象是在15年前，当时它们向我们冲过来，我险些被踩扁，幸免于难的原因是那头女族长，即最年长的成员和决策权威，当时在象群的后方。"
+        },
+        {
+          "index": 7,
+          "sentence": "The younger females, seeing us in their path, had turned to check and see what she wanted to do.",
+          "translation": "年轻的雌象看到我们挡在路上，便转身查看，想看看她打算怎么做。"
+        },
+        {
+          "index": 8,
+          "sentence": "That split second saved my life, giving us the chance to start the engine, and slam our 4x4 into reverse and out of their way.",
+          "translation": "那一瞬间救了我的命，给了我们机会发动引擎，将我们的四驱车猛地倒车，避开了它们。"
+        },
+        {
+          "index": 9,
+          "sentence": "They were really wild back then, rarely meeting humans in anything but a confrontational setting.",
+          "translation": "那时它们真的很野，很少在非对抗的环境中遇到人类。"
+        },
+        {
+          "index": 10,
+          "sentence": "But for years, Hendrick Munembone, and other rangers working alongside Elephant Human Relations Aid (EHRA), have tried to create a positive relationship, not only within the herds of elephants in the region, but also between the animals and the humans who live and work side by side with them — with a knock-on benefit for tourism.",
+          "translation": "但多年来，亨德里克·穆内姆博内（Hendrick Munembone）和其他与大象人类关系援助组织（EHRA）合作的护林员，一直努力建立一种积极的关系，不仅在该地区的大象群内部，也在动物与那些与它们并肩生活和工作的人类之间——这对旅游业也产生了连锁效益。"
+        },
+        {
+          "index": 11,
+          "sentence": "This time, as it turned out, they really were eating — which meant they were calm and curious rather than nervous and potentially aggressive. ‘They’re in a good mood,’ Hendrick whispered, putting me only slightly more at ease as they moved even closer towards the truck.",
+          "translation": "这一次，事实证明，它们确实在吃东西——这意味着它们很平静、好奇，而不是紧张且可能具有攻击性。“它们心情不错，”亨德里克低声说，这让我只是稍微放松了一点，因为它们离卡车更近了。"
+        },
+        {
+          "index": 12,
+          "sentence": "Elisabeth, one of our group, was taking data and had a pencil between her teeth.",
+          "translation": "我们小组的伊丽莎白（Elisabeth）正在记录数据，嘴里叼着一支铅笔。"
+        },
+        {
+          "index": 13,
+          "sentence": "Not daring to take it out, she kept it there, biting down hard on it.",
+          "translation": "她不敢拿出来，就一直那样叼着，用力咬住。"
+        },
+        {
+          "index": 14,
+          "sentence": "This was called the Mama Africa herd of elephants, and ‘Deliwe’ and her daughter ‘Hanna’ were so close now that we could see every detail of their faces, and feel their rumbling calls under our skin.",
+          "translation": "这群大象被称为“非洲妈妈”象群，“德利韦”（Deliwe）和她的女儿“汉娜”（Hanna）现在离我们如此之近，我们能看到它们脸上的每一个细节，并感受到它们低沉的叫声穿透我们的皮肤。"
+        },
+        {
+          "index": 15,
+          "sentence": "Just as it seemed as though Deliwe was about to take Elisabeth’s pencil with her trunk, Hendrick clapped his hands in quick bursts and the mother and daughter retreated a little.",
+          "translation": "就在德利韦似乎要用鼻子拿走伊丽莎白的铅笔时，亨德里克快速拍了几下手，这对母女便后退了一点。"
+        },
+        {
+          "index": 16,
+          "sentence": "We let out our breath.",
+          "translation": "我们松了一口气。"
+        },
+        {
+          "index": 17,
+          "sentence": "It’s great to go on adventures — even better to return to tell the tale.",
+          "translation": "去冒险很棒——能回来讲述故事就更好了。"
+        },
+        {
+          "index": 18,
+          "sentence": "We were not on safari, we were on patrol with EHRA to collect data: to record the locations of these herds, check their wellbeing, note down any injuries they may have suffered, make sure they were all there and record any new-borns.",
+          "translation": "我们不是在游猎，而是在与EHRA一起巡逻收集数据：记录这些象群的位置，检查它们的健康状况，记下它们可能遭受的任何伤害，确保它们都在，并记录任何新生幼象。"
+        },
+        {
+          "index": 19,
+          "sentence": "But this was not just about the wellbeing of the elephants, it was about the wellbeing of the participants — the women who had decided to join me and experience true wilderness, have close encounters with wildlife, face a challenge, support conservation efforts, trek through the desert, meet local women and relax.",
+          "translation": "但这不仅仅关乎大象的福祉，也关乎参与者的福祉——那些决定加入我、体验真正荒野、与野生动物近距离接触、面对挑战、支持保护工作、徒步穿越沙漠、结识当地女性并放松身心的女性。"
+        },
+        {
+          "index": 20,
+          "sentence": "I had first had the idea for an all-female expedition seven years before, but had done nothing about it.",
+          "translation": "七年前我就首次有了组织全女性探险队的想法，但一直没有付诸行动。"
+        },
+        {
+          "index": 21,
+          "sentence": "Then I happened to discuss it with a friend, and suddenly everything fell into place: a group of women, elephants, ten days in Namibia, EHRA.",
+          "translation": "后来我碰巧和一位朋友讨论了这个想法，突然间一切都水到渠成：一群女性、大象、在纳米比亚的十天、EHRA。"
+        },
+        {
+          "index": 22,
+          "sentence": "We could track desert elephants in one of my favourite places in the world, help EHRA with its work, and experience the beauty of the desert.",
+          "translation": "我们可以在我世界上最喜爱的地方之一追踪沙漠大象，帮助EHRA开展工作，并体验沙漠之美。"
+        },
+        {
+          "index": 23,
+          "sentence": "I could picture it all really clearly, but now I had to make it happen.",
+          "translation": "我能非常清晰地想象这一切，但现在我必须让它成为现实。"
+        },
+        {
+          "index": 24,
+          "sentence": "I contacted EHRA, who thought it was a great plan.",
+          "translation": "我联系了EHRA，他们认为这是一个很棒的计划。"
+        },
+        {
+          "index": 25,
+          "sentence": "But how to find the women?",
+          "translation": "但如何找到这些女性呢？"
+        },
+        {
+          "index": 26,
+          "sentence": "I wrote to all my female friends and asked them to spread the word, and soon I had a number wanting to know more.",
+          "translation": "我写信给我所有的女性朋友，请她们传播消息，很快就有一些人想了解更多。"
+        },
+        {
+          "index": 27,
+          "sentence": "Only three months after the idea took shape, we were there in Namibia, ten women of different ages and backgrounds.",
+          "translation": "这个想法成形仅三个月后，我们就到了纳米比亚，十位不同年龄和背景的女性。"
+        },
+        {
+          "index": 28,
+          "sentence": "When you think of Namibia, you think of desert, heat, baked cracked earth.",
+          "translation": "当你想到纳米比亚，你会想到沙漠、炎热、干裂的土地。"
+        },
+        {
+          "index": 29,
+          "sentence": "Instead we were greeted with rain.",
+          "translation": "然而我们却迎来了雨水。"
+        },
+        {
+          "index": 30,
+          "sentence": "It hadn’t rained properly for seven years, but now the rivers were in flood and the elephants had retreated to higher ground to eat the sweet new shoots.",
+          "translation": "已经七年没有好好下过雨了，但现在河流泛滥，大象退到了更高的地方去吃鲜嫩的新芽。"
+        },
+        {
+          "index": 31,
+          "sentence": "This made tracking them difficult, and we frequently had to climb up the rocks and peer through binoculars.",
+          "translation": "这使得追踪它们变得困难，我们经常不得不爬上岩石，用双筒望远镜仔细观察。"
+        },
+        {
+          "index": 32,
+          "sentence": "If someone had told me that an elephant could disguise itself as a rock I wouldn’t have believed them, but with thousands of these boulders in our view, it was almost impossible to distinguish the herd, despite Hendrick pointing wildly.",
+          "translation": "如果有人告诉我大象能伪装成岩石，我是不会相信的，但视野中有成千上万这样的巨石，尽管亨德里克拼命地指，我们几乎无法分辨出象群。"
+        },
+        {
+          "index": 33,
+          "sentence": "Once we had spotted them, we then had to try and get closer.",
+          "translation": "一旦我们发现了它们，接下来就得设法靠近。"
+        },
+        {
+          "index": 34,
+          "sentence": "Even with a 4x4, thorny bushes and protruding rocks made the going tough.",
+          "translation": "即使有四驱车，多刺的灌木丛和突出的岩石也使行进变得艰难。"
+        },
+        {
+          "index": 35,
+          "sentence": "Later, as we headed back to our camp, I spotted a rainbow.",
+          "translation": "后来，在我们返回营地时，我看到了一道彩虹。"
+        },
+        {
+          "index": 36,
+          "sentence": "In the desert!",
+          "translation": "在沙漠里！"
+        },
+        {
+          "index": 37,
+          "sentence": "It was an incredible sight, but of course it means there’s rain.",
+          "translation": "这景象令人难以置信，但当然这意味着有雨。"
+        },
+        {
+          "index": 38,
+          "sentence": "We certainly hadn’t expected to be cooking our barbecue under umbrellas!",
+          "translation": "我们绝对没想到会在雨伞下烧烤！"
+        },
+        {
+          "index": 39,
+          "sentence": "Even with rain, the spirits of this all-women team were not dampened: in fact it made for a great sense of community.",
+          "translation": "即使下雨，这支全女性团队的精神也没有被浇灭：事实上，这营造了一种强烈的集体感。"
+        },
+        {
+          "index": 40,
+          "sentence": "On the last day, as we sat in the safety of our truck, silently watching our animal counterparts seeking shade under a tree, I was struck by the similarity of our two groups, and wondered who was watching who more intently.",
+          "translation": "最后一天，当我们安全地坐在卡车里，静静地看着我们的动物同伴在树下寻找阴凉时，我被我们两个群体的相似性所震撼，并想知道谁在更专注地看着谁。"
+        },
+        {
+          "index": 41,
+          "sentence": "We were most definitely in their territory, but they didn’t seem to mind us being there — which showed that EHRA had succeeded in reducing tension between elephants and people.",
+          "translation": "我们无疑是在它们的领地上，但它们似乎并不介意我们在那里——这表明EHRA成功地减少了人与大象之间的紧张关系。"
+        }
+      ],
+      "translation_source": "book21_reviewed_completion_2026-07-13"
+    }
+  ],
+  "question_count": 40
+}

@@ -1,0 +1,2607 @@
+{
+  "id": "b14-test-3",
+  "book": "剑雅14",
+  "book_number": 14,
+  "name": "Test 3",
+  "title": "剑雅14 Test 3",
+  "parts": [
+    {
+      "id": "2063",
+      "number": 1,
+      "title": "Passage 1",
+      "article_title": "Your guide to entertainment in Westhaven",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "A TRAX INDOOR KARTING CENTRE",
+          "translation": "A TRACKS 室内卡丁车中心"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Experience the fun and thrills of indoor racing driving in our mini open-topped karts.No experience necessary. Individuals and groups welcome.Refreshments available in new burger bar. Spectators welcome.",
+          "translation": "在我们的微型敞篷卡丁车上体验室内赛车的乐趣与刺激。\n无需任何经验。\n个人和团体均可参加。\n新开的汉堡吧提供茶点。\n欢迎观众前来观看。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "All drivers must meet the minimum height requirement of 5 feet (1.52 m), and participate at their own risk.",
+          "translation": "所有驾驶员必须满足最低身高要求，即5英尺（1.52米），并自担风险参与。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Open: all year daily 10 am to 6 pm (later times by appointment) except Christmas Eve, Christmas Day, Boxing Day and New Year's Day",
+          "translation": "开放时间：全年每天上午10点至下午6点（可预约较晚时段），但平安夜、圣诞节、节礼日和新年当日除外。\n开放时间：全年每日"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Charges: from ￡11 per person",
+          "translation": "费用：每人11英镑起"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "B WESTHAVEN LIFEBOAT MUSEUM",
+          "translation": "B 韦斯特黑文救生艇博物馆"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "The Westhaven Lifeboat Museum is an exciting display illustrating over 150 years of courage - photos with texts of epic rescues, models of lifeboats and video displays.Try our hands-on simulator - take charge of a daring rescue on a stormy sea. Ideal for school groups! A must for all ages. Souvenir shop. No charge for admission but donations welcome.",
+          "translation": "韦斯特黑文救生艇博物馆是一个激动人心的展览，展示了150多年来的勇气——配有文字的史诗救援照片、救生艇模型和视频展示。\n试试我们的互动模拟器——在波涛汹涌的海上指挥一场大胆的救援行动。\n非常适合学校团体！\n老少皆宜，不可错过。\n设有纪念品商店。\n免费入场，但欢迎捐款。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "Open: 25th March to 26th October, 10 am to 5 pm",
+          "translation": "开放时间：3月25日至10月26日，上午10点至下午5点"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "27th October to 2nd January,10 am to 4 pm",
+          "translation": "10月27日至1月2日，上午10点至下午4点。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "C STAR LEISURE CENTRE",
+          "translation": "C 星乐休闲中心"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "Exciting leisure complex with four pools, wave machine, two thrilling flumes, bubble pool, fitness suite, special programme for under-fives, organised holiday activities and much, much more!",
+          "translation": "令人兴奋的休闲综合体，设有四个泳池、造浪机、两条惊险刺激的滑水道、气泡池、健身套间、针对五岁以下儿童的特别项目、组织好的假日活动以及更多精彩内容！"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "Open: all year daily",
+          "translation": "开放时间：全年每日"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "Charges: Check our website at www.starleisure.co.uk for current rates.",
+          "translation": "费用：请访问我们的网站 www.starleisure.co.uk 查询当前价格。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "D LLOYD's LANES",
+          "translation": "D 劳埃德保龄球馆"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "20 fully computerised ten-pin bowling lanes,amusement area, fast food area,large-screen Sky TV - Lloyd's Lanes is ideal for a whole fun day out!",
+          "translation": "20条全电脑化的十瓶保龄球道、游乐区、快餐区、大屏幕天空电视台电视——Lloyd's Lanes是享受一整天乐趣的理想之地！"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "Open: ten-pin bowling daily, 10 am till late - 7 days a week",
+          "translation": "开放时间：保龄球每日上午10点至深夜，每周7天营业。"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "Charges: Monday to Friday 10 am to 6 pm: non-members ￡3.50; members ￡2.50",
+          "translation": "费用：周一至周五上午10点至下午6点：非会员3.50英镑；会员2.50英镑"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "other times: non-members ￡4.50; members ￡3.75",
+          "translation": "其他时间：非会员4.50英镑；会员3.75英镑"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "appropriate footgear essential to protect bowling surfaces shoe hire ￡1.00 at all times",
+          "translation": "必须穿着合适的鞋具以保护保龄球道，随时可租鞋，租金1.00英镑。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "E WESTHAVEN GOLF CLUB",
+          "translation": "E 韦斯特黑文高尔夫俱乐部"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "Beautiful lakeside course; a pleasant, manageable walk through nine challenging holes. 24-bay driving range, suitable in rain, wind or sun; three golf professionals can give affordable coaching.Restaurant: good food served all day. Visitors welcome.",
+          "translation": "美丽的湖畔球场；穿越九个具有挑战性的球洞，是一次愉快且轻松的步行体验。\n拥有24个打位的练习场，适合在雨天、有风或晴天使用；三位高尔夫专业人士可提供价格实惠的指导。\n餐厅：全天供应美味的食物。\n欢迎游客光临。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "Open: all year from 7.30 am to 10 pm",
+          "translation": "开放时间：全年每天上午7:30至晚上10:00"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Charges: 9 holes ￡10; 18 holes ￡15",
+          "translation": "费用：9洞10英镑；18洞15英镑"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "DO YOU HAVE A MUSIC PROJECT IN MIND THAT MIGHT BENEFIT FROM FUNDING?",
+          "question_cue": {
+            "start": 8,
+            "end": 14
+          },
+          "translation": "您是否有一个可能受益于资助的音乐项目构想？"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "Music is wonderfully therapeutic! This is recognised by The Dosoco Foundation,which supports local projects that use music for social good.",
+          "translation": "音乐具有极好的治疗作用！\n这一点得到了Dosoco基金会的认可，该基金会支持利用音乐造福社会的本地项目。"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "The next round of Dosoco grant funding will shortly be open for applications.Grants are available from £700 to 1,000 (for organisations) and up to 300 (for individuals) in the areas of music education (e.g. working with a talented music student with either physical, social or learning disabilities), music access (e.g. a music club for groups that might struggle to start something on their own), music innovation (e.g. using an electronic device such as Raspberry Pi to help disabled people make music)and music therapy (e.g. an idea for using music to support positive mental health).",
+          "translation": "下一轮Dosoco资助基金即将开放申请。\n资助金额从700英镑到1000英镑不等（针对组织），个人最高可达300英镑，涵盖音乐教育（例如，与有身体、社交或学习障碍的天才音乐学生合作）、音乐普及（例如，为难以自行启动活动的群体设立音乐俱乐部）、音乐创新（例如，使用树莓派等电子设备帮助残障人士创作音乐）以及音乐治疗（例如，利用音乐支持积极心理健康的构想）等领域。"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "Case study",
+          "translation": "案例研究"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "Dosoco recently awarded a grant to Alexia Sloane, a young composer with sight loss, to enable her to attend the sound-and-music summer-school composition course at the Purcell School.Alexia has since gained a place as a composer with the National Youth Orchestra of Great Britain - the first blind composer to be appointed - and has also been awarded the title of Young Composer of the Year.She was the first female composer ever to receive this honour in its ten-year history.",
+          "translation": "多索科基金会最近向一位患有视力障碍的年轻作曲家亚历克西娅·斯隆提供了一笔资助，使她能够参加珀塞尔学校的音乐暑期学校作曲课程。\n亚历克西娅此后在英国国家青年管弦乐团获得了一席作曲家之位——她是首位被任命的盲人作曲家——并获得了年度青年作曲家的称号。\n她是该奖项十年历史上首位获此殊荣的女性作曲家。"
+        },
+        {
+          "label": "",
+          "index": 29,
+          "text": "Organisations, families and individuals can apply by completing a simple form. Dosoco can contribute up to 50% towards project costs. Projects must be locally based and must be new ideas for using music to make a positive impact on people's lives where help is really needed.",
+          "translation": "组织、家庭和个人可以通过填写简单表格进行申请。\nDosoco 最多可承担项目成本的50%。\n项目必须基于本地，且必须是利用音乐对真正需要帮助的人们的生活产生积极影响的新创意。"
+        },
+        {
+          "label": "",
+          "index": 30,
+          "text": "For more information please visit www.thedosocofoundation.org",
+          "translation": "欲了解更多信息，请访问 www.thedosocofoundation.org"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15531",
+          "type": 3,
+          "title": "",
+          "instructions": "Questions 1 - 7\nThe text has five advertisements labelled A-E.\nWhich advertisement contains the following information?\nWrite the correct letter A-E in boxes 1-7 on your answer sheet.\nNB You may use any letter more than once.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120087",
+              "number": 1,
+              "prompt": "Payment at this venue is optional.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“Payment at this venue is optional”意为该场所的付款是可选的。原文B段明确指出“No charge for admission but donations welcome”，即入场免费但欢迎捐款，这与题干中“付款可选”的含义完全一致，因此答案为B。",
+              "reason": "根据题干Payment at this venue is optional找到原文对应",
+              "location_analysis": "B段明确写明免费入场但欢迎捐款，符合付款可选。",
+              "paraphrasing": "Payment is optional -> No charge for admission but donations welcome",
+              "keywords": "Payment, optional",
+              "evidence": [
+                "No charge for admission but donations welcome."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120088",
+              "number": 2,
+              "prompt": "Expert instructors are available for lessons.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "E",
+              "accepted_answers": [
+                "E"
+              ],
+              "analysis": "题干中的“Expert instructors are available for lessons”对应原文E段中的“three golf professionals can give affordable coaching”。其中，“expert instructors”被替换为“golf professionals”，“lessons”被替换为“coaching”，说明该场所提供专业教练授课，因此答案为E。",
+              "reason": "题干Expert instructors对应professionals，lessons对应coaching",
+              "location_analysis": "E段三位高尔夫专业人士可提供实惠指导，对应专家授课。",
+              "paraphrasing": "Expert instructors -> three golf professionals; lessons -> coaching",
+              "keywords": "Expert instructors, lessons",
+              "evidence": [
+                "three golf professionals can give affordable coaching."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120089",
+              "number": 3,
+              "prompt": "There is a restriction on what you can wear.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干中的“There is a restriction on what you can wear”意为对穿着有限制。原文D段提到“appropriate footgear essential to protect bowling surfaces”，即必须穿合适的鞋以保护球道，这表明对鞋类（属于穿着）有明确要求，因此答案为D。",
+              "reason": "footgear即wear，restriction即essential要求",
+              "location_analysis": "D段要求穿合适的鞋来保护球道，即对穿着有规定。",
+              "paraphrasing": "restriction on what you can wear -> appropriate footgear essential",
+              "keywords": "restriction, wear",
+              "evidence": [
+                "appropriate footgear essential to protect bowling surfaces shoe hire ￡1.00 at all times"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120090",
+              "number": 4,
+              "prompt": "Some basic information is published in another place.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中的“Some basic information is published in another place”指部分基本信息发布在别处。原文C段写道“Check our website at www.starleisure.co.uk for current rates”，说明价格等基本信息需通过网站查询，即信息刊登在其他地方，因此答案为C。",
+              "reason": "题干another place对应website",
+              "location_analysis": "C段建议查看网站获取当前价格，即信息在别处发布。",
+              "paraphrasing": "information published in another place -> Check our website",
+              "keywords": "basic information, published, another place",
+              "evidence": [
+                "Check our website at www.starleisure.co.uk for current rates."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120091",
+              "number": 5,
+              "prompt": "This has particular provision for very young children.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干中的“This has particular provision for very young children”指该场所为幼儿提供特别安排。原文C段提到“special programme for under-fives”，其中“under-fives”即指五岁以下儿童，与“very young children”形成同义替换，因此答案为C。",
+              "reason": "under-fives即very young children",
+              "location_analysis": "C段为五岁以下儿童提供特别项目，对应幼儿设施。",
+              "paraphrasing": "very young children -> under-fives; provision -> special programme",
+              "keywords": "very young children, provision",
+              "evidence": [
+                "special programme for under-fives"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120092",
+              "number": 6,
+              "prompt": "lt has a feature especially recommended for educational parties.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干中的“It has a feature especially recommended for educational parties”意为该场所特别推荐用于教育团体活动。原文B段指出“Ideal for school groups!”，其中“school groups”对应“educational parties”，“Ideal”体现“especially recommended”，因此答案为B。",
+              "reason": "school groups对应educational parties",
+              "location_analysis": "B段称非常适合学校团体，即特别推荐给教育团体。",
+              "paraphrasing": "educational parties -> school groups; recommended -> Ideal",
+              "keywords": "educational parties, recommended",
+              "evidence": [
+                "Ideal for school groups!"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120093",
+              "number": 7,
+              "prompt": "They will open at unscheduled times if you make an arrangement.",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A"
+                },
+                {
+                  "value": "B",
+                  "label": "B"
+                },
+                {
+                  "value": "C",
+                  "label": "C"
+                },
+                {
+                  "value": "D",
+                  "label": "D"
+                },
+                {
+                  "value": "E",
+                  "label": "E"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干中的“They will open at unscheduled times if you make an arrangement”表示若提前安排，可在非固定时间开放。原文A段提到“Open: all year daily 10 am to 6 pm (later times by appointment)”，其中“by appointment”对应“make an arrangement”，“later times”即非规定时间，因此答案为A。",
+              "reason": "by appointment即make an arrangement",
+              "location_analysis": "A段可通过预约延长开放时间，即安排非固定时间。",
+              "paraphrasing": "unscheduled times -> later times; arrangement -> by appointment",
+              "keywords": "unscheduled times, arrangement",
+              "evidence": [
+                "Open: all year daily 10 am to 6 pm (later times by appointment)"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 3,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15533",
+          "type": 1,
+          "title": "",
+          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in Reading Passage 3?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120094",
+              "number": 8,
+              "prompt": "You can apply to Dosoco now for grant funding.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称“You can apply to Dosoco now for grant funding”，但原文明确说明“The next round of Dosoco grant funding will shortly be open for applications”，即申请尚未开放，只是即将开放，因此题干与原文矛盾，答案为FALSE。",
+              "reason": "will shortly be open表示未开放",
+              "location_analysis": "原文称即将开放，并非现在可以申请，故为FALSE。",
+              "paraphrasing": "apply now -> will shortly be open",
+              "keywords": "apply now, grant funding",
+              "evidence": [
+                "The next round of Dosoco grant funding will shortly be open for applications."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文中关于申请时间或条件的信息矛盾。",
+                "NOT GIVEN": "原文已明确提及申请资助金的可行性，因此不是未给出。"
+              }
+            },
+            {
+              "id": "120095",
+              "number": 9,
+              "prompt": "You can apply for a grant that will help to educate a musician.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“You can apply for a grant that will help to educate a musician”对应原文提到的资助领域之一“music education”，例如支持有残疾的音乐学生。这说明确实可以申请用于音乐教育的资助，因此答案为TRUE。",
+              "reason": "题干对应原文music education。",
+              "location_analysis": "grant funding areas包含music education。",
+              "paraphrasing": "educate a musician -> music education",
+              "keywords": "grant, educate a musician",
+              "evidence": [
+                "Grants are available from £700 to 1,000 (for organisations) and up to 300 (for individuals) in the areas of music education"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "原文明确表示可以申请资助教育音乐家，该选项与原文信息矛盾。",
+                "NOT GIVEN": "原文明确提到了可以申请资助教育音乐家，并非未提及。"
+              }
+            },
+            {
+              "id": "120096",
+              "number": 10,
+              "prompt": "Alexia Sloane lost her sight after attending a summer-school composition course.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干称Alexia Sloane是在参加暑期作曲课程后失明，但原文描述她为“a young composer with sight loss”获得资助去参加课程，说明她失明在前、上课在后，顺序与题干相反，因此答案为FALSE。",
+              "reason": "with sight loss表示已有视力问题，后参加课程",
+              "location_analysis": "原文Alexia先有视力丧失再参加课程，顺序相反。",
+              "paraphrasing": "lost sight after attending -> with sight loss ... to enable her to attend",
+              "keywords": "lost sight, after, summer-school",
+              "evidence": [
+                "Dosoco recently awarded a grant to Alexia Sloane, a young composer with sight loss, to enable her to attend the sound-and-music summer-school composition course at the Purcell School."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文信息矛盾，原文表明她在参加夏季课程之前就已失明。",
+                "NOT GIVEN": "原文明确提供了相关信息，并非未提及，且内容为假。"
+              }
+            },
+            {
+              "id": "120097",
+              "number": 11,
+              "prompt": "Alexia now plays several instruments with the National Youth Orchestra of Great Britain.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干说Alexia现在在国家青年管弦乐团演奏多种乐器，但原文仅提到她“gained a place as a composer”，即担任作曲家，并未提及她演奏任何乐器，更不用说“several instruments”，因此答案为FALSE。",
+              "reason": "题干plays instruments无原文依据",
+              "location_analysis": "原文Alexia是作曲家，未提及演奏多种乐器。",
+              "paraphrasing": "plays several instruments -> composer",
+              "keywords": "plays several instruments, National Youth Orchestra",
+              "evidence": [
+                "Alexia has since gained a place as a composer with the National Youth Orchestra of Great Britain"
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "该选项与原文中明确提及的相反信息矛盾。",
+                "NOT GIVEN": "原文中明确给出了相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120098",
+              "number": 12,
+              "prompt": "Alexia has received an award for her work in music.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "TRUE",
+              "accepted_answers": [
+                "TRUE",
+                "T"
+              ],
+              "analysis": "题干中的“Alexia has received an award for her work in music”对应原文“has also been awarded the title of Young Composer of the Year”，明确说明她因音乐成就获奖，因此题干与原文一致，答案为TRUE。",
+              "reason": "awarded the title直接对应award",
+              "location_analysis": "原文Alexia获得年度青年作曲家奖，即因其音乐工作获奖。",
+              "paraphrasing": "award -> awarded the title of Young Composer of the Year",
+              "keywords": "award, work in music",
+              "evidence": [
+                "has also been awarded the title of Young Composer of the Year."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "FALSE": "该选项与原文中明确提到的信息矛盾。",
+                "NOT GIVEN": "原文中明确提到了相关信息，并非未提及。"
+              }
+            },
+            {
+              "id": "120099",
+              "number": 13,
+              "prompt": "Applications can be made by filling in an online form.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "NOT GIVEN",
+              "accepted_answers": [
+                "NOT GIVEN",
+                "NG"
+              ],
+              "analysis": "题干称申请需填写在线表格，但原文只说“apply by completing a simple form”，并未说明该表格是线上还是纸质形式，因此无法判断是否为在线申请，答案为NOT GIVEN。",
+              "reason": "simple form未指定online形式",
+              "location_analysis": "原文未说明是线上还是线下表格，无法判断。",
+              "paraphrasing": "fill in an online form -> completing a simple form",
+              "keywords": "online form, apply",
+              "evidence": [
+                "Organisations, families and individuals can apply by completing a simple form."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "原文未提及是否可以通过在线表格申请，因此无法判断为正确。",
+                "FALSE": "原文未提及申请方式，因此无法判断为错误，属于无中生有。"
+              }
+            },
+            {
+              "id": "120100",
+              "number": 14,
+              "prompt": "ln some cases Dosoco will cover the full cost of the project.",
+              "options": [
+                {
+                  "value": "TRUE",
+                  "label": "TRUE"
+                },
+                {
+                  "value": "FALSE",
+                  "label": "FALSE"
+                },
+                {
+                  "value": "NOT GIVEN",
+                  "label": "NOT GIVEN"
+                }
+              ],
+              "answer": "FALSE",
+              "accepted_answers": [
+                "FALSE",
+                "F"
+              ],
+              "analysis": "题干声称Dosoco在某些情况下会承担项目全部费用，但原文明确指出“Dosoco can contribute up to 50% towards project costs”，即最多资助一半，不可能覆盖全额，因此题干与原文矛盾，答案为FALSE。",
+              "reason": "up to 50%表示不到100%",
+              "location_analysis": "原文最多资助50%费用，并非全额。",
+              "paraphrasing": "full cost -> up to 50%",
+              "keywords": "full cost, cover",
+              "evidence": [
+                "Dosoco can contribute up to 50% towards project costs."
+              ],
+              "confidence": 1,
+              "wrong_reasons": {
+                "TRUE": "与原文矛盾，原文明确指出Dosoco不会承担项目的全部成本。",
+                "NOT GIVEN": "原文已明确提及Dosoco不覆盖全部成本，因此该选项不成立。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 1,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        }
+      ],
+      "question_count": 14,
+      "source_article_title": "Your guide to entertainment in Westhaven",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "A TRAX INDOOR KARTING CENTRE",
+          "translation": "A TRACKS 室内卡丁车中心"
+        },
+        {
+          "index": 2,
+          "sentence": "Experience the fun and thrills of indoor racing driving in our mini open-topped karts.",
+          "translation": "在我们的微型敞篷卡丁车上体验室内赛车的乐趣与刺激。"
+        },
+        {
+          "index": 3,
+          "sentence": "No experience necessary.",
+          "translation": "无需任何经验。"
+        },
+        {
+          "index": 4,
+          "sentence": "Individuals and groups welcome.",
+          "translation": "个人和团体均可参加。"
+        },
+        {
+          "index": 5,
+          "sentence": "Refreshments available in new burger bar.",
+          "translation": "新开的汉堡吧提供茶点。"
+        },
+        {
+          "index": 6,
+          "sentence": "Spectators welcome.",
+          "translation": "欢迎观众前来观看。"
+        },
+        {
+          "index": 7,
+          "sentence": "All drivers must meet the minimum height requirement of 5 feet (1.52 m), and participate at their own risk.",
+          "translation": "所有驾驶员必须满足最低身高要求，即5英尺（1.52米），并自担风险参与。"
+        },
+        {
+          "index": 8,
+          "sentence": "Open: all year daily 10 am to 6 pm (later times by appointment) except Christmas Eve, Christmas Day, Boxing Day and New Year's Day",
+          "translation": "开放时间：全年每天上午10点至下午6点（可预约较晚时段），但平安夜、圣诞节、节礼日和新年当日除外。"
+        },
+        {
+          "index": 9,
+          "sentence": "Charges: from ￡11 per person",
+          "translation": "费用：每人11英镑起"
+        },
+        {
+          "index": 10,
+          "sentence": "B WESTHAVEN LIFEBOAT MUSEUM",
+          "translation": "B 韦斯特黑文救生艇博物馆"
+        },
+        {
+          "index": 11,
+          "sentence": "The Westhaven Lifeboat Museum is an exciting display illustrating over 150 years of courage - photos with texts of epic rescues, models of lifeboats and video displays.",
+          "translation": "韦斯特黑文救生艇博物馆是一个激动人心的展览，展示了150多年来的勇气——配有文字的史诗救援照片、救生艇模型和视频展示。"
+        },
+        {
+          "index": 12,
+          "sentence": "Try our hands-on simulator - take charge of a daring rescue on a stormy sea.",
+          "translation": "试试我们的互动模拟器——在波涛汹涌的海上指挥一场大胆的救援行动。"
+        },
+        {
+          "index": 13,
+          "sentence": "Ideal for school groups!",
+          "translation": "非常适合学校团体！"
+        },
+        {
+          "index": 14,
+          "sentence": "A must for all ages.",
+          "translation": "老少皆宜，不可错过。"
+        },
+        {
+          "index": 15,
+          "sentence": "Souvenir shop.",
+          "translation": "设有纪念品商店。"
+        },
+        {
+          "index": 16,
+          "sentence": "No charge for admission but donations welcome.",
+          "translation": "免费入场，但欢迎捐款。"
+        },
+        {
+          "index": 17,
+          "sentence": "Open: 25th March to 26th October, 10 am to 5 pm",
+          "translation": "开放时间：3月25日至10月26日，上午10点至下午5点"
+        },
+        {
+          "index": 18,
+          "sentence": "27th October to 2nd January,10 am to 4 pm",
+          "translation": "10月27日至1月2日，上午10点至下午4点。"
+        },
+        {
+          "index": 19,
+          "sentence": "C STAR LEISURE CENTRE",
+          "translation": "C 星乐休闲中心"
+        },
+        {
+          "index": 20,
+          "sentence": "Exciting leisure complex with four pools, wave machine, two thrilling flumes, bubble pool, fitness suite, special programme for under-fives, organised holiday activities and much, much more!",
+          "translation": "令人兴奋的休闲综合体，设有四个泳池、造浪机、两条惊险刺激的滑水道、气泡池、健身套间、针对五岁以下儿童的特别项目、组织好的假日活动以及更多精彩内容！"
+        },
+        {
+          "index": 21,
+          "sentence": "Open: all year daily",
+          "translation": "开放时间：全年每日"
+        },
+        {
+          "index": 22,
+          "sentence": "Charges: Check our website at www.starleisure.co.uk for current rates.",
+          "translation": "费用：请访问我们的网站 www.starleisure.co.uk 查询当前价格。"
+        },
+        {
+          "index": 23,
+          "sentence": "D LLOYD's LANES",
+          "translation": "D 劳埃德保龄球馆"
+        },
+        {
+          "index": 24,
+          "sentence": "20 fully computerised ten-pin bowling lanes, amusement area, fast food area, large-screen Sky TV - Lloyd's Lanes is ideal for a whole fun day out!",
+          "translation": "20条全电脑化的十瓶保龄球道、游乐区、快餐区、大屏幕天空电视台电视——Lloyd's Lanes是享受一整天乐趣的理想之地！"
+        },
+        {
+          "index": 25,
+          "sentence": "Open: ten-pin bowling daily, 10 am till late - 7 days a week",
+          "translation": "开放时间：保龄球每日上午10点至深夜，每周7天营业。"
+        },
+        {
+          "index": 26,
+          "sentence": "Charges: Monday to Friday 10 am to 6 pm: non-members ￡3.50; members ￡2.50",
+          "translation": "费用：周一至周五上午10点至下午6点：非会员3.50英镑；会员2.50英镑"
+        },
+        {
+          "index": 27,
+          "sentence": "other times: non-members ￡4.50; members ￡3.75",
+          "translation": "其他时间：非会员4.50英镑；会员3.75英镑"
+        },
+        {
+          "index": 28,
+          "sentence": "appropriate footgear essential to protect bowling surfaces shoe hire £1.00 at all times",
+          "translation": "必须穿着合适的鞋具以保护保龄球道，随时可租鞋，租金1.00英镑。"
+        },
+        {
+          "index": 29,
+          "sentence": "E WESTHAVEN GOLF CLUB",
+          "translation": "E 韦斯特黑文高尔夫俱乐部"
+        },
+        {
+          "index": 30,
+          "sentence": "Beautiful lakeside course; a pleasant, manageable walk through nine challenging holes.",
+          "translation": "美丽的湖畔球场；穿越九个具有挑战性的球洞，是一次愉快且轻松的步行体验。"
+        },
+        {
+          "index": 31,
+          "sentence": "24-bay driving range, suitable in rain, wind or sun; three golf professionals can give affordable coaching.",
+          "translation": "拥有24个打位的练习场，适合在雨天、有风或晴天使用；三位高尔夫专业人士可提供价格实惠的指导。"
+        },
+        {
+          "index": 32,
+          "sentence": "Restaurant: good food served all day.",
+          "translation": "餐厅：全天供应美味的食物。"
+        },
+        {
+          "index": 33,
+          "sentence": "Visitors welcome.",
+          "translation": "欢迎游客光临。"
+        },
+        {
+          "index": 34,
+          "sentence": "Open: all year from 7.30 am to 10 pm",
+          "translation": "开放时间：全年每天上午7:30至晚上10:00"
+        },
+        {
+          "index": 35,
+          "sentence": "Charges: 9 holes ￡10; 18 holes ￡15",
+          "translation": "费用：9洞10英镑；18洞15英镑"
+        },
+        {
+          "index": 36,
+          "sentence": "DO YOU HAVE A MUSIC PROJECT IN MIND THAT MIGHT BENEFIT FROM FUNDING?",
+          "translation": "您是否有一个可能受益于资助的音乐项目构想？"
+        },
+        {
+          "index": 37,
+          "sentence": "Music is wonderfully therapeutic!",
+          "translation": "音乐具有极好的治疗作用！"
+        },
+        {
+          "index": 38,
+          "sentence": "This is recognised by The Dosoco Foundation, which supports local projects that use music for social good.",
+          "translation": "这一点得到了Dosoco基金会的认可，该基金会支持利用音乐造福社会的本地项目。"
+        },
+        {
+          "index": 39,
+          "sentence": "The next round of Dosoco grant funding will shortly be open for applications.",
+          "translation": "下一轮Dosoco资助基金即将开放申请。"
+        },
+        {
+          "index": 40,
+          "sentence": "Grants are available from £700 to 1,000 (for organisations) and up to 300 (for individuals) in the areas of music education (e.g. working with a talented music student with either physical, social or learning disabilities), music access (e.g. a music club for groups that might struggle to start something on their own), music innovation (e.g. using an electronic device such as Raspberry Pi to help disabled people make music)and music therapy (e.g. an idea for using music to support positive mental health).",
+          "translation": "资助金额从700英镑到1000英镑不等（针对组织），个人最高可达300英镑，涵盖音乐教育（例如，与有身体、社交或学习障碍的天才音乐学生合作）、音乐普及（例如，为难以自行启动活动的群体设立音乐俱乐部）、音乐创新（例如，使用树莓派等电子设备帮助残障人士创作音乐）以及音乐治疗（例如，利用音乐支持积极心理健康的构想）等领域。"
+        },
+        {
+          "index": 41,
+          "sentence": "Case study",
+          "translation": "案例研究"
+        },
+        {
+          "index": 42,
+          "sentence": "Dosoco recently awarded a grant to Alexia Sloane, a young composer with sight loss, to enable her to attend the sound-and-music summer-school composition course at the Purcell School.",
+          "translation": "多索科基金会最近向一位患有视力障碍的年轻作曲家亚历克西娅·斯隆提供了一笔资助，使她能够参加珀塞尔学校的音乐暑期学校作曲课程。"
+        },
+        {
+          "index": 43,
+          "sentence": "Alexia has since gained a place as a composer with the National Youth Orchestra of Great Britain - the first blind composer to be appointed - and has also been awarded the title of Young Composer of the Year.",
+          "translation": "亚历克西娅此后在英国国家青年管弦乐团获得了一席作曲家之位——她是首位被任命的盲人作曲家——并获得了年度青年作曲家的称号。"
+        },
+        {
+          "index": 44,
+          "sentence": "She was the first female composer ever to receive this honour in its ten-year history.",
+          "translation": "她是该奖项十年历史上首位获此殊荣的女性作曲家。"
+        },
+        {
+          "index": 45,
+          "sentence": "Organisations, families and individuals can apply by completing a simple form.",
+          "translation": "组织、家庭和个人可以通过填写简单表格进行申请。"
+        },
+        {
+          "index": 46,
+          "sentence": "Dosoco can contribute up to 50% towards project costs.",
+          "translation": "Dosoco 最多可承担项目成本的50%。"
+        },
+        {
+          "index": 47,
+          "sentence": "Projects must be locally based and must be new ideas for using music to make a positive impact on people's lives where help is really needed.",
+          "translation": "项目必须基于本地，且必须是利用音乐对真正需要帮助的人们的生活产生积极影响的新创意。"
+        },
+        {
+          "index": 48,
+          "sentence": "For more information please visit www.thedosocofoundation.org",
+          "translation": "欲了解更多信息，请访问 www.thedosocofoundation.org"
+        }
+      ]
+    },
+    {
+      "id": "2064",
+      "number": 2,
+      "title": "Passage 2",
+      "article_title": "Guide to employees on workplace monitoring",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "What is workplace monitoring?",
+          "translation": "什么是工作场所监控？"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "Employers have the right to monitor your activities in many situations at work. For example, your activities may be recorded on CCTV cameras, and your letters maybe opened and read. In addition, your employer may use an automated software programme to check the emails you receive at work. Phone calls may be listened to and recorded, and the log of websites you use may be checked.",
+          "translation": "雇主在许多工作场合有权监控你的活动。\n例如，你的活动可能被闭路电视摄像机记录，你的信件也可能被拆开阅读。\n此外，你的雇主可能使用自动化软件程序检查你在工作中收到的电子邮件。\n电话可能被监听和录音，而且你访问网站的记录也可能被检查。"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "All of these forms of monitoring are covered by data protection law. Data protection law doesn't prevent monitoring in the workplace.However, it does set down rules about the circumstances and the way in which monitoring should be carried out.",
+          "translation": "所有这些监控形式都受到数据保护法的管辖。\n数据保护法并不禁止工作场所的监控。\n然而，它确实制定了关于应进行监控的环境和方式的规定。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "Before deciding whether to introduce monitoring, your employer should identify any negative effects the monitoring may have on staff. This is called impact assessment.",
+          "translation": "在决定是否引入监控之前，你的雇主应识别监控可能对员工产生的任何负面影响。\n这被称为影响评估。"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Monitoring electronic communications at work",
+          "translation": "工作中的电子通讯监控"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "Your employer can legally monitor your use of electronic communications in the workplace if the monitoring relates to the business and the equipment being monitored is provided partly or wholly for work.",
+          "translation": "如果监控与业务相关，且被监控的设备部分或全部由雇主提供用于工作，那么雇主可以合法地监控你在工作场所对电子通信的使用。"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Except in extremely limited circumstances, employers must take reasonable steps to let staff know that monitoring is happening, what is being monitored and why it is necessary.",
+          "translation": "除非在极其有限的情况下，雇主必须采取合理措施让员工知晓监控正在实施、哪些内容被监控以及监控的必要原因。"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "As long as your employer sticks to these rules, they don't need to get your consent before they monitor your electronic communications, but only if the monitoring is for specific reasons. These may be to establish facts which are relevant to the business or to check standards, for example, listening in to phone calls to assess the quality of your work. Monitoring is also allowed if its purpose is to prevent or detect crime.It may be necessary to make sure electronic systems are operating effectively, for example, to prevent computer viruses entering the system. Your employer is also allowed to listen in to any calls you make to confidential helplines, but in this case he or she is not allowed to record these calls.",
+          "translation": "只要你的雇主遵守这些规定，他们就不需要在监控你的电子通讯之前获得你的同意，但前提是这种监控出于特定原因。\n这些原因可能是为了确认与业务相关的事实或检查标准，例如监听电话以评估你的工作质量。\n如果监控的目的是预防或侦测犯罪，这也是允许的。\n这可能有必要确保电子系统有效运行，例如防止计算机病毒进入系统。\n你的雇主也可以监听你拨打给保密求助热线的任何电话，但在这种情况下，他或她不得记录这些通话。"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "International Experience Canada: application process",
+          "question_cue": {
+            "start": 22,
+            "end": 27
+          },
+          "translation": "加拿大国际体验：申请流程"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "If you want to travel and work temporarily in Canada as part of International Experience Canada (IEC), your first step is to become a candidate in one or more IEC pools. There are three categories of pool: International Co-op (Internship), Working Holiday and Young Professionals.",
+          "translation": "如果你想通过国际体验加拿大计划（IEC）在加拿大临时旅行和工作，第一步是在一个或多个IEC候选池中成为候选人。"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "To apply, first use our questionnaire to see if you meet the criteria to get into the IEC pools. This should take you about ten minutes. You can find it at www.cic.gc.ca/ctc-vac/come to canada.asp . After completing this, if you are eligible you will be sent a personal reference code, which you should use to create your online account. At the same time, you should fill in any remaining fields in your profile with the required information,including which IEC pools you want to be in.(Some parts will already have been completed for you.)",
+          "translation": "申请时，首先使用我们的问卷来查看您是否符合进入IEC候选池的标准。\n这大约需要您十分钟时间。\n您可以在www.cic.gc.ca/ctc-vac/come to canada.asp 找到它。\n完成此步骤后，如果您符合条件，您将收到一个个人参考代码，您应使用它来创建您的在线账户。\n与此同时，您应在个人资料中填写所有剩余字段，提供所需信息，包括您希望加入哪些IEC候选池。\n（某些部分可能已经为您预先填写完成。）"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "If you are sent an invitation to proceed with your application, you will have 10 days to decide whether to accept this or not. If you accept, click the 'Start Application' button.You then have 20 days to complete your application.",
+          "translation": "如果您收到继续申请的邀请，您将有10天时间来决定是否接受。\n如果您接受，请点击“开始申请”按钮。\n然后您有20天时间来完成您的申请。"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "For International Co-op and Young Professionals categories, your employer in Canada must pay the compliance fee and inform you of your offer of employment number. (This does not apply to the Working Holiday pool.)",
+          "translation": "对于国际实习合作和青年专业人员类别，你在加拿大的雇主必须支付合规费用，并告知你工作录用编号。\n（这不适用于打工度假类别池。）"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "Once you have received this, you should then upload copies of police and medical certificates, if required. If you do not have these,you should upload proof that you have applied for them. You should then pay your participation fee of C$126 online by credit card. (There is an additional payment of C$100 if you are applying for the Working Holiday category.)",
+          "translation": "一旦你收到此信息，如有需要，你应上传警方证明和医疗证明的副本。\n如果你没有这些文件，你应上传已申请这些文件的相关证明。\n随后，你应使用信用卡在线支付126加元的参与费。\n（如果你申请的是打工度假类别，则需额外支付100加元。）"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Your application will then be assessed. You can apply to withdraw at this stage and will be given a refund if you do this within 56 days. If your application is successful, you will receive a letter of introduction which you can show to immigration when you enter Canada.",
+          "translation": "随后，您的申请将会被评估。\n您可以在这一阶段申请退出，如果在56天内提出，您将获得退款。\n如果您的申请成功，您将收到一封介绍信，在进入加拿大时可向移民部门出示。"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15541",
+          "type": 8,
+          "title": "Guide to employees on workplace monitoring",
+          "instructions": "Questions 15 - 21\nComplete the notes below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120101",
+              "number": 15,
+              "prompt": "• recordings of your activities — • your letters and _____",
+              "options": [],
+              "answer": "emails",
+              "accepted_answers": [
+                "emails"
+              ],
+              "analysis": "题干中提到雇主可能通过检查‘letters and ___’来监控员工，原文第二段明确指出‘your letters maybe opened and read’，紧接着说明‘your employer may use an automated software programme to check the emails you receive at work’。因此，空格处应填入‘emails’，与‘letters’并列，共同构成被监控的通信内容。",
+              "reason": "空格前为letters，原文紧接着提到检查emails。",
+              "location_analysis": "原文提及监控包括letters maybe opened and read，其后提到的是ema...",
+              "paraphrasing": "your letters and... -> your letters maybe opened and read",
+              "keywords": "monitor, letters",
+              "evidence": [
+                "In addition, your employer may use an automated software programme to check the emails you receive at work."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120102",
+              "number": 16,
+              "prompt": "Rules for monitoring are established by data protection law. This states that employers must carry out a procedure that is known as _____ before introducing monitoring.",
+              "options": [],
+              "answer": "impact assessment",
+              "accepted_answers": [
+                "impact assessment"
+              ],
+              "analysis": "题干要求填写雇主在引入监控行为前应进行的程序名称。原文第四段明确指出：‘Before deciding whether to introduce monitoring, your employer should identify any negative effects... This is called impact assessment.’ 因此，该程序被称为‘impact assessment’，直接对应题干中的描述。",
+              "reason": "题干问before introducing monitoring的程序名称。",
+              "location_analysis": "原文明确说明该程序称为impact assessment。",
+              "paraphrasing": "procedure known as -> called impact assessment",
+              "keywords": "procedure, impact assessment",
+              "evidence": [
+                "This is called impact assessment."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120103",
+              "number": 17,
+              "prompt": "• it relates to the business — • you are using _____ intended for work",
+              "options": [],
+              "answer": "equipment",
+              "accepted_answers": [
+                "equipment"
+              ],
+              "analysis": "题干中‘you are using ___ intended for work’对应原文第六段的条件之一：‘the equipment being monitored is provided partly or wholly for work’。此处‘equipment’指用于工作的设备，如电脑或电话，是监控合法性的前提之一，因此答案为‘equipment’。",
+              "reason": "题干提及using...intended for work，原文是equipment provided for work。",
+              "location_analysis": "题干要求填用于工作的物品，原文对应equipment。",
+              "paraphrasing": "using ... intended for work -> the equipment being monitored is provided partly or wholly for work",
+              "keywords": "equipment, work, monitoring",
+              "evidence": [
+                "Your employer can legally monitor your use of electronic communications in the workplace if the monitoring relates to the business and the equipment being monitored is provided partly or wholly for work."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120104",
+              "number": 18,
+              "prompt": "Monitoring may be used — • to evaluate the _____ of your work",
+              "options": [],
+              "answer": "quality",
+              "accepted_answers": [
+                "quality"
+              ],
+              "analysis": "题干中‘evaluate the ___ of your work’对应原文第八段的例子：‘listening in to phone calls to assess the quality of your work’。其中‘assess the quality’与‘evaluate the quality’为同义表达，说明监控可用于评估工作质量，因此答案为‘quality’。",
+              "reason": "题干evaluate对应assess，quality为答案。",
+              "location_analysis": "原文提到check standards对应的具体例子是assess the quality o...",
+              "paraphrasing": "evaluate the ... of your work -> check standards; ...to assess the quality of your work",
+              "keywords": "evaluate, check standards",
+              "evidence": [
+                "These may be to establish facts which are relevant to the business or to check standards, for example, listening in to phone calls to assess the quality of your work."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120105",
+              "number": 19,
+              "prompt": "• to stop or find out about _____",
+              "options": [],
+              "answer": "crime",
+              "accepted_answers": [
+                "crime"
+              ],
+              "analysis": "题干中‘to stop or find out about ___’对应原文第八段的表述：‘Monitoring is also allowed if its purpose is to prevent or detect crime’。‘stop’对应‘prevent’，‘find out about’对应‘detect’，因此空格处应填入‘crime’，表示监控可用于预防或发现犯罪行为。",
+              "reason": "题干stop对应prevent，find out about对应detect。",
+              "location_analysis": "原文的prevent or detect crime与题干同义。",
+              "paraphrasing": "stop or find out about -> prevent or detect",
+              "keywords": "stop or find out about",
+              "evidence": [
+                "Monitoring is also allowed if its purpose is to prevent or detect crime."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120106",
+              "number": 20,
+              "prompt": "• to stop the possibility of _____ affecting systems",
+              "options": [],
+              "answer": "viruses / computer viruses",
+              "accepted_answers": [
+                "viruses / computer viruses",
+                "viruses",
+                "computer viruses"
+              ],
+              "analysis": "题干中‘to stop the possibility of ___ affecting systems’对应原文第八段的举例：‘to prevent computer viruses entering the system’。‘affecting systems’即指病毒对电子系统的威胁，因此答案为‘viruses’，符合‘NO MORE THAN TWO WORDS’的要求。",
+              "reason": "题干affecting systems对应原文entering the system。",
+              "location_analysis": "原文说明监控可防止病毒进入系统，故填viruses。",
+              "paraphrasing": "stop the possibility of ... affecting systems -> to prevent computer viruses entering the system",
+              "keywords": "stop the possibility of, affecting systems",
+              "evidence": [
+                "It may be necessary to make sure electronic systems are operating effectively, for example, to prevent computer viruses entering the system."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120107",
+              "number": 21,
+              "prompt": "• to check calls to _____(these cannot be recorded)",
+              "options": [],
+              "answer": "helplines / confidential helplines",
+              "accepted_answers": [
+                "helplines / confidential helplines",
+                "helplines",
+                "confidential helplines"
+              ],
+              "analysis": "题干提到‘check calls to ___ (these cannot be recorded)’，原文第八段明确说明：‘Your employer is also allowed to listen in to any calls you make to confidential helplines, but... not allowed to record these calls’。‘helplines’即保密热线，且强调不可录音，完全匹配题干条件，故答案为‘helplines’。",
+              "reason": "题干cannot be recorded对应原文not allowed to record。",
+              "location_analysis": "原文提到雇主可对保密热线监听从但不记录。",
+              "paraphrasing": "check calls to -> listen in to any calls you make to",
+              "keywords": "check calls to, cannot be recorded",
+              "evidence": [
+                "Your employer is also allowed to listen in to any calls you make to confidential helplines, but in this case he or she is not allowed to record these calls."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Your employer may monitor you at work by checking\n• recordings of your activities\n• your letters and $120101$\n• your phone calls and which websites you have visited\nRules for monitoring are established by data protection law. This states that employers must carry out a procedure that is known as $120102$ before introducing monitoring.\nIn general, monitoring is legal if\n• it relates to the business\n• you are using $120103$ intended for work\n• the worker has been informed\nMonitoring may be used\n• to evaluate the $120104$ of your work\n• to stop or find out about $120105$\n• to stop the possibility of $120106$ affecting systems\n• to check calls to $120107$(these cannot be recorded)",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Your employer may monitor you at work by checking\n• recordings of your activities\n• your letters and $120101$\n• your phone calls and which websites you have visited\nRules for monitoring are established by data protection law. This states that employers must carry out a procedure that is known as $120102$ before introducing monitoring.\nIn general, monitoring is legal if\n• it relates to the business\n• you are using $120103$ intended for work\n• the worker has been informed\nMonitoring may be used\n• to evaluate the $120104$ of your work\n• to stop or find out about $120105$\n• to stop the possibility of $120106$ affecting systems\n• to check calls to $120107$(these cannot be recorded)"
+        },
+        {
+          "id": "15543",
+          "type": 8,
+          "title": "Applying to International Experience Canada",
+          "instructions": "Questions 22 - 27\nComplete the flow-chart.\nWrite ONE WORD AND/OR A NUMBER ONLY from the text in each gap.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120108",
+              "number": 22,
+              "prompt": "Fill in the online _____ to get a personal reference code.",
+              "options": [],
+              "answer": "questionnaire",
+              "accepted_answers": [
+                "questionnaire"
+              ],
+              "analysis": "题干要求填写用于获取个人参考码的在线工具。原文第十二段首句指出：‘To apply, first use our questionnaire to see if you meet the criteria... you will be sent a personal reference code’。因此，此处应填入‘questionnaire’，即申请者需先完成问卷。",
+              "reason": "题干描述与原文一致，填questionnaire。",
+              "location_analysis": "原文第一步就是填写questionnaire。",
+              "paraphrasing": "Fill in the online questionnaire -> use our questionnaire to see if you meet the criteria",
+              "keywords": "Fill in, get a personal reference code",
+              "evidence": [
+                "To apply, first use our questionnaire to see if you meet the criteria to get into the IEC pools.",
+                "After completing this, if you are eligible you will be sent a personal reference code"
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120109",
+              "number": 23,
+              "prompt": "Create your _____ and provide the necessary information for the profile in your application.",
+              "options": [],
+              "answer": "account",
+              "accepted_answers": [
+                "account"
+              ],
+              "analysis": "题干中‘Create your ___’对应原文第十二段：‘you will be sent a personal reference code, which you should use to create your online account’。因此，空格处应填入‘account’，指用参考码创建在线账户，符合‘ONE WORD’的要求。",
+              "reason": "题干create your对应create your online account。",
+              "location_analysis": "原文要求创建online account。",
+              "paraphrasing": "Create your online account -> create your online account",
+              "keywords": "Create your, provide information",
+              "evidence": [
+                "After completing this, if you are eligible you will be sent a personal reference code, which you should use to create your online account."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120110",
+              "number": 24,
+              "prompt": "If sent an invitation, you must accept this within _____.",
+              "options": [],
+              "answer": "10 days",
+              "accepted_answers": [
+                "10 days"
+              ],
+              "analysis": "题干问接受邀请的时限，原文第十三段明确说明：‘If you are sent an invitation... you will have 10 days to decide whether to accept this or not’。因此，答案为‘10 days’，直接引用原文数字和单位，符合题目要求。",
+              "reason": "题干within+空格，原文直接给出10 days。",
+              "location_analysis": "原文明确说10天期限接受。",
+              "paraphrasing": "accept this within 10 days -> have 10 days to decide whether to accept this",
+              "keywords": "accept this within",
+              "evidence": [
+                "If you are sent an invitation to proceed with your application, you will have 10 days to decide whether to accept this or not."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120111",
+              "number": 25,
+              "prompt": "You then have a limited time to _____ the application.",
+              "options": [],
+              "answer": "complete",
+              "accepted_answers": [
+                "complete"
+              ],
+              "analysis": "题干中‘you then have a limited time to ___ the application’对应原文第十三段：‘You then have 20 days to complete your application’。动词‘complete’准确描述了在规定时间内完成申请的动作，因此答案为‘complete’。",
+              "reason": "题干a limited time to后接动词，原文complete。",
+              "location_analysis": "原文说明有20天完成申请，空格填complete。",
+              "paraphrasing": "have a limited time to complete the application -> You then have 20 days to complete your application",
+              "keywords": "limited time to, application",
+              "evidence": [
+                "You then have 20 days to complete your application."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120112",
+              "number": 26,
+              "prompt": "Your _____ is required to send you an offer of employment number.",
+              "options": [],
+              "answer": "employer",
+              "accepted_answers": [
+                "employer"
+              ],
+              "analysis": "题干中‘Your ___ is required to send you an offer of employment number’对应原文第十四段：‘your employer in Canada must... inform you of your offer of employment number’。因此，此处应填入‘employer’，指加拿大雇主负责提供该编号。",
+              "reason": "题干Your...is required，原文Your employer。",
+              "location_analysis": "原文说明employer需要发送offer of employment number。",
+              "paraphrasing": "Your employer in Canada must pay the compliance fee and inform you of your offer of employment number",
+              "keywords": "required to send you an offer of employment number",
+              "evidence": [
+                "For International Co-op and Young Professionals categories, your employer in Canada must pay the compliance fee and inform you of your offer of employment number."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120113",
+              "number": 27,
+              "prompt": "Make the payment for participation online. You may receive a _____ later if you change your mind.",
+              "options": [],
+              "answer": "refund",
+              "accepted_answers": [
+                "refund"
+              ],
+              "analysis": "题干中‘You may receive a ___ later if you change your mind’对应原文第十六段：‘You can apply to withdraw... and will be given a refund if you do this within 56 days’。‘refund’即退款，与‘change your mind’（撤回申请）直接相关，因此答案为‘refund’。",
+              "reason": "题干receive a...与原文refund对应。",
+              "location_analysis": "原文规定56天内撤回可获退款。",
+              "paraphrasing": "receive a refund later if you change your mind -> will be given a refund if you do this within 56 days",
+              "keywords": "receive a, later if you change your mind",
+              "evidence": [
+                "You can apply to withdraw at this stage and will be given a refund if you do this within 56 days."
+              ],
+              "confidence": 1,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 8,
+            "collect": "Fill in the online $120108$ to get a personal reference code.\n↓\nCreate your $120109$ and provide the necessary information for the profile in your application.\n↓\nIf sent an invitation, you must accept this within $120110$.\nYou then have a limited time to $120111$ the application.\n↓\nYour $120112$ is required to send you an offer of employment number.\n↓\nUpload copies of any necessary certificates or proof of application.\n↓\nMake the payment for participation online. You may receive a $120113$ later if you change your mind.\n↓\nIf successful, you will receive a letter of introduction to be shown at Immigration.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "Fill in the online $120108$ to get a personal reference code.\n↓\nCreate your $120109$ and provide the necessary information for the profile in your application.\n↓\nIf sent an invitation, you must accept this within $120110$.\nYou then have a limited time to $120111$ the application.\n↓\nYour $120112$ is required to send you an offer of employment number.\n↓\nUpload copies of any necessary certificates or proof of application.\n↓\nMake the payment for participation online. You may receive a $120113$ later if you change your mind.\n↓\nIf successful, you will receive a letter of introduction to be shown at Immigration."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "Guide to employees on workplace monitoring",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "What is workplace monitoring?",
+          "translation": "什么是工作场所监控？"
+        },
+        {
+          "index": 2,
+          "sentence": "Employers have the right to monitor your activities in many situations at work.",
+          "translation": "雇主在许多工作场合有权监控你的活动。"
+        },
+        {
+          "index": 3,
+          "sentence": "For example, your activities may be recorded on CCTV cameras, and your letters maybe opened and read.",
+          "translation": "例如，你的活动可能被闭路电视摄像机记录，你的信件也可能被拆开阅读。"
+        },
+        {
+          "index": 4,
+          "sentence": "In addition, your employer may use an automated software programme to check the emails you receive at work.",
+          "translation": "此外，你的雇主可能使用自动化软件程序检查你在工作中收到的电子邮件。"
+        },
+        {
+          "index": 5,
+          "sentence": "Phone calls may be listened to and recorded, and the log of websites you use may be checked.",
+          "translation": "电话可能被监听和录音，而且你访问网站的记录也可能被检查。"
+        },
+        {
+          "index": 6,
+          "sentence": "All of these forms of monitoring are covered by data protection law.",
+          "translation": "所有这些监控形式都受到数据保护法的管辖。"
+        },
+        {
+          "index": 7,
+          "sentence": "Data protection law doesn't prevent monitoring in the workplace.",
+          "translation": "数据保护法并不禁止工作场所的监控。"
+        },
+        {
+          "index": 8,
+          "sentence": "However, it does set down rules about the circumstances and the way in which monitoring should be carried out.",
+          "translation": "然而，它确实制定了关于应进行监控的环境和方式的规定。"
+        },
+        {
+          "index": 9,
+          "sentence": "Before deciding whether to introduce monitoring, your employer should identify any negative effects the monitoring may have on staff.",
+          "translation": "在决定是否引入监控之前，你的雇主应识别监控可能对员工产生的任何负面影响。"
+        },
+        {
+          "index": 10,
+          "sentence": "This is called impact assessment.",
+          "translation": "这被称为影响评估。"
+        },
+        {
+          "index": 11,
+          "sentence": "Monitoring electronic communications at work",
+          "translation": "工作中的电子通讯监控"
+        },
+        {
+          "index": 12,
+          "sentence": "Your employer can legally monitor your use of electronic communications in the workplace if the monitoring relates to the business and the equipment being monitored is provided partly or wholly for work.",
+          "translation": "如果监控与业务相关，且被监控的设备部分或全部由雇主提供用于工作，那么雇主可以合法地监控你在工作场所对电子通信的使用。"
+        },
+        {
+          "index": 13,
+          "sentence": "Except in extremely limited circumstances, employers must take reasonable steps to let staff know that monitoring is happening, what is being monitored and why it is necessary.",
+          "translation": "除非在极其有限的情况下，雇主必须采取合理措施让员工知晓监控正在实施、哪些内容被监控以及监控的必要原因。"
+        },
+        {
+          "index": 14,
+          "sentence": "As long as your employer sticks to these rules, they don't need to get your consent before they monitor your electronic communications, but only if the monitoring is for specific reasons.",
+          "translation": "只要你的雇主遵守这些规定，他们就不需要在监控你的电子通讯之前获得你的同意，但前提是这种监控出于特定原因。"
+        },
+        {
+          "index": 15,
+          "sentence": "These may be to establish facts which are relevant to the business or to check standards, for example, listening in to phone calls to assess the quality of your work.",
+          "translation": "这些原因可能是为了确认与业务相关的事实或检查标准，例如监听电话以评估你的工作质量。"
+        },
+        {
+          "index": 16,
+          "sentence": "Monitoring is also allowed if its purpose is to prevent or detect crime.",
+          "translation": "如果监控的目的是预防或侦测犯罪，这也是允许的。"
+        },
+        {
+          "index": 17,
+          "sentence": "It may be necessary to make sure electronic systems are operating effectively, for example, to prevent computer viruses entering the system.",
+          "translation": "这可能有必要确保电子系统有效运行，例如防止计算机病毒进入系统。"
+        },
+        {
+          "index": 18,
+          "sentence": "Your employer is also allowed to listen in to any calls you make to confidential helplines, but in this case he or she is not allowed to record these calls.",
+          "translation": "你的雇主也可以监听你拨打给保密求助热线的任何电话，但在这种情况下，他或她不得记录这些通话。"
+        },
+        {
+          "index": 19,
+          "sentence": "International Experience Canada: application process",
+          "translation": "加拿大国际体验：申请流程"
+        },
+        {
+          "index": 20,
+          "sentence": "If you want to travel and work temporarily in Canada as part of International Experience Canada (IEC), your first step is to become a candidate in one or more IEC pools.",
+          "translation": "如果你想通过国际体验加拿大计划（IEC）在加拿大临时旅行和工作，第一步是在一个或多个IEC候选池中成为候选人。"
+        },
+        {
+          "index": 21,
+          "sentence": "There are three categories of pool: International Co-op (Working Holiday? 准确应为 Working Holiday, 但原文为 International Co-op (Working Holiday)？根据原文应照写，但原文是: International Co-op (Internship), Working Holiday and Young Professionals. 已更正)",
+          "translation": "有三个候选池类别：国际实习（实习）、打工度假和青年专业人员。"
+        },
+        {
+          "index": 22,
+          "sentence": "To apply, first use our questionnaire to see if you meet the criteria to get into the IEC pools.",
+          "translation": "申请时，首先使用我们的问卷来查看您是否符合进入IEC候选池的标准。"
+        },
+        {
+          "index": 23,
+          "sentence": "This should take you about ten minutes.",
+          "translation": "这大约需要您十分钟时间。"
+        },
+        {
+          "index": 24,
+          "sentence": "You can find it at www.cic.gc.ca/ctc-vac/come to canada.asp .",
+          "translation": "您可以在www.cic.gc.ca/ctc-vac/come to canada.asp 找到它。"
+        },
+        {
+          "index": 25,
+          "sentence": "After completing this, if you are eligible you will be sent a personal reference code, which you should use to create your online account.",
+          "translation": "完成此步骤后，如果您符合条件，您将收到一个个人参考代码，您应使用它来创建您的在线账户。"
+        },
+        {
+          "index": 26,
+          "sentence": "At the same time, you should fill in any remaining fields in your profile with the required information, including which IEC pools you want to be in.",
+          "translation": "与此同时，您应在个人资料中填写所有剩余字段，提供所需信息，包括您希望加入哪些IEC候选池。"
+        },
+        {
+          "index": 27,
+          "sentence": "(Some parts will already have been completed for you.)",
+          "translation": "（某些部分可能已经为您预先填写完成。）"
+        },
+        {
+          "index": 28,
+          "sentence": "If you are sent an invitation to proceed with your application, you will have 10 days to decide whether to accept this or not.",
+          "translation": "如果您收到继续申请的邀请，您将有10天时间来决定是否接受。"
+        },
+        {
+          "index": 29,
+          "sentence": "If you accept, click the 'Start Application' button.",
+          "translation": "如果您接受，请点击“开始申请”按钮。"
+        },
+        {
+          "index": 30,
+          "sentence": "You then have 20 days to complete your application.",
+          "translation": "然后您有20天时间来完成您的申请。"
+        },
+        {
+          "index": 31,
+          "sentence": "For International Co-op and Young Professionals categories, your employer in Canada must pay the compliance fee and inform you of your offer of employment number.",
+          "translation": "对于国际实习合作和青年专业人员类别，你在加拿大的雇主必须支付合规费用，并告知你工作录用编号。"
+        },
+        {
+          "index": 32,
+          "sentence": "(This does not apply to the Working Holiday pool.)",
+          "translation": "（这不适用于打工度假类别池。）"
+        },
+        {
+          "index": 33,
+          "sentence": "Once you have received this, you should then upload copies of police and medical certificates, if required.",
+          "translation": "一旦你收到此信息，如有需要，你应上传警方证明和医疗证明的副本。"
+        },
+        {
+          "index": 34,
+          "sentence": "If you do not have these, you should upload proof that you have applied for them.",
+          "translation": "如果你没有这些文件，你应上传已申请这些文件的相关证明。"
+        },
+        {
+          "index": 35,
+          "sentence": "You should then pay your participation fee of C$126 online by credit card.",
+          "translation": "随后，你应使用信用卡在线支付126加元的参与费。"
+        },
+        {
+          "index": 36,
+          "sentence": "(There is an additional payment of C$100 if you are applying for the Working Holiday category.)",
+          "translation": "（如果你申请的是打工度假类别，则需额外支付100加元。）"
+        },
+        {
+          "index": 37,
+          "sentence": "Your application will then be assessed.",
+          "translation": "随后，您的申请将会被评估。"
+        },
+        {
+          "index": 38,
+          "sentence": "You can apply to withdraw at this stage and will be given a refund if you do this within 56 days.",
+          "translation": "您可以在这一阶段申请退出，如果在56天内提出，您将获得退款。"
+        },
+        {
+          "index": 39,
+          "sentence": "If your application is successful, you will receive a letter of introduction which you can show to immigration when you enter Canada.",
+          "translation": "如果您的申请成功，您将收到一封介绍信，在进入加拿大时可向移民部门出示。"
+        }
+      ]
+    },
+    {
+      "id": "2065",
+      "number": 3,
+      "title": "Passage 3",
+      "article_title": "RESEARCH ON IMPROVING AGRICULTURAL YIELDS IN AFRICA",
+      "subtitle": "",
+      "paragraphs": [
+        {
+          "label": "",
+          "index": 1,
+          "text": "Three programmes are investigating ways of improving agricultural productivity in Africa.",
+          "translation": "三个项目正在研究提高非洲农业生产力的方法。"
+        },
+        {
+          "label": "",
+          "index": 2,
+          "text": "A"
+        },
+        {
+          "label": "",
+          "index": 3,
+          "text": "More than half of the global population growth between now and 2050 is expected to occur in Africa. And more people means a requirement for more food.",
+          "translation": "从现在到2050年，预计全球超过一半的人口增长将发生在非洲。\n而更多的人口意味着对更多食物的需求。"
+        },
+        {
+          "label": "",
+          "index": 4,
+          "text": "B"
+        },
+        {
+          "label": "",
+          "index": 5,
+          "text": "Ethiopia, for example, has the largest livestock population in Africa but with a growing population even its 53 million cattle are not enough.And now efforts to develop farming there are bringing a significant health concern. Professor James Wood from the University of Cambridge explains that new breeds that are being introduced are more vulnerable to bovine TB (tuberculosis) than the zebu cattle which were previously reared there. \"This may have health implications for those who work with and live alongside infected cattle, and also raises concerns about transmission to areas which previously had low levels of TB,' he warns.",
+          "translation": "例如，埃塞俄比亚拥有非洲最多的牲畜数量，但随着人口增长，即使是其5300万头牛也不够。\n而现在，那里发展农业的努力正带来一个重大的健康问题。\n剑桥大学的詹姆斯·伍德教授解释说，新引进的品种比之前在那里饲养的瘤牛更容易感染牛结核病。\n\"这可能对与受感染牛一起工作和生活的人造成健康影响，也引发了对结核病传播至先前低水平地区的担忧，\" 他警告道。"
+        },
+        {
+          "label": "",
+          "index": 6,
+          "text": "C"
+        },
+        {
+          "label": "",
+          "index": 7,
+          "text": "Wood leads a research programme which is looking at the feasibility of control strategies,including cattle vaccination. The programme brings together veterinary scientists, epidemiologists, geneticists, immunologists and social scientists in eight Ethiopian and UK institutions.\"We need this mix because we are not only asking how effective strategies will be, but also whether farmers will accept them, and what the consequences are for prosperity and well-being, says Wood.",
+          "translation": "伍德领导了一项研究计划，旨在探讨控制策略（包括牛疫苗接种）的可行性。\n该计划汇集了来自埃塞俄比亚和英国八个机构的兽医科学家、流行病学家、遗传学家、免疫学家和社会科学家。\n伍德表示：“我们需要这种组合，因为我们不仅关注策略的效果如何，还要考虑农民是否会接受它们，以及这些策略对繁荣和福祉有何影响。”"
+        },
+        {
+          "label": "",
+          "index": 8,
+          "text": "D"
+        },
+        {
+          "label": "",
+          "index": 9,
+          "text": "The impact that increasing productivity can have on farmers' livelihoods is not lost on an insect expert at the University of Ghana, Dr Ken Fening, who is working on another food-related research project. Cabbages are not indigenous to Africa but have become a major cash crop for Ghanaian farmers and an important source of income for traders from markets and hotels. ‘A good crop can bring in money to buy fertilisers and farm equipment, and also help to pay for healthcare and education for the family, he says. Recently, however, fields of stunted, yellowing cabbages, their leaves curled and dotted with mould, have become a familiar and devastating sight for the farmers of Ghana.",
+          "translation": "加纳大学昆虫专家肯·费宁博士正在开展另一项与食品相关的研究项目，他深知提高生产力对农民生计可能产生的影响。\n卷心菜并非非洲本土作物，但已成为加纳农民的主要经济作物，以及市场和酒店商人的重要收入来源。\n“好收成能带来资金购买化肥和农具，还能帮助支付家庭的医疗和教育费用，”他说道。\n然而，最近在加纳，发育不良、发黄的卷心菜田地——叶子卷曲并布满霉菌——已成为农民们常见且极具破坏性的景象。"
+        },
+        {
+          "label": "",
+          "index": 10,
+          "text": "E"
+        },
+        {
+          "label": "",
+          "index": 11,
+          "text": "From his field station base in Kpong, Ghana, Fening works closely with smallholder farmers on pest-control strategies. Two years ago they started reporting that a new disease was attacking their crops. 'It seemed to be associated with massive infestations of pink and green aphids*，' says Fening, 'and from my studies of the way insects interact with many different vegetables, I'm familiar with the types of damage they can cause.'",
+          "translation": "在他的加纳克庞实地研究基地，费宁与小型农户密切合作，研究害虫防治策略。\n两年前，他们开始报告一种新疾病正在侵袭他们的作物。\n“这似乎与粉色和绿色蚜虫的大量侵扰有关，”费宁说道，“而且通过我对昆虫与多种不同蔬菜互动方式的研究，我熟悉它们可能造成的损害类型。”"
+        },
+        {
+          "label": "",
+          "index": 12,
+          "text": "F"
+        },
+        {
+          "label": "",
+          "index": 13,
+          "text": "But farmers were typically seeing the total loss of their crops, and he realised that the devastation couldn't just be caused by sap-sucking insects. Despite no previous reports of viral diseases affecting cabbage crops in Ghana, the symptoms suggested a viral pathogen.",
+          "translation": "但农民通常看到的是作物完全损失，他意识到这种破坏不可能仅仅是由吸汁昆虫造成的。\n尽管此前没有病毒性疾病影响加纳卷心菜作物的报告，但症状表明存在病毒病原体。"
+        },
+        {
+          "label": "",
+          "index": 14,
+          "text": "G"
+        },
+        {
+          "label": "",
+          "index": 15,
+          "text": "Together with Cambridge plant biologist Dr John Carr, Fening collected samples of cabbage plants in Ghana showing signs of disease, and also aphids on the diseased plants. Back in Cambridge, Fening used screening techniques including a type of DNA fingerprinting' to identify the aphid species, and sophisticated molecular biology methods to try to identify the offending virus.",
+          "translation": "芬宁与剑桥大学的植物生物学家约翰·卡尔博士合作，在加纳采集了表现出疾病症状的卷心菜植株样本，以及患病植株上的蚜虫。\n回到剑桥后，芬宁使用了包括一种DNA指纹识别技术在内的筛选方法来鉴定蚜虫的种类，并采用先进的分子生物学方法试图识别致病病毒。"
+        },
+        {
+          "label": "",
+          "index": 16,
+          "text": "H"
+        },
+        {
+          "label": "",
+          "index": 17,
+          "text": "‘Aphids are a common carrier of plant-infecting viruses, explains Carr.\"The“usual suspects”are turnip mosaic virus and cauliflower mosaic virus,which affect cabbages in Europe and the US.'",
+          "translation": "卡尔解释说，蚜虫是植物感染病毒的常见携带者。\n“通常的嫌疑对象”是芜菁花叶病毒和花椰菜花叶病毒，它们影响欧洲和美国的卷心菜。"
+        },
+        {
+          "label": "",
+          "index": 18,
+          "text": "I"
+        },
+        {
+          "label": "",
+          "index": 19,
+          "text": "'We found that two different species of aphids, pink and green, were generally found on the diseased cabbages，' says Fening. 'It turned out this was the first record of the green aphid species ever being seen in Ghana.'The pink aphid was identified as Myzus persicae (Sulzer).",
+          "translation": "费宁说：‘我们发现，在患病的卷心菜上通常能找到两种不同的蚜虫，粉色的和绿色的。’\n‘结果发现，这是首次记录到在加纳发现这种绿色蚜虫物种。’\n粉色蚜虫被鉴定为桃蚜（Myzus persicae (Sulzer)）。"
+        },
+        {
+          "label": "",
+          "index": 20,
+          "text": "J"
+        },
+        {
+          "label": "",
+          "index": 21,
+          "text": "What's more, the virus was not what they expected, and work is now ongoing to identify the culprit. The sooner it can be characterised, the sooner sustainable crop protection strategies can be developed to prevent further spread of the disease not only in Ghana, but also in other countries in the region.",
+          "translation": "此外，这种病毒并非他们所预想的那样，目前正在进行工作以确定罪魁祸首。\n越早确定其特征，就能越早制定可持续的作物保护策略，以防止该病害不仅在加纳，而且在该地区其他国家进一步蔓延。"
+        },
+        {
+          "label": "",
+          "index": 22,
+          "text": "K"
+        },
+        {
+          "label": "",
+          "index": 23,
+          "text": "Another researcher who hopes that eradication strategies will be the outcome of her research project is Dr Theresa Manful. Like Fening, she is a researcher at the University of Ghana.She has been working with Cambridge biochemist Professor Mark Carrington on a disease known as trypanosomiasis.",
+          "translation": "另一位希望根除策略能成为其研究项目成果的研究人员是特蕾莎·曼富尔博士。\n与费宁一样，她是加纳大学的一名研究员。\n她一直与剑桥大学的生物化学家马克·卡林顿教授合作，研究一种名为锥虫病的疾病。"
+        },
+        {
+          "label": "",
+          "index": 24,
+          "text": "L"
+        },
+        {
+          "label": "",
+          "index": 25,
+          "text": "‘This is a major constraint to cattle rearing in Africa, she explains. ‘Although trypanosomiasis is also a disease of humans, the number of cases is low, and the more serious concerns about the disease relate to the economic impact on agricultural production.’",
+          "translation": "“这是非洲养牛业面临的一个主要制约因素，”她解释道。\n“尽管锥虫病也是一种人类疾病，但病例数量较少，而对该疾病更严重的担忧在于其对农业生产的经济影响。”"
+        },
+        {
+          "label": "",
+          "index": 26,
+          "text": "M"
+        },
+        {
+          "label": "",
+          "index": 27,
+          "text": "The parasite that causes the disease is carried by the tsetse fly, which colonises vast swathes of sub-Saharan Africa. Carrington says that a lot is now known about the parasite's molecular mechanisms, in particular the way it evades the immune system of the animal acting as its host by altering the proteins in its coat so as to remain 'invisible'. 'But then when you look at the effect on large animals, you realise that there is almost nothing known about the dynamics of an infection, and even whether an infection acquired at an early age persists for its lifetime, he says. So Manful and Carrington set about testing cattle in Ghana. They discovered that nearly all were infected most of the time.",
+          "translation": "引起这种疾病的寄生虫由采采蝇携带，这种苍蝇在撒哈拉以南非洲的广大地区滋生繁衍。\n卡林顿表示，目前对这种寄生虫的分子机制已有很多了解，特别是它通过改变自身外壳的蛋白质以保持“隐形”，从而逃避宿主动物免疫系统的方式。\n他说：“但是当你观察对大型动物的影响时，你会意识到，人们对感染的动态几乎一无所知，甚至不清楚幼年时期获得的感染是否会持续终生。”\n因此，曼富尔和卡林顿开始在加纳对牛进行检测。\n他们发现，几乎所有牛在大多数时候都受到感染。\n引起这种疾病的寄生虫由采采蝇携带，这种蝇类广泛分布于撒哈拉以南非洲的大片地区。\n卡林顿表示，目前对这种寄生虫的分子机制已有很多了解，尤其是它通过改变自身外壳蛋白质以保持“隐形”状态，从而逃避宿主动物免疫系统的方式。\n“但是当你观察其对大型动物的影响时，你会发现，关于感染的动态变化几乎一无所知，甚至不清楚早年获得的感染是否会持续终身，”他说道。\n因此，曼富尔和卡林顿着手对加纳的牛群进行检测。\n他们发现，几乎所有牛在大部分时间里都处于感染状态。"
+        },
+        {
+          "label": "",
+          "index": 28,
+          "text": "N"
+        },
+        {
+          "label": "",
+          "index": 29,
+          "text": "For Manful, one of the important gains has been the ability to expand the research in Ghana: 'I now have a fully functional lab and can do DNA extraction and analysis in Ghana - I don't have to bring samples to Cambridge. We are teaching students from five Ghanaian institutions the diagnostic methods.'",
+          "translation": "对于Manful来说，重要的收获之一是有能力在加纳扩展研究：‘我现在拥有一个功能完善的实验室，可以在加纳进行DNA提取和分析——我不必再把样本带到剑桥。\n我们正在教授来自加纳五所机构的学生诊断方法。’"
+        },
+        {
+          "label": "",
+          "index": 30,
+          "text": "O"
+        },
+        {
+          "label": "",
+          "index": 31,
+          "text": "‘Agriculture faces increasing challenges, adds Carr.' Bioscience is playing a crucial part in developing ways to mitigate pest impact and reduce the spread of parasites. We want to ensure not only that every harvest is successful, but also that it's maximally successful.’",
+          "translation": "“农业面临着日益严峻的挑战，”卡尔补充道。\n生物科学在开发减轻虫害影响和减少寄生虫传播的方法中发挥着关键作用。\n我们不仅要确保每次收成都成功，还要确保其收成达到最大化的成功。”\n卡尔补充说：“农业面临着日益严峻的挑战。”\n生物科学在开发减轻害虫影响和减少寄生虫传播的方法方面发挥着关键作用。\n我们不仅要确保每一次收成都成功，而且要确保其取得最大程度的成功。”"
+        }
+      ],
+      "image_url": "",
+      "groups": [
+        {
+          "id": "15545",
+          "type": 5,
+          "title": "",
+          "instructions": "Questions 28 - 32\nChoose the correct letter, A, B, C or D.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120114",
+              "number": 28,
+              "prompt": "What is the main problem faced by cattle farmers in Ethiopia, according to Professor Wood?",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "TB is being transmitted from people to cattle."
+                },
+                {
+                  "value": "B",
+                  "label": "New breeds of cattle have led to an increase in TB."
+                },
+                {
+                  "value": "C",
+                  "label": "The traditional breeds of cattle are being affected by TB."
+                },
+                {
+                  "value": "D",
+                  "label": "TB has spread into places where it was previously unknown."
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干询问埃塞俄比亚养牛农户面临的主要问题。原文B段指出，新引入的牛品种比当地原先饲养的瘤牛更容易感染牛结核病（bovine TB），这与选项B“新品种牛导致结核病增加”相符。题干中的“new breeds of cattle”对应原文“new breeds that are being introduced”，“increase in TB”则通过“more vulnerable to bovine TB”体现因果关系，因此正确答案是B。",
+              "reason": "display_answer B对应原文新品种更易感染TB的描述。",
+              "location_analysis": "原文B段指出新引入品种更容易患牛结核病，对应正确选项B。",
+              "paraphrasing": "new breeds of cattle -> new breeds; increase in TB -> vulnerable to bovine TB",
+              "keywords": "Ethiopia, cattle, new breeds, TB",
+              "evidence": [
+                "Professor James Wood from the University of Cambridge explains that new breeds that are being introduced are more vulnerable to bovine TB (tuberculosis) than the zebu cattle which were previously reared there."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "A": "该选项在原文中未提及，Professor Wood并未指出TB是从人传播到牛。",
+                "C": "该选项张冠李戴，Professor Wood讨论的是新牛品种导致TB增加，而非传统品种受影响。",
+                "D": "该选项与题干要求不符，Professor Wood关注的是新牛品种带来的问题，而非TB的地理扩散。"
+              }
+            },
+            {
+              "id": "120115",
+              "number": 29,
+              "prompt": "When discussing the cultivation of cabbages in Ghana, the writer says that this crop",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "was introduced from outside Africa."
+                },
+                {
+                  "value": "B",
+                  "label": "is not eaten much by local people."
+                },
+                {
+                  "value": "C",
+                  "label": "is not grown correctly by many farmers."
+                },
+                {
+                  "value": "D",
+                  "label": "requires the use of fertiliser and special equipment."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问及加纳卷心菜种植的情况。原文D段明确说明“Cabbages are not indigenous to Africa”，即卷心菜并非非洲本土作物，而是后来引入的，这与选项A“从非洲以外引入”完全对应。题干中的“introduced from outside Africa”正是对“not indigenous to Africa”的同义改写，因此正确答案是A。",
+              "reason": "display_answer A，原文直接说明卷心菜非本土。",
+              "location_analysis": "原文D段明确说卷心菜并非非洲本土作物，对应选项A。",
+              "paraphrasing": "introduced from outside Africa -> not indigenous to Africa",
+              "keywords": "cabbages, Ghana, indigenous",
+              "evidence": [
+                "Cabbages are not indigenous to Africa but have become a major cash crop for Ghanaian farmers and an important source of income for traders from markets and hotels."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": {
+                "B": "原文未提及当地人对卷心菜的消费情况，该选项无中生有。",
+                "C": "原文提到卷心菜种植存在问题，但未明确说明许多农民种植方法不正确，属于过度推断。",
+                "D": "原文提到肥料和特殊设备可能被使用，但未强调卷心菜种植必须依赖它们，范围错误。"
+              }
+            },
+            {
+              "id": "120116",
+              "number": 30,
+              "prompt": "Fening believed that the new disease destroying cabbages was",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "caused by overuse of pesticides."
+                },
+                {
+                  "value": "B",
+                  "label": "also affecting other locally grown vegetables."
+                },
+                {
+                  "value": "C",
+                  "label": "linked to insect attacks on these vegetables."
+                },
+                {
+                  "value": "D",
+                  "label": "connected with the development of new insect breeds."
+                }
+              ],
+              "answer": "C",
+              "accepted_answers": [
+                "C"
+              ],
+              "analysis": "题干问Fening认为摧毁卷心菜的新疾病是什么原因造成的。原文E段提到农民报告新疾病“seemed to be associated with massive infestations of pink and green aphids”，而F段进一步指出仅靠吸汁昆虫无法造成作物绝收，暗示疾病与昆虫侵害相关但另有原因。选项C“与昆虫对蔬菜的攻击有关”准确概括了这一关联，因此正确答案是C。",
+              "reason": "display_answer C，疾病与昆虫袭击密切相关。",
+              "location_analysis": "Fening发现新疾病与大面积蚜虫侵害相关，最终导致作物绝收。",
+              "paraphrasing": "linked to insect attacks -> associated with massive infestations of aphids; destroying crops -> total loss of their crops",
+              "keywords": "new disease, destroying, cabbages, insect",
+              "evidence": [
+                "But farmers were typically seeing the total loss of their crops, and he realised that the devastation couldn't just be caused by sap-sucking insects."
+              ],
+              "confidence": 0.97,
+              "wrong_reasons": {
+                "A": "原文并未提及过度使用杀虫剂导致该疾病，属于无中生有。",
+                "B": "原文只提到该疾病摧毁卷心菜，未说明影响其他本地蔬菜，属于范围扩大。",
+                "D": "原文未提及新昆虫品种的培育与该疾病的联系，属于信息矛盾或无关。"
+              }
+            },
+            {
+              "id": "120117",
+              "number": 31,
+              "prompt": "Fening first suspected that the cabbage disease was caused by a virus because",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "evidence of viral disease could be seen on the cabbage leaves."
+                },
+                {
+                  "value": "B",
+                  "label": "pink and green aphids did not commonly attack cabbages."
+                },
+                {
+                  "value": "C",
+                  "label": "viral diseases affecting vegetables had occurred elsewhere in Africa."
+                },
+                {
+                  "value": "D",
+                  "label": "aphids would not have caused so much damage to the crops."
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干问Fening最初为何怀疑卷心菜疾病由病毒引起。原文F段明确指出：“he realised that the devastation couldn't just be caused by sap-sucking insects”，即仅蚜虫吸食不会导致如此严重的损失，因此他推测存在病毒。选项D“蚜虫不会造成如此大的损害”正是对此逻辑的准确转述，故答案为D。",
+              "reason": "display_answer D，因蚜虫不能造成全部损失。",
+              "location_analysis": "Fening认为仅吸汁昆虫不会造成如此大破坏，暗示病毒。",
+              "paraphrasing": "would not have caused so much damage -> couldn't just be caused by sap-sucking insects",
+              "keywords": "suspected, virus, causing, damage",
+              "evidence": [
+                "But farmers were typically seeing the total loss of their crops, and he realised that the devastation couldn't just be caused by sap-sucking insects."
+              ],
+              "confidence": 0.96,
+              "wrong_reasons": {
+                "A": "原文并未提及可在叶子上看到病毒疾病的证据，该选项无中生有。",
+                "B": "原文中蚜虫常见于卷心菜，而该选项说蚜虫不常攻击，与原文矛盾。",
+                "C": "其他地方发生病毒疾病并非Fening最初怀疑的直接原因，属于张冠李戴。"
+              }
+            },
+            {
+              "id": "120118",
+              "number": 32,
+              "prompt": "When doing further research in Cambridge, Fening and Carr discovered that",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "the virus was unfamiliar to them."
+                },
+                {
+                  "value": "B",
+                  "label": "two different viruses were present."
+                },
+                {
+                  "value": "C",
+                  "label": "the aphids’DNA was more complex than expected."
+                },
+                {
+                  "value": "D",
+                  "label": "one aphid was more harmful than the other."
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干问Fening和Carr在剑桥进一步研究时的发现。原文J段提到：“the virus was not what they expected”，说明他们原本预期的是欧洲和美国常见的芜菁花叶病毒等，但实际发现的病毒不同，且仍在鉴定中。这表明该病毒对他们而言是陌生的，与选项A“病毒对他们来说不熟悉”一致，因此答案是A。",
+              "reason": "display_answer A，原文说明病毒非预期即不熟悉。",
+              "location_analysis": "剑桥研究时发现病毒并非预期种类，仍未知。",
+              "paraphrasing": "virus was unfamiliar -> the virus was not what they expected",
+              "keywords": "further research, virus, unfamiliar",
+              "evidence": [
+                "What's more, the virus was not what they expected, and work is now ongoing to identify the culprit."
+              ],
+              "confidence": 0.98,
+              "wrong_reasons": {
+                "B": "原文并未提到存在两种不同的病毒，该信息无中生有。",
+                "C": "原文未比较蚜虫DNA复杂性，属于无端推断。",
+                "D": "文中未比较两只蚜虫的危害性，与题干内容无关。"
+              }
+            }
+          ],
+          "source_layout": {
+            "raw_type": 5,
+            "collect": "",
+            "table": null,
+            "option_title": ""
+          }
+        },
+        {
+          "id": "15551",
+          "type": 2,
+          "title": "",
+          "instructions": "Questions 33 - 36\nLook at the following statements (Questions 33-36) and the list of researchers below.\nMatch each statement with the correct researcher, A-E.\nChoose the correct letter and move it into the gap.\nNB You may use any letter more than once.",
+          "option_title": "List of Researchers",
+          "options": [
+            {
+              "value": "A",
+              "label": "A. James Wood"
+            },
+            {
+              "value": "B",
+              "label": "B. Ken Fening"
+            },
+            {
+              "value": "C",
+              "label": "C. John Carr"
+            },
+            {
+              "value": "D",
+              "label": "D. Theresa Manful"
+            },
+            {
+              "value": "E",
+              "label": "E. Mark Carrington"
+            }
+          ],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120119",
+              "number": 33,
+              "prompt": "A particular crop may make an important contribution to the local economy in one African country",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. James Wood"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Ken Fening"
+                },
+                {
+                  "value": "C",
+                  "label": "C. John Carr"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Theresa Manful"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Mark Carrington"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干陈述某种作物对一个非洲国家的本地经济有重要贡献。原文D段提到卷心菜虽非非洲原产，但已成为加纳农民的重要经济作物（major cash crop）和市场、酒店贸易商的重要收入来源。这一描述出自Ken Fening的研究背景，因此匹配研究人员B（Ken Fening）。",
+              "reason": "display_answer B，描述卷心菜对经济的贡献。",
+              "location_analysis": "Ken Fening提到的卷心菜成为重要收入来源，对应B。",
+              "paraphrasing": "contribution to the local economy -> important source of income",
+              "keywords": "crop, local economy, Ghana",
+              "evidence": [
+                "Cabbages are not indigenous to Africa but have become a major cash crop for Ghanaian farmers and an important source of income for traders from markets and hotels."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120120",
+              "number": 34,
+              "prompt": "Tests will be carried out by local people in the country where the research is focused",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. James Wood"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Ken Fening"
+                },
+                {
+                  "value": "C",
+                  "label": "C. John Carr"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Theresa Manful"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Mark Carrington"
+                }
+              ],
+              "answer": "D",
+              "accepted_answers": [
+                "D"
+              ],
+              "analysis": "题干指出测试将由研究所在国的当地人进行。原文N段中Theresa Manful表示：“I now have a fully functional lab... We are teaching students from five Ghanaian institutions the diagnostic methods”，说明加纳本地学生正在学习并执行检测方法。这与题干描述完全吻合，因此对应研究人员D（Theresa Manful）。",
+              "reason": "display_answer D，当地人员开展测试。",
+              "location_analysis": "Theresa Manful在加纳建立实验室，当地师生可进行检测。",
+              "paraphrasing": "carried out by local people -> can do DNA extraction and analysis in Ghana",
+              "keywords": "tests, local people, Ghana",
+              "evidence": [
+                "I now have a fully functional lab and can do DNA extraction and analysis in Ghana - I don't have to bring samples to Cambridge. We are teaching students from five Ghanaian institutions the diagnostic methods."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120121",
+              "number": 35,
+              "prompt": "Different specialists must work together to ensure the success of a programme",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. James Wood"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Ken Fening"
+                },
+                {
+                  "value": "C",
+                  "label": "C. John Carr"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Theresa Manful"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Mark Carrington"
+                }
+              ],
+              "answer": "A",
+              "accepted_answers": [
+                "A"
+              ],
+              "analysis": "题干强调不同专家必须合作以确保项目成功。原文C段提到James Wood领导的项目“brings together veterinary scientists, epidemiologists, geneticists, immunologists and social scientists”，明确说明多学科团队协作，并指出需要评估策略有效性、农民接受度及对福祉的影响。这与题干完全对应，因此匹配研究人员A（James Wood）。",
+              "reason": "display_answer A，多学科协作确保成功。",
+              "location_analysis": "James Wood项目汇集多领域专家共同合作。",
+              "paraphrasing": "different specialists must work together -> brings together veterinary scientists, epidemiologists, geneticists, immunologists and social scientists",
+              "keywords": "different specialists, work together",
+              "evidence": [
+                "The programme brings together veterinary scientists, epidemiologists, geneticists, immunologists and social scientists in eight Ethiopian and UK institutions."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120122",
+              "number": 36,
+              "prompt": "One type of insect attacking plants in Ghana was previously unknown there",
+              "options": [
+                {
+                  "value": "A",
+                  "label": "A. James Wood"
+                },
+                {
+                  "value": "B",
+                  "label": "B. Ken Fening"
+                },
+                {
+                  "value": "C",
+                  "label": "C. John Carr"
+                },
+                {
+                  "value": "D",
+                  "label": "D. Theresa Manful"
+                },
+                {
+                  "value": "E",
+                  "label": "E. Mark Carrington"
+                }
+              ],
+              "answer": "B",
+              "accepted_answers": [
+                "B"
+              ],
+              "analysis": "题干指出一种攻击加纳植物的昆虫此前在当地未被发现。原文I段提到Fening发现绿色蚜虫“was the first record of the green aphid species ever being seen in Ghana”，即该物种在加纳首次被记录。这一发现由Ken Fening报告，因此对应研究人员B（Ken Fening）。",
+              "reason": "display_answer B，新昆虫在加纳首次发现。",
+              "location_analysis": "Ken Fening发现一种绿色蚜虫在加纳首次被记录。",
+              "paraphrasing": "previously unknown -> first record of the green aphid species ever being seen in Ghana",
+              "keywords": "insect, attacking, Ghana, unknown",
+              "evidence": [
+                "It turned out this was the first record of the green aphid species ever being seen in Ghana."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 2,
+            "collect": "",
+            "table": null,
+            "option_title": "List of Researchers"
+          }
+        },
+        {
+          "id": "15553",
+          "type": 4,
+          "title": "Trypanosomiasis",
+          "instructions": "Questions 37 - 40\nComplete the summary below.\nChoose NO MORE THAN TWO WORDS from the passage for each answer.\nWrite your answers in each gap.",
+          "option_title": "",
+          "options": [],
+          "table": null,
+          "image_url": "",
+          "questions": [
+            {
+              "id": "120123",
+              "number": 37,
+              "prompt": "is a disease caused by a parasite which is spread by an insect called the _____.The parasite can remain unaffected by the host's _____ because it is able to change the _____ on its outer covering. It is uncommon among humans but has been found to affect most _____ in Ghana.",
+              "options": [],
+              "answer": "tsetse fly",
+              "accepted_answers": [
+                "tsetse fly"
+              ],
+              "analysis": "题干要求填写传播锥虫病寄生虫的昆虫名称。原文M段明确指出：“The parasite that causes the disease is carried by the tsetse fly”，其中“carried by”对应题干中的“spread by”，且“tsetse fly”为专有名词，符合“NO MORE THAN TWO WORDS”的要求，因此答案是“tsetse fly”。",
+              "reason": "display_answer tsetse fly，直接对应原文。",
+              "location_analysis": "原文说寄生虫由采采蝇传播。",
+              "paraphrasing": "spread by an insect called -> carried by the tsetse fly",
+              "keywords": "trypanosomiasis, parasite, insect",
+              "evidence": [
+                "The parasite that causes the disease is carried by the tsetse fly, which colonises vast swathes of sub-Saharan Africa."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120124",
+              "number": 38,
+              "prompt": "is a disease caused by a parasite which is spread by an insect called the _____.The parasite can remain unaffected by the host's _____ because it is able to change the _____ on its outer covering. It is uncommon among humans but has been found to affect most _____ in Ghana.",
+              "options": [],
+              "answer": "immune system",
+              "accepted_answers": [
+                "immune system"
+              ],
+              "analysis": "题干问寄生虫如何不受宿主某系统影响。原文M段提到寄生虫“evades the immune system of the animal acting as its host”，其中“evades”对应题干“unaffected by”，“immune system”即为宿主的免疫系统，完全匹配空格语境，因此答案是“immune system”。",
+              "reason": "display_answer immune system，原文有直接表述。",
+              "location_analysis": "原文指出寄生虫可逃避宿主免疫系统。",
+              "paraphrasing": "unaffected by the host's -> evades the immune system of the animal",
+              "keywords": "parasite, unaffected, host's",
+              "evidence": [
+                "Carrington says that a lot is now known about the parasite's molecular mechanisms, in particular the way it evades the immune system of the animal acting as its host by altering the proteins in its coat so as to remain 'invisible'."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120125",
+              "number": 39,
+              "prompt": "is a disease caused by a parasite which is spread by an insect called the _____.The parasite can remain unaffected by the host's _____ because it is able to change the _____ on its outer covering. It is uncommon among humans but has been found to affect most _____ in Ghana.",
+              "options": [],
+              "answer": "proteins",
+              "accepted_answers": [
+                "proteins"
+              ],
+              "analysis": "题干要求填写寄生虫通过改变其外层覆盖物上的什么来逃避免疫系统。原文M段指出寄生虫通过“altering the proteins in its coat”来保持“invisible”，其中“coat”即指外层覆盖物，“proteins”是被改变的对象，与题干“change the... on its outer covering”形成精准对应，因此答案是“proteins”。",
+              "reason": "display_answer proteins，直接对应外覆盖物蛋白质。",
+              "location_analysis": "原文描述寄生虫改变外壳蛋白质。",
+              "paraphrasing": "change the... on its outer covering -> altering the proteins in its coat",
+              "keywords": "change, outer covering",
+              "evidence": [
+                "Carrington says that a lot is now known about the parasite's molecular mechanisms, in particular the way it evades the immune system of the animal acting as its host by altering the proteins in its coat so as to remain 'invisible'."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            },
+            {
+              "id": "120126",
+              "number": 40,
+              "prompt": "is a disease caused by a parasite which is spread by an insect called the _____.The parasite can remain unaffected by the host's _____ because it is able to change the _____ on its outer covering. It is uncommon among humans but has been found to affect most _____ in Ghana.",
+              "options": [],
+              "answer": "cattle",
+              "accepted_answers": [
+                "cattle"
+              ],
+              "analysis": "题干指出锥虫病在人类中罕见，但在加纳影响了大多数某种动物。原文M段末尾提到Manful和Carrington检测加纳牛群后发现“nearly all were infected most of the time”，即几乎所有牛都长期感染，这与题干“has been found to affect most... in Ghana”完全对应，因此答案是“cattle”。",
+              "reason": "display_answer cattle，原文指牛群感染。",
+              "location_analysis": "原文发现加纳几乎所有牛都感染。",
+              "paraphrasing": "affect most... in Ghana -> nearly all were infected most of the time",
+              "keywords": "affect, most, Ghana",
+              "evidence": [
+                "So Manful and Carrington set about testing cattle in Ghana. They discovered that nearly all were infected most of the time."
+              ],
+              "confidence": 0.99,
+              "wrong_reasons": null
+            }
+          ],
+          "source_layout": {
+            "raw_type": 4,
+            "collect": "is a disease caused by a parasite which is spread by an insect called the $120123$.The parasite can remain unaffected by the host's $120124$ because it is able to change the $120125$ on its outer covering. It is uncommon among humans but has been found to affect most $120126$ in Ghana.",
+            "table": null,
+            "option_title": ""
+          },
+          "content_template": "is a disease caused by a parasite which is spread by an insect called the $120123$.The parasite can remain unaffected by the host's $120124$ because it is able to change the $120125$ on its outer covering. It is uncommon among humans but has been found to affect most $120126$ in Ghana."
+        }
+      ],
+      "question_count": 13,
+      "source_article_title": "RESEARCH ON IMPROVING AGRICULTURAL YIELDS IN AFRICA",
+      "sentence_translations": [
+        {
+          "index": 1,
+          "sentence": "Three programmes are investigating ways of improving agricultural productivity in Africa.",
+          "translation": "三个项目正在研究提高非洲农业生产力的方法。"
+        },
+        {
+          "index": 3,
+          "sentence": "More than half of the global population growth between now and 2050 is expected to occur in Africa.",
+          "translation": "从现在到2050年，预计全球超过一半的人口增长将发生在非洲。"
+        },
+        {
+          "index": 4,
+          "sentence": "And more people means a requirement for more food.",
+          "translation": "而更多的人口意味着对更多食物的需求。"
+        },
+        {
+          "index": 6,
+          "sentence": "Ethiopia, for example, has the largest livestock population in Africa but with a growing population even its 53 million cattle are not enough.",
+          "translation": "例如，埃塞俄比亚拥有非洲最多的牲畜数量，但随着人口增长，即使是其5300万头牛也不够。"
+        },
+        {
+          "index": 7,
+          "sentence": "And now efforts to develop farming there are bringing a significant health concern.",
+          "translation": "而现在，那里发展农业的努力正带来一个重大的健康问题。"
+        },
+        {
+          "index": 8,
+          "sentence": "Professor James Wood from the University of Cambridge explains that new breeds that are being introduced are more vulnerable to bovine TB (tuberculosis) than the zebu cattle which were previously reared there.",
+          "translation": "剑桥大学的詹姆斯·伍德教授解释说，新引进的品种比之前在那里饲养的瘤牛更容易感染牛结核病。"
+        },
+        {
+          "index": 9,
+          "sentence": "\"This may have health implications for those who work with and live alongside infected cattle, and also raises concerns about transmission to areas which previously had low levels of TB,\" he warns.",
+          "translation": "\"这可能对与受感染牛一起工作和生活的人造成健康影响，也引发了对结核病传播至先前低水平地区的担忧，\" 他警告道。"
+        },
+        {
+          "index": 11,
+          "sentence": "Wood leads a research programme which is looking at the feasibility of control strategies,including cattle vaccination.",
+          "translation": "伍德领导了一项研究计划，旨在探讨控制策略（包括牛疫苗接种）的可行性。"
+        },
+        {
+          "index": 12,
+          "sentence": "The programme brings together veterinary scientists, epidemiologists, geneticists, immunologists and social scientists in eight Ethiopian and UK institutions.",
+          "translation": "该计划汇集了来自埃塞俄比亚和英国八个机构的兽医科学家、流行病学家、遗传学家、免疫学家和社会科学家。"
+        },
+        {
+          "index": 13,
+          "sentence": "\"We need this mix because we are not only asking how effective strategies will be, but also whether farmers will accept them, and what the consequences are for prosperity and well-being,\" says Wood.",
+          "translation": "伍德表示：“我们需要这种组合，因为我们不仅关注策略的效果如何，还要考虑农民是否会接受它们，以及这些策略对繁荣和福祉有何影响。”"
+        },
+        {
+          "index": 15,
+          "sentence": "The impact that increasing productivity can have on farmers' livelihoods is not lost on an insect expert at the University of Ghana, Dr Ken Fening, who is working on another food-related research project.",
+          "translation": "加纳大学昆虫专家肯·费宁博士正在开展另一项与食品相关的研究项目，他深知提高生产力对农民生计可能产生的影响。"
+        },
+        {
+          "index": 16,
+          "sentence": "Cabbages are not indigenous to Africa but have become a major cash crop for Ghanaian farmers and an important source of income for traders from markets and hotels.",
+          "translation": "卷心菜并非非洲本土作物，但已成为加纳农民的主要经济作物，以及市场和酒店商人的重要收入来源。"
+        },
+        {
+          "index": 17,
+          "sentence": "‘A good crop can bring in money to buy fertilisers and farm equipment, and also help to pay for healthcare and education for the family, he says.",
+          "translation": "“好收成能带来资金购买化肥和农具，还能帮助支付家庭的医疗和教育费用，”他说道。"
+        },
+        {
+          "index": 18,
+          "sentence": "Recently, however, fields of stunted, yellowing cabbages, their leaves curled and dotted with mould, have become a familiar and devastating sight for the farmers of Ghana.",
+          "translation": "然而，最近在加纳，发育不良、发黄的卷心菜田地——叶子卷曲并布满霉菌——已成为农民们常见且极具破坏性的景象。"
+        },
+        {
+          "index": 20,
+          "sentence": "From his field station base in Kpong, Ghana, Fening works closely with smallholder farmers on pest-control strategies.",
+          "translation": "在他的加纳克庞实地研究基地，费宁与小型农户密切合作，研究害虫防治策略。"
+        },
+        {
+          "index": 21,
+          "sentence": "Two years ago they started reporting that a new disease was attacking their crops.",
+          "translation": "两年前，他们开始报告一种新疾病正在侵袭他们的作物。"
+        },
+        {
+          "index": 22,
+          "sentence": "'It seemed to be associated with massive infestations of pink and green aphids*，' says Fening, 'and from my studies of the way insects interact with many different vegetables, I'm familiar with the types of damage they can cause.'",
+          "translation": "“这似乎与粉色和绿色蚜虫的大量侵扰有关，”费宁说道，“而且通过我对昆虫与多种不同蔬菜互动方式的研究，我熟悉它们可能造成的损害类型。”"
+        },
+        {
+          "index": 24,
+          "sentence": "But farmers were typically seeing the total loss of their crops, and he realised that the devastation couldn't just be caused by sap-sucking insects.",
+          "translation": "但农民通常看到的是作物完全损失，他意识到这种破坏不可能仅仅是由吸汁昆虫造成的。"
+        },
+        {
+          "index": 25,
+          "sentence": "Despite no previous reports of viral diseases affecting cabbage crops in Ghana, the symptoms suggested a viral pathogen.",
+          "translation": "尽管此前没有病毒性疾病影响加纳卷心菜作物的报告，但症状表明存在病毒病原体。"
+        },
+        {
+          "index": 27,
+          "sentence": "Together with Cambridge plant biologist Dr John Carr, Fening collected samples of cabbage plants in Ghana showing signs of disease, and also aphids on the diseased plants.",
+          "translation": "芬宁与剑桥大学的植物生物学家约翰·卡尔博士合作，在加纳采集了表现出疾病症状的卷心菜植株样本，以及患病植株上的蚜虫。"
+        },
+        {
+          "index": 28,
+          "sentence": "Back in Cambridge, Fening used screening techniques including a type of DNA fingerprinting' to identify the aphid species, and sophisticated molecular biology methods to try to identify the offending virus.",
+          "translation": "回到剑桥后，芬宁使用了包括一种DNA指纹识别技术在内的筛选方法来鉴定蚜虫的种类，并采用先进的分子生物学方法试图识别致病病毒。"
+        },
+        {
+          "index": 30,
+          "sentence": "‘Aphids are a common carrier of plant-infecting viruses, explains Carr.",
+          "translation": "卡尔解释说，蚜虫是植物感染病毒的常见携带者。"
+        },
+        {
+          "index": 31,
+          "sentence": "\"The“usual suspects”are turnip mosaic virus and cauliflower mosaic virus,which affect cabbages in Europe and the US.'",
+          "translation": "“通常的嫌疑对象”是芜菁花叶病毒和花椰菜花叶病毒，它们影响欧洲和美国的卷心菜。"
+        },
+        {
+          "index": 33,
+          "sentence": "'We found that two different species of aphids, pink and green, were generally found on the diseased cabbages，' says Fening.",
+          "translation": "费宁说：‘我们发现，在患病的卷心菜上通常能找到两种不同的蚜虫，粉色的和绿色的。’"
+        },
+        {
+          "index": 34,
+          "sentence": "'It turned out this was the first record of the green aphid species ever being seen in Ghana.'",
+          "translation": "‘结果发现，这是首次记录到在加纳发现这种绿色蚜虫物种。’"
+        },
+        {
+          "index": 35,
+          "sentence": "The pink aphid was identified as Myzus persicae (Sulzer).",
+          "translation": "粉色蚜虫被鉴定为桃蚜（Myzus persicae (Sulzer)）。"
+        },
+        {
+          "index": 37,
+          "sentence": "What's more, the virus was not what they expected, and work is now ongoing to identify the culprit.",
+          "translation": "此外，这种病毒并非他们所预想的那样，目前正在进行工作以确定罪魁祸首。"
+        },
+        {
+          "index": 38,
+          "sentence": "The sooner it can be characterised, the sooner sustainable crop protection strategies can be developed to prevent further spread of the disease not only in Ghana, but also in other countries in the region.",
+          "translation": "越早确定其特征，就能越早制定可持续的作物保护策略，以防止该病害不仅在加纳，而且在该地区其他国家进一步蔓延。"
+        },
+        {
+          "index": 40,
+          "sentence": "Another researcher who hopes that eradication strategies will be the outcome of her research project is Dr Theresa Manful.",
+          "translation": "另一位希望根除策略能成为其研究项目成果的研究人员是特蕾莎·曼富尔博士。"
+        },
+        {
+          "index": 41,
+          "sentence": "Like Fening, she is a researcher at the University of Ghana.",
+          "translation": "与费宁一样，她是加纳大学的一名研究员。"
+        },
+        {
+          "index": 42,
+          "sentence": "She has been working with Cambridge biochemist Professor Mark Carrington on a disease known as trypanosomiasis.",
+          "translation": "她一直与剑桥大学的生物化学家马克·卡林顿教授合作，研究一种名为锥虫病的疾病。"
+        },
+        {
+          "index": 44,
+          "sentence": "'This is a major constraint to cattle rearing in Africa,' she explains.",
+          "translation": "“这是非洲养牛业面临的一个主要制约因素，”她解释道。"
+        },
+        {
+          "index": 45,
+          "sentence": "‘Although trypanosomiasis is also a disease of humans, the number of cases is low, and the more serious concerns about the disease relate to the economic impact on agricultural production.’",
+          "translation": "“尽管锥虫病也是一种人类疾病，但病例数量较少，而对该疾病更严重的担忧在于其对农业生产的经济影响。”"
+        },
+        {
+          "index": 46,
+          "sentence": "The parasite that causes the disease is carried by the tsetse fly, which colonises vast swathes of sub-Saharan Africa.",
+          "translation": "引起这种疾病的寄生虫由采采蝇携带，这种苍蝇在撒哈拉以南非洲的广大地区滋生繁衍。"
+        },
+        {
+          "index": 47,
+          "sentence": "Carrington says that a lot is now known about the parasite's molecular mechanisms, in particular the way it evades the immune system of the animal acting as its host by altering the proteins in its coat so as to remain 'invisible'.",
+          "translation": "卡林顿表示，目前对这种寄生虫的分子机制已有很多了解，特别是它通过改变自身外壳的蛋白质以保持“隐形”，从而逃避宿主动物免疫系统的方式。"
+        },
+        {
+          "index": 48,
+          "sentence": "'But then when you look at the effect on large animals, you realise that there is almost nothing known about the dynamics of an infection, and even whether an infection acquired at an early age persists for its lifetime, he says.",
+          "translation": "他说：“但是当你观察对大型动物的影响时，你会意识到，人们对感染的动态几乎一无所知，甚至不清楚幼年时期获得的感染是否会持续终生。”"
+        },
+        {
+          "index": 49,
+          "sentence": "So Manful and Carrington set about testing cattle in Ghana.",
+          "translation": "因此，曼富尔和卡林顿开始在加纳对牛进行检测。"
+        },
+        {
+          "index": 50,
+          "sentence": "They discovered that nearly all were infected most of the time.",
+          "translation": "他们发现，几乎所有牛在大多数时候都受到感染。"
+        },
+        {
+          "index": 51,
+          "sentence": "The parasite that causes the disease is carried by the tsetse fly, which colonises vast swathes of sub-Saharan Africa.",
+          "translation": "引起这种疾病的寄生虫由采采蝇携带，这种蝇类广泛分布于撒哈拉以南非洲的大片地区。"
+        },
+        {
+          "index": 52,
+          "sentence": "Carrington says that a lot is now known about the parasite's molecular mechanisms, in particular the way it evades the immune system of the animal acting as its host by altering the proteins in its coat so as to remain 'invisible'.",
+          "translation": "卡林顿表示，目前对这种寄生虫的分子机制已有很多了解，尤其是它通过改变自身外壳蛋白质以保持“隐形”状态，从而逃避宿主动物免疫系统的方式。"
+        },
+        {
+          "index": 53,
+          "sentence": "'But then when you look at the effect on large animals, you realise that there is almost nothing known about the dynamics of an infection, and even whether an infection acquired at an early age persists for its lifetime, he says.",
+          "translation": "“但是当你观察其对大型动物的影响时，你会发现，关于感染的动态变化几乎一无所知，甚至不清楚早年获得的感染是否会持续终身，”他说道。"
+        },
+        {
+          "index": 54,
+          "sentence": "So Manful and Carrington set about testing cattle in Ghana.",
+          "translation": "因此，曼富尔和卡林顿着手对加纳的牛群进行检测。"
+        },
+        {
+          "index": 55,
+          "sentence": "They discovered that nearly all were infected most of the time.",
+          "translation": "他们发现，几乎所有牛在大部分时间里都处于感染状态。"
+        },
+        {
+          "index": 57,
+          "sentence": "For Manful, one of the important gains has been the ability to expand the research in Ghana: 'I now have a fully functional lab and can do DNA extraction and analysis in Ghana - I don't have to bring samples to Cambridge.",
+          "translation": "对于Manful来说，重要的收获之一是有能力在加纳扩展研究：‘我现在拥有一个功能完善的实验室，可以在加纳进行DNA提取和分析——我不必再把样本带到剑桥。"
+        },
+        {
+          "index": 58,
+          "sentence": "We are teaching students from five Ghanaian institutions the diagnostic methods.'",
+          "translation": "我们正在教授来自加纳五所机构的学生诊断方法。’"
+        },
+        {
+          "index": 59,
+          "sentence": "‘Agriculture faces increasing challenges,’ adds Carr.",
+          "translation": "“农业面临着日益严峻的挑战，”卡尔补充道。"
+        },
+        {
+          "index": 60,
+          "sentence": "Bioscience is playing a crucial part in developing ways to mitigate pest impact and reduce the spread of parasites.",
+          "translation": "生物科学在开发减轻虫害影响和减少寄生虫传播的方法中发挥着关键作用。"
+        },
+        {
+          "index": 61,
+          "sentence": "We want to ensure not only that every harvest is successful, but also that it’s maximally successful.’",
+          "translation": "我们不仅要确保每次收成都成功，还要确保其收成达到最大化的成功。”"
+        },
+        {
+          "index": 62,
+          "sentence": "'Agriculture faces increasing challenges,' adds Carr.'",
+          "translation": "卡尔补充说：“农业面临着日益严峻的挑战。”"
+        },
+        {
+          "index": 63,
+          "sentence": "Bioscience is playing a crucial part in developing ways to mitigate pest impact and reduce the spread of parasites.",
+          "translation": "生物科学在开发减轻害虫影响和减少寄生虫传播的方法方面发挥着关键作用。"
+        },
+        {
+          "index": 64,
+          "sentence": "We want to ensure not only that every harvest is successful, but also that it's maximally successful.'",
+          "translation": "我们不仅要确保每一次收成都成功，而且要确保其取得最大程度的成功。”"
+        }
+      ]
+    }
+  ],
+  "question_count": 40
+}
