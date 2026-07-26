@@ -1,0 +1,189 @@
+from __future__ import annotations
+
+import sys
+from types import ModuleType, SimpleNamespace
+
+import pytest
+
+from app.services import ai_teacher
+
+
+_ENV_NAMES = (
+    "AI_PROVIDER",
+    "AI_API_KEY",
+    "AI_MODEL",
+    "AI_BASE_URL",
+    "DASHSCOPE_API_KEY",
+    "QWEN_MODEL",
+    "QWEN_BASE_URL",
+    "DEEPSEEK_API_KEY",
+    "DEEPSEEK_MODEL",
+    "DEEPSEEK_BASE_URL",
+    "OPENAI_API_KEY",
+    "OPENAI_MODEL",
+    "OPENAI_BASE_URL",
+)
+
+
+def _clean_env(monkeypatch) -> None:
+    monkeypatch.setattr(ai_teacher, "_ENV_LOADED", True)
+    for name in _ENV_NAMES:
+        monkeypatch.delenv(name, raising=False)
+
+
+def test_old_qwen_environment_is_supported(monkeypatch) -> None:
+    _clean_env(monkeypatch)
+    monkeypatch.setenv("AI_PROVIDER", "qwen")
+    monkeypatch.setenv("DASHSCOPE_API_KEY", "qwen-secret")
+    monkeypatch.setenv("QWEN_MODEL", "qwen-test")
+    monkeypatch.setenv("QWEN_BASE_URL", "https://qwen.example/v1")
+
+    config = ai_teacher.resolve_ai_provider_config()
+
+    assert config.id == "qwen"
+    assert config.label == "千问"
+    assert config.api_key == "qwen-secret"
+    assert config.model == "qwen-test"
+    assert config.base_url == "https://qwen.example/v1"
+    assert config.protocol == "chat_completions"
+
+
+def test_old_deepseek_environment_is_supported(monkeypatch) -> None:
+    _clean_env(monkeypatch)
+    monkeypatch.setenv("AI_PROVIDER", "deepseek")
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "deepseek-secret")
+    monkeypatch.setenv("DEEPSEEK_MODEL", "deepseek-test")
+    monkeypatch.setenv("DEEPSEEK_BASE_URL", "https://deepseek.example")
+
+    config = ai_teacher.resolve_ai_provider_config()
+
+    assert config.id == "deepseek"
+    assert config.label == "DeepSeek"
+    assert config.api_key == "deepseek-secret"
+    assert config.model == "deepseek-test"
+    assert config.base_url == "https://deepseek.example"
+    assert config.protocol == "chat_completions"
+
+
+def test_selected_provider_never_silently_falls_back(monkeypatch) -> None:
+    _clean_env(monkeypatch)
+    monkeypatch.setenv("AI_PROVIDER", "qwen")
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "deepseek-secret")
+
+    with pytest.raises(ai_teacher.AiTeacherNotConfiguredError) as error:
+        ai_teacher.resolve_ai_provider_config()
+
+    assert "DASHSCOPE_API_KEY" in str(error.value)
+
+
+def test_existing_openai_environment_remains_backward_compatible(monkeypatch) -> None:
+    _clean_env(monkeypatch)
+    monkeypatch.setenv("OPENAI_API_KEY", "openai-secret")
+    monkeypatch.setenv("OPENAI_MODEL", "openai-test")
+
+    config = ai_teacher.resolve_ai_provider_config()
+
+    assert config.id == "openai"
+    assert config.model == "openai-test"
+    assert config.protocol == "responses"
+
+
+def test_qwen_uses_openai_compatible_chat_completions(monkeypatch) -> None:
+    _clean_env(monkeypatch)
+    monkeypatch.setenv("AI_PROVIDER", "qwen")
+    monkeypatch.setenv("DASHSCOPE_API_KEY", "qwen-secret")
+    monkeypatch.setenv("QWEN_MODEL", "qwen-test")
+    monkeypatch.setenv("QWEN_BASE_URL", "https://qwen.example/v1")
+    captured: dict = {}
+
+    class FakeCompletions:
+        def create(self, **kwargs):
+            captured["request"] = kwargs
+            return SimpleNamespace(
+                id="qwen-request-1",
+                choices=[SimpleNamespace(message=SimpleNamespace(content="千问回答"))],
+                usage=SimpleNamespace(prompt_tokens=21, completion_tokens=9),
+            )
+
+    class FakeOpenAI:
+        def __init__(self, **kwargs):
+            captured["client"] = kwargs
+            self.chat = SimpleNamespace(completions=FakeCompletions())
+
+    fake_module = ModuleType("openai")
+    fake_module.OpenAI = FakeOpenAI
+    monkeypatch.setitem(sys.modules, "openai", fake_module)
+
+    result = ai_teacher.generate_ai_reply(
+        question="我为什么错了？",
+        context_type="wrong_question",
+        context={"question": {"correct_answer": "FALSE"}},
+        history=[],
+    )
+
+    assert captured["client"]["api_key"] == "qwen-secret"
+    assert captured["client"]["base_url"] == "https://qwen.example/v1"
+    assert captured["request"]["model"] == "qwen-test"
+    assert captured["request"]["extra_body"] == {"enable_thinking": False}
+    assert result == {
+        "answer": "千问回答",
+        "input_tokens": 21,
+        "output_tokens": 9,
+        "provider_request_id": "qwen-request-1",
+        "provider": "qwen",
+        "model": "qwen-test",
+    }
+
+
+def test_deepseek_uses_openai_compatible_chat_completions(monkeypatch) -> None:
+    _clean_env(monkeypatch)
+    monkeypatch.setenv("AI_PROVIDER", "deepseek")
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "deepseek-secret")
+    monkeypatch.setenv("DEEPSEEK_MODEL", "deepseek-test")
+    monkeypatch.setenv("DEEPSEEK_BASE_URL", "https://deepseek.example")
+    captured: dict = {}
+
+    class FakeCompletions:
+        def create(self, **kwargs):
+            captured["request"] = kwargs
+            return SimpleNamespace(
+                id="deepseek-request-1",
+                choices=[SimpleNamespace(message=SimpleNamespace(content="DeepSeek回答"))],
+                usage=SimpleNamespace(prompt_tokens=18, completion_tokens=7),
+            )
+
+    class FakeOpenAI:
+        def __init__(self, **kwargs):
+            captured["client"] = kwargs
+            self.chat = SimpleNamespace(completions=FakeCompletions())
+
+    fake_module = ModuleType("openai")
+    fake_module.OpenAI = FakeOpenAI
+    monkeypatch.setitem(sys.modules, "openai", fake_module)
+
+    result = ai_teacher.generate_ai_reply(
+        question="下一步练什么？",
+        context_type="plan",
+        context={"tasks": []},
+        history=[],
+    )
+
+    assert captured["client"]["api_key"] == "deepseek-secret"
+    assert captured["client"]["base_url"] == "https://deepseek.example"
+    assert captured["client"]["timeout"] == 60.0
+    assert captured["request"]["model"] == "deepseek-test"
+    assert "extra_body" not in captured["request"]
+    assert result["answer"] == "DeepSeek回答"
+    assert result["provider"] == "deepseek"
+
+
+def test_public_status_never_exposes_api_keys(monkeypatch) -> None:
+    _clean_env(monkeypatch)
+    monkeypatch.setenv("AI_PROVIDER", "deepseek")
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "never-return-this")
+
+    status = ai_teacher.ai_provider_public_status()
+
+    assert status["selected"] == "deepseek"
+    assert status["configured"] is True
+    assert "never-return-this" not in repr(status)
