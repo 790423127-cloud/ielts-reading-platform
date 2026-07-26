@@ -15,6 +15,7 @@ from app.repositories.learning_plan_repository import LearningPlanRepository
 from app.services.ai_teacher import (
     AiTeacherNotConfiguredError,
     AiTeacherProviderError,
+    ai_provider_cache_identity,
     generate_ai_reply,
 )
 
@@ -204,6 +205,16 @@ def _daily_limit() -> int:
         return 30
 
 
+def _provider_identity() -> str:
+    try:
+        return ai_provider_cache_identity()
+    except AiTeacherNotConfiguredError as error:
+        raise HTTPException(
+            status_code=503,
+            detail={"code": "ai_not_configured", "message": str(error)},
+        ) from error
+
+
 @router.post("/chat")
 def chat_with_ai_teacher(payload: AiTeacherChatRequest) -> dict[str, Any]:
     context_ref, title, context = _resolve_context(payload)
@@ -215,10 +226,11 @@ def chat_with_ai_teacher(payload: AiTeacherChatRequest) -> dict[str, Any]:
         title=title,
     )
     question = " ".join(payload.question.strip().split())
+    provider_identity = _provider_identity()
     cache_key = repository.cache_key(
         user_id=payload.user_id,
         context_type=payload.context_type,
-        context_ref=_context_cache_ref(context_ref, context),
+        context_ref=f"{_context_cache_ref(context_ref, context)}:{provider_identity}",
         question=question,
     )
     cached = repository.get_cached(cache_key=cache_key, user_id=payload.user_id)
@@ -314,6 +326,7 @@ def chat_with_ai_teacher(payload: AiTeacherChatRequest) -> dict[str, Any]:
     return {
         "answer": generated["answer"],
         "cached": False,
+        "provider": generated.get("provider"),
         "model": generated.get("model"),
         "conversation": updated,
         "policy": {
