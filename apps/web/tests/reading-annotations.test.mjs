@@ -31,6 +31,7 @@ test("stable locator stores offsets plus text anchors and migrates old drafts", 
   assert.match(model, /prefix/);
   assert.match(model, /suffix/);
   assert.match(model, /migrateLegacyAnnotations/);
+  assert.match(model, /legacyAnnotation/);
   assert.match(model, /normalizeWithRawIndexes/);
 });
 
