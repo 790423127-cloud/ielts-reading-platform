@@ -6,6 +6,7 @@ from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 
 from app.api.ability import router as ability_router
+from app.api.ai_teacher import router as ai_teacher_router
 from app.api.health import router as health_router
 from app.api.learning_plan import router as learning_plan_router
 from app.api.methods import router as methods_router
@@ -50,6 +51,7 @@ def create_app() -> FastAPI:
     application.include_router(sentence_training_router, prefix="/api/v1")
     application.include_router(personal_sentences_router, prefix="/api/v1")
     application.include_router(vocabulary_router, prefix="/api/v1")
+    application.include_router(ai_teacher_router, prefix="/api/v1")
     return application
 
 
