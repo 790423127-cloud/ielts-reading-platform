@@ -154,17 +154,21 @@ def test_plan_chat_cannot_change_mastery_and_conversations_are_user_isolated(mon
 
     monkeypatch.setattr(ai_teacher_api, "generate_ai_reply", fake_generate)
     before = client.get("/api/v1/plan").json()
-    response = client.post(
-        "/api/v1/ai-teacher/chat",
-        json={"context_type": "plan", "question": "我今天先做什么？"},
-    )
+    payload = {"context_type": "plan", "question": "我今天先做什么？"}
+    response = client.post("/api/v1/ai-teacher/chat", json=payload)
     assert response.status_code == 200
+    assert response.json()["cached"] is False
     assert captured_contexts[0]["ai_permissions"]["can_mark_mastery"] is False
     assert captured_contexts[0]["ai_permissions"]["can_change_task_status"] is False
     after = client.get("/api/v1/plan").json()
     assert [(row["id"], row["status"]) for row in before["tasks"]] == [
         (row["id"], row["status"]) for row in after["tasks"]
     ]
+
+    repeated = client.post("/api/v1/ai-teacher/chat", json=payload)
+    assert repeated.status_code == 200
+    assert repeated.json()["cached"] is True
+    assert len(captured_contexts) == 1
 
     owner_list = client.get("/api/v1/ai-teacher/conversations").json()
     other_list = client.get("/api/v1/ai-teacher/conversations?user_id=other").json()
