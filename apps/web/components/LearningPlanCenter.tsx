@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
+import AiTeacherPanel from "@/components/AiTeacherPanel";
 import {
   fetchLearningPlan,
   type LearningPlan,
@@ -185,6 +186,13 @@ export default function LearningPlanCenter() {
             <strong>掌握度保护</strong>
             <p>系统没有“手动完成”接口，AI老师也没有权限修改任务状态、题目答案、成绩或掌握度。</p>
           </section>
+
+          <AiTeacherPanel
+            contextType="plan"
+            title="问今天的学习安排"
+            description="AI读取当前服务端学习计划进行解释，但任务顺序、状态和掌握度仍只由真实做题记录决定。"
+            suggestions={["我今天应该先练什么？", "我最薄弱的能力是什么？", "为什么这个任务还没有掌握？"]}
+          />
         </>
       ) : null}
     </div>
