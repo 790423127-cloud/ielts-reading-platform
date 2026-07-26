@@ -14,6 +14,7 @@ from app.api.question_bank import router as question_bank_router
 from app.api.review import router as review_router
 from app.api.sentence_training import router as sentence_training_router
 from app.api.sessions import router as sessions_router
+from app.api.vocabulary import router as vocabulary_router
 from app.core.config import settings
 
 
@@ -48,6 +49,7 @@ def create_app() -> FastAPI:
     application.include_router(learning_plan_router, prefix="/api/v1")
     application.include_router(sentence_training_router, prefix="/api/v1")
     application.include_router(personal_sentences_router, prefix="/api/v1")
+    application.include_router(vocabulary_router, prefix="/api/v1")
     return application
 
 
