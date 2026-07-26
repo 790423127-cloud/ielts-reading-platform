@@ -3,6 +3,7 @@ import AppShell from "@/components/AppShell";
 import "./globals.css";
 import "./learning.css";
 import "./vocabulary.css";
+import "./ai-teacher.css";
 
 export const metadata: Metadata = {
   title: "IELTS G类阅读学习平台",
