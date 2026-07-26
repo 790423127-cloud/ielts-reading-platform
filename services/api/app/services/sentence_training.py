@@ -53,6 +53,19 @@ def normalize_logic(value: Any) -> str:
     return LOGIC_ALIASES.get(text, text.replace(" ", "_"))
 
 
+def canonical_training_bytes(raw: bytes) -> bytes:
+    """Return the repository-canonical UTF-8/LF representation.
+
+    Git on Windows may check text files out with CRLF and some editors may add a
+    UTF-8 BOM. Neither changes the JSON content, so manifest verification uses
+    the canonical bytes while still rejecting any real content modification.
+    """
+
+    if raw.startswith(b"\xef\xbb\xbf"):
+        raw = raw[3:]
+    return raw.replace(b"\r\n", b"\n").replace(b"\r", b"\n")
+
+
 class SentenceTrainingBank:
     def __init__(self, root: str | Path) -> None:
         self.root = Path(root)
@@ -63,8 +76,9 @@ class SentenceTrainingBank:
     def validate(self) -> dict[str, Any]:
         if not self.data_path.exists() or not self.manifest_path.exists():
             raise SentenceTrainingDataError("Verified sentence-training data is missing")
-        raw = self.data_path.read_bytes()
-        manifest = json.loads(self.manifest_path.read_text("utf-8"))
+        source_raw = self.data_path.read_bytes()
+        raw = canonical_training_bytes(source_raw)
+        manifest = json.loads(self.manifest_path.read_text("utf-8-sig"))
         if int(manifest.get("bytes") or 0) != len(raw):
             raise SentenceTrainingDataError("Sentence-training byte count does not match manifest")
         digest = hashlib.sha256(raw).hexdigest()
@@ -95,6 +109,7 @@ class SentenceTrainingBank:
             "sha256": digest,
             "source_git_blob_sha": manifest.get("source_git_blob_sha"),
             "verified": True,
+            "checkout_normalized": source_raw != raw,
         }
 
     def items(self) -> list[dict[str, Any]]:
