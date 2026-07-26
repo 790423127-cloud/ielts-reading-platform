@@ -11,7 +11,8 @@ dependencies = [
   "fastapi>=0.115,<1",
   "uvicorn>=0.30,<1",
   "pydantic>=2.9,<3",
-  "libsql>=0.1,<1"
+  "libsql>=0.1,<1",
+  "openai>=2.46,<3"
 ]
 
 [project.optional-dependencies]

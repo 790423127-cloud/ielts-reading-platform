@@ -23,7 +23,8 @@ def get_learning_plan_policy() -> dict:
     return {
         "minimum_questions": 8,
         "required_success_days": 2,
-        "review_delay_days": 3,
+        # 达标当天按第1天计算，第3天复习需间隔2个自然日。
+        "review_delay_days": 2,
         "later_review_required": True,
         "manual_completion_allowed": False,
         "ai_can_mark_mastery": False,
