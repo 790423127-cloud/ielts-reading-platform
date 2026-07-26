@@ -11,7 +11,8 @@ const NAV_ITEMS = [
   { href: "/methods", label: "做题方法" },
   { href: "/ability", label: "能力训练" },
   { href: "/plan", label: "学习计划" },
-  { href: "/sentences", label: "长难句" }
+  { href: "/sentences", label: "长难句" },
+  { href: "/vocabulary", label: "词汇本" }
 ] as const;
 
 export default function AppShell({ children }: { children: ReactNode }) {
