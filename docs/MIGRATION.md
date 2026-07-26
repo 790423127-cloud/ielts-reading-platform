@@ -54,20 +54,24 @@ No UI replacement occurs until parity is complete.
 
 ## Phase 4 — mastery and sentences
 
+Status: completed.
+
 - backend learning tasks and mastery;
 - cross-date review;
 - due review;
 - fixed verified sentence training;
 - personal sentences and source context.
 
-## Phase 5 — new features on the new architecture
+## Phase 5 — personal learning completion
+
+Current delivery boundary: finish the personal learning product through vocabulary-book export. Commercial subscription, payment and entitlement work is deferred.
 
 - free-text AI teacher for wrong questions, sentences and plans;
 - conversation history, summaries, cache and cost audit;
 - vocabulary capture and JSON/CSV/TXT export;
 - no voice implementation.
 
-## Phase 6 — commercial readiness
+## Phase 6 — commercial readiness (deferred)
 
 - authentication and user ownership;
 - administrator unlimited plan;
