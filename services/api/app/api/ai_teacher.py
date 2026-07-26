@@ -197,13 +197,13 @@ def chat_with_ai_teacher(payload: AiTeacherChatRequest) -> dict[str, Any]:
         question=question,
     )
     cached = repository.get_cached(cache_key=cache_key, user_id=payload.user_id)
-    repository.append_message(
-        conversation_id=conversation["id"],
-        role="user",
-        content=question,
-    )
 
     if cached:
+        repository.append_message(
+            conversation_id=conversation["id"],
+            role="user",
+            content=question,
+        )
         updated = repository.append_message(
             conversation_id=conversation["id"],
             role="assistant",
@@ -271,6 +271,11 @@ def chat_with_ai_teacher(payload: AiTeacherChatRequest) -> dict[str, Any]:
         output_tokens=int(generated.get("output_tokens") or 0),
         provider_request_id=generated.get("provider_request_id"),
     )
+    repository.append_message(
+        conversation_id=conversation["id"],
+        role="user",
+        content=question,
+    )
     updated = repository.append_message(
         conversation_id=conversation["id"],
         role="assistant",
@@ -300,11 +305,12 @@ def list_ai_conversations(
     user_id: str = Query(default="owner", min_length=1, max_length=120),
     limit: int = Query(default=50, ge=1, le=200),
 ) -> dict[str, Any]:
-    items = ai_repository().list_conversations(user_id=user_id, limit=limit)
+    repository = ai_repository()
+    items = repository.list_conversations(user_id=user_id, limit=limit)
     return {
         "count": len(items),
         "items": items,
-        "provider_calls_today": ai_repository().provider_calls_today(user_id=user_id),
+        "provider_calls_today": repository.provider_calls_today(user_id=user_id),
         "daily_provider_limit": _daily_limit(),
     }
 
