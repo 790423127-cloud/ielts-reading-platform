@@ -7,7 +7,8 @@ from typing import Any, Iterable
 VERSION = "0.6.0"
 MINIMUM_QUESTIONS = 8
 REQUIRED_SUCCESS_DAYS = 2
-REVIEW_DELAY_DAYS = 3
+# 达标当天按第1天计算，因此“第3天复习”需要间隔2个自然日。
+REVIEW_DELAY_DAYS = 2
 
 STATUS_LABELS = {
     "not_started": "未开始",
