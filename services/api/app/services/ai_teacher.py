@@ -58,11 +58,7 @@ _PROVIDER_ALIASES = {
 
 
 def load_local_env() -> None:
-    """Load local .env files without overriding real process variables.
-
-    This keeps the old project's copy-.env-and-run workflow while preserving
-    deployment secrets supplied by Railway, Docker, systemd or another host.
-    """
+    """Load local .env files without overriding real process variables."""
 
     global _ENV_LOADED
     if _ENV_LOADED:
@@ -88,9 +84,8 @@ def load_local_env() -> None:
                 line = line[7:].strip()
             key, value = line.split("=", 1)
             key = key.strip()
-            if not key:
-                continue
-            os.environ.setdefault(key, value.strip().strip('"').strip("'"))
+            if key:
+                os.environ.setdefault(key, value.strip().strip('"').strip("'"))
 
 
 def _selected_provider() -> str:
@@ -111,15 +106,13 @@ def _selected_provider() -> str:
     return "qwen"
 
 
-def resolve_ai_provider_config(*, require_key: bool = True) -> AiProviderConfig:
-    load_local_env()
-    provider = _selected_provider()
+def _config_for_provider(provider: str) -> AiProviderConfig:
     generic_key = os.getenv("AI_API_KEY", "").strip()
     generic_model = os.getenv("AI_MODEL", "").strip()
     generic_base_url = os.getenv("AI_BASE_URL", "").strip()
 
     if provider == "qwen":
-        config = AiProviderConfig(
+        return AiProviderConfig(
             id="qwen",
             label="千问",
             api_key=os.getenv("DASHSCOPE_API_KEY", "").strip() or generic_key,
@@ -132,8 +125,8 @@ def resolve_ai_provider_config(*, require_key: bool = True) -> AiProviderConfig:
             protocol="chat_completions",
             key_variable="DASHSCOPE_API_KEY",
         )
-    elif provider == "deepseek":
-        config = AiProviderConfig(
+    if provider == "deepseek":
+        return AiProviderConfig(
             id="deepseek",
             label="DeepSeek",
             api_key=os.getenv("DEEPSEEK_API_KEY", "").strip() or generic_key,
@@ -146,17 +139,20 @@ def resolve_ai_provider_config(*, require_key: bool = True) -> AiProviderConfig:
             protocol="chat_completions",
             key_variable="DEEPSEEK_API_KEY",
         )
-    else:
-        config = AiProviderConfig(
-            id="openai",
-            label="OpenAI",
-            api_key=os.getenv("OPENAI_API_KEY", "").strip() or generic_key,
-            model=os.getenv("OPENAI_MODEL", "").strip() or generic_model or "gpt-5-mini",
-            base_url=os.getenv("OPENAI_BASE_URL", "").strip() or generic_base_url or None,
-            protocol="responses",
-            key_variable="OPENAI_API_KEY",
-        )
+    return AiProviderConfig(
+        id="openai",
+        label="OpenAI",
+        api_key=os.getenv("OPENAI_API_KEY", "").strip() or generic_key,
+        model=os.getenv("OPENAI_MODEL", "").strip() or generic_model or "gpt-5-mini",
+        base_url=os.getenv("OPENAI_BASE_URL", "").strip() or generic_base_url or None,
+        protocol="responses",
+        key_variable="OPENAI_API_KEY",
+    )
 
+
+def resolve_ai_provider_config(*, require_key: bool = True) -> AiProviderConfig:
+    load_local_env()
+    config = _config_for_provider(_selected_provider())
     if require_key and not config.configured:
         raise AiTeacherNotConfiguredError(
             f"当前选择的是{config.label}，但未配置 {config.key_variable}。"
@@ -169,27 +165,20 @@ def ai_provider_cache_identity() -> str:
 
 
 def ai_provider_public_status() -> dict[str, Any]:
+    load_local_env()
     selected = resolve_ai_provider_config(require_key=False)
-    providers: list[dict[str, Any]] = []
-    original = os.getenv("AI_PROVIDER")
-    try:
-        for provider_id in ("qwen", "deepseek", "openai"):
-            os.environ["AI_PROVIDER"] = provider_id
-            config = resolve_ai_provider_config(require_key=False)
-            providers.append(
-                {
-                    "id": config.id,
-                    "label": config.label,
-                    "configured": config.configured,
-                    "model": config.model,
-                    "base_url": config.base_url,
-                }
-            )
-    finally:
-        if original is None:
-            os.environ.pop("AI_PROVIDER", None)
-        else:
-            os.environ["AI_PROVIDER"] = original
+    providers = []
+    for provider_id in ("qwen", "deepseek", "openai"):
+        config = _config_for_provider(provider_id)
+        providers.append(
+            {
+                "id": config.id,
+                "label": config.label,
+                "configured": config.configured,
+                "model": config.model,
+                "base_url": config.base_url,
+            }
+        )
     return {
         "selected": selected.id,
         "selected_label": selected.label,
@@ -298,10 +287,11 @@ def generate_ai_reply(
             context=context,
             history=history,
         )
-        if config.protocol == "responses":
-            generated = _call_responses(client, config, payload)
-        else:
-            generated = _call_chat_completions(client, config, payload)
+        generated = (
+            _call_responses(client, config, payload)
+            if config.protocol == "responses"
+            else _call_chat_completions(client, config, payload)
+        )
         if not generated["answer"]:
             raise AiTeacherProviderError(f"{config.label}没有返回可显示的文字。")
         return {
