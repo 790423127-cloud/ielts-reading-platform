@@ -20,7 +20,8 @@ IELTS General Training Reading 个人学习平台。
 - 审核长难句五步训练与个人句子拆解；
 - 词汇本、来源去重以及 CSV/TXT/JSON 导出；
 - 错题、长难句和学习计划的证据约束 AI 学习老师；
-- AI 对话历史、自动摘要、相同问题缓存、每日调用上限和 token 审计。
+- AI 对话历史、自动摘要、相同问题缓存、每日调用上限和 token 审计；
+- 千问、DeepSeek 和 OpenAI 服务端供应商适配。
 
 当前个人学习产品范围已经推进到词汇本导出和 AI 学习辅助。订阅、支付、套餐、语音和其他商业化功能暂缓。
 
@@ -37,18 +38,50 @@ IELTS General Training Reading 个人学习平台。
 
 ## AI 学习老师配置
 
-AI 功能使用服务端环境变量，不把密钥写入前端或仓库：
+新系统兼容旧系统的变量名称。复制示例文件后，只填写你实际使用的供应商，不要把密钥提交到 GitHub：
 
-```bash
-export OPENAI_API_KEY="你的服务端密钥"
-export OPENAI_MODEL="gpt-5-mini"
-export AI_DAILY_REQUEST_LIMIT="30"
+### Windows PowerShell
+
+```powershell
+Copy-Item .env.example .env
+notepad .env
 ```
 
-- 没有配置 `OPENAI_API_KEY` 时，题库、判分、学习计划、长难句和词汇本仍可正常使用，AI 面板会显示明确的未配置提示；
+### 千问
+
+```env
+AI_PROVIDER=qwen
+DASHSCOPE_API_KEY=你的阿里云百炼_API_Key
+QWEN_MODEL=qwen3.7-plus
+QWEN_BASE_URL=https://dashscope.aliyuncs.com/compatible-mode/v1
+AI_DAILY_REQUEST_LIMIT=30
+```
+
+### DeepSeek
+
+```env
+AI_PROVIDER=deepseek
+DEEPSEEK_API_KEY=你的_DeepSeek_API_Key
+DEEPSEEK_MODEL=deepseek-v4-pro
+DEEPSEEK_BASE_URL=https://api.deepseek.com
+AI_DAILY_REQUEST_LIMIT=30
+```
+
+### OpenAI（可选）
+
+```env
+AI_PROVIDER=openai
+OPENAI_API_KEY=你的服务端密钥
+OPENAI_MODEL=gpt-5-mini
+AI_DAILY_REQUEST_LIMIT=30
+```
+
+- 本地后端会读取仓库根目录或 `services/api` 目录下的 `.env`；已有系统环境变量优先，不会被文件覆盖；
+- 选中的供应商没有配置密钥时会明确报错，不会偷偷改用另一家付费模型；
+- 千问和 DeepSeek 通过各自的 OpenAI 兼容 Chat Completions 接口调用；OpenAI 继续使用 Responses API；
 - `AI_DAILY_REQUEST_LIMIT` 只限制当天新增的真实 AI 调用，相同问题命中缓存时不会增加调用；
 - 自动测试使用模拟提供方，不会调用真实付费接口；
-- Responses API 请求设置 `store=False`，系统本地只保存学习对话、模型名、请求 ID 和 token 用量。
+- 可访问 `GET /api/v1/ai-teacher/provider` 检查当前供应商、模型和配置状态，接口不会返回 API Key。
 
 ## 本地开发
 
