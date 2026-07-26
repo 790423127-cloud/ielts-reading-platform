@@ -180,6 +180,49 @@ export type PersonalSentenceCapture = {
   exam_mode?: string;
 };
 
+export type VocabularySource = {
+  id: string;
+  source_type: "reading_text" | "question" | "option" | "wrong_review" | "sentence" | "ai" | "manual";
+  source_sentence?: string | null;
+  source_context?: string | null;
+  source_session_id?: string | null;
+  source_question_id?: string | null;
+  test_id?: string | null;
+  test_title?: string | null;
+  part_number?: number | null;
+  created_at: string;
+};
+
+export type VocabularyItem = {
+  id: string;
+  user_id: string;
+  term: string;
+  meaning: string;
+  note: string;
+  status: "learning" | "mastered";
+  occurrence_count: number;
+  sources: VocabularySource[];
+  created_at: string;
+  updated_at: string;
+  deduplicated: boolean;
+  source_added: boolean;
+};
+
+export type VocabularyCapture = {
+  user_id?: string;
+  term: string;
+  meaning?: string;
+  note?: string;
+  source_type: VocabularySource["source_type"];
+  source_sentence?: string;
+  source_context?: string;
+  source_session_id?: string;
+  source_question_id?: string;
+  test_id?: string;
+  test_title?: string;
+  part_number?: number;
+};
+
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8000";
 
 async function apiJson<T>(path: string, init?: RequestInit): Promise<T> {
@@ -257,4 +300,41 @@ export async function deletePersonalSentence(sentenceId: string, userId = "owner
     `/api/v1/sentences/${encodeURIComponent(sentenceId)}?user_id=${encodeURIComponent(userId)}`,
     { method: "DELETE" }
   );
+}
+
+export async function fetchVocabulary(userId = "owner", signal?: AbortSignal): Promise<VocabularyItem[]> {
+  const data = await apiJson<{ items: VocabularyItem[] }>(
+    `/api/v1/vocabulary?user_id=${encodeURIComponent(userId)}&limit=5000`,
+    { signal }
+  );
+  return data.items;
+}
+
+export async function captureVocabulary(payload: VocabularyCapture): Promise<VocabularyItem> {
+  return apiJson<VocabularyItem>("/api/v1/vocabulary", {
+    method: "POST",
+    body: JSON.stringify(payload)
+  });
+}
+
+export async function updateVocabulary(
+  itemId: string,
+  update: { meaning: string; note: string; status: VocabularyItem["status"] },
+  userId = "owner"
+): Promise<VocabularyItem> {
+  return apiJson<VocabularyItem>(`/api/v1/vocabulary/${encodeURIComponent(itemId)}`, {
+    method: "PUT",
+    body: JSON.stringify({ user_id: userId, ...update })
+  });
+}
+
+export async function deleteVocabulary(itemId: string, userId = "owner"): Promise<void> {
+  await apiJson<{ deleted: true }>(
+    `/api/v1/vocabulary/${encodeURIComponent(itemId)}?user_id=${encodeURIComponent(userId)}`,
+    { method: "DELETE" }
+  );
+}
+
+export function vocabularyExportUrl(format: "csv" | "txt" | "json", userId = "owner"): string {
+  return `${API_BASE_URL}/api/v1/vocabulary/export?format=${format}&user_id=${encodeURIComponent(userId)}`;
 }
