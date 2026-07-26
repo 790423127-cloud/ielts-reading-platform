@@ -1,0 +1,218 @@
+from __future__ import annotations
+
+import csv
+from datetime import datetime, timezone
+import io
+import json
+from typing import Any, Literal
+
+from fastapi import APIRouter, HTTPException, Query, Response
+from pydantic import BaseModel, ConfigDict, Field
+
+from app.api.sessions import session_repository
+from app.repositories.vocabulary_repository import VocabularyRepository
+
+router = APIRouter(prefix="/vocabulary", tags=["vocabulary"])
+
+
+class VocabularyCaptureRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    user_id: str = Field(default="owner", min_length=1, max_length=120)
+    term: str = Field(min_length=1, max_length=300)
+    meaning: str = Field(default="", max_length=4000)
+    note: str = Field(default="", max_length=8000)
+    source_type: Literal[
+        "reading_text",
+        "question",
+        "option",
+        "wrong_review",
+        "sentence",
+        "ai",
+        "manual",
+    ] = "manual"
+    source_sentence: str | None = Field(default=None, max_length=8000)
+    source_context: str | None = Field(default=None, max_length=12000)
+    source_session_id: str | None = Field(default=None, max_length=120)
+    source_question_id: str | None = Field(default=None, max_length=180)
+    test_id: str | None = Field(default=None, max_length=120)
+    test_title: str | None = Field(default=None, max_length=300)
+    part_number: int | None = Field(default=None, ge=1, le=99)
+
+
+class VocabularyUpdateRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    user_id: str = Field(default="owner", min_length=1, max_length=120)
+    meaning: str = Field(default="", max_length=4000)
+    note: str = Field(default="", max_length=8000)
+    status: Literal["learning", "mastered"] = "learning"
+
+
+def vocabulary_repository() -> VocabularyRepository:
+    return VocabularyRepository(session_repository().database_path)
+
+
+def _export_rows(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for item in items:
+        sources = item.get("sources") or []
+        source_text = " | ".join(
+            " · ".join(
+                value
+                for value in [
+                    str(source.get("test_title") or "").strip(),
+                    f"Part {source['part_number']}" if source.get("part_number") else "",
+                    str(source.get("source_sentence") or source.get("source_context") or "").strip(),
+                ]
+                if value
+            )
+            for source in sources
+        )
+        rows.append(
+            {
+                "term": item["term"],
+                "meaning": item["meaning"],
+                "note": item["note"],
+                "status": item["status"],
+                "occurrence_count": item["occurrence_count"],
+                "sources": source_text,
+                "created_at": item["created_at"],
+                "updated_at": item["updated_at"],
+            }
+        )
+    return rows
+
+
+def _spreadsheet_safe(value: Any) -> str:
+    text = str(value or "")
+    if text.lstrip().startswith(("=", "+", "-", "@")):
+        return "'" + text
+    return text
+
+
+@router.get("")
+def list_vocabulary(
+    user_id: str = Query(default="owner", min_length=1, max_length=120),
+    query: str = Query(default="", max_length=300),
+    status: Literal["learning", "mastered"] | None = Query(default=None),
+    limit: int = Query(default=500, ge=1, le=5000),
+) -> dict[str, Any]:
+    items = vocabulary_repository().list_items(
+        user_id=user_id,
+        query=query,
+        status=status,
+        limit=limit,
+    )
+    return {
+        "count": len(items),
+        "learning_count": sum(1 for item in items if item["status"] == "learning"),
+        "mastered_count": sum(1 for item in items if item["status"] == "mastered"),
+        "items": items,
+        "export_formats": ["csv", "txt", "json"],
+    }
+
+
+@router.post("")
+def capture_vocabulary(payload: VocabularyCaptureRequest) -> dict[str, Any]:
+    try:
+        return vocabulary_repository().capture(
+            user_id=payload.user_id,
+            payload=payload.model_dump(),
+        )
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail=str(error)) from error
+
+
+@router.get("/export")
+def export_vocabulary(
+    format: Literal["csv", "txt", "json"] = Query(default="csv"),
+    user_id: str = Query(default="owner", min_length=1, max_length=120),
+) -> Response:
+    items = vocabulary_repository().list_items(user_id=user_id, limit=5000)
+    rows = _export_rows(items)
+    date_stamp = datetime.now(timezone.utc).strftime("%Y%m%d")
+    filename = f"ielts-vocabulary-{date_stamp}.{format}"
+
+    if format == "json":
+        body = json.dumps(
+            {
+                "version": 1,
+                "exported_at": datetime.now(timezone.utc).isoformat(),
+                "count": len(items),
+                "items": items,
+            },
+            ensure_ascii=False,
+            indent=2,
+        )
+        media_type = "application/json; charset=utf-8"
+    elif format == "txt":
+        sections = []
+        for index, row in enumerate(rows, start=1):
+            sections.append(
+                "\n".join(
+                    [
+                        f"{index}. {row['term']}",
+                        f"释义：{row['meaning'] or '—'}",
+                        f"笔记：{row['note'] or '—'}",
+                        f"状态：{'已掌握' if row['status'] == 'mastered' else '学习中'}",
+                        f"出现次数：{row['occurrence_count']}",
+                        f"来源：{row['sources'] or '手动添加'}",
+                    ]
+                )
+            )
+        body = "IELTS 阅读词汇本\n\n" + "\n\n".join(sections)
+        media_type = "text/plain; charset=utf-8"
+    else:
+        buffer = io.StringIO(newline="")
+        writer = csv.writer(buffer)
+        writer.writerow(["单词/词组", "中文释义", "个人笔记", "状态", "出现次数", "来源", "收藏时间", "更新时间"])
+        for row in rows:
+            writer.writerow(
+                [
+                    _spreadsheet_safe(row["term"]),
+                    _spreadsheet_safe(row["meaning"]),
+                    _spreadsheet_safe(row["note"]),
+                    "已掌握" if row["status"] == "mastered" else "学习中",
+                    row["occurrence_count"],
+                    _spreadsheet_safe(row["sources"]),
+                    row["created_at"],
+                    row["updated_at"],
+                ]
+            )
+        body = "\ufeff" + buffer.getvalue()
+        media_type = "text/csv; charset=utf-8"
+
+    return Response(
+        content=body,
+        media_type=media_type,
+        headers={"Content-Disposition": f'attachment; filename="{filename}"'},
+    )
+
+
+@router.put("/{item_id}")
+def update_vocabulary(item_id: str, payload: VocabularyUpdateRequest) -> dict[str, Any]:
+    try:
+        item = vocabulary_repository().update_item(
+            user_id=payload.user_id,
+            item_id=item_id,
+            meaning=payload.meaning,
+            note=payload.note,
+            status=payload.status,
+        )
+    except ValueError as error:
+        raise HTTPException(status_code=400, detail=str(error)) from error
+    if not item:
+        raise HTTPException(status_code=404, detail="Vocabulary item not found")
+    return item
+
+
+@router.delete("/{item_id}")
+def delete_vocabulary(
+    item_id: str,
+    user_id: str = Query(default="owner", min_length=1, max_length=120),
+) -> dict[str, bool]:
+    deleted = vocabulary_repository().delete_item(user_id=user_id, item_id=item_id)
+    if not deleted:
+        raise HTTPException(status_code=404, detail="Vocabulary item not found")
+    return {"deleted": True}
