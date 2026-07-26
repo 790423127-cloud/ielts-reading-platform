@@ -91,9 +91,35 @@ export function sanitizeReadingAnnotations(value: unknown): ReadingAnnotation[] 
   for (const item of value) {
     if (!isAnnotation(item)) continue;
     if (item.startOffset < 0 || item.endOffset <= item.startOffset || item.selectedText.length > 300) continue;
-    byId.set(item.id, item);
+    const existing = byId.get(item.id);
+    if (!existing || item.updatedAt >= existing.updatedAt) byId.set(item.id, item);
   }
   return [...byId.values()].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
+}
+
+function legacyAnnotation(
+  value: unknown,
+  *,
+  testId: string,
+  testTitle: string,
+  fallbackPartNumber: number
+): ReadingAnnotation | null {
+  if (!value || typeof value !== "object") return null;
+  const item = value as Record<string, unknown>;
+  const upgraded = {
+    ...item,
+    testId,
+    testTitle,
+    partNumber: Number(item.partNumber ?? fallbackPartNumber),
+    paragraphIndex: Number(item.paragraphIndex),
+    startOffset: Number(item.startOffset),
+    endOffset: Number(item.endOffset),
+    prefix: String(item.prefix ?? ""),
+    suffix: String(item.suffix ?? ""),
+    sentence: String(item.sentence ?? ""),
+    note: String(item.note ?? "")
+  };
+  return isAnnotation(upgraded) ? upgraded : null;
 }
 
 function migrateLegacyAnnotations(testId: string, testTitle: string): ReadingAnnotation[] {
@@ -103,9 +129,14 @@ function migrateLegacyAnnotations(testId: string, testTitle: string): ReadingAnn
   for (let index = 0; index < window.localStorage.length; index += 1) {
     const key = window.localStorage.key(index);
     if (!key?.startsWith(prefix)) continue;
+    const fallbackPartNumber = Number(key.slice(prefix.length)) || 1;
     try {
-      const rows = sanitizeReadingAnnotations(JSON.parse(window.localStorage.getItem(key) || "[]"));
-      for (const row of rows) migrated.push({ ...row, testId, testTitle });
+      const parsed = JSON.parse(window.localStorage.getItem(key) || "[]") as unknown;
+      if (!Array.isArray(parsed)) continue;
+      for (const value of parsed) {
+        const row = legacyAnnotation(value, { testId, testTitle, fallbackPartNumber });
+        if (row) migrated.push(row);
+      }
     } catch {
       // Invalid legacy drafts are ignored rather than overwriting valid learning data.
     }
@@ -181,12 +212,14 @@ export function cacheSessionAnnotations(detail: ReadingHistoryDetail): void {
   }));
   if (rows.length) {
     const existing = readReadingAnnotationDraft(detail.testId, detail.testTitle);
-    const merged = sanitizeReadingAnnotations([...rows, ...existing]);
+    const merged = sanitizeReadingAnnotations([...existing, ...rows]);
     writeReadingAnnotationDraft(detail.testId, detail.testTitle, merged);
   }
-  window.dispatchEvent(new CustomEvent<ReadingHistoryDetail>(READING_HISTORY_EVENT, {
-    detail: { ...detail, annotations: rows }
-  }));
+  window.setTimeout(() => {
+    window.dispatchEvent(new CustomEvent<ReadingHistoryDetail>(READING_HISTORY_EVENT, {
+      detail: { ...detail, annotations: rows }
+    }));
+  }, 0);
 }
 
 type NormalizedMap = { text: string; rawIndexes: number[] };
