@@ -1,0 +1,245 @@
+::highlight(reading-highlight) {
+  background: rgba(255, 221, 92, 0.72);
+  color: inherit;
+}
+
+::highlight(reading-note) {
+  background: rgba(114, 210, 188, 0.42);
+  text-decoration: underline 2px #0c8b75;
+  text-underline-offset: 3px;
+}
+
+.reading-selection-toolbar {
+  position: fixed;
+  z-index: 120;
+  display: flex;
+  gap: 4px;
+  padding: 6px;
+  border: 1px solid #c9d9dc;
+  border-radius: 12px;
+  background: #17262f;
+  box-shadow: 0 14px 34px rgba(17, 42, 49, 0.24);
+}
+
+.reading-selection-toolbar button {
+  min-height: 34px;
+  padding: 7px 10px;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 850;
+  white-space: nowrap;
+}
+
+.reading-selection-toolbar button:hover,
+.reading-selection-toolbar button:focus-visible {
+  background: rgba(255, 255, 255, 0.14);
+  outline: none;
+}
+
+.reading-selection-toolbar button.quiet { color: #c7d3d7; }
+.reading-selection-toolbar button:disabled { opacity: 0.55; }
+
+.reading-note-editor {
+  position: fixed;
+  z-index: 121;
+  width: min(348px, calc(100vw - 24px));
+  padding: 15px;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  background: #fff;
+  box-shadow: var(--shadow);
+}
+
+.reading-note-editor strong {
+  display: block;
+  overflow: hidden;
+  margin-bottom: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.reading-note-editor textarea {
+  width: 100%;
+  padding: 10px 11px;
+  border: 1px solid #bfcfd3;
+  border-radius: 9px;
+  color: var(--text);
+  line-height: 1.55;
+  resize: vertical;
+}
+
+.reading-note-editor textarea:focus {
+  border-color: var(--brand);
+  outline: 3px solid rgba(12, 139, 117, 0.14);
+}
+
+.reading-note-editor > div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.reading-annotation-toggle {
+  position: fixed;
+  right: 18px;
+  bottom: 18px;
+  z-index: 112;
+  min-height: 42px;
+  padding: 10px 15px;
+  border: 1px solid #9bcfc3;
+  border-radius: 999px;
+  background: #fff;
+  color: var(--brand-dark);
+  box-shadow: 0 10px 28px rgba(17, 42, 49, 0.16);
+  font-weight: 900;
+}
+
+.reading-annotation-panel {
+  position: fixed;
+  top: 76px;
+  right: 18px;
+  bottom: 18px;
+  z-index: 115;
+  display: flex;
+  width: min(390px, calc(100vw - 36px));
+  flex-direction: column;
+  border: 1px solid var(--line);
+  border-radius: 17px;
+  background: #f7faf9;
+  box-shadow: 0 20px 55px rgba(17, 42, 49, 0.22);
+  overflow: hidden;
+}
+
+.reading-annotation-panel-heading {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: center;
+  padding: 16px;
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+
+.reading-annotation-panel-heading span,
+.reading-annotation-panel-heading strong { display: block; }
+.reading-annotation-panel-heading span { color: var(--brand); font-size: 10px; font-weight: 900; letter-spacing: 0.12em; }
+.reading-annotation-panel-heading strong { margin-top: 3px; font-size: 19px; }
+.reading-annotation-panel-heading button { border: 0; background: transparent; color: var(--muted); font-weight: 800; }
+
+.reading-annotation-list {
+  display: grid;
+  gap: 10px;
+  padding: 12px;
+  overflow-y: auto;
+}
+
+.reading-annotation-list article {
+  padding: 14px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+}
+
+.reading-annotation-list article > span {
+  display: block;
+  color: var(--brand-dark);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.reading-annotation-list article > strong {
+  display: block;
+  margin-top: 5px;
+  line-height: 1.45;
+}
+
+.reading-annotation-list article p {
+  margin: 8px 0 0;
+  padding: 9px 10px;
+  border-radius: 8px;
+  background: var(--soft);
+  line-height: 1.55;
+}
+
+.reading-annotation-list article small {
+  display: block;
+  margin-top: 9px;
+  color: var(--muted);
+  line-height: 1.5;
+}
+
+.reading-annotation-list article > div {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.reading-annotation-list article > div button {
+  padding: 5px 8px;
+  border: 1px solid var(--line);
+  border-radius: 7px;
+  background: #fff;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 800;
+}
+
+.reading-annotation-status {
+  position: fixed;
+  left: 50%;
+  bottom: 22px;
+  z-index: 130;
+  display: flex;
+  max-width: calc(100vw - 32px);
+  transform: translateX(-50%);
+  align-items: center;
+  gap: 10px;
+  padding: 10px 13px;
+  border: 1px solid #a9d7cc;
+  border-radius: 10px;
+  background: #e9f7f3;
+  color: var(--brand-dark);
+  box-shadow: 0 10px 28px rgba(17, 42, 49, 0.15);
+  font-size: 13px;
+  font-weight: 800;
+}
+
+.reading-annotation-status button {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 18px;
+  line-height: 1;
+}
+
+.passage-copy .passage-paragraph p { user-select: text; -webkit-user-select: text; }
+
+@media (max-width: 680px) {
+  .reading-selection-toolbar {
+    right: 10px;
+    bottom: 12px;
+    left: 10px !important;
+    top: auto !important;
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+
+  .reading-selection-toolbar button { padding-inline: 5px; }
+
+  .reading-note-editor {
+    right: 10px;
+    bottom: 62px;
+    left: 10px !important;
+    top: auto !important;
+    width: auto;
+  }
+
+  .reading-annotation-toggle { right: 12px; bottom: 12px; }
+  .reading-annotation-panel { top: 12px; right: 10px; bottom: 10px; width: calc(100vw - 20px); }
+  .reading-annotation-status { bottom: 68px; }
+}

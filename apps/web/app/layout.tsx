@@ -1,9 +1,11 @@
 import type { Metadata } from "next";
 import AppShell from "@/components/AppShell";
+import ReadingAnnotationLayer from "@/components/ReadingAnnotationLayer";
 import "./globals.css";
 import "./learning.css";
 import "./vocabulary.css";
 import "./ai-teacher.css";
+import "./reading-annotations.css";
 
 export const metadata: Metadata = {
   title: "IELTS G类阅读学习平台",
@@ -15,6 +17,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="zh-CN">
       <body>
         <AppShell>{children}</AppShell>
+        <ReadingAnnotationLayer />
       </body>
     </html>
   );

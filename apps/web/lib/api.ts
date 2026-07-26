@@ -1,3 +1,10 @@
+import {
+  cacheSessionAnnotations,
+  readAnnotationsForSubmission,
+  rememberCurrentReadingTest,
+  type ReadingAnnotation
+} from "@/lib/readingAnnotations";
+
 export type HealthResponse = {
   ok: boolean;
   service: string;
@@ -107,6 +114,7 @@ export type ScoringResult = {
   skill_label?: string;
   source_question_refs?: string[];
   source_policy?: string;
+  annotations?: ReadingAnnotation[];
 };
 export type SessionEnvelope = {
   session_id: string;
@@ -135,6 +143,7 @@ export type SubmitSessionPayload = {
   exam_mode: "study" | "part_practice" | "mock_exam";
   part_numbers: number[];
   timed_out?: boolean;
+  annotations?: ReadingAnnotation[];
 };
 
 export type WrongReviewItem = QuestionResult & {
@@ -229,6 +238,19 @@ async function apiJson<T>(path: string, init?: RequestInit): Promise<T> {
   return data as T;
 }
 
+function cacheEnvelopeAnnotations(envelope: SessionEnvelope): SessionEnvelope {
+  const annotations = envelope.result.annotations || [];
+  if (annotations.length) {
+    cacheSessionAnnotations({
+      sessionId: envelope.session_id,
+      testId: envelope.result.test_id,
+      testTitle: envelope.result.test_title,
+      annotations
+    });
+  }
+  return envelope;
+}
+
 export async function fetchHealth(signal?: AbortSignal): Promise<HealthResponse> {
   return apiJson<HealthResponse>("/api/v1/health", { signal });
 }
@@ -239,14 +261,18 @@ export async function fetchTests(signal?: AbortSignal): Promise<TestIndexItem[]>
 }
 
 export async function fetchPublicTest(testId: string, signal?: AbortSignal): Promise<PublicTest> {
-  return apiJson<PublicTest>(`/api/v1/question-bank/tests/${encodeURIComponent(testId)}`, { signal });
+  const test = await apiJson<PublicTest>(`/api/v1/question-bank/tests/${encodeURIComponent(testId)}`, { signal });
+  rememberCurrentReadingTest({ id: test.id, title: test.title });
+  return test;
 }
 
 export async function submitSession(payload: SubmitSessionPayload): Promise<SessionEnvelope> {
-  return apiJson<SessionEnvelope>("/api/v1/sessions/submit", {
+  const annotations = payload.annotations || readAnnotationsForSubmission(payload.test_id, payload.part_numbers);
+  const envelope = await apiJson<SessionEnvelope>("/api/v1/sessions/submit", {
     method: "POST",
-    body: JSON.stringify(payload)
+    body: JSON.stringify({ ...payload, annotations })
   });
+  return cacheEnvelopeAnnotations(envelope);
 }
 
 export async function fetchSessions(userId = "owner", signal?: AbortSignal): Promise<SessionSummary[]> {
@@ -254,10 +280,11 @@ export async function fetchSessions(userId = "owner", signal?: AbortSignal): Pro
 }
 
 export async function fetchSession(sessionId: string, userId = "owner", signal?: AbortSignal): Promise<SessionEnvelope> {
-  return apiJson<SessionEnvelope>(
+  const envelope = await apiJson<SessionEnvelope>(
     `/api/v1/sessions/${encodeURIComponent(sessionId)}?user_id=${encodeURIComponent(userId)}`,
     { signal }
   );
+  return cacheEnvelopeAnnotations(envelope);
 }
 
 export async function fetchWrongQuestions(userId = "owner", signal?: AbortSignal): Promise<WrongReviewItem[]> {

@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Any, Literal
 
 from fastapi import APIRouter, HTTPException, Query
-from pydantic import BaseModel, ConfigDict, Field
+from pydantic import BaseModel, ConfigDict, Field, model_validator
 
 from app.api.question_bank import question_bank
 from app.domain.scoring import score_submission
@@ -13,6 +13,34 @@ from app.repositories.session_repository import SQLiteSessionRepository, StoredS
 from app.services.question_bank import QuestionBankNotReadyError
 
 router = APIRouter(prefix="/sessions", tags=["sessions"])
+
+
+class SessionAnnotation(BaseModel):
+    model_config = ConfigDict(extra="forbid", populate_by_name=True)
+
+    id: str = Field(min_length=1, max_length=160)
+    kind: Literal["highlight", "note"]
+    test_id: str = Field(alias="testId", min_length=1, max_length=120)
+    test_title: str = Field(alias="testTitle", min_length=1, max_length=300)
+    part_number: int = Field(alias="partNumber", ge=1, le=3)
+    paragraph_index: int = Field(alias="paragraphIndex", ge=0, le=500)
+    start_offset: int = Field(alias="startOffset", ge=0, le=200000)
+    end_offset: int = Field(alias="endOffset", ge=1, le=200000)
+    selected_text: str = Field(alias="selectedText", min_length=1, max_length=300)
+    prefix: str = Field(default="", max_length=500)
+    suffix: str = Field(default="", max_length=500)
+    sentence: str = Field(default="", max_length=5000)
+    note: str = Field(default="", max_length=5000)
+    created_at: str = Field(alias="createdAt", min_length=1, max_length=80)
+    updated_at: str = Field(alias="updatedAt", min_length=1, max_length=80)
+
+    @model_validator(mode="after")
+    def validate_offsets_and_note(self) -> "SessionAnnotation":
+        if self.end_offset <= self.start_offset:
+            raise ValueError("annotation endOffset must be greater than startOffset")
+        if self.kind == "note" and not self.note.strip():
+            raise ValueError("note annotations require note text")
+        return self
 
 
 class SessionSubmitRequest(BaseModel):
@@ -26,6 +54,7 @@ class SessionSubmitRequest(BaseModel):
     exam_mode: Literal["study", "part_practice", "mock_exam"] = "mock_exam"
     part_numbers: list[int] = Field(default_factory=list, max_length=3)
     timed_out: bool = False
+    annotations: list[SessionAnnotation] = Field(default_factory=list, max_length=500)
 
 
 class SessionSummary(BaseModel):
@@ -92,6 +121,36 @@ def _select_parts(test: dict[str, Any], part_numbers: list[int]) -> tuple[dict[s
     return filtered, selected
 
 
+def _validated_annotations(
+    payload: SessionSubmitRequest,
+    *,
+    selected_parts: list[int],
+    authoritative_test: dict[str, Any],
+) -> list[dict[str, Any]]:
+    selected = set(selected_parts)
+    test_title = str(authoritative_test.get("title") or payload.test_id)
+    rows: list[dict[str, Any]] = []
+    seen: set[str] = set()
+    for annotation in payload.annotations:
+        if annotation.id in seen:
+            continue
+        seen.add(annotation.id)
+        if annotation.test_id != payload.test_id:
+            raise HTTPException(
+                status_code=400,
+                detail={"code": "annotation_test_mismatch", "annotation_id": annotation.id},
+            )
+        if annotation.part_number not in selected:
+            raise HTTPException(
+                status_code=400,
+                detail={"code": "annotation_part_not_submitted", "annotation_id": annotation.id},
+            )
+        row = annotation.model_dump(by_alias=True)
+        row["testTitle"] = test_title
+        rows.append(row)
+    return rows
+
+
 @router.post("/submit", response_model=SessionEnvelope)
 def submit_session(payload: SessionSubmitRequest) -> SessionEnvelope:
     repository = session_repository()
@@ -120,6 +179,11 @@ def submit_session(payload: SessionSubmitRequest) -> SessionEnvelope:
     )
     result["part_numbers"] = selected_parts
     result["timed_out"] = payload.timed_out
+    result["annotations"] = _validated_annotations(
+        payload,
+        selected_parts=selected_parts,
+        authoritative_test=authoritative_test,
+    )
     stored = repository.save_or_get(
         user_id=payload.user_id,
         client_submission_id=payload.client_submission_id,
