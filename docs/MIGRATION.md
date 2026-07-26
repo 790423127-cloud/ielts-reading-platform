@@ -64,11 +64,16 @@ Status: completed.
 
 ## Phase 5 — personal learning completion
 
-Current delivery boundary: finish the personal learning product through vocabulary-book export. Commercial subscription, payment and entitlement work is deferred.
+Status: completed.
 
-- free-text AI teacher for wrong questions, sentences and plans;
-- conversation history, summaries, cache and cost audit;
-- vocabulary capture and JSON/CSV/TXT export;
+Delivery boundary: the personal learning product is complete through vocabulary-book export and evidence-constrained AI assistance. Commercial subscription, payment and entitlement work is deferred.
+
+- free-text AI teacher for submitted wrong questions, unlocked sentences and server learning plans;
+- server-owned evidence context and immutable scoring/mastery boundaries;
+- conversation history, deterministic summaries, exact cache and token/request audit;
+- daily provider-call limit and clear unconfigured-provider fallback;
+- vocabulary capture, source deduplication and JSON/CSV/TXT export;
+- desktop and mobile learning interfaces;
 - no voice implementation.
 
 ## Phase 6 — commercial readiness (deferred)
