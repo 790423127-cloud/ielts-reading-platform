@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import hashlib
+import json
 import os
 from typing import Any, Literal
 
@@ -172,6 +174,12 @@ def _resolve_context(payload: AiTeacherChatRequest) -> tuple[str, str, dict[str,
     return _plan_context(payload)
 
 
+def _context_cache_ref(context_ref: str, context: dict[str, Any]) -> str:
+    serialized = json.dumps(context, ensure_ascii=False, sort_keys=True, default=str)
+    digest = hashlib.sha256(serialized.encode("utf-8")).hexdigest()
+    return f"{context_ref}:{digest}"
+
+
 def _daily_limit() -> int:
     try:
         return max(1, min(int(os.getenv("AI_DAILY_REQUEST_LIMIT", "30")), 500))
@@ -193,7 +201,7 @@ def chat_with_ai_teacher(payload: AiTeacherChatRequest) -> dict[str, Any]:
     cache_key = repository.cache_key(
         user_id=payload.user_id,
         context_type=payload.context_type,
-        context_ref=context_ref,
+        context_ref=_context_cache_ref(context_ref, context),
         question=question,
     )
     cached = repository.get_cached(cache_key=cache_key, user_id=payload.user_id)
