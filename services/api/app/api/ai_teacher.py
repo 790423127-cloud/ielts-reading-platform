@@ -174,8 +174,25 @@ def _resolve_context(payload: AiTeacherChatRequest) -> tuple[str, str, dict[str,
     return _plan_context(payload)
 
 
+def _stable_context(value: Any) -> Any:
+    if isinstance(value, dict):
+        return {
+            key: _stable_context(item)
+            for key, item in value.items()
+            if key not in {"created_at", "updated_at"}
+        }
+    if isinstance(value, list):
+        return [_stable_context(item) for item in value]
+    return value
+
+
 def _context_cache_ref(context_ref: str, context: dict[str, Any]) -> str:
-    serialized = json.dumps(context, ensure_ascii=False, sort_keys=True, default=str)
+    serialized = json.dumps(
+        _stable_context(context),
+        ensure_ascii=False,
+        sort_keys=True,
+        default=str,
+    )
     digest = hashlib.sha256(serialized.encode("utf-8")).hexdigest()
     return f"{context_ref}:{digest}"
 
