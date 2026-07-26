@@ -99,18 +99,15 @@ export function sanitizeReadingAnnotations(value: unknown): ReadingAnnotation[] 
 
 function legacyAnnotation(
   value: unknown,
-  *,
-  testId: string,
-  testTitle: string,
-  fallbackPartNumber: number
+  options: { testId: string; testTitle: string; fallbackPartNumber: number }
 ): ReadingAnnotation | null {
   if (!value || typeof value !== "object") return null;
   const item = value as Record<string, unknown>;
   const upgraded = {
     ...item,
-    testId,
-    testTitle,
-    partNumber: Number(item.partNumber ?? fallbackPartNumber),
+    testId: options.testId,
+    testTitle: options.testTitle,
+    partNumber: Number(item.partNumber ?? options.fallbackPartNumber),
     paragraphIndex: Number(item.paragraphIndex),
     startOffset: Number(item.startOffset),
     endOffset: Number(item.endOffset),
