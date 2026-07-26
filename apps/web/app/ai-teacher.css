@@ -1,3 +1,22 @@
+.ai-page-section { padding-top: 0; }
+.ai-context-selector {
+  display: grid;
+  gap: 6px;
+  margin: 12px 0;
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: #fff;
+}
+.ai-context-selector span { color: var(--muted); font-size: 12px; font-weight: 850; }
+.ai-context-selector select {
+  width: 100%;
+  padding: 10px 11px;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+  background: #fff;
+  color: var(--text);
+}
 .ai-teacher-panel {
   margin-top: 18px;
   padding: 20px;
@@ -114,6 +133,7 @@
 }
 
 @media (max-width: 720px) {
+  .ai-page-section { padding-inline: 14px; }
   .ai-teacher-panel { padding: 14px; }
   .ai-teacher-heading { display: grid; }
   .ai-teacher-heading > button { justify-self: start; }
