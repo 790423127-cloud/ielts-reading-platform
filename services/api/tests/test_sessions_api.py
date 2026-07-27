@@ -104,6 +104,40 @@ def test_full_mock_submission_is_server_scored_idempotent_and_persisted(
     assert other_user.json() == []
 
 
+def test_b5_full_mock_accepts_detailed_timing_and_camel_case_aliases(
+    monkeypatch, tmp_path
+) -> None:
+    client = _client(monkeypatch, tmp_path)
+    test = QuestionBank(BANK_ROOT).load_server_test("b5-test-a")
+    answers = _official_answers(test)
+    question_ids = list(answers)
+
+    response = client.post(
+        "/api/v1/sessions/submit",
+        json={
+            "user_id": "owner",
+            "test_id": "b5-test-a",
+            "client_submission_id": "submission-b5-full-0001",
+            "answers": answers,
+            "elapsed_seconds": 3707,
+            "partElapsedSeconds": {"1": 1200, "2": 1200, "3": 1307},
+            "questionElapsedSeconds": {
+                question_id: index + 1
+                for index, question_id in enumerate(question_ids)
+            },
+            "exam_mode": "mock_exam",
+            "part_numbers": [],
+        },
+    )
+
+    assert response.status_code == 200, response.text
+    result = response.json()["result"]
+    assert result["test_id"] == "b5-test-a"
+    assert result["total"] == 40
+    assert result["score"] == 40
+    assert len(result["question_results"]) == 40
+
+
 def test_part_submission_scores_only_selected_part_and_never_returns_band(
     monkeypatch, tmp_path
 ) -> None:
@@ -132,6 +166,53 @@ def test_part_submission_scores_only_selected_part_and_never_returns_band(
     assert "estimated_gt_reading_band" not in result
 
 
+def test_invalid_legacy_annotation_does_not_block_scored_submission(
+    monkeypatch, tmp_path
+) -> None:
+    client = _client(monkeypatch, tmp_path)
+    test = QuestionBank(BANK_ROOT).load_server_test("b10-test-a")
+    response = client.post(
+        "/api/v1/sessions/submit",
+        json={
+            "user_id": "owner",
+            "test_id": "b10-test-a",
+            "client_submission_id": "submission-legacy-annotation",
+            "answers": _official_answers(test, {1}),
+            "exam_mode": "part_practice",
+            "part_numbers": [1],
+            "annotations": [
+                {"id": "old-row-with-missing-fields"},
+                {
+                    "id": "wrong-test-row",
+                    "kind": "highlight",
+                    "testId": "another-test",
+                    "testTitle": "旧草稿",
+                    "partNumber": 1,
+                    "paragraphIndex": 0,
+                    "startOffset": 0,
+                    "endOffset": 4,
+                    "selectedText": "text",
+                    "prefix": "",
+                    "suffix": "",
+                    "sentence": "text",
+                    "note": "",
+                    "createdAt": "2026-07-27T00:00:00Z",
+                    "updatedAt": "2026-07-27T00:00:00Z",
+                },
+            ],
+        },
+    )
+
+    assert response.status_code == 200, response.text
+    result = response.json()["result"]
+    assert result["score"] == result["total"]
+    assert result["annotations"] == []
+    assert [row["code"] for row in result["annotation_warnings"]] == [
+        "invalid_annotation_ignored",
+        "annotation_test_mismatch_ignored",
+    ]
+
+
 def test_invalid_part_and_unknown_test_are_rejected(monkeypatch, tmp_path) -> None:
     client = _client(monkeypatch, tmp_path)
     invalid_part = client.post(
@@ -156,6 +237,24 @@ def test_invalid_part_and_unknown_test_are_rejected(monkeypatch, tmp_path) -> No
         },
     )
     assert missing.status_code == 404
+
+
+def test_validation_error_returns_readable_field_message(monkeypatch, tmp_path) -> None:
+    client = _client(monkeypatch, tmp_path)
+    response = client.post(
+        "/api/v1/sessions/submit",
+        json={
+            "test_id": "b10-test-a",
+            "client_submission_id": "submission-invalid-answers",
+            "answers": 7,
+        },
+    )
+
+    assert response.status_code == 422
+    detail = response.json()["detail"]
+    assert detail["code"] == "request_validation_failed"
+    assert "answers" in detail["message"]
+    assert detail["errors"][0]["loc"][-1] == "answers"
 
 
 def test_unknown_question_timing_key_is_rejected(monkeypatch, tmp_path) -> None:
