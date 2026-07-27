@@ -3,6 +3,7 @@ from __future__ import annotations
 from pathlib import Path
 from typing import Any
 
+import pytest
 from fastapi.testclient import TestClient
 
 from app.main import app
@@ -104,9 +105,39 @@ def test_full_mock_submission_is_server_scored_idempotent_and_persisted(
     assert other_user.json() == []
 
 
+def test_camel_case_detailed_timing_aliases_work_on_reproducible_baseline(
+    monkeypatch, tmp_path
+) -> None:
+    client = _client(monkeypatch, tmp_path)
+    test = QuestionBank(BANK_ROOT).load_server_test("b10-test-a")
+    answers = _official_answers(test)
+    question_ids = list(answers)
+    response = client.post(
+        "/api/v1/sessions/submit",
+        json={
+            "user_id": "owner",
+            "test_id": "b10-test-a",
+            "client_submission_id": "submission-alias-full-0001",
+            "answers": answers,
+            "elapsed_seconds": 3707,
+            "partElapsedSeconds": {"1": 1200, "2": 1200, "3": 1307},
+            "questionElapsedSeconds": {
+                question_id: index + 1
+                for index, question_id in enumerate(question_ids)
+            },
+            "exam_mode": "mock_exam",
+            "part_numbers": [],
+        },
+    )
+    assert response.status_code == 200, response.text
+    assert response.json()["result"]["score"] == 40
+
+
 def test_b5_full_mock_accepts_detailed_timing_and_camel_case_aliases(
     monkeypatch, tmp_path
 ) -> None:
+    if not (BANK_ROOT / "tests" / "b5-test-a.json").is_file():
+        pytest.skip("剑雅5属于本机私有扩展题库，公共干净检出不包含原题文件")
     client = _client(monkeypatch, tmp_path)
     test = QuestionBank(BANK_ROOT).load_server_test("b5-test-a")
     answers = _official_answers(test)
