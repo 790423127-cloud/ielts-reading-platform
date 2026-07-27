@@ -147,21 +147,11 @@ def export_vocabulary(
         )
         media_type = "application/json; charset=utf-8"
     elif format == "txt":
-        sections = []
-        for index, row in enumerate(rows, start=1):
-            sections.append(
-                "\n".join(
-                    [
-                        f"{index}. {row['term']}",
-                        f"释义：{row['meaning'] or '—'}",
-                        f"笔记：{row['note'] or '—'}",
-                        f"状态：{'已掌握' if row['status'] == 'mastered' else '学习中'}",
-                        f"出现次数：{row['occurrence_count']}",
-                        f"来源：{row['sources'] or '手动添加'}",
-                    ]
-                )
-            )
-        body = "IELTS 阅读词汇本\n\n" + "\n\n".join(sections)
+        body = "\n".join(
+            term
+            for row in rows
+            if (term := str(row["term"] or "").strip())
+        )
         media_type = "text/plain; charset=utf-8"
     else:
         buffer = io.StringIO(newline="")

@@ -124,14 +124,25 @@ def test_csv_txt_json_exports_are_downloadable_and_safe(monkeypatch, tmp_path) -
     assert parsed[1][0] == "'=unsafe"
     assert parsed[1][1] == "'+formula-like meaning"
 
+    client.post(
+        "/api/v1/vocabulary",
+        json={"term": "allocate", "meaning": "分配", "source_type": "manual"},
+    )
     txt_response = client.get("/api/v1/vocabulary/export?format=txt")
     assert txt_response.status_code == 200
-    assert "IELTS 阅读词汇本" in txt_response.text
-    assert "出现次数：1" in txt_response.text
+    assert txt_response.headers["content-type"].startswith("text/plain")
+    lines = txt_response.text.splitlines()
+    assert len(lines) == 2
+    assert set(lines) == {"=unsafe", "allocate"}
+    assert all(line and line.strip() == line for line in lines)
+    assert "IELTS 阅读词汇本" not in txt_response.text
+    assert "释义：" not in txt_response.text
+    assert "状态：" not in txt_response.text
+    assert "来源：" not in txt_response.text
 
     json_response = client.get("/api/v1/vocabulary/export?format=json")
     assert json_response.status_code == 200
     exported = json.loads(json_response.text)
     assert exported["version"] == 1
-    assert exported["count"] == 1
-    assert exported["items"][0]["term"] == "=unsafe"
+    assert exported["count"] == 2
+    assert {item["term"] for item in exported["items"]} == {"=unsafe", "allocate"}
