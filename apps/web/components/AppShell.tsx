@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState, type ReactNode } from "react";
-import { fetchAiProviderStatus, selectAiProvider, type AiProviderStatus } from "@/lib/api";
+import { fetchAiProviderStatus, fetchTests, selectAiProvider, type AiProviderStatus } from "@/lib/api";
 
 const NAV_ITEMS = [
   { href: "/", label: "学习总览", icon: "home" },
@@ -15,10 +15,10 @@ const NAV_ITEMS = [
   { href: "/ability", label: "能力训练", icon: "grid" },
   { href: "/plan", label: "学习计划", icon: "calendar" },
   { href: "/sentences", label: "长难句", icon: "sentence" },
-  { href: "/vocabulary", label: "词汇本", icon: "vocabulary" }
-  ,{ href: "/teacher", label: "老师作业", icon: "teacher" }
-  ,{ href: "/diagnosis", label: "学习诊断", icon: "diagnosis" }
-  ,{ href: "/support", label: "设置与帮助", icon: "settings" }
+  { href: "/vocabulary", label: "词汇本", icon: "vocabulary" },
+  { href: "/teacher", label: "老师作业", icon: "teacher" },
+  { href: "/diagnosis", label: "学习诊断", icon: "diagnosis" },
+  { href: "/support", label: "设置与帮助", icon: "settings" }
 ] as const;
 
 function NavIcon({ name }: { name: (typeof NAV_ITEMS)[number]["icon"] }) {
@@ -31,11 +31,11 @@ function NavIcon({ name }: { name: (typeof NAV_ITEMS)[number]["icon"] }) {
     grid: <><rect x="3" y="3" width="7" height="7" rx="1" /><rect x="14" y="3" width="7" height="7" rx="1" /><rect x="3" y="14" width="7" height="7" rx="1" /><rect x="14" y="14" width="7" height="7" rx="1" /></>,
     calendar: <><rect x="3" y="5" width="18" height="16" rx="2" /><path d="M8 3v4m8-4v4M3 10h18m-13 4h3m2 0h3m-8 3h3" /></>,
     sentence: <><path d="M5 4h14M5 9h10M5 14h14M5 19h8" /><path d="m17 17 2 2 3-4" /></>,
-    vocabulary: <><path d="M5 3h12a2 2 0 0 1 2 2v16H7a2 2 0 0 1-2-2z" /><path d="M8 7h8M8 11h6M5 18a3 3 0 0 1 3-3h11" /></>
-    ,history: <><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2M3 5v5h5" /></>
-    ,teacher: <><circle cx="9" cy="8" r="3" /><path d="M3 20c0-4 2-6 6-6s6 2 6 6M15 5h6v9h-4" /></>
-    ,diagnosis: <><path d="M4 19V9m5 10V5m5 14v-7m5 7V3" /><path d="M2 21h20" /></>
-    ,settings: <><circle cx="12" cy="12" r="3" /><path d="M19 12a7 7 0 0 0-.1-1l2-1.5-2-3.4-2.3 1A7 7 0 0 0 15 6l-.3-2.5h-4L10.4 6a7 7 0 0 0-1.7 1.1l-2.3-1-2 3.4L6.1 11a7 7 0 0 0 0 2l-1.8 1.5 2 3.4 2.3-1A7 7 0 0 0 10.4 18l.3 2.5h4L15 18a7 7 0 0 0 1.7-1.1l2.3 1 2-3.4-2-1.5a7 7 0 0 0 .1-1z" /></>
+    vocabulary: <><path d="M5 3h12a2 2 0 0 1 2 2v16H7a2 2 0 0 1-2-2z" /><path d="M8 7h8M8 11h6M5 18a3 3 0 0 1 3-3h11" /></>,
+    history: <><circle cx="12" cy="12" r="9" /><path d="M12 7v5l3 2M3 5v5h5" /></>,
+    teacher: <><circle cx="9" cy="8" r="3" /><path d="M3 20c0-4 2-6 6-6s6 2 6 6M15 5h6v9h-4" /></>,
+    diagnosis: <><path d="M4 19V9m5 10V5m5 14v-7m5 7V3" /><path d="M2 21h20" /></>,
+    settings: <><circle cx="12" cy="12" r="3" /><path d="M19 12a7 7 0 0 0-.1-1l2-1.5-2-3.4-2.3 1A7 7 0 0 0 15 6l-.3-2.5h-4L10.4 6a7 7 0 0 0-1.7 1.1l-2.3-1-2 3.4L6.1 11a7 7 0 0 0 0 2l-1.8 1.5 2 3.4 2.3-1A7 7 0 0 0 10.4 18l.3 2.5h4L15 18a7 7 0 0 0 1.7-1.1l2.3 1 2-3.4-2-1.5a7 7 0 0 0 .1-1z" /></>
   };
   return <svg aria-hidden="true" viewBox="0 0 24 24">{paths[name]}</svg>;
 }
@@ -47,6 +47,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
   const [providerDialogOpen, setProviderDialogOpen] = useState(false);
   const [providerSaving, setProviderSaving] = useState("");
   const [providerError, setProviderError] = useState("");
+  const [libraryStats, setLibraryStats] = useState<{ tests: number; parts: number; questions: number } | null>(null);
   const activeItem = NAV_ITEMS.find((item) => item.href === "/" ? pathname === "/" : pathname.startsWith(item.href));
 
   useEffect(() => {
@@ -58,6 +59,13 @@ export default function AppShell({ children }: { children: ReactNode }) {
     void fetchAiProviderStatus(controller.signal)
       .then(setProviderStatus)
       .catch(() => setProviderStatus(null));
+    void fetchTests(controller.signal)
+      .then((tests) => setLibraryStats({
+        tests: tests.length,
+        parts: tests.reduce((total, test) => total + Number(test.part_count || 0), 0),
+        questions: tests.reduce((total, test) => total + Number(test.question_count || 0), 0)
+      }))
+      .catch(() => setLibraryStats(null));
     return () => controller.abort();
   }, []);
 
@@ -113,7 +121,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
           })}
         </nav>
         <div className="sidebar-footer">
-          <div className="library-ready"><span />58套题库已迁移<strong>174 Parts · 2,320题</strong></div>
+          <div className="library-ready"><span />{libraryStats ? `${libraryStats.tests}套题库可用` : "正在核对题库"}<strong>{libraryStats ? `${libraryStats.parts} Parts · ${libraryStats.questions.toLocaleString("zh-CN")}题` : "由后端校验可用内容"}</strong></div>
           <p>个人本地学习空间</p>
         </div>
       </aside>
