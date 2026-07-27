@@ -50,6 +50,16 @@ def expected_test_index() -> list[dict[str, Any]]:
     return output
 
 
+def baseline_test_ids() -> set[str]:
+    """Tests already present in the reproducible repository baseline."""
+
+    return {
+        item["id"]
+        for item in expected_test_index()
+        if int(item["book_number"]) >= 10
+    }
+
+
 class QuestionBankNotReadyError(RuntimeError):
     pass
 
@@ -69,6 +79,30 @@ class QuestionBank:
         self.index_path = self.root / "test_index.json"
         self.layout_repairs_path = self.root / "passage_layout_repairs.json"
         self._difficulty_cache: tuple[dict[str, dict[str, Any]], dict[str, list[dict[str, Any]]]] | None = None
+
+    def _declared_index(self) -> list[dict[str, Any]]:
+        expected = expected_test_index()
+        expected_by_id = {str(item["id"]): item for item in expected}
+        if not self.index_path.is_file():
+            return expected
+        loaded = json.loads(self.index_path.read_text("utf-8"))
+        rows: list[dict[str, Any]] = []
+        seen: set[str] = set()
+        for item in loaded if isinstance(loaded, list) else []:
+            test_id = str(item.get("id") or "")
+            if test_id not in expected_by_id or test_id in seen:
+                continue
+            rows.append({**expected_by_id[test_id], **item})
+            seen.add(test_id)
+        rows.extend(item for item in expected if str(item["id"]) not in seen)
+        return rows
+
+    def _available_index(self) -> list[dict[str, Any]]:
+        return [
+            item
+            for item in self._declared_index()
+            if (self.test_dir / f"{item['id']}.json").is_file()
+        ]
 
     def _restore_passage_layouts(self, test: dict[str, Any]) -> None:
         if not self.layout_repairs_path.is_file():
@@ -122,28 +156,35 @@ class QuestionBank:
 
     def migration_status(self) -> dict[str, Any]:
         expected = expected_test_index()
-        found = [item["id"] for item in expected if (self.test_dir / f"{item['id']}.json").is_file()]
+        available = self._available_index()
+        found_ids = {str(item["id"]) for item in available}
+        missing = [str(item["id"]) for item in expected if str(item["id"]) not in found_ids]
+        baseline = baseline_test_ids()
+        missing_baseline = sorted(baseline - found_ids)
         return {
             "expected_tests": len(expected),
-            "found_tests": len(found),
+            "found_tests": len(available),
             "expected_questions": len(expected) * 40,
-            "ready": len(found) == len(expected),
-            "missing_test_ids": [item["id"] for item in expected if item["id"] not in found],
+            "found_questions": sum(int(item.get("question_count") or 0) for item in available),
+            "ready": not missing,
+            "baseline_expected_tests": len(baseline),
+            "baseline_ready": not missing_baseline,
+            "missing_test_ids": missing,
+            "missing_baseline_test_ids": missing_baseline,
         }
 
     def require_ready(self) -> None:
         status = self.migration_status()
-        if not status["ready"]:
+        if not status["baseline_ready"]:
             raise QuestionBankNotReadyError(
-                f"Question bank migration incomplete: {status['found_tests']}/{status['expected_tests']} tests"
+                "Question bank baseline incomplete: "
+                f"{status['found_tests']}/{status['baseline_expected_tests']} available; "
+                f"missing baseline tests: {', '.join(status['missing_baseline_test_ids'][:5])}"
             )
 
     def index(self) -> list[dict[str, Any]]:
         self.require_ready()
-        if self.index_path.is_file():
-            data = json.loads(self.index_path.read_text("utf-8"))
-        else:
-            data = expected_test_index()
+        data = self._available_index()
         if self._difficulty_cache is None:
             tests = [self.load_server_test(str(item["id"])) for item in data]
             self._difficulty_cache = build_difficulty_catalog(tests)
