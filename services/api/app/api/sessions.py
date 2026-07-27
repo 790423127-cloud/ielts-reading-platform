@@ -5,7 +5,7 @@ from pathlib import Path
 from typing import Annotated, Any, Literal
 
 from fastapi import APIRouter, HTTPException, Query
-from pydantic import BaseModel, ConfigDict, Field, model_validator
+from pydantic import BaseModel, ConfigDict, Field, ValidationError, model_validator
 
 from app.api.question_bank import question_bank
 from app.domain.scoring import score_submission
@@ -46,7 +46,7 @@ class SessionAnnotation(BaseModel):
 
 
 class SessionSubmitRequest(BaseModel):
-    model_config = ConfigDict(extra="forbid")
+    model_config = ConfigDict(extra="forbid", populate_by_name=True)
 
     user_id: str = Field(default="owner", min_length=1, max_length=120)
     test_id: str = Field(min_length=1, max_length=120)
@@ -54,15 +54,19 @@ class SessionSubmitRequest(BaseModel):
     answers: dict[str, str | list[str]] = Field(default_factory=dict)
     elapsed_seconds: int = Field(default=0, ge=0, le=21600)
     part_elapsed_seconds: dict[str, PartElapsedSeconds] = Field(
-        default_factory=dict, max_length=3
+        default_factory=dict,
+        alias="partElapsedSeconds",
     )
     question_elapsed_seconds: dict[str, QuestionElapsedSeconds] = Field(
-        default_factory=dict, max_length=40
+        default_factory=dict,
+        alias="questionElapsedSeconds",
     )
     exam_mode: Literal["study", "part_practice", "mock_exam"] = "mock_exam"
     part_numbers: list[int] = Field(default_factory=list, max_length=3)
     timed_out: bool = False
-    annotations: list[SessionAnnotation] = Field(default_factory=list, max_length=500)
+    # 标注、笔记属于附加学习数据，旧浏览器草稿可能保留早期结构。
+    # 先接收原始值，再在已确认试卷和 Part 后逐条校验，不能让一条旧标注阻断整卷判分。
+    annotations: list[Any] = Field(default_factory=list, max_length=500)
 
 
 class SessionSummary(BaseModel):
@@ -135,29 +139,44 @@ def _validated_annotations(
     *,
     selected_parts: list[int],
     authoritative_test: dict[str, Any],
-) -> list[dict[str, Any]]:
+) -> tuple[list[dict[str, Any]], list[dict[str, Any]]]:
     selected = set(selected_parts)
     test_title = str(authoritative_test.get("title") or payload.test_id)
     rows: list[dict[str, Any]] = []
+    warnings: list[dict[str, Any]] = []
     seen: set[str] = set()
-    for annotation in payload.annotations:
+    for index, raw_annotation in enumerate(payload.annotations):
+        try:
+            annotation = SessionAnnotation.model_validate(raw_annotation)
+        except ValidationError:
+            warnings.append({"index": index, "code": "invalid_annotation_ignored"})
+            continue
         if annotation.id in seen:
+            warnings.append({
+                "index": index,
+                "code": "duplicate_annotation_ignored",
+                "annotation_id": annotation.id,
+            })
             continue
         seen.add(annotation.id)
         if annotation.test_id != payload.test_id:
-            raise HTTPException(
-                status_code=400,
-                detail={"code": "annotation_test_mismatch", "annotation_id": annotation.id},
-            )
+            warnings.append({
+                "index": index,
+                "code": "annotation_test_mismatch_ignored",
+                "annotation_id": annotation.id,
+            })
+            continue
         if annotation.part_number not in selected:
-            raise HTTPException(
-                status_code=400,
-                detail={"code": "annotation_part_not_submitted", "annotation_id": annotation.id},
-            )
+            warnings.append({
+                "index": index,
+                "code": "annotation_part_not_submitted_ignored",
+                "annotation_id": annotation.id,
+            })
+            continue
         row = annotation.model_dump(by_alias=True)
         row["testTitle"] = test_title
         rows.append(row)
-    return rows
+    return rows, warnings
 
 
 @router.post("/submit", response_model=SessionEnvelope)
@@ -218,11 +237,14 @@ def submit_session(payload: SessionSubmitRequest) -> SessionEnvelope:
     )
     result["part_numbers"] = selected_parts
     result["timed_out"] = payload.timed_out
-    result["annotations"] = _validated_annotations(
+    annotations, annotation_warnings = _validated_annotations(
         payload,
         selected_parts=selected_parts,
         authoritative_test=authoritative_test,
     )
+    result["annotations"] = annotations
+    if annotation_warnings:
+        result["annotation_warnings"] = annotation_warnings
     stored = repository.save_or_get(
         user_id=payload.user_id,
         client_submission_id=payload.client_submission_id,
