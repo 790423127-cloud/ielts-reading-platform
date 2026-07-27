@@ -1,9 +1,12 @@
 from __future__ import annotations
 
 import os
+from typing import Any
 
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
+from fastapi.exceptions import RequestValidationError
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 
 from app.api.ability import router as ability_router
 from app.api.ai_provider import router as ai_provider_router
@@ -22,6 +25,27 @@ from app.api.teacher import router as teacher_router
 from app.core.config import settings
 
 
+def _safe_validation_errors(error: RequestValidationError) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    for item in error.errors():
+        rows.append({
+            "loc": [str(part) for part in item.get("loc") or []],
+            "msg": str(item.get("msg") or "Invalid value"),
+            "type": str(item.get("type") or "validation_error"),
+        })
+    return rows
+
+
+def _validation_message(errors: list[dict[str, Any]]) -> str:
+    if not errors:
+        return "请求参数校验失败。"
+    first = errors[0]
+    location = ".".join(part for part in first["loc"] if part not in {"body", "query", "path"})
+    prefix = f"字段 {location}" if location else "请求参数"
+    suffix = "；另有其他字段错误" if len(errors) > 1 else ""
+    return f"{prefix}格式不正确：{first['msg']}{suffix}。"
+
+
 def create_app() -> FastAPI:
     application = FastAPI(
         title=settings.app_name,
@@ -29,6 +53,24 @@ def create_app() -> FastAPI:
         docs_url="/api/docs",
         openapi_url="/api/openapi.json",
     )
+
+    @application.exception_handler(RequestValidationError)
+    async def request_validation_handler(
+        _request: Request,
+        error: RequestValidationError,
+    ) -> JSONResponse:
+        errors = _safe_validation_errors(error)
+        return JSONResponse(
+            status_code=422,
+            content={
+                "detail": {
+                    "code": "request_validation_failed",
+                    "message": _validation_message(errors),
+                    "errors": errors,
+                }
+            },
+        )
+
     origins = [
         origin.strip()
         for origin in os.getenv(

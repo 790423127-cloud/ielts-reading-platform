@@ -34,4 +34,15 @@ jobs:
           cache: pip
       - run: python -m pip install --upgrade pip
       - run: pip install -e "services/api[dev]"
-      - run: pytest services/api/tests -q
+      - name: Run API tests
+        shell: bash
+        run: |
+          set -o pipefail
+          pytest services/api/tests -q 2>&1 | tee pytest.log
+      - name: Upload API failure log
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: api-pytest-log
+          path: pytest.log
+          retention-days: 7

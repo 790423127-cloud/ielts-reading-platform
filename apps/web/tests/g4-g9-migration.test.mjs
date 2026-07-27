@@ -24,15 +24,16 @@ test("shared multi-select groups synchronize every deterministic score slot", ()
   assert.match(styles, /\.question-title-row \{[^}]*grid-template-columns: max-content minmax\(0, 1fr\) auto/);
 });
 
-test("visible inventory copy reflects all 58 migrated tests", () => {
+test("navigation inventory reads the actually available backend question bank", () => {
   const shell = fs.readFileSync(path.join(root, "components", "AppShell.tsx"), "utf8");
   const workbench = fs.readFileSync(path.join(root, "components", "ExamWorkbench.tsx"), "utf8");
   const ability = fs.readFileSync(path.join(root, "components", "AbilityTrainingCenter.tsx"), "utf8");
 
-  assert.match(shell, /58套题库已迁移/);
-  assert.match(workbench, /58套真实G类阅读题库/);
-  assert.match(workbench, /tests\.length \|\| 58/);
-  assert.match(workbench, />2,320</);
-  assert.match(workbench, />174\/174</);
-  assert.match(ability, /58套已迁入/);
+  assert.match(shell, /fetchTests/);
+  assert.match(shell, /libraryStats/);
+  assert.match(shell, /tests\.reduce/);
+  assert.match(shell, /题库可用/);
+  assert.doesNotMatch(shell, /58套题库已迁移/);
+  assert.match(workbench, /tests\.length/);
+  assert.match(ability, /available_questions/);
 });

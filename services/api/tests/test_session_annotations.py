@@ -55,7 +55,9 @@ def test_annotations_are_persisted_inside_session_result(monkeypatch, tmp_path) 
     assert restored.json()["result"]["annotations"] == envelope["result"]["annotations"]
 
 
-def test_annotation_must_belong_to_submitted_test_and_part(monkeypatch, tmp_path) -> None:
+def test_annotation_from_another_test_or_part_is_ignored_without_blocking_score(
+    monkeypatch, tmp_path
+) -> None:
     monkeypatch.setenv("SESSION_DB_PATH", str(tmp_path / "invalid-annotations.sqlite3"))
     client = TestClient(app)
 
@@ -69,8 +71,9 @@ def test_annotation_must_belong_to_submitted_test_and_part(monkeypatch, tmp_path
             "annotations": [_annotation(part_number=2)],
         },
     )
-    assert wrong_part.status_code == 400
-    assert wrong_part.json()["detail"]["code"] == "annotation_part_not_submitted"
+    assert wrong_part.status_code == 200
+    assert wrong_part.json()["result"]["annotations"] == []
+    assert wrong_part.json()["result"]["annotation_warnings"][0]["code"] == "annotation_part_not_submitted_ignored"
 
     wrong_test = _annotation()
     wrong_test["testId"] = "b10-test-b"
@@ -84,11 +87,12 @@ def test_annotation_must_belong_to_submitted_test_and_part(monkeypatch, tmp_path
             "annotations": [wrong_test],
         },
     )
-    assert mismatch.status_code == 400
-    assert mismatch.json()["detail"]["code"] == "annotation_test_mismatch"
+    assert mismatch.status_code == 200
+    assert mismatch.json()["result"]["annotations"] == []
+    assert mismatch.json()["result"]["annotation_warnings"][0]["code"] == "annotation_test_mismatch_ignored"
 
 
-def test_empty_note_annotation_is_rejected(monkeypatch, tmp_path) -> None:
+def test_empty_note_annotation_is_ignored_without_blocking_submission(monkeypatch, tmp_path) -> None:
     monkeypatch.setenv("SESSION_DB_PATH", str(tmp_path / "empty-note.sqlite3"))
     client = TestClient(app)
     annotation = _annotation()
@@ -103,4 +107,6 @@ def test_empty_note_annotation_is_rejected(monkeypatch, tmp_path) -> None:
             "annotations": [annotation],
         },
     )
-    assert response.status_code == 422
+    assert response.status_code == 200
+    assert response.json()["result"]["annotations"] == []
+    assert response.json()["result"]["annotation_warnings"][0]["code"] == "invalid_annotation_ignored"
