@@ -4,7 +4,7 @@ build-backend = "hatchling.build"
 
 [project]
 name = "ielts-reading-api"
-version = "0.1.0"
+version = "0.5.0"
 description = "Business API for the IELTS Reading Platform"
 requires-python = ">=3.11"
 dependencies = [

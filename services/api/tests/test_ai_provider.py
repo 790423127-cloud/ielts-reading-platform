@@ -6,6 +6,7 @@ from types import ModuleType, SimpleNamespace
 import pytest
 
 from app.services import ai_teacher
+from app.repositories.session_repository import SQLiteSessionRepository
 
 
 _ENV_NAMES = (
@@ -27,6 +28,7 @@ _ENV_NAMES = (
 
 def _clean_env(monkeypatch) -> None:
     monkeypatch.setattr(ai_teacher, "_ENV_LOADED", True)
+    monkeypatch.setattr(ai_teacher, "_PROVIDER_OVERRIDE", None)
     for name in _ENV_NAMES:
         monkeypatch.delenv(name, raising=False)
 
@@ -187,3 +189,26 @@ def test_public_status_never_exposes_api_keys(monkeypatch) -> None:
     assert status["selected"] == "deepseek"
     assert status["configured"] is True
     assert "never-return-this" not in repr(status)
+
+
+def test_provider_can_be_switched_without_calling_external_service(monkeypatch) -> None:
+    _clean_env(monkeypatch)
+    monkeypatch.setenv("DASHSCOPE_API_KEY", "qwen-secret")
+    monkeypatch.setenv("DEEPSEEK_API_KEY", "deepseek-secret")
+
+    selected = ai_teacher.select_ai_provider("deepseek")
+    status = ai_teacher.ai_provider_public_status()
+
+    assert selected == "deepseek"
+    assert status["selected"] == "deepseek"
+    assert status["configured"] is True
+
+
+def test_provider_selection_setting_survives_repository_reopen(tmp_path) -> None:
+    database_path = tmp_path / "provider-settings.sqlite3"
+    first = SQLiteSessionRepository(database_path)
+    first.set_setting("ai_provider", "deepseek")
+
+    reopened = SQLiteSessionRepository(database_path)
+
+    assert reopened.get_setting("ai_provider") == "deepseek"

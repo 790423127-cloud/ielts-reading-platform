@@ -18,6 +18,7 @@ class StoredSession:
     result: dict[str, Any]
     created_at: str
     idempotent_replay: bool
+    archived_at: str | None = None
 
 
 class SQLiteSessionRepository:
@@ -49,9 +50,50 @@ class SQLiteSessionRepository:
                 )
                 """
             )
+            columns = {
+                str(row["name"])
+                for row in connection.execute("PRAGMA table_info(sessions)").fetchall()
+            }
+            if "archived_at" not in columns:
+                connection.execute("ALTER TABLE sessions ADD COLUMN archived_at TEXT")
             connection.execute(
                 "CREATE INDEX IF NOT EXISTS idx_sessions_user_created "
                 "ON sessions(user_id, created_at DESC)"
+            )
+            connection.execute(
+                """
+                CREATE TABLE IF NOT EXISTS app_settings (
+                    key TEXT PRIMARY KEY,
+                    value TEXT NOT NULL,
+                    updated_at TEXT NOT NULL
+                )
+                """
+            )
+            connection.commit()
+
+    def get_setting(self, key: str) -> str | None:
+        with self._connect() as connection:
+            row = connection.execute(
+                "SELECT value FROM app_settings WHERE key = ?",
+                (key.strip(),),
+            ).fetchone()
+        return str(row["value"]) if row else None
+
+    def set_setting(self, key: str, value: str) -> None:
+        clean_key = key.strip()
+        if not clean_key:
+            raise ValueError("setting key is required")
+        updated_at = datetime.now(timezone.utc).isoformat()
+        with self._connect() as connection:
+            connection.execute(
+                """
+                INSERT INTO app_settings (key, value, updated_at)
+                VALUES (?, ?, ?)
+                ON CONFLICT(key) DO UPDATE SET
+                    value = excluded.value,
+                    updated_at = excluded.updated_at
+                """,
+                (clean_key, value, updated_at),
             )
             connection.commit()
 
@@ -65,6 +107,7 @@ class SQLiteSessionRepository:
             result=json.loads(row["result_json"]),
             created_at=str(row["created_at"]),
             idempotent_replay=replay,
+            archived_at=str(row["archived_at"]) if row["archived_at"] else None,
         )
 
     def get_by_client_submission_id(
@@ -136,6 +179,7 @@ class SQLiteSessionRepository:
             result=result,
             created_at=created_at,
             idempotent_replay=False,
+            archived_at=None,
         )
 
     def get(self, *, user_id: str, session_id: str) -> StoredSession | None:
@@ -146,13 +190,35 @@ class SQLiteSessionRepository:
             ).fetchone()
         return self._from_row(row, replay=False) if row else None
 
-    def list_recent(self, *, user_id: str, limit: int = 20) -> list[StoredSession]:
+    def list_recent(
+        self, *, user_id: str, limit: int = 20, include_archived: bool = False
+    ) -> list[StoredSession]:
         clean_user_id = user_id.strip()
-        bounded_limit = max(1, min(int(limit), 100))
+        bounded_limit = max(1, min(int(limit), 1000))
         with self._connect() as connection:
+            archived_clause = "" if include_archived else " AND archived_at IS NULL"
             rows = connection.execute(
-                "SELECT * FROM sessions WHERE user_id = ? "
+                f"SELECT * FROM sessions WHERE user_id = ?{archived_clause} "
                 "ORDER BY created_at DESC LIMIT ?",
                 (clean_user_id, bounded_limit),
             ).fetchall()
         return [self._from_row(row, replay=False) for row in rows]
+
+    def archive(self, *, user_id: str, session_id: str) -> bool:
+        archived_at = datetime.now(timezone.utc).isoformat()
+        with self._connect() as connection:
+            cursor = connection.execute(
+                "UPDATE sessions SET archived_at = ? WHERE user_id = ? AND id = ?",
+                (archived_at, user_id.strip(), session_id),
+            )
+            connection.commit()
+        return cursor.rowcount > 0
+
+    def restore(self, *, user_id: str, session_id: str) -> bool:
+        with self._connect() as connection:
+            cursor = connection.execute(
+                "UPDATE sessions SET archived_at = NULL WHERE user_id = ? AND id = ?",
+                (user_id.strip(), session_id),
+            )
+            connection.commit()
+        return cursor.rowcount > 0

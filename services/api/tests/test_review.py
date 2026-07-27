@@ -77,3 +77,60 @@ def test_error_and_subtype_route_to_exact_training_skill() -> None:
     assert recommended_skill("matching_headings", "incorrect") == "main-detail"
     assert recommended_skill("matching_places", "incorrect") == "locating"
     assert recommended_skill("multiple_choice_single", "incorrect") == "paraphrase"
+
+
+def test_ability_question_keeps_original_source_and_shares_mastery_identity() -> None:
+    wrong_question = {
+        "id": "b10-test-a:2:b10-test-a-q18",
+        "source_question_id": "b10-test-a-q18",
+        "number": 18,
+        "part_number": 1,
+        "source_part_number": 2,
+        "source_test_id": "b10-test-a",
+        "question_type": "判断题",
+        "question_subtype": "true_false_not_given",
+        "prompt": "An exact replay question",
+        "user_answer": "FALSE",
+        "correct_answer": "TRUE",
+        "is_correct": False,
+        "answer_error_type": "incorrect",
+        "analysis": "Review scope.",
+        "evidence": ["Verified sentence."],
+    }
+    ability_wrong = StoredSession(
+        id="ability-wrong",
+        user_id="owner",
+        client_submission_id="client-ability-wrong",
+        test_id="ability-scope-degree",
+        result={"question_results": [wrong_question]},
+        created_at="2026-07-01T08:00:00+00:00",
+        idempotent_replay=False,
+    )
+    review = build_wrong_question_review([ability_wrong])
+    assert len(review) == 1
+    assert review[0]["source_test_id"] == "b10-test-a"
+    assert review[0]["source_part_number"] == 2
+    assert review[0]["source_question_id"] == "b10-test-a-q18"
+    assert review[0]["source_question_ref"] == "b10-test-a:2:b10-test-a-q18"
+
+    corrected = {
+        **wrong_question,
+        "id": "b10-test-a-q18",
+        "part_number": 2,
+        "user_answer": "TRUE",
+        "is_correct": True,
+        "answer_error_type": None,
+    }
+    corrections = [
+        StoredSession(
+            id=f"full-correct-{index}",
+            user_id="owner",
+            client_submission_id=f"client-full-correct-{index}",
+            test_id="b10-test-a",
+            result={"question_results": [corrected]},
+            created_at=f"2026-07-0{index + 1}T08:00:00+00:00",
+            idempotent_replay=False,
+        )
+        for index in (1, 2)
+    ]
+    assert build_wrong_question_review([ability_wrong, *corrections]) == []

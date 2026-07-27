@@ -4,6 +4,8 @@ import copy
 from dataclasses import dataclass
 from typing import Any, Iterable
 
+from app.domain.method_courses import SUBTYPE_METHODS
+from app.domain.question_types import EXACT_SUBTYPES, SUBTYPE_LABELS
 from app.services.question_bank import ANSWER_FIELDS, QuestionBank
 
 
@@ -112,6 +114,28 @@ SKILLS: tuple[AbilitySkill, ...] = (
 
 SKILL_BY_ID = {skill.id: skill for skill in SKILLS}
 
+QUESTION_TYPE_TARGETS: tuple[AbilitySkill, ...] = tuple(
+    AbilitySkill(
+        id=f"subtype-{subtype}",
+        label=SUBTYPE_LABELS[subtype],
+        objective=str(SUBTYPE_METHODS[subtype]["objective"]),
+        subtype_ids=(subtype,),
+    )
+    for subtype in EXACT_SUBTYPES
+)
+QUESTION_TYPE_BY_ID = {target.id: target for target in QUESTION_TYPE_TARGETS}
+WRONG_BATCH_TARGET = AbilitySkill(
+    id="wrong-batch",
+    label="错题混合再练",
+    objective="按选定数量和 Part 范围重做仍在错题闭环中的权威原题。",
+    subtype_ids=tuple(EXACT_SUBTYPES),
+)
+TRAINING_TARGET_BY_ID = {
+    **SKILL_BY_ID,
+    **QUESTION_TYPE_BY_ID,
+    WRONG_BATCH_TARGET.id: WRONG_BATCH_TARGET,
+}
+
 
 def skill_catalog() -> list[dict[str, Any]]:
     return [
@@ -123,6 +147,17 @@ def skill_catalog() -> list[dict[str, Any]]:
             "source_policy": "仅使用已迁入并通过哈希校验的真实题库",
         }
         for skill in SKILLS
+    ]
+
+
+def question_type_catalog() -> list[dict[str, Any]]:
+    return [
+        {
+            **skill_catalog_item(target),
+            "question_subtype": target.subtype_ids[0],
+            "source_policy": "仅使用已迁入并通过哈希校验的真实题库",
+        }
+        for target in QUESTION_TYPE_TARGETS
     ]
 
 
@@ -191,7 +226,7 @@ def _matches_skill(skill: AbilitySkill, group: dict[str, Any], question: dict[st
 
 
 def iter_candidates(bank: QuestionBank, skill_id: str) -> Iterable[dict[str, Any]]:
-    skill = SKILL_BY_ID.get(skill_id)
+    skill = TRAINING_TARGET_BY_ID.get(skill_id)
     if not skill:
         raise KeyError(skill_id)
     for index_item in bank.index():
@@ -221,8 +256,14 @@ def iter_candidates(bank: QuestionBank, skill_id: str) -> Iterable[dict[str, Any
                     }
 
 
-def available_counts(bank: QuestionBank) -> dict[str, int]:
-    return {skill.id: sum(1 for _ in iter_candidates(bank, skill.id)) for skill in SKILLS}
+def available_counts(
+    bank: QuestionBank,
+    targets: Iterable[AbilitySkill] = SKILLS,
+) -> dict[str, int]:
+    return {
+        target.id: sum(1 for _ in iter_candidates(bank, target.id))
+        for target in targets
+    }
 
 
 def generate_ability_set(
@@ -231,12 +272,20 @@ def generate_ability_set(
     skill_id: str,
     count: int,
     cursor: int = 0,
+    question_refs: list[str] | None = None,
 ) -> dict[str, Any]:
-    skill = SKILL_BY_ID.get(skill_id)
+    skill = TRAINING_TARGET_BY_ID.get(skill_id)
     if not skill:
         raise KeyError(skill_id)
     bounded_count = max(1, min(int(count), 20))
-    candidates = list(iter_candidates(bank, skill_id))
+    requested_refs = list(dict.fromkeys(question_refs or []))
+    if question_refs and len(requested_refs) != len(question_refs):
+        raise ValueError("Duplicate question reference")
+    candidates = (
+        [_public_item_for_ref(bank, skill, ref_id) for ref_id in requested_refs]
+        if requested_refs
+        else list(iter_candidates(bank, skill_id))
+    )
     if not candidates:
         return {
             "id": f"ability-{skill_id}-{cursor}",
@@ -244,16 +293,23 @@ def generate_ability_set(
             "items": [],
             "total_available": 0,
             "next_cursor": 0,
+            "training_kind": "question_type" if skill_id in QUESTION_TYPE_BY_ID else "ability",
         }
-    start = max(0, int(cursor)) % len(candidates)
+    start = 0 if requested_refs else max(0, int(cursor)) % len(candidates)
     selected = [candidates[(start + offset) % len(candidates)] for offset in range(min(bounded_count, len(candidates)))]
     return {
         "id": f"ability-{skill_id}-{start}",
         "skill": skill_catalog_item(skill),
         "items": selected,
         "total_available": len(candidates),
-        "next_cursor": (start + len(selected)) % len(candidates),
+        "next_cursor": 0 if requested_refs else (start + len(selected)) % len(candidates),
         "source_policy": "verified_question_bank_only",
+        "training_kind": (
+            "wrong_batch"
+            if skill_id == WRONG_BATCH_TARGET.id
+            else "question_type" if skill_id in QUESTION_TYPE_BY_ID else "ability"
+        ),
+        "exact_question_replay": bool(requested_refs),
     }
 
 
@@ -289,13 +345,46 @@ def _find_authoritative_question(
     raise ValueError(f"Question reference not found: {ref_id}")
 
 
+def _public_item_for_ref(
+    bank: QuestionBank,
+    target: AbilitySkill,
+    ref_id: str,
+) -> dict[str, Any]:
+    source_test, source_part, source_group, unique_id = _find_authoritative_question(
+        bank, ref_id
+    )
+    subtype = str(
+        source_group.get("question_subtype")
+        or source_group.get("question_type")
+        or "other"
+    )
+    if subtype not in target.subtype_ids:
+        raise ValueError(f"Question {ref_id} does not belong to target {target.id}")
+    original_question_id = ref_id.split(":", 2)[2]
+    source_question = next(
+        question
+        for question in source_group.get("questions") or []
+        if str(question.get("id") or "") == original_question_id
+    )
+    return {
+        "ref_id": unique_id,
+        "test_id": str(source_test.get("id") or ""),
+        "test_title": str(source_test.get("title") or source_test.get("id") or ""),
+        "part_number": int(source_part.get("number") or 0),
+        "original_question_id": original_question_id,
+        "skill_id": target.id,
+        "passage": _part_passage(source_part),
+        "group": _public_group(source_group, source_question, unique_id),
+    }
+
+
 def build_authoritative_ability_test(
     bank: QuestionBank,
     *,
     skill_id: str,
     question_refs: list[str],
 ) -> dict[str, Any]:
-    skill = SKILL_BY_ID.get(skill_id)
+    skill = TRAINING_TARGET_BY_ID.get(skill_id)
     if not skill:
         raise KeyError(skill_id)
     if not question_refs:
@@ -326,6 +415,7 @@ def build_authoritative_ability_test(
                 "number": len(synthetic_parts) + 1,
                 "title": f"{source_test.get('title')} · Part {source_part.get('number')}",
                 "source_test_id": source_test.get("id"),
+                "source_part_number": source_part.get("number"),
                 "groups": [],
             }
             part_lookup[key] = synthetic_part
@@ -342,8 +432,16 @@ def build_authoritative_ability_test(
         synthetic_part["groups"].append(synthetic_group)
     return {
         "id": f"ability-{skill_id}",
-        "title": f"{skill.label}能力训练",
-        "practice_mode": "ability",
+        "title": (
+            f"{skill.label}题型专项"
+            if skill_id in QUESTION_TYPE_BY_ID
+            else f"{skill.label}能力训练"
+        ),
+        "practice_mode": (
+            "wrong_batch"
+            if skill_id == WRONG_BATCH_TARGET.id
+            else "question_type" if skill_id in QUESTION_TYPE_BY_ID else "ability"
+        ),
         "parts": synthetic_parts,
         "source_question_refs": list(question_refs),
         "skill_id": skill_id,

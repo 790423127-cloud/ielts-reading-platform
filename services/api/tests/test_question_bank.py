@@ -40,11 +40,11 @@ def fixture_test() -> dict:
     }
 
 
-def test_expected_manifest_has_46_complete_tests() -> None:
+def test_expected_manifest_has_58_complete_tests() -> None:
     index = expected_test_index()
-    assert len(index) == 46
-    assert sum(item["question_count"] for item in index) == 1840
-    assert index[0]["id"] == "b10-test-a"
+    assert len(index) == 58
+    assert sum(item["question_count"] for item in index) == 2320
+    assert index[0]["id"] == "b4-test-a"
     assert index[-1]["id"] == "b21-test-4"
 
 
@@ -73,6 +73,55 @@ def test_server_payload_retains_authoritative_answers(tmp_path) -> None:
     bank = QuestionBank(root)
     server = bank.load_server_test("b10-test-a")
     assert server["parts"][0]["groups"][0]["questions"][0]["answer"] == "TRUE"
+
+
+def test_legacy_lowercase_l_ocr_confusion_is_repaired_in_question_copy(tmp_path) -> None:
+    root = tmp_path / "question-bank"
+    test_dir = root / "tests"
+    test_dir.mkdir(parents=True)
+    test = fixture_test()
+    question = test["parts"][0]["groups"][0]["questions"][0]
+    question["prompt"] = "lt is visible."
+    question["options"] = [{"value": "A", "label": "lt is also visible."}]
+    (test_dir / "b10-test-a.json").write_text(json.dumps(test), "utf-8")
+
+    public = QuestionBank(root).load_public_test("b10-test-a")
+    repaired = public["parts"][0]["groups"][0]["questions"][0]
+
+    assert repaired["prompt"] == "It is visible."
+    assert repaired["options"][0]["label"] == "It is also visible."
+
+
+def test_verified_passage_layout_repairs_restore_table_structure(tmp_path) -> None:
+    root = tmp_path / "question-bank"
+    test_dir = root / "tests"
+    test_dir.mkdir(parents=True)
+    test = fixture_test()
+    test["parts"][0]["paragraphs"] = [{"index": 1, "text": "flattened source table"}]
+    (test_dir / "b10-test-a.json").write_text(json.dumps(test), "utf-8")
+    (root / "passage_layout_repairs.json").write_text(
+        json.dumps(
+            {
+                "repairs": [
+                    {
+                        "test_id": "b10-test-a",
+                        "part_number": 1,
+                        "paragraph_index": 1,
+                        "table": {
+                            "headers": ["Place", "Price"],
+                            "rows": [["A", "$10"]],
+                        },
+                    }
+                ]
+            }
+        ),
+        "utf-8",
+    )
+
+    public = QuestionBank(root).load_public_test("b10-test-a")
+
+    assert public["parts"][0]["paragraphs"][0]["text"] == "flattened source table"
+    assert public["parts"][0]["paragraphs"][0]["table"]["rows"] == [["A", "$10"]]
 
 
 def test_incomplete_bank_returns_explicit_503(monkeypatch, tmp_path) -> None:

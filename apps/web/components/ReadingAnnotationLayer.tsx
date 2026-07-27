@@ -26,6 +26,7 @@ type ReadingContext = {
 
 type PendingSelection = ReadingContext & {
   rect: DOMRect;
+  sourceKind: "passage" | "question";
   paragraphIndex: number;
   paragraphText: string;
   startOffset: number;
@@ -43,6 +44,11 @@ type HighlightConstructor = new (...ranges: Range[]) => unknown;
 
 const HIGHLIGHT_NAME = "reading-highlight";
 const NOTE_NAME = "reading-note";
+const ANNOTATION_UNIT_SELECTOR = ".passage-copy .passage-unit, .questions-pane .question-annotation-unit";
+
+function annotationUnits(): HTMLElement[] {
+  return [...document.querySelectorAll<HTMLElement>(ANNOTATION_UNIT_SELECTOR)];
+}
 
 function annotationId(): string {
   if (typeof crypto !== "undefined" && "randomUUID" in crypto) return crypto.randomUUID();
@@ -52,10 +58,22 @@ function annotationId(): string {
 function currentContext(): ReadingContext | null {
   const workbench = document.querySelector<HTMLElement>(".exam-workbench");
   if (!workbench) return null;
+  const explicitTestId = workbench.dataset.testId || "";
+  const explicitPartNumber = Number(workbench.dataset.partNumber || 0);
+  const explicitTestTitle = normalizeReadingText(workbench.dataset.testTitle || "");
+  if (explicitTestId && explicitTestTitle && explicitPartNumber > 0) {
+    return {
+      testId: explicitTestId,
+      testTitle: explicitTestTitle,
+      partNumber: explicitPartNumber
+    };
+  }
   const testTitle = normalizeReadingText(
     workbench.querySelector<HTMLElement>(".exam-topbar > div:first-child strong")?.textContent || ""
   );
-  const activePartText = workbench.querySelector<HTMLElement>(".exam-part-tabs button.active")?.textContent || "";
+  const activePartText = workbench.querySelector<HTMLElement>(
+    ".dock-section.active .dock-section-label, .dock-part-tabs button.active"
+  )?.textContent || "";
   const partMatch = activePartText.match(/(\d+)/);
   const test = currentReadingTest(testTitle);
   if (!test || !partMatch) return null;
@@ -118,6 +136,46 @@ function rangeForAnnotation(paragraph: HTMLElement, annotation: ReadingAnnotatio
   return rangeFromOffsets(paragraph, located.startOffset, located.endOffset);
 }
 
+function rectContainsPoint(rect: DOMRect, x: number, y: number): boolean {
+  const tolerance = 3;
+  return x >= rect.left - tolerance
+    && x <= rect.right + tolerance
+    && y >= rect.top - tolerance
+    && y <= rect.bottom + tolerance;
+}
+
+function highlightedSelectionAtPoint(
+  x: number,
+  y: number,
+  context: ReadingContext,
+  annotations: ReadingAnnotation[]
+): PendingSelection | null {
+  const paragraphs = annotationUnits();
+  for (const annotation of annotations) {
+    if (annotation.kind !== "highlight" || annotation.partNumber !== context.partNumber) continue;
+    const paragraph = paragraphs[annotation.paragraphIndex];
+    if (!paragraph) continue;
+    const located = locateReadingAnnotation(paragraph.textContent || "", annotation);
+    const range = rangeForAnnotation(paragraph, annotation);
+    if (!located || !range) continue;
+    const hitRect = [...range.getClientRects()].find((rect) => rectContainsPoint(rect, x, y));
+    if (!hitRect) continue;
+    const paragraphText = paragraph.textContent || "";
+    return {
+      ...context,
+      rect: hitRect,
+      sourceKind: paragraph.matches(".question-annotation-unit") ? "question" : "passage",
+      paragraphIndex: annotation.paragraphIndex,
+      paragraphText,
+      startOffset: located.startOffset,
+      endOffset: located.endOffset,
+      selectedText: normalizeReadingText(range.toString()),
+      sentence: annotation.sentence || sentenceAround(paragraphText, located.startOffset, located.endOffset)
+    };
+  }
+  return null;
+}
+
 function highlightApi(): { registry: HighlightRegistry; Highlight: HighlightConstructor } | null {
   const css = CSS as unknown as { highlights?: HighlightRegistry };
   const Highlight = (window as unknown as { Highlight?: HighlightConstructor }).Highlight;
@@ -151,6 +209,7 @@ export default function ReadingAnnotationLayer() {
   const [status, setStatus] = useState("");
   const [savingVocabulary, setSavingVocabulary] = useState(false);
   const selectionTimer = useRef<number | null>(null);
+  const visibleAnnotationsRef = useRef<ReadingAnnotation[]>([]);
 
   useEffect(() => setMounted(true), []);
 
@@ -188,24 +247,22 @@ export default function ReadingAnnotationLayer() {
       return;
     }
     setHistory(null);
-    setAnnotations(readReadingAnnotationDraft(context.testId, context.testTitle));
+    const restored = readReadingAnnotationDraft(context.testId, context.testTitle);
+    setAnnotations(restored);
+    syncAnnotationsIntoExamDrafts(context.testId, restored);
     setSelection(null);
     setNoteOpen(false);
     setPanelOpen(false);
   }, [context]);
 
-  useEffect(() => {
-    if (!context) return;
-    const timer = window.setInterval(() => {
-      syncAnnotationsIntoExamDrafts(context.testId, annotations);
-    }, 900);
-    return () => window.clearInterval(timer);
-  }, [annotations, context]);
-
   const visibleAnnotations = useMemo(
     () => context ? annotations.filter((item) => item.partNumber === context.partNumber) : history?.annotations || [],
     [annotations, context, history]
   );
+
+  useEffect(() => {
+    visibleAnnotationsRef.current = visibleAnnotations;
+  }, [visibleAnnotations]);
 
   const applyHighlights = useCallback(() => {
     const api = highlightApi();
@@ -213,7 +270,7 @@ export default function ReadingAnnotationLayer() {
     api.registry.delete(HIGHLIGHT_NAME);
     api.registry.delete(NOTE_NAME);
     if (!context) return;
-    const paragraphs = [...document.querySelectorAll<HTMLElement>(".passage-copy .passage-paragraph p")];
+    const paragraphs = annotationUnits();
     const highlightRanges: Range[] = [];
     const noteRanges: Range[] = [];
     for (const annotation of visibleAnnotations) {
@@ -238,10 +295,21 @@ export default function ReadingAnnotationLayer() {
   }, [applyHighlights]);
 
   useEffect(() => {
-    function captureSelection() {
-      if (!currentContext()) return;
+    function captureSelection(point?: { x: number; y: number }) {
+      const nextContext = currentContext();
+      if (!nextContext) return;
       const browserSelection = window.getSelection();
       if (!browserSelection || browserSelection.isCollapsed || browserSelection.rangeCount !== 1) {
+        const highlighted = point
+          ? highlightedSelectionAtPoint(point.x, point.y, nextContext, visibleAnnotationsRef.current)
+          : null;
+        if (highlighted) {
+          setSelection(highlighted);
+          setNoteOpen(false);
+          setNoteDraft("");
+          setStatus("");
+          return;
+        }
         setSelection(null);
         return;
       }
@@ -252,14 +320,12 @@ export default function ReadingAnnotationLayer() {
       const endElement = range.endContainer.nodeType === Node.TEXT_NODE
         ? range.endContainer.parentElement
         : range.endContainer as HTMLElement;
-      const paragraph = startElement?.closest<HTMLElement>(".passage-copy .passage-paragraph p");
-      if (!paragraph || !endElement || paragraph !== endElement.closest(".passage-copy .passage-paragraph p")) {
+      const paragraph = startElement?.closest<HTMLElement>(ANNOTATION_UNIT_SELECTOR);
+      if (!paragraph || !endElement || paragraph !== endElement.closest(ANNOTATION_UNIT_SELECTOR)) {
         setSelection(null);
         return;
       }
-      const nextContext = currentContext();
-      if (!nextContext) return;
-      const paragraphs = [...document.querySelectorAll<HTMLElement>(".passage-copy .passage-paragraph p")];
+      const paragraphs = annotationUnits();
       const paragraphIndex = paragraphs.indexOf(paragraph);
       if (paragraphIndex < 0) return;
       const selectedText = normalizeReadingText(range.toString());
@@ -275,6 +341,7 @@ export default function ReadingAnnotationLayer() {
       setSelection({
         ...nextContext,
         rect,
+        sourceKind: paragraph.matches(".question-annotation-unit") ? "question" : "passage",
         paragraphIndex,
         paragraphText,
         startOffset,
@@ -287,30 +354,53 @@ export default function ReadingAnnotationLayer() {
       setStatus("");
     }
 
-    function scheduleCapture() {
+    function scheduleCapture(point?: { x: number; y: number }) {
       if (selectionTimer.current != null) window.clearTimeout(selectionTimer.current);
-      selectionTimer.current = window.setTimeout(captureSelection, 70);
+      selectionTimer.current = window.setTimeout(() => captureSelection(point), 70);
     }
 
-    document.addEventListener("pointerup", scheduleCapture);
-    document.addEventListener("touchend", scheduleCapture, { passive: true });
-    document.addEventListener("keyup", scheduleCapture);
-    document.addEventListener("selectionchange", scheduleCapture);
+    function schedulePointerCapture(event: PointerEvent) {
+      if (event.button !== 0) return;
+      scheduleCapture({ x: event.clientX, y: event.clientY });
+    }
+
+    function scheduleTouchCapture(event: TouchEvent) {
+      const touch = event.changedTouches[0];
+      scheduleCapture(touch ? { x: touch.clientX, y: touch.clientY } : undefined);
+    }
+
+    function scheduleKeyboardCapture() {
+      scheduleCapture();
+    }
+
+    function scheduleSelectionCapture() {
+      if (!window.getSelection()?.isCollapsed) scheduleCapture();
+    }
+
+    document.addEventListener("pointerup", schedulePointerCapture);
+    document.addEventListener("touchend", scheduleTouchCapture, { passive: true });
+    document.addEventListener("keyup", scheduleKeyboardCapture);
+    document.addEventListener("selectionchange", scheduleSelectionCapture);
     return () => {
-      document.removeEventListener("pointerup", scheduleCapture);
-      document.removeEventListener("touchend", scheduleCapture);
-      document.removeEventListener("keyup", scheduleCapture);
-      document.removeEventListener("selectionchange", scheduleCapture);
+      document.removeEventListener("pointerup", schedulePointerCapture);
+      document.removeEventListener("touchend", scheduleTouchCapture);
+      document.removeEventListener("keyup", scheduleKeyboardCapture);
+      document.removeEventListener("selectionchange", scheduleSelectionCapture);
       if (selectionTimer.current != null) window.clearTimeout(selectionTimer.current);
     };
   }, []);
 
   const selectedAnnotation = useMemo(() => {
     if (!selection) return null;
-    return annotations.find((item) => item.partNumber === selection.partNumber
-      && item.paragraphIndex === selection.paragraphIndex
-      && item.startOffset === selection.startOffset
-      && item.endOffset === selection.endOffset) || null;
+    return annotations.find((item) => {
+      if (item.partNumber !== selection.partNumber || item.paragraphIndex !== selection.paragraphIndex) {
+        return false;
+      }
+      const located = locateReadingAnnotation(selection.paragraphText, item);
+      return located?.startOffset === selection.startOffset
+        && located.endOffset === selection.endOffset
+        && normalizeReadingText(item.selectedText) === selection.selectedText;
+    }) || null;
   }, [annotations, selection]);
 
   function persist(next: ReadingAnnotation[]) {
@@ -347,6 +437,12 @@ export default function ReadingAnnotationLayer() {
   }
 
   function saveHighlight() {
+    if (selectedAnnotation?.kind === "highlight") {
+      persist(annotations.filter((item) => item.id !== selectedAnnotation.id));
+      setStatus("已取消高亮，并同步到本机考试草稿");
+      closeSelection();
+      return;
+    }
     const annotation = makeAnnotation("highlight");
     if (!annotation) return;
     persist([annotation, ...annotations.filter((item) => item.id !== annotation.id)]);
@@ -371,7 +467,9 @@ export default function ReadingAnnotationLayer() {
         term: selection.selectedText,
         source_type: "reading_text",
         source_sentence: selection.sentence,
-        source_context: `Part ${selection.partNumber} · 段落 ${selection.paragraphIndex + 1}`,
+        source_context: selection.sourceKind === "question"
+          ? `Part ${selection.partNumber} · 题目内容`
+          : `Part ${selection.partNumber} · 文章段落 ${selection.paragraphIndex + 1}`,
         test_id: selection.testId,
         test_title: selection.testTitle,
         part_number: selection.partNumber
@@ -409,12 +507,17 @@ export default function ReadingAnnotationLayer() {
       {context && selection ? (
         <div
           className="reading-selection-toolbar"
-          style={{ left: Math.max(12, Math.min(selection.rect.left, window.innerWidth - 340)), top: Math.max(12, selection.rect.top - 52) }}
+          style={{
+            left: Math.max(12, Math.min(selection.rect.left, window.innerWidth - 340)),
+            top: Math.max(12, Math.min(selection.rect.bottom + 9, window.innerHeight - 54))
+          }}
           role="toolbar"
           aria-label="阅读划词工具栏"
           onPointerDown={(event) => event.preventDefault()}
         >
-          <button type="button" onClick={saveHighlight}>高亮</button>
+          <button type="button" onClick={saveHighlight}>
+            {selectedAnnotation?.kind === "highlight" ? "取消高亮" : "高亮"}
+          </button>
           <button type="button" onClick={() => { setNoteOpen(true); setNoteDraft(selectedAnnotation?.note || ""); }}>笔记</button>
           <button type="button" disabled={savingVocabulary} onClick={() => void addVocabulary()}>{savingVocabulary ? "保存中…" : "加入词汇本"}</button>
           <button type="button" className="quiet" onClick={closeSelection}>取消</button>

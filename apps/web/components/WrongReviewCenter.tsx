@@ -26,6 +26,9 @@ export default function WrongReviewCenter() {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState("");
   const [subtype, setSubtype] = useState("all");
+  const [batchCount, setBatchCount] = useState(10);
+  const [batchPart, setBatchPart] = useState("all");
+  const [batchMode, setBatchMode] = useState<"free" | "timed">("free");
 
   useEffect(() => {
     const controller = new AbortController();
@@ -52,6 +55,9 @@ export default function WrongReviewCenter() {
   );
   const repeatedWrong = items.filter((item) => item.wrong_count >= 2).length;
   const oneMoreCorrect = items.filter((item) => item.correct_streak_after_wrong === 1).length;
+  const batchCandidates = items.filter((item) => batchPart === "all" || String(item.source_part_number) === batchPart);
+  const batchRefs = batchCandidates.slice(0, batchCount).map((item) => item.source_question_ref);
+  const batchHref = `/ability?skill=wrong-batch&questions=${encodeURIComponent(batchRefs.join(","))}&mode=${batchMode}`;
 
   return (
     <div className="page-wrap review-center-page">
@@ -79,6 +85,13 @@ export default function WrongReviewCenter() {
         </label>
         <Link href="/practice" className="secondary-button">进入题库做新题验证</Link>
       </div>
+      <section className="wrong-batch-setup">
+        <div><p className="eyebrow">WRONG QUESTION BATCH</p><h2>错题批量再练</h2><p>按最近仍未移出闭环的错题组卷，服务端会逐题回查权威题库。</p></div>
+        <label><span>题量</span><select value={batchCount} onChange={(event) => setBatchCount(Number(event.target.value))}>{[5,10,15,20].map((count) => <option key={count} value={count}>{count} 题</option>)}</select></label>
+        <label><span>Part 范围</span><select value={batchPart} onChange={(event) => setBatchPart(event.target.value)}><option value="all">全部 Part</option><option value="1">Part 1</option><option value="2">Part 2</option><option value="3">Part 3</option></select></label>
+        <label><span>训练模式</span><select value={batchMode} onChange={(event) => setBatchMode(event.target.value as "free" | "timed")}><option value="free">自由模式</option><option value="timed">计时模式</option></select></label>
+        {batchRefs.length ? <Link className="primary-button" href={batchHref}>开始再练 {batchRefs.length} 题</Link> : <button className="primary-button" type="button" disabled>当前范围无错题</button>}
+      </section>
 
       {loading ? <div className="review-empty">正在读取练习记录…</div> : filtered.length ? (
         <div className="wrong-review-list">
@@ -88,7 +101,7 @@ export default function WrongReviewCenter() {
                 <div>
                   <span>Q{item.number} · {item.question_type}</span>
                   <h2>{item.prompt}</h2>
-                  <small>{item.source_test_id} · Part {item.part_number} · {formatDate(item.last_attempt_at)}</small>
+                  <small>{item.source_test_id} · Part {item.source_part_number} · {formatDate(item.last_attempt_at)}</small>
                 </div>
                 <div className="review-status">
                   <strong>错 {item.wrong_count} 次</strong>
@@ -108,8 +121,12 @@ export default function WrongReviewCenter() {
               <div className="review-route-panel">
                 <div><span>系统建议能力</span><strong>{item.recommended_skill_label}</strong></div>
                 <div className="review-route-actions">
+                  <Link
+                    className="primary-button"
+                    href={`/ability?subtype=${encodeURIComponent(item.question_subtype)}&question=${encodeURIComponent(item.source_question_ref)}`}
+                  >返回原题重做</Link>
                   <Link className="secondary-button" href={`/methods?course=${encodeURIComponent(item.method_course_id)}`}>学习对应方法</Link>
-                  <Link className="primary-button" href={`/ability?skill=${encodeURIComponent(item.recommended_skill_id)}`}>做能力训练</Link>
+                  <Link className="secondary-button" href={`/ability?skill=${encodeURIComponent(item.recommended_skill_id)}`}>做能力训练</Link>
                 </div>
               </div>
             </article>

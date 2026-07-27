@@ -16,11 +16,11 @@ The application code may remain public; the licensed/private content remains sep
 
 ## Expected inventory
 
-- 46 complete GT Reading tests;
+- 58 complete GT Reading tests;
 - 3 Parts per test;
 - 40 questions per test;
-- 1,840 questions total;
-- IDs from `b10-test-a` through `b21-test-4` in the frozen index order.
+- 2,320 questions total;
+- IDs from `b4-test-a` through `b21-test-4` in the frozen index order.
 
 Run from a private workspace containing both repositories:
 
@@ -32,4 +32,4 @@ python scripts/import_legacy_question_bank.py \
 
 Use `--check` first to validate without copying. The generated `migration_manifest.json` records SHA-256 for every source file. Do not use `git add -f` on this directory in the public application repository.
 
-The API remains deliberately unavailable with HTTP 503 until all 46 files are present. Public test payloads remove standard answers, accepted answers, evidence, analysis, paraphrases, keywords and wrong-option explanations. Server scoring loads a separate authoritative copy.
+The API remains deliberately unavailable with HTTP 503 until all 58 files are present. Public test payloads remove standard answers, accepted answers, evidence, analysis, paraphrases, keywords and wrong-option explanations. Server scoring loads a separate authoritative copy.

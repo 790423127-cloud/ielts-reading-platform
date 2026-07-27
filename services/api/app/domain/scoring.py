@@ -21,9 +21,19 @@ def score_submission(
     *,
     exam_mode: str,
     total_elapsed_seconds: int = 0,
+    part_elapsed_seconds: dict[str, int] | None = None,
+    question_elapsed_seconds: dict[str, int] | None = None,
 ) -> dict[str, Any]:
     """Score one server-owned test without trusting any client answer key."""
     answer_map = {str(key): value for key, value in answers.items()}
+    timing_map = {
+        str(key): max(0, int(value or 0))
+        for key, value in (question_elapsed_seconds or {}).items()
+    }
+    part_timing_map = {
+        str(key): max(0, int(value or 0))
+        for key, value in (part_elapsed_seconds or {}).items()
+    }
     question_results: list[dict[str, Any]] = []
     part_results: list[dict[str, Any]] = []
 
@@ -53,9 +63,11 @@ def score_submission(
                     evidence = [evidence] if evidence.strip() else []
                 row = {
                     "id": question_id,
+                    "source_question_id": question.get("original_question_id") or question_id,
                     "number": question.get("display_number") or question.get("number"),
                     "original_number": question.get("number"),
                     "part_number": part.get("number"),
+                    "source_part_number": part.get("source_part_number") or part.get("number"),
                     "part_title": part.get("title") or f"Part {part.get('number')}",
                     "question_type": question_type,
                     "question_subtype": subtype,
@@ -67,6 +79,7 @@ def score_submission(
                     or group.get("options")
                     or [],
                     "user_answer": format_user_answer(user_answer),
+                    "elapsed_seconds": timing_map.get(question_id, 0),
                     "correct_answer": question.get("answer", ""),
                     "is_correct": correct,
                     "answer_error_type": answer_error_type,
@@ -96,6 +109,7 @@ def score_submission(
                 "accuracy": round(part_score / part_total * 100, 1)
                 if part_total
                 else 0,
+                "elapsed_seconds": part_timing_map.get(str(part.get("number")), 0),
             }
         )
 

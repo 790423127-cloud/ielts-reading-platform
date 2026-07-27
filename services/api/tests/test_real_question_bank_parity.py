@@ -9,17 +9,20 @@ from typing import Any
 import pytest
 
 from app.domain.scoring import score_submission
-from app.services.question_bank import ANSWER_FIELDS, QuestionBank
+from app.services.question_bank import ANSWER_FIELDS, QuestionBank, canonical_json_bytes
 
 API_ROOT = Path(__file__).resolve().parents[1]
 BANK_ROOT = API_ROOT / "data" / "question-bank"
-REFERENCE_PATH = Path(__file__).parent / "fixtures" / "legacy_scoring_reference.json"
-
-REFERENCE = json.loads(REFERENCE_PATH.read_text("utf-8"))
+REFERENCE_PATHS = [
+    Path(__file__).parent / "fixtures" / "g4_g9_legacy_scoring_reference.json",
+    Path(__file__).parent / "fixtures" / "legacy_scoring_reference.json",
+]
+REFERENCES = [json.loads(path.read_text("utf-8")) for path in REFERENCE_PATHS]
 PARITY_CASES = [
     (test_item["id"], scenario_name, test_item["scenarios"][scenario_name])
-    for test_item in REFERENCE["tests"]
-    for scenario_name in REFERENCE["scenario_names"]
+    for reference in REFERENCES
+    for test_item in reference["tests"]
+    for scenario_name in reference["scenario_names"]
 ]
 
 NUMBER_WORDS = {
@@ -134,15 +137,15 @@ def test_imported_question_bank_matches_all_frozen_hashes() -> None:
     manifest = json.loads((BANK_ROOT / "migration_manifest.json").read_text("utf-8"))
     index = json.loads((BANK_ROOT / "test_index.json").read_text("utf-8"))
 
-    assert len(index) == 46
-    assert len(manifest["tests"]) == 46
-    assert manifest["total_questions"] == 1840
+    assert len(index) == 58
+    assert len(manifest["tests"]) == 58
+    assert manifest["total_questions"] == 2320
     assert [item["id"] for item in index] == [item["id"] for item in manifest["tests"]]
 
     total_questions = 0
     for item in manifest["tests"]:
         path = BANK_ROOT / "tests" / f"{item['id']}.json"
-        raw = path.read_bytes()
+        raw = canonical_json_bytes(path.read_bytes())
         assert len(raw) == item["bytes"]
         assert hashlib.sha256(raw).hexdigest() == item["sha256"]
         test = json.loads(raw.decode("utf-8"))
@@ -150,15 +153,15 @@ def test_imported_question_bank_matches_all_frozen_hashes() -> None:
         assert _question_count(test) == 40
         total_questions += 40
 
-    assert total_questions == 1840
+    assert total_questions == 2320
 
 
-def test_all_46_public_tests_strip_answers_and_explanations() -> None:
+def test_all_58_public_tests_strip_answers_and_explanations() -> None:
     bank = QuestionBank(BANK_ROOT)
     assert bank.migration_status() == {
-        "expected_tests": 46,
-        "found_tests": 46,
-        "expected_questions": 1840,
+        "expected_tests": 58,
+        "found_tests": 58,
+        "expected_questions": 2320,
         "ready": True,
         "missing_test_ids": [],
     }
@@ -166,6 +169,34 @@ def test_all_46_public_tests_strip_answers_and_explanations() -> None:
         public_test = bank.load_public_test(index_item["id"])
         assert _question_count(public_test) == 40
         _assert_no_answer_fields(public_test)
+
+
+def test_g4_g9_verified_source_repairs_are_preserved() -> None:
+    bank = QuestionBank(BANK_ROOT)
+    b4 = bank.load_server_test("b4-test-a")
+    b4_group = next(
+        group
+        for part in b4["parts"]
+        for group in part["groups"]
+        if str(group.get("id")) == "16199"
+    )
+    assert b4_group["shared_response"] is True
+    assert b4_group["shared_response_numbers"] == [28, 29, 30]
+    assert {
+        question["answer"]
+        for question in b4_group["questions"]
+    } == {"A,D,F"}
+
+    b8 = bank.load_server_test("b8-test-b")
+    b8_questions = {
+        int(question["number"]): question
+        for part in b8["parts"]
+        for group in part["groups"]
+        for question in group["questions"]
+    }
+    assert max(b8_questions) == 40
+    assert b8_questions[39]["answer"] == "A,C"
+    assert b8_questions[40]["answer"] == "B,F"
 
 
 @pytest.mark.parametrize(

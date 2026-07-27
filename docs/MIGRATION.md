@@ -45,11 +45,13 @@ No UI replacement occurs until parity is complete.
 
 ## Phase 3 — learning loop
 
+Status: completed.
+
 - complete local review;
 - 17 exact subtypes;
 - method courses;
 - seven deterministic ability trainings;
-- return to original wrong question;
+- return to the exact original wrong question through the unified training pipeline;
 - validation attempts.
 
 ## Phase 4 — mastery and sentences
@@ -76,7 +78,24 @@ Delivery boundary: the personal learning product is complete through vocabulary-
 - desktop and mobile learning interfaces;
 - no voice implementation.
 
-## Phase 6 — commercial readiness (deferred)
+## Phase 6 — replacement validation
+
+Status: in progress.
+
+- completed: exact 17-subtype practice and repeat configuration;
+- completed: exact wrong-question replay with stable source identity;
+- completed: deterministic stage report with browser print/PDF;
+- completed: preview-first, backup-aware, manifest rollback learning-data migration tool;
+- completed: editable local teacher assignments, linked Session records, deterministic reports and immutable report snapshots;
+- pending decision: standalone DOCX assignment reports and authenticated teacher/student publishing;
+- pending decision: durable batch AI jobs, retry policy and paid-call budget;
+- real-browser desktop and mobile acceptance tests;
+- same-machine performance comparison with the legacy system;
+- production data migration, backup and rollback rehearsal after preview approval.
+
+The legacy application remains the functional baseline and rollback system until this phase is complete.
+
+## Phase 7 — commercial readiness (deferred)
 
 - authentication and user ownership;
 - administrator unlimited plan;

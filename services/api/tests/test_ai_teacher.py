@@ -184,7 +184,14 @@ def test_plan_chat_cannot_change_mastery_and_conversations_are_user_isolated(mon
 
 def test_unconfigured_provider_returns_clear_error(monkeypatch, tmp_path) -> None:
     client, _ = _client(monkeypatch, tmp_path)
-    monkeypatch.delenv("OPENAI_API_KEY", raising=False)
+    monkeypatch.setenv("AI_PROVIDER", "qwen")
+    for key in (
+        "AI_API_KEY",
+        "OPENAI_API_KEY",
+        "DASHSCOPE_API_KEY",
+        "DEEPSEEK_API_KEY",
+    ):
+        monkeypatch.setenv(key, "")
     response = client.post(
         "/api/v1/ai-teacher/chat",
         json={"context_type": "plan", "question": "给我学习建议"},

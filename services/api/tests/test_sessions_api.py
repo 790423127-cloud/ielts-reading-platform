@@ -43,12 +43,19 @@ def test_full_mock_submission_is_server_scored_idempotent_and_persisted(
 ) -> None:
     client = _client(monkeypatch, tmp_path)
     test = QuestionBank(BANK_ROOT).load_server_test("b10-test-a")
+    answers = _official_answers(test)
+    question_ids = list(answers)
     payload = {
         "user_id": "owner",
         "test_id": "b10-test-a",
         "client_submission_id": "submission-full-0001",
-        "answers": _official_answers(test),
+        "answers": answers,
         "elapsed_seconds": 3120,
+        "part_elapsed_seconds": {"1": 910, "2": 1010, "3": 1200},
+        "question_elapsed_seconds": {
+            question_id: index + 1
+            for index, question_id in enumerate(question_ids)
+        },
         "exam_mode": "mock_exam",
         "part_numbers": [],
     }
@@ -63,6 +70,13 @@ def test_full_mock_submission_is_server_scored_idempotent_and_persisted(
     assert first_data["result"]["band_estimate"]["eligible"] is True
     assert len(first_data["result"]["question_results"]) == 40
     assert all("correct_answer" in row for row in first_data["result"]["question_results"])
+    assert first_data["result"]["question_results"][0]["elapsed_seconds"] == 1
+    assert first_data["result"]["question_results"][-1]["elapsed_seconds"] == 40
+    assert [part["elapsed_seconds"] for part in first_data["result"]["part_results"]] == [
+        910,
+        1010,
+        1200,
+    ]
 
     replay_payload = {**payload, "answers": {}}
     replay = client.post("/api/v1/sessions/submit", json=replay_payload)
@@ -103,6 +117,7 @@ def test_part_submission_scores_only_selected_part_and_never_returns_band(
             "client_submission_id": "submission-part-0001",
             "answers": _official_answers(test, {1}),
             "elapsed_seconds": 900,
+            "part_elapsed_seconds": {"1": 900},
             "exam_mode": "part_practice",
             "part_numbers": [1],
         },
@@ -112,6 +127,7 @@ def test_part_submission_scores_only_selected_part_and_never_returns_band(
     assert result["score"] == result["total"]
     assert 1 <= result["total"] < 40
     assert result["part_numbers"] == [1]
+    assert result["part_results"][0]["elapsed_seconds"] == 900
     assert result["band_estimate"]["eligible"] is False
     assert "estimated_gt_reading_band" not in result
 
@@ -140,3 +156,37 @@ def test_invalid_part_and_unknown_test_are_rejected(monkeypatch, tmp_path) -> No
         },
     )
     assert missing.status_code == 404
+
+
+def test_unknown_question_timing_key_is_rejected(monkeypatch, tmp_path) -> None:
+    client = _client(monkeypatch, tmp_path)
+    response = client.post(
+        "/api/v1/sessions/submit",
+        json={
+            "test_id": "b10-test-a",
+            "client_submission_id": "submission-invalid-timing",
+            "answers": {},
+            "question_elapsed_seconds": {"not-a-real-question": 12},
+            "exam_mode": "part_practice",
+            "part_numbers": [1],
+        },
+    )
+    assert response.status_code == 400
+    assert response.json()["detail"]["code"] == "unexpected_question_timing_keys"
+
+
+def test_unknown_part_timing_key_is_rejected(monkeypatch, tmp_path) -> None:
+    client = _client(monkeypatch, tmp_path)
+    response = client.post(
+        "/api/v1/sessions/submit",
+        json={
+            "test_id": "b10-test-a",
+            "client_submission_id": "submission-invalid-part-timing",
+            "answers": {},
+            "part_elapsed_seconds": {"2": 12},
+            "exam_mode": "part_practice",
+            "part_numbers": [1],
+        },
+    )
+    assert response.status_code == 400
+    assert response.json()["detail"]["code"] == "unexpected_part_timing_keys"

@@ -48,6 +48,7 @@ class AiProviderConfig:
 
 
 _ENV_LOADED = False
+_PROVIDER_OVERRIDE: str | None = None
 _PROVIDER_ALIASES = {
     "qwen": "qwen",
     "dashscope": "qwen",
@@ -89,6 +90,8 @@ def load_local_env() -> None:
 
 
 def _selected_provider() -> str:
+    if _PROVIDER_OVERRIDE:
+        return _PROVIDER_OVERRIDE
     explicit = os.getenv("AI_PROVIDER", "").strip().lower()
     if explicit:
         provider = _PROVIDER_ALIASES.get(explicit)
@@ -104,6 +107,20 @@ def _selected_provider() -> str:
     if os.getenv("OPENAI_API_KEY", "").strip():
         return "openai"
     return "qwen"
+
+
+def select_ai_provider(provider: str | None) -> str:
+    """Select a provider for later explicit AI requests without making a network call."""
+
+    global _PROVIDER_OVERRIDE
+    if provider is None:
+        _PROVIDER_OVERRIDE = None
+        return _selected_provider()
+    normalized = _PROVIDER_ALIASES.get(provider.strip().lower())
+    if not normalized:
+        raise ValueError("AI 老师只支持 qwen、deepseek 或 openai。")
+    _PROVIDER_OVERRIDE = normalized
+    return normalized
 
 
 def _config_for_provider(provider: str) -> AiProviderConfig:

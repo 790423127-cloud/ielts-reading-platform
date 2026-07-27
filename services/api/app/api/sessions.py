@@ -2,7 +2,7 @@ from __future__ import annotations
 
 import os
 from pathlib import Path
-from typing import Any, Literal
+from typing import Annotated, Any, Literal
 
 from fastapi import APIRouter, HTTPException, Query
 from pydantic import BaseModel, ConfigDict, Field, model_validator
@@ -13,6 +13,8 @@ from app.repositories.session_repository import SQLiteSessionRepository, StoredS
 from app.services.question_bank import QuestionBankNotReadyError
 
 router = APIRouter(prefix="/sessions", tags=["sessions"])
+QuestionElapsedSeconds = Annotated[int, Field(ge=0, le=21600)]
+PartElapsedSeconds = Annotated[int, Field(ge=0, le=21600)]
 
 
 class SessionAnnotation(BaseModel):
@@ -51,6 +53,12 @@ class SessionSubmitRequest(BaseModel):
     client_submission_id: str = Field(min_length=8, max_length=160)
     answers: dict[str, str | list[str]] = Field(default_factory=dict)
     elapsed_seconds: int = Field(default=0, ge=0, le=21600)
+    part_elapsed_seconds: dict[str, PartElapsedSeconds] = Field(
+        default_factory=dict, max_length=3
+    )
+    question_elapsed_seconds: dict[str, QuestionElapsedSeconds] = Field(
+        default_factory=dict, max_length=40
+    )
     exam_mode: Literal["study", "part_practice", "mock_exam"] = "mock_exam"
     part_numbers: list[int] = Field(default_factory=list, max_length=3)
     timed_out: bool = False
@@ -68,6 +76,7 @@ class SessionSummary(BaseModel):
     estimated_band: float | None = None
     exam_mode: str
     part_numbers: list[int]
+    archived: bool = False
 
 
 class SessionEnvelope(BaseModel):
@@ -171,11 +180,41 @@ def submit_session(payload: SessionSubmitRequest) -> SessionEnvelope:
         ) from error
 
     scored_test, selected_parts = _select_parts(authoritative_test, payload.part_numbers)
+    allowed_question_ids = {
+        str(question["id"])
+        for part in scored_test.get("parts") or []
+        for group in part.get("groups") or []
+        for question in group.get("questions") or []
+    }
+    unexpected_timing_keys = sorted(
+        set(payload.question_elapsed_seconds) - allowed_question_ids
+    )
+    if unexpected_timing_keys:
+        raise HTTPException(
+            status_code=400,
+            detail={
+                "code": "unexpected_question_timing_keys",
+                "question_ids": unexpected_timing_keys,
+            },
+        )
+    unexpected_part_timing_keys = sorted(
+        set(payload.part_elapsed_seconds) - {str(number) for number in selected_parts}
+    )
+    if unexpected_part_timing_keys:
+        raise HTTPException(
+            status_code=400,
+            detail={
+                "code": "unexpected_part_timing_keys",
+                "part_numbers": unexpected_part_timing_keys,
+            },
+        )
     result = score_submission(
         scored_test,
         payload.answers,
         exam_mode=payload.exam_mode,
         total_elapsed_seconds=payload.elapsed_seconds,
+        part_elapsed_seconds=payload.part_elapsed_seconds,
+        question_elapsed_seconds=payload.question_elapsed_seconds,
     )
     result["part_numbers"] = selected_parts
     result["timed_out"] = payload.timed_out
@@ -197,8 +236,11 @@ def submit_session(payload: SessionSubmitRequest) -> SessionEnvelope:
 def list_sessions(
     user_id: str = Query(default="owner", min_length=1, max_length=120),
     limit: int = Query(default=20, ge=1, le=100),
+    include_archived: bool = False,
 ) -> list[SessionSummary]:
-    rows = session_repository().list_recent(user_id=user_id, limit=limit)
+    rows = session_repository().list_recent(
+        user_id=user_id, limit=limit, include_archived=include_archived
+    )
     return [
         SessionSummary(
             session_id=row.id,
@@ -211,6 +253,7 @@ def list_sessions(
             estimated_band=row.result.get("estimated_gt_reading_band"),
             exam_mode=str(row.result.get("exam_mode") or "study"),
             part_numbers=[int(number) for number in (row.result.get("part_numbers") or [])],
+            archived=row.archived_at is not None,
         )
         for row in rows
     ]
@@ -225,3 +268,23 @@ def get_session(
     if not stored:
         raise HTTPException(status_code=404, detail="Session not found")
     return _envelope(stored)
+
+
+@router.delete("/{session_id}")
+def archive_session(
+    session_id: str,
+    user_id: str = Query(default="owner", min_length=1, max_length=120),
+) -> dict[str, Any]:
+    if not session_repository().archive(user_id=user_id, session_id=session_id):
+        raise HTTPException(status_code=404, detail="Session not found")
+    return {"archived": True, "recoverable": True}
+
+
+@router.post("/{session_id}/restore")
+def restore_session(
+    session_id: str,
+    user_id: str = Query(default="owner", min_length=1, max_length=120),
+) -> dict[str, Any]:
+    if not session_repository().restore(user_id=user_id, session_id=session_id):
+        raise HTTPException(status_code=404, detail="Session not found")
+    return {"restored": True}

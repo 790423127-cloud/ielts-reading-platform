@@ -53,13 +53,29 @@ def build_wrong_question_review(sessions: Iterable[StoredSession]) -> list[dict[
     chronological = sorted(sessions, key=lambda row: row.created_at)
     for session in chronological:
         for question in session.result.get("question_results") or []:
-            question_id = str(question.get("id") or "")
-            if not question_id:
+            raw_question_id = str(question.get("id") or "")
+            source_test_id = str(
+                question.get("source_test_id") or session.test_id or ""
+            )
+            source_part_number = int(
+                question.get("source_part_number")
+                or question.get("part_number")
+                or 0
+            )
+            source_question_id = str(
+                question.get("source_question_id")
+                or (raw_question_id.split(":", 2)[2] if raw_question_id.count(":") >= 2 else raw_question_id)
+            )
+            if not source_test_id or not source_part_number or not source_question_id:
                 continue
+            source_question_ref = (
+                f"{source_test_id}:{source_part_number}:{source_question_id}"
+            )
             state = states.setdefault(
-                question_id,
+                source_question_ref,
                 {
-                    "question_id": question_id,
+                    "question_id": source_question_id,
+                    "source_question_ref": source_question_ref,
                     "wrong_count": 0,
                     "correct_streak_after_wrong": 0,
                     "latest_result": None,
@@ -80,9 +96,12 @@ def build_wrong_question_review(sessions: Iterable[StoredSession]) -> list[dict[
                 state["correct_streak_after_wrong"] = 0
                 state["latest_wrong"] = {
                     **question,
-                    "question_id": question_id,
+                    "question_id": source_question_id,
+                    "source_question_id": source_question_id,
+                    "source_question_ref": source_question_ref,
                     "source_session_id": session.id,
-                    "source_test_id": session.test_id,
+                    "source_test_id": source_test_id,
+                    "source_part_number": source_part_number,
                     "attempted_at": session.created_at,
                 }
 
@@ -99,6 +118,7 @@ def build_wrong_question_review(sessions: Iterable[StoredSession]) -> list[dict[
             {
                 **question,
                 "question_id": str(state["question_id"]),
+                "source_question_ref": str(state["source_question_ref"]),
                 "wrong_count": int(state["wrong_count"]),
                 "correct_streak_after_wrong": int(state["correct_streak_after_wrong"]),
                 "latest_result": state["latest_result"],

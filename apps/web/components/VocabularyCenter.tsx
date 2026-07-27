@@ -220,7 +220,7 @@ export default function VocabularyCenter() {
         <div className="vocabulary-library">
           <div className="vocabulary-toolbar">
             <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="搜索单词、释义或笔记" />
-            <select value={statusFilter} onChange={(event) => setStatusFilter(event.target.value as typeof statusFilter)}>
+            <select aria-label="按词汇状态筛选" value={statusFilter} onChange={(event) => setStatusFilter(event.target.value as typeof statusFilter)}>
               <option value="all">全部状态</option>
               <option value="learning">学习中</option>
               <option value="mastered">已掌握</option>

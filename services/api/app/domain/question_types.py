@@ -167,6 +167,25 @@ def normalize_options(group: dict[str, Any]) -> list[dict[str, str]]:
     return []
 
 
+def normalize_shared_options(group: dict[str, Any]) -> list[dict[str, str]]:
+    """Return only options that are genuinely shared by every question in a group."""
+
+    explicit = normalize_options_raw(group.get("options") or group.get("shared_options"))
+    if explicit:
+        return explicit
+    questions = group.get("questions") or []
+    question_options = []
+    for question in questions:
+        options = normalize_options_raw(question.get("options"))
+        if not options:
+            return []
+        question_options.append(options)
+    if not question_options or len(question_options) != len(questions):
+        return []
+    first = question_options[0]
+    return first if all(options == first for options in question_options[1:]) else []
+
+
 def _is_gap(instructions: str) -> bool:
     return any(
         cue in instructions
@@ -216,6 +235,7 @@ def classify_subtype(instructions: str, group: dict[str, Any] | None = None) -> 
     matching_cues = (
         "match", "which section", "which paragraph", "which sections", "which paragraphs",
         "contains the following", "mentions the following", "for which", "list of", "look at the following",
+        "classify the following",
     )
     if any(cue in text for cue in matching_cues) and not _is_gap(text):
         if "feature" in text or "characteristic" in text:
@@ -260,7 +280,9 @@ def enrich_test(test: dict[str, Any]) -> dict[str, Any]:
             group["question_type"] = subtype
             group["question_category"] = subtype_to_category(subtype)
             group["question_label"] = SUBTYPE_LABELS[subtype]
-            options = normalize_options(group)
+            options = normalize_shared_options(group)
             if options:
                 group["normalized_options"] = options
+            else:
+                group.pop("normalized_options", None)
     return test

@@ -105,8 +105,8 @@ def test_scoring_result_keeps_post_submit_review_fields() -> None:
     assert wrong["answer_error_type"] == "answer_span_too_short"
     assert wrong["correct_answer"] == "student accommodation"
     assert result["part_results"] == [
-        {"part_number": 1, "title": "Part 1", "score": 2, "total": 2, "accuracy": 100.0},
-        {"part_number": 2, "title": "Part 2", "score": 1, "total": 2, "accuracy": 50.0},
+        {"part_number": 1, "title": "Part 1", "score": 2, "total": 2, "accuracy": 100.0, "elapsed_seconds": 0},
+        {"part_number": 2, "title": "Part 2", "score": 1, "total": 2, "accuracy": 50.0, "elapsed_seconds": 0},
     ]
 
 

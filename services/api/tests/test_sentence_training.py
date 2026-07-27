@@ -8,7 +8,7 @@ from typing import Any
 from fastapi.testclient import TestClient
 
 from app.main import app
-from app.services.sentence_training import SentenceTrainingBank
+from app.services.sentence_training import SentenceTrainingBank, canonical_training_bytes
 
 API_ROOT = Path(__file__).resolve().parents[1]
 TRAINING_ROOT = API_ROOT / "data" / "sentence-training"
@@ -35,7 +35,7 @@ def _assert_no_standard_answers(value: Any) -> None:
 def test_verified_sentence_training_file_matches_frozen_hash() -> None:
     bank = SentenceTrainingBank(TRAINING_ROOT)
     status = bank.validate()
-    raw = (TRAINING_ROOT / "index.json").read_bytes()
+    raw = canonical_training_bytes((TRAINING_ROOT / "index.json").read_bytes())
     manifest = json.loads((TRAINING_ROOT / "migration_manifest.json").read_text("utf-8"))
 
     assert status["item_count"] == 30

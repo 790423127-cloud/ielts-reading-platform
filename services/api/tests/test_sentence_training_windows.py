@@ -5,14 +5,18 @@ from pathlib import Path
 
 import pytest
 
-from app.services.sentence_training import SentenceTrainingBank, SentenceTrainingDataError
+from app.services.sentence_training import (
+    SentenceTrainingBank,
+    SentenceTrainingDataError,
+    canonical_training_bytes,
+)
 
 API_ROOT = Path(__file__).resolve().parents[1]
 SOURCE_ROOT = API_ROOT / "data" / "sentence-training"
 
 
 def test_windows_crlf_and_utf8_bom_keep_verified_manifest_valid(tmp_path) -> None:
-    source = (SOURCE_ROOT / "index.json").read_bytes()
+    source = canonical_training_bytes((SOURCE_ROOT / "index.json").read_bytes())
     windows_bytes = b"\xef\xbb\xbf" + source.replace(b"\n", b"\r\n")
     (tmp_path / "index.json").write_bytes(windows_bytes)
     (tmp_path / "migration_manifest.json").write_text(
@@ -29,7 +33,7 @@ def test_windows_crlf_and_utf8_bom_keep_verified_manifest_valid(tmp_path) -> Non
 
 
 def test_windows_normalization_does_not_hide_real_content_changes(tmp_path) -> None:
-    source = (SOURCE_ROOT / "index.json").read_bytes().replace(b"\n", b"\r\n")
+    source = canonical_training_bytes((SOURCE_ROOT / "index.json").read_bytes()).replace(b"\n", b"\r\n")
     changed = source.replace(b'"version": 1', b'"version": 2', 1)
     (tmp_path / "index.json").write_bytes(changed)
     (tmp_path / "migration_manifest.json").write_text(

@@ -8,7 +8,7 @@ import os
 class Settings:
     app_name: str = "IELTS Reading Platform API"
     app_version: str = "0.5.0"
-    migration_phase: str = "review_methods_ability"
+    migration_phase: str = "replacement_validation"
     environment: str = os.getenv("APP_ENV", "development")
 
 

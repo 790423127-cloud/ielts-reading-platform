@@ -260,8 +260,8 @@ export default function SentenceLearningCenter() {
       </section>
 
       <div className="sentence-tabs" role="tablist" aria-label="长难句模式">
-        <button type="button" className={tab === "fixed" ? "active" : ""} onClick={() => setTab("fixed")}>固定训练</button>
-        <button type="button" className={tab === "personal" ? "active" : ""} onClick={() => setTab("personal")}>我的句子 <span>{personal.length}</span></button>
+        <button type="button" role="tab" aria-selected={tab === "fixed"} className={tab === "fixed" ? "active" : ""} onClick={() => setTab("fixed")}>固定训练</button>
+        <button type="button" role="tab" aria-selected={tab === "personal"} className={tab === "personal" ? "active" : ""} onClick={() => setTab("personal")}>我的句子 <span>{personal.length}</span></button>
       </div>
 
       {loading ? <div className="sentence-loading">正在读取长难句训练数据…</div> : tab === "fixed" ? (

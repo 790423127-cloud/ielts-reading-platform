@@ -8,20 +8,44 @@ IELTS General Training Reading 个人学习平台。
 
 - `apps/web`：Next.js 产品前端；
 - `services/api`：FastAPI 业务后端；
-- `packages/contracts`：前后端共享的数据协议；
+- `packages/contracts`：共享数据协议定义；Web 尚未由编译器强制复用该包；
 - `docs`：架构、迁移和旧新对照标准。
+
+## 当前发布状态
+
+- 当前版本：`0.5.0`；
+- 当前阶段：`replacement_validation`（旧版替代验收）；
+- 个人学习主线已经完成到词汇本导出和证据约束 AI；
+- 17种题型专项、返回原错题和确定性阶段报告已经迁入，并与现有能力训练、Session 和错题闭环合并；
+- 教师可编辑作业、独立 DOCX 报告和可恢复批量 AI 任务仍需数据库结构与费用边界决策；
+- 真实浏览器、移动端、性能以及正式数据迁移切换尚未完成最终验收；
+- 在上述项目完成前，旧系统继续作为功能基线和回退系统。
 
 ## 已完成能力
 
-- 46套 GT Reading 真实题库与确定性判分；
+- 58套 GT Reading 真实题库（剑雅4–21）与确定性判分；
 - 完整模考、单 Part 训练、Session 历史和错题解析；
-- 错题复盘、22门方法课和七种真实题能力训练；
+- 错题复盘、原题精确重做、22门方法课、七种能力训练和17种题型专项；
+- 基于已保存 Session 的阶段学习报告，可由浏览器打印或保存 PDF；
 - 后台学习计划、跨日期掌握规则与第3天复习；
 - 审核长难句五步训练与个人句子拆解；
 - 词汇本、来源去重以及 CSV/TXT/JSON 导出；
 - 错题、长难句和学习计划的证据约束 AI 学习老师；
 - AI 对话历史、自动摘要、相同问题缓存、每日调用上限和 token 审计；
 - 千问、DeepSeek 和 OpenAI 服务端供应商适配。
+- 默认只预览、显式应用、自动备份并可按清单回退的旧学习数据迁移工具。
+
+## 旧学习记录迁移
+
+先做只读预览，不会写入新版数据库：
+
+```powershell
+python scripts/migrate_legacy_learning_data.py `
+  --source-db "旧版\data\progress.db" `
+  --destination-db "services\api\data\sessions.sqlite3"
+```
+
+只有核对预览数量后才使用 `--apply`。工具会在目标数据库已经存在时先创建时间戳备份，并输出记录本次新增 Session 的迁移清单。回退也默认只预览；必须同时提供 `--rollback-manifest` 和 `--apply` 才会删除该清单新增的记录。
 
 当前个人学习产品范围已经推进到词汇本导出和 AI 学习辅助。订阅、支付、套餐、语音和其他商业化功能暂缓。
 
@@ -91,12 +115,16 @@ pnpm install
 pnpm dev:web
 ```
 
+新版界面固定使用 `http://127.0.0.1:8001`。
+
 另一个终端：
 
 ```bash
 python -m venv .venv
 pip install -e "services/api[dev]"
-uvicorn app.main:app --reload --app-dir services/api --port 8000
+uvicorn app.main:app --reload --app-dir services/api --port 8010
 ```
+
+新版内部 API 固定使用 `8010`；旧版 `8000` 不受影响。
 
 详细路线见 `docs/MIGRATION.md`，架构约束见 `docs/ARCHITECTURE.md`。

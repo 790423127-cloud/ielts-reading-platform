@@ -7,7 +7,7 @@
     "build:web": "pnpm --dir apps/web build",
     "typecheck:web": "pnpm --dir apps/web typecheck",
     "test:web": "pnpm --dir apps/web test",
-    "dev:api": "uvicorn app.main:app --reload --app-dir services/api --port 8000",
+    "dev:api": "uvicorn app.main:app --reload --app-dir services/api --port 8010",
     "test:api": "pytest services/api/tests -q"
   }
 }

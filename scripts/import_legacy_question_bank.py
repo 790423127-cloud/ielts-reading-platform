@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 from pathlib import Path
 import shutil
@@ -9,7 +10,7 @@ import sys
 API_ROOT = Path(__file__).resolve().parents[1] / "services" / "api"
 sys.path.insert(0, str(API_ROOT))
 
-from app.services.question_bank import QuestionBank, expected_test_index, sha256_file  # noqa: E402
+from app.services.question_bank import QuestionBank, canonical_json_bytes, expected_test_index  # noqa: E402
 
 
 def question_count(test: dict) -> int:
@@ -37,29 +38,43 @@ def main() -> int:
     source_meta = json.loads(source_index.read_text("utf-8"))
     source_ids = [str(item.get("id") or "") for item in source_meta]
     if source_ids != expected_ids:
-        raise SystemExit("Legacy test index does not match the frozen 46-test order")
+        raise SystemExit("Legacy test index does not match the frozen 58-test order")
 
     manifest: list[dict] = []
     for item in expected:
         path = source_tests / f"{item['id']}.json"
         if not path.is_file():
             raise SystemExit(f"Missing source test: {path.name}")
-        test = json.loads(path.read_text("utf-8"))
+        raw = canonical_json_bytes(path.read_bytes())
+        test = json.loads(raw.decode("utf-8"))
         if str(test.get("id") or "") != item["id"]:
             raise SystemExit(f"ID mismatch: {path.name}")
         count = question_count(test)
         if count != 40:
             raise SystemExit(f"Expected 40 questions in {path.name}, found {count}")
-        manifest.append({"id": item["id"], "sha256": sha256_file(path), "questions": count})
+        manifest.append({
+            "id": item["id"],
+            "path": f"data/tests/{item['id']}.json",
+            "bytes": len(raw),
+            "sha256": hashlib.sha256(raw).hexdigest(),
+            "questions": count,
+        })
 
     if not args.check:
         destination_tests = args.destination / "tests"
         destination_tests.mkdir(parents=True, exist_ok=True)
         shutil.copy2(source_index, args.destination / "test_index.json")
         for item in expected:
-            shutil.copy2(source_tests / f"{item['id']}.json", destination_tests / f"{item['id']}.json")
+            source_path = source_tests / f"{item['id']}.json"
+            (destination_tests / f"{item['id']}.json").write_bytes(
+                canonical_json_bytes(source_path.read_bytes())
+            )
         (args.destination / "migration_manifest.json").write_text(
-            json.dumps({"version": 1, "tests": manifest}, ensure_ascii=False, indent=2) + "\n",
+            json.dumps(
+                {"tests": manifest, "total_questions": len(expected) * 40},
+                ensure_ascii=False,
+                indent=2,
+            ) + "\n",
             "utf-8",
         )
 
