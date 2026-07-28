@@ -7,6 +7,23 @@ import { fetchMethodCourse, fetchMethodCourses, type MethodCourse } from "@/lib/
 
 type CourseTab = "foundation" | "subtype";
 
+function trainingRoute(course: MethodCourse): { href: string; label: string } {
+  if (course.subtype) {
+    return {
+      href: `/ability?subtype=${encodeURIComponent(course.subtype)}`,
+      label: "练习这个题型"
+    };
+  }
+  const routes: Record<string, { href: string; label: string }> = {
+    "foundation-exam-workflow": { href: "/practice", label: "进入题库练整套" },
+    "foundation-locating": { href: "/ability?skill=locating", label: "练习定位能力" },
+    "foundation-paraphrase": { href: "/ability?skill=paraphrase", label: "练习同义替换" },
+    "foundation-evidence-boundary": { href: "/ability?skill=answer-boundary", label: "练习答案边界" },
+    "foundation-review": { href: "/review", label: "进入错题复盘" }
+  };
+  return routes[course.id] || { href: "/ability", label: "进入专项训练" };
+}
+
 export default function MethodLearningCenter() {
   const [courses, setCourses] = useState<MethodCourse[]>([]);
   const [tab, setTab] = useState<CourseTab>("foundation");
@@ -46,6 +63,7 @@ export default function MethodLearningCenter() {
   );
   const activeCourse = courses.find((course) => course.id === activeId) || visibleCourses[0];
   const displayedCourse = activeDetail?.id === activeCourse?.id ? activeDetail : activeCourse;
+  const validationRoute = displayedCourse ? trainingRoute(displayedCourse) : null;
   const displayedSteps: NonNullable<MethodCourse["standard_method"]> = displayedCourse?.standard_method
     || (displayedCourse?.steps || []).map((step) => ({ title: step, action: "" }));
 
@@ -80,7 +98,7 @@ export default function MethodLearningCenter() {
       <header className="page-heading">
         <p className="eyebrow">FIXED METHOD COURSES</p>
         <h1>做题方法学习中心</h1>
-        <p>5个基础方法和17种具体题型课程全部为固定离线内容，AI调用次数为0。阅读课程不会自动标记掌握，掌握度必须通过真实新题验证。</p>
+        <p>这里负责讲清方法，不重复承担真题训练。5个基础方法和17种具体题型课程全部为固定离线内容，AI调用次数为0；掌握度必须到“专项训练”用真实新题验证。</p>
       </header>
       {error ? <div className="page-error">{error}</div> : null}
       <section className="method-summary-strip">
@@ -235,7 +253,7 @@ export default function MethodLearningCenter() {
                 <div><span>课程完成规则</span><strong>看完不等于掌握</strong><p>回到真实题训练，达到系统规定的题量和连续正确标准后，才会进入掌握状态。</p></div>
                 <div className="method-actions">
                   {displayedCourse.subtype ? <Link className="secondary-button" href="/review">查看相关错题</Link> : null}
-                  <Link className="primary-button" href="/ability">进入能力训练</Link>
+                  {validationRoute ? <Link className="primary-button" href={validationRoute.href}>{validationRoute.label}</Link> : null}
                 </div>
               </div>
             </article>

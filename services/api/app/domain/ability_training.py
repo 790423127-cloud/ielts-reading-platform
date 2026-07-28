@@ -4,7 +4,7 @@ import copy
 from dataclasses import dataclass
 from typing import Any, Iterable
 
-from app.domain.method_courses import SUBTYPE_METHODS
+from app.domain.legacy_method_courses import build_method_course_catalog
 from app.domain.question_types import EXACT_SUBTYPES, SUBTYPE_LABELS
 from app.services.question_bank import ANSWER_FIELDS, QuestionBank
 
@@ -114,11 +114,16 @@ SKILLS: tuple[AbilitySkill, ...] = (
 
 SKILL_BY_ID = {skill.id: skill for skill in SKILLS}
 
+METHOD_SUMMARY_BY_SUBTYPE = {
+    str(course["id"]): str(course["summary"])
+    for course in build_method_course_catalog()["courses"]
+}
+
 QUESTION_TYPE_TARGETS: tuple[AbilitySkill, ...] = tuple(
     AbilitySkill(
         id=f"subtype-{subtype}",
         label=SUBTYPE_LABELS[subtype],
-        objective=str(SUBTYPE_METHODS[subtype]["objective"]),
+        objective=METHOD_SUMMARY_BY_SUBTYPE[subtype],
         subtype_ids=(subtype,),
     )
     for subtype in EXACT_SUBTYPES

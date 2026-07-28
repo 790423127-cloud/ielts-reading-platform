@@ -34,6 +34,8 @@ test("Next.js owns navigation instead of legacy hash routers", () => {
   assert.match(shell, /next\/link/);
   assert.match(shell, /\/methods/);
   assert.match(shell, /\/ability/);
+  assert.match(shell, /方法课程/);
+  assert.match(shell, /专项训练/);
   assert.doesNotMatch(layout + shell + workbench + review + methods + ability, /hashchange|popstate|MutationObserver|V311Router|v320-nav-guard/);
 });
 
@@ -64,11 +66,19 @@ test("wrong-question center routes to exact method and ability training", () => 
   assert.match(review, /连续答对两次/);
 });
 
+test("personal vocabulary book remains part of the reading learning loop", () => {
+  assert.match(shell, /href: "\/vocabulary"/);
+  assert.match(shell, /label: "生词本"/);
+});
+
 test("method courses are fixed content without an AI request path", () => {
   assert.match(methods, /fetchMethodCourses/);
   assert.match(methods, /5个基础方法/);
   assert.match(methods, /17种具体题型/);
   assert.match(methods, /AI调用次数为0/);
+  assert.match(methods, /练习这个题型/);
+  assert.match(ability, /不重复展示方法课程/);
+  assert.doesNotMatch(api, /fetchAbilitySkills/);
   assert.doesNotMatch(methods, /chat\/completions|generateCoach|askTeacher|submitAI/i);
 });
 

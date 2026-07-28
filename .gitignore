@@ -4,10 +4,12 @@ out/
 coverage/
 playwright-report/
 test-results/
+output/
 .venv/
 __pycache__/
 .pytest_cache/
 *.py[cod]
+*.tsbuildinfo
 .env
 .env.*
 !.env.example

@@ -88,7 +88,7 @@ export default function DashboardPage() {
             <h2>一条完整的阅读学习路径</h2>
             <p>方法课、学习计划与阶段报告是新版保留的增强入口，不挤占旧版六种核心做题方式。</p>
             <div className="learning-flow-links">
-              <Link href="/methods">做题方法课</Link>
+              <Link href="/methods">方法课程</Link>
               <Link href="/plan">学习计划</Link>
               <Link href="/reports">阶段报告</Link>
             </div>

@@ -32,7 +32,7 @@ test("selection toolbar supports highlight, notes and vocabulary capture with fu
   assert.match(component, /persist\(annotations\.filter\(\(item\) => item\.id !== selectedAnnotation\.id\)\)/);
   assert.match(component, /\? "取消高亮" : "高亮"/);
   assert.match(component, />笔记<\/button>/);
-  assert.match(component, /加入词汇本/);
+  assert.match(component, /加入生词本/);
   assert.match(component, /source_sentence: selection\.sentence/);
   assert.match(component, /test_id: selection\.testId/);
   assert.match(component, /test_title: selection\.testTitle/);

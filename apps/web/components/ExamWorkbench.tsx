@@ -98,13 +98,24 @@ function resolvedPassageTitle(part: PublicPart): string {
   if (!GENERIC_PASSAGE_TITLE.test(articleTitle)) return articleTitle;
 
   const sourceTitle = repairDisplayText(String(part.source_article_title || "")).trim();
-  if (!sourceTitle || GENERIC_PASSAGE_TITLE.test(sourceTitle)) return articleTitle;
+  if (!sourceTitle || GENERIC_PASSAGE_TITLE.test(sourceTitle)) return "";
 
   const normalizedSourceTitle = normalizedPassageTitle(sourceTitle);
   const sourceTitleAppearsInBody = (part.paragraphs || []).some(
     (paragraph) => normalizedPassageTitle(paragraph.text) === normalizedSourceTitle
   );
   return sourceTitleAppearsInBody ? "" : sourceTitle;
+}
+
+function structuredTemplateParts(text: string, questions: Map<string, PublicQuestion>): string[] {
+  const questionIds = [...questions.keys()];
+  if (!questionIds.length) return [String(text || "")];
+
+  const escapedIds = questionIds
+    .sort((left, right) => right.length - left.length)
+    .map((id) => id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const questionPlaceholder = new RegExp(`(\\$(?:${escapedIds.join("|")})\\$)`, "g");
+  return String(text || "").split(questionPlaceholder);
 }
 
 function looksLikePassageHeading(text: string, index: number, paragraphs: NonNullable<PublicPart["paragraphs"]>): boolean {
@@ -1531,7 +1542,7 @@ function StructuredTemplate({
 }) {
   return (
     <>
-      {String(text || "").split(/(\$[^$]+\$)/g).map((part, index) => {
+      {structuredTemplateParts(text, questions).map((part, index) => {
         const match = part.match(/^\$([^$]+)\$$/);
         if (!match) return <span key={`copy-${index}`}>{displayMarkup(part)}</span>;
         const id = match[1];

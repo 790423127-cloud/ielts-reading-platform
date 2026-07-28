@@ -12,6 +12,7 @@ from app.api.sentence_training import sentence_repository, sentence_training_ban
 from app.api.sessions import session_repository
 from app.repositories.ai_teacher_repository import AiTeacherRepository
 from app.repositories.learning_plan_repository import LearningPlanRepository
+from app.repositories.review_feedback_repository import ReviewFeedbackRepository
 from app.services.ai_teacher import (
     AiTeacherNotConfiguredError,
     AiTeacherProviderError,
@@ -63,6 +64,9 @@ def _wrong_question_context(payload: AiTeacherChatRequest) -> tuple[str, str, di
         )
     context_ref = f"{stored.id}:{payload.question_id}"
     title = f"错题 Q{question.get('number') or payload.question_id}"
+    student_feedback = ReviewFeedbackRepository(
+        session_repository().database_path
+    ).list_for_user(payload.user_id).get((stored.id, payload.question_id))
     context = {
         "source": "submitted_session",
         "session_id": stored.id,
@@ -84,10 +88,12 @@ def _wrong_question_context(payload: AiTeacherChatRequest) -> tuple[str, str, di
             "paraphrasing": question.get("paraphrasing"),
             "evidence": question.get("evidence") or [],
         },
+        "student_feedback": student_feedback,
         "policy": {
             "answer_is_server_authoritative": True,
             "ai_can_change_answer_or_score": False,
             "unverified_evidence_must_not_be_invented": True,
+            "student_confirmed_cause_overrides_ai_hypothesis": True,
         },
     }
     return context_ref, title, context

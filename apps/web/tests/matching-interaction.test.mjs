@@ -22,6 +22,7 @@ test("full-text matching restores the legacy option-bank and answer-slot interac
   assert.match(css, /\.matching-question-row/);
   assert.match(css, /grid-template-areas:\s*"help help"\s*"questions bank"/);
   assert.match(css, /grid-template-columns: minmax\(260px, \.78fr\) minmax\(360px, 1\.22fr\)/);
+  assert.match(css, /@container question-scroll \(max-width: 680px\)/);
   assert.match(css, /grid-template-areas: "help" "questions" "bank"/);
   assert.match(css, /\.matching-question-list \{[^}]*grid-area: questions/);
   assert.match(css, /\.matching-interactive-bank \{[\s\S]*?grid-area: bank/);
@@ -40,6 +41,9 @@ test("letter-only matching follows the benchmark matrix while descriptive matchi
 
 test("completion and short-answer questions use the source inline template or an inline answer box", () => {
   assert.match(workbench, /"diagram_label_completion", "short_answer"/);
+  assert.match(workbench, /function structuredTemplateParts/);
+  assert.match(workbench, /questionPlaceholder/);
+  assert.doesNotMatch(workbench, /split\(\/\(\\\$\[\^\$\]\+\\\$\)\/g\)/);
   assert.match(workbench, /const inlineCompletion = family === "completion"/);
   assert.match(workbench, /className="inline-question-answer"/);
   assert.match(css, /\.inline-question-answer input/);

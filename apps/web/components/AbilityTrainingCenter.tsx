@@ -311,7 +311,7 @@ export default function AbilityTrainingCenter() {
       <header className="page-heading">
         <p className="eyebrow">CORE ABILITIES & QUESTION TYPES</p>
         <h1>阅读专项训练中心</h1>
-        <p>7种基础能力和17种具体题型共用同一套真实题生成、服务端判分和错题闭环。题目全部来自58套已迁入并通过SHA-256校验的题库，不会用AI编造练习题。</p>
+        <p>这里负责用真实题训练和判分，不重复展示方法课程。7种基础能力和17种具体题型共用同一套真实题生成、服务端判分和错题闭环；题目不会由AI编造。</p>
       </header>
       {error ? <div className="page-error">{error}</div> : null}
       <section className="ability-policy-strip">

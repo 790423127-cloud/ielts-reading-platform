@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import copy
+from io import BytesIO
 from pathlib import Path
+from zipfile import ZipFile
 
 from fastapi.testclient import TestClient
 import pytest
@@ -99,15 +101,55 @@ def test_history_archive_and_teacher_snapshot_use_isolated_database(
             "description": "",
             "status": "active",
             "session_ids": [stored.id],
+            "modules": [
+                {
+                    "id": "module-full-test",
+                    "title": "完整套题模块",
+                    "module_type": "full_test",
+                    "target_count": 1,
+                    "session_ids": [stored.id],
+                },
+                {
+                    "id": "module-review",
+                    "title": "错题复习模块",
+                    "module_type": "review",
+                    "target_count": 3,
+                    "session_ids": [],
+                },
+            ],
         },
     )
     assert updated.status_code == 200
+    assert [row["title"] for row in updated.json()["modules"]] == [
+        "完整套题模块",
+        "错题复习模块",
+    ]
+    assert updated.json()["session_ids"] == [stored.id]
     snapshot = client.post(
         f"/api/v1/teacher/assignments/{assignment['id']}/snapshots?user_id=owner"
     )
     assert snapshot.status_code == 200
     assert snapshot.json()["report"]["summary"]["session_count"] == 1
     assert snapshot.json()["report"]["ai_calls"] == 0
+
+    pdf = client.get(
+        f"/api/v1/teacher/assignments/{assignment['id']}/report.pdf?user_id=owner"
+    )
+    assert pdf.status_code == 200
+    assert pdf.headers["content-type"].startswith("application/pdf")
+    assert pdf.content.startswith(b"%PDF")
+
+    docx = client.get(
+        f"/api/v1/teacher/report-snapshots/{snapshot.json()['id']}.docx?user_id=owner"
+    )
+    assert docx.status_code == 200
+    assert docx.headers["content-type"].startswith(
+        "application/vnd.openxmlformats-officedocument"
+    )
+    with ZipFile(BytesIO(docx.content)) as archive:
+        document_xml = archive.read("word/document.xml").decode("utf-8")
+    assert "Teacher migration test" in document_xml
+    assert "标准答案、判分和 Band 规则没有改变" in document_xml
 
     assert client.delete(f"/api/v1/sessions/{stored.id}?user_id=owner").status_code == 200
     rows = client.get(

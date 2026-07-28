@@ -204,10 +204,10 @@ export default function ReadingAnnotationLayer() {
   const [history, setHistory] = useState<ReadingHistoryDetail | null>(null);
   const [selection, setSelection] = useState<PendingSelection | null>(null);
   const [noteDraft, setNoteDraft] = useState("");
+  const [savingVocabulary, setSavingVocabulary] = useState(false);
   const [noteOpen, setNoteOpen] = useState(false);
   const [panelOpen, setPanelOpen] = useState(false);
   const [status, setStatus] = useState("");
-  const [savingVocabulary, setSavingVocabulary] = useState(false);
   const selectionTimer = useRef<number | null>(null);
   const visibleAnnotationsRef = useRef<ReadingAnnotation[]>([]);
 
@@ -474,10 +474,10 @@ export default function ReadingAnnotationLayer() {
         test_title: selection.testTitle,
         part_number: selection.partNumber
       });
-      setStatus("已加入词汇本，并自动保存原句与来源");
+      setStatus("已加入生词本，并保存原句与来源");
       closeSelection();
     } catch (reason) {
-      setStatus(reason instanceof Error ? reason.message : "加入词汇本失败");
+      setStatus(reason instanceof Error ? reason.message : "加入生词本失败");
     } finally {
       setSavingVocabulary(false);
     }
@@ -519,7 +519,7 @@ export default function ReadingAnnotationLayer() {
             {selectedAnnotation?.kind === "highlight" ? "取消高亮" : "高亮"}
           </button>
           <button type="button" onClick={() => { setNoteOpen(true); setNoteDraft(selectedAnnotation?.note || ""); }}>笔记</button>
-          <button type="button" disabled={savingVocabulary} onClick={() => void addVocabulary()}>{savingVocabulary ? "保存中…" : "加入词汇本"}</button>
+          <button type="button" disabled={savingVocabulary} onClick={() => void addVocabulary()}>{savingVocabulary ? "保存中…" : "加入生词本"}</button>
           <button type="button" className="quiet" onClick={closeSelection}>取消</button>
         </div>
       ) : null}

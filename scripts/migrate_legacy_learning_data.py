@@ -10,6 +10,29 @@ import sqlite3
 from typing import Any
 
 
+LEGACY_INVENTORY_TABLES = (
+    "sessions",
+    "annotations",
+    "question_stats",
+    "skill_mastery",
+    "learning_tasks",
+    "task_attempts",
+    "sentence_attempts",
+    "sentence_skill_mastery",
+    "teacher_assignments",
+    "teacher_assignment_modules",
+    "teacher_assignment_sessions",
+    "teacher_report_snapshots",
+    "ai_question_explanations",
+    "ai_question_explanation_feedback",
+    "ai_question_explanation_summaries",
+    "ai_question_explanation_jobs",
+    "ai_question_explanation_job_items",
+    "error_cause_confirmations",
+)
+SUPPORTED_LEGACY_TABLES = {"sessions"}
+
+
 def _connect_read_only(path: Path) -> sqlite3.Connection:
     resolved = path.resolve()
     connection = sqlite3.connect(f"{resolved.as_uri()}?mode=ro", uri=True)
@@ -37,6 +60,31 @@ def _require_legacy_sessions(connection: sqlite3.Connection) -> None:
     missing = required - _table_columns(connection, "sessions")
     if missing:
         raise ValueError(f"旧 sessions 表缺少字段: {', '.join(sorted(missing))}")
+
+
+def _legacy_inventory(connection: sqlite3.Connection) -> dict[str, Any]:
+    available = {
+        str(row["name"])
+        for row in connection.execute(
+            "SELECT name FROM sqlite_master WHERE type = 'table'"
+        ).fetchall()
+    }
+    counts = {
+        table: int(connection.execute(f'SELECT COUNT(*) FROM "{table}"').fetchone()[0])
+        for table in LEGACY_INVENTORY_TABLES
+        if table in available
+    }
+    unsupported_nonempty = {
+        table: count
+        for table, count in counts.items()
+        if table not in SUPPORTED_LEGACY_TABLES and count > 0
+    }
+    return {
+        "table_counts": counts,
+        "supported_tables": sorted(SUPPORTED_LEGACY_TABLES),
+        "unsupported_nonempty_tables": unsupported_nonempty,
+        "cutover_ready": not unsupported_nonempty,
+    }
 
 
 def _load_result(row: sqlite3.Row) -> dict[str, Any]:
@@ -82,6 +130,7 @@ def preview_migration(source_db: Path, destination_db: Path) -> dict[str, Any]:
         raise ValueError("源数据库和目标数据库不能是同一个文件")
     with _connect_read_only(source_db) as source:
         _require_legacy_sessions(source)
+        inventory = _legacy_inventory(source)
         rows = source.execute(
             "SELECT * FROM sessions ORDER BY created_at, id"
         ).fetchall()
@@ -121,6 +170,7 @@ def preview_migration(source_db: Path, destination_db: Path) -> dict[str, Any]:
         "invalid_sessions": invalid,
         "already_imported": duplicate_count,
         "would_insert": valid - duplicate_count,
+        "source_inventory": inventory,
         "mode": "preview",
     }
 
@@ -153,10 +203,20 @@ def apply_migration(
     *,
     user_id: str,
     manifest_path: Path,
+    allow_partial: bool = False,
 ) -> dict[str, Any]:
     preview = preview_migration(source_db, destination_db)
     if preview["invalid_sessions"]:
         raise ValueError("存在无效旧Session；为防止部分迁移，未写入任何记录")
+
+    unsupported = preview["source_inventory"]["unsupported_nonempty_tables"]
+    if unsupported and not allow_partial:
+        summary = ", ".join(f"{table}={count}" for table, count in unsupported.items())
+        raise ValueError(
+            "Legacy database contains non-empty tables that are not migrated; "
+            f"partial migration refused: {summary}. "
+            "Complete the mappings or explicitly use --allow-partial after backup approval."
+        )
 
     previous_manifest: dict[str, Any] = {}
     if manifest_path.is_file():
@@ -239,6 +299,7 @@ def apply_migration(
         "mode": "applied",
         "applied_at": datetime.now(timezone.utc).isoformat(),
         "user_id": user_id,
+        "partial_migration_accepted": bool(allow_partial and unsupported),
         "backup_path": str(backup_path) if backup_path else None,
         "inserted_count": len(inserted_ids),
         "total_inserted_count": len(all_inserted_ids),
@@ -300,6 +361,11 @@ def main() -> int:
     parser.add_argument("--user-id", default="owner")
     parser.add_argument("--manifest", type=Path)
     parser.add_argument("--apply", action="store_true")
+    parser.add_argument(
+        "--allow-partial",
+        action="store_true",
+        help="Explicitly accept migrating Sessions while other legacy data remains unsupported.",
+    )
     parser.add_argument("--rollback-manifest", type=Path)
     args = parser.parse_args()
 
@@ -317,6 +383,7 @@ def main() -> int:
                 args.destination_db,
                 user_id=args.user_id,
                 manifest_path=manifest_path,
+                allow_partial=args.allow_partial,
             )
         else:
             output = preview_migration(args.source_db, args.destination_db)

@@ -82,6 +82,7 @@ test("the shared renderer distinguishes brochure rows before heuristic headings"
   assert.match(workbench, /function looksLikePassageCategory/);
   assert.match(workbench, /function passageListingParts/);
   assert.match(workbench, /function resolvedPassageTitle/);
+  assert.match(workbench, /GENERIC_PASSAGE_TITLE\.test\(sourceTitle\)\) return ""/);
   assert.match(workbench, /sourceTitleAppearsInBody \? "" : sourceTitle/);
   assert.match(workbench, /className="passage-category-heading passage-unit"/);
   assert.match(workbench, /className="passage-listing passage-unit"/);
@@ -100,5 +101,6 @@ test("desktop exam defaults and typography follow the verified reading baseline"
   assert.match(styles, /\.passage-copy \{[\s\S]*font-family: Inter,[\s\S]*font-size: var\(--reading-font-size, 17px\)[\s\S]*line-height: 1\.75/);
   assert.match(styles, /\.question-card \{[\s\S]*border-bottom: 1px solid var\(--exam-line\)[\s\S]*border-radius: 0/);
   assert.match(styles, /\.question-title-row p \{[^}]*font-weight: 600[^}]*line-height: 1\.75/);
+  assert.match(styles, /\.questions-scroll \{[\s\S]*container-name: question-scroll;[\s\S]*container-type: inline-size;/);
   assert.match(styles, /@media \(max-width: 560px\) \{[\s\S]*\.passage-listing \{ display: block; \}/);
 });

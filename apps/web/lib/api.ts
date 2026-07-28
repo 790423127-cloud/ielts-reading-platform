@@ -14,6 +14,18 @@ export type HealthResponse = {
   features: Record<string, boolean>;
 };
 
+export type QuestionBankMigrationStatus = {
+  expected_tests: number;
+  found_tests: number;
+  expected_questions: number;
+  found_questions: number;
+  ready: boolean;
+  baseline_expected_tests: number;
+  baseline_ready: boolean;
+  missing_test_ids: string[];
+  missing_baseline_test_ids: string[];
+};
+
 export type TestIndexItem = {
   id: string;
   book: string;
@@ -202,6 +214,15 @@ export type WrongReviewItem = QuestionResult & {
   recommended_skill_id: string;
   recommended_skill_label: string;
   mastery_rule: string;
+  student_feedback?: {
+    session_id: string;
+    question_id: string;
+    match_status: "matches" | "partial" | "does_not_match";
+    understanding_status: "understood" | "needs_review";
+    cause_id?: string | null;
+    note: string;
+    updated_at: string;
+  } | null;
 };
 
 export type MethodCourse = {
@@ -393,6 +414,15 @@ export type AiProviderStatus = {
   }>;
 };
 
+export type TeacherAssignmentModule = {
+  id: string;
+  title: string;
+  module_type: "full_test" | "part" | "question_type" | "review" | "mixed";
+  target_count: number;
+  sort_order: number;
+  session_ids: string[];
+};
+
 export type TeacherAssignment = {
   id: string;
   title: string;
@@ -400,6 +430,7 @@ export type TeacherAssignment = {
   due_at?: string | null;
   status: "active" | "completed" | "archived";
   session_ids: string[];
+  modules: TeacherAssignmentModule[];
   created_at: string;
   updated_at: string;
 };
@@ -410,6 +441,44 @@ export type TeacherReportSnapshot = {
   title: string;
   created_at: string;
   report: StageReport & { assignment?: TeacherAssignment };
+};
+
+export type DurableAiJobItem = {
+  id: string;
+  question_id: string;
+  question_number?: number | null;
+  status: "pending" | "in_progress" | "completed" | "failed";
+  attempt_count: number;
+  error_message?: string | null;
+  result?: {
+    answer?: string;
+    cached?: boolean;
+    provider?: string | null;
+    model?: string | null;
+    conversation_id?: string | null;
+  } | null;
+  updated_at: string;
+};
+
+export type DurableAiJob = {
+  id: string;
+  session_id: string;
+  idempotency_key: string;
+  status: "pending" | "running" | "partial" | "completed" | "failed";
+  provider: string;
+  model: string;
+  total_items: number;
+  completed_items: number;
+  failed_items: number;
+  created_at: string;
+  updated_at: string;
+  items: DurableAiJobItem[];
+  policy: {
+    creation_calls_ai: false;
+    resume_processes_at_most: number;
+    max_attempts_per_item: number;
+    automatic_paid_provider_fallback: false;
+  };
 };
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8010";
@@ -460,6 +529,10 @@ export async function fetchTests(signal?: AbortSignal): Promise<TestIndexItem[]>
   return data.items;
 }
 
+export async function fetchQuestionBankStatus(signal?: AbortSignal): Promise<QuestionBankMigrationStatus> {
+  return apiJson<QuestionBankMigrationStatus>("/api/v1/question-bank/migration-status", { signal });
+}
+
 export async function fetchPublicTest(testId: string, signal?: AbortSignal): Promise<PublicTest> {
   const test = await apiJson<PublicTest>(`/api/v1/question-bank/tests/${encodeURIComponent(testId)}`, { signal });
   rememberCurrentReadingTest({ id: test.id, title: test.title });
@@ -500,9 +573,48 @@ export async function fetchMethodCourses(signal?: AbortSignal): Promise<MethodCo
   return data.items;
 }
 
-export async function fetchAbilitySkills(signal?: AbortSignal): Promise<AbilitySkill[]> {
-  const data = await apiJson<{ items: AbilitySkill[] }>("/api/v1/ability/skills", { signal });
+export async function saveWrongQuestionFeedback(
+  item: WrongReviewItem,
+  feedback: {
+    match_status: "matches" | "partial" | "does_not_match";
+    understanding_status: "understood" | "needs_review";
+    cause_id?: string | null;
+    note?: string;
+  }
+): Promise<NonNullable<WrongReviewItem["student_feedback"]>> {
+  return apiJson<NonNullable<WrongReviewItem["student_feedback"]>>(
+    `/api/v1/review/wrong-questions/${encodeURIComponent(item.source_session_id)}/${encodeURIComponent(item.id)}/feedback`,
+    {
+      method: "POST",
+      body: JSON.stringify({ user_id: "owner", ...feedback })
+    }
+  );
+}
+
+export async function fetchDurableAiJobs(signal?: AbortSignal): Promise<DurableAiJob[]> {
+  const data = await apiJson<{ items: DurableAiJob[] }>(
+    "/api/v1/ai-jobs?user_id=owner&limit=50",
+    { signal }
+  );
   return data.items;
+}
+
+export async function createDurableAiJob(payload: {
+  session_id: string;
+  question_ids: string[];
+  idempotency_key: string;
+}): Promise<DurableAiJob> {
+  return apiJson<DurableAiJob>("/api/v1/ai-jobs", {
+    method: "POST",
+    body: JSON.stringify({ user_id: "owner", ...payload })
+  });
+}
+
+export async function resumeDurableAiJob(jobId: string): Promise<DurableAiJob> {
+  return apiJson<DurableAiJob>(`/api/v1/ai-jobs/${encodeURIComponent(jobId)}/resume`, {
+    method: "POST",
+    body: JSON.stringify({ user_id: "owner" })
+  });
 }
 
 export async function fetchMethodCourse(courseId: string, signal?: AbortSignal): Promise<MethodCourse> {
@@ -595,7 +707,14 @@ export async function updateTeacherAssignment(assignment: TeacherAssignment): Pr
       description: assignment.description,
       due_at: assignment.due_at,
       status: assignment.status,
-      session_ids: assignment.session_ids
+      session_ids: assignment.session_ids,
+      modules: assignment.modules.map((module) => ({
+        id: module.id,
+        title: module.title,
+        module_type: module.module_type,
+        target_count: module.target_count,
+        session_ids: module.session_ids
+      }))
     })
   });
 }
@@ -620,4 +739,14 @@ export async function fetchTeacherReportSnapshots(signal?: AbortSignal): Promise
     { signal }
   );
   return data.items;
+}
+
+export function teacherReportDownloadUrl(
+  source: { assignmentId: string } | { snapshotId: string },
+  extension: "pdf" | "docx"
+): string {
+  const path = "assignmentId" in source
+    ? `/api/v1/teacher/assignments/${encodeURIComponent(source.assignmentId)}/report.${extension}`
+    : `/api/v1/teacher/report-snapshots/${encodeURIComponent(source.snapshotId)}.${extension}`;
+  return `${API_BASE_URL}${path}?user_id=owner`;
 }
