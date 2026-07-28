@@ -38,14 +38,15 @@ type DraftState = {
 type DraftSummary = DraftState & { key: string; testId: string };
 
 const USER_ID = "owner";
-const READING_FONT_SIZES = [18, 20, 22, 24, 26] as const;
+const READING_FONT_SIZES = [15, 17, 19, 21, 23] as const;
+const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v2";
 
 function normalizeReadingFontSize(value: unknown): number {
-  if (value === null || value === undefined || String(value).trim() === "") return 22;
+  if (value === null || value === undefined || String(value).trim() === "") return 17;
   const size = Number(value);
-  if (!Number.isFinite(size)) return 22;
+  if (!Number.isFinite(size)) return 17;
   return READING_FONT_SIZES.reduce((closest, candidate) =>
-    Math.abs(candidate - size) < Math.abs(closest - size) ? candidate : closest, 22);
+    Math.abs(candidate - size) < Math.abs(closest - size) ? candidate : closest, 17);
 }
 
 function formatSeconds(value: number): string {
@@ -83,9 +84,33 @@ function partQuestionRange(part: PublicPart): string {
   return start === end ? String(start) : `${start}–${end}`;
 }
 
+const GENERIC_PASSAGE_TITLE = /^(?:part\s+\d+\s+reading texts|passage\s+\d+)$/i;
+
+function normalizedPassageTitle(value: unknown): string {
+  return repairDisplayText(String(value || ""))
+    .replace(/\s+/g, " ")
+    .trim()
+    .toLocaleLowerCase();
+}
+
+function resolvedPassageTitle(part: PublicPart): string {
+  const articleTitle = repairDisplayText(String(part.article_title || part.title || "")).trim();
+  if (!GENERIC_PASSAGE_TITLE.test(articleTitle)) return articleTitle;
+
+  const sourceTitle = repairDisplayText(String(part.source_article_title || "")).trim();
+  if (!sourceTitle || GENERIC_PASSAGE_TITLE.test(sourceTitle)) return articleTitle;
+
+  const normalizedSourceTitle = normalizedPassageTitle(sourceTitle);
+  const sourceTitleAppearsInBody = (part.paragraphs || []).some(
+    (paragraph) => normalizedPassageTitle(paragraph.text) === normalizedSourceTitle
+  );
+  return sourceTitleAppearsInBody ? "" : sourceTitle;
+}
+
 function looksLikePassageHeading(text: string, index: number, paragraphs: NonNullable<PublicPart["paragraphs"]>): boolean {
   const value = text.trim();
   if (!value || value.length > 90 || /[.!]$/.test(value) || /^[-•·▪●]/.test(value)) return false;
+  if (/\s[-–—]\s/.test(value)) return false;
   if (/^[A-Z]$/.test(value) || /^[ivxlcdm]{1,5}$/i.test(value) || /^\([^)]*\)$/.test(value)) return false;
   const words = value.split(/\s+/);
   if (words.length > 12) return false;
@@ -108,6 +133,17 @@ function looksLikePassageHeading(text: string, index: number, paragraphs: NonNul
   const titleLike = value === value.toUpperCase()
     || words.filter((word) => /^[A-Z][a-z]/.test(word)).length >= Math.ceil(words.length / 2);
   return titleLike || separatedFromBody;
+}
+
+function looksLikePassageCategory(text: string): boolean {
+  const value = text.trim();
+  return /^(?:for\s+(?:under|over)|under|over)\s+[$£€]\s*\d+/i.test(value)
+    || /^(?:additional\s+(?:monthly\s+)?specials?|note\s*:|within\s+[^:]+:|overseas\s*:)/i.test(value);
+}
+
+function passageListingParts(text: string): { label: string; detail: string } | null {
+  const match = text.trim().match(/^([^.!?,;:]{2,48})\s[-–—]\s(.+)$/);
+  return match ? { label: match[1].trim(), detail: match[2].trim() } : null;
 }
 
 function PassageTable({ paragraph }: { paragraph: NonNullable<PublicPart["paragraphs"]>[number] }) {
@@ -225,10 +261,20 @@ function restoreInstructionOptionText(options: QuestionOption[], instructions = 
 
 function optionsFor(group: PublicQuestionGroup, question: PublicQuestion): QuestionOption[] {
   if (question.options?.length) {
-    return restoreInstructionOptionText(
+    const questionOptions = restoreInstructionOptionText(
       question.options.map(normalizeOption).filter((item): item is QuestionOption => Boolean(item)),
       group.instructions
     );
+    if (group.normalized_options?.length) {
+      const groupOptions = restoreInstructionOptionText(group.normalized_options, group.instructions);
+      const groupOptionsByCode = new Map(groupOptions.map((option) => [option.code, option]));
+      return questionOptions.map((option) =>
+        optionDisplayText(option)
+          ? option
+          : groupOptionsByCode.get(option.code) || option
+      );
+    }
+    return questionOptions;
   }
   if (group.normalized_options?.length) {
     return restoreInstructionOptionText(group.normalized_options, group.instructions);
@@ -350,17 +396,18 @@ export default function ExamWorkbench() {
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [notice, setNotice] = useState("");
-  const [readingFontSize, setReadingFontSize] = useState(22);
+  const [readingFontSize, setReadingFontSize] = useState(17);
   const [difficulty, setDifficulty] = useState<"all" | "easy" | "medium" | "hard">("all");
   const [drafts, setDrafts] = useState<DraftSummary[]>([]);
   const [showDrafts, setShowDrafts] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
   const [paused, setPaused] = useState(false);
-  const [paneRatio, setPaneRatio] = useState(50);
+  const [paneRatio, setPaneRatio] = useState(40);
   const timedOutRef = useRef(false);
   const activePartRef = useRef(1);
   const activeQuestionIdRef = useRef("");
   const activeQuestionLockUntilRef = useRef(0);
+  const draftSnapshotRef = useRef<DraftState | null>(null);
 
   useEffect(() => {
     activeQuestionIdRef.current = activeQuestionId;
@@ -372,8 +419,11 @@ export default function ExamWorkbench() {
 
   useEffect(() => {
     setReadingFontSize(normalizeReadingFontSize(window.localStorage.getItem("ielts-passage-font-size")));
-    const storedRatio = Number(window.localStorage.getItem("ielts-exam-pane-ratio"));
-    if (Number.isFinite(storedRatio)) setPaneRatio(Math.max(30, Math.min(70, storedRatio)));
+    const storedRatioValue = window.localStorage.getItem(PANE_RATIO_STORAGE_KEY);
+    if (storedRatioValue !== null && storedRatioValue.trim() !== "") {
+      const storedRatio = Number(storedRatioValue);
+      if (Number.isFinite(storedRatio)) setPaneRatio(Math.max(30, Math.min(70, storedRatio)));
+    }
     refreshDrafts();
   }, []);
 
@@ -384,6 +434,9 @@ export default function ExamWorkbench() {
       if (!key?.startsWith("ielts-platform-draft:")) continue;
       try {
         const value = JSON.parse(window.localStorage.getItem(key) || "") as DraftState;
+        const hasAnswers = Object.values(value.answers || {}).some(answerIsPresent);
+        const hasFlags = Object.values(value.flagged || {}).some(Boolean);
+        if (!hasAnswers && !hasFlags) continue;
         rows.push({ ...value, key, testId: key.split(":")[1] || "" });
       } catch {
         // Ignore malformed browser storage; no server data is affected.
@@ -428,6 +481,22 @@ export default function ExamWorkbench() {
     }).length,
     [questionRows, answers]
   );
+  const hasDraftProgress = answeredCount > 0 || Object.values(flagged).some(Boolean);
+
+  draftSnapshotRef.current = screen === "exam" && draftKey && clientSubmissionId ? {
+    answers,
+    flagged,
+    elapsedSeconds,
+    remainingSeconds,
+    partElapsedSeconds,
+    questionElapsedSeconds,
+    activeQuestionId,
+    clientSubmissionId,
+    testTitle: test?.title,
+    mode,
+    partNumbers,
+    updatedAt: new Date().toISOString()
+  } : null;
 
   useEffect(() => {
     if (screen !== "exam" || paused) return;
@@ -484,24 +553,16 @@ export default function ExamWorkbench() {
     return () => observer.disconnect();
   }, [activePart, screen, test]);
 
-  useEffect(() => {
-    if (screen !== "exam" || !draftKey || !clientSubmissionId) return;
-    const draft: DraftState = {
-      answers,
-      flagged,
-      elapsedSeconds,
-      remainingSeconds,
-      partElapsedSeconds,
-      questionElapsedSeconds,
-      activeQuestionId,
-      clientSubmissionId,
-      testTitle: test?.title,
-      mode,
-      partNumbers,
-      updatedAt: new Date().toISOString()
-    };
+  const persistCurrentDraft = useCallback((): DraftState | null => {
+    if (screen !== "exam" || !draftKey || !clientSubmissionId) return null;
+    const draft = draftSnapshotRef.current;
+    if (!draft) return null;
+    const hasAnswers = Object.values(draft.answers).some(answerIsPresent);
+    const hasFlags = Object.values(draft.flagged).some(Boolean);
+    if (!hasAnswers && !hasFlags) return null;
     window.localStorage.setItem(draftKey, JSON.stringify(draft));
-  }, [activeQuestionId, answers, clientSubmissionId, draftKey, elapsedSeconds, flagged, mode, partElapsedSeconds, partNumbers, questionElapsedSeconds, remainingSeconds, screen, test?.title]);
+    return draft;
+  }, [clientSubmissionId, draftKey, screen]);
 
   const submitCurrent = useCallback(async (timedOut = false) => {
     if (!test || submitting) return;
@@ -543,7 +604,13 @@ export default function ExamWorkbench() {
     }
   }, [remainingSeconds, screen, submitCurrent, submitting]);
 
-  async function startExam(testId: string, nextMode: ExamMode, nextParts: number[]) {
+  async function startExam(
+    testId: string,
+    nextMode: ExamMode,
+    nextParts: number[],
+    resumeDraft = false,
+    selectedDraft: DraftState | null = null
+  ) {
     setLoading(true);
     setError("");
     setNotice("");
@@ -552,11 +619,19 @@ export default function ExamWorkbench() {
       const resolvedParts = nextParts.length ? nextParts : loaded.parts.map((part) => Number(part.number));
       const key = `ielts-platform-draft:${testId}:${nextMode}:${resolvedParts.join("-")}`;
       let draft: DraftState | null = null;
-      try {
-        const raw = window.localStorage.getItem(key);
-        draft = raw ? JSON.parse(raw) as DraftState : null;
-      } catch {
-        draft = null;
+      if (resumeDraft) {
+        draft = selectedDraft;
+        if (!draft) {
+          try {
+            const raw = window.localStorage.getItem(key);
+            draft = raw ? JSON.parse(raw) as DraftState : null;
+          } catch {
+            draft = null;
+          }
+        }
+      } else {
+        window.localStorage.removeItem(key);
+        setDrafts((current) => current.filter((item) => item.key !== key));
       }
       const limit = nextMode === "mock_exam" ? 3600 : nextMode === "part_practice" ? 1200 : null;
       setTest(loaded);
@@ -582,7 +657,7 @@ export default function ExamWorkbench() {
       setResult(null);
       timedOutRef.current = false;
       setPaused(false);
-      if (draft) setNotice("已恢复上次未交卷的答案和计时。");
+      if (draft) setNotice("已从草稿管理器继续上次未完成的答案和计时。");
       setScreen("exam");
     } catch (reason: unknown) {
       setError(reason instanceof Error ? reason.message : "试卷加载失败");
@@ -631,8 +706,32 @@ export default function ExamWorkbench() {
     window.localStorage.setItem("ielts-passage-font-size", String(nextSize));
   }
 
+  function saveDraftManually(): boolean {
+    const savedDraft = persistCurrentDraft();
+    if (!savedDraft || !draftKey) {
+      setNotice("请先作答或标记题目，再保存草稿。");
+      return false;
+    }
+    const summary: DraftSummary = {
+      ...savedDraft,
+      key: draftKey,
+      testId: draftKey.split(":")[1] || ""
+    };
+    setDrafts((current) => [summary, ...current.filter((item) => item.key !== draftKey)]);
+    setNotice("草稿已手动保存。以后可从“管理草稿”继续。");
+    return true;
+  }
+
+  function saveDraftAndLeave() {
+    if (!saveDraftManually()) return;
+    setPaused(false);
+    setScreen("library");
+    setNotice("");
+  }
+
   function leaveExam() {
-    if (answeredCount && !window.confirm("答案已自动保存在本机草稿。确定返回题库吗？")) return;
+    if (hasDraftProgress && !window.confirm("当前答案不会自动保存。若需要保留，请先点击“保存草稿”。确定不保存并返回题库吗？")) return;
+    setPaused(false);
     setScreen("library");
     setNotice("");
   }
@@ -649,7 +748,7 @@ export default function ExamWorkbench() {
       window.removeEventListener("pointerup", end);
       setPaneRatio((value) => {
         const rounded = Math.round(value);
-        window.localStorage.setItem("ielts-exam-pane-ratio", String(rounded));
+        window.localStorage.setItem(PANE_RATIO_STORAGE_KEY, String(rounded));
         return rounded;
       });
     };
@@ -664,7 +763,7 @@ export default function ExamWorkbench() {
     event.preventDefault();
     setPaneRatio((value) => {
       const next = fixedValue ?? Math.max(30, Math.min(70, value + direction));
-      window.localStorage.setItem("ielts-exam-pane-ratio", String(next));
+      window.localStorage.setItem(PANE_RATIO_STORAGE_KEY, String(next));
       return next;
     });
   }
@@ -696,6 +795,7 @@ export default function ExamWorkbench() {
 
   if (screen === "exam" && test) {
     const active = currentParts.find((part) => Number(part.number) === activePart) || currentParts[0];
+    const activePassageTitle = active ? resolvedPassageTitle(active) : "";
     const activeQuestionMeta = active?.groups
       .map((group) => {
         const question = group.questions.find((item) => controlQuestionId(group, item) === activeQuestionId);
@@ -764,6 +864,7 @@ export default function ExamWorkbench() {
               aria-label="增大阅读字号"
             >A+</button>
           </div>
+          <button type="button" className="exam-ghost-button" disabled={!hasDraftProgress} onClick={saveDraftManually}>保存草稿</button>
           <button type="button" className="exam-ghost-button" onClick={leaveExam}>退出</button>
           <button
             type="button"
@@ -798,7 +899,7 @@ export default function ExamWorkbench() {
           <div
             className="exam-grid"
             style={{
-              gridTemplateColumns: `minmax(0, ${paneRatio}fr) 7px minmax(0, ${100 - paneRatio}fr)`
+              gridTemplateColumns: `minmax(0, ${paneRatio}fr) 15px minmax(0, ${100 - paneRatio}fr)`
             }}
           >
             <section className={mobilePane === "passage" ? "passage-pane" : "passage-pane mobile-hidden"} aria-label={`Part ${active.number} 原文`}>
@@ -807,15 +908,18 @@ export default function ExamWorkbench() {
                 <span>阅读原文并回答第 {partQuestionRange(active)} 题</span>
               </div>
               <div className="passage-copy">
-                <h1 className="passage-main-title">{active.article_title || active.title}</h1>
+                {activePassageTitle ? <h1 className="passage-main-title">{activePassageTitle}</h1> : null}
                 {active.subtitle ? <p className="passage-subtitle">{active.subtitle}</p> : null}
                 {(active.paragraphs || []).map((paragraph, index, paragraphs) => {
-                  const text = String(paragraph.text || "").trim();
+                  const text = repairDisplayText(String(paragraph.text || "").trim());
                   if (!text) return null;
                   const key = `${paragraph.index ?? index}-${text.slice(0, 20)}`;
                   const cue = paragraph.question_cue;
                   const isSectionLetter = /^[A-Z]$/.test(text) && !paragraph.label;
                   const isLabelled = Boolean(paragraph.label && /^[A-Z]$/.test(paragraph.label.trim()));
+                  const isCategory = looksLikePassageCategory(text);
+                  const listing = passageListingParts(text);
+                  const isLegend = /^(?:[A-Z]\s+for\s+\w+\s*){2,}/i.test(text);
                   const isHeading = Boolean(cue) || looksLikePassageHeading(text, index, paragraphs);
                   const cueRange = cue ? (cue.start === cue.end ? String(cue.start) : `${cue.start}–${cue.end}`) : "";
                   return (
@@ -832,6 +936,12 @@ export default function ExamWorkbench() {
                         <div className="passage-section-letter passage-unit">{text}</div>
                       ) : isLabelled ? (
                         <div className="passage-paragraph passage-labelled"><strong>{paragraph.label}</strong><p className="passage-unit">{text}</p></div>
+                      ) : isCategory ? (
+                        <h2 className="passage-category-heading passage-unit">{text}</h2>
+                      ) : listing ? (
+                        <p className="passage-listing passage-unit"><strong>{listing.label}</strong><span>{listing.detail}</span></p>
+                      ) : isLegend ? (
+                        <p className="passage-legend passage-unit">{text}</p>
                       ) : isHeading ? (
                         <h2 className="passage-subheading passage-unit">{text}</h2>
                       ) : (
@@ -907,30 +1017,32 @@ export default function ExamWorkbench() {
                       setMobilePane("passage");
                     }}
                   >
-                    <strong>Passage {part.number}</strong>
-                    <span>{completed} of {partRows.length}</span>
+                    <strong>{isActivePart ? `P${part.number}` : `Passage ${part.number}`}</strong>
+                    {!isActivePart ? <span>{completed} of {partRows.length}</span> : null}
                   </button>
-                  <div className="dock-question-list">
-                    {partRows.map(({ group, question }) => {
-                      const id = String(question.id);
-                      const controlId = sharedQuestionIds(group)[0] || id;
-                      const answered = answerIsComplete(group, answers[id]);
-                      const className = [
-                        answered ? "answered" : "",
-                        flagged[id] ? "flagged" : "",
-                        activeQuestionId === controlId ? "current" : ""
-                      ].filter(Boolean).join(" ");
-                      return (
-                        <button
-                          type="button"
-                          key={id}
-                          className={className}
-                          onClick={() => scrollToQuestion(controlId, Number(part.number))}
-                          aria-label={`第${questionNumber(question)}题${answered ? "，已作答" : ""}${flagged[id] ? "，已标记" : ""}`}
-                        >{questionNumber(question)}</button>
-                      );
-                    })}
-                  </div>
+                  {isActivePart ? (
+                    <div className="dock-question-list">
+                      {partRows.map(({ group, question }) => {
+                        const id = String(question.id);
+                        const controlId = sharedQuestionIds(group)[0] || id;
+                        const answered = answerIsComplete(group, answers[id]);
+                        const className = [
+                          answered ? "answered" : "",
+                          flagged[id] ? "flagged" : "",
+                          activeQuestionId === controlId ? "current" : ""
+                        ].filter(Boolean).join(" ");
+                        return (
+                          <button
+                            type="button"
+                            key={id}
+                            className={className}
+                            onClick={() => scrollToQuestion(controlId, Number(part.number))}
+                            aria-label={`第${questionNumber(question)}题${answered ? "，已作答" : ""}${flagged[id] ? "，已标记" : ""}`}
+                          >{questionNumber(question)}</button>
+                        );
+                      })}
+                    </div>
+                  ) : null}
                 </section>
               );
             })}
@@ -952,9 +1064,9 @@ export default function ExamWorkbench() {
         </nav>
         {paused ? (
           <div className="exam-pause-overlay" role="dialog" aria-modal="true">
-            <div><span>PAUSED</span><h2>练习已暂停</h2><p>计时已经冻结，当前答案仍在本机自动保存。</p>
+            <div><span>PAUSED</span><h2>练习已暂停</h2><p>计时已经冻结。答案不会自动保存，需要时请手动保存草稿。</p>
               <button className="primary-button" type="button" onClick={() => setPaused(false)}>继续作答</button>
-              <button className="secondary-button" type="button" onClick={leaveExam}>保存草稿并退出</button>
+              <button className="secondary-button" type="button" disabled={!hasDraftProgress} onClick={saveDraftAndLeave}>保存草稿并退出</button>
             </div>
           </div>
         ) : null}
@@ -962,7 +1074,7 @@ export default function ExamWorkbench() {
           <div className="system-modal-backdrop">
             <section className="system-modal exam-help-modal" role="dialog" aria-modal="true">
               <header><h2>机考帮助</h2><button type="button" onClick={() => setShowHelp(false)}>关闭</button></header>
-              <ul><li>拖动中间分隔线可在 30%–70% 范围调整文章宽度。</li><li>暂停会冻结计时，不会清空答案。</li><li>旗标用于暂时标记题目，交卷前可从底部题卡返回。</li><li>退出后草稿保存在本机；只有交卷才会判分。</li></ul>
+              <ul><li>拖动中间分隔线可在 30%–70% 范围调整文章宽度。</li><li>暂停会冻结计时，不会清空答案。</li><li>答案不会自动保存；点击“保存草稿”后，才可从“管理草稿”继续。</li><li>普通退出或从题卡再次开始都会创建空白练习。</li></ul>
             </section>
           </div>
         ) : null}
@@ -1045,7 +1157,10 @@ export default function ExamWorkbench() {
             <small>{value === "all" ? tests.length : tests.filter((item) => item.difficulty?.level === value).length}</small>
           </button>
         ))}</div>
-        <button type="button" className="secondary-button draft-manager-button" onClick={() => { refreshDrafts(); setShowDrafts(true); }}>管理草稿（{drafts.length}）</button>
+        <button type="button" className="secondary-button draft-manager-button" onClick={() => {
+          setShowDrafts(true);
+          refreshDrafts();
+        }}>管理草稿（{drafts.length}）</button>
       </section>
       <div className="library-layout">
         <section className="book-library" aria-label="题库列表">
@@ -1086,7 +1201,18 @@ export default function ExamWorkbench() {
             <header><div><span>LOCAL DRAFTS</span><h2>草稿管理器</h2></div><button type="button" onClick={() => setShowDrafts(false)}>关闭</button></header>
             {drafts.length ? <div>{drafts.map((draft) => (
               <article key={draft.key}><div><strong>{draft.testTitle || draft.testId}</strong><span>{draft.mode || "练习"} · Part {(draft.partNumbers || []).join(",") || "1–3"} · 已答 {Object.keys(draft.answers || {}).length} 题</span><small>{draft.updatedAt ? formatDate(draft.updatedAt) : "旧草稿"}</small></div>
-                <button className="secondary-button danger-text" type="button" onClick={() => { if (window.confirm("确定清除这份本机草稿吗？此操作无法撤销。")) { localStorage.removeItem(draft.key); refreshDrafts(); } }}>清除</button>
+                <div className="draft-actions">
+                  <button className="primary-button" type="button" onClick={() => {
+                    setShowDrafts(false);
+                    void startExam(draft.testId, draft.mode || "study", draft.partNumbers || [], true, draft);
+                  }}>继续草稿</button>
+                  <button className="secondary-button danger-text" type="button" onClick={() => {
+                    if (window.confirm("确定清除这份本机草稿吗？此操作无法撤销。")) {
+                      localStorage.removeItem(draft.key);
+                      setDrafts((current) => current.filter((item) => item.key !== draft.key));
+                    }
+                  }}>清除</button>
+                </div>
               </article>
             ))}</div> : <p>当前没有未提交草稿。</p>}
           </section>
@@ -1114,13 +1240,15 @@ function answerIsComplete(group: PublicQuestionGroup, value: AnswerValue | undef
 
 function optionDisplayText(option: QuestionOption): string {
   const text = repairDisplayText(String(option.text || "")).trim();
-  if (!text) return "";
+  if (!text || text.localeCompare(option.code, undefined, { sensitivity: "accent" }) === 0) return "";
   const escapedCode = option.code.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
   return text.replace(new RegExp(`^${escapedCode}[.):\\s-]+`, "i"), "").trim();
 }
 
 function repairDisplayText(value: string): string {
-  return value.replace(/^lt(?=\s)/, "It");
+  return value
+    .replace(/^lt(?=\s)/, "It")
+    .replace(/([.!?])(?=[A-Z][a-z])/g, "$1 ");
 }
 
 function displayMarkup(value: string) {
@@ -1289,7 +1417,7 @@ function MatchingTextGroup({
     setSelectedCode("");
   }
 
-  function dropAnswer(event: ReactDragEvent<HTMLButtonElement>, questionId: string) {
+  function dropAnswer(event: ReactDragEvent<HTMLDivElement>, questionId: string) {
     event.preventDefault();
     assignAnswer(questionId, event.dataTransfer.getData("text/plain"));
   }
@@ -1351,23 +1479,26 @@ function MatchingTextGroup({
                 <p className="question-annotation-unit">{displayMarkup(question.prompt)}</p>
               </div>
               <div className="matching-answer-cell">
-                <button
-                  type="button"
+                <div
                   className={`matching-answer-slot${chosen ? " filled" : ""}${selectedCode ? " ready" : ""}`}
-                  aria-label={`第${questionNumber(question)}题答案框`}
                   onClick={() => selectedCode && assignAnswer(id, selectedCode)}
                   onDragOver={(event) => event.preventDefault()}
                   onDrop={(event) => dropAnswer(event, id)}
                 >
-                  {chosen ? (
-                    <>
-                      <strong>{chosen.code}</strong>
-                      <span>{optionDisplayText(chosen)}</span>
-                    </>
-                  ) : (
-                    <span>{selectedCode ? `填入 ${selectedCode}` : "选择答案"}</span>
-                  )}
-                </button>
+                  <input
+                    value={code}
+                    placeholder={`${questionNumber(question)} 拖拽或输入选项字母`}
+                    autoComplete="off"
+                    spellCheck={false}
+                    aria-label={`第${questionNumber(question)}题答案框`}
+                    onChange={(event) => {
+                      const nextCode = event.target.value.trim().toUpperCase();
+                      if (!nextCode) onAnswer(id, "");
+                      else if (optionMap.has(nextCode)) assignAnswer(id, nextCode);
+                    }}
+                  />
+                  {chosen ? <span className="sr-only">{optionDisplayText(chosen)}</span> : null}
+                </div>
                 {chosen ? (
                   <button type="button" className="matching-answer-clear" onClick={() => onAnswer(id, "")} aria-label={`清除第${questionNumber(question)}题答案`}>×</button>
                 ) : null}
@@ -1545,6 +1676,10 @@ function QuestionControl({
             </label>
           ) : displayMarkup(prompt)}
         </p>
+        <div className="question-tools">
+          {hasAnswer ? <button type="button" className="clear-answer" onClick={() => onChange(multi ? [] : "")}>清除答案</button> : null}
+          <button type="button" className={flagged ? "flag-button active" : "flag-button"} onClick={onFlag}>{flagged ? "取消标记" : "标记此题"}</button>
+        </div>
       </div>
       {judgement ? (
         <div className="answer-options judgement-options">
@@ -1602,10 +1737,6 @@ function QuestionControl({
           </select>
         </label>
       ) : null}
-      <div className="question-tools">
-        {hasAnswer ? <button type="button" className="clear-answer" onClick={() => onChange(multi ? [] : "")}>清除答案</button> : null}
-        <button type="button" className={flagged ? "flag-button active" : "flag-button"} onClick={onFlag}>{flagged ? "取消标记" : "标记此题"}</button>
-      </div>
     </article>
   );
 }

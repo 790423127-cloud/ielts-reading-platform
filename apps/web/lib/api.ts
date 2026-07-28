@@ -89,6 +89,7 @@ export type PublicPart = {
   number: number;
   title: string;
   article_title?: string;
+  source_article_title?: string;
   subtitle?: string;
   paragraphs?: PassageParagraph[];
   groups: PublicQuestionGroup[];

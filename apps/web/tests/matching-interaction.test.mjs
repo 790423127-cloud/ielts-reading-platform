@@ -10,23 +10,32 @@ test("full-text matching restores the legacy option-bank and answer-slot interac
   assert.match(workbench, /matchingHasDescriptions \? \(/);
   assert.match(workbench, /matching-interactive-bank/);
   assert.match(workbench, /matching-answer-slot/);
-  assert.match(workbench, /gridTemplateColumns: `minmax\(0, \$\{paneRatio\}fr\) 7px minmax\(0, \$\{100 - paneRatio\}fr\)`/);
+  assert.match(workbench, /gridTemplateColumns: `minmax\(0, \$\{paneRatio\}fr\) 15px minmax\(0, \$\{100 - paneRatio\}fr\)`/);
   assert.match(workbench, /className=\{`matching-option-card[\s\S]*?draggable[\s\S]*?onDragStart=/);
   assert.match(workbench, /dataTransfer\.setData\("text\/plain", option\.code\)/);
   assert.match(workbench, /assignAnswer\(id, selectedCode\)/);
+  assert.match(workbench, /placeholder=\{`\$\{questionNumber\(question\)\} 拖拽或输入选项字母`\}/);
+  assert.match(workbench, /else if \(optionMap\.has\(nextCode\)\) assignAnswer\(id, nextCode\)/);
   assert.match(workbench, /optionReuse/);
   assert.match(workbench, /restoreInstructionOptionText/);
   assert.match(css, /\.passage-pane, \.questions-pane \{[\s\S]*?min-width: 0;[\s\S]*?overflow-x: hidden;/);
   assert.match(css, /\.matching-question-row/);
-  assert.match(css, /grid-template-areas: "help help" "questions bank"/);
+  assert.match(css, /grid-template-areas:\s*"help help"\s*"questions bank"/);
+  assert.match(css, /grid-template-columns: minmax\(260px, \.78fr\) minmax\(360px, 1\.22fr\)/);
+  assert.match(css, /grid-template-areas: "help" "questions" "bank"/);
   assert.match(css, /\.matching-question-list \{[^}]*grid-area: questions/);
   assert.match(css, /\.matching-interactive-bank \{[\s\S]*?grid-area: bank/);
 });
 
-test("letter-only matching keeps the compact matrix renderer", () => {
-  assert.match(workbench, /useMatchingMatrix/);
+test("letter-only matching follows the benchmark matrix while descriptive matching keeps the option bank", () => {
+  assert.match(workbench, /const matchingHasDescriptions = matching && groupOptions\.some/);
+  assert.match(workbench, /const useMatchingMatrix = matching && groupOptions\.length > 0/);
+  assert.match(workbench, /text\.localeCompare\(option\.code/);
+  assert.match(workbench, /useMatchingMatrix \? \(/);
   assert.match(workbench, /matching-answer-matrix/);
+  assert.match(workbench, /matchingHasDescriptions \? \(/);
   assert.match(css, /\.matching-answer-matrix/);
+  assert.match(css, /\.matrix-answer-radio/);
 });
 
 test("completion and short-answer questions use the source inline template or an inline answer box", () => {
@@ -45,8 +54,10 @@ test("question instructions retain line hierarchy and emphasize answer constrain
   assert.match(css, /\.question-instructions-copy p:first-child/);
 });
 
-test("each multiple-choice question keeps its own option list before group fallbacks", () => {
-  assert.match(workbench, /function optionsFor[\s\S]*?if \(question\.options\?\.length\)[\s\S]*?if \(group\.normalized_options\?\.length\)/);
+test("question option codes retain their order and recover missing display text from the group", () => {
+  assert.match(workbench, /const questionOptions = restoreInstructionOptionText/);
+  assert.match(workbench, /const groupOptionsByCode = new Map/);
+  assert.match(workbench, /optionDisplayText\(option\)[\s\S]*?groupOptionsByCode\.get\(option\.code\)/);
 });
 
 test("question typography is consistent across prompts, matching banks, and completion tables", () => {
@@ -58,9 +69,12 @@ test("question typography is consistent across prompts, matching banks, and comp
 
 test("bottom navigation groups question numbers by passage and retains status navigation", () => {
   assert.match(workbench, /dock-section-strip/);
-  assert.match(workbench, /<strong>Passage \{part\.number\}<\/strong>/);
-  assert.match(workbench, /\{completed\} of \{partRows\.length\}/);
+  assert.match(workbench, /isActivePart \? `P\$\{part\.number\}` : `Passage \$\{part\.number\}`/);
+  assert.match(workbench, /!isActivePart \? <span>\{completed\} of \{partRows\.length\}<\/span> : null/);
+  assert.match(workbench, /\{isActivePart \? \(\s*<div className="dock-question-list">/);
   assert.match(workbench, /dock-step-buttons/);
+  assert.match(css, /\.exam-question-dock \{[^}]*height: 40px/);
+  assert.match(css, /\.dock-section \{[^}]*flex: 1 1 33\.333%/);
   assert.match(css, /\.dock-section-label/);
   assert.match(css, /\.dock-question-list button\.current/);
   assert.match(css, /\.dock-question-list button\.flagged/);
