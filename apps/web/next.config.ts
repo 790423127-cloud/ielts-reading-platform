@@ -8,6 +8,7 @@ const standaloneBuild =
 const nextConfig: NextConfig = {
   poweredByHeader: false,
   compress: true,
+  distDir: process.env.NODE_ENV === "development" ? ".next-dev" : ".next",
   output: standaloneBuild ? "standalone" : undefined,
   outputFileTracingRoot: path.resolve(__dirname, "../..")
 };

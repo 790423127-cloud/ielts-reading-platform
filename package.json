@@ -3,6 +3,7 @@
   "private": true,
   "packageManager": "pnpm@10.13.1",
   "scripts": {
+    "dev": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-local.ps1",
     "dev:web": "pnpm --dir apps/web dev",
     "build:web": "pnpm --dir apps/web build",
     "typecheck:web": "pnpm --dir apps/web typecheck",

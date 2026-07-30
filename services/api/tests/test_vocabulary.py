@@ -7,11 +7,16 @@ import json
 from fastapi.testclient import TestClient
 
 from app.main import app
+from app.repositories.vocabulary_repository import VocabularyRepository
 
 
 def _client(monkeypatch, tmp_path) -> TestClient:
     monkeypatch.setenv("SESSION_DB_PATH", str(tmp_path / "vocabulary.sqlite3"))
     return TestClient(app)
+
+
+def vocabulary_repository_for_test(tmp_path) -> VocabularyRepository:
+    return VocabularyRepository(tmp_path / "vocabulary.sqlite3")
 
 
 def test_same_term_merges_while_distinct_sources_are_preserved(monkeypatch, tmp_path) -> None:
@@ -193,3 +198,100 @@ def test_selected_and_unexported_txt_exports_track_export_state(monkeypatch, tmp
     )
     assert reexport_selected.status_code == 200
     assert reexport_selected.text == "allocate"
+
+
+def test_paraphrase_txt_exports_track_export_state(monkeypatch, tmp_path) -> None:
+    client = _client(monkeypatch, tmp_path)
+    repository = vocabulary_repository_for_test(tmp_path)
+    first = repository.capture_paraphrase(
+        user_id="owner",
+        payload={
+            "question_phrase": "more than five colours",
+            "source_phrase": "designer colours",
+            "note": "题目与原文表达对照",
+            "confidence": 0.91,
+            "source_session_id": "s1",
+            "source_question_id": "q2",
+            "test_title": "剑雅5 Test A",
+            "part_number": 1,
+        },
+    )
+    second = repository.capture_paraphrase(
+        user_id="owner",
+        payload={
+            "question_phrase": "cost less than",
+            "source_phrase": "under $10",
+            "confidence": 0.88,
+            "source_session_id": "s2",
+            "source_question_id": "q1",
+            "test_title": "剑雅5 Test A",
+            "part_number": 1,
+        },
+    )
+
+    selected = client.post(
+        "/api/v1/vocabulary/paraphrases/export",
+        json={"item_ids": [first["id"]], "only_unexported": False},
+    )
+    assert selected.status_code == 200
+    assert selected.text == "more than five colours = designer colours"
+
+    items = {
+        item["id"]: item
+        for item in client.get("/api/v1/vocabulary/paraphrases").json()["items"]
+    }
+    assert items[first["id"]]["exported_before"] is True
+    assert items[second["id"]]["exported_before"] is False
+
+    unexported = client.post(
+        "/api/v1/vocabulary/paraphrases/export",
+        json={"item_ids": [], "only_unexported": True},
+    )
+    assert unexported.status_code == 200
+    assert unexported.text == "cost less than = under $10"
+
+
+def test_paraphrase_json_export_preserves_learning_context(monkeypatch, tmp_path) -> None:
+    client = _client(monkeypatch, tmp_path)
+    repository = vocabulary_repository_for_test(tmp_path)
+    item = repository.capture_paraphrase(
+        user_id="owner",
+        payload={
+            "question_phrase": "cost less than",
+            "source_phrase": "under $10",
+            "note": "价格上限替换",
+            "confidence": 0.93,
+            "source_session_id": "session-json",
+            "source_question_id": "q9",
+            "test_id": "cambridge-9",
+            "test_title": "剑雅9 Test 1",
+            "part_number": 2,
+            "question_number": "9",
+            "question_prompt": "Which option costs less than ten dollars?",
+            "evidence": "Every item in this section is under $10.",
+            "user_answer": "B",
+            "correct_answer": "C",
+        },
+    )
+
+    response = client.post(
+        "/api/v1/vocabulary/paraphrases/export",
+        json={
+            "item_ids": [item["id"]],
+            "only_unexported": False,
+            "format": "json",
+        },
+    )
+    assert response.status_code == 200
+    assert response.headers["content-type"].startswith("application/json")
+    assert response.headers["content-disposition"].endswith('.json"')
+    package = response.json()
+    assert package["schemaVersion"] == 1
+    assert package["source"] == "ielts-reading-coach"
+    assert package["count"] == 1
+    exported = package["items"][0]
+    assert exported["id"] == item["id"]
+    assert exported["questionPhrase"] == "cost less than"
+    assert exported["sourcePhrase"] == "under $10"
+    assert exported["occurrenceCount"] == 1
+    assert exported["sources"][0]["evidence"] == "Every item in this section is under $10."

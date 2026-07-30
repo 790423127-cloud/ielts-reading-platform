@@ -190,6 +190,38 @@ class SQLiteSessionRepository:
             ).fetchone()
         return self._from_row(row, replay=False) if row else None
 
+    def update_result(
+        self,
+        *,
+        user_id: str,
+        session_id: str,
+        result: dict[str, Any],
+    ) -> StoredSession | None:
+        payload = json.dumps(result, ensure_ascii=False, separators=(",", ":"))
+        with self._connect() as connection:
+            cursor = connection.execute(
+                """
+                UPDATE sessions
+                SET score = ?, total = ?, result_json = ?
+                WHERE user_id = ? AND id = ?
+                """,
+                (
+                    int(result.get("score") or 0),
+                    int(result.get("total") or 0),
+                    payload,
+                    user_id.strip(),
+                    session_id.strip(),
+                ),
+            )
+            connection.commit()
+            if not cursor.rowcount:
+                return None
+            row = connection.execute(
+                "SELECT * FROM sessions WHERE user_id = ? AND id = ?",
+                (user_id.strip(), session_id.strip()),
+            ).fetchone()
+        return self._from_row(row, replay=False) if row else None
+
     def list_recent(
         self, *, user_id: str, limit: int = 20, include_archived: bool = False
     ) -> list[StoredSession]:

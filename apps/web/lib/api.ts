@@ -174,6 +174,16 @@ export type ScoringResult = {
   source_question_refs?: string[];
   source_policy?: string;
   annotations?: ReadingAnnotation[];
+  ai_paraphrase_summary?: {
+    status: "completed" | "skipped" | "failed";
+    reason?: string;
+    wrong_question_count: number;
+    candidate_count: number;
+    saved_count: number;
+    skipped_count?: number;
+    saved_ids?: string[];
+    message?: string;
+  };
 };
 export type SessionEnvelope = {
   session_id: string;

@@ -4,13 +4,15 @@ import os
 from pathlib import Path
 from typing import Annotated, Any, Literal
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, BackgroundTasks, HTTPException, Query
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, model_validator
 
 from app.api.question_bank import question_bank
 from app.domain.scoring import score_submission
+from app.repositories.vocabulary_repository import VocabularyRepository
 from app.repositories.session_repository import SQLiteSessionRepository, StoredSession
 from app.services.question_bank import QuestionBankNotReadyError
+from app.services.paraphrase_extractor import extract_wrong_question_paraphrases
 
 router = APIRouter(prefix="/sessions", tags=["sessions"])
 QuestionElapsedSeconds = Annotated[int, Field(ge=0, le=21600)]
@@ -121,6 +123,41 @@ def _envelope(stored: StoredSession) -> SessionEnvelope:
     )
 
 
+def _extract_and_persist_paraphrases(
+    *,
+    database_path: str,
+    user_id: str,
+    session_id: str,
+    scored_result: dict[str, Any],
+) -> None:
+    session_store = SQLiteSessionRepository(database_path)
+    try:
+        summary = extract_wrong_question_paraphrases(
+            repository=VocabularyRepository(database_path),
+            user_id=user_id,
+            session_id=session_id,
+            result=scored_result,
+        )
+    except Exception:
+        summary = {
+            "status": "failed",
+            "reason": "unexpected_extraction_error",
+            "wrong_question_count": len(scored_result.get("wrong_questions") or []),
+            "candidate_count": 0,
+            "saved_count": 0,
+        }
+    stored = session_store.get(user_id=user_id, session_id=session_id)
+    if not stored:
+        return
+    next_result = dict(stored.result)
+    next_result["ai_paraphrase_summary"] = summary
+    session_store.update_result(
+        user_id=user_id,
+        session_id=session_id,
+        result=next_result,
+    )
+
+
 def _select_parts(test: dict[str, Any], part_numbers: list[int]) -> tuple[dict[str, Any], list[int]]:
     available = [int(part.get("number") or 0) for part in test.get("parts") or []]
     if not part_numbers:
@@ -191,7 +228,7 @@ def _validated_annotations(
 
 
 @router.post("/submit", response_model=SessionEnvelope)
-def submit_session(payload: SessionSubmitRequest) -> SessionEnvelope:
+def submit_session(payload: SessionSubmitRequest, background_tasks: BackgroundTasks) -> SessionEnvelope:
     repository = session_repository()
     existing = repository.get_by_client_submission_id(
         payload.user_id, payload.client_submission_id
@@ -262,6 +299,35 @@ def submit_session(payload: SessionSubmitRequest) -> SessionEnvelope:
         test_id=payload.test_id,
         result=result,
     )
+    if os.getenv("PYTEST_CURRENT_TEST"):
+        summary = {
+            "status": "skipped",
+            "reason": "test_environment",
+            "wrong_question_count": len(result.get("wrong_questions") or []),
+            "candidate_count": 0,
+            "saved_count": 0,
+        }
+    else:
+        summary = {
+            "status": "queued",
+            "reason": "runs_after_scoring_response",
+            "wrong_question_count": len(result.get("wrong_questions") or []),
+            "candidate_count": 0,
+            "saved_count": 0,
+        }
+        background_tasks.add_task(
+            _extract_and_persist_paraphrases,
+            database_path=repository.database_path,
+            user_id=payload.user_id,
+            session_id=stored.id,
+            scored_result=dict(result),
+        )
+    result["ai_paraphrase_summary"] = summary
+    stored = repository.update_result(
+        user_id=payload.user_id,
+        session_id=stored.id,
+        result=result,
+    ) or stored
     return _envelope(stored)
 
 

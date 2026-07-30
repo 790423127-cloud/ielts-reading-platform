@@ -1470,6 +1470,22 @@ export default function ExamWorkbench() {
             {result.wrong_questions.length ? "立即查看错题" : "查看全部题目"}
           </a>
         </section>
+        {result.ai_paraphrase_summary ? (
+          <section className="result-ai-paraphrase-summary">
+            <div>
+              <span>AI 错题同义替换</span>
+              <strong>
+                {result.ai_paraphrase_summary.status === "completed"
+                  ? `已自动记录 ${result.ai_paraphrase_summary.saved_count} 条`
+                  : result.ai_paraphrase_summary.reason === "ai_not_configured"
+                    ? "AI 未配置，暂未自动记录"
+                    : "本次未生成可记录内容"}
+              </strong>
+              <p>只处理错题；题目表达必须来自题目/选项/说明，原文表达必须来自原文证据。</p>
+            </div>
+            <a href="/vocabulary">去词汇本查看</a>
+          </section>
+        ) : null}
         <section className="result-section result-source-review" id="result-source-review">
           <header className="result-section-heading">
             <div><span>SOURCE REVIEW</span><h2>原文与我的作答记录</h2></div>

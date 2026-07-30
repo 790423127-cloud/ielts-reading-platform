@@ -225,6 +225,39 @@ export type VocabularyCapture = {
   part_number?: number;
 };
 
+export type ParaphraseSource = {
+  id: string;
+  source_session_id?: string | null;
+  source_question_id?: string | null;
+  test_id?: string | null;
+  test_title?: string | null;
+  part_number?: number | null;
+  question_number?: string | null;
+  question_prompt?: string | null;
+  user_answer?: string | null;
+  correct_answer?: string | null;
+  evidence?: string | null;
+  created_at: string;
+};
+
+export type ParaphraseItem = {
+  id: string;
+  user_id: string;
+  question_phrase: string;
+  source_phrase: string;
+  note: string;
+  status: "learning" | "mastered";
+  confidence: number;
+  occurrence_count: number;
+  sources: ParaphraseSource[];
+  exported_before: boolean;
+  last_exported_at?: string | null;
+  created_at: string;
+  updated_at: string;
+  deduplicated: boolean;
+  source_added: boolean;
+};
+
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8010";
 
 async function apiJson<T>(path: string, init?: RequestInit): Promise<T> {
@@ -337,6 +370,25 @@ export async function deleteVocabulary(itemId: string, userId = "owner"): Promis
   );
 }
 
+export async function fetchParaphrases(userId = "owner", signal?: AbortSignal): Promise<ParaphraseItem[]> {
+  const data = await apiJson<{ items: ParaphraseItem[] }>(
+    `/api/v1/vocabulary/paraphrases?user_id=${encodeURIComponent(userId)}&limit=5000`,
+    { signal }
+  );
+  return data.items;
+}
+
+export async function updateParaphraseStatus(
+  itemId: string,
+  status: ParaphraseItem["status"],
+  userId = "owner"
+): Promise<ParaphraseItem> {
+  return apiJson<ParaphraseItem>(`/api/v1/vocabulary/paraphrases/${encodeURIComponent(itemId)}`, {
+    method: "PUT",
+    body: JSON.stringify({ user_id: userId, status })
+  });
+}
+
 export function vocabularyExportUrl(format: "csv" | "txt" | "json", userId = "owner"): string {
   return `${API_BASE_URL}/api/v1/vocabulary/export?format=${format}&user_id=${encodeURIComponent(userId)}`;
 }
@@ -358,5 +410,26 @@ export async function exportVocabularySelection(payload: {
   const disposition = response.headers.get("content-disposition") || "";
   const filename = disposition.match(/filename="([^"]+)"/i)?.[1]
     || "ielts-vocabulary-selected.txt";
+  return { blob: await response.blob(), filename };
+}
+
+export async function exportParaphraseSelection(payload: {
+  item_ids: string[];
+  only_unexported: boolean;
+  format?: "txt" | "json";
+  user_id?: string;
+}): Promise<{ blob: Blob; filename: string }> {
+  const response = await fetch(`${API_BASE_URL}/api/v1/vocabulary/paraphrases/export`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ user_id: "owner", format: "json", ...payload })
+  });
+  if (!response.ok) {
+    const data = await response.json().catch(() => null) as { detail?: unknown } | null;
+    throw new Error(typeof data?.detail === "string" ? data.detail : `导出失败（${response.status}）`);
+  }
+  const disposition = response.headers.get("content-disposition") || "";
+  const filename = disposition.match(/filename="([^"]+)"/i)?.[1]
+    || "ielts-paraphrases-selected.json";
   return { blob: await response.blob(), filename };
 }

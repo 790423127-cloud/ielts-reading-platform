@@ -109,6 +109,18 @@ AI_DAILY_REQUEST_LIMIT=30
 
 ## 本地开发
 
+推荐只运行下面这一条，它会重启本项目占用的 8001/8010 进程、同时启动前后端，并验证新版同义替换接口已加载：
+
+```powershell
+pnpm dev
+```
+
+后端使用 Uvicorn `--reload` 监视 `services/api/app`；后端代码更新后会自动重载，不需要手动关闭窗口再启动。启动日志保存在 `tmp/local-runtime`。
+
+开发网页使用独立的 `.next-dev` 缓存，生产构建继续使用 `.next`。即使开发服务运行时执行生产构建，也不会再让当前页面丢失分块文件或出现前后端版本错位。
+
+如果需要分别启动，再使用下面的命令：
+
 ```bash
 corepack enable
 pnpm install
