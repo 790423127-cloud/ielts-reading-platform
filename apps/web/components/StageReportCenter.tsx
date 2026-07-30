@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-import { fetchStageReport, type StageReport, type TimedQuestionReportItem } from "@/lib/api";
+import {
+  fetchStageReport,
+  stageReportDownloadUrl,
+  type StageReport,
+  type TimedQuestionReportItem
+} from "@/lib/api";
 
 function formatDate(value?: string | null): string {
   if (!value) return "暂无";
@@ -91,12 +96,20 @@ export default function StageReportCenter() {
           <h1>阶段学习报告</h1>
           <p>直接汇总新版已保存的Session、题型表现和代表错题。报告不调用AI，不修改成绩，首次练习与相同配置重做分开标记。</p>
         </div>
-        <button
-          type="button"
-          className="secondary-button report-print-button"
-          disabled={!report?.summary.session_count}
-          onClick={() => window.print()}
-        >打印 / 保存为PDF</button>
+        <div className="teacher-report-downloads">
+          {report?.summary.session_count ? (
+            <>
+              <a className="primary-button" href={stageReportDownloadUrl("pdf")}>下载正式 PDF</a>
+              <a className="secondary-button" href={stageReportDownloadUrl("docx")}>下载 DOCX</a>
+            </>
+          ) : null}
+          <button
+            type="button"
+            className="secondary-button report-print-button"
+            disabled={!report?.summary.session_count}
+            onClick={() => window.print()}
+          >打印</button>
+        </div>
       </header>
 
       {error ? <div className="page-error">{error}</div> : null}

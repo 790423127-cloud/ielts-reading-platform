@@ -68,6 +68,16 @@ class VocabularyRepository:
                 );
                 CREATE INDEX IF NOT EXISTS idx_vocabulary_sources_item_created
                     ON vocabulary_sources(vocabulary_id, created_at DESC);
+
+                CREATE TABLE IF NOT EXISTS vocabulary_exports (
+                    user_id TEXT NOT NULL,
+                    vocabulary_id TEXT NOT NULL,
+                    exported_at TEXT NOT NULL,
+                    PRIMARY KEY(user_id, vocabulary_id),
+                    FOREIGN KEY(vocabulary_id) REFERENCES vocabulary_items(id) ON DELETE CASCADE
+                );
+                CREATE INDEX IF NOT EXISTS idx_vocabulary_exports_user
+                    ON vocabulary_exports(user_id, exported_at DESC);
                 """
             )
             connection.commit()
@@ -113,6 +123,10 @@ class VocabularyRepository:
             "ORDER BY created_at DESC, id",
             (row["id"],),
         ).fetchall()
+        export_row = connection.execute(
+            "SELECT exported_at FROM vocabulary_exports WHERE user_id = ? AND vocabulary_id = ?",
+            (row["user_id"], row["id"]),
+        ).fetchone()
         return {
             "id": str(row["id"]),
             "user_id": str(row["user_id"]),
@@ -122,6 +136,8 @@ class VocabularyRepository:
             "status": str(row["status"]),
             "occurrence_count": int(row["occurrence_count"] or 0),
             "sources": [self._source_from_row(source) for source in sources],
+            "exported_before": export_row is not None,
+            "last_exported_at": str(export_row["exported_at"]) if export_row else None,
             "created_at": str(row["created_at"]),
             "updated_at": str(row["updated_at"]),
             "deduplicated": deduplicated,
@@ -243,6 +259,41 @@ class VocabularyRepository:
         with self._connect() as connection:
             rows = connection.execute(sql, params).fetchall()
             return [self._item_from_row(connection, row) for row in rows]
+
+    def items_by_ids(self, *, user_id: str, item_ids: list[str]) -> list[dict[str, Any]]:
+        ordered_ids = list(dict.fromkeys(str(item_id) for item_id in item_ids if item_id))
+        if not ordered_ids:
+            return []
+        placeholders = ",".join("?" for _ in ordered_ids)
+        with self._connect() as connection:
+            rows = connection.execute(
+                f"SELECT * FROM vocabulary_items WHERE user_id = ? AND id IN ({placeholders})",
+                [user_id, *ordered_ids],
+            ).fetchall()
+            by_id = {
+                str(row["id"]): self._item_from_row(connection, row)
+                for row in rows
+            }
+        return [by_id[item_id] for item_id in ordered_ids if item_id in by_id]
+
+    def mark_exported(self, *, user_id: str, item_ids: list[str]) -> int:
+        ids = list(dict.fromkeys(str(item_id) for item_id in item_ids if item_id))
+        if not ids:
+            return 0
+        now = self._now()
+        with self._connect() as connection:
+            for item_id in ids:
+                connection.execute(
+                    """
+                    INSERT INTO vocabulary_exports (user_id, vocabulary_id, exported_at)
+                    VALUES (?, ?, ?)
+                    ON CONFLICT(user_id, vocabulary_id)
+                    DO UPDATE SET exported_at = excluded.exported_at
+                    """,
+                    (user_id, item_id, now),
+                )
+            connection.commit()
+        return len(ids)
 
     def get_item(self, *, user_id: str, item_id: str) -> dict[str, Any] | None:
         with self._connect() as connection:

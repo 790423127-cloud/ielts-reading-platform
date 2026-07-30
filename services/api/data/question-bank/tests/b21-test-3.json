@@ -1191,7 +1191,7 @@
               "analysis": "题干询问创建IT账户前需要什么，原文指出“IT Services will be able to do this once the Recruitment Team have generated an employee number for you”，说明必须先获得员工编号（employee number）才能设置账户，因此答案是“employee number”。",
               "reason": "答案句直接提到employee number。",
               "location_analysis": "题干说需要employee number才能创建IT账户，原文说一旦生成employee nu...",
-              "paraphrasing": "need your ... before -> once ... have generated",
+              "paraphrasing": "need your... before -> once... have generated",
               "keywords": "IT account, employee number",
               "evidence": [
                 "IT Services will be able to do this once the Recruitment Team have generated an employee number for you."
@@ -1291,10 +1291,10 @@
               "accepted_answers": [
                 "left"
               ],
-              "analysis": "题干询问开关位于办公室的哪一侧，原文明确说明灯光开关“is done by a switch located on the left, directly outside the box office”，其中“on the left”直接对应题干中的“to the ... of the office”，因此答案是“left”。",
+              "analysis": "题干询问开关位于办公室的哪一侧，原文明确说明灯光开关“is done by a switch located on the left, directly outside the box office”，其中“on the left”直接对应题干中的“to the... of the office”，因此答案是“left”。",
               "reason": "答案句直接给出left。",
               "location_analysis": "题干说开关在办公室左边，原文明确on the left。",
-              "paraphrasing": "to the ... of -> located on the",
+              "paraphrasing": "to the... of -> located on the",
               "keywords": "lights, switch, left",
               "evidence": [
                 "the box office will need to be opened and the lights switched on, which is done by a switch located on the left, directly outside the box office."
@@ -1311,7 +1311,7 @@
               "accepted_answers": [
                 "counter"
               ],
-              "analysis": "题干问电脑开关位于何处下方，原文提到“pressing the power button located underneath the counter”，其中“underneath the counter”与题干中的“below the ...”构成同义替换，因此答案是“counter”。",
+              "analysis": "题干问电脑开关位于何处下方，原文提到“pressing the power button located underneath the counter”，其中“underneath the counter”与题干中的“below the...”构成同义替换，因此答案是“counter”。",
               "reason": "答案句包含counter。",
               "location_analysis": "题干说开关在柜台下面，原文underneath the counter。",
               "paraphrasing": "found below the -> located underneath the",
@@ -1331,7 +1331,7 @@
               "accepted_answers": [
                 "productions"
               ],
-              "analysis": "题干要求填写海报宣传的内容，原文指出大公告板用于“publicity for forthcoming productions”，其中“forthcoming productions”即指未来的演出，与题干中的“future ...”完全对应，因此答案是“productions”。",
+              "analysis": "题干要求填写海报宣传的内容，原文指出大公告板用于“publicity for forthcoming productions”，其中“forthcoming productions”即指未来的演出，与题干中的“future...”完全对应，因此答案是“productions”。",
               "reason": "答案句包含productions。",
               "location_analysis": "题干说展示未来productions的海报，原文for forthcoming product...",
               "paraphrasing": "display posters about -> publicity for",
@@ -1351,7 +1351,7 @@
               "accepted_answers": [
                 "latecomers"
               ],
-              "analysis": "题干问需为谁保留座位，原文明确说明“The three seats by the main foyer door should be left vacant for latecomers”，其中“latecomers”直接对应题干中的“available for ...”，因此答案是“latecomers”。",
+              "analysis": "题干问需为谁保留座位，原文明确说明“The three seats by the main foyer door should be left vacant for latecomers”，其中“latecomers”直接对应题干中的“available for...”，因此答案是“latecomers”。",
               "reason": "答案句直接给出latecomers。",
               "location_analysis": "题干说为latecomers留位，原文left vacant for latecomers。",
               "paraphrasing": "available for -> left vacant for",

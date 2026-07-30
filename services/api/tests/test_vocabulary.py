@@ -146,3 +146,50 @@ def test_csv_txt_json_exports_are_downloadable_and_safe(monkeypatch, tmp_path) -
     assert exported["version"] == 1
     assert exported["count"] == 2
     assert {item["term"] for item in exported["items"]} == {"=unsafe", "allocate"}
+
+
+def test_selected_and_unexported_txt_exports_track_export_state(monkeypatch, tmp_path) -> None:
+    client = _client(monkeypatch, tmp_path)
+    first = client.post(
+        "/api/v1/vocabulary",
+        json={"term": "allocate", "source_type": "manual"},
+    ).json()
+    second = client.post(
+        "/api/v1/vocabulary",
+        json={"term": "substantial", "source_type": "manual"},
+    ).json()
+
+    selected = client.post(
+        "/api/v1/vocabulary/export",
+        json={"item_ids": [first["id"]], "only_unexported": False},
+    )
+    assert selected.status_code == 200
+    assert selected.text == "allocate"
+
+    items = {
+        item["id"]: item
+        for item in client.get("/api/v1/vocabulary").json()["items"]
+    }
+    assert items[first["id"]]["exported_before"] is True
+    assert items[second["id"]]["exported_before"] is False
+
+    unexported = client.post(
+        "/api/v1/vocabulary/export",
+        json={"item_ids": [], "only_unexported": True},
+    )
+    assert unexported.status_code == 200
+    assert unexported.text == "substantial"
+    assert unexported.text.splitlines() == ["substantial"]
+
+    empty = client.post(
+        "/api/v1/vocabulary/export",
+        json={"item_ids": [], "only_unexported": True},
+    )
+    assert empty.status_code == 409
+
+    reexport_selected = client.post(
+        "/api/v1/vocabulary/export",
+        json={"item_ids": [first["id"]], "only_unexported": False},
+    )
+    assert reexport_selected.status_code == 200
+    assert reexport_selected.text == "allocate"

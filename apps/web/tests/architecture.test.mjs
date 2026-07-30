@@ -100,7 +100,9 @@ test("stage report reuses persisted sessions without AI or a duplicate score sto
   assert.match(shell, /\/reports/);
   assert.match(reports, /fetchStageReport/);
   assert.match(reports, /首次练习与相同配置重做分开标记/);
-  assert.match(reports, /打印 \/ 保存为PDF/);
+  assert.match(reports, /下载正式 PDF/);
+  assert.match(reports, /下载 DOCX/);
+  assert.match(reports, />打印<\/button>/);
   assert.match(api, /\/api\/v1\/reports\/stage/);
   assert.doesNotMatch(reports, /chat\/completions|askTeacher|generateCoach/i);
 });

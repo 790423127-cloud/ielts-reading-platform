@@ -15,7 +15,7 @@
         {
           "label": "",
           "index": 1,
-          "text": "When choosing a sleeping bag, check what seasons it’s for, as well as how heavy it is if you’re backpacking.Also think about the filling. Natural duck down is very warm, has a longer lifespan and is easier to pack up, while synthetic materials are easier to clean, and they quicker and are cheaper.",
+          "text": "When choosing a sleeping bag, check what seasons it’s for, as well as how heavy it is if you’re backpacking. Also think about the filling. Natural duck down is very warm, has a longer lifespan and is easier to pack up, while synthetic materials are easier to clean, and they quicker and are cheaper.",
           "translation": "在选择睡袋时，要查看它适用于哪些季节，以及如果你要背包旅行，它的重量如何。\n还要考虑填充物。\n天然鸭绒非常保暖、使用寿命更长且更易于打包，而合成材料则更容易清洗、更快干且更便宜。"
         },
         {
@@ -421,7 +421,7 @@
               ],
               "analysis": "题干表示“不想花太多钱”的用户会喜欢这款睡袋，D段开头即说明“If you want a no-frills, budget sleeping bag...”，其中“budget”直接对应题干中“not want to spend much”的含义，表明这是一款经济实惠的选择，因此答案为D。",
               "reason": "D段明确为预算型睡袋。",
-              "location_analysis": "题干说不想花太多钱，D段为首句If you want a no-frills, budget ...",
+              "location_analysis": "题干说不想花太多钱，D段为首句If you want a no-frills, budget...",
               "paraphrasing": "not want to spend much → budget sleeping bag",
               "keywords": "not want to spend much, budget",
               "evidence": [
@@ -697,7 +697,7 @@
               "analysis": "题干问曾参赛但未获奖者是否可再次参赛，原文指出“Writers who have previously won or been highly commended... are excluded; otherwise, previous entrants may submit”，说明只要未曾获奖或获高度赞扬，之前参赛者仍可再次投稿，因此答案为TRUE。",
               "reason": "仅排除获奖者，之前参赛者可以再参加。",
               "location_analysis": "题干说曾参赛但未获奖者可再参加，原文说previous entrants may submit...",
-              "paraphrasing": "entered an earlier ... without ... success → previous entrants may submit; winners excluded",
+              "paraphrasing": "entered an earlier... without... success → previous entrants may submit; winners excluded",
               "keywords": "entered an earlier Life Writing competition without achieving any success, previous entrants may submit",
               "evidence": [
                 "Writers who have previously won or been highly commended in the Life Writing Prize are excluded from entering; otherwise, previous entrants may submit."
@@ -1166,7 +1166,7 @@
         {
           "label": "",
           "index": 14,
-          "text": "· Long hair must be tied back and no rings may be worn if touching food .",
+          "text": "· Long hair must be tied back and no rings may be worn if touching food.",
           "translation": "长发必须束起，并且在接触食物时不得佩戴戒指。"
         },
         {
@@ -1445,7 +1445,7 @@
               "accepted_answers": [
                 "aprons"
               ],
-              "analysis": "题干中的“Chefs' uniforms and ... must be washed”对应原文“The regulation chefs' shirts and trousers are to be freshly laundered before starting a new shift, along with aprons if they are worn”，说明围裙（aprons）也需每班次清洗，因此答案是“aprons”。",
+              "analysis": "题干中的“Chefs' uniforms and... must be washed”对应原文“The regulation chefs' shirts and trousers are to be freshly laundered before starting a new shift, along with aprons if they are worn”，说明围裙（aprons）也需每班次清洗，因此答案是“aprons”。",
               "reason": "原文明确提及aprons与uniforms同时清洗。",
               "location_analysis": "题干uniforms and _，原文shirts and trousers以及aprons都...",
               "paraphrasing": "Chefs' uniforms and _ must be washed for every shift -> chefs' shirts and trousers are to be freshly laundered... along with aprons",
@@ -1465,7 +1465,7 @@
               "accepted_answers": [
                 "board"
               ],
-              "analysis": "题干中的“change the ... when they start chopping another kind of food”对应原文“staff must use a clean board each time they cut different types of food”，说明每次切不同食物时要更换砧板，因此答案为“board”。",
+              "analysis": "题干中的“change the... when they start chopping another kind of food”对应原文“staff must use a clean board each time they cut different types of food”，说明每次切不同食物时要更换砧板，因此答案为“board”。",
               "reason": "clean board对应change board。",
               "location_analysis": "题干change the _，原文use a clean board，填board。",
               "paraphrasing": "change the _ when they start chopping another kind of food -> use a clean board each time they cut different types of food",
@@ -1485,7 +1485,7 @@
               "accepted_answers": [
                 "money"
               ],
-              "analysis": "题干中的“after handling ...”对应原文“Staff should not touch money and then food without washing their hands in between”，说明接触钱币后必须洗手，因此答案是“money”。",
+              "analysis": "题干中的“after handling...”对应原文“Staff should not touch money and then food without washing their hands in between”，说明接触钱币后必须洗手，因此答案是“money”。",
               "reason": "money直接对应。",
               "location_analysis": "题干handling _，原文touch money，填money。",
               "paraphrasing": "make sure their hands are clean after handling -> not touch money and then food without washing their hands",
@@ -1505,7 +1505,7 @@
               "accepted_answers": [
                 "appliances"
               ],
-              "analysis": "题干中的“repair ...”对应原文“Defective appliances must be turned off and not used - staff must not to fix them themselves”，说明员工不得自行修理有故障的电器，因此答案为“appliances”。",
+              "analysis": "题干中的“repair...”对应原文“Defective appliances must be turned off and not used - staff must not to fix them themselves”，说明员工不得自行修理有故障的电器，因此答案为“appliances”。",
               "reason": "appliances直接对应。",
               "location_analysis": "题干repair _，原文fix appliances themselves，填applian...",
               "paraphrasing": "not attempt to repair -> must not to fix them themselves",
@@ -1545,7 +1545,7 @@
               "accepted_answers": [
                 "storeroom"
               ],
-              "analysis": "题干中的“have drinks from the ...”对应原文“Beverages kept in the storeroom may not be consumed by staff”，说明员工不得饮用储藏室里的饮料，因此答案为“storeroom”。",
+              "analysis": "题干中的“have drinks from the...”对应原文“Beverages kept in the storeroom may not be consumed by staff”，说明员工不得饮用储藏室里的饮料，因此答案为“storeroom”。",
               "reason": "storeroom直接对应。",
               "location_analysis": "题干drinks from the _，原文Beverages kept in the sto...",
               "paraphrasing": "forbidden to have drinks from the -> Beverages kept in the storeroom may not be consumed by staff",
@@ -1691,7 +1691,7 @@
         },
         {
           "index": 25,
-          "sentence": "Long hair must be tied back and no rings may be worn if touching food .",
+          "sentence": "Long hair must be tied back and no rings may be worn if touching food.",
           "translation": "长发必须束起，并且在接触食物时不得佩戴戒指。"
         },
         {
@@ -1837,7 +1837,7 @@
         {
           "label": "",
           "index": 3,
-          "text": "I can't remember many of the clothes I wore before I was six, but I have a vivid memory of a certain skirt whose patterns I can still trace in my mind .It was wraparound, with a belt that threaded through itself, decorated with cats in two shades of green.",
+          "text": "I can't remember many of the clothes I wore before I was six, but I have a vivid memory of a certain skirt whose patterns I can still trace in my mind. It was wraparound, with a belt that threaded through itself, decorated with cats in two shades of green.",
           "translation": "我记不得六岁前穿过的许多衣服，但我对某条裙子有着清晰的记忆，其图案我仍能在脑海中勾勒出来。\n这是一条裹身裙，配有一条自穿的腰带，上面装饰着两只深浅不同的绿色的猫。"
         },
         {
@@ -1849,7 +1849,7 @@
         {
           "label": "",
           "index": 5,
-          "text": "It was 1979, and I was not yet five.I forgot about that skirt for long time, but when a girlfriend mentioned the name Clothkits while we were chatting, it was as if a door suddenly opened on a moment in the past that resonated with vivid significance for me.’",
+          "text": "It was 1979, and I was not yet five. I forgot about that skirt for long time, but when a girlfriend mentioned the name Clothkits while we were chatting, it was as if a door suddenly opened on a moment in the past that resonated with vivid significance for me.’",
           "translation": "那是1979年，我还不满五岁。\n那条裙子被我遗忘了很久，但是当一个女性朋友在我们聊天时提到Clothkits这个品牌名时，仿佛一扇门突然打开，通往一个对我意义深远、历历在目的过往瞬间。"
         },
         {
@@ -1866,7 +1866,7 @@
         {
           "label": "",
           "index": 8,
-          "text": "Clothkits was created by the designer Anne Kennedy, who came up with the ingenious idea of printing a pattern straight on to coloured fabric so that a paper pattern was not needed. It was accompanied by instructions that almost anyone could follow on how to cut the pieces out and sew them together. ’I was rebelling against the formulaic lines of textile design at that time,’ Kennedy says. ’My interest was in folk art and clothes that were simple to make as I had lots of unfinished sewing disasters in my cupboard.’ Clothkits has always embodied the spirit of the late 1960s and 1970s. Its initial design was a dress in a geometric stripe in orange, pink, turquoise and purple. It cost 25 shillings (£1 .25), and after it was featured in the Observer newspaper, Kennedy received more than ￡2,000 worth of orders. She ran the company from Lewes in Sussex, where at its peak it employed more than 400 people, selling to 44 countries worldwide. Sew-your-own kits formed the core of the business, supplemented by knitwear. Kennedy’s children demonstrated the patterns by wearing them in photographs.",
+          "text": "Clothkits was created by the designer Anne Kennedy, who came up with the ingenious idea of printing a pattern straight on to coloured fabric so that a paper pattern was not needed. It was accompanied by instructions that almost anyone could follow on how to cut the pieces out and sew them together. ’I was rebelling against the formulaic lines of textile design at that time,’ Kennedy says. ’My interest was in folk art and clothes that were simple to make as I had lots of unfinished sewing disasters in my cupboard.’ Clothkits has always embodied the spirit of the late 1960s and 1970s. Its initial design was a dress in a geometric stripe in orange, pink, turquoise and purple. It cost 25 shillings (£1.25), and after it was featured in the Observer newspaper, Kennedy received more than ￡2,000 worth of orders. She ran the company from Lewes in Sussex, where at its peak it employed more than 400 people, selling to 44 countries worldwide. Sew-your-own kits formed the core of the business, supplemented by knitwear. Kennedy’s children demonstrated the patterns by wearing them in photographs.",
           "translation": "Clothkits 由设计师安妮·肯尼迪创立，她提出了一个巧妙的主意：将图案直接印在彩色布料上，从而无需纸质纸样。\n该品牌还附带了几乎人人都能遵循的说明，指导如何裁剪布料并将它们缝制在一起。\n“我当时在反抗那时纺织品设计中公式化的线条，”肯尼迪说。\n“我的兴趣在于民间艺术和易于制作的衣物，因为我柜子里有很多未完成的缝纫失败品。”\nClothkits 始终体现了20世纪60年代末和70年代的精神。\n其最初的设计是一条带有橙色、粉色、蓝绿色和紫色几何条纹的连衣裙。\n它的价格为25先令（1.25英镑），在被《观察家报》报道后，肯尼迪收到了价值超过2000英镑的订单。\n她在苏塞克斯郡的刘易斯经营这家公司，公司鼎盛时期雇佣了400多名员工，产品销售到全球44个国家。\n自助缝纫套件构成了业务的核心，并辅以针织品。\n肯尼迪的孩子们在照片中亲自穿着这些款式，以此作为展示。"
         },
         {
@@ -1948,7 +1948,7 @@
               "analysis": "题干中的“Mawer's desire to oversee all the stages of her business”对应原文段落E中Mawer所说的“I wanted to feel that everyone involved in the brand, from design to production, was part of a process I could witness”，其中“oversee all the stages”被同义替换为“from design to production...I could witness”，明确表达了她希望亲自监督品牌从设计到生产的每一个环节，因此答案为E。",
               "reason": "display_answer为E，原文E段明确表达了监督各环节的意愿。",
               "location_analysis": "Mawer希望亲自见证品牌从设计到生产的全过程，对应E段中的claim。",
-              "paraphrasing": "oversee all the stages -> wanted to feel that everyone involved ... part of a process I could witness",
+              "paraphrasing": "oversee all the stages -> wanted to feel that everyone involved... part of a process I could witness",
               "keywords": "oversee, all the stages, business",
               "evidence": [
                 "I wanted to feel that everyone involved in the brand, from design to production, was part of a process I could witness."
@@ -2402,7 +2402,7 @@
         },
         {
           "index": 4,
-          "sentence": "I can't remember many of the clothes I wore before I was six, but I have a vivid memory of a certain skirt whose patterns I can still trace in my mind .",
+          "sentence": "I can't remember many of the clothes I wore before I was six, but I have a vivid memory of a certain skirt whose patterns I can still trace in my mind.",
           "translation": "我记不得六岁前穿过的许多衣服，但我对某条裙子有着清晰的记忆，其图案我仍能在脑海中勾勒出来。"
         },
         {
@@ -2462,7 +2462,7 @@
         },
         {
           "index": 17,
-          "sentence": "It cost 25 shillings (£1 .25), and after it was featured in the Observer newspaper, Kennedy received more than ￡2,000 worth of orders.",
+          "sentence": "It cost 25 shillings (£1.25), and after it was featured in the Observer newspaper, Kennedy received more than ￡2,000 worth of orders.",
           "translation": "它的价格为25先令（1.25英镑），在被《观察家报》报道后，肯尼迪收到了价值超过2000英镑的订单。"
         },
         {

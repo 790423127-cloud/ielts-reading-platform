@@ -33,7 +33,7 @@
         {
           "label": "",
           "index": 4,
-          "text": "This brand has a great tradition of producing simply the best quality gear. lf you're inclined to treat yourself to a bag that should last you a lifetime, this is for you. Admittedly it's likely you'll need to save up for this one, but it's well worth it.",
+          "text": "This brand has a great tradition of producing simply the best quality gear. If you're inclined to treat yourself to a bag that should last you a lifetime, this is for you. Admittedly it's likely you'll need to save up for this one, but it's well worth it.",
           "translation": "该品牌拥有一贯生产最优质装备的优秀传统。\n如果你倾向于为自己买一个能用一辈子的包，那么这款包很适合你。\n诚然，你可能需要为此存钱，但这非常值得。"
         },
         {
@@ -223,7 +223,7 @@
               "keywords": "will not wear out quickly",
               "evidence": [
                 "This brand has a great tradition of producing simply the best quality gear.",
-                "lf you're inclined to treat yourself to a bag that should last you a lifetime, this is for you."
+                "If you're inclined to treat yourself to a bag that should last you a lifetime, this is for you."
               ],
               "confidence": 1,
               "wrong_reasons": null
@@ -775,7 +775,7 @@
         },
         {
           "index": 7,
-          "sentence": "lf you're inclined to treat yourself to a bag that should last you a lifetime, this is for you.",
+          "sentence": "If you're inclined to treat yourself to a bag that should last you a lifetime, this is for you.",
           "translation": "如果你倾向于为自己买一个能用一辈子的包，那么这款包很适合你。"
         },
         {
@@ -970,7 +970,7 @@
         {
           "label": "",
           "index": 1,
-          "text": "lf you want to start a career in writing or journalism, freelancing could be for you. Here is some advice on finding opportunities, and building your portfolio:",
+          "text": "If you want to start a career in writing or journalism, freelancing could be for you. Here is some advice on finding opportunities, and building your portfolio:",
           "translation": "如果你想在写作或新闻行业开始职业生涯，自由职业可能适合你。\n以下是一些关于寻找机会和建立作品集的建议："
         },
         {
@@ -1328,7 +1328,7 @@
               "accepted_answers": [
                 "achievements"
               ],
-              "analysis": "题干中“details of any past ___ , together with any relevant statistics”对应原文中的“including quantifiable achievements you have had”，其中“achievements”与“past”和“statistics”形成逻辑关联，说明需用具体成果支撑简历内容，因此答案为 achievements。",
+              "analysis": "题干中“details of any past ___, together with any relevant statistics”对应原文中的“including quantifiable achievements you have had”，其中“achievements”与“past”和“statistics”形成逻辑关联，说明需用具体成果支撑简历内容，因此答案为 achievements。",
               "reason": "题干past achievements对应原文achievements。",
               "location_analysis": "题干说过去的成就和统计数字，原文说quantifiable achievements。",
               "paraphrasing": "details of any past achievements -> quantifiable achievements",
@@ -1374,7 +1374,7 @@
       "sentence_translations": [
         {
           "index": 1,
-          "sentence": "lf you want to start a career in writing or journalism, freelancing could be for you.",
+          "sentence": "If you want to start a career in writing or journalism, freelancing could be for you.",
           "translation": "如果你想在写作或新闻行业开始职业生涯，自由职业可能适合你。"
         },
         {
@@ -1612,7 +1612,7 @@
         {
           "label": "",
           "index": 4,
-          "text": "C Archaeological work at Ziyaret Tepe began in 1997 and ran for eighteen years. The results of all those long hot summers in the field are now finally ready to be presented, with the publication of the project's first book. It provides the most complete picture of an Assyrian imperial town yet known. It includes a mass of information on the governor's palace at Tušhan, which sat on the eastern side of the high mound. lt was built under King Ashurnasirpal ll, who boasted about its construction in an inscription found not far away. Unlike Ashurnasirpal's magnificent palace at Nimrud, Tushan's provincial palace had no raised stone carvings of historical figures. Instead, its white plastered walls were decorated with finely painted geometric patterns in blue, red, orange and black, The reception suite was equipped with a trackway for a moveable heating brazier and with neatly tiled bathrooms, giving it a touch of luxury.",
+          "text": "C Archaeological work at Ziyaret Tepe began in 1997 and ran for eighteen years. The results of all those long hot summers in the field are now finally ready to be presented, with the publication of the project's first book. It provides the most complete picture of an Assyrian imperial town yet known. It includes a mass of information on the governor's palace at Tušhan, which sat on the eastern side of the high mound. It was built under King Ashurnasirpal ll, who boasted about its construction in an inscription found not far away. Unlike Ashurnasirpal's magnificent palace at Nimrud, Tushan's provincial palace had no raised stone carvings of historical figures. Instead, its white plastered walls were decorated with finely painted geometric patterns in blue, red, orange and black, The reception suite was equipped with a trackway for a moveable heating brazier and with neatly tiled bathrooms, giving it a touch of luxury.",
           "translation": "Ziyaret Tepe的考古工作始于1997年，持续了十八年。\n随着该项目第一本书的出版，那些漫长炎热夏季的田野工作成果终于得以呈现。\n它提供了迄今为止已知最完整的亚述帝国城镇图景。\n其中包括大量关于位于高丘东侧的Tušhan总督宫殿的信息。\n与亚述纳西拔在尼姆鲁德的宏伟宫殿不同，Tušhan的行省宫殿没有历史人物的浮雕石雕。\n相反，其白色粉刷的墙壁上装饰着以蓝色、红色、橙色和黑色绘制的精美几何图案，\n接待套房配备了一条用于移动加热火盆的轨道，以及铺设整齐的浴室，为其增添了一丝奢华之感。"
         },
         {
@@ -2137,7 +2137,7 @@
               "options": [
                 {
                   "value": "A",
-                  "label": "lt was built in an area which the Assyrians had taken over."
+                  "label": "It was built in an area which the Assyrians had taken over."
                 },
                 {
                   "value": "B",
@@ -2242,7 +2242,7 @@
               "analysis": "题干问作者在 Section F 得出的结论。原文最后一句指出：“even though its physical remains may be lost...a rich record of the town of Tushan...is now preserved in the archives and publications”。这表明尽管遗址可能被淹没，但相关信息已通过文献保存下来。选项 D “It is likely that documents will be the only source of information on Tushan”准确概括了这一结论，因此为正确答案。",
               "reason": "题干问作者结论，原文说物理遗迹可能消失但档案保存了记录，选D。",
               "location_analysis": "作者认为尽管遗迹可能淹没，但记录已保存，选D。",
-              "paraphrasing": "documents will be the only source -> rich record ... preserved in the archives and publications",
+              "paraphrasing": "documents will be the only source -> rich record... preserved in the archives and publications",
               "keywords": "Section F, conclusion, writer",
               "evidence": [
                 "even though its physical remains may be lost, along with the other llisu sites, there is some consolation in the fact that a rich record of the town of Tushan, some of its history, its people and way of life, is now preserved in the archives and publications of the Ziyaret Tepe project."

@@ -202,6 +202,8 @@ export type VocabularyItem = {
   status: "learning" | "mastered";
   occurrence_count: number;
   sources: VocabularySource[];
+  exported_before: boolean;
+  last_exported_at?: string | null;
   created_at: string;
   updated_at: string;
   deduplicated: boolean;
@@ -337,4 +339,24 @@ export async function deleteVocabulary(itemId: string, userId = "owner"): Promis
 
 export function vocabularyExportUrl(format: "csv" | "txt" | "json", userId = "owner"): string {
   return `${API_BASE_URL}/api/v1/vocabulary/export?format=${format}&user_id=${encodeURIComponent(userId)}`;
+}
+
+export async function exportVocabularySelection(payload: {
+  item_ids: string[];
+  only_unexported: boolean;
+  user_id?: string;
+}): Promise<{ blob: Blob; filename: string }> {
+  const response = await fetch(`${API_BASE_URL}/api/v1/vocabulary/export`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ user_id: "owner", ...payload })
+  });
+  if (!response.ok) {
+    const data = await response.json().catch(() => null) as { detail?: unknown } | null;
+    throw new Error(typeof data?.detail === "string" ? data.detail : `导出失败（${response.status}）`);
+  }
+  const disposition = response.headers.get("content-disposition") || "";
+  const filename = disposition.match(/filename="([^"]+)"/i)?.[1]
+    || "ielts-vocabulary-selected.txt";
+  return { blob: await response.blob(), filename };
 }

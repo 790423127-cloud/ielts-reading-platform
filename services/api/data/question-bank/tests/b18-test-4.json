@@ -167,7 +167,7 @@
           "id": "17963",
           "type": 3,
           "title": "",
-          "instructions": "Questions 1 - 7\nLook at the six advertisements fo ice cream makers, A-F, on passage1A.\nFor which ice cream maker are the following statements true?\nWrite the correct letter, A-F, in boxes 1-7 on your answer sheet.\nNB You may use any letter more than once.",
+          "instructions": "Questions 1 - 7\nLook at the six advertisements fo ice cream makers, A-F, on passage 1A.\nFor which ice cream maker are the following statements true?\nWrite the correct letter, A-F, in boxes 1-7 on your answer sheet.\nNB You may use any letter more than once.",
           "option_title": "",
           "options": [],
           "table": null,
@@ -1270,8 +1270,8 @@
               "accepted_answers": [
                 "yearly"
               ],
-              "analysis": "题干要求填写进行面部密合测试的频率，原文提到“Your employer will arrange a yearly facial fit test”，其中“yearly”与题干中的“on a ... basis”形成同义替换，因此答案是“yearly”。",
-              "reason": "题干用 on a ... basis 替换 yearly，答案为 yearly。",
+              "analysis": "题干要求填写进行面部密合测试的频率，原文提到“Your employer will arrange a yearly facial fit test”，其中“yearly”与题干中的“on a... basis”形成同义替换，因此答案是“yearly”。",
+              "reason": "题干用 on a... basis 替换 yearly，答案为 yearly。",
               "location_analysis": "原文提到 yearly facial fit test，与题干 basis 对应，答案为 ye...",
               "paraphrasing": "conducted on a yearly basis -> yearly facial fit test",
               "keywords": "facial fit tests, conducted, basis",
@@ -1290,7 +1290,7 @@
               "accepted_answers": [
                 "beard"
               ],
-              "analysis": "题干中提到“workers who have a ...”需要替代型呼吸防护设备，原文明确指出“if you have a beard, you should talk to your employer about other forms of RPE that do not rely on a tight facial fit”，因此答案为“beard”。",
+              "analysis": "题干中提到“workers who have a...”需要替代型呼吸防护设备，原文明确指出“if you have a beard, you should talk to your employer about other forms of RPE that do not rely on a tight facial fit”，因此答案为“beard”。",
               "reason": "题干 have a beard 对应原文 have a beard，答案为 beard。",
               "location_analysis": "原文说 if you have a beard，应找其他无需 tight fit 的 RPE。",
               "paraphrasing": "have a beard -> have a beard",
@@ -1311,9 +1311,9 @@
                 "solvents"
               ],
               "analysis": "题干中的“avoid cleaning their RPE with”对应原文中“harsh products such as solvents can cause damage”，说明应避免使用溶剂类强效清洁剂清洗RPE，因此答案是“solvents”。",
-              "reason": "题干 avoid ... with 与原文 as harsh products such as solvents 对应，答案为 solvents。",
+              "reason": "题干 avoid... with 与原文 as harsh products such as solvents 对应，答案为 solvents。",
               "location_analysis": "原文警告勿用 harsh products 如 solvents，题干 avoid clean...",
-              "paraphrasing": "avoid cleaning ... with -> Use a mild detergent, as harsh products such as solvents can cause damage",
+              "paraphrasing": "avoid cleaning... with -> Use a mild detergent, as harsh products such as solvents can cause damage",
               "keywords": "avoid cleaning, RPE, with, harsh products, solvents",
               "evidence": [
                 "Use a mild detergent, as harsh products such as solvents can cause damage."
@@ -1352,7 +1352,7 @@
               ],
               "analysis": "题干要求确保RPE的某部分“not ripped and can still stretch”，原文提到需检查“straps for breaks, tears... and deterioration of elasticity”，其中“elasticity”对应“can still stretch”，因此答案是“straps”。",
               "reason": "题干 ripped, stretch 对应原文 breaks, tears, elasticity，答案为 straps。",
-              "location_analysis": "原文要求检查 straps 的 breaks, tears, fraying edges 和 ...",
+              "location_analysis": "原文要求检查 straps 的 breaks, tears, fraying edges 和...",
               "paraphrasing": "not ripped -> breaks, tears; can still stretch -> elasticity",
               "keywords": "RPE, straps, ripped, stretch",
               "evidence": [
@@ -1370,10 +1370,10 @@
               "accepted_answers": [
                 "sunlight"
               ],
-              "analysis": "题干中的“not be exposed to direct ...”对应原文中存储RPE时应“away from ... sunlight”，说明应避免阳光直射，因此答案为“sunlight”。",
+              "analysis": "题干中的“not be exposed to direct...”对应原文中存储RPE时应“away from... sunlight”，说明应避免阳光直射，因此答案为“sunlight”。",
               "reason": "题干 not exposed to direct sunlight 与原文 away from sunlight 对应，答案为 sunlight。",
               "location_analysis": "原文要求远离 sunlight，题干 not be exposed to direct sun...",
-              "paraphrasing": "exposed to direct sunlight -> away from ... sunlight",
+              "paraphrasing": "exposed to direct sunlight -> away from... sunlight",
               "keywords": "exposed to direct sunlight",
               "evidence": [
                 "Store your RPE in a clean, dry place away from dust, oil and sunlight."
@@ -1406,7 +1406,7 @@
               ],
               [
                 "Slips and trips\nSlippery floor surfaces\nHoses and pipes\nOverhead obstacles\nUnsuitable steps\n",
-                "Remove solid spills such as grain immediately.\nEnsure all items of $126304$ have good grip.\nEnsure they are fitted to walls where possible.\nHighlight obstructions with brightly coloured tape.\nEnsure they are covered with $126305$ .\nProvide good lighting and install\n$126306$ .\n"
+                "Remove solid spills such as grain immediately.\nEnsure all items of $126304$ have good grip.\nEnsure they are fitted to walls where possible.\nHighlight obstructions with brightly coloured tape.\nEnsure they are covered with $126305$.\nProvide good lighting and install\n$126306$.\n"
               ],
               [
                 "Lifting and carrying\nTransporting containers and calves",
@@ -1414,7 +1414,7 @@
               ],
               [
                 "Milking by hand\nRepetitive handling of milking equipment",
-                "Keep everything accessible so that employees don’t need to bend or $126308$ .\nIntroduce a system of $126309$ to increase variety."
+                "Keep everything accessible so that employees don’t need to bend or $126308$.\nIntroduce a system of $126309$ to increase variety."
               ]
             ],
             "rows": [
@@ -1424,7 +1424,7 @@
               ],
               [
                 "Slips and trips\nSlippery floor surfaces\nHoses and pipes\nOverhead obstacles\nUnsuitable steps\n",
-                "Remove solid spills such as grain immediately.\nEnsure all items of $126304$ have good grip.\nEnsure they are fitted to walls where possible.\nHighlight obstructions with brightly coloured tape.\nEnsure they are covered with $126305$ .\nProvide good lighting and install\n$126306$ .\n"
+                "Remove solid spills such as grain immediately.\nEnsure all items of $126304$ have good grip.\nEnsure they are fitted to walls where possible.\nHighlight obstructions with brightly coloured tape.\nEnsure they are covered with $126305$.\nProvide good lighting and install\n$126306$.\n"
               ],
               [
                 "Lifting and carrying\nTransporting containers and calves",
@@ -1432,7 +1432,7 @@
               ],
               [
                 "Milking by hand\nRepetitive handling of milking equipment",
-                "Keep everything accessible so that employees don’t need to bend or $126308$ .\nIntroduce a system of $126309$ to increase variety."
+                "Keep everything accessible so that employees don’t need to bend or $126308$.\nIntroduce a system of $126309$ to increase variety."
               ]
             ]
           },
@@ -1467,7 +1467,7 @@
               "accepted_answers": [
                 "padding"
               ],
-              "analysis": "题干提到 overhead obstacles 应被“covered with ...”，原文指出这些障碍物“should be wrapped in padding”，其中“wrapped in padding”与“covered with padding”意思一致，因此答案为“padding”。",
+              "analysis": "题干提到 overhead obstacles 应被“covered with...”，原文指出这些障碍物“should be wrapped in padding”，其中“wrapped in padding”与“covered with padding”意思一致，因此答案为“padding”。",
               "reason": "题干 covered with padding 对应原文 wrapped in padding，答案为 padding。",
               "location_analysis": "原文说 overhead obstacles 应 wrapped in padding。",
               "paraphrasing": "covered with padding -> wrapped in padding",
@@ -1507,7 +1507,7 @@
               "accepted_answers": [
                 "trolleys"
               ],
-              "analysis": "题干中的“equipment such as ...”对应原文中“use trolleys and other mechanical aids to replace manual tasks”，说明可使用手推车等设备代替人工搬运，因此答案为“trolleys”。",
+              "analysis": "题干中的“equipment such as...”对应原文中“use trolleys and other mechanical aids to replace manual tasks”，说明可使用手推车等设备代替人工搬运，因此答案为“trolleys”。",
               "reason": "题干 equipment such as trolleys 对应原文 use trolleys，答案为 trolleys。",
               "location_analysis": "原文建议使用 trolleys 替代 manual tasks。",
               "paraphrasing": "equipment such as trolleys -> use trolleys and other mechanical aids",
@@ -1527,9 +1527,9 @@
               "accepted_answers": [
                 "overreach"
               ],
-              "analysis": "题干中的“don’t need to bend or ...”对应原文中“avoid workers having to overreach or adopt a bending position”，其中“overreach”与题干空格处完全对应，因此答案是“overreach”。",
+              "analysis": "题干中的“don’t need to bend or...”对应原文中“avoid workers having to overreach or adopt a bending position”，其中“overreach”与题干空格处完全对应，因此答案是“overreach”。",
               "reason": "原文 avoid workers having to overreach，题干 don't need to overreach，答案为 overreach。",
-              "location_analysis": "原文避免 overreach 或 adopt a bending position，题干对应 ...",
+              "location_analysis": "原文避免 overreach 或 adopt a bending position，题干对应...",
               "paraphrasing": "don't need to overreach -> avoid workers having to overreach",
               "keywords": "overreach, bend",
               "evidence": [
@@ -1547,7 +1547,7 @@
               "accepted_answers": [
                 "rotation"
               ],
-              "analysis": "题干中的“system of ... to increase variety”对应原文中通过“rotation between putting on and removing milking equipment”来减少重复性工作，因此答案为“rotation”。",
+              "analysis": "题干中的“system of... to increase variety”对应原文中通过“rotation between putting on and removing milking equipment”来减少重复性工作，因此答案为“rotation”。",
               "reason": "题干 system of rotation 对应原文 rotation，答案为 rotation。",
               "location_analysis": "原文交替工作（rotation）来减少重复性手工任务。",
               "paraphrasing": "system of rotation -> rotation between putting on and removing milking equipment",
@@ -1571,7 +1571,7 @@
                 ],
                 [
                   "Slips and trips\nSlippery floor surfaces\nHoses and pipes\nOverhead obstacles\nUnsuitable steps\n",
-                  "Remove solid spills such as grain immediately.\nEnsure all items of $126304$ have good grip.\nEnsure they are fitted to walls where possible.\nHighlight obstructions with brightly coloured tape.\nEnsure they are covered with $126305$ .\nProvide good lighting and install\n$126306$ .\n"
+                  "Remove solid spills such as grain immediately.\nEnsure all items of $126304$ have good grip.\nEnsure they are fitted to walls where possible.\nHighlight obstructions with brightly coloured tape.\nEnsure they are covered with $126305$.\nProvide good lighting and install\n$126306$.\n"
                 ],
                 [
                   "Lifting and carrying\nTransporting containers and calves",
@@ -1579,7 +1579,7 @@
                 ],
                 [
                   "Milking by hand\nRepetitive handling of milking equipment",
-                  "Keep everything accessible so that employees don’t need to bend or $126308$ .\nIntroduce a system of $126309$ to increase variety."
+                  "Keep everything accessible so that employees don’t need to bend or $126308$.\nIntroduce a system of $126309$ to increase variety."
                 ]
               ]
             },

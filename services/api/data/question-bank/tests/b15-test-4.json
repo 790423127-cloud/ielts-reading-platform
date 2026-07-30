@@ -31,7 +31,7 @@
         {
           "label": "",
           "index": 4,
-          "text": "Funding for the cycle path has come largely from the county and town councils, while almost a third of it was raised through crowdfunding. Maintenance of the path is the responsibility of the county council.The cycle path was completed ahead of schedule - partly thanks to perfect weather for construction - and under budget.",
+          "text": "Funding for the cycle path has come largely from the county and town councils, while almost a third of it was raised through crowdfunding. Maintenance of the path is the responsibility of the county council. The cycle path was completed ahead of schedule - partly thanks to perfect weather for construction - and under budget.",
           "translation": "这条自行车道的资金主要来自郡和镇议会，而其中近三分之一是通过众筹筹集的。\n这条道路的维护由郡议会负责。\n这条自行车道提前完工——部分归功于施工期间的绝佳天气——并且未超出预算。\n这条自行车道提前竣工，并低于预算，部分原因是施工期间天气极佳。"
         },
         {
@@ -42,7 +42,7 @@
         {
           "label": "",
           "index": 6,
-          "text": "Annie Newcome is the chief executive of Cycle Atherton, the organisation that aims to get people cycling more often and more safely. Cycle Atherton proposed the 12-kilometre-long cycle path initially, and has been active in promoting it.Ms Newcome says she is delighted that all the hard work to achieve the funding proved successful.",
+          "text": "Annie Newcome is the chief executive of Cycle Atherton, the organisation that aims to get people cycling more often and more safely. Cycle Atherton proposed the 12-kilometre-long cycle path initially, and has been active in promoting it. Ms Newcome says she is delighted that all the hard work to achieve the funding proved successful.",
           "translation": "安妮·纽科姆是Cycle Atherton的首席执行官，该组织旨在让人们更频繁、更安全地骑自行车。\nCycle Atherton最初提出了这条12公里长的自行车道，并一直积极推广它。\n纽科姆女士表示，她很欣慰为实现资金筹集所做的所有努力最终证明是成功的。\n安妮·纽科姆是Cycle Atherton组织的首席执行官，该组织旨在让人们更频繁、更安全地骑自行车。\n纽科姆女士表示，她很高兴为获得资金所付出的所有努力都证明是成功的。"
         },
         {
@@ -59,7 +59,7 @@
         {
           "label": "",
           "index": 9,
-          "text": "makes it much easier to reach from the town in an environmentally friendly way.At 2.5 metres wide, it is also suitable for users of wheelchairs, mobility scooters and buggies, who have not previously had access to the park without using motor vehicles.",
+          "text": "makes it much easier to reach from the town in an environmentally friendly way. At 2.5 metres wide, it is also suitable for users of wheelchairs, mobility scooters and buggies, who have not previously had access to the park without using motor vehicles.",
           "translation": "该路径宽2.5米，也适用于轮椅、代步车和婴儿车的使用者——这些人此前若不使用机动车则无法进入公园。\n这条新路径使得从镇上前往公园变得更加便捷，并且采用了环保的方式。\n该路径宽达2.5米，也适合轮椅、代步车和婴儿车的使用者，这些人以前不借助机动车就无法进入公园。\n这条路径宽2.5米，也适合轮椅、代步车和婴儿车的使用者——此前他们若不使用机动车辆就无法进入公园。"
         },
         {
@@ -70,7 +70,7 @@
         {
           "label": "",
           "index": 11,
-          "text": "Although the path is now open, work is continuing to improve the signs along it,such as warnings when the path approaches a road.New hedges and trees will also be planted along stretches of the path, to provide some shelter from the wind and to benefit wildlife.",
+          "text": "Although the path is now open, work is continuing to improve the signs along it, such as warnings when the path approaches a road. New hedges and trees will also be planted along stretches of the path, to provide some shelter from the wind and to benefit wildlife.",
           "translation": "尽管这条道路现已开放，但改善沿途标识的工作仍在继续，例如当道路接近公路时的警示标识。\n沿着道路的某些路段还将种植新的树篱和树木，以提供一定的防风屏障，并有益于野生动物。"
         },
         {
@@ -500,7 +500,7 @@
           "id": "15370",
           "type": 1,
           "title": "",
-          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in Reading Passage 1?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
           "option_title": "",
           "options": [],
           "table": null,
@@ -677,7 +677,7 @@
               ],
               "analysis": "题干称《Theatre 500》由学生创作，但D段明确说明该作品是“Written by two staff members especially for this occasion”，与学生创作相矛盾，因此答案为FALSE。",
               "reason": "题干说学生创作，原文是staff members写，矛盾，故FALSE。",
-              "location_analysis": "D段明确：‘Theatre 500...Written by two staff member...",
+              "location_analysis": "D段明确：‘Theatre 500... Written by two staff member...",
               "paraphrasing": "created by students -> written by two staff members",
               "keywords": "Theatre 500 created by students, written by two staff members",
               "evidence": [
@@ -1099,7 +1099,7 @@
         {
           "label": "",
           "index": 10,
-          "text": "When you're trying to focus on something, hunger is the worst thing. If you can, keep some healthy snacks in your desk because if you have something you can nibble on, it will make you work more effectively and you'll enjoy it more. Also, if you're dehydrated,you won't be able to focus properly. So keep drinking water.",
+          "text": "When you're trying to focus on something, hunger is the worst thing. If you can, keep some healthy snacks in your desk because if you have something you can nibble on, it will make you work more effectively and you'll enjoy it more. Also, if you're dehydrated, you won't be able to focus properly. So keep drinking water.",
           "translation": "当你试图专注于某件事时，饥饿是最糟糕的事情。\n如果可能的话，在办公桌里放一些健康的零食，因为如果你有可以小口啃食的东西，这会让你更有效地工作，并且你会更加享受工作。\n此外，如果你脱水了，你将无法正常集中注意力。\n所以要不断喝水。"
         },
         {
@@ -1144,13 +1144,13 @@
         {
           "label": "",
           "index": 17,
-          "text": "Think about how you are perceived at work. In order for you to get your promotion, who needs to know about you? Who would be on the interview panel and whose opinion and input would they seek? And once you've got a list of people to impress, ask yourself - do they know enough about you?And I mean really know - what you do day to day at your desk, your contribution to the team, and perhaps most importantly, your potential.",
+          "text": "Think about how you are perceived at work. In order for you to get your promotion, who needs to know about you? Who would be on the interview panel and whose opinion and input would they seek? And once you've got a list of people to impress, ask yourself - do they know enough about you? And I mean really know - what you do day to day at your desk, your contribution to the team, and perhaps most importantly, your potential.",
           "translation": "思考你在工作中给人的印象如何。\n为了获得晋升，哪些人需要了解你？\n面试小组会有哪些人组成，他们会征求谁的意见和看法？\n一旦你列出需要打动的人，问问自己——他们对你了解得足够多吗？\n我指的是真正了解——你日常在办公桌前的工作内容、你对团队的贡献，以及或许最重要的，你的潜力。"
         },
         {
           "label": "",
           "index": 18,
-          "text": "The chances are that those decision-makers won't know all they should about you.Raising your profile in your organisation is critical so that when those in charge start looking at that empty office and considering how best to fill it, the first name that pops into their heads is yours. If your firm has a newsletter, volunteer to write a feature to include in it. If they arrange regular client events, get involved in the organisation of them. And so on.",
+          "text": "The chances are that those decision-makers won't know all they should about you. Raising your profile in your organisation is critical so that when those in charge start looking at that empty office and considering how best to fill it, the first name that pops into their heads is yours. If your firm has a newsletter, volunteer to write a feature to include in it. If they arrange regular client events, get involved in the organisation of them. And so on.",
           "translation": "这些决策者很可能并不完全了解他们应该知道的关于你的一切。\n在组织中提升你的知名度至关重要，这样当负责人开始关注那间空办公室并考虑如何最佳人选时，第一个浮现在他们脑海中的名字就会是你。\n如果你的公司有内部通讯，可以自愿撰写一篇专题文章收录其中。\n如果他们安排定期的客户活动，就参与这些活动的组织工作。\n诸如此类。"
         },
         {
@@ -1409,10 +1409,10 @@
               "analysis": "题干问他人是否了解你的“___ for the future”，而原文强调“do they know enough about you?... and perhaps most importantly, your potential”。“potential”指未来发展潜力，正好对应题干中对未来能力的关注，因此答案是potential。",
               "reason": "potential是唯一与future capability相关的词。",
               "location_analysis": "题干问他人是否了解你的潜力；原文第5段强调要让他们知道your potential。",
-              "paraphrasing": "aware of your potential -> really know ... your potential",
+              "paraphrasing": "aware of your potential -> really know... your potential",
               "keywords": "potential, future, aware of",
               "evidence": [
-                "And once you've got a list of people to impress, ask yourself - do they know enough about you?And I mean really know - what you do day to day at your desk, your contribution to the team, and perhaps most importantly, your potential."
+                "And once you've got a list of people to impress, ask yourself - do they know enough about you? And I mean really know - what you do day to day at your desk, your contribution to the team, and perhaps most importantly, your potential."
               ],
               "confidence": 1,
               "wrong_reasons": null
@@ -1718,7 +1718,7 @@
         {
           "label": "",
           "index": 4,
-          "text": "His conclusions will assist animal welfare groups pushing to have animals treated more humanely.Professor Bekoff, who presents his case in his book Wild Justice, said: 'Just as in humans, the moral nuances of a particular culture or group will be different from another, but they are certainly there. Moral codes are species specific,so they can be difficult to compare with each other or with humans.'Professor Bekoff believes morals developed in animals to help regulate behaviour in social groups.He claims that these help to limit fighting within the group and encourage co-operative behaviour.",
+          "text": "His conclusions will assist animal welfare groups pushing to have animals treated more humanely. Professor Bekoff, who presents his case in his book Wild Justice, said: 'Just as in humans, the moral nuances of a particular culture or group will be different from another, but they are certainly there. Moral codes are species specific, so they can be difficult to compare with each other or with humans.'Professor Bekoff believes morals developed in animals to help regulate behaviour in social groups. He claims that these help to limit fighting within the group and encourage co-operative behaviour.",
           "translation": "他的结论将有助于推动动物得到更人道对待的动物福利组织。\n贝科夫教授在他的著作《野性正义》中阐述了自己的观点，他表示：‘就像在人类中一样，特定文化或群体的道德细微差别会与另一个不同，但它们肯定存在。’\n道德规范是物种特异性的，因此它们可能难以相互比较或与人类比较。’\n贝科夫教授认为，道德在动物中发展起来，是为了帮助调节社会群体中的行为。\n他声称，这些道德有助于限制群体内部的争斗，并鼓励合作行为。\n他的结论将有助于推动动物得到更人道待遇的动物福利组织。\n贝科夫教授在其著作《野生正义》中阐述了他的观点，他表示：‘就像人类一样，特定文化或群体的道德细微差别会与另一个有所不同，但它们确实存在。’\n道德规范是物种特有的，因此它们可能难以相互比较或与人类比较。\n贝科夫教授认为，道德在动物中进化是为了帮助调节社会群体中的行为。\n他声称这些道德有助于限制群体内的争斗，并鼓励合作行为。"
         },
         {
@@ -1729,7 +1729,7 @@
         {
           "label": "",
           "index": 6,
-          "text": "His ideas have met with some controversy in the scientific community. Professor Frans de Waal, who examines the behaviour of primates,including chimpanzees, at Emory University,Atlanta, Georgia, US, said: 'I don’t believe animals are moral in the sense we humans are- with a well-developed and reasoned sense of right and wrong - rather that human morality incorporates a set of psychological tendencies and capacities such as empathy, reciprocity, a desire for co-operation and harmony that are older than our species. Human morality was not formed from scratch, but grew out of our primate psychology. Primate psychology has ancient roots, and I agree that other animals show many of the same tendencies and have an intense sociality.'",
+          "text": "His ideas have met with some controversy in the scientific community. Professor Frans de Waal, who examines the behaviour of primates, including chimpanzees, at Emory University, Atlanta, Georgia, US, said: 'I don’t believe animals are moral in the sense we humans are- with a well-developed and reasoned sense of right and wrong - rather that human morality incorporates a set of psychological tendencies and capacities such as empathy, reciprocity, a desire for co-operation and harmony that are older than our species. Human morality was not formed from scratch, but grew out of our primate psychology. Primate psychology has ancient roots, and I agree that other animals show many of the same tendencies and have an intense sociality.'",
           "translation": "他的观点在科学界引发了一些争议。\n美国佐治亚州亚特兰大市埃默里大学研究灵长类动物（包括黑猩猩）行为的弗朗斯·德瓦尔教授表示：“我不认为动物具有人类意义上的道德——即拥有高度发达且理性的对错观念——相反，人类的道德包含了一套心理倾向和能力，如同情心、互惠性、合作与和谐的愿望，这些特质比我们人类的物种更为古老。”\n人类的道德并非凭空产生，而是源于我们灵长类动物的心理基础。\n灵长类动物的心理学有着古老的根源，我同意其他动物也表现出许多相同的倾向，并具有强烈的社会性。”"
         },
         {
@@ -1740,7 +1740,7 @@
         {
           "label": "",
           "index": 8,
-          "text": "Wolves live in tight-knit social groups that are regulated by strict rules. Wolves also demonstrate fairness. During play, dominant wolves will appear to exchange roles with lower-ranking wolves.They pretend to be submissive and go so far as to allow biting by the lower-ranking wolves,provided it is not too hard. Prof Bekoff argues that without a moral code governing their actions, this kind of behaviour would not be possible. Astonishingly, if an animal becomes aggressive, it will perform a 'play bow to ask forgiveness before play resumes.",
+          "text": "Wolves live in tight-knit social groups that are regulated by strict rules. Wolves also demonstrate fairness. During play, dominant wolves will appear to exchange roles with lower-ranking wolves. They pretend to be submissive and go so far as to allow biting by the lower-ranking wolves, provided it is not too hard. Prof Bekoff argues that without a moral code governing their actions, this kind of behaviour would not be possible. Astonishingly, if an animal becomes aggressive, it will perform a 'play bow to ask forgiveness before play resumes.",
           "translation": "狼生活在由严格规则规范的紧密社会群体中。\n狼也表现出公平性。\n在玩耍时，优势狼似乎会与地位较低的狼交换角色。\n它们假装顺从，甚至允许地位较低的狼咬自己，只要不是太用力。\n贝科夫教授认为，如果没有道德准则约束它们的行为，这种行为是不可能的。\n令人惊讶的是，如果动物变得具有攻击性，它会在继续玩耍前做出“玩耍鞠躬”的姿势来请求原谅。"
         },
         {
@@ -1751,7 +1751,7 @@
         {
           "label": "",
           "index": 10,
-          "text": "In other members of the dog family, play is controlled in a similar way. Among coyotes,cubs which are too aggressive are ignored by the rest of the group and often end up having to leave entirely. Experiments with domestic dogs,where one animal was given some 'sweets' and another wasn't, have shown that they possess a sense of fairness as they allowed their companion to eat some.",
+          "text": "In other members of the dog family, play is controlled in a similar way. Among coyotes, cubs which are too aggressive are ignored by the rest of the group and often end up having to leave entirely. Experiments with domestic dogs, where one animal was given some 'sweets' and another wasn't, have shown that they possess a sense of fairness as they allowed their companion to eat some.",
           "translation": "在犬科其他成员中，玩耍行为以类似方式受到控制。\n在丛林狼中，过于好斗的幼崽会被族群其他成员忽视，往往最终不得不完全离开。\n对家犬的实验表明，它们拥有公平感：当一只狗获得一些“糖果”而另一只没有时，它们会让同伴吃到一部分。\n在犬科动物的其他成员中，玩耍行为以类似的方式受到控制。\n在郊狼中，过于好斗的幼崽会被群体中的其他成员忽视，并常常最终不得不完全离开。\n对家犬的实验表明，它们拥有公平意识，因为当一只狗被给予一些“零食”而另一只没有时，它们会允许同伴吃一些。"
         },
         {
@@ -1762,7 +1762,7 @@
         {
           "label": "",
           "index": 12,
-          "text": "Elephants are intensely sociable and emotional animals. Research by lain Douglas-Hamilton,from the department of zoology at Oxford University, suggests elephants experience compassion and has found evidence of elephants helping injured members of their herd.In 2003, a herd of 11 elephants rescued antelopes which were being held inside an enclosure in KwaZulu-Natal, South Africa.The top female elephant unfastened all of the metal latches holding the gates closed and swung them open, allowing the antelopes to escape. This is thought to be a rare example of animals showing empathy for members of another species - a trait previously thought to be the exclusive preserve of humankind.",
+          "text": "Elephants are intensely sociable and emotional animals. Research by lain Douglas-Hamilton, from the department of zoology at Oxford University, suggests elephants experience compassion and has found evidence of elephants helping injured members of their herd. In 2003, a herd of 11 elephants rescued antelopes which were being held inside an enclosure in KwaZulu-Natal, South Africa. The top female elephant unfastened all of the metal latches holding the gates closed and swung them open, allowing the antelopes to escape. This is thought to be a rare example of animals showing empathy for members of another species - a trait previously thought to be the exclusive preserve of humankind.",
           "translation": "大象是高度社交和情感丰富的动物。\n牛津大学动物学系的莱恩·道格拉斯-汉密尔顿的研究表明，大象能够体验同情心，并发现了大象帮助受伤同伴的证据。\n2003年，一群11头大象在南非夸祖鲁-纳塔尔省救出了被困在围栏中的羚羊。\n领头母象解开了所有固定大门的金属插销，将门推开，让羚羊得以逃脱。\n这被认为是动物对另一种类成员表现出同情心的罕见例子——这种特质曾被视作人类独有。"
         },
         {
@@ -1773,13 +1773,13 @@
         {
           "label": "",
           "index": 14,
-          "text": "A laboratory experiment involved training Diana monkeys to insert a token into a slot to obtain food.A male who had become skilled at the task was found to be helping the oldest female, who",
+          "text": "A laboratory experiment involved training Diana monkeys to insert a token into a slot to obtain food. A male who had become skilled at the task was found to be helping the oldest female, who",
           "translation": "一项实验室实验涉及训练黛安娜猴将代币插入槽中以获取食物。\n一只已熟练掌握该任务的雄性猴子被发现正在帮助最年长的雌性猴子，这只雌性猴子"
         },
         {
           "label": "",
           "index": 15,
-          "text": "had not learned how to do it.On three occasions the male monkey picked up tokens she dropped and inserted them into the slot and allowed her to have the food.As there was no benefit for the male monkey, Professor Bekoff argues that this is a clear example of an animal's actions being driven by some internal moral compass.",
+          "text": "had not learned how to do it. On three occasions the male monkey picked up tokens she dropped and inserted them into the slot and allowed her to have the food. As there was no benefit for the male monkey, Professor Bekoff argues that this is a clear example of an animal's actions being driven by some internal moral compass.",
           "translation": "尚未学会如何操作。\n在三次情况下，这只雄性猴子捡起她掉落的代币，将其插入槽中，并让她获取食物。\n由于这只雄性猴子并未获得任何好处，贝科夫教授认为，这清楚地表明动物的行为受到某种内在道德准则的驱动。"
         },
         {
@@ -1801,7 +1801,7 @@
         {
           "label": "",
           "index": 19,
-          "text": "Experiments with rats have shown that they will not take food if they know their actions will cause pain to another rat. In lab tests, rats were given food which then caused a second group of rats to receive an electric shock.The rats with the food stopped eating rather than see this happen.",
+          "text": "Experiments with rats have shown that they will not take food if they know their actions will cause pain to another rat. In lab tests, rats were given food which then caused a second group of rats to receive an electric shock. The rats with the food stopped eating rather than see this happen.",
           "translation": "针对老鼠的实验表明，如果它们知道自己的行为会给另一只老鼠带来痛苦，就不会去吃食物。\n在实验室测试中，给一些老鼠提供食物，而这会使得另一组老鼠遭受电击。\n拥有食物的老鼠停止了进食，而不愿看到这种情况发生。\n对老鼠的实验表明，如果它们知道自己的行为会给另一只老鼠带来痛苦，它们就不会取食。\n在实验室测试中，老鼠被给予食物，而这导致另一组老鼠受到电击。\n拥有食物的那组老鼠停止了进食，而不是眼睁睁看着这种情况发生。"
         },
         {
@@ -1812,7 +1812,7 @@
         {
           "label": "",
           "index": 21,
-          "text": "Whales have been found to have spindle cells in their brains.These specialised cells were thought to be restricted to humans and great apes, and appear to play a role in empathy and understanding the emotions of others.Humpback whales, fin whales,killer whales and sperm whales have all been found to have spindle cells. They also have three times as many spindle cells as humans and are thought to be older in evolutionary terms.This finding suggests that emotional judgements such as empathy may have evolved considerably earlier in history than formerly thought and could be widespread in the animal kingdom.",
+          "text": "Whales have been found to have spindle cells in their brains. These specialised cells were thought to be restricted to humans and great apes, and appear to play a role in empathy and understanding the emotions of others. Humpback whales, fin whales, killer whales and sperm whales have all been found to have spindle cells. They also have three times as many spindle cells as humans and are thought to be older in evolutionary terms. This finding suggests that emotional judgements such as empathy may have evolved considerably earlier in history than formerly thought and could be widespread in the animal kingdom.",
           "translation": "研究发现鲸鱼的大脑中存在纺锤体细胞。\n这些特殊细胞曾被认为只存在于人类和类人猿中，并且在共情和理解他人情感方面发挥作用。\n座头鲸、长须鲸、虎鲸和抹香鲸都被发现拥有纺锤体细胞。\n它们的纺锤体细胞数量是人类的3倍，并且从进化角度来看被认为更为古老。\n这一发现表明，诸如共情之类的情感判断可能在历史上比先前认为的更早进化，并在动物界中广泛存在。\n研究发现，鲸鱼的大脑中存在梭形细胞。\n这些特化细胞一度被认为只存在于人类和大型类人猿身上，并且似乎在共情和理解他人情感方面发挥作用。\n座头鲸、长须鲸、虎鲸和抹香鲸都被发现拥有梭形细胞。\n它们的梭形细胞数量是人类的3倍，并且在进化意义上被认为更为古老。\n这一发现表明，诸如共情之类的情感判断在历史上可能比原先认为的要早得多地进化，并且在动物王国中可能普遍存在。"
         }
       ],
@@ -1939,7 +1939,7 @@
           "id": "15384",
           "type": 2,
           "title": "",
-          "instructions": "Questions 33 - 37\nLook at the following animals(Questions 33-37) and the list of descriptions below.\nMatch each animal with the correct description, A-G.\nChoose the correct letter and move it into the gap.",
+          "instructions": "Questions 33 - 37\nLook at the following animals (Questions 33-37) and the list of descriptions below.\nMatch each animal with the correct description, A-G.\nChoose the correct letter and move it into the gap.",
           "option_title": "List of Descriptions",
           "options": [
             {
@@ -2283,19 +2283,19 @@
               "options": [
                 {
                   "value": "A",
-                  "label": "lt shows that this species of monkey is not very easy to train."
+                  "label": "It shows that this species of monkey is not very easy to train."
                 },
                 {
                   "value": "B",
-                  "label": "lt confirms his view on the value of research into certain monkeys."
+                  "label": "It confirms his view on the value of research into certain monkeys."
                 },
                 {
                   "value": "C",
-                  "label": "lt proves that female monkeys are generally less intelligent than males."
+                  "label": "It proves that female monkeys are generally less intelligent than males."
                 },
                 {
                   "value": "D",
-                  "label": "lt illustrates a point he wants to make about monkeys and other creatures."
+                  "label": "It illustrates a point he wants to make about monkeys and other creatures."
                 }
               ],
               "answer": "D",
@@ -2427,7 +2427,7 @@
         },
         {
           "index": 12,
-          "sentence": "Moral codes are species specific,so they can be difficult to compare with each other or with humans.'",
+          "sentence": "Moral codes are species specific, so they can be difficult to compare with each other or with humans.'",
           "translation": "道德规范是物种特有的，因此它们可能难以相互比较或与人类比较。"
         },
         {
@@ -2527,7 +2527,7 @@
         },
         {
           "index": 35,
-          "sentence": "Research by lain Douglas-Hamilton,from the department of zoology at Oxford University, suggests elephants experience compassion and has found evidence of elephants helping injured members of their herd.",
+          "sentence": "Research by lain Douglas-Hamilton, from the department of zoology at Oxford University, suggests elephants experience compassion and has found evidence of elephants helping injured members of their herd.",
           "translation": "牛津大学动物学系的莱恩·道格拉斯-汉密尔顿的研究表明，大象能够体验同情心，并发现了大象帮助受伤同伴的证据。"
         },
         {
@@ -2652,7 +2652,7 @@
         },
         {
           "index": 61,
-          "sentence": "Humpback whales, fin whales,killer whales and sperm whales have all been found to have spindle cells.",
+          "sentence": "Humpback whales, fin whales, killer whales and sperm whales have all been found to have spindle cells.",
           "translation": "座头鲸、长须鲸、虎鲸和抹香鲸都被发现拥有纺锤体细胞。"
         },
         {

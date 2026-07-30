@@ -65,7 +65,7 @@ def test_wrong_batch_accepts_verified_mixed_subtypes(question_bank) -> None:
     assert [row["ref_id"] for row in generated["items"]] == refs
 
 
-def test_history_archive_and_teacher_snapshot_use_isolated_database(
+def test_history_permanent_delete_and_teacher_snapshot_use_isolated_database(
     tmp_path, monkeypatch
 ) -> None:
     database_path = tmp_path / "isolated.sqlite3"
@@ -151,11 +151,37 @@ def test_history_archive_and_teacher_snapshot_use_isolated_database(
     assert "Teacher migration test" in document_xml
     assert "标准答案、判分和 Band 规则没有改变" in document_xml
 
+    stage_pdf = client.get("/api/v1/reports/stage.pdf?user_id=owner")
+    assert stage_pdf.status_code == 200
+    assert stage_pdf.content.startswith(b"%PDF")
+
+    stage_docx = client.get("/api/v1/reports/stage.docx?user_id=owner")
+    assert stage_docx.status_code == 200
+    with ZipFile(BytesIO(stage_docx.content)) as archive:
+        stage_xml = archive.read("word/document.xml").decode("utf-8")
+    assert "阶段学习报告" in stage_xml
+    assert "总体错误原因分布" in stage_xml
+
+    session_pdf = client.get(
+        f"/api/v1/reports/sessions/{stored.id}.pdf?user_id=owner"
+    )
+    assert session_pdf.status_code == 200
+    assert session_pdf.content.startswith(b"%PDF")
+
+    session_docx = client.get(
+        f"/api/v1/reports/sessions/{stored.id}.docx?user_id=owner"
+    )
+    assert session_docx.status_code == 200
+    with ZipFile(BytesIO(session_docx.content)) as archive:
+        session_xml = archive.read("word/document.xml").decode("utf-8")
+    assert "单次练习报告" in session_xml
+    assert "代表性错题" in session_xml
+
     assert client.delete(f"/api/v1/sessions/{stored.id}?user_id=owner").status_code == 200
     rows = client.get(
         "/api/v1/sessions?user_id=owner&include_archived=true"
     ).json()
-    assert rows[0]["archived"] is True
+    assert rows == []
     assert client.post(
         f"/api/v1/sessions/{stored.id}/restore?user_id=owner"
-    ).status_code == 200
+    ).status_code == 404

@@ -8,6 +8,14 @@ from app.repositories.session_repository import StoredSession
 MIN_PRELIMINARY_SAMPLE = 5
 MIN_STABLE_SAMPLE = 10
 
+ERROR_CAUSE_LABELS = {
+    "word_limit_exceeded": "超过词数限制",
+    "multiple_choice_mismatch": "多选组合不完整",
+    "answer_mismatch": "答案与标准答案不一致",
+    "incorrect": "答案与标准答案不一致",
+    "unanswered": "未作答",
+}
+
 
 def _accuracy(correct: int, total: int) -> float:
     return round(correct / total * 100, 1) if total else 0.0
@@ -28,6 +36,32 @@ def _status(total: int, accuracy: float) -> tuple[str, str, str]:
     else:
         sample_level = "stable"
     return status, label, sample_level
+
+
+def _field_value(question: dict[str, Any], field: str) -> str:
+    if field == "source_part_number":
+        return str(
+            question.get("source_part_number")
+            or question.get("part_number")
+            or "未分类"
+        )
+    return str(question.get(field) or "未分类")
+
+
+def _error_cause(question: dict[str, Any]) -> str:
+    if not str(question.get("user_answer") or "").strip():
+        return ERROR_CAUSE_LABELS["unanswered"]
+    error_type = str(question.get("answer_error_type") or "").strip()
+    if error_type:
+        return ERROR_CAUSE_LABELS.get(error_type, error_type)
+    reasons = question.get("wrong_reasons") or []
+    if isinstance(reasons, str):
+        reasons = [reasons]
+    for reason in reasons:
+        value = str(reason or "").strip()
+        if value:
+            return value
+    return ERROR_CAUSE_LABELS["answer_mismatch"]
 
 
 def _source_ref(question: dict[str, Any], result: dict[str, Any]) -> str:
@@ -107,7 +141,7 @@ def _aggregate(
     buckets: dict[tuple[str, ...], dict[str, Any]] = {}
     for session in sessions:
         for question in session.result.get("question_results") or []:
-            values = tuple(str(question.get(field) or "未分类") for field in key_fields)
+            values = tuple(_field_value(question, field) for field in key_fields)
             bucket = buckets.setdefault(
                 values,
                 {
@@ -140,12 +174,19 @@ def build_stage_report(sessions: Iterable[StoredSession]) -> dict[str, Any]:
     total_questions = sum(int(row.result.get("total") or 0) for row in rows)
     total_correct = sum(int(row.result.get("score") or 0) for row in rows)
     total_seconds = sum(int(row.result.get("total_elapsed_seconds") or 0) for row in rows)
+    total_unanswered = sum(
+        1
+        for row in rows
+        for question in row.result.get("question_results") or []
+        if not str(question.get("user_answer") or "").strip()
+    )
 
     configuration_attempts: defaultdict[tuple[Any, ...], int] = defaultdict(int)
     trend: list[dict[str, Any]] = []
     wrong_candidates: list[dict[str, Any]] = []
     timed_correct_candidates: list[dict[str, Any]] = []
     timed_wrong_candidates: list[dict[str, Any]] = []
+    cause_buckets: dict[str, dict[str, Any]] = {}
     for row in rows:
         result = row.result
         configuration = (
@@ -184,11 +225,29 @@ def build_stage_report(sessions: Iterable[StoredSession]) -> dict[str, Any]:
             evidence = question.get("evidence") or []
             if isinstance(evidence, str):
                 evidence = [evidence] if evidence.strip() else []
+            cause_label = _error_cause(question)
+            part_number = int(
+                question.get("source_part_number")
+                or question.get("part_number")
+                or 0
+            )
+            question_number = question.get("number")
+            source = " / ".join(
+                value
+                for value in (
+                    str(result.get("test_title") or row.test_id),
+                    f"Part {part_number}" if part_number else "",
+                    f"Q{question_number}" if question_number is not None else "",
+                )
+                if value
+            )
             wrong_candidates.append(
                 {
                     "source_question_ref": _source_ref(question, result),
                     "test_title": str(result.get("test_title") or row.test_id),
-                    "question_number": question.get("number"),
+                    "source": source,
+                    "source_part_number": part_number,
+                    "question_number": question_number,
                     "question_type": question.get("question_type")
                     or question.get("question_subtype")
                     or "未分类",
@@ -200,9 +259,28 @@ def build_stage_report(sessions: Iterable[StoredSession]) -> dict[str, Any]:
                     "correct_answer": str(question.get("correct_answer") or ""),
                     "analysis": str(question.get("analysis") or question.get("reason") or ""),
                     "evidence": [str(item) for item in evidence if str(item).strip()],
+                    "cause_label": cause_label,
+                    "student_confirmation_label": "未记录",
+                    "teacher_observation": (
+                        f"请复核学生在“{question.get('question_type') or question.get('question_subtype') or '该题型'}”中的定位和判断过程。"
+                    ),
                     "created_at": row.created_at,
                 }
             )
+            cause = cause_buckets.setdefault(
+                cause_label,
+                {
+                    "label": cause_label,
+                    "count": 0,
+                    "session_ids": set(),
+                    "examples": [],
+                },
+            )
+            cause["count"] += 1
+            cause["session_ids"].add(row.id)
+            example = f"{result.get('test_title') or row.test_id} Q{question_number}"
+            if example not in cause["examples"] and len(cause["examples"]) < 3:
+                cause["examples"].append(example)
 
     type_matrix = _aggregate(
         rows, key_fields=("question_subtype", "question_type")
@@ -219,6 +297,18 @@ def build_stage_report(sessions: Iterable[StoredSession]) -> dict[str, Any]:
         representative.append(item)
         if len(representative) >= 5:
             break
+    error_cause_distribution = [
+        {
+            "label": item["label"],
+            "count": int(item["count"]),
+            "session_count": len(item["session_ids"]),
+            "examples": list(item["examples"]),
+        }
+        for item in sorted(
+            cause_buckets.values(),
+            key=lambda value: (-int(value["count"]), str(value["label"])),
+        )
+    ]
 
     insights: list[str] = []
     if rows:
@@ -253,29 +343,73 @@ def build_stage_report(sessions: Iterable[StoredSession]) -> dict[str, Any]:
             f"结果为{'正确' if longest['is_correct'] else '错误'}。"
         )
 
+    teacher_observation_points: list[str] = []
+    if stable_types:
+        weakest = stable_types[0]
+        teacher_observation_points.append(
+            f"重点观察“{weakest['question_type']}”的定位、排除和最终确认过程；"
+            f"当前正确率为 {weakest['accuracy']}%。"
+        )
+    if error_cause_distribution:
+        primary_cause = error_cause_distribution[0]
+        teacher_observation_points.append(
+            f"优先核实“{primary_cause['label']}”是否为稳定错因；"
+            f"当前涉及 {primary_cause['count']} 道题、{primary_cause['session_count']} 次练习。"
+        )
+    if slowest_wrong:
+        teacher_observation_points.append(
+            "检查最耗时错题是否存在反复回读、定位范围过大或在相近选项间犹豫。"
+        )
+    if not teacher_observation_points:
+        teacher_observation_points.append("当前样本不足，建议结合下一次真实作答过程继续观察。")
+
+    part_results = [
+        {
+            "title": (
+                f"Part {item['source_part_number']}"
+                if item["source_part_number"] != "未分类"
+                else "未分类 Part"
+            ),
+            "correct": item["correct"],
+            "total": item["total"],
+            "accuracy": item["accuracy"],
+            "status_label": item["status_label"],
+            "sample_level": item["sample_level"],
+        }
+        for item in part_matrix
+    ]
+
     return {
         "report_type": "stage",
         "engine_version": "0.5.0-deterministic",
+        "layout_type": "stage",
+        "layout_label": "阶段综合报告",
         "generated_from": "persisted_sessions",
         "ai_calls": 0,
         "summary": {
+            "title": "阶段学习报告",
             "session_count": len(rows),
             "first_attempt_count": sum(1 for item in trend if item["attempt_kind"] == "first"),
             "retry_count": sum(1 for item in trend if item["attempt_kind"] == "retry"),
             "correct": total_correct,
             "total_questions": total_questions,
+            "unanswered": total_unanswered,
             "accuracy": _accuracy(total_correct, total_questions),
             "total_elapsed_seconds": total_seconds,
             "date_from": rows[0].created_at if rows else None,
             "date_to": rows[-1].created_at if rows else None,
         },
         "trend": trend,
+        "sessions": trend,
         "question_type_matrix": type_matrix,
         "part_matrix": part_matrix,
+        "part_results": part_results,
+        "error_cause_distribution": error_cause_distribution,
         "representative_questions": representative,
         "slowest_correct_questions": slowest_correct,
         "slowest_wrong_questions": slowest_wrong,
         "deterministic_interpretation": insights,
+        "teacher_observation_points": teacher_observation_points,
         "data_notes": [
             "5–9题只显示初步倾向，10题及以上才视为较稳定样本；少于5题不作能力定性。",
             "相同训练配置的第一次记录与后续重做分开标记，避免把记忆效应误当成新能力。",

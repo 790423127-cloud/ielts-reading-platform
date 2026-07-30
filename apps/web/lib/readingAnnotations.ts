@@ -3,6 +3,7 @@ export type AnnotationKind = "highlight" | "note";
 export type ReadingAnnotation = {
   id: string;
   kind: AnnotationKind;
+  highlightLevel?: "primary" | "secondary";
   testId: string;
   testTitle: string;
   partNumber: number;
@@ -26,18 +27,19 @@ export type ReadingHistoryDetail = {
 };
 
 type CurrentTest = { id: string; title: string };
-type AnnotationDraft = {
-  version: 1;
+export type ReadingAttemptDetail = {
+  attemptId: string;
   testId: string;
   testTitle: string;
-  updatedAt: string;
   annotations: ReadingAnnotation[];
 };
 
 const CURRENT_TEST_KEY = "ielts-platform-current-reading-test";
-const ANNOTATION_DRAFT_PREFIX = "ielts-platform-reading-draft:";
-const LEGACY_PREFIX = "ielts-platform-reading-annotations:";
 export const READING_HISTORY_EVENT = "ielts-reading-history-loaded";
+export const READING_ATTEMPT_EVENT = "ielts-reading-attempt-changed";
+export const READING_ANNOTATIONS_EVENT = "ielts-reading-annotations-changed";
+
+let activeReadingAttempt: ReadingAttemptDetail | null = null;
 
 export function normalizeReadingText(value: string): string {
   return value.replace(/\s+/g, " ").trim();
@@ -61,15 +63,16 @@ export function currentReadingTest(expectedTitle = ""): CurrentTest | null {
   }
 }
 
-function annotationDraftKey(testId: string): string {
-  return `${ANNOTATION_DRAFT_PREFIX}${encodeURIComponent(testId)}`;
-}
-
 function isAnnotation(value: unknown): value is ReadingAnnotation {
   if (!value || typeof value !== "object") return false;
   const item = value as Partial<ReadingAnnotation>;
   return typeof item.id === "string"
     && (item.kind === "highlight" || item.kind === "note")
+    && (
+      item.highlightLevel == null
+      || item.highlightLevel === "primary"
+      || item.highlightLevel === "secondary"
+    )
     && typeof item.testId === "string"
     && typeof item.testTitle === "string"
     && Number.isInteger(item.partNumber)
@@ -97,126 +100,52 @@ export function sanitizeReadingAnnotations(value: unknown): ReadingAnnotation[] 
   return [...byId.values()].sort((a, b) => b.updatedAt.localeCompare(a.updatedAt));
 }
 
-function legacyAnnotation(
-  value: unknown,
-  options: { testId: string; testTitle: string; fallbackPartNumber: number }
-): ReadingAnnotation | null {
-  if (!value || typeof value !== "object") return null;
-  const item = value as Record<string, unknown>;
-  const upgraded = {
-    ...item,
-    testId: options.testId,
-    testTitle: options.testTitle,
-    partNumber: Number(item.partNumber ?? options.fallbackPartNumber),
-    paragraphIndex: Number(item.paragraphIndex),
-    startOffset: Number(item.startOffset),
-    endOffset: Number(item.endOffset),
-    prefix: String(item.prefix ?? ""),
-    suffix: String(item.suffix ?? ""),
-    sentence: String(item.sentence ?? ""),
-    note: String(item.note ?? "")
-  };
-  return isAnnotation(upgraded) ? upgraded : null;
+function emitReadingEvent<T>(name: string, detail: T): void {
+  if (typeof window === "undefined") return;
+  window.dispatchEvent(new CustomEvent<T>(name, { detail }));
 }
 
-function migrateLegacyAnnotations(testId: string, testTitle: string): ReadingAnnotation[] {
-  if (typeof window === "undefined") return [];
-  const prefix = `${LEGACY_PREFIX}${encodeURIComponent(testTitle)}:`;
-  const migrated: ReadingAnnotation[] = [];
-  for (let index = 0; index < window.localStorage.length; index += 1) {
-    const key = window.localStorage.key(index);
-    if (!key?.startsWith(prefix)) continue;
-    const fallbackPartNumber = Number(key.slice(prefix.length)) || 1;
-    try {
-      const parsed = JSON.parse(window.localStorage.getItem(key) || "[]") as unknown;
-      if (!Array.isArray(parsed)) continue;
-      for (const value of parsed) {
-        const row = legacyAnnotation(value, { testId, testTitle, fallbackPartNumber });
-        if (row) migrated.push(row);
-      }
-    } catch {
-      // Invalid legacy drafts are ignored rather than overwriting valid learning data.
-    }
-  }
-  return sanitizeReadingAnnotations(migrated);
+export function beginReadingAttempt(detail: ReadingAttemptDetail): ReadingAnnotation[] {
+  const clean = sanitizeReadingAnnotations(detail.annotations).map((annotation) => ({
+    ...annotation,
+    testId: detail.testId,
+    testTitle: detail.testTitle
+  }));
+  activeReadingAttempt = { ...detail, annotations: clean };
+  emitReadingEvent(READING_ATTEMPT_EVENT, activeReadingAttempt);
+  emitReadingEvent(READING_ANNOTATIONS_EVENT, activeReadingAttempt);
+  return clean;
 }
 
-export function readReadingAnnotationDraft(testId: string, testTitle = ""): ReadingAnnotation[] {
-  if (typeof window === "undefined" || !testId) return [];
-  try {
-    const raw = window.localStorage.getItem(annotationDraftKey(testId));
-    if (raw) {
-      const parsed = JSON.parse(raw) as Partial<AnnotationDraft>;
-      return sanitizeReadingAnnotations(parsed.annotations);
-    }
-  } catch {
-    // Fall through to safe migration.
-  }
-  const migrated = testTitle ? migrateLegacyAnnotations(testId, testTitle) : [];
-  if (migrated.length) writeReadingAnnotationDraft(testId, testTitle, migrated);
-  return migrated;
-}
-
-export function syncAnnotationsIntoExamDrafts(testId: string, annotations: ReadingAnnotation[]): void {
-  if (typeof window === "undefined" || !testId) return;
-  const prefix = `ielts-platform-draft:${testId}:`;
-  for (let index = 0; index < window.localStorage.length; index += 1) {
-    const key = window.localStorage.key(index);
-    if (!key?.startsWith(prefix)) continue;
-    try {
-      const raw = window.localStorage.getItem(key);
-      const draft = raw ? JSON.parse(raw) as Record<string, unknown> : {};
-      const current = sanitizeReadingAnnotations(draft.annotations);
-      if (JSON.stringify(current) === JSON.stringify(annotations)) continue;
-      window.localStorage.setItem(key, JSON.stringify({ ...draft, annotations }));
-    } catch {
-      // A broken answer draft must not block annotation persistence.
-    }
-  }
-}
-
-export function writeReadingAnnotationDraft(
+export function updateReadingAttemptAnnotations(
   testId: string,
-  testTitle: string,
   annotations: ReadingAnnotation[]
 ): ReadingAnnotation[] {
-  if (typeof window === "undefined" || !testId) return annotations;
+  if (!activeReadingAttempt || activeReadingAttempt.testId !== testId) return [];
   const clean = sanitizeReadingAnnotations(annotations);
-  const draft: AnnotationDraft = {
-    version: 1,
-    testId,
-    testTitle,
-    updatedAt: new Date().toISOString(),
-    annotations: clean
-  };
-  window.localStorage.setItem(annotationDraftKey(testId), JSON.stringify(draft));
-  syncAnnotationsIntoExamDrafts(testId, clean);
+  activeReadingAttempt = { ...activeReadingAttempt, annotations: clean };
+  emitReadingEvent(READING_ANNOTATIONS_EVENT, activeReadingAttempt);
   return clean;
 }
 
 export function readAnnotationsForSubmission(testId: string, partNumbers: number[]): ReadingAnnotation[] {
+  if (!activeReadingAttempt || activeReadingAttempt.testId !== testId) return [];
   const selected = new Set(partNumbers.map(Number));
-  const rows = readReadingAnnotationDraft(testId);
+  const rows = activeReadingAttempt.annotations;
   return selected.size ? rows.filter((item) => selected.has(item.partNumber)) : rows;
 }
 
 export function cacheSessionAnnotations(detail: ReadingHistoryDetail): void {
-  if (typeof window === "undefined") return;
   const rows = sanitizeReadingAnnotations(detail.annotations).map((item) => ({
     ...item,
     testId: detail.testId,
     testTitle: detail.testTitle
   }));
-  if (rows.length) {
-    const existing = readReadingAnnotationDraft(detail.testId, detail.testTitle);
-    const merged = sanitizeReadingAnnotations([...existing, ...rows]);
-    writeReadingAnnotationDraft(detail.testId, detail.testTitle, merged);
-  }
-  window.setTimeout(() => {
-    window.dispatchEvent(new CustomEvent<ReadingHistoryDetail>(READING_HISTORY_EVENT, {
-      detail: { ...detail, annotations: rows }
-    }));
-  }, 0);
+  if (typeof window === "undefined") return;
+  window.setTimeout(() => emitReadingEvent<ReadingHistoryDetail>(
+    READING_HISTORY_EVENT,
+    { ...detail, annotations: rows }
+  ), 0);
 }
 
 type NormalizedMap = { text: string; rawIndexes: number[] };

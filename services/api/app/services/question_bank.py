@@ -137,7 +137,7 @@ class QuestionBank:
 
     @staticmethod
     def _repair_question_copy(test: dict[str, Any]) -> None:
-        """Repair a verified legacy OCR confusion without changing frozen source files."""
+        """Repair the verified leading lowercase-l OCR error in question copy."""
 
         def repair(value: Any) -> Any:
             if not isinstance(value, str):

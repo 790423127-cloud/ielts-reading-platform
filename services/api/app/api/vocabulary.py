@@ -49,6 +49,14 @@ class VocabularyUpdateRequest(BaseModel):
     status: Literal["learning", "mastered"] = "learning"
 
 
+class VocabularySelectionExportRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    user_id: str = Field(default="owner", min_length=1, max_length=120)
+    item_ids: list[str] = Field(default_factory=list, max_length=5000)
+    only_unexported: bool = False
+
+
 def vocabulary_repository() -> VocabularyRepository:
     return VocabularyRepository(session_repository().database_path)
 
@@ -177,6 +185,38 @@ def export_vocabulary(
         content=body,
         media_type=media_type,
         headers={"Content-Disposition": f'attachment; filename="{filename}"'},
+    )
+
+
+@router.post("/export")
+def export_selected_vocabulary(payload: VocabularySelectionExportRequest) -> Response:
+    repository = vocabulary_repository()
+    items = (
+        repository.items_by_ids(user_id=payload.user_id, item_ids=payload.item_ids)
+        if payload.item_ids
+        else repository.list_items(user_id=payload.user_id, limit=5000)
+    )
+    if payload.only_unexported:
+        items = [item for item in items if not item["exported_before"]]
+    if not items:
+        raise HTTPException(status_code=409, detail="没有可导出的单词")
+
+    terms = [str(item["term"]).strip() for item in items if str(item["term"]).strip()]
+    body = "\n".join(terms)
+    repository.mark_exported(
+        user_id=payload.user_id,
+        item_ids=[str(item["id"]) for item in items],
+    )
+    date_stamp = datetime.now(timezone.utc).strftime("%Y%m%d")
+    scope = "unexported" if payload.only_unexported else "selected"
+    return Response(
+        content=body,
+        media_type="text/plain; charset=utf-8",
+        headers={
+            "Content-Disposition": (
+                f'attachment; filename="ielts-vocabulary-{scope}-{date_stamp}.txt"'
+            )
+        },
     )
 
 

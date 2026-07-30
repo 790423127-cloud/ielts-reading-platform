@@ -1388,7 +1388,7 @@
               "accepted_answers": [
                 "carpets"
               ],
-              "analysis": "题干提到“floors are covered by ___ , especially at entrances”，原文第八段指出“The use of carpets can help to reduce falls and can be especially helpful at main doors”。“carpets”被明确推荐用于入口区域以防滑倒，因此答案为 carpets。",
+              "analysis": "题干提到“floors are covered by ___, especially at entrances”，原文第八段指出“The use of carpets can help to reduce falls and can be especially helpful at main doors”。“carpets”被明确推荐用于入口区域以防滑倒，因此答案为 carpets。",
               "reason": "原文直接对应。",
               "location_analysis": "入口铺设地毯减少滑倒。",
               "paraphrasing": "floors covered by carpets -> the use of carpets can help to reduce falls and can be especially helpful at main doors",
@@ -1737,7 +1737,7 @@
         {
           "label": "",
           "index": 15,
-          "text": "Lasting symbols of the imagination of Roman engineers are the many arched bridges and viaducts still standing today that helped achieve the engineers’ straight-line goal. The Romans built to last, and the piers of bridges which crossed rivers, for example, were often built with a resistant prow-shape and used massive durable blocks of stone, while the upper parts might be built of stone blocks strengthened with iron clamps. Perhaps the most impressive bridge was at Narni; 180 metres long, 8 metres wide and as high as 33 metres, it had 4 massive semicircular arches, one of which, stretching 32.1 metres,ranks as one of the longest block-arch spans in the ancient world. Recently hit by earthquakes, it is now having to undergo restoration work to repair the effects.",
+          "text": "Lasting symbols of the imagination of Roman engineers are the many arched bridges and viaducts still standing today that helped achieve the engineers’ straight-line goal. The Romans built to last, and the piers of bridges which crossed rivers, for example, were often built with a resistant prow-shape and used massive durable blocks of stone, while the upper parts might be built of stone blocks strengthened with iron clamps. Perhaps the most impressive bridge was at Narni; 180 metres long, 8 metres wide and as high as 33 metres, it had 4 massive semicircular arches, one of which, stretching 32.1 metres, ranks as one of the longest block-arch spans in the ancient world. Recently hit by earthquakes, it is now having to undergo restoration work to repair the effects.",
           "translation": "罗马工程师想象力的持久象征是至今仍屹立不倒的许多拱桥和渡槽，它们帮助实现了工程师们直线铺设的目标。\n罗马人的建筑经久耐用，例如，跨越河流的桥梁桥墩通常被建成抗冲击的船首形状，并使用巨大耐用的石块，而上部则可能采用铁夹加固的石块建造。\n也许最令人印象深刻的桥是纳尔尼桥；它长180米，宽8米，高33米，拥有4个巨大的半圆形拱门，其中一个跨度达32.1米，堪称古代世界最长的块石拱跨度之一。\n最近该桥遭受了地震袭击，现在必须进行修复工作以弥补损坏。"
         },
         {
@@ -2509,7 +2509,7 @@
         },
         {
           "index": 40,
-          "sentence": "Perhaps the most impressive bridge was at Narni; 180 metres long, 8 metres wide and as high as 33 metres, it had 4 massive semicircular arches, one of which, stretching 32.1 metres,ranks as one of the longest block-arch spans in the ancient world.",
+          "sentence": "Perhaps the most impressive bridge was at Narni; 180 metres long, 8 metres wide and as high as 33 metres, it had 4 massive semicircular arches, one of which, stretching 32.1 metres, ranks as one of the longest block-arch spans in the ancient world.",
           "translation": "也许最令人印象深刻的桥是纳尔尼桥；它长180米，宽8米，高33米，拥有4个巨大的半圆形拱门，其中一个跨度达32.1米，堪称古代世界最长的块石拱跨度之一。"
         },
         {

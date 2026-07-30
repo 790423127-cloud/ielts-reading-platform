@@ -6,24 +6,35 @@ import {
   fetchSession,
   fetchSessions,
   fetchTests,
+  sessionReportDownloadUrl,
   submitSession,
   type PublicPart,
   type PublicQuestion,
   type PublicQuestionGroup,
   type PublicTest,
+  type QuestionResult,
   type QuestionOption,
   type ScoringResult,
   type SessionSummary,
   type TestIndexItem
 } from "@/lib/api";
+import {
+  beginReadingAttempt,
+  readAnnotationsForSubmission,
+  READING_ANNOTATIONS_EVENT,
+  type ReadingAnnotation,
+  type ReadingAttemptDetail
+} from "@/lib/readingAnnotations";
 
 type ExamMode = "mock_exam" | "study" | "part_practice";
 type Screen = "library" | "exam" | "result";
 type AnswerValue = string | string[];
+type ResultQuestionFilter = "all" | "wrong" | "correct" | "unanswered";
 
 type DraftState = {
   answers: Record<string, AnswerValue>;
   flagged: Record<string, boolean>;
+  annotations?: ReadingAnnotation[];
   elapsedSeconds: number;
   remainingSeconds: number | null;
   partElapsedSeconds?: Record<string, number>;
@@ -39,7 +50,7 @@ type DraftSummary = DraftState & { key: string; testId: string };
 
 const USER_ID = "owner";
 const READING_FONT_SIZES = [15, 17, 19, 21, 23] as const;
-const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v2";
+const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v4";
 
 function normalizeReadingFontSize(value: unknown): number {
   if (value === null || value === undefined || String(value).trim() === "") return 17;
@@ -118,34 +129,6 @@ function structuredTemplateParts(text: string, questions: Map<string, PublicQues
   return String(text || "").split(questionPlaceholder);
 }
 
-function looksLikePassageHeading(text: string, index: number, paragraphs: NonNullable<PublicPart["paragraphs"]>): boolean {
-  const value = text.trim();
-  if (!value || value.length > 90 || /[.!]$/.test(value) || /^[-•·▪●]/.test(value)) return false;
-  if (/\s[-–—]\s/.test(value)) return false;
-  if (/^[A-Z]$/.test(value) || /^[ivxlcdm]{1,5}$/i.test(value) || /^\([^)]*\)$/.test(value)) return false;
-  const words = value.split(/\s+/);
-  if (words.length > 12) return false;
-
-  const nextText = String(paragraphs[index + 1]?.text || "").trim();
-  if (nextText.length <= 45 && !/^[-•·▪●]/.test(nextText)) return false;
-
-  const obviousProse = /^(?:for example|for every)\b/i.test(value)
-    || (/^(?:this|these|those|it|they|he|she|we|i|however|although|because|since|while|meanwhile)\b/i.test(value)
-      && words.length >= 6);
-  const namedSubjectProse = /^[A-Za-z][\w&'.-]*(?:\s+[A-Za-z][\w&'.-]*){0,3}\s+(?:is|are|has|have|offers|provides|will|can)\b/i.test(value)
-    && words.length >= 8;
-  if (obviousProse || namedSubjectProse) return false;
-
-  const previousText = String(paragraphs[index - 1]?.text || "").trim();
-  const separatedFromBody = index === 0
-    || previousText.length > 45
-    || /[.!?]$/.test(previousText)
-    || /^[-•·▪●]/.test(previousText);
-  const titleLike = value === value.toUpperCase()
-    || words.filter((word) => /^[A-Z][a-z]/.test(word)).length >= Math.ceil(words.length / 2);
-  return titleLike || separatedFromBody;
-}
-
 function looksLikePassageCategory(text: string): boolean {
   const value = text.trim();
   return /^(?:for\s+(?:under|over)|under|over)\s+[$£€]\s*\d+/i.test(value)
@@ -157,20 +140,133 @@ function passageListingParts(text: string): { label: string; detail: string } | 
   return match ? { label: match[1].trim(), detail: match[2].trim() } : null;
 }
 
+type PassageParagraph = NonNullable<PublicPart["paragraphs"]>[number];
+type PassageSection = {
+  cue?: PassageParagraph["question_cue"];
+  paragraphs: PassageParagraph[];
+};
+
+function splitPassageSections(part: PublicPart): PassageSection[] {
+  const sections: PassageSection[] = [{ paragraphs: [] }];
+  for (const paragraph of part.paragraphs || []) {
+    if (paragraph.question_cue) {
+      sections.push({ cue: paragraph.question_cue, paragraphs: [paragraph] });
+      continue;
+    }
+    sections[sections.length - 1].paragraphs.push(paragraph);
+  }
+  return sections.filter((section) => section.paragraphs.length > 0);
+}
+
+function isPassageDocumentHeading(text: string): boolean {
+  const value = text.trim();
+  const letters = value.replace(/[^A-Za-z]/g, "");
+  return value.length <= 96 && letters.length >= 4 && value === value.toUpperCase();
+}
+
+function passageSectionHasDocumentFrame(section: PassageSection): boolean {
+  const texts = section.paragraphs.map((paragraph) => String(paragraph.text || "").trim());
+  const bulletCount = texts.filter((text) => /^(?:•|-)\s+/.test(text)).length;
+  const headingCount = texts.filter(isPassageDocumentHeading).length;
+  return bulletCount >= 3 && headingCount >= 1;
+}
+
+function PassageRichText({ text }: { text: string }) {
+  return text.split(/(\bInterExchange\b)/g).filter(Boolean).map((part, index) =>
+    part === "InterExchange"
+      ? <strong className="passage-brand" key={`brand-${index}`}>{part}</strong>
+      : <Fragment key={`copy-${index}`}>{part}</Fragment>
+  );
+}
+
+function PassageParagraphBlock({
+  paragraph,
+  index,
+  documentFrame
+}: {
+  paragraph: PassageParagraph;
+  index: number;
+  documentFrame: boolean;
+}) {
+  const text = repairDisplayText(String(paragraph.text || "").trim());
+  if (!text) return null;
+  if (paragraph.table) return <PassageTable paragraph={paragraph} />;
+
+  const isSectionLetter = /^[A-Z]$/.test(text) && !paragraph.label;
+  const isLabelled = Boolean(paragraph.label && /^[A-Z]$/.test(paragraph.label.trim()));
+  const isCategory = looksLikePassageCategory(text);
+  const listing = passageListingParts(text);
+  const isLegend = /^(?:[A-Z]\s+for\s+\w+\s*){2,}/i.test(text);
+  const isDocumentHeading = documentFrame && isPassageDocumentHeading(text);
+  const isDocumentIntro = documentFrame && index === 0 && text.includes("?");
+  const isDocumentEmphasis = documentFrame
+    && /^(?:Only\b.*!|Call\b|Sign up\b)/i.test(text);
+  const isBullet = /^(?:•|-)\s+/.test(text);
+  const content = <PassageRichText text={text} />;
+
+  if (isSectionLetter) return <div className="passage-section-letter passage-unit">{content}</div>;
+  if (isLabelled) {
+    return (
+      <div className="passage-paragraph passage-labelled">
+        <strong>{paragraph.label}</strong>
+        <p className="passage-unit">{content}</p>
+      </div>
+    );
+  }
+  if (isDocumentHeading) return <h2 className="passage-document-heading passage-unit">{content}</h2>;
+  if (isDocumentIntro) return <p className="passage-document-intro passage-unit">{content}</p>;
+  if (isDocumentEmphasis) return <p className="passage-document-emphasis passage-unit">{content}</p>;
+  if (isCategory) return <h2 className="passage-category-heading passage-unit">{content}</h2>;
+  if (listing) {
+    return (
+      <p className="passage-listing passage-unit">
+        <strong>{listing.label}</strong>
+        <span><PassageRichText text={listing.detail} /></span>
+      </p>
+    );
+  }
+  if (isLegend) return <p className="passage-legend passage-unit">{content}</p>;
+  return (
+    <p className={isBullet ? "passage-paragraph passage-bullet passage-unit" : "passage-paragraph passage-unit"}>
+      {content}
+    </p>
+  );
+}
+
 function PassageTable({ paragraph }: { paragraph: NonNullable<PublicPart["paragraphs"]>[number] }) {
   const table = paragraph.table;
   if (!table) return null;
+  const columnCount = Math.max(1, table.headers.length, ...table.rows.map((row) => row.length));
+  const hasMergedHeading = Boolean(
+    table.headers[0]?.trim()
+    && table.headers.length > 1
+    && table.headers.slice(1).every((header) => !header.trim())
+  );
+  const tableClassName = columnCount >= 5
+    ? "passage-source-table passage-source-table--wide passage-unit"
+    : "passage-source-table passage-unit";
+  const renderHeaders = () => (
+    <tr>
+      {hasMergedHeading ? (
+        <th className="passage-source-table-group-heading" colSpan={columnCount} scope="colgroup">
+          {table.headers[0]}
+        </th>
+      ) : table.headers.map((header, index) => (
+        <th scope="col" key={`passage-table-header-${index}`}>{header}</th>
+      ))}
+    </tr>
+  );
   return (
-    <div className="passage-source-table passage-unit">
+    <div className={tableClassName}>
       <table>
         {table.caption ? <caption>{table.caption}</caption> : null}
         {table.intro ? (
           <thead>
-            <tr><td colSpan={Math.max(1, table.headers.length)}>{table.intro}</td></tr>
-            <tr>{table.headers.map((header) => <th scope="col" key={header}>{header}</th>)}</tr>
+            <tr><td colSpan={columnCount}>{table.intro}</td></tr>
+            {renderHeaders()}
           </thead>
         ) : (
-          <thead><tr>{table.headers.map((header) => <th scope="col" key={header}>{header}</th>)}</tr></thead>
+          <thead>{renderHeaders()}</thead>
         )}
         <tbody>
           {table.rows.map((row, rowIndex) => (
@@ -192,8 +288,49 @@ function PassageTable({ paragraph }: { paragraph: NonNullable<PublicPart["paragr
   );
 }
 
+function PassageContent({ part }: { part: PublicPart }) {
+  const passageTitle = resolvedPassageTitle(part);
+  const sections = splitPassageSections(part);
+  return (
+    <div className="passage-copy">
+      {part.subtitle ? <p className="passage-subtitle">{part.subtitle}</p> : null}
+      {sections.map((section, sectionIndex) => {
+        const cue = section.cue;
+        const cueRange = cue
+          ? (cue.start === cue.end ? String(cue.start) : `${cue.start}–${cue.end}`)
+          : "";
+        const documentFrame = passageSectionHasDocumentFrame(section);
+        return (
+          <Fragment key={`passage-section-${sectionIndex}`}>
+            {cue ? (
+              <div className="passage-question-cue" role="note">
+                <strong>Questions {cueRange}</strong>
+                <span>Read the text below and answer Questions {cueRange}.</span>
+              </div>
+            ) : null}
+            <div className={documentFrame ? "passage-section passage-section--document" : "passage-section"}>
+              {sectionIndex === 0 && passageTitle
+                ? <h1 className="passage-main-title">{passageTitle}</h1>
+                : null}
+              {section.paragraphs.map((paragraph, paragraphIndex) => (
+                <PassageParagraphBlock
+                  documentFrame={documentFrame}
+                  index={paragraphIndex}
+                  key={`${paragraph.index ?? paragraphIndex}-${String(paragraph.text || "").slice(0, 20)}`}
+                  paragraph={paragraph}
+                />
+              ))}
+            </div>
+          </Fragment>
+        );
+      })}
+    </div>
+  );
+}
+
 const INSTRUCTION_EMPHASIS = /\b(NO MORE THAN(?:\s+[A-Z]+){0,5}|ONE WORD ONLY|TRUE|FALSE|NOT GIVEN|YES|NO|A NUMBER)\b/g;
 const INSTRUCTION_EMPHASIS_EXACT = /^(?:NO MORE THAN(?:\s+[A-Z]+){0,5}|ONE WORD ONLY|TRUE|FALSE|NOT GIVEN|YES|NO|A NUMBER)$/;
+const INSTRUCTION_ACTION_LINE = /^(?:Choose|Write|In boxes?|Read each|Complete|Answer|Select|Match|Label|Fill|Use|Drag|TRUE|FALSE|NOT GIVEN|YES|NO)\b/i;
 
 function InstructionLine({ children }: { children: string }) {
   return (
@@ -233,7 +370,11 @@ function QuestionInstructions({ group }: { group: PublicQuestionGroup }) {
         <span>{group.question_label || group.question_subtype}</span>
       </div>
       <div className="question-instructions-copy">
-        {details.map((line, index) => <p key={`${line}-${index}`}><InstructionLine>{line}</InstructionLine></p>)}
+        {details.map((line, index) => (
+          <p className={INSTRUCTION_ACTION_LINE.test(line) ? "instruction-action-line" : undefined} key={`${line}-${index}`}>
+            <InstructionLine>{line}</InstructionLine>
+          </p>
+        ))}
       </div>
     </div>
   );
@@ -384,6 +525,131 @@ function modeLabel(mode: ExamMode): string {
   return "整套学习";
 }
 
+function reviewValueText(value: unknown): string {
+  if (value == null) return "";
+  if (typeof value === "string" || typeof value === "number") return repairDisplayText(String(value)).trim();
+  if (Array.isArray(value)) return value.map(reviewValueText).filter(Boolean).join("；");
+  if (typeof value === "object") {
+    return Object.entries(value as Record<string, unknown>)
+      .map(([key, item]) => {
+        const text = reviewValueText(item);
+        return text ? `${key}：${text}` : "";
+      })
+      .filter(Boolean)
+      .join("；");
+  }
+  return String(value);
+}
+
+function reviewOptionText(value: unknown): string {
+  if (typeof value === "string" || typeof value === "number") return repairDisplayText(String(value)).trim();
+  if (!value || typeof value !== "object") return "";
+  const option = value as Record<string, unknown>;
+  const code = reviewValueText(option.code ?? option.label ?? option.value);
+  const text = reviewValueText(option.text ?? option.content ?? option.title);
+  if (!text) return code;
+  return code && text !== code ? `${code}. ${text}` : text;
+}
+
+function questionReviewStatus(question: QuestionResult): ResultQuestionFilter {
+  if (!String(question.user_answer || "").trim()) return "unanswered";
+  return question.is_correct ? "correct" : "wrong";
+}
+
+function historicalAnswerValue(question: QuestionResult): AnswerValue {
+  const value = String(question.user_answer || "").trim();
+  if (question.question_subtype === "multiple_choice_multiple") {
+    return value.split(/\s*,\s*/).filter(Boolean);
+  }
+  return value;
+}
+
+function reviewAnswerTokens(value: string | undefined): string[] {
+  return String(value || "")
+    .split(/\s*[,;|]\s*/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function answerReviewClass(option: string, results: QuestionResult[]): string {
+  const wrongResults = results.filter((result) => !result.is_correct);
+  const correctAnswers = new Set(wrongResults.flatMap((result) => reviewAnswerTokens(result.correct_answer)));
+  const userAnswers = new Set(wrongResults.flatMap((result) => reviewAnswerTokens(result.user_answer)));
+  if (correctAnswers.has(option)) return " review-correct-option";
+  if (userAnswers.has(option)) return " review-user-wrong-option";
+  return "";
+}
+
+function InlineAnswerReview({ question }: { question: QuestionResult | undefined }) {
+  if (!question || question.is_correct) return null;
+  const unanswered = questionReviewStatus(question) === "unanswered";
+  return (
+    <span className={`inline-answer-review${unanswered ? " unanswered" : " wrong"}`}>
+      <span>{unanswered ? "未作答" : <>你的答案 <b>{question.user_answer}</b></>}</span>
+      <strong>正确答案 <b>{question.correct_answer || "题库暂未提供"}</b></strong>
+    </span>
+  );
+}
+
+function ResultQuestionCard({ question }: { question: QuestionResult }) {
+  const status = questionReviewStatus(question);
+  const statusLabel = status === "correct" ? "回答正确" : status === "unanswered" ? "未作答" : "回答错误";
+  const explanation = reviewValueText(question.analysis || question.reason);
+  const location = reviewValueText(question.location_analysis);
+  const paraphrasing = reviewValueText(question.paraphrasing);
+  const keywords = reviewValueText(question.keywords);
+  const wrongReasons = reviewValueText(question.wrong_reasons);
+  const options = (question.options || []).map(reviewOptionText).filter(Boolean);
+
+  return (
+    <details className={`result-question-card ${status}`} open={status !== "correct"}>
+      <summary>
+        <span className="result-question-number">Q{question.number}</span>
+        <span className={`result-status-badge ${status}`}>{statusLabel}</span>
+        <span className="result-question-meta">Part {question.part_number} · {question.question_type} · 用时 {formatSeconds(question.elapsed_seconds || 0)}</span>
+        <strong className="result-question-prompt">{displayMarkup(question.prompt)}</strong>
+        <span className="result-detail-toggle">查看完整解析</span>
+      </summary>
+      <div className="result-question-body">
+        {question.instructions ? (
+          <section className="result-explanation-block instruction">
+            <span>题目要求</span>
+            <p>{displayMarkup(question.instructions)}</p>
+          </section>
+        ) : null}
+        {options.length ? (
+          <section className="result-explanation-block">
+            <span>原题选项</span>
+            <ol className="result-option-list">
+              {options.map((option, index) => <li key={`${question.id}-option-${index}`}>{option}</li>)}
+            </ol>
+          </section>
+        ) : null}
+        <div className="answer-comparison">
+          <article><span>你的答案</span><strong>{question.user_answer || "未作答"}</strong></article>
+          <article><span>正确答案</span><strong>{question.correct_answer || "题库暂未提供"}</strong></article>
+        </div>
+        {question.answer_error_type === "word_limit_exceeded" ? <p className="result-warning">答案超过题目规定的词数限制。</p> : null}
+        <div className="result-analysis-grid">
+          {explanation ? <section className="result-explanation-block"><span>答案解析</span><p>{explanation}</p></section> : null}
+          {location ? <section className="result-explanation-block"><span>定位分析</span><p>{location}</p></section> : null}
+          {paraphrasing ? <section className="result-explanation-block"><span>同义替换</span><p>{paraphrasing}</p></section> : null}
+          {keywords ? <section className="result-explanation-block"><span>关键词</span><p>{keywords}</p></section> : null}
+          {wrongReasons ? <section className="result-explanation-block"><span>易错原因</span><p>{wrongReasons}</p></section> : null}
+        </div>
+        {question.evidence?.length ? (
+          <blockquote className="result-evidence">
+            <strong>原文定位句</strong>
+            {question.evidence.map((item, index) => <p key={`${question.id}-evidence-${index}`}>{item}</p>)}
+          </blockquote>
+        ) : (
+          <p className="result-evidence-missing">本题源数据暂未提供可核验的定位句；报告不会猜测或伪造证据。</p>
+        )}
+      </div>
+    </details>
+  );
+}
+
 export default function ExamWorkbench() {
   const [screen, setScreen] = useState<Screen>("library");
   const [tests, setTests] = useState<TestIndexItem[]>([]);
@@ -403,6 +669,12 @@ export default function ExamWorkbench() {
   const [clientSubmissionId, setClientSubmissionId] = useState("");
   const [draftKey, setDraftKey] = useState("");
   const [result, setResult] = useState<ScoringResult | null>(null);
+  const [resultSessionId, setResultSessionId] = useState("");
+  const [resultQuestionFilter, setResultQuestionFilter] = useState<ResultQuestionFilter>("all");
+  const [resultPartFilter, setResultPartFilter] = useState<number | "all">("all");
+  const [resultSourcePart, setResultSourcePart] = useState<number | null>(null);
+  const [resultAnnotationsOpen, setResultAnnotationsOpen] = useState(false);
+  const [historyEntrySource, setHistoryEntrySource] = useState(false);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
@@ -413,12 +685,14 @@ export default function ExamWorkbench() {
   const [showDrafts, setShowDrafts] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
   const [paused, setPaused] = useState(false);
-  const [paneRatio, setPaneRatio] = useState(40);
+  const [paneRatio, setPaneRatio] = useState(45);
+  const [annotationCount, setAnnotationCount] = useState(0);
   const timedOutRef = useRef(false);
   const activePartRef = useRef(1);
   const activeQuestionIdRef = useRef("");
   const activeQuestionLockUntilRef = useRef(0);
   const draftSnapshotRef = useRef<DraftState | null>(null);
+  const initialHistorySessionRef = useRef(false);
 
   useEffect(() => {
     activeQuestionIdRef.current = activeQuestionId;
@@ -427,6 +701,16 @@ export default function ExamWorkbench() {
   useEffect(() => {
     activePartRef.current = activePart;
   }, [activePart]);
+
+  useEffect(() => {
+    function onAnnotations(event: Event) {
+      const detail = (event as CustomEvent<ReadingAttemptDetail>).detail;
+      if (!detail) return;
+      setAnnotationCount(detail.annotations.length);
+    }
+    window.addEventListener(READING_ANNOTATIONS_EVENT, onAnnotations);
+    return () => window.removeEventListener(READING_ANNOTATIONS_EVENT, onAnnotations);
+  }, []);
 
   useEffect(() => {
     setReadingFontSize(normalizeReadingFontSize(window.localStorage.getItem("ielts-passage-font-size")));
@@ -438,6 +722,14 @@ export default function ExamWorkbench() {
     refreshDrafts();
   }, []);
 
+  useEffect(() => {
+    if (initialHistorySessionRef.current) return;
+    const sessionId = new URLSearchParams(window.location.search).get("session");
+    if (!sessionId) return;
+    initialHistorySessionRef.current = true;
+    void openHistory(sessionId, true);
+  }, []);
+
   function refreshDrafts() {
     const rows: DraftSummary[] = [];
     for (let index = 0; index < window.localStorage.length; index += 1) {
@@ -447,7 +739,8 @@ export default function ExamWorkbench() {
         const value = JSON.parse(window.localStorage.getItem(key) || "") as DraftState;
         const hasAnswers = Object.values(value.answers || {}).some(answerIsPresent);
         const hasFlags = Object.values(value.flagged || {}).some(Boolean);
-        if (!hasAnswers && !hasFlags) continue;
+        const hasAnnotations = Array.isArray(value.annotations) && value.annotations.length > 0;
+        if (!hasAnswers && !hasFlags && !hasAnnotations) continue;
         rows.push({ ...value, key, testId: key.split(":")[1] || "" });
       } catch {
         // Ignore malformed browser storage; no server data is affected.
@@ -492,11 +785,12 @@ export default function ExamWorkbench() {
     }).length,
     [questionRows, answers]
   );
-  const hasDraftProgress = answeredCount > 0 || Object.values(flagged).some(Boolean);
+  const hasDraftProgress = answeredCount > 0 || Object.values(flagged).some(Boolean) || annotationCount > 0;
 
   draftSnapshotRef.current = screen === "exam" && draftKey && clientSubmissionId ? {
     answers,
     flagged,
+    annotations: test ? readAnnotationsForSubmission(test.id, partNumbers) : [],
     elapsedSeconds,
     remainingSeconds,
     partElapsedSeconds,
@@ -566,14 +860,19 @@ export default function ExamWorkbench() {
 
   const persistCurrentDraft = useCallback((): DraftState | null => {
     if (screen !== "exam" || !draftKey || !clientSubmissionId) return null;
-    const draft = draftSnapshotRef.current;
-    if (!draft) return null;
+    const snapshot = draftSnapshotRef.current;
+    if (!snapshot) return null;
+    const draft: DraftState = {
+      ...snapshot,
+      annotations: test ? readAnnotationsForSubmission(test.id, partNumbers) : []
+    };
     const hasAnswers = Object.values(draft.answers).some(answerIsPresent);
     const hasFlags = Object.values(draft.flagged).some(Boolean);
-    if (!hasAnswers && !hasFlags) return null;
+    const hasAnnotations = Boolean(draft.annotations?.length);
+    if (!hasAnswers && !hasFlags && !hasAnnotations) return null;
     window.localStorage.setItem(draftKey, JSON.stringify(draft));
     return draft;
-  }, [clientSubmissionId, draftKey, screen]);
+  }, [clientSubmissionId, draftKey, partNumbers, screen, test]);
 
   const submitCurrent = useCallback(async (timedOut = false) => {
     if (!test || submitting) return;
@@ -595,9 +894,16 @@ export default function ExamWorkbench() {
         question_elapsed_seconds: submittedQuestionTimings(test, partNumbers, questionElapsedSeconds),
         exam_mode: mode,
         part_numbers: partNumbers,
-        timed_out: timedOut
+        timed_out: timedOut,
+        annotations: readAnnotationsForSubmission(test.id, partNumbers)
       });
       setResult(response.result);
+      setResultAnnotationsOpen(false);
+      setResultSessionId(response.session_id);
+      setHistoryEntrySource(false);
+      setResultQuestionFilter(response.result.wrong_questions.length ? "wrong" : "all");
+      setResultPartFilter("all");
+      setResultSourcePart(Number(response.result.wrong_questions[0]?.part_number || response.result.part_results[0]?.part_number || 1));
       setScreen("result");
       if (draftKey) window.localStorage.removeItem(draftKey);
       await refreshHistory();
@@ -663,9 +969,18 @@ export default function ExamWorkbench() {
         ? draft.activeQuestionId
         : firstQuestionId(selectedParts(loaded, nextParts)[0]);
       setActiveQuestionId(restoredQuestionId);
-      setClientSubmissionId(draft?.clientSubmissionId || newSubmissionId());
+      const nextSubmissionId = draft?.clientSubmissionId || newSubmissionId();
+      setClientSubmissionId(nextSubmissionId);
+      beginReadingAttempt({
+        attemptId: nextSubmissionId,
+        testId: loaded.id,
+        testTitle: loaded.title,
+        annotations: draft?.annotations || []
+      });
       setDraftKey(key);
       setResult(null);
+      setResultSessionId("");
+      setHistoryEntrySource(false);
       timedOutRef.current = false;
       setPaused(false);
       if (draft) setNotice("已从草稿管理器继续上次未完成的答案和计时。");
@@ -779,13 +1094,25 @@ export default function ExamWorkbench() {
     });
   }
 
-  async function openHistory(sessionId: string) {
+  async function openHistory(sessionId: string, fromHistoryCenter = false) {
     setLoading(true);
     setError("");
     try {
       const session = await fetchSession(sessionId, USER_ID);
+      let sourceTest: PublicTest | null = null;
+      try {
+        sourceTest = await fetchPublicTest(session.result.test_id);
+      } catch {
+        // The score report remains available even if the public passage cannot be reloaded.
+      }
       setResult(session.result);
-      setTest(null);
+      setResultAnnotationsOpen(false);
+      setResultSessionId(sessionId);
+      setHistoryEntrySource(fromHistoryCenter);
+      setResultQuestionFilter(session.result.wrong_questions.length ? "wrong" : "all");
+      setResultPartFilter("all");
+      setResultSourcePart(Number(session.result.wrong_questions[0]?.part_number || session.result.part_results[0]?.part_number || 1));
+      setTest(sourceTest);
       setScreen("result");
     } catch (reason: unknown) {
       setError(reason instanceof Error ? reason.message : "记录读取失败");
@@ -806,7 +1133,6 @@ export default function ExamWorkbench() {
 
   if (screen === "exam" && test) {
     const active = currentParts.find((part) => Number(part.number) === activePart) || currentParts[0];
-    const activePassageTitle = active ? resolvedPassageTitle(active) : "";
     const activeQuestionMeta = active?.groups
       .map((group) => {
         const question = group.questions.find((item) => controlQuestionId(group, item) === activeQuestionId);
@@ -890,6 +1216,10 @@ export default function ExamWorkbench() {
         </header>
         {notice ? <div className="exam-notice">{notice}</div> : null}
         {error ? <div className="exam-error">{error}</div> : null}
+        <div className="exam-partbar">
+          <strong>Part {active.number}</strong>
+          <span>Read the text below and answer questions {partQuestionRange(active)}</span>
+        </div>
         <div className="mobile-pane-tabs" role="tablist" aria-label="切换原文和题目">
           <button
             type="button"
@@ -910,7 +1240,7 @@ export default function ExamWorkbench() {
           <div
             className="exam-grid"
             style={{
-              gridTemplateColumns: `minmax(0, ${paneRatio}fr) 15px minmax(0, ${100 - paneRatio}fr)`
+              gridTemplateColumns: `minmax(0, ${paneRatio}fr) 8px minmax(0, ${100 - paneRatio}fr)`
             }}
           >
             <section className={mobilePane === "passage" ? "passage-pane" : "passage-pane mobile-hidden"} aria-label={`Part ${active.number} 原文`}>
@@ -918,50 +1248,7 @@ export default function ExamWorkbench() {
                 <strong>Part {active.number}</strong>
                 <span>阅读原文并回答第 {partQuestionRange(active)} 题</span>
               </div>
-              <div className="passage-copy">
-                {activePassageTitle ? <h1 className="passage-main-title">{activePassageTitle}</h1> : null}
-                {active.subtitle ? <p className="passage-subtitle">{active.subtitle}</p> : null}
-                {(active.paragraphs || []).map((paragraph, index, paragraphs) => {
-                  const text = repairDisplayText(String(paragraph.text || "").trim());
-                  if (!text) return null;
-                  const key = `${paragraph.index ?? index}-${text.slice(0, 20)}`;
-                  const cue = paragraph.question_cue;
-                  const isSectionLetter = /^[A-Z]$/.test(text) && !paragraph.label;
-                  const isLabelled = Boolean(paragraph.label && /^[A-Z]$/.test(paragraph.label.trim()));
-                  const isCategory = looksLikePassageCategory(text);
-                  const listing = passageListingParts(text);
-                  const isLegend = /^(?:[A-Z]\s+for\s+\w+\s*){2,}/i.test(text);
-                  const isHeading = Boolean(cue) || looksLikePassageHeading(text, index, paragraphs);
-                  const cueRange = cue ? (cue.start === cue.end ? String(cue.start) : `${cue.start}–${cue.end}`) : "";
-                  return (
-                    <Fragment key={key}>
-                      {cue ? (
-                        <div className="passage-question-cue" role="note">
-                          <strong>Questions {cueRange}</strong>
-                          <span>Read the text below and answer Questions {cueRange}.</span>
-                        </div>
-                      ) : null}
-                      {paragraph.table ? (
-                        <PassageTable paragraph={paragraph} />
-                      ) : isSectionLetter ? (
-                        <div className="passage-section-letter passage-unit">{text}</div>
-                      ) : isLabelled ? (
-                        <div className="passage-paragraph passage-labelled"><strong>{paragraph.label}</strong><p className="passage-unit">{text}</p></div>
-                      ) : isCategory ? (
-                        <h2 className="passage-category-heading passage-unit">{text}</h2>
-                      ) : listing ? (
-                        <p className="passage-listing passage-unit"><strong>{listing.label}</strong><span>{listing.detail}</span></p>
-                      ) : isLegend ? (
-                        <p className="passage-legend passage-unit">{text}</p>
-                      ) : isHeading ? (
-                        <h2 className="passage-subheading passage-unit">{text}</h2>
-                      ) : (
-                        <p className={/^[-•]/.test(text) ? "passage-paragraph passage-bullet passage-unit" : "passage-paragraph passage-unit"}>{text}</p>
-                      )}
-                    </Fragment>
-                  );
-                })}
-              </div>
+              <PassageContent part={active} />
             </section>
             <div
               className="exam-divider"
@@ -1094,13 +1381,71 @@ export default function ExamWorkbench() {
   }
 
   if (screen === "result" && result) {
+    const questionResults = result.question_results || [];
+    const correctCount = questionResults.filter((question) => question.is_correct).length;
+    const unansweredCount = questionResults.filter((question) => questionReviewStatus(question) === "unanswered").length;
+    const answeredWrongCount = questionResults.filter((question) => questionReviewStatus(question) === "wrong").length;
+    const resultAnnotations = result.annotations || [];
+    const noteCount = resultAnnotations.filter((annotation) => Boolean(annotation.note?.trim())).length;
+    const highlightCount = resultAnnotations.filter((annotation) => annotation.kind === "highlight").length;
+    const typeResults = result.type_results?.length ? result.type_results : (() => {
+      const buckets = new Map<string, { type: string; correct: number; total: number; accuracy: number }>();
+      for (const question of questionResults) {
+        const type = question.question_type || "其他";
+        const bucket = buckets.get(type) || { type, correct: 0, total: 0, accuracy: 0 };
+        bucket.total += 1;
+        if (question.is_correct) bucket.correct += 1;
+        bucket.accuracy = Math.round((bucket.correct / bucket.total) * 1000) / 10;
+        buckets.set(type, bucket);
+      }
+      return [...buckets.values()].sort((left, right) => left.accuracy - right.accuracy || right.total - left.total);
+    })();
+    const filteredQuestions = questionResults.filter((question) => {
+      const statusMatches = resultQuestionFilter === "all"
+        || (resultQuestionFilter === "wrong" ? !question.is_correct : questionReviewStatus(question) === resultQuestionFilter);
+      const partMatches = resultPartFilter === "all" || Number(question.part_number) === resultPartFilter;
+      return statusMatches && partMatches;
+    });
+    const questionsByPart = filteredQuestions.reduce((groups, question) => {
+      const part = Number(question.part_number) || 0;
+      const rows = groups.get(part) || [];
+      rows.push(question);
+      groups.set(part, rows);
+      return groups;
+    }, new Map<number, QuestionResult[]>());
+    const submittedPartNumbers = new Set(result.part_results.map((part) => Number(part.part_number)));
+    const reviewParts = test?.id === result.test_id
+      ? test.parts.filter((part) => submittedPartNumbers.has(Number(part.number)))
+      : [];
+    const firstReviewPart = Number(result.wrong_questions[0]?.part_number || reviewParts[0]?.number || 0);
+    const activeReviewPart = reviewParts.find((part) => Number(part.number) === Number(resultSourcePart || firstReviewPart))
+      || reviewParts[0];
+    const activeReviewQuestions = activeReviewPart
+      ? questionResults.filter((question) => Number(question.part_number) === Number(activeReviewPart.number))
+      : [];
+    const activeReviewQuestionResults = new Map(
+      activeReviewQuestions.map((question) => [String(question.id), question])
+    );
+    const activeHistoricalAnswers = Object.fromEntries(
+      activeReviewQuestions.map((question) => [String(question.id), historicalAnswerValue(question)])
+    );
+
     return (
       <div className="page-wrap result-page">
-        <div className="result-hero">
+        <nav className="result-report-nav" aria-label="报告目录">
+          <a href="#result-overview">总览</a>
+          <a href="#result-source-review">原文与作答</a>
+          <a href="#result-performance">分项表现</a>
+          <a href="#result-review">逐题复盘</a>
+          {resultAnnotations.length ? (
+            <a href="#result-annotations" onClick={() => setResultAnnotationsOpen(true)}>高亮与笔记</a>
+          ) : null}
+        </nav>
+        <div className="result-hero" id="result-overview">
           <div>
-            <p className="eyebrow">SERVER-SCORED RESULT</p>
+            <p className="eyebrow">DETAILED SCORE REPORT</p>
             <h1>{result.test_title}</h1>
-            <p>标准答案、证据和解析仅在服务端交卷后返回。</p>
+            <p>交卷后详细报告 · 标准答案、题库解析与原文证据仅在服务端判分后显示。</p>
           </div>
           <div className="result-score"><strong>{result.score}/{result.total}</strong><span>{result.accuracy}%</span></div>
           {result.band_estimate?.eligible ? (
@@ -1109,37 +1454,223 @@ export default function ExamWorkbench() {
         </div>
         <section className="result-metrics">
           <article><span>用时</span><strong>{formatSeconds(result.total_elapsed_seconds)}</strong></article>
-          <article><span>未作答</span><strong>{result.unanswered_count}</strong></article>
-          <article><span>错题</span><strong>{result.wrong_questions.length}</strong></article>
+          <article className="correct"><span>答对</span><strong>{correctCount}</strong></article>
+          <article className="wrong"><span>答错</span><strong>{answeredWrongCount}</strong></article>
+          <article className="unanswered"><span>未作答</span><strong>{unansweredCount}</strong></article>
           <article><span>模式</span><strong>{result.total === 40 ? "整套" : "Part"}</strong></article>
+          <article><span>高亮 / 笔记</span><strong>{highlightCount} / {noteCount}</strong></article>
         </section>
-        <section className="result-section">
-          <h2>Part表现</h2>
+        <section className={`result-priority-summary ${result.wrong_questions.length ? "has-wrong" : "perfect"}`}>
+          <div>
+            <span>{result.wrong_questions.length ? "优先复盘" : "本次结果"}</span>
+            <strong>{result.wrong_questions.length ? `${result.wrong_questions.length} 道题需要复盘` : "全部答对"}</strong>
+            <p>{result.wrong_questions.length ? "下方已默认只显示错题和未作答题，并展开你的答案与正确答案对比。" : "可以在逐题复盘中展开查看全部题目的答案依据。"}</p>
+          </div>
+          <a href="#result-review" onClick={() => setResultQuestionFilter(result.wrong_questions.length ? "wrong" : "all")}>
+            {result.wrong_questions.length ? "立即查看错题" : "查看全部题目"}
+          </a>
+        </section>
+        <section className="result-section result-source-review" id="result-source-review">
+          <header className="result-section-heading">
+            <div><span>SOURCE REVIEW</span><h2>原文与我的作答记录</h2></div>
+            <p>按 Part 恢复考试时的原文，右侧逐题对照你提交的答案和正确答案；包含错题的 Part 默认展开。</p>
+          </header>
+          {activeReviewPart ? (
+            <div className="result-source-workbench">
+              <nav className="exam-question-dock result-source-part-dock" aria-label="切换报告 Part">
+                <div className="dock-section-strip" role="tablist" aria-label="切换报告 Part 和题目">
+                  {reviewParts.map((part) => {
+                    const partQuestions = questionResults.filter((question) => Number(question.part_number) === Number(part.number));
+                    const partResult = result.part_results.find((item) => Number(item.part_number) === Number(part.number));
+                    const active = Number(part.number) === Number(activeReviewPart.number);
+                    return (
+                      <section className={`dock-section result-source-dock-section${active ? " active" : ""}`} key={part.number}>
+                        <button
+                          type="button"
+                          role="tab"
+                          className="dock-section-label result-source-dock-label"
+                          aria-selected={active}
+                          onClick={() => setResultSourcePart(Number(part.number))}
+                        >
+                          <strong>{active ? `P${part.number}` : `Passage ${part.number}`}</strong>
+                          {!active ? <span>{partResult?.score || 0} of {partQuestions.length}</span> : null}
+                        </button>
+                        {active ? (
+                          <div className="dock-question-list result-source-dock-questions" aria-label={`Part ${part.number} 题号`}>
+                            {partQuestions.map((question) => {
+                              const status = questionReviewStatus(question);
+                              return (
+                                <button
+                                  type="button"
+                                  className={status}
+                                  key={`source-dock-${question.id}`}
+                                  onClick={() => document.getElementById(`question-${question.id}`)?.scrollIntoView({ behavior: "smooth", block: "center" })}
+                                  aria-label={`第${question.number}题，${status === "correct" ? "正确" : status === "unanswered" ? "未作答" : "错误"}`}
+                                >{question.number}</button>
+                              );
+                            })}
+                          </div>
+                        ) : null}
+                      </section>
+                    );
+                  })}
+                </div>
+              </nav>
+              <header className="result-source-active-heading">
+                <div><strong>Part {activeReviewPart.number}</strong><span>{resolvedPassageTitle(activeReviewPart) || activeReviewPart.title}</span></div>
+                <em>{activeReviewQuestions.length} 题 · {activeReviewQuestions.filter((question) => !question.is_correct).length} 题需复盘</em>
+              </header>
+              <div className="result-source-split">
+                <section className="result-source-passage" aria-label={`Part ${activeReviewPart.number} 原文`}>
+                  <header><strong>原文</strong><span>阅读题库原始内容</span></header>
+                  <div className="result-source-scroll"><PassageContent part={activeReviewPart} /></div>
+                </section>
+                <section className="result-source-answers" aria-label={`Part ${activeReviewPart.number} 作答记录`}>
+                  <header><strong>我的作答记录</strong><span>按原做题界面只读还原</span></header>
+                  <div className="result-source-scroll result-source-exam-view">
+                    {activeReviewPart.groups.map((group, groupIndex) => {
+                      const groupResults = group.questions
+                        .map((question) => activeReviewQuestionResults.get(String(question.id)))
+                        .filter((question): question is QuestionResult => Boolean(question));
+                      if (!groupResults.length) return null;
+                      return (
+                        <section className="result-source-question-group" key={group.id || `review-${activeReviewPart.number}-${groupIndex}`}>
+                          <fieldset disabled>
+                            <QuestionGroupControl
+                              group={group}
+                              answers={activeHistoricalAnswers}
+                              flagged={{}}
+                              reviewResults={activeReviewQuestionResults}
+                              onAnswer={() => undefined}
+                              onFlag={() => undefined}
+                            />
+                          </fieldset>
+                        </section>
+                      );
+                    })}
+                  </div>
+                </section>
+              </div>
+            </div>
+          ) : (
+            <div className="result-source-unavailable">
+              <strong>本次成绩和逐题答案仍可正常查看。</strong>
+              <p>原文暂时未能从题库重新载入，请返回练习记录后再次打开本条记录。</p>
+            </div>
+          )}
+        </section>
+        <section className="result-section result-performance-section" id="result-performance">
+          <header className="result-section-heading"><div><span>PERFORMANCE</span><h2>分项表现</h2></div><p>先看 Part，再看题型，快速找到失分集中点。</p></header>
+          <h3>Part 表现</h3>
           <div className="part-result-grid">
             {result.part_results.map((part) => (
-              <article key={part.part_number}><span>Part {part.part_number}</span><strong>{part.score}/{part.total}</strong><small>{part.accuracy}% · {formatSeconds(part.elapsed_seconds || 0)}</small></article>
+              <article key={part.part_number}>
+                <span>Part {part.part_number}</span>
+                <strong>{part.score}/{part.total}</strong>
+                <small>{part.accuracy}% · {formatSeconds(part.elapsed_seconds || 0)}</small>
+                <div className="result-progress" aria-label={`Part ${part.part_number} 正确率 ${part.accuracy}%`}><i style={{ width: `${Math.min(100, Math.max(0, part.accuracy))}%` }} /></div>
+              </article>
             ))}
           </div>
+          <h3 className="result-type-title">题型表现</h3>
+          <div className="result-type-table-wrap">
+            <table className="result-type-table">
+              <thead><tr><th>题型</th><th>答对</th><th>总题数</th><th>正确率</th><th>表现</th></tr></thead>
+              <tbody>{typeResults.map((item) => (
+                <tr key={item.type}>
+                  <td><strong>{item.type}</strong></td>
+                  <td>{item.correct}</td>
+                  <td>{item.total}</td>
+                  <td>{item.accuracy}%</td>
+                  <td><div className="result-progress"><i style={{ width: `${Math.min(100, Math.max(0, item.accuracy))}%` }} /></div></td>
+                </tr>
+              ))}</tbody>
+            </table>
+          </div>
         </section>
-        <section className="result-section">
-          <h2>错题复盘</h2>
-          {result.wrong_questions.length ? (
-            <div className="wrong-result-list">
-              {result.wrong_questions.map((question) => (
-                <article className="wrong-result-card" key={question.id}>
-                  <div><span>Q{question.number} · {question.question_type} · 用时 {formatSeconds(question.elapsed_seconds || 0)}</span><strong>{displayMarkup(question.prompt)}</strong></div>
-                  <div className="answer-comparison"><span>你的答案：{question.user_answer || "未作答"}</span><span>正确答案：{question.correct_answer}</span></div>
-                  {question.answer_error_type === "word_limit_exceeded" ? <p className="result-warning">答案超过题目词数限制。</p> : null}
-                  {question.analysis || question.reason ? <p>{question.analysis || question.reason}</p> : null}
-                  {question.paraphrasing ? <p><b>同义替换：</b>{question.paraphrasing}</p> : null}
-                  {question.evidence?.length ? <blockquote>{question.evidence.join("\n")}</blockquote> : null}
-                </article>
+        <section className="result-section result-review-section" id="result-review">
+          <header className="result-section-heading">
+            <div><span>QUESTION REVIEW</span><h2>逐题复盘</h2></div>
+            <p>完整保留原题、你的答案、正确答案、解析、定位、同义替换和证据句。</p>
+          </header>
+          <div className="result-review-toolbar">
+            <div className="result-filter-group" aria-label="按作答结果筛选">
+              {([
+                ["all", "全部题目", questionResults.length],
+                ["wrong", "错题", result.wrong_questions.length],
+                ["unanswered", "未作答", unansweredCount],
+                ["correct", "答对", correctCount]
+              ] as const).map(([value, label, count]) => (
+                <button type="button" className={resultQuestionFilter === value ? "active" : ""} key={value} onClick={() => setResultQuestionFilter(value)}>
+                  {label}<small>{count}</small>
+                </button>
               ))}
             </div>
-          ) : <div className="perfect-result">全部答对，本次没有错题。</div>}
+            <div className="result-filter-group part-filter" aria-label="按Part筛选">
+              <button type="button" className={resultPartFilter === "all" ? "active" : ""} onClick={() => setResultPartFilter("all")}>全部 Part</button>
+              {result.part_results.map((part) => (
+                <button type="button" className={resultPartFilter === part.part_number ? "active" : ""} key={part.part_number} onClick={() => setResultPartFilter(part.part_number)}>Part {part.part_number}</button>
+              ))}
+            </div>
+          </div>
+          <p className="result-review-count">当前显示 {filteredQuestions.length} / {questionResults.length} 题。错题与未作答题默认展开；答对题可按需展开。</p>
+          {filteredQuestions.length ? (
+            <div className="result-question-groups">
+              {[...questionsByPart.entries()].sort(([left], [right]) => left - right).map(([partNumber, questions]) => (
+                <section className="result-part-review" key={partNumber}>
+                  <header><h3>Part {partNumber}</h3><span>{questions.length} 题</span></header>
+                  <div className="result-question-list">
+                    {questions.map((question) => <ResultQuestionCard question={question} key={question.id} />)}
+                  </div>
+                </section>
+              ))}
+            </div>
+          ) : <div className="perfect-result">当前筛选条件下没有题目。</div>}
         </section>
+        {resultAnnotations.length ? (
+          <section
+            className={`result-section result-annotations${resultAnnotationsOpen ? " is-open" : " is-collapsed"}`}
+            id="result-annotations"
+          >
+            <header className="result-section-heading">
+              <div><span>MY NOTES</span><h2>我的高亮与笔记</h2></div>
+              <div className="result-annotations-heading-actions">
+                <p>只显示本次已提交并随练习记录保存的标注。</p>
+                <button
+                  type="button"
+                  className="result-section-toggle"
+                  aria-expanded={resultAnnotationsOpen}
+                  aria-controls="result-annotation-content"
+                  onClick={() => setResultAnnotationsOpen((open) => !open)}
+                >
+                  {resultAnnotationsOpen ? "收起" : `展开（${resultAnnotations.length}）`}
+                </button>
+              </div>
+            </header>
+            {resultAnnotationsOpen ? (
+              <div className="result-annotation-list" id="result-annotation-content">
+                {resultAnnotations.map((annotation) => (
+                  <article key={annotation.id}>
+                    <div><span>Part {annotation.partNumber}</span><em>{annotation.highlightLevel === "secondary" ? "二次高亮" : annotation.note ? "笔记" : "高亮"}</em></div>
+                    <blockquote>{annotation.selectedText}</blockquote>
+                    {annotation.note ? <p>{annotation.note}</p> : null}
+                  </article>
+                ))}
+              </div>
+            ) : null}
+          </section>
+        ) : null}
         <div className="result-actions">
-          <button type="button" className="secondary-button" onClick={() => { setScreen("library"); setResult(null); }}>返回题库</button>
+          <button type="button" className="secondary-button" onClick={() => {
+            if (historyEntrySource) {
+              window.location.assign("/history");
+              return;
+            }
+            setScreen("library");
+            setResult(null);
+          }}>{historyEntrySource ? "返回练习记录" : "返回题库"}</button>
+          {resultSessionId ? <a className="primary-button" href={sessionReportDownloadUrl(resultSessionId, "pdf")}>下载正式 PDF</a> : null}
+          {resultSessionId ? <a className="secondary-button" href={sessionReportDownloadUrl(resultSessionId, "docx")}>下载 DOCX</a> : null}
           {result.test_id ? <button type="button" className="primary-button" onClick={() => void startExam(result.test_id, result.total === 40 ? "mock_exam" : "part_practice", result.total === 40 ? [] : result.part_numbers)}>再做一次</button> : null}
         </div>
       </div>
@@ -1211,7 +1742,7 @@ export default function ExamWorkbench() {
           <section className="system-modal draft-manager" role="dialog" aria-modal="true" onMouseDown={(event) => event.stopPropagation()}>
             <header><div><span>LOCAL DRAFTS</span><h2>草稿管理器</h2></div><button type="button" onClick={() => setShowDrafts(false)}>关闭</button></header>
             {drafts.length ? <div>{drafts.map((draft) => (
-              <article key={draft.key}><div><strong>{draft.testTitle || draft.testId}</strong><span>{draft.mode || "练习"} · Part {(draft.partNumbers || []).join(",") || "1–3"} · 已答 {Object.keys(draft.answers || {}).length} 题</span><small>{draft.updatedAt ? formatDate(draft.updatedAt) : "旧草稿"}</small></div>
+              <article key={draft.key}><div><strong>{draft.testTitle || draft.testId}</strong><span>{draft.mode || "练习"} · Part {(draft.partNumbers || []).join(",") || "1–3"} · 已答 {Object.keys(draft.answers || {}).length} 题 · 标注 {draft.annotations?.length || 0} 条</span><small>{draft.updatedAt ? formatDate(draft.updatedAt) : "旧草稿"}</small></div>
                 <div className="draft-actions">
                   <button className="primary-button" type="button" onClick={() => {
                     setShowDrafts(false);
@@ -1257,9 +1788,7 @@ function optionDisplayText(option: QuestionOption): string {
 }
 
 function repairDisplayText(value: string): string {
-  return value
-    .replace(/^lt(?=\s)/, "It")
-    .replace(/([.!?])(?=[A-Z][a-z])/g, "$1 ");
+  return value.replace(/([.!?])(?=[A-Z][a-z])/g, "$1 ");
 }
 
 function displayMarkup(value: string) {
@@ -1279,12 +1808,14 @@ function QuestionGroupControl({
   group,
   answers,
   flagged,
+  reviewResults,
   onAnswer,
   onFlag
 }: {
   group: PublicQuestionGroup;
   answers: Record<string, AnswerValue>;
   flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
   onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
   onFlag: (questionIds: string | string[]) => void;
 }) {
@@ -1306,6 +1837,7 @@ function QuestionGroupControl({
           group={group}
           answers={answers}
           flagged={flagged}
+          reviewResults={reviewResults}
           onAnswer={onAnswer}
           onFlag={onFlag}
         />
@@ -1314,27 +1846,42 @@ function QuestionGroupControl({
           <table className="matching-answer-matrix">
             <thead>
               <tr>
-                <th scope="col">题目</th>
+                <th scope="col"><span className="sr-only">题目</span></th>
                 {groupOptions.map((option) => <th scope="col" key={option.code}>{option.code}</th>)}
-                <th scope="col">标记</th>
               </tr>
             </thead>
             <tbody>
               {group.questions.map((question) => {
                 const id = String(question.id);
                 const value = answers[id];
+                const reviewResult = reviewResults?.get(id);
+                const reviewStatus = reviewResult && !reviewResult.is_correct
+                  ? questionReviewStatus(reviewResult)
+                  : "";
                 return (
                   <tr
                     key={id}
                     id={`question-${id}`}
-                    className={`${answerIsPresent(value) ? "answered" : ""}${flagged[id] ? " flagged" : ""}`}
+                    className={`${answerIsPresent(value) ? "answered" : ""}${flagged[id] ? " flagged" : ""}${reviewStatus ? ` review-${reviewStatus}` : ""}`}
                   >
                     <th scope="row">
                       <span className="matrix-question-number">{questionNumber(question)}</span>
                       <span className="question-annotation-unit">{displayMarkup(question.prompt)}</span>
+                      <InlineAnswerReview question={reviewResult} />
+                      <span className="matrix-row-tools">
+                        <button type="button" className={flagged[id] ? "flag-button active" : "flag-button"} onClick={() => onFlag(id)}>
+                          {flagged[id] ? "已标" : "标记"}
+                        </button>
+                        {answerIsPresent(value) ? <button type="button" className="clear-answer" onClick={() => onAnswer(id, "")}>清除</button> : null}
+                      </span>
                     </th>
                     {groupOptions.map((option) => (
-                      <td key={option.code}>
+                      <td
+                        className={reviewResult && !reviewResult.is_correct
+                          ? answerReviewClass(option.code, [reviewResult]).trim()
+                          : ""}
+                        key={option.code}
+                      >
                         <label className="matrix-answer-radio">
                           <input
                             type="radio"
@@ -1347,14 +1894,6 @@ function QuestionGroupControl({
                         </label>
                       </td>
                     ))}
-                    <td>
-                      <div className="matrix-row-tools">
-                        <button type="button" className={flagged[id] ? "flag-button active" : "flag-button"} onClick={() => onFlag(id)}>
-                          {flagged[id] ? "已标" : "标记"}
-                        </button>
-                        {answerIsPresent(value) ? <button type="button" className="clear-answer" onClick={() => onAnswer(id, "")}>清除</button> : null}
-                      </div>
-                    </td>
                   </tr>
                 );
               })}
@@ -1368,6 +1907,7 @@ function QuestionGroupControl({
           options={groupOptions}
           answers={answers}
           flagged={flagged}
+          reviewResults={reviewResults}
           onAnswer={onAnswer}
           onFlag={onFlag}
         />
@@ -1382,6 +1922,9 @@ function QuestionGroupControl({
               question={controlQuestion(group, question)}
               value={answers[answerIds[0]]}
               flagged={answerIds.some((questionId) => Boolean(flagged[questionId]))}
+              reviewResults={answerIds
+                .map((questionId) => reviewResults?.get(questionId))
+                .filter((result): result is QuestionResult => Boolean(result))}
               onChange={(value) => onAnswer(answerIds, value)}
               onFlag={() => onFlag(answerIds)}
             />
@@ -1397,6 +1940,7 @@ function MatchingTextGroup({
   options,
   answers,
   flagged,
+  reviewResults,
   onAnswer,
   onFlag
 }: {
@@ -1404,6 +1948,7 @@ function MatchingTextGroup({
   options: QuestionOption[];
   answers: Record<string, AnswerValue>;
   flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
   onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
   onFlag: (questionIds: string | string[]) => void;
 }) {
@@ -1479,9 +2024,14 @@ function MatchingTextGroup({
           const id = String(question.id);
           const code = String(answers[id] || "");
           const chosen = optionMap.get(code);
+          const chosenText = chosen ? optionDisplayText(chosen) : "";
+          const reviewResult = reviewResults?.get(id);
+          const reviewStatus = reviewResult && !reviewResult.is_correct
+            ? questionReviewStatus(reviewResult)
+            : "";
           return (
             <article
-              className={`matching-question-row${code ? " answered" : ""}${flagged[id] ? " flagged" : ""}`}
+              className={`matching-question-row${code ? " answered" : ""}${flagged[id] ? " flagged" : ""}${reviewStatus ? ` review-${reviewStatus}` : ""}`}
               id={`question-${id}`}
               key={id}
             >
@@ -1501,19 +2051,23 @@ function MatchingTextGroup({
                     placeholder={`${questionNumber(question)} 拖拽或输入选项字母`}
                     autoComplete="off"
                     spellCheck={false}
-                    aria-label={`第${questionNumber(question)}题答案框`}
+                    aria-label={`第${questionNumber(question)}题答案框${chosenText ? `，已选择 ${code} ${chosenText}` : ""}`}
+                    onFocus={(event) => {
+                      if (chosen) event.currentTarget.select();
+                    }}
                     onChange={(event) => {
                       const nextCode = event.target.value.trim().toUpperCase();
                       if (!nextCode) onAnswer(id, "");
                       else if (optionMap.has(nextCode)) assignAnswer(id, nextCode);
                     }}
                   />
-                  {chosen ? <span className="sr-only">{optionDisplayText(chosen)}</span> : null}
+                  {chosenText ? <span className="matching-answer-description">· {chosenText}</span> : null}
                 </div>
                 {chosen ? (
                   <button type="button" className="matching-answer-clear" onClick={() => onAnswer(id, "")} aria-label={`清除第${questionNumber(question)}题答案`}>×</button>
                 ) : null}
               </div>
+              <InlineAnswerReview question={reviewResult} />
               <button type="button" className={flagged[id] ? "flag-button active" : "flag-button"} onClick={() => onFlag(id)}>
                 {flagged[id] ? "取消标记" : "标记此题"}
               </button>
@@ -1530,6 +2084,7 @@ function StructuredTemplate({
   questions,
   answers,
   flagged,
+  reviewResults,
   onAnswer,
   onFlag
 }: {
@@ -1537,6 +2092,7 @@ function StructuredTemplate({
   questions: Map<string, PublicQuestion>;
   answers: Record<string, AnswerValue>;
   flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
   onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
   onFlag: (questionIds: string | string[]) => void;
 }) {
@@ -1550,26 +2106,28 @@ function StructuredTemplate({
         if (!question) return <span key={`missing-${id}-${index}`}>_____</span>;
         const value = answers[id];
         return (
-          <span
-            className={`inline-answer-wrap${flagged[id] ? " flagged" : ""}${answerIsPresent(value) ? " answered" : ""}`}
-            id={`question-${id}`}
-            key={`answer-${id}-${index}`}
-          >
-            <label>
-              <span className="inline-answer-number">{questionNumber(question)}</span>
-              <input
-                value={typeof value === "string" ? value : ""}
-                onChange={(event) => onAnswer(id, event.target.value)}
-                autoComplete="off"
-                spellCheck={false}
-                aria-label={`第${questionNumber(question)}题答案`}
-              />
-            </label>
-            {answerIsPresent(value) ? (
-              <button type="button" className="inline-answer-tool clear" onClick={() => onAnswer(id, "")} aria-label={`清除第${questionNumber(question)}题答案`}>×</button>
-            ) : null}
-            <button type="button" className="inline-answer-tool flag" onClick={() => onFlag(id)} aria-label={`${flagged[id] ? "取消" : ""}标记第${questionNumber(question)}题`}>⚑</button>
-          </span>
+          <Fragment key={`answer-${id}-${index}`}>
+            <span
+              className={`inline-answer-wrap${flagged[id] ? " flagged" : ""}${answerIsPresent(value) ? " answered" : ""}`}
+              id={`question-${id}`}
+            >
+              <label>
+                <span className="inline-answer-number">{questionNumber(question)}</span>
+                <input
+                  value={typeof value === "string" ? value : ""}
+                  onChange={(event) => onAnswer(id, event.target.value)}
+                  autoComplete="off"
+                  spellCheck={false}
+                  aria-label={`第${questionNumber(question)}题答案`}
+                />
+              </label>
+              {answerIsPresent(value) ? (
+                <button type="button" className="inline-answer-tool clear" onClick={() => onAnswer(id, "")} aria-label={`清除第${questionNumber(question)}题答案`}>×</button>
+              ) : null}
+              <button type="button" className="inline-answer-tool flag" onClick={() => onFlag(id)} aria-label={`${flagged[id] ? "取消" : ""}标记第${questionNumber(question)}题`}>⚑</button>
+            </span>
+            <InlineAnswerReview question={reviewResults?.get(id)} />
+          </Fragment>
         );
       })}
     </>
@@ -1580,19 +2138,21 @@ function StructuredCompletionGroup({
   group,
   answers,
   flagged,
+  reviewResults,
   onAnswer,
   onFlag
 }: {
   group: PublicQuestionGroup;
   answers: Record<string, AnswerValue>;
   flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
   onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
   onFlag: (questionIds: string | string[]) => void;
 }) {
   const subtype = group.question_subtype || group.question_type;
   const questions = new Map(group.questions.map((question) => [String(question.id), question]));
   const rows = group.table?.rows?.length ? group.table.rows : group.table?.content || [];
-  const templateProps = { questions, answers, flagged, onAnswer, onFlag };
+  const templateProps = { questions, answers, flagged, reviewResults, onAnswer, onFlag };
   const diagramSource = group.image_url
     ? group.image_url.replace(/^\/static\/media\//, "/media/")
     : "";
@@ -1634,6 +2194,7 @@ function QuestionControl({
   question,
   value,
   flagged,
+  reviewResults = [],
   onChange,
   onFlag
 }: {
@@ -1641,6 +2202,7 @@ function QuestionControl({
   question: PublicQuestion;
   value: AnswerValue | undefined;
   flagged: boolean;
+  reviewResults?: QuestionResult[];
   onChange: (value: AnswerValue) => void;
   onFlag: () => void;
 }) {
@@ -1695,9 +2257,8 @@ function QuestionControl({
       {judgement ? (
         <div className="answer-options judgement-options">
           {judgement.map((option) => (
-            <label key={option} className={value === option ? "selected" : ""}>
+            <label key={option} className={`${value === option ? "selected" : ""}${answerReviewClass(option, reviewResults)}`}>
               <input type="radio" name={`answer-${id}`} value={option} checked={value === option} onChange={() => onChange(option)} />
-              <span className="answer-control-mark radio-mark" aria-hidden="true" />
               <span className="answer-option-copy question-annotation-unit">{option}</span>
             </label>
           ))}
@@ -1712,7 +2273,7 @@ function QuestionControl({
             {options.map((option) => {
               const selected = Array.isArray(value) && value.includes(option.code);
               return (
-                <label key={option.code} className={selected ? "selected" : ""}>
+                <label key={option.code} className={`${selected ? "selected" : ""}${answerReviewClass(option.code, reviewResults)}`}>
                   <input
                     type="checkbox"
                     checked={selected}
@@ -1722,7 +2283,6 @@ function QuestionControl({
                       else if (current.length < (requiredChoices || 2)) onChange([...current, option.code]);
                     }}
                   />
-                  <span className="answer-control-mark checkbox-mark" aria-hidden="true" />
                   <span className="answer-option-copy question-annotation-unit"><b>{option.code}</b>{optionDisplayText(option)}</span>
                 </label>
               );
@@ -1732,9 +2292,8 @@ function QuestionControl({
       ) : options.length && !matching && subtype === "multiple_choice_single" ? (
         <div className="answer-options choice-options">
           {options.map((option) => (
-            <label key={option.code} className={value === option.code ? "selected" : ""}>
+            <label key={option.code} className={`${value === option.code ? "selected" : ""}${answerReviewClass(option.code, reviewResults)}`}>
               <input type="radio" name={`answer-${id}`} checked={value === option.code} onChange={() => onChange(option.code)} />
-              <span className="answer-control-mark radio-mark" aria-hidden="true" />
               <span className="answer-option-copy question-annotation-unit"><b>{option.code}</b>{optionDisplayText(option)}</span>
             </label>
           ))}
@@ -1747,6 +2306,11 @@ function QuestionControl({
             {options.map((option) => <option key={option.code} value={option.code}>{option.code}{optionDisplayText(option) ? ` · ${optionDisplayText(option)}` : ""}</option>)}
           </select>
         </label>
+      ) : null}
+      {reviewResults.some((reviewResult) => !reviewResult.is_correct) ? (
+        <div className="question-inline-review-list">
+          {reviewResults.map((reviewResult) => <InlineAnswerReview question={reviewResult} key={reviewResult.id} />)}
+        </div>
       ) : null}
     </article>
   );

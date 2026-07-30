@@ -115,8 +115,8 @@
         {
           "label": "",
           "index": 17,
-          "text": "lAM Roadsmart",
-          "translation": "IAM Roadsmart"
+          "text": "IAM RoadSmart",
+          "translation": "IAM RoadSmart"
         },
         {
           "label": "",
@@ -127,8 +127,8 @@
         {
           "label": "",
           "index": 19,
-          "text": "lAM Roadsmart offers a number of different advanced packages, including courses",
-          "translation": "IAM Roadsmart\nlAM Roadsmart 提供多种不同的高级套餐，包括课程"
+          "text": "IAM RoadSmart offers a number of different advanced packages, including courses",
+          "translation": "IAM RoadSmart\nIAM RoadSmart 提供多种不同的高级套餐，包括课程"
         },
         {
           "label": "",
@@ -405,7 +405,7 @@
               "analysis": "题干中的“also takes place in another country”对应段落B中“Other Voices makes its way from its home in Dingle on the west coast of Ireland to the town of Cardigan on the west coast of Wales”，说明该活动原本在爱尔兰举办，也来到威尔士，涉及两个国家，因此答案为B。",
               "reason": "直接原文对应",
               "location_analysis": "原文说明活动从爱尔兰来到威尔士，涉及跨国家。",
-              "paraphrasing": "also takes place in another country -> makes its way from its home in Dingle ... to the town of Cardigan",
+              "paraphrasing": "also takes place in another country -> makes its way from its home in Dingle... to the town of Cardigan",
               "keywords": "takes place in another country",
               "evidence": [
                 "Other Voices makes its way from its home in Dingle on the west coast of Ireland to the town of Cardigan on the west coast of Wales,"
@@ -586,7 +586,7 @@
             {
               "id": "131323",
               "number": 11,
-              "prompt": "lAM Roadsmart courses are becoming available in more places.",
+              "prompt": "IAM RoadSmart courses are becoming available in more places.",
               "options": [
                 {
                   "value": "TRUE",
@@ -606,7 +606,7 @@
                 "NOT GIVEN",
                 "NG"
               ],
-              "analysis": "题干提到“lAM Roadsmart courses are becoming available in more places”，但原文仅说明该公司会为学员匹配当地专家，并未提及课程是否正在扩展到更多地区，因此文中无相关信息，答案为NOT GIVEN。",
+              "analysis": "题干提到“IAM RoadSmart courses are becoming available in more places”，但原文仅说明该公司会为学员匹配当地专家，并未提及课程是否正在扩展到更多地区，因此文中无相关信息，答案为NOT GIVEN。",
               "reason": "文中没有相关信息，NOT GIVEN",
               "location_analysis": "原文未提课程在更多地方变得可用。",
               "paraphrasing": "",
@@ -621,7 +621,7 @@
             {
               "id": "131324",
               "number": 12,
-              "prompt": "lAM Roadsmart courses operate on a one-to-one basis.",
+              "prompt": "IAM RoadSmart courses operate on a one-to-one basis.",
               "options": [
                 {
                   "value": "TRUE",
@@ -658,7 +658,7 @@
             {
               "id": "131325",
               "number": 13,
-              "prompt": "lAM Roadsmart runs courses for professional drivers.",
+              "prompt": "IAM RoadSmart runs courses for professional drivers.",
               "options": [
                 {
                   "value": "TRUE",
@@ -678,7 +678,7 @@
                 "NOT GIVEN",
                 "NG"
               ],
-              "analysis": "题干称“lAM Roadsmart runs courses for professional drivers”，但原文只提到课程适用于“users of both cars and motorcycles”，并未说明是否面向职业司机，因此文中无此信息，答案为NOT GIVEN。",
+              "analysis": "题干称“IAM RoadSmart runs courses for professional drivers”，但原文只提到课程适用于“users of both cars and motorcycles”，并未说明是否面向职业司机，因此文中无此信息，答案为NOT GIVEN。",
               "reason": "文中没有相关信息，NOT GIVEN",
               "location_analysis": "原文说课程面向汽车和摩托车用户，未提及专业司机。",
               "paraphrasing": "",
@@ -686,8 +686,8 @@
               "evidence": [],
               "confidence": 1,
               "wrong_reasons": {
-                "TRUE": "原文中并未提及LAM Roadsmart是否专门为专业司机提供课程，因此无法判断为正确。",
-                "FALSE": "原文没有信息表明LAM Roadsmart不为专业司机提供课程，因此不能判断为错误。"
+                "TRUE": "原文中并未提及IAM RoadSmart是否专门为专业司机提供课程，因此无法判断为正确。",
+                "FALSE": "原文没有信息表明IAM RoadSmart不为专业司机提供课程，因此不能判断为错误。"
               }
             },
             {
@@ -911,8 +911,8 @@
         },
         {
           "index": 35,
-          "sentence": "lAM Roadsmart",
-          "translation": "IAM Roadsmart"
+          "sentence": "IAM RoadSmart",
+          "translation": "IAM RoadSmart"
         },
         {
           "index": 36,
@@ -926,8 +926,8 @@
         },
         {
           "index": 38,
-          "sentence": "lAM Roadsmart offers a number of different advanced packages, including courses",
-          "translation": "lAM Roadsmart 提供多种不同的高级套餐，包括课程"
+          "sentence": "IAM RoadSmart offers a number of different advanced packages, including courses",
+          "translation": "IAM RoadSmart 提供多种不同的高级套餐，包括课程"
         },
         {
           "index": 39,
@@ -1235,7 +1235,7 @@
               "analysis": "题干声称“所有自行车都配有儿童座椅”，但原文写的是“for those too small to pedal themselves, there are bikes fitted with child seats”，表明只有部分自行车（专为幼儿准备的）配备儿童座椅，并非全部。因此该陈述错误，答案为FALSE。",
               "reason": "原文指出仅部分自行车配有儿童座椅",
               "location_analysis": "原文说有些自行车配有儿童座椅，并非所有",
-              "paraphrasing": "题干 'All bikes come with child seats' -> 原文 'for those too small ... there are bikes fitted with child seats'",
+              "paraphrasing": "题干 'All bikes come with child seats' -> 原文 'for those too small... there are bikes fitted with child seats'",
               "keywords": "all bikes, child seats",
               "evidence": [
                 "All sizes of bikes are available for hire and, for those too small to pedal themselves, there are bikes fitted with child seats."
@@ -1390,7 +1390,7 @@
               "analysis": "题干要求填写可分段完成申请表的内容描述，原文提到“The form has a series of tabs... These are split up to enable you to work on small sections of the application at any one time”，说明用户可以逐个填写“small sections”，因此答案为small sections。",
               "reason": "原文明确提到 small sections",
               "location_analysis": "原文说明通过标签页可依次填写小部分内容",
-              "paraphrasing": "题干 'fill in ... of the application form' -> 原文 'work on small sections of the application'",
+              "paraphrasing": "题干 'fill in... of the application form' -> 原文 'work on small sections of the application'",
               "keywords": "move between tabs, fill in",
               "evidence": [
                 "These are split up to enable you to work on small sections of the application at any one time."
@@ -1450,7 +1450,7 @@
               "analysis": "题干要求填写接收多份申请的部门名称，原文指出“You will need to submit an application form to the recruitment office for every position...”，说明每个职位都需向“recruitment office”单独提交申请，因此答案为recruitment office。",
               "reason": "原文明确提到 recruitment office",
               "location_analysis": "原文说明每个职位需向招聘办公室单独提交申请",
-              "paraphrasing": "题干 'the ... will need a separate application' -> 原文 'submit an application form to the recruitment office for every position'",
+              "paraphrasing": "题干 'the... will need a separate application' -> 原文 'submit an application form to the recruitment office for every position'",
               "keywords": "multiple posts, separate application, recruitment office",
               "evidence": [
                 "You will need to submit an application form to the recruitment office for every position you are interested in being considered for."
@@ -1889,7 +1889,7 @@
               "analysis": "题干要求找出提及两次不成功的建筑整合风力涡轮尝试的段落。F段提到Richard Rogers在1993年为东京Tomigaya Tower设计的涡轮方案被拒绝，以及William Pedersen在纽约体育中心的设计虽环保却无法真正满足能源需求。这两例均属于“unsatisfactory attempts”，完全对应题干描述，故答案为F。",
               "reason": "两个例子均为unsatisfactory",
               "location_analysis": "F段提到Richard Rogers被拒方案和Pedersen的非实效方案。",
-              "paraphrasing": "unsatisfactory attempts -> proposed ... turned down / do not provide a real solution",
+              "paraphrasing": "unsatisfactory attempts -> proposed... turned down / do not provide a real solution",
               "keywords": "two, unsatisfactory, attempts, wind turbines, buildings",
               "evidence": [
                 "The architect Richard Rogers proposed an integral turbine for the Tomigaya Tower in Tokyo in 1993, but his plan was turned down.",
@@ -2004,7 +2004,7 @@
               "analysis": "题干要求找出关于创新企业建筑计划被令人失望地修改的段落。H段描述Freedom Tower原计划顶部设置风力涡轮，可供应四分之一用电，成为风能潜力的有力宣传，但最终因其他因素优先而变成普通办公楼。这种从“innovative”到“ordinary”的转变正符合“disappointing modifications”，故答案为H。",
               "reason": "计划被修改结果令人失望",
               "location_analysis": "H段说自由塔本可成为风力广告，却成了普通办公楼。",
-              "paraphrasing": "disappointing modifications -> instead of ... became a rather ordinary office block; innovative corporate building -> Freedom Tower",
+              "paraphrasing": "disappointing modifications -> instead of... became a rather ordinary office block; innovative corporate building -> Freedom Tower",
               "keywords": "disappointing modifications, plans, innovative corporate building",
               "evidence": [
                 "So instead of a powerful advertisement for wind power's potential to the world, the Freedom Tower became a rather ordinary office block."
@@ -2176,7 +2176,7 @@
               "analysis": "题干要求找出提及海上新涡轮项目资金来源的段落。D段明确说明Theo Bird通过“政府拨款”和“自己存下买新房的钱”共同资助Aerogenerator项目，且该项目专为海上建造设计。这与题干中“source of finance for the development of a new turbine for an offshore project”完全匹配，因此答案为D。",
               "reason": "直接提及资金来源和海上项目",
               "location_analysis": "D段说明资金来自政府拨款与个人积蓄。",
-              "paraphrasing": "source of finance -> funding ... through a combination of a government grant and the money he was saving to buy a new house; new turbine -> Aerogenerator; offshore -> build offshore",
+              "paraphrasing": "source of finance -> funding... through a combination of a government grant and the money he was saving to buy a new house; new turbine -> Aerogenerator; offshore -> build offshore",
               "keywords": "source of finance, development, new turbine, offshore project",
               "evidence": [
                 "By making our turbine so large, we can build offshore, where there's more wind."

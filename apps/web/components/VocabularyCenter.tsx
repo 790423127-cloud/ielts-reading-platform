@@ -5,6 +5,7 @@ import { type FormEvent, useEffect, useMemo, useState } from "react";
 import {
   captureVocabulary,
   deleteVocabulary,
+  exportVocabularySelection,
   fetchVocabulary,
   updateVocabulary,
   vocabularyExportUrl,
@@ -33,13 +34,37 @@ type EditState = {
   status: "learning" | "mastered";
 };
 
+function downloadFile(blob: Blob, filename: string) {
+  const url = URL.createObjectURL(blob);
+  const anchor = document.createElement("a");
+  anchor.href = url;
+  anchor.download = filename;
+  document.body.appendChild(anchor);
+  anchor.click();
+  anchor.remove();
+  window.setTimeout(() => URL.revokeObjectURL(url), 0);
+}
+
+function articleCount(item: VocabularyItem): number {
+  const articleKeys = new Set<string>();
+  for (const source of item.sources) {
+    if (source.source_type !== "reading_text" || !source.part_number) continue;
+    const testKey = String(source.test_id || source.test_title || "").trim().toLocaleLowerCase();
+    if (testKey) articleKeys.add(`${testKey}:${source.part_number}`);
+  }
+  return articleKeys.size;
+}
+
 export default function VocabularyCenter() {
   const [items, setItems] = useState<VocabularyItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
+  const [exporting, setExporting] = useState(false);
   const [error, setError] = useState("");
+  const [notice, setNotice] = useState("");
   const [query, setQuery] = useState("");
   const [statusFilter, setStatusFilter] = useState<"all" | "learning" | "mastered">("all");
+  const [selectedIds, setSelectedIds] = useState<Set<string>>(new Set());
   const [editing, setEditing] = useState<EditState | null>(null);
   const [draft, setDraft] = useState({
     term: "",
@@ -76,6 +101,7 @@ export default function VocabularyCenter() {
   const learningCount = items.filter((item) => item.status === "learning").length;
   const masteredCount = items.length - learningCount;
   const occurrenceCount = items.reduce((total, item) => total + item.occurrence_count, 0);
+  const unexportedCount = items.filter((item) => !item.exported_before).length;
 
   async function submitNewItem(event: FormEvent<HTMLFormElement>) {
     event.preventDefault();
@@ -134,11 +160,50 @@ export default function VocabularyCenter() {
     try {
       await deleteVocabulary(item.id);
       setItems((current) => current.filter((row) => row.id !== item.id));
+      setSelectedIds((current) => {
+        const next = new Set(current);
+        next.delete(item.id);
+        return next;
+      });
       if (editing?.id === item.id) setEditing(null);
     } catch (reason) {
       setError(reason instanceof Error ? reason.message : "删除词汇失败");
     } finally {
       setSaving(false);
+    }
+  }
+
+  function toggleSelection(itemId: string) {
+    setSelectedIds((current) => {
+      const next = new Set(current);
+      if (next.has(itemId)) next.delete(itemId);
+      else next.add(itemId);
+      return next;
+    });
+  }
+
+  async function exportWords(itemIds: string[], onlyUnexported: boolean) {
+    if (!onlyUnexported && !itemIds.length) {
+      setError("请先勾选要导出的单词。");
+      return;
+    }
+    setExporting(true);
+    setError("");
+    setNotice("");
+    try {
+      const result = await exportVocabularySelection({
+        item_ids: itemIds,
+        only_unexported: onlyUnexported
+      });
+      downloadFile(result.blob, result.filename);
+      const refreshed = await fetchVocabulary();
+      setItems(refreshed);
+      setSelectedIds(new Set());
+      setNotice(onlyUnexported ? "未导出的单词已保存为 TXT。" : "已选单词已保存为 TXT。");
+    } catch (reason) {
+      setError(reason instanceof Error ? reason.message : "导出失败");
+    } finally {
+      setExporting(false);
     }
   }
 
@@ -148,16 +213,31 @@ export default function VocabularyCenter() {
         <div>
           <p className="eyebrow">PERSONAL VOCABULARY</p>
           <h1>我的词汇本</h1>
-          <p>同一个词会自动合并，不同原句和来源继续保留。CSV 可直接用 Excel 打开，JSON 用于完整备份。</p>
+          <p>同一个词会自动合并；当它在不同阅读文章中重复出现时，会提醒你优先记忆。</p>
         </div>
         <div className="vocabulary-export-actions">
-          <a className="primary-button" href={vocabularyExportUrl("csv")}>导出 CSV</a>
-          <a className="secondary-button" href={vocabularyExportUrl("txt")}>导出 TXT</a>
+          <button
+            className="primary-button"
+            type="button"
+            disabled={exporting || unexportedCount === 0}
+            onClick={() => void exportWords([], true)}
+          >
+            导出未导出（{unexportedCount}）
+          </button>
+          <button
+            className="secondary-button"
+            type="button"
+            disabled={exporting || selectedIds.size === 0}
+            onClick={() => void exportWords([...selectedIds], false)}
+          >
+            导出已选（{selectedIds.size}）
+          </button>
           <a className="secondary-button" href={vocabularyExportUrl("json")}>备份 JSON</a>
         </div>
       </header>
 
       {error ? <div className="page-error vocabulary-error">{error}</div> : null}
+      {notice ? <div className="vocabulary-notice">{notice}</div> : null}
 
       <section className="vocabulary-stat-strip">
         <article><span>词汇总数</span><strong>{items.length}</strong></article>
@@ -232,17 +312,34 @@ export default function VocabularyCenter() {
             <div className="vocabulary-list">
               {visibleItems.map((item) => {
                 const isEditing = editing?.id === item.id;
+                const distinctArticles = articleCount(item);
                 return (
                   <article className="vocabulary-card" key={item.id}>
                     <div className="vocabulary-card-heading">
-                      <div>
+                      <label className="vocabulary-card-select">
+                        <input
+                          type="checkbox"
+                          checked={selectedIds.has(item.id)}
+                          onChange={() => toggleSelection(item.id)}
+                        />
+                        <span>选择</span>
+                      </label>
+                      <div className="vocabulary-card-title">
                         <span className={`vocabulary-status ${item.status}`}>{STATUS_LABELS[item.status]}</span>
+                        <span className={`vocabulary-export-mark ${item.exported_before ? "exported" : "new"}`}>
+                          {item.exported_before ? "已导出" : "未导出"}
+                        </span>
+                        {distinctArticles >= 2 ? (
+                          <span className="vocabulary-frequency-reminder">
+                            高频复现 · {distinctArticles} 篇文章，建议优先记忆
+                          </span>
+                        ) : null}
                         <h2>{item.term}</h2>
                         <small>出现 {item.occurrence_count} 次 · {item.sources.length} 个来源</small>
                       </div>
                       <div className="vocabulary-card-actions">
                         <button className="secondary-button" type="button" onClick={() => beginEdit(item)}>编辑</button>
-                        <button className="vocabulary-delete-button" type="button" onClick={() => removeItem(item)}>删除</button>
+                        <button className="vocabulary-delete-button" type="button" onClick={() => void removeItem(item)}>删除</button>
                       </div>
                     </div>
 
@@ -251,7 +348,7 @@ export default function VocabularyCenter() {
                         <label><span>中文释义</span><textarea rows={3} value={editing.meaning} onChange={(event) => setEditing({ ...editing, meaning: event.target.value })} /></label>
                         <label><span>个人笔记</span><textarea rows={3} value={editing.note} onChange={(event) => setEditing({ ...editing, note: event.target.value })} /></label>
                         <label><span>状态</span><select value={editing.status} onChange={(event) => setEditing({ ...editing, status: event.target.value as EditState["status"] })}><option value="learning">学习中</option><option value="mastered">已掌握</option></select></label>
-                        <div><button className="primary-button" type="button" onClick={saveEdit} disabled={saving}>保存修改</button><button className="secondary-button" type="button" onClick={() => setEditing(null)}>取消</button></div>
+                        <div><button className="primary-button" type="button" onClick={() => void saveEdit()} disabled={saving}>保存修改</button><button className="secondary-button" type="button" onClick={() => setEditing(null)}>取消</button></div>
                       </div>
                     ) : (
                       <>

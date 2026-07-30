@@ -62,6 +62,74 @@ def assignment_report(user_id: str, assignment: dict[str, Any]) -> dict[str, Any
     report = build_stage_report(sessions)
     report["report_type"] = "teacher_assignment"
     report["assignment"] = assignment
+    report["summary"]["title"] = assignment.get("title") or "真人老师教学诊断报告"
+    module_types = {
+        str(module.get("module_type") or "mixed")
+        for module in assignment.get("modules") or []
+    }
+    report["layout_type"] = (
+        "multi_part"
+        if len(assignment.get("modules") or []) > 1
+        else next(iter(module_types), "mixed")
+    )
+    report["layout_label"] = {
+        "multi_part": "多模块作业对比",
+        "full_test": "整套模考作业",
+        "part": "单 Part 作业",
+        "question_type": "题型专项作业",
+        "review": "错题复习作业",
+        "mixed": "混合训练作业",
+    }.get(report["layout_type"], "真人老师作业报告")
+    sessions_by_id = {session.id: session for session in sessions}
+    report["modules"] = []
+    for module in assignment.get("modules") or []:
+        module_sessions = [
+            sessions_by_id[session_id]
+            for session_id in module.get("session_ids") or []
+            if session_id in sessions_by_id
+        ]
+        module_total = sum(
+            int(session.result.get("total") or 0) for session in module_sessions
+        )
+        module_correct = sum(
+            int(session.result.get("score") or 0) for session in module_sessions
+        )
+        module_seconds = sum(
+            int(session.result.get("total_elapsed_seconds") or 0)
+            for session in module_sessions
+        )
+        module_unanswered = sum(
+            1
+            for session in module_sessions
+            for question in session.result.get("question_results") or []
+            if not str(question.get("user_answer") or "").strip()
+        )
+        target_count = int(module.get("target_count") or 0)
+        completed_count = len(module_sessions)
+        report["modules"].append(
+            {
+                "title": module.get("title") or "未命名模块",
+                "module_type": module.get("module_type") or "mixed",
+                "progress": {
+                    "completed": completed_count,
+                    "target": target_count,
+                    "progress_text": (
+                        f"已完成 {completed_count}/{target_count} 次练习"
+                        if target_count
+                        else f"已关联 {completed_count} 次练习"
+                    ),
+                },
+                "score": module_correct,
+                "total": module_total,
+                "accuracy": (
+                    round(module_correct / module_total * 100, 1)
+                    if module_total
+                    else 0.0
+                ),
+                "trusted_seconds": module_seconds,
+                "unanswered": module_unanswered,
+            }
+        )
     report["missing_session_ids"] = missing
     report["data_notes"] = [
         *report.get("data_notes", []),

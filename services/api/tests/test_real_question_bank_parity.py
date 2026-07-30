@@ -59,6 +59,56 @@ JUDGEMENT_ALIASES = {
     "YES": "Y",
     "NO": "N",
 }
+PROTECTED_BRAND_NAMES = {"interexchange"}
+KNOWN_OCR_TOKENS = re.compile(
+    r"\b(?:lt|lf|lnterfxchange|interfxchange|Interfxchange|lUCN|lAM|"
+    r"LAM Roadsmart|cormpany|madeon|probablygive|willstill|ClimbingWall|inthe|"
+    r"statemcnt)\b",
+)
+KNOWN_MISSING_SPACE_BOUNDARIES = re.compile(
+    r"[A-Za-z][.!?][A-Z]|[A-Za-z],[A-Za-z]|[A-Za-z];[A-Za-z]|[A-Za-z]:[A-Za-z]"
+)
+
+
+def _iter_strings(value: Any):
+    if isinstance(value, str):
+        yield value
+    elif isinstance(value, dict):
+        for child in value.values():
+            yield from _iter_strings(child)
+    elif isinstance(value, list):
+        for child in value:
+            yield from _iter_strings(child)
+
+
+def _public_exam_strings(test: dict[str, Any]):
+    for part in test.get("parts") or []:
+        yield str(part.get("article_title") or "")
+        for paragraph in part.get("paragraphs") or []:
+            yield str(paragraph.get("text") or "")
+        for group in part.get("groups") or []:
+            yield str(group.get("instructions") or "")
+            yield str(group.get("content_template") or "")
+            for option in group.get("normalized_options") or []:
+                yield str(option.get("label") or "")
+            for question in group.get("questions") or []:
+                yield str(question.get("prompt") or "")
+                for option in question.get("options") or []:
+                    yield str(option.get("label") or "")
+
+
+def _edit_distance(left: str, right: str) -> int:
+    previous = list(range(len(right) + 1))
+    for left_index, left_char in enumerate(left, start=1):
+        current = [left_index]
+        for right_index, right_char in enumerate(right, start=1):
+            current.append(min(
+                current[-1] + 1,
+                previous[right_index] + 1,
+                previous[right_index - 1] + (left_char != right_char),
+            ))
+        previous = current
+    return previous[-1]
 
 
 def _canonical(question: dict[str, Any]) -> Any:
@@ -210,6 +260,94 @@ def test_g4_g9_verified_source_repairs_are_preserved_when_extension_is_installed
     assert max(b8_questions) == 40
     assert b8_questions[39]["answer"] == "A,C"
     assert b8_questions[40]["answer"] == "B,F"
+
+
+def test_protected_brand_names_have_no_near_match_ocr_variants() -> None:
+    suspicious: list[str] = []
+    for path in sorted((BANK_ROOT / "tests").glob("*.json")):
+        payload = json.loads(path.read_text("utf-8"))
+        for text in _iter_strings(payload):
+            for token in re.findall(r"[A-Za-z]+", text):
+                normalized = token.lower()
+                for brand in PROTECTED_BRAND_NAMES:
+                    if (
+                        normalized != brand
+                        and abs(len(normalized) - len(brand)) <= 2
+                        and _edit_distance(normalized, brand) <= 2
+                    ):
+                        suspicious.append(f"{path.name}: {token} -> {brand}")
+    assert suspicious == []
+
+
+def test_all_question_bank_copy_has_no_known_ocr_tokens() -> None:
+    suspicious: list[str] = []
+    for path in sorted((BANK_ROOT / "tests").glob("*.json")):
+        payload = json.loads(path.read_text("utf-8"))
+        for text in _iter_strings(payload):
+            match = KNOWN_OCR_TOKENS.search(text)
+            if match:
+                suspicious.append(f"{path.name}: {match.group(0)}")
+    assert suspicious == []
+
+
+def test_public_exam_copy_has_no_joined_punctuation_boundaries() -> None:
+    suspicious: list[str] = []
+    for path in sorted((BANK_ROOT / "tests").glob("*.json")):
+        payload = json.loads(path.read_text("utf-8"))
+        for text in _public_exam_strings(payload):
+            without_initialisms = re.sub(r"\b(?:[A-Z]\.){2,}[A-Z]?\.?", "", text)
+            match = KNOWN_MISSING_SPACE_BOUNDARIES.search(without_initialisms)
+            if match:
+                suspicious.append(f"{path.name}: {match.group(0)}")
+    assert suspicious == []
+
+
+def test_verified_numeric_ocr_repairs_are_preserved() -> None:
+    b5 = json.loads(_test_path("b5-test-a").read_text("utf-8"))
+    b5_copy = "\n".join(_iter_strings(b5))
+    assert "clothes worth $80 in August" in b5_copy
+    assert "clothes worth S80 in August" not in b5_copy
+
+    b9 = json.loads(_test_path("b9-test-a").read_text("utf-8"))
+    b9_copy = "\n".join(_iter_strings(b9))
+    assert "01480 88056" in b9_copy
+    assert "O1480 88056" not in b9_copy
+
+    b19 = json.loads(_test_path("b19-test-1").read_text("utf-8"))
+    b19_copy = "\n".join(_iter_strings(b19))
+    assert "£8 on-board fine" in b19_copy
+    assert "f8 on-board fine" not in b19_copy
+
+
+def test_reading_passage_references_match_their_part_context() -> None:
+    mismatches: list[str] = []
+    for path in sorted((BANK_ROOT / "tests").glob("*.json")):
+        payload = json.loads(path.read_text("utf-8"))
+        for part in payload["parts"]:
+            expected = str(part["number"])
+            for group in part["groups"]:
+                instructions = str(group.get("instructions") or "")
+                match = re.search(r"Reading Passage\s*(\d+)", instructions, re.IGNORECASE)
+                if match and match.group(1) != expected:
+                    mismatches.append(
+                        f"{path.name}: group {group.get('id')} references "
+                        f"Passage {match.group(1)} inside Part {expected}"
+                    )
+    assert mismatches == []
+
+
+def test_b5_work_travel_judgement_instructions_keep_the_source_context() -> None:
+    b5 = json.loads(_test_path("b5-test-a").read_text("utf-8"))
+    group = next(
+        group
+        for part in b5["parts"]
+        for group in part["groups"]
+        if str(group.get("id")) == "16146"
+    )
+    instructions = group["instructions"]
+    assert "the advertisement on the previous page" in instructions
+    assert "In boxes 15-20 on your answer sheet, write" in instructions
+    assert "Reading Passage 2" not in instructions
 
 
 @pytest.mark.parametrize(

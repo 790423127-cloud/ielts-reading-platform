@@ -129,19 +129,27 @@ export type QuestionResult = {
   source_question_id?: string;
   number: number | string;
   part_number: number;
+  part_title?: string;
   source_part_number?: number;
   source_test_id?: string;
   question_type: string;
   question_subtype: string;
+  question_category?: string;
   prompt: string;
+  instructions?: string;
+  options?: unknown[];
   user_answer: string;
   correct_answer: string;
   is_correct: boolean;
   answer_error_type?: string | null;
   analysis?: string;
   reason?: string;
+  location_analysis?: string;
   paraphrasing?: string;
+  keywords?: string;
   evidence?: string[];
+  evidence_available?: boolean;
+  wrong_reasons?: unknown;
   elapsed_seconds?: number;
 };
 export type ScoringResult = {
@@ -154,6 +162,7 @@ export type ScoringResult = {
   exam_mode: string;
   part_numbers: number[];
   part_results: Array<{ part_number: number; title: string; score: number; total: number; accuracy: number; elapsed_seconds: number }>;
+  type_results?: Array<{ type: string; correct: number; total: number; accuracy: number }>;
   question_results: QuestionResult[];
   wrong_questions: QuestionResult[];
   unanswered_count: number;
@@ -345,14 +354,18 @@ export type TrainingCatalog = {
 export type StageReport = {
   report_type: "stage" | "teacher_assignment";
   engine_version: string;
+  layout_type?: string;
+  layout_label?: string;
   generated_from: "persisted_sessions";
   ai_calls: number;
   summary: {
+    title?: string;
     session_count: number;
     first_attempt_count: number;
     retry_count: number;
     correct: number;
     total_questions: number;
+    unanswered?: number;
     accuracy: number;
     total_elapsed_seconds: number;
     date_from?: string | null;
@@ -381,6 +394,21 @@ export type StageReport = {
     status_label: string;
     sample_level: string;
   }>;
+  part_results?: Array<{
+    title: string;
+    correct: number;
+    total: number;
+    accuracy: number;
+    status_label: string;
+    sample_level: string;
+  }>;
+  error_cause_distribution?: Array<{
+    label: string;
+    count: number;
+    session_count: number;
+    examples: string[];
+  }>;
+  teacher_observation_points?: string[];
   representative_questions: Array<{
     source_question_ref: string;
     test_title: string;
@@ -392,6 +420,11 @@ export type StageReport = {
     correct_answer: string;
     analysis: string;
     evidence: string[];
+    source?: string;
+    source_part_number?: number;
+    cause_label?: string;
+    student_confirmation_label?: string;
+    teacher_observation?: string;
     created_at: string;
   }>;
   slowest_correct_questions: TimedQuestionReportItem[];
@@ -509,14 +542,12 @@ async function apiJson<T>(path: string, init?: RequestInit): Promise<T> {
 
 function cacheEnvelopeAnnotations(envelope: SessionEnvelope): SessionEnvelope {
   const annotations = envelope.result.annotations || [];
-  if (annotations.length) {
-    cacheSessionAnnotations({
-      sessionId: envelope.session_id,
-      testId: envelope.result.test_id,
-      testTitle: envelope.result.test_title,
-      annotations
-    });
-  }
+  cacheSessionAnnotations({
+    sessionId: envelope.session_id,
+    testId: envelope.result.test_id,
+    testTitle: envelope.result.test_title,
+    annotations
+  });
   return envelope;
 }
 
@@ -655,9 +686,39 @@ export async function fetchStageReport(userId = "owner", signal?: AbortSignal): 
   );
 }
 
-export async function archiveSession(sessionId: string, userId = "owner"): Promise<void> {
+export function stageReportDownloadUrl(
+  extension: "pdf" | "docx",
+  userId = "owner"
+): string {
+  return `${API_BASE_URL}/api/v1/reports/stage.${extension}?user_id=${encodeURIComponent(userId)}&limit=500`;
+}
+
+export function sessionReportDownloadUrl(
+  sessionId: string,
+  extension: "pdf" | "docx",
+  userId = "owner"
+): string {
+  return `${API_BASE_URL}/api/v1/reports/sessions/${encodeURIComponent(sessionId)}.${extension}?user_id=${encodeURIComponent(userId)}`;
+}
+
+export async function deleteSession(sessionId: string, userId = "owner"): Promise<void> {
   await apiJson(`/api/v1/sessions/${encodeURIComponent(sessionId)}?user_id=${encodeURIComponent(userId)}`, {
     method: "DELETE"
+  });
+}
+
+export async function deleteSessions(
+  sessionIds: string[],
+  userId = "owner"
+): Promise<{
+  deleted_count: number;
+  deleted_ids: string[];
+  missing_ids: string[];
+  recoverable: false;
+}> {
+  return apiJson("/api/v1/sessions/delete-batch", {
+    method: "POST",
+    body: JSON.stringify({ user_id: userId, session_ids: sessionIds })
   });
 }
 

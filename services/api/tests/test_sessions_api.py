@@ -7,6 +7,7 @@ import pytest
 from fastapi.testclient import TestClient
 
 from app.main import app
+from app.repositories.session_repository import SQLiteSessionRepository
 from app.services.question_bank import QuestionBank
 
 API_ROOT = Path(__file__).resolve().parents[1]
@@ -320,3 +321,80 @@ def test_unknown_part_timing_key_is_rejected(monkeypatch, tmp_path) -> None:
     )
     assert response.status_code == 400
     assert response.json()["detail"]["code"] == "unexpected_part_timing_keys"
+
+
+def test_batch_delete_is_permanent_and_user_scoped(monkeypatch, tmp_path) -> None:
+    client = _client(monkeypatch, tmp_path)
+    repository = SQLiteSessionRepository(tmp_path / "sessions.sqlite3")
+    first = repository.save_or_get(
+        user_id="owner",
+        client_submission_id="batch-delete-0001",
+        test_id="b10-test-a",
+        result={"test_title": "Test A", "score": 1, "total": 2, "accuracy": 50},
+    )
+    second = repository.save_or_get(
+        user_id="owner",
+        client_submission_id="batch-delete-0002",
+        test_id="b10-test-b",
+        result={"test_title": "Test B", "score": 2, "total": 2, "accuracy": 100},
+    )
+    other_user = repository.save_or_get(
+        user_id="another-user",
+        client_submission_id="batch-delete-0003",
+        test_id="b10-test-c",
+        result={"test_title": "Test C", "score": 1, "total": 2, "accuracy": 50},
+    )
+
+    response = client.post(
+        "/api/v1/sessions/delete-batch",
+        json={
+            "user_id": "owner",
+            "session_ids": [
+                first.id,
+                second.id,
+                first.id,
+                other_user.id,
+                "missing-session",
+            ],
+        },
+    )
+    assert response.status_code == 200
+    assert response.json()["deleted_count"] == 2
+    assert response.json()["deleted_ids"] == [first.id, second.id]
+    assert response.json()["missing_ids"] == [other_user.id, "missing-session"]
+    assert response.json()["recoverable"] is False
+    assert client.get("/api/v1/sessions?user_id=owner").json() == []
+    assert client.get(
+        "/api/v1/sessions?user_id=owner&include_archived=true"
+    ).json() == []
+    assert [
+        item["session_id"]
+        for item in client.get(
+            "/api/v1/sessions?user_id=another-user&include_archived=true"
+        ).json()
+    ] == [other_user.id]
+    assert client.get(f"/api/v1/sessions/{first.id}?user_id=owner").status_code == 404
+    assert client.post(
+        f"/api/v1/sessions/{first.id}/restore?user_id=owner"
+    ).status_code == 404
+
+
+def test_single_delete_is_permanent(monkeypatch, tmp_path) -> None:
+    client = _client(monkeypatch, tmp_path)
+    repository = SQLiteSessionRepository(tmp_path / "sessions.sqlite3")
+    stored = repository.save_or_get(
+        user_id="owner",
+        client_submission_id="single-delete-0001",
+        test_id="b10-test-a",
+        result={"test_title": "Test A", "score": 1, "total": 2, "accuracy": 50},
+    )
+
+    response = client.delete(f"/api/v1/sessions/{stored.id}?user_id=owner")
+    assert response.status_code == 200
+    assert response.json() == {"deleted": True, "recoverable": False}
+    assert client.get(
+        "/api/v1/sessions?user_id=owner&include_archived=true"
+    ).json() == []
+    assert client.delete(
+        f"/api/v1/sessions/{stored.id}?user_id=another-user"
+    ).status_code == 404

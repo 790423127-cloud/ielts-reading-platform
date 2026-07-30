@@ -30,7 +30,8 @@ test("question instructions, prompts and options share the reading annotation la
 test("selection toolbar supports highlight, notes and vocabulary capture with full source", () => {
   assert.match(component, /selectedAnnotation\?\.kind === "highlight"/);
   assert.match(component, /persist\(annotations\.filter\(\(item\) => item\.id !== selectedAnnotation\.id\)\)/);
-  assert.match(component, /\? "取消高亮" : "高亮"/);
+  assert.match(component, /"取消二次高亮"/);
+  assert.match(component, /selectionOverlapsPrimaryHighlight[\s\S]*\? "二次高亮"[\s\S]*: "高亮"/);
   assert.match(component, />笔记<\/button>/);
   assert.match(component, /加入生词本/);
   assert.match(component, /source_sentence: selection\.sentence/);
@@ -49,37 +50,54 @@ test("an existing CSS highlight can be clicked directly and cleared", () => {
   assert.match(component, /selection\.rect\.bottom \+ 9/);
 });
 
-test("stable locator stores offsets plus text anchors and migrates old drafts", () => {
+test("a selection inside the primary highlight creates the reference app's pink second highlight", () => {
+  assert.match(model, /highlightLevel\?: "primary" \| "secondary"/);
+  assert.match(component, /SECONDARY_HIGHLIGHT_NAME/);
+  assert.match(component, /selectionOverlapsPrimaryHighlight \? "secondary" : "primary"/);
+  assert.match(component, /已添加二次高亮/);
+  assert.match(css, /::highlight\(reading-highlight-secondary\)/);
+});
+
+test("stable locator stores offsets plus text anchors", () => {
   assert.match(model, /locateReadingAnnotation/);
   assert.match(model, /startOffset/);
   assert.match(model, /endOffset/);
   assert.match(model, /prefix/);
   assert.match(model, /suffix/);
-  assert.match(model, /migrateLegacyAnnotations/);
-  assert.match(model, /legacyAnnotation/);
   assert.match(model, /normalizeWithRawIndexes/);
 });
 
-test("annotations join local exam drafts and submitted Session payloads", () => {
-  assert.match(model, /ielts-platform-draft:/);
-  assert.match(model, /syncAnnotationsIntoExamDrafts/);
+test("annotations stay inside the active attempt and join only explicit drafts or submissions", () => {
+  assert.match(model, /let activeReadingAttempt: ReadingAttemptDetail \| null = null/);
+  assert.match(model, /export function beginReadingAttempt/);
+  assert.match(model, /export function updateReadingAttemptAnnotations/);
+  assert.match(component, /updateReadingAttemptAnnotations\(context\.testId, next\)/);
+  assert.match(workbench, /annotations\?: ReadingAnnotation\[\]/);
+  assert.match(workbench, /annotations: test \? readAnnotationsForSubmission\(test\.id, partNumbers\) : \[\]/);
+  assert.match(workbench, /annotations: draft\?\.annotations \|\| \[\]/);
   assert.match(api, /readAnnotationsForSubmission/);
   assert.match(api, /JSON\.stringify\(\{ \.\.\.payload, annotations \}\)/);
   assert.match(api, /cacheSessionAnnotations/);
   assert.match(api, /annotations\?: ReadingAnnotation\[\]/);
+  assert.doesNotMatch(model, /localStorage/);
+  assert.doesNotMatch(model, /ielts-platform-reading-draft:/);
 });
 
-test("annotation synchronization is event-driven instead of polling localStorage", () => {
-  assert.match(component, /const restored = readReadingAnnotationDraft/);
-  assert.match(component, /syncAnnotationsIntoExamDrafts\(context\.testId, restored\)/);
-  assert.match(model, /writeReadingAnnotationDraft[\s\S]*syncAnnotationsIntoExamDrafts\(testId, clean\)/);
+test("fresh and resumed annotation state is event-driven instead of browser auto-save", () => {
+  assert.match(component, /READING_ATTEMPT_EVENT/);
+  assert.match(component, /READING_ANNOTATIONS_EVENT/);
+  assert.match(model, /emitReadingEvent\(READING_ATTEMPT_EVENT, activeReadingAttempt\)/);
+  assert.match(model, /emitReadingEvent\(READING_ANNOTATIONS_EVENT, activeReadingAttempt\)/);
+  assert.match(workbench, /beginReadingAttempt\(\{[\s\S]*annotations: draft\?\.annotations \|\| \[\]/);
   assert.doesNotMatch(component, /setInterval/);
-  assert.doesNotMatch(component, /900/);
+  assert.doesNotMatch(component, /writeReadingAnnotationDraft/);
+  assert.doesNotMatch(component, /syncAnnotationsIntoExamDrafts/);
 });
 
 test("history and mobile selection are restored without changing question layout", () => {
   assert.match(component, /READING_HISTORY_EVENT/);
   assert.match(component, /历史标注/);
+  assert.match(component, /setHistory\(\{ \.\.\.detail, annotations: sanitizeReadingAnnotations\(detail\.annotations\) \}\);[\s\S]*setPanelOpen\(false\)/);
   assert.match(component, /selectionchange/);
   assert.match(component, /touchend/);
   assert.match(css, /@media \(max-width: 680px\)/);

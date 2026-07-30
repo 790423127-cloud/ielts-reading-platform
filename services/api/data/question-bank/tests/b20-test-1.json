@@ -368,7 +368,7 @@
           "id": "21334",
           "type": 1,
           "title": "",
-          "instructions": "Questions 6 - 14\nDo the following statements agree with the information given in Reading Passage 18?\nIn boxes 6-14 on your answer sheet, write TRUE if the statement agrees with the information FALSE if the statement contradicts the information NOT GIVEN if there is no information on this",
+          "instructions": "Questions 6 - 14\nDo the following statements agree with the information given in Reading Passage 1B?\nIn boxes 6-14 on your answer sheet, write TRUE if the statement agrees with the information FALSE if the statement contradicts the information NOT GIVEN if there is no information on this",
           "option_title": "",
           "options": [],
           "table": null,
@@ -953,19 +953,13 @@
         {
           "label": "",
           "index": 3,
-          "text": "Here are some tips on how to tackle your next difficult conversation:",
+          "text": "Here are some tips on how to tackle your next difficult conversation: First, you need to plan what you're going to say. Think about how long you need for the conversation and where to have it. The right environment is key - you don't want somewhere too formal that will intimidate your colleague, or somewhere too casual where you may be overheard.",
           "translation": "以下是一些处理下一次艰难对话的建议："
         },
         {
           "label": "",
-          "index": 4,
-          "text": "First, you need to plan what you're going to say. Think about how long you need for the conversation and where to have it. The right environment is key - you don't want somewhere too formal that will intimidate your colleague, or somewhere too casual where you may be overheard.",
-          "translation": "首先，你需要计划好你要说什么。\n考虑一下你需要多长时间进行对话以及在哪里进行。\n合适的环境至关重要——你既不想选择过于正式的地方，以免让同事感到局促不安，也不想选择过于随意的场所，以免谈话内容被他人听到。"
-        },
-        {
-          "label": "",
           "index": 5,
-          "text": "The second thing you need to do is write down the key messages you want to get across in the conversation. Practise saying them out loud (l like to record them on my phone and play them back). You are not preparing a script, but this preparation helps you to be brief and clear. lf you are particularly nervous, rehearse what you plan to say in front of a friend so you know you are coming across as you wish to.",
+          "text": "The second thing you need to do is write down the key messages you want to get across in the conversation. Practise saying them out loud (l like to record them on my phone and play them back). You are not preparing a script, but this preparation helps you to be brief and clear. If you are particularly nervous, rehearse what you plan to say in front of a friend so you know you are coming across as you wish to.",
           "translation": "你需要做的第二件事是写下你希望在对话中传达的关键信息。\n练习把它们大声说出来（我喜欢在手机上录下来并回放）。\n你并不是在准备逐字稿，但这种准备有助于你做到简洁明了。\n如果你特别紧张，就在朋友面前排练你计划说的话，这样你就能确保你的表达方式符合自己的期望。"
         },
         {
@@ -1023,7 +1017,7 @@
         {
           "label": "",
           "index": 14,
-          "text": "Knowing your market and accurately assessing the potential demand for a product is the key to an idea succeeding or failing. lf your product has a very limited market, you won't be able to sell enough to create a successful business. You should take time to understand who your competitors are and identify what distinguishes your business from theirs. Perhaps you can provide a better service or compete on price. It all boils down to understanding why customers would rather buy from you than other companies in the field.",
+          "text": "Knowing your market and accurately assessing the potential demand for a product is the key to an idea succeeding or failing. If your product has a very limited market, you won't be able to sell enough to create a successful business. You should take time to understand who your competitors are and identify what distinguishes your business from theirs. Perhaps you can provide a better service or compete on price. It all boils down to understanding why customers would rather buy from you than other companies in the field.",
           "translation": "了解你的市场并准确评估产品的潜在需求，是一个想法成败的关键。\n如果你的产品市场非常有限，你将无法销售足够的产品来创造一个成功的企业。\n你应该花时间了解你的竞争对手是谁，并找出你的业务与他们的不同之处。\n也许你可以提供更好的服务，或者在价格上进行竞争。\n这一切都归根结底在于理解为什么客户更愿意向你购买，而不是该领域的其他公司。"
         },
         {
@@ -1056,7 +1050,7 @@
               ],
               "analysis": "题干中的“poor”对应原文中的“unsatisfactory”，而“challenge colleagues about their poor...”对应原文中“confronting a co-worker over unsatisfactory behaviour”。因此，此处应填入“behaviour”，表示难以就同事的不良行为进行沟通。",
               "reason": "原文directly对应challenge colleagues关于unsatisfactory behaviour，题干词poor behaviour源自此。",
-              "location_analysis": "原文提到难以进行difficult conversations，具体是confronting ...",
+              "location_analysis": "原文提到难以进行difficult conversations，具体是confronting...",
               "paraphrasing": "challenge colleagues -> difficult to have; poor -> unsatisfactory",
               "keywords": "challenge colleagues, poor, difficult conversations",
               "evidence": [
@@ -1156,7 +1150,7 @@
               ],
               "analysis": "题干中的“line manager that fails to communicate”对应原文中“The useless boss who never gives you feedback”，而原因则是“struggling with her own extremely heavy workload”，因此此处应填入“workload”，表示工作负担过重导致沟通缺失。",
               "reason": "原文指出boss不反馈是因为heavy workload。",
-              "location_analysis": "题干说line manager未能沟通是由于excessive workload，原文The ...",
+              "location_analysis": "题干说line manager未能沟通是由于excessive workload，原文The...",
               "paraphrasing": "fails to communicate -> never gives you feedback; excessive -> heavy",
               "keywords": "line manager, fails to communicate, excessive",
               "evidence": [
@@ -1295,7 +1289,7 @@
               ],
               "analysis": "题干要求协议中写明合伙人的“... and what they are responsible for doing”，原文提到“an agreement which sets out the rights and responsibilities of each partner”，因此此处应填入“rights”，与“responsibilities”并列。",
               "reason": "原文明确提到rights。",
-              "location_analysis": "题干要求文档列出rights和responsibilities，原文put in place ...",
+              "location_analysis": "题干要求文档列出rights和responsibilities，原文put in place...",
               "paraphrasing": "select business partners -> setting up a partnership, choosing the right person; draw up document -> put in place an agreement; stating -> sets out; responsible for doing -> rights and responsibilities",
               "keywords": "select business partners, draw up document, stating, responsible for",
               "evidence": [
@@ -1399,7 +1393,7 @@
         },
         {
           "index": 13,
-          "sentence": "lf you are particularly nervous, rehearse what you plan to say in front of a friend so you know you are coming across as you wish to.",
+          "sentence": "If you are particularly nervous, rehearse what you plan to say in front of a friend so you know you are coming across as you wish to.",
           "translation": "如果你特别紧张，就在朋友面前排练你计划说的话，这样你就能确保你的表达方式符合自己的期望。"
         },
         {
@@ -1529,7 +1523,7 @@
         },
         {
           "index": 39,
-          "sentence": "lf your product has a very limited market, you won't be able to sell enough to create a successful business.",
+          "sentence": "If your product has a very limited market, you won't be able to sell enough to create a successful business.",
           "translation": "如果你的产品市场非常有限，你将无法销售足够的产品来创造一个成功的企业。"
         },
         {

@@ -223,7 +223,7 @@
               "analysis": "题干中的‘any age’对应原文中‘Many start curling as children and continue to play well into retirement’，表明人们从孩童时期一直到退休后都可以参与这项运动，因此题干信息与原文一致，答案为 TRUE。",
               "reason": "直接支持",
               "location_analysis": "原文说从儿童到退休都能参加，对应任何年龄。",
-              "paraphrasing": "any age -> children ... well into retirement",
+              "paraphrasing": "any age -> children... well into retirement",
               "keywords": "any age, children, retirement",
               "evidence": [
                 "Many start curling as children and continue to play well into retirement."
@@ -537,7 +537,7 @@
               "accepted_answers": [
                 "D"
               ],
-              "analysis": "题干问哪处曾有作家造访，D段提到‘扭曲的老树是作家J.R.R. 托尔金童年时期的灵感来源，他因住在附近而经常经过此地’，‘author JRR Tolkien’和‘often passed through’直接对应题干中的‘writer’和‘used to visit’，因此答案为 D。",
+              "analysis": "题干问哪处曾有作家造访，D段提到‘扭曲的老树是作家J. R.R. 托尔金童年时期的灵感来源，他因住在附近而经常经过此地’，‘author JRR Tolkien’和‘often passed through’直接对应题干中的‘writer’和‘used to visit’，因此答案为 D。",
               "reason": "对应D段",
               "location_analysis": "JRR Tolkien是作家，常经过此地。",
               "paraphrasing": "writer -> author JRR Tolkien; used to visit -> often passed through",
@@ -1837,7 +1837,7 @@
               ],
               "analysis": "段落 B 回忆了作者15年前与象群的一次危险遭遇，并提到当时因象群首领（matriarch）位于队伍后方，年轻母象犹豫不决，才得以逃生。这部分内容明显是在叙述一次过去的经历，且强调了当时的惊险情境。选项 iv “A past encounter”精准对应了“the last time I had seen these elephants, 15 years earlier”这一时间线索和事件性质，因此答案为 iv。",
               "reason": "Describes a previous dangerous encounter with elephants.",
-              "location_analysis": "Paragraph B recounts a past encounter 15 years ...",
+              "location_analysis": "Paragraph B recounts a past encounter 15 years...",
               "paraphrasing": "A past encounter -> The last time I had seen these elephants, 15 years earlier, I had narrowly escaped",
               "keywords": "15 years earlier, narrowly escaped",
               "evidence": [

@@ -8,13 +8,14 @@ import {
   currentReadingTest,
   locateReadingAnnotation,
   normalizeReadingText,
-  readReadingAnnotationDraft,
+  READING_ANNOTATIONS_EVENT,
+  READING_ATTEMPT_EVENT,
   READING_HISTORY_EVENT,
   sanitizeReadingAnnotations,
-  syncAnnotationsIntoExamDrafts,
-  writeReadingAnnotationDraft,
+  updateReadingAttemptAnnotations,
   type AnnotationKind,
   type ReadingAnnotation,
+  type ReadingAttemptDetail,
   type ReadingHistoryDetail
 } from "@/lib/readingAnnotations";
 
@@ -43,6 +44,7 @@ type HighlightRegistry = {
 type HighlightConstructor = new (...ranges: Range[]) => unknown;
 
 const HIGHLIGHT_NAME = "reading-highlight";
+const SECONDARY_HIGHLIGHT_NAME = "reading-highlight-secondary";
 const NOTE_NAME = "reading-note";
 const ANNOTATION_UNIT_SELECTOR = ".passage-copy .passage-unit, .questions-pane .question-annotation-unit";
 
@@ -77,7 +79,11 @@ function currentContext(): ReadingContext | null {
   const partMatch = activePartText.match(/(\d+)/);
   const test = currentReadingTest(testTitle);
   if (!test || !partMatch) return null;
-  return { testId: test.id, testTitle: test.title, partNumber: Number(partMatch[1]) };
+  return {
+    testId: test.id,
+    testTitle: test.title,
+    partNumber: Number(partMatch[1])
+  };
 }
 
 function sentenceAround(text: string, start: number, end: number): string {
@@ -189,7 +195,15 @@ function HighlightedSentence({ annotation }: { annotation: ReadingAnnotation }) 
   return (
     <small>
       {sentence.slice(0, index)}
-      <mark className={annotation.kind === "note" ? "note" : "highlight"}>
+      <mark
+        className={
+          annotation.kind === "note"
+            ? "note"
+            : annotation.highlightLevel === "secondary"
+              ? "highlight secondary"
+              : "highlight"
+        }
+      >
         {sentence.slice(index, index + annotation.selectedText.length)}
       </mark>
       {sentence.slice(index + annotation.selectedText.length)}
@@ -229,11 +243,37 @@ export default function ReadingAnnotationLayer() {
   }, [refreshContext]);
 
   useEffect(() => {
+    function onAttempt(event: Event) {
+      const detail = (event as CustomEvent<ReadingAttemptDetail>).detail;
+      if (!detail) return;
+      setHistory(null);
+      setAnnotations(sanitizeReadingAnnotations(detail.annotations));
+      setSelection(null);
+      setNoteOpen(false);
+      setPanelOpen(false);
+      setStatus("");
+      window.setTimeout(refreshContext, 0);
+    }
+    function onAnnotations(event: Event) {
+      const detail = (event as CustomEvent<ReadingAttemptDetail>).detail;
+      if (!detail) return;
+      setAnnotations(sanitizeReadingAnnotations(detail.annotations));
+    }
+    window.addEventListener(READING_ATTEMPT_EVENT, onAttempt);
+    window.addEventListener(READING_ANNOTATIONS_EVENT, onAnnotations);
+    return () => {
+      window.removeEventListener(READING_ATTEMPT_EVENT, onAttempt);
+      window.removeEventListener(READING_ANNOTATIONS_EVENT, onAnnotations);
+    };
+  }, [refreshContext]);
+
+  useEffect(() => {
     function onHistory(event: Event) {
       const detail = (event as CustomEvent<ReadingHistoryDetail>).detail;
       if (!detail) return;
       setHistory({ ...detail, annotations: sanitizeReadingAnnotations(detail.annotations) });
-      setPanelOpen(Boolean(detail.annotations.length));
+      setPanelOpen(false);
+      window.setTimeout(refreshContext, 0);
     }
     window.addEventListener(READING_HISTORY_EVENT, onHistory);
     return () => window.removeEventListener(READING_HISTORY_EVENT, onHistory);
@@ -241,15 +281,11 @@ export default function ReadingAnnotationLayer() {
 
   useEffect(() => {
     if (!context) {
-      setAnnotations([]);
       setSelection(null);
       setNoteOpen(false);
       return;
     }
     setHistory(null);
-    const restored = readReadingAnnotationDraft(context.testId, context.testTitle);
-    setAnnotations(restored);
-    syncAnnotationsIntoExamDrafts(context.testId, restored);
     setSelection(null);
     setNoteOpen(false);
     setPanelOpen(false);
@@ -268,10 +304,12 @@ export default function ReadingAnnotationLayer() {
     const api = highlightApi();
     if (!api) return;
     api.registry.delete(HIGHLIGHT_NAME);
+    api.registry.delete(SECONDARY_HIGHLIGHT_NAME);
     api.registry.delete(NOTE_NAME);
     if (!context) return;
     const paragraphs = annotationUnits();
     const highlightRanges: Range[] = [];
+    const secondaryHighlightRanges: Range[] = [];
     const noteRanges: Range[] = [];
     for (const annotation of visibleAnnotations) {
       const paragraph = paragraphs[annotation.paragraphIndex];
@@ -279,9 +317,16 @@ export default function ReadingAnnotationLayer() {
       const range = rangeForAnnotation(paragraph, annotation);
       if (!range) continue;
       if (annotation.kind === "note") noteRanges.push(range);
+      else if (annotation.highlightLevel === "secondary") secondaryHighlightRanges.push(range);
       else highlightRanges.push(range);
     }
     if (highlightRanges.length) api.registry.set(HIGHLIGHT_NAME, new api.Highlight(...highlightRanges));
+    if (secondaryHighlightRanges.length) {
+      api.registry.set(
+        SECONDARY_HIGHLIGHT_NAME,
+        new api.Highlight(...secondaryHighlightRanges)
+      );
+    }
     if (noteRanges.length) api.registry.set(NOTE_NAME, new api.Highlight(...noteRanges));
   }, [context, visibleAnnotations]);
 
@@ -388,7 +433,7 @@ export default function ReadingAnnotationLayer() {
       document.removeEventListener("selectionchange", scheduleSelectionCapture);
       if (selectionTimer.current != null) window.clearTimeout(selectionTimer.current);
     };
-  }, []);
+  }, [refreshContext]);
 
   const selectedAnnotation = useMemo(() => {
     if (!selection) return null;
@@ -403,17 +448,42 @@ export default function ReadingAnnotationLayer() {
     }) || null;
   }, [annotations, selection]);
 
+  const selectionOverlapsPrimaryHighlight = useMemo(() => {
+    if (!selection || selectedAnnotation) return false;
+    return annotations.some((item) => {
+      if (
+        item.kind !== "highlight"
+        || item.highlightLevel === "secondary"
+        || item.partNumber !== selection.partNumber
+        || item.paragraphIndex !== selection.paragraphIndex
+      ) {
+        return false;
+      }
+      const located = locateReadingAnnotation(selection.paragraphText, item);
+      return Boolean(
+        located
+        && located.endOffset > selection.startOffset
+        && located.startOffset < selection.endOffset
+      );
+    });
+  }, [annotations, selectedAnnotation, selection]);
+
   function persist(next: ReadingAnnotation[]) {
     if (!context) return;
-    setAnnotations(writeReadingAnnotationDraft(context.testId, context.testTitle, next));
+    setAnnotations(updateReadingAttemptAnnotations(context.testId, next));
   }
 
-  function makeAnnotation(kind: AnnotationKind, note = ""): ReadingAnnotation | null {
+  function makeAnnotation(
+    kind: AnnotationKind,
+    note = "",
+    highlightLevel: ReadingAnnotation["highlightLevel"] = "primary"
+  ): ReadingAnnotation | null {
     if (!selection) return null;
     const now = new Date().toISOString();
     return {
       id: selectedAnnotation?.id || annotationId(),
       kind,
+      highlightLevel: kind === "highlight" ? highlightLevel : undefined,
       testId: selection.testId,
       testTitle: selection.testTitle,
       partNumber: selection.partNumber,
@@ -439,14 +509,23 @@ export default function ReadingAnnotationLayer() {
   function saveHighlight() {
     if (selectedAnnotation?.kind === "highlight") {
       persist(annotations.filter((item) => item.id !== selectedAnnotation.id));
-      setStatus("已取消高亮，并同步到本机考试草稿");
+      setStatus("已取消高亮；当前练习不会自动保存");
       closeSelection();
       return;
     }
-    const annotation = makeAnnotation("highlight");
+    if (!selection) return;
+    const annotation = makeAnnotation(
+      "highlight",
+      "",
+      selectionOverlapsPrimaryHighlight ? "secondary" : "primary"
+    );
     if (!annotation) return;
     persist([annotation, ...annotations.filter((item) => item.id !== annotation.id)]);
-    setStatus("已高亮，并同步到本机考试草稿");
+    setStatus(
+      selectionOverlapsPrimaryHighlight
+        ? "已添加二次高亮；手动保存草稿后才会在下次恢复"
+        : "已高亮；手动保存草稿后才会在下次恢复"
+    );
     closeSelection();
   }
 
@@ -454,7 +533,7 @@ export default function ReadingAnnotationLayer() {
     const annotation = makeAnnotation("note", noteDraft.trim());
     if (!annotation || !annotation.note) return;
     persist([annotation, ...annotations.filter((item) => item.id !== annotation.id)]);
-    setStatus("笔记已保存，并同步到本机考试草稿");
+    setStatus("笔记已加入当前练习；手动保存草稿后才会在下次恢复");
     closeSelection();
   }
 
@@ -516,7 +595,13 @@ export default function ReadingAnnotationLayer() {
           onPointerDown={(event) => event.preventDefault()}
         >
           <button type="button" onClick={saveHighlight}>
-            {selectedAnnotation?.kind === "highlight" ? "取消高亮" : "高亮"}
+            {selectedAnnotation?.kind === "highlight"
+              ? selectedAnnotation.highlightLevel === "secondary"
+                ? "取消二次高亮"
+                : "取消高亮"
+              : selectionOverlapsPrimaryHighlight
+                ? "二次高亮"
+                : "高亮"}
           </button>
           <button type="button" onClick={() => { setNoteOpen(true); setNoteDraft(selectedAnnotation?.note || ""); }}>笔记</button>
           <button type="button" disabled={savingVocabulary} onClick={() => void addVocabulary()}>{savingVocabulary ? "保存中…" : "加入生词本"}</button>
@@ -547,7 +632,13 @@ export default function ReadingAnnotationLayer() {
           <div className="reading-annotation-list">
             {visibleAnnotations.map((item) => (
               <article key={item.id}>
-                <span>{item.kind === "note" ? "笔记" : "高亮"} · Part {item.partNumber} · 段落 {item.paragraphIndex + 1}</span>
+                <span>
+                  {item.kind === "note"
+                    ? "笔记"
+                    : item.highlightLevel === "secondary"
+                      ? "二次高亮"
+                      : "高亮"} · Part {item.partNumber} · 段落 {item.paragraphIndex + 1}
+                </span>
                 <strong>{item.selectedText}</strong>
                 {item.note ? <p>{item.note}</p> : null}
                 <HighlightedSentence annotation={item} />

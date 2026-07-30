@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 const webRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), "..");
 const repoRoot = path.resolve(webRoot, "..", "..");
 const bankRoot = path.join(repoRoot, "services", "api", "data", "question-bank", "tests");
+const layoutRepairsPath = path.join(repoRoot, "services", "api", "data", "question-bank", "passage_layout_repairs.json");
 
 test("all 58 tests and 174 parts are covered by the shared exam presentation", () => {
   const files = fs.readdirSync(bankRoot).filter((name) => name.endsWith(".json"));
@@ -73,20 +74,37 @@ test("generic Part titles resolve from existing source metadata without duplicat
   }
 });
 
-test("the shared renderer distinguishes brochure rows before heuristic headings", () => {
+test("the shared renderer preserves source order without inventing headings", () => {
   const workbench = fs.readFileSync(path.join(webRoot, "components", "ExamWorkbench.tsx"), "utf8");
-  const dashGuard = workbench.indexOf("if (/\\s[-–—]\\s/.test(value)) return false");
-  const headingDecision = workbench.indexOf("const titleLike =");
-
-  assert.ok(dashGuard >= 0 && headingDecision > dashGuard);
+  assert.doesNotMatch(workbench, /function looksLikePassageHeading/);
   assert.match(workbench, /function looksLikePassageCategory/);
   assert.match(workbench, /function passageListingParts/);
   assert.match(workbench, /function resolvedPassageTitle/);
+  assert.match(workbench, /const columnCount = Math\.max\(1, table\.headers\.length/);
+  assert.match(workbench, /const hasMergedHeading = Boolean/);
+  assert.match(workbench, /className="passage-source-table-group-heading"/);
+  assert.match(workbench, /colSpan=\{columnCount\}/);
+  assert.match(workbench, /passage-source-table--wide/);
   assert.match(workbench, /GENERIC_PASSAGE_TITLE\.test\(sourceTitle\)\) return ""/);
   assert.match(workbench, /sourceTitleAppearsInBody \? "" : sourceTitle/);
   assert.match(workbench, /className="passage-category-heading passage-unit"/);
   assert.match(workbench, /className="passage-listing passage-unit"/);
   assert.match(workbench, /className="passage-legend passage-unit"/);
+});
+
+test("all verified source tables use the readable shared presentation", () => {
+  const repairs = JSON.parse(fs.readFileSync(layoutRepairsPath, "utf8")).repairs || [];
+  const tableRepairs = repairs.filter((repair) => repair.table);
+  const netscape = tableRepairs.find((repair) => repair.test_id === "b5-test-a" && repair.part_number === 2);
+
+  assert.equal(tableRepairs.length, 4);
+  assert.equal(netscape?.table?.caption, "NETSCAPE");
+  assert.equal(netscape?.table?.intro, "File Edit View Go Communicator Help");
+  assert.deepEqual(netscape?.table?.headers, ["CONTENTS: ARTHUR PHILLIP COLLEGE", ""]);
+  assert.equal(
+    (netscape?.table?.rows || []).some((row) => row.some((cell) => cell.includes("·"))),
+    false
+  );
 });
 
 test("desktop exam defaults and typography follow the verified reading baseline", () => {
@@ -95,12 +113,29 @@ test("desktop exam defaults and typography follow the verified reading baseline"
 
   assert.match(workbench, /const READING_FONT_SIZES = \[15, 17, 19, 21, 23\]/);
   assert.match(workbench, /useState\(17\)/);
-  assert.match(workbench, /useState\(40\)/);
-  assert.match(workbench, /const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v2"/);
+  assert.match(workbench, /const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v4"/);
+  assert.match(workbench, /const \[paneRatio, setPaneRatio\] = useState\(45\)/);
   assert.match(workbench, /storedRatioValue !== null && storedRatioValue\.trim\(\) !== ""/);
-  assert.match(styles, /\.passage-copy \{[\s\S]*font-family: Inter,[\s\S]*font-size: var\(--reading-font-size, 17px\)[\s\S]*line-height: 1\.75/);
+  assert.match(styles, /\.passage-copy \{[\s\S]*font-family: Inter,[\s\S]*font-size: var\(--reading-font-size, 17px\)[\s\S]*font-weight: 500;[\s\S]*line-height: 1\.75/);
+  assert.match(styles, /\.passage-copy \{[\s\S]*font-variant-numeric: lining-nums tabular-nums slashed-zero;[\s\S]*font-feature-settings: "lnum" 1, "tnum" 1, "zero" 1;/);
+  assert.match(styles, /\.passage-source-table \{[\s\S]*font-size: clamp\(15px, 1em, 19px\);[\s\S]*line-height: 1\.55;/);
+  assert.match(styles, /\.passage-source-table th,[\s\S]*padding: 13px 16px;[\s\S]*border: 1px solid #9ea7ab;/);
+  assert.match(styles, /\.passage-source-table--wide table \{ min-width: 1120px; \}/);
   assert.match(styles, /\.question-card \{[\s\S]*border-bottom: 1px solid var\(--exam-line\)[\s\S]*border-radius: 0/);
   assert.match(styles, /\.question-title-row p \{[^}]*font-weight: 600[^}]*line-height: 1\.75/);
   assert.match(styles, /\.questions-scroll \{[\s\S]*container-name: question-scroll;[\s\S]*container-type: inline-size;/);
   assert.match(styles, /@media \(max-width: 560px\) \{[\s\S]*\.passage-listing \{ display: block; \}/);
+});
+
+test("answered choice rows keep the clean exam layout without stacked orange state bars", () => {
+  const workbench = fs.readFileSync(path.join(webRoot, "components", "ExamWorkbench.tsx"), "utf8");
+  const styles = fs.readFileSync(path.join(webRoot, "app", "globals.css"), "utf8");
+
+  assert.match(styles, /\.question-card:focus-within \{ background: var\(--exam-card\); box-shadow: none; \}/);
+  assert.doesNotMatch(styles, /\.question-card--judgement\.answered:not\(\.flagged\) \.question-title-row/);
+  assert.match(styles, /\.answer-options label\.selected \{[\s\S]*border-color: transparent;[\s\S]*background: transparent;[\s\S]*box-shadow: none;/);
+  assert.match(styles, /\.answer-options input[\s\S]*accent-color: var\(--brand-dark\)/);
+  assert.match(styles, /\.answer-options input:focus-visible/);
+  assert.doesNotMatch(workbench, /answer-control-mark/);
+  assert.match(styles, /\.question-card\.flagged \{[^}]*box-shadow: inset 3px 0 0 #d59a28;/);
 });

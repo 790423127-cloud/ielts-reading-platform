@@ -22,6 +22,10 @@ class SessionAnnotation(BaseModel):
 
     id: str = Field(min_length=1, max_length=160)
     kind: Literal["highlight", "note"]
+    highlight_level: Literal["primary", "secondary"] = Field(
+        default="primary",
+        alias="highlightLevel",
+    )
     test_id: str = Field(alias="testId", min_length=1, max_length=120)
     test_title: str = Field(alias="testTitle", min_length=1, max_length=300)
     part_number: int = Field(alias="partNumber", ge=1, le=3)
@@ -88,6 +92,13 @@ class SessionEnvelope(BaseModel):
     created_at: str
     idempotent_replay: bool
     result: dict[str, Any]
+
+
+class SessionDeleteBatchRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    user_id: str = Field(default="owner", min_length=1, max_length=120)
+    session_ids: list[str] = Field(min_length=1, max_length=100)
 
 
 def session_repository() -> SQLiteSessionRepository:
@@ -281,6 +292,20 @@ def list_sessions(
     ]
 
 
+@router.post("/delete-batch")
+def delete_sessions_batch(payload: SessionDeleteBatchRequest) -> dict[str, Any]:
+    deleted_ids, missing_ids = session_repository().delete_many(
+        user_id=payload.user_id,
+        session_ids=payload.session_ids,
+    )
+    return {
+        "deleted_count": len(deleted_ids),
+        "deleted_ids": deleted_ids,
+        "missing_ids": missing_ids,
+        "recoverable": False,
+    }
+
+
 @router.get("/{session_id}", response_model=SessionEnvelope)
 def get_session(
     session_id: str,
@@ -293,13 +318,13 @@ def get_session(
 
 
 @router.delete("/{session_id}")
-def archive_session(
+def delete_session(
     session_id: str,
     user_id: str = Query(default="owner", min_length=1, max_length=120),
 ) -> dict[str, Any]:
-    if not session_repository().archive(user_id=user_id, session_id=session_id):
+    if not session_repository().delete(user_id=user_id, session_id=session_id):
         raise HTTPException(status_code=404, detail="Session not found")
-    return {"archived": True, "recoverable": True}
+    return {"deleted": True, "recoverable": False}
 
 
 @router.post("/{session_id}/restore")

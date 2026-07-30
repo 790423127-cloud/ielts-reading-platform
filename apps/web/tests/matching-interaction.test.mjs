@@ -10,19 +10,24 @@ test("full-text matching restores the legacy option-bank and answer-slot interac
   assert.match(workbench, /matchingHasDescriptions \? \(/);
   assert.match(workbench, /matching-interactive-bank/);
   assert.match(workbench, /matching-answer-slot/);
-  assert.match(workbench, /gridTemplateColumns: `minmax\(0, \$\{paneRatio\}fr\) 15px minmax\(0, \$\{100 - paneRatio\}fr\)`/);
+  assert.match(workbench, /gridTemplateColumns: `minmax\(0, \$\{paneRatio\}fr\) 8px minmax\(0, \$\{100 - paneRatio\}fr\)`/);
   assert.match(workbench, /className=\{`matching-option-card[\s\S]*?draggable[\s\S]*?onDragStart=/);
   assert.match(workbench, /dataTransfer\.setData\("text\/plain", option\.code\)/);
   assert.match(workbench, /assignAnswer\(id, selectedCode\)/);
   assert.match(workbench, /placeholder=\{`\$\{questionNumber\(question\)\} 拖拽或输入选项字母`\}/);
   assert.match(workbench, /else if \(optionMap\.has\(nextCode\)\) assignAnswer\(id, nextCode\)/);
+  assert.match(workbench, /const chosenText = chosen \? optionDisplayText\(chosen\) : ""/);
+  assert.match(workbench, /matching-answer-description/);
+  assert.match(workbench, /if \(chosen\) event\.currentTarget\.select\(\)/);
+  assert.match(css, /\.matching-answer-slot\.filled \{[\s\S]*?grid-template-columns: max-content minmax\(0, 1fr\)/);
+  assert.match(css, /\.matching-answer-description \{/);
   assert.match(workbench, /optionReuse/);
   assert.match(workbench, /restoreInstructionOptionText/);
   assert.match(css, /\.passage-pane, \.questions-pane \{[\s\S]*?min-width: 0;[\s\S]*?overflow-x: hidden;/);
   assert.match(css, /\.matching-question-row/);
   assert.match(css, /grid-template-areas:\s*"help help"\s*"questions bank"/);
   assert.match(css, /grid-template-columns: minmax\(260px, \.78fr\) minmax\(360px, 1\.22fr\)/);
-  assert.match(css, /@container question-scroll \(max-width: 680px\)/);
+  assert.match(css, /@container question-scroll \(max-width: 920px\)/);
   assert.match(css, /grid-template-areas: "help" "questions" "bank"/);
   assert.match(css, /\.matching-question-list \{[^}]*grid-area: questions/);
   assert.match(css, /\.matching-interactive-bank \{[\s\S]*?grid-area: bank/);
@@ -34,6 +39,7 @@ test("letter-only matching follows the benchmark matrix while descriptive matchi
   assert.match(workbench, /text\.localeCompare\(option\.code/);
   assert.match(workbench, /useMatchingMatrix \? \(/);
   assert.match(workbench, /matching-answer-matrix/);
+  assert.doesNotMatch(workbench, /<th scope="col">标记<\/th>/);
   assert.match(workbench, /matchingHasDescriptions \? \(/);
   assert.match(css, /\.matching-answer-matrix/);
   assert.match(css, /\.matrix-answer-radio/);
@@ -55,7 +61,9 @@ test("question instructions retain line hierarchy and emphasize answer constrain
   assert.match(workbench, /correct option/);
   assert.match(workbench, /question-instructions-heading/);
   assert.match(workbench, /INSTRUCTION_EMPHASIS/);
-  assert.match(css, /\.question-instructions-copy p:first-child/);
+  assert.match(workbench, /INSTRUCTION_ACTION_LINE/);
+  assert.match(workbench, /TRUE\|FALSE\|NOT GIVEN/);
+  assert.match(css, /\.question-instructions-copy \.instruction-action-line/);
 });
 
 test("question option codes retain their order and recover missing display text from the group", () => {
