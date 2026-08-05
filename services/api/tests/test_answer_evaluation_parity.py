@@ -22,6 +22,36 @@ def test_completion_number_words_and_figures_are_equivalent() -> None:
     ) == (True, None)
 
 
+def test_short_answer_hyphen_time_and_unit_variants() -> None:
+    # hyphen vs space
+    assert evaluate_answer(
+        "every half-hour",
+        ["every half hour"],
+        subtype="short_answer",
+        instructions="NO MORE THAN THREE WORDS",
+    ) == (True, None)
+    # time with am/pm and colon
+    assert evaluate_answer(
+        "10.30 am",
+        ["10.30"],
+        subtype="short_answer",
+        instructions="NO MORE THAN THREE WORDS AND/OR A NUMBER",
+    ) == (True, None)
+    assert evaluate_answer(
+        "10:30",
+        ["10.30"],
+        subtype="short_answer",
+        instructions="NO MORE THAN THREE WORDS AND/OR A NUMBER",
+    ) == (True, None)
+    # unit abbreviation
+    assert evaluate_answer(
+        "10 km",
+        ["10 kilometre", "10 kilometres", "10 km"],
+        subtype="short_answer",
+        instructions="NO MORE THAN THREE WORDS AND/OR A NUMBER",
+    ) == (True, None)
+
+
 def test_free_text_is_never_split_on_spaces() -> None:
     assert evaluate_answer(
         "student accommodation",

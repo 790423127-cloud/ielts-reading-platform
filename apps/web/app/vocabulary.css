@@ -76,7 +76,7 @@
   display: grid;
   grid-template-columns: 330px minmax(0, 1fr);
   gap: 18px;
-  align-items: start;
+  align-items: flex-start;
 }
 .vocabulary-capture-card {
   position: sticky;
@@ -146,7 +146,7 @@
   display: grid;
   grid-template-columns: auto minmax(0, 1fr) auto;
   gap: 18px;
-  align-items: start;
+  align-items: flex-start;
 }
 .vocabulary-card-select {
   display: grid;

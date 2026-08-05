@@ -1,6 +1,7 @@
 "use client";
 
-import { Fragment, useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type DragEvent as ReactDragEvent, type KeyboardEvent as ReactKeyboardEvent, type PointerEvent as ReactPointerEvent } from "react";
+import { Fragment, createContext, memo, useCallback, useContext, useEffect, useMemo, useRef, useState, type CSSProperties, type DragEvent as ReactDragEvent, type KeyboardEvent as ReactKeyboardEvent, type MouseEvent as ReactMouseEvent, type PointerEvent as ReactPointerEvent, type RefObject } from "react";
+import AiTeacherPanel from "@/components/AiTeacherPanel";
 import {
   fetchPublicTest,
   fetchSession,
@@ -16,6 +17,7 @@ import {
   type QuestionOption,
   type ScoringResult,
   type SessionSummary,
+  type SourceQuestionGroup,
   type TestIndexItem
 } from "@/lib/api";
 import {
@@ -25,11 +27,14 @@ import {
   type ReadingAnnotation,
   type ReadingAttemptDetail
 } from "@/lib/readingAnnotations";
+import { useStudyActivity } from "@/lib/useStudyActivity";
 
 type ExamMode = "mock_exam" | "study" | "part_practice";
 type Screen = "library" | "exam" | "result";
 type AnswerValue = string | string[];
-type ResultQuestionFilter = "all" | "wrong" | "correct" | "unanswered";
+type QuestionReviewStatus = "wrong" | "correct" | "unanswered";
+
+const ReviewAnalysisContext = createContext<((question: QuestionResult) => void) | null>(null);
 
 type DraftState = {
   answers: Record<string, AnswerValue>;
@@ -50,7 +55,7 @@ type DraftSummary = DraftState & { key: string; testId: string };
 
 const USER_ID = "owner";
 const READING_FONT_SIZES = [15, 17, 19, 21, 23] as const;
-const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v4";
+const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v6";
 
 function normalizeReadingFontSize(value: unknown): number {
   if (value === null || value === undefined || String(value).trim() === "") return 17;
@@ -328,6 +333,215 @@ function PassageContent({ part }: { part: PublicPart }) {
   );
 }
 
+const StableHtmlDiv = memo(function StableHtmlDiv({
+  className,
+  html,
+  contentRef,
+  sourceVisualName
+}: {
+  className: string;
+  html: string;
+  contentRef?: RefObject<HTMLDivElement | null>;
+  sourceVisualName?: string;
+}) {
+  return (
+    <div
+      className={className}
+      data-source-visual-name={sourceVisualName}
+      dangerouslySetInnerHTML={{ __html: html }}
+      ref={contentRef}
+    />
+  );
+});
+
+const StableHtmlSpan = memo(function StableHtmlSpan({
+  className,
+  html
+}: {
+  className?: string;
+  html: string;
+}) {
+  return <span className={className} dangerouslySetInnerHTML={{ __html: html }} />;
+});
+
+function PassageDisplay({ part }: { part: PublicPart }) {
+  if (part.source_html) {
+    return (
+      <StableHtmlDiv
+        className="passage-copy passage-source-html passage-unit"
+        html={part.source_html}
+        sourceVisualName={part.source_visual_name}
+      />
+    );
+  }
+  return <PassageContent part={part} />;
+}
+
+function normalizedTextWithMap(value: string): { text: string; map: number[] } {
+  let text = "";
+  const map: number[] = [];
+  for (let index = 0; index < value.length; index += 1) {
+    const raw = value[index]
+      .replace(/[‘’]/g, "'")
+      .replace(/[“”]/g, '"')
+      .replace(/[‐‑‒–—−]/g, "-")
+      .replace(/\u00a0/g, " ")
+      .toLowerCase();
+    if (/\s/.test(raw)) {
+      if (text && !text.endsWith(" ")) {
+        text += " ";
+        map.push(index);
+      }
+      continue;
+    }
+    text += raw;
+    map.push(index);
+  }
+  return { text, map };
+}
+
+function highlightEvidenceSentence(root: HTMLElement, question: QuestionResult, evidence: string): boolean {
+  const needle = normalizedTextWithMap(evidence.trim()).text.trim();
+  if (!needle) return false;
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+      if (!node.nodeValue?.trim() || !parent || parent.closest("mark[data-answer-sentence]")) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const nodes: Text[] = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode as Text);
+  for (const node of nodes) {
+    const original = node.nodeValue || "";
+    const normalized = normalizedTextWithMap(original);
+    const normalizedStart = normalized.text.indexOf(needle);
+    if (normalizedStart < 0) continue;
+    const start = normalized.map[normalizedStart];
+    const normalizedEnd = normalizedStart + needle.length - 1;
+    const end = (normalized.map[normalizedEnd] ?? start) + 1;
+    const mark = document.createElement("mark");
+    mark.dataset.answerSentence = String(question.id);
+    mark.className = "result-answer-sentence";
+    const label = document.createElement("span");
+    label.className = "result-answer-sentence-label";
+    label.textContent = `[Q${question.number}]`;
+    mark.append(label, document.createTextNode(original.slice(start, end)));
+    const fragment = document.createDocumentFragment();
+    fragment.append(document.createTextNode(original.slice(0, start)), mark, document.createTextNode(original.slice(end)));
+    node.parentNode?.replaceChild(fragment, node);
+    return true;
+  }
+  return false;
+}
+
+function appendPassageTranslations(root: HTMLElement, part: PublicPart): number {
+  const candidates = [...root.querySelectorAll<HTMLElement>("p, li, td, th, h1, h2, h3, h4")];
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+      if (!node.nodeValue?.trim() || !parent || parent.closest(".result-passage-translation, script, style")) {
+        return NodeFilter.FILTER_REJECT;
+      }
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const textCandidates: Text[] = [];
+  while (walker.nextNode()) textCandidates.push(walker.currentNode as Text);
+  const used = new Set<Node>();
+  const unmatchedTranslations: string[] = [];
+  let inserted = 0;
+  for (const paragraph of part.paragraphs || []) {
+    const translation = repairDisplayText(String(paragraph.translation || "")).trim();
+    const source = normalizedTextWithMap(String(paragraph.text || "")).text.trim();
+    if (!translation || !source) continue;
+    const elementTarget = candidates
+      .filter((element) => !used.has(element))
+      .map((element) => ({ element, text: normalizedTextWithMap(element.textContent || "").text.trim() }))
+      .filter((item) => {
+        if (!item.text) return false;
+        const overlaps = item.text.includes(source) || source.includes(item.text);
+        const similarity = Math.min(item.text.length, source.length) / Math.max(item.text.length, source.length);
+        return overlaps && similarity >= 0.72;
+      })
+      .sort((left, right) => left.text.length - right.text.length)[0]?.element;
+    const textTarget = elementTarget ? undefined : textCandidates
+      .filter((node) => !used.has(node))
+      .map((node) => ({ node, text: normalizedTextWithMap(node.data).text.trim() }))
+      .filter((item) => {
+        if (!item.text) return false;
+        const overlaps = item.text.includes(source) || source.includes(item.text);
+        const similarity = Math.min(item.text.length, source.length) / Math.max(item.text.length, source.length);
+        return overlaps && similarity >= 0.72;
+      })
+      .sort((left, right) => left.text.length - right.text.length)[0]?.node;
+    if (!elementTarget && !textTarget) {
+      unmatchedTranslations.push(translation);
+      continue;
+    }
+    const translationBlock = document.createElement("span");
+    translationBlock.className = "result-passage-translation";
+    translationBlock.textContent = translation;
+    if (elementTarget) {
+      elementTarget.insertAdjacentElement("afterend", translationBlock);
+      used.add(elementTarget);
+    } else {
+      textTarget?.parentNode?.insertBefore(translationBlock, textTarget.nextSibling);
+      if (textTarget) used.add(textTarget);
+    }
+    inserted += 1;
+  }
+  if (unmatchedTranslations.length) {
+    const fallback = document.createElement("section");
+    fallback.className = "result-passage-translation-fallback";
+    const heading = document.createElement("strong");
+    heading.textContent = inserted ? "其余段落翻译" : "本 Part 中文翻译";
+    fallback.append(heading);
+    for (const translation of unmatchedTranslations) {
+      const paragraph = document.createElement("p");
+      paragraph.textContent = translation;
+      fallback.append(paragraph);
+    }
+    root.prepend(fallback);
+    inserted += unmatchedTranslations.length;
+  }
+  return inserted;
+}
+
+function clearPassageReviewEnhancements(root: HTMLElement) {
+  root.querySelectorAll(".result-passage-translation-fallback").forEach((element) => element.remove());
+  root.querySelectorAll(".result-passage-translation").forEach((element) => element.remove());
+  root.querySelectorAll<HTMLElement>("mark[data-answer-sentence]").forEach((mark) => {
+    mark.querySelector(".result-answer-sentence-label")?.remove();
+    mark.replaceWith(...Array.from(mark.childNodes));
+  });
+}
+
+function ResultPassageDisplay({
+  part,
+  questions,
+  showTranslations
+}: {
+  part: PublicPart;
+  questions: QuestionResult[];
+  showTranslations: boolean;
+}) {
+  const rootRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const root = rootRef.current;
+    if (!root) return;
+    clearPassageReviewEnhancements(root);
+    if (showTranslations) appendPassageTranslations(root, part);
+    for (const question of questions) {
+      for (const evidence of question.evidence || []) {
+        if (highlightEvidenceSentence(root, question, String(evidence))) break;
+      }
+    }
+    return () => clearPassageReviewEnhancements(root);
+  }, [part, questions, showTranslations]);
+  return <div className="result-passage-highlight-layer" ref={rootRef}><PassageDisplay part={part} /></div>;
+}
+
 const INSTRUCTION_EMPHASIS = /\b(NO MORE THAN(?:\s+[A-Z]+){0,5}|ONE WORD ONLY|TRUE|FALSE|NOT GIVEN|YES|NO|A NUMBER)\b/g;
 const INSTRUCTION_EMPHASIS_EXACT = /^(?:NO MORE THAN(?:\s+[A-Z]+){0,5}|ONE WORD ONLY|TRUE|FALSE|NOT GIVEN|YES|NO|A NUMBER)$/;
 const INSTRUCTION_ACTION_LINE = /^(?:Choose|Write|In boxes?|Read each|Complete|Answer|Select|Match|Label|Fill|Use|Drag|TRUE|FALSE|NOT GIVEN|YES|NO)\b/i;
@@ -541,18 +755,11 @@ function reviewValueText(value: unknown): string {
   return String(value);
 }
 
-function reviewOptionText(value: unknown): string {
-  if (typeof value === "string" || typeof value === "number") return repairDisplayText(String(value)).trim();
-  if (!value || typeof value !== "object") return "";
-  const option = value as Record<string, unknown>;
-  const code = reviewValueText(option.code ?? option.label ?? option.value);
-  const text = reviewValueText(option.text ?? option.content ?? option.title);
-  if (!text) return code;
-  return code && text !== code ? `${code}. ${text}` : text;
-}
-
-function questionReviewStatus(question: QuestionResult): ResultQuestionFilter {
-  if (!String(question.user_answer || "").trim()) return "unanswered";
+function questionReviewStatus(question: QuestionResult): QuestionReviewStatus {
+  const submittedAnswer = question.shared_response && question.credited_answer !== undefined
+    ? question.credited_answer
+    : question.user_answer;
+  if (!String(submittedAnswer || "").trim()) return "unanswered";
   return question.is_correct ? "correct" : "wrong";
 }
 
@@ -591,62 +798,132 @@ function InlineAnswerReview({ question }: { question: QuestionResult | undefined
   );
 }
 
-function ResultQuestionCard({ question }: { question: QuestionResult }) {
+function ResultQuestionAnalysisDialog({
+  question,
+  sessionId,
+  onClose
+}: {
+  question: QuestionResult;
+  sessionId: string;
+  onClose: () => void;
+}) {
   const status = questionReviewStatus(question);
-  const statusLabel = status === "correct" ? "回答正确" : status === "unanswered" ? "未作答" : "回答错误";
   const explanation = reviewValueText(question.analysis || question.reason);
-  const location = reviewValueText(question.location_analysis);
-  const paraphrasing = reviewValueText(question.paraphrasing);
-  const keywords = reviewValueText(question.keywords);
   const wrongReasons = reviewValueText(question.wrong_reasons);
-  const options = (question.options || []).map(reviewOptionText).filter(Boolean);
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [onClose]);
 
   return (
-    <details className={`result-question-card ${status}`} open={status !== "correct"}>
-      <summary>
-        <span className="result-question-number">Q{question.number}</span>
-        <span className={`result-status-badge ${status}`}>{statusLabel}</span>
-        <span className="result-question-meta">Part {question.part_number} · {question.question_type} · 用时 {formatSeconds(question.elapsed_seconds || 0)}</span>
-        <strong className="result-question-prompt">{displayMarkup(question.prompt)}</strong>
-        <span className="result-detail-toggle">查看完整解析</span>
-      </summary>
-      <div className="result-question-body">
-        {question.instructions ? (
-          <section className="result-explanation-block instruction">
-            <span>题目要求</span>
-            <p>{displayMarkup(question.instructions)}</p>
+    <div className="result-analysis-backdrop" role="presentation" onMouseDown={(event) => {
+      if (event.target === event.currentTarget) onClose();
+    }}>
+      <section className="result-analysis-dialog" role="dialog" aria-modal="true" aria-labelledby={`result-analysis-title-${question.id}`}>
+        <header>
+          <div><span>QUESTION {question.number}</span><h2 id={`result-analysis-title-${question.id}`}>解析</h2></div>
+          <button type="button" onClick={onClose} aria-label="关闭解析">×</button>
+        </header>
+        <div className="result-analysis-scroll">
+          <p className="result-analysis-prompt"><b>Q{question.number}</b>{displayMarkup(question.prompt)}</p>
+          <div className="result-analysis-answer-line">
+            <span>正确答案：<strong>{question.correct_answer || "题库暂未提供"}</strong></span>
+            <span>我的答案：<strong className={status}>{question.user_answer || "未作答"}</strong></span>
+          </div>
+          <section className="result-analysis-copy">
+            <p><b>解题思路：</b>{explanation || "题库暂未提供解析。"}</p>
+            {wrongReasons ? <p><b>避坑：</b>{wrongReasons}</p> : null}
           </section>
-        ) : null}
-        {options.length ? (
-          <section className="result-explanation-block">
-            <span>原题选项</span>
-            <ol className="result-option-list">
-              {options.map((option, index) => <li key={`${question.id}-option-${index}`}>{option}</li>)}
-            </ol>
-          </section>
-        ) : null}
-        <div className="answer-comparison">
-          <article><span>你的答案</span><strong>{question.user_answer || "未作答"}</strong></article>
-          <article><span>正确答案</span><strong>{question.correct_answer || "题库暂未提供"}</strong></article>
+          {question.evidence?.length ? (
+            <blockquote className="result-analysis-evidence">
+              <strong>[Q{question.number}] 原文答案句</strong>
+              {question.evidence.map((item, index) => <p key={`${question.id}-evidence-${index}`}>{item}</p>)}
+            </blockquote>
+          ) : <p className="result-evidence-missing">本题暂未提供经过核验的原文答案句，不会自动编造。</p>}
+          {!question.is_correct && sessionId ? (
+            <AiTeacherPanel
+              key={`${sessionId}:${question.id}`}
+              contextType="wrong_question"
+              sessionId={sessionId}
+              questionId={String(question.id)}
+              title={`继续问 Q${question.number}`}
+              description="AI只使用本次已交卷记录中的题干、你的答案、正确答案、解析和核验证据。"
+              suggestions={["我为什么会错？", "题干和原文如何同义替换？", "正确答案的边界为什么是这样？"]}
+            />
+          ) : <div className="result-analysis-ai-note">本题回答正确；AI错题对话仅在错题和未作答题中提供。</div>}
         </div>
-        {question.answer_error_type === "word_limit_exceeded" ? <p className="result-warning">答案超过题目规定的词数限制。</p> : null}
-        <div className="result-analysis-grid">
-          {explanation ? <section className="result-explanation-block"><span>答案解析</span><p>{explanation}</p></section> : null}
-          {location ? <section className="result-explanation-block"><span>定位分析</span><p>{location}</p></section> : null}
-          {paraphrasing ? <section className="result-explanation-block"><span>同义替换</span><p>{paraphrasing}</p></section> : null}
-          {keywords ? <section className="result-explanation-block"><span>关键词</span><p>{keywords}</p></section> : null}
-          {wrongReasons ? <section className="result-explanation-block"><span>易错原因</span><p>{wrongReasons}</p></section> : null}
-        </div>
-        {question.evidence?.length ? (
-          <blockquote className="result-evidence">
-            <strong>原文定位句</strong>
-            {question.evidence.map((item, index) => <p key={`${question.id}-evidence-${index}`}>{item}</p>)}
-          </blockquote>
-        ) : (
-          <p className="result-evidence-missing">本题源数据暂未提供可核验的定位句；报告不会猜测或伪造证据。</p>
-        )}
-      </div>
-    </details>
+      </section>
+    </div>
+  );
+}
+
+function QuestionAnalysisLink({ question }: { question: QuestionResult | undefined }) {
+  const onOpenAnalysis = useContext(ReviewAnalysisContext);
+  if (!question || !onOpenAnalysis) return null;
+  return (
+    <a
+      className="question-analysis-link"
+      href={`#question-${question.id}`}
+      role="button"
+      onClick={(event) => {
+        event.preventDefault();
+        onOpenAnalysis(question);
+      }}
+      onKeyDown={(event) => {
+        if (event.key !== " ") return;
+        event.preventDefault();
+        onOpenAnalysis(question);
+      }}
+      aria-label={`查看第${question.number}题解释`}
+    >
+      解释
+    </a>
+  );
+}
+
+function InlineQuestionReview({ question }: { question: QuestionResult | undefined }) {
+  if (!question) return null;
+  return (
+    <>
+      <InlineAnswerReview question={question} />
+      <QuestionAnalysisLink question={question} />
+    </>
+  );
+}
+
+function QuestionReviewActions({ results }: { results: QuestionResult[] }) {
+  if (!results.length) return null;
+  const hasWrongAnswer = results.some((question) => !question.is_correct);
+  return (
+    <div className="question-inline-review-list">
+      {hasWrongAnswer ? (
+        results.some((question) => question.shared_response)
+          ? <SharedMultipleAnswerReview results={results} />
+          : results.map((question) => <InlineAnswerReview question={question} key={`answer-review-${question.id}`} />)
+      ) : null}
+      <span className="question-analysis-links" aria-label="逐题解释">
+        {results.map((question) => <QuestionAnalysisLink question={question} key={`analysis-${question.id}`} />)}
+      </span>
+    </div>
+  );
+}
+
+function SharedMultipleAnswerReview({ results }: { results: QuestionResult[] }) {
+  const summary = results.find((result) => result.shared_response && result.shared_response_score !== undefined);
+  if (!summary || summary.shared_response_score === summary.shared_response_total) return null;
+  const correct = summary.selected_correct_answers || [];
+  const incorrect = summary.selected_incorrect_answers || [];
+  const missed = summary.missed_correct_answers || [];
+  return (
+    <span className="inline-answer-review shared-multiple-answer-review">
+      <span>本组答对 <b>{summary.shared_response_score}/{summary.shared_response_total}</b></span>
+      {correct.length ? <strong>选对 <b>{correct.join("、")}</b></strong> : null}
+      {incorrect.length ? <span>误选 <b>{incorrect.join("、")}</b></span> : null}
+      {missed.length ? <span>漏选 <b>{missed.join("、")}</b></span> : null}
+    </span>
   );
 }
 
@@ -670,9 +947,10 @@ export default function ExamWorkbench() {
   const [draftKey, setDraftKey] = useState("");
   const [result, setResult] = useState<ScoringResult | null>(null);
   const [resultSessionId, setResultSessionId] = useState("");
-  const [resultQuestionFilter, setResultQuestionFilter] = useState<ResultQuestionFilter>("all");
-  const [resultPartFilter, setResultPartFilter] = useState<number | "all">("all");
   const [resultSourcePart, setResultSourcePart] = useState<number | null>(null);
+  const [selectedReviewQuestion, setSelectedReviewQuestion] = useState<QuestionResult | null>(null);
+  const [showAnswerSentences, setShowAnswerSentences] = useState(false);
+  const [showPassageTranslations, setShowPassageTranslations] = useState(false);
   const [resultAnnotationsOpen, setResultAnnotationsOpen] = useState(false);
   const [historyEntrySource, setHistoryEntrySource] = useState(false);
   const [loading, setLoading] = useState(true);
@@ -685,7 +963,8 @@ export default function ExamWorkbench() {
   const [showDrafts, setShowDrafts] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
   const [paused, setPaused] = useState(false);
-  const [paneRatio, setPaneRatio] = useState(45);
+  const [timerActive, setTimerActive] = useState(false);
+  const [paneRatio, setPaneRatio] = useState(44);
   const [annotationCount, setAnnotationCount] = useState(0);
   const timedOutRef = useRef(false);
   const activePartRef = useRef(1);
@@ -693,6 +972,7 @@ export default function ExamWorkbench() {
   const activeQuestionLockUntilRef = useRef(0);
   const draftSnapshotRef = useRef<DraftState | null>(null);
   const initialHistorySessionRef = useRef(false);
+  const { shouldCountStudyTime } = useStudyActivity(screen === "exam");
 
   useEffect(() => {
     activeQuestionIdRef.current = activeQuestionId;
@@ -785,6 +1065,11 @@ export default function ExamWorkbench() {
     }).length,
     [questionRows, answers]
   );
+  const flaggedQuestionRows = useMemo(
+    () => questionRows.filter(({ question }) => Boolean(flagged[String(question.id)])),
+    [flagged, questionRows]
+  );
+  const flaggedCount = flaggedQuestionRows.length;
   const hasDraftProgress = answeredCount > 0 || Object.values(flagged).some(Boolean) || annotationCount > 0;
 
   draftSnapshotRef.current = screen === "exam" && draftKey && clientSubmissionId ? {
@@ -806,6 +1091,11 @@ export default function ExamWorkbench() {
   useEffect(() => {
     if (screen !== "exam" || paused) return;
     const timer = window.setInterval(() => {
+      if (!shouldCountStudyTime()) {
+        setTimerActive(false);
+        return;
+      }
+      setTimerActive(true);
       setElapsedSeconds((value) => value + 1);
       const currentPartNumber = String(activePartRef.current);
       setPartElapsedSeconds((current) => ({
@@ -829,6 +1119,10 @@ export default function ExamWorkbench() {
       });
     }, 1000);
     return () => window.clearInterval(timer);
+  }, [paused, screen, shouldCountStudyTime]);
+
+  useEffect(() => {
+    if (screen !== "exam" || paused) setTimerActive(false);
   }, [paused, screen]);
 
   useEffect(() => {
@@ -885,13 +1179,13 @@ export default function ExamWorkbench() {
         client_submission_id: clientSubmissionId,
         answers,
         elapsed_seconds: elapsedSeconds,
-        part_elapsed_seconds: Object.fromEntries(
+        partElapsedSeconds: Object.fromEntries(
           selectedParts(test, partNumbers).map((part) => {
             const key = String(part.number);
             return [key, Math.max(0, Math.floor(partElapsedSeconds[key] || 0))];
           })
         ),
-        question_elapsed_seconds: submittedQuestionTimings(test, partNumbers, questionElapsedSeconds),
+        questionElapsedSeconds: submittedQuestionTimings(test, partNumbers, questionElapsedSeconds),
         exam_mode: mode,
         part_numbers: partNumbers,
         timed_out: timedOut,
@@ -901,8 +1195,9 @@ export default function ExamWorkbench() {
       setResultAnnotationsOpen(false);
       setResultSessionId(response.session_id);
       setHistoryEntrySource(false);
-      setResultQuestionFilter(response.result.wrong_questions.length ? "wrong" : "all");
-      setResultPartFilter("all");
+      setSelectedReviewQuestion(null);
+      setShowAnswerSentences(false);
+      setShowPassageTranslations(false);
       setResultSourcePart(Number(response.result.wrong_questions[0]?.part_number || response.result.part_results[0]?.part_number || 1));
       setScreen("result");
       if (draftKey) window.localStorage.removeItem(draftKey);
@@ -983,7 +1278,12 @@ export default function ExamWorkbench() {
       setHistoryEntrySource(false);
       timedOutRef.current = false;
       setPaused(false);
-      if (draft) setNotice("已从草稿管理器继续上次未完成的答案和计时。");
+      if (draft) {
+        const restoredFlaggedCount = Object.values(draft.flagged || {}).filter(Boolean).length;
+        setNotice(restoredFlaggedCount
+          ? `已恢复答案、计时和 ${restoredFlaggedCount} 道标记题。可点击底部“检查标记”逐题复查。`
+          : "已从草稿管理器继续上次未完成的答案和计时。");
+      }
       setScreen("exam");
     } catch (reason: unknown) {
       setError(reason instanceof Error ? reason.message : "试卷加载失败");
@@ -1005,12 +1305,19 @@ export default function ExamWorkbench() {
   function toggleFlag(questionIds: string | string[]) {
     const ids = Array.isArray(questionIds) ? questionIds : [questionIds];
     if (ids[0]) setActiveQuestionId(ids[0]);
+    const removing = ids.some((questionId) => flagged[questionId]);
     setFlagged((current) => {
       const next = { ...current };
-      const flagged = ids.some((questionId) => current[questionId]);
-      for (const questionId of ids) next[questionId] = !flagged;
+      for (const questionId of ids) next[questionId] = !removing;
       return next;
     });
+    const numbers = questionRows
+      .filter(({ question }) => ids.includes(String(question.id)))
+      .map(({ question }) => questionNumber(question));
+    const label = numbers.length ? `第 ${numbers.join("、")} 题` : "当前题";
+    setNotice(removing
+      ? `已取消${label}的检查标记。`
+      : `已标记${label}。可点击底部“检查标记”返回复查。`);
   }
 
   function scrollToQuestion(questionId: string, partNumber: number) {
@@ -1109,8 +1416,9 @@ export default function ExamWorkbench() {
       setResultAnnotationsOpen(false);
       setResultSessionId(sessionId);
       setHistoryEntrySource(fromHistoryCenter);
-      setResultQuestionFilter(session.result.wrong_questions.length ? "wrong" : "all");
-      setResultPartFilter("all");
+      setSelectedReviewQuestion(null);
+      setShowAnswerSentences(false);
+      setShowPassageTranslations(false);
       setResultSourcePart(Number(session.result.wrong_questions[0]?.part_number || session.result.part_results[0]?.part_number || 1));
       setTest(sourceTest);
       setScreen("result");
@@ -1150,12 +1458,36 @@ export default function ExamWorkbench() {
         }))
       )
     );
+    const activeDockItem = dockQuestions.find((item) => item.controlId === activeQuestionId)
+      || dockQuestions.find((item) => Number(item.part.number) === activePart);
+    const sharedActiveQuestionIds = activeDockItem ? sharedQuestionIds(activeDockItem.group) : [];
+    const activeFlagQuestionIds = activeDockItem
+      ? (sharedActiveQuestionIds.length ? sharedActiveQuestionIds : [String(activeDockItem.question.id)])
+      : [];
+    const activeQuestionFlagged = activeFlagQuestionIds.some((questionId) => Boolean(flagged[questionId]));
+    const seenFlagTargets = new Set<string>();
+    const flaggedDockTargets = dockQuestions.filter((item) => {
+      if (!flagged[String(item.question.id)]) return false;
+      const key = `${item.part.number}:${item.controlId}`;
+      if (seenFlagTargets.has(key)) return false;
+      seenFlagTargets.add(key);
+      return true;
+    });
     const currentDockIndex = dockQuestions.findIndex((item) => item.controlId === activeQuestionId);
     const moveDock = (direction: -1 | 1) => {
       const fallbackIndex = dockQuestions.findIndex((item) => Number(item.part.number) === activePart);
       const baseIndex = currentDockIndex >= 0 ? currentDockIndex : fallbackIndex;
       const target = dockQuestions[Math.max(0, Math.min(dockQuestions.length - 1, baseIndex + direction))];
       if (target) scrollToQuestion(target.controlId, Number(target.part.number));
+    };
+    const reviewNextFlagged = () => {
+      if (!flaggedDockTargets.length) return;
+      const currentFlaggedIndex = flaggedDockTargets.findIndex((item) =>
+        item.controlId === activeQuestionId && Number(item.part.number) === activePart
+      );
+      const target = flaggedDockTargets[(currentFlaggedIndex + 1) % flaggedDockTargets.length];
+      scrollToQuestion(target.controlId, Number(target.part.number));
+      setNotice(`正在检查第 ${questionNumber(target.question)} 题。修改确认后可取消标记。`);
     };
     const readingStyle = {
       "--reading-font-size": `${readingFontSize}px`
@@ -1168,6 +1500,7 @@ export default function ExamWorkbench() {
         data-test-id={test.id}
         data-test-title={test.title}
         data-part-number={active?.number}
+        data-source-visual={Boolean(active?.source_html)}
         style={readingStyle}
       >
         <header className="exam-topbar">
@@ -1179,6 +1512,9 @@ export default function ExamWorkbench() {
           <div className={remainingSeconds !== null && remainingSeconds <= 300 ? "exam-timer warning" : "exam-timer"}>
             <span>{remainingSeconds === null ? "已用时间" : "剩余时间"}</span>
             <strong>{formatSeconds(remainingSeconds ?? elapsedSeconds)}</strong>
+            <small className={timerActive ? "study-timer-status active" : "study-timer-status idle"}>
+              {timerActive ? "活跃计时" : "静止暂停"}
+            </small>
           </div>
           <div className="exam-question-timer">
             <span>本题 {activeQuestionMeta ? `Q${activeQuestionMeta}` : ""}</span>
@@ -1207,8 +1543,9 @@ export default function ExamWorkbench() {
             type="button"
             className="exam-submit-button"
             disabled={submitting}
-            onClick={() => {
-              if (window.confirm(`确定交卷吗？当前已完成 ${answeredCount}/${questionRows.length} 题。`)) {
+           onClick={() => {
+              const markedMessage = flaggedCount ? `还有 ${flaggedCount} 道题标记为待检查。` : "";
+              if (window.confirm(`确定交卷吗？当前已完成 ${answeredCount}/${questionRows.length} 题。${markedMessage}`)) {
                 void submitCurrent(false);
               }
             }}
@@ -1248,7 +1585,7 @@ export default function ExamWorkbench() {
                 <strong>Part {active.number}</strong>
                 <span>阅读原文并回答第 {partQuestionRange(active)} 题</span>
               </div>
-              <PassageContent part={active} />
+              <PassageDisplay part={active} />
             </section>
             <div
               className="exam-divider"
@@ -1345,6 +1682,31 @@ export default function ExamWorkbench() {
               );
             })}
           </div>
+          <div className="dock-review-actions" aria-label="标记题复查">
+            <button
+              type="button"
+              className={activeQuestionFlagged ? "dock-flag-button active" : "dock-flag-button"}
+              disabled={!activeFlagQuestionIds.length}
+              aria-pressed={activeQuestionFlagged}
+              aria-label={activeQuestionFlagged ? "取消当前题标记" : "标记当前题"}
+              onClick={() => toggleFlag(activeFlagQuestionIds)}
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M6 21V4m1 1h10l-1.6 4L17 13H7" />
+              </svg>
+              <span>{activeQuestionFlagged ? "取消标记" : "标记本题"}</span>
+            </button>
+            <button
+              type="button"
+              className="dock-review-button"
+              disabled={!flaggedDockTargets.length}
+              onClick={reviewNextFlagged}
+              aria-label={flaggedCount ? `检查标记题，共 ${flaggedCount} 题` : "没有标记题"}
+            >
+              <span>检查标记</span>
+              <strong>{flaggedCount}</strong>
+            </button>
+          </div>
           <div className="dock-step-buttons" aria-label="上一题或下一题">
             <button
               type="button"
@@ -1372,7 +1734,7 @@ export default function ExamWorkbench() {
           <div className="system-modal-backdrop">
             <section className="system-modal exam-help-modal" role="dialog" aria-modal="true">
               <header><h2>机考帮助</h2><button type="button" onClick={() => setShowHelp(false)}>关闭</button></header>
-              <ul><li>拖动中间分隔线可在 30%–70% 范围调整文章宽度。</li><li>暂停会冻结计时，不会清空答案。</li><li>答案不会自动保存；点击“保存草稿”后，才可从“管理草稿”继续。</li><li>普通退出或从题卡再次开始都会创建空白练习。</li></ul>
+              <ul><li>拖动中间分隔线可在 30%–70% 范围调整文章宽度。</li><li>底部“标记本题”可记录不确定的题；“检查标记”会跨 Part 逐题带你返回复查。</li><li>暂停会冻结计时，不会清空答案。</li><li>答案和标记不会自动保存；点击“保存草稿”后，才可从“管理草稿”继续。</li><li>普通退出或从题卡再次开始都会创建空白练习。</li></ul>
             </section>
           </div>
         ) : null}
@@ -1388,6 +1750,7 @@ export default function ExamWorkbench() {
     const resultAnnotations = result.annotations || [];
     const noteCount = resultAnnotations.filter((annotation) => Boolean(annotation.note?.trim())).length;
     const highlightCount = resultAnnotations.filter((annotation) => annotation.kind === "highlight").length;
+    const showDetailedReview = historyEntrySource;
     const typeResults = result.type_results?.length ? result.type_results : (() => {
       const buckets = new Map<string, { type: string; correct: number; total: number; accuracy: number }>();
       for (const question of questionResults) {
@@ -1400,19 +1763,6 @@ export default function ExamWorkbench() {
       }
       return [...buckets.values()].sort((left, right) => left.accuracy - right.accuracy || right.total - left.total);
     })();
-    const filteredQuestions = questionResults.filter((question) => {
-      const statusMatches = resultQuestionFilter === "all"
-        || (resultQuestionFilter === "wrong" ? !question.is_correct : questionReviewStatus(question) === resultQuestionFilter);
-      const partMatches = resultPartFilter === "all" || Number(question.part_number) === resultPartFilter;
-      return statusMatches && partMatches;
-    });
-    const questionsByPart = filteredQuestions.reduce((groups, question) => {
-      const part = Number(question.part_number) || 0;
-      const rows = groups.get(part) || [];
-      rows.push(question);
-      groups.set(part, rows);
-      return groups;
-    }, new Map<number, QuestionResult[]>());
     const submittedPartNumbers = new Set(result.part_results.map((part) => Number(part.part_number)));
     const reviewParts = test?.id === result.test_id
       ? test.parts.filter((part) => submittedPartNumbers.has(Number(part.number)))
@@ -1423,6 +1773,11 @@ export default function ExamWorkbench() {
     const activeReviewQuestions = activeReviewPart
       ? questionResults.filter((question) => Number(question.part_number) === Number(activeReviewPart.number))
       : [];
+    const highlightedReviewQuestions = showAnswerSentences
+      ? activeReviewQuestions
+      : selectedReviewQuestion && Number(selectedReviewQuestion.part_number) === Number(activeReviewPart?.number)
+        ? [selectedReviewQuestion]
+        : [];
     const activeReviewQuestionResults = new Map(
       activeReviewQuestions.map((question) => [String(question.id), question])
     );
@@ -1435,17 +1790,16 @@ export default function ExamWorkbench() {
         <nav className="result-report-nav" aria-label="报告目录">
           <a href="#result-overview">总览</a>
           <a href="#result-source-review">原文与作答</a>
-          <a href="#result-performance">分项表现</a>
-          <a href="#result-review">逐题复盘</a>
+          {showDetailedReview ? <a href="#result-performance">分项表现</a> : null}
           {resultAnnotations.length ? (
             <a href="#result-annotations" onClick={() => setResultAnnotationsOpen(true)}>高亮与笔记</a>
           ) : null}
         </nav>
         <div className="result-hero" id="result-overview">
           <div>
-            <p className="eyebrow">DETAILED SCORE REPORT</p>
+            <p className="eyebrow">{showDetailedReview ? "DETAILED SCORE REPORT" : "SUBMISSION RESULT"}</p>
             <h1>{result.test_title}</h1>
-            <p>交卷后详细报告 · 标准答案、题库解析与原文证据仅在服务端判分后显示。</p>
+            <p>{showDetailedReview ? "练习记录详细报告 · 完整分项表现与逐题解析。" : "交卷完成 · 详细分项表现与逐题复盘已保存到练习记录。"}</p>
           </div>
           <div className="result-score"><strong>{result.score}/{result.total}</strong><span>{result.accuracy}%</span></div>
           {result.band_estimate?.eligible ? (
@@ -1464,10 +1818,14 @@ export default function ExamWorkbench() {
           <div>
             <span>{result.wrong_questions.length ? "优先复盘" : "本次结果"}</span>
             <strong>{result.wrong_questions.length ? `${result.wrong_questions.length} 道题需要复盘` : "全部答对"}</strong>
-            <p>{result.wrong_questions.length ? "下方已默认只显示错题和未作答题，并展开你的答案与正确答案对比。" : "可以在逐题复盘中展开查看全部题目的答案依据。"}</p>
+            <p>{showDetailedReview
+              ? (result.wrong_questions.length ? "下方可按需展开错题和未作答题解析。" : "可以在逐题复盘中展开查看全部题目的答案依据。")
+              : "详细分项表现与逐题解析已保存，可随时前往练习记录查看。"}</p>
           </div>
-          <a href="#result-review" onClick={() => setResultQuestionFilter(result.wrong_questions.length ? "wrong" : "all")}>
-            {result.wrong_questions.length ? "立即查看错题" : "查看全部题目"}
+          <a
+            href={showDetailedReview ? "#result-source-review" : "/history"}
+          >
+            {showDetailedReview ? "回看题目解析" : "前往练习记录"}
           </a>
         </section>
         {result.ai_paraphrase_summary ? (
@@ -1493,6 +1851,27 @@ export default function ExamWorkbench() {
           </header>
           {activeReviewPart ? (
             <div className="result-source-workbench">
+              <div className="result-source-view-tools">
+                <span>点击题号解析，可自动定位原文答案句</span>
+                <button
+                  type="button"
+                  role="switch"
+                  aria-checked={showAnswerSentences}
+                  className={showAnswerSentences ? "active" : ""}
+                  onClick={() => setShowAnswerSentences((visible) => !visible)}
+                >
+                  答案句<i aria-hidden="true" />
+                </button>
+                <button
+                  type="button"
+                  role="switch"
+                  aria-checked={showPassageTranslations}
+                  className={showPassageTranslations ? "active" : ""}
+                  onClick={() => setShowPassageTranslations((visible) => !visible)}
+                >
+                  翻译<i aria-hidden="true" />
+                </button>
+              </div>
               <nav className="exam-question-dock result-source-part-dock" aria-label="切换报告 Part">
                 <div className="dock-section-strip" role="tablist" aria-label="切换报告 Part 和题目">
                   {reviewParts.map((part) => {
@@ -1506,7 +1885,10 @@ export default function ExamWorkbench() {
                           role="tab"
                           className="dock-section-label result-source-dock-label"
                           aria-selected={active}
-                          onClick={() => setResultSourcePart(Number(part.number))}
+                          onClick={() => {
+                            setResultSourcePart(Number(part.number));
+                            setSelectedReviewQuestion(null);
+                          }}
                         >
                           <strong>{active ? `P${part.number}` : `Passage ${part.number}`}</strong>
                           {!active ? <span>{partResult?.score || 0} of {partQuestions.length}</span> : null}
@@ -1520,7 +1902,10 @@ export default function ExamWorkbench() {
                                   type="button"
                                   className={status}
                                   key={`source-dock-${question.id}`}
-                                  onClick={() => document.getElementById(`question-${question.id}`)?.scrollIntoView({ behavior: "smooth", block: "center" })}
+                                  onClick={() => {
+                                    setSelectedReviewQuestion(question);
+                                    document.getElementById(`question-${question.id}`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+                                  }}
                                   aria-label={`第${question.number}题，${status === "correct" ? "正确" : status === "unanswered" ? "未作答" : "错误"}`}
                                 >{question.number}</button>
                               );
@@ -1539,7 +1924,14 @@ export default function ExamWorkbench() {
               <div className="result-source-split">
                 <section className="result-source-passage" aria-label={`Part ${activeReviewPart.number} 原文`}>
                   <header><strong>原文</strong><span>阅读题库原始内容</span></header>
-                  <div className="result-source-scroll"><PassageContent part={activeReviewPart} /></div>
+                  <div className="result-source-scroll">
+                    <ResultPassageDisplay
+                      key={`${activeReviewPart.number}:${highlightedReviewQuestions.map((question) => question.id).join(",")}:translation-${showPassageTranslations}`}
+                      part={activeReviewPart}
+                      questions={highlightedReviewQuestions}
+                      showTranslations={showPassageTranslations}
+                    />
+                  </div>
                 </section>
                 <section className="result-source-answers" aria-label={`Part ${activeReviewPart.number} 作答记录`}>
                   <header><strong>我的作答记录</strong><span>按原做题界面只读还原</span></header>
@@ -1557,6 +1949,7 @@ export default function ExamWorkbench() {
                               answers={activeHistoricalAnswers}
                               flagged={{}}
                               reviewResults={activeReviewQuestionResults}
+                              onOpenAnalysis={setSelectedReviewQuestion}
                               onAnswer={() => undefined}
                               onFlag={() => undefined}
                             />
@@ -1575,6 +1968,7 @@ export default function ExamWorkbench() {
             </div>
           )}
         </section>
+        {showDetailedReview ? <>
         <section className="result-section result-performance-section" id="result-performance">
           <header className="result-section-heading"><div><span>PERFORMANCE</span><h2>分项表现</h2></div><p>先看 Part，再看题型，快速找到失分集中点。</p></header>
           <h3>Part 表现</h3>
@@ -1604,45 +1998,7 @@ export default function ExamWorkbench() {
             </table>
           </div>
         </section>
-        <section className="result-section result-review-section" id="result-review">
-          <header className="result-section-heading">
-            <div><span>QUESTION REVIEW</span><h2>逐题复盘</h2></div>
-            <p>完整保留原题、你的答案、正确答案、解析、定位、同义替换和证据句。</p>
-          </header>
-          <div className="result-review-toolbar">
-            <div className="result-filter-group" aria-label="按作答结果筛选">
-              {([
-                ["all", "全部题目", questionResults.length],
-                ["wrong", "错题", result.wrong_questions.length],
-                ["unanswered", "未作答", unansweredCount],
-                ["correct", "答对", correctCount]
-              ] as const).map(([value, label, count]) => (
-                <button type="button" className={resultQuestionFilter === value ? "active" : ""} key={value} onClick={() => setResultQuestionFilter(value)}>
-                  {label}<small>{count}</small>
-                </button>
-              ))}
-            </div>
-            <div className="result-filter-group part-filter" aria-label="按Part筛选">
-              <button type="button" className={resultPartFilter === "all" ? "active" : ""} onClick={() => setResultPartFilter("all")}>全部 Part</button>
-              {result.part_results.map((part) => (
-                <button type="button" className={resultPartFilter === part.part_number ? "active" : ""} key={part.part_number} onClick={() => setResultPartFilter(part.part_number)}>Part {part.part_number}</button>
-              ))}
-            </div>
-          </div>
-          <p className="result-review-count">当前显示 {filteredQuestions.length} / {questionResults.length} 题。错题与未作答题默认展开；答对题可按需展开。</p>
-          {filteredQuestions.length ? (
-            <div className="result-question-groups">
-              {[...questionsByPart.entries()].sort(([left], [right]) => left - right).map(([partNumber, questions]) => (
-                <section className="result-part-review" key={partNumber}>
-                  <header><h3>Part {partNumber}</h3><span>{questions.length} 题</span></header>
-                  <div className="result-question-list">
-                    {questions.map((question) => <ResultQuestionCard question={question} key={question.id} />)}
-                  </div>
-                </section>
-              ))}
-            </div>
-          ) : <div className="perfect-result">当前筛选条件下没有题目。</div>}
-        </section>
+        </> : null}
         {resultAnnotations.length ? (
           <section
             className={`result-section result-annotations${resultAnnotationsOpen ? " is-open" : " is-collapsed"}`}
@@ -1689,6 +2045,13 @@ export default function ExamWorkbench() {
           {resultSessionId ? <a className="secondary-button" href={sessionReportDownloadUrl(resultSessionId, "docx")}>下载 DOCX</a> : null}
           {result.test_id ? <button type="button" className="primary-button" onClick={() => void startExam(result.test_id, result.total === 40 ? "mock_exam" : "part_practice", result.total === 40 ? [] : result.part_numbers)}>再做一次</button> : null}
         </div>
+        {selectedReviewQuestion ? (
+          <ResultQuestionAnalysisDialog
+            question={selectedReviewQuestion}
+            sessionId={resultSessionId}
+            onClose={() => setSelectedReviewQuestion(null)}
+          />
+        ) : null}
       </div>
     );
   }
@@ -1758,7 +2121,7 @@ export default function ExamWorkbench() {
           <section className="system-modal draft-manager" role="dialog" aria-modal="true" onMouseDown={(event) => event.stopPropagation()}>
             <header><div><span>LOCAL DRAFTS</span><h2>草稿管理器</h2></div><button type="button" onClick={() => setShowDrafts(false)}>关闭</button></header>
             {drafts.length ? <div>{drafts.map((draft) => (
-              <article key={draft.key}><div><strong>{draft.testTitle || draft.testId}</strong><span>{draft.mode || "练习"} · Part {(draft.partNumbers || []).join(",") || "1–3"} · 已答 {Object.keys(draft.answers || {}).length} 题 · 标注 {draft.annotations?.length || 0} 条</span><small>{draft.updatedAt ? formatDate(draft.updatedAt) : "旧草稿"}</small></div>
+              <article key={draft.key}><div><strong>{draft.testTitle || draft.testId}</strong><span>{draft.mode || "练习"} · Part {(draft.partNumbers || []).join(",") || "1–3"} · 已答 {Object.values(draft.answers || {}).filter(answerIsPresent).length} 题 · 标记 {Object.values(draft.flagged || {}).filter(Boolean).length} 题 · 标注 {draft.annotations?.length || 0} 条</span><small>{draft.updatedAt ? formatDate(draft.updatedAt) : "旧草稿"}</small></div>
                 <div className="draft-actions">
                   <button className="primary-button" type="button" onClick={() => {
                     setShowDrafts(false);
@@ -1804,7 +2167,10 @@ function optionDisplayText(option: QuestionOption): string {
 }
 
 function repairDisplayText(value: string): string {
-  return value.replace(/([.!?])(?=[A-Z][a-z])/g, "$1 ");
+  // Gap-fill placeholders stored as $questionId$ (4+ digits) must render as blanks.
+  return value
+    .replace(/\$\d{4,}\$/g, "_____")
+    .replace(/([.!?])(?=[A-Z][a-z])/g, "$1 ");
 }
 
 function displayMarkup(value: string) {
@@ -1820,7 +2186,504 @@ function displayMarkup(value: string) {
     });
 }
 
-function QuestionGroupControl({
+function selectionIsInside(container: HTMLElement): boolean {
+  const selection = window.getSelection();
+  if (!selection || selection.isCollapsed || selection.rangeCount !== 1) return false;
+  const common = selection.getRangeAt(0).commonAncestorContainer;
+  const commonElement = common.nodeType === Node.ELEMENT_NODE
+    ? common as Element
+    : common.parentElement;
+  return Boolean(commonElement && container.contains(commonElement));
+}
+
+function preventAnswerToggleForSelection(event: ReactMouseEvent<HTMLElement>) {
+  if (!selectionIsInside(event.currentTarget)) return;
+  event.preventDefault();
+  event.stopPropagation();
+}
+
+function prepareMatchingTextSelection(event: ReactPointerEvent<HTMLDivElement>) {
+  if (!(event.target as Element).closest(".question-annotation-unit")) return;
+  const card = event.currentTarget;
+  card.draggable = false;
+  const restore = () => {
+    card.draggable = true;
+    window.removeEventListener("pointerup", restore);
+    window.removeEventListener("pointercancel", restore);
+  };
+  window.addEventListener("pointerup", restore, { once: true });
+  window.addEventListener("pointercancel", restore, { once: true });
+}
+
+function sourceQuestionsForGroup(group: PublicQuestionGroup, source: SourceQuestionGroup): PublicQuestion[] {
+  const start = Number(source.display_start || 0);
+  const end = Number(source.display_end || start);
+  const indexStart = Number(source.start_index || 0);
+  const indexEnd = Number(source.end_index || indexStart);
+  const displayMatched = group.questions.filter((question) => {
+    const number = Number(question.display_number ?? question.number);
+    return Number.isFinite(number) && start > 0 && number >= start && number <= end;
+  });
+  const indexMatched = group.questions.filter((question) => {
+    const number = Number(question.display_number ?? question.number);
+    return Number.isFinite(number) && indexStart > 0 && number >= indexStart && number <= indexEnd;
+  });
+  const singleSourceGroup = (group.source_question_groups?.length || 0) <= 1;
+  if (singleSourceGroup && indexMatched.length > displayMatched.length) return indexMatched;
+  return displayMatched.length ? displayMatched : group.questions;
+}
+
+function escapeSourceAttribute(value: unknown): string {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function sourceQuestionsHtmlWithControls(
+  source: SourceQuestionGroup,
+  questions: PublicQuestion[]
+): string {
+  let slot = 0;
+  const control = () => {
+    const question = questions[Math.min(slot, Math.max(0, questions.length - 1))];
+    slot += 1;
+    if (!question) return "";
+    const id = String(question.id);
+    return `<input id="question-${escapeSourceAttribute(id)}" data-source-answer-id="${escapeSourceAttribute(id)}" autocomplete="off" spellcheck="false" aria-label="第${questionNumber(question)}题答案">`;
+  };
+  let rendered = String(source.questions_html || "").replace(/(?:\.{4,}|_{4,})/g, control);
+  if (slot === 0 && questions.length) {
+    rendered += `<div class="source-fallback-controls">${questions.map(() => control()).join("")}</div>`;
+  }
+  return rendered;
+}
+
+function SourceHtmlQuestionBlock({
+  group,
+  source,
+  answers,
+  flagged,
+  reviewResults,
+  onAnswer,
+  onFlag
+}: {
+  group: PublicQuestionGroup;
+  source: SourceQuestionGroup;
+  answers: Record<string, AnswerValue>;
+  flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
+  onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
+  onFlag: (questionIds: string | string[]) => void;
+}) {
+  const onOpenAnalysis = useContext(ReviewAnalysisContext);
+  const questions = useMemo(() => sourceQuestionsForGroup(group, source), [group, source]);
+  const rendered = useMemo(
+    () => sourceQuestionsHtmlWithControls(source, questions),
+    [questions, source]
+  );
+  const contentRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const content = contentRef.current;
+    if (!content) return undefined;
+    const handleSourceControl = (event: Event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLInputElement)) return;
+      const id = target.dataset.sourceAnswerId;
+      if (id) onAnswer(id, target.value);
+    };
+    content.addEventListener("input", handleSourceControl);
+    content.addEventListener("change", handleSourceControl);
+    return () => {
+      content.removeEventListener("input", handleSourceControl);
+      content.removeEventListener("change", handleSourceControl);
+    };
+  }, [onAnswer]);
+  useEffect(() => {
+    const content = contentRef.current;
+    if (!content) return;
+    content.querySelectorAll(".question-analysis-link--source").forEach((element) => element.remove());
+    for (const control of content.querySelectorAll<HTMLInputElement>("input[data-source-answer-id]")) {
+      const id = control.dataset.sourceAnswerId;
+      const value = id ? answers[id] : "";
+      const nextValue = typeof value === "string" ? value : "";
+      if (control.value !== nextValue) control.value = nextValue;
+      if (id && flagged[id]) control.dataset.flagged = "true";
+      else delete control.dataset.flagged;
+      const reviewResult = id ? reviewResults?.get(id) : undefined;
+      if (reviewResult) {
+        const reviewStatus = questionReviewStatus(reviewResult);
+        control.dataset.reviewStatus = reviewStatus;
+        control.placeholder = reviewStatus === "unanswered" ? "未作答" : "";
+        if (onOpenAnalysis) {
+          const link = document.createElement("a");
+          link.className = "question-analysis-link question-analysis-link--source";
+          link.href = `#question-${reviewResult.id}`;
+          link.setAttribute("role", "button");
+          link.setAttribute("aria-label", `查看第${reviewResult.number}题解释`);
+          link.textContent = "解释";
+          link.addEventListener("click", (event) => {
+            event.preventDefault();
+            onOpenAnalysis(reviewResult);
+          });
+          control.insertAdjacentElement("afterend", link);
+        }
+      } else {
+        delete control.dataset.reviewStatus;
+        control.placeholder = "";
+      }
+    }
+    return () => content.querySelectorAll(".question-analysis-link--source").forEach((element) => element.remove());
+  }, [answers, flagged, onOpenAnalysis, rendered, reviewResults]);
+  const sourceContent = (
+    <StableHtmlDiv
+      className="source-questions-content question-annotation-unit"
+      contentRef={contentRef}
+      html={rendered}
+    />
+  );
+  const reviewQuestions = questions
+    .map((question) => reviewResults?.get(String(question.id)))
+    .filter((question): question is QuestionResult => Boolean(question));
+  return (
+    <>
+      {sourceContent}
+      {questions.length ? (
+        <div className="source-flag-controls" aria-label="标记题目">
+          {questions.map((question) => {
+            const id = String(question.id);
+            const marked = Boolean(flagged[id]);
+            return (
+              <button
+                type="button"
+                className={marked ? "flag-button active" : "flag-button"}
+                aria-pressed={marked}
+                key={`source-flag-${id}`}
+                onClick={() => onFlag(id)}
+              >
+                <span>Q{questionNumber(question)}</span>
+                {marked ? "取消标记" : "标记此题"}
+              </button>
+            );
+          })}
+        </div>
+      ) : null}
+      {reviewQuestions.length ? (
+        <div className="source-html-answer-review-summary" aria-label="填空题答案对照">
+          <div className="correct-answers">
+            <b>正确答案：</b>
+            {reviewQuestions.map((question) => (
+              <span className="source-answer-summary-item" key={`source-correct-${question.id}`}>
+                <span>Q{question.number}</span>
+                <strong>{reviewValueText(question.correct_answer) || "题库暂未提供"}</strong>
+              </span>
+            ))}
+          </div>
+          <div className="submitted-answers">
+            <b>我的答案：</b>
+            {reviewQuestions.map((question) => {
+              const status = questionReviewStatus(question);
+              return (
+                <span className={`source-answer-summary-item ${status}`} key={`source-submitted-${question.id}`}>
+                  <span>Q{question.number}</span>
+                  <strong>{reviewValueText(question.user_answer) || "未作答"}</strong>
+                </span>
+              );
+            })}
+          </div>
+        </div>
+      ) : null}
+    </>
+  );
+}
+
+function sourceOptionDescription(option: { index?: string; content_html?: string }): string {
+  const code = String(option?.index || "").trim();
+  const text = String(option?.content_html || "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!text || text.localeCompare(code, undefined, { sensitivity: "accent" }) === 0) return "";
+  if (text.localeCompare(`Section ${code}`, undefined, { sensitivity: "accent" }) === 0) return "";
+  if (text.localeCompare(`Paragraph ${code}`, undefined, { sensitivity: "accent" }) === 0) return "";
+  return text;
+}
+
+type SourceMatchingExampleRow = {
+  label: string;
+  answer: string;
+};
+
+function sourceHtmlTextLines(html: string): string[] {
+  return String(html || "")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/(?:p|div|li|tr|h[1-6])>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;|&#160;|&#x0*a0;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .split(/\r?\n/)
+    .map((line) => repairDisplayText(line).replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+}
+
+function sourceMatchingExampleRows(source: SourceQuestionGroup): SourceMatchingExampleRow[] {
+  const optionCodes = (source.match_options || [])
+    .map((option) => String(option.index || "").trim())
+    .filter(Boolean);
+  if (!optionCodes.length) return [];
+
+  const optionCode = new Map(optionCodes.map((code) => [code.toLocaleLowerCase(), code]));
+  const parseRow = (line: string): SourceMatchingExampleRow | null => {
+    const match = line.match(/^(.*?)\s+(\S+)\s*$/);
+    if (!match) return null;
+    const label = match[1].trim();
+    const rawAnswer = match[2].replace(/[.,;:]$/, "");
+    if (!label || !optionCode.has(rawAnswer.toLocaleLowerCase())) return null;
+    return { label, answer: rawAnswer };
+  };
+
+  const lines = sourceHtmlTextLines(source.questions_html || "");
+  const rows: SourceMatchingExampleRow[] = [];
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index];
+    if (!/^Example\s*:?\b/i.test(line)) continue;
+
+    const inline = line.match(/^Example\s*:?\s*(.*?)\s+Answer\s*:?\s*(\S+)\s*$/i);
+    if (inline) {
+      const row = parseRow(`${inline[1]} ${inline[2]}`);
+      if (row) rows.push(row);
+      continue;
+    }
+
+    if (/^Example\s*:?\s*Answer\s*:?$/i.test(line)) {
+      const row = parseRow(lines[index + 1] || "");
+      if (row) rows.push(row);
+    }
+  }
+  return rows.filter((row, index) => (
+    rows.findIndex((candidate) => candidate.label === row.label && candidate.answer === row.answer) === index
+  ));
+}
+
+function SourceMatchingMatrix({
+  group,
+  source,
+  answers,
+  flagged,
+  reviewResults,
+  onAnswer,
+  onFlag
+}: {
+  group: PublicQuestionGroup;
+  source: SourceQuestionGroup;
+  answers: Record<string, AnswerValue>;
+  flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
+  onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
+  onFlag: (questionIds: string | string[]) => void;
+}) {
+  const questions = sourceQuestionsForGroup(group, source);
+  const options = source.match_options || [];
+  const showOptionBank = options.some((option) => Boolean(sourceOptionDescription(option)));
+  const exampleRows = sourceMatchingExampleRows(source);
+  return (
+    <>
+      {exampleRows.length ? (
+        <div className="source-matching-example" role="group" aria-label="示例答案">
+          <div className="source-matching-example-header">
+            <span>Example:</span>
+            <span>Answer</span>
+          </div>
+          {exampleRows.map((row) => (
+            <div className="source-matching-example-row" key={`${row.label}-${row.answer}`}>
+              <span className="question-annotation-unit">{row.label}</span>
+              <strong className="question-annotation-unit">{row.answer}</strong>
+            </div>
+          ))}
+        </div>
+      ) : null}
+      {showOptionBank ? (
+        <aside className="source-option-bank">
+          {source.options_title ? <strong>{source.options_title}</strong> : null}
+          {options.map((option) => (
+            <div key={`${source.position}-${option.index}`}>
+              <b>{option.index}</b>
+              <StableHtmlSpan className="question-annotation-unit" html={option.content_html || ""} />
+            </div>
+          ))}
+        </aside>
+      ) : null}
+      <div className="source-matching-matrix-wrap" role="region" aria-label="匹配题答题表" tabIndex={0}>
+        <table className="source-matching-matrix">
+          <thead>
+            <tr>
+              <th scope="col"><span className="sr-only">题目</span></th>
+              {options.map((option) => <th scope="col" key={option.index}>{option.index}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {questions.map((question) => {
+              const id = String(question.id);
+              const value = answers[id];
+              const marked = Boolean(flagged[id]);
+              return (
+                <tr id={`question-${id}`} key={id} className={`${answerIsPresent(value) ? "answered" : ""}${marked ? " flagged" : ""}`}>
+                  <th scope="row">
+                    <div className="source-matrix-question-heading">
+                      <span>
+                        <span className="source-matrix-question-number">{questionNumber(question)}</span>
+                        <span className="question-annotation-unit">{displayMarkup(question.prompt)}</span>
+                      </span>
+                      <button
+                        type="button"
+                        className={marked ? "flag-button active" : "flag-button"}
+                        aria-pressed={marked}
+                        onClick={() => onFlag(id)}
+                      >
+                        {marked ? "取消标记" : "标记此题"}
+                      </button>
+                    </div>
+                    <InlineQuestionReview question={reviewResults?.get(id)} />
+                  </th>
+                  {options.map((option) => {
+                    const code = String(option.index || "");
+                    return (
+                      <td key={code}>
+                        <label className="source-matrix-radio">
+                          <input
+                            type="radio"
+                            name={`source-answer-${id}`}
+                            checked={value === code}
+                            onChange={() => onAnswer(id, code)}
+                          />
+                          <span aria-hidden="true" />
+                          <span className="sr-only">第{questionNumber(question)}题选择 {code}</span>
+                        </label>
+                      </td>
+                    );
+                  })}
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </>
+  );
+}
+
+function SourceStructuredQuestionBlock({
+  group,
+  source,
+  answers,
+  flagged,
+  reviewResults,
+  onAnswer,
+  onFlag
+}: {
+  group: PublicQuestionGroup;
+  source: SourceQuestionGroup;
+  answers: Record<string, AnswerValue>;
+  flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
+  onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
+  onFlag: (questionIds: string | string[]) => void;
+}) {
+  const questions = sourceQuestionsForGroup(group, source);
+  const sourceQuestions = source.structured_questions || [];
+  const questionType = Number(source.question_type);
+  return (
+    <>
+      {sourceQuestions.map((sourceQuestion, index) => {
+        const question = questions[Math.min(index, Math.max(0, questions.length - 1))];
+        if (!question) return null;
+        const id = String(question.id);
+        const inferredSharedResponse = questionType === 2
+          && sourceQuestions.length === 1
+          && questions.length > 1;
+        const answerIds = inferredSharedResponse || (questionType === 2 && group.shared_response)
+          ? questions.map((item) => String(item.id))
+          : [id];
+        const sourceReviewResults = answerIds
+          .map((answerId) => reviewResults?.get(answerId))
+          .filter((result): result is QuestionResult => Boolean(result));
+        const value = answerIds.map((answerId) => answers[answerId]).find(Array.isArray)
+          || answers[answerIds[0]];
+        const selected = Array.isArray(value) ? value : [];
+        const displayNumber = questionType === 2 && answerIds.length > 1
+          ? `${questionNumber(questions[0])}–${questionNumber(questions[questions.length - 1])}`
+          : String(questionNumber(question));
+        const marked = answerIds.some((answerId) => Boolean(flagged[answerId]));
+        const answered = answerIsPresent(value);
+        return (
+          <article className={`source-question-row${marked ? " flagged" : ""}${answered ? " answered" : ""}`} id={`question-${id}`} key={`${source.position}-${id}-${index}`}>
+            <div className="source-question-prompt">
+              <strong>{displayNumber}</strong>
+              <StableHtmlSpan className="question-annotation-unit" html={sourceQuestion.content_html || ""} />
+              <div className="source-question-tools">
+                <button
+                  type="button"
+                  className={marked ? "flag-button active" : "flag-button"}
+                  aria-pressed={marked}
+                  onClick={() => onFlag(answerIds)}
+                >
+                  {marked ? "取消标记" : "标记此题"}
+                </button>
+              </div>
+            </div>
+            <div className="source-answer-options">
+              {(sourceQuestion.options || []).map((option, optionIndex) => {
+                const optionText = String(option.content_html || "").replace(/<[^>]+>/g, "").trim();
+                const code = questionType === 1 || questionType === 2
+                  ? String.fromCharCode(65 + optionIndex)
+                  : optionText;
+                const checked = questionType === 2 ? selected.includes(code) : value === code;
+                return (
+                  <label
+                    className={answerReviewClass(code, sourceReviewResults).trim()}
+                    key={`${id}-${code}-${optionIndex}`}
+                    onClickCapture={preventAnswerToggleForSelection}
+                  >
+                    <input
+                      type={questionType === 2 ? "checkbox" : "radio"}
+                      name={`source-answer-${id}`}
+                      checked={checked}
+                      onChange={(event) => {
+                        if (questionType !== 2) {
+                          onAnswer(answerIds, code);
+                          return;
+                        }
+                        const requiredChoices = Number(source.required_choices || group.required_choices || 0);
+                        if (event.target.checked && requiredChoices > 0 && selected.length >= requiredChoices) {
+                          return;
+                        }
+                        const next = event.target.checked
+                          ? [...selected.filter((item) => item !== code), code]
+                          : selected.filter((item) => item !== code);
+                        onAnswer(answerIds, next);
+                      }}
+                    />
+                    {questionType === 1 || questionType === 2 ? <b>{code}</b> : null}
+                    <StableHtmlSpan className="question-annotation-unit" html={option.content_html || ""} />
+                  </label>
+                );
+              })}
+            </div>
+            {answerIds.length > 1
+              ? <QuestionReviewActions results={sourceReviewResults} />
+              : <InlineQuestionReview question={reviewResults?.get(id)} />}
+          </article>
+        );
+      })}
+    </>
+  );
+}
+
+function SourceQuestionGroupControl({
   group,
   answers,
   flagged,
@@ -1835,6 +2698,89 @@ function QuestionGroupControl({
   onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
   onFlag: (questionIds: string | string[]) => void;
 }) {
+  return (
+    <section className="question-group question-group--source">
+      {(group.source_question_groups || []).map((source) => (
+        <section
+          className="source-question-block"
+          data-source-question-type={source.question_type}
+          data-source-interaction-mode={source.interaction_mode || ""}
+          key={`${source.position}-${source.navigation || "source"}`}
+        >
+          {source.instructions_html ? (
+            <StableHtmlDiv
+              className="question-instructions question-annotation-unit question-instructions--source"
+              html={source.instructions_html}
+            />
+          ) : null}
+          {source.interaction_mode === "matching_matrix" ? (
+            <SourceMatchingMatrix
+              group={group}
+              source={source}
+              answers={answers}
+              flagged={flagged}
+              reviewResults={reviewResults}
+              onAnswer={onAnswer}
+              onFlag={onFlag}
+            />
+          ) : source.questions_html ? (
+            <SourceHtmlQuestionBlock
+              group={group}
+              source={source}
+              answers={answers}
+              flagged={flagged}
+              reviewResults={reviewResults}
+              onAnswer={onAnswer}
+              onFlag={onFlag}
+            />
+          ) : (
+            <SourceStructuredQuestionBlock
+              group={group}
+              source={source}
+              answers={answers}
+              flagged={flagged}
+              reviewResults={reviewResults}
+              onAnswer={onAnswer}
+              onFlag={onFlag}
+            />
+          )}
+        </section>
+      ))}
+    </section>
+  );
+}
+
+function QuestionGroupControl({
+  group,
+  answers,
+  flagged,
+  reviewResults,
+  onOpenAnalysis,
+  onAnswer,
+  onFlag
+}: {
+  group: PublicQuestionGroup;
+  answers: Record<string, AnswerValue>;
+  flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
+  onOpenAnalysis?: (question: QuestionResult) => void;
+  onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
+  onFlag: (questionIds: string | string[]) => void;
+}) {
+  if (group.source_question_groups?.length) {
+    return (
+      <ReviewAnalysisContext.Provider value={onOpenAnalysis || null}>
+        <SourceQuestionGroupControl
+          group={group}
+          answers={answers}
+          flagged={flagged}
+          reviewResults={reviewResults}
+          onAnswer={onAnswer}
+          onFlag={onFlag}
+        />
+      </ReviewAnalysisContext.Provider>
+    );
+  }
   const subtype = group.question_subtype || group.question_type;
   const matching = subtype.startsWith("matching_");
   const firstQuestion = group.questions[0];
@@ -1845,6 +2791,7 @@ function QuestionGroupControl({
     .includes(subtype) && Boolean(group.content_template || group.table?.rows?.length || group.table?.content?.length);
 
   return (
+    <ReviewAnalysisContext.Provider value={onOpenAnalysis || null}>
     <section className={`question-group question-group--${matching ? "matching" : subtype}`}>
       <QuestionInstructions group={group} />
 
@@ -1883,7 +2830,7 @@ function QuestionGroupControl({
                     <th scope="row">
                       <span className="matrix-question-number">{questionNumber(question)}</span>
                       <span className="question-annotation-unit">{displayMarkup(question.prompt)}</span>
-                      <InlineAnswerReview question={reviewResult} />
+                      <InlineQuestionReview question={reviewResult} />
                       <span className="matrix-row-tools">
                         <button type="button" className={flagged[id] ? "flag-button active" : "flag-button"} onClick={() => onFlag(id)}>
                           {flagged[id] ? "已标" : "标记"}
@@ -1948,6 +2895,7 @@ function QuestionGroupControl({
         })
       )}
     </section>
+    </ReviewAnalysisContext.Provider>
   );
 }
 
@@ -2014,6 +2962,7 @@ function MatchingTextGroup({
                 tabIndex={0}
                 draggable
                 aria-selected={selected}
+                onPointerDown={prepareMatchingTextSelection}
                 onDragStart={(event) => {
                   event.dataTransfer.effectAllowed = optionReuse ? "copy" : "move";
                   event.dataTransfer.setData("text/plain", option.code);
@@ -2083,7 +3032,7 @@ function MatchingTextGroup({
                   <button type="button" className="matching-answer-clear" onClick={() => onAnswer(id, "")} aria-label={`清除第${questionNumber(question)}题答案`}>×</button>
                 ) : null}
               </div>
-              <InlineAnswerReview question={reviewResult} />
+              <InlineQuestionReview question={reviewResult} />
               <button type="button" className={flagged[id] ? "flag-button active" : "flag-button"} onClick={() => onFlag(id)}>
                 {flagged[id] ? "取消标记" : "标记此题"}
               </button>
@@ -2142,7 +3091,7 @@ function StructuredTemplate({
               ) : null}
               <button type="button" className="inline-answer-tool flag" onClick={() => onFlag(id)} aria-label={`${flagged[id] ? "取消" : ""}标记第${questionNumber(question)}题`}>⚑</button>
             </span>
-            <InlineAnswerReview question={reviewResults?.get(id)} />
+            <InlineQuestionReview question={reviewResults?.get(id)} />
           </Fragment>
         );
       })}
@@ -2273,7 +3222,7 @@ function QuestionControl({
       {judgement ? (
         <div className="answer-options judgement-options">
           {judgement.map((option) => (
-            <label key={option} className={`${value === option ? "selected" : ""}${answerReviewClass(option, reviewResults)}`}>
+            <label key={option} className={`${value === option ? "selected" : ""}${answerReviewClass(option, reviewResults)}`} onClickCapture={preventAnswerToggleForSelection}>
               <input type="radio" name={`answer-${id}`} value={option} checked={value === option} onChange={() => onChange(option)} />
               <span className="answer-option-copy question-annotation-unit">{option}</span>
             </label>
@@ -2289,7 +3238,7 @@ function QuestionControl({
             {options.map((option) => {
               const selected = Array.isArray(value) && value.includes(option.code);
               return (
-                <label key={option.code} className={`${selected ? "selected" : ""}${answerReviewClass(option.code, reviewResults)}`}>
+                <label key={option.code} className={`${selected ? "selected" : ""}${answerReviewClass(option.code, reviewResults)}`} onClickCapture={preventAnswerToggleForSelection}>
                   <input
                     type="checkbox"
                     checked={selected}
@@ -2308,7 +3257,7 @@ function QuestionControl({
       ) : options.length && !matching && subtype === "multiple_choice_single" ? (
         <div className="answer-options choice-options">
           {options.map((option) => (
-            <label key={option.code} className={`${value === option.code ? "selected" : ""}${answerReviewClass(option.code, reviewResults)}`}>
+            <label key={option.code} className={`${value === option.code ? "selected" : ""}${answerReviewClass(option.code, reviewResults)}`} onClickCapture={preventAnswerToggleForSelection}>
               <input type="radio" name={`answer-${id}`} checked={value === option.code} onChange={() => onChange(option.code)} />
               <span className="answer-option-copy question-annotation-unit"><b>{option.code}</b>{optionDisplayText(option)}</span>
             </label>
@@ -2323,11 +3272,7 @@ function QuestionControl({
           </select>
         </label>
       ) : null}
-      {reviewResults.some((reviewResult) => !reviewResult.is_correct) ? (
-        <div className="question-inline-review-list">
-          {reviewResults.map((reviewResult) => <InlineAnswerReview question={reviewResult} key={reviewResult.id} />)}
-        </div>
-      ) : null}
+      <QuestionReviewActions results={reviewResults} />
     </article>
   );
 }

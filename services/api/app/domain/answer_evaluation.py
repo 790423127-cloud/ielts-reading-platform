@@ -83,9 +83,48 @@ _NUMBER_WORD_FORMS: tuple[tuple[str, str], ...] = tuple(
 )
 
 
+_UNIT_ALIASES: tuple[tuple[str, str], ...] = (
+    (r"\bkilometres?\b", "km"),
+    (r"\bkilometers?\b", "km"),
+    (r"\bkms\b", "km"),
+    (r"\bmetres?\b", "m"),
+    (r"\bmeters?\b", "m"),
+    (r"\bcentimetres?\b", "cm"),
+    (r"\bcentimeters?\b", "cm"),
+    (r"\bmillimetres?\b", "mm"),
+    (r"\bmillimeters?\b", "mm"),
+    (r"\bkilograms?\b", "kg"),
+    (r"\bkilos?\b", "kg"),
+    (r"\bhours?\b", "hour"),
+    (r"\bmins?\b", "minute"),
+    (r"\bminutes?\b", "minute"),
+)
+
+
 def normalize_completion_answer(value: str | None) -> str:
-    """Normalize completion answers, including standalone number words 0–99."""
+    """Normalize completion/short answers for IELTS-style free text.
+
+    Handles: case/punctuation, number words, hyphen/space variants,
+    clock times (10:30 / 10.30 am), and common unit abbreviations.
+    """
     text = normalize_text_answer(value)
+    # half-hour == half hour
+    text = re.sub(r"(?<=[a-z0-9])-(?=[a-z0-9])", " ", text)
+    # 10:30 -> 10.30
+    text = re.sub(r"\b(\d{1,2}):(\d{2})\b", r"\1.\2", text)
+    # 10.30 am / 10.30 a.m. / 10.30pm -> 10.30 (IELTS times often omit am/pm in key)
+    text = re.sub(
+        r"\b(\d{1,2}\.\d{2})\s*(?:a\.?\s*m\.?|p\.?\s*m\.?)\b",
+        r"\1",
+        text,
+    )
+    text = re.sub(
+        r"\b(\d{1,2})(?:a\.?\s*m\.?|p\.?\s*m\.?)\b",
+        r"\1",
+        text,
+    )
+    for pattern, replacement in _UNIT_ALIASES:
+        text = re.sub(pattern, replacement, text)
     for form, digits in _NUMBER_WORD_FORMS:
         text = re.sub(
             rf"(?<![a-z-]){re.escape(form)}(?![a-z-])",
@@ -125,6 +164,11 @@ def _split_multi(value: Any, *, allow_space_codes: bool = False) -> list[str]:
     else:
         return [text]
     return parts
+
+
+def split_multi_answer(value: Any) -> list[str]:
+    """Return the individual option codes from a submitted multi-select answer."""
+    return _split_multi(value, allow_space_codes=True)
 
 
 def is_correct_answer(user_answer: Any, accepted: list[str] | None, multi: bool = False) -> bool:

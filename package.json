@@ -1,15 +1,27 @@
 {
   "name": "ielts-reading-platform",
   "private": true,
-  "packageManager": "pnpm@10.13.1",
+  "packageManager": "pnpm@11.9.0",
   "scripts": {
     "dev": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/start-local.ps1",
     "dev:web": "pnpm --dir apps/web dev",
     "build:web": "pnpm --dir apps/web build",
     "typecheck:web": "pnpm --dir apps/web typecheck",
+    "lint:web": "eslint apps/web --max-warnings=0",
+    "lint:api": "cd services/api && python -m ruff check app tests",
     "test:web": "pnpm --dir apps/web test",
     "test:e2e:web": "pnpm --dir apps/web test:e2e",
-    "dev:api": "uvicorn app.main:app --reload --app-dir services/api --port 8010",
-    "test:api": "pytest services/api/tests -q"
+    "contracts:generate": "python scripts/export_openapi.py && openapi-typescript tmp/contracts-openapi.json -o packages/contracts/src/generated.ts",
+    "test:contracts": "pnpm contracts:generate && git diff --exit-code -- packages/contracts",
+    "migrate:api": "cd services/api && python -m app.db_migrate",
+    "dev:api": "pnpm migrate:api && uvicorn app.main:app --reload --app-dir services/api --port 8010",
+    "test:api": "cd services/api && python -m pytest tests -q",
+    "check": "pnpm contracts:generate && pnpm lint:web && pnpm lint:api && pnpm typecheck:web && pnpm test:web && pnpm test:api"
+  },
+  "devDependencies": {
+    "@eslint/eslintrc": "3.3.3",
+    "eslint": "9.39.2",
+    "eslint-config-next": "15.5.22",
+    "openapi-typescript": "7.13.0"
   }
 }

@@ -9,6 +9,10 @@ from pydantic import BaseModel
 
 from app.api.question_bank import question_bank
 from app.core.config import settings
+from app.repositories.schema_migrations import (
+    EXPECTED_COMPONENT_VERSIONS,
+    schema_versions,
+)
 
 router = APIRouter(tags=["system"])
 
@@ -31,6 +35,8 @@ class ReadinessResponse(BaseModel):
     databaseReadable: bool
     schemaCompatible: bool
     missingTables: list[str]
+    schemaVersions: dict[str, int]
+    missingSchemaComponents: list[str]
 
 
 REQUIRED_TABLES = {
@@ -57,7 +63,14 @@ REQUIRED_TABLES = {
 }
 
 
-def _database_readiness() -> tuple[bool, bool, bool, list[str]]:
+def _database_readiness() -> tuple[
+    bool,
+    bool,
+    bool,
+    list[str],
+    dict[str, int],
+    list[str],
+]:
     database_path = Path(
         os.getenv(
             "SESSION_DB_PATH",
@@ -65,7 +78,14 @@ def _database_readiness() -> tuple[bool, bool, bool, list[str]]:
         )
     )
     if not database_path.is_file():
-        return False, False, False, sorted(REQUIRED_TABLES)
+        return (
+            False,
+            False,
+            False,
+            sorted(REQUIRED_TABLES),
+            {},
+            sorted(EXPECTED_COMPONENT_VERSIONS),
+        )
     connection: sqlite3.Connection | None = None
     try:
         connection = sqlite3.connect(f"{database_path.resolve().as_uri()}?mode=ro", uri=True)
@@ -76,9 +96,29 @@ def _database_readiness() -> tuple[bool, bool, bool, list[str]]:
             ).fetchall()
         }
         missing = sorted(REQUIRED_TABLES - existing)
-        return True, True, not missing, missing
+        versions = schema_versions(database_path)
+        missing_components = sorted(
+            component
+            for component, target in EXPECTED_COMPONENT_VERSIONS.items()
+            if versions.get(component, 0) < target
+        )
+        return (
+            True,
+            True,
+            not missing and not missing_components,
+            missing,
+            versions,
+            missing_components,
+        )
     except sqlite3.Error:
-        return True, False, False, sorted(REQUIRED_TABLES)
+        return (
+            True,
+            False,
+            False,
+            sorted(REQUIRED_TABLES),
+            {},
+            sorted(EXPECTED_COMPONENT_VERSIONS),
+        )
     finally:
         if connection is not None:
             connection.close()
@@ -96,7 +136,7 @@ def health() -> HealthResponse:
         features={
             "nextAppRouter": True,
             "sharedContracts": True,
-            "sharedContractsEnforced": False,
+            "sharedContractsEnforced": True,
             "legacyHashRouter": False,
             "deterministicScoringCore": True,
             "gtBandParity": True,
@@ -142,9 +182,14 @@ def health() -> HealthResponse:
 @router.get("/readiness", response_model=ReadinessResponse)
 def readiness(response: Response) -> ReadinessResponse:
     bank_status = question_bank().migration_status()
-    database_present, database_readable, schema_compatible, missing_tables = (
-        _database_readiness()
-    )
+    (
+        database_present,
+        database_readable,
+        schema_compatible,
+        missing_tables,
+        versions,
+        missing_components,
+    ) = _database_readiness()
     ready = bool(bank_status["ready"] and database_readable and schema_compatible)
     if not ready:
         response.status_code = status.HTTP_503_SERVICE_UNAVAILABLE
@@ -157,4 +202,6 @@ def readiness(response: Response) -> ReadinessResponse:
         databaseReadable=database_readable,
         schemaCompatible=schema_compatible,
         missingTables=missing_tables,
+        schemaVersions=versions,
+        missingSchemaComponents=missing_components,
     )

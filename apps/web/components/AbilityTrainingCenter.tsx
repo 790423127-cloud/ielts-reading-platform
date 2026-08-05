@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useMemo, useRef, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 
 import {
   fetchTrainingCatalog,
@@ -15,6 +15,7 @@ import {
   type QuestionOption,
   type ScoringResult
 } from "@/lib/api";
+import { useStudyActivity } from "@/lib/useStudyActivity";
 
 type AnswerValue = string | string[];
 
@@ -53,7 +54,9 @@ function optionsFor(group: PublicQuestionGroup, question: PublicQuestion): Quest
 }
 
 function repairDisplayText(value: string): string {
-  return value.replace(/^lt(?=\s)/, "It");
+  return value
+    .replace(/\$\d{4,}\$/g, "_____")
+    .replace(/^lt(?=\s)/, "It");
 }
 
 function formatSeconds(value: number): string {
@@ -75,12 +78,68 @@ export default function AbilityTrainingCenter() {
   const [activeQuestionId, setActiveQuestionId] = useState("");
   const [trainingMode, setTrainingMode] = useState<"free" | "timed">("free");
   const [remainingSeconds, setRemainingSeconds] = useState<number | null>(null);
+  const [timerActive, setTimerActive] = useState(false);
   const [loading, setLoading] = useState(true);
   const [generating, setGenerating] = useState(false);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
   const [clientSubmissionId, setClientSubmissionId] = useState("");
   const activeQuestionIdRef = useRef("");
+  const { shouldCountStudyTime } = useStudyActivity(Boolean(trainingSet && !result));
+
+  const loadSet = useCallback(async (
+    skillId: string,
+    cursor = 0,
+    questionRefs: string[] = [],
+    requestedMode: "free" | "timed" = "free"
+  ) => {
+    setGenerating(true);
+    setError("");
+    try {
+      const generated = await generateAbilitySet(
+        skillId,
+        questionRefs.length || 8,
+        cursor,
+        questionRefs
+      );
+      setTrainingSet(generated);
+      setAnswers({});
+      setResult(null);
+      setElapsedSeconds(0);
+      setQuestionElapsedSeconds({});
+      setActiveQuestionId(generated.items[0]?.ref_id || "");
+      setTrainingMode(requestedMode);
+      setRemainingSeconds(requestedMode === "timed" ? generated.items.length * 90 : null);
+      setClientSubmissionId(newSubmissionId());
+      setActiveSkillId(skillId);
+    } catch (reason: unknown) {
+      setError(reason instanceof Error ? reason.message : "训练题生成失败");
+    } finally {
+      setGenerating(false);
+    }
+  }, []);
+
+  const submit = useCallback(async () => {
+    if (!trainingSet || submitting) return;
+    setSubmitting(true);
+    setError("");
+    try {
+      const response = await submitAbilitySet({
+        user_id: "owner",
+        client_submission_id: clientSubmissionId,
+        skill_id: trainingSet.skill.id,
+        question_refs: trainingSet.items.map((item) => item.ref_id),
+        answers,
+        elapsed_seconds: elapsedSeconds,
+        question_elapsed_seconds: questionElapsedSeconds
+      });
+      setResult(response.result);
+    } catch (reason: unknown) {
+      setError(reason instanceof Error ? reason.message : "能力训练提交失败");
+    } finally {
+      setSubmitting(false);
+    }
+  }, [answers, clientSubmissionId, elapsedSeconds, questionElapsedSeconds, submitting, trainingSet]);
 
   useEffect(() => {
     activeQuestionIdRef.current = activeQuestionId;
@@ -120,11 +179,16 @@ export default function AbilityTrainingCenter() {
         if (!controller.signal.aborted) setLoading(false);
       });
     return () => controller.abort();
-  }, []);
+  }, [loadSet]);
 
   useEffect(() => {
     if (!trainingSet || result) return;
     const timer = window.setInterval(() => {
+      if (!shouldCountStudyTime()) {
+        setTimerActive(false);
+        return;
+      }
+      setTimerActive(true);
       setElapsedSeconds((value) => value + 1);
       const currentQuestionId = activeQuestionIdRef.current;
       if (currentQuestionId) {
@@ -136,7 +200,11 @@ export default function AbilityTrainingCenter() {
       if (trainingMode === "timed") setRemainingSeconds((value) => value == null ? null : Math.max(0, value - 1));
     }, 1000);
     return () => window.clearInterval(timer);
-  }, [trainingMode, trainingSet, result]);
+  }, [trainingMode, trainingSet, result, shouldCountStudyTime]);
+
+  useEffect(() => {
+    if (!trainingSet || result) setTimerActive(false);
+  }, [result, trainingSet]);
 
   useEffect(() => {
     if (!trainingSet || result) return;
@@ -163,10 +231,9 @@ export default function AbilityTrainingCenter() {
     if (trainingSet && trainingMode === "timed" && remainingSeconds === 0 && !result && !submitting) {
       void submit();
     }
-  }, [remainingSeconds, result, submitting, trainingMode, trainingSet]);
+  }, [remainingSeconds, result, submit, submitting, trainingMode, trainingSet]);
 
   const visibleTargets = catalogMode === "ability" ? skills : questionTypes;
-  const activeSkill = [...skills, ...questionTypes].find((skill) => skill.id === activeSkillId);
   const answeredCount = useMemo(() => {
     if (!trainingSet) return 0;
     return trainingSet.items.filter((item) => {
@@ -174,55 +241,6 @@ export default function AbilityTrainingCenter() {
       return Array.isArray(value) ? value.length > 0 : Boolean(String(value || "").trim());
     }).length;
   }, [answers, trainingSet]);
-
-  async function loadSet(skillId: string, cursor = 0, questionRefs: string[] = [], requestedMode = trainingMode) {
-    setGenerating(true);
-    setError("");
-    try {
-      const generated = await generateAbilitySet(
-        skillId,
-        questionRefs.length || 8,
-        cursor,
-        questionRefs
-      );
-      setTrainingSet(generated);
-      setAnswers({});
-      setResult(null);
-      setElapsedSeconds(0);
-      setQuestionElapsedSeconds({});
-      setActiveQuestionId(generated.items[0]?.ref_id || "");
-      setTrainingMode(requestedMode);
-      setRemainingSeconds(requestedMode === "timed" ? generated.items.length * 90 : null);
-      setClientSubmissionId(newSubmissionId());
-      setActiveSkillId(skillId);
-    } catch (reason: unknown) {
-      setError(reason instanceof Error ? reason.message : "训练题生成失败");
-    } finally {
-      setGenerating(false);
-    }
-  }
-
-  async function submit() {
-    if (!trainingSet || submitting) return;
-    setSubmitting(true);
-    setError("");
-    try {
-      const response = await submitAbilitySet({
-        user_id: "owner",
-        client_submission_id: clientSubmissionId,
-        skill_id: trainingSet.skill.id,
-        question_refs: trainingSet.items.map((item) => item.ref_id),
-        answers,
-        elapsed_seconds: elapsedSeconds,
-        question_elapsed_seconds: questionElapsedSeconds
-      });
-      setResult(response.result);
-    } catch (reason: unknown) {
-      setError(reason instanceof Error ? reason.message : "能力训练提交失败");
-    } finally {
-      setSubmitting(false);
-    }
-  }
 
   function leaveUnsubmittedSet() {
     if (answeredCount > 0 && !window.confirm("当前答案尚未提交，返回后不会保存。确定放弃本组吗？")) return;
@@ -246,6 +264,7 @@ export default function AbilityTrainingCenter() {
           <div className="ability-session-meta">
             <span>真实题库</span><strong>{trainingSet.items.length}题</strong>
             <span>{trainingMode === "timed" ? "剩余" : "用时"}</span><strong>{formatSeconds(trainingMode === "timed" ? remainingSeconds || 0 : elapsedSeconds)}</strong>
+            <span>计时状态</span><strong className={timerActive ? "study-timer-state active" : "study-timer-state idle"}>{timerActive ? "活跃计时" : "静止暂停"}</strong>
             <span>本题 {activeQuestionId ? `Q${trainingSet.items.findIndex((item) => item.ref_id === activeQuestionId) + 1}` : ""}</span><strong>{formatSeconds(questionElapsedSeconds[activeQuestionId] || 0)}</strong>
           </div>
         </header>
@@ -260,7 +279,7 @@ export default function AbilityTrainingCenter() {
             </div>
             <div className="ability-result-actions">
               <button type="button" className="secondary-button" onClick={() => setTrainingSet(null)}>返回训练列表</button>
-              <button type="button" className="primary-button" onClick={() => void loadSet(trainingSet.skill.id, trainingSet.next_cursor)}>换一组真实题</button>
+              <button type="button" className="primary-button" onClick={() => void loadSet(trainingSet.skill.id, trainingSet.next_cursor, [], trainingMode)}>换一组真实题</button>
             </div>
           </section>
         ) : (
@@ -360,7 +379,7 @@ export default function AbilityTrainingCenter() {
                   type="button"
                   className="primary-button"
                   disabled={generating || skill.available_questions === 0}
-                  onClick={() => void loadSet(skill.id, 0)}
+                  onClick={() => void loadSet(skill.id, 0, [], trainingMode)}
                 >{skill.available_questions === 0 ? "暂无可用真题" : "开始8题训练"}</button>
               </div>
             </article>
@@ -448,7 +467,7 @@ function AbilityQuestionCard({
           {result.answer_error_type === "word_limit_exceeded" ? <p>答案超过词数限制。</p> : null}
           {result.answer_error_type === "answer_span_too_long" ? <p>答案边界过长。</p> : null}
           {result.answer_error_type === "answer_span_too_short" ? <p>答案边界过短。</p> : null}
-          {result.analysis || result.reason ? <p>{result.analysis || result.reason}</p> : null}
+          {result.analysis || result.reason ? <p>{repairDisplayText(String(result.analysis || result.reason || ""))}</p> : null}
           {result.evidence?.length ? <blockquote>{result.evidence.join("\n")}</blockquote> : null}
         </div>
       ) : null}

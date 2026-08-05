@@ -151,7 +151,24 @@ def _build_answers(test: dict[str, Any], scenario: str) -> dict[str, Any]:
     for part in test.get("parts") or []:
         for group in part.get("groups") or []:
             subtype = str(group.get("question_type") or group.get("subtype") or "other")
-            for question in group.get("questions") or []:
+            questions = group.get("questions") or []
+            if scenario == "mixed" and group.get("shared_response") and len(questions) > 1:
+                canonical_parts = [
+                    part.strip()
+                    for part in re.split(r"\|\||[,|/]", str(_canonical(questions[0])))
+                    if part.strip()
+                ]
+                shared_value = [
+                    "__definitely_wrong__"
+                    if (position + offset) % 4 == 3
+                    else canonical_parts[offset % len(canonical_parts)]
+                    for offset in range(len(questions))
+                ]
+                for question in questions:
+                    answers[str(question["id"])] = shared_value
+                position += len(questions)
+                continue
+            for question in questions:
                 question_id = str(question["id"])
                 if scenario == "official":
                     value = _canonical(question)

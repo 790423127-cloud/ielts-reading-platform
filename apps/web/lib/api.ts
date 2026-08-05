@@ -4,15 +4,14 @@ import {
   rememberCurrentReadingTest,
   type ReadingAnnotation
 } from "@/lib/readingAnnotations";
+import type {
+  ApiSessionEnvelope,
+  ApiSessionSubmitRequest,
+  HealthResponse as ContractHealthResponse,
+  SessionSummary as ContractSessionSummary
+} from "@ielts-reading/contracts";
 
-export type HealthResponse = {
-  ok: boolean;
-  service: string;
-  version: string;
-  migrationPhase: string;
-  databaseConnected: boolean;
-  features: Record<string, boolean>;
-};
+export type HealthResponse = ContractHealthResponse;
 
 export type QuestionBankMigrationStatus = {
   expected_tests: number;
@@ -73,9 +72,34 @@ export type PublicQuestion = {
   prompt: string;
   options?: unknown[];
 };
+export type SourceQuestionOption = {
+  index?: string;
+  content_html?: string;
+};
+export type SourceStructuredQuestion = {
+  content_html?: string;
+  options?: SourceQuestionOption[];
+};
+export type SourceQuestionGroup = {
+  position: number;
+  navigation?: string;
+  display_start?: number | null;
+  display_end?: number | null;
+  start_index?: number;
+  end_index?: number;
+  question_type: number;
+  interaction_mode?: "text_entry" | "single_choice" | "multiple_choice" | "judgement" | "matching_matrix";
+  required_choices?: number | null;
+  instructions_html?: string;
+  questions_html?: string;
+  structured_questions?: SourceStructuredQuestion[];
+  match_options?: SourceQuestionOption[];
+  options_title?: string;
+};
 export type PublicQuestionGroup = {
   id?: string;
   instructions?: string;
+  source_question_groups?: SourceQuestionGroup[];
   question_type: string;
   question_subtype: string;
   question_category?: string;
@@ -100,6 +124,8 @@ export type PublicPart = {
   id?: string;
   number: number;
   title: string;
+  source_html?: string;
+  source_visual_name?: string;
   article_title?: string;
   source_article_title?: string;
   subtitle?: string;
@@ -151,6 +177,13 @@ export type QuestionResult = {
   evidence_available?: boolean;
   wrong_reasons?: unknown;
   elapsed_seconds?: number;
+  shared_response?: boolean;
+  shared_response_score?: number;
+  shared_response_total?: number;
+  credited_answer?: string;
+  selected_correct_answers?: string[];
+  selected_incorrect_answers?: string[];
+  missed_correct_answers?: string[];
 };
 export type ScoringResult = {
   test_id: string;
@@ -185,36 +218,18 @@ export type ScoringResult = {
     message?: string;
   };
 };
-export type SessionEnvelope = {
-  session_id: string;
-  created_at: string;
-  idempotent_replay: boolean;
+export type SessionEnvelope = Omit<ApiSessionEnvelope, "result"> & {
   result: ScoringResult;
 };
-export type SessionSummary = {
-  session_id: string;
-  test_id: string;
-  test_title: string;
-  created_at: string;
-  score: number;
-  total: number;
-  accuracy: number;
-  estimated_band?: number | null;
-  exam_mode: string;
-  part_numbers: number[];
-  archived?: boolean;
-};
-export type SubmitSessionPayload = {
-  user_id?: string;
-  test_id: string;
-  client_submission_id: string;
+export type SessionSummary = ContractSessionSummary;
+export type SubmitSessionPayload = Omit<
+  ApiSessionSubmitRequest,
+  "annotations" | "answers" | "partElapsedSeconds" | "questionElapsedSeconds" | "part_numbers"
+> & {
   answers: Record<string, string | string[]>;
-  elapsed_seconds: number;
-  part_elapsed_seconds: Record<string, number>;
-  question_elapsed_seconds: Record<string, number>;
-  exam_mode: "study" | "part_practice" | "mock_exam";
+  partElapsedSeconds: Record<string, number>;
+  questionElapsedSeconds: Record<string, number>;
   part_numbers: number[];
-  timed_out?: boolean;
   annotations?: ReadingAnnotation[];
 };
 
@@ -375,12 +390,22 @@ export type StageReport = {
     retry_count: number;
     correct: number;
     total_questions: number;
+    wrong?: number;
     unanswered?: number;
     accuracy: number;
     total_elapsed_seconds: number;
     date_from?: string | null;
     date_to?: string | null;
+    estimated_band?: string | null;
   };
+  tfng_confusion_stats?: {
+    false_vs_not_given: number;
+    true_vs_not_given: number;
+    true_vs_false: number;
+    other: number;
+    total_tfng_wrong: number;
+  };
+  time_management_notes?: string[];
   trend: Array<{
     session_id: string;
     created_at: string;
@@ -435,12 +460,15 @@ export type StageReport = {
     cause_label?: string;
     student_confirmation_label?: string;
     teacher_observation?: string;
+    location_analysis?: string;
+    elapsed_seconds?: number;
     created_at: string;
   }>;
   slowest_correct_questions: TimedQuestionReportItem[];
   slowest_wrong_questions: TimedQuestionReportItem[];
   deterministic_interpretation: string[];
   data_notes: string[];
+  selected_session_ids?: string[];
 };
 
 export type AiProviderStatus = {
@@ -701,6 +729,42 @@ export function stageReportDownloadUrl(
   userId = "owner"
 ): string {
   return `${API_BASE_URL}/api/v1/reports/stage.${extension}?user_id=${encodeURIComponent(userId)}&limit=500`;
+}
+
+export async function fetchSelectedStageReport(
+  sessionIds: string[],
+  title: string,
+  userId = "owner"
+): Promise<StageReport> {
+  return apiJson<StageReport>("/api/v1/reports/selection", {
+    method: "POST",
+    body: JSON.stringify({ user_id: userId, session_ids: sessionIds, title })
+  });
+}
+
+export async function downloadSelectedStageReport(
+  sessionIds: string[],
+  title: string,
+  extension: "pdf" | "docx",
+  userId = "owner"
+): Promise<Blob> {
+  const response = await fetch(`${API_BASE_URL}/api/v1/reports/selection.${extension}`, {
+    method: "POST",
+    cache: "no-store",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ user_id: userId, session_ids: sessionIds, title })
+  });
+  if (!response.ok) {
+    const data = await response.json().catch(() => null) as { detail?: unknown } | null;
+    const detail = data?.detail;
+    const message = typeof detail === "string"
+      ? detail
+      : detail && typeof detail === "object" && "message" in detail
+        ? String((detail as { message?: unknown }).message)
+        : `汇总报告下载失败（${response.status}）`;
+    throw new Error(message);
+  }
+  return response.blob();
 }
 
 export function sessionReportDownloadUrl(

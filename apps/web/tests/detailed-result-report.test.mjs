@@ -7,12 +7,24 @@ const api = readFileSync(new URL("../lib/api.ts", import.meta.url), "utf8");
 const history = readFileSync(new URL("../components/HistoryCenter.tsx", import.meta.url), "utf8");
 const css = readFileSync(new URL("../app/globals.css", import.meta.url), "utf8");
 
-test("submitted and historical reports open the wrong-question comparison first", () => {
-  assert.match(workbench, /setResultQuestionFilter\(response\.result\.wrong_questions\.length \? "wrong" : "all"\)/);
-  assert.match(workbench, /setResultQuestionFilter\(session\.result\.wrong_questions\.length \? "wrong" : "all"\)/);
+test("submitted results stay compact and open one IELTSBro-style question analysis at a time", () => {
+  assert.match(workbench, /const showDetailedReview = historyEntrySource/);
+  assert.match(workbench, /showDetailedReview \? <>[\s\S]*?result-performance-section/);
+  assert.doesNotMatch(workbench, /result-review-section/);
+  assert.doesNotMatch(workbench, /result-source-analysis-actions/);
+  assert.match(workbench, /function QuestionAnalysisLink/);
+  assert.match(workbench, /className="question-analysis-link"/);
+  assert.match(workbench, /onOpenAnalysis=\{setSelectedReviewQuestion\}/);
+  assert.match(workbench, /<InlineQuestionReview question=\{reviewResult\} \/>/);
+  assert.match(workbench, /control\.insertAdjacentElement\("afterend", link\)/);
+  assert.match(css, /\.question-analysis-link/);
+  assert.match(css, /fieldset \.question-analysis-link \{ pointer-events: auto; \}/);
+  assert.match(workbench, /setSelectedReviewQuestion\(question\)/);
+  assert.match(workbench, /ResultQuestionAnalysisDialog/);
   assert.match(workbench, /你的答案/);
   assert.match(workbench, /正确答案/);
   assert.match(workbench, /question\.user_answer \|\| "未作答"/);
+  assert.match(workbench, /前往练习记录/);
 });
 
 test("historical reports reload the public passage without exposing answer keys before submission", () => {
@@ -22,7 +34,7 @@ test("historical reports reload the public passage without exposing answer keys 
   assert.match(workbench, /historyEntrySource \? "返回练习记录" : "返回题库"/);
   assert.match(workbench, /sourceTest = await fetchPublicTest\(session\.result\.test_id\)/);
   assert.match(workbench, /原文与我的作答记录/);
-  assert.match(workbench, /<PassageContent part=\{activeReviewPart\} \/>/);
+  assert.match(workbench, /<ResultPassageDisplay[\s\S]*?part=\{activeReviewPart\}/);
   assert.match(workbench, /result-source-split/);
   assert.match(workbench, /<fieldset disabled>/);
   assert.match(workbench, /<QuestionGroupControl[\s\S]*?answers=\{activeHistoricalAnswers\}/);
@@ -48,22 +60,34 @@ test("matching matrix report marks the correct answer with a green radio dot", (
   assert.match(css, /background: #14966f/);
 });
 
-test("the detailed report consumes every deterministic review field already returned by scoring", () => {
+test("the single-question dialog uses server scoring evidence and embeds the existing AI teacher", () => {
   for (const field of [
     "type_results",
     "question_results",
-    "instructions",
-    "location_analysis",
-    "paraphrasing",
-    "keywords",
     "wrong_reasons",
     "evidence"
   ]) {
     assert.match(workbench, new RegExp(field));
   }
   assert.match(workbench, /题型表现/);
-  assert.match(workbench, /逐题复盘/);
+  assert.match(workbench, /result-answer-sentence-label/);
+  assert.match(workbench, /原文答案句/);
+  assert.match(workbench, /showPassageTranslations/);
+  assert.match(workbench, /result-passage-translation/);
+  assert.match(workbench, />\s*翻译<i aria-hidden="true" \/>/);
+  assert.match(workbench, /<AiTeacherPanel/);
+  assert.match(workbench, /contextType="wrong_question"/);
   assert.match(workbench, /我的高亮与笔记/);
+});
+
+test("translation covers br-only source HTML and always renders unmatched paragraphs", () => {
+  assert.match(workbench, /document\.createTreeWalker\(root, NodeFilter\.SHOW_TEXT/);
+  assert.match(workbench, /const textCandidates: Text\[\] = \[\]/);
+  assert.match(workbench, /unmatchedTranslations\.push\(translation\)/);
+  assert.match(workbench, /result-passage-translation-fallback/);
+  assert.match(workbench, /heading\.textContent = inserted \? "其余段落翻译" : "本 Part 中文翻译"/);
+  assert.match(workbench, /root\.prepend\(fallback\)/);
+  assert.match(css, /\.result-passage-translation-fallback/);
 });
 
 test("saved highlights stay collapsed until the learner explicitly opens them", () => {

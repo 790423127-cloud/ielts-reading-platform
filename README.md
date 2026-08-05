@@ -13,7 +13,7 @@ IELTS General Training Reading 个人学习平台。
 
 ## 当前发布状态
 
-- 当前版本：`0.5.0`；
+- 当前版本：`1.0.0`；
 - 当前阶段：`replacement_validation`（旧版替代验收）；
 - 个人学习主线已经完成到词汇本导出和证据约束 AI；
 - 17种题型专项、返回原错题和确定性阶段报告已经迁入，并与现有能力训练、Session 和错题闭环合并；
@@ -86,8 +86,10 @@ AI_DAILY_REQUEST_LIMIT=30
 ```env
 AI_PROVIDER=deepseek
 DEEPSEEK_API_KEY=你的_DeepSeek_API_Key
-DEEPSEEK_MODEL=deepseek-v4-pro
+DEEPSEEK_MODEL=deepseek-v4-flash
 DEEPSEEK_BASE_URL=https://api.deepseek.com
+DEEPSEEK_THINKING=enabled
+DEEPSEEK_REASONING_EFFORT=high
 AI_DAILY_REQUEST_LIMIT=30
 ```
 

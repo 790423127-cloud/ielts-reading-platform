@@ -54,7 +54,7 @@ export default function WrongQuestionAiTeacherCenter() {
             <select value={selectedKey} onChange={(event) => setSelectedKey(event.target.value)}>
               {items.map((item) => {
                 const key = `${item.source_session_id}:${item.id}`;
-                return <option key={key} value={key}>Q{item.number} · {item.question_subtype} · {item.prompt.slice(0, 90)}</option>;
+                return <option key={key} value={key}>Q{item.number} · {item.question_type || item.question_subtype} · {item.prompt.slice(0, 90)}</option>;
               })}
             </select>
           </label>
@@ -156,7 +156,12 @@ function DurableAiJobCenter({ items }: { items: WrongReviewItem[] }) {
           <p>创建只保存队列，不调用 AI；点击“继续处理”时每次最多处理 1 题，中断后可恢复，失败不会切换到其他付费模型。</p>
         </div>
         <div className="durable-ai-create">
-          <select value={sessionId} disabled={!sessions.length} onChange={(event) => setSessionId(event.target.value)}>
+          <select
+            aria-label="选择要创建AI讲解任务的错题记录"
+            value={sessionId}
+            disabled={!sessions.length}
+            onChange={(event) => setSessionId(event.target.value)}
+          >
             {sessions.map((row) => <option key={row.id} value={row.id}>{row.title} · {row.items.length} 道错题</option>)}
           </select>
           <button className="secondary-button" type="button" disabled={!sessionId || busy === "create"} onClick={() => void create()}>

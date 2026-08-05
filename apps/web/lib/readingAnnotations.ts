@@ -47,7 +47,13 @@ export function normalizeReadingText(value: string): string {
 
 export function rememberCurrentReadingTest(test: CurrentTest): void {
   if (typeof window === "undefined") return;
-  window.sessionStorage.setItem(CURRENT_TEST_KEY, JSON.stringify(test));
+  try {
+    window.sessionStorage.setItem(CURRENT_TEST_KEY, JSON.stringify(test));
+  } catch {
+    // Session storage is a convenience for annotation context. A browser that
+    // blocks or exhausts storage must not make the verified question-bank
+    // request appear to have failed.
+  }
 }
 
 export function currentReadingTest(expectedTitle = ""): CurrentTest | null {

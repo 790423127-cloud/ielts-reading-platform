@@ -7,6 +7,8 @@ import sqlite3
 from typing import Any
 import uuid
 
+from app.repositories.schema_migrations import component_schema_migration
+
 
 def utc_now() -> datetime:
     return datetime.now(timezone.utc)
@@ -19,7 +21,13 @@ class AiJobRepository:
 
     def __init__(self, database_path: str | Path) -> None:
         self.database_path = str(database_path)
-        with self._connect() as connection:
+        with component_schema_migration(
+            self.database_path,
+            component="ai_jobs",
+            version=1,
+        ) as connection:
+            if connection is None:
+                return
             connection.executescript(
                 """
                 CREATE TABLE IF NOT EXISTS durable_ai_jobs (
@@ -60,7 +68,6 @@ class AiJobRepository:
                     ON durable_ai_job_items(user_id, job_id, status, created_at);
                 """
             )
-            connection.commit()
 
     def _connect(self) -> sqlite3.Connection:
         connection = sqlite3.connect(self.database_path, timeout=30)

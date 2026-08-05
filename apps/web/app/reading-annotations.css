@@ -232,6 +232,7 @@
   line-height: 1;
 }
 
+.passage-copy.passage-unit,
 .passage-copy .passage-unit,
 .questions-pane .question-annotation-unit { user-select: text; -webkit-user-select: text; }
 

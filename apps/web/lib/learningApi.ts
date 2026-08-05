@@ -201,6 +201,7 @@ export type VocabularyItem = {
   note: string;
   status: "learning" | "mastered";
   occurrence_count: number;
+  manual_capture_count: number;
   sources: VocabularySource[];
   exported_before: boolean;
   last_exported_at?: string | null;
@@ -246,6 +247,7 @@ export type ParaphraseItem = {
   question_phrase: string;
   source_phrase: string;
   note: string;
+  relation_type: "direct-paraphrase" | "near-paraphrase" | "contextual-paraphrase" | "curated-paraphrase";
   status: "learning" | "mastered";
   confidence: number;
   occurrence_count: number;
@@ -256,6 +258,42 @@ export type ParaphraseItem = {
   updated_at: string;
   deduplicated: boolean;
   source_added: boolean;
+};
+
+export type SmartSyncReceiptItem = { id: string; fingerprint: string };
+
+export type SmartSyncPackage = {
+  type: "ielts-reading-coach-smart-sync";
+  schemaVersion: 1;
+  source: "ielts-reading-coach";
+  transferId: string;
+  preparedAt: string;
+  words: Array<{
+    id: string;
+    fingerprint: string;
+    word: string;
+    meaning: string;
+    note: string;
+    status: VocabularyItem["status"];
+    occurrenceCount: number;
+    manualCaptureCount: number;
+    createdAt?: string | null;
+    updatedAt?: string | null;
+    sources: Array<Record<string, unknown>>;
+  }>;
+  paraphrases: Array<{
+    id: string;
+    fingerprint: string;
+    questionPhrase: string;
+    sourcePhrase: string;
+    note: string;
+    relationType: ParaphraseItem["relation_type"];
+    status: ParaphraseItem["status"];
+    confidence: number;
+    occurrenceCount: number;
+    sources: Array<Record<string, unknown>>;
+  }>;
+  counts: { words: number; paraphrases: number };
 };
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8010";
@@ -432,4 +470,29 @@ export async function exportParaphraseSelection(payload: {
   const filename = disposition.match(/filename="([^"]+)"/i)?.[1]
     || "ielts-paraphrases-selected.json";
   return { blob: await response.blob(), filename };
+}
+
+export async function prepareVocabularySmartSync(userId = "owner"): Promise<SmartSyncPackage> {
+  return apiJson<SmartSyncPackage>("/api/v1/vocabulary/sync/prepare", {
+    method: "POST",
+    body: JSON.stringify({ user_id: userId })
+  });
+}
+
+export async function acknowledgeVocabularySmartSync(payload: {
+  transfer_id: string;
+  words: SmartSyncReceiptItem[];
+  paraphrases: SmartSyncReceiptItem[];
+  user_id?: string;
+}): Promise<{
+  transfer_id: string;
+  words_marked: number;
+  paraphrases_marked: number;
+  stale_word_ids: string[];
+  stale_paraphrase_ids: string[];
+}> {
+  return apiJson("/api/v1/vocabulary/sync/acknowledge", {
+    method: "POST",
+    body: JSON.stringify({ user_id: "owner", ...payload })
+  });
 }

@@ -212,9 +212,9 @@ def classify_subtype(instructions: str, group: dict[str, Any] | None = None) -> 
         return YNNG
 
     multi_letter = bool(
-        re.search(r"choose\s+(two|three|2|3)\s+(letters|answers|options)", text)
-        or re.search(r"which\s+(two|three)\s+(letters|answers)", text)
-        or re.search(r"choose\s+(two|three)\s+from", text)
+        re.search(r"choose\s+(two|three|four|2|3|4)\s+(letters|answers|options)", text)
+        or re.search(r"which\s+(two|three|four)\s+(letters|answers)", text)
+        or re.search(r"choose\s+(two|three|four)\s+from", text)
     )
     if multi_letter and options:
         return MC_MULTI

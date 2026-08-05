@@ -113,11 +113,17 @@ test("desktop exam defaults and typography follow the verified reading baseline"
 
   assert.match(workbench, /const READING_FONT_SIZES = \[15, 17, 19, 21, 23\]/);
   assert.match(workbench, /useState\(17\)/);
-  assert.match(workbench, /const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v4"/);
-  assert.match(workbench, /const \[paneRatio, setPaneRatio\] = useState\(45\)/);
+  assert.match(workbench, /const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v6"/);
+  assert.match(workbench, /const \[paneRatio, setPaneRatio\] = useState\(44\)/);
   assert.match(workbench, /storedRatioValue !== null && storedRatioValue\.trim\(\) !== ""/);
   assert.match(styles, /\.passage-copy \{[\s\S]*font-family: Inter,[\s\S]*font-size: var\(--reading-font-size, 17px\)[\s\S]*font-weight: 500;[\s\S]*line-height: 1\.75/);
   assert.match(styles, /\.passage-copy \{[\s\S]*font-variant-numeric: lining-nums tabular-nums slashed-zero;[\s\S]*font-feature-settings: "lnum" 1, "tnum" 1, "zero" 1;/);
+  assert.match(styles, /\.passage-pane \{ padding: 0 clamp\(18px, 2vw, 26px\) 72px; \}/);
+  assert.match(styles, /\.passage-source-html \{[\s\S]*padding: 16px 0 0;/);
+  assert.match(styles, /\.passage-source-html > p \{[\s\S]*margin-block-end: 1\.15em !important;[\s\S]*text-align: justify !important;[\s\S]*text-align-last: left;/);
+  assert.match(styles, /\.passage-source-html :is\([\s\S]*\[align="center"\][\s\S]*text-align: center !important;/);
+  assert.match(styles, /\.passage-paragraph \{[\s\S]*text-align: justify;[\s\S]*text-align-last: left;[\s\S]*text-justify: inter-word;/);
+  assert.match(styles, /@media \(max-width: 560px\) \{[\s\S]*\.passage-source-html p \{[\s\S]*text-align: left !important;[\s\S]*text-align-last: auto;/);
   assert.match(styles, /\.passage-source-table \{[\s\S]*font-size: clamp\(15px, 1em, 19px\);[\s\S]*line-height: 1\.55;/);
   assert.match(styles, /\.passage-source-table th,[\s\S]*padding: 13px 16px;[\s\S]*border: 1px solid #9ea7ab;/);
   assert.match(styles, /\.passage-source-table--wide table \{ min-width: 1120px; \}/);

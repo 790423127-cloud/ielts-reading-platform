@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import os
+import logging
 from pathlib import Path
 from typing import Annotated, Any, Literal
 
@@ -9,12 +10,15 @@ from pydantic import BaseModel, ConfigDict, Field, ValidationError, model_valida
 
 from app.api.question_bank import question_bank
 from app.domain.scoring import score_submission
+from app.repositories.ai_teacher_repository import AiTeacherRepository
 from app.repositories.vocabulary_repository import VocabularyRepository
 from app.repositories.session_repository import SQLiteSessionRepository, StoredSession
+from app.services.ai_teacher import ai_daily_request_limit
 from app.services.question_bank import QuestionBankNotReadyError
 from app.services.paraphrase_extractor import extract_wrong_question_paraphrases
 
 router = APIRouter(prefix="/sessions", tags=["sessions"])
+logger = logging.getLogger("ielts_reading.sessions")
 QuestionElapsedSeconds = Annotated[int, Field(ge=0, le=21600)]
 PartElapsedSeconds = Annotated[int, Field(ge=0, le=21600)]
 
@@ -132,13 +136,37 @@ def _extract_and_persist_paraphrases(
 ) -> None:
     session_store = SQLiteSessionRepository(database_path)
     try:
-        summary = extract_wrong_question_paraphrases(
-            repository=VocabularyRepository(database_path),
-            user_id=user_id,
-            session_id=session_id,
-            result=scored_result,
-        )
+        ai_repository = AiTeacherRepository(database_path)
+        calls_used = ai_repository.provider_calls_today(user_id=user_id)
+        remaining_ai_calls = max(0, ai_daily_request_limit() - calls_used)
+        if remaining_ai_calls == 0:
+            summary = extract_wrong_question_paraphrases(
+                repository=VocabularyRepository(database_path),
+                user_id=user_id,
+                session_id=session_id,
+                result=scored_result,
+                allow_ai=False,
+                max_ai_calls=0,
+            )
+            summary = {
+                **summary,
+                "status": "partial" if summary.get("saved_count") else "skipped",
+                "reason": "ai_daily_limit_reached",
+                "ai_status": "skipped_daily_limit",
+            }
+        else:
+            summary = extract_wrong_question_paraphrases(
+                repository=VocabularyRepository(database_path),
+                user_id=user_id,
+                session_id=session_id,
+                result=scored_result,
+                max_ai_calls=remaining_ai_calls,
+            )
     except Exception:
+        logger.exception(
+            "wrong-question paraphrase extraction failed for session %s",
+            session_id,
+        )
         summary = {
             "status": "failed",
             "reason": "unexpected_extraction_error",
@@ -308,13 +336,29 @@ def submit_session(payload: SessionSubmitRequest, background_tasks: BackgroundTa
             "saved_count": 0,
         }
     else:
-        summary = {
-            "status": "queued",
-            "reason": "runs_after_scoring_response",
-            "wrong_question_count": len(result.get("wrong_questions") or []),
-            "candidate_count": 0,
-            "saved_count": 0,
-        }
+        try:
+            summary = extract_wrong_question_paraphrases(
+                repository=VocabularyRepository(repository.database_path),
+                user_id=payload.user_id,
+                session_id=stored.id,
+                result=result,
+                allow_ai=False,
+            )
+        except Exception:
+            logger.exception(
+                "local paraphrase extraction failed for session %s; AI work remains queued",
+                stored.id,
+            )
+            summary = {
+                "status": "queued",
+                "reason": "local_extraction_failed_ai_still_queued",
+                "wrong_question_count": len(result.get("wrong_questions") or []),
+                "candidate_count": 0,
+                "saved_count": 0,
+                "local_saved_count": 0,
+                "ai_saved_count": 0,
+                "ai_status": "queued",
+            }
         background_tasks.add_task(
             _extract_and_persist_paraphrases,
             database_path=repository.database_path,

@@ -6,6 +6,9 @@ coverage/
 playwright-report/
 test-results/
 output/
+.playwright-cli/
+tmp/
+docs/audits/
 .venv/
 __pycache__/
 .pytest_cache/

@@ -1,7 +1,7 @@
 import Link from "next/link";
 import DashboardLearningStatus from "@/components/DashboardLearningStatus";
 
-const CURRENT_VERSION = "0.5.0";
+const CURRENT_VERSION = "1.0.0";
 
 const LEARNING_ENTRIES = [
   {

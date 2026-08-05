@@ -1,6 +1,6 @@
 "use client";
 
-import { type FormEvent, useEffect, useMemo, useState } from "react";
+import { type FormEvent, useEffect, useState } from "react";
 
 import {
   chatWithAiTeacher,
@@ -32,7 +32,12 @@ export default function AiTeacherPanel(props: Props) {
   const [loading, setLoading] = useState(true);
   const [sending, setSending] = useState(false);
   const [error, setError] = useState("");
-  const expectedRef = useMemo(() => contextRef(props), [props.contextType, props.sessionId, props.questionId, props.sentenceId]);
+  const expectedRef = contextRef({
+    contextType: props.contextType,
+    sessionId: props.sessionId,
+    questionId: props.questionId,
+    sentenceId: props.sentenceId
+  });
 
   useEffect(() => {
     const controller = new AbortController();

@@ -7,6 +7,8 @@ import sqlite3
 from typing import Any
 import uuid
 
+from app.repositories.schema_migrations import component_schema_migration
+
 
 class AiTeacherRepository:
     def __init__(self, database_path: str | Path) -> None:
@@ -24,7 +26,13 @@ class AiTeacherRepository:
         return datetime.now(timezone.utc).isoformat()
 
     def _ensure_schema(self) -> None:
-        with self._connect() as connection:
+        with component_schema_migration(
+            self.database_path,
+            component="ai_teacher",
+            version=1,
+        ) as connection:
+            if connection is None:
+                return
             connection.executescript(
                 """
                 CREATE TABLE IF NOT EXISTS ai_teacher_conversations (
@@ -72,6 +80,20 @@ class AiTeacherRepository:
                 );
                 CREATE INDEX IF NOT EXISTS idx_ai_cache_user_created
                     ON ai_teacher_cache(user_id, created_at DESC);
+
+                CREATE TABLE IF NOT EXISTS ai_provider_events (
+                    id TEXT PRIMARY KEY,
+                    user_id TEXT NOT NULL,
+                    purpose TEXT NOT NULL,
+                    provider TEXT,
+                    model TEXT,
+                    input_tokens INTEGER NOT NULL DEFAULT 0,
+                    output_tokens INTEGER NOT NULL DEFAULT 0,
+                    provider_request_id TEXT,
+                    created_at TEXT NOT NULL
+                );
+                CREATE INDEX IF NOT EXISTS idx_ai_provider_events_user_created
+                    ON ai_provider_events(user_id, created_at DESC);
                 """
             )
             connection.commit()
@@ -301,7 +323,7 @@ class AiTeacherRepository:
     def provider_calls_since(self, *, user_id: str, since: datetime) -> int:
         since_iso = since.astimezone(timezone.utc).isoformat()
         with self._connect() as connection:
-            return int(
+            teacher_calls = int(
                 connection.execute(
                     """
                     SELECT COUNT(*) FROM ai_teacher_messages messages
@@ -314,6 +336,48 @@ class AiTeacherRepository:
                     """,
                     (user_id, since_iso),
                 ).fetchone()[0]
+            )
+            background_calls = int(
+                connection.execute(
+                    """
+                    SELECT COUNT(*) FROM ai_provider_events
+                    WHERE user_id = ? AND created_at >= ?
+                    """,
+                    (user_id, since_iso),
+                ).fetchone()[0]
+            )
+            return teacher_calls + background_calls
+
+    def record_provider_event(
+        self,
+        *,
+        user_id: str,
+        purpose: str,
+        provider: str | None,
+        model: str | None,
+        input_tokens: int,
+        output_tokens: int,
+        provider_request_id: str | None,
+    ) -> None:
+        with self._connect() as connection:
+            connection.execute(
+                """
+                INSERT INTO ai_provider_events (
+                    id, user_id, purpose, provider, model, input_tokens,
+                    output_tokens, provider_request_id, created_at
+                ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)
+                """,
+                (
+                    uuid.uuid4().hex,
+                    user_id,
+                    purpose,
+                    provider,
+                    model,
+                    max(0, int(input_tokens)),
+                    max(0, int(output_tokens)),
+                    provider_request_id,
+                    self._now(),
+                ),
             )
 
     def provider_calls_today(self, *, user_id: str) -> int:

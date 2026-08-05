@@ -96,17 +96,15 @@ def test_docx_matches_legacy_teacher_report_structure() -> None:
     assert payload.startswith(b"PK")
     with ZipFile(BytesIO(payload)) as archive:
         document_xml = archive.read("word/document.xml").decode("utf-8")
-        assert "1. 给老师的核心摘要" in document_xml
+        assert "1. 数据摘要" in document_xml
         assert "2. 作业模块与完成情况" in document_xml
-        assert "3. Part 与练习表现" in document_xml
-        assert "4. 总体题型能力矩阵" in document_xml
-        assert "5. 总体错误原因分布" in document_xml
-        assert "6. 代表性错题" in document_xml
-        assert "7. 给老师的教学参考" in document_xml
+        assert "3. Part 表现" in document_xml
+        assert "4. 题型正确率" in document_xml
+        assert "5. 错因分布" in document_xml
+        assert "6. 错题明细" in document_xml
+        assert "7. 用时数据" in document_xml
         assert "8. 数据口径" in document_xml
         assert "原文定位：It started in 2012." in document_xml
-        assert "学生确认：未记录" in document_xml
-        assert "请老师重点观察：检查学生是否理解相反与未说明。" in document_xml
 
 
 def test_pdf_is_real_and_contains_the_full_report_story() -> None:

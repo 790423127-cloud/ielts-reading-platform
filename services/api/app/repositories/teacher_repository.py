@@ -7,6 +7,8 @@ import sqlite3
 import uuid
 from typing import Any
 
+from app.repositories.schema_migrations import component_schema_migration
+
 
 def utc_now() -> str:
     return datetime.now(timezone.utc).isoformat()
@@ -21,7 +23,13 @@ class TeacherRepository:
 
     def __init__(self, database_path: str | Path) -> None:
         self.database_path = str(database_path)
-        with self._connect() as connection:
+        with component_schema_migration(
+            self.database_path,
+            component="teacher",
+            version=1,
+        ) as connection:
+            if connection is None:
+                return
             connection.executescript(
                 """
                 CREATE TABLE IF NOT EXISTS teacher_assignments (
@@ -73,7 +81,6 @@ class TeacherRepository:
                     ON teacher_assignment_sessions(user_id, assignment_id, session_id);
                 """
             )
-            connection.commit()
 
     def _connect(self) -> sqlite3.Connection:
         connection = sqlite3.connect(self.database_path)

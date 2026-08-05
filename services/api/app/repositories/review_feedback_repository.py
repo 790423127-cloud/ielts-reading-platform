@@ -5,11 +5,19 @@ from pathlib import Path
 import sqlite3
 from typing import Any
 
+from app.repositories.schema_migrations import component_schema_migration
+
 
 class ReviewFeedbackRepository:
     def __init__(self, database_path: str | Path) -> None:
         self.database_path = str(database_path)
-        with self._connect() as connection:
+        with component_schema_migration(
+            self.database_path,
+            component="review_feedback",
+            version=1,
+        ) as connection:
+            if connection is None:
+                return
             connection.executescript(
                 """
                 CREATE TABLE IF NOT EXISTS wrong_question_feedback (
@@ -28,7 +36,6 @@ class ReviewFeedbackRepository:
                     ON wrong_question_feedback(user_id, updated_at DESC);
                 """
             )
-            connection.commit()
 
     def _connect(self) -> sqlite3.Connection:
         connection = sqlite3.connect(self.database_path)

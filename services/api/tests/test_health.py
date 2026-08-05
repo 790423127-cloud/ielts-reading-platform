@@ -16,7 +16,7 @@ def test_health_does_not_connect_database() -> None:
     assert response.status_code == 200
     payload = response.json()
     assert payload["ok"] is True
-    assert payload["version"] == "0.5.0"
+    assert payload["version"] == "1.0.0"
     assert payload["migrationPhase"] == "replacement_validation"
     assert payload["databaseConnected"] is False
     assert payload["features"]["nextAppRouter"] is True
@@ -25,7 +25,7 @@ def test_health_does_not_connect_database() -> None:
     assert payload["features"]["sentenceTraining"] is True
     assert payload["features"]["vocabularyBook"] is True
     assert payload["features"]["evidenceConstrainedAiTeacher"] is True
-    assert payload["features"]["sharedContractsEnforced"] is False
+    assert payload["features"]["sharedContractsEnforced"] is True
     assert payload["features"]["replacementReady"] is False
     assert payload["features"]["browserAcceptanceTests"] is True
     assert payload["features"]["formalReports"] is True

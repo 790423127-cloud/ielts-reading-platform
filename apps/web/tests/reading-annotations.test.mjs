@@ -32,7 +32,7 @@ test("selection toolbar supports highlight, notes and vocabulary capture with fu
   assert.match(component, /persist\(annotations\.filter\(\(item\) => item\.id !== selectedAnnotation\.id\)\)/);
   assert.match(component, /"取消二次高亮"/);
   assert.match(component, /selectionOverlapsPrimaryHighlight[\s\S]*\? "二次高亮"[\s\S]*: "高亮"/);
-  assert.match(component, />笔记<\/button>/);
+  assert.match(component, />\s*笔记\s*<\/button>/);
   assert.match(component, /加入生词本/);
   assert.match(component, /source_sentence: selection\.sentence/);
   assert.match(component, /test_id: selection\.testId/);
@@ -102,4 +102,39 @@ test("history and mobile selection are restored without changing question layout
   assert.match(component, /touchend/);
   assert.match(css, /@media \(max-width: 680px\)/);
   assert.doesNotMatch(css, /\.exam-grid|\.question-rail/);
+});
+
+test("optional browser storage cannot make a verified public test request fail", () => {
+  assert.match(
+    model,
+    /export function rememberCurrentReadingTest[\s\S]*try \{[\s\S]*sessionStorage\.setItem[\s\S]*\} catch \{/
+  );
+  assert.match(api, /const test = await apiJson<PublicTest>[\s\S]*rememberCurrentReadingTest[\s\S]*return test/);
+});
+
+test("source HTML passages and answer choices keep stable selectable annotation anchors", () => {
+  assert.match(component, /\.passage-copy\.passage-unit/);
+  assert.match(workbench, /className="passage-copy passage-source-html passage-unit"/);
+  assert.match(workbench, /const StableHtmlDiv = memo/);
+  assert.match(workbench, /className="source-questions-content question-annotation-unit"/);
+  assert.match(workbench, /className="question-annotation-unit" html=\{option\.content_html \|\| ""\}/);
+  assert.match(css, /\.passage-copy\.passage-unit/);
+});
+
+test("selecting answer text does not toggle answers or start matching-card dragging", () => {
+  assert.match(workbench, /function preventAnswerToggleForSelection/);
+  assert.match(workbench, /onClickCapture=\{preventAnswerToggleForSelection\}/);
+  assert.match(workbench, /function prepareMatchingTextSelection/);
+  assert.match(workbench, /onPointerDown=\{prepareMatchingTextSelection\}/);
+  assert.match(css, /\.questions-pane \.question-annotation-unit/);
+});
+
+test("slow pointer selection is captured only after the pointer is released", () => {
+  assert.match(component, /let pointerSelectionActive = false/);
+  assert.match(component, /pointerSelectionActive = true/);
+  assert.match(component, /if \(pointerSelectionActive\) return/);
+  assert.match(component, /addEventListener\("pointerdown", beginPointerSelection, true\)/);
+  assert.match(component, /addEventListener\("pointerup", schedulePointerCapture, true\)/);
+  assert.match(component, /removeEventListener\("pointerdown", beginPointerSelection, true\)/);
+  assert.match(component, /removeEventListener\("pointerup", schedulePointerCapture, true\)/);
 });

@@ -31,6 +31,7 @@ def test_registry_contains_exactly_17_supported_subtypes() -> None:
         ("Do the following statements agree? TRUE FALSE NOT GIVEN", [], TFNG),
         ("Do the following statements agree with the views? YES NO NOT GIVEN", [], YNNG),
         ("Choose TWO letters, A-E", ["A", "B", "C", "D", "E"], MC_MULTI),
+        ("Choose FOUR letters, A-J", list("ABCDEFGHIJ"), MC_MULTI),
         ("Choose the correct heading for each section", ["i", "ii", "iii"], MATCH_HEAD),
         ("Complete each sentence with the correct ending", ["A", "B", "C"], MATCH_END),
         ("Which person made each statement? Match the names", ["A", "B", "C"], MATCH_NAMES),

@@ -108,7 +108,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
       <aside className={mobileMenuOpen ? "sidebar mobile-open" : "sidebar"} aria-label="主导航">
         <Link className="brand" href="/">
           <span className="brand-mark" aria-hidden="true"><NavIcon name="book" /></span>
-          <span><strong>IELTS G类阅读</strong><small>AI 教练版 <b>V0.5</b></small></span>
+          <span><strong>IELTS G类阅读</strong><small>AI 教练版 <b>V1.0</b></small></span>
         </Link>
         <button
           type="button"

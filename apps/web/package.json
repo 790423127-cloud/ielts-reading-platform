@@ -1,6 +1,6 @@
 {
   "name": "@ielts-reading/web",
-  "version": "0.5.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "dev": "next dev -H 127.0.0.1 -p 8001",
@@ -11,7 +11,8 @@
     "test:e2e": "playwright test"
   },
   "dependencies": {
-    "next": "15.5.21",
+    "@ielts-reading/contracts": "workspace:*",
+    "next": "15.5.22",
     "react": "19.0.1",
     "react-dom": "19.0.1"
   },

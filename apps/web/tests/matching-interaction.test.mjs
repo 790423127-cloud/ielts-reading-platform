@@ -45,6 +45,23 @@ test("letter-only matching follows the benchmark matrix while descriptive matchi
   assert.match(css, /\.matrix-answer-radio/);
 });
 
+test("a truncated single-source display range falls back to the complete source index range", () => {
+  assert.match(workbench, /const indexMatched = group\.questions\.filter/);
+  assert.match(workbench, /const singleSourceGroup = \(group\.source_question_groups\?\.length \|\| 0\) <= 1/);
+  assert.match(workbench, /singleSourceGroup && indexMatched\.length > displayMatched\.length/);
+  assert.match(workbench, /return displayMatched\.length \? displayMatched : group\.questions/);
+});
+
+test("source matching matrices preserve read-only example answers from the source HTML", () => {
+  assert.match(workbench, /function sourceMatchingExampleRows/);
+  assert.match(workbench, /\^Example\\s\*:\?\\b/);
+  assert.match(workbench, /className="source-matching-example" role="group" aria-label="示例答案"/);
+  assert.match(workbench, /<span>Example:<\/span>/);
+  assert.match(workbench, /<span>Answer<\/span>/);
+  assert.match(css, /\.source-matching-example \{/);
+  assert.match(css, /\.source-matching-example-header,/);
+});
+
 test("completion and short-answer questions use the source inline template or an inline answer box", () => {
   assert.match(workbench, /"diagram_label_completion", "short_answer"/);
   assert.match(workbench, /function structuredTemplateParts/);

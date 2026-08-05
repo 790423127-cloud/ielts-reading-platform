@@ -101,7 +101,11 @@ export default function WrongReviewCenter() {
           <span>按具体题型筛选</span>
           <select value={subtype} onChange={(event) => setSubtype(event.target.value)}>
             <option value="all">全部题型</option>
-            {subtypes.map((value) => <option key={value} value={value}>{value}</option>)}
+            {subtypes.map((value) => (
+              <option key={value} value={value}>
+                {items.find((item) => item.question_subtype === value)?.question_type || value}
+              </option>
+            ))}
           </select>
         </label>
         <Link href="/practice" className="secondary-button">进入题库做新题验证</Link>
@@ -136,8 +140,8 @@ export default function WrongReviewCenter() {
               {item.answer_error_type === "word_limit_exceeded" ? <div className="review-warning">答案超过题目词数限制。</div> : null}
               {item.answer_error_type === "answer_span_too_long" ? <div className="review-warning">定位基本正确，但答案边界过长。</div> : null}
               {item.answer_error_type === "answer_span_too_short" ? <div className="review-warning">答案缺少构成完整含义的必要词。</div> : null}
-              {item.analysis || item.reason ? <p className="review-analysis">{item.analysis || item.reason}</p> : null}
-              {item.paraphrasing ? <p className="review-paraphrase"><b>同义替换：</b>{item.paraphrasing}</p> : null}
+              {item.analysis || item.reason ? <p className="review-analysis">{String(item.analysis || item.reason || "").replace(/\$\d{4,}\$/g, "_____")}</p> : null}
+              {item.paraphrasing ? <p className="review-paraphrase"><b>同义替换：</b>{String(item.paraphrasing).replace(/\$\d{4,}\$/g, "_____")}</p> : null}
               {item.evidence?.length ? <blockquote>{item.evidence.join("\n")}</blockquote> : <div className="review-warning">题库中没有经过核验的定位句，不会由AI补造证据。</div>}
               <WrongCauseFeedback
                 item={item}

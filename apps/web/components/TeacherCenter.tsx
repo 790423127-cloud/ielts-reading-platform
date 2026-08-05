@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useState } from "react";
 
 import {
   createTeacherAssignment,
@@ -30,7 +30,7 @@ export default function TeacherCenter() {
   const [description, setDescription] = useState("");
   const [error, setError] = useState("");
 
-  const refresh = async () => {
+  const refresh = useCallback(async () => {
     try {
       const [assignmentRows, sessionRows, snapshotRows] = await Promise.all([
         fetchTeacherAssignments(), fetchSessions(), fetchTeacherReportSnapshots()
@@ -38,12 +38,14 @@ export default function TeacherCenter() {
       setAssignments(assignmentRows);
       setSessions(sessionRows);
       setSnapshots(snapshotRows);
-      if (active) setActive(assignmentRows.find((row) => row.id === active.id) || null);
+      setActive((current) => current
+        ? assignmentRows.find((row) => row.id === current.id) || null
+        : null);
     } catch (reason) {
       setError(reason instanceof Error ? reason.message : "教师中心读取失败");
     }
-  };
-  useEffect(() => { void refresh(); }, []);
+  }, []);
+  useEffect(() => { void refresh(); }, [refresh]);
 
   const activeModule = useMemo(
     () => active?.modules.find((module) => module.id === activeModuleId) || active?.modules[0] || null,
@@ -77,7 +79,7 @@ export default function TeacherCenter() {
 
   async function addModule() {
     if (!active) return;
-    const module: TeacherAssignmentModule = {
+    const newModule: TeacherAssignmentModule = {
       id: `module-${Date.now().toString(36)}`,
       title: `练习模块 ${active.modules.length + 1}`,
       module_type: "mixed",
@@ -85,8 +87,8 @@ export default function TeacherCenter() {
       sort_order: active.modules.length,
       session_ids: []
     };
-    setActiveModuleId(module.id);
-    await save({ ...active, modules: [...active.modules, module] });
+    setActiveModuleId(newModule.id);
+    await save({ ...active, modules: [...active.modules, newModule] });
   }
 
   async function removeModule(moduleId: string) {

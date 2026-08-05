@@ -8,6 +8,8 @@ import sqlite3
 import uuid
 from typing import Any
 
+from app.repositories.schema_migrations import component_schema_migration
+
 
 @dataclass(frozen=True, slots=True)
 class StoredSession:
@@ -34,7 +36,13 @@ class SQLiteSessionRepository:
         return connection
 
     def _ensure_schema(self) -> None:
-        with self._connect() as connection:
+        with component_schema_migration(
+            self.database_path,
+            component="sessions",
+            version=1,
+        ) as connection:
+            if connection is None:
+                return
             connection.execute(
                 """
                 CREATE TABLE IF NOT EXISTS sessions (
@@ -213,7 +221,6 @@ class SQLiteSessionRepository:
                     session_id.strip(),
                 ),
             )
-            connection.commit()
             if not cursor.rowcount:
                 return None
             row = connection.execute(

@@ -1,5 +1,6 @@
 from __future__ import annotations
 
+import re
 from html import escape
 from io import BytesIO
 from pathlib import Path
@@ -40,10 +41,13 @@ PDF_FONT_REGULAR = "IELTSReportDeng"
 PDF_FONT_BOLD = "IELTSReportDengBold"
 
 
+_BLANK_TOKEN_RE = re.compile(r"\$\d{4,}\$")
+
+
 def _text(value: Any, fallback: str = "") -> str:
     if value is None:
         return fallback
-    return str(value)
+    return _BLANK_TOKEN_RE.sub("_____", str(value))
 
 
 def _title(report: dict[str, Any], fallback: str) -> str:
@@ -77,18 +81,29 @@ def _section_title(report: dict[str, Any]) -> str:
     return "作业模块与完成情况" if report.get("modules") else "练习记录与完成情况"
 
 
+def _cause_section_title(report: dict[str, Any]) -> str:
+    return "总体错误原因分布" if report.get("report_type") == "stage" else "错因分布"
+
+
+def _questions_section_title(report: dict[str, Any]) -> str:
+    return "代表性错题" if report.get("layout_type") == "single_session" else "错题明细"
+
+
 def _summary_metrics(report: dict[str, Any]) -> list[tuple[str, str]]:
     summary = report.get("summary") or {}
-    return [
-        ("首次练习", _text(summary.get("first_attempt_count"), "0")),
+    metrics = [
+        ("练习次数", _text(summary.get("session_count"), "0")),
         ("累计正确率", f"{summary.get('accuracy', 0)}%"),
         ("总题数", _text(summary.get("total_questions"), "0")),
-        ("可信总用时", _format_seconds(summary.get("total_elapsed_seconds"))),
-        ("练习记录", _text(summary.get("session_count"), "0")),
-        ("重做记录", _text(summary.get("retry_count"), "0")),
-        ("答对题数", _text(summary.get("correct"), "0")),
+        ("答对", _text(summary.get("correct"), "0")),
+        ("答错", _text(summary.get("wrong"), "0")),
         ("未作答", _text(summary.get("unanswered"), "0")),
+        ("合计用时", _format_seconds(summary.get("total_elapsed_seconds"))),
+        ("首次 / 重做", f"{summary.get('first_attempt_count', 0)} / {summary.get('retry_count', 0)}"),
     ]
+    if summary.get("estimated_band"):
+        metrics.append(("参考 Band", f"{summary.get('estimated_band')}（非官方）"))
+    return metrics
 
 
 def _module_rows(report: dict[str, Any]) -> list[list[str]]:
@@ -127,6 +142,9 @@ def _part_rows(report: dict[str, Any]) -> list[list[str]]:
             _text(item.get("total"), "0"),
             f"{item.get('accuracy', 0)}%",
             _text(item.get("status_label"), "数据不足"),
+            _format_seconds(item.get("elapsed_seconds"))
+            if int(item.get("elapsed_seconds") or 0)
+            else "—",
         ]
         for item in rows
     ]
@@ -439,25 +457,15 @@ def _add_docx_questions(document: Document, report: dict[str, Any]) -> None:
             after=3,
         )
         evidence = "；".join(_text(value) for value in item.get("evidence") or [])
-        _docx_paragraph(
-            document,
-            f"原文定位：{evidence or '当前题库未提供可核验定位句'}",
-            after=3,
-        )
+        if not evidence:
+            evidence = _text(item.get("location_analysis") or "—")
+        _docx_paragraph(document, f"原文定位：{evidence}", after=3)
         if item.get("analysis"):
             _docx_paragraph(document, f"答案解析：{item['analysis']}", after=3)
-        _docx_paragraph(
-            document,
-            f"学生确认：{item.get('student_confirmation_label') or '未记录'}",
-            after=3,
-        )
-        _docx_paragraph(
-            document,
-            f"请老师重点观察：{item.get('teacher_observation') or '复核学生的定位和判断过程。'}",
-            italic=True,
-            color="1F4D78",
-            after=8,
-        )
+        elapsed = int(item.get("elapsed_seconds") or 0)
+        if elapsed:
+            _docx_paragraph(document, f"本题用时：{_format_seconds(elapsed)}", after=3)
+        _docx_paragraph(document, "", after=6)
 
 
 def build_teacher_docx(report: dict[str, Any], *, title: str) -> bytes:
@@ -477,11 +485,10 @@ def build_teacher_docx(report: dict[str, Any], *, title: str) -> bytes:
     _add_docx_cover(document, report, title)
     _add_docx_summary(document, report)
 
-    document.add_heading("1. 给老师的核心摘要", level=1)
+    document.add_heading("1. 数据摘要", level=1)
     _docx_bullets(
         document,
-        report.get("deterministic_interpretation")
-        or ["当前样本不足，暂不作能力定性。"],
+        report.get("deterministic_interpretation") or ["当前样本不足。"],
     )
 
     document.add_heading(f"2. {_section_title(report)}", level=1)
@@ -496,26 +503,26 @@ def build_teacher_docx(report: dict[str, Any], *, title: str) -> bytes:
         [40, 48, 24, 24, 28, 20] if report.get("modules") else [24, 58, 22, 24, 24, 32],
     )
 
-    document.add_heading("3. Part 与练习表现", level=1)
+    document.add_heading("3. Part 表现", level=1)
     if _part_rows(report):
         _docx_table(
             document,
-            ["Part", "正确", "总数", "正确率", "判断"],
+            ["Part", "正确", "总数", "正确率", "判断", "用时"],
             _part_rows(report),
-            [55, 24, 24, 32, 49],
+            [40, 20, 20, 28, 36, 40],
         )
     else:
         _docx_paragraph(document, "当前记录没有可单独汇总的 Part 数据。")
 
-    document.add_heading("4. 总体题型能力矩阵", level=1)
+    document.add_heading("4. 题型正确率", level=1)
     _docx_table(
         document,
-        ["题型", "正确", "正确率", "状态", "主要错因"],
+        ["题型", "正确/总题", "正确率", "状态", "代表错因"],
         _type_rows(report),
         [58, 24, 28, 30, 44],
     )
 
-    document.add_heading("5. 总体错误原因分布", level=1)
+    document.add_heading(f"5. {_cause_section_title(report)}", level=1)
     if _cause_rows(report):
         _docx_table(
             document,
@@ -526,21 +533,20 @@ def build_teacher_docx(report: dict[str, Any], *, title: str) -> bytes:
     else:
         _docx_paragraph(document, "当前范围没有可统计的错误原因。")
 
-    document.add_heading("6. 代表性错题", level=1)
+    document.add_heading(f"6. {_questions_section_title(report)}", level=1)
     _add_docx_questions(document, report)
 
-    document.add_heading("7. 给老师的教学参考", level=1)
+    document.add_heading("7. 用时数据", level=1)
     _docx_bullets(
         document,
-        report.get("teacher_observation_points")
-        or ["结合学生实际作答过程复核定位、排除和最终确认步骤。"],
+        report.get("time_management_notes") or ["暂无足够的用时数据。"],
     )
 
     document.add_heading("8. 数据口径", level=1)
     _docx_bullets(document, report.get("data_notes") or [])
     _docx_paragraph(
         document,
-        "本报告不调用 AI；标准答案、判分和 Band 规则没有改变。最终教学判断和课堂安排由真人老师作出。",
+        "本报告只汇总客观数据，不含教学方法建议；标准答案、判分和 Band 规则没有改变。",
         bold=True,
         color=REPORT_ACCENT,
     )
@@ -695,8 +701,11 @@ def _pdf_summary_table(report: dict[str, Any], styles: dict[str, ParagraphStyle]
     regular_font, bold_font = _pdf_font_names()
     metrics = _summary_metrics(report)
     data: list[list[Paragraph]] = []
-    for index in range(0, len(metrics), 2):
-        left, right = metrics[index], metrics[index + 1]
+    paired = list(metrics)
+    if len(paired) % 2 == 1:
+        paired.append(("", ""))
+    for index in range(0, len(paired), 2):
+        left, right = paired[index], paired[index + 1]
         data.append(
             [
                 _p(left[0], styles["muted"]),
@@ -738,6 +747,8 @@ def _pdf_questions(report: dict[str, Any], styles: dict[str, ParagraphStyle]) ->
             f"{item.get('test_title') or '练习'} / Q{item.get('question_number')}",
         )
         evidence = "；".join(_text(value) for value in item.get("evidence") or [])
+        if not evidence:
+            evidence = _text(item.get("location_analysis") or "—")
         elements = [
             _p(source, styles["subheading"]),
             _p(
@@ -751,26 +762,14 @@ def _pdf_questions(report: dict[str, Any], styles: dict[str, ParagraphStyle]) ->
                 f"正确答案：{item.get('correct_answer') or '—'}",
                 styles["body"],
             ),
-            _p(
-                f"原文定位：{evidence or '当前题库未提供可核验定位句'}",
-                styles["body"],
-            ),
+            _p(f"原文定位：{evidence}", styles["body"]),
         ]
         if item.get("analysis"):
             elements.append(_p(f"答案解析：{item['analysis']}", styles["body"]))
-        elements.extend(
-            [
-                _p(
-                    f"学生确认：{item.get('student_confirmation_label') or '未记录'}",
-                    styles["muted"],
-                ),
-                _p(
-                    f"请老师重点观察：{item.get('teacher_observation') or '复核学生的定位和判断过程。'}",
-                    styles["body"],
-                ),
-                Spacer(1, 4),
-            ]
-        )
+        elapsed = int(item.get("elapsed_seconds") or 0)
+        if elapsed:
+            elements.append(_p(f"本题用时：{_format_seconds(elapsed)}", styles["muted"]))
+        elements.append(Spacer(1, 4))
         story.append(KeepTogether(elements))
     return story
 
@@ -805,8 +804,8 @@ def build_teacher_pdf(report: dict[str, Any], *, title: str) -> bytes:
         story.append(_p(f"作业说明：{assignment['description']}", styles["body"]))
     story.extend([_pdf_summary_table(report, styles), Spacer(1, 6)])
 
-    story.append(_p("1. 给老师的核心摘要", styles["heading"]))
-    for value in report.get("deterministic_interpretation") or ["当前样本不足，暂不作能力定性。"]:
+    story.append(_p("1. 数据摘要", styles["heading"]))
+    for value in report.get("deterministic_interpretation") or ["当前样本不足。"]:
         story.append(_p(f"- {value}", styles["body"]))
 
     story.append(_p(f"2. {_section_title(report)}", styles["heading"]))
@@ -823,14 +822,14 @@ def build_teacher_pdf(report: dict[str, Any], *, title: str) -> bytes:
         )
     )
 
-    story.append(_p("3. Part 与练习表现", styles["heading"]))
+    story.append(_p("3. Part 表现", styles["heading"]))
     if _part_rows(report):
         story.append(
             _pdf_table(
-                ["Part", "正确", "总数", "正确率", "判断"],
+                ["Part", "正确", "总数", "正确率", "判断", "用时"],
                 _part_rows(report),
                 styles,
-                [55, 24, 24, 32, 49],
+                [40, 20, 20, 28, 36, 40],
             )
         )
     else:
@@ -838,14 +837,14 @@ def build_teacher_pdf(report: dict[str, Any], *, title: str) -> bytes:
 
     story.extend(
         [
-            _p("4. 总体题型能力矩阵", styles["heading"]),
+            _p("4. 题型正确率", styles["heading"]),
             _pdf_table(
-                ["题型", "正确", "正确率", "状态", "主要错因"],
+                ["题型", "正确/总题", "正确率", "状态", "代表错因"],
                 _type_rows(report),
                 styles,
                 [58, 24, 28, 30, 44],
             ),
-            _p("5. 总体错误原因分布", styles["heading"]),
+            _p(f"5. {_cause_section_title(report)}", styles["heading"]),
         ]
     )
     if _cause_rows(report):
@@ -860,13 +859,11 @@ def build_teacher_pdf(report: dict[str, Any], *, title: str) -> bytes:
     else:
         story.append(_p("当前范围没有可统计的错误原因。", styles["body"]))
 
-    story.extend([PageBreak(), _p("6. 代表性错题", styles["heading"])])
+    story.extend([PageBreak(), _p(f"6. {_questions_section_title(report)}", styles["heading"])])
     story.extend(_pdf_questions(report, styles))
 
-    story.append(_p("7. 给老师的教学参考", styles["heading"]))
-    for value in report.get("teacher_observation_points") or [
-        "结合学生实际作答过程复核定位、排除和最终确认步骤。"
-    ]:
+    story.append(_p("7. 用时数据", styles["heading"]))
+    for value in report.get("time_management_notes") or ["暂无足够的用时数据。"]:
         story.append(_p(f"- {value}", styles["body"]))
 
     story.append(_p("8. 数据口径", styles["heading"]))
@@ -874,7 +871,7 @@ def build_teacher_pdf(report: dict[str, Any], *, title: str) -> bytes:
         story.append(_p(f"- {value}", styles["small"]))
     story.append(
         _p(
-            "本报告不调用 AI；标准答案、判分和 Band 规则没有改变。最终教学判断和课堂安排由真人老师作出。",
+            "本报告只汇总客观数据，不含教学方法建议；标准答案、判分和 Band 规则没有改变。",
             styles["body"],
         )
     )

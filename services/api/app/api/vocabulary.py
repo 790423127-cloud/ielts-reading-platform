@@ -5,6 +5,7 @@ from datetime import datetime, timezone
 import io
 import json
 from typing import Any, Literal
+import uuid
 
 from fastapi import APIRouter, HTTPException, Query, Response
 from pydantic import BaseModel, ConfigDict, Field
@@ -73,6 +74,28 @@ class ParaphraseUpdateRequest(BaseModel):
     status: Literal["learning", "mastered"] = "learning"
 
 
+class SmartSyncPrepareRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    user_id: str = Field(default="owner", min_length=1, max_length=120)
+
+
+class SmartSyncReceipt(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    id: str = Field(min_length=1, max_length=180)
+    fingerprint: str = Field(min_length=64, max_length=64)
+
+
+class SmartSyncAcknowledgeRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    user_id: str = Field(default="owner", min_length=1, max_length=120)
+    transfer_id: str = Field(min_length=1, max_length=180)
+    words: list[SmartSyncReceipt] = Field(default_factory=list, max_length=5000)
+    paraphrases: list[SmartSyncReceipt] = Field(default_factory=list, max_length=5000)
+
+
 def vocabulary_repository() -> VocabularyRepository:
     return VocabularyRepository(session_repository().database_path)
 
@@ -100,6 +123,7 @@ def _export_rows(items: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 "note": item["note"],
                 "status": item["status"],
                 "occurrence_count": item["occurrence_count"],
+                "manual_capture_count": item["manual_capture_count"],
                 "sources": source_text,
                 "created_at": item["created_at"],
                 "updated_at": item["updated_at"],
@@ -136,6 +160,9 @@ def _paraphrase_export_package(items: list[dict[str, Any]]) -> dict[str, Any]:
                 "questionPhrase": str(item.get("question_phrase") or "").strip(),
                 "sourcePhrase": str(item.get("source_phrase") or "").strip(),
                 "note": str(item.get("note") or "").strip(),
+                "relationType": str(
+                    item.get("relation_type") or "direct-paraphrase"
+                ),
                 "confidence": float(item.get("confidence") or 0),
                 "occurrenceCount": int(item.get("occurrence_count") or 0),
                 "createdAt": item.get("created_at"),
@@ -157,6 +184,55 @@ def _paraphrase_export_package(items: list[dict[str, Any]]) -> dict[str, Any]:
             }
             for item in items
         ],
+    }
+
+
+def _smart_sync_package(pending: dict[str, list[dict[str, Any]]]) -> dict[str, Any]:
+    transfer_id = uuid.uuid4().hex
+    words = [
+        {
+            "id": str(item["id"]),
+            "fingerprint": str(item["content_fingerprint"]),
+            "word": str(item.get("term") or "").strip(),
+            "meaning": str(item.get("meaning") or "").strip(),
+            "note": str(item.get("note") or "").strip(),
+            "status": str(item.get("status") or "learning"),
+            "occurrenceCount": int(item.get("occurrence_count") or 0),
+            "manualCaptureCount": int(item.get("manual_capture_count") or 0),
+            "createdAt": item.get("created_at"),
+            "updatedAt": item.get("updated_at"),
+            "sources": [
+                {
+                    "id": str(source.get("id") or ""),
+                    "sourceType": source.get("source_type"),
+                    "sentence": source.get("source_sentence"),
+                    "context": source.get("source_context"),
+                    "sessionId": source.get("source_session_id"),
+                    "questionId": source.get("source_question_id"),
+                    "testId": source.get("test_id"),
+                    "testTitle": source.get("test_title"),
+                    "partNumber": source.get("part_number"),
+                }
+                for source in item.get("sources") or []
+            ],
+        }
+        for item in pending["words"]
+        if str(item.get("term") or "").strip()
+    ]
+    paraphrases = _paraphrase_export_package(pending["paraphrases"])["items"]
+    for index, item in enumerate(paraphrases):
+        source = pending["paraphrases"][index]
+        item["fingerprint"] = str(source["content_fingerprint"])
+        item["status"] = str(source.get("status") or "learning")
+    return {
+        "type": "ielts-reading-coach-smart-sync",
+        "schemaVersion": 1,
+        "source": "ielts-reading-coach",
+        "transferId": transfer_id,
+        "preparedAt": datetime.now(timezone.utc).isoformat(),
+        "words": words,
+        "paraphrases": paraphrases,
+        "counts": {"words": len(words), "paraphrases": len(paraphrases)},
     }
 
 
@@ -225,7 +301,7 @@ def export_vocabulary(
     else:
         buffer = io.StringIO(newline="")
         writer = csv.writer(buffer)
-        writer.writerow(["单词/词组", "中文释义", "个人笔记", "状态", "出现次数", "来源", "收藏时间", "更新时间"])
+        writer.writerow(["单词/词组", "中文释义", "个人笔记", "状态", "出现次数", "手动记录次数", "来源", "收藏时间", "更新时间"])
         for row in rows:
             writer.writerow(
                 [
@@ -234,6 +310,7 @@ def export_vocabulary(
                     _spreadsheet_safe(row["note"]),
                     "已掌握" if row["status"] == "mastered" else "学习中",
                     row["occurrence_count"],
+                    row["manual_capture_count"],
                     _spreadsheet_safe(row["sources"]),
                     row["created_at"],
                     row["updated_at"],
@@ -350,6 +427,22 @@ def export_selected_paraphrases(payload: ParaphraseSelectionExportRequest) -> Re
             )
         },
     )
+
+
+@router.post("/sync/prepare")
+def prepare_smart_sync(payload: SmartSyncPrepareRequest) -> dict[str, Any]:
+    pending = vocabulary_repository().prepare_smart_sync(user_id=payload.user_id)
+    return _smart_sync_package(pending)
+
+
+@router.post("/sync/acknowledge")
+def acknowledge_smart_sync(payload: SmartSyncAcknowledgeRequest) -> dict[str, Any]:
+    result = vocabulary_repository().acknowledge_smart_sync(
+        user_id=payload.user_id,
+        words=[item.model_dump() for item in payload.words],
+        paraphrases=[item.model_dump() for item in payload.paraphrases],
+    )
+    return {"transfer_id": payload.transfer_id, **result}
 
 
 @router.put("/paraphrases/{item_id}")

@@ -9,6 +9,7 @@ import uuid
 from typing import Any
 
 from app.services.sentence_training import normalize_span
+from app.repositories.schema_migrations import component_schema_migration
 
 
 class SentenceRepository:
@@ -22,7 +23,13 @@ class SentenceRepository:
         return connection
 
     def _ensure_schema(self) -> None:
-        with self._connect() as connection:
+        with component_schema_migration(
+            self.database_path,
+            component="sentences",
+            version=1,
+        ) as connection:
+            if connection is None:
+                return
             connection.executescript(
                 """
                 CREATE TABLE IF NOT EXISTS sentence_training_attempts (
@@ -66,7 +73,6 @@ class SentenceRepository:
                     ON personal_sentences(user_id, updated_at DESC);
                 """
             )
-            connection.commit()
 
     @staticmethod
     def _now() -> str:

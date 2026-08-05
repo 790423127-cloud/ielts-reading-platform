@@ -24,6 +24,10 @@ from app.api.sessions import router as sessions_router
 from app.api.vocabulary import router as vocabulary_router
 from app.api.teacher import router as teacher_router
 from app.core.config import settings
+from app.core.logging import configure_logging
+
+
+configure_logging()
 
 
 def _safe_validation_errors(error: RequestValidationError) -> list[dict[str, Any]]:

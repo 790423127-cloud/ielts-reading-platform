@@ -17,6 +17,7 @@ from app.domain.learning_plan import (
 )
 from app.domain.review import SKILL_LABELS, recommended_skill
 from app.repositories.session_repository import StoredSession
+from app.repositories.schema_migrations import component_schema_migration
 
 
 class LearningPlanRepository:
@@ -30,7 +31,13 @@ class LearningPlanRepository:
         return connection
 
     def _ensure_schema(self) -> None:
-        with self._connect() as connection:
+        with component_schema_migration(
+            self.database_path,
+            component="learning_plan",
+            version=1,
+        ) as connection:
+            if connection is None:
+                return
             connection.executescript(
                 """
                 CREATE TABLE IF NOT EXISTS learning_tasks (
@@ -109,7 +116,6 @@ class LearningPlanRepository:
                 );
                 """
             )
-            connection.commit()
 
     @staticmethod
     def _task_id(user_id: str, skill_key: str) -> str:

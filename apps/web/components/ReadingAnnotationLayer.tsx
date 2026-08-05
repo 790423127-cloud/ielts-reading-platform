@@ -46,10 +46,41 @@ type HighlightConstructor = new (...ranges: Range[]) => unknown;
 const HIGHLIGHT_NAME = "reading-highlight";
 const SECONDARY_HIGHLIGHT_NAME = "reading-highlight-secondary";
 const NOTE_NAME = "reading-note";
-const ANNOTATION_UNIT_SELECTOR = ".passage-copy .passage-unit, .questions-pane .question-annotation-unit";
+const ANNOTATION_UNIT_SELECTOR = ".passage-copy.passage-unit, .passage-copy .passage-unit, .questions-pane .question-annotation-unit";
+const ANNOTATION_CHROME_SELECTOR = [
+  ".reading-selection-toolbar",
+  ".reading-note-editor",
+  ".reading-annotation-panel",
+  ".reading-annotation-toggle",
+  ".reading-annotation-status"
+].join(", ");
 
 function annotationUnits(): HTMLElement[] {
   return [...document.querySelectorAll<HTMLElement>(ANNOTATION_UNIT_SELECTOR)];
+}
+
+/** Toolbar / note editor / panel — not passage text. */
+function isAnnotationChrome(target: EventTarget | null): boolean {
+  return target instanceof Element && Boolean(target.closest(ANNOTATION_CHROME_SELECTOR));
+}
+
+function isNoteEditorFocused(): boolean {
+  const active = document.activeElement;
+  return active instanceof Element && Boolean(active.closest(".reading-note-editor"));
+}
+
+function samePendingSelection(
+  current: PendingSelection | null,
+  next: Pick<PendingSelection, "partNumber" | "paragraphIndex" | "startOffset" | "endOffset" | "selectedText">
+): boolean {
+  return Boolean(
+    current
+    && current.partNumber === next.partNumber
+    && current.paragraphIndex === next.paragraphIndex
+    && current.startOffset === next.startOffset
+    && current.endOffset === next.endOffset
+    && current.selectedText === next.selectedText
+  );
 }
 
 function annotationId(): string {
@@ -224,8 +255,16 @@ export default function ReadingAnnotationLayer() {
   const [status, setStatus] = useState("");
   const selectionTimer = useRef<number | null>(null);
   const visibleAnnotationsRef = useRef<ReadingAnnotation[]>([]);
+  const selectionRef = useRef<PendingSelection | null>(null);
+  const noteOpenRef = useRef(false);
 
   useEffect(() => setMounted(true), []);
+  useEffect(() => {
+    selectionRef.current = selection;
+  }, [selection]);
+  useEffect(() => {
+    noteOpenRef.current = noteOpen;
+  }, [noteOpen]);
 
   const refreshContext = useCallback(() => {
     const next = currentContext();
@@ -277,7 +316,7 @@ export default function ReadingAnnotationLayer() {
     }
     window.addEventListener(READING_HISTORY_EVENT, onHistory);
     return () => window.removeEventListener(READING_HISTORY_EVENT, onHistory);
-  }, []);
+  }, [refreshContext]);
 
   useEffect(() => {
     if (!context) {
@@ -340,22 +379,33 @@ export default function ReadingAnnotationLayer() {
   }, [applyHighlights]);
 
   useEffect(() => {
+    let pointerSelectionActive = false;
+
     function captureSelection(point?: { x: number; y: number }) {
       const nextContext = currentContext();
       if (!nextContext) return;
       const browserSelection = window.getSelection();
       if (!browserSelection || browserSelection.isCollapsed || browserSelection.rangeCount !== 1) {
+        // Note editor / toolbar focus collapses the native selection; keep pinned selection.
+        if ((noteOpenRef.current || isNoteEditorFocused()) && selectionRef.current) return;
         const highlighted = point
           ? highlightedSelectionAtPoint(point.x, point.y, nextContext, visibleAnnotationsRef.current)
           : null;
         if (highlighted) {
+          const keepNote = noteOpenRef.current && samePendingSelection(selectionRef.current, highlighted);
           setSelection(highlighted);
-          setNoteOpen(false);
-          setNoteDraft("");
+          if (!keepNote) {
+            noteOpenRef.current = false;
+            setNoteOpen(false);
+            setNoteDraft("");
+          }
           setStatus("");
           return;
         }
+        selectionRef.current = null;
+        noteOpenRef.current = false;
         setSelection(null);
+        setNoteOpen(false);
         return;
       }
       const range = browserSelection.getRangeAt(0);
@@ -367,7 +417,11 @@ export default function ReadingAnnotationLayer() {
         : range.endContainer as HTMLElement;
       const paragraph = startElement?.closest<HTMLElement>(ANNOTATION_UNIT_SELECTOR);
       if (!paragraph || !endElement || paragraph !== endElement.closest(ANNOTATION_UNIT_SELECTOR)) {
+        if ((noteOpenRef.current || isNoteEditorFocused()) && selectionRef.current) return;
+        selectionRef.current = null;
+        noteOpenRef.current = false;
         setSelection(null);
+        setNoteOpen(false);
         return;
       }
       const paragraphs = annotationUnits();
@@ -375,7 +429,11 @@ export default function ReadingAnnotationLayer() {
       if (paragraphIndex < 0) return;
       const selectedText = normalizeReadingText(range.toString());
       if (!selectedText || selectedText.length > 300) {
+        if ((noteOpenRef.current || isNoteEditorFocused()) && selectionRef.current) return;
+        selectionRef.current = null;
+        noteOpenRef.current = false;
         setSelection(null);
+        setNoteOpen(false);
         return;
       }
       const startOffset = textOffset(paragraph, range.startContainer, range.startOffset);
@@ -383,7 +441,7 @@ export default function ReadingAnnotationLayer() {
       const paragraphText = paragraph.textContent || "";
       const rects = range.getClientRects();
       const rect = rects.length ? rects[rects.length - 1] : range.getBoundingClientRect();
-      setSelection({
+      const nextSelection: PendingSelection = {
         ...nextContext,
         rect,
         sourceKind: paragraph.matches(".question-annotation-unit") ? "question" : "passage",
@@ -393,41 +451,86 @@ export default function ReadingAnnotationLayer() {
         endOffset,
         selectedText,
         sentence: sentenceAround(paragraphText, startOffset, endOffset)
-      });
-      setNoteOpen(false);
-      setNoteDraft("");
+      };
+      const keepNote = noteOpenRef.current && samePendingSelection(selectionRef.current, nextSelection);
+      setSelection(nextSelection);
+      // Re-capturing the same range (e.g. click "笔记") must not close the editor.
+      if (!keepNote) {
+        noteOpenRef.current = false;
+        setNoteOpen(false);
+        setNoteDraft("");
+      }
       setStatus("");
     }
 
     function scheduleCapture(point?: { x: number; y: number }) {
       if (selectionTimer.current != null) window.clearTimeout(selectionTimer.current);
-      selectionTimer.current = window.setTimeout(() => captureSelection(point), 70);
+      selectionTimer.current = window.setTimeout(() => {
+        selectionTimer.current = null;
+        captureSelection(point);
+      }, 70);
+    }
+
+    function beginPointerSelection(event: PointerEvent) {
+      if (event.button !== 0) return;
+      const target = event.target;
+      if (isAnnotationChrome(target)) return;
+      if (!(target instanceof Element) || !target.closest(ANNOTATION_UNIT_SELECTOR)) return;
+      pointerSelectionActive = true;
+      if (selectionTimer.current != null) {
+        window.clearTimeout(selectionTimer.current);
+        selectionTimer.current = null;
+      }
+      // Starting a new drag in the passage dismisses note editor.
+      selectionRef.current = null;
+      noteOpenRef.current = false;
+      setSelection(null);
+      setNoteOpen(false);
     }
 
     function schedulePointerCapture(event: PointerEvent) {
       if (event.button !== 0) return;
+      if (isAnnotationChrome(event.target)) {
+        pointerSelectionActive = false;
+        return;
+      }
+      pointerSelectionActive = false;
       scheduleCapture({ x: event.clientX, y: event.clientY });
     }
 
+    function cancelPointerSelection() {
+      pointerSelectionActive = false;
+    }
+
     function scheduleTouchCapture(event: TouchEvent) {
+      if (isAnnotationChrome(event.target)) return;
       const touch = event.changedTouches[0];
       scheduleCapture(touch ? { x: touch.clientX, y: touch.clientY } : undefined);
     }
 
-    function scheduleKeyboardCapture() {
+    function scheduleKeyboardCapture(event: KeyboardEvent) {
+      if (isAnnotationChrome(event.target)) return;
+      if (noteOpenRef.current) return;
       scheduleCapture();
     }
 
     function scheduleSelectionCapture() {
+      if (pointerSelectionActive) return;
+      // Focusing the note textarea collapses the native selection; ignore that.
+      if (noteOpenRef.current || isNoteEditorFocused()) return;
       if (!window.getSelection()?.isCollapsed) scheduleCapture();
     }
 
-    document.addEventListener("pointerup", schedulePointerCapture);
+    document.addEventListener("pointerdown", beginPointerSelection, true);
+    document.addEventListener("pointerup", schedulePointerCapture, true);
+    document.addEventListener("pointercancel", cancelPointerSelection, true);
     document.addEventListener("touchend", scheduleTouchCapture, { passive: true });
     document.addEventListener("keyup", scheduleKeyboardCapture);
     document.addEventListener("selectionchange", scheduleSelectionCapture);
     return () => {
-      document.removeEventListener("pointerup", schedulePointerCapture);
+      document.removeEventListener("pointerdown", beginPointerSelection, true);
+      document.removeEventListener("pointerup", schedulePointerCapture, true);
+      document.removeEventListener("pointercancel", cancelPointerSelection, true);
       document.removeEventListener("touchend", scheduleTouchCapture);
       document.removeEventListener("keyup", scheduleKeyboardCapture);
       document.removeEventListener("selectionchange", scheduleSelectionCapture);
@@ -502,6 +605,8 @@ export default function ReadingAnnotationLayer() {
 
   function closeSelection() {
     window.getSelection()?.removeAllRanges();
+    selectionRef.current = null;
+    noteOpenRef.current = false;
     setSelection(null);
     setNoteOpen(false);
   }
@@ -603,17 +708,50 @@ export default function ReadingAnnotationLayer() {
                 ? "二次高亮"
                 : "高亮"}
           </button>
-          <button type="button" onClick={() => { setNoteOpen(true); setNoteDraft(selectedAnnotation?.note || ""); }}>笔记</button>
+          <button
+            type="button"
+            onClick={() => {
+              // Sync ref before paint so selectionchange from textarea autoFocus won't clear selection.
+              noteOpenRef.current = true;
+              setNoteOpen(true);
+              setNoteDraft(selectedAnnotation?.note || "");
+            }}
+          >
+            笔记
+          </button>
           <button type="button" disabled={savingVocabulary} onClick={() => void addVocabulary()}>{savingVocabulary ? "保存中…" : "加入生词本"}</button>
           <button type="button" className="quiet" onClick={closeSelection}>取消</button>
         </div>
       ) : null}
 
       {context && selection && noteOpen ? (
-        <div className="reading-note-editor" style={{ left: Math.max(12, Math.min(selection.rect.left, window.innerWidth - 360)), top: Math.min(window.innerHeight - 220, selection.rect.bottom + 12) }}>
+        <div
+          className="reading-note-editor"
+          style={{ left: Math.max(12, Math.min(selection.rect.left, window.innerWidth - 360)), top: Math.min(window.innerHeight - 220, selection.rect.bottom + 12) }}
+          onPointerDown={(event) => event.stopPropagation()}
+        >
           <strong>给“{selection.selectedText}”添加笔记</strong>
-          <textarea autoFocus rows={4} value={noteDraft} onChange={(event) => setNoteDraft(event.target.value)} placeholder="写下释义、同义替换或句子理解…" />
-          <div><button type="button" className="secondary-button" onClick={() => setNoteOpen(false)}>取消</button><button type="button" className="primary-button" disabled={!noteDraft.trim()} onClick={saveNote}>保存笔记</button></div>
+          <textarea
+            autoFocus
+            rows={4}
+            value={noteDraft}
+            onChange={(event) => setNoteDraft(event.target.value)}
+            onKeyDown={(event) => event.stopPropagation()}
+            placeholder="写下释义、同义替换或句子理解…"
+          />
+          <div>
+            <button
+              type="button"
+              className="secondary-button"
+              onClick={() => {
+                noteOpenRef.current = false;
+                setNoteOpen(false);
+              }}
+            >
+              取消
+            </button>
+            <button type="button" className="primary-button" disabled={!noteDraft.trim()} onClick={saveNote}>保存笔记</button>
+          </div>
         </div>
       ) : null}
 

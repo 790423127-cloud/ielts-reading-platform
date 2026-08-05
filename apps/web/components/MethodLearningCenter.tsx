@@ -62,19 +62,21 @@ export default function MethodLearningCenter() {
     [courses, tab]
   );
   const activeCourse = courses.find((course) => course.id === activeId) || visibleCourses[0];
+  const activeCourseId = activeCourse?.id;
+  const activeCourseKind = activeCourse?.kind;
   const displayedCourse = activeDetail?.id === activeCourse?.id ? activeDetail : activeCourse;
   const validationRoute = displayedCourse ? trainingRoute(displayedCourse) : null;
   const displayedSteps: NonNullable<MethodCourse["standard_method"]> = displayedCourse?.standard_method
     || (displayedCourse?.steps || []).map((step) => ({ title: step, action: "" }));
 
   useEffect(() => {
-    if (!activeCourse || activeCourse.kind !== "subtype") {
+    if (!activeCourseId || activeCourseKind !== "subtype") {
       setActiveDetail(null);
       return;
     }
     const controller = new AbortController();
     setDetailLoading(true);
-    fetchMethodCourse(activeCourse.id, controller.signal)
+    fetchMethodCourse(activeCourseId, controller.signal)
       .then(setActiveDetail)
       .catch((reason: unknown) => {
         if (!controller.signal.aborted) {
@@ -85,7 +87,7 @@ export default function MethodLearningCenter() {
         if (!controller.signal.aborted) setDetailLoading(false);
       });
     return () => controller.abort();
-  }, [activeCourse?.id, activeCourse?.kind]);
+  }, [activeCourseId, activeCourseKind]);
 
   function changeTab(nextTab: CourseTab) {
     setTab(nextTab);

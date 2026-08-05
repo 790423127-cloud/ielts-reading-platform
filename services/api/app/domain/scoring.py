@@ -1,10 +1,24 @@
 from __future__ import annotations
 
+import re
 from collections import defaultdict
 from typing import Any
 
-from app.domain.answer_evaluation import evaluate_answer
+from app.domain.answer_evaluation import (
+    evaluate_answer,
+    normalize_text_answer,
+    split_multi_answer,
+)
 from app.domain.band import attach_band_estimate
+
+# Gap-fill tokens like $120404$ (question ids) must not leak into learner-facing copy.
+_BLANK_TOKEN_RE = re.compile(r"\$\d{4,}\$")
+
+
+def humanize_blank_tokens(value: Any) -> str:
+    if value is None:
+        return ""
+    return _BLANK_TOKEN_RE.sub("_____", str(value))
 
 
 def format_user_answer(value: Any) -> str:
@@ -13,6 +27,38 @@ def format_user_answer(value: Any) -> str:
     if isinstance(value, list):
         return ", ".join(str(item) for item in value if str(item).strip())
     return str(value)
+
+
+def _unique_multi_tokens(value: Any) -> list[str]:
+    tokens: list[str] = []
+    seen: set[str] = set()
+    for raw_token in split_multi_answer(value):
+        token = str(raw_token).strip()
+        normalized = normalize_text_answer(token)
+        if not normalized or normalized in seen:
+            continue
+        seen.add(normalized)
+        tokens.append(token)
+    return tokens
+
+
+def _shared_multi_answer(
+    questions: list[dict[str, Any]], answer_map: dict[str, Any]
+) -> Any:
+    """Read both current shared-array submissions and older per-slot submissions."""
+    submitted = [
+        answer_map.get(str(question.get("id")), "")
+        for question in questions
+    ]
+    for value in submitted:
+        if len(_unique_multi_tokens(value)) > 1:
+            return value
+    combined = [
+        token
+        for value in submitted
+        for token in _unique_multi_tokens(value)
+    ]
+    return combined
 
 
 def score_submission(
@@ -42,22 +88,76 @@ def score_submission(
         for group in part.get("groups") or []:
             subtype = str(group.get("question_type") or group.get("subtype") or "other")
             question_type = str(group.get("question_label") or subtype)
-            multi = subtype == "multiple_choice_multiple" or int(
+            group_multi = subtype == "multiple_choice_multiple" or int(
                 group.get("required_choices") or 1
             ) > 1
-            for question in group.get("questions") or []:
+            questions = group.get("questions") or []
+            shared_multi = bool(group.get("shared_response")) and group_multi and len(questions) > 1
+            shared_answer: Any = ""
+            shared_tokens: list[str] = []
+            shared_correct_tokens: list[str] = []
+            shared_correct_set: set[str] = set()
+            shared_summary: dict[str, Any] = {}
+            if shared_multi:
+                shared_answer = _shared_multi_answer(questions, answer_map)
+                # A shared group has a fixed number of score slots. The UI enforces
+                # this limit; keep the server deterministic for malformed clients too.
+                shared_tokens = _unique_multi_tokens(shared_answer)[:len(questions)]
+                correct_source = questions[0].get("answer", "")
+                if not str(correct_source or "").strip():
+                    correct_source = questions[0].get("accepted_answers") or []
+                shared_correct_tokens = _unique_multi_tokens(correct_source)
+                shared_correct_set = {
+                    normalize_text_answer(token) for token in shared_correct_tokens
+                }
+                selected_correct = [
+                    token for token in shared_tokens
+                    if normalize_text_answer(token) in shared_correct_set
+                ]
+                selected_incorrect = [
+                    token for token in shared_tokens
+                    if normalize_text_answer(token) not in shared_correct_set
+                ]
+                selected_normalized = {
+                    normalize_text_answer(token) for token in shared_tokens
+                }
+                missed_correct = [
+                    token for token in shared_correct_tokens
+                    if normalize_text_answer(token) not in selected_normalized
+                ]
+                shared_summary = {
+                    "shared_response": True,
+                    "shared_response_score": len(selected_correct),
+                    "shared_response_total": len(questions),
+                    "selected_correct_answers": selected_correct,
+                    "selected_incorrect_answers": selected_incorrect,
+                    "missed_correct_answers": missed_correct,
+                }
+
+            for question_index, question in enumerate(questions):
                 question_id = str(question["id"])
-                user_answer = answer_map.get(question_id, "")
+                user_answer = shared_answer if shared_multi else answer_map.get(question_id, "")
                 accepted = question.get("accepted_answers") or [
                     question.get("answer", "")
                 ]
-                correct, answer_error_type = evaluate_answer(
-                    user_answer,
-                    accepted,
-                    subtype=subtype,
-                    instructions=str(group.get("instructions") or ""),
-                    multi=multi,
-                )
+                multi = group_multi or int(question.get("required_choices") or 1) > 1
+                credited_answer = ""
+                if shared_multi:
+                    credited_answer = (
+                        shared_tokens[question_index]
+                        if question_index < len(shared_tokens)
+                        else ""
+                    )
+                    correct = normalize_text_answer(credited_answer) in shared_correct_set
+                    answer_error_type = None if correct else "incorrect"
+                else:
+                    correct, answer_error_type = evaluate_answer(
+                        user_answer,
+                        accepted,
+                        subtype=subtype,
+                        instructions=str(group.get("instructions") or ""),
+                        multi=multi,
+                    )
                 evidence = question.get("evidence") or []
                 if isinstance(evidence, str):
                     evidence = [evidence] if evidence.strip() else []
@@ -83,18 +183,25 @@ def score_submission(
                     "correct_answer": question.get("answer", ""),
                     "is_correct": correct,
                     "answer_error_type": answer_error_type,
-                    "analysis": question.get("analysis") or "",
-                    "reason": question.get("reason") or "",
-                    "location_analysis": question.get("location_analysis") or "",
-                    "paraphrasing": question.get("paraphrasing") or "",
-                    "keywords": question.get("keywords") or "",
-                    "evidence": evidence,
+                    "analysis": humanize_blank_tokens(question.get("analysis") or ""),
+                    "reason": humanize_blank_tokens(question.get("reason") or ""),
+                    "location_analysis": humanize_blank_tokens(
+                        question.get("location_analysis") or ""
+                    ),
+                    "paraphrasing": humanize_blank_tokens(question.get("paraphrasing") or ""),
+                    "keywords": humanize_blank_tokens(question.get("keywords") or ""),
+                    "evidence": [
+                        humanize_blank_tokens(item) for item in evidence
+                    ],
                     "evidence_available": bool(
                         evidence and any(str(item).strip() for item in evidence)
                     ),
                     "wrong_reasons": question.get("wrong_reasons"),
                     "source_test_id": part.get("source_test_id") or test.get("id"),
                 }
+                if shared_multi:
+                    row.update(shared_summary)
+                    row["credited_answer"] = credited_answer
                 question_results.append(row)
                 part_questions.append(row)
 
@@ -152,7 +259,11 @@ def score_submission(
             question for question in question_results if not question["is_correct"]
         ],
         "unanswered_count": sum(
-            1 for question in question_results if not str(question["user_answer"]).strip()
+            1
+            for question in question_results
+            if not str(
+                question.get("credited_answer", question["user_answer"])
+            ).strip()
         ),
     }
     return attach_band_estimate(result)

@@ -4,15 +4,18 @@ import { type FormEvent, useEffect, useMemo, useState } from "react";
 
 import {
   captureVocabulary,
+  acknowledgeVocabularySmartSync,
   deleteVocabulary,
   exportParaphraseSelection,
   exportVocabularySelection,
   fetchParaphrases,
   fetchVocabulary,
+  prepareVocabularySmartSync,
   updateParaphraseStatus,
   updateVocabulary,
   vocabularyExportUrl,
   type ParaphraseItem,
+  type SmartSyncReceiptItem,
   type VocabularyItem
 } from "@/lib/learningApi";
 
@@ -20,6 +23,13 @@ const STATUS_LABELS = {
   learning: "学习中",
   mastered: "已掌握"
 } as const;
+
+const PARAPHRASE_RELATION_LABELS: Record<ParaphraseItem["relation_type"], string> = {
+  "direct-paraphrase": "直接同义",
+  "near-paraphrase": "近义替换",
+  "contextual-paraphrase": "语境对应",
+  "curated-paraphrase": "题库核验"
+};
 
 const SOURCE_LABELS: Record<string, string> = {
   reading_text: "阅读原文",
@@ -76,6 +86,7 @@ export default function VocabularyCenter() {
   const [loading, setLoading] = useState(true);
   const [saving, setSaving] = useState(false);
   const [exporting, setExporting] = useState(false);
+  const [syncing, setSyncing] = useState(false);
   const [error, setError] = useState("");
   const [wordLoadError, setWordLoadError] = useState("");
   const [paraphraseLoadError, setParaphraseLoadError] = useState("");
@@ -158,6 +169,89 @@ export default function VocabularyCenter() {
   async function refreshParaphrases() {
     const refreshed = await fetchParaphrases();
     setParaphrases(refreshed);
+  }
+
+  async function syncToVocabularyApp() {
+    const targetOrigin = (
+      process.env.NEXT_PUBLIC_VOCABULARY_APP_ORIGIN || "http://localhost:3000"
+    ).replace(/\/+$/, "");
+    let popup: Window | null = null;
+    let prepared: Awaited<ReturnType<typeof prepareVocabularySmartSync>> | null = null;
+    let targetReady = false;
+    let timeoutId: number | undefined;
+    let messageHandler: ((event: MessageEvent) => void) | undefined;
+    const cleanup = () => {
+      if (timeoutId !== undefined) window.clearTimeout(timeoutId);
+      if (messageHandler) window.removeEventListener("message", messageHandler);
+    };
+    setSyncing(true);
+    setError("");
+    setNotice("");
+    try {
+      const resultPromise = new Promise<{
+        transferId: string;
+        receipt: { words: SmartSyncReceiptItem[]; paraphrases: SmartSyncReceiptItem[] };
+        summary?: Record<string, number>;
+      }>((resolve, reject) => {
+        const sendWhenReady = () => {
+          if (targetReady && prepared && popup) popup.postMessage(prepared, targetOrigin);
+        };
+        messageHandler = (event: MessageEvent) => {
+          if (event.origin !== targetOrigin || event.source !== popup) return;
+          if (event.data?.type === "ielts-reading-coach-smart-sync-ready") {
+            targetReady = true;
+            sendWhenReady();
+            return;
+          }
+          if (
+            event.data?.type !== "ielts-reading-coach-smart-sync-result"
+            || !prepared
+            || event.data?.transferId !== prepared.transferId
+          ) return;
+          if (event.data.status !== "ok") {
+            reject(new Error(String(event.data?.message || "词库软件写入失败")));
+            return;
+          }
+          resolve(event.data);
+        };
+        window.addEventListener("message", messageHandler);
+        timeoutId = window.setTimeout(
+          () => reject(new Error("词库软件没有响应，请确认它已启动后重试")),
+          20000
+        );
+      });
+
+      popup = window.open(
+        `${targetOrigin}/reading-sync?sourceOrigin=${encodeURIComponent(window.location.origin)}`,
+        "ielts-vocabulary-smart-sync",
+        "popup=yes,width=860,height=720"
+      );
+      if (!popup) throw new Error("浏览器拦截了传输窗口，请允许弹窗后重试");
+      prepared = await prepareVocabularySmartSync();
+      if (prepared.counts.words + prepared.counts.paraphrases === 0) {
+        popup.close();
+        setNotice("没有新增或变更内容；以前传过的记录没有重复发送。");
+        return;
+      }
+      if (targetReady) popup.postMessage(prepared, targetOrigin);
+      const result = await resultPromise;
+      const acknowledgement = await acknowledgeVocabularySmartSync({
+        transfer_id: result.transferId,
+        words: result.receipt.words,
+        paraphrases: result.receipt.paraphrases
+      });
+      await Promise.all([refreshVocabulary(), refreshParaphrases()]);
+      const staleCount = acknowledgement.stale_word_ids.length + acknowledgement.stale_paraphrase_ids.length;
+      setNotice(
+        `已传到词库软件：生词 ${acknowledgement.words_marked} 条，同义替换 ${acknowledgement.paraphrases_marked} 条。`
+        + (staleCount ? `另有 ${staleCount} 条在传输期间发生变化，下次会自动补传。` : "重复内容已自动跳过。")
+      );
+    } catch (reason) {
+      setError(reason instanceof Error ? reason.message : "传输失败");
+    } finally {
+      cleanup();
+      setSyncing(false);
+    }
   }
 
   async function submitNewItem(event: FormEvent<HTMLFormElement>) {
@@ -316,9 +410,17 @@ export default function VocabularyCenter() {
         <div>
           <p className="eyebrow">PERSONAL VOCABULARY</p>
           <h1>我的词汇本</h1>
-          <p>单词和错题同义替换分开记录；同一内容自动合并来源，高频复现会提示优先记忆。</p>
+          <p>单词和错题同义替换分开记录；同一内容自动合并来源，跨文章复现或手动重复记录都会提示高频。</p>
         </div>
         <div className="vocabulary-export-actions">
+          <button
+            className="primary-button vocabulary-smart-sync-button"
+            type="button"
+            disabled={syncing || exporting}
+            onClick={() => void syncToVocabularyApp()}
+          >
+            {syncing ? "正在传输…" : "智能传到词库软件"}
+          </button>
           {activeTab === "words" ? (
             <>
               <button
@@ -411,7 +513,7 @@ export default function VocabularyCenter() {
       <section className="vocabulary-layout">
         <form className="vocabulary-capture-card" onSubmit={submitNewItem}>
           <div className="section-title-row">
-            <div><span>{activeTab === "words" ? "QUICK CAPTURE" : "AI AUTO CAPTURE"}</span><h2>{activeTab === "words" ? "添加生词" : "错题自动记录"}</h2></div>
+            <div><span>{activeTab === "words" ? "QUICK CAPTURE" : "AUTO CAPTURE"}</span><h2>{activeTab === "words" ? "添加生词" : "错题自动记录"}</h2></div>
           </div>
           {activeTab === "words" ? (
             <>
@@ -458,12 +560,12 @@ export default function VocabularyCenter() {
               <button className="primary-button" type="submit" disabled={saving || !draft.term.trim()}>
                 {saving ? "正在保存…" : "保存到词汇本"}
               </button>
-              <p className="vocabulary-dedupe-note">重复收藏不会覆盖已有释义和笔记；新的原句会追加为新来源。</p>
+              <p className="vocabulary-dedupe-note">重复收藏不会覆盖已有释义和笔记；手动重复保存会累计频率，新的原句会追加为新来源。</p>
             </>
           ) : (
             <div className="vocabulary-auto-note">
-              <p>交卷后系统只读取错题，让 AI 自动提取“题目表达 = 原文表达”。</p>
-              <p>正确题不会处理；AI 没配置或证据不足时会跳过，不影响判分。</p>
+              <p>交卷后系统只读取错题，优先保存题库中已核验的“题目表达 = 原文表达”。</p>
+              <p>本地资料不足时再由 AI 补充；AI 没配置或提取失败，也不会影响已保存的本地结果和判分。</p>
               <p>导出为 JSON 学习包，完整保留原题证据，可直接导入阅读同义替换记录本。</p>
             </div>
           )}
@@ -471,7 +573,12 @@ export default function VocabularyCenter() {
 
         <div className="vocabulary-library">
           <div className="vocabulary-toolbar">
-            <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder={activeTab === "words" ? "搜索单词、释义或笔记" : "搜索题目表达、原文表达或笔记"} />
+            <input
+              aria-label={activeTab === "words" ? "搜索生词" : "搜索同义替换"}
+              value={query}
+              onChange={(event) => setQuery(event.target.value)}
+              placeholder={activeTab === "words" ? "搜索单词、释义或笔记" : "搜索题目表达、原文表达或笔记"}
+            />
             <select aria-label="按状态筛选" value={statusFilter} onChange={(event) => setStatusFilter(event.target.value as typeof statusFilter)}>
               <option value="all">全部状态</option>
               <option value="learning">学习中</option>
@@ -507,8 +614,16 @@ export default function VocabularyCenter() {
                               高频复现 · {distinctArticles} 篇文章，建议优先记忆
                             </span>
                           ) : null}
+                          {item.manual_capture_count >= 2 ? (
+                            <span className="vocabulary-frequency-reminder">
+                              手动高频 · 已记录 {item.manual_capture_count} 次
+                            </span>
+                          ) : null}
                           <h2>{item.term}</h2>
-                          <small>出现 {item.occurrence_count} 次 · {item.sources.length} 个来源</small>
+                          <small>
+                            出现 {item.occurrence_count} 次 · {item.sources.length} 个来源
+                            {item.manual_capture_count ? ` · 手动记录 ${item.manual_capture_count} 次` : ""}
+                          </small>
                         </div>
                         <div className="vocabulary-card-actions">
                           <button className="secondary-button" type="button" onClick={() => beginEdit(item)}>编辑</button>
@@ -574,7 +689,11 @@ export default function VocabularyCenter() {
                             </span>
                           ) : null}
                           <h2><span>{item.question_phrase}</span><b>=</b><span>{item.source_phrase}</span></h2>
-                          <small>错题来源 {item.occurrence_count} 次 · AI置信度 {Math.round(item.confidence * 100)}%</small>
+                          <small>
+                            错题来源 {item.occurrence_count} 次 · {
+                              PARAPHRASE_RELATION_LABELS[item.relation_type]
+                            } {Math.round(item.confidence * 100)}%
+                          </small>
                         </div>
                         <div className="vocabulary-card-actions">
                           {item.status === "learning" ? (

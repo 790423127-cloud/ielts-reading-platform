@@ -8,6 +8,7 @@ const shell = fs.readFileSync(new URL("../components/AppShell.tsx", import.meta.
 const practicePage = fs.readFileSync(new URL("../app/practice/page.tsx", import.meta.url), "utf8");
 const workbench = fs.readFileSync(new URL("../components/ExamWorkbench.tsx", import.meta.url), "utf8");
 const review = fs.readFileSync(new URL("../components/WrongReviewCenter.tsx", import.meta.url), "utf8");
+const aiWrongReview = fs.readFileSync(new URL("../components/WrongQuestionAiTeacherCenter.tsx", import.meta.url), "utf8");
 const methods = fs.readFileSync(new URL("../components/MethodLearningCenter.tsx", import.meta.url), "utf8");
 const ability = fs.readFileSync(new URL("../components/AbilityTrainingCenter.tsx", import.meta.url), "utf8");
 const reports = fs.readFileSync(new URL("../components/StageReportCenter.tsx", import.meta.url), "utf8");
@@ -17,13 +18,16 @@ const apiProject = fs.readFileSync(new URL("../../../services/api/pyproject.toml
 const apiConfig = fs.readFileSync(new URL("../../../services/api/app/core/config.py", import.meta.url), "utf8");
 const readme = fs.readFileSync(new URL("../../../README.md", import.meta.url), "utf8");
 const migration = fs.readFileSync(new URL("../../../docs/MIGRATION.md", import.meta.url), "utf8");
+const playwrightConfig = fs.readFileSync(new URL("../playwright.config.ts", import.meta.url), "utf8");
+const startLocal = fs.readFileSync(new URL("../../../scripts/start-local.ps1", import.meta.url), "utf8");
 
 test("release surfaces agree on version and replacement-validation status", () => {
-  assert.equal(webPackage.version, "0.5.0");
-  assert.match(dashboard, /CURRENT_VERSION = "0\.5\.0"/);
+  assert.equal(webPackage.version, "1.0.0");
+  assert.match(dashboard, /CURRENT_VERSION = "1\.0\.0"/);
+  assert.match(shell, /V1\.0/);
   assert.match(dashboard, /旧版替代仍在验收/);
-  assert.match(apiProject, /version = "0\.5\.0"/);
-  assert.match(apiConfig, /app_version: str = "0\.5\.0"/);
+  assert.match(apiProject, /version = "1\.0\.0"/);
+  assert.match(apiConfig, /app_version: str = "1\.0\.0"/);
   assert.match(apiConfig, /migration_phase: str = "replacement_validation"/);
   assert.match(readme, /当前发布状态/);
   assert.match(migration, /Phase 6 — replacement validation/);
@@ -45,7 +49,8 @@ test("practice route uses the new server-scored exam workbench", () => {
   assert.match(workbench, /submitSession/);
   assert.match(workbench, /60分钟模拟考试/);
   assert.match(workbench, /localStorage/);
-  assert.doesNotMatch(workbench, /dangerouslySetInnerHTML/);
+  assert.match(workbench, /function SourceHtmlQuestionBlock/);
+  assert.match(workbench, /className="source-questions-content question-annotation-unit"/);
 });
 
 test("public question transport type cannot carry answers or explanations", () => {
@@ -64,6 +69,8 @@ test("wrong-question center routes to exact method and ability training", () => 
   assert.match(review, /返回原题重做/);
   assert.match(review, /source_part_number/);
   assert.match(review, /连续答对两次/);
+  assert.match(review, /item\.question_subtype === value\)\?\.question_type \|\| value/);
+  assert.match(aiWrongReview, /item\.question_type \|\| item\.question_subtype/);
 });
 
 test("personal vocabulary book remains part of the reading learning loop", () => {
@@ -116,4 +123,24 @@ test("unsubmitted ability answers are never described as saved", () => {
 
 test("learning and exam surfaces remain text-only", () => {
   assert.doesNotMatch(workbench + review + methods + ability + api, /microphone|MediaRecorder|getUserMedia|speechRecognition|audio\//i);
+});
+
+test("browser tests use an isolated database and cannot inherit paid AI credentials", () => {
+  assert.match(playwrightConfig, /playwright-e2e-\$\{process\.pid\}\.sqlite3/);
+  assert.match(playwrightConfig, /PLAYWRIGHT_REUSE_SERVERS === "1"/);
+  assert.match(playwrightConfig, /SESSION_DB_PATH: e2eDatabasePath/);
+  assert.match(playwrightConfig, /WEB_ORIGINS: webBaseUrl/);
+  for (const key of ["AI_API_KEY", "DASHSCOPE_API_KEY", "DEEPSEEK_API_KEY", "OPENAI_API_KEY"]) {
+    assert.match(playwrightConfig, new RegExp(`${key}: ""`));
+  }
+});
+
+test("local startup invalidates stale Next.js cache and checks the real practice route", () => {
+  assert.match(startLocal, /pnpm-lock\.yaml/);
+  assert.match(startLocal, /Get-FileHash/);
+  assert.match(startLocal, /\.next-dev/);
+  assert.match(startLocal, /Refusing to remove a web cache outside the project/);
+  assert.match(startLocal, /ParentProcessId/);
+  assert.match(startLocal, /127\.0\.0\.1:8001\/practice/);
+  assert.match(startLocal, /api\/v1\/readiness/);
 });

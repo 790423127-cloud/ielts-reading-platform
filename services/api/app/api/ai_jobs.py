@@ -1,5 +1,7 @@
 from __future__ import annotations
 
+import logging
+
 from typing import Any
 
 from fastapi import APIRouter, HTTPException, Query
@@ -11,6 +13,7 @@ from app.repositories.ai_job_repository import AiJobRepository
 from app.services.ai_teacher import ai_provider_public_status
 
 router = APIRouter(prefix="/ai-jobs", tags=["ai-jobs"])
+logger = logging.getLogger("ielts_reading.ai_jobs")
 
 
 class DurableAiJobCreate(BaseModel):
@@ -150,6 +153,7 @@ def resume_durable_ai_job(
         )
         raise
     except Exception as error:
+        logger.exception("AI job item processing failed for job %s", job_id)
         store.fail(
             user_id=payload.user_id,
             job_id=job_id,

@@ -72,6 +72,10 @@ def test_stage_report_is_deterministic_and_separates_retries() -> None:
     assert report["part_results"][0]["title"] == "Part 1"
     assert report["error_cause_distribution"][0]["label"] == "答案与标准答案不一致"
     assert report["error_cause_distribution"][0]["count"] == 9
+    assert report["summary"]["wrong"] == 9
+    assert report["summary"]["unanswered"] == 0
+    assert report["tfng_confusion_stats"]["true_vs_false"] == 9
+    assert report["time_management_notes"]
     assert report["teacher_observation_points"]
     assert report["representative_questions"][0]["source_question_ref"].startswith(
         "b10-test-a:1:"
@@ -87,6 +91,7 @@ def test_stage_report_is_deterministic_and_separates_retries() -> None:
         item["elapsed_seconds"] for item in report["slowest_wrong_questions"]
     ] == [100, 90, 80, 70, 60]
     assert report["deterministic_interpretation"]
+    assert report["engine_version"].startswith("0.5.1")
 
 
 def test_empty_stage_report_is_explicit_and_safe() -> None:

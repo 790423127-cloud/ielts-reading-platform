@@ -25,6 +25,14 @@ test("cross-article vocabulary recurrence shows one compact memory reminder", ()
   assert.match(component, /高频复现 · \{distinctArticles\} 篇文章，建议优先记忆/);
 });
 
+test("manual duplicate captures keep their own frequency and high-frequency reminder", () => {
+  assert.match(api, /manual_capture_count: number/);
+  assert.match(component, /item\.manual_capture_count >= 2/);
+  assert.match(component, /手动高频 · 已记录 \{item\.manual_capture_count\} 次/);
+  assert.match(component, /手动记录 \$\{item\.manual_capture_count\} 次/);
+  assert.match(component, /手动重复保存会累计频率/);
+});
+
 test("wrong-question paraphrase tab exports a portable learning package", () => {
   assert.match(component, /错题同义替换/);
   assert.match(component, /exportParaphraseSelection/);
@@ -33,4 +41,8 @@ test("wrong-question paraphrase tab exports a portable learning package", () => 
   assert.match(api, /ielts-paraphrases-selected\.json/);
   assert.match(component, /format: "json"/);
   assert.match(component, /原文证据/);
+});
+
+test("vocabulary search exposes an accessible name in both tabs", () => {
+  assert.match(component, /aria-label=\{activeTab === "words" \? "搜索生词" : "搜索同义替换"\}/);
 });
