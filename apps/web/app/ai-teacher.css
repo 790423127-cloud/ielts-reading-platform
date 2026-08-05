@@ -28,7 +28,7 @@
   display: flex;
   justify-content: space-between;
   gap: 18px;
-  align-items: start;
+  align-items: flex-start;
 }
 .ai-teacher-heading span {
   color: var(--brand);
@@ -70,6 +70,24 @@
   color: var(--muted);
   text-align: center;
 }
+.durable-ai-center { margin-top: 24px; padding: 18px; border: 1px solid #c9ddd8; border-radius: 15px; background: #f7fbfa; }
+.durable-ai-heading { display: flex; align-items: flex-start; justify-content: space-between; gap: 18px; }
+.durable-ai-heading > div:first-child span { color: var(--brand); font-size: 10px; font-weight: 900; letter-spacing: .12em; }
+.durable-ai-heading h3 { margin: 5px 0; font-size: 20px; }
+.durable-ai-heading p { max-width: 720px; margin: 0; color: var(--muted); font-size: 12px; line-height: 1.55; }
+.durable-ai-create { display: grid; min-width: 330px; gap: 7px; }
+.durable-ai-create select { width: 100%; padding: 9px 10px; border: 1px solid var(--line); border-radius: 8px; background: #fff; }
+.durable-ai-status { margin: 12px 0 0; padding: 9px 11px; border-radius: 8px; background: #eaf6f3; color: var(--brand-dark); font-size: 12px; font-weight: 750; }
+.durable-ai-jobs { display: grid; gap: 9px; margin-top: 13px; }
+.durable-ai-jobs > article { padding: 12px; border: 1px solid var(--line); border-radius: 10px; background: #fff; }
+.durable-ai-jobs > article > header { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+.durable-ai-jobs header strong, .durable-ai-jobs header span { display: block; }
+.durable-ai-jobs header span { margin-top: 3px; color: var(--muted); font-size: 11px; }
+.durable-ai-item-strip { display: flex; flex-wrap: wrap; gap: 5px; margin-top: 10px; }
+.durable-ai-item-strip span { display: grid; min-width: 31px; height: 27px; place-items: center; border-radius: 7px; background: #edf1f2; color: #52666e; font-size: 10px; font-weight: 900; }
+.durable-ai-item-strip span.completed { background: #dff4ed; color: #08745e; }
+.durable-ai-item-strip span.in_progress { background: #e8efff; color: #3659a3; }
+.durable-ai-item-strip span.failed { background: #ffe8e8; color: #a53838; }
 .ai-teacher-messages {
   display: grid;
   gap: 9px;
@@ -137,6 +155,9 @@
   .ai-teacher-panel { padding: 14px; }
   .ai-teacher-heading { display: grid; }
   .ai-teacher-heading > button { justify-self: start; }
+  .durable-ai-heading { flex-direction: column; }
+  .durable-ai-create { width: 100%; min-width: 0; }
+  .durable-ai-jobs > article > header { align-items: stretch; flex-direction: column; }
   .ai-message { max-width: 96%; }
   .ai-teacher-form { grid-template-columns: 1fr; }
 }

@@ -79,7 +79,7 @@
         {
           "label": "",
           "index": 11,
-          "text": "This has a 1.8 litre pot and a stainless steel exterior. It has a separate glass lid, and the handle on the lid stays cool. It produces perfectly cooked white rice, but tends to spit when cooking brown rice.There are slight dirt traps around the rim of the lid, and neither the pot nor the lid is dishwasher safe.",
+          "text": "This has a 1.8 litre pot and a stainless steel exterior. It has a separate glass lid, and the handle on the lid stays cool. It produces perfectly cooked white rice, but tends to spit when cooking brown rice. There are slight dirt traps around the rim of the lid, and neither the pot nor the lid is dishwasher safe.",
           "translation": "这款电饭煲配有1.8升的锅体和不锈钢外壳。\n它有一个独立的玻璃盖子，盖子上的把手保持凉爽。\n它能煮出完美的白米饭，但在煮糙米时容易喷溅。\n盖子边缘有一些轻微的积垢区域，而且锅体和盖子都不适用于洗碗机。"
         },
         {
@@ -91,7 +91,7 @@
         {
           "label": "",
           "index": 13,
-          "text": "This has a plastic exterior and a flip-top lid.The lid locks when closed and becomes a secure handle to carry the cooker.The aluminium interior pot is quite difficult to clean, and it can't be put in a dishwasher. It's programmed to adjust the temperature once the rice is done so that it stops cooking but doesn't get cold.",
+          "text": "This has a plastic exterior and a flip-top lid. The lid locks when closed and becomes a secure handle to carry the cooker. The aluminium interior pot is quite difficult to clean, and it can't be put in a dishwasher. It's programmed to adjust the temperature once the rice is done so that it stops cooking but doesn't get cold.",
           "translation": "这款电饭煲具有塑料外壳和翻盖式盖子。\n盖子关闭时会锁定，并变成一个牢固的提手，方便携带电饭煲。\n铝制内锅相当难以清洗，且不能放入洗碗机中。\n它被设置为在米饭煮好后自动调节温度，从而停止烹饪但不会变凉。"
         },
         {
@@ -103,7 +103,7 @@
         {
           "label": "",
           "index": 15,
-          "text": "This has a flip-top lid and a 0.3 litre capacity.The interior pot is made of non-stick aluminium and is dishwasher safe.This rice cooker is ideal when cooking for one. However it does not have any handles at the side, and water sometimes overflows when cooking brown rice.",
+          "text": "This has a flip-top lid and a 0.3 litre capacity. The interior pot is made of non-stick aluminium and is dishwasher safe. This rice cooker is ideal when cooking for one. However it does not have any handles at the side, and water sometimes overflows when cooking brown rice.",
           "translation": "这款电饭煲配有翻盖式盖子，容量为0.3升。\n内锅由不粘铝制成，且可用洗碗机清洗。\n这款电饭煲非常适合一人份烹饪。\n然而，它两侧没有任何手柄，并且在煮糙米时有时会溢水。"
         },
         {
@@ -127,7 +127,7 @@
         {
           "label": "",
           "index": 19,
-          "text": "This is simple to use, not spitting or boiling over even when cooking brown rice.The exterior stays cool when in use, so there's no danger of burning your hand.However, the lack of handles is a nuisance, and a recipe book would have been useful.",
+          "text": "This is simple to use, not spitting or boiling over even when cooking brown rice. The exterior stays cool when in use, so there's no danger of burning your hand. However, the lack of handles is a nuisance, and a recipe book would have been useful.",
           "translation": "这款电饭煲操作简单，即使在煮糙米时也不会喷溅或溢出。\n使用过程中外部保持凉爽，因此没有烫伤手的危险。\n然而，缺少把手很麻烦，如果附赠一本食谱会更有用。"
         }
       ],
@@ -183,7 +183,7 @@
             {
               "id": "119843",
               "number": 2,
-              "prompt": "lt may be quicker to get a refund than a replacement for a non-delivered item.",
+              "prompt": "It may be quicker to get a refund than a replacement for a non-delivered item.",
               "options": [
                 {
                   "value": "TRUE",
@@ -427,7 +427,7 @@
             {
               "id": "119849",
               "number": 8,
-              "prompt": "lt cooks brown rice without making a mess.",
+              "prompt": "It cooks brown rice without making a mess.",
               "options": [
                 {
                   "value": "A",
@@ -468,7 +468,7 @@
             {
               "id": "119850",
               "number": 9,
-              "prompt": "lt automatically switches setting to keep the rice warm when cooked.",
+              "prompt": "It automatically switches setting to keep the rice warm when cooked.",
               "options": [
                 {
                   "value": "A",
@@ -509,7 +509,7 @@
             {
               "id": "119851",
               "number": 10,
-              "prompt": "lt's difficult to get the removable top really clean.",
+              "prompt": "It's difficult to get the removable top really clean.",
               "options": [
                 {
                   "value": "A",
@@ -591,7 +591,7 @@
             {
               "id": "119853",
               "number": 12,
-              "prompt": "lt has a handle at the top for carrying the cooker safely.",
+              "prompt": "It has a handle at the top for carrying the cooker safely.",
               "options": [
                 {
                   "value": "A",
@@ -1663,7 +1663,7 @@
         {
           "label": "",
           "index": 3,
-          "text": "On January 24, 1848,James Wilson Marshall, a carpenter, found small flakes of gold in the American River near Coloma, California.At the time, Marshall was working to build a water-powered sawmill for businessman John Sutter. As it happens, just days after Marshall's discovery, the Treaty of Guadalupe Hidalgo was signed, ending the Mexican-American War and transferring California, with its mineral deposits, into the ownership of the United States.At the time, the population of the territory consisted of 6,500 Californios (people of Spanish or Mexican descent); 700 foreigners (primarily Americans); and 150,000 Native Americans.",
+          "text": "On January 24, 1848, James Wilson Marshall, a carpenter, found small flakes of gold in the American River near Coloma, California. At the time, Marshall was working to build a water-powered sawmill for businessman John Sutter. As it happens, just days after Marshall's discovery, the Treaty of Guadalupe Hidalgo was signed, ending the Mexican-American War and transferring California, with its mineral deposits, into the ownership of the United States. At the time, the population of the territory consisted of 6,500 Californios (people of Spanish or Mexican descent); 700 foreigners (primarily Americans); and 150,000 Native Americans.",
           "translation": "1848年1月24日，木匠詹姆斯·威尔逊·马歇尔在加利福尼亚州科洛马附近的亚美利加河中发现了细小的金片。\n当时，马歇尔正在为商人约翰·萨特建造一座水动力锯木厂。\n凑巧的是，就在马歇尔发现金子几天后，《瓜达卢佩-伊达尔戈条约》签署，结束了美墨战争，并将加利福尼亚及其矿产所有权转让给了美国。\n当时，该地区的人口包括6500名加利福尼亚人（西班牙或墨西哥裔）、700名外国人（主要是美国人）以及15万美洲原住民。"
         },
         {
@@ -1674,7 +1674,7 @@
         {
           "label": "",
           "index": 5,
-          "text": "Though Marshall and Sutter tried to keep news of the discovery quiet, word got out, and by mid-March 1848 at least one newspaper was reporting that large quantities of gold were being found.Though the initial reaction in San Francisco was disbelief, storekeeper Sam Brannan set off a frenzy when he paraded through town displaying a small bottle containing gold from Sutter's Creek. By mid-June, some three-quarters of the male population of San Francisco had left town for the gold mines, and the number of miners in the area reached 4,000 by August.",
+          "text": "Though Marshall and Sutter tried to keep news of the discovery quiet, word got out, and by mid-March 1848 at least one newspaper was reporting that large quantities of gold were being found. Though the initial reaction in San Francisco was disbelief, storekeeper Sam Brannan set off a frenzy when he paraded through town displaying a small bottle containing gold from Sutter's Creek. By mid-June, some three-quarters of the male population of San Francisco had left town for the gold mines, and the number of miners in the area reached 4,000 by August.",
           "translation": "尽管马歇尔和萨特试图对发现的新闻保密，但消息还是传了出去，到1848年3月中旬，至少有一家报纸报道称发现了大量黄金。\n尽管旧金山最初的反应是怀疑，但店主萨姆·布兰南在镇上巡游时展示了一小瓶来自萨特溪的黄金，引发了一场狂热。\n到6月中旬，旧金山大约四分之三的男性人口已离城前往金矿，到8月，该地区的矿工人数达到了4000人。"
         },
         {
@@ -1691,7 +1691,7 @@
         {
           "label": "",
           "index": 8,
-          "text": "By the end of the year, the non-native population of California was estimated at 100,000 (as compared with 20,000 at the end of 1848 and around 800 in March 1848). To accommodate the needs of the' 49ers, as the gold miners were known, towns had sprung up all over the region, complete with shops and other businesses seeking to make their own Gold Rush fortune.The overcrowded chaos of the mining camps and towns grew ever more lawless. San Francisco, for its part, developed a bustling economy and became the central metropolis of the new frontier.",
+          "text": "By the end of the year, the non-native population of California was estimated at 100,000 (as compared with 20,000 at the end of 1848 and around 800 in March 1848). To accommodate the needs of the' 49ers, as the gold miners were known, towns had sprung up all over the region, complete with shops and other businesses seeking to make their own Gold Rush fortune. The overcrowded chaos of the mining camps and towns grew ever more lawless. San Francisco, for its part, developed a bustling economy and became the central metropolis of the new frontier.",
           "translation": "到年底时，加利福尼亚的非本土人口估计达到10万人（相比之下，1848年底为2万人，1848年3月约为800人）。\n为了满足这些被称为“49人”的淘金者的需求，整个地区涌现出许多城镇，配有商店和其他商业机构，它们也旨在从淘金热中牟取自己的财富。\n拥挤不堪的采矿营地和城镇中的混乱局面变得越来越无法无天。\n而旧金山则发展出繁荣的经济，成为这片新边疆的中心大都市。"
         },
         {
@@ -1708,7 +1708,7 @@
         {
           "label": "",
           "index": 11,
-          "text": "The basic procedure was to place some gold-bearing materials, such as river gravel, into a shallow pan, add some water, and then carefully swirl the mixture around so the water and light material spilled over the side. if all went well, the heavier gold nuggets or gold dust would settle to the bottom of the pan.Gold panning was slow even for the most skillful miner.On a good day, one miner could wash about 50 pans in the usual 12-hour workday.",
+          "text": "The basic procedure was to place some gold-bearing materials, such as river gravel, into a shallow pan, add some water, and then carefully swirl the mixture around so the water and light material spilled over the side. if all went well, the heavier gold nuggets or gold dust would settle to the bottom of the pan. Gold panning was slow even for the most skillful miner. On a good day, one miner could wash about 50 pans in the usual 12-hour workday.",
           "translation": "基本操作是将一些含金物质，例如河里的砾石，放入一个浅盘中，加入一些水，然后小心地旋转混合物，使得水和轻质材料从边缘溢出。\n如果一切顺利，较重的金块或金粉就会沉到盘底。\n即使对于最有经验的矿工来说，淘金过程也很缓慢。\n在产量高的日子里，一名矿工在通常的12小时工作日内大约可以淘洗50盘。"
         },
         {
@@ -1719,13 +1719,13 @@
         {
           "label": "",
           "index": 13,
-          "text": "Another way was to use what was called a 'rocker' . Isaac Humphrey is said to have introduced it to the California gold fields. It was simply a rectangular wooden box, set at a downward angle and mounted on a rocking mechanism.The dirt and rock was dumped into the top, followed by a bucket of water. The box was rocked by hand to agitate the mixture. The big rocks were caught in a sieve at the top, the waste exited the lower end with the water, and the heavy gold fell to the bottom of the box.",
+          "text": "Another way was to use what was called a 'rocker'. Isaac Humphrey is said to have introduced it to the California gold fields. It was simply a rectangular wooden box, set at a downward angle and mounted on a rocking mechanism. The dirt and rock was dumped into the top, followed by a bucket of water. The box was rocked by hand to agitate the mixture. The big rocks were caught in a sieve at the top, the waste exited the lower end with the water, and the heavy gold fell to the bottom of the box.",
           "translation": "另一种方法是使用所谓的“摇槽”。\n据说艾萨克·汉弗莱将其引入了加利福尼亚金矿区。\n它只是一个长方形的木箱，以向下的角度放置，并安装在一个摇动装置上。\n泥土和岩石被倒入箱子顶部，接着倒入一桶水。\n用手摇动箱子以搅动混合物。\n大石块被顶部的筛子截住，废料从下端随水流出，而较重的金子则落入箱底。"
         },
         {
           "label": "",
           "index": 14,
-          "text": "The rocker had advantages and disadvantages.The advantages were that it was easily transportable; it did not require a constant source of water; and, most importantly, a miner could process more dirt and rock than with a pan.The primary disadvantage was that the rocker had difficulty in trapping the smallest particles of gold, commonly known as 'flour'. Some miners added small amounts of mercury to the bottom of the rocker. Due to its chemical composition, it had a facility to trap fine gold. Periodically, the miners would remove and heat it. As it vaporized, it would leave gold behind.",
+          "text": "The rocker had advantages and disadvantages. The advantages were that it was easily transportable; it did not require a constant source of water; and, most importantly, a miner could process more dirt and rock than with a pan. The primary disadvantage was that the rocker had difficulty in trapping the smallest particles of gold, commonly known as 'flour'. Some miners added small amounts of mercury to the bottom of the rocker. Due to its chemical composition, it had a facility to trap fine gold. Periodically, the miners would remove and heat it. As it vaporized, it would leave gold behind.",
           "translation": "摇动式淘金槽既有优点也有缺点。\n其优点在于易于运输；不需要持续的水源；而且最重要的是，矿工用它处理的泥沙和岩石量比用淘金盘更多。\n其主要缺点在于难以捕获最细小的金粒，即俗称的“金粉”。\n一些矿工在摇动式淘金槽底部添加少量水银。\n由于其化学成分，水银能够有效地捕获细小的金子。\n矿工们会定期将其取出并加热。\n当水银蒸发后，便会留下金子。"
         },
         {
@@ -1736,7 +1736,7 @@
         {
           "label": "",
           "index": 16,
-          "text": "After 1850, the surface gold in California had largely disappeared, even as miners continued to reach the gold fields. Mining had always been difficult and dangerous labor, and striking it rich required good luck as much as skill and hard work. Moreover, the average daily pay for an independent miner had by then dropped sharply from what it had been in 1848.As gold became more and more difficult to reach, the growing industrialization of mining drove more and more miners from independence into wage labor. The new technique of hydraulic mining, developed in 1853, brought enormous profits, but destroyed much of the region's landscape.",
+          "text": "After 1850, the surface gold in California had largely disappeared, even as miners continued to reach the gold fields. Mining had always been difficult and dangerous labor, and striking it rich required good luck as much as skill and hard work. Moreover, the average daily pay for an independent miner had by then dropped sharply from what it had been in 1848. As gold became more and more difficult to reach, the growing industrialization of mining drove more and more miners from independence into wage labor. The new technique of hydraulic mining, developed in 1853, brought enormous profits, but destroyed much of the region's landscape.",
           "translation": "1850年之后，加利福尼亚的表层黄金基本上已经消失，尽管矿工们仍在持续抵达金矿区。\n采矿一直是一项艰难且危险的工作，而发家致富不仅需要技能和勤奋，也同样需要好运。\n此外，独立矿工的平均日薪到那时已从1848年的水平急剧下降。\n随着黄金越来越难以获取，采矿业的日益工业化使得越来越多的矿工从独立作业转为雇佣劳动。\n1853年发展起来的水力采矿新技术带来了巨额利润，但却破坏了该地区的大部分自然景观。"
         },
         {
@@ -1747,7 +1747,7 @@
         {
           "label": "",
           "index": 18,
-          "text": "Though gold mining continued throughout the 1850s, it had reached its peak by 1852, when gold worth some $81 million was pulled from the ground.After that year, the total take declined gradually, leveling off to around $45 million per year by 1857. Settlement in California continued, however, and by the end of the decade the state's population was 380,000.",
+          "text": "Though gold mining continued throughout the 1850s, it had reached its peak by 1852, when gold worth some $81 million was pulled from the ground. After that year, the total take declined gradually, leveling off to around $45 million per year by 1857. Settlement in California continued, however, and by the end of the decade the state's population was 380,000.",
           "translation": "尽管整个19世纪50年代淘金活动都在持续，但其在1852年达到顶峰，当年从地下采出的黄金价值约8100万美元。\n在那一年之后，总产量逐渐下降，到1857年稳定在每年约4500万美元。\n然而，加利福尼亚的定居活动仍在继续，到19世纪50年代末，该州人口已达到38万。"
         }
       ],
@@ -2416,7 +2416,7 @@
         },
         {
           "index": 28,
-          "sentence": "Another way was to use what was called a 'rocker' .",
+          "sentence": "Another way was to use what was called a 'rocker'.",
           "translation": "另一种方法是使用所谓的“摇槽”。"
         },
         {

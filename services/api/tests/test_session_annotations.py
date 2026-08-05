@@ -25,6 +25,25 @@ def _annotation(*, part_number: int = 1, kind: str = "note") -> dict[str, object
     }
 
 
+def test_secondary_highlight_level_is_accepted_and_preserved(monkeypatch, tmp_path) -> None:
+    monkeypatch.setenv("SESSION_DB_PATH", str(tmp_path / "secondary-highlight.sqlite3"))
+    client = TestClient(app)
+    annotation = _annotation(kind="highlight")
+    annotation["highlightLevel"] = "secondary"
+    response = client.post(
+        "/api/v1/sessions/submit",
+        json={
+            "test_id": "b10-test-a",
+            "client_submission_id": "secondary-highlight-0001",
+            "exam_mode": "part_practice",
+            "part_numbers": [1],
+            "annotations": [annotation],
+        },
+    )
+    assert response.status_code == 200
+    assert response.json()["result"]["annotations"][0]["highlightLevel"] == "secondary"
+
+
 def test_annotations_are_persisted_inside_session_result(monkeypatch, tmp_path) -> None:
     monkeypatch.setenv("SESSION_DB_PATH", str(tmp_path / "annotations.sqlite3"))
     client = TestClient(app)

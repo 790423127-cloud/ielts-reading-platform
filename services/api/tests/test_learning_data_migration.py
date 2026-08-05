@@ -4,6 +4,7 @@ import importlib.util
 import json
 from pathlib import Path
 import sqlite3
+import pytest
 
 SCRIPT = Path(__file__).resolve().parents[3] / "scripts" / "migrate_legacy_learning_data.py"
 SPEC = importlib.util.spec_from_file_location("migrate_legacy_learning_data", SCRIPT)
@@ -101,3 +102,34 @@ def test_learning_data_migration_is_preview_first_idempotent_and_reversible(
     assert rolled_back["deleted"] == 1
     with sqlite3.connect(destination) as connection:
         assert connection.execute("SELECT COUNT(*) FROM sessions").fetchone()[0] == 0
+
+
+def test_learning_data_migration_refuses_silent_partial_cutover(
+    tmp_path: Path,
+) -> None:
+    source = tmp_path / "old-with-assets.db"
+    destination = tmp_path / "new.db"
+    manifest = tmp_path / "manifest.json"
+    _legacy_database(source)
+    with sqlite3.connect(source) as connection:
+        connection.execute(
+            "CREATE TABLE skill_mastery (skill_key TEXT PRIMARY KEY, mastery_level REAL)"
+        )
+        connection.execute("INSERT INTO skill_mastery VALUES ('matching', 0.75)")
+        connection.commit()
+
+    preview = MODULE.preview_migration(source, destination)
+
+    assert preview["source_inventory"]["table_counts"]["sessions"] == 1
+    assert preview["source_inventory"]["unsupported_nonempty_tables"] == {
+        "skill_mastery": 1
+    }
+    assert preview["source_inventory"]["cutover_ready"] is False
+    with pytest.raises(ValueError, match="partial migration refused"):
+        MODULE.apply_migration(
+            source,
+            destination,
+            user_id="owner",
+            manifest_path=manifest,
+        )
+    assert not destination.exists()

@@ -94,6 +94,55 @@ def test_wrong_question_uses_server_context_and_exact_cache(monkeypatch, tmp_pat
     assert second_data["conversation"]["usage"]["cache_hits"] == 1
 
 
+def test_follow_up_uses_history_and_cache_respects_conversation_state(monkeypatch, tmp_path) -> None:
+    client, database = _client(monkeypatch, tmp_path)
+    session_id = _wrong_session(database)
+    calls: list[dict] = []
+
+    def fake_generate(**kwargs):
+        calls.append(kwargs)
+        return {
+            "answer": f"回答前已有{len(kwargs['history'])}条消息。",
+            "model": "test-model",
+            "input_tokens": 20,
+            "output_tokens": 8,
+            "provider_request_id": f"response-{len(calls)}",
+        }
+
+    monkeypatch.setattr(ai_teacher_api, "generate_ai_reply", fake_generate)
+    base = {
+        "context_type": "wrong_question",
+        "session_id": session_id,
+        "question_id": "question-1",
+    }
+
+    first = client.post(
+        "/api/v1/ai-teacher/chat",
+        json={**base, "question": "原文里的 it 指什么？"},
+    )
+    follow_up = client.post(
+        "/api/v1/ai-teacher/chat",
+        json={**base, "question": "那为什么不能选 TRUE？"},
+    )
+    repeated_follow_up = client.post(
+        "/api/v1/ai-teacher/chat",
+        json={**base, "question": "那为什么不能选 TRUE？"},
+    )
+    revisited_first = client.post(
+        "/api/v1/ai-teacher/chat",
+        json={**base, "question": "原文里的 it 指什么？"},
+    )
+
+    assert first.status_code == follow_up.status_code == 200
+    assert calls[0]["history"] == []
+    assert [message["role"] for message in calls[1]["history"]] == ["user", "assistant"]
+    assert calls[1]["history"][0]["content"] == "原文里的 it 指什么？"
+    assert repeated_follow_up.json()["cached"] is True
+    assert len(calls) == 3
+    assert revisited_first.json()["cached"] is False
+    assert len(calls[2]["history"]) == 6
+
+
 def test_wrong_question_must_exist_in_submitted_owner_session(monkeypatch, tmp_path) -> None:
     client, database = _client(monkeypatch, tmp_path)
     session_id = _wrong_session(database, user_id="owner")

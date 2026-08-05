@@ -1345,7 +1345,7 @@
               ],
               "analysis": "题干中的“Ask your _____ for authorisation”对应原文“obtain the permission of your line manager”，其中“line manager”是公司内部标准职位称谓，且“authorisation”与“permission”为同义替换，因此答案为“line manager”。",
               "reason": "直接匹配",
-              "location_analysis": "题干ask your ... for authorisation对应原文obtain the ...",
+              "location_analysis": "题干ask your... for authorisation对应原文obtain the...",
               "paraphrasing": "ask your line manager for authorisation -> obtain the permission of your line manager",
               "keywords": "permission, line manager",
               "evidence": [
@@ -1365,7 +1365,7 @@
               ],
               "analysis": "题干中的“email or call the _____”对应原文“Pool cars can be booked by contacting the Helpdesk, either by email or telephone”，其中“Helpdesk”是唯一被提及的联系对象，且拼写一致，因此答案为“Helpdesk”。",
               "reason": "直接匹配",
-              "location_analysis": "题干email or call the Helpdesk对应原文contacting the ...",
+              "location_analysis": "题干email or call the Helpdesk对应原文contacting the...",
               "paraphrasing": "email or call the Helpdesk -> contacting the Helpdesk by email or telephone",
               "keywords": "contacting the Helpdesk",
               "evidence": [
@@ -1387,7 +1387,7 @@
               ],
               "analysis": "题干中的“Use the _____ given in the logbook”对应原文“enter the code shown on the inside front cover of the pool car logbook”，其中“code”是进入车场门禁所需的信息，也可称为“security code”，两者在上下文中均可接受，故答案为“security code”或“code”。",
               "reason": "直接匹配",
-              "location_analysis": "题干use the ... given对应原文enter the code shown, co...",
+              "location_analysis": "题干use the... given对应原文enter the code shown, co...",
               "paraphrasing": "use the code -> enter the code",
               "keywords": "security key pad, code",
               "evidence": [
@@ -1407,7 +1407,7 @@
               ],
               "analysis": "题干中的“one of the _____ in the car park”对应原文“Pool cars are always parked in marked bays and nowhere else”，其中“marked bays”是车辆停放的指定区域，且“one of the”与复数“bays”语法一致，因此答案为“marked bays”。",
               "reason": "直接匹配",
-              "location_analysis": "题干one of the ... in the car park对应原文parked in m...",
+              "location_analysis": "题干one of the... in the car park对应原文parked in m...",
               "paraphrasing": "one of the marked bays -> parked in marked bays",
               "keywords": "parked in marked bays",
               "evidence": [
@@ -1449,7 +1449,7 @@
               ],
               "analysis": "题干中的“Write the current _____ in the logbook”对应原文“You should enter into the logbook the mileage that is indicated”，其中“mileage”是必须记录的数据，且“current”对应“that is indicated”，因此答案为“mileage”或更完整的“mileage indicated”。",
               "reason": "直接匹配",
-              "location_analysis": "题干write the current ... in the logbook对应原文enter...",
+              "location_analysis": "题干write the current... in the logbook对应原文enter...",
               "paraphrasing": "write the current mileage -> enter into the logbook the mileage that is indicated",
               "keywords": "enter the mileage",
               "evidence": [

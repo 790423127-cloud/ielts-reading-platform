@@ -10,6 +10,7 @@ from fastapi.responses import JSONResponse
 
 from app.api.ability import router as ability_router
 from app.api.ai_provider import router as ai_provider_router
+from app.api.ai_jobs import router as ai_jobs_router
 from app.api.ai_teacher import router as ai_teacher_router
 from app.api.health import router as health_router
 from app.api.learning_plan import router as learning_plan_router
@@ -23,6 +24,10 @@ from app.api.sessions import router as sessions_router
 from app.api.vocabulary import router as vocabulary_router
 from app.api.teacher import router as teacher_router
 from app.core.config import settings
+from app.core.logging import configure_logging
+
+
+configure_logging()
 
 
 def _safe_validation_errors(error: RequestValidationError) -> list[dict[str, Any]]:
@@ -98,6 +103,7 @@ def create_app() -> FastAPI:
     application.include_router(personal_sentences_router, prefix="/api/v1")
     application.include_router(vocabulary_router, prefix="/api/v1")
     application.include_router(ai_provider_router, prefix="/api/v1")
+    application.include_router(ai_jobs_router, prefix="/api/v1")
     application.include_router(ai_teacher_router, prefix="/api/v1")
     application.include_router(teacher_router, prefix="/api/v1")
     return application

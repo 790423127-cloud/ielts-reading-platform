@@ -3,7 +3,12 @@
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
-import { fetchStageReport, type StageReport, type TimedQuestionReportItem } from "@/lib/api";
+import {
+  fetchStageReport,
+  stageReportDownloadUrl,
+  type StageReport,
+  type TimedQuestionReportItem
+} from "@/lib/api";
 
 function formatDate(value?: string | null): string {
   if (!value) return "暂无";
@@ -91,12 +96,20 @@ export default function StageReportCenter() {
           <h1>阶段学习报告</h1>
           <p>直接汇总新版已保存的Session、题型表现和代表错题。报告不调用AI，不修改成绩，首次练习与相同配置重做分开标记。</p>
         </div>
-        <button
-          type="button"
-          className="secondary-button report-print-button"
-          disabled={!report?.summary.session_count}
-          onClick={() => window.print()}
-        >打印 / 保存为PDF</button>
+        <div className="teacher-report-downloads">
+          {report?.summary.session_count ? (
+            <>
+              <a className="primary-button" href={stageReportDownloadUrl("pdf")}>下载正式 PDF</a>
+              <a className="secondary-button" href={stageReportDownloadUrl("docx")}>下载 DOCX</a>
+            </>
+          ) : null}
+          <button
+            type="button"
+            className="secondary-button report-print-button"
+            disabled={!report?.summary.session_count}
+            onClick={() => window.print()}
+          >打印</button>
+        </div>
       </header>
 
       {error ? <div className="page-error">{error}</div> : null}
@@ -108,22 +121,38 @@ export default function StageReportCenter() {
               <strong>{formatDate(report.summary.date_from)} — {formatDate(report.summary.date_to)}</strong>
               <small>引擎 {report.engine_version} · AI调用 {report.ai_calls} 次</small>
             </div>
-            <article><span>练习记录</span><strong>{report.summary.session_count}</strong><small>首次 {report.summary.first_attempt_count} · 重做 {report.summary.retry_count}</small></article>
-            <article><span>累计正确率</span><strong>{report.summary.accuracy}%</strong><small>{report.summary.correct}/{report.summary.total_questions}题</small></article>
-            <article><span>累计用时</span><strong>{formatTime(report.summary.total_elapsed_seconds)}</strong><small>以已提交Session为准</small></article>
+            <article><span>练习次数</span><strong>{report.summary.session_count}</strong><small>首次 {report.summary.first_attempt_count} · 重做 {report.summary.retry_count}</small></article>
+            <article>
+              <span>正确率</span>
+              <strong>{report.summary.accuracy}%</strong>
+              <small>
+                对 {report.summary.correct} / 错 {report.summary.wrong ?? Math.max(0, report.summary.total_questions - report.summary.correct - (report.summary.unanswered || 0))} / 未作答 {report.summary.unanswered ?? 0}
+                {report.summary.estimated_band ? ` · Band ${report.summary.estimated_band}（非官方）` : ""}
+              </small>
+            </article>
+            <article><span>合计用时</span><strong>{formatTime(report.summary.total_elapsed_seconds)}</strong><small>已提交记录累计</small></article>
           </section>
 
           <section className="report-section">
-            <div className="report-section-title"><span>01</span><div><h2>确定性结论</h2><p>只描述当前数据能支持的事实。</p></div></div>
+            <div className="report-section-title"><span>01</span><div><h2>数据摘要</h2><p>客观统计，不含教学建议。</p></div></div>
             <ul className="report-insights">
               {report.deterministic_interpretation.map((item) => <li key={item}>{item}</li>)}
             </ul>
           </section>
 
+          {(report.time_management_notes || []).length ? (
+            <section className="report-section">
+              <div className="report-section-title"><span>02</span><div><h2>用时数据</h2><p>Part 用时与最耗时错题。</p></div></div>
+              <ul className="report-insights">
+                {report.time_management_notes!.map((item) => <li key={item}>{item}</li>)}
+              </ul>
+            </section>
+          ) : null}
+
           <section className="report-section">
-            <div className="report-section-title"><span>02</span><div><h2>题型表现矩阵</h2><p>少于5题不定性，5–9题为初步倾向，10题以上为较稳定样本。</p></div></div>
+            <div className="report-section-title"><span>03</span><div><h2>题型正确率</h2><p>按正确率从低到高；少于5题不定性，5–9题初步，10题以上较稳定。</p></div></div>
             <div className="report-type-table" role="table" aria-label="题型表现">
-              <div className="report-table-head" role="row"><span>题型</span><span>正确</span><span>正确率</span><span>判断</span></div>
+              <div className="report-table-head" role="row"><span>题型</span><span>正确/总题</span><span>正确率</span><span>判断</span></div>
               {report.question_type_matrix.map((item) => (
                 <div role="row" key={item.question_subtype}>
                   <strong>{item.question_type}</strong>
@@ -133,10 +162,18 @@ export default function StageReportCenter() {
                 </div>
               ))}
             </div>
+            {report.tfng_confusion_stats && report.tfng_confusion_stats.total_tfng_wrong > 0 ? (
+              <p className="report-tfng-stats">
+                TFNG 混淆：FALSE↔NG {report.tfng_confusion_stats.false_vs_not_given} ·
+                TRUE↔NG {report.tfng_confusion_stats.true_vs_not_given} ·
+                TRUE↔FALSE {report.tfng_confusion_stats.true_vs_false}
+                （错题 {report.tfng_confusion_stats.total_tfng_wrong}）
+              </p>
+            ) : null}
           </section>
 
           <section className="report-section">
-            <div className="report-section-title"><span>03</span><div><h2>练习趋势</h2><p>相同配置的后续记录标为重做，避免和首次作答混在一起。</p></div></div>
+            <div className="report-section-title"><span>04</span><div><h2>练习记录</h2><p>相同配置的后续记录标为重做。</p></div></div>
             <div className="report-trend-grid">
               {report.trend.map((item) => (
                 <article key={item.session_id}>
@@ -150,7 +187,7 @@ export default function StageReportCenter() {
           </section>
 
           <section className="report-section">
-            <div className="report-section-title"><span>04</span><div><h2>单题用时</h2><p>按实际停留时间排序；正确题展示最耗时的3道，错误题展示最耗时的5道。</p></div></div>
+            <div className="report-section-title"><span>05</span><div><h2>单题用时</h2><p>正确题最耗时 3 道，错误题最耗时 5 道。</p></div></div>
             <div className="report-timing-grid">
               <section>
                 <header><span>回答正确</span><strong>最耗时 3 题</strong></header>
@@ -170,7 +207,7 @@ export default function StageReportCenter() {
           </section>
 
           <section className="report-section">
-            <div className="report-section-title"><span>05</span><div><h2>代表错题</h2><p>优先显示最近且来源不重复的错题，可直接回到同一道真实原题。</p></div></div>
+            <div className="report-section-title"><span>06</span><div><h2>错题明细</h2><p>题号、你的答案、正确答案、错因、原文定位。</p></div></div>
             {report.representative_questions.length ? (
               <div className="report-question-list">
                 {report.representative_questions.map((item) => (
@@ -178,8 +215,12 @@ export default function StageReportCenter() {
                     <div><span>{item.test_title} · Q{item.question_number}</span><strong>{item.question_type}</strong></div>
                     <h3>{item.prompt}</h3>
                     <p>你的答案：<b>{item.user_answer}</b>　正确答案：<b>{item.correct_answer}</b></p>
-                    {item.analysis ? <p>{item.analysis}</p> : null}
-                    {item.evidence.length ? <blockquote>{item.evidence.join("\n")}</blockquote> : null}
+                    {item.cause_label ? <p><b>错因</b> {item.cause_label}</p> : null}
+                    {item.analysis ? <p>{String(item.analysis).replace(/\$\d{4,}\$/g, "_____")}</p> : null}
+                    {(item.evidence?.length || item.location_analysis) ? (
+                      <blockquote>{String((item.evidence?.length ? item.evidence.join("\n") : item.location_analysis) || "").replace(/\$\d{4,}\$/g, "_____")}</blockquote>
+                    ) : null}
+                    {item.elapsed_seconds ? <p><b>用时</b> {formatQuestionTime(item.elapsed_seconds)}</p> : null}
                     {item.source_question_ref ? (
                       <Link
                         className="secondary-button"

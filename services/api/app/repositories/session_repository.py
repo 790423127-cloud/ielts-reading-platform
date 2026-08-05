@@ -8,6 +8,8 @@ import sqlite3
 import uuid
 from typing import Any
 
+from app.repositories.schema_migrations import component_schema_migration
+
 
 @dataclass(frozen=True, slots=True)
 class StoredSession:
@@ -34,7 +36,13 @@ class SQLiteSessionRepository:
         return connection
 
     def _ensure_schema(self) -> None:
-        with self._connect() as connection:
+        with component_schema_migration(
+            self.database_path,
+            component="sessions",
+            version=1,
+        ) as connection:
+            if connection is None:
+                return
             connection.execute(
                 """
                 CREATE TABLE IF NOT EXISTS sessions (
@@ -190,6 +198,37 @@ class SQLiteSessionRepository:
             ).fetchone()
         return self._from_row(row, replay=False) if row else None
 
+    def update_result(
+        self,
+        *,
+        user_id: str,
+        session_id: str,
+        result: dict[str, Any],
+    ) -> StoredSession | None:
+        payload = json.dumps(result, ensure_ascii=False, separators=(",", ":"))
+        with self._connect() as connection:
+            cursor = connection.execute(
+                """
+                UPDATE sessions
+                SET score = ?, total = ?, result_json = ?
+                WHERE user_id = ? AND id = ?
+                """,
+                (
+                    int(result.get("score") or 0),
+                    int(result.get("total") or 0),
+                    payload,
+                    user_id.strip(),
+                    session_id.strip(),
+                ),
+            )
+            if not cursor.rowcount:
+                return None
+            row = connection.execute(
+                "SELECT * FROM sessions WHERE user_id = ? AND id = ?",
+                (user_id.strip(), session_id.strip()),
+            ).fetchone()
+        return self._from_row(row, replay=False) if row else None
+
     def list_recent(
         self, *, user_id: str, limit: int = 20, include_archived: bool = False
     ) -> list[StoredSession]:
@@ -213,6 +252,57 @@ class SQLiteSessionRepository:
             )
             connection.commit()
         return cursor.rowcount > 0
+
+    def delete(
+        self,
+        *,
+        user_id: str,
+        session_id: str,
+    ) -> bool:
+        with self._connect() as connection:
+            cursor = connection.execute(
+                "DELETE FROM sessions WHERE user_id = ? AND id = ?",
+                (user_id.strip(), session_id.strip()),
+            )
+            connection.commit()
+        return cursor.rowcount > 0
+
+    def delete_many(
+        self,
+        *,
+        user_id: str,
+        session_ids: list[str],
+    ) -> tuple[list[str], list[str]]:
+        clean_user_id = user_id.strip()
+        unique_ids = list(dict.fromkeys(
+            session_id.strip()
+            for session_id in session_ids
+            if session_id.strip()
+        ))
+        if not unique_ids:
+            return [], []
+        placeholders = ",".join("?" for _ in unique_ids)
+        with self._connect() as connection:
+            rows = connection.execute(
+                f"SELECT id FROM sessions WHERE user_id = ? AND id IN ({placeholders})",
+                [clean_user_id, *unique_ids],
+            ).fetchall()
+            found_ids = {str(row["id"]) for row in rows}
+            deleted_ids = [
+                session_id for session_id in unique_ids if session_id in found_ids
+            ]
+            if deleted_ids:
+                delete_placeholders = ",".join("?" for _ in deleted_ids)
+                connection.execute(
+                    f"DELETE FROM sessions "
+                    f"WHERE user_id = ? AND id IN ({delete_placeholders})",
+                    [clean_user_id, *deleted_ids],
+                )
+            connection.commit()
+        missing_ids = [
+            session_id for session_id in unique_ids if session_id not in found_ids
+        ]
+        return deleted_ids, missing_ids
 
     def restore(self, *, user_id: str, session_id: str) -> bool:
         with self._connect() as connection:

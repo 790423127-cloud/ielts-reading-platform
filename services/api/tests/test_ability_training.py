@@ -6,12 +6,14 @@ from typing import Any
 from fastapi.testclient import TestClient
 
 from app.domain.ability_training import (
+    METHOD_SUMMARY_BY_SUBTYPE,
     QUESTION_TYPE_TARGETS,
     SKILLS,
     build_authoritative_ability_test,
     generate_ability_set,
     skill_catalog,
 )
+from app.domain.legacy_method_courses import build_method_course_catalog
 from app.main import app
 from app.services.question_bank import ANSWER_FIELDS, QuestionBank
 
@@ -67,6 +69,10 @@ def test_question_type_training_catalog_has_all_17_supported_subtypes() -> None:
     assert len(QUESTION_TYPE_TARGETS) == 17
     assert len({target.subtype_ids[0] for target in QUESTION_TYPE_TARGETS}) == 17
     assert all(target.id.startswith("subtype-") for target in QUESTION_TYPE_TARGETS)
+    assert METHOD_SUMMARY_BY_SUBTYPE == {
+        item["id"]: item["summary"]
+        for item in build_method_course_catalog()["courses"]
+    }
 
 
 def test_every_skill_generates_only_real_public_questions() -> None:

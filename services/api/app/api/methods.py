@@ -2,7 +2,7 @@ from __future__ import annotations
 
 from fastapi import APIRouter, HTTPException
 
-from app.domain.method_courses import build_method_catalog, get_method_course
+from app.domain.method_courses import build_foundation_catalog, get_foundation_course
 from app.domain.legacy_method_courses import (
     build_method_course_catalog,
     build_method_course_detail,
@@ -13,17 +13,10 @@ router = APIRouter(prefix="/methods", tags=["methods"])
 
 @router.get("")
 def list_methods() -> dict:
-    current_catalog = build_method_catalog()
-    foundation_courses = [item for item in current_catalog if item["kind"] == "foundation"]
-    current_subtypes = {
-        item["subtype"]: item
-        for item in current_catalog
-        if item["kind"] == "subtype"
-    }
+    foundation_courses = build_foundation_catalog()
     legacy_courses = build_method_course_catalog()["courses"]
     subtype_courses = [
         {
-            **current_subtypes.get(item["id"], {}),
             **item,
             "id": f"subtype-{item['id']}",
             "kind": "subtype",
@@ -57,7 +50,7 @@ def get_method(course_id: str) -> dict:
                 "subtype": subtype,
                 "objective": detail["summary"],
             }
-    course = get_method_course(course_id)
+    course = get_foundation_course(course_id)
     if not course:
         raise HTTPException(status_code=404, detail="Method course not found")
     return course

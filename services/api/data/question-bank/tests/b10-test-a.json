@@ -15,19 +15,19 @@
         {
           "label": "",
           "index": 1,
-          "text": "Smoke alarms are now a standard feature in Australian homes and are required by the National Building Code in any recently built properties.They are installed to detect the presence of smoke and emit a clear sound to alert you in the event of fire to give you time to escape.",
+          "text": "Smoke alarms are now a standard feature in Australian homes and are required by the National Building Code in any recently built properties. They are installed to detect the presence of smoke and emit a clear sound to alert you in the event of fire to give you time to escape.",
           "translation": "烟雾报警器如今是澳大利亚家庭的标配，并且根据国家建筑规范，任何新建房产都必须安装。\n安装烟雾报警器是为了探测烟雾的存在，并在发生火灾时发出清晰的声音提醒您，从而为您争取逃生时间。"
         },
         {
           "label": "",
           "index": 2,
-          "text": "There are two principal types of smoke alarms.Ionization alarms are the cheapest and most readily available smoke alarms.They are also very sensitive to 'flaming fires'- fires that burn fiercely - and will detect them before the smoke gets too thick. However, photoelectric alarms are more effective at detecting slow-burning fires.They are less likely to go off accidentally and so are best for homes with one floor. For the best protection, you should install one of each.",
+          "text": "There are two principal types of smoke alarms. Ionization alarms are the cheapest and most readily available smoke alarms. They are also very sensitive to 'flaming fires'- fires that burn fiercely - and will detect them before the smoke gets too thick. However, photoelectric alarms are more effective at detecting slow-burning fires. They are less likely to go off accidentally and so are best for homes with one floor. For the best protection, you should install one of each.",
           "translation": "烟雾报警器主要有两种类型。\n电离式报警器是最便宜且最容易买到的烟雾报警器。\n它们对‘明火’——即燃烧猛烈的火灾——也非常敏感，并且能在烟雾变得过于浓密之前探测到它们。\n然而，光电式报警器在探测缓慢燃烧的火灾方面更为有效。\n它们不太可能意外触发，因此最适合单层住宅。\n为了获得最佳防护，你应该各安装一个。"
         },
         {
           "label": "",
           "index": 3,
-          "text": "Most battery-powered smoke alarms can be installed by the home owner and do not require professional installation.For the installation of hard-wired smoke alarms, powered from the mains electricity supply, however, you will need the services of a licensed professional. Smoke alarms are usually most effective when located on the ceiling, near or in the middle of the room or hall.",
+          "text": "Most battery-powered smoke alarms can be installed by the home owner and do not require professional installation. For the installation of hard-wired smoke alarms, powered from the mains electricity supply, however, you will need the services of a licensed professional. Smoke alarms are usually most effective when located on the ceiling, near or in the middle of the room or hall.",
           "translation": "大多数电池供电的烟雾报警器可以由房主自行安装，无需专业安装。\n然而，对于由主电源供电的硬接线烟雾报警器的安装，您则需要持证专业人士的服务。\n烟雾报警器通常安装在天花板上、靠近或位于房间或大厅中央时最为有效。"
         },
         {
@@ -164,7 +164,7 @@
         {
           "label": "",
           "index": 26,
-          "text": "The tour includes up to 300 steps.Flat,rubber-soled shoes must be worn.For safety reasons, children of 12 years old and under are not permitted.",
+          "text": "The tour includes up to 300 steps. Flat, rubber-soled shoes must be worn. For safety reasons, children of 12 years old and under are not permitted.",
           "translation": "本次参观包括多达300级台阶。\n必须穿着平底、橡胶底鞋。\n出于安全考虑，12岁及以下的儿童不得参加。"
         },
         {
@@ -175,7 +175,7 @@
         {
           "label": "",
           "index": 28,
-          "text": "Opera High Tea consists of a tour where you will walk in the footsteps of world-class singers, dancers and musicians,followed by fine food and music in the spectacular surroundings of the Bennelong Dining Room. What could be better than a treat of delicious light snacks and soft drinks followed by a live recital by a leading Australian singer?",
+          "text": "Opera High Tea consists of a tour where you will walk in the footsteps of world-class singers, dancers and musicians, followed by fine food and music in the spectacular surroundings of the Bennelong Dining Room. What could be better than a treat of delicious light snacks and soft drinks followed by a live recital by a leading Australian singer?",
           "translation": "歌剧下午茶包含一次游览，您将追随世界级歌手、舞者和音乐家的足迹，随后在本尼龙餐厅的壮丽环境中享用精致美食和音乐。\n还有什么比品尝美味小吃和软饮料，再欣赏一场由澳大利亚顶尖歌手带来的现场独奏会更令人享受的呢？"
         },
         {
@@ -303,7 +303,7 @@
             {
               "id": "120649",
               "number": 3,
-              "prompt": "lt takes a short time to fit most smoke alarms.",
+              "prompt": "It takes a short time to fit most smoke alarms.",
               "options": [
                 {
                   "value": "TRUE",
@@ -596,7 +596,7 @@
               "paraphrasing": "suitable footware -> Flat, rubber-soled shoes must be worn",
               "keywords": "suitable footwear",
               "evidence": [
-                "Flat,rubber-soled shoes must be worn."
+                "Flat, rubber-soled shoes must be worn."
               ],
               "confidence": 1,
               "wrong_reasons": null
@@ -1080,7 +1080,7 @@
         },
         {
           "index": 49,
-          "sentence": "Flat,rubber-soled shoes must be worn.",
+          "sentence": "Flat, rubber-soled shoes must be worn.",
           "translation": "必须穿着平底、橡胶底鞋。"
         },
         {
@@ -1090,7 +1090,7 @@
         },
         {
           "index": 52,
-          "sentence": "Opera High Tea consists of a tour where you will walk in the footsteps of world-class singers, dancers and musicians,followed by fine food and music in the spectacular surroundings of the Bennelong Dining Room.",
+          "sentence": "Opera High Tea consists of a tour where you will walk in the footsteps of world-class singers, dancers and musicians, followed by fine food and music in the spectacular surroundings of the Bennelong Dining Room.",
           "translation": "歌剧下午茶包含一次游览，您将追随世界级歌手、舞者和音乐家的足迹，随后在本尼龙餐厅的壮丽环境中享用精致美食和音乐。"
         },
         {
@@ -1177,7 +1177,7 @@
         {
           "label": "",
           "index": 8,
-          "text": "• When you receive your replies, assess your response rate and monitor the sales.If necessary, the sales letter can then be amended to attract other clients on subsequent mail shots; make sure each different letter is coded so that monitoring is easy and effective.",
+          "text": "• When you receive your replies, assess your response rate and monitor the sales. If necessary, the sales letter can then be amended to attract other clients on subsequent mail shots; make sure each different letter is coded so that monitoring is easy and effective.",
           "translation": "• 当你收到回复时，评估你的响应率并监控销售情况。\n如有必要，可以修改销售信函以在后续邮件投递中吸引其他客户；确保每封不同的信函都有编码，以便轻松有效地进行监控。"
         },
         {
@@ -1484,7 +1484,7 @@
             {
               "id": "120665",
               "number": 19,
-              "prompt": "lt is best to print the _____ in two or more colours.",
+              "prompt": "It is best to print the _____ in two or more colours.",
               "options": [],
               "answer": "brochure",
               "accepted_answers": [
@@ -1544,11 +1544,11 @@
           ],
           "source_layout": {
             "raw_type": 8,
-            "collect": "Sales letters should be sent to the $120661$ in a company.\nYour letter should make as much $120662$ as possible.\nThe reader's attention needs to be caught by the $120663$ of your letter.\nLetters should be sent in a $120664$.\nlt is best to print the $120665$ in two or more colours.\nConsider sending a $120666$ as this is more effective than a picture.\nYou should calculate the $120667$ to your letter.",
+            "collect": "Sales letters should be sent to the $120661$ in a company.\nYour letter should make as much $120662$ as possible.\nThe reader's attention needs to be caught by the $120663$ of your letter.\nLetters should be sent in a $120664$.\nIt is best to print the $120665$ in two or more colours.\nConsider sending a $120666$ as this is more effective than a picture.\nYou should calculate the $120667$ to your letter.",
             "table": null,
             "option_title": ""
           },
-          "content_template": "Sales letters should be sent to the $120661$ in a company.\nYour letter should make as much $120662$ as possible.\nThe reader's attention needs to be caught by the $120663$ of your letter.\nLetters should be sent in a $120664$.\nlt is best to print the $120665$ in two or more colours.\nConsider sending a $120666$ as this is more effective than a picture.\nYou should calculate the $120667$ to your letter."
+          "content_template": "Sales letters should be sent to the $120661$ in a company.\nYour letter should make as much $120662$ as possible.\nThe reader's attention needs to be caught by the $120663$ of your letter.\nLetters should be sent in a $120664$.\nIt is best to print the $120665$ in two or more colours.\nConsider sending a $120666$ as this is more effective than a picture.\nYou should calculate the $120667$ to your letter."
         },
         {
           "id": "15887",
@@ -1632,7 +1632,7 @@
               "analysis": "题干提到写作需适合特定___阅读，原文在员工要求中强调“a keen sense of audience”，即对受众有敏锐把握，并能根据受众调整写作风格，这与“for the audience to read”逻辑一致，因此答案是“audience”。",
               "reason": "audience matches.",
               "location_analysis": "原文要求有敏锐的受众意识。",
-              "paraphrasing": "for the ... to read → a keen sense of audience",
+              "paraphrasing": "for the... to read → a keen sense of audience",
               "keywords": "audience",
               "evidence": [
                 "Excellent copy writing skills with strong attention to detail, a keen sense of audience and an ability to tailor writing to its particular purpose"
@@ -2395,7 +2395,7 @@
           "id": "15891",
           "type": 2,
           "title": "",
-          "instructions": "Questions 34 - 39\nLook at the following events in the history of kauri gum in New Zealand(Questions 34-39) and the list of time periods below.\nMatch each event with the correct time period, A-l.\nChoose the correct word and move it into the gap.",
+          "instructions": "Questions 34 - 39\nLook at the following events in the history of kauri gum in New Zealand (Questions 34-39) and the list of time periods below.\nMatch each event with the correct time period, A-l.\nChoose the correct word and move it into the gap.",
           "option_title": "List of Time Periods",
           "options": [
             {
@@ -2555,7 +2555,7 @@
             {
               "id": "120682",
               "number": 36,
-              "prompt": "The collection of kauri gum supplemented farmers'incomes",
+              "prompt": "The collection of kauri gum supplemented farmers' incomes",
               "options": [
                 {
                   "value": "A",

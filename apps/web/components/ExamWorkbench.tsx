@@ -1,29 +1,45 @@
 "use client";
 
-import { Fragment, useCallback, useEffect, useMemo, useRef, useState, type CSSProperties, type DragEvent as ReactDragEvent, type KeyboardEvent as ReactKeyboardEvent, type PointerEvent as ReactPointerEvent } from "react";
+import { Fragment, createContext, memo, useCallback, useContext, useEffect, useMemo, useRef, useState, type CSSProperties, type DragEvent as ReactDragEvent, type KeyboardEvent as ReactKeyboardEvent, type MouseEvent as ReactMouseEvent, type PointerEvent as ReactPointerEvent, type RefObject } from "react";
+import AiTeacherPanel from "@/components/AiTeacherPanel";
 import {
   fetchPublicTest,
   fetchSession,
   fetchSessions,
   fetchTests,
+  sessionReportDownloadUrl,
   submitSession,
   type PublicPart,
   type PublicQuestion,
   type PublicQuestionGroup,
   type PublicTest,
+  type QuestionResult,
   type QuestionOption,
   type ScoringResult,
   type SessionSummary,
+  type SourceQuestionGroup,
   type TestIndexItem
 } from "@/lib/api";
+import {
+  beginReadingAttempt,
+  readAnnotationsForSubmission,
+  READING_ANNOTATIONS_EVENT,
+  type ReadingAnnotation,
+  type ReadingAttemptDetail
+} from "@/lib/readingAnnotations";
+import { useStudyActivity } from "@/lib/useStudyActivity";
 
 type ExamMode = "mock_exam" | "study" | "part_practice";
 type Screen = "library" | "exam" | "result";
 type AnswerValue = string | string[];
+type QuestionReviewStatus = "wrong" | "correct" | "unanswered";
+
+const ReviewAnalysisContext = createContext<((question: QuestionResult) => void) | null>(null);
 
 type DraftState = {
   answers: Record<string, AnswerValue>;
   flagged: Record<string, boolean>;
+  annotations?: ReadingAnnotation[];
   elapsedSeconds: number;
   remainingSeconds: number | null;
   partElapsedSeconds?: Record<string, number>;
@@ -39,7 +55,7 @@ type DraftSummary = DraftState & { key: string; testId: string };
 
 const USER_ID = "owner";
 const READING_FONT_SIZES = [15, 17, 19, 21, 23] as const;
-const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v2";
+const PANE_RATIO_STORAGE_KEY = "ielts-exam-pane-ratio-v6";
 
 function normalizeReadingFontSize(value: unknown): number {
   if (value === null || value === undefined || String(value).trim() === "") return 17;
@@ -98,7 +114,7 @@ function resolvedPassageTitle(part: PublicPart): string {
   if (!GENERIC_PASSAGE_TITLE.test(articleTitle)) return articleTitle;
 
   const sourceTitle = repairDisplayText(String(part.source_article_title || "")).trim();
-  if (!sourceTitle || GENERIC_PASSAGE_TITLE.test(sourceTitle)) return articleTitle;
+  if (!sourceTitle || GENERIC_PASSAGE_TITLE.test(sourceTitle)) return "";
 
   const normalizedSourceTitle = normalizedPassageTitle(sourceTitle);
   const sourceTitleAppearsInBody = (part.paragraphs || []).some(
@@ -107,32 +123,15 @@ function resolvedPassageTitle(part: PublicPart): string {
   return sourceTitleAppearsInBody ? "" : sourceTitle;
 }
 
-function looksLikePassageHeading(text: string, index: number, paragraphs: NonNullable<PublicPart["paragraphs"]>): boolean {
-  const value = text.trim();
-  if (!value || value.length > 90 || /[.!]$/.test(value) || /^[-•·▪●]/.test(value)) return false;
-  if (/\s[-–—]\s/.test(value)) return false;
-  if (/^[A-Z]$/.test(value) || /^[ivxlcdm]{1,5}$/i.test(value) || /^\([^)]*\)$/.test(value)) return false;
-  const words = value.split(/\s+/);
-  if (words.length > 12) return false;
+function structuredTemplateParts(text: string, questions: Map<string, PublicQuestion>): string[] {
+  const questionIds = [...questions.keys()];
+  if (!questionIds.length) return [String(text || "")];
 
-  const nextText = String(paragraphs[index + 1]?.text || "").trim();
-  if (nextText.length <= 45 && !/^[-•·▪●]/.test(nextText)) return false;
-
-  const obviousProse = /^(?:for example|for every)\b/i.test(value)
-    || (/^(?:this|these|those|it|they|he|she|we|i|however|although|because|since|while|meanwhile)\b/i.test(value)
-      && words.length >= 6);
-  const namedSubjectProse = /^[A-Za-z][\w&'.-]*(?:\s+[A-Za-z][\w&'.-]*){0,3}\s+(?:is|are|has|have|offers|provides|will|can)\b/i.test(value)
-    && words.length >= 8;
-  if (obviousProse || namedSubjectProse) return false;
-
-  const previousText = String(paragraphs[index - 1]?.text || "").trim();
-  const separatedFromBody = index === 0
-    || previousText.length > 45
-    || /[.!?]$/.test(previousText)
-    || /^[-•·▪●]/.test(previousText);
-  const titleLike = value === value.toUpperCase()
-    || words.filter((word) => /^[A-Z][a-z]/.test(word)).length >= Math.ceil(words.length / 2);
-  return titleLike || separatedFromBody;
+  const escapedIds = questionIds
+    .sort((left, right) => right.length - left.length)
+    .map((id) => id.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"));
+  const questionPlaceholder = new RegExp(`(\\$(?:${escapedIds.join("|")})\\$)`, "g");
+  return String(text || "").split(questionPlaceholder);
 }
 
 function looksLikePassageCategory(text: string): boolean {
@@ -146,20 +145,133 @@ function passageListingParts(text: string): { label: string; detail: string } | 
   return match ? { label: match[1].trim(), detail: match[2].trim() } : null;
 }
 
+type PassageParagraph = NonNullable<PublicPart["paragraphs"]>[number];
+type PassageSection = {
+  cue?: PassageParagraph["question_cue"];
+  paragraphs: PassageParagraph[];
+};
+
+function splitPassageSections(part: PublicPart): PassageSection[] {
+  const sections: PassageSection[] = [{ paragraphs: [] }];
+  for (const paragraph of part.paragraphs || []) {
+    if (paragraph.question_cue) {
+      sections.push({ cue: paragraph.question_cue, paragraphs: [paragraph] });
+      continue;
+    }
+    sections[sections.length - 1].paragraphs.push(paragraph);
+  }
+  return sections.filter((section) => section.paragraphs.length > 0);
+}
+
+function isPassageDocumentHeading(text: string): boolean {
+  const value = text.trim();
+  const letters = value.replace(/[^A-Za-z]/g, "");
+  return value.length <= 96 && letters.length >= 4 && value === value.toUpperCase();
+}
+
+function passageSectionHasDocumentFrame(section: PassageSection): boolean {
+  const texts = section.paragraphs.map((paragraph) => String(paragraph.text || "").trim());
+  const bulletCount = texts.filter((text) => /^(?:•|-)\s+/.test(text)).length;
+  const headingCount = texts.filter(isPassageDocumentHeading).length;
+  return bulletCount >= 3 && headingCount >= 1;
+}
+
+function PassageRichText({ text }: { text: string }) {
+  return text.split(/(\bInterExchange\b)/g).filter(Boolean).map((part, index) =>
+    part === "InterExchange"
+      ? <strong className="passage-brand" key={`brand-${index}`}>{part}</strong>
+      : <Fragment key={`copy-${index}`}>{part}</Fragment>
+  );
+}
+
+function PassageParagraphBlock({
+  paragraph,
+  index,
+  documentFrame
+}: {
+  paragraph: PassageParagraph;
+  index: number;
+  documentFrame: boolean;
+}) {
+  const text = repairDisplayText(String(paragraph.text || "").trim());
+  if (!text) return null;
+  if (paragraph.table) return <PassageTable paragraph={paragraph} />;
+
+  const isSectionLetter = /^[A-Z]$/.test(text) && !paragraph.label;
+  const isLabelled = Boolean(paragraph.label && /^[A-Z]$/.test(paragraph.label.trim()));
+  const isCategory = looksLikePassageCategory(text);
+  const listing = passageListingParts(text);
+  const isLegend = /^(?:[A-Z]\s+for\s+\w+\s*){2,}/i.test(text);
+  const isDocumentHeading = documentFrame && isPassageDocumentHeading(text);
+  const isDocumentIntro = documentFrame && index === 0 && text.includes("?");
+  const isDocumentEmphasis = documentFrame
+    && /^(?:Only\b.*!|Call\b|Sign up\b)/i.test(text);
+  const isBullet = /^(?:•|-)\s+/.test(text);
+  const content = <PassageRichText text={text} />;
+
+  if (isSectionLetter) return <div className="passage-section-letter passage-unit">{content}</div>;
+  if (isLabelled) {
+    return (
+      <div className="passage-paragraph passage-labelled">
+        <strong>{paragraph.label}</strong>
+        <p className="passage-unit">{content}</p>
+      </div>
+    );
+  }
+  if (isDocumentHeading) return <h2 className="passage-document-heading passage-unit">{content}</h2>;
+  if (isDocumentIntro) return <p className="passage-document-intro passage-unit">{content}</p>;
+  if (isDocumentEmphasis) return <p className="passage-document-emphasis passage-unit">{content}</p>;
+  if (isCategory) return <h2 className="passage-category-heading passage-unit">{content}</h2>;
+  if (listing) {
+    return (
+      <p className="passage-listing passage-unit">
+        <strong>{listing.label}</strong>
+        <span><PassageRichText text={listing.detail} /></span>
+      </p>
+    );
+  }
+  if (isLegend) return <p className="passage-legend passage-unit">{content}</p>;
+  return (
+    <p className={isBullet ? "passage-paragraph passage-bullet passage-unit" : "passage-paragraph passage-unit"}>
+      {content}
+    </p>
+  );
+}
+
 function PassageTable({ paragraph }: { paragraph: NonNullable<PublicPart["paragraphs"]>[number] }) {
   const table = paragraph.table;
   if (!table) return null;
+  const columnCount = Math.max(1, table.headers.length, ...table.rows.map((row) => row.length));
+  const hasMergedHeading = Boolean(
+    table.headers[0]?.trim()
+    && table.headers.length > 1
+    && table.headers.slice(1).every((header) => !header.trim())
+  );
+  const tableClassName = columnCount >= 5
+    ? "passage-source-table passage-source-table--wide passage-unit"
+    : "passage-source-table passage-unit";
+  const renderHeaders = () => (
+    <tr>
+      {hasMergedHeading ? (
+        <th className="passage-source-table-group-heading" colSpan={columnCount} scope="colgroup">
+          {table.headers[0]}
+        </th>
+      ) : table.headers.map((header, index) => (
+        <th scope="col" key={`passage-table-header-${index}`}>{header}</th>
+      ))}
+    </tr>
+  );
   return (
-    <div className="passage-source-table passage-unit">
+    <div className={tableClassName}>
       <table>
         {table.caption ? <caption>{table.caption}</caption> : null}
         {table.intro ? (
           <thead>
-            <tr><td colSpan={Math.max(1, table.headers.length)}>{table.intro}</td></tr>
-            <tr>{table.headers.map((header) => <th scope="col" key={header}>{header}</th>)}</tr>
+            <tr><td colSpan={columnCount}>{table.intro}</td></tr>
+            {renderHeaders()}
           </thead>
         ) : (
-          <thead><tr>{table.headers.map((header) => <th scope="col" key={header}>{header}</th>)}</tr></thead>
+          <thead>{renderHeaders()}</thead>
         )}
         <tbody>
           {table.rows.map((row, rowIndex) => (
@@ -181,8 +293,258 @@ function PassageTable({ paragraph }: { paragraph: NonNullable<PublicPart["paragr
   );
 }
 
+function PassageContent({ part }: { part: PublicPart }) {
+  const passageTitle = resolvedPassageTitle(part);
+  const sections = splitPassageSections(part);
+  return (
+    <div className="passage-copy">
+      {part.subtitle ? <p className="passage-subtitle">{part.subtitle}</p> : null}
+      {sections.map((section, sectionIndex) => {
+        const cue = section.cue;
+        const cueRange = cue
+          ? (cue.start === cue.end ? String(cue.start) : `${cue.start}–${cue.end}`)
+          : "";
+        const documentFrame = passageSectionHasDocumentFrame(section);
+        return (
+          <Fragment key={`passage-section-${sectionIndex}`}>
+            {cue ? (
+              <div className="passage-question-cue" role="note">
+                <strong>Questions {cueRange}</strong>
+                <span>Read the text below and answer Questions {cueRange}.</span>
+              </div>
+            ) : null}
+            <div className={documentFrame ? "passage-section passage-section--document" : "passage-section"}>
+              {sectionIndex === 0 && passageTitle
+                ? <h1 className="passage-main-title">{passageTitle}</h1>
+                : null}
+              {section.paragraphs.map((paragraph, paragraphIndex) => (
+                <PassageParagraphBlock
+                  documentFrame={documentFrame}
+                  index={paragraphIndex}
+                  key={`${paragraph.index ?? paragraphIndex}-${String(paragraph.text || "").slice(0, 20)}`}
+                  paragraph={paragraph}
+                />
+              ))}
+            </div>
+          </Fragment>
+        );
+      })}
+    </div>
+  );
+}
+
+const StableHtmlDiv = memo(function StableHtmlDiv({
+  className,
+  html,
+  contentRef,
+  sourceVisualName
+}: {
+  className: string;
+  html: string;
+  contentRef?: RefObject<HTMLDivElement | null>;
+  sourceVisualName?: string;
+}) {
+  return (
+    <div
+      className={className}
+      data-source-visual-name={sourceVisualName}
+      dangerouslySetInnerHTML={{ __html: html }}
+      ref={contentRef}
+    />
+  );
+});
+
+const StableHtmlSpan = memo(function StableHtmlSpan({
+  className,
+  html
+}: {
+  className?: string;
+  html: string;
+}) {
+  return <span className={className} dangerouslySetInnerHTML={{ __html: html }} />;
+});
+
+function PassageDisplay({ part }: { part: PublicPart }) {
+  if (part.source_html) {
+    return (
+      <StableHtmlDiv
+        className="passage-copy passage-source-html passage-unit"
+        html={part.source_html}
+        sourceVisualName={part.source_visual_name}
+      />
+    );
+  }
+  return <PassageContent part={part} />;
+}
+
+function normalizedTextWithMap(value: string): { text: string; map: number[] } {
+  let text = "";
+  const map: number[] = [];
+  for (let index = 0; index < value.length; index += 1) {
+    const raw = value[index]
+      .replace(/[‘’]/g, "'")
+      .replace(/[“”]/g, '"')
+      .replace(/[‐‑‒–—−]/g, "-")
+      .replace(/\u00a0/g, " ")
+      .toLowerCase();
+    if (/\s/.test(raw)) {
+      if (text && !text.endsWith(" ")) {
+        text += " ";
+        map.push(index);
+      }
+      continue;
+    }
+    text += raw;
+    map.push(index);
+  }
+  return { text, map };
+}
+
+function highlightEvidenceSentence(root: HTMLElement, question: QuestionResult, evidence: string): boolean {
+  const needle = normalizedTextWithMap(evidence.trim()).text.trim();
+  if (!needle) return false;
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+      if (!node.nodeValue?.trim() || !parent || parent.closest("mark[data-answer-sentence]")) return NodeFilter.FILTER_REJECT;
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const nodes: Text[] = [];
+  while (walker.nextNode()) nodes.push(walker.currentNode as Text);
+  for (const node of nodes) {
+    const original = node.nodeValue || "";
+    const normalized = normalizedTextWithMap(original);
+    const normalizedStart = normalized.text.indexOf(needle);
+    if (normalizedStart < 0) continue;
+    const start = normalized.map[normalizedStart];
+    const normalizedEnd = normalizedStart + needle.length - 1;
+    const end = (normalized.map[normalizedEnd] ?? start) + 1;
+    const mark = document.createElement("mark");
+    mark.dataset.answerSentence = String(question.id);
+    mark.className = "result-answer-sentence";
+    const label = document.createElement("span");
+    label.className = "result-answer-sentence-label";
+    label.textContent = `[Q${question.number}]`;
+    mark.append(label, document.createTextNode(original.slice(start, end)));
+    const fragment = document.createDocumentFragment();
+    fragment.append(document.createTextNode(original.slice(0, start)), mark, document.createTextNode(original.slice(end)));
+    node.parentNode?.replaceChild(fragment, node);
+    return true;
+  }
+  return false;
+}
+
+function appendPassageTranslations(root: HTMLElement, part: PublicPart): number {
+  const candidates = [...root.querySelectorAll<HTMLElement>("p, li, td, th, h1, h2, h3, h4")];
+  const walker = document.createTreeWalker(root, NodeFilter.SHOW_TEXT, {
+    acceptNode(node) {
+      const parent = node.parentElement;
+      if (!node.nodeValue?.trim() || !parent || parent.closest(".result-passage-translation, script, style")) {
+        return NodeFilter.FILTER_REJECT;
+      }
+      return NodeFilter.FILTER_ACCEPT;
+    }
+  });
+  const textCandidates: Text[] = [];
+  while (walker.nextNode()) textCandidates.push(walker.currentNode as Text);
+  const used = new Set<Node>();
+  const unmatchedTranslations: string[] = [];
+  let inserted = 0;
+  for (const paragraph of part.paragraphs || []) {
+    const translation = repairDisplayText(String(paragraph.translation || "")).trim();
+    const source = normalizedTextWithMap(String(paragraph.text || "")).text.trim();
+    if (!translation || !source) continue;
+    const elementTarget = candidates
+      .filter((element) => !used.has(element))
+      .map((element) => ({ element, text: normalizedTextWithMap(element.textContent || "").text.trim() }))
+      .filter((item) => {
+        if (!item.text) return false;
+        const overlaps = item.text.includes(source) || source.includes(item.text);
+        const similarity = Math.min(item.text.length, source.length) / Math.max(item.text.length, source.length);
+        return overlaps && similarity >= 0.72;
+      })
+      .sort((left, right) => left.text.length - right.text.length)[0]?.element;
+    const textTarget = elementTarget ? undefined : textCandidates
+      .filter((node) => !used.has(node))
+      .map((node) => ({ node, text: normalizedTextWithMap(node.data).text.trim() }))
+      .filter((item) => {
+        if (!item.text) return false;
+        const overlaps = item.text.includes(source) || source.includes(item.text);
+        const similarity = Math.min(item.text.length, source.length) / Math.max(item.text.length, source.length);
+        return overlaps && similarity >= 0.72;
+      })
+      .sort((left, right) => left.text.length - right.text.length)[0]?.node;
+    if (!elementTarget && !textTarget) {
+      unmatchedTranslations.push(translation);
+      continue;
+    }
+    const translationBlock = document.createElement("span");
+    translationBlock.className = "result-passage-translation";
+    translationBlock.textContent = translation;
+    if (elementTarget) {
+      elementTarget.insertAdjacentElement("afterend", translationBlock);
+      used.add(elementTarget);
+    } else {
+      textTarget?.parentNode?.insertBefore(translationBlock, textTarget.nextSibling);
+      if (textTarget) used.add(textTarget);
+    }
+    inserted += 1;
+  }
+  if (unmatchedTranslations.length) {
+    const fallback = document.createElement("section");
+    fallback.className = "result-passage-translation-fallback";
+    const heading = document.createElement("strong");
+    heading.textContent = inserted ? "其余段落翻译" : "本 Part 中文翻译";
+    fallback.append(heading);
+    for (const translation of unmatchedTranslations) {
+      const paragraph = document.createElement("p");
+      paragraph.textContent = translation;
+      fallback.append(paragraph);
+    }
+    root.prepend(fallback);
+    inserted += unmatchedTranslations.length;
+  }
+  return inserted;
+}
+
+function clearPassageReviewEnhancements(root: HTMLElement) {
+  root.querySelectorAll(".result-passage-translation-fallback").forEach((element) => element.remove());
+  root.querySelectorAll(".result-passage-translation").forEach((element) => element.remove());
+  root.querySelectorAll<HTMLElement>("mark[data-answer-sentence]").forEach((mark) => {
+    mark.querySelector(".result-answer-sentence-label")?.remove();
+    mark.replaceWith(...Array.from(mark.childNodes));
+  });
+}
+
+function ResultPassageDisplay({
+  part,
+  questions,
+  showTranslations
+}: {
+  part: PublicPart;
+  questions: QuestionResult[];
+  showTranslations: boolean;
+}) {
+  const rootRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const root = rootRef.current;
+    if (!root) return;
+    clearPassageReviewEnhancements(root);
+    if (showTranslations) appendPassageTranslations(root, part);
+    for (const question of questions) {
+      for (const evidence of question.evidence || []) {
+        if (highlightEvidenceSentence(root, question, String(evidence))) break;
+      }
+    }
+    return () => clearPassageReviewEnhancements(root);
+  }, [part, questions, showTranslations]);
+  return <div className="result-passage-highlight-layer" ref={rootRef}><PassageDisplay part={part} /></div>;
+}
+
 const INSTRUCTION_EMPHASIS = /\b(NO MORE THAN(?:\s+[A-Z]+){0,5}|ONE WORD ONLY|TRUE|FALSE|NOT GIVEN|YES|NO|A NUMBER)\b/g;
 const INSTRUCTION_EMPHASIS_EXACT = /^(?:NO MORE THAN(?:\s+[A-Z]+){0,5}|ONE WORD ONLY|TRUE|FALSE|NOT GIVEN|YES|NO|A NUMBER)$/;
+const INSTRUCTION_ACTION_LINE = /^(?:Choose|Write|In boxes?|Read each|Complete|Answer|Select|Match|Label|Fill|Use|Drag|TRUE|FALSE|NOT GIVEN|YES|NO)\b/i;
 
 function InstructionLine({ children }: { children: string }) {
   return (
@@ -222,7 +584,11 @@ function QuestionInstructions({ group }: { group: PublicQuestionGroup }) {
         <span>{group.question_label || group.question_subtype}</span>
       </div>
       <div className="question-instructions-copy">
-        {details.map((line, index) => <p key={`${line}-${index}`}><InstructionLine>{line}</InstructionLine></p>)}
+        {details.map((line, index) => (
+          <p className={INSTRUCTION_ACTION_LINE.test(line) ? "instruction-action-line" : undefined} key={`${line}-${index}`}>
+            <InstructionLine>{line}</InstructionLine>
+          </p>
+        ))}
       </div>
     </div>
   );
@@ -373,6 +739,194 @@ function modeLabel(mode: ExamMode): string {
   return "整套学习";
 }
 
+function reviewValueText(value: unknown): string {
+  if (value == null) return "";
+  if (typeof value === "string" || typeof value === "number") return repairDisplayText(String(value)).trim();
+  if (Array.isArray(value)) return value.map(reviewValueText).filter(Boolean).join("；");
+  if (typeof value === "object") {
+    return Object.entries(value as Record<string, unknown>)
+      .map(([key, item]) => {
+        const text = reviewValueText(item);
+        return text ? `${key}：${text}` : "";
+      })
+      .filter(Boolean)
+      .join("；");
+  }
+  return String(value);
+}
+
+function questionReviewStatus(question: QuestionResult): QuestionReviewStatus {
+  const submittedAnswer = question.shared_response && question.credited_answer !== undefined
+    ? question.credited_answer
+    : question.user_answer;
+  if (!String(submittedAnswer || "").trim()) return "unanswered";
+  return question.is_correct ? "correct" : "wrong";
+}
+
+function historicalAnswerValue(question: QuestionResult): AnswerValue {
+  const value = String(question.user_answer || "").trim();
+  if (question.question_subtype === "multiple_choice_multiple") {
+    return value.split(/\s*,\s*/).filter(Boolean);
+  }
+  return value;
+}
+
+function reviewAnswerTokens(value: string | undefined): string[] {
+  return String(value || "")
+    .split(/\s*[,;|]\s*/)
+    .map((item) => item.trim())
+    .filter(Boolean);
+}
+
+function answerReviewClass(option: string, results: QuestionResult[]): string {
+  const wrongResults = results.filter((result) => !result.is_correct);
+  const correctAnswers = new Set(wrongResults.flatMap((result) => reviewAnswerTokens(result.correct_answer)));
+  const userAnswers = new Set(wrongResults.flatMap((result) => reviewAnswerTokens(result.user_answer)));
+  if (correctAnswers.has(option)) return " review-correct-option";
+  if (userAnswers.has(option)) return " review-user-wrong-option";
+  return "";
+}
+
+function InlineAnswerReview({ question }: { question: QuestionResult | undefined }) {
+  if (!question || question.is_correct) return null;
+  const unanswered = questionReviewStatus(question) === "unanswered";
+  return (
+    <span className={`inline-answer-review${unanswered ? " unanswered" : " wrong"}`}>
+      <span>{unanswered ? "未作答" : <>你的答案 <b>{question.user_answer}</b></>}</span>
+      <strong>正确答案 <b>{question.correct_answer || "题库暂未提供"}</b></strong>
+    </span>
+  );
+}
+
+function ResultQuestionAnalysisDialog({
+  question,
+  sessionId,
+  onClose
+}: {
+  question: QuestionResult;
+  sessionId: string;
+  onClose: () => void;
+}) {
+  const status = questionReviewStatus(question);
+  const explanation = reviewValueText(question.analysis || question.reason);
+  const wrongReasons = reviewValueText(question.wrong_reasons);
+  useEffect(() => {
+    const handleKeyDown = (event: KeyboardEvent) => {
+      if (event.key === "Escape") onClose();
+    };
+    window.addEventListener("keydown", handleKeyDown);
+    return () => window.removeEventListener("keydown", handleKeyDown);
+  }, [onClose]);
+
+  return (
+    <div className="result-analysis-backdrop" role="presentation" onMouseDown={(event) => {
+      if (event.target === event.currentTarget) onClose();
+    }}>
+      <section className="result-analysis-dialog" role="dialog" aria-modal="true" aria-labelledby={`result-analysis-title-${question.id}`}>
+        <header>
+          <div><span>QUESTION {question.number}</span><h2 id={`result-analysis-title-${question.id}`}>解析</h2></div>
+          <button type="button" onClick={onClose} aria-label="关闭解析">×</button>
+        </header>
+        <div className="result-analysis-scroll">
+          <p className="result-analysis-prompt"><b>Q{question.number}</b>{displayMarkup(question.prompt)}</p>
+          <div className="result-analysis-answer-line">
+            <span>正确答案：<strong>{question.correct_answer || "题库暂未提供"}</strong></span>
+            <span>我的答案：<strong className={status}>{question.user_answer || "未作答"}</strong></span>
+          </div>
+          <section className="result-analysis-copy">
+            <p><b>解题思路：</b>{explanation || "题库暂未提供解析。"}</p>
+            {wrongReasons ? <p><b>避坑：</b>{wrongReasons}</p> : null}
+          </section>
+          {question.evidence?.length ? (
+            <blockquote className="result-analysis-evidence">
+              <strong>[Q{question.number}] 原文答案句</strong>
+              {question.evidence.map((item, index) => <p key={`${question.id}-evidence-${index}`}>{item}</p>)}
+            </blockquote>
+          ) : <p className="result-evidence-missing">本题暂未提供经过核验的原文答案句，不会自动编造。</p>}
+          {!question.is_correct && sessionId ? (
+            <AiTeacherPanel
+              key={`${sessionId}:${question.id}`}
+              contextType="wrong_question"
+              sessionId={sessionId}
+              questionId={String(question.id)}
+              title={`继续问 Q${question.number}`}
+              description="AI只使用本次已交卷记录中的题干、你的答案、正确答案、解析和核验证据。"
+              suggestions={["我为什么会错？", "题干和原文如何同义替换？", "正确答案的边界为什么是这样？"]}
+            />
+          ) : <div className="result-analysis-ai-note">本题回答正确；AI错题对话仅在错题和未作答题中提供。</div>}
+        </div>
+      </section>
+    </div>
+  );
+}
+
+function QuestionAnalysisLink({ question }: { question: QuestionResult | undefined }) {
+  const onOpenAnalysis = useContext(ReviewAnalysisContext);
+  if (!question || !onOpenAnalysis) return null;
+  return (
+    <a
+      className="question-analysis-link"
+      href={`#question-${question.id}`}
+      role="button"
+      onClick={(event) => {
+        event.preventDefault();
+        onOpenAnalysis(question);
+      }}
+      onKeyDown={(event) => {
+        if (event.key !== " ") return;
+        event.preventDefault();
+        onOpenAnalysis(question);
+      }}
+      aria-label={`查看第${question.number}题解释`}
+    >
+      解释
+    </a>
+  );
+}
+
+function InlineQuestionReview({ question }: { question: QuestionResult | undefined }) {
+  if (!question) return null;
+  return (
+    <>
+      <InlineAnswerReview question={question} />
+      <QuestionAnalysisLink question={question} />
+    </>
+  );
+}
+
+function QuestionReviewActions({ results }: { results: QuestionResult[] }) {
+  if (!results.length) return null;
+  const hasWrongAnswer = results.some((question) => !question.is_correct);
+  return (
+    <div className="question-inline-review-list">
+      {hasWrongAnswer ? (
+        results.some((question) => question.shared_response)
+          ? <SharedMultipleAnswerReview results={results} />
+          : results.map((question) => <InlineAnswerReview question={question} key={`answer-review-${question.id}`} />)
+      ) : null}
+      <span className="question-analysis-links" aria-label="逐题解释">
+        {results.map((question) => <QuestionAnalysisLink question={question} key={`analysis-${question.id}`} />)}
+      </span>
+    </div>
+  );
+}
+
+function SharedMultipleAnswerReview({ results }: { results: QuestionResult[] }) {
+  const summary = results.find((result) => result.shared_response && result.shared_response_score !== undefined);
+  if (!summary || summary.shared_response_score === summary.shared_response_total) return null;
+  const correct = summary.selected_correct_answers || [];
+  const incorrect = summary.selected_incorrect_answers || [];
+  const missed = summary.missed_correct_answers || [];
+  return (
+    <span className="inline-answer-review shared-multiple-answer-review">
+      <span>本组答对 <b>{summary.shared_response_score}/{summary.shared_response_total}</b></span>
+      {correct.length ? <strong>选对 <b>{correct.join("、")}</b></strong> : null}
+      {incorrect.length ? <span>误选 <b>{incorrect.join("、")}</b></span> : null}
+      {missed.length ? <span>漏选 <b>{missed.join("、")}</b></span> : null}
+    </span>
+  );
+}
+
 export default function ExamWorkbench() {
   const [screen, setScreen] = useState<Screen>("library");
   const [tests, setTests] = useState<TestIndexItem[]>([]);
@@ -392,6 +946,13 @@ export default function ExamWorkbench() {
   const [clientSubmissionId, setClientSubmissionId] = useState("");
   const [draftKey, setDraftKey] = useState("");
   const [result, setResult] = useState<ScoringResult | null>(null);
+  const [resultSessionId, setResultSessionId] = useState("");
+  const [resultSourcePart, setResultSourcePart] = useState<number | null>(null);
+  const [selectedReviewQuestion, setSelectedReviewQuestion] = useState<QuestionResult | null>(null);
+  const [showAnswerSentences, setShowAnswerSentences] = useState(false);
+  const [showPassageTranslations, setShowPassageTranslations] = useState(false);
+  const [resultAnnotationsOpen, setResultAnnotationsOpen] = useState(false);
+  const [historyEntrySource, setHistoryEntrySource] = useState(false);
   const [loading, setLoading] = useState(true);
   const [submitting, setSubmitting] = useState(false);
   const [error, setError] = useState("");
@@ -402,12 +963,16 @@ export default function ExamWorkbench() {
   const [showDrafts, setShowDrafts] = useState(false);
   const [showHelp, setShowHelp] = useState(false);
   const [paused, setPaused] = useState(false);
-  const [paneRatio, setPaneRatio] = useState(40);
+  const [timerActive, setTimerActive] = useState(false);
+  const [paneRatio, setPaneRatio] = useState(44);
+  const [annotationCount, setAnnotationCount] = useState(0);
   const timedOutRef = useRef(false);
   const activePartRef = useRef(1);
   const activeQuestionIdRef = useRef("");
   const activeQuestionLockUntilRef = useRef(0);
   const draftSnapshotRef = useRef<DraftState | null>(null);
+  const initialHistorySessionRef = useRef(false);
+  const { shouldCountStudyTime } = useStudyActivity(screen === "exam");
 
   useEffect(() => {
     activeQuestionIdRef.current = activeQuestionId;
@@ -416,6 +981,16 @@ export default function ExamWorkbench() {
   useEffect(() => {
     activePartRef.current = activePart;
   }, [activePart]);
+
+  useEffect(() => {
+    function onAnnotations(event: Event) {
+      const detail = (event as CustomEvent<ReadingAttemptDetail>).detail;
+      if (!detail) return;
+      setAnnotationCount(detail.annotations.length);
+    }
+    window.addEventListener(READING_ANNOTATIONS_EVENT, onAnnotations);
+    return () => window.removeEventListener(READING_ANNOTATIONS_EVENT, onAnnotations);
+  }, []);
 
   useEffect(() => {
     setReadingFontSize(normalizeReadingFontSize(window.localStorage.getItem("ielts-passage-font-size")));
@@ -427,6 +1002,14 @@ export default function ExamWorkbench() {
     refreshDrafts();
   }, []);
 
+  useEffect(() => {
+    if (initialHistorySessionRef.current) return;
+    const sessionId = new URLSearchParams(window.location.search).get("session");
+    if (!sessionId) return;
+    initialHistorySessionRef.current = true;
+    void openHistory(sessionId, true);
+  }, []);
+
   function refreshDrafts() {
     const rows: DraftSummary[] = [];
     for (let index = 0; index < window.localStorage.length; index += 1) {
@@ -436,7 +1019,8 @@ export default function ExamWorkbench() {
         const value = JSON.parse(window.localStorage.getItem(key) || "") as DraftState;
         const hasAnswers = Object.values(value.answers || {}).some(answerIsPresent);
         const hasFlags = Object.values(value.flagged || {}).some(Boolean);
-        if (!hasAnswers && !hasFlags) continue;
+        const hasAnnotations = Array.isArray(value.annotations) && value.annotations.length > 0;
+        if (!hasAnswers && !hasFlags && !hasAnnotations) continue;
         rows.push({ ...value, key, testId: key.split(":")[1] || "" });
       } catch {
         // Ignore malformed browser storage; no server data is affected.
@@ -481,11 +1065,17 @@ export default function ExamWorkbench() {
     }).length,
     [questionRows, answers]
   );
-  const hasDraftProgress = answeredCount > 0 || Object.values(flagged).some(Boolean);
+  const flaggedQuestionRows = useMemo(
+    () => questionRows.filter(({ question }) => Boolean(flagged[String(question.id)])),
+    [flagged, questionRows]
+  );
+  const flaggedCount = flaggedQuestionRows.length;
+  const hasDraftProgress = answeredCount > 0 || Object.values(flagged).some(Boolean) || annotationCount > 0;
 
   draftSnapshotRef.current = screen === "exam" && draftKey && clientSubmissionId ? {
     answers,
     flagged,
+    annotations: test ? readAnnotationsForSubmission(test.id, partNumbers) : [],
     elapsedSeconds,
     remainingSeconds,
     partElapsedSeconds,
@@ -501,6 +1091,11 @@ export default function ExamWorkbench() {
   useEffect(() => {
     if (screen !== "exam" || paused) return;
     const timer = window.setInterval(() => {
+      if (!shouldCountStudyTime()) {
+        setTimerActive(false);
+        return;
+      }
+      setTimerActive(true);
       setElapsedSeconds((value) => value + 1);
       const currentPartNumber = String(activePartRef.current);
       setPartElapsedSeconds((current) => ({
@@ -524,6 +1119,10 @@ export default function ExamWorkbench() {
       });
     }, 1000);
     return () => window.clearInterval(timer);
+  }, [paused, screen, shouldCountStudyTime]);
+
+  useEffect(() => {
+    if (screen !== "exam" || paused) setTimerActive(false);
   }, [paused, screen]);
 
   useEffect(() => {
@@ -555,14 +1154,19 @@ export default function ExamWorkbench() {
 
   const persistCurrentDraft = useCallback((): DraftState | null => {
     if (screen !== "exam" || !draftKey || !clientSubmissionId) return null;
-    const draft = draftSnapshotRef.current;
-    if (!draft) return null;
+    const snapshot = draftSnapshotRef.current;
+    if (!snapshot) return null;
+    const draft: DraftState = {
+      ...snapshot,
+      annotations: test ? readAnnotationsForSubmission(test.id, partNumbers) : []
+    };
     const hasAnswers = Object.values(draft.answers).some(answerIsPresent);
     const hasFlags = Object.values(draft.flagged).some(Boolean);
-    if (!hasAnswers && !hasFlags) return null;
+    const hasAnnotations = Boolean(draft.annotations?.length);
+    if (!hasAnswers && !hasFlags && !hasAnnotations) return null;
     window.localStorage.setItem(draftKey, JSON.stringify(draft));
     return draft;
-  }, [clientSubmissionId, draftKey, screen]);
+  }, [clientSubmissionId, draftKey, partNumbers, screen, test]);
 
   const submitCurrent = useCallback(async (timedOut = false) => {
     if (!test || submitting) return;
@@ -575,18 +1179,26 @@ export default function ExamWorkbench() {
         client_submission_id: clientSubmissionId,
         answers,
         elapsed_seconds: elapsedSeconds,
-        part_elapsed_seconds: Object.fromEntries(
+        partElapsedSeconds: Object.fromEntries(
           selectedParts(test, partNumbers).map((part) => {
             const key = String(part.number);
             return [key, Math.max(0, Math.floor(partElapsedSeconds[key] || 0))];
           })
         ),
-        question_elapsed_seconds: submittedQuestionTimings(test, partNumbers, questionElapsedSeconds),
+        questionElapsedSeconds: submittedQuestionTimings(test, partNumbers, questionElapsedSeconds),
         exam_mode: mode,
         part_numbers: partNumbers,
-        timed_out: timedOut
+        timed_out: timedOut,
+        annotations: readAnnotationsForSubmission(test.id, partNumbers)
       });
       setResult(response.result);
+      setResultAnnotationsOpen(false);
+      setResultSessionId(response.session_id);
+      setHistoryEntrySource(false);
+      setSelectedReviewQuestion(null);
+      setShowAnswerSentences(false);
+      setShowPassageTranslations(false);
+      setResultSourcePart(Number(response.result.wrong_questions[0]?.part_number || response.result.part_results[0]?.part_number || 1));
       setScreen("result");
       if (draftKey) window.localStorage.removeItem(draftKey);
       await refreshHistory();
@@ -652,12 +1264,26 @@ export default function ExamWorkbench() {
         ? draft.activeQuestionId
         : firstQuestionId(selectedParts(loaded, nextParts)[0]);
       setActiveQuestionId(restoredQuestionId);
-      setClientSubmissionId(draft?.clientSubmissionId || newSubmissionId());
+      const nextSubmissionId = draft?.clientSubmissionId || newSubmissionId();
+      setClientSubmissionId(nextSubmissionId);
+      beginReadingAttempt({
+        attemptId: nextSubmissionId,
+        testId: loaded.id,
+        testTitle: loaded.title,
+        annotations: draft?.annotations || []
+      });
       setDraftKey(key);
       setResult(null);
+      setResultSessionId("");
+      setHistoryEntrySource(false);
       timedOutRef.current = false;
       setPaused(false);
-      if (draft) setNotice("已从草稿管理器继续上次未完成的答案和计时。");
+      if (draft) {
+        const restoredFlaggedCount = Object.values(draft.flagged || {}).filter(Boolean).length;
+        setNotice(restoredFlaggedCount
+          ? `已恢复答案、计时和 ${restoredFlaggedCount} 道标记题。可点击底部“检查标记”逐题复查。`
+          : "已从草稿管理器继续上次未完成的答案和计时。");
+      }
       setScreen("exam");
     } catch (reason: unknown) {
       setError(reason instanceof Error ? reason.message : "试卷加载失败");
@@ -679,12 +1305,19 @@ export default function ExamWorkbench() {
   function toggleFlag(questionIds: string | string[]) {
     const ids = Array.isArray(questionIds) ? questionIds : [questionIds];
     if (ids[0]) setActiveQuestionId(ids[0]);
+    const removing = ids.some((questionId) => flagged[questionId]);
     setFlagged((current) => {
       const next = { ...current };
-      const flagged = ids.some((questionId) => current[questionId]);
-      for (const questionId of ids) next[questionId] = !flagged;
+      for (const questionId of ids) next[questionId] = !removing;
       return next;
     });
+    const numbers = questionRows
+      .filter(({ question }) => ids.includes(String(question.id)))
+      .map(({ question }) => questionNumber(question));
+    const label = numbers.length ? `第 ${numbers.join("、")} 题` : "当前题";
+    setNotice(removing
+      ? `已取消${label}的检查标记。`
+      : `已标记${label}。可点击底部“检查标记”返回复查。`);
   }
 
   function scrollToQuestion(questionId: string, partNumber: number) {
@@ -768,13 +1401,26 @@ export default function ExamWorkbench() {
     });
   }
 
-  async function openHistory(sessionId: string) {
+  async function openHistory(sessionId: string, fromHistoryCenter = false) {
     setLoading(true);
     setError("");
     try {
       const session = await fetchSession(sessionId, USER_ID);
+      let sourceTest: PublicTest | null = null;
+      try {
+        sourceTest = await fetchPublicTest(session.result.test_id);
+      } catch {
+        // The score report remains available even if the public passage cannot be reloaded.
+      }
       setResult(session.result);
-      setTest(null);
+      setResultAnnotationsOpen(false);
+      setResultSessionId(sessionId);
+      setHistoryEntrySource(fromHistoryCenter);
+      setSelectedReviewQuestion(null);
+      setShowAnswerSentences(false);
+      setShowPassageTranslations(false);
+      setResultSourcePart(Number(session.result.wrong_questions[0]?.part_number || session.result.part_results[0]?.part_number || 1));
+      setTest(sourceTest);
       setScreen("result");
     } catch (reason: unknown) {
       setError(reason instanceof Error ? reason.message : "记录读取失败");
@@ -795,7 +1441,6 @@ export default function ExamWorkbench() {
 
   if (screen === "exam" && test) {
     const active = currentParts.find((part) => Number(part.number) === activePart) || currentParts[0];
-    const activePassageTitle = active ? resolvedPassageTitle(active) : "";
     const activeQuestionMeta = active?.groups
       .map((group) => {
         const question = group.questions.find((item) => controlQuestionId(group, item) === activeQuestionId);
@@ -813,12 +1458,36 @@ export default function ExamWorkbench() {
         }))
       )
     );
+    const activeDockItem = dockQuestions.find((item) => item.controlId === activeQuestionId)
+      || dockQuestions.find((item) => Number(item.part.number) === activePart);
+    const sharedActiveQuestionIds = activeDockItem ? sharedQuestionIds(activeDockItem.group) : [];
+    const activeFlagQuestionIds = activeDockItem
+      ? (sharedActiveQuestionIds.length ? sharedActiveQuestionIds : [String(activeDockItem.question.id)])
+      : [];
+    const activeQuestionFlagged = activeFlagQuestionIds.some((questionId) => Boolean(flagged[questionId]));
+    const seenFlagTargets = new Set<string>();
+    const flaggedDockTargets = dockQuestions.filter((item) => {
+      if (!flagged[String(item.question.id)]) return false;
+      const key = `${item.part.number}:${item.controlId}`;
+      if (seenFlagTargets.has(key)) return false;
+      seenFlagTargets.add(key);
+      return true;
+    });
     const currentDockIndex = dockQuestions.findIndex((item) => item.controlId === activeQuestionId);
     const moveDock = (direction: -1 | 1) => {
       const fallbackIndex = dockQuestions.findIndex((item) => Number(item.part.number) === activePart);
       const baseIndex = currentDockIndex >= 0 ? currentDockIndex : fallbackIndex;
       const target = dockQuestions[Math.max(0, Math.min(dockQuestions.length - 1, baseIndex + direction))];
       if (target) scrollToQuestion(target.controlId, Number(target.part.number));
+    };
+    const reviewNextFlagged = () => {
+      if (!flaggedDockTargets.length) return;
+      const currentFlaggedIndex = flaggedDockTargets.findIndex((item) =>
+        item.controlId === activeQuestionId && Number(item.part.number) === activePart
+      );
+      const target = flaggedDockTargets[(currentFlaggedIndex + 1) % flaggedDockTargets.length];
+      scrollToQuestion(target.controlId, Number(target.part.number));
+      setNotice(`正在检查第 ${questionNumber(target.question)} 题。修改确认后可取消标记。`);
     };
     const readingStyle = {
       "--reading-font-size": `${readingFontSize}px`
@@ -831,6 +1500,7 @@ export default function ExamWorkbench() {
         data-test-id={test.id}
         data-test-title={test.title}
         data-part-number={active?.number}
+        data-source-visual={Boolean(active?.source_html)}
         style={readingStyle}
       >
         <header className="exam-topbar">
@@ -842,6 +1512,9 @@ export default function ExamWorkbench() {
           <div className={remainingSeconds !== null && remainingSeconds <= 300 ? "exam-timer warning" : "exam-timer"}>
             <span>{remainingSeconds === null ? "已用时间" : "剩余时间"}</span>
             <strong>{formatSeconds(remainingSeconds ?? elapsedSeconds)}</strong>
+            <small className={timerActive ? "study-timer-status active" : "study-timer-status idle"}>
+              {timerActive ? "活跃计时" : "静止暂停"}
+            </small>
           </div>
           <div className="exam-question-timer">
             <span>本题 {activeQuestionMeta ? `Q${activeQuestionMeta}` : ""}</span>
@@ -870,8 +1543,9 @@ export default function ExamWorkbench() {
             type="button"
             className="exam-submit-button"
             disabled={submitting}
-            onClick={() => {
-              if (window.confirm(`确定交卷吗？当前已完成 ${answeredCount}/${questionRows.length} 题。`)) {
+           onClick={() => {
+              const markedMessage = flaggedCount ? `还有 ${flaggedCount} 道题标记为待检查。` : "";
+              if (window.confirm(`确定交卷吗？当前已完成 ${answeredCount}/${questionRows.length} 题。${markedMessage}`)) {
                 void submitCurrent(false);
               }
             }}
@@ -879,6 +1553,10 @@ export default function ExamWorkbench() {
         </header>
         {notice ? <div className="exam-notice">{notice}</div> : null}
         {error ? <div className="exam-error">{error}</div> : null}
+        <div className="exam-partbar">
+          <strong>Part {active.number}</strong>
+          <span>Read the text below and answer questions {partQuestionRange(active)}</span>
+        </div>
         <div className="mobile-pane-tabs" role="tablist" aria-label="切换原文和题目">
           <button
             type="button"
@@ -899,7 +1577,7 @@ export default function ExamWorkbench() {
           <div
             className="exam-grid"
             style={{
-              gridTemplateColumns: `minmax(0, ${paneRatio}fr) 15px minmax(0, ${100 - paneRatio}fr)`
+              gridTemplateColumns: `minmax(0, ${paneRatio}fr) 8px minmax(0, ${100 - paneRatio}fr)`
             }}
           >
             <section className={mobilePane === "passage" ? "passage-pane" : "passage-pane mobile-hidden"} aria-label={`Part ${active.number} 原文`}>
@@ -907,50 +1585,7 @@ export default function ExamWorkbench() {
                 <strong>Part {active.number}</strong>
                 <span>阅读原文并回答第 {partQuestionRange(active)} 题</span>
               </div>
-              <div className="passage-copy">
-                {activePassageTitle ? <h1 className="passage-main-title">{activePassageTitle}</h1> : null}
-                {active.subtitle ? <p className="passage-subtitle">{active.subtitle}</p> : null}
-                {(active.paragraphs || []).map((paragraph, index, paragraphs) => {
-                  const text = repairDisplayText(String(paragraph.text || "").trim());
-                  if (!text) return null;
-                  const key = `${paragraph.index ?? index}-${text.slice(0, 20)}`;
-                  const cue = paragraph.question_cue;
-                  const isSectionLetter = /^[A-Z]$/.test(text) && !paragraph.label;
-                  const isLabelled = Boolean(paragraph.label && /^[A-Z]$/.test(paragraph.label.trim()));
-                  const isCategory = looksLikePassageCategory(text);
-                  const listing = passageListingParts(text);
-                  const isLegend = /^(?:[A-Z]\s+for\s+\w+\s*){2,}/i.test(text);
-                  const isHeading = Boolean(cue) || looksLikePassageHeading(text, index, paragraphs);
-                  const cueRange = cue ? (cue.start === cue.end ? String(cue.start) : `${cue.start}–${cue.end}`) : "";
-                  return (
-                    <Fragment key={key}>
-                      {cue ? (
-                        <div className="passage-question-cue" role="note">
-                          <strong>Questions {cueRange}</strong>
-                          <span>Read the text below and answer Questions {cueRange}.</span>
-                        </div>
-                      ) : null}
-                      {paragraph.table ? (
-                        <PassageTable paragraph={paragraph} />
-                      ) : isSectionLetter ? (
-                        <div className="passage-section-letter passage-unit">{text}</div>
-                      ) : isLabelled ? (
-                        <div className="passage-paragraph passage-labelled"><strong>{paragraph.label}</strong><p className="passage-unit">{text}</p></div>
-                      ) : isCategory ? (
-                        <h2 className="passage-category-heading passage-unit">{text}</h2>
-                      ) : listing ? (
-                        <p className="passage-listing passage-unit"><strong>{listing.label}</strong><span>{listing.detail}</span></p>
-                      ) : isLegend ? (
-                        <p className="passage-legend passage-unit">{text}</p>
-                      ) : isHeading ? (
-                        <h2 className="passage-subheading passage-unit">{text}</h2>
-                      ) : (
-                        <p className={/^[-•]/.test(text) ? "passage-paragraph passage-bullet passage-unit" : "passage-paragraph passage-unit"}>{text}</p>
-                      )}
-                    </Fragment>
-                  );
-                })}
-              </div>
+              <PassageDisplay part={active} />
             </section>
             <div
               className="exam-divider"
@@ -1047,6 +1682,31 @@ export default function ExamWorkbench() {
               );
             })}
           </div>
+          <div className="dock-review-actions" aria-label="标记题复查">
+            <button
+              type="button"
+              className={activeQuestionFlagged ? "dock-flag-button active" : "dock-flag-button"}
+              disabled={!activeFlagQuestionIds.length}
+              aria-pressed={activeQuestionFlagged}
+              aria-label={activeQuestionFlagged ? "取消当前题标记" : "标记当前题"}
+              onClick={() => toggleFlag(activeFlagQuestionIds)}
+            >
+              <svg aria-hidden="true" viewBox="0 0 24 24">
+                <path d="M6 21V4m1 1h10l-1.6 4L17 13H7" />
+              </svg>
+              <span>{activeQuestionFlagged ? "取消标记" : "标记本题"}</span>
+            </button>
+            <button
+              type="button"
+              className="dock-review-button"
+              disabled={!flaggedDockTargets.length}
+              onClick={reviewNextFlagged}
+              aria-label={flaggedCount ? `检查标记题，共 ${flaggedCount} 题` : "没有标记题"}
+            >
+              <span>检查标记</span>
+              <strong>{flaggedCount}</strong>
+            </button>
+          </div>
           <div className="dock-step-buttons" aria-label="上一题或下一题">
             <button
               type="button"
@@ -1074,7 +1734,7 @@ export default function ExamWorkbench() {
           <div className="system-modal-backdrop">
             <section className="system-modal exam-help-modal" role="dialog" aria-modal="true">
               <header><h2>机考帮助</h2><button type="button" onClick={() => setShowHelp(false)}>关闭</button></header>
-              <ul><li>拖动中间分隔线可在 30%–70% 范围调整文章宽度。</li><li>暂停会冻结计时，不会清空答案。</li><li>答案不会自动保存；点击“保存草稿”后，才可从“管理草稿”继续。</li><li>普通退出或从题卡再次开始都会创建空白练习。</li></ul>
+              <ul><li>拖动中间分隔线可在 30%–70% 范围调整文章宽度。</li><li>底部“标记本题”可记录不确定的题；“检查标记”会跨 Part 逐题带你返回复查。</li><li>暂停会冻结计时，不会清空答案。</li><li>答案和标记不会自动保存；点击“保存草稿”后，才可从“管理草稿”继续。</li><li>普通退出或从题卡再次开始都会创建空白练习。</li></ul>
             </section>
           </div>
         ) : null}
@@ -1083,13 +1743,63 @@ export default function ExamWorkbench() {
   }
 
   if (screen === "result" && result) {
+    const questionResults = result.question_results || [];
+    const correctCount = questionResults.filter((question) => question.is_correct).length;
+    const unansweredCount = questionResults.filter((question) => questionReviewStatus(question) === "unanswered").length;
+    const answeredWrongCount = questionResults.filter((question) => questionReviewStatus(question) === "wrong").length;
+    const resultAnnotations = result.annotations || [];
+    const noteCount = resultAnnotations.filter((annotation) => Boolean(annotation.note?.trim())).length;
+    const highlightCount = resultAnnotations.filter((annotation) => annotation.kind === "highlight").length;
+    const showDetailedReview = historyEntrySource;
+    const typeResults = result.type_results?.length ? result.type_results : (() => {
+      const buckets = new Map<string, { type: string; correct: number; total: number; accuracy: number }>();
+      for (const question of questionResults) {
+        const type = question.question_type || "其他";
+        const bucket = buckets.get(type) || { type, correct: 0, total: 0, accuracy: 0 };
+        bucket.total += 1;
+        if (question.is_correct) bucket.correct += 1;
+        bucket.accuracy = Math.round((bucket.correct / bucket.total) * 1000) / 10;
+        buckets.set(type, bucket);
+      }
+      return [...buckets.values()].sort((left, right) => left.accuracy - right.accuracy || right.total - left.total);
+    })();
+    const submittedPartNumbers = new Set(result.part_results.map((part) => Number(part.part_number)));
+    const reviewParts = test?.id === result.test_id
+      ? test.parts.filter((part) => submittedPartNumbers.has(Number(part.number)))
+      : [];
+    const firstReviewPart = Number(result.wrong_questions[0]?.part_number || reviewParts[0]?.number || 0);
+    const activeReviewPart = reviewParts.find((part) => Number(part.number) === Number(resultSourcePart || firstReviewPart))
+      || reviewParts[0];
+    const activeReviewQuestions = activeReviewPart
+      ? questionResults.filter((question) => Number(question.part_number) === Number(activeReviewPart.number))
+      : [];
+    const highlightedReviewQuestions = showAnswerSentences
+      ? activeReviewQuestions
+      : selectedReviewQuestion && Number(selectedReviewQuestion.part_number) === Number(activeReviewPart?.number)
+        ? [selectedReviewQuestion]
+        : [];
+    const activeReviewQuestionResults = new Map(
+      activeReviewQuestions.map((question) => [String(question.id), question])
+    );
+    const activeHistoricalAnswers = Object.fromEntries(
+      activeReviewQuestions.map((question) => [String(question.id), historicalAnswerValue(question)])
+    );
+
     return (
       <div className="page-wrap result-page">
-        <div className="result-hero">
+        <nav className="result-report-nav" aria-label="报告目录">
+          <a href="#result-overview">总览</a>
+          <a href="#result-source-review">原文与作答</a>
+          {showDetailedReview ? <a href="#result-performance">分项表现</a> : null}
+          {resultAnnotations.length ? (
+            <a href="#result-annotations" onClick={() => setResultAnnotationsOpen(true)}>高亮与笔记</a>
+          ) : null}
+        </nav>
+        <div className="result-hero" id="result-overview">
           <div>
-            <p className="eyebrow">SERVER-SCORED RESULT</p>
+            <p className="eyebrow">{showDetailedReview ? "DETAILED SCORE REPORT" : "SUBMISSION RESULT"}</p>
             <h1>{result.test_title}</h1>
-            <p>标准答案、证据和解析仅在服务端交卷后返回。</p>
+            <p>{showDetailedReview ? "练习记录详细报告 · 完整分项表现与逐题解析。" : "交卷完成 · 详细分项表现与逐题复盘已保存到练习记录。"}</p>
           </div>
           <div className="result-score"><strong>{result.score}/{result.total}</strong><span>{result.accuracy}%</span></div>
           {result.band_estimate?.eligible ? (
@@ -1098,39 +1808,250 @@ export default function ExamWorkbench() {
         </div>
         <section className="result-metrics">
           <article><span>用时</span><strong>{formatSeconds(result.total_elapsed_seconds)}</strong></article>
-          <article><span>未作答</span><strong>{result.unanswered_count}</strong></article>
-          <article><span>错题</span><strong>{result.wrong_questions.length}</strong></article>
+          <article className="correct"><span>答对</span><strong>{correctCount}</strong></article>
+          <article className="wrong"><span>答错</span><strong>{answeredWrongCount}</strong></article>
+          <article className="unanswered"><span>未作答</span><strong>{unansweredCount}</strong></article>
           <article><span>模式</span><strong>{result.total === 40 ? "整套" : "Part"}</strong></article>
+          <article><span>高亮 / 笔记</span><strong>{highlightCount} / {noteCount}</strong></article>
         </section>
-        <section className="result-section">
-          <h2>Part表现</h2>
+        <section className={`result-priority-summary ${result.wrong_questions.length ? "has-wrong" : "perfect"}`}>
+          <div>
+            <span>{result.wrong_questions.length ? "优先复盘" : "本次结果"}</span>
+            <strong>{result.wrong_questions.length ? `${result.wrong_questions.length} 道题需要复盘` : "全部答对"}</strong>
+            <p>{showDetailedReview
+              ? (result.wrong_questions.length ? "下方可按需展开错题和未作答题解析。" : "可以在逐题复盘中展开查看全部题目的答案依据。")
+              : "详细分项表现与逐题解析已保存，可随时前往练习记录查看。"}</p>
+          </div>
+          <a
+            href={showDetailedReview ? "#result-source-review" : "/history"}
+          >
+            {showDetailedReview ? "回看题目解析" : "前往练习记录"}
+          </a>
+        </section>
+        {result.ai_paraphrase_summary ? (
+          <section className="result-ai-paraphrase-summary">
+            <div>
+              <span>AI 错题同义替换</span>
+              <strong>
+                {result.ai_paraphrase_summary.status === "completed"
+                  ? `已自动记录 ${result.ai_paraphrase_summary.saved_count} 条`
+                  : result.ai_paraphrase_summary.reason === "ai_not_configured"
+                    ? "AI 未配置，暂未自动记录"
+                    : "本次未生成可记录内容"}
+              </strong>
+              <p>只处理错题；题目表达必须来自题目/选项/说明，原文表达必须来自原文证据。</p>
+            </div>
+            <a href="/vocabulary">去词汇本查看</a>
+          </section>
+        ) : null}
+        <section className="result-section result-source-review" id="result-source-review">
+          <header className="result-section-heading">
+            <div><span>SOURCE REVIEW</span><h2>原文与我的作答记录</h2></div>
+            <p>按 Part 恢复考试时的原文，右侧逐题对照你提交的答案和正确答案；包含错题的 Part 默认展开。</p>
+          </header>
+          {activeReviewPart ? (
+            <div className="result-source-workbench">
+              <div className="result-source-view-tools">
+                <span>点击题号解析，可自动定位原文答案句</span>
+                <button
+                  type="button"
+                  role="switch"
+                  aria-checked={showAnswerSentences}
+                  className={showAnswerSentences ? "active" : ""}
+                  onClick={() => setShowAnswerSentences((visible) => !visible)}
+                >
+                  答案句<i aria-hidden="true" />
+                </button>
+                <button
+                  type="button"
+                  role="switch"
+                  aria-checked={showPassageTranslations}
+                  className={showPassageTranslations ? "active" : ""}
+                  onClick={() => setShowPassageTranslations((visible) => !visible)}
+                >
+                  翻译<i aria-hidden="true" />
+                </button>
+              </div>
+              <nav className="exam-question-dock result-source-part-dock" aria-label="切换报告 Part">
+                <div className="dock-section-strip" role="tablist" aria-label="切换报告 Part 和题目">
+                  {reviewParts.map((part) => {
+                    const partQuestions = questionResults.filter((question) => Number(question.part_number) === Number(part.number));
+                    const partResult = result.part_results.find((item) => Number(item.part_number) === Number(part.number));
+                    const active = Number(part.number) === Number(activeReviewPart.number);
+                    return (
+                      <section className={`dock-section result-source-dock-section${active ? " active" : ""}`} key={part.number}>
+                        <button
+                          type="button"
+                          role="tab"
+                          className="dock-section-label result-source-dock-label"
+                          aria-selected={active}
+                          onClick={() => {
+                            setResultSourcePart(Number(part.number));
+                            setSelectedReviewQuestion(null);
+                          }}
+                        >
+                          <strong>{active ? `P${part.number}` : `Passage ${part.number}`}</strong>
+                          {!active ? <span>{partResult?.score || 0} of {partQuestions.length}</span> : null}
+                        </button>
+                        {active ? (
+                          <div className="dock-question-list result-source-dock-questions" aria-label={`Part ${part.number} 题号`}>
+                            {partQuestions.map((question) => {
+                              const status = questionReviewStatus(question);
+                              return (
+                                <button
+                                  type="button"
+                                  className={status}
+                                  key={`source-dock-${question.id}`}
+                                  onClick={() => {
+                                    setSelectedReviewQuestion(question);
+                                    document.getElementById(`question-${question.id}`)?.scrollIntoView({ behavior: "smooth", block: "center" });
+                                  }}
+                                  aria-label={`第${question.number}题，${status === "correct" ? "正确" : status === "unanswered" ? "未作答" : "错误"}`}
+                                >{question.number}</button>
+                              );
+                            })}
+                          </div>
+                        ) : null}
+                      </section>
+                    );
+                  })}
+                </div>
+              </nav>
+              <header className="result-source-active-heading">
+                <div><strong>Part {activeReviewPart.number}</strong><span>{resolvedPassageTitle(activeReviewPart) || activeReviewPart.title}</span></div>
+                <em>{activeReviewQuestions.length} 题 · {activeReviewQuestions.filter((question) => !question.is_correct).length} 题需复盘</em>
+              </header>
+              <div className="result-source-split">
+                <section className="result-source-passage" aria-label={`Part ${activeReviewPart.number} 原文`}>
+                  <header><strong>原文</strong><span>阅读题库原始内容</span></header>
+                  <div className="result-source-scroll">
+                    <ResultPassageDisplay
+                      key={`${activeReviewPart.number}:${highlightedReviewQuestions.map((question) => question.id).join(",")}:translation-${showPassageTranslations}`}
+                      part={activeReviewPart}
+                      questions={highlightedReviewQuestions}
+                      showTranslations={showPassageTranslations}
+                    />
+                  </div>
+                </section>
+                <section className="result-source-answers" aria-label={`Part ${activeReviewPart.number} 作答记录`}>
+                  <header><strong>我的作答记录</strong><span>按原做题界面只读还原</span></header>
+                  <div className="result-source-scroll result-source-exam-view">
+                    {activeReviewPart.groups.map((group, groupIndex) => {
+                      const groupResults = group.questions
+                        .map((question) => activeReviewQuestionResults.get(String(question.id)))
+                        .filter((question): question is QuestionResult => Boolean(question));
+                      if (!groupResults.length) return null;
+                      return (
+                        <section className="result-source-question-group" key={group.id || `review-${activeReviewPart.number}-${groupIndex}`}>
+                          <fieldset disabled>
+                            <QuestionGroupControl
+                              group={group}
+                              answers={activeHistoricalAnswers}
+                              flagged={{}}
+                              reviewResults={activeReviewQuestionResults}
+                              onOpenAnalysis={setSelectedReviewQuestion}
+                              onAnswer={() => undefined}
+                              onFlag={() => undefined}
+                            />
+                          </fieldset>
+                        </section>
+                      );
+                    })}
+                  </div>
+                </section>
+              </div>
+            </div>
+          ) : (
+            <div className="result-source-unavailable">
+              <strong>本次成绩和逐题答案仍可正常查看。</strong>
+              <p>原文暂时未能从题库重新载入，请返回练习记录后再次打开本条记录。</p>
+            </div>
+          )}
+        </section>
+        {showDetailedReview ? <>
+        <section className="result-section result-performance-section" id="result-performance">
+          <header className="result-section-heading"><div><span>PERFORMANCE</span><h2>分项表现</h2></div><p>先看 Part，再看题型，快速找到失分集中点。</p></header>
+          <h3>Part 表现</h3>
           <div className="part-result-grid">
             {result.part_results.map((part) => (
-              <article key={part.part_number}><span>Part {part.part_number}</span><strong>{part.score}/{part.total}</strong><small>{part.accuracy}% · {formatSeconds(part.elapsed_seconds || 0)}</small></article>
+              <article key={part.part_number}>
+                <span>Part {part.part_number}</span>
+                <strong>{part.score}/{part.total}</strong>
+                <small>{part.accuracy}% · {formatSeconds(part.elapsed_seconds || 0)}</small>
+                <div className="result-progress" aria-label={`Part ${part.part_number} 正确率 ${part.accuracy}%`}><i style={{ width: `${Math.min(100, Math.max(0, part.accuracy))}%` }} /></div>
+              </article>
             ))}
           </div>
+          <h3 className="result-type-title">题型表现</h3>
+          <div className="result-type-table-wrap">
+            <table className="result-type-table">
+              <thead><tr><th>题型</th><th>答对</th><th>总题数</th><th>正确率</th><th>表现</th></tr></thead>
+              <tbody>{typeResults.map((item) => (
+                <tr key={item.type}>
+                  <td><strong>{item.type}</strong></td>
+                  <td>{item.correct}</td>
+                  <td>{item.total}</td>
+                  <td>{item.accuracy}%</td>
+                  <td><div className="result-progress"><i style={{ width: `${Math.min(100, Math.max(0, item.accuracy))}%` }} /></div></td>
+                </tr>
+              ))}</tbody>
+            </table>
+          </div>
         </section>
-        <section className="result-section">
-          <h2>错题复盘</h2>
-          {result.wrong_questions.length ? (
-            <div className="wrong-result-list">
-              {result.wrong_questions.map((question) => (
-                <article className="wrong-result-card" key={question.id}>
-                  <div><span>Q{question.number} · {question.question_type} · 用时 {formatSeconds(question.elapsed_seconds || 0)}</span><strong>{displayMarkup(question.prompt)}</strong></div>
-                  <div className="answer-comparison"><span>你的答案：{question.user_answer || "未作答"}</span><span>正确答案：{question.correct_answer}</span></div>
-                  {question.answer_error_type === "word_limit_exceeded" ? <p className="result-warning">答案超过题目词数限制。</p> : null}
-                  {question.analysis || question.reason ? <p>{question.analysis || question.reason}</p> : null}
-                  {question.paraphrasing ? <p><b>同义替换：</b>{question.paraphrasing}</p> : null}
-                  {question.evidence?.length ? <blockquote>{question.evidence.join("\n")}</blockquote> : null}
-                </article>
-              ))}
-            </div>
-          ) : <div className="perfect-result">全部答对，本次没有错题。</div>}
-        </section>
+        </> : null}
+        {resultAnnotations.length ? (
+          <section
+            className={`result-section result-annotations${resultAnnotationsOpen ? " is-open" : " is-collapsed"}`}
+            id="result-annotations"
+          >
+            <header className="result-section-heading">
+              <div><span>MY NOTES</span><h2>我的高亮与笔记</h2></div>
+              <div className="result-annotations-heading-actions">
+                <p>只显示本次已提交并随练习记录保存的标注。</p>
+                <button
+                  type="button"
+                  className="result-section-toggle"
+                  aria-expanded={resultAnnotationsOpen}
+                  aria-controls="result-annotation-content"
+                  onClick={() => setResultAnnotationsOpen((open) => !open)}
+                >
+                  {resultAnnotationsOpen ? "收起" : `展开（${resultAnnotations.length}）`}
+                </button>
+              </div>
+            </header>
+            {resultAnnotationsOpen ? (
+              <div className="result-annotation-list" id="result-annotation-content">
+                {resultAnnotations.map((annotation) => (
+                  <article key={annotation.id}>
+                    <div><span>Part {annotation.partNumber}</span><em>{annotation.highlightLevel === "secondary" ? "二次高亮" : annotation.note ? "笔记" : "高亮"}</em></div>
+                    <blockquote>{annotation.selectedText}</blockquote>
+                    {annotation.note ? <p>{annotation.note}</p> : null}
+                  </article>
+                ))}
+              </div>
+            ) : null}
+          </section>
+        ) : null}
         <div className="result-actions">
-          <button type="button" className="secondary-button" onClick={() => { setScreen("library"); setResult(null); }}>返回题库</button>
+          <button type="button" className="secondary-button" onClick={() => {
+            if (historyEntrySource) {
+              window.location.assign("/history");
+              return;
+            }
+            setScreen("library");
+            setResult(null);
+          }}>{historyEntrySource ? "返回练习记录" : "返回题库"}</button>
+          {resultSessionId ? <a className="primary-button" href={sessionReportDownloadUrl(resultSessionId, "pdf")}>下载正式 PDF</a> : null}
+          {resultSessionId ? <a className="secondary-button" href={sessionReportDownloadUrl(resultSessionId, "docx")}>下载 DOCX</a> : null}
           {result.test_id ? <button type="button" className="primary-button" onClick={() => void startExam(result.test_id, result.total === 40 ? "mock_exam" : "part_practice", result.total === 40 ? [] : result.part_numbers)}>再做一次</button> : null}
         </div>
+        {selectedReviewQuestion ? (
+          <ResultQuestionAnalysisDialog
+            question={selectedReviewQuestion}
+            sessionId={resultSessionId}
+            onClose={() => setSelectedReviewQuestion(null)}
+          />
+        ) : null}
       </div>
     );
   }
@@ -1200,7 +2121,7 @@ export default function ExamWorkbench() {
           <section className="system-modal draft-manager" role="dialog" aria-modal="true" onMouseDown={(event) => event.stopPropagation()}>
             <header><div><span>LOCAL DRAFTS</span><h2>草稿管理器</h2></div><button type="button" onClick={() => setShowDrafts(false)}>关闭</button></header>
             {drafts.length ? <div>{drafts.map((draft) => (
-              <article key={draft.key}><div><strong>{draft.testTitle || draft.testId}</strong><span>{draft.mode || "练习"} · Part {(draft.partNumbers || []).join(",") || "1–3"} · 已答 {Object.keys(draft.answers || {}).length} 题</span><small>{draft.updatedAt ? formatDate(draft.updatedAt) : "旧草稿"}</small></div>
+              <article key={draft.key}><div><strong>{draft.testTitle || draft.testId}</strong><span>{draft.mode || "练习"} · Part {(draft.partNumbers || []).join(",") || "1–3"} · 已答 {Object.values(draft.answers || {}).filter(answerIsPresent).length} 题 · 标记 {Object.values(draft.flagged || {}).filter(Boolean).length} 题 · 标注 {draft.annotations?.length || 0} 条</span><small>{draft.updatedAt ? formatDate(draft.updatedAt) : "旧草稿"}</small></div>
                 <div className="draft-actions">
                   <button className="primary-button" type="button" onClick={() => {
                     setShowDrafts(false);
@@ -1246,8 +2167,9 @@ function optionDisplayText(option: QuestionOption): string {
 }
 
 function repairDisplayText(value: string): string {
+  // Gap-fill placeholders stored as $questionId$ (4+ digits) must render as blanks.
   return value
-    .replace(/^lt(?=\s)/, "It")
+    .replace(/\$\d{4,}\$/g, "_____")
     .replace(/([.!?])(?=[A-Z][a-z])/g, "$1 ");
 }
 
@@ -1264,19 +2186,601 @@ function displayMarkup(value: string) {
     });
 }
 
-function QuestionGroupControl({
+function selectionIsInside(container: HTMLElement): boolean {
+  const selection = window.getSelection();
+  if (!selection || selection.isCollapsed || selection.rangeCount !== 1) return false;
+  const common = selection.getRangeAt(0).commonAncestorContainer;
+  const commonElement = common.nodeType === Node.ELEMENT_NODE
+    ? common as Element
+    : common.parentElement;
+  return Boolean(commonElement && container.contains(commonElement));
+}
+
+function preventAnswerToggleForSelection(event: ReactMouseEvent<HTMLElement>) {
+  if (!selectionIsInside(event.currentTarget)) return;
+  event.preventDefault();
+  event.stopPropagation();
+}
+
+function prepareMatchingTextSelection(event: ReactPointerEvent<HTMLDivElement>) {
+  if (!(event.target as Element).closest(".question-annotation-unit")) return;
+  const card = event.currentTarget;
+  card.draggable = false;
+  const restore = () => {
+    card.draggable = true;
+    window.removeEventListener("pointerup", restore);
+    window.removeEventListener("pointercancel", restore);
+  };
+  window.addEventListener("pointerup", restore, { once: true });
+  window.addEventListener("pointercancel", restore, { once: true });
+}
+
+function sourceQuestionsForGroup(group: PublicQuestionGroup, source: SourceQuestionGroup): PublicQuestion[] {
+  const start = Number(source.display_start || 0);
+  const end = Number(source.display_end || start);
+  const indexStart = Number(source.start_index || 0);
+  const indexEnd = Number(source.end_index || indexStart);
+  const displayMatched = group.questions.filter((question) => {
+    const number = Number(question.display_number ?? question.number);
+    return Number.isFinite(number) && start > 0 && number >= start && number <= end;
+  });
+  const indexMatched = group.questions.filter((question) => {
+    const number = Number(question.display_number ?? question.number);
+    return Number.isFinite(number) && indexStart > 0 && number >= indexStart && number <= indexEnd;
+  });
+  const singleSourceGroup = (group.source_question_groups?.length || 0) <= 1;
+  if (singleSourceGroup && indexMatched.length > displayMatched.length) return indexMatched;
+  return displayMatched.length ? displayMatched : group.questions;
+}
+
+function escapeSourceAttribute(value: unknown): string {
+  return String(value ?? "")
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
+function sourceQuestionsHtmlWithControls(
+  source: SourceQuestionGroup,
+  questions: PublicQuestion[]
+): string {
+  let slot = 0;
+  const control = () => {
+    const question = questions[Math.min(slot, Math.max(0, questions.length - 1))];
+    slot += 1;
+    if (!question) return "";
+    const id = String(question.id);
+    return `<input id="question-${escapeSourceAttribute(id)}" data-source-answer-id="${escapeSourceAttribute(id)}" autocomplete="off" spellcheck="false" aria-label="第${questionNumber(question)}题答案">`;
+  };
+  let rendered = String(source.questions_html || "").replace(/(?:\.{4,}|_{4,})/g, control);
+  if (slot === 0 && questions.length) {
+    rendered += `<div class="source-fallback-controls">${questions.map(() => control()).join("")}</div>`;
+  }
+  return rendered;
+}
+
+function SourceHtmlQuestionBlock({
+  group,
+  source,
+  answers,
+  flagged,
+  reviewResults,
+  onAnswer,
+  onFlag
+}: {
+  group: PublicQuestionGroup;
+  source: SourceQuestionGroup;
+  answers: Record<string, AnswerValue>;
+  flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
+  onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
+  onFlag: (questionIds: string | string[]) => void;
+}) {
+  const onOpenAnalysis = useContext(ReviewAnalysisContext);
+  const questions = useMemo(() => sourceQuestionsForGroup(group, source), [group, source]);
+  const rendered = useMemo(
+    () => sourceQuestionsHtmlWithControls(source, questions),
+    [questions, source]
+  );
+  const contentRef = useRef<HTMLDivElement>(null);
+  useEffect(() => {
+    const content = contentRef.current;
+    if (!content) return undefined;
+    const handleSourceControl = (event: Event) => {
+      const target = event.target;
+      if (!(target instanceof HTMLInputElement)) return;
+      const id = target.dataset.sourceAnswerId;
+      if (id) onAnswer(id, target.value);
+    };
+    content.addEventListener("input", handleSourceControl);
+    content.addEventListener("change", handleSourceControl);
+    return () => {
+      content.removeEventListener("input", handleSourceControl);
+      content.removeEventListener("change", handleSourceControl);
+    };
+  }, [onAnswer]);
+  useEffect(() => {
+    const content = contentRef.current;
+    if (!content) return;
+    content.querySelectorAll(".question-analysis-link--source").forEach((element) => element.remove());
+    for (const control of content.querySelectorAll<HTMLInputElement>("input[data-source-answer-id]")) {
+      const id = control.dataset.sourceAnswerId;
+      const value = id ? answers[id] : "";
+      const nextValue = typeof value === "string" ? value : "";
+      if (control.value !== nextValue) control.value = nextValue;
+      if (id && flagged[id]) control.dataset.flagged = "true";
+      else delete control.dataset.flagged;
+      const reviewResult = id ? reviewResults?.get(id) : undefined;
+      if (reviewResult) {
+        const reviewStatus = questionReviewStatus(reviewResult);
+        control.dataset.reviewStatus = reviewStatus;
+        control.placeholder = reviewStatus === "unanswered" ? "未作答" : "";
+        if (onOpenAnalysis) {
+          const link = document.createElement("a");
+          link.className = "question-analysis-link question-analysis-link--source";
+          link.href = `#question-${reviewResult.id}`;
+          link.setAttribute("role", "button");
+          link.setAttribute("aria-label", `查看第${reviewResult.number}题解释`);
+          link.textContent = "解释";
+          link.addEventListener("click", (event) => {
+            event.preventDefault();
+            onOpenAnalysis(reviewResult);
+          });
+          control.insertAdjacentElement("afterend", link);
+        }
+      } else {
+        delete control.dataset.reviewStatus;
+        control.placeholder = "";
+      }
+    }
+    return () => content.querySelectorAll(".question-analysis-link--source").forEach((element) => element.remove());
+  }, [answers, flagged, onOpenAnalysis, rendered, reviewResults]);
+  const sourceContent = (
+    <StableHtmlDiv
+      className="source-questions-content question-annotation-unit"
+      contentRef={contentRef}
+      html={rendered}
+    />
+  );
+  const reviewQuestions = questions
+    .map((question) => reviewResults?.get(String(question.id)))
+    .filter((question): question is QuestionResult => Boolean(question));
+  return (
+    <>
+      {sourceContent}
+      {questions.length ? (
+        <div className="source-flag-controls" aria-label="标记题目">
+          {questions.map((question) => {
+            const id = String(question.id);
+            const marked = Boolean(flagged[id]);
+            return (
+              <button
+                type="button"
+                className={marked ? "flag-button active" : "flag-button"}
+                aria-pressed={marked}
+                key={`source-flag-${id}`}
+                onClick={() => onFlag(id)}
+              >
+                <span>Q{questionNumber(question)}</span>
+                {marked ? "取消标记" : "标记此题"}
+              </button>
+            );
+          })}
+        </div>
+      ) : null}
+      {reviewQuestions.length ? (
+        <div className="source-html-answer-review-summary" aria-label="填空题答案对照">
+          <div className="correct-answers">
+            <b>正确答案：</b>
+            {reviewQuestions.map((question) => (
+              <span className="source-answer-summary-item" key={`source-correct-${question.id}`}>
+                <span>Q{question.number}</span>
+                <strong>{reviewValueText(question.correct_answer) || "题库暂未提供"}</strong>
+              </span>
+            ))}
+          </div>
+          <div className="submitted-answers">
+            <b>我的答案：</b>
+            {reviewQuestions.map((question) => {
+              const status = questionReviewStatus(question);
+              return (
+                <span className={`source-answer-summary-item ${status}`} key={`source-submitted-${question.id}`}>
+                  <span>Q{question.number}</span>
+                  <strong>{reviewValueText(question.user_answer) || "未作答"}</strong>
+                </span>
+              );
+            })}
+          </div>
+        </div>
+      ) : null}
+    </>
+  );
+}
+
+function sourceOptionDescription(option: { index?: string; content_html?: string }): string {
+  const code = String(option?.index || "").trim();
+  const text = String(option?.content_html || "")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;/gi, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  if (!text || text.localeCompare(code, undefined, { sensitivity: "accent" }) === 0) return "";
+  if (text.localeCompare(`Section ${code}`, undefined, { sensitivity: "accent" }) === 0) return "";
+  if (text.localeCompare(`Paragraph ${code}`, undefined, { sensitivity: "accent" }) === 0) return "";
+  return text;
+}
+
+type SourceMatchingExampleRow = {
+  label: string;
+  answer: string;
+};
+
+function sourceHtmlTextLines(html: string): string[] {
+  return String(html || "")
+    .replace(/<br\s*\/?>/gi, "\n")
+    .replace(/<\/(?:p|div|li|tr|h[1-6])>/gi, "\n")
+    .replace(/<[^>]+>/g, " ")
+    .replace(/&nbsp;|&#160;|&#x0*a0;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&lt;/gi, "<")
+    .replace(/&gt;/gi, ">")
+    .split(/\r?\n/)
+    .map((line) => repairDisplayText(line).replace(/\s+/g, " ").trim())
+    .filter(Boolean);
+}
+
+function sourceMatchingExampleRows(source: SourceQuestionGroup): SourceMatchingExampleRow[] {
+  const optionCodes = (source.match_options || [])
+    .map((option) => String(option.index || "").trim())
+    .filter(Boolean);
+  if (!optionCodes.length) return [];
+
+  const optionCode = new Map(optionCodes.map((code) => [code.toLocaleLowerCase(), code]));
+  const parseRow = (line: string): SourceMatchingExampleRow | null => {
+    const match = line.match(/^(.*?)\s+(\S+)\s*$/);
+    if (!match) return null;
+    const label = match[1].trim();
+    const rawAnswer = match[2].replace(/[.,;:]$/, "");
+    if (!label || !optionCode.has(rawAnswer.toLocaleLowerCase())) return null;
+    return { label, answer: rawAnswer };
+  };
+
+  const lines = sourceHtmlTextLines(source.questions_html || "");
+  const rows: SourceMatchingExampleRow[] = [];
+  for (let index = 0; index < lines.length; index += 1) {
+    const line = lines[index];
+    if (!/^Example\s*:?\b/i.test(line)) continue;
+
+    const inline = line.match(/^Example\s*:?\s*(.*?)\s+Answer\s*:?\s*(\S+)\s*$/i);
+    if (inline) {
+      const row = parseRow(`${inline[1]} ${inline[2]}`);
+      if (row) rows.push(row);
+      continue;
+    }
+
+    if (/^Example\s*:?\s*Answer\s*:?$/i.test(line)) {
+      const row = parseRow(lines[index + 1] || "");
+      if (row) rows.push(row);
+    }
+  }
+  return rows.filter((row, index) => (
+    rows.findIndex((candidate) => candidate.label === row.label && candidate.answer === row.answer) === index
+  ));
+}
+
+function SourceMatchingMatrix({
+  group,
+  source,
+  answers,
+  flagged,
+  reviewResults,
+  onAnswer,
+  onFlag
+}: {
+  group: PublicQuestionGroup;
+  source: SourceQuestionGroup;
+  answers: Record<string, AnswerValue>;
+  flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
+  onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
+  onFlag: (questionIds: string | string[]) => void;
+}) {
+  const questions = sourceQuestionsForGroup(group, source);
+  const options = source.match_options || [];
+  const showOptionBank = options.some((option) => Boolean(sourceOptionDescription(option)));
+  const exampleRows = sourceMatchingExampleRows(source);
+  return (
+    <>
+      {exampleRows.length ? (
+        <div className="source-matching-example" role="group" aria-label="示例答案">
+          <div className="source-matching-example-header">
+            <span>Example:</span>
+            <span>Answer</span>
+          </div>
+          {exampleRows.map((row) => (
+            <div className="source-matching-example-row" key={`${row.label}-${row.answer}`}>
+              <span className="question-annotation-unit">{row.label}</span>
+              <strong className="question-annotation-unit">{row.answer}</strong>
+            </div>
+          ))}
+        </div>
+      ) : null}
+      {showOptionBank ? (
+        <aside className="source-option-bank">
+          {source.options_title ? <strong>{source.options_title}</strong> : null}
+          {options.map((option) => (
+            <div key={`${source.position}-${option.index}`}>
+              <b>{option.index}</b>
+              <StableHtmlSpan className="question-annotation-unit" html={option.content_html || ""} />
+            </div>
+          ))}
+        </aside>
+      ) : null}
+      <div className="source-matching-matrix-wrap" role="region" aria-label="匹配题答题表" tabIndex={0}>
+        <table className="source-matching-matrix">
+          <thead>
+            <tr>
+              <th scope="col"><span className="sr-only">题目</span></th>
+              {options.map((option) => <th scope="col" key={option.index}>{option.index}</th>)}
+            </tr>
+          </thead>
+          <tbody>
+            {questions.map((question) => {
+              const id = String(question.id);
+              const value = answers[id];
+              const marked = Boolean(flagged[id]);
+              return (
+                <tr id={`question-${id}`} key={id} className={`${answerIsPresent(value) ? "answered" : ""}${marked ? " flagged" : ""}`}>
+                  <th scope="row">
+                    <div className="source-matrix-question-heading">
+                      <span>
+                        <span className="source-matrix-question-number">{questionNumber(question)}</span>
+                        <span className="question-annotation-unit">{displayMarkup(question.prompt)}</span>
+                      </span>
+                      <button
+                        type="button"
+                        className={marked ? "flag-button active" : "flag-button"}
+                        aria-pressed={marked}
+                        onClick={() => onFlag(id)}
+                      >
+                        {marked ? "取消标记" : "标记此题"}
+                      </button>
+                    </div>
+                    <InlineQuestionReview question={reviewResults?.get(id)} />
+                  </th>
+                  {options.map((option) => {
+                    const code = String(option.index || "");
+                    return (
+                      <td key={code}>
+                        <label className="source-matrix-radio">
+                          <input
+                            type="radio"
+                            name={`source-answer-${id}`}
+                            checked={value === code}
+                            onChange={() => onAnswer(id, code)}
+                          />
+                          <span aria-hidden="true" />
+                          <span className="sr-only">第{questionNumber(question)}题选择 {code}</span>
+                        </label>
+                      </td>
+                    );
+                  })}
+                </tr>
+              );
+            })}
+          </tbody>
+        </table>
+      </div>
+    </>
+  );
+}
+
+function SourceStructuredQuestionBlock({
+  group,
+  source,
+  answers,
+  flagged,
+  reviewResults,
+  onAnswer,
+  onFlag
+}: {
+  group: PublicQuestionGroup;
+  source: SourceQuestionGroup;
+  answers: Record<string, AnswerValue>;
+  flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
+  onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
+  onFlag: (questionIds: string | string[]) => void;
+}) {
+  const questions = sourceQuestionsForGroup(group, source);
+  const sourceQuestions = source.structured_questions || [];
+  const questionType = Number(source.question_type);
+  return (
+    <>
+      {sourceQuestions.map((sourceQuestion, index) => {
+        const question = questions[Math.min(index, Math.max(0, questions.length - 1))];
+        if (!question) return null;
+        const id = String(question.id);
+        const inferredSharedResponse = questionType === 2
+          && sourceQuestions.length === 1
+          && questions.length > 1;
+        const answerIds = inferredSharedResponse || (questionType === 2 && group.shared_response)
+          ? questions.map((item) => String(item.id))
+          : [id];
+        const sourceReviewResults = answerIds
+          .map((answerId) => reviewResults?.get(answerId))
+          .filter((result): result is QuestionResult => Boolean(result));
+        const value = answerIds.map((answerId) => answers[answerId]).find(Array.isArray)
+          || answers[answerIds[0]];
+        const selected = Array.isArray(value) ? value : [];
+        const displayNumber = questionType === 2 && answerIds.length > 1
+          ? `${questionNumber(questions[0])}–${questionNumber(questions[questions.length - 1])}`
+          : String(questionNumber(question));
+        const marked = answerIds.some((answerId) => Boolean(flagged[answerId]));
+        const answered = answerIsPresent(value);
+        return (
+          <article className={`source-question-row${marked ? " flagged" : ""}${answered ? " answered" : ""}`} id={`question-${id}`} key={`${source.position}-${id}-${index}`}>
+            <div className="source-question-prompt">
+              <strong>{displayNumber}</strong>
+              <StableHtmlSpan className="question-annotation-unit" html={sourceQuestion.content_html || ""} />
+              <div className="source-question-tools">
+                <button
+                  type="button"
+                  className={marked ? "flag-button active" : "flag-button"}
+                  aria-pressed={marked}
+                  onClick={() => onFlag(answerIds)}
+                >
+                  {marked ? "取消标记" : "标记此题"}
+                </button>
+              </div>
+            </div>
+            <div className="source-answer-options">
+              {(sourceQuestion.options || []).map((option, optionIndex) => {
+                const optionText = String(option.content_html || "").replace(/<[^>]+>/g, "").trim();
+                const code = questionType === 1 || questionType === 2
+                  ? String.fromCharCode(65 + optionIndex)
+                  : optionText;
+                const checked = questionType === 2 ? selected.includes(code) : value === code;
+                return (
+                  <label
+                    className={answerReviewClass(code, sourceReviewResults).trim()}
+                    key={`${id}-${code}-${optionIndex}`}
+                    onClickCapture={preventAnswerToggleForSelection}
+                  >
+                    <input
+                      type={questionType === 2 ? "checkbox" : "radio"}
+                      name={`source-answer-${id}`}
+                      checked={checked}
+                      onChange={(event) => {
+                        if (questionType !== 2) {
+                          onAnswer(answerIds, code);
+                          return;
+                        }
+                        const requiredChoices = Number(source.required_choices || group.required_choices || 0);
+                        if (event.target.checked && requiredChoices > 0 && selected.length >= requiredChoices) {
+                          return;
+                        }
+                        const next = event.target.checked
+                          ? [...selected.filter((item) => item !== code), code]
+                          : selected.filter((item) => item !== code);
+                        onAnswer(answerIds, next);
+                      }}
+                    />
+                    {questionType === 1 || questionType === 2 ? <b>{code}</b> : null}
+                    <StableHtmlSpan className="question-annotation-unit" html={option.content_html || ""} />
+                  </label>
+                );
+              })}
+            </div>
+            {answerIds.length > 1
+              ? <QuestionReviewActions results={sourceReviewResults} />
+              : <InlineQuestionReview question={reviewResults?.get(id)} />}
+          </article>
+        );
+      })}
+    </>
+  );
+}
+
+function SourceQuestionGroupControl({
   group,
   answers,
   flagged,
+  reviewResults,
   onAnswer,
   onFlag
 }: {
   group: PublicQuestionGroup;
   answers: Record<string, AnswerValue>;
   flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
   onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
   onFlag: (questionIds: string | string[]) => void;
 }) {
+  return (
+    <section className="question-group question-group--source">
+      {(group.source_question_groups || []).map((source) => (
+        <section
+          className="source-question-block"
+          data-source-question-type={source.question_type}
+          data-source-interaction-mode={source.interaction_mode || ""}
+          key={`${source.position}-${source.navigation || "source"}`}
+        >
+          {source.instructions_html ? (
+            <StableHtmlDiv
+              className="question-instructions question-annotation-unit question-instructions--source"
+              html={source.instructions_html}
+            />
+          ) : null}
+          {source.interaction_mode === "matching_matrix" ? (
+            <SourceMatchingMatrix
+              group={group}
+              source={source}
+              answers={answers}
+              flagged={flagged}
+              reviewResults={reviewResults}
+              onAnswer={onAnswer}
+              onFlag={onFlag}
+            />
+          ) : source.questions_html ? (
+            <SourceHtmlQuestionBlock
+              group={group}
+              source={source}
+              answers={answers}
+              flagged={flagged}
+              reviewResults={reviewResults}
+              onAnswer={onAnswer}
+              onFlag={onFlag}
+            />
+          ) : (
+            <SourceStructuredQuestionBlock
+              group={group}
+              source={source}
+              answers={answers}
+              flagged={flagged}
+              reviewResults={reviewResults}
+              onAnswer={onAnswer}
+              onFlag={onFlag}
+            />
+          )}
+        </section>
+      ))}
+    </section>
+  );
+}
+
+function QuestionGroupControl({
+  group,
+  answers,
+  flagged,
+  reviewResults,
+  onOpenAnalysis,
+  onAnswer,
+  onFlag
+}: {
+  group: PublicQuestionGroup;
+  answers: Record<string, AnswerValue>;
+  flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
+  onOpenAnalysis?: (question: QuestionResult) => void;
+  onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
+  onFlag: (questionIds: string | string[]) => void;
+}) {
+  if (group.source_question_groups?.length) {
+    return (
+      <ReviewAnalysisContext.Provider value={onOpenAnalysis || null}>
+        <SourceQuestionGroupControl
+          group={group}
+          answers={answers}
+          flagged={flagged}
+          reviewResults={reviewResults}
+          onAnswer={onAnswer}
+          onFlag={onFlag}
+        />
+      </ReviewAnalysisContext.Provider>
+    );
+  }
   const subtype = group.question_subtype || group.question_type;
   const matching = subtype.startsWith("matching_");
   const firstQuestion = group.questions[0];
@@ -1287,6 +2791,7 @@ function QuestionGroupControl({
     .includes(subtype) && Boolean(group.content_template || group.table?.rows?.length || group.table?.content?.length);
 
   return (
+    <ReviewAnalysisContext.Provider value={onOpenAnalysis || null}>
     <section className={`question-group question-group--${matching ? "matching" : subtype}`}>
       <QuestionInstructions group={group} />
 
@@ -1295,6 +2800,7 @@ function QuestionGroupControl({
           group={group}
           answers={answers}
           flagged={flagged}
+          reviewResults={reviewResults}
           onAnswer={onAnswer}
           onFlag={onFlag}
         />
@@ -1303,27 +2809,42 @@ function QuestionGroupControl({
           <table className="matching-answer-matrix">
             <thead>
               <tr>
-                <th scope="col">题目</th>
+                <th scope="col"><span className="sr-only">题目</span></th>
                 {groupOptions.map((option) => <th scope="col" key={option.code}>{option.code}</th>)}
-                <th scope="col">标记</th>
               </tr>
             </thead>
             <tbody>
               {group.questions.map((question) => {
                 const id = String(question.id);
                 const value = answers[id];
+                const reviewResult = reviewResults?.get(id);
+                const reviewStatus = reviewResult && !reviewResult.is_correct
+                  ? questionReviewStatus(reviewResult)
+                  : "";
                 return (
                   <tr
                     key={id}
                     id={`question-${id}`}
-                    className={`${answerIsPresent(value) ? "answered" : ""}${flagged[id] ? " flagged" : ""}`}
+                    className={`${answerIsPresent(value) ? "answered" : ""}${flagged[id] ? " flagged" : ""}${reviewStatus ? ` review-${reviewStatus}` : ""}`}
                   >
                     <th scope="row">
                       <span className="matrix-question-number">{questionNumber(question)}</span>
                       <span className="question-annotation-unit">{displayMarkup(question.prompt)}</span>
+                      <InlineQuestionReview question={reviewResult} />
+                      <span className="matrix-row-tools">
+                        <button type="button" className={flagged[id] ? "flag-button active" : "flag-button"} onClick={() => onFlag(id)}>
+                          {flagged[id] ? "已标" : "标记"}
+                        </button>
+                        {answerIsPresent(value) ? <button type="button" className="clear-answer" onClick={() => onAnswer(id, "")}>清除</button> : null}
+                      </span>
                     </th>
                     {groupOptions.map((option) => (
-                      <td key={option.code}>
+                      <td
+                        className={reviewResult && !reviewResult.is_correct
+                          ? answerReviewClass(option.code, [reviewResult]).trim()
+                          : ""}
+                        key={option.code}
+                      >
                         <label className="matrix-answer-radio">
                           <input
                             type="radio"
@@ -1336,14 +2857,6 @@ function QuestionGroupControl({
                         </label>
                       </td>
                     ))}
-                    <td>
-                      <div className="matrix-row-tools">
-                        <button type="button" className={flagged[id] ? "flag-button active" : "flag-button"} onClick={() => onFlag(id)}>
-                          {flagged[id] ? "已标" : "标记"}
-                        </button>
-                        {answerIsPresent(value) ? <button type="button" className="clear-answer" onClick={() => onAnswer(id, "")}>清除</button> : null}
-                      </div>
-                    </td>
                   </tr>
                 );
               })}
@@ -1357,6 +2870,7 @@ function QuestionGroupControl({
           options={groupOptions}
           answers={answers}
           flagged={flagged}
+          reviewResults={reviewResults}
           onAnswer={onAnswer}
           onFlag={onFlag}
         />
@@ -1371,6 +2885,9 @@ function QuestionGroupControl({
               question={controlQuestion(group, question)}
               value={answers[answerIds[0]]}
               flagged={answerIds.some((questionId) => Boolean(flagged[questionId]))}
+              reviewResults={answerIds
+                .map((questionId) => reviewResults?.get(questionId))
+                .filter((result): result is QuestionResult => Boolean(result))}
               onChange={(value) => onAnswer(answerIds, value)}
               onFlag={() => onFlag(answerIds)}
             />
@@ -1378,6 +2895,7 @@ function QuestionGroupControl({
         })
       )}
     </section>
+    </ReviewAnalysisContext.Provider>
   );
 }
 
@@ -1386,6 +2904,7 @@ function MatchingTextGroup({
   options,
   answers,
   flagged,
+  reviewResults,
   onAnswer,
   onFlag
 }: {
@@ -1393,6 +2912,7 @@ function MatchingTextGroup({
   options: QuestionOption[];
   answers: Record<string, AnswerValue>;
   flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
   onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
   onFlag: (questionIds: string | string[]) => void;
 }) {
@@ -1442,6 +2962,7 @@ function MatchingTextGroup({
                 tabIndex={0}
                 draggable
                 aria-selected={selected}
+                onPointerDown={prepareMatchingTextSelection}
                 onDragStart={(event) => {
                   event.dataTransfer.effectAllowed = optionReuse ? "copy" : "move";
                   event.dataTransfer.setData("text/plain", option.code);
@@ -1468,9 +2989,14 @@ function MatchingTextGroup({
           const id = String(question.id);
           const code = String(answers[id] || "");
           const chosen = optionMap.get(code);
+          const chosenText = chosen ? optionDisplayText(chosen) : "";
+          const reviewResult = reviewResults?.get(id);
+          const reviewStatus = reviewResult && !reviewResult.is_correct
+            ? questionReviewStatus(reviewResult)
+            : "";
           return (
             <article
-              className={`matching-question-row${code ? " answered" : ""}${flagged[id] ? " flagged" : ""}`}
+              className={`matching-question-row${code ? " answered" : ""}${flagged[id] ? " flagged" : ""}${reviewStatus ? ` review-${reviewStatus}` : ""}`}
               id={`question-${id}`}
               key={id}
             >
@@ -1490,19 +3016,23 @@ function MatchingTextGroup({
                     placeholder={`${questionNumber(question)} 拖拽或输入选项字母`}
                     autoComplete="off"
                     spellCheck={false}
-                    aria-label={`第${questionNumber(question)}题答案框`}
+                    aria-label={`第${questionNumber(question)}题答案框${chosenText ? `，已选择 ${code} ${chosenText}` : ""}`}
+                    onFocus={(event) => {
+                      if (chosen) event.currentTarget.select();
+                    }}
                     onChange={(event) => {
                       const nextCode = event.target.value.trim().toUpperCase();
                       if (!nextCode) onAnswer(id, "");
                       else if (optionMap.has(nextCode)) assignAnswer(id, nextCode);
                     }}
                   />
-                  {chosen ? <span className="sr-only">{optionDisplayText(chosen)}</span> : null}
+                  {chosenText ? <span className="matching-answer-description">· {chosenText}</span> : null}
                 </div>
                 {chosen ? (
                   <button type="button" className="matching-answer-clear" onClick={() => onAnswer(id, "")} aria-label={`清除第${questionNumber(question)}题答案`}>×</button>
                 ) : null}
               </div>
+              <InlineQuestionReview question={reviewResult} />
               <button type="button" className={flagged[id] ? "flag-button active" : "flag-button"} onClick={() => onFlag(id)}>
                 {flagged[id] ? "取消标记" : "标记此题"}
               </button>
@@ -1519,6 +3049,7 @@ function StructuredTemplate({
   questions,
   answers,
   flagged,
+  reviewResults,
   onAnswer,
   onFlag
 }: {
@@ -1526,12 +3057,13 @@ function StructuredTemplate({
   questions: Map<string, PublicQuestion>;
   answers: Record<string, AnswerValue>;
   flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
   onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
   onFlag: (questionIds: string | string[]) => void;
 }) {
   return (
     <>
-      {String(text || "").split(/(\$[^$]+\$)/g).map((part, index) => {
+      {structuredTemplateParts(text, questions).map((part, index) => {
         const match = part.match(/^\$([^$]+)\$$/);
         if (!match) return <span key={`copy-${index}`}>{displayMarkup(part)}</span>;
         const id = match[1];
@@ -1539,26 +3071,28 @@ function StructuredTemplate({
         if (!question) return <span key={`missing-${id}-${index}`}>_____</span>;
         const value = answers[id];
         return (
-          <span
-            className={`inline-answer-wrap${flagged[id] ? " flagged" : ""}${answerIsPresent(value) ? " answered" : ""}`}
-            id={`question-${id}`}
-            key={`answer-${id}-${index}`}
-          >
-            <label>
-              <span className="inline-answer-number">{questionNumber(question)}</span>
-              <input
-                value={typeof value === "string" ? value : ""}
-                onChange={(event) => onAnswer(id, event.target.value)}
-                autoComplete="off"
-                spellCheck={false}
-                aria-label={`第${questionNumber(question)}题答案`}
-              />
-            </label>
-            {answerIsPresent(value) ? (
-              <button type="button" className="inline-answer-tool clear" onClick={() => onAnswer(id, "")} aria-label={`清除第${questionNumber(question)}题答案`}>×</button>
-            ) : null}
-            <button type="button" className="inline-answer-tool flag" onClick={() => onFlag(id)} aria-label={`${flagged[id] ? "取消" : ""}标记第${questionNumber(question)}题`}>⚑</button>
-          </span>
+          <Fragment key={`answer-${id}-${index}`}>
+            <span
+              className={`inline-answer-wrap${flagged[id] ? " flagged" : ""}${answerIsPresent(value) ? " answered" : ""}`}
+              id={`question-${id}`}
+            >
+              <label>
+                <span className="inline-answer-number">{questionNumber(question)}</span>
+                <input
+                  value={typeof value === "string" ? value : ""}
+                  onChange={(event) => onAnswer(id, event.target.value)}
+                  autoComplete="off"
+                  spellCheck={false}
+                  aria-label={`第${questionNumber(question)}题答案`}
+                />
+              </label>
+              {answerIsPresent(value) ? (
+                <button type="button" className="inline-answer-tool clear" onClick={() => onAnswer(id, "")} aria-label={`清除第${questionNumber(question)}题答案`}>×</button>
+              ) : null}
+              <button type="button" className="inline-answer-tool flag" onClick={() => onFlag(id)} aria-label={`${flagged[id] ? "取消" : ""}标记第${questionNumber(question)}题`}>⚑</button>
+            </span>
+            <InlineQuestionReview question={reviewResults?.get(id)} />
+          </Fragment>
         );
       })}
     </>
@@ -1569,19 +3103,21 @@ function StructuredCompletionGroup({
   group,
   answers,
   flagged,
+  reviewResults,
   onAnswer,
   onFlag
 }: {
   group: PublicQuestionGroup;
   answers: Record<string, AnswerValue>;
   flagged: Record<string, boolean>;
+  reviewResults?: Map<string, QuestionResult>;
   onAnswer: (questionIds: string | string[], value: AnswerValue) => void;
   onFlag: (questionIds: string | string[]) => void;
 }) {
   const subtype = group.question_subtype || group.question_type;
   const questions = new Map(group.questions.map((question) => [String(question.id), question]));
   const rows = group.table?.rows?.length ? group.table.rows : group.table?.content || [];
-  const templateProps = { questions, answers, flagged, onAnswer, onFlag };
+  const templateProps = { questions, answers, flagged, reviewResults, onAnswer, onFlag };
   const diagramSource = group.image_url
     ? group.image_url.replace(/^\/static\/media\//, "/media/")
     : "";
@@ -1623,6 +3159,7 @@ function QuestionControl({
   question,
   value,
   flagged,
+  reviewResults = [],
   onChange,
   onFlag
 }: {
@@ -1630,6 +3167,7 @@ function QuestionControl({
   question: PublicQuestion;
   value: AnswerValue | undefined;
   flagged: boolean;
+  reviewResults?: QuestionResult[];
   onChange: (value: AnswerValue) => void;
   onFlag: () => void;
 }) {
@@ -1684,9 +3222,8 @@ function QuestionControl({
       {judgement ? (
         <div className="answer-options judgement-options">
           {judgement.map((option) => (
-            <label key={option} className={value === option ? "selected" : ""}>
+            <label key={option} className={`${value === option ? "selected" : ""}${answerReviewClass(option, reviewResults)}`} onClickCapture={preventAnswerToggleForSelection}>
               <input type="radio" name={`answer-${id}`} value={option} checked={value === option} onChange={() => onChange(option)} />
-              <span className="answer-control-mark radio-mark" aria-hidden="true" />
               <span className="answer-option-copy question-annotation-unit">{option}</span>
             </label>
           ))}
@@ -1701,7 +3238,7 @@ function QuestionControl({
             {options.map((option) => {
               const selected = Array.isArray(value) && value.includes(option.code);
               return (
-                <label key={option.code} className={selected ? "selected" : ""}>
+                <label key={option.code} className={`${selected ? "selected" : ""}${answerReviewClass(option.code, reviewResults)}`} onClickCapture={preventAnswerToggleForSelection}>
                   <input
                     type="checkbox"
                     checked={selected}
@@ -1711,7 +3248,6 @@ function QuestionControl({
                       else if (current.length < (requiredChoices || 2)) onChange([...current, option.code]);
                     }}
                   />
-                  <span className="answer-control-mark checkbox-mark" aria-hidden="true" />
                   <span className="answer-option-copy question-annotation-unit"><b>{option.code}</b>{optionDisplayText(option)}</span>
                 </label>
               );
@@ -1721,9 +3257,8 @@ function QuestionControl({
       ) : options.length && !matching && subtype === "multiple_choice_single" ? (
         <div className="answer-options choice-options">
           {options.map((option) => (
-            <label key={option.code} className={value === option.code ? "selected" : ""}>
+            <label key={option.code} className={`${value === option.code ? "selected" : ""}${answerReviewClass(option.code, reviewResults)}`} onClickCapture={preventAnswerToggleForSelection}>
               <input type="radio" name={`answer-${id}`} checked={value === option.code} onChange={() => onChange(option.code)} />
-              <span className="answer-control-mark radio-mark" aria-hidden="true" />
               <span className="answer-option-copy question-annotation-unit"><b>{option.code}</b>{optionDisplayText(option)}</span>
             </label>
           ))}
@@ -1737,6 +3272,7 @@ function QuestionControl({
           </select>
         </label>
       ) : null}
+      <QuestionReviewActions results={reviewResults} />
     </article>
   );
 }

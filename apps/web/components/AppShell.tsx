@@ -3,7 +3,14 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState, type ReactNode } from "react";
-import { fetchAiProviderStatus, fetchTests, selectAiProvider, type AiProviderStatus } from "@/lib/api";
+import {
+  fetchAiProviderStatus,
+  fetchQuestionBankStatus,
+  fetchTests,
+  selectAiProvider,
+  type AiProviderStatus,
+  type QuestionBankMigrationStatus
+} from "@/lib/api";
 
 const NAV_ITEMS = [
   { href: "/", label: "学习总览", icon: "home" },
@@ -11,11 +18,11 @@ const NAV_ITEMS = [
   { href: "/history", label: "练习记录", icon: "history" },
   { href: "/review", label: "错题复盘", icon: "review" },
   { href: "/reports", label: "阶段报告", icon: "report" },
-  { href: "/methods", label: "做题方法", icon: "book" },
-  { href: "/ability", label: "能力训练", icon: "grid" },
+  { href: "/methods", label: "方法课程", icon: "book" },
+  { href: "/ability", label: "专项训练", icon: "grid" },
   { href: "/plan", label: "学习计划", icon: "calendar" },
   { href: "/sentences", label: "长难句", icon: "sentence" },
-  { href: "/vocabulary", label: "词汇本", icon: "vocabulary" },
+  { href: "/vocabulary", label: "生词本", icon: "vocabulary" },
   { href: "/teacher", label: "老师作业", icon: "teacher" },
   { href: "/diagnosis", label: "学习诊断", icon: "diagnosis" },
   { href: "/support", label: "设置与帮助", icon: "settings" }
@@ -48,6 +55,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
   const [providerSaving, setProviderSaving] = useState("");
   const [providerError, setProviderError] = useState("");
   const [libraryStats, setLibraryStats] = useState<{ tests: number; parts: number; questions: number } | null>(null);
+  const [libraryStatus, setLibraryStatus] = useState<QuestionBankMigrationStatus | null>(null);
   const activeItem = NAV_ITEMS.find((item) => item.href === "/" ? pathname === "/" : pathname.startsWith(item.href));
 
   useEffect(() => {
@@ -66,6 +74,9 @@ export default function AppShell({ children }: { children: ReactNode }) {
         questions: tests.reduce((total, test) => total + Number(test.question_count || 0), 0)
       }))
       .catch(() => setLibraryStats(null));
+    void fetchQuestionBankStatus(controller.signal)
+      .then(setLibraryStatus)
+      .catch(() => setLibraryStatus(null));
     return () => controller.abort();
   }, []);
 
@@ -97,7 +108,7 @@ export default function AppShell({ children }: { children: ReactNode }) {
       <aside className={mobileMenuOpen ? "sidebar mobile-open" : "sidebar"} aria-label="主导航">
         <Link className="brand" href="/">
           <span className="brand-mark" aria-hidden="true"><NavIcon name="book" /></span>
-          <span><strong>IELTS G类阅读</strong><small>AI 教练版 <b>V0.5</b></small></span>
+          <span><strong>IELTS G类阅读</strong><small>AI 教练版 <b>V1.0</b></small></span>
         </Link>
         <button
           type="button"
@@ -121,7 +132,21 @@ export default function AppShell({ children }: { children: ReactNode }) {
           })}
         </nav>
         <div className="sidebar-footer">
-          <div className="library-ready"><span />{libraryStats ? `${libraryStats.tests}套题库可用` : "正在核对题库"}<strong>{libraryStats ? `${libraryStats.parts} Parts · ${libraryStats.questions.toLocaleString("zh-CN")}题` : "由后端校验可用内容"}</strong></div>
+          <div className={libraryStatus && !libraryStatus.ready ? "library-ready incomplete" : "library-ready"}>
+            <span />
+            {libraryStatus
+              ? `${libraryStatus.found_tests}/${libraryStatus.expected_tests}套题库已安装`
+              : libraryStats
+                ? `${libraryStats.tests}套题库可用`
+                : "正在核对题库"}
+            <strong>
+              {libraryStatus && !libraryStatus.ready
+                ? `缺少${libraryStatus.missing_test_ids.length}套私有题库，请先完成安装校验`
+                : libraryStats
+                  ? `${libraryStats.parts} Parts · ${libraryStats.questions.toLocaleString("zh-CN")}题`
+                  : "由后端校验可用内容"}
+            </strong>
+          </div>
           <p>个人本地学习空间</p>
         </div>
       </aside>

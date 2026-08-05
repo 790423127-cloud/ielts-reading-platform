@@ -69,7 +69,7 @@
         {
           "label": "",
           "index": 10,
-          "text": "Daily care fees are set by the organisation that provides your transition care services(your service provider). They should explain these fees to you, and the amount charged should form part of the agreement between you and the service provider.The fee is calculated on a daily basis.",
+          "text": "Daily care fees are set by the organisation that provides your transition care services(your service provider). They should explain these fees to you, and the amount charged should form part of the agreement between you and the service provider. The fee is calculated on a daily basis.",
           "translation": "每日护理费用由为您提供过渡护理服务的机构（您的服务提供商）设定。\n他们应向您解释这些费用，且所收取的金额应构成您与服务提供商之间协议的一部分。\n该费用按日计算。"
         },
         {
@@ -131,7 +131,7 @@
         {
           "label": "",
           "index": 20,
-          "text": "The Lightglide has two external pockets, both of which are zipped and lockable, but the inside pocket does not zip. In tests, we found the contents remain dry when given a good soaking, even around the zips. The trolley handle has a choice of two heights and the plastic hand grip doesn't have any sharp ridges that'll make your hands sore.For carrying there are fabric handles at the top and side.",
+          "text": "The Lightglide has two external pockets, both of which are zipped and lockable, but the inside pocket does not zip. In tests, we found the contents remain dry when given a good soaking, even around the zips. The trolley handle has a choice of two heights and the plastic hand grip doesn't have any sharp ridges that'll make your hands sore. For carrying there are fabric handles at the top and side.",
           "translation": "Lightglide有两个外部口袋，均配有拉链并可上锁，但内部口袋没有拉链。\n在测试中，我们发现即使经过充分浸泡，包内物品也能保持干燥，甚至连拉链周围也是如此。\n拉杆手柄有两种高度可选，塑料手抓柄上没有任何锋利的棱角会让你的手感到疼痛。\n手提方面，顶部和侧面都设有布质手柄。"
         },
         {
@@ -142,7 +142,7 @@
         {
           "label": "",
           "index": 22,
-          "text": "The Foxton is easy to control across most surfaces.However, the zips don't always run smoothly especially around the corners, so you may have to give them a good tug, especially if the case is very full. This is definitely one to avoid if you're going somewhere rainy as it lets loads of water in, and documents in the pockets will also get pretty wet unless they' re in plastic folders.",
+          "text": "The Foxton is easy to control across most surfaces. However, the zips don't always run smoothly especially around the corners, so you may have to give them a good tug, especially if the case is very full. This is definitely one to avoid if you're going somewhere rainy as it lets loads of water in, and documents in the pockets will also get pretty wet unless they' re in plastic folders.",
           "translation": "Foxton 包在大多数表面上都易于操控。\n不过，拉链并非总能顺滑拉动，尤其在转角处，因此你可能需要用力拉一下，特别是当箱子装得很满时。\n如果你要去多雨的地方，这款包绝对要避免，因为它会渗入大量水，口袋里的文件也会变得很湿，除非它们装在塑料文件夹中。"
         },
         {
@@ -153,7 +153,7 @@
         {
           "label": "",
           "index": 24,
-          "text": "The Skybag has a single external zipped pocket and another located inside the lid. Your clothes are kept in place by two adjustable straps.The zips are easy to grip and they run smoothly around the case.However, this cabin bag felt a little heavy to pull on all but smooth floors, and it was hard to steer compared with some of the other suitcases.",
+          "text": "The Skybag has a single external zipped pocket and another located inside the lid. Your clothes are kept in place by two adjustable straps. The zips are easy to grip and they run smoothly around the case. However, this cabin bag felt a little heavy to pull on all but smooth floors, and it was hard to steer compared with some of the other suitcases.",
           "translation": "Skybag只有一个外部拉链口袋，以及另一个位于盖子内侧的口袋。\n你的衣物由两条可调节的带子固定住。\n拉链易于抓握，并且沿箱体顺畅滑动。\n然而，这款登机包在除了光滑地板以外的地面上拉动时感觉有点重，并且与其他一些行李箱相比，转向困难。"
         },
         {
@@ -164,7 +164,7 @@
         {
           "label": "",
           "index": 26,
-          "text": "The Travelsure 35 is available in a huge range of fabric designs including leopard print or lipstick kisses.The retractable trolley handle is comfortable but can't be adjusted to suit users of different heights.There's no internal divider, but there are two handy zipped pockets in the lid. We test each bag by letting it fall onto a hard floor - and our results show that you'll have to treat this bag with great care if you want it to last. The fabric tore so badly at one of the corners that it was unusable.",
+          "text": "The Travelsure 35 is available in a huge range of fabric designs including leopard print or lipstick kisses. The retractable trolley handle is comfortable but can't be adjusted to suit users of different heights. There's no internal divider, but there are two handy zipped pockets in the lid. We test each bag by letting it fall onto a hard floor - and our results show that you'll have to treat this bag with great care if you want it to last. The fabric tore so badly at one of the corners that it was unusable.",
           "translation": "Travelsure 35 提供多种面料设计，包括豹纹或唇印图案。\n可伸缩的拉杆手柄舒适，但无法调节以适应不同身高的用户。\n没有内部隔板，但盖子上有两个方便的拉链口袋。\n我们通过将每个包摔到硬地板上来测试——结果表明，如果你希望它耐用，必须非常小心地对待这个包。\n面料在一个角落处严重撕裂，导致无法使用。"
         }
       ],
@@ -354,7 +354,7 @@
               "analysis": "题干提到过渡护理可在医院场所进行，原文指出“This setting can be part of an existing aged-care home or health facility such as a separate wing of a hospital”，说明确实可能设在医院内，因此答案为TRUE。",
               "reason": "原文明确包含医院场所",
               "location_analysis": "题干说在医院场所提供，原文说可以是医院独立翼楼，对应TRUE。",
-              "paraphrasing": "given on a hospital site -> part of ... a separate wing of a hospital",
+              "paraphrasing": "given on a hospital site -> part of... a separate wing of a hospital",
               "keywords": "hospital site",
               "evidence": [
                 "This setting can be part of an existing aged-care home or health facility such as a separate wing of a hospital."
@@ -453,7 +453,7 @@
               "analysis": "题干询问哪款行李箱拉链难用，C段提到“The zips don't always run smoothly especially around the corners, so you may have to give them a good tug”，说明拉链确实存在使用困难的问题，因此答案为C。",
               "reason": "原文描述拉链问题",
               "location_analysis": "C段提到拉链不顺畅，对应题干拉链难用。",
-              "paraphrasing": "The zips ... may be difficult to use -> the zips don't always run smoothly",
+              "paraphrasing": "The zips... may be difficult to use -> the zips don't always run smoothly",
               "keywords": "zips, difficult to use",
               "evidence": [
                 "However, the zips don't always run smoothly especially around the corners, so you may have to give them a good tug, especially if the case is very full."
@@ -535,7 +535,7 @@
               "analysis": "题干指出某款箱子把手有多个问题，A段详细描述了三种把手的不同缺陷：“trolley handle feels quite thin and flimsy”，“top carrying handle is hard and flat”，“side handle isn't easy to grip”，完全符合题意，因此答案为A。",
               "reason": "原文多处提到把手问题",
               "location_analysis": "A段描述了三个把手不同的缺点，对应多个问题。",
-              "paraphrasing": "handles ... have a number of different problems -> trolley handle ... thin and flimsy; top carrying handle ... hard and flat; side handle ... not easy to grip",
+              "paraphrasing": "handles... have a number of different problems -> trolley handle... thin and flimsy; top carrying handle... hard and flat; side handle... not easy to grip",
               "keywords": "handles, problems",
               "evidence": [
                 "However, the trolley handle feels quite thin and flimsy. The top carrying handle is hard and flat, and the side handle isn't easy to grip."
@@ -740,7 +740,7 @@
               "analysis": "题干询问哪款箱子拉杆可调节，B段明确说明“The trolley handle has a choice of two heights”，即高度可调，与“adjustable”同义，因此答案为B。",
               "reason": "原文明确高度选择",
               "location_analysis": "B段提到拉杆有两个高度可选，对应可调节。",
-              "paraphrasing": "trolley handle ... adjustable -> has a choice of two heights",
+              "paraphrasing": "trolley handle... adjustable -> has a choice of two heights",
               "keywords": "trolley handle, adjustable",
               "evidence": [
                 "The trolley handle has a choice of two heights and the plastic hand grip doesn't have any sharp ridges that'll make your hands sore."
@@ -993,7 +993,7 @@
         {
           "label": "",
           "index": 2,
-          "text": "Staff permits are required to park a motor vehicle (other than a motorcycle parked in the cycle bays) on campus between 8.30 am and 4.30 pm, Monday to Friday, during term time.Annual permits can be purchased from the Hospitality Department.Application forms can be downloaded from the College website.All permits/tickets must be clearly displayed in the windscreen of vehicles during the dates of term time, as published in the academic calendar. Please inform the Services Administrator of any changes to registration details on telephone ext. 406.Annual car parking permits can be purchased from 20th September and are valid for one academic year from 1st October to 30th June.The annual charges for car parking are displayed on the application form.",
+          "text": "Staff permits are required to park a motor vehicle (other than a motorcycle parked in the cycle bays) on campus between 8.30 am and 4.30 pm, Monday to Friday, during term time. Annual permits can be purchased from the Hospitality Department. Application forms can be downloaded from the College website. All permits/tickets must be clearly displayed in the windscreen of vehicles during the dates of term time, as published in the academic calendar. Please inform the Services Administrator of any changes to registration details on telephone ext. 406. Annual car parking permits can be purchased from 20th September and are valid for one academic year from 1st October to 30th June. The annual charges for car parking are displayed on the application form.",
           "translation": "员工在学期期间，周一至周五上午8:30至下午4:30之间，在校内停放机动车（停放在自行车位的摩托车除外）需持有员工许可证。\n年度许可证可从餐饮服务部购买。\n申请表可从学院网站下载。\n在学期期间（按学术日历公布日期），所有许可证/票券必须清晰展示在车辆挡风玻璃上。\n如有注册信息的任何变更，请致电分机406通知服务管理员。\n年度停车许可证可从9月20日起购买，有效期为自10月1日至次年6月30日的一整个学年。\n停车年度费用已在申请表中列出。"
         },
         {
@@ -1005,7 +1005,7 @@
         {
           "label": "",
           "index": 4,
-          "text": "The nominated contractor will issue fixed Penalty Charge Notices (see below) on vehicles that fail to display a valid permit and/or parking ticket, or vehicles that are parked on yellow lines or in disabled parking bays without displaying a blue disabled-parking permit.Reductions of parking space availability may arise in order to accommodate College recruitment activities and/or estate development/maintenance projects. Vehicles that are in breach of the policy will be issued with a Penalty Charge Notice.",
+          "text": "The nominated contractor will issue fixed Penalty Charge Notices (see below) on vehicles that fail to display a valid permit and/or parking ticket, or vehicles that are parked on yellow lines or in disabled parking bays without displaying a blue disabled-parking permit. Reductions of parking space availability may arise in order to accommodate College recruitment activities and/or estate development/maintenance projects. Vehicles that are in breach of the policy will be issued with a Penalty Charge Notice.",
           "translation": "指定承包商将对未出示有效许可证和/或停车票的车辆，或者停在黄线上或残疾人停车位内但未出示蓝色残疾人停车许可证的车辆，发出定额罚款通知书（见下文）。\n为了配合学院的招聘活动和/或校园开发/维护项目，停车位的可用性可能会减少。\n违反该政策的车辆将被发出罚款通知书。\n残疾人停车"
         },
         {
@@ -1017,7 +1017,7 @@
         {
           "label": "",
           "index": 6,
-          "text": "The PCN is £30, increasing to 60 seven days after issue.The nominated contractor is responsible for the collection of unpaid PCNs and may use legal action where necessary to recover unpaid PCNs. If issued with a PCN, appeals must be taken up directly with the parking enforcement company (details included on the notice) not the college.",
+          "text": "The PCN is £30, increasing to 60 seven days after issue. The nominated contractor is responsible for the collection of unpaid PCNs and may use legal action where necessary to recover unpaid PCNs. If issued with a PCN, appeals must be taken up directly with the parking enforcement company (details included on the notice) not the college.",
           "translation": "执行规定\n罚款通知为30英镑，在发出七天后增至60英镑。\n指定的承包商负责收取未支付的罚款通知，并可能在必要时采取法律行动追讨未支付的罚款通知。\n如果收到罚款通知，必须直接向停车执法公司（通知中包含详细信息）提出申诉，而非向学院提出。"
         },
         {
@@ -1029,7 +1029,7 @@
         {
           "label": "",
           "index": 8,
-          "text": "The college has designated car parking spaces for disabled car drivers. The college will make all reasonable efforts to ensure these parking spaces are used only by drivers who display their blue disabled-parking permits,and a valid pay-and-display or annual permit, as appropriate.",
+          "text": "The college has designated car parking spaces for disabled car drivers. The college will make all reasonable efforts to ensure these parking spaces are used only by drivers who display their blue disabled-parking permits, and a valid pay-and-display or annual permit, as appropriate.",
           "translation": "残疾人停车\n学院为残疾驾驶者指定了专用停车位。\n学院将尽一切合理努力确保这些停车位仅供展示蓝色残疾停车许可证以及有效的付费停车票或年度许可证（视情况而定）的驾驶者使用。"
         },
         {
@@ -1093,13 +1093,13 @@
         {
           "label": "",
           "index": 18,
-          "text": "You are entitled to SMP if you have been employed by the same company for at least 26 weeks by the end of the 15th week before your baby is due. You must also be earning an average of at least £87 per week (before tax). The amount you get depends on how much you earn.For 6 weeks,you will receive 90% of your average weekly earnings. Then you will receive 112.75 per week for the remaining 33 weeks.",
+          "text": "You are entitled to SMP if you have been employed by the same company for at least 26 weeks by the end of the 15th week before your baby is due. You must also be earning an average of at least £87 per week (before tax). The amount you get depends on how much you earn. For 6 weeks, you will receive 90% of your average weekly earnings. Then you will receive 112.75 per week for the remaining 33 weeks.",
           "translation": "如果您在预产期前第15周结束时已为同一家公司工作至少26周，您便有资格享受法定产假工资（SMP）。\n您还必须平均每周至少赚取87英镑（税前）。\n您获得的金额取决于您的收入水平。\n前6周，您将获得平均周薪的90%。\n随后33周，您将每周获得112.75英镑。"
         },
         {
           "label": "",
           "index": 19,
-          "text": "Maternity Allowance(MA)",
+          "text": "Maternity Allowance (MA)",
           "translation": "产假津贴（MA）"
         },
         {
@@ -1117,7 +1117,7 @@
         {
           "label": "",
           "index": 22,
-          "text": "If you're on a low income, over 16, and are responsible for at least one child, you may also be entitled to Child Tax Credit.The amount you get will depend on your personal circumstances and income. When your income is being assessed, any child benefit,maintenance payments or Maternity Allowance payments will not be classed as income.This means that it will not be taken into account when calculating your Child Tax Credit.",
+          "text": "If you're on a low income, over 16, and are responsible for at least one child, you may also be entitled to Child Tax Credit. The amount you get will depend on your personal circumstances and income. When your income is being assessed, any child benefit, maintenance payments or Maternity Allowance payments will not be classed as income. This means that it will not be taken into account when calculating your Child Tax Credit.",
           "translation": "儿童税收抵免\n如果你收入较低、年满16岁并且至少负责照顾一个孩子，那么你也有资格申请儿童税收抵免。\n你能获得的金额将取决于你的个人情况和收入。\n在评估你的收入时，任何儿童福利金、抚养费或产妇津贴都不会被算作收入。\n这意味着在计算你的儿童税收抵免时，这些收入不会被考虑在内。"
         },
         {
@@ -1527,7 +1527,7 @@
         },
         {
           "index": 19,
-          "sentence": "The college will make all reasonable efforts to ensure these parking spaces are used only by drivers who display their blue disabled-parking permits,and a valid pay-and-display or annual permit, as appropriate.",
+          "sentence": "The college will make all reasonable efforts to ensure these parking spaces are used only by drivers who display their blue disabled-parking permits, and a valid pay-and-display or annual permit, as appropriate.",
           "translation": "学院将尽一切合理努力确保这些停车位仅供展示蓝色残疾停车许可证以及有效的付费停车票或年度许可证（视情况而定）的驾驶者使用。"
         },
         {
@@ -1627,7 +1627,7 @@
         },
         {
           "index": 39,
-          "sentence": "For 6 weeks,you will receive 90% of your average weekly earnings.",
+          "sentence": "For 6 weeks, you will receive 90% of your average weekly earnings.",
           "translation": "前6周，您将获得平均周薪的90%。"
         },
         {
@@ -1637,7 +1637,7 @@
         },
         {
           "index": 41,
-          "sentence": "Maternity Allowance(MA)",
+          "sentence": "Maternity Allowance (MA)",
           "translation": "产假津贴（MA）"
         },
         {
@@ -1738,13 +1738,13 @@
         {
           "label": "",
           "index": 3,
-          "text": "Libraries and archives are cultural crossroads of knowledge exchange, where the past transmits information to the present, and where the present has the opportunity to inform the future. Bureaucracies have become the backbone of civilizations, as governments try to keep track of populations, business transactions and taxes.At a personal level, our lives are governed by the documents we possess; we are certified on paper literally from birth to death. And written documentation carries enormous cultural importance: consider the consequences of signing the Foundation Document of the United Nations or the Convention on Biological Diversity.",
+          "text": "Libraries and archives are cultural crossroads of knowledge exchange, where the past transmits information to the present, and where the present has the opportunity to inform the future. Bureaucracies have become the backbone of civilizations, as governments try to keep track of populations, business transactions and taxes. At a personal level, our lives are governed by the documents we possess; we are certified on paper literally from birth to death. And written documentation carries enormous cultural importance: consider the consequences of signing the Foundation Document of the United Nations or the Convention on Biological Diversity.",
           "translation": "图书馆和档案馆是知识交流的文化交汇点，在这里，过去将信息传递到现在，而现在有机会为未来提供信息。\n官僚机构已成为文明的支柱，因为政府试图追踪人口、商业交易和税收。\n在个人层面上，我们的生活受到所拥有的文件的支配；实际上，我们从出生到死亡都通过纸张得到认证。\n书面文件具有巨大的文化重要性：试想签署《联合国宪章》或《生物多样性公约》所带来的后果。\n图书馆和档案馆是知识交流的文化十字路口，过去在此将信息传递到现在，而现在有机会为未来提供信息。\n在个人层面上，我们的生活受我们所拥有的文件支配；从出生到死亡，我们实际上都通过纸张被认证。\n而书面文件具有巨大的文化重要性：想想签署联合国基础文件或《生物多样性公约》的后果。\n图书馆和档案馆是知识交流的文化十字路口，过去在这里将信息传递到现在，而现在则有机会影响未来。\n在个人层面上，我们的生活由我们所拥有的文件所支配；从出生到死亡，我们实际上都是通过纸质文件获得认证的。\n书面文件具有巨大的文化重要性：想想签署《联合国宪章》或《生物多样性公约》的后果。"
         },
         {
           "label": "",
           "index": 4,
-          "text": "Documentation requires a writing tool and a surface upon which to record the information permanently.About 5,000 years ago, the Sumerians started to use reeds or sticks to make marks on mud blocks which were then baked, but, despite being fireproof, these were difficult to store. Other cultures used more flexible but less permanent surfaces, including animal skins and wood strips. ln western culture, the adoption of papyrus was to have a great impact.Sheets of papyrus not only provide an invaluable record of people's daily lives, they can also be dated using carbon-dating techniques, giving precise information about the age of the text written on them.",
+          "text": "Documentation requires a writing tool and a surface upon which to record the information permanently. About 5,000 years ago, the Sumerians started to use reeds or sticks to make marks on mud blocks which were then baked, but, despite being fireproof, these were difficult to store. Other cultures used more flexible but less permanent surfaces, including animal skins and wood strips. ln western culture, the adoption of papyrus was to have a great impact. Sheets of papyrus not only provide an invaluable record of people's daily lives, they can also be dated using carbon-dating techniques, giving precise information about the age of the text written on them.",
           "translation": "记录信息需要书写工具和一种能够永久保存信息的表面。\n大约5000年前，苏美尔人开始使用芦苇或棍棒在泥块上做标记，然后将泥块烘烤，尽管这些泥块防火，但却难以储存。\n其他文化使用了更灵活但持久性较差的表面，包括动物皮和木条。\n在西方文化中，纸莎草的采用产生了重大影响。\n纸莎草纸不仅提供了人们日常生活的宝贵记录，还可以通过碳定年技术确定其年代，从而提供关于其上文字年龄的精确信息。"
         },
         {
@@ -1755,7 +1755,7 @@
         {
           "label": "",
           "index": 6,
-          "text": "Papyrus is strongly associated with Egyptian culture, although all the ancient civilizations around the Mediterranean used it.The papyrus sedge is a tall grass-like plant. It was harvested from shallow water and swamplands on the banks of the River Nile. Manufacturing sheets of papyrus from papyrus sedge was a complex,messy process. Pith from inside the plant's stem was cut into long strips that were laid side by side.These were then covered with a second layer of strips which were laid at right angles to the first, then soaked in water and hammered together. The sheet was then crushed to extract the water, dried and then polished to produce a high-quality writing surface. Individual sheets could be glued together and rolled up to make scrolls or folded and bound to form books.",
+          "text": "Papyrus is strongly associated with Egyptian culture, although all the ancient civilizations around the Mediterranean used it. The papyrus sedge is a tall grass-like plant. It was harvested from shallow water and swamplands on the banks of the River Nile. Manufacturing sheets of papyrus from papyrus sedge was a complex, messy process. Pith from inside the plant's stem was cut into long strips that were laid side by side. These were then covered with a second layer of strips which were laid at right angles to the first, then soaked in water and hammered together. The sheet was then crushed to extract the water, dried and then polished to produce a high-quality writing surface. Individual sheets could be glued together and rolled up to make scrolls or folded and bound to form books.",
           "translation": "纸莎草与埃及文化紧密相连，尽管地中海沿岸的所有古老文明都曾使用过它。\n纸莎草是一种高大、类似草的植物。\n它从尼罗河岸边的浅水和沼泽地中采集而来。\n用纸莎草制造纸莎草纸的过程复杂且杂乱。\n植物茎内部的髓被切成细长条，然后并排摆放。\n接着，这些细条上覆盖第二层细条，与第一层垂直排列，然后浸泡在水中并锤打在一起。\n随后，纸片被压榨以去除水分，晾干并抛光，从而形成高质量的书写表面。\n单张纸片可以粘合在一起卷成卷轴，或者折叠装订成书。\n纸莎草与埃及文化紧密相连，尽管地中海周围的所有古代文明都曾使用过它。\n纸莎草是一种高大的类似草的植物。\n它从尼罗河岸边的浅水和沼泽地中收割。\n用纸莎草制造纸莎草纸是一个复杂而繁琐的过程。\n植物茎内部的髓被切成细长条，并排摆放。\n然后这些细条上覆盖第二层细条，与第一层成直角摆放，再浸泡在水中并锤打在一起。\n然后将这张纸压碎以去除水分，干燥后抛光，以产生高质量的书写表面。\n单张纸可以粘在一起卷成卷轴，或者折叠装订成书。"
         },
         {
@@ -1766,13 +1766,13 @@
         {
           "label": "",
           "index": 8,
-          "text": "In moist climates the cellulose-rich sheets of papyrus would readily decay,becoming covered by mould or full of holes from attacks by insects.But in dry climates, such as the Middle East, papyrus is a stable, rot-resistant writing surface.The earliest known roll of papyrus scroll was found in the tomb of an official called Hemeka near Memphis, which was then the capital city of Egypt, and is around five thousand years old. In 79 CE, nearly 2,000 papyrus scrolls in the library of Julius Caesar's father-in-law were protected at Herculaneum by ash from the catastrophic eruption of Mount Vesuvius. However, the most famous discoveries of papyrus have come from the rubbish dumps of the ancient town of Oxyrhynchus, some 160km south-west of Cairo, in the desert to the west of the Nile. Oxyrhynchus was a regional administrative capital and for a thousand years generated vast amounts of administrative documentation, including accounts, tax returns and correspondence, which was periodically discarded to make room for more.Over time, a thick layer of sand covered these dumps, and they were forgotten.But the documents were protected by the sand, creating a time capsule that allowed astonishing glimpses into the lives of the town's inhabitants over hundreds of years.",
+          "text": "In moist climates the cellulose-rich sheets of papyrus would readily decay, becoming covered by mould or full of holes from attacks by insects. But in dry climates, such as the Middle East, papyrus is a stable, rot-resistant writing surface. The earliest known roll of papyrus scroll was found in the tomb of an official called Hemeka near Memphis, which was then the capital city of Egypt, and is around five thousand years old. In 79 CE, nearly 2,000 papyrus scrolls in the library of Julius Caesar's father-in-law were protected at Herculaneum by ash from the catastrophic eruption of Mount Vesuvius. However, the most famous discoveries of papyrus have come from the rubbish dumps of the ancient town of Oxyrhynchus, some 160km south-west of Cairo, in the desert to the west of the Nile. Oxyrhynchus was a regional administrative capital and for a thousand years generated vast amounts of administrative documentation, including accounts, tax returns and correspondence, which was periodically discarded to make room for more. Over time, a thick layer of sand covered these dumps, and they were forgotten. But the documents were protected by the sand, creating a time capsule that allowed astonishing glimpses into the lives of the town's inhabitants over hundreds of years.",
           "translation": "在潮湿的气候中，富含纤维素的纸莎草纸片容易腐烂，被霉菌覆盖或因昆虫侵蚀而布满孔洞。\n但在干燥的气候中，例如中东地区，纸莎草是一种稳定、抗腐烂的书写表面。\n已知最早的纸莎草卷轴是在孟菲斯附近一位名为赫梅卡的官员的墓中发现，孟菲斯当时是埃及的首都，该卷轴约有五千年的历史。\n公元79年，朱利叶斯·凯撒岳父图书馆中近2000卷纸莎草卷轴因维苏威火山灾难性喷发产生的火山灰而在赫库兰尼姆得到了保护。\n然而，最著名的纸莎草发现来自古城奥克西林库斯的垃圾堆，该城位于开罗西南约160公里、尼罗河以西的沙漠中。\n奥克西林库斯是一个地区行政中心，一千年来产生了大量行政文件，包括账目、纳税申报单和信函，这些文件定期被丢弃以腾出空间存放新的文件。\n随着时间的推移，一层厚厚的沙子覆盖了这些垃圾堆，它们便被人遗忘。\n但这些文件受到沙子的保护，形成了一个时间胶囊，让人们得以惊人地一窥该镇居民数百年的生活。\n在潮湿的气候中，富含纤维素的莎草纸片会迅速腐烂，被霉菌覆盖或被昆虫侵蚀而布满孔洞。\n但在干燥的气候条件下，例如中东地区，莎草纸是一种稳定且耐腐烂的书写材料。\n已知最早的莎草纸卷轴是在孟菲斯附近一位名叫赫梅卡的官员的墓中发现的（孟菲斯当时是埃及的首都），距今约五千年。\n公元79年，赫库兰尼姆的朱利叶斯·凯撒岳父的图书馆中近2000卷莎草纸卷轴，因维苏威火山灾难性喷发的火山灰而得以保存。\n然而，最著名的莎草纸发现来自古城镇奥克西林库斯的垃圾堆，该地距开罗西南约160公里，位于尼罗河以西的沙漠中。\n奥克西林库斯是一个地区行政中心，一千年来产生了大量的行政文件，包括账目、纳税申报单和信函，这些文件会定期被丢弃以便为新文件腾出空间。\n随着时间的推移，一层厚厚的沙子覆盖了这些垃圾堆，它们被遗忘了。\n但这些文件被沙子保护起来，形成了一个时间胶囊，使人们得以惊人地窥见该镇居民数百年的生活。"
         },
         {
           "label": "",
           "index": 9,
-          "text": "Collections of documents that record information and ideas have frequently been viewed as potentially dangerous.For thousands of years, governments, despots and conquerors have resorted to burning libraries and books to rid themselves of inconvenient evidence or obliterate cultures and ideas that they found politically, morally or religiously unacceptable.One such calamity, the burning of the Great Library of Alexandria,and the papyrus scrolls and books it contained, has been mythologized and has come to symbolize the global loss of cultural knowledge.",
+          "text": "Collections of documents that record information and ideas have frequently been viewed as potentially dangerous. For thousands of years, governments, despots and conquerors have resorted to burning libraries and books to rid themselves of inconvenient evidence or obliterate cultures and ideas that they found politically, morally or religiously unacceptable. One such calamity, the burning of the Great Library of Alexandria, and the papyrus scrolls and books it contained, has been mythologized and has come to symbolize the global loss of cultural knowledge.",
           "translation": "记录信息和思想的文件收藏常常被视为具有潜在危险。\n几千年来，政府、专制者和征服者都曾求助于焚烧图书馆和书籍，以消除不便的证据，或抹去他们在政治、道德或宗教上认为不可接受的文化和思想。\n其中一场灾难——烧毁亚历山大图书馆及其所藏的纸莎草卷轴和书籍——已被神化，并已成为全球文化知识丧失的象征。"
         },
         {
@@ -1783,7 +1783,7 @@
         {
           "label": "",
           "index": 11,
-          "text": "Besides their use in record-keeping, papyrus stems were used in many other aspects of Mediterranean life, such as for boat construction and making ropes,sails and baskets, as well as being a source of food. In 1969 the adventurer Thor Heyerdahl attempted to cross the Atlantic from Morocco in the boat Ra, to show that it was possible for mariners in ancient times to cross the Atlantic Ocean. Ra was made from bundles of papyrus stems and modelled on ancient Egyptian craft.As a marshland plant, papyrus sedge stabilizes soils and reduces erosion, while some investigations show that it has potential for water purification and sewage treatment.",
+          "text": "Besides their use in record-keeping, papyrus stems were used in many other aspects of Mediterranean life, such as for boat construction and making ropes, sails and baskets, as well as being a source of food. In 1969 the adventurer Thor Heyerdahl attempted to cross the Atlantic from Morocco in the boat Ra, to show that it was possible for mariners in ancient times to cross the Atlantic Ocean. Ra was made from bundles of papyrus stems and modelled on ancient Egyptian craft. As a marshland plant, papyrus sedge stabilizes soils and reduces erosion, while some investigations show that it has potential for water purification and sewage treatment.",
           "translation": "除了用于记录保存之外，纸莎草的茎秆还被用于地中海生活的许多其他方面，例如建造船只、制作绳索、船帆和篮子，同时也作为一种食物来源。\n1969年，冒险家托尔·海尔达尔试图乘坐“拉”号船从摩洛哥横渡大西洋，以证明古代航海者有可能穿越大西洋。\n“拉”号船由成捆的纸莎草茎秆制成，并模仿了古埃及的船只工艺。\n作为一种沼泽植物，纸莎草能稳定土壤、减少侵蚀，同时一些研究表明它具有净化水源和处理污水的潜力。\n除了用于记录，纸莎草的茎还被用于地中海生活的许多其他方面，例如造船、制作绳索、船帆和篮子，同时也是一种食物来源。\n1969年，冒险家托尔·海尔达尔试图乘坐“拉号”船从摩洛哥横渡大西洋，以证明古代航海者有可能穿越这片大洋。\n拉号船由成捆的纸莎草茎制成，并模仿古埃及工艺设计。\n作为一种沼泽植物，纸莎草能够稳定土壤并减少侵蚀，同时一些研究表明它在水净化和污水处理方面具有潜力。"
         },
         {
@@ -1794,13 +1794,13 @@
         {
           "label": "",
           "index": 13,
-          "text": "True paper was probably invented in China in the first century CE. Like papyrus,it was constructed from a meshwork of plant fibres, but the Chinese used fibres from the white mulberry tree,which yielded a tough, flexible material that could be folded, stretched,and compressed.The adoption of this paper by western cultures soon rendered papyrus obsolete.",
+          "text": "True paper was probably invented in China in the first century CE. Like papyrus, it was constructed from a meshwork of plant fibres, but the Chinese used fibres from the white mulberry tree, which yielded a tough, flexible material that could be folded, stretched, and compressed. The adoption of this paper by western cultures soon rendered papyrus obsolete.",
           "translation": "真正的纸张可能是在公元一世纪的中国发明的。\n与纸莎草类似，纸张也由植物纤维网制成，但中国人使用白桑树的纤维，这种纤维产生了一种坚韧、柔韧的材料，可以折叠、拉伸和压缩。\n西方文化采用这种纸张后，很快便使纸莎草被淘汰了。"
         },
         {
           "label": "",
           "index": 14,
-          "text": "Despite dreams of paper-free societies, western cultures still use enormous quantities of paper, often in ways that it would be inconceivable to use papyrus for.As a paper substitute, the role of the papyrus sedge in western cultures has been superseded; papyrus is little more than a niche product for the tourist market. What makes papyrus noteworthy for western societies nowadays is its use as the surface upon which our ancient ancestors recorded their lives, their art and their science.In the words of the ancient Roman philosopher Pliny the Elder, it is 'the material on which the immortality of human beings depends'.",
+          "text": "Despite dreams of paper-free societies, western cultures still use enormous quantities of paper, often in ways that it would be inconceivable to use papyrus for. As a paper substitute, the role of the papyrus sedge in western cultures has been superseded; papyrus is little more than a niche product for the tourist market. What makes papyrus noteworthy for western societies nowadays is its use as the surface upon which our ancient ancestors recorded their lives, their art and their science. In the words of the ancient Roman philosopher Pliny the Elder, it is 'the material on which the immortality of human beings depends'.",
           "translation": "尽管人们梦想着无纸化社会，西方文化仍然使用大量的纸张，其使用方式常常是纸莎草无法想象的。\n作为一种纸张替代品，纸莎草在西方文化中的作用已被取代；纸莎草不过是一种面向旅游市场的小众产品。\n如今，纸莎草之所以对西方社会值得关注，是因为它被用作我们古代祖先记录其生活、艺术和科学的载体。\n用古罗马哲学家老普林尼的话来说，它是‘人类不朽所依赖的材料’。"
         }
       ],
@@ -2309,7 +2309,7 @@
               "options": [
                 {
                   "value": "A",
-                  "label": "lt is better for the environment than using paper."
+                  "label": "It is better for the environment than using paper."
                 },
                 {
                   "value": "B",
@@ -2317,7 +2317,7 @@
                 },
                 {
                   "value": "C",
-                  "label": "lt is still the best writing surface for some purposes."
+                  "label": "It is still the best writing surface for some purposes."
                 },
                 {
                   "value": "D",
@@ -2609,7 +2609,7 @@
         },
         {
           "index": 39,
-          "sentence": "In moist climates the cellulose-rich sheets of papyrus would readily decay,becoming covered by mould or full of holes from attacks by insects.",
+          "sentence": "In moist climates the cellulose-rich sheets of papyrus would readily decay, becoming covered by mould or full of holes from attacks by insects.",
           "translation": "在潮湿的气候中，富含纤维素的纸莎草纸片容易腐烂，被霉菌覆盖或因昆虫侵蚀而布满孔洞。"
         },
         {
@@ -2704,7 +2704,7 @@
         },
         {
           "index": 58,
-          "sentence": "One such calamity, the burning of the Great Library of Alexandria,and the papyrus scrolls and books it contained, has been mythologized and has come to symbolize the global loss of cultural knowledge.",
+          "sentence": "One such calamity, the burning of the Great Library of Alexandria, and the papyrus scrolls and books it contained, has been mythologized and has come to symbolize the global loss of cultural knowledge.",
           "translation": "其中一场灾难——烧毁亚历山大图书馆及其所藏的纸莎草卷轴和书籍——已被神化，并已成为全球文化知识丧失的象征。"
         },
         {

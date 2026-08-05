@@ -10,18 +10,24 @@ test("full-text matching restores the legacy option-bank and answer-slot interac
   assert.match(workbench, /matchingHasDescriptions \? \(/);
   assert.match(workbench, /matching-interactive-bank/);
   assert.match(workbench, /matching-answer-slot/);
-  assert.match(workbench, /gridTemplateColumns: `minmax\(0, \$\{paneRatio\}fr\) 15px minmax\(0, \$\{100 - paneRatio\}fr\)`/);
+  assert.match(workbench, /gridTemplateColumns: `minmax\(0, \$\{paneRatio\}fr\) 8px minmax\(0, \$\{100 - paneRatio\}fr\)`/);
   assert.match(workbench, /className=\{`matching-option-card[\s\S]*?draggable[\s\S]*?onDragStart=/);
   assert.match(workbench, /dataTransfer\.setData\("text\/plain", option\.code\)/);
   assert.match(workbench, /assignAnswer\(id, selectedCode\)/);
   assert.match(workbench, /placeholder=\{`\$\{questionNumber\(question\)\} 拖拽或输入选项字母`\}/);
   assert.match(workbench, /else if \(optionMap\.has\(nextCode\)\) assignAnswer\(id, nextCode\)/);
+  assert.match(workbench, /const chosenText = chosen \? optionDisplayText\(chosen\) : ""/);
+  assert.match(workbench, /matching-answer-description/);
+  assert.match(workbench, /if \(chosen\) event\.currentTarget\.select\(\)/);
+  assert.match(css, /\.matching-answer-slot\.filled \{[\s\S]*?grid-template-columns: max-content minmax\(0, 1fr\)/);
+  assert.match(css, /\.matching-answer-description \{/);
   assert.match(workbench, /optionReuse/);
   assert.match(workbench, /restoreInstructionOptionText/);
   assert.match(css, /\.passage-pane, \.questions-pane \{[\s\S]*?min-width: 0;[\s\S]*?overflow-x: hidden;/);
   assert.match(css, /\.matching-question-row/);
   assert.match(css, /grid-template-areas:\s*"help help"\s*"questions bank"/);
   assert.match(css, /grid-template-columns: minmax\(260px, \.78fr\) minmax\(360px, 1\.22fr\)/);
+  assert.match(css, /@container question-scroll \(max-width: 920px\)/);
   assert.match(css, /grid-template-areas: "help" "questions" "bank"/);
   assert.match(css, /\.matching-question-list \{[^}]*grid-area: questions/);
   assert.match(css, /\.matching-interactive-bank \{[\s\S]*?grid-area: bank/);
@@ -33,13 +39,34 @@ test("letter-only matching follows the benchmark matrix while descriptive matchi
   assert.match(workbench, /text\.localeCompare\(option\.code/);
   assert.match(workbench, /useMatchingMatrix \? \(/);
   assert.match(workbench, /matching-answer-matrix/);
+  assert.doesNotMatch(workbench, /<th scope="col">标记<\/th>/);
   assert.match(workbench, /matchingHasDescriptions \? \(/);
   assert.match(css, /\.matching-answer-matrix/);
   assert.match(css, /\.matrix-answer-radio/);
 });
 
+test("a truncated single-source display range falls back to the complete source index range", () => {
+  assert.match(workbench, /const indexMatched = group\.questions\.filter/);
+  assert.match(workbench, /const singleSourceGroup = \(group\.source_question_groups\?\.length \|\| 0\) <= 1/);
+  assert.match(workbench, /singleSourceGroup && indexMatched\.length > displayMatched\.length/);
+  assert.match(workbench, /return displayMatched\.length \? displayMatched : group\.questions/);
+});
+
+test("source matching matrices preserve read-only example answers from the source HTML", () => {
+  assert.match(workbench, /function sourceMatchingExampleRows/);
+  assert.match(workbench, /\^Example\\s\*:\?\\b/);
+  assert.match(workbench, /className="source-matching-example" role="group" aria-label="示例答案"/);
+  assert.match(workbench, /<span>Example:<\/span>/);
+  assert.match(workbench, /<span>Answer<\/span>/);
+  assert.match(css, /\.source-matching-example \{/);
+  assert.match(css, /\.source-matching-example-header,/);
+});
+
 test("completion and short-answer questions use the source inline template or an inline answer box", () => {
   assert.match(workbench, /"diagram_label_completion", "short_answer"/);
+  assert.match(workbench, /function structuredTemplateParts/);
+  assert.match(workbench, /questionPlaceholder/);
+  assert.doesNotMatch(workbench, /split\(\/\(\\\$\[\^\$\]\+\\\$\)\/g\)/);
   assert.match(workbench, /const inlineCompletion = family === "completion"/);
   assert.match(workbench, /className="inline-question-answer"/);
   assert.match(css, /\.inline-question-answer input/);
@@ -51,7 +78,9 @@ test("question instructions retain line hierarchy and emphasize answer constrain
   assert.match(workbench, /correct option/);
   assert.match(workbench, /question-instructions-heading/);
   assert.match(workbench, /INSTRUCTION_EMPHASIS/);
-  assert.match(css, /\.question-instructions-copy p:first-child/);
+  assert.match(workbench, /INSTRUCTION_ACTION_LINE/);
+  assert.match(workbench, /TRUE\|FALSE\|NOT GIVEN/);
+  assert.match(css, /\.question-instructions-copy \.instruction-action-line/);
 });
 
 test("question option codes retain their order and recover missing display text from the group", () => {

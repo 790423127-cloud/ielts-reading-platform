@@ -54,7 +54,7 @@
 .section-title-row {
   display: flex;
   justify-content: space-between;
-  align-items: end;
+  align-items: flex-end;
   gap: 16px;
   margin-bottom: 12px;
 }
@@ -111,7 +111,7 @@
   display: flex;
   justify-content: space-between;
   gap: 12px;
-  align-items: start;
+  align-items: flex-start;
 }
 .task-heading-row h3 { margin: 0; font-size: 20px; }
 .task-heading-row p { margin: 5px 0 0; color: var(--muted); line-height: 1.55; }
@@ -274,7 +274,7 @@
   display: grid;
   grid-template-columns: 315px minmax(0, 1fr);
   gap: 15px;
-  align-items: start;
+  align-items: flex-start;
 }
 .fixed-sentence-list {
   position: sticky;
@@ -432,7 +432,7 @@
   display: grid;
   grid-template-columns: 310px minmax(0, 1fr);
   gap: 15px;
-  align-items: start;
+  align-items: flex-start;
 }
 .personal-sentence-list {
   position: sticky;
@@ -490,7 +490,7 @@
   display: flex;
   justify-content: space-between;
   gap: 15px;
-  align-items: start;
+  align-items: flex-start;
 }
 .personal-sentence-head > div:first-child span { color: var(--brand); font-size: 10px; font-weight: 900; letter-spacing: .11em; }
 .personal-sentence-head h2 {
@@ -574,12 +574,12 @@
   .task-actions { grid-column: auto; flex-direction: column; }
   .task-heading-row,
   .section-title-row,
-  .personal-sentence-head { align-items: start; flex-direction: column; }
+  .personal-sentence-head { align-items: flex-start; flex-direction: column; }
   .task-progress-grid,
   .manual-context-grid { grid-template-columns: 1fr; }
   .task-progress-grid > div:last-child { grid-column: auto; }
   .five-step-form label { grid-template-columns: 1fr; }
-  .step-feedback { grid-column: auto; align-items: start; flex-direction: column; }
+  .step-feedback { grid-column: auto; align-items: flex-start; flex-direction: column; }
   .fixed-sentence-result { grid-template-columns: 1fr; }
 }
 
@@ -594,7 +594,7 @@
   .fixed-sentence-list,
   .personal-sentence-list { grid-template-columns: 1fr; }
   .training-sentence { padding: 16px; font-size: 20px; }
-  .sentence-source-row { align-items: start; flex-direction: column; }
+  .sentence-source-row { align-items: flex-start; flex-direction: column; }
   .manual-sentence-form > button,
   .personal-analysis-form button { width: 100%; justify-self: stretch; }
   .verified-standard-parse dl div { grid-template-columns: 1fr; }

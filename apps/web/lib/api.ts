@@ -4,14 +4,25 @@ import {
   rememberCurrentReadingTest,
   type ReadingAnnotation
 } from "@/lib/readingAnnotations";
+import type {
+  ApiSessionEnvelope,
+  ApiSessionSubmitRequest,
+  HealthResponse as ContractHealthResponse,
+  SessionSummary as ContractSessionSummary
+} from "@ielts-reading/contracts";
 
-export type HealthResponse = {
-  ok: boolean;
-  service: string;
-  version: string;
-  migrationPhase: string;
-  databaseConnected: boolean;
-  features: Record<string, boolean>;
+export type HealthResponse = ContractHealthResponse;
+
+export type QuestionBankMigrationStatus = {
+  expected_tests: number;
+  found_tests: number;
+  expected_questions: number;
+  found_questions: number;
+  ready: boolean;
+  baseline_expected_tests: number;
+  baseline_ready: boolean;
+  missing_test_ids: string[];
+  missing_baseline_test_ids: string[];
 };
 
 export type TestIndexItem = {
@@ -61,9 +72,34 @@ export type PublicQuestion = {
   prompt: string;
   options?: unknown[];
 };
+export type SourceQuestionOption = {
+  index?: string;
+  content_html?: string;
+};
+export type SourceStructuredQuestion = {
+  content_html?: string;
+  options?: SourceQuestionOption[];
+};
+export type SourceQuestionGroup = {
+  position: number;
+  navigation?: string;
+  display_start?: number | null;
+  display_end?: number | null;
+  start_index?: number;
+  end_index?: number;
+  question_type: number;
+  interaction_mode?: "text_entry" | "single_choice" | "multiple_choice" | "judgement" | "matching_matrix";
+  required_choices?: number | null;
+  instructions_html?: string;
+  questions_html?: string;
+  structured_questions?: SourceStructuredQuestion[];
+  match_options?: SourceQuestionOption[];
+  options_title?: string;
+};
 export type PublicQuestionGroup = {
   id?: string;
   instructions?: string;
+  source_question_groups?: SourceQuestionGroup[];
   question_type: string;
   question_subtype: string;
   question_category?: string;
@@ -88,6 +124,8 @@ export type PublicPart = {
   id?: string;
   number: number;
   title: string;
+  source_html?: string;
+  source_visual_name?: string;
   article_title?: string;
   source_article_title?: string;
   subtitle?: string;
@@ -117,20 +155,35 @@ export type QuestionResult = {
   source_question_id?: string;
   number: number | string;
   part_number: number;
+  part_title?: string;
   source_part_number?: number;
   source_test_id?: string;
   question_type: string;
   question_subtype: string;
+  question_category?: string;
   prompt: string;
+  instructions?: string;
+  options?: unknown[];
   user_answer: string;
   correct_answer: string;
   is_correct: boolean;
   answer_error_type?: string | null;
   analysis?: string;
   reason?: string;
+  location_analysis?: string;
   paraphrasing?: string;
+  keywords?: string;
   evidence?: string[];
+  evidence_available?: boolean;
+  wrong_reasons?: unknown;
   elapsed_seconds?: number;
+  shared_response?: boolean;
+  shared_response_score?: number;
+  shared_response_total?: number;
+  credited_answer?: string;
+  selected_correct_answers?: string[];
+  selected_incorrect_answers?: string[];
+  missed_correct_answers?: string[];
 };
 export type ScoringResult = {
   test_id: string;
@@ -142,6 +195,7 @@ export type ScoringResult = {
   exam_mode: string;
   part_numbers: number[];
   part_results: Array<{ part_number: number; title: string; score: number; total: number; accuracy: number; elapsed_seconds: number }>;
+  type_results?: Array<{ type: string; correct: number; total: number; accuracy: number }>;
   question_results: QuestionResult[];
   wrong_questions: QuestionResult[];
   unanswered_count: number;
@@ -153,37 +207,29 @@ export type ScoringResult = {
   source_question_refs?: string[];
   source_policy?: string;
   annotations?: ReadingAnnotation[];
+  ai_paraphrase_summary?: {
+    status: "completed" | "skipped" | "failed";
+    reason?: string;
+    wrong_question_count: number;
+    candidate_count: number;
+    saved_count: number;
+    skipped_count?: number;
+    saved_ids?: string[];
+    message?: string;
+  };
 };
-export type SessionEnvelope = {
-  session_id: string;
-  created_at: string;
-  idempotent_replay: boolean;
+export type SessionEnvelope = Omit<ApiSessionEnvelope, "result"> & {
   result: ScoringResult;
 };
-export type SessionSummary = {
-  session_id: string;
-  test_id: string;
-  test_title: string;
-  created_at: string;
-  score: number;
-  total: number;
-  accuracy: number;
-  estimated_band?: number | null;
-  exam_mode: string;
-  part_numbers: number[];
-  archived?: boolean;
-};
-export type SubmitSessionPayload = {
-  user_id?: string;
-  test_id: string;
-  client_submission_id: string;
+export type SessionSummary = ContractSessionSummary;
+export type SubmitSessionPayload = Omit<
+  ApiSessionSubmitRequest,
+  "annotations" | "answers" | "partElapsedSeconds" | "questionElapsedSeconds" | "part_numbers"
+> & {
   answers: Record<string, string | string[]>;
-  elapsed_seconds: number;
-  part_elapsed_seconds: Record<string, number>;
-  question_elapsed_seconds: Record<string, number>;
-  exam_mode: "study" | "part_practice" | "mock_exam";
+  partElapsedSeconds: Record<string, number>;
+  questionElapsedSeconds: Record<string, number>;
   part_numbers: number[];
-  timed_out?: boolean;
   annotations?: ReadingAnnotation[];
 };
 
@@ -202,6 +248,15 @@ export type WrongReviewItem = QuestionResult & {
   recommended_skill_id: string;
   recommended_skill_label: string;
   mastery_rule: string;
+  student_feedback?: {
+    session_id: string;
+    question_id: string;
+    match_status: "matches" | "partial" | "does_not_match";
+    understanding_status: "understood" | "needs_review";
+    cause_id?: string | null;
+    note: string;
+    updated_at: string;
+  } | null;
 };
 
 export type MethodCourse = {
@@ -324,19 +379,33 @@ export type TrainingCatalog = {
 export type StageReport = {
   report_type: "stage" | "teacher_assignment";
   engine_version: string;
+  layout_type?: string;
+  layout_label?: string;
   generated_from: "persisted_sessions";
   ai_calls: number;
   summary: {
+    title?: string;
     session_count: number;
     first_attempt_count: number;
     retry_count: number;
     correct: number;
     total_questions: number;
+    wrong?: number;
+    unanswered?: number;
     accuracy: number;
     total_elapsed_seconds: number;
     date_from?: string | null;
     date_to?: string | null;
+    estimated_band?: string | null;
   };
+  tfng_confusion_stats?: {
+    false_vs_not_given: number;
+    true_vs_not_given: number;
+    true_vs_false: number;
+    other: number;
+    total_tfng_wrong: number;
+  };
+  time_management_notes?: string[];
   trend: Array<{
     session_id: string;
     created_at: string;
@@ -360,6 +429,21 @@ export type StageReport = {
     status_label: string;
     sample_level: string;
   }>;
+  part_results?: Array<{
+    title: string;
+    correct: number;
+    total: number;
+    accuracy: number;
+    status_label: string;
+    sample_level: string;
+  }>;
+  error_cause_distribution?: Array<{
+    label: string;
+    count: number;
+    session_count: number;
+    examples: string[];
+  }>;
+  teacher_observation_points?: string[];
   representative_questions: Array<{
     source_question_ref: string;
     test_title: string;
@@ -371,12 +455,20 @@ export type StageReport = {
     correct_answer: string;
     analysis: string;
     evidence: string[];
+    source?: string;
+    source_part_number?: number;
+    cause_label?: string;
+    student_confirmation_label?: string;
+    teacher_observation?: string;
+    location_analysis?: string;
+    elapsed_seconds?: number;
     created_at: string;
   }>;
   slowest_correct_questions: TimedQuestionReportItem[];
   slowest_wrong_questions: TimedQuestionReportItem[];
   deterministic_interpretation: string[];
   data_notes: string[];
+  selected_session_ids?: string[];
 };
 
 export type AiProviderStatus = {
@@ -393,6 +485,15 @@ export type AiProviderStatus = {
   }>;
 };
 
+export type TeacherAssignmentModule = {
+  id: string;
+  title: string;
+  module_type: "full_test" | "part" | "question_type" | "review" | "mixed";
+  target_count: number;
+  sort_order: number;
+  session_ids: string[];
+};
+
 export type TeacherAssignment = {
   id: string;
   title: string;
@@ -400,6 +501,7 @@ export type TeacherAssignment = {
   due_at?: string | null;
   status: "active" | "completed" | "archived";
   session_ids: string[];
+  modules: TeacherAssignmentModule[];
   created_at: string;
   updated_at: string;
 };
@@ -410,6 +512,44 @@ export type TeacherReportSnapshot = {
   title: string;
   created_at: string;
   report: StageReport & { assignment?: TeacherAssignment };
+};
+
+export type DurableAiJobItem = {
+  id: string;
+  question_id: string;
+  question_number?: number | null;
+  status: "pending" | "in_progress" | "completed" | "failed";
+  attempt_count: number;
+  error_message?: string | null;
+  result?: {
+    answer?: string;
+    cached?: boolean;
+    provider?: string | null;
+    model?: string | null;
+    conversation_id?: string | null;
+  } | null;
+  updated_at: string;
+};
+
+export type DurableAiJob = {
+  id: string;
+  session_id: string;
+  idempotency_key: string;
+  status: "pending" | "running" | "partial" | "completed" | "failed";
+  provider: string;
+  model: string;
+  total_items: number;
+  completed_items: number;
+  failed_items: number;
+  created_at: string;
+  updated_at: string;
+  items: DurableAiJobItem[];
+  policy: {
+    creation_calls_ai: false;
+    resume_processes_at_most: number;
+    max_attempts_per_item: number;
+    automatic_paid_provider_fallback: false;
+  };
 };
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8010";
@@ -440,14 +580,12 @@ async function apiJson<T>(path: string, init?: RequestInit): Promise<T> {
 
 function cacheEnvelopeAnnotations(envelope: SessionEnvelope): SessionEnvelope {
   const annotations = envelope.result.annotations || [];
-  if (annotations.length) {
-    cacheSessionAnnotations({
-      sessionId: envelope.session_id,
-      testId: envelope.result.test_id,
-      testTitle: envelope.result.test_title,
-      annotations
-    });
-  }
+  cacheSessionAnnotations({
+    sessionId: envelope.session_id,
+    testId: envelope.result.test_id,
+    testTitle: envelope.result.test_title,
+    annotations
+  });
   return envelope;
 }
 
@@ -458,6 +596,10 @@ export async function fetchHealth(signal?: AbortSignal): Promise<HealthResponse>
 export async function fetchTests(signal?: AbortSignal): Promise<TestIndexItem[]> {
   const data = await apiJson<{ items: TestIndexItem[] }>("/api/v1/question-bank/tests", { signal });
   return data.items;
+}
+
+export async function fetchQuestionBankStatus(signal?: AbortSignal): Promise<QuestionBankMigrationStatus> {
+  return apiJson<QuestionBankMigrationStatus>("/api/v1/question-bank/migration-status", { signal });
 }
 
 export async function fetchPublicTest(testId: string, signal?: AbortSignal): Promise<PublicTest> {
@@ -500,9 +642,48 @@ export async function fetchMethodCourses(signal?: AbortSignal): Promise<MethodCo
   return data.items;
 }
 
-export async function fetchAbilitySkills(signal?: AbortSignal): Promise<AbilitySkill[]> {
-  const data = await apiJson<{ items: AbilitySkill[] }>("/api/v1/ability/skills", { signal });
+export async function saveWrongQuestionFeedback(
+  item: WrongReviewItem,
+  feedback: {
+    match_status: "matches" | "partial" | "does_not_match";
+    understanding_status: "understood" | "needs_review";
+    cause_id?: string | null;
+    note?: string;
+  }
+): Promise<NonNullable<WrongReviewItem["student_feedback"]>> {
+  return apiJson<NonNullable<WrongReviewItem["student_feedback"]>>(
+    `/api/v1/review/wrong-questions/${encodeURIComponent(item.source_session_id)}/${encodeURIComponent(item.id)}/feedback`,
+    {
+      method: "POST",
+      body: JSON.stringify({ user_id: "owner", ...feedback })
+    }
+  );
+}
+
+export async function fetchDurableAiJobs(signal?: AbortSignal): Promise<DurableAiJob[]> {
+  const data = await apiJson<{ items: DurableAiJob[] }>(
+    "/api/v1/ai-jobs?user_id=owner&limit=50",
+    { signal }
+  );
   return data.items;
+}
+
+export async function createDurableAiJob(payload: {
+  session_id: string;
+  question_ids: string[];
+  idempotency_key: string;
+}): Promise<DurableAiJob> {
+  return apiJson<DurableAiJob>("/api/v1/ai-jobs", {
+    method: "POST",
+    body: JSON.stringify({ user_id: "owner", ...payload })
+  });
+}
+
+export async function resumeDurableAiJob(jobId: string): Promise<DurableAiJob> {
+  return apiJson<DurableAiJob>(`/api/v1/ai-jobs/${encodeURIComponent(jobId)}/resume`, {
+    method: "POST",
+    body: JSON.stringify({ user_id: "owner" })
+  });
 }
 
 export async function fetchMethodCourse(courseId: string, signal?: AbortSignal): Promise<MethodCourse> {
@@ -543,9 +724,75 @@ export async function fetchStageReport(userId = "owner", signal?: AbortSignal): 
   );
 }
 
-export async function archiveSession(sessionId: string, userId = "owner"): Promise<void> {
+export function stageReportDownloadUrl(
+  extension: "pdf" | "docx",
+  userId = "owner"
+): string {
+  return `${API_BASE_URL}/api/v1/reports/stage.${extension}?user_id=${encodeURIComponent(userId)}&limit=500`;
+}
+
+export async function fetchSelectedStageReport(
+  sessionIds: string[],
+  title: string,
+  userId = "owner"
+): Promise<StageReport> {
+  return apiJson<StageReport>("/api/v1/reports/selection", {
+    method: "POST",
+    body: JSON.stringify({ user_id: userId, session_ids: sessionIds, title })
+  });
+}
+
+export async function downloadSelectedStageReport(
+  sessionIds: string[],
+  title: string,
+  extension: "pdf" | "docx",
+  userId = "owner"
+): Promise<Blob> {
+  const response = await fetch(`${API_BASE_URL}/api/v1/reports/selection.${extension}`, {
+    method: "POST",
+    cache: "no-store",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ user_id: userId, session_ids: sessionIds, title })
+  });
+  if (!response.ok) {
+    const data = await response.json().catch(() => null) as { detail?: unknown } | null;
+    const detail = data?.detail;
+    const message = typeof detail === "string"
+      ? detail
+      : detail && typeof detail === "object" && "message" in detail
+        ? String((detail as { message?: unknown }).message)
+        : `汇总报告下载失败（${response.status}）`;
+    throw new Error(message);
+  }
+  return response.blob();
+}
+
+export function sessionReportDownloadUrl(
+  sessionId: string,
+  extension: "pdf" | "docx",
+  userId = "owner"
+): string {
+  return `${API_BASE_URL}/api/v1/reports/sessions/${encodeURIComponent(sessionId)}.${extension}?user_id=${encodeURIComponent(userId)}`;
+}
+
+export async function deleteSession(sessionId: string, userId = "owner"): Promise<void> {
   await apiJson(`/api/v1/sessions/${encodeURIComponent(sessionId)}?user_id=${encodeURIComponent(userId)}`, {
     method: "DELETE"
+  });
+}
+
+export async function deleteSessions(
+  sessionIds: string[],
+  userId = "owner"
+): Promise<{
+  deleted_count: number;
+  deleted_ids: string[];
+  missing_ids: string[];
+  recoverable: false;
+}> {
+  return apiJson("/api/v1/sessions/delete-batch", {
+    method: "POST",
+    body: JSON.stringify({ user_id: userId, session_ids: sessionIds })
   });
 }
 
@@ -595,7 +842,14 @@ export async function updateTeacherAssignment(assignment: TeacherAssignment): Pr
       description: assignment.description,
       due_at: assignment.due_at,
       status: assignment.status,
-      session_ids: assignment.session_ids
+      session_ids: assignment.session_ids,
+      modules: assignment.modules.map((module) => ({
+        id: module.id,
+        title: module.title,
+        module_type: module.module_type,
+        target_count: module.target_count,
+        session_ids: module.session_ids
+      }))
     })
   });
 }
@@ -620,4 +874,14 @@ export async function fetchTeacherReportSnapshots(signal?: AbortSignal): Promise
     { signal }
   );
   return data.items;
+}
+
+export function teacherReportDownloadUrl(
+  source: { assignmentId: string } | { snapshotId: string },
+  extension: "pdf" | "docx"
+): string {
+  const path = "assignmentId" in source
+    ? `/api/v1/teacher/assignments/${encodeURIComponent(source.assignmentId)}/report.${extension}`
+    : `/api/v1/teacher/report-snapshots/${encodeURIComponent(source.snapshotId)}.${extension}`;
+  return `${API_BASE_URL}${path}?user_id=owner`;
 }

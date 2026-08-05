@@ -13,7 +13,7 @@ IELTS General Training Reading 个人学习平台。
 
 ## 当前发布状态
 
-- 当前版本：`0.5.0`；
+- 当前版本：`1.0.0`；
 - 当前阶段：`replacement_validation`（旧版替代验收）；
 - 个人学习主线已经完成到词汇本导出和证据约束 AI；
 - 17种题型专项、返回原错题和确定性阶段报告已经迁入，并与现有能力训练、Session 和错题闭环合并；
@@ -86,8 +86,10 @@ AI_DAILY_REQUEST_LIMIT=30
 ```env
 AI_PROVIDER=deepseek
 DEEPSEEK_API_KEY=你的_DeepSeek_API_Key
-DEEPSEEK_MODEL=deepseek-v4-pro
+DEEPSEEK_MODEL=deepseek-v4-flash
 DEEPSEEK_BASE_URL=https://api.deepseek.com
+DEEPSEEK_THINKING=enabled
+DEEPSEEK_REASONING_EFFORT=high
 AI_DAILY_REQUEST_LIMIT=30
 ```
 
@@ -108,6 +110,18 @@ AI_DAILY_REQUEST_LIMIT=30
 - 可访问 `GET /api/v1/ai-teacher/provider` 检查当前供应商、模型和配置状态，接口不会返回 API Key。
 
 ## 本地开发
+
+推荐只运行下面这一条，它会重启本项目占用的 8001/8010 进程、同时启动前后端，并验证新版同义替换接口已加载：
+
+```powershell
+pnpm dev
+```
+
+后端使用 Uvicorn `--reload` 监视 `services/api/app`；后端代码更新后会自动重载，不需要手动关闭窗口再启动。启动日志保存在 `tmp/local-runtime`。
+
+开发网页使用独立的 `.next-dev` 缓存，生产构建继续使用 `.next`。即使开发服务运行时执行生产构建，也不会再让当前页面丢失分块文件或出现前后端版本错位。
+
+如果需要分别启动，再使用下面的命令：
 
 ```bash
 corepack enable

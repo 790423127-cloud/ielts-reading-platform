@@ -9,7 +9,9 @@ test("starting from a test card creates a fresh attempt instead of silently rest
   assert.match(workbench, /async function startExam\([\s\S]*?resumeDraft = false,[\s\S]*?selectedDraft: DraftState \| null = null/);
   assert.match(workbench, /if \(resumeDraft\) \{[\s\S]*?window\.localStorage\.getItem\(key\)[\s\S]*?\} else \{\s*window\.localStorage\.removeItem\(key\);/);
   assert.match(workbench, /setAnswers\(draft\?\.answers \|\| \{\}\)/);
-  assert.match(workbench, /setClientSubmissionId\(draft\?\.clientSubmissionId \|\| newSubmissionId\(\)\)/);
+  assert.match(workbench, /const nextSubmissionId = draft\?\.clientSubmissionId \|\| newSubmissionId\(\)/);
+  assert.match(workbench, /setClientSubmissionId\(nextSubmissionId\)/);
+  assert.match(workbench, /beginReadingAttempt\(\{[\s\S]*attemptId: nextSubmissionId,[\s\S]*annotations: draft\?\.annotations \|\| \[\]/);
   assert.match(workbench, /onClick=\{\(\) => void startExam\(item\.id, "study", \[\]\)\}/);
   assert.match(workbench, /onClick=\{\(\) => void startExam\(item\.id, "part_practice", \[part\]\)\}/);
 });
@@ -26,9 +28,11 @@ test("draft restoration is explicit and remains available from the draft manager
 
 test("local recovery drafts are created only by an explicit manual save", () => {
   assert.match(workbench, /const draftSnapshotRef = useRef<DraftState \| null>\(null\)/);
-  assert.match(workbench, /const hasDraftProgress = answeredCount > 0 \|\| Object\.values\(flagged\)\.some\(Boolean\)/);
+  assert.match(workbench, /const hasDraftProgress = answeredCount > 0 \|\| Object\.values\(flagged\)\.some\(Boolean\) \|\| annotationCount > 0/);
   assert.match(workbench, /const hasAnswers = Object\.values\(draft\.answers\)\.some\(answerIsPresent\)/);
-  assert.match(workbench, /if \(!hasAnswers && !hasFlags\) return null/);
+  assert.match(workbench, /const hasAnnotations = Boolean\(draft\.annotations\?\.length\)/);
+  assert.match(workbench, /if \(!hasAnswers && !hasFlags && !hasAnnotations\) return null/);
+  assert.match(workbench, /annotations: test \? readAnnotationsForSubmission\(test\.id, partNumbers\) : \[\]/);
   assert.match(workbench, /function saveDraftManually\(\): boolean/);
   assert.match(workbench, /onClick=\{saveDraftManually\}>保存草稿/);
   assert.match(workbench, /setDrafts\(\(current\) => \[summary, \.\.\.current\.filter/);
@@ -39,5 +43,6 @@ test("local recovery drafts are created only by an explicit manual save", () => 
 
 test("empty automatic drafts are hidden instead of filling the draft manager", () => {
   assert.match(workbench, /const hasAnswers = Object\.values\(value\.answers \|\| \{\}\)\.some\(answerIsPresent\)/);
-  assert.match(workbench, /if \(!hasAnswers && !hasFlags\) continue/);
+  assert.match(workbench, /const hasAnnotations = Array\.isArray\(value\.annotations\) && value\.annotations\.length > 0/);
+  assert.match(workbench, /if \(!hasAnswers && !hasFlags && !hasAnnotations\) continue/);
 });

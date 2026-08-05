@@ -1,18 +1,24 @@
 from __future__ import annotations
 
 import os
+import logging
 from pathlib import Path
 from typing import Annotated, Any, Literal
 
-from fastapi import APIRouter, HTTPException, Query
+from fastapi import APIRouter, BackgroundTasks, HTTPException, Query
 from pydantic import BaseModel, ConfigDict, Field, ValidationError, model_validator
 
 from app.api.question_bank import question_bank
 from app.domain.scoring import score_submission
+from app.repositories.ai_teacher_repository import AiTeacherRepository
+from app.repositories.vocabulary_repository import VocabularyRepository
 from app.repositories.session_repository import SQLiteSessionRepository, StoredSession
+from app.services.ai_teacher import ai_daily_request_limit
 from app.services.question_bank import QuestionBankNotReadyError
+from app.services.paraphrase_extractor import extract_wrong_question_paraphrases
 
 router = APIRouter(prefix="/sessions", tags=["sessions"])
+logger = logging.getLogger("ielts_reading.sessions")
 QuestionElapsedSeconds = Annotated[int, Field(ge=0, le=21600)]
 PartElapsedSeconds = Annotated[int, Field(ge=0, le=21600)]
 
@@ -22,6 +28,10 @@ class SessionAnnotation(BaseModel):
 
     id: str = Field(min_length=1, max_length=160)
     kind: Literal["highlight", "note"]
+    highlight_level: Literal["primary", "secondary"] = Field(
+        default="primary",
+        alias="highlightLevel",
+    )
     test_id: str = Field(alias="testId", min_length=1, max_length=120)
     test_title: str = Field(alias="testTitle", min_length=1, max_length=300)
     part_number: int = Field(alias="partNumber", ge=1, le=3)
@@ -90,6 +100,13 @@ class SessionEnvelope(BaseModel):
     result: dict[str, Any]
 
 
+class SessionDeleteBatchRequest(BaseModel):
+    model_config = ConfigDict(extra="forbid")
+
+    user_id: str = Field(default="owner", min_length=1, max_length=120)
+    session_ids: list[str] = Field(min_length=1, max_length=100)
+
+
 def session_repository() -> SQLiteSessionRepository:
     path = Path(
         os.getenv(
@@ -107,6 +124,65 @@ def _envelope(stored: StoredSession) -> SessionEnvelope:
         created_at=stored.created_at,
         idempotent_replay=stored.idempotent_replay,
         result=stored.result,
+    )
+
+
+def _extract_and_persist_paraphrases(
+    *,
+    database_path: str,
+    user_id: str,
+    session_id: str,
+    scored_result: dict[str, Any],
+) -> None:
+    session_store = SQLiteSessionRepository(database_path)
+    try:
+        ai_repository = AiTeacherRepository(database_path)
+        calls_used = ai_repository.provider_calls_today(user_id=user_id)
+        remaining_ai_calls = max(0, ai_daily_request_limit() - calls_used)
+        if remaining_ai_calls == 0:
+            summary = extract_wrong_question_paraphrases(
+                repository=VocabularyRepository(database_path),
+                user_id=user_id,
+                session_id=session_id,
+                result=scored_result,
+                allow_ai=False,
+                max_ai_calls=0,
+            )
+            summary = {
+                **summary,
+                "status": "partial" if summary.get("saved_count") else "skipped",
+                "reason": "ai_daily_limit_reached",
+                "ai_status": "skipped_daily_limit",
+            }
+        else:
+            summary = extract_wrong_question_paraphrases(
+                repository=VocabularyRepository(database_path),
+                user_id=user_id,
+                session_id=session_id,
+                result=scored_result,
+                max_ai_calls=remaining_ai_calls,
+            )
+    except Exception:
+        logger.exception(
+            "wrong-question paraphrase extraction failed for session %s",
+            session_id,
+        )
+        summary = {
+            "status": "failed",
+            "reason": "unexpected_extraction_error",
+            "wrong_question_count": len(scored_result.get("wrong_questions") or []),
+            "candidate_count": 0,
+            "saved_count": 0,
+        }
+    stored = session_store.get(user_id=user_id, session_id=session_id)
+    if not stored:
+        return
+    next_result = dict(stored.result)
+    next_result["ai_paraphrase_summary"] = summary
+    session_store.update_result(
+        user_id=user_id,
+        session_id=session_id,
+        result=next_result,
     )
 
 
@@ -180,7 +256,7 @@ def _validated_annotations(
 
 
 @router.post("/submit", response_model=SessionEnvelope)
-def submit_session(payload: SessionSubmitRequest) -> SessionEnvelope:
+def submit_session(payload: SessionSubmitRequest, background_tasks: BackgroundTasks) -> SessionEnvelope:
     repository = session_repository()
     existing = repository.get_by_client_submission_id(
         payload.user_id, payload.client_submission_id
@@ -251,6 +327,51 @@ def submit_session(payload: SessionSubmitRequest) -> SessionEnvelope:
         test_id=payload.test_id,
         result=result,
     )
+    if os.getenv("PYTEST_CURRENT_TEST"):
+        summary = {
+            "status": "skipped",
+            "reason": "test_environment",
+            "wrong_question_count": len(result.get("wrong_questions") or []),
+            "candidate_count": 0,
+            "saved_count": 0,
+        }
+    else:
+        try:
+            summary = extract_wrong_question_paraphrases(
+                repository=VocabularyRepository(repository.database_path),
+                user_id=payload.user_id,
+                session_id=stored.id,
+                result=result,
+                allow_ai=False,
+            )
+        except Exception:
+            logger.exception(
+                "local paraphrase extraction failed for session %s; AI work remains queued",
+                stored.id,
+            )
+            summary = {
+                "status": "queued",
+                "reason": "local_extraction_failed_ai_still_queued",
+                "wrong_question_count": len(result.get("wrong_questions") or []),
+                "candidate_count": 0,
+                "saved_count": 0,
+                "local_saved_count": 0,
+                "ai_saved_count": 0,
+                "ai_status": "queued",
+            }
+        background_tasks.add_task(
+            _extract_and_persist_paraphrases,
+            database_path=repository.database_path,
+            user_id=payload.user_id,
+            session_id=stored.id,
+            scored_result=dict(result),
+        )
+    result["ai_paraphrase_summary"] = summary
+    stored = repository.update_result(
+        user_id=payload.user_id,
+        session_id=stored.id,
+        result=result,
+    ) or stored
     return _envelope(stored)
 
 
@@ -281,6 +402,20 @@ def list_sessions(
     ]
 
 
+@router.post("/delete-batch")
+def delete_sessions_batch(payload: SessionDeleteBatchRequest) -> dict[str, Any]:
+    deleted_ids, missing_ids = session_repository().delete_many(
+        user_id=payload.user_id,
+        session_ids=payload.session_ids,
+    )
+    return {
+        "deleted_count": len(deleted_ids),
+        "deleted_ids": deleted_ids,
+        "missing_ids": missing_ids,
+        "recoverable": False,
+    }
+
+
 @router.get("/{session_id}", response_model=SessionEnvelope)
 def get_session(
     session_id: str,
@@ -293,13 +428,13 @@ def get_session(
 
 
 @router.delete("/{session_id}")
-def archive_session(
+def delete_session(
     session_id: str,
     user_id: str = Query(default="owner", min_length=1, max_length=120),
 ) -> dict[str, Any]:
-    if not session_repository().archive(user_id=user_id, session_id=session_id):
+    if not session_repository().delete(user_id=user_id, session_id=session_id):
         raise HTTPException(status_code=404, detail="Session not found")
-    return {"archived": True, "recoverable": True}
+    return {"deleted": True, "recoverable": False}
 
 
 @router.post("/{session_id}/restore")

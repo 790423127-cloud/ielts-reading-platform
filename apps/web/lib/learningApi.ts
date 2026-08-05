@@ -201,7 +201,10 @@ export type VocabularyItem = {
   note: string;
   status: "learning" | "mastered";
   occurrence_count: number;
+  manual_capture_count: number;
   sources: VocabularySource[];
+  exported_before: boolean;
+  last_exported_at?: string | null;
   created_at: string;
   updated_at: string;
   deduplicated: boolean;
@@ -221,6 +224,76 @@ export type VocabularyCapture = {
   test_id?: string;
   test_title?: string;
   part_number?: number;
+};
+
+export type ParaphraseSource = {
+  id: string;
+  source_session_id?: string | null;
+  source_question_id?: string | null;
+  test_id?: string | null;
+  test_title?: string | null;
+  part_number?: number | null;
+  question_number?: string | null;
+  question_prompt?: string | null;
+  user_answer?: string | null;
+  correct_answer?: string | null;
+  evidence?: string | null;
+  created_at: string;
+};
+
+export type ParaphraseItem = {
+  id: string;
+  user_id: string;
+  question_phrase: string;
+  source_phrase: string;
+  note: string;
+  relation_type: "direct-paraphrase" | "near-paraphrase" | "contextual-paraphrase" | "curated-paraphrase";
+  status: "learning" | "mastered";
+  confidence: number;
+  occurrence_count: number;
+  sources: ParaphraseSource[];
+  exported_before: boolean;
+  last_exported_at?: string | null;
+  created_at: string;
+  updated_at: string;
+  deduplicated: boolean;
+  source_added: boolean;
+};
+
+export type SmartSyncReceiptItem = { id: string; fingerprint: string };
+
+export type SmartSyncPackage = {
+  type: "ielts-reading-coach-smart-sync";
+  schemaVersion: 1;
+  source: "ielts-reading-coach";
+  transferId: string;
+  preparedAt: string;
+  words: Array<{
+    id: string;
+    fingerprint: string;
+    word: string;
+    meaning: string;
+    note: string;
+    status: VocabularyItem["status"];
+    occurrenceCount: number;
+    manualCaptureCount: number;
+    createdAt?: string | null;
+    updatedAt?: string | null;
+    sources: Array<Record<string, unknown>>;
+  }>;
+  paraphrases: Array<{
+    id: string;
+    fingerprint: string;
+    questionPhrase: string;
+    sourcePhrase: string;
+    note: string;
+    relationType: ParaphraseItem["relation_type"];
+    status: ParaphraseItem["status"];
+    confidence: number;
+    occurrenceCount: number;
+    sources: Array<Record<string, unknown>>;
+  }>;
+  counts: { words: number; paraphrases: number };
 };
 
 const API_BASE_URL = process.env.NEXT_PUBLIC_API_BASE_URL || "http://127.0.0.1:8010";
@@ -335,6 +408,91 @@ export async function deleteVocabulary(itemId: string, userId = "owner"): Promis
   );
 }
 
+export async function fetchParaphrases(userId = "owner", signal?: AbortSignal): Promise<ParaphraseItem[]> {
+  const data = await apiJson<{ items: ParaphraseItem[] }>(
+    `/api/v1/vocabulary/paraphrases?user_id=${encodeURIComponent(userId)}&limit=5000`,
+    { signal }
+  );
+  return data.items;
+}
+
+export async function updateParaphraseStatus(
+  itemId: string,
+  status: ParaphraseItem["status"],
+  userId = "owner"
+): Promise<ParaphraseItem> {
+  return apiJson<ParaphraseItem>(`/api/v1/vocabulary/paraphrases/${encodeURIComponent(itemId)}`, {
+    method: "PUT",
+    body: JSON.stringify({ user_id: userId, status })
+  });
+}
+
 export function vocabularyExportUrl(format: "csv" | "txt" | "json", userId = "owner"): string {
   return `${API_BASE_URL}/api/v1/vocabulary/export?format=${format}&user_id=${encodeURIComponent(userId)}`;
+}
+
+export async function exportVocabularySelection(payload: {
+  item_ids: string[];
+  only_unexported: boolean;
+  user_id?: string;
+}): Promise<{ blob: Blob; filename: string }> {
+  const response = await fetch(`${API_BASE_URL}/api/v1/vocabulary/export`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ user_id: "owner", ...payload })
+  });
+  if (!response.ok) {
+    const data = await response.json().catch(() => null) as { detail?: unknown } | null;
+    throw new Error(typeof data?.detail === "string" ? data.detail : `导出失败（${response.status}）`);
+  }
+  const disposition = response.headers.get("content-disposition") || "";
+  const filename = disposition.match(/filename="([^"]+)"/i)?.[1]
+    || "ielts-vocabulary-selected.txt";
+  return { blob: await response.blob(), filename };
+}
+
+export async function exportParaphraseSelection(payload: {
+  item_ids: string[];
+  only_unexported: boolean;
+  format?: "txt" | "json";
+  user_id?: string;
+}): Promise<{ blob: Blob; filename: string }> {
+  const response = await fetch(`${API_BASE_URL}/api/v1/vocabulary/paraphrases/export`, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ user_id: "owner", format: "json", ...payload })
+  });
+  if (!response.ok) {
+    const data = await response.json().catch(() => null) as { detail?: unknown } | null;
+    throw new Error(typeof data?.detail === "string" ? data.detail : `导出失败（${response.status}）`);
+  }
+  const disposition = response.headers.get("content-disposition") || "";
+  const filename = disposition.match(/filename="([^"]+)"/i)?.[1]
+    || "ielts-paraphrases-selected.json";
+  return { blob: await response.blob(), filename };
+}
+
+export async function prepareVocabularySmartSync(userId = "owner"): Promise<SmartSyncPackage> {
+  return apiJson<SmartSyncPackage>("/api/v1/vocabulary/sync/prepare", {
+    method: "POST",
+    body: JSON.stringify({ user_id: userId })
+  });
+}
+
+export async function acknowledgeVocabularySmartSync(payload: {
+  transfer_id: string;
+  words: SmartSyncReceiptItem[];
+  paraphrases: SmartSyncReceiptItem[];
+  user_id?: string;
+}): Promise<{
+  transfer_id: string;
+  words_marked: number;
+  paraphrases_marked: number;
+  stale_word_ids: string[];
+  stale_paraphrase_ids: string[];
+}> {
+  return apiJson("/api/v1/vocabulary/sync/acknowledge", {
+    method: "POST",
+    body: JSON.stringify({ user_id: "owner", ...payload })
+  });
 }

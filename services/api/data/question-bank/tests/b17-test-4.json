@@ -33,7 +33,7 @@
         {
           "label": "",
           "index": 4,
-          "text": "The reserve has plenty of wildlife, whatever the time of year, with its numerous species of birds, and plants that grow hardly anywhere else, but the autumn is when hundreds of grey seals arrive on the beach to have their young. The covered viewing area offers spectacular close-up views of all this,and hot drinks and snacks are available to help you keep warm.",
+          "text": "The reserve has plenty of wildlife, whatever the time of year, with its numerous species of birds, and plants that grow hardly anywhere else, but the autumn is when hundreds of grey seals arrive on the beach to have their young. The covered viewing area offers spectacular close-up views of all this, and hot drinks and snacks are available to help you keep warm.",
           "translation": "带顶棚的观景区提供了所有这些景象的壮观近距离视野，并且提供热饮和小吃，帮助您保暖。\n该保护区全年都拥有丰富的野生动物资源，包括众多鸟类以及几乎在其他地方无法生长的植物，但秋季是数百只灰海豹来到海滩产崽的时候。\n有顶棚的观赏区提供了这一切的壮观近距离视野，并且提供热饮和小吃以帮助您保暖。"
         },
         {
@@ -56,7 +56,7 @@
         {
           "label": "",
           "index": 8,
-          "text": "Here at the discovery centre, youngsters are introduced to the animals in our petting zoo, where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood.Meanwhile,the adults can take part in one of our woodland activities, such as learning basic woodworking skills.",
+          "text": "Here at the discovery centre, youngsters are introduced to the animals in our petting zoo, where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood. Meanwhile, the adults can take part in one of our woodland activities, such as learning basic woodworking skills.",
           "translation": "然后他们会被带着穿行于林地中散步。\n与此同时，成年人可以参加我们的林地活动之一，例如学习基本的木工技能。\n在探索中心，孩子们被介绍到我们的宠物动物园，在那里他们可以抚摸或喂养绵羊、兔子、小马和其他动物居民。\n然后，他们被带去看穿越树林的散步。\n同时，成年人可以参加我们的森林活动之一，例如学习基本的木工技能。"
         },
         {
@@ -145,7 +145,7 @@
         {
           "label": "",
           "index": 23,
-          "text": "You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement. You will also set targets for yourself, in agreement with your tutor and subject teachers,and your progress towards achieving these targets will be monitored in your tutor meetings.",
+          "text": "You will meet with your tutor at a fixed time every fortnight to discuss progress and any concerns you or your subject teachers may have about your effort and achievement. You will also set targets for yourself, in agreement with your tutor and subject teachers, and your progress towards achieving these targets will be monitored in your tutor meetings.",
           "translation": "您还将与导师和学科老师协商设定自己的目标，并且您在实现这些目标方面的进展将在导师会议中得到监督。\n您将每两周在固定时间与导师会面，讨论您的进步以及您或您的学科老师对您努力和成绩可能存在的任何担忧。\n您还将在与导师和学科老师达成一致的情况下为自己设定目标，\n您实现这些目标的进展将在导师会议中得到监督。"
         }
       ],
@@ -291,7 +291,7 @@
               "paraphrasing": "parents and children doing different activities -> youngsters are introduced to the animals... Meanwhile, the adults can take part in one of our woodland activities",
               "keywords": "parents, children, different activities, same time",
               "evidence": [
-                "Here at the discovery centre, youngsters are introduced to the animals in our petting zoo, where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood.Meanwhile,the adults can take part in one of our woodland activities, such as learning basic woodworking skills."
+                "Here at the discovery centre, youngsters are introduced to the animals in our petting zoo, where they can stroke or feed the sheep, rabbits, ponies and other residents. Then they're taken on a walk through the wood. Meanwhile, the adults can take part in one of our woodland activities, such as learning basic woodworking skills."
               ],
               "confidence": 1,
               "wrong_reasons": null
@@ -488,7 +488,7 @@
           "id": "13853",
           "type": 1,
           "title": "",
-          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "instructions": "Questions 8 - 14\nDo the following statements agree with the information given in Reading Passage 1?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
           "option_title": "",
           "options": [],
           "table": null,
@@ -593,7 +593,7 @@
               ],
               "analysis": "题干称“Most sixth-form students come from other schools”，但原文明确说明“While the majority of sixth-form students enter from the lower school”，即大多数学生来自本校初中部，而非其他学校，这与题干内容相矛盾，因此答案为 FALSE。",
               "reason": "大多数来自本校lower school，并非其他学校。",
-              "location_analysis": "题干'most from other schools'与原文'majority ... fro...",
+              "location_analysis": "题干'most from other schools'与原文'majority... fro...",
               "paraphrasing": "most come from other schools -> While the majority of sixth-form students enter from the lower school",
               "keywords": "most, sixth-form, come, other schools",
               "evidence": [
@@ -991,7 +991,7 @@
         },
         {
           "index": 46,
-          "sentence": "The covered viewing area offers spectacular close-up views of all this,and hot drinks and snacks are available to help you keep warm.",
+          "sentence": "The covered viewing area offers spectacular close-up views of all this, and hot drinks and snacks are available to help you keep warm.",
           "translation": "有顶棚的观赏区提供了这一切的壮观近距离视野，并且提供热饮和小吃以帮助您保暖。"
         },
         {
@@ -1192,7 +1192,7 @@
         {
           "label": "",
           "index": 3,
-          "text": "Today the tree-cutting team consists of myself, Gary and Mikael. We're going to cut down a tall tree that is inside the boundary of a busy timber yard. It's Saturday - not a working day for the yard - and it is far easier to remove a tree when no-one else is around.As supervisor, l first pop into our office to sort out the paperwork for the day, which includes the risk assessments.Then I look at the most up-to-date weather forecast as wind and rain make our job much more difficult. Luckily, we've picked a good day.",
+          "text": "Today the tree-cutting team consists of myself, Gary and Mikael. We're going to cut down a tall tree that is inside the boundary of a busy timber yard. It's Saturday - not a working day for the yard - and it is far easier to remove a tree when no-one else is around. As supervisor, l first pop into our office to sort out the paperwork for the day, which includes the risk assessments. Then I look at the most up-to-date weather forecast as wind and rain make our job much more difficult. Luckily, we've picked a good day.",
           "translation": "今天，砍树团队由我、加里和米卡埃尔组成。\n我们要砍倒一棵位于繁忙木材场边界内的高树。\n今天是星期六——木材场不工作——周围没人的时候，移除树木要容易得多。\n作为主管，我首先快速进入办公室整理当天的工作文件，包括风险评估。\n然后我查看最新的天气预报，因为风和雨会让我们的工作更加困难。\n幸运的是，我们选了一个好日子。\n今天砍树小组由我、加里和米凯尔组成。\n我们打算砍倒一棵位于繁忙木材厂边界内的高树。\n今天是星期六，不是木材厂的工作日，周围没人的时候移除树木要容易得多。\n作为主管，我首先快速进入办公室整理当天的文书工作，其中包括风险评估。\n然后我会查看最新的天气预报，因为风雨会大大增加我们工作的难度。\n幸运的是，我们选了个好天气。"
         },
         {
@@ -1203,7 +1203,7 @@
         {
           "label": "",
           "index": 5,
-          "text": "Next, we load up the equipment - things like petrol-driven chainsaws of varying sizes,helmets and waterproofs, spades, rakes and other tools, etc. must all go on the truck before the three of us set off. On arrival at the site, we have a quick discussion on the procedure for the day.After that, one of us - today it's Gary - goes up the tree to quickly select his anchor point.This is the position from which he'll cut down the tree. It must be high enough to enable access throughout the tree's branches, but also have sufficient strength to support the climber. The first few big branches can be cut from the tree in large pieces and dropped into the yard, so we make good progress during the morning and start our wood pile there.",
+          "text": "Next, we load up the equipment - things like petrol-driven chainsaws of varying sizes, helmets and waterproofs, spades, rakes and other tools, etc. must all go on the truck before the three of us set off. On arrival at the site, we have a quick discussion on the procedure for the day. After that, one of us - today it's Gary - goes up the tree to quickly select his anchor point. This is the position from which he'll cut down the tree. It must be high enough to enable access throughout the tree's branches, but also have sufficient strength to support the climber. The first few big branches can be cut from the tree in large pieces and dropped into the yard, so we make good progress during the morning and start our wood pile there.",
           "translation": "接下来，我们装载设备——像不同尺寸的汽油驱动链锯、头盔和防水服、铲子、耙子及其他工具等，必须在三人出发前全部装上卡车。\n到达现场后，我们快速讨论一下当天的流程。\n之后，我们中的一人——今天轮到加里——爬上树，迅速选定他的锚点。\n这个位置就是他将要砍伐这棵树的地方。\n它必须足够高，以便能够接触到树的整个枝干，但同时也要有足够的强度来支撑攀爬者。\n最初的几根大树枝可以被砍成大块丢入院内，因此我们在上午进展顺利，并在那里开始堆放木料。"
         },
         {
@@ -1214,7 +1214,7 @@
         {
           "label": "",
           "index": 7,
-          "text": "Having removed the more accessible branches, we have lunch and then set up a simple system to reach the smaller upper branches. This involves placing a pulley in the tree and using thick rope to drag the branches down.When they're cut, these will fall further away- outside the boundary of the yard.On the other side of the perimeter fence is a wide grass verge and then a footpath, where l set up a number of signs to alert the public to our activities.Working alongside a road requires vigilance, so I monitor the movements of pedestrians,and as Gary starts work, I watch what he's doing, so l can ensure safety. Once the branches are on the ground, I throw them back over the fence to Mikael, who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.",
+          "text": "Having removed the more accessible branches, we have lunch and then set up a simple system to reach the smaller upper branches. This involves placing a pulley in the tree and using thick rope to drag the branches down. When they're cut, these will fall further away- outside the boundary of the yard. On the other side of the perimeter fence is a wide grass verge and then a footpath, where l set up a number of signs to alert the public to our activities. Working alongside a road requires vigilance, so I monitor the movements of pedestrians, and as Gary starts work, I watch what he's doing, so l can ensure safety. Once the branches are on the ground, I throw them back over the fence to Mikael, who cuts them up and feeds the machine that dices them into very small pieces called wood chippings.",
           "translation": "在移除了更容易够到的树枝后，我们吃了午饭，然后建立了一个简单的系统来触及上方较小的树枝。\n这包括在树上放置一个滑轮，并用粗绳将树枝拖下来。\n当它们被砍下时，会落得更远——在院子边界之外。\n在围栏的另一侧是一片宽阔的草地边缘，然后是一条人行道，我在那里设置了多个标志，以提醒公众注意我们的活动。\n在道路旁工作需要保持警惕，因此我监视行人的动向，并且在加里开始工作时，我观察他的操作，以确保安全。\n一旦树枝落到地面，我就把它们扔回围栏另一侧给米凯尔，他负责将树枝锯碎并送入机器，将其切成称为木屑的非常小的碎片。\n在移除了更容易够到的树枝后，我们吃了午饭，然后设置了一个简单的系统来触及那些更小的上层树枝。\n这包括在树上放置一个滑轮，并使用粗绳将树枝拖下来。\n这些树枝被切割后，会落在更远的地方——院子边界之外。\n围栏的另一侧是一个宽阔的草地带和一条人行道，我在那里设置了一些标志，提醒公众注意我们的活动。\n在路边工作需要保持警惕，所以我监视着行人的动态，当加里开始工作时，我观察他的操作，以确保安全。\n一旦树枝落在地面上，我就把它们扔回栅栏那边给米凯尔，他负责切割树枝并将它们送入机器，切成叫做木屑的小碎片。\n在移除了较易触及的树枝后，我们吃了午饭，然后建立了一个简单的系统来够到更小的上层树枝。\n当它们被砍断时，这些树枝会掉落到更远的地方——院子边界之外。\n围墙的另一边是一片宽阔的草地带，然后是一条人行道，我在那里设置了一些标志，提醒公众注意我们的活动。\n在路边工作需要保持警惕，所以我监视行人的动向，当加里开始工作时，我观察他的行动，以确保安全。\n一旦树枝落在地上，我就把它们扔回栅栏那边给米凯尔，他把它们切碎，然后送入机器切成非常小的碎片，称为木屑。"
         },
         {
@@ -1241,7 +1241,7 @@
         {
           "label": "",
           "index": 11,
-          "text": "In a residential building, such as a block of flats, underfloor jobs that involve plumbing,mechanical and electrical systems are common. They may need to take place in a narrow space that is often only about 35 centimetres deep. In addition, the floors are typically covered with a wood product, engineered to resemble solid wood, that has very strict criteria as far as drilling and cutting are concerned.The plumber cannot just go in and cut holes and lay pipes.He must first think about what he is doing, read and understand the cutting chart that accompanies each of his tools and visualise how his work will impact on other tradespeople, before proceeding.",
+          "text": "In a residential building, such as a block of flats, underfloor jobs that involve plumbing, mechanical and electrical systems are common. They may need to take place in a narrow space that is often only about 35 centimetres deep. In addition, the floors are typically covered with a wood product, engineered to resemble solid wood, that has very strict criteria as far as drilling and cutting are concerned. The plumber cannot just go in and cut holes and lay pipes. He must first think about what he is doing, read and understand the cutting chart that accompanies each of his tools and visualise how his work will impact on other tradespeople, before proceeding.",
           "translation": "在住宅建筑中，例如公寓楼，涉及管道、机械和电气系统的地板下作业很常见。\n这些作业可能需要在通常只有约35厘米深的狭窄空间内进行。\n此外，地板通常覆盖着一种设计成类似实木的木制品，在钻孔和切割方面有非常严格的标准。\n水暖工不能直接进去钻孔并铺设管道。\n在开展工作之前，他必须首先思考自己在做什么，阅读并理解每件工具附带的切割图，并设想自己的工作将如何影响其他行业人员。"
         },
         {
@@ -1252,7 +1252,7 @@
         {
           "label": "",
           "index": 13,
-          "text": "Commercial plumbers working on office buildings, hotels, restaurants, etc. have the same issues and co-ordination problems as residential plumbers, but often have to install equipment that is more sophisticated. This is because it forms part of integrated systems where mechanical work and plumbing work are combined.The equipment will have specific installation instructions, so it is critical that the plumber has the cognitive ability to understand these. In addition, often the structures are complex, and the floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel.",
+          "text": "Commercial plumbers working on office buildings, hotels, restaurants, etc. have the same issues and co-ordination problems as residential plumbers, but often have to install equipment that is more sophisticated. This is because it forms part of integrated systems where mechanical work and plumbing work are combined. The equipment will have specific installation instructions, so it is critical that the plumber has the cognitive ability to understand these. In addition, often the structures are complex, and the floors and walls must be X-rayed prior to drilling in order to avoid hitting key elements such as reinforcing steel.",
           "translation": "在办公楼、酒店、餐厅等地工作的商业水管工会遇到与住宅水管工相同的问题和协调难题，但通常需要安装更为复杂的设备。\n这是因为这些设备属于机械工程与水管工程相结合的集成系统的一部分。\n设备会有具体的安装说明，因此水管工具备理解这些说明的认知能力至关重要。\n此外，建筑结构通常很复杂，在钻孔前必须对地板和墙壁进行X光检查，以避免碰到钢筋等关键构件。"
         },
         {
@@ -1263,7 +1263,7 @@
         {
           "label": "",
           "index": 15,
-          "text": "Service plumbers go in where others have been and often face situations where they must troubleshoot various possible causes of a plumbing problem. In order to do this effectively, they must have complete knowledge of, say, a customer's shower unit they are servicing, even if they did not install it! They must have the ability to translate the symptoms they can see, such as leaks and blockages, into the actual problem and then take the appropriate action to rectify the issue in a fast and cost-effective way. Often service plumbers encounter residential or commercial customers who are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue.Successful service plumbers not only need good mechanical skills, but they typically need very good people skills to provide the necessary support.",
+          "text": "Service plumbers go in where others have been and often face situations where they must troubleshoot various possible causes of a plumbing problem. In order to do this effectively, they must have complete knowledge of, say, a customer's shower unit they are servicing, even if they did not install it! They must have the ability to translate the symptoms they can see, such as leaks and blockages, into the actual problem and then take the appropriate action to rectify the issue in a fast and cost-effective way. Often service plumbers encounter residential or commercial customers who are either facing great inconvenience or have had their operations severely disrupted because of a plumbing issue. Successful service plumbers not only need good mechanical skills, but they typically need very good people skills to provide the necessary support.",
           "translation": "维修水管工常常进入他人先前作业过的场所，并经常面临需要排查各种可能原因的管道问题情境。\n为了高效完成这一工作，他们必须对正在维修的客户淋浴设备了如指掌，即使该设备并非由他们安装！\n他们必须具备将可见的迹象（如渗漏和堵塞）转化为实际问题的能力，并随后采取适当措施，以快速且经济有效的方式解决该问题。\n维修水管工经常遇到因管道问题而面临极大不便或运营严重中断的住宅或商业客户。\n成功的维修水管工不仅需要扎实的机械技能，通常还需要极佳的人际沟通技巧以提供必要的支持。"
         }
       ],
@@ -1291,7 +1291,7 @@
               "analysis": "题干中“Chainsaws, clothing and all ___ are loaded onto the lorry”对应原文中的“load up the equipment - things like petrol-driven chainsaws... helmets and waterproofs, spades, rakes and other tools”，其中“other tools”概括了除已列出物品外的所有工具，因此答案为“tools”。",
               "reason": "题干与原文对应装载内容。",
               "location_analysis": "原文提及装载设备包括工具，故填tools。",
-              "paraphrasing": "Chainsaws, clothing and all tools -> load up the equipment ... other tools",
+              "paraphrasing": "Chainsaws, clothing and all tools -> load up the equipment... other tools",
               "keywords": "loaded onto the lorry, equipment, tools",
               "evidence": [],
               "confidence": 1,
@@ -1943,7 +1943,7 @@
         {
           "label": "",
           "index": 5,
-          "text": "Ahead of the release, the PTES found a site of dense, good-quality woodland while the captive-bred dormice waited in quarantine. After examination by vets, the dormice were placed in their 'soft release' accommodation in pairs. This consisted of secure wooden boxes fitted to trees and surrounded by a metre-square cage.For 10 days, the dormice were checked and given food daily, then a small opening was made, allowing them the freedom to explore, while retaining the security of the cage. Everything was removed in October,when the animals started preparing to go into hibernation for the winter.",
+          "text": "Ahead of the release, the PTES found a site of dense, good-quality woodland while the captive-bred dormice waited in quarantine. After examination by vets, the dormice were placed in their 'soft release' accommodation in pairs. This consisted of secure wooden boxes fitted to trees and surrounded by a metre-square cage. For 10 days, the dormice were checked and given food daily, then a small opening was made, allowing them the freedom to explore, while retaining the security of the cage. Everything was removed in October, when the animals started preparing to go into hibernation for the winter.",
           "translation": "在放归之前，PTES找到了一块茂密、优质的林地，而人工繁殖的睡鼠正在隔离中等待。\n经过兽医检查后，睡鼠被成对安置在它们的“软放归”住所中。\n这些住所包括固定在树上的安全木箱，周围环绕着一平方米的笼子。\n在10天里，睡鼠每天接受检查并被喂食，随后开了一个小口，让它们能够自由探索，同时保留笼子的安全性。\n10月份，所有设施都被移除，此时这些动物开始准备进入冬眠以度过冬季。"
         },
         {
@@ -1954,7 +1954,7 @@
         {
           "label": "",
           "index": 7,
-          "text": "'The hope is that we have a free-living population in the wood, but we won’t know how they have fared until next year,' said Ian White of the PTES. Unsuitable habitat, captive-bred animals and incorrect management could all ruin the chances of success of such schemes. However, a distinctive factor of this release, White explained, is the intention of linking up with another released dormouse population three miles away by managing the land between.The goal is to create a wider landscape for dormice and that will make the population more robust.",
+          "text": "'The hope is that we have a free-living population in the wood, but we won’t know how they have fared until next year,' said Ian White of the PTES. Unsuitable habitat, captive-bred animals and incorrect management could all ruin the chances of success of such schemes. However, a distinctive factor of this release, White explained, is the intention of linking up with another released dormouse population three miles away by managing the land between. The goal is to create a wider landscape for dormice and that will make the population more robust.",
           "translation": "PTES的伊恩·怀特表示：‘我们希望能在林间建立一个自由生活的种群，但直到明年我们才能知道它们的情况如何。’\n不适宜的栖息地、人工繁殖的动物以及错误的管理都可能破坏此类计划成功的机会。\n然而，怀特解释说，这次释放的一个独特之处在于，他们有意通过管理中间地带，与三英里外另一个已释放的睡鼠种群建立联系。\n目标是创造一个更广阔的睡鼠栖息环境，从而使该种群更加强健。\n“我们希望能在树林中建立一个自由生活的种群，但在明年之前，我们无法知道它们的情况如何。”\nPTES的伊恩·怀特说道。\n然而，怀特解释说，这次放归的一个独特之处在于，它们计划通过管理中间的土地，与三英里外另一个放归的睡鼠种群建立联系。\n其目标是为睡鼠创造一个更广阔的生存环境，这将会使种群更加健壮。"
         },
         {
@@ -1965,7 +1965,7 @@
         {
           "label": "",
           "index": 9,
-          "text": "Woodlands were traditionally managed through regularly cutting back certain trees to ground level to stimulate growth and provide firewood or timber for local residents.This system was known as coppicing, and as an added bonus it happened to provide varied food and plenty of light for dormice. But the practice has been largely lost, with much remaining woodland sliced up by roads, railways and fields.England also had more than 50% of its hedgerows dug up between 1946 and 1993 as small fields were combined to make larger ones and farmland was sold for building projects.All this has had an adverse effect on dormouse populations.",
+          "text": "Woodlands were traditionally managed through regularly cutting back certain trees to ground level to stimulate growth and provide firewood or timber for local residents. This system was known as coppicing, and as an added bonus it happened to provide varied food and plenty of light for dormice. But the practice has been largely lost, with much remaining woodland sliced up by roads, railways and fields. England also had more than 50% of its hedgerows dug up between 1946 and 1993 as small fields were combined to make larger ones and farmland was sold for building projects. All this has had an adverse effect on dormouse populations.",
           "translation": "传统上，林地的管理方式是通过定期将某些树木砍至地面，以刺激其生长并为当地居民提供薪柴或木材。\n这种系统被称为矮林作业，而额外的好处是它恰好为睡鼠提供了多样化的食物和充足的光照。\n但这一做法在很大程度上已不复存在，大部分剩余的林地也被道路、铁路和田野分割开来。\n在1946年至1993年间，随着小田地被合并成更大的地块，以及农田被出售用于建筑项目，英国超过50%的树篱也被挖掉了。\n所有这些都对睡鼠的种群数量产生了不利影响。\n传统上，人们通过定期将某些树木砍至地面来管理林地，以刺激生长并为当地居民提供柴火或木材。\n这一系统被称为萌生林作业法，而其额外的好处是恰好为榛睡鼠提供了多样化的食物和充足的光照。\n但这一做法已基本消失，且许多剩余的林地也被公路、铁路和田野分割开来。\n英国在1946年至1993年间还挖掉了超过50%的树篱，因为小片田地合并成大片田地，而农田也被出售用于建筑项目。\n所有这些都对榛睡鼠的数量产生了不利影响。"
         },
         {
@@ -1976,7 +1976,7 @@
         {
           "label": "",
           "index": 11,
-          "text": "'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation,' said White. \"They are a fascinating species that is rare but you can still see.They promote good woodland management and what's good for dormice is good for a large range of species ...'",
+          "text": "'It's very important that we reintroduce the dormouse because they are a good species to get people involved with conservation,' said White. \"They are a fascinating species that is rare but you can still see. They promote good woodland management and what's good for dormice is good for a large range of species...'",
           "translation": "怀特表示：‘重新引入睡鼠非常重要，因为它们是让公众参与保护工作的理想物种。’\n‘它们是一种迷人且稀有的物种，但人们依然有机会目睹其踪迹。’\n‘它们促进了良好的林地管理，而对睡鼠有利的举措，也对大量其他物种有益……’\n怀特说：‘重新引入睡鼠非常重要，因为它们是一种能吸引人们参与保护的绝佳物种。’\n‘它们是一种迷人但稀有的物种，然而你依然有机会见到。’\n它们促进了良好的林地管理，而对睡鼠有益的事物也会对众多其他物种有益……’"
         },
         {
@@ -1998,7 +1998,7 @@
         {
           "label": "",
           "index": 15,
-          "text": "Over centuries, Britain has lost many key species that are critical for healthy ecosystems. Here are some of the species conservationists have reintroduced or are proposing to reintroduce ...",
+          "text": "Over centuries, Britain has lost many key species that are critical for healthy ecosystems. Here are some of the species conservationists have reintroduced or are proposing to reintroduce...",
           "translation": "几个世纪以来，英国已经失去了许多对健康生态系统至关重要的关键物种。\n以下是保护主义者已经重新引入或提议重新引入的一些物种……\n以下是一些保护主义者已经重新引入或提议重新引入的物种……"
         },
         {
@@ -2009,7 +2009,7 @@
         {
           "label": "",
           "index": 17,
-          "text": "The lynx is believed to have disappeared from Britain about 1,000 years ago. Experts say it would help control the fast-growing population of red deer, allowing forests to regenerate and support greater biodiversity.The preference of the lynx, a shy animal, to stay in its woodland habitat would make a threat to livestock or humans unlikely.",
+          "text": "The lynx is believed to have disappeared from Britain about 1,000 years ago. Experts say it would help control the fast-growing population of red deer, allowing forests to regenerate and support greater biodiversity. The preference of the lynx, a shy animal, to stay in its woodland habitat would make a threat to livestock or humans unlikely.",
           "translation": "据信，猞猁大约在1000年前从英国消失。\n专家表示，它将有助于控制赤鹿快速增长的数量，从而使森林得以再生并支持更大的生物多样性。\n作为害羞的动物，猞猁偏好留在林地栖息地，这使得它对牲畜或人类构成威胁的可能性很小。"
         },
         {
@@ -2020,7 +2020,7 @@
         {
           "label": "",
           "index": 19,
-          "text": "After an absence of 400 years, beavers are back in Britain. The Devon Beaver project cites improvements in biodiversity and water after the reintroduction of a pair near Okehampton in 2011. Scotland's first reintroduction, in Knapdale forest in 2009,was hailed an 'outstanding success' , but an unlicensed free-living population in the river Tay has caused problems.",
+          "text": "After an absence of 400 years, beavers are back in Britain. The Devon Beaver project cites improvements in biodiversity and water after the reintroduction of a pair near Okehampton in 2011. Scotland's first reintroduction, in Knapdale forest in 2009, was hailed an 'outstanding success', but an unlicensed free-living population in the river Tay has caused problems.",
           "translation": "在消失了400年之后，海狸重新回到了英国。\n德文海狸项目指出，在2011年于奥克汉普顿附近重新引入一对海狸后，生物多样性和水质得到了改善。\n苏格兰在2009年于纳普代尔森林进行的首次重新引入被誉为“杰出的成功”，但在泰河未经许可的自由种群却引发了一些问题。"
         },
         {
@@ -2072,7 +2072,7 @@
             {
               "id": "117333",
               "number": 28,
-              "prompt": "lt was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then _____ gave them a thorough check. The team divided the animals into _____ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought _____ on a regular basis.",
+              "prompt": "It was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then _____ gave them a thorough check. The team divided the animals into _____ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought _____ on a regular basis.",
               "options": [],
               "answer": "vets",
               "accepted_answers": [
@@ -2092,7 +2092,7 @@
             {
               "id": "117334",
               "number": 29,
-              "prompt": "lt was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then _____ gave them a thorough check. The team divided the animals into _____ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought _____ on a regular basis.",
+              "prompt": "It was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then _____ gave them a thorough check. The team divided the animals into _____ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought _____ on a regular basis.",
               "options": [],
               "answer": "pairs",
               "accepted_answers": [
@@ -2112,7 +2112,7 @@
             {
               "id": "117335",
               "number": 30,
-              "prompt": "lt was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then _____ gave them a thorough check. The team divided the animals into _____ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought _____ on a regular basis.",
+              "prompt": "It was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then _____ gave them a thorough check. The team divided the animals into _____ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought _____ on a regular basis.",
               "options": [],
               "answer": "food",
               "accepted_answers": [
@@ -2150,11 +2150,11 @@
           ],
           "source_layout": {
             "raw_type": 4,
-            "collect": "lt was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then $117333$ gave them a thorough check. The team divided the animals into $117334$ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought $117335$ on a regular basis.\nOnce the dormice got used to their new environment, a gap was cut in the netting so they could go out and return when they wanted. Then, before the animals were ready to start their annual $117336$ in the autumn, the team took their temporary homes away; they intend to return and review the success of the project next year.",
+            "collect": "It was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then $117333$ gave them a thorough check. The team divided the animals into $117334$ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought $117335$ on a regular basis.\nOnce the dormice got used to their new environment, a gap was cut in the netting so they could go out and return when they wanted. Then, before the animals were ready to start their annual $117336$ in the autumn, the team took their temporary homes away; they intend to return and review the success of the project next year.",
             "table": null,
             "option_title": ""
           },
-          "content_template": "lt was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then $117333$ gave them a thorough check. The team divided the animals into $117334$ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought $117335$ on a regular basis.\nOnce the dormice got used to their new environment, a gap was cut in the netting so they could go out and return when they wanted. Then, before the animals were ready to start their annual $117336$ in the autumn, the team took their temporary homes away; they intend to return and review the success of the project next year."
+          "content_template": "It was necessary to do some preparation before the 40 dormice could be released in Wensleydale. First, members of the PTES had to choose a suitable wooded area for them. Then $117333$ gave them a thorough check. The team divided the animals into $117334$ before introducing them to their temporary tree homes. These were boxes which were enclosed by cages. Initially, the dormice could not get out, but the team brought $117335$ on a regular basis.\nOnce the dormice got used to their new environment, a gap was cut in the netting so they could go out and return when they wanted. Then, before the animals were ready to start their annual $117336$ in the autumn, the team took their temporary homes away; they intend to return and review the success of the project next year."
         },
         {
           "id": "13885",
@@ -2281,7 +2281,7 @@
               "paraphrasing": "will also benefit many other animals -> what's good for dormice is good for a large range of species",
               "keywords": "good for dormice, good for a large range of species",
               "evidence": [
-                "They promote good woodland management and what's good for dormice is good for a large range of species ...'"
+                "They promote good woodland management and what's good for dormice is good for a large range of species...'"
               ],
               "confidence": 1,
               "wrong_reasons": {
@@ -2319,7 +2319,7 @@
               "analysis": "题干问Helen Meech希望该项目带来什么，原文F段她指出重引入能“increase people's familiarity with living with more wild animals once again”，即让公众重新习惯与野生动物共处。选项B“a public who are used to sharing their environment with wildlife”准确概括了这一观点，因此选B。",
               "reason": "题干hope对应原文would increase...familiarity with living with wild animals。",
               "location_analysis": "选项B公众习惯与野生动物共处，对应原文familiarity with living with...",
-              "paraphrasing": "hope that ... lead to -> such reintroductions would increase people's familiarity with living with more wild animals",
+              "paraphrasing": "hope that... lead to -> such reintroductions would increase people's familiarity with living with more wild animals",
               "keywords": "hope, lead to",
               "evidence": [
                 "Helen Meech, the director of Rewilding Britain, an organisation campaigning to restore lost species and habitats to the British countryside, said that such reintroductions would increase people's familiarity with living with more wild animals once again."
@@ -2496,7 +2496,7 @@
             {
               "id": "117353",
               "number": 39,
-              "prompt": "lt is possible that reintroducing this species could bring considerable financial benefits to one area",
+              "prompt": "It is possible that reintroducing this species could bring considerable financial benefits to one area",
               "options": [
                 {
                   "value": "A",
@@ -2754,7 +2754,7 @@
         },
         {
           "index": 35,
-          "sentence": "They promote good woodland management and what's good for dormice is good for a large range of species ...'",
+          "sentence": "They promote good woodland management and what's good for dormice is good for a large range of species...'",
           "translation": "‘它们促进了良好的林地管理，而对睡鼠有利的举措，也对大量其他物种有益……’"
         },
         {
@@ -2769,7 +2769,7 @@
         },
         {
           "index": 38,
-          "sentence": "They promote good woodland management and what's good for dormice is good for a large range of species ...'",
+          "sentence": "They promote good woodland management and what's good for dormice is good for a large range of species...'",
           "translation": "它们促进了良好的林地管理，而对睡鼠有益的事物也会对众多其他物种有益……’"
         },
         {
@@ -2819,7 +2819,7 @@
         },
         {
           "index": 48,
-          "sentence": "Here are some of the species conservationists have reintroduced or are proposing to reintroduce ...",
+          "sentence": "Here are some of the species conservationists have reintroduced or are proposing to reintroduce...",
           "translation": "以下是保护主义者已经重新引入或提议重新引入的一些物种……"
         },
         {
@@ -2829,7 +2829,7 @@
         },
         {
           "index": 50,
-          "sentence": "Here are some of the species conservationists have reintroduced or are proposing to reintroduce ...",
+          "sentence": "Here are some of the species conservationists have reintroduced or are proposing to reintroduce...",
           "translation": "以下是一些保护主义者已经重新引入或提议重新引入的物种……"
         },
         {

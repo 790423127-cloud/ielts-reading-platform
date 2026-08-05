@@ -27,7 +27,7 @@
         {
           "label": "",
           "index": 3,
-          "text": "The standard time to process an application is up to 10 working days.The processing begins from when we have received the completed application form. Applicants should expect delays if the Passport Office receives a form with missing information. Extra time should be allowed for delivery to and from the Passport Office.",
+          "text": "The standard time to process an application is up to 10 working days. The processing begins from when we have received the completed application form. Applicants should expect delays if the Passport Office receives a form with missing information. Extra time should be allowed for delivery to and from the Passport Office.",
           "translation": "处理申请的标准时间最多为10个工作日。\n处理从我们收到填写完整的申请表时开始。\n如果护照办公室收到信息缺失的表格，申请人应预料到会出现延误。\n应额外留出寄往和寄出护照办公室的递送时间。"
         },
         {
@@ -60,7 +60,7 @@
         {
           "label": "",
           "index": 8,
-          "text": "The second floor of the international terminal offers a view of the airfield and all incoming and outgoing flights.There is a cafe situated here as well as a restaurant, which is available for all airport visitors to use.",
+          "text": "The second floor of the international terminal offers a view of the airfield and all incoming and outgoing flights. There is a cafe situated here as well as a restaurant, which is available for all airport visitors to use.",
           "translation": "国际航站楼的二楼可以俯瞰机场跑道以及所有进出港航班。\n这里设有一家咖啡馆和一家餐厅，所有机场访客均可使用。\n国际航站楼的二楼可俯瞰机场跑道及所有进出港航班。\n此处设有一家咖啡馆和一家餐厅，供所有机场访客使用。\n这里设有一家咖啡馆和一家餐厅，可供所有机场访客使用。"
         },
         {
@@ -1355,7 +1355,7 @@
           "id": "15905",
           "type": 1,
           "title": "",
-          "instructions": "Questions 15 - 20\nDo the following statements agree with the information given in Reading Passage 1?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
+          "instructions": "Questions 15 - 20\nDo the following statements agree with the information given in Reading Passage 2?\nChoose TRUE if the statement agrees with the information given in the text, choose FALSE if the statement contradicts the information, or choose NOT GIVEN if there is no information on this.",
           "option_title": "",
           "options": [],
           "table": null,
@@ -1495,7 +1495,7 @@
               ],
               "analysis": "题干说新学员能轻松获得想要的工作，原文提到“那些通过 Shooting Star 获得资格的人很快就能从事他们以前只能梦想的工作”（jobs they could only dream about before），表明他们确实能获得理想岗位。这与题干表述一致，答案为 TRUE。",
               "reason": "qualify对应trainees，‘could only dream about’表示能得到想要的工作，与题干一致。",
-              "location_analysis": "原文说‘using their skills in jobs they could only ...",
+              "location_analysis": "原文说‘using their skills in jobs they could only...",
               "paraphrasing": "new trainees -> those who qualify; get the sort of work they want -> using their skills in jobs they could only dream about",
               "keywords": "New trainees, get the sort of work they want",
               "evidence": [
@@ -2360,7 +2360,7 @@
         {
           "label": "",
           "index": 12,
-          "text": "At the age of thirty, Alfred Nobel made the first of his major inventions: an innovative blasting cap, a device designed to control the nitroglycerine explosion. Nobel was also determined to discover a way to make this explosive safer to manufacture, transport and use. Firstly, he experimented with adding chemicals to nitroglycerine, but because the chemicals required huge amounts of resources and energy to wash out, this process was considered to be impractical. He then tried to use fibrous material such as sawdust, charcoal or paper to stabilise the explosive,but these combustible materials tended to catch fire when placed near nitroglycerine. As an alternative, he added powdered brick dust to tame the explosive, as he knew that brick dust would not catch fire. However, the brick dust reduced the explosive power of the product, and so was also found to be unsatisfactory.",
+          "text": "At the age of thirty, Alfred Nobel made the first of his major inventions: an innovative blasting cap, a device designed to control the nitroglycerine explosion. Nobel was also determined to discover a way to make this explosive safer to manufacture, transport and use. Firstly, he experimented with adding chemicals to nitroglycerine, but because the chemicals required huge amounts of resources and energy to wash out, this process was considered to be impractical. He then tried to use fibrous material such as sawdust, charcoal or paper to stabilise the explosive, but these combustible materials tended to catch fire when placed near nitroglycerine. As an alternative, he added powdered brick dust to tame the explosive, as he knew that brick dust would not catch fire. However, the brick dust reduced the explosive power of the product, and so was also found to be unsatisfactory.",
           "translation": "在三十岁时，阿尔弗雷德·诺贝尔完成了他的第一项重大发明：一种创新的雷管，这是一种旨在控制硝化甘油爆炸的装置。\n诺贝尔还决心找到一种方法，使这种炸药在生产、运输和使用中更加安全。\n首先，他尝试向硝化甘油中添加化学物质，但由于这些化学物质需要大量资源和能量才能洗掉，这个过程被认为不实用。\n然后他尝试使用诸如锯末、木炭或纸张等纤维材料来稳定炸药，但这些可燃材料在靠近硝化甘油时容易着火。\n作为替代方案，他添加了砖粉来抑制炸药，因为他知道砖粉不会着火。\n然而，砖粉降低了产品的爆炸威力，因此也被认为不令人满意。\n诺贝尔还下定决心要找到一种方法，使这种炸药在生产、运输和使用过程中更加安全。\n首先，他尝试将化学物质加入硝化甘油，但由于清洗这些化学物质需要大量的资源和能源，这种方法被认为不切实际。\n随后，他尝试使用锯末、木炭或纸张等纤维材料来稳定炸药，但这些可燃物质在靠近硝化甘油时往往容易着火。\n作为替代方案，他添加了砖粉以抑制炸药的烈性，因为他知道砖粉不会燃烧。\n然而，砖粉降低了产品的爆炸威力，因此这种方法也被认为不尽如人意。"
         },
         {
@@ -2393,7 +2393,7 @@
         {
           "label": "",
           "index": 18,
-          "text": "Alfred Nobel, a lifelong pacifist, hoped that his explosive would be a powerful deterrent to warfare. Nobel sought to achieve permanent worldwide peace.In setting up the Nobel Foundation and the Nobel Peace Prizes, he hoped to accomplish what he had not been able to do during his lifetime: to encourage research and activities that would bestow the 'greatest benefit to mankind', especially peace and fraternity between nations. His vision was of a peaceful world.",
+          "text": "Alfred Nobel, a lifelong pacifist, hoped that his explosive would be a powerful deterrent to warfare. Nobel sought to achieve permanent worldwide peace. In setting up the Nobel Foundation and the Nobel Peace Prizes, he hoped to accomplish what he had not been able to do during his lifetime: to encourage research and activities that would bestow the 'greatest benefit to mankind', especially peace and fraternity between nations. His vision was of a peaceful world.",
           "translation": "阿尔弗雷德·诺贝尔，一位终身的和平主义者，希望他的炸药能成为战争强有力的威慑力量。\n诺贝尔致力于实现持久的世界和平。\n通过设立诺贝尔基金会和诺贝尔和平奖，他希望能够实现他一生未能完成的目标：鼓励那些能带来'人类最大福祉'的研究与活动，尤其是国家之间的和平与友爱。\n他的愿景是一个和平的世界。\n阿尔弗雷德·诺贝尔，一位终身的和平主义者，希望他的炸药能成为战争的有力威慑力量。\n诺贝尔寻求实现世界范围内的永久和平。\n通过设立诺贝尔基金会和诺贝尔和平奖，他希望完成生前未能做到的事：鼓励那些能为人类带来“最大利益”的研究和活动，尤其是国家间的和平与友爱。"
         }
       ],
@@ -2912,7 +2912,7 @@
               "analysis": "题干中的“exposure to... had the desired effect... but only to a very limited extent”对应段落B：“exposing it to iodine vapour, he found that the photographic image was improved but still very weak”。这说明碘蒸气确实有作用但效果微弱，因此答案为“iodine vapor”（注意原文拼写为vapour，但题目接受vapor形式）。",
               "reason": "原文明确iodine vapour。",
               "location_analysis": "原文说exposing it to iodine vapour后图像仍很弱，对应limited...",
-              "paraphrasing": "exposure to ... had desired effect -> exposing it to iodine vapour",
+              "paraphrasing": "exposure to... had desired effect -> exposing it to iodine vapour",
               "keywords": "silver-coated plate, exposed, limited extent",
               "evidence": [
                 "After adding a silver coating to the plate and exposing it to iodine vapour, he found that the photographic image was improved but still very weak."
@@ -2932,8 +2932,8 @@
               "analysis": "题干“the removal of all the... did not affect the quality of the image”对应段落C：“good photographic images were created even after all chemicals had been removed”。尽管原文用复数“chemicals”，但题目允许不超过两个词，且“chemical”作为不可数或集合名词可接受。因此答案为“chemical”。",
               "reason": "原文chemicals，但题目提示不超过两个词，用chemical没问题。",
               "location_analysis": "Daguerre移除所有chemicals后图像仍好，因此填chemical (单数/复数均可...",
-              "paraphrasing": "removal of all the ... did not affect -> after all chemicals had been removed",
-              "keywords": "removal of all the ... did not affect",
+              "paraphrasing": "removal of all the... did not affect -> after all chemicals had been removed",
+              "keywords": "removal of all the... did not affect",
               "evidence": [
                 "Unpredictably, good photographic images were created even after all chemicals had been removed."
               ],

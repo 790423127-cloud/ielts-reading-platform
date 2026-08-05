@@ -3,9 +3,30 @@
 import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
-import { fetchWrongQuestions, type WrongReviewItem } from "@/lib/api";
+import {
+  fetchWrongQuestions,
+  saveWrongQuestionFeedback,
+  type WrongReviewItem
+} from "@/lib/api";
 
 const USER_ID = "owner";
+const CAUSE_OPTIONS = [
+  ["unknown_vocabulary", "不认识关键词"],
+  ["paraphrase_failure", "没识别同义替换"],
+  ["sentence_structure", "句子结构没看懂"],
+  ["false_vs_not_given", "FALSE/NO 与 NOT GIVEN 混淆"],
+  ["true_vs_not_given", "TRUE/YES 与 NOT GIVEN 混淆"],
+  ["unsupported_inference", "做了原文不支持的推断"],
+  ["scope_expansion", "把部分扩大成全部"],
+  ["keyword_distractor", "被相同关键词干扰"],
+  ["word_limit_exceeded", "超过词数限制"],
+  ["spelling_error", "拼写错误"],
+  ["singular_plural_error", "单复数错误"],
+  ["instruction_misread", "看错题目要求"],
+  ["location_failure", "没有正确定位"],
+  ["time_pressure", "时间不够"],
+  ["other", "其他原因"]
+] as const;
 
 function formatDate(value: string): string {
   try {
@@ -80,7 +101,11 @@ export default function WrongReviewCenter() {
           <span>按具体题型筛选</span>
           <select value={subtype} onChange={(event) => setSubtype(event.target.value)}>
             <option value="all">全部题型</option>
-            {subtypes.map((value) => <option key={value} value={value}>{value}</option>)}
+            {subtypes.map((value) => (
+              <option key={value} value={value}>
+                {items.find((item) => item.question_subtype === value)?.question_type || value}
+              </option>
+            ))}
           </select>
         </label>
         <Link href="/practice" className="secondary-button">进入题库做新题验证</Link>
@@ -115,9 +140,19 @@ export default function WrongReviewCenter() {
               {item.answer_error_type === "word_limit_exceeded" ? <div className="review-warning">答案超过题目词数限制。</div> : null}
               {item.answer_error_type === "answer_span_too_long" ? <div className="review-warning">定位基本正确，但答案边界过长。</div> : null}
               {item.answer_error_type === "answer_span_too_short" ? <div className="review-warning">答案缺少构成完整含义的必要词。</div> : null}
-              {item.analysis || item.reason ? <p className="review-analysis">{item.analysis || item.reason}</p> : null}
-              {item.paraphrasing ? <p className="review-paraphrase"><b>同义替换：</b>{item.paraphrasing}</p> : null}
+              {item.analysis || item.reason ? <p className="review-analysis">{String(item.analysis || item.reason || "").replace(/\$\d{4,}\$/g, "_____")}</p> : null}
+              {item.paraphrasing ? <p className="review-paraphrase"><b>同义替换：</b>{String(item.paraphrasing).replace(/\$\d{4,}\$/g, "_____")}</p> : null}
               {item.evidence?.length ? <blockquote>{item.evidence.join("\n")}</blockquote> : <div className="review-warning">题库中没有经过核验的定位句，不会由AI补造证据。</div>}
+              <WrongCauseFeedback
+                item={item}
+                onSaved={(feedback) => {
+                  setItems((current) => current.map((row) => (
+                    row.source_session_id === item.source_session_id && row.id === item.id
+                      ? { ...row, student_feedback: feedback }
+                      : row
+                  )));
+                }}
+              />
               <div className="review-route-panel">
                 <div><span>系统建议能力</span><strong>{item.recommended_skill_label}</strong></div>
                 <div className="review-route-actions">
@@ -140,5 +175,89 @@ export default function WrongReviewCenter() {
         </div>
       )}
     </div>
+  );
+}
+
+function WrongCauseFeedback({
+  item,
+  onSaved
+}: {
+  item: WrongReviewItem;
+  onSaved: (feedback: NonNullable<WrongReviewItem["student_feedback"]>) => void;
+}) {
+  const existing = item.student_feedback;
+  const [open, setOpen] = useState(Boolean(existing));
+  const [matchStatus, setMatchStatus] = useState<"matches" | "partial" | "does_not_match">(
+    existing?.match_status || "matches"
+  );
+  const [understanding, setUnderstanding] = useState<"understood" | "needs_review">(
+    existing?.understanding_status || "needs_review"
+  );
+  const [causeId, setCauseId] = useState(existing?.cause_id || "");
+  const [note, setNote] = useState(existing?.note || "");
+  const [saving, setSaving] = useState(false);
+  const [status, setStatus] = useState("");
+
+  async function save() {
+    setSaving(true);
+    setStatus("");
+    try {
+      const feedback = await saveWrongQuestionFeedback(item, {
+        match_status: matchStatus,
+        understanding_status: understanding,
+        cause_id: causeId || null,
+        note
+      });
+      onSaved(feedback);
+      setStatus("已保存。你的确认会优先于 AI 对错因的推测。");
+    } catch (reason) {
+      setStatus(reason instanceof Error ? reason.message : "错因确认保存失败");
+    } finally {
+      setSaving(false);
+    }
+  }
+
+  return (
+    <section className={open ? "wrong-cause-feedback open" : "wrong-cause-feedback"}>
+      <button className="wrong-cause-toggle" type="button" onClick={() => setOpen((value) => !value)}>
+        <span>
+          <strong>{existing ? "已确认错因" : "确认我为什么做错"}</strong>
+          <small>这是你的学习记录，不会改变标准答案、判分或题库解析。</small>
+        </span>
+        <b>{open ? "收起" : "填写"}</b>
+      </button>
+      {open ? (
+        <div className="wrong-cause-form">
+          <fieldset>
+            <legend>系统分析是否符合你的实际情况？</legend>
+            <label><input type="radio" name={`match-${item.source_session_id}-${item.id}`} checked={matchStatus === "matches"} onChange={() => setMatchStatus("matches")} />符合</label>
+            <label><input type="radio" name={`match-${item.source_session_id}-${item.id}`} checked={matchStatus === "partial"} onChange={() => setMatchStatus("partial")} />部分符合</label>
+            <label><input type="radio" name={`match-${item.source_session_id}-${item.id}`} checked={matchStatus === "does_not_match"} onChange={() => setMatchStatus("does_not_match")} />不符合</label>
+          </fieldset>
+          <fieldset>
+            <legend>现在是否已经理解？</legend>
+            <label><input type="radio" name={`understanding-${item.source_session_id}-${item.id}`} checked={understanding === "understood"} onChange={() => setUnderstanding("understood")} />已理解</label>
+            <label><input type="radio" name={`understanding-${item.source_session_id}-${item.id}`} checked={understanding === "needs_review"} onChange={() => setUnderstanding("needs_review")} />仍需复习</label>
+          </fieldset>
+          <label className="wrong-cause-select">
+            <span>我确认的主要错因</span>
+            <select value={causeId} onChange={(event) => setCauseId(event.target.value)}>
+              <option value="">暂不选择</option>
+              {CAUSE_OPTIONS.map(([value, label]) => <option key={value} value={value}>{label}</option>)}
+            </select>
+          </label>
+          <label className="wrong-cause-note">
+            <span>补充说明（可选）</span>
+            <textarea value={note} maxLength={2000} onChange={(event) => setNote(event.target.value)} placeholder="例如：定位到了正确段落，但把 only 看漏了。" />
+          </label>
+          <div className="wrong-cause-actions">
+            <button className="primary-button" type="button" disabled={saving} onClick={() => void save()}>
+              {saving ? "保存中…" : "保存我的确认"}
+            </button>
+            {status ? <span>{status}</span> : null}
+          </div>
+        </div>
+      ) : null}
+    </section>
   );
 }

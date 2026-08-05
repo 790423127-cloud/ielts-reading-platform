@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import hashlib
 import json
-import os
 from typing import Any, Literal
 
 from fastapi import APIRouter, HTTPException, Query
@@ -12,9 +11,11 @@ from app.api.sentence_training import sentence_repository, sentence_training_ban
 from app.api.sessions import session_repository
 from app.repositories.ai_teacher_repository import AiTeacherRepository
 from app.repositories.learning_plan_repository import LearningPlanRepository
+from app.repositories.review_feedback_repository import ReviewFeedbackRepository
 from app.services.ai_teacher import (
     AiTeacherNotConfiguredError,
     AiTeacherProviderError,
+    ai_daily_request_limit,
     ai_provider_cache_identity,
     generate_ai_reply,
 )
@@ -63,6 +64,9 @@ def _wrong_question_context(payload: AiTeacherChatRequest) -> tuple[str, str, di
         )
     context_ref = f"{stored.id}:{payload.question_id}"
     title = f"错题 Q{question.get('number') or payload.question_id}"
+    student_feedback = ReviewFeedbackRepository(
+        session_repository().database_path
+    ).list_for_user(payload.user_id).get((stored.id, payload.question_id))
     context = {
         "source": "submitted_session",
         "session_id": stored.id,
@@ -84,10 +88,12 @@ def _wrong_question_context(payload: AiTeacherChatRequest) -> tuple[str, str, di
             "paraphrasing": question.get("paraphrasing"),
             "evidence": question.get("evidence") or [],
         },
+        "student_feedback": student_feedback,
         "policy": {
             "answer_is_server_authoritative": True,
             "ai_can_change_answer_or_score": False,
             "unverified_evidence_must_not_be_invented": True,
+            "student_confirmed_cause_overrides_ai_hypothesis": True,
         },
     }
     return context_ref, title, context
@@ -198,11 +204,21 @@ def _context_cache_ref(context_ref: str, context: dict[str, Any]) -> str:
     return f"{context_ref}:{digest}"
 
 
-def _daily_limit() -> int:
-    try:
-        return max(1, min(int(os.getenv("AI_DAILY_REQUEST_LIMIT", "30")), 500))
-    except ValueError:
-        return 30
+def _history_cache_ref(history: list[dict[str, str]], question: str) -> str:
+    effective_history = history
+    if (
+        len(history) >= 2
+        and history[-2].get("role") == "user"
+        and history[-1].get("role") == "assistant"
+        and " ".join(history[-2].get("content", "").split()).casefold()
+        == " ".join(question.split()).casefold()
+    ):
+        effective_history = history[:-2]
+    recent = effective_history[-12:]
+    if not recent:
+        return "initial"
+    serialized = json.dumps(recent, ensure_ascii=False, sort_keys=True)
+    return hashlib.sha256(serialized.encode("utf-8")).hexdigest()
 
 
 def _provider_identity() -> str:
@@ -226,11 +242,18 @@ def chat_with_ai_teacher(payload: AiTeacherChatRequest) -> dict[str, Any]:
         title=title,
     )
     question = " ".join(payload.question.strip().split())
+    history = [
+        {"role": message["role"], "content": message["content"]}
+        for message in conversation.get("messages") or []
+    ]
     provider_identity = _provider_identity()
     cache_key = repository.cache_key(
         user_id=payload.user_id,
         context_type=payload.context_type,
-        context_ref=f"{_context_cache_ref(context_ref, context)}:{provider_identity}",
+        context_ref=(
+            f"{_context_cache_ref(context_ref, context)}:{provider_identity}:"
+            f"{_history_cache_ref(history, question)}"
+        ),
         question=question,
     )
     cached = repository.get_cached(cache_key=cache_key, user_id=payload.user_id)
@@ -259,12 +282,12 @@ def chat_with_ai_teacher(payload: AiTeacherChatRequest) -> dict[str, Any]:
             "policy": {
                 "can_change_answer_or_score": False,
                 "can_mark_mastery": False,
-                "daily_provider_limit": _daily_limit(),
+                "daily_provider_limit": ai_daily_request_limit(),
             },
         }
 
     calls_today = repository.provider_calls_today(user_id=payload.user_id)
-    limit = _daily_limit()
+    limit = ai_daily_request_limit()
     if calls_today >= limit:
         raise HTTPException(
             status_code=429,
@@ -274,10 +297,6 @@ def chat_with_ai_teacher(payload: AiTeacherChatRequest) -> dict[str, Any]:
             },
         )
 
-    history = [
-        {"role": message["role"], "content": message["content"]}
-        for message in conversation.get("messages") or []
-    ]
     try:
         generated = generate_ai_reply(
             question=question,
@@ -349,7 +368,7 @@ def list_ai_conversations(
         "count": len(items),
         "items": items,
         "provider_calls_today": repository.provider_calls_today(user_id=user_id),
-        "daily_provider_limit": _daily_limit(),
+        "daily_provider_limit": ai_daily_request_limit(),
     }
 
 

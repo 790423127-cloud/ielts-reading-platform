@@ -21,6 +21,14 @@ ANSWER_FIELDS = {
     "wrong_reasons",
 }
 
+SOURCE_INTERACTION_MODES = {
+    0: "text_entry",
+    1: "single_choice",
+    2: "multiple_choice",
+    3: "judgement",
+    4: "matching_matrix",
+}
+
 
 def expected_test_index() -> list[dict[str, Any]]:
     output = []
@@ -78,6 +86,8 @@ class QuestionBank:
         self.test_dir = self.root / "tests"
         self.index_path = self.root / "test_index.json"
         self.layout_repairs_path = self.root / "passage_layout_repairs.json"
+        self.source_html_path = self.root / "passage_source_html.local.json"
+        self._source_html_cache: dict[tuple[str, int], dict[str, Any]] | None = None
         self._difficulty_cache: tuple[dict[str, dict[str, Any]], dict[str, list[dict[str, Any]]]] | None = None
 
     def _declared_index(self) -> list[dict[str, Any]]:
@@ -135,9 +145,88 @@ class QuestionBank:
             if paragraph is not None and repair.get("table"):
                 paragraph["table"] = copy.deepcopy(repair["table"])
 
+    def _source_html_by_part(self) -> dict[tuple[str, int], dict[str, Any]]:
+        if self._source_html_cache is not None:
+            return self._source_html_cache
+        self._source_html_cache = {}
+        if not self.source_html_path.is_file():
+            return self._source_html_cache
+        payload = json.loads(self.source_html_path.read_text("utf-8"))
+        for item in payload.get("parts") or []:
+            test_id = str(item.get("test_id") or "")
+            part_number = int(item.get("part_number") or 0)
+            if test_id and part_number > 0:
+                self._source_html_cache[(test_id, part_number)] = item
+        return self._source_html_cache
+
+    def _restore_source_html(self, test: dict[str, Any]) -> None:
+        source_parts = self._source_html_by_part()
+        test_id = str(test.get("id") or "")
+        for part in test.get("parts") or []:
+            part_number = int(part.get("number") or 0)
+            source_part = source_parts.get((test_id, part_number))
+            if not source_part:
+                continue
+            passage_html = str(source_part.get("passage_html") or "").strip()
+            if passage_html:
+                part["source_html"] = passage_html
+                part["source_visual_name"] = str(source_part.get("source_name") or "")
+            groups = part.get("groups") or []
+            source_groups = source_part.get("question_groups") or []
+            for position, group in enumerate(groups):
+                question_numbers = {
+                    int(question.get("number"))
+                    for question in group.get("questions") or []
+                    if str(question.get("number") or "").isdigit()
+                }
+                matched_source_groups = []
+                for source_group in source_groups:
+                    display_start = int(source_group.get("display_start") or 0)
+                    display_end = int(source_group.get("display_end") or display_start)
+                    source_question_numbers = (
+                        set(range(display_start, display_end + 1))
+                        if display_start > 0 and display_end >= display_start
+                        else set()
+                    )
+                    if source_question_numbers and source_question_numbers.issubset(question_numbers):
+                        matched_source_groups.append(source_group)
+                if not matched_source_groups and position < len(source_groups):
+                    matched_source_groups = [source_groups[position]]
+                if matched_source_groups:
+                    restored_source_groups = copy.deepcopy(matched_source_groups)
+                    if len(restored_source_groups) == 1:
+                        restored_source_group = restored_source_groups[0]
+                        display_start = int(restored_source_group.get("display_start") or 0)
+                        display_end = int(restored_source_group.get("display_end") or display_start)
+                        index_start = int(restored_source_group.get("start_index") or 0)
+                        index_end = int(restored_source_group.get("end_index") or index_start)
+                        display_matches = {
+                            number
+                            for number in question_numbers
+                            if display_start > 0 and display_start <= number <= display_end
+                        }
+                        index_matches = {
+                            number
+                            for number in question_numbers
+                            if index_start > 0 and index_start <= number <= index_end
+                        }
+                        if len(index_matches) > len(display_matches):
+                            restored_source_group["display_start"] = min(index_matches)
+                            restored_source_group["display_end"] = max(index_matches)
+                    for restored_source_group in restored_source_groups:
+                        try:
+                            source_question_type = int(restored_source_group.get("question_type"))
+                        except (TypeError, ValueError):
+                            source_question_type = 0
+                        restored_source_group["interaction_mode"] = SOURCE_INTERACTION_MODES.get(
+                            source_question_type,
+                            "text_entry",
+                        )
+                    group["source_question_groups"] = restored_source_groups
+
     @staticmethod
     def _repair_question_copy(test: dict[str, Any]) -> None:
-        """Repair a verified legacy OCR confusion without changing frozen source files."""
+        """Repair the verified leading lowercase-l OCR error in question copy."""
 
         def repair(value: Any) -> Any:
             if not isinstance(value, str):
@@ -210,7 +299,9 @@ class QuestionBank:
             raise ValueError(f"Question bank id mismatch in {path.name}")
         self._restore_passage_layouts(test)
         self._repair_question_copy(test)
-        return enrich_test(test)
+        test = enrich_test(test)
+        self._restore_source_html(test)
+        return test
 
     def load_public_test(self, test_id: str) -> dict[str, Any]:
         test = copy.deepcopy(self.load_server_test(test_id))

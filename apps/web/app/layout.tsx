@@ -4,9 +4,9 @@ import ReadingAnnotationLayer from "@/components/ReadingAnnotationLayer";
 import "./globals.css";
 import "./learning.css";
 import "./plan-sentences.css";
-import "./vocabulary.css";
 import "./ai-teacher.css";
 import "./reading-annotations.css";
+import "./vocabulary.css";
 
 export const metadata: Metadata = {
   title: "IELTS G类阅读学习平台",
